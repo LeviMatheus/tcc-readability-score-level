@@ -1,0 +1,27 @@
+
+The Standard Alphabet is a Latin-script alphabet developed by Karl Richard Lepsius. Lepsius initially used it to transcribe Egyptian hieroglyphs and extended it to write African languages, published in 1854 and 1855, and in a revised edition in 1863. The alphabet was comprehensive but was not used much as it contained a lot of diacritic marks and was difficult to read and typeset at that time. It was, however, influential in later projects such as Ellis's Paleotype, and diacritics such as the acute accent for palatalization, under-dot for retroflex, underline for Arabic emphatics, and the click letters continue in modern use.
+Vowels.
+Vowel length is indicated by a macron ("ā") or a breve ("ă") for long and short vowels, respectively. Open vowels are marked by a line under the letter ("e̱"), while a dot below the letter makes it a close vowel ("ẹ"). Rounded front vowels are written with an umlaut ("ö" and "ü" ), either on top or below, when the space above the letter is needed for vowel length marks (thus "ṳ̄" or "ṳ̆"). Unrounded back vowels are indicated by a 'hook' (ogonek) on "ę" or "į". Central vowels may be written as one of these series, or as reduced vowels. 
+As in the , nasal vowels get a tilde ("ã"). 
+A small circle below a letter is used to mark both the schwa ("e̥", also "ḁ" etc. for other reduced vowels) and syllabic consonants ("r̥" or "l̥", for instance). 
+Diphthongs do not receive any special marking, they are simply juxtaposed ("ai" ). A short sign can be used to distinguish which element of the diphthong is the on- or off-glide ("uĭ, ŭi") Vowels in hiatus can be indicated with a diaeresis when necessary ("aï" ).
+Other vowels are "a" with a subscript "e" for ; "a" with a subscript "o" for , and "o̩" for or maybe . The English syllabic is "ṙ̥".
+Word stress is marked with an acute accent on a long vowel ("á") and with a grave accent on a short vowel ("à").
+Klemp (p. 56*-58*) interprets the values of Lepsius's vowels as follows:
+Consonants.
+The Lepsius letters without predictable diacritics are as follows:
+Other consonant sounds may be derived from these. For example, palatal and palatalized consonants are marked with an acute accent: "ḱ" , "ǵ" , "ń" , "χ́" , "š́" , "γ́" , "ž́" , "ĺ" , "‘ĺ" , "ı́" , "ṕ" , etc. These can also be written "ky, py" etc.
+Labialized velars are written with an over-dot: "ġ" , "n̈" , etc. (A dot on a non-velar letter, as in "ṅ" and "ṙ" in the table above, indicates a guttural articulation.)
+Retroflex consonants are marked with an under-dot: "ṭ" , "ḍ" , "ṇ" , "ṣ̌" , "ẓ̌" , "ṛ" , "ḷ" , and "ı̣" .
+The Semitic "emphatic" consonants are marked with an underline: "ṯ" , "ḏ" , "s̱" , "ẕ" , "δ̱" , "ḻ" .
+Aspiration is typically marked by "h": "kh" , but a turned apostrophe (Greek "spiritus asper") is also used: "k̒" , "ģ" . Either convention may be used for voiceless sonorants: "m̒" , "‘l" .
+Affricates are generally written as sequences, e.g. "tš" for . But the single letters "č" , "ǰ" , "c̀" , "j̀" , "ț" , and "d̦" are also used.
+Implosives are written with a macron: "b̄" , "d̄" , "j̄" , "ḡ" . As with vowels, long (geminate) consonants may also be written with a macron, so this transcription can be ambiguous. 
+Lepsius typically characterized ejective consonants as tenuis, as they are completely unaspirated, and wrote them with the Greek "spiritus lenis" ("p’", "t’", etc.), which may be the source of the modern convention for ejectives in the IPA. However, when his sources made it clear that there was some activity in the throat, he transcribed them as emphatics. 
+When transcribing consonant letters which are pronounced the same but are etymologically distinct, as in Armenian, diacritics from the original alphabet or roman transliteration may be carried over. Similarly, unique sounds such as Czech "ř" may be carried over into Lepsius transcription. Lepsius used a diacritic "r" under "t᷊" and "d᷊" for some poorly described sounds in Dravidian languages. 
+Standard capitalization is used. For example, when written in all caps, "γ" becomes "Γ" (as in "AFΓAN" "Afghan").
+Tones.
+Tones are marked with an acute and grave accents (backticks) to the right and near the top or the bottom of the corresponding vowel. The diacritic may be underlined for a lower pitch, distinguishing in all eight possible tones.
+Tone is not written directly, but rather needs to be established separately for each language. For example, the acute accent may indicate a high tone, a rising tone, or, in the case of Chinese, any tone called "rising" (上) for historical reasons. 
+Low rising and falling tones can be distinguished from high rising and falling tones by underlining the accent mark: . The underline also transcribes the Chinese "yin" tones, under the mistaken impression that these tones are actually lower. Two additional tone marks, without any defined phonetic value, are used for Chinese: "level" maˏ (平) and checked maˎ (入); these may also be underlined.
+

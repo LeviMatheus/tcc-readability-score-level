@@ -1,0 +1,6 @@
+A square root of a number is the number that is multiplied by itself and gives the first number. For example, 2 is the square root of 4, because 2×2=4. Only numbers bigger than or equal to zero have real square roots, and a number bigger than zero has two square roots. One is positive (bigger than zero) and the other is negative (smaller than zero). There are two square roots because a negative number multiplied by a negative number is a positive number. Zero only has one square root: zero.
+Square roots of negative numbers are not real numbers - they are imaginary numbers. Every complex number except 0 has 2 square roots. For example: -1 has two square roots. We call them formula_1 and formula_2.
+The sign for a square root is made by putting a bent line over a number, like this: formula_3. We say "the square root of 4" (or whatever number we are taking the square root of).
+A whole number with a square root that is also a whole number is called a perfect square. The first few perfect squares are: 0, 1, 4, 9, 16, 25, 36, 49, 64, 81, 100, 121, 144, 169, 196, 225...
+Symbol.
+It is not really known where the square root symbol formula_4 comes from, but some people believe that it was from the letter "r", which is the first letter of the Latin and German word "radix". Radix means square root.

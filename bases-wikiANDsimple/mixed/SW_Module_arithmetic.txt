@@ -1,0 +1,2 @@
+Modular arithmetic is a form of basic arithmetic that is much like a clock, where once you get to twelve the numbers go back to zero.
+In modular arithmetic you work with a particular base. In other words, the clock that you would work can have 12 numbers or 10 numbers or 100, or any number greater than zero

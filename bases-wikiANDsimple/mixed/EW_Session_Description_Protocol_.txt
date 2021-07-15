@@ -1,0 +1,78 @@
+
+The Session Description Protocol (SDP) is a format for describing multimedia communication sessions for the purposes of announcement and invitation. Its predominant use is in support of streaming media applications, such as voice over IP (VoIP) and video conferencing. SDP does not deliver any media streams itself but is used between endpoints for negotiation of network metrics, media types, and other associated properties. The set of properties and parameters is called a "session profile".
+SDP is extensible for the support of new media types and formats. SDP was originally a component of the Session Announcement Protocol (SAP), but found other uses in conjunction with the Real-time Transport Protocol (RTP), the Real-time Streaming Protocol (RTSP), Session Initiation Protocol (SIP), and as a standalone protocol for describing multicast sessions.
+The IETF published the original specification as a Proposed Standard in April 1998. Revised specifications were released in 2006 (RFC 4566), and in 2021 (RFC 8866).. 
+Session description.
+The Session Description Protocol describes a session as a group of fields in a text-based format, one field per line. The form of each field is as follows.
+Where codice_1 is a single case-sensitive character and codice_2 is structured text in a format that depends on the character. Values are typically UTF-8 encoded. Whitespace is not allowed immediately to either side of the equal sign.
+Session descriptions consist of three sections: session, timing, and media descriptions. Each description may contain multiple timing and media descriptions. Names are only unique within the associated syntactic construct.
+Fields must appear in the order shown; optional fields are marked with an asterisk:
+ v= (protocol version number, currently only 0)
+ o= (originator and session identifier : username, id, version number, network address)
+ s= (session name : mandatory with at least one UTF-8-encoded character)
+ i=* (session title or short information)
+ u=* (URI of description)
+ e=* (zero or more email address with optional name of contacts)
+ p=* (zero or more phone number with optional name of contacts)
+ c=* (connection information—not required if included in all media)
+ b=* (zero or more bandwidth information lines)
+ "One or more time descriptions ("t=" and "r=" lines; see below)"
+ z=* (time zone adjustments)
+ k=* (encryption key)
+ a=* (zero or more session attribute lines)
+ "Zero or more Media descriptions (each one starting by an "m=" line; see below)"
+ t= (time the session is active)
+ r=* (zero or more repeat times)
+ m= (media name and transport address)
+ i=* (media title or information field)
+ c=* (connection information — optional if included at session level)
+ b=* (zero or more bandwidth information lines)
+ k=* (encryption key)
+ a=* (zero or more media attribute lines — overriding the Session attribute lines)
+Below is a sample session description from RFC 4566. This session is originated by the user "jdoe", at IPv4 address 10.47.16.5. Its name is "SDP Seminar" and extended session information ("A Seminar on the session description protocol") is included along with a link for additional information and an email address to contact the responsible party, Jane Doe. This session is specified to last for two hours using NTP timestamps, with a connection address (which indicates the address clients must connect to or — when a multicast address is provided, as it is here — subscribe to) specified as IPv4 224.2.17.12 with a TTL of 127. Recipients of this session description are instructed to only receive media. Two media descriptions are provided, both using RTP Audio Video Profile. The first is an audio stream on port 49170 using RTP/AVP payload type 0 (defined by RFC 3551 as PCMU), and the second is a video stream on port 51372 using RTP/AVP payload type 99 (defined as "dynamic"). Finally, an attribute is included which maps RTP/AVP payload type 99 to format h263-1998 with a 90 kHz clock rate. RTCP ports for the audio and video streams of 49171 and 51373, respectively, are implied.
+ v=0
+ o=jdoe 2890844526 2890842807 IN IP4 10.47.16.5
+ s=SDP Seminar
+ i=A Seminar on the session description protocol
+ u=http://www.example.com/seminars/sdp.pdf
+ e=j.doe@example.com (Jane Doe)
+ c=IN IP4 224.2.17.12/127
+ t=2873397496 2873404696
+ a=recvonly
+ m=audio 49170 RTP/AVP 0
+ m=video 51372 RTP/AVP 99
+ a=rtpmap:99 h263-1998/90000
+The SDP specification is purely a format for session description. It is intended to be distributed over different transport protocols as necessary, including SAP, SIP, and RTSP. SDP could even be transmitted by email or as an HTTP payload.
+Attributes.
+SDP uses attributes to extend the core protocol. Attributes can appear within the Session or Media sections and are scoped accordingly as "session-level" or "media-level". New attributes are added to the standard occasionally through registration with IANA.
+Attributes are either properties or values:
+Two of these attributes are specially defined:
+In both cases, text fields intended to be displayed to a user are interpreted as opaque strings, but rendered to the user or application with the values indicated in the last occurrence of the fields "charset" and "sdplang" in the current media section, or otherwise their last value in the session section.
+The parameters "v", "s", and "o" are mandatory, must not be empty, and should be UTF-8-encoded. They are used as identifiers and are not intended to be displayed to users.
+A few other attributes are also present in the example, either as a session-level attribute (such as the attribute in property form "a=recvonly"), or as a media-level attribute (such as the attribute in value form "a=rtpmap:99 h263-1998/90000" for the video in the example).
+Time formats and repetitions.
+Absolute times are represented in Network Time Protocol (NTP) format (the number of seconds since 1900). If the stop time is 0 then the session is "unbounded." If the start time is also zero then the session is considered "permanent." Unbounded and permanent sessions are discouraged but not prohibited.
+Intervals can be represented with NTP times or in typed time: a value and time units (days ('d'), hours ('h'), minutes ('m') and seconds ('s')) sequence.
+Thus an hour meeting from 10 am UTC on 1 August 2010, with a single repeat time a week later at the same time can be represented as:
+ t= 
+ r=604800 3600 0
+Or using typed time:
+ t= 
+ r=7d 1h 0
+When repeat times are specified, the start time of each repetition may need to be adjusted so that it will occur at the same local time in a specific time zone throughout the period between the start time and the stop time (which are still specified in NTP format in UTC).
+Instead of specifying this time zone and having to support a database of time zones for knowing when and where daylight adjustments will be needed, the repeat times are assumed to be all defined within the same time zone, and SDP supports the indication of NTP absolute times when a daylight offset (expressed in seconds or using a type time) will need to be applied to the repeated start time or end time falling at or after each daylight adjustment. All these offsets are relative to the start time, they are not cumulative. NTP supports this with field "z", which indicates a series of pairs whose first item is the NTP absolute time when a daylight adjustment will occur, and the second item indicates the offset to apply relative to the absolute times computed with the field "r".
+For example, if a daylight adjustment will subtract 1 hour on 31 October 2010 at 3 am UTC (i.e. 60 days minus 7 hours after the start time on Sunday 1 August 2010 at 10am UTC), and this will be the only daylight adjustment to apply in the scheduled period which would occur between 1 August 2010 up to the 28 November 2010 at 10 am UTC (the stop time of the repeated 1h session which is repeated each week at the same local time, which occurs 88 days later), this can be specified as:
+ t= 
+ r=7d 1h 0
+ z= -1h
+If the weekly 1-hour session was repeated every Sunday for full one year, i.e. from Sunday 1 August 2010 3 am UTC to Sunday 26 June 2011 4 am UTC (stop time of the last repeat, i.e. 360 days plus 1 hour later, or 31107600 seconds later), so that it would include the transition back to Summer time on Sunday 27 March 2011 at 2 am (1 hour is added again to local time so that the second daylight transition would occur 209 days after the first start time):
+ t= 
+ r=7d 1h 0
+ z= -1h 0
+As SDP announcements for repeated sessions should not be made to cover very long periods exceeding a few years, the number of daylight adjustments to include in the z= parameter should remain small.
+Sessions may be repeated irregularly over a week but scheduled the same way for all weeks in the period, by adding more tuples in the "r" parameter. For example, to schedule the same event also on Saturday (at the same time of the day) you would use :
+ t= 
+ r=7d 1h 0 6d
+ z= -1h 0
+The SDP protocol does not support repeating sessions monthly and yearly schedules with such simple repeat times, because they are irregularly spaced in time; instead, additional "t"/"r" tuples may be supplied for each month or year.
+

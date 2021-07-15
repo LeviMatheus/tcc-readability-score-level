@@ -1,0 +1,1 @@
+Angular size is a measurement of how large or small something is using rotational measurement. It is useful for measuring things that are so far away that they appear two dimensional.

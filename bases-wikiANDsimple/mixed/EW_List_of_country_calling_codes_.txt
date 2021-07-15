@@ -1,0 +1,17 @@
+
+Country calling codes or country dial-in codes are telephone number prefixes for reaching telephone subscribers in the networks of the member countries or regions of the International Telecommunication Union (ITU). The codes are defined by the ITU-T in standards E.123 and E.164. The prefixes enable international direct dialing (IDD), and are also referred to as "international subscriber dialing" (ISD) codes.
+Country codes are a component of the international telephone numbering plan, and are necessary only when dialing a telephone number to establish a call to another country. Country codes are dialed before the national telephone number. By convention, international telephone numbers are represented by prefixing the country code with a plus sign (+), which also indicates to the subscriber that the local international call prefix must first be dialed. For example, the international call prefix in all countries of the North American Numbering Plan is 011, while it is 00 in most European, Asian and African countries. On GSM (cellular) networks, the prefix may automatically be inserted when the user prefixes a dialed number with the plus sign.
+Tree list.
+Country calling codes are prefix codes and can be organized as a tree. In each row of the table, the country codes given in the left-most column share the same first digit; then subsequent columns give the second digit in ascending order. The countries are marked with their ISO 3166-1 alpha-2 country codes. 
+When there are three-digit codes starting with "+jk", then the two-digit code +jk is unassignable, as denoted by "unass." Assignable but unassigned codes are denoted by the m-dash (—).
+Ordered by code.
+Zones are organized principally by geographic location, but exceptions exist for political and historical alignments. Thus, the geographical indicators below are approximations only.
+Zone 1: North American Numbering Plan.
+Member countries of the North American Numbering Plan (NANP) are assigned three-digit area codes under the common country prefix "1", shown in the format "+1 XXX".
+The North American Numbering Plan includes:
+Zones 3–4: Europe.
+Originally, larger countries such as Spain, the United Kingdom and France, were assigned two-digit codes to compensate for their usually longer domestic numbers. Small countries, such as Iceland, were assigned three-digit codes. Since the 1980s, all new assignments have been three-digit regardless of countries' populations.
+Locations with no country code.
+In Antarctica, dialing is dependent on the parent country of each base:
+Other places with no country codes in use, although a code may be reserved:
+

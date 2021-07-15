@@ -1,0 +1,8 @@
+pi is the number found when the distance around a circle (the circumference) is divided by the distance between opposite ends of the circle (the diameter).
+The value of pi is around 3.141592654. A common fraction approximation of pi is formula_3, which yields 3.14285714. This approximation has an error of about 0.04%. While this approximation is sufficient for most applications, the fraction formula_4 is more accurate (giving 3.14159292), and can be used when a more precise calculation is needed.
+Pi is often written as the Greek letter π. Pi is an irrational number, meaning it cannot be written as a fraction (formula_5).
+This basically means that pi goes on forever, and that it is impossible to get pi exactly.
+However, it is very useful in many ways, not just measuring circles.
+Mathematicians have known about pi for thousands of years. The first known approximations of pi are from around 1900 BC, and are 25/8 (by the Babylonians) and 256/81 (by the Egyptians). The most common way of finding pi has been to inscribe (draw) a shape of many sides in a circle, and use the area of the polygon to find out pi. These polygons could range from 96 sides (as used by Archimedes) to more than 16,384 sides (as used by the ancient Chinese in around 500 AD.)And also it is used to work out the area and the circumference of a circle. The formula for the circumference is C(circumference)= pi times diameter. The formula for finding the area of a circle is pi (radius²).
+Pi in real life.
+Today, there are are different ways to calculate many digits of formula_2. This is of limited use though.

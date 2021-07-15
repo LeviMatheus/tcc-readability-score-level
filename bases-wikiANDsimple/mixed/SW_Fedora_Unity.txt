@@ -1,0 +1,5 @@
+Fedora Unity is a community project to build comprehensive and concise websites and content that provide Fedora users and contributors with quality information.
+All submissions to the project are covered by the Open Publication License (with no options) unless otherwise noted in order to allow submission to the Fedora Documentation Project.
+Re-spins.
+The Fedora Unity project produces ISO images for i386 and x86_64 architectures that are available as Jigdo downloads, containing slipstreamed installation media.
+Last release: 20080720 launched, July of 2008, it includes Fedora 9 plus all updates as of July 18th, 2008.

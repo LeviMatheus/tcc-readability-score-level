@@ -1,0 +1,7 @@
+N Factorial (written N!) is a function to calculate the product of every natural number from 1 to N. If N is 0, the result is 1. N! is not defined for negative numbers.
+It is used to find out how many possibilities there are to arrange objects.
+For example, if there are 3 letters (A, B, and C), they can be arranged as ABC, ACB, BAC, BCA, CAB, and CBA. That's 6 choices because A can be put in 3 different places, B has 2 choices left after A is placed, and C has only one choice left after A and B have been placed. That is 3×2×1 = 6 combinations.
+More generally, if there are three objects, and we want to find out how many different ways there are to arrange (or select them), than for the first object, there are 3 choices. For the second object, there are only two choices left as the first object has already been chosen. And finally, for the third object, there is only one object left.
+Therefore 3! is equivalent to 3×2×1, or 6.
+This function is a good example of recursion (doing things again and again), as 3! can be written as 3×(2!), which can be written as 3×2×(1!) and finally 3×2×1×(0!). N! can therefore also be defined as N×(N-1)! with 0! = 1.
+The factorial function grows very fast. There are over 3.5 million ways to arrange 10 items.

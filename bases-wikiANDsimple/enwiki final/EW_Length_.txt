@@ -1,0 +1,29 @@
+
+Length is a measure of distance. In the International System of Quantities, length is a quantity with dimension distance. In most systems of measurement a base unit for length is chosen, from which all other units are derived. In the International System of Units (SI) system the base unit for length is the metre.
+Length is commonly understood to mean the most extended dimension of a fixed object. However, this is not always the case and may depend on the position the object is in.
+Various terms for the length of a fixed object are used, and these include height, which is vertical length or vertical extent, and width, breadth or depth. Height is used when there is a base from which vertical measurements can be taken. Width or breadth usually refer to a shorter dimension when length is the longest one. Depth is used for the third dimension of a three dimensional object.
+Length is the measure of one spatial dimension, whereas area is a measure of two dimensions (length squared) and volume is a measure of three dimensions (length cubed).
+History.
+Measurement has been important ever since humans settled from nomadic lifestyles and started using building materials, occupying land and trading with neighbours. As trade between different places increased, the need for standard units of length increased. And later, as society has become more technologically oriented, much higher accuracy of measurement is required in an increasingly diverse set of fields, from micro-electronics to interplanetary ranging.
+Under Einstein's special relativity, length can no longer be thought of as being constant in all reference frames. Thus a ruler that is one metre long in one frame of reference will not be one metre long in a reference frame that is moving relative to the first frame. This means the length of an object varies depending on the speed of the observer.
+Use in mathematics.
+Euclidean geometry.
+In Euclidean geometry, length is measured along straight lines unless otherwise specified and refers to segments on them. Pythagoras's theorem relating the length of the sides of a right triangle is one of many applications in Euclidean geometry. Length may also be measured along other types of curves and is referred to as arclength.
+In a triangle, the length of an altitude, a line segment drawn from a vertex perpendicular to the side not passing through the vertex (referred to as a base of the triangle), is called the height of the triangle.
+The area of a rectangle is defined to be length × width of the rectangle. If a long thin rectangle is stood up on its short side then its area could also be described as its height × width.
+The volume of a solid rectangular box (such as a plank of wood) is often described as length × height × depth.
+The perimeter of a polygon is the sum of the lengths of its sides.
+The circumference of a circular disk is the length of the boundary (a circle) of that disk.
+Other geometries.
+In other geometries, length may be measured along possibly curved paths, called geodesics. The Riemannian geometry used in general relativity is an example of such a geometry. In spherical geometry, length is measured along the great circles on the sphere and the distance between two points on the sphere is the shorter of the two lengths on the great circle, which is determined by the plane through the two points and the center of the sphere.
+Graph theory.
+In an unweighted graph, the length of a cycle, path, or walk is the number of edges it uses. In a weighted graph, it may instead be the sum of the weights of the edges that it uses.
+Length is used to define the shortest path, girth (shortest cycle length), and longest path between two vertices in a graph.
+Measure theory.
+In measure theory, length is most often generalized to general sets of formula_1 via the Lebesgue measure. In the one-dimensional case, the Lebesgue outer measure of a set is defined in terms of the lengths of open intervals. Concretely, the length of an open interval is first defined as
+Units.
+In the physical sciences and engineering, when one speaks of , the word is synonymous with distance. There are several units that are used to measure length. Historically, units of length may have been derived from the lengths of human body parts, the distance traveled in a number of paces, the distance between landmarks or places on the Earth, or arbitrarily on the length of some common object.
+In the International System of Units (SI), the base unit of length is the metre (symbol, m) and is now defined in terms of the speed of light (about 300 million metres per second). The millimetre (mm), centimetre (cm) and the kilometre (km), derived from the metre, are also commonly used units. In U.S. customary units, English or Imperial system of units, commonly used units of length are the inch (in), the foot (ft), the yard (yd), and the mile (mi). A unit of length used in navigation is the nautical mile (nmi).
+Units used to denote distances in the vastness of space, as in astronomy, are much longer than those typically used on Earth (metre or centimetre) and include the astronomical unit (au), the light-year, and the parsec (pc).
+Units used to denote sub-atomic distances, as in nuclear physics, are much smaller than the centimetre. Examples include the dalton and the fermi.
+

@@ -1,0 +1,8 @@
+
+Naive Set Theory is a mathematics textbook by Paul Halmos providing an undergraduate introduction to set theory. Originally published by "Van Nostrand" in 1960, it was reprinted in the Springer-Verlag Undergraduate Texts in Mathematics series in 1974.
+While the title states that it is naive, which is usually taken to mean without axioms, the book does introduce all the axioms of ZFC set theory (except the Axiom of Foundation), and gives correct and rigorous definitions for basic objects. Where it differs from a "true" axiomatic set theory book is its character: there are no discussions of axiomatic minutiae, and there is next to nothing about advanced topics like large cardinals. Instead, it tries to be intelligible to someone who has never thought about set theory before.
+Halmos later stated that it was the fastest book he wrote, taking about six months, and that the book "wrote itself".
+Absence of the Axiom of Foundation.
+As noted above, the book omits the Axiom of Foundation. Halmos repeatedly dances around the issue of whether or not a set can contain itself.
+But Halmos does let us prove that there are certain sets that cannot contain themselves.
+

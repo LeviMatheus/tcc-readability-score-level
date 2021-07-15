@@ -1,0 +1,1 @@
+The Common Desktop Environment (CDE) is a desktop environment for Unix. It is based on the Motif widget toolkit. HP uses CDE as the default desktop manager for OpenVMS which belongs to HP. This means it will be run without making any changes.

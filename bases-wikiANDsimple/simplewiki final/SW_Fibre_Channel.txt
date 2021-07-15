@@ -1,0 +1,1 @@
+Fibre Channel, or FC is an architecture (and a set of protocols to attach disk drives to computers, like in a Storage Area Network. Networks today are done with 4 GBit/s and 8 GBit/s over fiberglass cables. This is enough to support data transfer rates of up to 800 MBit/s. Fibrechannel permits connecting the same disk subsystem to several computers.

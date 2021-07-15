@@ -1,0 +1,23 @@
+
+The following is an outline of communications technology in Morocco.
+Telecoms industry.
+While the Moroccan telecoms market remains under-saturated, its three mobile operators have experienced robust growth in recent years, both at home and abroad. Meditel, which received a mobile licence in 2000, is the kingdom's first private operator, holding 36.69% of the market. While the company performed strongly last year, registering a 17% growth in client base (to 7.4m) over the first three quarters of 2008, it began to falter as consumer spending slowed, resulting in a 1% annual increase in turnover for Q2 2009. Meditel's focus on lower-income markets impacted their average revenue per user, which fell by 16%, but the resulting expansion of the customer base helped drive up the country's mobile penetration rate from 65.7% in 2007 to 74% in 2008. Meditel's biggest competitor is Maroc Telecom, holding 60.71% of the market. A former state monopoly now controlled by French entertainment giant Vivendi, Maroc Telecom is one of the region's fastest-growing multinational telecoms operators, actively pursuing expansion across northwest Africa, including Gabon, Mauritania and Burkina Faso. MT has announced plans to create a fibre-optic network connecting the Moroccan cities Laâyoune and Dakhla to Nouadhibou, which would ultimately be extended to other North African countries.
+Meditel and MT operated a duopoly until 2008, when the state regulator Agence Nationale de Réglementation des Télécommunications waved in Wana, owned by Morocco's Omnium Nord Africain. Though holding a tiny share (2.6%) of the voice market, this new player has captured a majority of the 3G market (69.11%). Total subscribers for this new technology increased 527% in 2008. Earlier this year, Wana sold a 31% stake for €228m to the partnership of two Kuwaiti companies, mobile operator Zain and Al Ajial Investment Fund Holding, to help finance the roll out of its 15-year 2G GSM network at the end of 2009. In August 2019, the government signed a MAD 10 billion investment deal with Maroc Telecom to improve telecom infrastructure in the country.
+Telephone system.
+source:
+Domestic telephone system.
+Morocco has a constantly failing system composed of open-wire lines, cables, and microwave radio relay links. The internet is available but slow, and overpriced in comparison to Europe and the United States. The principal switching centers are Casablanca and Rabat. An improved rural service employs microwave radio relay.
+International telephone system.
+The system has seven submarine cables, three satellite earth stations, two Intelsat (over the Atlantic Ocean) and one Arabsat. There is a microwave radio relay to Gibraltar, Spain and the Western Sahara. Coaxial cables and microwave radio relays exist to Algeria. Morocco is a participant in Medarabtel and a fiber-optic cable links from Agadir to Algeria and Tunisia.
+Internet.
+The country had more than 16.3M of internet users in 2012.
+Operated by Maroc Telecom (IAM). The service started as a test in November 2002 before it was launched in October 2003 and it is one of the most technologically advanced Internet services in the African continent but the service is monopolised by IAM. The service is offered by the subsidiary Menara.The company is the best in the Moroccan market in the ADSL, optic fiber and they offers the following options:
+Personal ADSL (All of those offers are available with a 12 months or above engagement) :
+The installation is free, but the ADSL modem or router is not always free.
+IAM is the only ISP who operate underwater cables and national cables, the things that cause a huge monopoly in the Morrocan market, the other ISPs can always rent a part of the leader's infrastructure.
+Orange Morocco offers ADSL , optic fiber and 4G+ but their connexions is considered as the weakest in the country according to Ookla .
+INWI offers ADSL , optic fiber and 4G+ the internet provided by INWI is lower than IAM refers to Ookla but they have the largest coverage and the highest bandwidth when it comes to 4G+ referred to Network Performance which makes the IPS great for those who uses mobile data.
+Mobile data prices (Without engagement) :
+The plans are 0,5GB (500MB), 1GB, 2GB, 2,5 GB, 3GB, 5GB, 10GB and 20GB
+To calculate the price of each plan, multiple the number of GBs by 10 and you should get the price in MAD.
+

@@ -1,0 +1,6 @@
+A leap year comes once every four years. It is the year when an extra day is added to the Gregorian calendar used by most of the world.
+An ordinary year has 365 days. A leap year has 366 days. The extra day is added to the month of February. In an ordinary year, February has 28 days. In a leap year, it has 29 days. This extra day is called a leap day.
+A year is a leap year if it can be evenly divided by four. For example, 1996 was a leap year. But a year is not a leap year if can be evenly divided by 100 and not by 400. This is why 1700, 1800, 1900 were not leap years, but 2000 was.
+We have leap years because instead of 365 days, the Earth really takes a few minutes less than 365 1/4 days (365.24219) to go completely around the Sun.
+Without leap years, the seasons would start one day earlier on the calendar every four years. After 360 years, the 21st of March (the usual start of spring) would come in winter, on what would otherwise be the 21st of December.
+A number of countries use a lunar calendar (based on the moon). They have leap years when they add an extra lunar month. Different calendars add the extra month in different ways.

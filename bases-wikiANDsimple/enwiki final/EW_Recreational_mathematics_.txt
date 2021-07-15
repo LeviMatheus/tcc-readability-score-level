@@ -1,0 +1,21 @@
+
+Recreational mathematics is mathematics carried out for recreation (entertainment) rather than as a strictly research and application-based professional activity or as a part of a student's formal education. Although it is not necessarily limited to being an endeavor for amateurs, many topics in this field require no knowledge of advanced mathematics. Recreational mathematics involves mathematical puzzles and games, often appealing to children and untrained adults, inspiring their further study of the subject.
+The Mathematical Association of America (MAA) includes recreational mathematics as one of its seventeen Special Interest Groups, commenting:
+Mathematical competitions (such as those sponsored by mathematical associations) are also categorized under recreational mathematics.
+Topics.
+Some of the more well-known topics in recreational mathematics are Rubik's Cubes, magic squares, fractals, logic puzzles and mathematical chess problems, but this area of mathematics includes the aesthetics and culture of mathematics, peculiar or amusing stories and coincidences about mathematics, and the personal lives of mathematicians.
+Mathematical games.
+Mathematical games are multiplayer games whose rules, strategies, and outcomes can be studied and explained using mathematics. The players of the game may not need to use explicit mathematics in order to play mathematical games. For example, Mancala is studied in the mathematical field of combinatorial game theory, but no mathematics is necessary in order to play it.
+Mathematical puzzles.
+Mathematical puzzles require mathematics in order to solve them. They have specific rules, as do multiplayer games, but mathematical puzzles don't usually involve competition between two or more players. Instead, in order to solve such a puzzle, the solver must find a solution that satisfies the given conditions.
+Logic puzzles and classical ciphers are common examples of mathematical puzzles. Cellular automata and fractals are also considered mathematical puzzles, even though the solver only interacts with them by providing a set of initial conditions.
+As they often include or require game-like features or thinking, mathematical puzzles are sometimes also called mathematical games.
+MatheMagics.
+Many world-famous magicians use tricks that rely on mathematics. In fact, there is a whole area of recreational mathematics that involves magic tricks that can be explained via mathematics. For instance, some mathematical tricks use Hamming Code to identify when a volunteer is lying, see Mathemagics: A Magical Journey through Advanced Mathematics.
+Other activities.
+Other curiosities and pastimes of non-trivial mathematical interest include:
+Online blogs, podcasts, and YouTube channels.
+There are many blogs and audio or video series devoted to recreational mathematics. Among them are the following:
+People.
+Prominent practitioners and advocates of recreational mathematics have included:
+

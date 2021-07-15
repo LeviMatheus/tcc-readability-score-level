@@ -1,0 +1,71 @@
+
+In geometry, a Johnson solid is a strictly convex polyhedron each face of which is a regular polygon. There is no requirement that each face must be the same polygon, or that the same polygons join around each vertex. An example of a Johnson solid is the square-based pyramid with equilateral sides ("J"1); it has 1 square face and 4 triangular faces. Some authors require that the solid not be uniform (i.e., not Platonic solid, Archimedean solid, uniform prism, or uniform antiprism) before they refer to it as a “Johnson solid”.
+As in any strictly convex solid, at least three faces meet at every vertex, and the total of their angles is less than 360 degrees. Since a regular polygon has angles at least 60 degrees, it follows that at most five faces meet at any vertex. The pentagonal pyramid ("J"2) is an example that has a degree-5 vertex.
+Although there is no obvious restriction that any given regular polygon cannot be a face of a Johnson solid, it turns out that the faces of Johnson solids which are not uniform (i.e., not a Platonic solid, Archimedean solid, uniform prism, or uniform antiprism) always have 3, 4, 5, 6, 8, or 10 sides.
+In 1966, Norman Johnson published a list which included all 92 Johnson solids (excluding the 5 Platonic solids, the 13 Archimedean solids, the infinitely many uniform prisms, and the infinitely many uniform antiprisms), and gave them their names and numbers. He did not prove that there were only 92, but he did conjecture that there were no others. Victor Zalgaller in 1969 proved that Johnson's list was complete.
+Of the Johnson solids, the elongated square gyrobicupola ("J"37), also called the pseudorhombicuboctahedron, is unique in being locally vertex-uniform: there are 4 faces at each vertex, and their arrangement is always the same: 3 squares and 1 triangle. However, it is not vertex-transitive, as it has different isometry at different vertices, making it a Johnson solid rather than an Archimedean solid.
+Names.
+The naming of Johnson solids follows a flexible and precise descriptive formula, such that many solids can be named in different ways without compromising their accuracy as a description. Most Johnson solids can be constructed from the first few (pyramids, cupolae, and rotundas), together with the Platonic and Archimedean solids, prisms, and antiprisms; the centre of a particular solid's name will reflect these ingredients. From there, a series of prefixes are attached to the word to indicate additions, rotations, and transformations:
+The last three operations—"augmentation", "diminution", and "gyration"—can be performed multiple times for certain large solids. "Bi-" &amp; "Tri-" indicate a double and triple operation respectively. For example, a "bigyrate" solid has two rotated cupolae, and a "tridiminished" solid has three removed pyramids or cupolae.
+In certain large solids, a distinction is made between solids where altered faces are parallel and solids where altered faces are oblique. "Para-" indicates the former, that the solid in question has altered parallel faces, and "meta-" the latter, altered oblique faces. For example, a "parabiaugmented" solid has had two parallel faces augmented, and a "metabigyrate" solid has had 2 oblique faces gyrated.
+The last few Johnson solids have names based on certain polygon complexes from which they are assembled. These names are defined by Johnson
+with the following nomenclature:
+Enumeration.
+Pyramids, cupolae, and rotunda.
+The first 6 Johnson solids are pyramids, cupolae, or rotundas with at most 5 lateral faces. Pyramids and cupolae with 6 or more lateral faces are coplanar and are hence not Johnson solids.
+Pyramids.
+The first two Johnson solids, J1 and J2, are pyramids. The "triangular pyramid" is the regular tetrahedron, so it is not a Johnson solid. They represent sections of regular polyhedra.
+Cupolae and rotunda.
+The next four Johnson solids are three cupolae and one rotunda. They represent sections of uniform polyhedra.
+Modified pyramids.
+Johnson solids 7 to 17 are derived from pyramids.
+Elongated and gyroelongated pyramids.
+In the gyroelongated triangular pyramid, three pairs of adjacent triangles are coplanar and form non-square rhombi, so it is not a Johnson solid.
+Bipyramids.
+The "square bipyramid" is the regular octahedron, while the "gyroelongated pentagonal bipyramid" is the regular icosahedron, so they are not Johnson solids. In the gyroelongated triangular bipyramid, six pairs of adjacent triangles are coplanar and form non-square rhombi, so it is also not a Johnson solid.
+Modified cupolae and rotundas.
+Johnson solids 18 to 48 are derived from cupolae and rotundas.
+Bicupolae.
+The triangular gyrobicupola is an Archimedean solid (in this case the cuboctahedron), so it is not a Johnson solid.
+Cupola-rotundas and birotundas.
+The pentagonal gyrobirotunda is an Archimedean solid (in this case the icosidodecahedron), so it is not a Johnson solid.
+Elongated bicupolae.
+The elongated square orthobicupola is an Archimedean solid (in this case the rhombicuboctahedron), so it is not a Johnson solid.
+Gyroelongated bicupolae, cupola-rotundas, and birotundas.
+These Johnson solids have 2 chiral forms.
+Augmented prisms.
+Johnson solids 49 to 57 are built by augmenting the sides of prisms with square pyramids. 
+Modified Platonic solids.
+Johnson solids 58 to 64 are built by augmenting or diminishing Platonic solids.
+Modified Archimedean solids.
+Johnson solids 65 to 83 are built by augmenting, diminishing or gyrating Archimedean solids.
+Gyrate and diminished rhombicosidodecahedra.
+J37 would also appear here as a duplicate (it is a gyrate rhombicuboctahedron).
+Other gyrate and diminished archimedean solids.
+Other archimedean solids can be gyrated and diminished, but they all result in previously counted solids.
+Elementary solids.
+Johnson solids 84 to 92 are not derived from "cut-and-paste" manipulations of uniform solids.
+Snub antiprisms.
+The snub antiprisms can be constructed as an alternation of a truncated antiprism. The gyrobianticupolae are another construction for the snub antiprisms. Only snub antiprisms with at most 4 sides can be constructed from regular polygons. The snub triangular antiprism is the regular icosahedron, so it is not a Johnson solid.
+Classification by types of faces.
+Triangle-faced Johnson solids.
+Five Johnson solids are deltahedra, with all equilateral triangle faces:
+Triangle and square-faced Johnson solids.
+Twenty four Johnson solids have only triangle or square faces:
+Triangle and pentagon-faced Johnson solids.
+Eleven Johnson solids have only triangle and pentagon faces:
+Triangle, square, and pentagon-faced Johnson solids.
+Twenty Johnson solids have only triangle, square, and pentagon faces:
+Triangle, square, and hexagon-faced Johnson solids.
+Eight Johnson solids have only triangle, square, and hexagon faces:
+Triangle, square, and octagon-faced Johnson solids.
+Five Johnson solids have only triangle, square, and octagon faces:
+Triangle, pentagon, and decagon-faced Johnson solids.
+Two Johnson solids have only triangle, pentagon, and decagon faces:
+Triangle, square, pentagon, and hexagon-faced Johnson solids.
+Only one Johnson solid has triangle, square, pentagon, and hexagon faces:
+Triangle, square, pentagon, and decagon-faced Johnson solids.
+Sixteen Johnson solids have only triangle, square, pentagon, and decagon faces:
+Circumscribable Johnson solids.
+25 of the Johnson solids have vertices that exist on the surface of a sphere: 1–6,11,19,27,34,37,62,63,72–83. All of them can be seen to be related to a regular or uniform polyhedron by gyration, diminishment, or dissection.
+

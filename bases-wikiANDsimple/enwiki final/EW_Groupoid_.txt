@@ -1,0 +1,89 @@
+
+In mathematics, especially in category theory and homotopy theory, a groupoid (less often Brandt groupoid or virtual group) generalises the notion of group in several equivalent ways. A groupoid can be seen as a:
+In the presence of dependent typing, a category in general can be viewed as a typed monoid, and similarly, a groupoid can be viewed as simply a typed group. The morphisms take one from one object to another, and form a dependent family of types, thus morphisms might be typed formula_1, formula_2, say. Composition is then a total function: formula_3, so that formula_4.
+Special cases include:
+Groupoids are often used to reason about geometrical objects such as manifolds. introduced groupoids implicitly via Brandt semigroups.
+Definitions.
+A groupoid is an algebraic structure formula_6 consisting of a non-empty set formula_5 and a binary partial function 'formula_8' defined on formula_5.
+Algebraic.
+A groupoid is a set formula_5 with a unary operation formula_11 and a partial function formula_12. Here * is not a binary operation because it is not necessarily defined for all pairs of elements of formula_5. The precise conditions under which formula_14 is defined are not articulated here and vary by situation.
+formula_8 and −1 have the following axiomatic properties: For all formula_16, formula_17, and formula_18 in formula_5,
+Two easy and convenient properties follow from these axioms:
+Category theoretic.
+A groupoid is a small category in which every morphism is an isomorphism, i.e. invertible. More precisely, a groupoid "G" is:
+satisfying, for any "f" : "x" → "y", "g" : "y" → "z", and "h" : "z" → "w":
+If "f" is an element of "G"("x","y") then "x" is called the source of "f", written "s"("f"), and "y" is called the target of "f", written "t"("f"). A groupoid "G" is sometimes denoted as formula_46, where formula_47 is the set of all morphisms, and the two arrows formula_48 represent the source and the target.
+More generally, one can consider a groupoid object in an arbitrary category admitting finite fiber products.
+Comparing the definitions.
+The algebraic and category-theoretic definitions are equivalent, as we now show. Given a groupoid in the category-theoretic sense, let "G" be the disjoint union of all of the sets "G"("x","y") (i.e. the sets of morphisms from "x" to "y"). Then formula_49 and formula_50 become partial operations on "G", and formula_50 will in fact be defined everywhere. We define ∗ to be formula_49 and −1 to be formula_50, which gives a groupoid in the algebraic sense. Explicit reference to "G"0 (and hence to formula_54) can be dropped.
+Conversely, given a groupoid "G" in the algebraic sense, define an equivalence relation formula_55 on its elements by
+formula_56 iff "a" ∗ "a"−1 = "b" ∗ "b"−1. Let "G"0 be the set of equivalence classes of formula_55, i.e. formula_58. Denote "a" ∗ "a"−1 by formula_59 if formula_60 with formula_61.
+Now define formula_62 as the set of all elements "f" such that formula_63 exists. Given formula_64 and formula_65 their composite is defined as formula_66. To see that this is well defined, observe that since formula_67 and formula_68 exist, so does formula_69. The identity morphism on "x" is then formula_59, and the category-theoretic inverse of "f" is "f"−1.
+"Sets" in the definitions above may be replaced with classes, as is generally the case in category theory.
+Vertex groups and orbits.
+Given a groupoid "G", the vertex groups or isotropy groups or object groups in "G" are the subsets of the form "G"("x","x"), where "x" is any object of "G". It follows easily from the axioms above that these are indeed groups, as every pair of elements is composable and inverses are in the same vertex group.
+The orbit of a groupoid "G" at a point formula_71 is given by the set formula_72 containing every point that can be joined to x by an morphism in G. If two points formula_73 and formula_74 are in the same orbits, their vertex groups formula_75 and formula_76 are isomorphic: if formula_77 is any morphism from formula_73 to formula_74, then the isomorphism given by the mapping formula_80.
+Orbits form a partition of the set X, and a groupoid is called transitive if it has only one orbit (equivalently, if it is connected as a category). In that case, all the vertex groups are isomorphic (on the other hand, this is not a sufficient condition for transitivity; see the section below for counterexamples).
+Subgroupoids and morphisms.
+A subgroupoid of formula_81 is a subcategory formula_82 that is itself a groupoid. It is called wide or full if it is wide or full as a subcategory i.e., respectively, if formula_83 or formula_84 for every formula_85.
+A groupoid morphism is simply a functor between two (category-theoretic) groupoids.
+Particular kinds of morphisms of groupoids are of interest. A morphism formula_86 of groupoids is called a fibration if for each object formula_73 of formula_88 and each morphism formula_17 of formula_90 starting at formula_91 there is a morphism formula_92 of formula_88 starting at formula_73 such that formula_95. A fibration is called a covering morphism or covering of groupoids if further such an formula_92 is unique. The covering morphisms of groupoids are especially useful because they can be used to model covering maps of spaces.
+It is also true that the category of covering morphisms of a given groupoid formula_90 is equivalent to the category of actions of the groupoid formula_90 on sets.
+Examples.
+Topology.
+Given a topological space formula_99, let formula_100 be the set formula_99. The morphisms from the point formula_102 to the point formula_103 are equivalence classes of continuous paths from formula_102 to formula_103, with two paths being equivalent if they are homotopic.
+Two such morphisms are composed by first following the first path, then the second; the homotopy equivalence guarantees that this composition is associative. This groupoid is called the fundamental groupoid of formula_99, denoted formula_107 (or sometimes, formula_108). The usual fundamental group formula_109 is then the vertex group for the point formula_73.
+The orbits of the fundamental groupoid formula_107 are the path-connected components of formula_99. Accordingly, the fundamental groupoid of a path-connected space is transitive, and we recover the known fact that the fundamental groups at any base point are isomorphic. Moreover, in this case, the fundamental groupoid and the fundamental groups are equivalent as categories (see the section below for the general theory).
+An important extension of this idea is to consider the fundamental groupoid formula_113 where formula_114 is a chosen set of "base points". Here formula_113 is a (wide) subgroupoid of formula_107, where one considers only paths whose endpoints belong to formula_117. The set formula_117 may be chosen according to the geometry of the situation at hand.
+Equivalence relation.
+If formula_99 is a setoid, i.e. a set with an equivalence relation formula_55, then a groupoid "representing" this equivalence relation can be formed as follows:
+The vertex groups of this groupoid are always trivial; moreover, this groupoid is in general not transitive and its orbits are precisely the equivalence classes. There are two extreme examples:
+Group action.
+If the group formula_5 acts on the set formula_99, then we can form the action groupoid (or transformation groupoid) representing this group action as follows:
+More explicitly, the "action groupoid" is a small category with formula_152 and formula_153 and with source and target maps formula_154 and formula_155. It is often denoted formula_156 (or formula_157 for a right action). Multiplication (or composition) in the groupoid is then formula_158 which is defined provided formula_159.
+For formula_73 in formula_99, the vertex group consists of those formula_162 with formula_163, which is just the isotropy subgroup at formula_73 for the given action (which is why vertex groups are also called isotropy groups). Similarly, the orbits of the action groupoid are the orbit of the group action, and the groupoid is transitive if and only if the group action is transitive.
+Another way to describe formula_5-sets is the functor category formula_166, where formula_167 is the groupoid (category) with one element and isomorphic to the group formula_5. Indeed, every functor formula_169 of this category defines a set formula_170 and for every formula_148 in formula_5 (i.e. for every morphism in formula_167) induces a bijection formula_174 : formula_175. The categorical structure of the functor formula_169 assures us that formula_169 defines a formula_5-action on the set formula_5. The (unique) representable functor formula_169 : formula_181 is the Cayley representation of formula_5. In fact, this functor is isomorphic to formula_183 and so sends formula_184 to the set formula_185 which is by definition the "set" formula_5 and the morphism formula_148 of formula_167 (i.e. the element formula_148 of formula_5) to the permutation formula_174 of the set formula_5. We deduce from the Yoneda embedding that the group formula_5 is isomorphic to the group formula_194, a subgroup of the group of permutations of formula_5.
+Finite set.
+Consider the group action of formula_196 on the finite set formula_197 which takes each number to its negative, so formula_198 and formula_199. The quotient groupoid formula_200 is the set of equivalence classes from this group action formula_201, and formula_202 has a group action of formula_196 on it.
+Quotient variety.
+Any finite group formula_204 which maps to formula_205 give a group action on the affine space formula_206 (since this is the group of automorphisms). Then, a quotient groupoid can be of the forms formula_207, which has one point with stabilizer formula_204 at the origin. Examples like these form the basis for the theory of orbifolds. Another commonly studied family of orbifolds are weighted projective spaces formula_209 and subspaces of them, such as Calabi-Yau orbifolds.
+Fiber product of groupoids.
+Given a diagram of groupoids with groupoid morphisms
+where formula_211 and formula_212, we can form the groupoid formula_213 whose objects are triples formula_214, where formula_215, formula_216, and formula_217 in formula_218. Morphisms can be defined as a pair of morphisms formula_219 where formula_220 and formula_221 such that for triples formula_222, there is a commutative diagram in formula_218 of formula_224, formula_225 and the formula_226.
+Homological algebra.
+A two term complex
+of objects in a concrete Abelian category can be used to form a groupoid. It has as objects the set formula_228 and as arrows the set formula_229; the source morphism is just the projection onto formula_228 while the target morphism is the addition of projection onto formula_231 composed with formula_232 and projection onto formula_228. That is, given formula_234, we have
+Of course, if the abelian category is the category of coherent sheaves on a scheme, then this construction can be used to form a presheaf of groupoids.
+Puzzles.
+While puzzles such as the Rubik's Cube can be modeled using group theory (see Rubik's Cube group), certain puzzles are better modeled as groupoids.
+The transformations of the fifteen puzzle form a groupoid (not a group, as not all moves can be composed). This groupoid acts on configurations.
+Mathieu groupoid.
+The Mathieu groupoid is a groupoid introduced by John Horton Conway acting on 13 points such that the elements fixing a point form a copy of the Mathieu group M12.
+Relation to groups.
+If a groupoid has only one object, then the set of its morphisms forms a group. Using the algebraic definition, such a groupoid is literally just a group. Many concepts of group theory generalize to groupoids, with the notion of functor replacing that of group homomorphism.
+Every transitive/connected groupoid - that is, as explained above, one in which any two objects are connected by at least one morphism - is isomorphic to an action groupoid (as defined above) formula_236. By transitivity, there will only be one orbit under the action.
+Note that the isomorphism just mentioned is not unique, and there is no natural choice. Choosing such an isomorphism for a transitive groupoid essentially amounts to picking one object formula_237, a group isomorphism formula_238 from formula_239 to formula_5, and for each formula_73 other than formula_237, a morphism in formula_5 from formula_237 to formula_73.
+If a groupoid is not transitive, then it is isomorphic to a disjoint union of groupoids of the above type, also called its connected components (possibly with different groups formula_5 and sets formula_99 for each connected component).
+In category-theoretic terms, each connected component of a groupoid is equivalent (but not isomorphic) to a groupoid with a single object, that is, a single group. Thus any groupoid is equivalent to a multiset of unrelated groups. In other words, for equivalence instead of isomorphism, one does not need to specify the sets formula_99, but only the groups formula_249 For example,
+The collapse of a groupoid into a mere collection of groups loses some information, even from a category-theoretic point of view, because it is not natural. Thus when groupoids arise in terms of other structures, as in the above examples, it can be helpful to maintain the entire groupoid. Otherwise, one must choose a way to view each formula_75 in terms of a single group, and this choice can be arbitrary. In the example from topology, one would have to make a coherent choice of paths (or equivalence classes of paths) from each point formula_102 to each point formula_103 in the same path-connected component.
+As a more illuminating example, the classification of groupoids with one endomorphism does not reduce to purely group theoretic considerations. This is analogous to the fact that the classification of vector spaces with one endomorphism is nontrivial.
+Morphisms of groupoids come in more kinds than those of groups: we have, for example, fibrations, covering morphisms, universal morphisms, and quotient morphisms. Thus a subgroup formula_260 of a group formula_5 yields an action of formula_5 on the set of cosets of formula_260 in formula_5 and hence a covering morphism formula_102 from, say, formula_266 to formula_5, where formula_266 is a groupoid with vertex groups isomorphic to formula_260. In this way, presentations of the group formula_5 can be "lifted" to presentations of the groupoid formula_266, and this is a useful way of obtaining information about presentations of the subgroup formula_260. For further information, see the books by Higgins and by Brown in the References.
+Category of groupoids.
+The category whose objects are groupoids and whose morphisms are groupoid morphisms is called the groupoid category, or the category of groupoids, and is denoted by Grpd.
+The category Grpd is, like the category of small categories, Cartesian closed: for any groupoids formula_273 we can construct a groupoid formula_274 whose objects are the morphisms formula_275 and whose arrows are the natural equivalences of morphisms. Thus if formula_276 are just groups, then such arrows are the conjugacies of morphisms. The main result is that for any groupoids formula_277 there is a natural bijection
+formula_278
+This result is of interest even if all the groupoids formula_277 are just groups.
+Another important property of Grpd is that it is both complete and cocomplete.
+Relation to Cat.
+The inclusion formula_280 has both a left and a right adjoint:
+Here, formula_283 denotes the localization of a category that inverts every morphism, and formula_284 denotes the subcategory of all isomorphisms.
+Relation to sSet.
+The nerve functor formula_285 embeds Grpd as a full subcategory of the category of simplicial sets. The nerve of a groupoid is always a Kan complex.
+The nerve has a left adjoint
+Here, formula_107 denotes the fundamental groupoid of the simplicial set X.
+Groupoids in Grpd.
+There is an additional structure which can be derived from groupoids internal to the category of groupoids, double-groupoids. Because Grpd is a 2-category, these objects form a 2-category instead of a 1-category since there is extra structure. Essentially, these are groupoids formula_288 with functorsformula_289and an embedding given by an identity functorformula_290One way to think about these 2-groupoids is they contain objects, morphisms, and squares which can compose together vertically and horizontally. For example, given squaresformula_291 and formula_292with formula_16 the same morphism, they can be vertically conjoined giving a diagramformula_294which can be converted into another square by composing the vertical arrows. There is a similar composition law for horizontal attachments of squares.
+Groupoids with geometric structures.
+When studying geometrical objects, the arising groupoids often carry a topology, turning them into topological groupoids, or even some differentiable structure, turning them into Lie groupoids. These last objects can be also studied in terms of their associated Lie algebroids, in analogy to the relation between Lie groups and Lie algebras.
+Groupoids arising from geometry often possess further structures which interact with the groupoid multiplication. For instance, in Poisson geometry one has the notion of a symplectic groupoid, which is a Lie groupoid endowed with a compatible symplectic form. Similarly, one can have groupoids with a compatible Riemannian metric, or complex structure, etc. 
+

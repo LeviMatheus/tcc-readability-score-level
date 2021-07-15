@@ -1,0 +1,5 @@
+
+In telecommunication, Advanced Data Communication Control Procedures (or Protocol) (ADCCP) is a bit-oriented data link layer protocol developed by the American National Standards Institute. It is functionally equivalent to the ISO High-Level Data Link Control (HDLC) protocol.
+Although the ISO and ANSI standards writers coordinated their work, so the differences between the standards are mainly editorial, there is one meaningful difference: ADCCP's definition of the basic subset required to implement balanced asynchronous mode includes the RSET frame, while HDLC makes it optional.
+One major difference between the two is the unnumbered (U) format. When extended (7-bit) sequence numbers are used, I and S frames have two-byte control fields. Like early versions of HDLC, ADCCP specifies a 2-byte control field format with the P/F flag duplicated. Later HDLC specifications, in particular ISO/IEC 13239, changed that to specify that U frames have 1-byte control fields in all cases. 
+

@@ -1,0 +1,6 @@
+The Hershey-Chase experiments were a series of experiments started in 1952 by Alfred Hershey and Martha Chase. These experiments were to make sure that DNA was the genetic material which had first been discovered in the 1944 Avery-MacLeod-McCarty experiment.
+Hershey shared the 1969 Nobel Prize in Physiology or Medicine for his “discoveries concerning the genetic structure of viruses.”
+Method.
+Hershey and Chase used T2 phage, a virus, for their experiments. The phage infects a bacterium by attaching to it and injecting its genetic material into it.
+They put labels on DNA of phages with radioactive Phosphorus-32. They then followed the phages while they infected E. coli. They found that the radioactive element was in only the bacteria and not in the phage.
+In a second experiment, they put labels on the phages with radioactive Sulfur-35. After the phage was attached to the bacterium, the radioactive element was found in the phage, but not in the bacteria. This showed them that genetic material which infects the bacteria is DNA.

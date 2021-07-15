@@ -1,0 +1,81 @@
+
+Mathematical induction is a mathematical proof technique. It is essentially used to prove that a statement "P"("n") holds for every natural number "n" = 0, 1, 2, 3, . . . ; that is, the overall statement is a sequence of infinitely many cases "P"(0), "P"(1), "P"(2), "P"(3), . . . . Informal metaphors help to explain this technique, such as falling dominoes or climbing a ladder:
+A proof by induction consists of two cases. The first, the base case (or basis), proves the statement for "n =" 0 without assuming any knowledge of other cases. The second case, the induction step, proves that "if" the statement holds for any given case "n = k", "then" it must also hold for the next case "n" = "k" + 1. These two steps establish that the statement holds for every natural number "n". The base case does not necessarily begin with "n =" 0, but often with "n =" 1, and possibly with any fixed natural number "n = N", establishing the truth of the statement for all natural numbers "n ≥ N".
+The method can be extended to prove statements about more general well-founded structures, such as trees; this generalization, known as structural induction, is used in mathematical logic and computer science. Mathematical induction in this extended sense is closely related to recursion. Mathematical induction is an inference rule used in formal proofs, and in some form is the foundation of all correctness proofs for computer programs.
+Although its name may suggest otherwise, mathematical induction should not be confused with inductive reasoning as used in philosophy (see Problem of induction). The mathematical method examines infinitely many cases to prove a general statement, but does so by a finite chain of deductive reasoning involving the variable "n", which can take infinitely many values.
+History.
+In 370 BC, Plato's Parmenides may have contained an early example of an implicit inductive proof. An opposite iterated technique, counting "down" rather than up, is found in the sorites paradox, where it was argued that if 1,000,000 grains of sand formed a heap, and removing one grain from a heap left it a heap, then a single grain of sand (or even no grains) forms a heap.
+In India, early implicit proofs by mathematical induction appear in Bhaskara's "cyclic method", and in the "al-Fakhri" written by al-Karaji around 1000 AD, who applied it to arithmetic sequences to prove the binomial theorem and properties of Pascal's triangle.
+None of these ancient mathematicians, however, explicitly stated the induction hypothesis. Another similar case (contrary to what Vacca has written, as Freudenthal carefully showed) was that of Francesco Maurolico in his "Arithmeticorum libri duo" (1575), who used the technique to prove that the sum of the first "n" odd integers is "n"2.
+The earliest rigorous use of induction was by Gersonides (1288–1344). The first explicit formulation of the principle of induction was given by Pascal in his "Traité du triangle arithmétique" (1665). Another Frenchman, Fermat, made ample use of a related principle: indirect proof by infinite descent.
+The induction hypothesis was also employed by the Swiss Jakob Bernoulli, and from then on it became well known. The modern formal treatment of the principle came only in the 19th century, with George Boole, Augustus de Morgan, Charles Sanders Peirce, 
+Giuseppe Peano, and Richard Dedekind.
+Description.
+The simplest and most common form of mathematical induction infers that a statement involving a natural number (that is, an integer or 1) holds for all values of . The proof consists of two steps:
+The hypothesis in the inductive step, that the statement holds for a particular , is called the induction hypothesis or inductive hypothesis. To prove the inductive step, one assumes the induction hypothesis for and then uses this assumption to prove that the statement holds for .
+Authors who prefer to define natural numbers to begin at 0 use that value in the base case; those who define natural numbers to begin at 1 use that value.
+Examples.
+Sum of consecutive natural numbers.
+Mathematical induction can be used to prove the following statement "P"("n") for all natural numbers "n".
+This states a general formula for the sum of the natural numbers less than or equal to a given number; in fact an infinite sequence of statements: formula_2, formula_3, formula_4, etc.
+Proposition. For any formula_5, formula_6
+Proof. Let "P"("n") be the statement formula_6 We give a proof by induction on "n".
+"Base case:" Show that the statement holds for the smallest natural number "n" = 0.
+"P"(0) is clearly true: formula_8
+"Inductive step:" Show that for any "k ≥" 0, if "P"("k") holds, then "P"("k"+1) also holds.
+Assume the induction hypothesis that for a particular "k", the single case "n = k" holds, meaning "P"("k") is true:formula_9It follows that:
+Algebraically, the right hand side simplifies as:
+Equating the extreme left hand and right hand sides, we deduce that:formula_12That is, the statement "P"("k+"1) also holds true, establishing the inductive step.
+"Conclusion": Since both the base case and the inductive step have been proved as true, by mathematical induction the statement "P"("n") holds for every natural number "n". ∎
+A trigonometric inequality.
+Induction is often used to prove inequalities. As an example, we prove that formula_13 for any real number formula_14 and natural number formula_15.
+At first glance, it may appear that a more general version, formula_16 for any "real" numbers formula_17, could be proven without induction; but the case formula_18 shows it may be false for non-integer values of formula_15. This suggests we examine the statement specifically for "natural" values of formula_15, and induction is the readiest tool.
+Proposition. For any formula_21, formula_16.
+Proof. Fix an arbitrary real number formula_14, and let formula_24 be the statement formula_16. We induct on formula_15.
+"Base case:" The calculation formula_27 verifies formula_28.
+"Inductive step:" We show the implication formula_29 for any natural number formula_30. Assume the induction hypothesis: for a given value formula_31, the single case formula_32 is true. Using the angle addition formula and the triangle inequality, we deduce:
+The inequality between the extreme left hand and right-hand quantities shows that formula_34 is true, which completes the inductive step.
+"Conclusion": The proposition formula_24 holds for all natural numbers formula_15. ∎
+Variants.
+In practice, proofs by induction are often structured differently, depending on the exact nature of the property to be proven.
+All variants of induction are special cases of transfinite induction; see below.
+Induction basis other than 0 or 1.
+If one wishes to prove a statement, not for all natural numbers, but only for all numbers greater than or equal to a certain number , then the proof by induction consists of:
+This can be used, for example, to show that for .
+In this way, one can prove that some statement holds for all , or even for all . This form of mathematical induction is actually a special case of the previous form, because if the statement to be proved is then proving it with these two rules is equivalent with proving for all natural numbers with an induction base case .
+Example: forming dollar amounts by coins.
+Assume an infinite supply of 4- and 5-dollar coins. Induction can be used to prove that any whole amount of dollars greater than or equal to can be formed by a combination of such coins. Let denote the statement "the amount of dollars can be formed by a combination of 4- and 5-dollar coins". The proof that is true for all can then be achieved by induction on as follows:
+"Base case": Showing that holds for is simple: take three 4-dollar coins.
+"Induction step": Given that holds for some value of ("induction hypothesis"), prove that holds, too: 
+Therefore, by the principle of induction, holds for all , and the proof is complete.
+In this example, although also holds for formula_37,
+the above proof cannot be modified to replace the minimum amount of dollar to any lower value .
+For , the base case is actually false;
+for , the second case in the induction step (replacing three 5- by four 4-dollar coins) will not work;
+let alone for even lower .
+Induction on more than one counter.
+It is sometimes desirable to prove a statement involving two natural numbers, "n" and "m", by iterating the induction process. That is, one proves a base case and an inductive step for "n", and in each of those proves a base case and an inductive step for "m". See, for example, the proof of commutativity accompanying "addition of natural numbers". More complicated arguments involving three or more counters are also possible.
+Infinite descent.
+The method of infinite descent is a variation of mathematical induction which was used by Pierre de Fermat. It is used to show that some statement "Q"("n") is false for all natural numbers "n". Its traditional form consists of showing that if "Q"("n") is true for some natural number "n", it also holds for some strictly smaller natural number "m". Because there are no infinite decreasing sequences of natural numbers, this situation would be impossible, thereby showing (by contradiction) that "Q"("n") cannot be true for any "n".
+The validity of this method can be verified from the usual principle of mathematical induction. Using mathematical induction on the statement "P"("n") defined as ""Q"("m") is false for all natural numbers "m" less than or equal to "n"", it follows that "P"("n") holds for all "n", which means that "Q"("n") is false for every natural number "n".
+Prefix induction.
+The most common form of proof by mathematical induction requires proving in the inductive step that
+whereupon the induction principle "automates" "n" applications of this step in getting from "P"(0) to "P"("n"). This could be called "predecessor induction" because each step proves something about a number from something about that number's predecessor.
+A variant of interest in computational complexity is "prefix induction", in which one proves the following statement in the inductive step:
+or equivalently
+The induction principle then "automates" log "n" applications of this inference in getting from "P"(0) to "P"("n"). In fact, it is called "prefix induction" because each step proves something about a number from something about the "prefix" of that number — as formed by truncating the low bit of its binary representation. It can also be viewed as an application of traditional induction on the length of that binary representation.
+If traditional predecessor induction is interpreted computationally as an "n"-step loop, then prefix induction would correspond to a log-"n"-step loop. Because of that, proofs using prefix induction are "more feasibly constructive" than proofs using predecessor induction.
+Predecessor induction can trivially simulate prefix induction on the same statement. Prefix induction can simulate predecessor induction, but only at the cost of making the statement more syntactically complex (adding a bounded universal quantifier), so the interesting results relating prefix induction to polynomial-time computation depend on excluding unbounded quantifiers entirely, and limiting the alternation of bounded universal and existential quantifiers allowed in the statement.
+One can take the idea a step further: one must prove
+whereupon the induction principle "automates" log log "n" applications of this inference in getting from "P"(0) to "P"("n"). This form of induction has been used, analogously, to study log-time parallel computation.
+Complete (strong) induction.
+Another variant, called complete induction, course of values induction or strong induction (in contrast to which the basic form of induction is sometimes known as weak induction), makes the inductive step easier to prove by using a stronger hypothesis: one proves the statement formula_42 under the assumption that formula_24 holds for "all" natural numbers formula_15 less than formula_45; by contrast, the basic form only assumes formula_46. The name "strong induction" does not mean that this method can prove more than "weak induction", but merely refers to the stronger hypothesis used in the inductive step.
+In fact, it can be shown that the two methods are actually equivalent, as explained below. In this form of complete induction, one still has to prove the base case, formula_28, and it may even be necessary to prove extra-base cases such as formula_48 before the general argument applies, as in the example below of the Fibonacci number formula_49.
+Although the form just described requires one to prove the base case, this is unnecessary if one can prove formula_46 (assuming formula_24 for all lower formula_15) for all formula_53. This is a special case of transfinite induction as described below. In this form the base case is subsumed by the case formula_54, where formula_28 is proved with no other formula_24 assumed;
+this case may need to be handled separately, but sometimes the same argument applies for formula_54 and formula_58, making the proof simpler and more elegant.
+In this method, however, it is vital to ensure that the proof of formula_46 does not implicitly assume that formula_58, e.g. by saying "choose an arbitrary formula_61", or by assuming that a set of "m" elements has an element.
+Complete induction is equivalent to ordinary mathematical induction as described above, in the sense that a proof by one method can be transformed into a proof by the other. Suppose there is a proof of formula_24 by complete induction. Let formula_63 mean "formula_46 holds for all formula_65 such that formula_66". Then formula_63 holds for all formula_15 if and only if formula_24 holds for all formula_15, and our proof of formula_24 is easily transformed into a proof of formula_63 by (ordinary) induction. If, on the other hand, formula_24 had been proven by ordinary induction, the proof would already effectively be one by complete induction: formula_28 is proved in the base case, using no assumptions, and formula_75 is proved in the inductive step, in which one may assume all earlier cases but need only use the case formula_24.
+Example: Fibonacci numbers.
+Complete induction is most useful when several instances of the inductive hypothesis are required for each inductive step. For example, complete induction can be used to show that
+where formula_78 is the "n"th Fibonacci number, &lt;math display="inline"&gt;\varphi = 
+

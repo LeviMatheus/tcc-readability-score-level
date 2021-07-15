@@ -1,0 +1,29 @@
+
+In computing, Microsoft's ActiveX Data Objects (ADO) comprises a set of Component Object Model (COM) objects for accessing data sources. A part of MDAC (Microsoft Data Access Components), it provides a middleware layer between programming languages and OLE DB (a means of accessing data stores, whether databases or not, in a uniform manner). ADO allows a developer to write programs that access data without knowing how the database is implemented; developers must be aware of the database for connection only. No knowledge of SQL is required to access a database when using ADO, although one can use ADO to execute SQL commands directly (with the disadvantage of introducing a dependency upon the type of database used).
+Microsoft introduced ADO in October 1996, positioning the software as a successor to Microsoft's earlier object layers for accessing data sources, including RDO (Remote Data Objects) and DAO (Data Access Objects).
+ADO is made up of four collections and twelve objects.
+Basic usage.
+Some basic steps are required in order to be able to access and manipulate data using ADO :
+ASP example.
+Here is an ASP example using ADO to select the "Name" field, from a table called "Phonebook", where a "PhoneNumber" was equal to "555-5555". 
+dim myconnection, myrecordset, name
+set myconnection = server.createobject("ADODB.Connection")
+set myrecordset = server.createobject("ADODB.Recordset")
+myconnection.open mydatasource
+myrecordset.open "Phonebook", myconnection 
+myrecordset.find "PhoneNumber = '555-5555'"
+name = myrecordset.fields.item("Name")
+myrecordset.close
+set myrecordset = nothing
+set myconnection = nothing
+This is equivalent to the following ASP code, which uses plain SQL instead of the functionality of the Recordset object:
+dim myconnection, myrecordset, name
+set myconnection = server.createobject("ADODB.connection")
+myconnection.open mydatasource
+set myrecordset = myconnection.execute("SELECT Name FROM Phonebook WHERE PhoneNumber = '555-5555'")
+name = myrecordset(0)
+Software support.
+ADO is supported in any development language that supports binding to binary COM interfaces. These languages include ASP, Delphi, PowerBuilder, and Visual Basic for Applications (VBA). ADO support has now been added to dBase Plus 8 (With ADO)
+Legacy.
+ADO.NET has replaced ADO in the same way that C#/.NET replaced C/Win32 as the primary mode for targeting Windows application development. ADO.NET follows the same design pattern as ADO, enabling an ADO developer an easy path forward when moving to the .NET framework.
+

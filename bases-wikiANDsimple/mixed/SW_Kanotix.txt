@@ -1,0 +1,12 @@
+Kanotix, also referred to as KANOTIX, is a Linux distribution Live CD (LiveDistro) based on Debian (until 2006 "unstable", in 2007 KANOTIX moved to Debian Etch) with advanced hardware detection. It can run from an optical disc drive without using a hard disk.
+Kanotix uses KDE as the default desktop environment. GNOME and other window managers can be downloaded using APT.
+The name "Kanotix" is derived from the founder's nickname "Kano". Kanotix's mascot is a fangtooth.
+Content.
+Kanotix is based on Debian stable (currently "Etch"). It contains a lot of backports. So many of the main applications are more recent than are available in Etch.
+Installation.
+Kanotix can be installed to the hard disk using the (graphical), which, depending on optical drive, hard disk and processor speed, can take around 10 - 20 minutes.
+History.
+In 2003 Jörg Schirottke was known with the nickname "Kano" in the former Knoppix-Forum (no more available). The distribution derived from " ". He wrote about Knoppix: "I like it much, but I had to improve it:)". So he did. One of the main differences from Knoppix was the support of hard disk installation.
+The first "Kanotix"-preview was released at 24 December 2003 "KANOTIX XMAS 2003 PREVIEW".
+In 2004 and 2005 KANOTIX was a popular distribution ranking in the "top 20" of "distrowatch.com".. In 2004 the releases were named "Bug Hunter" (Bug Hunter-01-2004 - X-2004). After problems with the stability in 2006 Jörg "Kano" Schirottke decided to move from Debian Sid to a less volatile basis.
+In October 2006 the main Kanotix co-developer (and most of Kanotix's other developers) left the project, to start sidux, another distribution based on Debian sid. The last Kanotix release based on Debian Sid was 2006-01-RC4.

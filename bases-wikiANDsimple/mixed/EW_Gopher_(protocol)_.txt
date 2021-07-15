@@ -1,0 +1,62 @@
+
+The Gopher protocol is a communication protocol designed for distributing, searching, and retrieving documents in Internet Protocol networks. The design of the Gopher protocol and user interface is menu-driven, and presented an alternative to the World Wide Web in its early stages, but ultimately fell into disfavor, yielding to the HTTP. The Gopher ecosystem is often regarded as the effective predecessor of the World Wide Web.
+The protocol was invented by a team led by Mark P. McCahill at the University of Minnesota. It offers some features not natively supported by the Web and imposes a much stronger hierarchy on the documents it stores. Its text menu interface is well-suited to computing environments that rely heavily on remote text-oriented computer terminals, which were still common at the time of its creation in 1991, and the simplicity of its protocol facilitated a wide variety of client implementations. More recent Gopher revisions and graphical clients added support for multimedia.
+Gopher's hierarchical structure provided a platform for the first large-scale electronic library connections. The Gopher protocol is still in use by enthusiasts, and although it has been almost entirely supplanted by the Web, a small population of actively-maintained servers remains.
+Origins.
+Gopher system was released in mid-1991 by Mark P. McCahill, Farhad Anklesaria, Paul Lindner, Daniel Torrey, and Bob Alberti of the University of Minnesota in the United States. Its central goals were, as stated in :
+Gopher combines document hierarchies with collections of services, including WAIS, the Archie and Veronica search engines, and gateways to other information systems such as File Transfer Protocol (FTP) and Usenet.
+The general interest in campus-wide information systems (CWISs) in higher education at the time, and the ease of setup of Gopher servers to create an instant CWIS with links to other sites' online directories and resources were the factors contributing to Gopher's rapid adoption.
+The name was coined by Anklesaria as a play on several meanings of the word "gopher". The University of Minnesota mascot is the gopher, a gofer is an assistant who "goes for" things, and a gopher burrows through the ground to reach a desired location.
+Decline.
+The World Wide Web was in its infancy in 1991, and Gopher services quickly became established. By the late 1990s, Gopher had ceased expanding. Several factors contributed to Gopher's stagnation:
+Gopher remains in active use by its enthusiasts, and there have been attempts to revive Gopher on modern platforms and mobile devices. One attempt is The Overbite Project, which hosts various browser extensions and modern clients.
+Technical details.
+The conceptualization of knowledge in "Gopher space" or a "cloud" as specific information in a particular file, and the prominence of the FTP, influenced the technology and the resulting functionality of Gopher.
+Gopher characteristics.
+Gopher is designed to function and to appear much like a mountable read-only global network file system (and software, such as gopherfs, is available that can actually mount a Gopher server as a FUSE resource). At a minimum, whatever can be done with data files on a CD-ROM, can be done on Gopher.
+A Gopher system consists of a series of hierarchical hyperlinkable menus. The choice of menu items and titles is controlled by the administrator of the server.
+Similar to a file on a Web server, a file on a Gopher server can be linked to as a menu item from any other Gopher server. Many servers take advantage of this inter-server linking to provide a directory of other servers that the user can access.
+Protocol.
+The Gopher protocol was first described in . IANA has assigned TCP port 70 to the Gopher protocol.
+The protocol is simple to negotiate, making it possible to browse without using a client. A standard gopher session may therefore appear as follows:
+Here, the client has established a TCP connection with the server on port 70, the standard gopher port. The client then sends a string followed by a carriage return followed by a line feed (a "CR + LF" sequence). This is the selector, which identifies the document to be retrieved. If the item selector were an empty line, the default directory would be selected. The server then replies with the requested item and closes the connection. According to the protocol, before the connection is closed, the server should send a full-stop (i.e., a period character) on a line by itself. However, as is the case here, not all servers conform to this part of the protocol and the server may close the connection without returning the final full-stop.
+In this example, the item sent back is a gopher menu, a directory consisting of a sequence of lines each of which describes an item that can be retrieved. Most clients will display these as hypertext links, and so allow the user to navigate through gopherspace by following the links.
+All lines in a gopher menu are terminated by "CR + LF", and consist of five fields: the "item type" as the very first character (see below), the "display string" (i.e., the description text to display), a "selector" (i.e., a file-system pathname), "host name" (i.e., the domain name of the server on which the item resides), and "port" (i.e., the port number used by that server). The item type and display string are joined without a space; the other fields are separated by the tab character.
+Because of the simplicity of the Gopher protocol, tools such as netcat make it possible to download Gopher content easily from the command line:
+ echo jacks/jack.exe | nc gopher.example.org 70 &gt; jack.exe
+The protocol is also supported by cURL as of 7.21.2-DEV.
+Search request.
+The selector string in the request can optionally be followed by a tab character and a search string. This is used by item type 7.
+Source code of a menu.
+Gopher menu items are defined by lines of tab-separated values in a text file. This file is sometimes called a "gophermap". As the source code to a gopher menu, a gophermap is roughly analogous to an HTML file for a web page. Each tab-separated line (called a "selector line") gives the client software a description of the menu item: what it is, what it's called, and where it leads. The client displays the menu items in the order that they appear in the gophermap.
+The first character in a selector line indicates the "item type", which tells the client what kind of file or protocol the menu item points to. This helps the client decide what to do with it. Gopher's item types are a more basic precursor to the media type system used by the Web and email attachments.
+The item type is followed by the "user display string" (a description or label that represents the item in the menu); the selector (a path or other string for the resource on the server); the "hostname" (the domain name or IP address of the server), and the network port.
+For example: The following selector line generates a link to the "/home" directory at the subdomain gopher.floodgap.com, on port 70. The item type of indicates that the resource is a Gopher menu. The string "Floodgap Home" is what the user sees in the menu.
+ 1Floodgap Home /home gopher.floodgap.com 70
+Item types.
+In a Gopher menu's source code, a one-character code indicates what kind of content the client should expect. This code may either be a digit or a letter of the alphabet; letters are case-sensitive.
+The technical specification for Gopher, , defines 14 item types. A one-character code indicates what kind of content the client should expect. Item type is an error code for exception handling. Gopher client authors improvised item types (HTML), (informational message), and (sound file) after the publication of RFC 1436. Browsers like Netscape Navigator and early versions of Microsoft Internet Explorer would prepend the item type code to the selector as described in , so that the type of the gopher item could be determined by the url itself. Most gopher browsers still available, use these prefixes in their urls.
+URL links.
+Historically, to create a link to a Web server, "GET /" was used as a pseudo-selector to emulate an HTTP GET request. John Goerzen created an addition to the Gopher protocol, commonly referred to as "URL links", that allows links to any protocol that supports URLs. For example, to create a link to http://gopher.quux.org/, the item type is , the display string is the title of the link, the item selector is "URL:http://gopher.quux.org/", and the domain and port are that of the originating Gopher server (so that clients that do not support URL links will query the server and receive an HTML redirection page).
+Related technology.
+The master Gopherspace search engine is Veronica. Veronica offers a keyword search of all the public Internet Gopher server menu titles. A Veronica search produces a menu of Gopher items, each of which is a direct pointer to a Gopher data source. Individual Gopher servers may also use localized search engines specific to their content such as Jughead and Jugtail.
+GopherVR is a 3D virtual reality variant of the original Gopher system.
+Client software.
+Web browsers.
+Browsers that do not natively support Gopher can still access servers using one of the available Gopher to HTTP gateways.
+Gopher support was disabled in Internet Explorer versions 5.x and 6 for Windows in August 2002 by a patch meant to fix a security vulnerability in the browser's Gopher protocol handler to reduce the attack surface which was included in IE6 SP1; however, it can be re-enabled by editing the Windows registry. In Internet Explorer 7, Gopher support was removed on the WinINET level.
+Gopher browser extensions.
+For Mozilla Firefox and SeaMonkey, Overbite extensions extend Gopher browsing and support the current versions of the browsers (Firefox Quantum v ≥57 and equivalent versions of SeaMonkey):
+OverbiteWX includes support for accessing Gopher servers not on port 70 using a whitelist and for CSO/ph queries. OverbiteFF always uses port 70.
+For Chromium and Google Chrome, Burrow is available. It redirects gopher:// URLs to a proxy. In the past an Overbite proxy-based extension for these browsers was available but is no longer maintained and does not work with the current (&gt;23) releases.
+For Konqueror, Kio gopher is available.
+Gopher clients for mobile devices.
+Some have suggested that the bandwidth-sparing simple interface of Gopher would be a good match for mobile phones and personal digital assistants (PDAs), but so far, mobile adaptations of HTML and XML and other simplified content have proven more popular. The PyGopherd server provides a built-in WML front-end to Gopher sites served with it.
+The early 2010s saw a renewed interest in native Gopher clients for popular smartphones: Overbite, an open source client for Android 1.5+ was released in alpha stage in 2010. PocketGopher was also released in 2010, along with its source code, for several Java ME compatible devices. Gopher Client was released in 2016 as a proprietary client for iPhone and iPad devices and is currently maintained.
+Other Gopher clients.
+Gopher popularity was at its height at a time when there were still many equally competing computer architectures and operating systems. As a result, there are several Gopher clients available for Acorn RISC OS, AmigaOS, Atari MiNT, CMS, DOS, classic Mac OS, MVS, NeXT, OS/2 Warp, most UNIX-like operating systems, VMS, Windows 3.x, and Windows 9x. GopherVR was a client designed for 3D visualization, and there is even a Gopher client in MOO. The majority of these clients are hard-coded to work on TCP port 70.
+Gopher to HTTP gateways.
+Users of Web browsers that have incomplete or no support for Gopher can access content on Gopher servers via a server gateway or proxy server that converts Gopher menus into HTML; known proxies are the Floodgap Public Gopher proxy and Gopher Proxy. Similarly, certain server packages such as GN and PyGopherd have built-in Gopher to HTTP interfaces. Squid Proxy software gateways any gopher:// URL to HTTP content, enabling any browser or web agent to access gopher content easily.
+Server software.
+Because the protocol is trivial to implement in a basic fashion, there are many server packages still available, and some are still maintained.
+

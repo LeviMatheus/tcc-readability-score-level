@@ -1,0 +1,58 @@
+
+A biome is a collection of plants and animals that have common characteristics for the environment they exist in. They can be found over a range of continents. Biomes are distinct biological communities that have formed in response to a shared physical climate. "Biome" is a broader term than "habitat"; any biome can comprise a variety of habitats.
+While a biome can cover large areas, a microbiome is a mix of organisms that coexist in a defined space on a much smaller scale. For example, the human microbiome is the collection of bacteria, viruses, and other microorganisms that are present on or in a human body.
+A 'biota' is the total collection of organisms of a geographic region or a time period, from local geographic scales and instantaneous temporal scales all the way up to whole-planet and whole-timescale spatiotemporal scales. The biotas of the Earth make up the biosphere.
+History of the concept.
+The term was suggested in 1916 by Clements, originally as a synonym for biotic community of Möbius (1877). Later, it gained its current definition, based on earlier concepts of phytophysiognomy, formation and vegetation (used in opposition to flora), with the inclusion of the animal element and the exclusion of the taxonomic element of species composition. In 1935, Tansley added the climatic and soil aspects to the idea, calling it ecosystem. The International Biological Program (1964–74) projects popularized the concept of biome.
+However, in some contexts, the term biome is used in a different manner. In German literature, particularly in the Walter terminology, the term is used similarly as biotope (a concrete geographical unit), while the biome definition used in this article is used as an international, non-regional, terminology—irrespectively of the continent in which an area is present, it takes the same biome name—and corresponds to his "zonobiome", "orobiome" and "pedobiome" (biomes determined by climate zone, altitude or soil).
+In Brazilian literature, the term "biome" is sometimes used as synonym of "biogeographic province", an area based on species composition (the term "floristic province" being used when plant species are considered), or also as synonym of the "morphoclimatic and phytogeographical domain" of Ab'Sáber, a geographic space with subcontinental dimensions, with the predominance of similar geomorphologic and climatic characteristics, and of a certain vegetation form. Both include many biomes in fact.
+Classifications.
+To divide the world into a few ecological zones is difficult, notably because of the small-scale variations that exist everywhere on earth and because of the gradual changeover from one biome to the other. Their boundaries must therefore be drawn arbitrarily and their characterization made according to the average conditions that predominate in them.
+A 1978 study on North American grasslands found a positive logistic correlation between evapotranspiration in mm/yr and above-ground net primary production in g/m2/yr. The general results from the study were that precipitation and water use led to above-ground primary production, while solar irradiation and temperature lead to below-ground primary production (roots), and temperature and water lead to cool and warm season growth habit. These findings help explain the categories used in Holdridge's bioclassification scheme (see below), which were then later simplified by Whittaker. The number of classification schemes and the variety of determinants used in those schemes, however, should be taken as strong indicators that biomes do not fit perfectly into the classification schemes created.
+Holdridge (1947, 1964) life zones.
+In 1947, the American botanist and climatologist Leslie Holdridge classified climates based on the biological effects of temperature and rainfall on vegetation under the assumption that these two abiotic factors are the largest determinants of the types of vegetation found in a habitat. Holdridge uses the four axes to define 30 so-called "humidity provinces", which are clearly visible in his diagram. While this scheme largely ignores soil and sun exposure, Holdridge acknowledged that these were important.
+Allee (1949) biome-types.
+The principal biome-types by Allee (1949):
+Kendeigh (1961) biomes.
+The principal biomes of the world by Kendeigh (1961):
+Whittaker (1962, 1970, 1975) biome-types.
+Whittaker classified biomes using two abiotic factors: precipitation and temperature. His scheme can be seen as a simplification of Holdridge's; more readily accessible, but missing Holdridge's greater specificity.
+Whittaker based his approach on theoretical assertions and empirical sampling. He had previously compiled a review of biome classifications.
+Key definitions for understanding Whittaker's scheme.
+Whittaker's distinction between biome and formation can be simplified: formation is used when applied to plant communities only, while biome is used when concerned with both plants and animals. Whittaker's convention of biome-type or formation-type is a broader method to categorize similar communities. 
+Whittaker's parameters for classifying biome-types.
+Whittaker used what he called "gradient analysis" of ecocline patterns to relate communities to climate on a worldwide scale. Whittaker considered four main ecoclines in the terrestrial realm.
+Along these gradients, Whittaker noted several trends that allowed him to qualitatively establish biome-types:
+Whittaker summed the effects of gradients (3) and (4) to get an overall temperature gradient and combined this with a gradient (2), the moisture gradient, to express the above conclusions in what is known as the Whittaker classification scheme. The scheme graphs average annual precipitation (x-axis) versus average annual temperature (y-axis) to classify biome-types.
+Goodall (1974–) ecosystem types.
+The multiauthored series "Ecosystems of the world", edited by David W. Goodall, provides a comprehensive coverage of the major "ecosystem types or biomes" on earth:
+Walter (1976, 2002) zonobiomes.
+The eponymously-named Heinrich Walter classification scheme considers the seasonality of temperature and precipitation. The system, also assessing precipitation and temperature, finds nine major biome types, with the important climate traits and vegetation types. The boundaries of each biome correlate to the conditions of moisture and cold stress that are strong determinants of plant form, and therefore the vegetation that defines the region. Extreme conditions, such as flooding in a swamp, can create different kinds of communities within the same biome.
+Schultz (1988) ecozones.
+Schultz (1988, 2005) defined nine ecozones (note that his concept of ecozone is more similar to the concept of biome used in this article than to the concept of ecozone of BBC):
+Bailey (1989) ecoregions.
+Robert G. Bailey nearly developed a biogeographical classification system of ecoregions for the United States in a map published in 1976. He subsequently expanded the system to include the rest of North America in 1981, and the world in 1989. The Bailey system, based on climate, is divided into seven domains (polar, humid temperate, dry, humid, and humid tropical), with further divisions based on other climate characteristics (subarctic, warm temperate, hot temperate, and subtropical; marine and continental; lowland and mountain).
+Olson &amp; Dinerstein (1998) biomes for WWF / Global 200.
+A team of biologists convened by the World Wildlife Fund (WWF) developed a scheme that divided the world's land area into biogeographic realms (called "ecozones" in a BBC scheme), and these into ecoregions (Olson &amp; Dinerstein, 1998, etc.). Each ecoregion is characterized by a main biome (also called major habitat type).
+This classification is used to define the Global 200 list of ecoregions identified by the WWF as priorities for conservation.
+For the terrestrial ecoregions, there is a specific EcoID, format XXnnNN (XX is the biogeographic realm, nn is the biome number, NN is the individual number).
+Biogeographic realms (terrestrial and freshwater).
+The applicability of the realms scheme above - based on Udvardy (1975)—to most freshwater taxa is unresolved.
+Biomes (freshwater).
+According to the WWF, the following are classified as freshwater biomes:
+Biomes (marine).
+Biomes of the coastal and continental shelf areas (neritic zone):
+Summary of the scheme.
+Example:
+Other biomes.
+Marine biomes.
+Pruvot (1896) zones or "systems":
+Longhurst (1998) biomes:
+Other marine habitat types (not covered yet by the Global 200/WWF scheme):
+Anthropogenic biomes.
+Humans have altered global patterns of biodiversity and ecosystem processes. As a result, vegetation forms predicted by conventional biome systems can no longer be observed across much of Earth's land surface as they have been replaced by crop and rangelands or cities. Anthropogenic biomes provide an alternative view of the terrestrial biosphere based on global patterns of sustained direct human interaction with ecosystems, including agriculture, human settlements, urbanization, forestry and other uses of land. Anthropogenic biomes offer a way to recognize the irreversible coupling of human and ecological systems at global scales and manage Earth's biosphere and anthropogenic biomes.
+Major anthropogenic biomes:
+Microbial biomes.
+Endolithic biomes.
+The endolithic biome, consisting entirely of microscopic life in rock pores and cracks, kilometers beneath the surface, has only recently been discovered, and does not fit well into most classification schemes.
+

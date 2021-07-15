@@ -1,0 +1,166 @@
+
+In number theory, the law of quadratic reciprocity is a theorem about modular arithmetic that gives conditions for the solvability of quadratic equations modulo prime numbers. Due to its subtlety, it has many formulations, but the most standard statement is: 
+.&lt;/math&gt;
+This law, together with its supplements, allows the easy calculation of any Legendre symbol, making it possible to determine whether there is an integer solution for any quadratic equation of the form formula_1 for an odd prime formula_2; that is, to determine the "perfect squares" modulo formula_2. However, this is a non-constructive result: it gives no help at all for finding a "specific" solution; for this, other methods are required. For example, in the case formula_4 using Euler's criterion one can give an explicit formula for the "square roots" modulo formula_2 of a quadratic residue formula_6, namely,
+indeed,
+This formula only works if it is known in advance that formula_6 is a quadratic residue, which can be checked using the law of quadratic reciprocity.
+The quadratic reciprocity theorem was conjectured by Euler and Legendre and first proved by Gauss, who referred to it as the "fundamental theorem" in his "Disquisitiones Arithmeticae" and his papers, writing
+Privately, Gauss referred to it as the "golden theorem". He published six proofs for it, and two more were found in his posthumous papers. There are now over 240 published proofs. The shortest known proof is included below, together with short proofs of the law's supplements (the Legendre symbols of −1 and 2).
+Generalizing the reciprocity law to higher powers has been a leading problem in mathematics, and has been crucial to the development of much of the machinery of modern algebra, number theory, and algebraic geometry, culminating in Artin reciprocity, class field theory, and the Langlands program.
+Motivating examples.
+Quadratic reciprocity arises from certain subtle factorization patterns involving perfect square numbers. In this section, we give examples which lead to the general case.
+Factoring "n"2 − 5.
+Consider the polynomial formula_10 and its values for formula_11 The prime factorizations of these values are given as follows:
+The prime factors formula_2 dividing formula_13 are formula_14, and every prime whose final digit is formula_15 or formula_16; no primes ending in formula_17 or formula_18 ever appear. Now, formula_2 is a prime factor of some formula_20 whenever formula_21, i.e. whenever formula_22 i.e. whenever 5 is a quadratic residue modulo formula_2. This happens for formula_24 and those primes with formula_25 and the latter numbers formula_26 and formula_27 are precisely the quadratic residues modulo formula_28. Therefore, except for formula_29, we have that formula_28 is a quadratic residue modulo formula_2 iff formula_2 is a quadratic residue modulo formula_28.
+The law of quadratic reciprocity gives a similar characterization of prime divisors of formula_34 for any prime "q", which leads to a characterization for any integer formula_35.
+Patterns among quadratic residues.
+Let "p" be an odd prime. A number modulo "p" is a quadratic residue whenever it is congruent to a square (mod "p"); otherwise it is a quadratic non-residue. ("Quadratic" can be dropped if it is clear from the context.) Here we exclude zero as a special case. Then as a consequence of the fact that the multiplicative group of a finite field of order "p" is cyclic of order "p-1", the following statements hold:
+For the avoidance of doubt, these statements do "not" hold if the modulus is not prime. 
+For example, there are only 3 quadratic residues (1, 4 and 9) in the multiplicative group modulo 15. 
+Moreover although 7 and 8 are quadratic non-residues, their product 7x8 = 11 is also a quadratic non-residue, in contrast to the prime case.
+Quadratic residues are entries in the following table:
+This table is complete for odd primes less than 50. To check whether a number "m" is a quadratic residue mod one of these primes "p", find "a" ≡ "m" (mod "p") and 0 ≤ "a" &lt; "p". If "a" is in row "p", then "m" is a residue (mod "p"); if "a" is not in row "p" of the table, then "m" is a nonresidue (mod "p").
+The quadratic reciprocity law is the statement that certain patterns found in the table are true in general.
+"q" = ±1 and the first supplement.
+Trivially 1 is a quadratic residue for all primes. The question becomes more interesting for −1. Examining the table, we find −1 in rows 5, 13, 17, 29, 37, and 41 but not in rows 3, 7, 11, 19, 23, 31, 43 or 47. The former set of primes are all congruent to 1 modulo 4, and the latter are congruent to 3 modulo 4.
+"q" = ±2 and the second supplement.
+Examining the table, we find 2 in rows 7, 17, 23, 31, 41, and 47, but not in rows 3, 5, 11, 13, 19, 29, 37, or 43. The former primes are all ≡ ±1 (mod 8), and the latter are all ≡ ±3 (mod 8). This leads to
+−2 is in rows 3, 11, 17, 19, 41, 43, but not in rows 5, 7, 13, 23, 29, 31, 37, or 47. The former are ≡ 1 or ≡ 3 (mod 8), and the latter are ≡ 5, 7 (mod 8).
+"q" = ±3.
+3 is in rows 11, 13, 23, 37, and 47, but not in rows 5, 7, 17, 19, 29, 31, 41, or 43. The former are ≡ ±1 (mod 12) and the latter are all ≡ ±5 (mod 12).
+−3 is in rows 7, 13, 19, 31, 37, and 43 but not in rows 5, 11, 17, 23, 29, 41, or 47. The former are ≡ 1 (mod 3) and the latter ≡ 2 (mod 3).
+Since the only residue (mod 3) is 1, we see that −3 is a quadratic residue modulo every prime which is a residue modulo 3.
+"q" = ±5.
+5 is in rows 11, 19, 29, 31, and 41 but not in rows 3, 7, 13, 17, 23, 37, 43, or 47. The former are ≡ ±1 (mod 5) and the latter are ≡ ±2 (mod 5).
+Since the only residues (mod 5) are ±1, we see that 5 is a quadratic residue modulo every prime which is a residue modulo 5.
+−5 is in rows 3, 7, 23, 29, 41, 43, and 47 but not in rows 11, 13, 17, 19, 31, or 37. The former are ≡ 1, 3, 7, 9 (mod 20) and the latter are ≡ 11, 13, 17, 19 (mod 20).
+Higher "q".
+The observations about −3 and 5 continue to hold: −7 is a residue modulo "p" if and only if "p" is a residue modulo 7, −11 is a residue modulo "p" if and only if "p" is a residue modulo 11, 13 is a residue (mod "p") if and only if "p" is a residue modulo 13, etc. The more complicated-looking rules for the quadratic characters of 3 and −5, which depend upon congruences modulo 12 and 20 respectively, are simply the ones for −3 and 5 working with the first supplement.
+The generalization of the rules for −3 and 5 is Gauss's statement of quadratic reciprocity.
+Legendre's version.
+Another way to organize the data is to see which primes are residues mod which other primes, as illustrated in the following table. The entry in row "p" column "q" is R if "q" is a quadratic residue (mod "p"); if it is a nonresidue the entry is N.
+If the row, or the column, or both, are ≡ 1 (mod 4) the entry is blue or green; if both row and column are ≡ 3 (mod 4), it is yellow or orange.
+The blue and green entries are symmetric around the diagonal: The entry for row "p", column "q" is R (resp N) if and only if the entry at row "q", column "p", is R (resp N).
+The yellow and orange ones, on the other hand, are antisymmetric: The entry for row "p", column "q" is R (resp N) if and only if the entry at row "q", column "p", is N (resp R).
+The reciprocity law states that these patterns hold for all "p" and "q".
+Statement of the theorem.
+Quadratic Reciprocity (Gauss's statement). If formula_40 then the congruence formula_41 is solvable if and only if formula_42 is solvable. If formula_43 then the congruence formula_41 is solvable if and only if formula_45 is solvable.
+Quadratic Reciprocity (combined statement). Define formula_46. Then the congruence formula_41 is solvable if and only if formula_48 is solvable.
+Quadratic Reciprocity (Legendre's statement). If "p" or "q" are congruent to 1 modulo 4, then: formula_42 is solvable if and only if formula_41 is solvable. If "p" and "q" are congruent to 3 modulo 4, then: formula_42 is solvable if and only if formula_41 is not solvable.
+The last is immediately equivalent to the modern form stated in the introduction above. It is a simple exercise to prove that Legendre's and Gauss's statements are equivalent – it requires no more than the first supplement and the facts about multiplying residues and nonresidues.
+Proof.
+The following proof, from The American Mathematical Monthly, is apparently the shortest one known.
+Let
+where formula_54 and formula_55 is the Legendre symbol. For an odd formula_56 and any formula_57
+In particular, substituting formula_59 and formula_6 a nonresidue, we get formula_61, and setting formula_62, we get formula_63; and by similar reasoning,
+Furthermore,
+and, recalling that
+Therefore, for odd formula_56 we have
+Since formula_70, by induction for odd formula_56
+Therefore, by Euler's criterion, for an odd prime formula_35,
+Now, the formula_35 cyclic shifts of a given formula_35-tuple formula_77 are distinct unless all formula_78 are equal, since the period of its repeated single-position cyclic shift divides formula_35, and so is formula_35 or 1. When they are distinct, their total contribution to the sum defining formula_81 is formula_82, which is divisible by formula_35. Therefore, modulo formula_35 (we take formula_85),
+So
+and formula_88 are congruent to formula_81, and thus to each other, modulo formula_35 – but they both are numbers of the form formula_91, so they are equal, which is the law of quadratic reciprocity.
+Proofs of the supplements.
+The value of the Legendre symbol of formula_92 (used in the proof above) follows directly from Euler's criterion:
+by Euler's criterion, but both sides of this congruence are numbers of the form formula_91, so they must be equal.
+Whether formula_95 is a quadratic residue can be concluded if we know the number of solutions of the equation formula_96 with formula_97 which can be solved by standard methods. Namely, all its solutions where formula_98 can be grouped into octuplets of the form formula_99, and what is left are four solutions of the form formula_100 and possibly four additional solutions where formula_101 and formula_102, which exist precisely if formula_95 is a quadratic residue. That is, formula_95 is a quadratic residue precisely if the number of solutions of this equation is divisible by formula_105. And this equation can be solved in just the same way here as over the rational numbers: substitute formula_106, where we demand that formula_107 (leaving out the two solutions formula_108), then the original equation transforms into
+Here formula_110 can have any value that does not make the denominator zero - for which there are formula_111 possibilities (i.e. formula_95 if formula_92 is a residue, formula_114 if not) - and also does not make formula_6 zero, which excludes one more option, formula_116. Thus there are
+possibilities for formula_110, and so together with the two excluded solutions there are overall formula_119 solutions of the original equation. Therefore, formula_95 is a residue modulo formula_2 if and only if formula_105 divides formula_123. This is a reformulation of the condition stated above.
+History and alternative statements.
+The theorem was formulated in many ways before its modern form: Euler and Legendre did not have Gauss's congruence notation, nor did Gauss have the Legendre symbol.
+In this article "p" and "q" always refer to distinct positive odd primes, and "x" and "y" to unspecified integers.
+Fermat.
+Fermat proved (or claimed to have proved) a number of theorems about expressing a prime by a quadratic form:
+He did not state the law of quadratic reciprocity, although the cases −1, ±2, and ±3 are easy deductions from these and other of his theorems.
+He also claimed to have a proof that if the prime number "p" ends with 7, (in base 10) and the prime number "q" ends in 3, and "p" ≡ "q" ≡ 3 (mod 4), then
+Euler conjectured, and Lagrange proved, that
+Proving these and other statements of Fermat was one of the things that led mathematicians to the reciprocity theorem.
+Euler.
+Translated into modern notation, Euler stated that for distinct odd primes "p" and "q":
+This is equivalent to quadratic reciprocity.
+He could not prove it, but he did prove the second supplement.
+Legendre and his symbol.
+Fermat proved that if "p" is a prime number and "a" is an integer, 
+Thus if "p" does not divide "a", using the non-obvious fact (see for example Ireland and Rosen below) that the residues modulo "p" form a field and therefore in particular the multiplicative group is cyclic, hence there can be at most two solutions to a quadratic equation:
+Legendre lets "a" and "A" represent positive primes ≡ 1 (mod 4) and "b" and "B" positive primes ≡ 3 (mod 4), and sets out a table of eight theorems that together are equivalent to quadratic reciprocity:
+He says that since expressions of the form
+will come up so often he will abbreviate them as:
+This is now known as the Legendre symbol, and an equivalent definition is used today: for all integers "a" and all odd primes "p"
+Legendre's version of quadratic reciprocity.
+He notes that these can be combined:
+A number of proofs, especially those based on Gauss's Lemma, explicitly calculate this formula.
+The supplementary laws using Legendre symbols.
+From these two supplements, we can obtain a third reciprocity law for the quadratic character -2 as follows:
+For -2 to be a quadratic residue, either 1 or -2 are both quadratic residues, or both non-residues :formula_135.
+So either :formula_136 are both even, or they are both odd. The sum of these two expressions is
+Legendre's attempt to prove reciprocity is based on a theorem of his:
+Example. Theorem I is handled by letting "a" ≡ 1 and "b" ≡ 3 (mod 4) be primes and assuming that formula_141 and, contrary the theorem, that formula_142 Then formula_143 has a solution, and taking congruences (mod 4) leads to a contradiction.
+This technique doesn't work for Theorem VIII. Let "b" ≡ "B" ≡ 3 (mod 4), and assume
+Then if there is another prime "p" ≡ 1 (mod 4) such that
+the solvability of formula_146 leads to a contradiction (mod 4). But Legendre was unable to prove there has to be such a prime "p"; he was later able to show that all that is required is:
+but he couldn't prove that either. Hilbert symbol (below) discusses how techniques based on the existence of solutions to formula_148 can be made to work.
+Gauss.
+Gauss first proves the supplementary laws. He sets the basis for induction by proving the theorem for ±3 and ±5. Noting that it is easier to state for −3 and +5 than it is for +3 or −5, he states the general theorem in the form:
+Introducing the notation "a" R "b" (resp. "a" N "b") to mean "a" is a quadratic residue (resp. nonresidue) (mod "b"), and letting "a", "a"′, etc. represent positive primes ≡ 1 (mod 4) and "b", "b"′, etc. positive primes ≡ 3 (mod 4), he breaks it out into the same 8 cases as Legendre:
+In the next Article he generalizes this to what are basically the rules for the Jacobi symbol (below). Letting "A", "A"′, etc. represent any (prime or composite) positive numbers ≡ 1 (mod 4) and "B", "B"′, etc. positive numbers ≡ 3 (mod 4):
+All of these cases take the form "if a prime is a residue (mod a composite), then the composite is a residue or nonresidue (mod the prime), depending on the congruences (mod 4)". He proves that these follow from cases 1) - 8).
+Gauss needed, and was able to prove, a lemma similar to the one Legendre needed:
+The proof of quadratic reciprocity uses complete induction.
+These can be combined:
+A number of proofs of the theorem, especially those based on Gauss sums derive this formula. or the splitting of primes in algebraic number fields,
+Other statements.
+The statements in this section are equivalent to quadratic reciprocity: if, for example, Euler's version is assumed, the Legendre-Gauss version can be deduced from it, and vice versa.
+This can be proven using Gauss's lemma.
+Gauss's fourth proof consists of proving this theorem (by comparing two formulas for the value of Gauss sums) and then restricting it to two primes. He then gives an example: Let "a" = 3, "b" = 5, "c" = 7, and "d" = 11. Three of these, 3, 7, and 11 ≡ 3 (mod 4), so "m" ≡ 3 (mod 4). 5×7×11 R 3; 3×7×11 R 5; 3×5×11 R 7;  and  3×5×7 N 11, so there are an odd number of nonresidues.
+Jacobi symbol.
+The Jacobi symbol is a generalization of the Legendre symbol; the main difference is that the bottom number has to be positive and odd, but does not have to be prime. If it is prime, the two symbols agree. It obeys the same rules of manipulation as the Legendre symbol. In particular
+and if both numbers are positive and odd (this is sometimes called "Jacobi's reciprocity law"):
+However, if the Jacobi symbol is 1 but the denominator is not a prime, it does not necessarily follow that the numerator is a quadratic residue of the denominator. Gauss's cases 9) - 14) above can be expressed in terms of Jacobi symbols:
+and since "p" is prime the left hand side is a Legendre symbol, and we know whether "M" is a residue modulo "p" or not.
+The formulas listed in the preceding section are true for Jacobi symbols as long as the symbols are defined. Euler's formula may be written
+Example.
+2 is a residue modulo the primes 7, 23 and 31:
+But 2 is not a quadratic residue modulo 5, so it can't be one modulo 15. This is related to the problem Legendre had: if formula_166 then "a" is a non-residue modulo every prime in the arithmetic progression "m" + 4"a", "m" + 8"a", ..., if there "are" any primes in this series, but that wasn't proved until decades after Legendre.
+Eisenstein's formula requires relative primality conditions (which are true if the numbers are prime)
+Hilbert symbol.
+The quadratic reciprocity law can be formulated in terms of the Hilbert symbol formula_170 where "a" and "b" are any two nonzero rational numbers and "v" runs over all the non-trivial absolute values of the rationals (the archimedean one and the "p"-adic absolute values for primes "p"). The Hilbert symbol formula_170 is 1 or −1. It is defined to be 1 if and only if the equation formula_172 has a solution in the completion of the rationals at "v" other than formula_173. The Hilbert reciprocity law states that formula_170, for fixed "a" and "b" and varying "v", is 1 for all but finitely many "v" and the product of formula_170 over all "v" is 1. (This formally resembles the residue theorem from complex analysis.)
+The proof of Hilbert reciprocity reduces to checking a few special cases, and the non-trivial cases turn out to be equivalent to the main law and the two supplementary laws of quadratic reciprocity for the Legendre symbol. There is no kind of reciprocity in the Hilbert reciprocity law; its name simply indicates the historical source of the result in quadratic reciprocity. Unlike quadratic reciprocity, which requires sign conditions (namely positivity of the primes involved) and a special treatment of the prime 2, the Hilbert reciprocity law treats all absolute values of the rationals on an equal footing. Therefore, it is a more natural way of expressing quadratic reciprocity with a view towards generalization: the Hilbert reciprocity law extends with very few changes to all global fields and this extension can rightly be considered a generalization of quadratic reciprocity to all global fields.
+Connection with cyclotomic fields.
+The early proofs of quadratic reciprocity are relatively unilluminating. The situation changed when Gauss used Gauss sums to show that quadratic fields are subfields of cyclotomic fields, and implicitly deduced quadratic reciprocity from a reciprocity theorem for cyclotomic fields. His proof was cast in modern form by later algebraic number theorists. This proof served as a template for class field theory, which can be viewed as a vast generalization of quadratic reciprocity.
+Robert Langlands formulated the Langlands program, which gives a conjectural vast generalization of class field theory. He wrote:
+Other rings.
+There are also quadratic reciprocity laws in rings other than the integers.
+Gaussian integers.
+In his second monograph on quartic reciprocity Gauss stated quadratic reciprocity for the ring formula_176 of Gaussian integers, saying that it is a corollary of the biquadratic law in formula_177 but did not provide a proof of either theorem. Dirichlet showed that the law in formula_176 can be deduced from the law for formula_179 without using quartic reciprocity.
+For an odd Gaussian prime formula_180 and a Gaussian integer formula_181 relatively prime to formula_182 define the quadratic character for formula_176 by:
+Let formula_185 be distinct Gaussian primes where "a" and "c" are odd and "b" and "d" are even. Then
+Eisenstein integers.
+Consider the following third root of unity:
+The ring of Eisenstein integers is formula_188 For an Eisenstein prime formula_189 and an Eisenstein integer formula_181 with formula_191 define the quadratic character for formula_192 by the formula
+Let λ = "a" + "bω" and μ = "c" + "dω" be distinct Eisenstein primes where "a" and "c" are not divisible by 3 and "b" and "d" are divisible by 3. Eisenstein proved
+Imaginary quadratic fields.
+The above laws are special cases of more general laws that hold for the ring of integers in any imaginary quadratic number field. Let "k" be an imaginary quadratic number field with ring of integers formula_195 For a prime ideal formula_196 with odd norm formula_197 and formula_198 define the quadratic character for formula_199 as
+for an arbitrary ideal formula_201 factored into prime ideals formula_202 define
+and for formula_204 define
+Let formula_206 i.e. formula_207 is an integral basis for formula_195 For formula_209 with odd norm formula_210 define (ordinary) integers "a", "b", "c", "d" by the equations,
+and a function
+If "m" = "Nμ" and "n" = "Nν" are both odd, Herglotz proved
+Also, if
+Then
+Polynomials over a finite field.
+Let "F" be a finite field with "q" = "pn" elements, where "p" is an odd prime number and "n" is positive, and let "F"["x"] be the ring of polynomials in one variable with coefficients in "F". If formula_216 and "f" is irreducible, monic, and has positive degree, define the quadratic character for "F"["x"] in the usual manner:
+If formula_218 is a product of monic irreducibles let
+Dedekind proved that if formula_216 are monic and have positive degrees,
+Higher powers.
+The attempt to generalize quadratic reciprocity for powers higher than the second was one of the main goals that led 19th century mathematicians, including Carl Friedrich Gauss, Peter Gustav Lejeune Dirichlet, Carl Gustav Jakob Jacobi, Gotthold Eisenstein, Richard Dedekind, Ernst Kummer, and David Hilbert to the study of general algebraic number fields and their rings of integers; specifically Kummer invented ideals in order to state and prove higher reciprocity laws.
+The ninth in the list of 23 unsolved problems which David Hilbert proposed to the Congress of Mathematicians in 1900 asked for the 
+"Proof of the most general reciprocity law [f]or an arbitrary number field". Building upon work by Philipp Furtwängler, Teiji Takagi, Helmut Hasse and others, Emil Artin discovered Artin reciprocity in 1923, a general theorem for which all known reciprocity laws are special cases, and proved it in 1927.
+References.
+The "Disquisitiones Arithmeticae" has been translated (from Latin) into English and German. The German edition includes all of Gauss's papers on number theory: all the proofs of quadratic reciprocity, the determination of the sign of the Gauss sum, the investigations into biquadratic reciprocity, and unpublished notes. Footnotes referencing the "Disquisitiones Arithmeticae" are of the form "Gauss, DA, Art. "n"".
+The two monographs Gauss published on biquadratic reciprocity have consecutively numbered sections: the first contains §§ 1–23 and the second §§ 24–76. Footnotes referencing these are of the form "Gauss, BQ, § "n"". 
+These are in Gauss's "Werke", Vol II, pp. 65–92 and 93–148. German translations are in pp. 511–533 and 534–586 of "Untersuchungen über höhere Arithmetik."
+Every textbook on elementary number theory (and quite a few on algebraic number theory) has a proof of quadratic reciprocity. Two are especially noteworthy:
+Franz Lemmermeyer's "Reciprocity Laws: From Euler to Eisenstein" has "many" proofs (some in exercises) of both quadratic and higher-power reciprocity laws and a discussion of their history. Its immense bibliography includes literature citations for 196 different published proofs for the quadratic reciprocity law.
+Kenneth Ireland and Michael Rosen's "A Classical Introduction to Modern Number Theory" also has many proofs of quadratic reciprocity (and many exercises), and covers the cubic and biquadratic cases as well. Exercise 13.26 (p. 202) says it all
+

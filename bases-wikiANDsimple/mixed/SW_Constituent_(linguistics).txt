@@ -1,0 +1,2 @@
+In syntactic analysis, a constituent is a word or a group of words that functions as a single unit within a hierarchical structure.
+Phrases (noun phrases, verbal phrases, etc.) are usually constituents of a clause, but clauses may also be embedded into a bigger structure. For example, in the phrase "I didn't hear what you said," the subordinate clause "what you said" is embedded into the main clause and is syntactically its object; this can be demonstrated by substituting the pronoun "it" for the subordinate clause "I didn't hear it."

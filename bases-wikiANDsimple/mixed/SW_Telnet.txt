@@ -1,0 +1,1 @@
+Telnet is a common network protocol used on the Internet and also inside a LAN (local network). It was developed in 1969 beginning with RFC 15 and is now defined as IETF STD 8, which is one of the first Internet standards. However, due to its lack of security, Telnet has been replaced with Secure Shell on most servers.

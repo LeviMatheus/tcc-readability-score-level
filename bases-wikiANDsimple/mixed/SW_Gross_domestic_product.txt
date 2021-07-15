@@ -1,0 +1,4 @@
+In economics, the gross domestic product (GDP) is how much a place produces in some amount of time. For nations, the GDP can be found by adding up its output inside the borders of that country. To know the GDP of a country, one would need to add up the consumer spending, investment spending, government spending and the value of the exports and subtract the value of the imports.
+This measure is often used to find out the health of a country in an economic way. In other words, a country with a high value of GDP can be called a large economy.
+This measure is different from gross national product (GNP) in that GNP = GDP + net income from assets abroad (net income receipts).
+While nominal GDP is the total amount of money spent on GDP, real GDP (like real in most economic meaning) tries to correct this number for inflation. For example, if the price level rises by 2% (everything costs 2% more), and the nominal GDP grows by 5%, the real GDP is still only 3%.

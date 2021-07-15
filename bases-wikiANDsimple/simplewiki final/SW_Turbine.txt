@@ -1,0 +1,3 @@
+A turbine is an engine that turns fluid into energy.
+Simple turbines have a shaft with a blade on it. Moving fluids, such as water or air, push the blades so that they turn around with the shaft. The turning movement can be used to make energy. Early turbine examples are windmills and water wheels. Turbine blades can also be turned to move a fluid. This is how simple propeller airplanes work.
+A casing can be placed around the turbine to control the movement of the fluid.

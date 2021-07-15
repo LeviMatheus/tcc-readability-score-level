@@ -1,0 +1,14 @@
+Mechanics is a part of physics. It says what happens when forces act on things. There are two parts of mechanics. The two parts are classical mechanics and quantum mechanics. Classical mechanics is used most of the time. It is good to say what happens to most of the things we can see. Some of the time, for example when the things are too small, classical mechanics is not good. Then we need to use quantum mechanics.
+Newton's Three Laws.
+Newton's three laws of motion are important to classical mechanics. Isaac Newton made them.
+The "first law" says that, if there is no external force, things that are stopped will stay stopped, and things that are moving will keep moving. Before, people thought that things stopped if there was no force. Often, people say, "Objects at rest tend to stay at rest, and objects in motion tend to stay in motion, unless acted upon by an outside force."
+The "second law" says how a force moves a thing. The force on a object equals the rate of change of the momentum.
+The "third law" says that if one thing puts a force on another thing, the second thing also puts a force on the first thing. For example, if you jump forward off a boat, the boat moves backward. Often, people say, "For every action there is an equal and opposite reaction."
+Kinematic Equations.
+In physics, kinematics is the part of classical mechanics that explains the movement of objects without looking at what causes the movement or what the movement affects.
+1-Dimensional Kinematics.
+1-Dimensional (1D) Kinematics are used only when an object moves in one direction: either side to side (left to right) or up and down. There are equations with can be used to solve problems that have movement in only 1 dimension or direction. These equations come from the definitions of velocity, acceleration and distance.
+2-Dimensional Kinematics.
+2-Dimensional kinematics is used when motion happens in both the x-direction (left to right) and the y-direction (up and down). There are also equations for this type of kinematics. However, there are different equations for the x-direction and different equations for the y-direction. Galileo proved that the velocity in the x-direction does not change through the whole run. However, the y-direction is affected by the force of gravity, so the y-velocity does change during the run.
+See also.
+Newton's laws of motion

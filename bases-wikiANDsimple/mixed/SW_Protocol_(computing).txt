@@ -1,0 +1,1 @@
+In computing, a protocol is the language used by computers while talking with each other. In its simplest form, a protocol is the rules used in talking and communication between computers.

@@ -1,0 +1,7 @@
+OpenBSD is a secure, free computer operating system. It can run on many types of computers, including Intel PCs and Apple Computer's PowerPCs.
+Like the other open source BSDs and unlike with most Linux operating systems, the whole operating system is developed by the same group of people with OpenBSD. Programmes from other sources are available separately.
+OpenBSD is often the first to add new security tools to make it harder to break, developers have also carefully read through the programming code to check for mistakes more than once. The project is led by Theo de Raadt from Calgary, Alberta, Canada and is released under conditions which put few rerestrictions on people that use the source code, the BSD licence.
+OpenBSD releases new versions every six months, each version is supported for one year after release. OpenBSD 4.3 was released May 1, 2008.
+OpenBSD's first mascot was a BSD daemon with a halo, it was replaced with Puffy, a pufferfish, on June 15th, 2000, with the release of OpenBSD 2.7.
+The operating system's developers add in many new technologies to make the system more secure, technologies like W^X, Stack Protection, malloc reconfigurations and ssh to replace telnet and rlogin.
+Because it is so secure, OpenBSD is often used as a firewall and for other security-related jobs. It is also usable for on a desktop computer, it can act and look like one of several other operating systems like Mac OS X, Microsoft Windows, and others.

@@ -1,0 +1,11 @@
+A Roman numeral is the name for a number when it is written in the way the Romans used to write numbers. Roman numerals are not used very often today in the west. They are used to write the names of kings and queens, or popes. For example: Queen Elizabeth II. They may be used to write the year a book or movie was made.
+The base.
+If a lower value symbol is before a higher value one, it is subtracted. Otherwise it is added.
+So 'IV' is '4' and 'VI' is '6'.
+so 99 is: "XCIX" (and not "IC").
+Notation.
+The System that is in use today is: Whenever the same symbol is written four times, it is replaced by subtracting it from the next higher number (5,50,500). That way, "IV" is written instead of "IIII" (4), "XL" instead of "XXXX" (40), etc.
+Usually only one number is subtracted, not two. So 8 is always "VIII" and never "IIX"
+Especially on clocks and watches, "IIII" can sometimes still be found. This is done partly because the "IIII" for the 4 o'clock position aesthetically balances the "VIII" for the 8 o'clock position.
+Proper form is to subtract only a value with the next lower power of 10. Thus, 900 is written "CM", but 990 would not be "XM" - properly, it is "CM" for the 900 portion and "XC" for the 90 portion, or "CMXC". Similarly, 999 would not be "IM" but rather "CMXCIX" - "CM" for the 900 portion, "XC" for the 90 portion, and "IX" for the 9 portion. Only values with 1's are ever used to subtract; 45 is properly "XLV", not "VL".
+Notations in Roman numerals for numbers higher than 3,001 are rarely seen. One system utilizes "V" and "X" with bars over them to signify 5,000 and 10,000, respectively.

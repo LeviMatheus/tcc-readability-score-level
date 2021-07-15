@@ -1,0 +1,11 @@
+
+Irssi ( (audio)) is an IRC client program for Linux, FreeBSD, macOS and Microsoft Windows. It was originally written by Timo Sirainen, and released under the terms of the GNU GPL-2.0-or-later in January 1999.
+Features.
+Irssi is written in the C programming language and in normal operation uses a text-mode user interface.
+According to the developers, Irssi was written from scratch, not based on ircII (like BitchX and epic). This freed the developers from having to deal with the constraints of an existing codebase, allowing them to maintain tighter control over issues such as security and customization. Numerous Perl scripts have been made available for Irssi to customise how it looks and operates. Plugins are available which add encryption and protocols such as ICQ and XMPP.
+Irssi may be configured by using its user interface or by manually editing its configuration files, which use a syntax resembling Perl data structures.
+Distributions.
+Irssi was written primarily to run on Unix-like operating systems, and binaries and packages are available for Gentoo Linux, Debian, Slackware, SUSE (openSUSE), Frugalware, Fedora, FreeBSD, OpenBSD, NetBSD, DragonFly BSD, Solaris, Arch Linux, Ubuntu, NixOS, and others.
+Irssi builds and runs on Microsoft Windows under Cygwin, and in 2006, an official Windows standalone build became available.
+For the Unix-based macOS, text mode ports are available from the Homebrew, MacPorts, and Fink package managers, and two graphical clients have been written based on Irssi, IrssiX, and MacIrssi. The Cocoa client Colloquy was previously based on Irssi, but it now uses its own IRC core implementation.
+

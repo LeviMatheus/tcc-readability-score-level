@@ -1,0 +1,13 @@
+
+Argumentum ad baculum (Latin for "argument to the cudgel" or "appeal to the stick") is the fallacy committed when one makes an appeal to force or threat of force to bring about the acceptance of a conclusion. One participates in "argumentum ad baculum" when one points out the negative consequences of holding the contrary position (eg. believe what I say, or I will hit you). It is a specific case of the negative form of an argument to the consequences.
+Fallacious "ad baculum".
+A fallacious logical argument based on "argumentum ad baculum" generally proceeds as follows:
+This form of argument is an informal fallacy, because the attack on Q may not necessarily reveal anything about the truth value of the premise P. This fallacy has been identified since the Middle Ages by many philosophers. This is a special case of "argumentum ad consequentiam", or "appeal to consequences".
+Example.
+The general (x) wants to avoid death (Q), therefore he abandons capitulation (P), although the undesirability of death does not prove that death follows from capitulation.
+Non-fallacious "ad baculum".
+This argument is of the form:
+The fallacy in the argument lies in assuming that the truth value of "x accepts P" is related to the truth value of P itself. Whether x does accept P, and whether P is true cannot be inferred from the available statements. However, the argument can be changed into a valid modus tollens by changing the conclusion.
+Example.
+Note that this argument does not assert or come to any conclusion on whether Peter knows Jesus (cf. the fallacious conclusion "Therefore, Peter does not know Jesus").
+

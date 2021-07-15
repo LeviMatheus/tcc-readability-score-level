@@ -1,0 +1,7 @@
+We can define a sound wave as a disturbance which travels through some medium.
+Sound is the term to describe what is heard when sound waves pass through a medium to the ear.
+Sound is produced by mechanical vibrations.
+Sound can travel through solids, liquids, and gases, but it cannot travel through a vacuum.
+The travelling speed of sound in the air is 331.5 m/s at 0 °C. The speed of sound increases as the temperature of the air increases to 343 m/s at 20 °C.
+Sound is a longitudinal wave. It shows reflection, refraction, diffraction, and interference.
+Audible sound has frequencies between 20 Hz to 20 kHz. Human beings can hear audible sound. Sound waves with frequency above 20 kHz are called ultrasound waves. Sound waves with frequency below 20 Hz are called infrasound waves. Human beings cannot hear ultrasound waves and infrasound waves.

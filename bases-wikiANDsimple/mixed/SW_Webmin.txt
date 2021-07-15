@@ -1,0 +1,2 @@
+Webmin is a web-based system configuration tool for OpenSolaris, Linux and other Unix-like systems. It can configure many operating system internals, such as users, disk quotas, services, configuration files, as well as modify and control many opensource applications, such as the Apache HTTP Server, PHP and MySQL.
+Webmin is largely based on Perl, running as its own process and web server. It defaults to TCP port 10000 for communicating, and can be configured to use SSL if OpenSSL is installed with extra required Perl Modules.

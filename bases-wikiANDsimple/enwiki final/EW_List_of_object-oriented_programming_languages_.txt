@@ -1,0 +1,3 @@
+
+This is a list of notable programming languages with object-oriented programming (OOP) features, which are also listed in . Note that, in some contexts, the definition of an "object-oriented programming language" is not exactly the same as that of a "programming language with object-oriented features". For example, C++ is a multi-paradigm language including object-oriented paradigm; however, it is less object-oriented than some other languages such as Python and Ruby. Therefore, some people consider C++ an OOP language, while others do not or refer to it as a "semi-object-oriented programming language".
+

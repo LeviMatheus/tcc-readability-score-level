@@ -1,0 +1,2 @@
+With Databases, a transaction is a point where there is interaction with the database. Maybe, something is asked from the database. Sometimes the data in the database may also be changed. A database transaction is generally atomic. That means, it is either done completely, or it is not done. The state of it being done is not visible. If it is not done completely, any changes it made will be undone. This is known as "rollback".
+Most of the time, transactions are needed to guarantee the ACID principle of databases.

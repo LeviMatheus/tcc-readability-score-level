@@ -1,0 +1,4 @@
+In electrical engineering, power consumption often refers to the electrical energy over time supplied to operate an electrical appliance.
+The energy used by equipment is always more than the energy really needed. This is because no equipment is 100% efficient. Power is wasted as heat, vibrations and/or electromagnetic radiation.
+Power consumption is usually measured in units of kilowatt hours (kWh).
+More accurately, power is the rate of consumption of energy, measured in watts or horsepower.

@@ -1,0 +1,47 @@
+
+In mathematics, a normed vector space or normed space is a vector space over the real or complex numbers, on which a norm is defined. A norm is the formalization and the generalization to real vector spaces of the intuitive notion of "length" in the real world. A norm is a real-valued function defined on the vector space that is commonly denoted formula_1 and has the following properties:
+A norm induces a distance, called its , by the formula
+which make any normed vector space into a metric space and a topological vector space. If this metric formula_8 is complete then the normed space is a Banach space. Every normed vector space can be "uniquely extended" to a Banach space, which makes normed spaces intimately related to Banach spaces. Every Banach space is a normed space but converse is not true. For example, the set of the finite sequences of real numbers can be normed with the Euclidean norm, but it is not complete for this norm. 
+An inner product space is a normed vector space whose norm is the square root of the inner product of a vector and itself. The Euclidean norm of a Euclidean vector space is a special case that allows defining Euclidean distance by the formula
+The study of normed spaces and Banach spaces is a fundamental part of functional analysis, which is a major subfield of mathematics.
+Definition.
+A normed vector space is a vector space equipped with a norm. A seminormed vector space is a vector space equipped with a seminorm.
+A useful variation of the triangle inequality is
+This also shows that a vector norm is a continuous function.
+Property 2 depends on a choice of norm formula_11 on the field of scalars. When the scalar field is formula_12 (or more generally a subset of formula_13), this is usually taken to be the ordinary absolute value, but other choices are possible. For example, for a vector space over formula_14 one could take formula_11 to be the -adic norm.
+Topological structure.
+If ("V", ‖·‖) is a normed vector space, the norm ‖·‖ induces a metric (a notion of "distance") and therefore a topology on "V". This metric is defined in the natural way: the distance between two vectors u and v is given by ‖u − v‖. This topology is precisely the weakest topology which makes ‖·‖ continuous and which is compatible with the linear structure of "V" in the following sense:
+Similarly, for any semi-normed vector space we can define the distance between two vectors u and v as ‖u − v‖. This turns the seminormed space into a pseudometric space (notice this is weaker than a metric) and allows the definition of notions such as continuity and convergence.
+To put it more abstractly every semi-normed vector space is a topological vector space and thus carries a topological structure which is induced by the semi-norm.
+Of special interest are complete normed spaces called Banach spaces. Every normed vector space "V" sits as a dense subspace inside a Banach space; this Banach space is essentially uniquely defined by "V" and is called the "completion" of "V".
+Two norms on the same vector space are called equivalent if they define the same topology. On a finite-dimensional vector space, all norms are equivalent but this is not true for infinite dimensional vector spaces. 
+All norms on a finite-dimensional vector space are equivalent from a topological viewpoint as they induce the same topology (although the resulting metric spaces need not be the same). And since any Euclidean space is complete, we can thus conclude that all finite-dimensional normed vector spaces are Banach spaces. A normed vector space "V" is locally compact if and only if the unit ball "B" = {"x" : ‖"x"‖ ≤ 1} is compact, which is the case if and only if "V" is finite-dimensional; this is a consequence of Riesz's lemma. (In fact, a more general result is true: a topological vector space is locally compact if and only if it is finite-dimensional. The point here is that we don't assume the topology comes from a norm.)
+The topology of a seminormed vector space has many nice properties. Given a neighbourhood system formula_16 around 0 we can construct all other neighbourhood systems as
+with
+Moreover, there exists a neighbourhood basis for 0 consisting of absorbing and convex sets. As this property is very useful in functional analysis, generalizations of normed vector spaces with this property are studied under the name locally convex spaces.
+Normable spaces.
+A topological vector space formula_19 is called normable if there exists a norm formula_20 on "X" such that the canonical metric formula_21 induces the topology formula_22 on "X".
+The following theorem is due to Kolmogorov:
+Theorem A Hausdorff topological vector space is normable if and only if there exists a convex, von Neumann bounded neighborhood of formula_23.
+A product of a family of normable spaces is normable if and only if only finitely many of the spaces are non-trivial (i.e. formula_24). Furthermore, the quotient of a normable space "X" by a closed vector subspace "C" is normable and if in addition "X"'s topology is given by a norm formula_20 then the map formula_26 given by formula_27 is a well defined norm on "X/C" that induces the quotient topology on "X/C".
+If is a Hausdorff locally convex topological vector space then the following are equivalent:
+Furthermore, is finite dimensional if and only if formula_30 is normable (here formula_30 denotes formula_32 endowed with the weak-* topology).
+Linear maps and dual spaces.
+The most important maps between two normed vector spaces are the continuous linear maps. Together with these maps, normed vector spaces form a category.
+The norm is a continuous function on its vector space. All linear maps between finite dimensional vector spaces are also continuous.
+An "isometry" between two normed vector spaces is a linear map "f" which preserves the norm (meaning ‖"f"(v)‖ = ‖v‖ for all vectors v). Isometries are always continuous and injective. A surjective isometry between the normed vector spaces "V" and "W" is called an "isometric isomorphism", and "V" and "W" are called "isometrically isomorphic". Isometrically isomorphic normed vector spaces are identical for all practical purposes.
+When speaking of normed vector spaces, we augment the notion of dual space to take the norm into account. The dual "V" ' of a normed vector space "V" is the space of all "continuous" linear maps from "V" to the base field (the complexes or the reals) — such linear maps are called "functionals". The norm of a functional φ is defined as the supremum of |φ(v)| where v ranges over all unit vectors (i.e. vectors of norm 1) in "V". This turns "V" ' into a normed vector space. An important theorem about continuous linear functionals on normed vector spaces is the Hahn–Banach theorem.
+Normed spaces as quotient spaces of seminormed spaces.
+The definition of many normed spaces (in particular, Banach spaces) involves a seminorm defined on a vector space and then the normed space is defined as the quotient space by the subspace of elements of seminorm zero. For instance, with the L"p" spaces, the function defined by
+is a seminorm on the vector space of all functions on which the Lebesgue integral on the right hand side is defined and finite. However, the seminorm is equal to zero for any function supported on a set of Lebesgue measure zero. These functions form a subspace which we "quotient out", making them equivalent to the zero function.
+Finite product spaces.
+Given "n" seminormed spaces "X""i" with seminorms "q""i" we can define the product space as
+with vector addition defined as
+and scalar multiplication defined as
+We define a new function "q"
+for example as
+which is a seminorm on "X". The function "q" is a norm if and only if all "q""i" are norms.
+More generally, for each real "p"≥1 we have the seminorm:
+For each p this defines the same topological space.
+A straightforward argument involving elementary linear algebra shows that the only finite-dimensional seminormed spaces are those arising as the product space of a normed space and a space with trivial seminorm. Consequently, many of the more interesting examples and applications of seminormed spaces occur for infinite-dimensional vector spaces.
+

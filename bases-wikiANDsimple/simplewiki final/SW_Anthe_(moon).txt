@@ -1,0 +1,13 @@
+! bgcolor="#a0ffa0" colspan="2" | Orbital characteristics
+! align="left" | Semi-major axis
+! align="left" | Orbital period
+! align="left" | Inclination(to Saturn's equator)
+! align="left" | Is a moon of
+! bgcolor="#a0ffa0" colspan="2" | Physical characteristics
+! align="left" | Mean diameter
+! align="left" | Mean density
+! align="left" | Surface gravity
+! align="left" | Rotation period
+! align="left" | Axial tilt
+Anthe is a very small moon of Saturn between the orbits of Mimas and Enceladus. It is also known as Saturn XLIX and its designation was S/2007 S 4. It is named after one of the Alkyonides; the name means "flowery".
+It was found by the in images taken on May 30, 2007. Once the find was made, a search of older Cassini images showed this small moon in observations from as far back as June 2004. It was first announced on July 18, 2007.

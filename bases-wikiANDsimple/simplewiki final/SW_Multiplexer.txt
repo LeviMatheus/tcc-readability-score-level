@@ -1,0 +1,13 @@
+In electronics, a multiplexer or mux ("occasionally the term mul-dex is also found, for a combination multiplexer-demultiplexer") is a device that selects one of many analog or digital input signals and outputs that one into a single output line. This process is multiplexing.
+An electronic multiplexer makes it possible for several signals to share one expensive device or other resource, for example one A/D converter or one communication line, instead of having one device per input signal.
+An analog multiplexer is a special type of analog switch that connects one signal selected from several inputs to a single output.
+A digital multiplexer is a set of parallel switches, with selector that selects one of the input digital channels to outputs into the single digital output channel. The selector selects one of the input channels according to the digital command (number) it receives.
+In electronics, a demultiplexer (or demux) is a device taking a single input signal and selecting one of many data-output-lines, which is connected to the single input. A multiplexer is often used with a complementary demultiplexer on the receiving end.
+An electronic multiplexer can be considered as a multiple-input, single-output switch, and a demultiplexer as a single-input, multiple-output switch.
+In telecommunications and signal processing, a multiplexer is a device that combines several input information signals into one output signal, which carries several communication channels, by means of some multiplex technique. A demultiplexer is in this context a device taking a single input signal that carries many channels and separates those over multiple output signals.
+One use for multiplexers is cost savings by connecting a multiplexer and a demultiplexer (or demux) together (called mul-dex) over a single communication channel (by connecting the multiplexer's single output to the demultiplexer's single input). The image to the right demonstrates this.
+In this case, the cost of implementing separate channels for each data source is more expensive than the cost of implementing the multiplexing/demultiplexing functions.
+At the receiving end of the data link a complementary "demultiplexer" is normally required to break single data stream back down into the original streams.
+In some cases, the far end system may have more functionality than a simple demultiplexer and so, at the same time as the demultiplexing still exists logically, it may never actually happen physically, such as in network address translation where a number of IP private network users are multiplexed over a single public IP addresses.
+References.
+M. Morris Mano and Charles R. Kime, Logic and Computer Design Fundamentals, Prentice Hall, Inc., 2008

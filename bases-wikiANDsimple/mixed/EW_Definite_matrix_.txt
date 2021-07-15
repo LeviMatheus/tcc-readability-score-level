@@ -1,0 +1,145 @@
+
+In mathematics, a symmetric matrix formula_1 with real entries is positive-definite if the real number formula_2 is positive for every nonzero real column vector formula_3 where formula_4 is the transpose of More generally, a Hermitian matrix (that is, a complex matrix equal to its conjugate transpose) is
+positive-definite if the real number formula_5 is positive for every nonzero complex column vector formula_3 were formula_7 denotes the conjugate transpose of formula_8
+Positive semi-definite matrices are defined similarly, except that the scalars formula_2 and formula_5 are required to be positive "or zero" (that is nonnegative). Negative-definite and negative semi-definite matrices are defined analogously. A matrix that is not positive semi-definite and not negative semi-definite is sometimes called indefinite.
+A matrix is thus positive-definite if and only if it is the matrix of a positive-definite quadratic form or Hermitian form. In other words, a matrix is positive-definite if and only if it defines an inner product.
+Positive-definite and positive-semidefinite matrices can be characterized in many ways, which may explain the importance of the concept in various parts of mathematics. A matrix is positive-definite (resp. positive-semidefinite) if and only if satisfies any of the following equivalent conditions.
+Positive-definite and positive-semidefinite real matrices are at the basis of convex optimization, since, given a function of several real variables that is twice differentiable, then if its Hessian matrix (matrix of its second partial derivatives) is positive-definite at a point , then the function is convex near , and, conversely, if the function is convex near , then the Hessian matrix is positive-semidefinite at .
+Some authors use more general definitions of definiteness, including some non-symmetric real matrices, or non-Hermitian complex ones.
+Definitions.
+In the following definitions, formula_14 is the transpose of formula_15, formula_16 is the conjugate transpose of formula_15 and formula_18 denotes the "n"-dimensional zero-vector.
+Definitions for real matrices.
+An formula_19 symmetric real matrix formula_1 is said to be positive-definite if formula_21 for all non-zero formula_22 in formula_23. Formally,
+An formula_19 symmetric real matrix formula_1 is said to be positive semidefinite or non-negative-definite if formula_26 for all formula_22 in formula_23. Formally,
+An formula_19 symmetric real matrix formula_1 is said to be negative-definite if formula_31 for all non-zero formula_22 in formula_23. Formally,
+An formula_19 symmetric real matrix formula_1 is said to be negative-semidefinite or non-positive-definite if formula_36 for all formula_37 in formula_23. Formally,
+An formula_19 symmetric real matrix which is neither positive semidefinite nor negative semidefinite is called indefinite.
+Definitions for complex matrices.
+The following definitions all involve the term formula_40. Notice that this is always a real number for any Hermitian square matrix formula_1.
+An formula_19 Hermitian complex matrix formula_1 is said to be positive-definite if formula_44 for all non-zero formula_22 in formula_46. Formally,
+An formula_19 Hermitian complex matrix formula_1 is said to be positive semi-definite or non-negative-definite if formula_49 for all formula_37 in formula_51. Formally,
+An formula_19 Hermitian complex matrix formula_1 is said to be negative-definite if formula_54 for all non-zero formula_22 in formula_46. Formally,
+An formula_19 Hermitian complex matrix formula_1 is said to be negative semi-definite or non-positive-definite if formula_59 for all formula_22 in formula_46. Formally,
+An formula_19 Hermitian complex matrix which is neither positive semidefinite nor negative semidefinite is called indefinite.
+Consistency between real and complex definitions.
+Since every real matrix is also a complex matrix, the definitions of "definiteness" for the two classes must agree.
+For complex matrices, the most common definition says that "formula_1 is positive-definite if and only if formula_64 is real and positive for all non-zero "complex" column vectors formula_65". This condition implies that formula_1 is Hermitian (i.e. its transpose is equal to its conjugate). To see this, consider the matrices formula_67 and formula_68, so that formula_69 and formula_70. The matrices formula_71 and formula_11 are Hermitian, therefore formula_73 and formula_74 are individually real. If formula_64 is real, then formula_74 must be zero for all formula_65. Then formula_11 is the zero matrix and formula_79, proving that formula_1 is Hermitian.
+By this definition, a positive-definite "real" matrix formula_1 is Hermitian, hence symmetric; and formula_82 is positive for all non-zero "real" column vectors formula_83. However the last condition alone is not sufficient for formula_1 to be positive-definite. For example, if
+then for any real vector formula_83 with entries formula_87 and formula_88 we have formula_89, which is always positive if formula_65 is not zero. However, if formula_65 is the complex vector with entries formula_92 and formula_93, one gets
+which is not real. Therefore, formula_1 is not positive-definite.
+On the other hand, for a "symmetric" real matrix formula_1, the condition "formula_97 for all nonzero real vectors formula_65" "does" imply that formula_1 is positive-definite in the complex sense.
+Notation.
+If a Hermitian matrix formula_1 is positive semi-definite, one sometimes writes formula_101 and if formula_1 is positive-definite one writes formula_103. To denote that formula_1 is negative semi-definite one writes formula_105 and to denote that formula_1 is negative-definite one writes formula_107.
+The notion comes from functional analysis where positive semidefinite matrices define positive operators.
+A common alternative notation is formula_108, formula_109, formula_110 and formula_111 for positive semi-definite and positive-definite, negative semi-definite and negative-definite matrices, respectively. This may be confusing, as sometimes nonnegative matrices (respectively, nonpositive matrices) are also denoted in this way.
+Eigenvalues.
+Let formula_1 be an formula_19 Hermitian matrix. This implies all its eigenvalues are real.
+Let formula_119 be an eigendecomposition of formula_1, where formula_121 is a unitary complex matrix whose columns comprise an orthonormal basis of eigenvectors of formula_1, and formula_123 is a "real" diagonal matrix whose main diagonal contains the corresponding eigenvalues. The matrix formula_1 may be regarded as a diagonal matrix formula_123 that has been re-expressed in coordinates of the (eigenvectors) basis formula_121. Put differently, applying "M" to some vector z in our coordinates system ("M"z), is the same as changing the basis of our z to the eigenvector coordinate system using "P"−1 ("P"−1z), applying the stretching transformation "D" to it ("DP"−1z), and then changing the basis back to our system using "P" ("PDP"−1z).
+With this in mind, the one-to-one change of variable formula_127 shows that formula_64 is real and positive for any complex vector formula_65 if and only if formula_130 is real and positive for any formula_131; in other words, if formula_123 is positive definite. For a diagonal matrix, this is true only if each element of the main diagonal—that is, every eigenvalue of formula_1—is positive. Since the spectral theorem guarantees all eigenvalues of a Hermitian matrix to be real, the positivity of eigenvalues can be checked using Descartes' rule of alternating signs when the characteristic polynomial of a real, symmetric matrix formula_1 is available.
+Decomposition.
+Let formula_1 be an formula_19 Hermitian matrix.
+formula_1 is positive semidefinite if and only if it can be decomposed as a product
+of a matrix formula_11 with its conjugate transpose.
+When formula_1 is real, formula_11 can be real as well and the decomposition can be written as 
+formula_1 is positive definite if and only if such a decomposition exists with formula_11 invertible.
+More generally, formula_1 is positive semidefinite with rank formula_146 if and only if a decomposition exists with a formula_147 matrix formula_11 of full row rank (i.e. of rank formula_146).
+Moreover, for any decomposition formula_138, formula_151.
+If formula_138, then formula_153, so formula_1 is positive semidefinite.
+If moreover formula_11 is invertible then the inequality is strict for formula_156, so formula_1 is positive definite.
+If formula_11 is formula_147 of rank formula_146, then formula_161.
+In the other direction, suppose formula_1 is positive semidefinite.
+Since formula_1 is Hermitian, it has an eigendecomposition formula_164 where formula_165 is unitary and formula_123 is a diagonal matrix whose entries are the eigenvalues of formula_1
+Since formula_1 is positive semidefinite, the eigenvalues are non-negative real numbers, so one can define formula_169 as the diagonal matrix whose entries are non-negative square roots of eigenvalues.
+Then formula_170 for formula_171.
+If moreover formula_1 is positive definite, then the eigenvalues are (strictly) positive, so formula_169 is invertible, and hence formula_171 is invertible as well.
+If formula_1 has rank formula_146, then it has exactly formula_146 positive eigenvalues and the others are zero, hence in formula_171 all but formula_146 rows are all zeroed.
+Cutting the zero rows gives a formula_180 matrix formula_181 such that formula_182.
+The columns formula_183 of formula_11 can be seen as vectors in the complex or real vector space formula_185, respectively.
+Then the entries of formula_1 are inner products (that is dot products, in the real case) of these vectors
+In other words, a Hermitian matrix formula_1 is positive semidefinite if and only if it is the Gram matrix of some vectors formula_183.
+It is positive definite if and only if it is the Gram matrix of some linearly independent vectors.
+In general, the rank of the Gram matrix of vectors formula_183 equals the dimension of the space spanned by these vectors.
+Uniqueness up to unitary transformations.
+The decomposition is not unique: 
+if formula_138 for some formula_147 matrix formula_11 and if formula_165 is any unitary formula_195 matrix (meaning formula_196),
+then formula_197 for formula_198.
+However, this is the only way in which two decompositions can differ: the decomposition is unique up to unitary transformations.
+More formally, if formula_71 is a formula_147 matrix and formula_11 is a formula_202 matrix such that formula_203,
+then there is a formula_204 matrix formula_165 with orthonormal columns (meaning formula_206) such that formula_207.
+When formula_208 this means formula_165 is unitary.
+This statement has an intuitive geometric interpretation in the real case:
+let the columns of formula_71 and formula_11 be the vectors formula_212 and formula_183 in formula_185.
+A real unitary matrix is an orthogonal matrix, which describes a rigid transformation (an isometry of Euclidean space formula_185) preserving the 0 point (i.e. rotations and reflections, without translations). 
+Therefore, the dot products formula_216 and formula_217 are equal if and only if some rigid transformation of formula_185 transforms the vectors formula_212 to formula_183 (and 0 to 0).
+Square root.
+A matrix formula_1 is positive semidefinite if and only if there is a positive semidefinite matrix formula_11 (in particular formula_11 is Hermitian, so formula_224) satisfying formula_225. This matrix formula_11 is unique, is called the "non-negative square root" of formula_1, and is denoted with formula_228.
+When formula_1 is positive definite, so is formula_230, hence it is also called the "positive square root" of formula_1.
+The non-negative square root should not be confused with other decompositions formula_232.
+Some authors use the name "square root" and formula_230 for any such decomposition, or specifically for the Cholesky decomposition,
+or any decomposition of the form formula_225;
+other only use it for the non-negative square root.
+If formula_235 then formula_236.
+Cholesky decomposition.
+A positive semidefinite matrix formula_1 can be written as formula_238, where formula_239 is lower triangular with non-negative diagonal (equivalently formula_232 where formula_241 is upper triangular); this is the Cholesky decomposition.
+If formula_1 is positive definite, then the diagonal of formula_239 is positive and the Cholesky decomposition is unique.
+The Cholesky decomposition is especially useful for efficient numerical calculations.
+A closely related decomposition is the LDL decomposition, formula_244, where formula_123 is diagonal and formula_239 is lower unitriangular.
+Other characterizations.
+Let formula_1 be an formula_19 Hermitian matrix. The following properties are equivalent to formula_1 being positive definite:
+A positive semidefinite matrix is positive definite if and only if it is invertible.
+A matrix formula_1 is negative (semi)definite if and only if formula_273 is positive (semi)definite.
+Quadratic forms.
+The (purely) quadratic form associated with a real formula_19 matrix formula_1 is the function formula_276 such that formula_277 for all formula_37. formula_1 can be assumed symmetric by replacing it with formula_280.
+A symmetric matrix formula_1 is positive definite if and only if its quadratic form is a strictly convex function.
+More generally, any quadratic function from formula_282 to formula_283 can be written as formula_284 where formula_1 is a symmetric formula_19 matrix, formula_88 is a real formula_288-vector, and formula_289 a real constant. This quadratic function is strictly convex, and hence has a unique finite global minimum, if and only if formula_1 is positive definite. For this reason, positive definite matrices play an important role in optimization problems.
+Simultaneous diagonalization.
+A symmetric matrix and another symmetric and positive definite matrix can be simultaneously diagonalized, although not necessarily via a similarity transformation. This result does not extend to the case of three or more matrices. In this section we write for the real case. Extension to the complex case is immediate.
+Let formula_1 be a symmetric and formula_292 a symmetric and positive definite matrix. Write the generalized eigenvalue equation as formula_293 where we impose that formula_37 be normalized, i.e. formula_295. Now we use Cholesky decomposition to write the inverse of formula_292 as formula_297. Multiplying by formula_165 and letting formula_299, we get formula_300, which can be rewritten as formula_301 where formula_302. Manipulation now yields formula_303 where formula_304 is a matrix having as columns the generalized eigenvectors and formula_305 is a diagonal matrix of the generalized eigenvalues. Now premultiplication with formula_306 gives the final result: formula_307 and formula_308, but note that this is no longer an orthogonal diagonalization with respect to the inner product where formula_302. In fact, we diagonalized formula_1 with respect to the inner product induced by formula_292.
+Note that this result does not contradict what is said on simultaneous diagonalization in the article Diagonalizable matrix, which refers to simultaneous diagonalization by a similarity transformation. Our result here is more akin to a simultaneous diagonalization of two quadratic forms, and is useful for optimization of one form under conditions on the other.
+Properties.
+Induced partial ordering.
+For arbitrary square matrices formula_1, formula_292 we write formula_314 if formula_315 i.e., formula_316 is positive semi-definite. This defines a partial ordering on the set of all square matrices. One can similarly define a strict partial ordering formula_317. The ordering is called the Loewner order.
+Inverse of positive definite matrix.
+Every positive definite matrix is invertible and its inverse is also positive definite. If formula_318 then formula_319. Moreover, by the min-max theorem, the "k"th largest eigenvalue of formula_1 is greater than the "k"th largest eigenvalue of formula_292.
+Scaling.
+If formula_1 is positive definite and formula_323 is a real number, then formula_324 is positive definite.
+Submatrices.
+Every principal submatrix of a positive definite matrix is positive definite.
+Trace.
+The diagonal entries formula_346 of a positive-semidefinite matrix are real and non-negative. As a consequence the trace, formula_347. Furthermore, since every principal sub-matrix (in particular, 2-by-2) is positive semidefinite,
+and thus, when formula_349,
+An formula_19 Hermitian matrix formula_1 is positive definite if it satisfies the following trace inequalities:
+Another important result is that for any formula_1 and formula_292 positive-semidefinite matrices, formula_356
+Hadamard product.
+If formula_357, although formula_339 is not necessary positive semidefinite, the Hadamard product is, formula_359 (this result is often called the Schur product theorem).
+Regarding the Hadamard product of two positive semidefinite matrices formula_360, formula_361, there are two notable inequalities:
+Kronecker product.
+If formula_357, although formula_339 is not necessary positive semidefinite, the Kronecker product formula_366.
+Frobenius product.
+If formula_357, although formula_339 is not necessary positive semidefinite, the Frobenius product formula_369 (Lancaster–Tismenetsky, "The Theory of Matrices", p. 218).
+Convexity.
+The set of positive semidefinite symmetric matrices is convex. That is, if formula_1 and formula_292 are positive semidefinite, then for any formula_372 between 0 and 1, formula_373 is also positive semidefinite. For any vector formula_15:
+This property guarantees that semidefinite programming problems converge to a globally optimal solution.
+Relation with cosine.
+The positive-definiteness of a matrix formula_71 expresses that the angle formula_377 between any vector formula_15 and its image formula_379 is always formula_380:
+Further properties.
+A Hermitian matrix is positive semidefinite if and only if all of its principal minors are nonnegative. It is however not enough to consider the leading principal minors only, as is checked on the diagonal matrix with entries 0 and −1.
+Block matrices.
+A positive formula_402 matrix may also be defined by blocks:
+where each block is formula_19. By applying the positivity condition, it immediately follows that formula_71 and formula_123 are hermitian, and formula_407.
+We have that formula_408 for all complex formula_65, and in particular for formula_410. Then
+A similar argument can be applied to formula_123, and thus we conclude that both formula_71 and formula_123 must be positive definite matrices, as well.
+Converse results can be proved with stronger conditions on the blocks, for instance using the Schur complement.
+Local extrema.
+A general quadratic form formula_415 on formula_288 real variables formula_417 can always be written as formula_418 where formula_22 is the column vector with those variables, and formula_1 is a symmetric real matrix. Therefore, the matrix being positive definite means that formula_421 has a unique minimum (zero) when formula_22 is zero, and is strictly positive for any other formula_22.
+More generally, a twice-differentiable real function formula_421 on formula_288 real variables has local minimum at arguments formula_417 if its gradient is zero and its Hessian (the matrix of all second derivatives) is positive semi-definite at that point. Similar statements can be made for negative definite and semi-definite matrices.
+Covariance.
+In statistics, the covariance matrix of a multivariate probability distribution is always positive semi-definite; and it is positive definite unless one variable is an exact linear function of the others. Conversely, every positive semi-definite matrix is the covariance matrix of some multivariate distribution.
+Extension for non-Hermitian square matrices.
+The definition of positive definite can be generalized by designating any complex matrix formula_1 (e.g. real non-symmetric) as positive definite if formula_428 for all non-zero complex vectors formula_65, where formula_430 denotes the real part of a complex number formula_289. Only the Hermitian part formula_432 determines whether the matrix is positive definite, and is assessed in the narrower sense above. Similarly, if formula_15 and formula_1 are real, we have formula_435 for all real nonzero vectors formula_15 if and only if the symmetric part formula_437 is positive definite in the narrower sense. It is immediately clear that formula_438is insensitive to transposition of "M".
+Consequently, a non-symmetric real matrix with only positive eigenvalues does not need to be positive definite. For example, the matrix formula_439 has positive eigenvalues yet is not positive definite; in particular a negative value of formula_440 is obtained with the choice formula_441 (which is the eigenvector associated with the negative eigenvalue of the symmetric part of 
+In summary, the distinguishing feature between the real and complex case is that, a bounded positive operator on a complex Hilbert space is necessarily Hermitian, or self adjoint. The general claim can be argued using the polarization identity. That is no longer true in the real case.
+Applications.
+Heat conductivity matrix.
+Fourier's law of heat conduction, giving heat flux formula_442 in terms of the temperature gradient formula_443 is written for anisotropic media as formula_444, in which formula_445 is the symmetric thermal conductivity matrix. The negative is inserted in Fourier's law to reflect the expectation that heat will always flow from hot to cold. In other words, since the temperature gradient formula_446 always points from cold to hot, the heat flux formula_442 is expected to have a negative inner product with formula_446 so that formula_449. Substituting Fourier's law then gives this expectation as formula_450, implying that the conductivity matrix should be positive definite.
+

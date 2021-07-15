@@ -1,0 +1,14 @@
+
+In telecommunications, asynchronous communication is transmission of data, generally without the use of an external clock signal, where data can be transmitted intermittently rather than in a steady stream. Any timing required to recover data from the communication symbols is encoded within the symbols.
+The most significant aspect of asynchronous communications is that data is not transmitted at regular intervals, thus making possible variable bit rate, and that the transmitter and receiver clock generators do not have to be exactly synchronized all the time. In asynchronous transmission, data is sent one byte at a time and each byte is preceded by start bit and stop bit.
+Physical layer.
+In asynchronous serial communication the physical protocol layer, the data blocks are code words of a certain word length, for example octets (bytes) or ASCII characters, delimited by start bits and stop bits. A variable length space can be inserted between the code words. No bit synchronization signal is required. This is sometimes called character oriented communication. Examples are and MNP2 and V.2 modems and older.
+Data link layer and higher.
+Asynchronous communication at the data link layer or higher protocol layers is known as statistical multiplexing, for example asynchronous transfer mode (ATM). In this case the asynchronously transferred blocks are called data packets, for example ATM cells. The opposite is circuit switched communication, which provides constant bit rate, for example ISDN and SONET/SDH.
+The packets may be encapsulated in a data frame, with a frame synchronization bit sequence indicating the start of the frame, and sometimes also a bit synchronization bit sequence, typically 01010101, for identification of the bit transition times. Note that at the physical layer, this is considered as synchronous serial communication. Examples of packet mode data link protocols that can be/are transferred using synchronous serial communication are the HDLC, Ethernet, PPP and USB protocols.
+Application layer.
+An asynchronous communication service or application does not require a constant bit rate. Examples are file transfer, email and the World Wide Web. An example of the opposite, a synchronous communication service, is realtime streaming media, for example IP telephony, IP-TV and video conferencing.
+Electronically mediated communication.
+Electronically mediated communication often happens asynchronously in that the participants do not communicate concurrently. Examples include email
+and bulletin-board systems, where participants send or post messages at different times. The term "asynchronous communication" acquired currency in the field of online learning, where teachers and students often exchange information asynchronously instead of synchronously (that is, simultaneously), as they would in face-to-face or in telephone conversations.
+

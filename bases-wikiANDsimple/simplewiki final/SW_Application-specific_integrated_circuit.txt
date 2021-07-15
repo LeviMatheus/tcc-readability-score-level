@@ -1,0 +1,17 @@
+ASIC or Application-specific integrated circuit is a kind of intergrated circuit. It is built for a particular use instead of for general-purpose use. digital circuit is common. but an analog circuit was manufactured from the latter half of 1990.
+ASIC has advantages and disadvantages comparing with Programable Logic Device or Standard Logic IC. first, ASIC miniaturize embodiment size. Second, ASIC improve speed. and third, ASIC reduce electric power. There are ASIC's strong points. There are disadvantages of ASIC. first, when a small production, because production of mask, cost per a unit is expensive. Second, A design is difficult, and if design is failure, cost of re-try is expensive and designer wastes many time. third, Time of a manufacturing process take long time.
+Design of ASIC is gate array design, cell base design, embedded array design, standard cell design, and structured ASIC design.
+Gate array design.
+With prepared foundation which has elementary gate circuit at first base, (we) manufacture the products with putting ordered proper wire-layers.
+Its manufacturing due is short because a finished product needs only production of wire-layers and it is cheap because (we) mass-produce its foundation.
+However, because (we) form a circuit with formation of standard gate, it has worse contact rate and efficiency.
+Cell base design.
+wire-layer is made between block that was designed and arranged and logical circuit. and product is manufactured.
+performance is better than gate array. but time of making cell base is longer than time of making gate array. and cost of making cell base is more expensive than cost of making gate array.
+Embedded array design.
+Instead of part of gate array base, finished functional block were located. It was rest of theory for wired to use part of gate array. It was called that gate array and basis of cell were compro-mising.
+Standard cell design.
+standard cell is a general term for gate array, cell base, embedded array. if standard cell is cell base IC, direction is different each company.
+Structured ASIC design.
+For reduce time of development. a wide use block, which are similar with input and output interface and SRAM and PPL, was arranged on Basis of gate array in advance. Because It was able to correspond with minimum of individual plan. We could see that Company of Distributed circuit,which had wired to use exclusive wire-layer, Tried to reduce plan of consumer. It’s very different to Each of company offerd function.
+Designers of ASIC use a hardware description language (HDL) such as Verilog or VHDL to describe the functionality of ASIC.

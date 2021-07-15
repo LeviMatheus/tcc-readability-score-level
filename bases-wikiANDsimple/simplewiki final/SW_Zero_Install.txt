@@ -1,0 +1,4 @@
+Zero Install is a way to distribute and package software for Linux and Unix-like operating systems.
+Currently, the only operating system to include Zero Install is
+Method of Operation.
+Instead of the normal method of downloading a software package, extracting it, and installing it before it can be used, packages distributed using Zero Install need only to be opened and usually comes in Application Directory format (presented to the user as a single file).

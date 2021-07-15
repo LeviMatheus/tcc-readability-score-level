@@ -1,0 +1,11 @@
+A website is a set of webpages that are joined together. People look at websites with a computer of some kind, sometimes including the computer inside mobile telephones (see WAP) and televisions. They are hosted on computers called web servers.
+Homepage.
+There is almost always a single homepage which introduces the rest of the website - containing links to other pages that may be considered part of that "site" or part of other "sites" (in net jargon which confuses a physical site in the real world with a web URL - which is not physical).
+Uses.
+Websites can be used to advertise or sell things. They can also be used to talk to other people. A blog is a web where the location of the material is less relevant than who writes it, and which is more focused on dialogue. Very often the people who use blogs dislike the word "site" since it implies a controlled place.
+A wiki.
+A wiki is a website where people who visit it can edit it in most cases.
+Access.
+Users can access any web (site, blog, or wiki) by using a URL. The homepage and the rest of the site usually has the same root URL - for instance, pages at the Simple English Wikipedia always start "http://simple.wikipedia.org/..." but then are different after that.
+Appearence.
+Web sites are usually shown in HTML (Hyper Text Markup Language) but are not always written or maintained that way - some use WAP and others use XML.

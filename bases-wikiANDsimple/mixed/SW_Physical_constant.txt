@@ -1,0 +1,4 @@
+A physical constant is a size, something that has been measured, which has a special meaning for physics. For example,
+Physical constants are different from mathematical constants because they are not just numbers but are numbers and a unit of measurement together, and because people find them not by calculating but by measuring.
+Some physical constants.
+Here are some important physical constants.

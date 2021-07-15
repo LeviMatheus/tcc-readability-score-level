@@ -1,0 +1,2 @@
+Swarm Intelligence is a field of Computer science. It is a form of Artificial intelligence. Some animals, mostly insects like ants, or bees form large colonies. These colonies are made of many animals that communicate with each other. Each animal is relatively simple. By cooperating with other animals it is nevertheless able to solve complex tasks.
+Swarm intelligence wants to obtain similar behaviour than that observed with these animals. Instead of the animals, so called "agents" are used.

@@ -1,0 +1,1 @@
+In computing, the SSH File Transfer Protocol (sometimes called Secure File Transfer Protocol or SFTP) is a network protocol that provides file transfer and management of functionalities over any reliable data stream like TCP. It is typically used with version two of the SSH protocol (TCP port 22) to provide secure file transfer, but is also usable with other protocols as well.

@@ -1,0 +1,35 @@
+
+In geometry, an icosidodecahedron is a polyhedron with twenty (icosi) triangular faces and twelve (dodeca) pentagonal faces. An icosidodecahedron has 30 identical vertices, with two triangles and two pentagons meeting at each, and 60 identical edges, each separating a triangle from a pentagon. As such it is one of the Archimedean solids and more particularly, a quasiregular polyhedron.
+Geometry.
+An icosidodecahedron has icosahedral symmetry, and its first stellation is the compound of a dodecahedron and its dual icosahedron, with the vertices of the icosidodecahedron located at the midpoints of the edges of either.
+Its dual polyhedron is the rhombic triacontahedron. An icosidodecahedron can be split along any of six planes to form a pair of pentagonal rotundae, which belong among the Johnson solids.
+The icosidodecahedron can be considered a "pentagonal gyrobirotunda", as a combination of two rotundae (compare pentagonal orthobirotunda, one of the Johnson solids). In this form its symmetry is D5d, [10,2+], (2*5), order 20.
+The wire-frame figure of the icosidodecahedron consists of six flat regular decagons, meeting in pairs at each of the 30 vertices.
+The icosidodecahedron has 6 central decagons. Projected into a sphere, they define 6 great circles. Buckminster Fuller used these 6 great circles, along with 15 and 10 others in two other polyhedra to define his 31 great circles of the spherical icosahedron.
+Cartesian coordinates.
+Convenient Cartesian coordinates for the vertices of an icosidodecahedron with unit edges are given by the even permutations of:
+where "φ" is the golden ratio, .
+Orthogonal projections.
+The icosidodecahedron has four special orthogonal projections, centered on a vertex, an edge, a triangular face, and a pentagonal face. The last two correspond to the A2 and H2 Coxeter planes.
+Surface area and volume.
+The surface area "A" and the volume "V" of the icosidodecahedron of edge length "a" are:
+Spherical tiling.
+The icosidodecahedron can also be represented as a spherical tiling, and projected onto the plane via a stereographic projection. This projection is conformal, preserving angles but not areas or lengths. Straight lines on the sphere are projected as circular arcs on the plane.
+Related polytopes.
+The icosidodecahedron is a rectified dodecahedron and also a rectified icosahedron, existing as the full-edge truncation between these regular solids.
+The icosidodecahedron contains 12 pentagons of the dodecahedron and 20 triangles of the icosahedron:
+The icosidodecahedron exists in a sequence of symmetries of quasiregular polyhedra and tilings with vertex configurations (3."n")2, progressing from tilings of the sphere to the Euclidean plane and into the hyperbolic plane. With orbifold notation symmetry of *"n"32 all of these tilings are wythoff construction within a fundamental domain of symmetry, with generator points at the right angle corner of the domain.
+Dissection.
+The icosidodecahedron is related to the Johnson solid called a pentagonal orthobirotunda created by two pentagonal rotunda connected as mirror images. The "icosidodecahedron" can therefore be called a "pentagonal gyrobirotunda" with the gyration between top and bottom halves.
+Related polyhedra.
+The truncated cube can be turned into an icosidodecahedron by dividing the octagons into two pentagons and two triangles. It has pyritohedral symmetry.
+Eight uniform star polyhedra share the same vertex arrangement. Of these, two also share the same edge arrangement: the small icosihemidodecahedron (having the triangular faces in common), and the small dodecahemidodecahedron (having the pentagonal faces in common). The vertex arrangement is also shared with the compounds of five octahedra and of five tetrahemihexahedra.
+Related polychora.
+In four-dimensional geometry the icosidodecahedron appears in the regular 600-cell as the equatorial slice that belongs to the vertex-first passage of the 600-cell through 3D space. In other words: the 30 vertices of the 600-cell which lie at arc distances of 90 degrees on its circumscribed hypersphere from a pair of opposite vertices, are the vertices of an icosidodecahedron. The wire frame figure of the 600-cell consists of 72 flat regular decagons. Six of these are the equatorial decagons to a pair of opposite vertices. They are precisely the six decagons which form the wire frame figure of the icosidodecahedron.
+Icosidodecahedral graph.
+In the mathematical field of graph theory, a icosidodecahedral graph is the graph of vertices and edges of the icosidodecahedron, one of the Archimedean solids. It has 30 vertices and 60 edges, and is a quartic graph Archimedean graph.
+Trivia.
+In Star Trek Universe, the Vulcan game of logic Kal-Toh has the goal to create a holographic icosidodecahedron.
+In "The Wrong Stars", book one of the Axiom series, by Tim Pratt, Elena has a icosidodecahedron machine on either side of her. [Paperback p 336]
+The Hoberman sphere is an icosadodecahedron.
+

@@ -1,0 +1,3 @@
+The earth is covered in a layer of air. However, this layer is not distributed evenly around the globe. At different times, the layer of air is thicker in some places than in others. Where the layer of air is thicker, there is more air. Since there is more air, there is a higher pressure in that spot. People say, there is a higher barometric pressure (some people also call that Atmospheric pressure) there. Where the layer of air is thinner, there is a lower barometric pressure. The higher the elevation, the thinner the air is.
+The tool people use to measure how thick this layer is, is called a barometer.
+Atmospheric pressure is measured in hPa.

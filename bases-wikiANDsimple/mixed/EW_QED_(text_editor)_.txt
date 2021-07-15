@@ -1,0 +1,10 @@
+
+QED is a line-oriented computer text editor that was developed by Butler Lampson and L. Peter Deutsch for the Berkeley Timesharing System running on the SDS 940. It was implemented by L. Peter Deutsch and Dana Angluin between 1965 and 1966.
+QED (for "quick editor") addressed teleprinter usage, but systems "for CRT displays [were] not considered, since many of their design considerations [were] quite different."
+Later implementations.
+Ken Thompson later wrote a version for CTSS; this version was notable for introducing regular expressions. Thompson rewrote QED in BCPL for Multics. The Multics version was ported to the GE-600 system used at Bell Labs in the late 1960s under GECOS and later GCOS after Honeywell took over GE's computer business. The GECOS-GCOS port used I/O routines written by A. W. Winklehoff. Dennis Ritchie, Ken Thompson and Brian Kernighan wrote the QED manuals used at Bell Labs.
+Given that the authors were the primary developers of the Unix operating system, it is natural that QED had a strong influence on the classic UNIX text editors ed, sed and their descendants such as ex and sam, and more distantly AWK and Perl.
+A version of QED named FRED (Friendly Editor) was written at the
+University of Waterloo for Honeywell systems by Peter Fraser. A University of Toronto team consisting of Tom Duff, Rob Pike, Hugh Redelmeier, and David Tilbrook implemented a version of QED that runs on UNIX; David Tilbrook later included QED as part of his QEF tool set.
+QED was also used as a character-oriented editor on the Norwegian-made Norsk Data systems, first Nord TSS, then Sintran III. It was implemented for the Nord-1 computer in 1971 by Bo Lewendal who after working with Deutsch and Lampson at Project Genie and at the Berkeley Computer Corporation, had taken a job with Norsk Data (and who developed the Nord TSS later in 1971).
+

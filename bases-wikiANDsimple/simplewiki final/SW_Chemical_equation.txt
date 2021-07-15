@@ -1,0 +1,5 @@
+A chemical equation is a way to predict the way that two or more chemicals will work together. Using what chemists know about the way chemicals act, we add the letter symbols together just like a maths problem. In this way we can correctly guess if we will get a new chemical when we mix two or more chemicals together, and what that chemical will be.
+Chemical equations are either worded or written using the elements' symbols, the quantity of the element and in what state (solid[s], liquid[l], gas[g]) it is in.
+For example: An aqueous (liquid) solution of Sodium Chloride (NaCl[aq]) and another aqueous solution of Silver Nitrate (AgNO3[aq]). These mixed together forms Sodium Nitrate (NaNO3[aq]) and Silver Chloride (AgCl[s])
+NaCl[aq] + AgNO3[aq] = NaNO3[aq] + AgCl[s]
+The solutions formed a solid named AgCl. This formation can be called a precipitate and the reaction between the two solutions a precipitation reaction.

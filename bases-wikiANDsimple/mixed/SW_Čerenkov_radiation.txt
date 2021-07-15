@@ -1,0 +1,6 @@
+The Cherenkov effect is an effect in physics discovered by Pavel Alekseyevich Čerenkov.
+Theory.
+Whenever a particle with an electric charge moves faster than light in a medium, it sends out photons (light particles) and thereby loses energy.
+Explanation.
+Because nothing can move faster than light in vacuum, there is no Cherenkov light in vacuum. But, for example, in water, light moves only with 75% of the speed in vacuum. Here particles with very high energy can move faster and create Cherenkov light.
+Because the Cherenkov effect is strongest for light with short wavelenghts, Cherenkov light often appears blue.

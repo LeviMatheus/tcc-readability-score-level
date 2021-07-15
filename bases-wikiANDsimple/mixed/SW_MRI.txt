@@ -1,0 +1,12 @@
+Magnetic Resonance Imaging (MRI) is a kind of medical imaging technology which uses magnetic fields. The MRI shows the soft tissues inside a patient's body.
+Principle.
+To take an MRI image, the patient lies on a movable bed. The bed enters in a strong magnetic field and then certain atoms in the patient's body make special signals. Then MRI scanner detects that special signals.
+MRI scanner send the signal information to the computer, and computer creates an image of inner body by using the signal information.
+Merit, Demerit.
+The MRI is used to diagnose disorders of the body that are not found on X-rays. The MRI is painless and has the advantage of avoiding X-ray radiation exposure. But it is also too expensive to use, therefore, the point that a person who has any metalic objects in the body can't use this installation. In the past, the pregnant women are not able to use them. But it is available, now.
+Where to use?
+The MRI is also used to study nerves, muscles, bones, and many other tissues in the body.
+When to use?
+An MRI scan can be used as an extremely accurate method of disease detection throughout the body.
+Neurosurgeons use an MRI scan not only in defining brain anatomy but in evaluating the integrity of the spinal cord after trauma. An MRI scan can evaluate the structure of the heart and aorta, where it can detect aneurysms or tears.
+It provides valuable information on glands and organs within the abdomen, and accurate information about the structure of the joints, soft tissues, and bones of the body. Often, surgery can be deferred or more accurately directed after knowing the results of an MRI scan.

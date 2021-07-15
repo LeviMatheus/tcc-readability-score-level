@@ -1,0 +1,4 @@
+eBox Platform is an open source distribution and development framework, based on the Linux operating system, made to manage services in a computer network.
+It offers a layer of abstraction and management, accessible through a simple web interface, and also a simplified development environment for new features or customization.
+eBox is licensed under GPL and started as an open-source, collaborative project of two companies. It also takes part on Morfeo Project. On 16th November 2006 eBox was officially approved as a NEOTEC project, receiving public funds from the CDTI (a Spanish public organisation, under the Ministry of Industry, Commerce and Tourism) to complete the development of version 1.0.
+Ubuntu Gutsy Gibbon Tribe 3 featured eBox as "network services control tool".

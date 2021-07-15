@@ -1,0 +1,5 @@
+
+In telecommunication, a data transmission circuit is the transmission media and the intervening equipment used for the data transfer between data terminal equipment (DTEs). 
+A data transmission circuit includes any required signal conversion equipment. 
+A data transmission circuit may transfer information in (a) one direction only, (b) either direction but one way at a time, or (c) both directions simultaneously. See duplex (telecommunications).
+

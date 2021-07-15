@@ -1,0 +1,2 @@
+A resistor is an electronic component that restricts the flow of current in an electrical or electronic circuit. It is used to control voltage. It can also be used to protect sensitive components from exploding/blowing. The higher resistance, the lower current can be.
+Resistor, electronic component restricting current flow in electrical circuit to control voltage or to protect sensitive components.

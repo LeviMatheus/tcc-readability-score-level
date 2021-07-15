@@ -1,0 +1,12 @@
+An algorithm is a step by step list of directions that need to be followed to solve a problem. The instructions should be simple enough so that each step can be done without thinking about it. Algorithms are often used to describe how a computer might solve a problem. But there are algorithms in the real world too. A recipe can be a type of algorithm. It tells what ingredients are needed to make the dish and what steps to follow. If the recipe tells exactly what to do without too much confusion, then it is an algorithm.
+Comparing Algorithms.
+There is usually more than one way to solve a problem, there may be many different recipes to make a certain dish which look different but end up tasting the same when all is said and done. The same is true for algorithms. However, some of these ways will be better than others. If a recipe needs lots of complicated ingredients that you do not have, it is not as a good as a simple recipe.
+When we look at algorithms as a way of solving problems, often we want to know how long it would take a computer to solve the problem using a particular algorithm. When we write algorithms, we like our algorithm to take the least amount of time so that we can solve our problem as quickly as possible.
+In cooking, some recipes are harder to do than others, because they take more time to finish or have more things to keep track of.
+It's the same for algorithms, and algorithms are better when they are easier for the computer to do. The thing that measures how
+hard an algorithm is is called "complexity". When we ask how complex an algorithm is, often we want to know how long it will take a computer to solve the problem we want it to solve.
+Sorting by numbers.
+This is an example of an algorithm for sorting a stack of cards with many different numbers, so that the numbers are in order.
+Putting algorithms together.
+If players have cards with colors and numbers on them, they can sort them by color and number if they do the "sorting by colors" algorithm, then do the "sorting by numbers" algorithm to each colored stack, then put the stacks together.
+The sorting by numbers algorithm is harder to do than the sorting by colors algorithm, because they may have to do the steps again many times. They would say that sorting by numbers is more "complex".

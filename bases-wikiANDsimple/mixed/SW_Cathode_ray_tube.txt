@@ -1,0 +1,4 @@
+The cathode ray tube or CRT was invented by Karl Ferdinand Braun. It is the display device that was used in most computer monitors and televisions before LCD and plasma screens started being used.
+A cathode ray tube is an electron gun. It is a vacuumed glass container with a cathode (an electrode with negative charge) at one end. The heater is like a light bulb. It heats up and gives out electrons. The cathode repels the electrons towards the screen because they have the same charge. The anodes attract and speed the electrons up because they have the opposite charge.
+When these electrons hit the phosphor screen, they cause that small part of the screen to light up. The 4 plates move the electrons up, down, left and right onto a spot on the screen.
+CRTs can also be used as particle accelerators.

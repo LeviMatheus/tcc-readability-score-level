@@ -1,0 +1,2 @@
+A Probability distribution is a term from mathematics. Suppose there are many events with random outcomes. A probability distribution is the theoretical counterpart to the frequency distribution. A frequency distribution simply shows how many times a certain event occurred. A probability distribution says how many times it should have occurred.
+There are different probablility distributions. Each of them has its use, its benefits and its drawbacks.

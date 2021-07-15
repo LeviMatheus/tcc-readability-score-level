@@ -1,0 +1,3 @@
+The melting point of a substance is the temperature at which this substance goes from the solid state to the liquid one, at a normal pressure.
+When looking at when a liquid substance becomes solid, most people call this the freezing point. For most substances, like water, this is the same as the melting point. There are substances, where this is not the case (they melt at one temperature, and freeze at another). Agar seems to melt at 85° Celsius, but freeze at between 35°C and 40°C. Physicists call this phenomenon hysteresis.
+For water, this is 0° Celsius (32 Fahrenheit,273,15 Kelvin).

@@ -1,0 +1,2 @@
+Cascading Style Sheets, or CSS, are a means to style HTML and XHTML web pages, like you are seeing now. CSS was designed by the W3C, and is supported well by most modern web browsers.
+One advantage to using CSS is a web page can still be displayed and understood, even if the CSS is not working or removed.

@@ -1,0 +1,11 @@
+C++ (pronounced "see plus plus") is a computer programming language. It has been created for writing programs for many different purposes. In the 1990s, C++ became one of the most used programming languages.
+The C++ programming language was developed by Bjarne Stroustrup at Bell Labs in the 1980s.
+It was originally named "C with classes". The language was planned as a better version of the
+C programming language and it added features like object-oriented programming. Step by
+step, a lot of advanced features were added to the language, like operator overloading,
+exception handling and templates.
+The name can be explained like this: In C and C++, the command "x"++ adds 1 to the value of "x". So the name C++ is a play on that, because of the enhancements made to C.
+Example.
+The following text is C++ source code and it will write the words "Hello World!" to the screen when it has been compiled and is executed.
+It is an object oriented programming language. Actually it is the object oriented extension of C, another programming language. Today this language is used to write mainly system programs and also application programs.
+C++ is faster than Java, which is a pure object oriented programming language. But Java is easier to code than C++.

@@ -1,0 +1,5 @@
+
+In telecommunication, FCC registration program is the Federal Communications Commission (FCC) program and associated directives intended to assure that all connected terminal equipment and protective circuitry will not harm the public switched telephone network or certain private line services. 
+"Note 1:" The FCC registration program requires the registering of terminal equipment and protective circuitry in accordance with Subpart C of part 68, Title 47 of the "Code of Federal Regulations." This includes the assignment of identification numbers to the equipment and the testing of the equipment. 
+"Note 2:" The FCC registration program contains no requirement that accepted terminal equipment be compatible with, or function with, the network. 
+

@@ -1,0 +1,29 @@
+The International System of Units is the international standard form of the metric system today. SI is the short name for this from the French language phrase "Système International d'unités".
+The metric system is a system of measuring based on the metre for length, distance or displacement, kilogram for mass, and second for time.
+The metre, kilogram and second can be used in combination with each other. This will make different units of measurement to mean other amounts, such as volume, energy, pressure, and velocity.
+Sometimes we want to talk about larger or smaller measurements. Then we add a prefix. A prefix is something to the beginning of a word to make a word. The prefix "kilo-" means "1000" and the prefix "milli-" means "0.001". So one "kilometre" is 1000 metres and one "milligram" is a 1000th of a gram. These prefixes are shown in the table on the right side.
+History and use.
+These were created in France after the French Revolution.
+They are now used almost everywhere in the world, apart from the United States, Liberia and Myanmar, where the older imperial units are still widely employed. Varios other countries, most of them historically related to the British Empire, are in different stages of the process of introduction of the metric system as replacement for or as an addition to the use of the imperial system.
+Even the United Kingdom, which created the old US units of measurement, is now generally using the metric system alongside the imperial system. There is even pressure to become more metric, both as a result of UK government plans dating before Britain's entry into the European Union and because of EU rules regarding common systems of measurement.
+Base units of measurement.
+The SI base units are measurements used by scientists and other people around the world. All the other units can be written by combining these seven base units in different ways. These other units are called "derived units".
+Length ("l").
+Unit: metre or meter (m)
+One metre is defined as the distance light travels in a vacuum in 1/299,792,458 second. This standard was adopted in 1983 when the speed of light in vacuum was defined to be precisely 299,792,458 m/s.
+Mass ("m").
+One kilogram is defined to be the mass of a specific cylinder of platinum-iridium alloy. It is kept at the International Bureau of Weights and Measures near Paris. There is an ongoing effort to introduce a definition using other basic or atomic constants.
+Time ("t").
+One second is defined as the time required for 9,192,631,770 periods of the radiation between to two specific energy levels of the element caesium-133. This definition was adopted in 1967.
+Electric flow ("I").
+The ampere is that constant electrical current (or flow) which, if maintained in two straight parallel conductors of infinite length, of negligible circular cross-section, and placed one metre apart in vacuum, would produce between these conductors a force equal to 2 × 10-7 newton per metre of length.
+The ampere is one of two base units (the other being the candela) that uses derived units in its definition, not just base units. One newton is 1 kg m s-2.
+Temperature ("T").
+The kelvin, unit of temperature, is the fraction 1/273.16 of the thermodynamic temperature of the triple point of water. It is named after Lord Kelvin.
+Amount of substance ("n").
+Unit: mole (mol)
+Luminous intensity (brightness of light) ("I").
+The candela is the luminous intensity (brightness), in a given direction, of a source that emits monochromatic radiation of frequency 540 × 1012 hertz and that has a radiant intensity in that direction of 1/683 watt per steradian.
+The candela is one of two base units (the other being the ampere) that uses derived units in its definition, not just base units. One hertz is 1 s-1, one watt is 1 J s-1 = 1 kg m2 s-2 and the steradian is the solid angle subtended at the centre of a sphere of radius "r" by a portion of the surface of the sphere having an area "r"2.
+Derived units with special names.
+There are also derived units which have special names. Usually these were made to make calculating simpler.

@@ -1,0 +1,1 @@
+ADOM (Ancient Domains of Mystery) is a computer game. More specifically, it's a Roguelike. This means that every time a player start a new game, the world is randomly created.

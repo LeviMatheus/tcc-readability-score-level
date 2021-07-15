@@ -1,0 +1,1 @@
+A kernel is the central part of an operating system. It manages the tasks of the computer, that is, which part to do the task.

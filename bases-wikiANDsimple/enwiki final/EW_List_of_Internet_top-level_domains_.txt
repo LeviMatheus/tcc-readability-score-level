@@ -1,0 +1,15 @@
+
+This list of Internet top-level domains (TLD) contains top-level domains, which are those domains in the DNS root zone of the Domain Name System of the Internet. A list of the top-level domains by the Internet Assigned Numbers Authority (IANA) is maintained at the Root Zone Database. IANA also oversees the approval process for new proposed top-level domains for ICANN. , their root domain contains 1502 top-level domains. , the IANA root database includes 1589 TLDs. That also includes 68 that are not assigned (revoked), 8 that are retired and 11 test domains. Those are not represented in IANA's listing and are not in root.zone file (root.zone file also includes one root domain).
+Types.
+IANA distinguishes the following groups of top-level domains:
+Original top-level domains.
+Seven generic top-level domains were created early in the development of the Internet, and predate the creation of ICANN in 1998.
+Country code top-level domains.
+As of 20 May 2017, there were 255 country-code top-level domains, purely in the Latin alphabet, using two-character codes. , this number is 316, with the addition of internationalized domains.
+Proposed internationalized ccTLDs.
+Internationalised domain names have been proposed for Japan and Libya.
+Internationalized generic top-level domains.
+All of these TLDs are internationalized domain names (IDN) and support second-level IDNs.
+Special-Use Domains.
+ICANN/IANA has created some Special-Use domain names which are meant for special technical purposes. ICANN/IANA owns all of the Special-Use domain names.
+

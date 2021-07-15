@@ -1,0 +1,102 @@
+
+In physics (in particular in statistical mechanics), the Maxwell–Boltzmann distribution is a particular probability distribution named after James Clerk Maxwell and Ludwig Boltzmann.
+It was first defined and used for describing particle speeds in idealized gases, where the particles move freely inside a stationary container without interacting with one another, except for very brief collisions in which they exchange energy and momentum with each other or with their thermal environment. The term "particle" in this context refers to gaseous particles only (atoms or molecules), and the system of particles is assumed to have reached thermodynamic equilibrium. The energies of such particles follow what is known as Maxwell–Boltzmann statistics, and the statistical distribution of speeds is derived by equating particle energies with kinetic energy.
+Mathematically, the Maxwell–Boltzmann distribution is the chi distribution with three degrees of freedom (the components of the velocity vector in Euclidean space), with a scale parameter measuring speeds in units proportional to the square root of formula_8 (the ratio of temperature and particle mass).
+The Maxwell–Boltzmann distribution is a result of the kinetic theory of gases, which provides a simplified explanation of many fundamental gaseous properties, including pressure and diffusion. The Maxwell–Boltzmann distribution applies fundamentally to particle velocities in three dimensions, but turns out to depend only on the speed (the magnitude of the velocity) of the particles. A particle speed probability distribution indicates which speeds are more likely: a particle will have a speed selected randomly from the distribution, and is more likely to be within one range of speeds than another. The kinetic theory of gases applies to the classical ideal gas, which is an idealization of real gases. In real gases, there are various effects (e.g., van der Waals interactions, vortical flow, relativistic speed limits, and quantum exchange interactions) that can make their speed distribution different from the Maxwell–Boltzmann form. However, rarefied gases at ordinary temperatures behave very nearly like an ideal gas and the Maxwell speed distribution is an excellent approximation for such gases. Ideal plasmas, which are ionized gases of sufficiently low density, frequently also have particle distributions that are partially or entirely Maxwellian.
+The distribution was first derived by Maxwell in 1860 on heuristic grounds. Boltzmann later, in the 1870s, carried out significant investigations into the physical origins of this distribution.
+The distribution can be derived on the ground that it maximizes the entropy of the system. A list of derivations are:
+Distribution function.
+Assuming the system of interest contains a large number of particles, the fraction of the particles within an infinitesimal element of three-dimensional velocity space, formula_10, centered on a velocity vector of magnitude formula_11, is formula_12, in which
+where formula_14 is the particle mass, formula_15 is the Boltzmann's constant, and formula_16 thermodynamic temperature.
+One can write the element of velocity space as dformula_17 = dformula_18dformula_19dformula_20, for velocities in a standard Cartesian coordinate system, or as dformula_17 = formula_22dformula_11dformula_24 in a standard spherical coordinate system, where dformula_24 is an element of solid angle. Here formula_26 is given as a probability distribution function, properly normalized so that formula_27dformula_17 over all velocities equals one. In plasma physics, the probability distribution is often multiplied by the particle density, so that the integral of the resulting distribution function equals the density.
+The Maxwellian distribution function for particles moving in only one direction, if this direction is formula_29, is
+which can be obtained by integrating the three-dimensional form given above over formula_19 and formula_20.
+Recognizing the symmetry of formula_26, one can integrate over solid angle and write a probability distribution of speeds as the function
+This probability density function gives the probability, per unit speed, of finding the particle with a speed near formula_11. This equation is simply the Maxwell–Boltzmann distribution (given in the infobox) with distribution parameter formula_36. 
+The Maxwell–Boltzmann distribution is equivalent to the chi distribution with three degrees of freedom and scale parameter formula_36.
+The simplest ordinary differential equation satisfied by the distribution is:
+or in unitless presentation:
+With the Darwin–Fowler method of mean values, the Maxwell–Boltzmann distribution is obtained as an exact result.
+Relation to the 2D Maxwell–Boltzmann distribution.
+For particles confined to move in a plane, the speed distribution is given by
+formula_42
+This distribution is used for describing systems in equilibrium. However, most systems do not start out in their equilibrium state. The evolution of a system towards its equilibrium state is governed by the Boltzmann equation. The equation predicts that for short range interactions, the equilibrium velocity distribution will follow a Maxwell–Boltzmann distribution. To the right is a molecular dynamics (MD) simulation in which 900 hard sphere particles are constrained to move in a rectangle. They interact via perfectly elastic collisions. The system is initialized out of equilibrium, but the velocity distribution (in blue) quickly converges to the 2D Maxwell–Boltzmann distribution (in orange).
+Typical speeds.
+The mean speed formula_43, most probable speed (mode) , and root-mean-square speed formula_44 
+can be obtained from properties of the Maxwell distribution.
+This works well for nearly ideal, monatomic gases like helium, but also for molecular gases like diatomic oxygen. 
+This is because despite the larger heat capacity (larger internal energy at the same temperature) due to their larger number of degrees of freedom, their translational kinetic energy (and thus their speed) is unchanged.
+ \left(\frac{mv^2}{2kT}-1\right) = 0&lt;/math&gt;
+with the solution:
+ is the gas constant and is molar mass of the substance, and thus may be calculated as a product of particle mass, , and Avogadro constant, :
+For diatomic nitrogen (N2, the primary component of air) 
+at room temperature (), this gives 
+In summary, the typical speeds are related as follows:
+The root mean square speed is directly related to the speed of sound in the gas, by
+where formula_63 is the adiabatic index, is the number of degrees of freedom of the individual gas molecule. For the example above, diatomic nitrogen (approximating air) at , formula_64 and
+the true value for air can be approximated by using the average molar weight of air (), yielding 
+ at (corrections for variable humidity are of the order of 0.1% to 0.6%).
+The average relative velocity
+where the three-dimensional velocity distribution is
+The integral can easily be done by changing to coordinates formula_68 and formula_69
+Derivation and related distributions.
+Maxwell–Boltzmann statistics.
+The original derivation in 1860 by James Clerk Maxwell was an argument based on molecular collisions of the Kinetic theory of gases as well as certain symmetries in the speed distribution function; Maxwell also gave an early argument that these molecular collisions entail a tendency towards equilibrium. After Maxwell, Ludwig Boltzmann in 1872 also derived the distribution on mechanical grounds and argued that gases should over time tend toward this distribution, due to collisions (see H-theorem). He later (1877) derived the distribution again under the framework of statistical thermodynamics. The derivations in this section are along the lines of Boltzmann's 1877 derivation, starting with result known as Maxwell–Boltzmann statistics (from statistical thermodynamics). Maxwell–Boltzmann statistics gives the average number of particles found in a given single-particle microstate. Under certain assumptions, the logarithm of the fraction of particles in a given microstate is proportional to the ratio of the energy of that state to the temperature of the system:
+The assumptions of this equation are that the particles do not interact, and that they are classical; this means that each particle's state can be considered independently from the other particles' states. Additionally, the particles are assumed to be in thermal equilibrium.
+This relation can be written as an equation by introducing a normalizing factor:
+where:
+The denominator in Equation () is simply a normalizing factor so that the ratios formula_71 add up to unity — in other words it is a kind of partition function (for the single-particle system, not the usual partition function of the entire system).
+Because velocity and speed are related to energy, Equation () can be used to derive relationships between temperature and the speeds of gas particles. All that is needed is to discover the density of microstates in energy, which is determined by dividing up momentum space into equal sized regions.
+Distribution for the momentum vector.
+The potential energy is taken to be zero, so that all energy is in the form of kinetic energy.
+The relationship between kinetic energy and momentum for massive non-relativistic particles is
+where "p"2 is the square of the momentum vector 
+p = ["p""x", "p""y", "p""z"]. We may therefore rewrite Equation () as:
+where "Z" is the partition function, corresponding to the denominator in Equation (). Here "m" is the molecular mass of the gas, "T" is the thermodynamic temperature and "k" is the Boltzmann constant. This distribution of formula_71 is proportional to the probability density function "f"p for finding a molecule with these values of momentum components, so:
+The normalizing constant can be determined by recognizing that the probability of a molecule having "some" momentum must be 1.
+Integrating the exponential in () over all "p""x", "p""y", and "p""z" yields a factor of 
+So that the normalized distribution function is:
+The distribution is seen to be the product of three independent normally distributed variables formula_74, formula_75, and formula_76, with variance formula_77. Additionally, it can be seen that the magnitude of momentum will be distributed as a Maxwell–Boltzmann distribution, with formula_78.
+The Maxwell–Boltzmann distribution for the momentum (or equally for the velocities) can be obtained more fundamentally using the H-theorem at equilibrium within the Kinetic theory of gases framework.
+Distribution for the energy.
+The energy distribution is found imposing
+where formula_79 is the infinitesimal phase-space volume of momenta corresponding to the energy interval formula_80.
+Making use of the spherical symmetry of the energy-momentum dispersion relation formula_81,
+this can be expressed in terms of formula_80 as
+Using then () in (), and expressing everything in terms of the energy formula_83, we get
+and finally
+ \left( \frac{1}{kT} \right)^{3/2} \exp\left(\frac{-E}{kT} \right)&lt;/math&gt;
+Since the energy is proportional to the sum of the squares of the three normally distributed momentum components, this energy distribution can be written equivalently as a gamma distribution, using a shape parameter, formula_85 and a scale parameter, formula_86.
+Using the equipartition theorem, given that the energy is evenly distributed among all three degrees of freedom in equilibrium, we can also split formula_87 into a set of chi-squared distributions, where the energy per degree of freedom, formula_88, is distributed as a chi-squared distribution with one degree of freedom,
+At equilibrium, this distribution will hold true for any number of degrees of freedom. For example, if the particles are rigid mass dipoles of fixed dipole moment, they will have three translational degrees of freedom and two additional rotational degrees of freedom. The energy in each degree of freedom will be described according to the above chi-squared distribution with one degree of freedom, and the total energy will be distributed according to a chi-squared distribution with five degrees of freedom. This has implications in the theory of the specific heat of a gas.
+The Maxwell–Boltzmann distribution can also be obtained by considering the gas to be a type of quantum gas for which the approximation "ε » k T" may be made.
+Distribution for the velocity vector.
+Recognizing that the velocity probability density "f"v is proportional to the momentum probability density function by
+and using p = mv we get
+which is the Maxwell–Boltzmann velocity distribution. The probability of finding a particle with velocity in the infinitesimal element ["dv""x", "dv""y", "dv""z"] about velocity v = ["v""x", "v""y", "v""z"] is
+Like the momentum, this distribution is seen to be the product of three independent normally distributed variables formula_18, formula_19, and formula_20, but with variance formula_95.
+It can also be seen that the Maxwell–Boltzmann velocity distribution for the vector velocity
+["v""x", "v""y", "v""z"] is the product of the distributions for each of the three directions:
+where the distribution for a single direction is
+Each component of the velocity vector has a normal distribution with mean formula_98 and standard deviation formula_99, so the vector has a 3-dimensional normal distribution, a particular kind of multivariate normal distribution, with mean formula_100 and covariance formula_101, where formula_102 is the formula_103 identity matrix.
+Distribution for the speed.
+The Maxwell–Boltzmann distribution for the speed follows immediately from the distribution of the velocity vector, above. Note that the speed is
+and the volume element in spherical coordinates
+where formula_106 and formula_107 are the spherical coordinate angles of the velocity vector. Integration of the probability density function of the velocity over the solid angles formula_108 yields an additional factor of formula_109.
+The speed distribution with substitution of the speed for the sum of the squares of the vector components:
+In "n"-dimensional space.
+In "n"-dimensional space, Maxwell–Boltzmann distribution becomes:
+formula_110
+Speed distribution becomes:
+formula_111
+The following integral result is useful:
+formula_112
+where formula_113 is the Gamma function. This result can be used to calculate the moments of speed distribution function:
+formula_114
+which is the mean speed itself formula_115.
+formula_116
+which gives root-mean-square speed formula_117.
+The derivative of speed distribution function:
+formula_118
+This yields the most probable speed (mode) formula_119.
+

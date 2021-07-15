@@ -1,0 +1,4 @@
+Phishing is a way that criminals get sensitive information (like usernames or passwords). It is a method of social engineering. Very often, phishing is done by electronic mail. This mail appears to come from a bank or other service provider. It usually says that because of some change in the system, the users need to re-enter their usernames/passwords to confirm them. The users usually have a link to a page that looks almost like that of the real bank.
+Phishing allows criminals to get access to bank accounts, or other accounts like shopping, auction or gaming accounts. It can also be used for identity theft.
+Phishing grew by 42% in January of 2005: 8,829 E-mails with phishing were sent in December of 2004 but that grew to 12,845 by end of January 2005.
+The number of web pages with phishing grew from 1,740 to 2,560 in the same period.

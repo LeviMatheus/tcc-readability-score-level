@@ -1,0 +1,4 @@
+In programming languages, an array is a way of storing several items (such as integers). These items must have the same type (only integers, only strings...) because an array can't store different items. Every item in an array has a number so the programmer can get the item by using that number. This number is called the "index". In some programming languages, the first item has index 0, the second item has index 1 and so on. But in some languages, the first item has index 1 (and then 2, 3...).
+When the programmer creates an array, he/she must give the size of the array. This is the number of items that can be stored in the array. If the programmer wants to store more items then he/she must create a new array. This is because the size of an array can't be changed.
+Arrays in Java.
+int k = 3 + array[3]; // k is now 3 + 33 = 36

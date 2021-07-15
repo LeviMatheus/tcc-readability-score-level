@@ -1,0 +1,15 @@
+
+The PDP-7 was a minicomputer produced by Digital Equipment Corporation as part of the PDP series. Introduced in 1964, shipped since 1965, it was the first to use their Flip-Chip technology. With a cost of , it was cheap but powerful by the standards of the time. The PDP-7 is the third of Digital's 18-bit machines, with essentially the same instruction set architecture as the PDP-4 and the PDP-9.
+Hardware.
+The PDP-7 was the first wire-wrapped PDP. The computer had a memory cycle time of and an add time of . I/O included a keyboard, printer, paper-tape and dual transport DECtape drives (type 555). The standard memory capacity was but expandable up to 
+The PDP-7 weighed about .
+Software.
+DECsys, the first operating system for DEC's 18-bit computer family (and DEC's first operating system for a computer smaller than its 36-bit timesharing systems), was introduced in 1965. It provided an interactive, single user, program development environment for Fortran and assembly language programs.
+In 1969, Ken Thompson wrote the first UNIX system in assembly language on a PDP-7, then named Unics as a pun on Multics, as the operating system for "Space Travel", a game which requires graphics to depict the motion of the planets. A PDP-7 was also the development system used during the development of MUMPS at MGH in Boston a few years earlier.
+Sales.
+The PDP-7 was described as "highly successful." A combined total of 120 of the PDP-7 and PDP-7A were sold. A DEC publication states that the first units shipped to customers in November 1964.
+Eleven systems were shipped to the UK.
+Restorations.
+At least four PDP-7s were confirmed to still exist as of 2011 and a fifth was discovered in 2017.
+A PDP-7A (S#115) was under restoration in Oslo, Norway; a second PDP-7A (S#113) previously located at the University of Oregon in its Nuclear Physics laboratory is now at the Living Computer Museum in Seattle, Washington and is completely restored to running condition after being disassembled for transport; Another PDP-7 (S#47) is known to be in the collection of Max Burnet near Sydney, Australia, a fourth PDP-7 (S#33) is in storage at the Computer History Museum in Mountain View, California and a fifth PDP-7 (S#129) belonging to Fred Yerian is also located at the Museum, and has been demonstrated running Unix version 0 and compiling a B program.
+

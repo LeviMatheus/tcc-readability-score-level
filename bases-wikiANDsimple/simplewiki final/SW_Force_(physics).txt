@@ -1,0 +1,8 @@
+In physics, force is what changes or tends to change a state of rest or motion in an object. Force causes objects to accelerate, add to the object's overall pressure, or change direction. Force is measured in Newtons (N).
+where formula_2 is the force,
+formula_3 is the mass of an object,
+and formula_4 is the acceleration of the object.
+where formula_7 is the weight of an object,
+formula_3 is the mass of an object,
+and formula_9 is the acceleration due to gravity at sea level. It is about formula_10.
+Force is a vector, so it has both a magnitude and a direction.

@@ -1,0 +1,6 @@
+
+A Compatible sideband transmission, also known as amplitude modulation equivalent (AME) or Single sideband reduced-carrier (SSB-RC), is a type of single sideband RF modulation in which the carrier is deliberately reinserted at a lower level after its normal suppression to permit reception by conventional AM receivers. The general convention is to filter the lower-sideband, and communicate using only the upper-sideband and a partial carrier. 
+The benefits of compatible-sideband over conventional AM are increased spectral efficiency due to a reduction in bandwidth of 50% as well as a decrease in wasted power. 
+By using compatible sideband instead of AM, less RF power is required at the transmitter to transmit the same quality of signal the same distance. This results in compatible sideband being almost 100% power-efficient, where regular AM is comparably only 16% power-efficient (84% of RF power wasted). 
+This modulation is currently mostly used in high frequency military communications.
+

@@ -1,0 +1,3 @@
+An elastic modulus, or modulus of elasticity, is the mathematical description of an object or substance's tendency to be deformed elastically (i.e. non-permanently) when a force is applied to it.
+where λ is the elastic modulus; stress is the force that causes the deformation divided by the area to which the force is applied; and strain is the ratio of the change caused by the stress to the original state of the object.
+If one specifies how stress and strain are to be measured, that allows for many types of elastic moduli to be defined.

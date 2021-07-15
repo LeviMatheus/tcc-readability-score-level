@@ -1,0 +1,8 @@
+
+In metadata, the term data element is an atomic unit of data that has precise meaning or precise semantics. A data element has:
+Data elements usage can be discovered by inspection of software applications or application data files through a process of manual or automated Application Discovery and Understanding. Once data elements are discovered they can be registered in a metadata registry.
+In telecommunication, the term data element has the following components:
+In the areas of databases and data systems more generally a data element is a concept forming part of a data model. As an element of data representation, a collection of data elements forms a data structure.
+In practice.
+In practice, data elements (fields, columns, attributes, etc.) are sometimes "overloaded", meaning a given data element will have multiple potential meanings. While a known bad practice, overloading is nevertheless a very real factor or barrier to understanding what a system is doing.
+

@@ -1,0 +1,52 @@
+
+Novial is a constructed international auxiliary language (IAL) for universal communication between speakers of different native languages. It was devised by Otto Jespersen, a Danish linguist who had been involved in the Ido movement, and later in the development of Interlingua.
+Its vocabulary is based largely on the Germanic and Romance languages and its grammar is influenced by English.
+Novial was introduced in Jespersen's book "An International Language" in 1928. It was updated in his dictionary "Novial Lexike" in 1930, and further modifications were proposed in the 1930s, but the language became dormant with Jespersen's death in 1943. In the 1990s, with the revival of interest in constructed languages brought on by the Internet, some people rediscovered Novial.
+Phonology.
+Stress.
+The basic rule is: stress the vowel before the last consonant. However, consonantal flexional endings (ie. -d, -m, -n, -s) do not count for this (eg. "bóni" but "bónim", not "boním"; "apérta" but "apértad", not "apertád") so perhaps it is better to say that the vowel before the final consonant of the stem takes the stress.
+Orthography.
+The digraphs "ch" and "sh" represent or , depending on the speaker. For example, "chokolate" would be pronounced either or .
+Grammar.
+Like many constructed IALs, Novial has a simple and regular grammar. The main word order is SVO, which removes the need for marking the object of a sentence with accusative (since the position normally tells what word is the object). There is however a way to mark accusative. There is no grammatical gender (but the sex or gender of referrents can be marked). Verbs are not conjugated according to person or number, and have a regular conjugation.
+Nouns mainly end in e, a, o, u or um in singular. There is definite forms of nouns marked with an article, and singular and plural forms, where plural is marked with the suffix -s after vowels or -es after consonants. There is also a form for indefinite number (like in Mandarin chinese and Japanese, for example), expressed by removing the ending of the noun in singular ("leone" – lion, "leon es kruel" – a/the lion is cruel, or lions are cruel).
+If a noun refers to a living being, then the form ending in -e is neutral in regards to sex, the one ending in -a female, and the one ending in -o male. If the noun is based on an adjective, nouns referring to living beings can be made with the previously mentioned rule, and furthermore nouns referring to concrete objects with -u, and abstractions with -um. The third person pronouns follows the same rule, together with the definite article.
+In the case of a noun that refers to an instrument – a tool or a means – the word that ends in -e is the tool or the means itself, -a the verb describing usage of the tool and so on, and -o the noun describing the act of that using:
+Personal pronouns, subject and object.
+The standard word order in Novial is subject-verb-object, as in English. Therefore, the object need not be marked to distinguish it from the subject, and nominative (I, he, she and so on) and oblique (me, him, her) pronouns are identical:
+The accusative (direct object) is therefore most often identical to the nominative (subject). However, in case of an ambiguity problem, an optional accusative ending, -m (-em after a consonant), is available but is rarely used. The preposition em is equivalent to this ending.
+The personal possessive adjectives are formed from the pronouns by adding -n or after a consonant -en. This is in fact the genitive (possessive) of the pronoun so "men" means both "my" and "mine" ("of me"):
+The possessive pronouns are thus men, vun, len etc., lun and nusen, vusen, lesen etc. and lusen. Possession may also be expressed with the preposition de: "de me", "de vu", and so on.
+The reflexive pronoun is se: "lo admira se" – he admires himself. The impersonal pronoun one (one/they/you) is on, with the possesive form onen.
+Verbs.
+Verb forms never change with person or number. Most verb tenses, moods and voices are expressed with auxiliary verbs preceding the root form of the main verb. The auxiliaries follow the same word order as the English equivalent. The following phrases give examples of the verb forms:
+Novial clearly distinguishes the passive of becoming and the passive of being. In English the forms are often the same, using the auxiliary verb "to be" followed by the past participle. However, the passive of becoming is also often expressed with the verb "to get" which is used in the examples below.
+The passive voice of becoming is formed with the auxiliary bli followed by the root verb form. It can then be conjugated into the previously mentioned forms, for example:
+The passive voice of being is formed with the auxiliary es followed by the past passive participle (stem + -t). For example:
+Articles.
+The definite article is "li" which is invariant. It is used as in English.
+There is no indefinite article, although "un" (one) can be used.
+Nouns.
+The plural noun is formed by adding –s to the singular (-es after a consonant).
+The accusative case is generally identical to the nominative but can optionally be marked with the ending -m (-em after a consonant) with the plural being -sem (-esem after a consonant) or with the preposition em.
+The genitive is formed with the ending -n (-en after a consonant) with the plural being -sen (-esen after a consonant) or with the preposition de.
+Other cases are formed with prepositions.
+Adjectives.
+All adjectives end in -i, but this may be dropped if it is easy enough to pronounce and no confusion will be caused. Adjectives precede the noun qualified. Adjectives do not agree with the noun but may be given noun endings if there is no noun present to receive them.
+Comparative adjectives are formed by placing various particles ("plu, tam," and "min") in front of the adjective receiving the comparison. Likewise, the superlative particles ("maxim" and "minim") precede the adjective. The adjective does not receive an inflection to its ending.
+Adverbs.
+An adjective is converted to a corresponding adverb by adding -m after the -i ending of the adjective.
+Comparative and superlative adverbs are formed in the same manner as comparative and superlative adjectives: by placing a specific particle before the adverb receiving the comparison.
+Vocabulary.
+Affixes.
+See the and at the Novial Wikibook.
+Novial compared to Esperanto and Ido.
+Jespersen was a professional linguist, unlike Esperanto's creator. He disliked the arbitrary and artificial character that he found in Esperanto and Ido. Additionally, he objected to those languages' inflectional systems, which he found needlessly complex. He sought to make Novial at once euphonious and regular while also preserving useful structures from natural languages.
+In Novial:
+A major difference between Novial and Esperanto/Ido concerns noun endings. Jespersen rejected a single vowel to terminate all nouns (-o in Esperanto/Ido), finding it unnatural and potentially confusing. Instead, Novial nouns may end in "-o", "-a", "-e", or "-u" or "-um". These endings may be taken to indicate natural sex according to the custom in Romance languages. Also there is no grammatical gender or requirement for adjectives to agree with nouns.
+Language sample for comparison.
+Here is the Lord's Prayer in Novial and several related languages:
+Criticism.
+As Jespersen relates in his autobiography, in 1934 he proposed an orthographic reform to Novial, which displeased a part of the users. Jespersen abandoned the essential principle of "one sound, one letter" :
+Some of Jespersen's colleagues among philologists jokingly referred to Novial as "Jesperanto", combining his surname with Esperanto, the prototypical auxiliary language.
+

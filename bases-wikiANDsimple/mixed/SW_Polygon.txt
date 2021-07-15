@@ -1,0 +1,3 @@
+A polygon is a closed two-dimensional shape. It usually has three sides/corners or more. It has a number of edges. These edges are connected by lines. A square is a polygon because it has four sides. The smallest possible polygon in a Euclidean geometry or "flat geometry" is the triangle, but on a sphere, there can be a digon. The monogon is a theoretical figure that cannot exist - it has only one side and one edge.
+If the edges (lines of the polygon) do not intersect (cross each other), the polygon is called "simple", otherwise it is "complex".
+In computer graphics, polygons (especially triangles) are often used to make graphics.

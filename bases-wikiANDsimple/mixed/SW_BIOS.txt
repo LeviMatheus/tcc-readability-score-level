@@ -1,0 +1,3 @@
+BIOS, in computing, stands for Basic Input/Output System also incorrectly known as Basic Integrated Operating System.
+BIOS refers to the software code run by a computer when first powered on. The primary function of BIOS is to prepare the machine so other software programs stored on various media (such as hard drives, floppies, and CDs) can load, execute, and assume control of the computer. This process is known as
+BIOS can also be said to be a coded program embedded on a chip that recognises and controls various devices that make up the computer. The term BIOS is specific to personal computer vendors. Among other classes of computers, the generic terms "boot monitor", "boot loader" or "boot ROM" are commonly used.

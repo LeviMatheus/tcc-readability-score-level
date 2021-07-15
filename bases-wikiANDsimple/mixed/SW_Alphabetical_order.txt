@@ -1,0 +1,8 @@
+Alphabetical order is a way to sort (organize) a list. It makes it easier to find a name or a title in the list. It is done by following the standard (usual) order of letters in an alphabet. Sorting things in English is done using the Roman alphabet. Different languages have different rules for sorting.
+If many words have the same first letter, they are sorted by their second letters.
+After that, the third and fourth letters are used until the whole list is sorted.
+The words a, an and the are ignored. Sometimes they are written at the end, after a comma. Spaces and hyphens (-) are ignored, too.
+Names are usually ordered by Family name, not given name.
+Names are often written with the last names first.
+Numbers can be sorted in two ways. Sometimes, they are listed in order from smallest to largest. This is the normal way to sort numbers.
+Other times, they can be sorted as if they were normal, spelled-out words. This way is often used for numbers in titles.

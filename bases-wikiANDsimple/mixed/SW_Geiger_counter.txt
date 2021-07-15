@@ -1,0 +1,2 @@
+A Geiger counter (sometimes called Geiger-Müller counter) is a dosimeter that can measure ionizing radiation. The tool was developed by Hans Geiger and Ernest Rutherford in 1908. It was improved by Walther Müller in 1928.
+Geiger counters can detect the presence of radiation. Some can also detect the intensity of it, and the angle from which it comes.

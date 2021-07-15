@@ -1,0 +1,2 @@
+Collision detection is a program made into computers to make it able to detect things which may knock into it. When a computer shows two things on the screen, or controls two things in real life (like robots), it does not know that these are solid and can crash into each other.
+It is also called CD (for collision detection) or "interference detection".

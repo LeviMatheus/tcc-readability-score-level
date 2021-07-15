@@ -1,0 +1,5 @@
+
+In computer performance testing, Khornerstone is a multipurpose benchmark from Workstation Labs used in various periodicals such as "UNIX Review".
+The benchmark consists of 22 separate tests, including public domain components (such as Sieve and Dhrystone) as well as proprietary components. Since it contains proprietary components, the source is not free. The results of the 22 tests are normalized, producing a result measured in "Khornerstones".
+The benchmark was introduced in 1986 and was commonly used until the mid-1990s.
+

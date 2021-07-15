@@ -1,0 +1,6 @@
+Obesity is the condition of being much too heavy for ones height. In other words, it means to be highly "overweight". People are called obese when the weight is a threat to their health.
+To know if a person is overweight, the body mass index (BMI) is calculated, by dividing the weight (in kilograms) by the height of the person in meters, squared (multiplied by itself). (This is only meaningful for adults who are fully grown, and should not be used for children.)
+A BMI between 20 and 25 is considered "normal". People with a BMI of 25 or more are said to be overweight; with 30 and above, they are considered obese, and with 35 and above, they are considered "severely obese" (this used to be called "morbidly obese").
+Someone who is 1.75m tall, and has a weight of 80kg, would have a BMI of formula_1. This gives a BMI of 26.12(..) - He or she would therefore be considered overweight.
+Obesity is usually helped by diet (being careful about what food to eat) and exercise.Some people also use weight loss programs. In severe cases, drugs can be given. In very severe cases, weight-loss surgery can be done.
+Obesity can occur for many reasons, the main two are over-eating and genetic inheritance (where the disease is passed on from parent to child and treatment is not available).

@@ -1,0 +1,1 @@
+Dot-matrix printers are printers for computers. They use many small needles (called pins) they push against a ribbon to get text to paper. This is much like a typewriter. Each character is made from a matrix of dots. Today, dot matrix printers are not used by many people anymore. They are still in use where forms (with multiple copies) need to be filled out.

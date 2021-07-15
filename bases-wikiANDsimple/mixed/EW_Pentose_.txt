@@ -1,0 +1,24 @@
+
+In chemistry, a pentose is a monosaccharide (simple sugar) with five carbon atoms. The chemical formula of all pentoses is , and their molecular weight is 150.13 g/mol.
+Pentoses are very important in biochemistry. Ribose is a constituent of RNA, and the related molecule, deoxyribose, is a constituent of DNA. Phosphorylated pentoses are important products of the pentose phosphate pathway, most importantly ribose 5-phosphate (R5P), which is used in the synthesis of nucleotides and nucleic acids, and erythrose 4-phosphate (E4P), which is used in the synthesis of aromatic amino acids.
+Like some other monosaccharides, pentoses exist in two forms, open-chain (linear) or closed-chain (cyclic), that easily convert into each other in water solutions. The linear form of a pentose, which usually exists only in solutions, has an open-chain backbone of five carbons. Four of these carbons have one hydroxyl functional group (–OH) each, connected by a single bond, and one has an oxygen atom connected by a double bond (=O), forming a carbonyl group (C=O). The remaining bonds of the carbon atoms are satisfied by six hydrogen atoms. Thus the structure of the linear form is H–(CHOH)"x"–C(=O)–(CHOH)4-"x"–H, where "x" is 0, 1, or 2.
+The term "pentose" sometimes is assumed to include deoxypentoses, such as deoxyribose: compounds with general formula that can be described as derived from pentoses by replacement of one or more hydroxyl groups with hydrogen atoms.
+Classification.
+The aldopentoses are a subclass of the pentoses which, in the linear form, have the carbonyl at carbon 1, forming an aldehyde derivative with structure H–C(=O)–(CHOH)4–H. The most important example is ribose. The ketopentoses have instead the carbonyl at positions 2 or 3, forming a ketone derivative with structure H–CHOH–C(=O)–(CHOH)3–H (2-ketopentose) or H–(CHOH)2–C(=O)–(CHOH)2–H (3-ketopentose). The latter is not known to occur in nature and are difficult to synthesize. 
+In the open form, there are 8 aldopentoses and 4 2-ketopentoses, stereoisomers that differ in the spatial position of the hydroxyl groups. These forms occur in pairs of optical isomers, generally labelled " or " by conventional rules (independently of their optical activity).
+Aldopentoses.
+The aldopentoses have three chiral centers; therefore, eight (23) different stereoisomers are possible.
+Ribose is a constituent of RNA, and the related molecule, deoxyribose, is a constituent of DNA. Phosphorylated pentoses are important products of the pentose phosphate pathway, most importantly ribose 5-phosphate (R5P), which is used in the synthesis of nucleotides and nucleic acids, and erythrose 4-phosphate (E4P), which is used in the synthesis of aromatic amino acids. 
+Ketopentoses.
+The 2-ketopentoses have two chiral centers; therefore, four (22) different stereoisomers are possible. The 3-ketopentoses are rare.
+Cyclic form.
+The closed or cyclic form of a pentose is created when the carbonyl group interacts with an hydroxyl in another carbon, turning the carbonyl into a hydroxyl and creating an ether bridge –O– between the two carbons. This intramolecular reaction yields a cyclic molecule, with a ring consisting of one oxygen atom and usually four carbon atoms; the cyclic compounds are then called furanoses, for having the same rings as the cyclic ether tetrahydrofuran.
+The closure turns the carboxyl carbon into a chiral center, which may have any of two configurations, depending on the position of the new hydroxyl. Therefore, each linear form can produce two distinct closed forms, identified by prefixes "α" and "β". 
+Deoxy pentoses.
+The one deoxypentose has two total steroisomers.
+Properties.
+In the cell, pentoses have a higher metabolic stability than hexoses.
+A polymer composed of pentose sugars is called a pentosan.
+Tests for pentoses.
+The most important tests for pentoses rely on converting the pentose to furfural, which then reacts with a chromophore. In Tollens’ test for pentoses (not to be confused with Tollens' silver-mirror test for reducing sugars) the furfural ring reacts with phloroglucinol to produce a colored compound; in the aniline acetate test with aniline acetate; and in Bial's test, with orcinol. In each of these tests, pentoses react much more strongly and quickly than hexoses.
+

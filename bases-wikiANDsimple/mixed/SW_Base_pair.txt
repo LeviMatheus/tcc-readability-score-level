@@ -1,0 +1,2 @@
+In molecular biology, two nucleotides on opposite complementary DNA or RNA strands that are connected by hydrogen bonds are called a base pair (often abbreviated bp).
+In the "Watson-Crick base pairing", adenine (A) forms a base pair with thymine (T), and guanine (G) with cytosine (C) in DNA. In RNA, thymine is replaced by uracil (U). But there is also non-Watson-Crick base pairing with other hydrogen bonding patterns, especially in RNA.

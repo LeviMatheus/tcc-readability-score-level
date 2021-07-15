@@ -1,0 +1,4 @@
+A Polyhedron (one polyhedron, many "Polyhedra", or "Polyhedrons") is a geometrical shape. It has flat faces, and straight edges. Usually it is defined by the number of faces, or edges.
+Mathematicians do not agree what makes a polyhedron.
+Naming.
+Usually, polyhedra are named by the number of faces they have. The first polyhedra are the tetrahedron, which is made of 4 triangles, pentahedron (5 faces, can look like a 4-sided pyramid), hexahedron (6 faces, usually looks like a cube if it is regular), and heptahedron (7 faces, can look like a prism based on a pentagon, or a pyramid based on a hexagon amongst others).

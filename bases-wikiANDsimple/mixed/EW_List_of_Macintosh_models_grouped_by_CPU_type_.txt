@@ -1,0 +1,47 @@
+
+This list of Macintosh models grouped by CPU type contains all central processing units (CPUs) used by Apple Inc. for their Macintosh computers. It is grouped by processor family, processor model, and then chronologically by Macintosh models.
+Motorola 68k.
+Motorola 68000.
+The Motorola 68000 was the first Apple Macintosh processor. It had 32-bit CPU registers, a 24-bit address bus, and a 16-bit data path; Motorola referred to it as a "16–/32-bit microprocessor."&lt;ref "16/32"&gt;&lt;/ref&gt;
+Motorola 68020.
+The Motorola 68020 was the first 32-bit Mac processor, first used on the Macintosh II. The 68020 had many improvements over the 68000, including an instruction cache, and was the first Mac processor to support a memory management unit, the Motorola 68851.
+The Macintosh LC configured the 68020 to use a 16-bit system bus with ASICs that limited RAM to 10 MB (as opposed to the 32-bit limit of 4 GB).
+Motorola 68030.
+The Motorola 68030 was the first Mac processor with an integrated memory management unit, allowing for virtual memory. Another improvement over the 68020 was the addition of a data cache.
+Motorola 68040.
+The Motorola 68040 had improved per-clock performance compared to the 68030, as well as larger instruction and data caches, and was the first Mac processor with an integrated floating-point unit.
+The MC68LC040 version was less expensive because it omitted the floating-point unit.
+PowerPC.
+PowerPC 601.
+The PowerPC 601 was the first Mac processor to support the 32-bit PowerPC instruction set architecture.
+PowerPC 604.
+The PowerPC 604e was the first Mac processor available in a symmetric multiprocessing (SMP) configuration.
+PowerPC G4.
+The PowerPC 7400 was the first Mac processor to include an AltiVec vector processing unit.
+The PowerPC 7455 was the first Mac processor over 1 GHz.
+PowerPC G5.
+The PowerPC 970 was the first 64-bit Mac processor.
+The PowerPC 970MP was the first dual-core Mac processor and the first to be found in a quad-core configuration. It was also the first Mac processor with partitioning and virtualization capabilities.
+Intel x86.
+P6.
+Yonah was the first Mac processor to support the IA-32 instruction set architecture, in addition to the MMX, SSE, SSE2, and SSE3 extension instruction sets.
+The Core Solo was a Core Duo with one of the two cores disabled.
+Core.
+Woodcrest added support for the SSSE3 instruction set.
+Merom was the first Mac processor to support the x86-64 instruction set, as well as the first 64-bit processor to appear in a Mac notebook.
+Clovertown was the first quad-core Mac processor and the first to be found in an 8-core configuration.
+Penryn.
+Penryn added support for a subset for SSE4 (SSE4.1).
+Nehalem.
+Bloomfield and Gainestown introduced a number of notable features for the first time in any Mac processors:
+Westmere.
+Arrandale introduced Intel HD Graphics, an on-die integrated GPU.
+Sandy Bridge.
+Sandy Bridge added support for Intel Quick Sync Video, a dedicated on-die video encoding and decoding core. It was also the first quad-core processor to appear in a Mac notebook.
+Haswell.
+The Crystal Well variant used in some MacBook Pros contains an on-package L4 cache shared between the CPU and integrated graphics.
+Coffee Lake.
+Coffee Lake was the first 6-core processor to appear in a Mac notebook.
+Apple silicon.
+The M1 is a system on a chip fabricated by TSMC on the 5 nm process. Its CPU cores are the first Mac processor designed by Apple and the first to use the ARM instruction set architecture.
+

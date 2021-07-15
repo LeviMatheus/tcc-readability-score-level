@@ -1,0 +1,1 @@
+Certain operating systems use paging to get virtual memory. This means that a part of the hard disk or a file is used so that the applications or the operating system see more memory that is actually there. A Page replacement algorithm is an algorithm that decides which pages should be written to disk or file, when a new page needs to be allocated.

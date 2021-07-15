@@ -1,0 +1,5 @@
+An oscilloscope (sometimes abbreviated CRO, for cathode-ray oscilloscope, or commonly just scope or O-scope) is a piece of electronic test equipment that allows signal voltages to be viewed.
+Usually it shows a two-dimensional graph of one or more electrical potential differences (vertical axis). These are plotted as a function of time or of some other voltage (horizontal axis).
+Exterior.
+A typical oscilloscope is usually box shaped with a display screen, numerous input connectors, control knobs and buttons on the front panel.
+To aid measurement, a grid called the "graticule" is drawn on the face of the screen. Each square in the graticule is known as a "division".

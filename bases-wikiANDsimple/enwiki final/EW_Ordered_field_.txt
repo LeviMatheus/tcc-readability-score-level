@@ -1,0 +1,37 @@
+
+In mathematics, an ordered field is a field together with a total ordering of its elements that is compatible with the field operations. The basic example of an ordered field is the field of real numbers, and every Dedekind-complete ordered field is isomorphic to the reals.
+Every subfield of an ordered field is also an ordered field in the inherited order. Every ordered field contains an ordered subfield that is isomorphic to the rational numbers. Squares are necessarily non-negative in an ordered field. This implies that the complex numbers cannot be ordered since the square of the imaginary unit "i" is . Finite fields cannot be ordered.
+Historically, the axiomatization of an ordered field was abstracted gradually from the real numbers, by mathematicians including David Hilbert, Otto Hölder and Hans Hahn. This grew eventually into the Artin–Schreier theory of ordered fields and formally real fields.
+Definitions.
+There are two equivalent common definitions of an ordered field. The definition of total order appeared first historically and is a first-order axiomatization of the ordering ≤ as a binary predicate. Artin and Schreier gave the definition in terms of positive cone in 1926, which axiomatizes the subcollection of nonnegative elements. Although the latter is higher-order, viewing positive cones as "maximal" prepositive cones provides a larger context in which field orderings are "extremal" partial orderings.
+Total order.
+A field ("F", +, ⋅) together with a (strict) total order &lt; on "F" is an ordered field if the order satisfies the following properties for all "a", "b" and "c" in "F":
+Positive cone.
+A prepositive cone or preordering of a field "F" is a subset "P" ⊂ "F" that has the following properties:
+A preordered field is a field equipped with a preordering "P". Its non-zero elements "P"∗ form a subgroup of the multiplicative group of "F".
+If in addition, the set "F" is the union of "P" and −"P", we call "P" a positive cone of "F". The non-zero elements of "P" are called the positive elements of "F".
+An ordered field is a field "F" together with a positive cone "P".
+The preorderings on "F" are precisely the intersections of families of positive cones on "F". The positive cones are the maximal preorderings.
+Equivalence of the two definitions.
+Let "F" be a field. There is a bijection between the field orderings of "F" and the positive cones of "F".
+Given a field ordering ≤ as in the first definition, the set of elements such that "x" ≥ 0 forms a positive cone of "F". Conversely, given a positive cone "P" of "F" as in the second definition, one can associate a total ordering ≤"P" on "F" by setting "x" ≤"P" "y" to mean "y" − "x" ∈ "P". This total ordering ≤"P" satisfies the properties of the first definition.
+Examples of ordered fields.
+Examples of ordered fields are:
+The surreal numbers form a proper class rather than a set, but otherwise obey the axioms of an ordered field. Every ordered field can be embedded into the surreal numbers.
+Properties of ordered fields.
+For every "a", "b", "c", "d" in "F":
+Every subfield of an ordered field is also an ordered field (inheriting the induced ordering). The smallest subfield is isomorphic to the rationals (as for any other field of characteristic 0), and the order on this rational subfield is the same as the order of the rationals themselves. If every element of an ordered field lies between two elements of its rational subfield, then the field is said to be "Archimedean". Otherwise, such field is a non-Archimedean ordered field and contains infinitesimals. For example, the real numbers form an Archimedean field, but hyperreal numbers form a non-Archimedean field, because it extends real numbers with elements greater than any standard natural number.
+An ordered field "F" is isomorphic to the real number field R if every non-empty subset of "F" with an upper bound in "F" has a least upper bound in "F". This property implies that the field is Archimedean.
+Vector spaces over an ordered field.
+Vector spaces (particularly, "n"-spaces) over an ordered field exhibit some special properties and have some specific structures, namely: orientation, convexity, and positively-definite inner product. See Real coordinate space#Geometric properties and uses for discussion of those properties of R"n", which can be generalized to vector spaces over other ordered fields.
+Which fields can be ordered?
+Every ordered field is a formally real field, i.e., 0 cannot be written as a sum of nonzero squares.
+Conversely, every formally real field can be equipped with a compatible total order, that will turn it into an ordered field. (This order need not be uniquely determined.) The proof uses Zorn's lemma.
+Finite fields and more generally fields of positive characteristic cannot be turned into ordered fields, because in characteristic "p", the element −1 can be written as a sum of ("p" − 1) squares 12. The complex numbers also cannot be turned into an ordered field, as −1 is a square of the imaginary unit "i". Also, the p-adic numbers cannot be ordered, since according to Hensel's lemma Q2 contains a square root of −7, thus 12+12+12+22+()2=0, and Q"p" ("p" &gt; 2) contains a square root of 1−"p", thus ("p"−1)⋅12+()2=0.
+Topology induced by the order.
+If "F" is equipped with the order topology arising from the total order ≤, then the axioms guarantee that the operations + and × are continuous, so that "F" is a topological field.
+Harrison topology.
+The Harrison topology is a topology on the set of orderings "X""F" of a formally real field "F". Each order can be regarded as a multiplicative group homomorphism from "F"∗ onto ±1. Giving ±1 the discrete topology and ±1"F" the product topology induces the subspace topology on "X""F". The Harrison sets formula_12 form a subbasis for the Harrison topology. The product is a Boolean space (compact, Hausdorff and totally disconnected), and "X""F" is a closed subset, hence again Boolean.
+Fans and superordered fields.
+A fan on "F" is a preordering "T" with the property that if "S" is a subgroup of index 2 in "F"∗ containing "T" − {0} and not containing −1 then "S" is an ordering (that is, "S" is closed under addition). A superordered field is a totally real field in which the set of sums of squares forms a fan.
+

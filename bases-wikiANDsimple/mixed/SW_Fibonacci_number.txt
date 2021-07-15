@@ -1,0 +1,4 @@
+The Fibonacci numbers are a sequence of numbers in mathematics named after Leonardo of Pisa, known as Fibonacci. Fibonacci's 1202 book "Liber Abaci" introduced the sequence to Western European mathematics, although the sequence had been previously described in Indian mathematics.
+The first number of the sequence is 0, the second number is 1, and each number after is equal to the sum of the previous two numbers of the sequence itself.
+Fibonacci numbers in nature.
+Fibonacci sequences appear many place in nature. Biological examples such as tree branches, the pattern of leaves on a stem, the fruitlets of a pineapple, the flowering of artichoke, the uncurling of a fern and the arrangement of a pine cone. The Fibonacci numbers are also found in the family tree of honeybees.

@@ -1,0 +1,7 @@
+In formal number theory a Gödel numbering is a function which assigns to each symbol and formula of some formal language a unique natural number called a Gödel number (GN). The concept was first used by Kurt Gödel for the proof of his incompleteness theorem.
+A Gödel numbering can be interpreted as an encoding where a number is assigned to each symbol of a mathematical notation, and a stream of natural numbers can then represent some form or function. A numbering of the set of computable functions can then be represented by a stream of Gödel numbers (also called effective numbers). Rogers' equivalence theorem states criteria for which those numberings of the set of computable functions are Gödel numberings.
+Definition.
+Given a countable set "S", a Gödel numbering is an injective function
+with both "f" and formula_2 (the inverse of "f") being computable functions.
+Base notation and strings.
+One of the simplest Gödel numbering schemes is used every day: The correspondence between integers and their representations as strings of symbols. For example, the sequence 2 3 is understood, by a particular set of rules, to correspond to the number twenty-three. Similarly, strings of symbols from some alphabet of N symbols can be encoded by identifying each symbol with a number from 0 to N and reading the string as the base N+1 representation of an integer.

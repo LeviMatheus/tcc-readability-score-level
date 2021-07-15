@@ -1,0 +1,7 @@
+
+OS/390 is an IBM operating system for the System/390 IBM mainframe computers.
+Overview.
+OS/390 was introduced in late 1995 in an effort to simplify the packaging and ordering for the key, entitled elements needed to complete a fully functional MVS operating system package. These elements included, but were not limited to:
+An additional benefit of the OS/390 packaging concept was to improve reliability, availability and serviceability (RAS) for the operating system, as the number of different combinations of elements that a customer could order and run was drastically reduced. This reduced the overall time required for customers to test and deploy the operating system in their environments, as well as reducing the number of customer reported problems (PMRs), errors (APARs) and fixes (PTFs) arising from the variances in element levels.
+In December 2001 IBM extended OS/390 to include support for 64-bit zSeries processors and added various other improvements, and the result is now named z/OS. IBM ended support for the older OS/390-branded versions in late 2004.
+

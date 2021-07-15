@@ -1,0 +1,11 @@
+Boolean algebra is algebra for binary (0 or 1, true or false). It uses normal maths symbols, but it does not work in the same way. It is named after its creator George Boole.
+NOT gate.
+It means the output is not the input.
+AND gate.
+The output is true only if one and the other input is true.
+OR gate.
+One or the other input can be true for the output to be true.
+Identities.
+It is not the same as a NOT then an AND like this: formula_20
+De Morgans theorem.
+"Make/break the bar and change the sign."

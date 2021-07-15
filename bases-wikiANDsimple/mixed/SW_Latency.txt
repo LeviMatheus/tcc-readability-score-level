@@ -1,0 +1,1 @@
+In engineering, latency is the name for the time period that needs to be waited to see a result.

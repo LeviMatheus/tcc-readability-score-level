@@ -1,0 +1,1 @@
+DarkBASIC is a programming language that is very easy to create games in so people do not need to worry about DirectX. People now use the more powerful DarkBASIC Professional.

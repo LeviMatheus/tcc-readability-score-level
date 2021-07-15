@@ -1,0 +1,7 @@
+
+Mega is a unit prefix in metric systems of units denoting a factor of one million (106 or ). It has the unit symbol M. It was confirmed for use in the International System of Units (SI) in 1960. "Mega" comes from .
+Exponentiation.
+When units occur in exponentiation, such as in square and cubic forms, any multiples-prefix is considered part of the unit, and thus included in the exponentiation.
+Computing.
+In some fields of computing, "mega" may sometimes denote 1,048,576 (220) of information units, for example, a megabyte, a megaword, but denotes (106) units of other quantities, for example, transfer rates: = . The prefix "mebi-" has been suggested as a prefix for 220 to avoid ambiguity.
+

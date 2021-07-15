@@ -1,0 +1,2 @@
+A digital system is a system that stores data in a discrete way. The opposite is an analogue system, which stores the data in a continuous way. Usually, digital systems store the information in a binary way; it means, every bit of information can not have a value other than "zero" (off) or "one" (on). Larger amounts of data are stored as a string of these bits, which means a set of 0s and 1s together make a meaning to the system.
+The word "digital" is most commonly used in computing and electronics.

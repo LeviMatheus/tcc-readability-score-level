@@ -1,0 +1,11 @@
+Linux is an operating system kernel used by a family of Unix-like operating systems. These are known by many people as Linux operating systems and the name is also used for the various Linux distributions built on top of the operating system.
+The Linux kernel is released under the GNU General Public License version 2 (GPLv2) and developed by programmers worldwide, Linux is one of the best known examples of open source software.
+History.
+After that, many people contributed code to the project. By September 1991, Linux version 0.01 was released. It had 10,239 lines of code. In October 1991, Linux version 0.02 was released.
+A newsgroup "alt.os.linux" was started, and on January 19 1992, the first post to alt.os.linux was made. On March 31 1992, alt.os.linux became "comp.os.linux".
+The X Window System was soon moved to Linux. In March 1992, Linux version 0.95 was the first to be able of running X. This large version number jump (from 0.1x to 0.9x) was because of a feeling that a version 1.0 with no major missing parts will be released soon.
+On March 14 1994, Linux 1.0.0 was released, with 176,250 lines of code. In March 1995, Linux 1.2.0 was released (310,950 lines of code).
+Linus decided, on May 9 1996, to adopt Tux the penguin as mascot for Linux.
+Licensing terms.
+Initially, Torvalds released Linux under a license which did not allow anyone to sell it. This was soon changed to the GNU General Public License (GPL), during version 0.12. This license allows distribution and sale of possibly modified and unmodified versions of Linux but requires that all those copies be released under the same license and be accompanied by the complete corresponding source code.
+Torvalds has said licensing Linux under the GPL as the "best thing I ever did."

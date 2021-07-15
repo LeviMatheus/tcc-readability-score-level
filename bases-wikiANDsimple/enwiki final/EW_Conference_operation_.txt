@@ -1,0 +1,3 @@
+
+In a communications network, a conference operation is an operation that allows a call to be established among three or more stations in such a manner that each of the stations is able to communicate directly with all the other stations. In radio systems, the stations may receive simultaneously, but must transmit one at a time. The common operational modes are "push-to-talk" for telephone operation and "push-to-type" for telegraph and data transmission.
+

@@ -1,0 +1,1 @@
+In mathematics, the prime counting function is the function counting the number of prime numbers less than or equal to some real number "x". It is denoted by formula_1 (this does "not" refer to the number π).

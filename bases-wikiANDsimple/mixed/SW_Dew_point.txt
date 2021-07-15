@@ -1,0 +1,3 @@
+The dew point is the temperature where water vapour condenses into liquid water.
+All air holds different amounts of water vapor. The dew point shows the amount of moisture in the air. The higher the dew point is, the higher the level of moisture in the air at a given temperature. The dew point of humid air will be higher than the dew point of dry air.
+Condensation of water vapour starts when the temperature of air is lowered to its dew point and beyond. The dew point, like other measures of humidity, can be found from measurement taken by a hygrometer.

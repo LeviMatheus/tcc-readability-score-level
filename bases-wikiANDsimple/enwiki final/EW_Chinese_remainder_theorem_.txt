@@ -1,0 +1,152 @@
+
+In number theory, the Chinese remainder theorem states that if one knows the remainders of the Euclidean division of an integer "n" by several integers, then one can determine uniquely the remainder of the division of "n" by the product of these integers, under the condition that the divisors are pairwise coprime.
+The earliest known statement of the theorem is by the Chinese mathematician Sun-tzu in the "Sun-tzu Suan-ching" in the 3rd century AD.
+The Chinese remainder theorem is widely used for computing with large integers, as it allows replacing a computation for which one knows a bound on the size of the result by several similar computations on small integers.
+The Chinese remainder theorem (expressed in terms of congruences) is true over every principal ideal domain. It has been generalized to any commutative ring, with a formulation involving ideals.
+History.
+The earliest known statement of the theorem, as a problem with specific numbers, appears in the 3rd-century book "Sun-tzu Suan-ching" by the Chinese mathematician Sun-tzu:
+Sun-tzu's work contains neither a proof nor a full algorithm. What amounts to an algorithm for solving this problem was described by Aryabhata (6th century). Special cases of the Chinese remainder theorem were also known to Brahmagupta (7th century), and appear in Fibonacci's Liber Abaci (1202). The result was later generalized with a complete solution called "Da-yan-shu" () in Ch'in Chiu-shao's 1247 "Mathematical Treatise in Nine Sections" (, "Shu-shu Chiu-chang") which was translated into English in early 19th century by British missionary Alexander Wylie.
+The notion of congruences was first introduced and used by Gauss in his "Disquisitiones Arithmeticae" of 1801. Gauss illustrates the Chinese remainder theorem on a problem involving calendars, namely, "to find the years that have a certain period number with respect to the solar and lunar cycle and the Roman indiction." Gauss introduces a procedure for solving the problem that had already been used by Euler but was in fact an ancient method that had appeared several times.
+Statement.
+Let "n"1, ..., "n""k" be integers greater than 1, which are often called "moduli" or "divisors". Let us denote by "N" the product of the "n""i".
+The Chinese remainder theorem asserts that if the "n""i" are pairwise coprime, and if "a"1, ..., "a""k" are integers such that 0 ≤ "a""i" &lt; "n""i" for every "i", then there is one and only one integer "x", such that 0 ≤ "x" &lt; "N" and the remainder of the Euclidean division of "x" by "n""i" is "a""i" for every "i".
+This may be restated as follows in term of congruences:
+If the "n""i" are pairwise coprime, and if "a"1, ..., "a""k" are any integers, then the system
+has a solution, and any two solutions, say "x"1 and "x"2, are congruent modulo "N", that is, .
+In abstract algebra, the theorem is often restated as: if the "n""i" are pairwise coprime, the map
+defines a ring isomorphism
+between the ring of integers modulo "N" and the direct product of the rings of integers modulo the "n""i". This means that for doing a sequence of arithmetic operations in formula_4 one may do the same computation independently in each formula_5 and then get the result by applying the isomorphism (from the right to the left). This may be much faster than the direct computation if "N" and the number of operations are large. This is widely used, under the name "multi-modular computation", for linear algebra over the integers or the rational numbers.
+The theorem can also be restated in the language of combinatorics as the fact that the infinite arithmetic progressions of integers form a Helly family.
+Proof.
+The existence and the uniqueness of the solution may be proven independently. However, the first proof of existence, given below, uses this uniqueness.
+Uniqueness.
+Suppose that and are both solutions to all the congruences. As and give the same remainder, when divided by , their difference is a multiple of each . As the are pairwise coprime, their product divides also , and thus and are congruent modulo . If and are supposed to be non negative and less than (as in the first statement of the theorem), then their difference may be a multiple of only if .
+Existence (first proof).
+The map
+maps congruence classes modulo to sequences of congruence classes modulo . The proof of uniqueness shows that this map is injective. As the domain and the codomain of this map have the same number of elements, the map is also surjective, which proves the existence of the solution.
+This proof is very simple but does not provide any direct way for computing a solution. Moreover, it cannot be generalized to other situations where the following proof can.
+Existence (constructive proof).
+Existence may be established by an explicit construction of . This construction may be split into two steps, firstly by solving the problem in the case of two moduli, and the second one by extending this solution to the general case by induction on the number of moduli.
+Case of two moduli.
+We want to solve the system:
+where formula_8 and formula_9 are coprime.
+Bézout's identity asserts the existence of two integers formula_10 and formula_11 such that 
+The integers formula_10 and formula_11 may be computed by the extended Euclidean algorithm.
+A solution is given by
+Indeed, 
+implying that formula_17 The second congruence is proved similarly, by exchanging the subscripts 1 and 2.
+General case.
+Consider a sequence of congruence equations:
+where the formula_19 are pairwise coprime. The two first equations have a solution formula_20 provided by the method of the previous section. The set of the solutions of these two first equations is the set of all solutions of the equation
+As the other formula_19 are coprime with formula_23 this reduces solving the initial problem of equations to a similar problem with formula_24 equations. Iterating the process, one gets eventually the solutions of the initial problem.
+Existence (direct construction).
+For constructing a solution, it is not necessary to make an induction on the number of moduli. However, such a direct construction involves more computation with large numbers, which makes it less efficient and less used. Nevertheless, Lagrange interpolation is a special case of this construction, applied to polynomials instead of integers.
+Let formula_25 be the product of all moduli but one. As the formula_19 are pairwise coprime, formula_27 and formula_19 are coprime. Thus Bézout's identity applies, and there exist integers formula_29 and formula_30 such that
+A solution of the system of congruences is
+In fact, as formula_33 is a multiple of formula_19 for formula_35
+we have
+for every formula_37
+Computation.
+Consider a system of congruences:
+where the formula_19 are pairwise coprime, and let formula_40 In this section several methods are described for computing the unique solution for formula_41, such that formula_42 and these methods are applied on the example:
+Systematic search.
+It is easy to check whether a value of is a solution: it suffices to compute the remainder of the Euclidean division of by each . Thus, to find the solution, it suffices to check successively the integers from to until finding the solution.
+Although very simple, this method is very inefficient. For the simple example considered here, integers (including ) have to be checked for finding the solution, which is . This is an exponential time algorithm, as the size of the input is, up to a constant factor, the number of digits of , and the average number of operations is of the order of .
+Therefore, this method is rarely used, neither for hand-written computation nor on computers.
+Search by sieving.
+The search of the solution may be made dramatically faster by sieving. For this method, we suppose, without loss of generality, that formula_44 (if it were not the case, it would suffice to replace each formula_45 by the remainder of its division by formula_19). This implies that the solution belongs to the arithmetic progression
+By testing the values of these numbers modulo formula_48 one eventually finds a solution formula_49 of the two first congruences. Then the solution belongs to the arithmetic progression 
+Testing the values of these numbers modulo formula_51, and continuing until every modulus has been tested gives eventually the solution.
+This method is faster if the moduli have been ordered by decreasing value, that is if formula_52 For the example, this gives the following computation. We consider first the numbers that are congruent to 4 modulo 5 (the largest modulus), which are 4, , , ... For each of them, compute the remainder by 4 (the second largest modulus) until getting a number congruent to 3 modulo 4. Then one can proceed by adding at each step, and computing only the remainders by 3. This gives
+This method works well for hand-written computation with a product of moduli that is not too big. However, it is much slower than other methods, for very large products of moduli. Although dramatically faster than the systematic search, this method also has an exponential time complexity and is therefore not used on computers.
+Using the existence construction.
+The constructive existence proof shows that, in the case of two moduli, the solution may be obtained by the computation of the Bézout coefficients of the moduli, followed by a few multiplications, additions and reductions modulo formula_53 (for getting a result in the interval formula_54). As the Bézout's coefficients may be computed with the extended Euclidean algorithm, the whole computation, at most, has a quadratic time complexity of formula_55 where formula_56 denotes the number of digits of formula_57
+For more than two moduli, the method for two moduli allows the replacement of any two congruences by a single congruence modulo the product of the moduli. Iterating this process provides eventually the solution with a complexity, which is quadratic in the number of digits of the product of all moduli. This quadratic time complexity does not depend on the order in which the moduli are regrouped. One may regroup the two first moduli, then regroup the resulting modulus with the next one, and so on. This strategy is the easiest to implement, but it also requires more computation involving large numbers.
+Another strategy consists in partitioning the moduli in pairs whose product have comparable sizes (as much as possible), applying, in parallel, the method of two moduli to each pair, and iterating with a number of moduli approximatively divided by two. This method allows an easy parallelization of the algorithm. Also, if fast algorithms (that is algorithms working in quasilinear time) are used for the basic operations, this method provides an algorithm for the whole computation that works in quasilinear time.
+On the current example (which has only three moduli), both strategies are identical and work as follows.
+Bézout's identity for 3 and 4 is
+Putting this in the formula given for proving the existence gives 
+for a solution of the two first congruences, the other solutions being obtained by adding to −9 any multiple of . One may continue with any of these solutions, but the solution is smaller (in absolute value) and thus leads probably to an easier computation
+Bézout identity for 5 and 3×4 = 12 is
+Applying the same formula again, we get a solution of the problem:
+The other solutions are obtained by adding any multiple of , and the smallest positive solution is .
+As a linear Diophantine system.
+The system of congruences solved by the Chinese remainder theorem may be rewritten as a system of simultaneous linear Diophantine equations:
+where the unknown integers are formula_41 and the formula_64 Therefore, every general method for solving such systems may be used for finding the solution of Chinese remainder theorem, such as the reduction of the matrix of the system to Smith normal form or Hermite normal form. However, as usual when using a general algorithm for a more specific problem, this approach is less efficient than the method of the preceding section, based on a direct use of Bézout's identity.
+Over principal ideal domains.
+In , the Chinese remainder theorem has been stated in three different ways: in terms of remainders, of congruences, and of a ring isomorphism. The statement in terms of remainders does not apply, in general, to principal ideal domains, as remainders are not defined in such rings. However, the two other versions make sense over a principal ideal domain : it suffices to replace "integer" by "element of the domain" and formula_65 by . These two versions of the theorem are true in this context, because the proofs (except for the first existence proof), are based on Euclid's lemma and Bézout's identity, which are true over every principal domain.
+However, in general, the theorem is only an existence theorem and does not provide any way for computing the solution, unless one has an algorithm for computing the coefficients of Bézout's identity.
+Over univariate polynomial rings and Euclidean domains.
+The statement in terms of remainders given in cannot be generalized to any principal ideal domain, but its generalization to Euclidean domains is straightforward. The univariate polynomials over a field is the typical example of a Euclidean domain, which is not the integers. Therefore, we state the theorem for the case of a ring of univariate domain formula_66 over a field formula_67 For getting the theorem for a general Euclidean domain, it suffices to replace the degree by the Euclidean function of the Euclidean domain.
+The Chinese remainder theorem for polynomials is thus: Let formula_68 (the moduli) be, for , pairwise coprime polynomials in formula_66. Let formula_70 be the degree of formula_68, and formula_72 be the sum of the formula_73
+If formula_74 are polynomials such that formula_75 or formula_76 for every , then, there is one and only one polynomial formula_77, such that formula_78 and the remainder of the Euclidean division of formula_77 by formula_68 is formula_81 for every .
+The construction of the solution may be done as in or . However, the latter construction may be simplified by using, as follows, partial fraction decomposition instead of extended Euclidean algorithm.
+Thus, we want to find a polynomial formula_77, which satisfies the congruences
+for formula_84
+Consider the polynomials
+The partial fraction decomposition of formula_86 gives polynomials formula_87 with degrees formula_88 such that
+and thus
+Then a solution of the simultaneous congruence system is given by the polynomial
+In fact, we have
+for formula_93
+This solution may have a degree larger that formula_94 The unique solution of degree less than formula_72 may be deduced by considering the remainder formula_96 of the Euclidean division of formula_97 by formula_98 This solution is 
+Lagrange interpolation.
+A special case of Chinese remainder theorem for polynomials is Lagrange interpolation. For this, consider monic polynomials of degree one:
+They are pairwise coprime if the formula_101 are all different. The remainder of the division by formula_68 of a polynomial formula_77 is formula_104
+Now, let formula_105 be constants (polynomials of degree 0) in formula_67 Both Lagrange interpolation and Chinese remainder theorem assert the existence of a unique polynomial formula_107 of degree less than formula_108 such that
+for every formula_37
+Lagrange interpolation formula is exactly the result, in this case, of the above construction of the solution. More precisely, let 
+The partial fraction decomposition of formula_112 is 
+In fact, reducing the right-hand side to a common denominator one gets 
+and the numerator is equal to one, as being a polynomial of degree less than formula_115 which takes the value one for formula_108 different values of formula_117
+Using the above general formula, we get the Lagrange interpolation formula:
+Hermite interpolation.
+Hermite interpolation is an application of the Chinese remainder theorem for univariate polynomials, which may involve moduli of arbitrary degrees (Lagrange interpolation involves only moduli of degree one).
+The problem consists of finding a polynomial of the least possible degree, such that the polynomial and its first derivatives take given values at some fixed points.
+More precisely, let formula_119 be formula_108 elements of the ground field formula_121 and, for formula_122 let formula_123 be the values of the first formula_124 derivatives of the sought polynomial at formula_101 (including the 0th derivative, which is the value of the polynomial itself). The problem is to find a polynomial formula_77 such that its "j"th derivative takes the value formula_127 at formula_128 for formula_129 and formula_130
+Consider the polynomial
+This is the Taylor polynomial of order formula_132 at formula_101, of the unknown polynomial formula_134 Therefore, we must have
+Conversely, any polynomial formula_136 that satisfies these formula_108 congruences, in particular verifies, for any formula_138
+therefore formula_68 is its Taylor polynomial of order formula_141 at formula_101, that is, formula_77 solves the initial Hermite interpolation problem.
+The Chinese remainder theorem asserts that there exists exactly one polynomial of degree less than the sum of the formula_144 which satisfies these formula_108 congruences.
+There are several ways for computing the solution formula_134 One may use the method described at the beginning of . One may also use the constructions given in or .
+Generalization to non-coprime moduli.
+The Chinese remainder theorem can be generalized to non-coprime moduli. Let formula_147 be any integers, let formula_148, and consider the system of congruences:
+If formula_150, then this system of equations has a unique solution modulo formula_151. Otherwise, it has no solutions.
+If we use Bézout's identity to write formula_152, then the solution is
+This defines an integer, as divides both and . Otherwise, the proof is very similar to that for coprime moduli.
+Generalization to arbitrary rings.
+The Chinese remainder theorem can be generalized to any ring, by using coprime ideals (also called comaximal ideals). Two ideals and are coprime if there are elements formula_154 and formula_155 such that formula_156 This relation plays the role of Bézout's identity in the proofs related to this generalization, which, otherwise are very similar. The generalization may be stated as follows. 
+Let be two-sided ideals of a ring formula_157 and let be their intersection. If the ideals are pairwise coprime, we have the isomorphism: 
+between the quotient ring formula_159 and the direct product of the formula_160
+where "formula_161" denotes the image of the element formula_41 in the quotient ring defined by the ideal formula_163
+Moreover, if formula_157 is commutative, then the ideal intersection of pairwise coprime ideals is equal to their product; that is
+if and are coprime for .
+Applications.
+Sequence numbering.
+The Chinese remainder theorem has been used to construct a Gödel numbering for sequences, which is involved in the proof of Gödel's incompleteness theorems.
+Fast Fourier transform.
+The prime-factor FFT algorithm (also called Good-Thomas algorithm) uses the Chinese remainder theorem for reducing the computation of a fast Fourier transform of size formula_53 to the computation of two fast Fourier transforms of smaller sizes formula_8 and formula_9 (providing that formula_8 and formula_9 are coprime).
+Encryption.
+Most implementations of RSA use the Chinese remainder theorem during signing of HTTPS certificates and during decryption.
+The Chinese remainder theorem can also be used in secret sharing, which consists of distributing a set of shares among a group of people who, all together (but no one alone), can recover a certain secret from the given set of shares. Each of the shares is represented in a congruence, and the solution of the system of congruences using the Chinese remainder theorem is the secret to be recovered. Secret sharing using the Chinese remainder theorem uses, along with the Chinese remainder theorem, special sequences of integers that guarantee the impossibility of recovering the secret from a set of shares with less than a certain cardinality.
+Range ambiguity resolution.
+The range ambiguity resolution techniques used with medium pulse repetition frequency radar can be seen as a special case of the Chinese remainder theorem.
+Dedekind's theorem.
+Dedekind's theorem on the linear independence of characters. Let be a monoid and an integral domain, viewed as a monoid by considering the multiplication on . Then any finite family of distinct monoid homomorphisms is linearly independent. In other words, every family of elements satisfying 
+must be equal to the family .
+Proof. First assume that is a field, otherwise, replace the integral domain by its quotient field, and nothing will change. We can linearly extend the monoid homomorphisms to -algebra homomorphisms , where is the monoid ring of over . Then, by linearity, the condition
+yields
+Next, for the two -linear maps and are not proportional to each other. Otherwise and would also be proportional, and thus equal since as monoid homomorphisms they satisfy: , which contradicts the assumption that they are distinct.
+Therefore, the kernels and are distinct. Since is a field, is a maximal ideal of for every . Because they are distinct and maximal the ideals and are coprime whenever . The Chinese Remainder Theorem (for general rings) yields an isomorphism:
+where
+Consequently, the map
+is surjective. Under the isomorphisms the map corresponds to:
+Now,
+yields
+for every vector in the image of the map . Since is surjective, this means that
+for every vector
+Consequently, . QED.
+
+
+

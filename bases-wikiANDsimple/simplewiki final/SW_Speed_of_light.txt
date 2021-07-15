@@ -1,0 +1,4 @@
+The speed of light is by definition exactly 299,792,458 meters per second in free space (approximately 186,282.397 miles per second). A photon (particle of light) travels locally at this speed.
+The theory of relativity is based on the idea that this speed is not added to the speed of anything else. No matter where you are, light travels at the same speed from your location. According to this theory, nothing can go faster than the speed of light.
+Maxwell's equations predicted that speed and confirmed Faraday's supposition that light was an electromagnetic wave. From these equations we find that the speed of light is related to the inverse of the square root of the permittivity of free space and the permeability of free space.
+The index of refraction of a material is the ratio between the speed of light in vacuum and the speed of light in that material.

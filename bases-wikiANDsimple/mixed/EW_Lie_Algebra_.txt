@@ -1,0 +1,82 @@
+
+
+
+In mathematics, a Lie algebra (pronounced "Lee") is a vector space formula_1 together with an operation called the Lie bracket, an alternating bilinear map formula_2, that satisfies the Jacobi identity. The vector space formula_1 together with this operation is a non-associative algebra, meaning that the Lie bracket is not necessarily associative. 
+Lie algebras are closely related to Lie groups, which are groups that are also smooth manifolds: any Lie group gives rise to a Lie algebra, which is its tangent space at the identity. Conversely, to any finite-dimensional Lie algebra over real or complex numbers, there is a corresponding connected Lie group unique up to finite coverings (Lie's third theorem). This correspondence allows one to study the structure and classification of Lie groups in terms of Lie algebras.
+In physics, Lie groups appear as symmetry groups of physical systems, and their Lie algebras (tangent vectors near the identity) may be thought of as infinitesimal symmetry motions. Thus Lie algebras and their representations are used extensively in physics, notably in quantum mechanics and particle physics.
+An elementary example is the space of three dimensional vectors formula_4 with the bracket operation defined by the cross product formula_5 This is skew-symmetric since formula_6, and instead of associativity it satisfies the Jacobi identity:
+This is the Lie algebra of the Lie group of rotations of space, and each vector formula_8 may be pictured as an infinitesimal rotation around the axis "v", with velocity equal to the magnitude of "v". The Lie bracket is a measure of the non-commutativity between two rotations: since a rotation commutes with itself, we have the alternating property formula_9.
+History.
+Lie algebras were introduced to study the concept of infinitesimal transformations by Marius Sophus Lie in the 1870s, and independently discovered by Wilhelm Killing in the 1880s. The name "Lie algebra" was given by Hermann Weyl in the 1930s; in older texts, the term "infinitesimal group" is used.
+Definitions.
+Definition of a Lie algebra.
+A Lie algebra is a vector space formula_10 over some field together with a binary operation formula_11 called the Lie bracket satisfying the following axioms:
+Using bilinearity to expand the Lie bracket formula_19 and using alternativity shows that formula_20 for all elements "x", "y" in formula_14, showing that bilinearity and alternativity together imply 
+It is customary to denote a Lie algebra by a lower-case fraktur letter such as formula_25. If a Lie algebra is associated with a Lie group, then the algebra is denoted by the fraktur version of the group: for example the Lie algebra of SU("n") is formula_26.
+Generators and dimension.
+Elements of a Lie algebra formula_14 are said to generate it if the smallest subalgebra containing these elements is formula_14 itself. The "dimension" of a Lie algebra is its dimension as a vector space over "F". The cardinality of a minimal generating set of a Lie algebra is always less than or equal to its dimension.
+See the classification of low-dimensional real Lie algebras for other small examples.
+Subalgebras, ideals and homomorphisms.
+The Lie bracket is not required to be associative, meaning that formula_29 need not equal formula_30. However, it is flexible. Nonetheless, much of the terminology of associative rings and algebras is commonly applied to Lie algebras. A "Lie subalgebra" is a subspace formula_31 which is closed under the Lie bracket. An "ideal" formula_32 is a subalgebra satisfying the stronger condition:
+A Lie algebra "homomorphism" is a linear map compatible with the respective Lie brackets:
+As for associative rings, ideals are precisely the kernels of homomorphisms; given a Lie algebra formula_14 and an ideal formula_36 in it, one constructs the "factor algebra" or "quotient algebra" formula_37, and the first isomorphism theorem holds for Lie algebras.
+Since the Lie bracket is a kind of infinitesimal commutator of the corresponding Lie group, we say that two elements formula_38 "commute" if their bracket vanishes: formula_39. 
+The centralizer subalgebra of a subset formula_40 is the set of elements commuting with "S": that is, formula_41. The centralizer of formula_14 itself is the "center" formula_43. Similarly, for a subspace "S", the normalizer subalgebra of "S" is formula_44. Equivalently, if "S" is a Lie subalgebra, formula_45 is the largest subalgebra such that formula_46 is an ideal of formula_45.
+Examples.
+For formula_48, the commutator of two elementsformula_49shows formula_50 is a subalgebra, but not an ideal. In fact, every one-dimensional linear subspace of a Lie algebra has an induced abelian Lie algebra structure, which is generally not an ideal. For any simple Lie algebra, all abelian Lie algebras can never be ideals.
+Direct sum and semidirect product.
+For two Lie algebras formula_51 and formula_52, their direct sum Lie algebra is the vector space
+formula_53consisting of all pairs formula_54, with the operation
+so that the copies of formula_56 commute with each other: formula_57 Let formula_14 be a Lie algebra and formula_59 an ideal of formula_14. If the canonical map formula_61 splits (i.e., admits a section), then formula_14 is said to be a semidirect product of formula_59 and formula_64, formula_65. See also semidirect sum of Lie algebras.
+Levi's theorem says that a finite-dimensional Lie algebra is a semidirect product of its radical and the complementary subalgebra (Levi subalgebra).
+Derivations.
+A "derivation" on the Lie algebra formula_14 (or on any non-associative algebra) is a linear map formula_67 that obeys the Leibniz law, that is,
+for all formula_38. The "inner derivation" associated to any formula_70 is the adjoint mapping formula_71 defined by formula_72. (This is a derivation as a consequence of the Jacobi identity.) The outer derivations are derivations which do not come from the adjoint representation of the Lie algebra. If formula_14 is semisimple, every derivation is inner.
+The derivations form a vector space formula_74, which is a Lie subalgebra of formula_75; the bracket is commutator. The inner derivations form a Lie subalgebra of formula_74.
+Examples.
+For example, given a Lie algebra ideal formula_77 the adjoint representation formula_78 of formula_14 acts as outer derivations on formula_59 since formula_81 for any formula_82 and formula_83. For the Lie algebra formula_84 of upper triangular matrices in formula_85, it has an ideal formula_86 of strictly upper triangular matrices (where the only non-zero elements are above the diagonal of the matrix). For instance, the commutator of elements in formula_87 and formula_88 givesformula_89shows there exist outer derivations from formula_87 in formula_91.
+Split Lie algebra.
+Let "V" be a finite-dimensional vector space over a field "F", formula_92 the Lie algebra of linear transformations and formula_93 a Lie subalgebra. Then formula_14 is said to be split if the roots of the characteristic polynomials of all linear transformations in formula_14 are in the base field "F". More generally, a finite-dimensional Lie algebra formula_14 is said to be split if it has a Cartan subalgebra whose image under the adjoint representation formula_97 is a split Lie algebra. A split real form of a complex semisimple Lie algebra (cf. #Real form and complexification) is an example of a split real Lie algebra. See also split Lie algebra for further information.
+Vector space basis.
+For practical calculations, it is often convenient to choose an explicit vector space basis for the algebra. A common construction for this basis is sketched in the article structure constants.
+Definition using category-theoretic notation.
+Although the definitions above are sufficient for a conventional understanding of Lie algebras, once this is understood, additional insight can be gained by using notation common to category theory, that is, by defining a Lie algebra in terms of linear maps—that is, morphisms of the category of vector spaces—without considering individual elements. (In this section, the field over which the algebra is defined is supposed to be of characteristic different from two.) 
+For the category-theoretic definition of Lie algebras, two braiding isomorphisms are needed. If is a vector space, the "interchange isomorphism" formula_98 is defined by 
+The "cyclic-permutation braiding" formula_100 is defined as
+where formula_102 is the identity morphism.
+Equivalently, formula_103 is defined by
+With this notation, a Lie algebra can be defined as an object formula_105 in the category of vector spaces together with a morphism 
+that satisfies the two morphism equalities
+and
+Examples.
+Vector spaces.
+Any vector space formula_109 endowed with the identically zero Lie bracket becomes a Lie algebra. Such Lie algebras are called abelian, cf. below. Any one-dimensional Lie algebra over a field is abelian, by the alternating property of the Lie bracket.
+Special matrices.
+Two important subalgebras of formula_120 are:
+Matrix Lie algebras.
+A complex matrix group is a Lie group consisting of matrices, formula_127, where the multiplication of "G" is matrix multiplication. The corresponding Lie algebra formula_1 is the space of matrices which are tangent vectors to "G" inside the linear space formula_129: this consists of derivatives of smooth curves in "G" at the identity: formula_130The Lie bracket of formula_14 is given by the commutator of matrices, formula_132. Given the Lie algebra, one can recover the Lie group as the image of the matrix exponential mapping formula_133 defined by formula_134, which converges for every matrix formula_135: that is, formula_136. 
+The following are examples of Lie algebras of matrix Lie groups:
+Two dimensions.
+Since
+for any natural number formula_156 and any formula_157, one sees that the resulting Lie group elements are upper triangular 2×2 matrices with unit lower diagonal:
+Representations.
+Definitions.
+Given a vector space "V", let formula_92 denote the Lie algebra consisting of all linear endomorphisms of "V", with bracket given by formula_132. A "representation" of a Lie algebra formula_14 on "V" is a Lie algebra homomorphism
+A representation is said to be "faithful" if its kernel is zero. Ado's theorem states that every finite-dimensional Lie algebra has a faithful representation on a finite-dimensional vector space.
+Adjoint representation.
+For any Lie algebra formula_14, we can define a representation
+given by formula_177; it is a representation on the vector space formula_14 called the adjoint representation.
+Goals of representation theory.
+One important aspect of the study of Lie algebras (especially semisimple Lie algebras) is the study of their representations. (Indeed, most of the books listed in the references section devote a substantial fraction of their pages to representation theory.) Although Ado's theorem is an important result, the primary goal of representation theory is not to find a faithful representation of a given Lie algebra formula_14. Indeed, in the semisimple case, the adjoint representation is already faithful. Rather the goal is to understand "all" possible representation of formula_14, up to the natural notion of equivalence. In the semisimple case over a field of characteristic zero, Weyl's theorem says that every finite-dimensional representation is a direct sum of irreducible representations (those with no nontrivial invariant subspaces). The irreducible representations, in turn, are classified by a theorem of the highest weight.
+Representation theory in physics.
+The representation theory of Lie algebras plays an important role in various parts of theoretical physics. There, one considers operators on the space of states that satisfy certain natural commutation relations. These commutation relations typically come from a symmetry of the problem—specifically, they are the relations of the Lie algebra of the relevant symmetry group. An example would be the angular momentum operators, whose commutation relations are those of the Lie algebra formula_163 of the rotation group SO(3). Typically, the space of states is very far from being irreducible under the pertinent operators, but one can attempt to decompose it into irreducible pieces. In doing so, one needs to know the irreducible representations of the given Lie algebra. In the study of the quantum hydrogen atom, for example, quantum mechanics textbooks give (without calling it that) a classification of the irreducible representations of the Lie algebra formula_163.
+Structure theory and classification.
+Lie algebras can be classified to some extent. In particular, this has an application to the classification of Lie groups.
+Abelian, nilpotent, and solvable.
+Analogously to abelian, nilpotent, and solvable groups, defined in terms of the derived subgroups, one can define abelian, nilpotent, and solvable Lie algebras.
+A Lie algebra formula_14 is "abelian" if the Lie bracket vanishes, i.e. ["x","y"] = 0, for all "x" and "y" in formula_14. Abelian Lie algebras correspond to commutative (or abelian) connected Lie groups such as vector spaces formula_185 or tori formula_186, and are all of the form formula_187 meaning an "n"-dimensional vector space with the trivial Lie bracket.
+A more general class of Lie algebras is defined by the vanishing of all commutators of given length. A Lie algebra formula_14 is "nilpotent" if the lower central series
+Lie rings need not be Lie groups under addition. Any Lie algebra is an example of a Lie ring. Any associative ring can be made into a Lie ring by defining a bracket operator formula_113. Conversely to any Lie algebra there is a corresponding ring, called the universal enveloping algebra.
+Lie rings are used in the study of finite p-groups through the "Lazard correspondence". The lower central factors of a "p"-group are finite abelian "p"-groups, so modules over Z/"p"Z. The direct sum of the lower central factors is given the structure of a Lie ring by defining the bracket to be the commutator of two coset representatives. The Lie ring structure is enriched with another module homomorphism, the "p"th power map, making the associated Lie ring a so-called restricted Lie ring.
+Lie rings are also useful in the definition of a p-adic analytic groups and their endomorphisms by studying Lie algebras over rings of integers such as the p-adic integers. The definition of finite groups of Lie type due to Chevalley involves restricting from a Lie algebra over the complex numbers to a Lie algebra over the integers, and then reducing modulo "p" to get a Lie algebra over a finite field.
+

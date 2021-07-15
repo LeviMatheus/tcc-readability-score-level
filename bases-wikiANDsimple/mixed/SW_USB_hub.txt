@@ -1,0 +1,2 @@
+An USB hub is a special USB device. Computers that use USB only have a few ports (usually less than 10). An USB hub allows to connect more than one device to an USB port on the computer. Is does this by providing more USB ports.
+The hubs themselves are also USB 1.1 or USB 2.0 compliant. On an USB 2.0 controller, standards can be mixed. Please note however, that devices connected to a USB 1.1 hub will only offer the data rates of USB 1.1.

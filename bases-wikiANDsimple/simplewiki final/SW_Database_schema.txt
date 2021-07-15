@@ -1,0 +1,1 @@
+A Database schema (pronounced "skee-ma") is the structure of a database system.

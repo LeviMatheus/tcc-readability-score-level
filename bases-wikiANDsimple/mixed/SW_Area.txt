@@ -1,0 +1,5 @@
+Area is the amount of space a two dimensional (flat) object takes up. It is useful because it is how much of a material is needed to make a hollow container; for example, how much wood is needed to make a wardrobe.
+Different shapes have different ways to find the area.
+The area of a flat object is related to the surface area and volume of a three-dimensional object.
+The area under a curve can be found using integration, from calculus.
+Some units used to measure area are square mile and square kilometre.

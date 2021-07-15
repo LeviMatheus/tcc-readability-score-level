@@ -1,0 +1,20 @@
+
+In mathematics, a linear map (also called a linear mapping, linear transformation, vector space homomorphism, or in some contexts linear function) is a mapping formula_1 between two vector spaces that preserves the operations of vector addition and scalar multiplication. The same names and the same definition are also used for the more general case of modules over a ring; see Module homomorphism.
+If a linear map is a bijection then it is called a linear isomorphism. In the case where formula_2, a linear map is called a (linear) "endomorphism". Sometimes the term linear operator refers to this case, but the term "linear operator" can have different meanings for different conventions: for example, it can be used to emphasize that formula_3 and formula_4 are real vector spaces (not necessarily with formula_2), or it can be used to emphasize that formula_3 is a function space, which is a common convention in functional analysis. Sometimes the term "linear function" has the same meaning as "linear map", while in analysis it does not.
+A linear map always maps linear subspaces onto linear subspaces (possibly of a lower dimension); for instance, it maps a plane through the origin to a plane, straight line or point. Linear maps can often be represented as matrices, and simple examples include rotation and reflection linear transformations.
+In the language of category theory, linear maps are the morphisms of vector spaces.
+Definition and first consequences.
+Let formula_3 and formula_4 be vector spaces over the same field formula_9. 
+A function formula_10 is said to be a "linear map" if for any two vectors formula_11 and any scalar formula_12 the following two conditions are satisfied:
+Thus, a linear map is said to be "operation preserving". 
+In other words, it does not matter whether the linear map is applied before (the right hand sides of the above examples) or after (the left hand sides of the examples) the operations of addition and scalar multiplication.
+By the associativity of the addition operation denoted as +, for any vectors formula_13 and scalars formula_14 the following equality holds:
+Denoting the zero elements of the vector spaces formula_3 and formula_4 by formula_18 and formula_19 respectively, it follows that formula_20 
+Let formula_21 and formula_22 in the equation for homogeneity of degree 1:
+Occasionally, formula_3 and formula_4 can be vector spaces over different fields. 
+It is then necessary to specify which of these ground fields is being used in the definition of "linear". 
+If formula_3 and formula_4 are spaces over the same field formula_9 as above, then we talk about formula_9-linear maps. 
+For example, the conjugation of complex numbers is an formula_30-linear map formula_31, but it is not formula_32-linear, where formula_30 and formula_32 are symbols representing the sets of real numbers and complex numbers, respectively.
+A linear map formula_35 with formula_9 viewed as a one-dimensional vector space over itself is called a linear functional.
+These statements generalize to any left-module formula_37 over a ring formula_38 without modification, and to any right-module upon reversing of the scalar multiplication.
+

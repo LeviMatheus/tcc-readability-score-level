@@ -1,0 +1,2 @@
+When a piece of music is in a major key, the relative minor means the minor key which has the same key signature. It can be found by taking the sixth note of the first scale and playing a minor scale starting on that note. For example: in C major the sixth note is an A. Therefore A minor is the relative minor of C major (C major and A minor share the same key signature: no sharps or flats).
+C major is called the relative major of A minor.

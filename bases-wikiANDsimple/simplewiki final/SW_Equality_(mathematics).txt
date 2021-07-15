@@ -1,0 +1,2 @@
+Two mathematical objects are equal if and only if they are exactly the same in every way. This defines a binary relation, equality, marked by the "sign of equality" "=" in such a way that the statement "x" = "y" means that "x" and "y" are equal.
+Equivalence in a more general sense is provided by the construction of an equivalence relation between two sets, that is, the two sets have exactly the same elements. The sets don't need to be finite to be equal. A statement that two expressions denote equal quantities is an equation.

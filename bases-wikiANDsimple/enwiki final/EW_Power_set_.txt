@@ -1,0 +1,41 @@
+
+In mathematics, the power set (or powerset) of a set is the set of all subsets of , including the empty set and itself. In axiomatic set theory (as developed, for example, in the ZFC axioms), the existence of the power set of any set is postulated by the axiom of power set. 
+The powerset of is variously denoted as (), 𝒫(), , , ℘() (using the "Weierstrass p"), or . The notation is used because given any set with exactly two elements, the powerset of can be identified with the set of all functions from into that set.
+Any subset of () is called a family of sets over .
+Example.
+If is the set , then the subsets of are
+and hence the power set of is .
+Properties.
+If is a finite set with elements, then the number of subsets of is . This fact, which is the motivation for the notation , may be demonstrated simply as follows,
+Cantor's diagonal argument shows that the power set of a set (whether infinite or not) always has strictly higher cardinality than the set itself (or informally, the power set must be larger than the original set). In particular, Cantor's theorem shows that the power set of a countably infinite set is uncountably infinite. The power set of the set of natural numbers can be put in a one-to-one correspondence with the set of real numbers (see Cardinality of the continuum).
+The power set of a set , together with the operations of union, intersection and complement, can be viewed as the prototypical example of a Boolean algebra. In fact, one can show that any "finite" Boolean algebra is isomorphic to the Boolean algebra of the power set of a finite set. For "infinite" Boolean algebras, this is no longer true, but every infinite Boolean algebra can be represented as a subalgebra of a power set Boolean algebra (see Stone's representation theorem).
+The power set of a set forms an abelian group when considered with the operation of symmetric difference (with the empty set as the identity element and each set being its own inverse), and a commutative monoid when considered with the operation of intersection. It can hence be shown, by proving the distributive laws, that the power set considered together with both of these operations forms a Boolean ring.
+Representing subsets as functions.
+In set theory, is the set of all functions from to . As "2" can be defined as (see, for example, von Neumann ordinals), (i.e., ) is the set of all functions from to {0,1}. By identifying a function in with the corresponding preimage of , we see that there is a bijection between and (), where each function is the characteristic function of the subset in () with which it is identified. Hence and () could be considered identical set-theoretically. (Thus there are two distinct notational motivations for denoting the power set by : the fact that this function-representation of subsets makes it a special case of the notation and the property, mentioned above, that .)
+This notion can be applied to the example above, in which , to get the isomorphism with the binary numbers
+from 0 to , with being the number of elements in the set.
+In , a "1" in the position corresponding to the location in the enumerated set indicates the presence of the element. So .
+For the whole power set of , we get:
+Such a bijective mapping of "S" to integers is arbitrary, so this representation of subsets of "S" is not unique, but the sort order of the enumerated set does not change its cardinality.
+However, such finite binary representation is only possible if "S" can be enumerated. This is possible even if "S" has an infinite cardinality, such as the set of integers or rationals, but not for example if "S" is the set of real numbers, in which case we cannot enumerate all irrational numbers to assign them a defined finite location in an ordered set.
+Relation to binomial theorem.
+The power set is closely related to the binomial theorem. The number of subsets with elements in the power set of a set with elements is given by the number of combinations, , also called binomial coefficients.
+For example, the power set of a set with three elements, has:
+Using this relationship, we can compute formula_3 using the formula:
+formula_4
+Therefore, one can deduce the following identity, assuming formula_5:
+formula_6
+Recursive definition.
+If formula_7 is a finite set, then a recursive definition of formula_8 proceeds as follows:
+In words: 
+Subsets of limited cardinality.
+The set of subsets of of cardinality less than or equal to is sometimes denoted by or , and the set of subsets with cardinality strictly less than is sometimes denoted or . Similarly, the set of non-empty subsets of might be denoted by or .
+Power object.
+A set can be regarded as an algebra having no nontrivial operations or defining equations. From this perspective, the idea of the power set of as the set of subsets of generalizes naturally to the subalgebras of an algebraic structure or algebra.
+The power set of a set, when ordered by inclusion, is always a complete atomic Boolean algebra, and every complete atomic Boolean algebra arises as the lattice of all subsets of some set. The generalization to arbitrary algebras is that the set of subalgebras of an algebra, again ordered by inclusion, is always an algebraic lattice, and every algebraic lattice arises as the lattice of subalgebras of some algebra. So in that regard, subalgebras behave analogously to subsets.
+However, there are two important properties of subsets that do not carry over to subalgebras in general. First, although the subsets of a set form a set (as well as a lattice), in some classes it may not be possible to organize the subalgebras of an algebra as itself an algebra in that class, although they can always be organized as a lattice. Secondly, whereas the subsets of a set are in bijection with the functions from that set to the set {0,1} = 2, there is no guarantee that a class of algebras contains an algebra that can play the role of 2 in this way.
+Certain classes of algebras enjoy both of these properties. The first property is more common, the case of having both is relatively rare. One class that does have both is that of multigraphs. Given two multigraphs and , a homomorphism consists of two functions, one mapping vertices to vertices and the other mapping edges to edges. The set of homomorphisms from to can then be organized as the graph whose vertices and edges are respectively the vertex and edge functions appearing in that set. Furthermore, the subgraphs of a multigraph are in bijection with the graph homomorphisms from to the multigraph definable as the complete directed graph on two vertices (hence four edges, namely two self-loops and two more edges forming a cycle) augmented with a fifth edge, namely a second self-loop at one of the vertices. We can therefore organize the subgraphs of as the multigraph , called the power object of .
+What is special about a multigraph as an algebra is that its operations are unary. A multigraph has two sorts of elements forming a set of vertices and of edges, and has two unary operations giving the source (start) and target (end) vertices of each edge. An algebra all of whose operations are unary is called a presheaf. Every class of presheaves contains a presheaf that plays the role for subalgebras that 2 plays for subsets. Such a class is a special case of the more general notion of elementary topos as a category that is closed (and moreover cartesian closed) and has an object , called a subobject classifier. Although the term "power object" is sometimes used synonymously with exponential object , in topos theory is required to be .
+Functors and quantifiers.
+In category theory and the theory of elementary topoi, the universal quantifier can be understood as the right adjoint of a functor between power sets, the inverse image functor of a function between sets; likewise, the existential quantifier is the left adjoint.
+

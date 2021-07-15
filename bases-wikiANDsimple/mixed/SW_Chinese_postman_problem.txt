@@ -1,0 +1,2 @@
+The Chinese postman problem is a mathematical problem of Graph theory. It is also known as route inspection problem. Suppose there is a mailman who needs to deliver mail to a certain neighbourhood. That mailman is lazy, so he wants to find a route through the neighborhood, that meets the following criteria
+If the graph travelled has an Eulerian Circuit, this circuit is the ideal solution

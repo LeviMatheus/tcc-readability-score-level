@@ -1,0 +1,5 @@
+
+Flag sequence: In data transmission or processing, a sequence of bits used to delimit, "i.e." mark the beginning and end of a frame. 
+"Note 1:" An 8-bit sequence is usually used as the flag sequence; for example, the 8-bit flag sequence 01111110. 
+"Note 2:" Flag sequences are used in bit-oriented protocols, such as Advanced Data Communication Control Procedures (ADCCP), Synchronous Data Link Control (SDLC), and High-Level Data Link Control (HDLC).
+

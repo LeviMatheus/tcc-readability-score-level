@@ -1,0 +1,9 @@
+Frequency is cycles per second. A cycle in a wave is from one point to the same point as in from crest to crest.
+formula_1
+All electromagnetic waves travel at the speed of light in vacuum. (Other waves such as sound waves travel at much lower velocities), and electromagnetic waves travel at a speed lower than speed of light in non-vacuum medium.
+Examples of electromagnetic wave is light, radio wave, and infrared light.
+Visualizing electromagnetic waves.
+Different types of electromagnetic waves have different frequencies.
+Example.
+One way to visualize this is if there were two trains traveling at the same speed, but the size of the train cars was smaller on one train than the other. If someone picked something that wasn't moving, like a signpost, and then counted how many train cars passed the sign post in one second for each train, they would know the frequency of cars passing in each train. The number and frequency of train cars passing the sign post would be different, because the train with smaller train cars would have more train cars passing the sign post in a second than the train with larger train cars. Knowing how many cars passed the sign post in one second, and knowing the speed of the train, one could figure out mathematically the size of each train car for each train.
+For example, if the train was moving at 10 miles per second, and 10 train cars passed in one second, then each train car would be 1 mile long. If the other train was also moving at 10 miles per second and 20 train cars passed in one second, then one would know that each train car was 1/2 of a mile long for that train. This example shows that knowing the frequency of an electromagnetic wave gives you the wavelength, since all electromagnetic waves travel at the speed of light so that c = v (lambda) where v is frequency and lambda is wavelength, and c is the speed of light. Therefore, another way of expressing frequency is to say "frequency is c over lambda."

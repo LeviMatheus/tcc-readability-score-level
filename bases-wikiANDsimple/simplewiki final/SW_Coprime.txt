@@ -1,0 +1,3 @@
+In mathematics, two integers ("a" and "b") are coprime (or relatively prime) if they share no common factors. In other words, there is no number, other than 1, that divides both a and b.
+As an example, 6 and 35 are coprime. 6 and 27 are not coprime, because 3 divides both 6 and 27.
+Prime numbers are always coprime to each other.

@@ -1,0 +1,4 @@
+A video projector takes a video signal and projects the corresponding image on a screen using a lens system. All video projectors use a very bright light to project the image, and most modern ones can correct any curves, blurriness, and other inconsistencies through manual settings. Video projectors are widely used for conference room presentations, classroom training, and home theatre applications.
+A video projector may also be built into a cabinet with a rear-projection screen to form a single unified display device, now popular for “home theater” applications.
+Common display resolutions for a portable projector include SVGA (800×600 pixels), XGA (1024×768 pixels), and 720p (1280×720 pixels).
+The cost of a device is not only determined by its resolution, but also by its light output, acoustic noise output, contrast, and other characteristics.

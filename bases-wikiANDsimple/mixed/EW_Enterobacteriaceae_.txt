@@ -1,0 +1,26 @@
+
+Enterobacteriaceae is a large family of Gram-negative bacteria. It was first proposed by Rahn in 1936, and now includes over 30 genera and more than 100 species. Its classification above the level of family is still a subject of debate, but one classification places it in the order Enterobacterales of the class Gammaproteobacteria in the phylum Proteobacteria.
+Enterobacteriaceae includes, along with many harmless symbionts, many of the more familiar pathogens, such as "Salmonella", "Escherichia coli", "Klebsiella", and "Shigella". Other disease-causing bacteria in this family include "Enterobacter" and "Citrobacter". Members of the Enterobacteriaceae can be trivially referred to as enterobacteria or "enteric bacteria", as several members live in the intestines of animals. In fact, the etymology of the family is enterobacterium with the suffix to designate a family (aceae)—not after the genus "Enterobacter" (which would be "Enterobacteraceae")—and the type genus is "Escherichia".
+Morphology.
+Members of the Enterobacteriaceae are bacilli (rod-shaped), and are typically 1–5 μm in length. They typically appear as medium to large-sized grey colonies on blood agar, although some can express pigments.
+Most have many flagella used to move about, but a few genera are nonmotile. Most members of Enterobacteriaceae have peritrichous, type I fimbriae involved in the adhesion of the bacterial cells to their hosts.
+They are not spore-forming.
+Metabolism.
+Like other proteobacteria, enterobactericeae have Gram-negative stains, and they are facultative anaerobes, fermenting sugars to produce lactic acid and various other end products. Most also reduce nitrate to nitrite, although exceptions exist. Unlike most similar bacteria, enterobacteriaceae generally lack cytochrome c oxidase, there are exceptions.
+Catalase reactions vary among Enterobacteriaceae.
+Ecology.
+Many members of this family are normal members of the gut microbiota in humans and other animals, while others are found in water or soil, or are parasites on a variety of different animals and plants.
+Model organisms and medical relevance.
+"Escherichia coli" is one of the most important model organisms, and its genetics and biochemistry have been closely studied.
+Some enterobacteria are important pathogens, e.g. "Salmonella", or "Shigella" e.g. because they produce endotoxins. Endotoxins reside in the cell wall and are released when the cell dies and the cell wall disintegrates. Some members of the "Enterobacteriaceae" produce endotoxins that, when released into the bloodstream following cell lysis, cause a systemic inflammatory and vasodilatory response. The most severe form of this is known as endotoxic shock, which can be rapidly fatal.
+Genera.
+Validly published genera.
+The following genera have been validly published, thus they have "Standing in Nomenclature". The year the genus was proposed is listed in parentheses after the genus name.
+Proposed genera.
+The following genera have been effectively, but not validly, published, thus they do not have "Standing in Nomenclature". The year the genus was proposed is listed in parentheses after the genus name.
+Identification.
+To identify different genera of Enterobacteriaceae, a microbiologist may run a series of tests in the lab. These include:
+In a clinical setting, three species make up 80 to 95% of all isolates identified. These are "Escherichia coli", "Klebsiella pneumoniae", and "Proteus mirabilis". However, "Proteus mirabilis" is now considered a part of the Morganellaceae, a sister clade within the Enterobacterales.
+Antibiotic resistance.
+Several Enterobacteriaceae strains have been isolated which are resistant to antibiotics including carbapenems, which are often claimed as "the last line of antibiotic defense" against resistant organisms. For instance, some "Klebsiella pneumoniae" strains are carbapenem resistant.
+

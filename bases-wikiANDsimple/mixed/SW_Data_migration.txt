@@ -1,0 +1,2 @@
+Data migration is a term computer scientists and economists use when they speak about moving data from one location to another. It can also mean that files, or folders with documents, or databases are moved from one server to another. This might be that because several databases are merged into one, or because the databases are reorganised.
+It is usually an automated process, supported by data migration tools. If the data structure is complex, the migration may be separated in several phases that are carried out consecutively.

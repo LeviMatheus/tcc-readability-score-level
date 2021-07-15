@@ -1,0 +1,5 @@
+A pie chart is a type of chart with the shape of a pie or circle. It presents the relationship of different parts of the data. One would easily see the biggest or smallest share of the total data, by simply looking at the pie chart.
+Warning against usage.
+Pie charts should be used only when the sum of all categories is meaningful, for example if they represent proportions.
+Pie charts are rare in scientific writing. They are more common in business and economics. One reason for this may be that it is more difficult to compare the size of items in a chart when area is used instead of length. Stevens' power law says that it is harder to see small differences using visual area than when using length. This means that length is a better scale to use, because differences can be found out easier.
+This can be shown with the image to the right. The pie chart and the bar chart have the same data. Most people have difficulty putting the slices in the pie chart in order by size from biggest to smallest. When using the bar chart, it is much easier to tell the difference between bars that are very similar in size.

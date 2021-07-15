@@ -1,0 +1,33 @@
+
+A tetromino is a geometric shape composed of four squares, connected orthogonally (i.e. at the edges and not the corners). This, like dominoes and pentominoes, is a particular type of polyomino. The corresponding polycube, called a tetracube, is a geometric shape composed of four cubes connected orthogonally.
+A popular use of tetrominoes is in the video game "Tetris", which refers to them as tetriminos. The tetrominoes used in the game are specifically the one-sided tetrominoes.
+The tetrominoes.
+Free tetrominoes.
+Polyominos are formed by joining unit squares along their edges. A free polyomino is a polyomino considered up to congruence. That is, two free polyominos are the same if there is a combination of translations, rotations, and reflections that turns one into the other. A free tetromino is a free polyomino made from four squares. There are five free tetrominoes.
+&lt;br&gt;&lt;br&gt;The free tetrominoes have the following symmetry:
+&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
+One-sided tetrominoes.
+One-sided tetrominoes are tetrominoes that may be translated and rotated but not reflected. They are used by, and are overwhelmingly associated with, "Tetris". There are seven distinct one-sided tetrominoes. These tetrominoes are named by the letter of the alphabet they most closely resemble. The "I", "O", and "T" tetrominoes have reflectional symmetry, so it does not matter whether they are considered as free tetrominoes or one-sided tetrominoes. The remaining four tetrominoes, "J", "L", "S", and "Z", exhibit a phenomenon called chirality. J and L are reflections of each other, and S and Z are reflections of each other.
+As free tetrominoes, J is equivalent to L, and S is equivalent to Z. But in two dimensions and without reflections, it is not possible to transform J into L or S into Z.
+&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
+Fixed tetrominoes.
+The fixed tetrominoes allow only translation, not rotation or reflection. There are two distinct fixed I-tetrominoes, four J, four L, one O, two S, four T, and two Z, for a total of 19 fixed tetrominoes:
+&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
+Tiling a rectangle.
+Filling a rectangle with one set of tetrominoes.
+A single set of free tetrominoes or one-sided tetrominoes cannot fit in a rectangle. This can be shown with a proof similar to the mutilated chessboard argument. A 5×4 rectangle with a checkerboard pattern has 20 squares, containing 10 light squares and 10 dark squares, but a complete set of free tetrominoes has 11 dark squares and 9 light squares. This is due to the T tetromino having 3 dark squares and one light square, while all other tetrominos each have 2 dark squares and 2 light squares. Similarly, a 7×4 rectangle has 28 squares, containing 14 squares of each shade, but the set of one-sided tetrominoes has 15 dark squares and 13 light squares. By extension, any odd number of sets for either type cannot fit in a rectangle. Additionally, the 19 fixed tetrominoes cannot fit in a 4×19 rectangle. This was discovered by exhausting all possibilities in a computer search.
+&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
+Filling a modified rectangle with one set of tetrominoes.
+However, all three sets of tetrominoes can fit rectangles with holes: 
+&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
+Filling a rectangle with two sets of tetrominoes.
+Two sets of free or one-sided tetrominoes can fit into a rectangle in different ways, as shown below:
+&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
+Etymology.
+The name "tetromino" is a combination of the prefix "tetra-" 'four' (from Ancient Greek ), and "domino". The name was introduced by Solomon W. Golomb in 1953 along with other nomenclature related to polyominos.
+Filling a box with tetracubes.
+Each of the five free tetrominoes has a corresponding tetracube, which is the tetromino extruded by one unit.
+J and L are the same tetracube, as are S and Z, because one may be rotated around an axis parallel to the tetromino's plane to form the other. Three more tetracubes are possible, all created by placing a unit cube on the bent tricube:
+&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
+The tetracubes can be packed into two-layer 3D boxes in several different ways, based on the dimensions of the box and criteria for inclusion. They are shown in both a pictorial diagram and a text diagram. For boxes using two sets of the same pieces, the pictorial diagram depicts each set as a lighter or darker shade of the same color. The text diagram depicts each set as having a capital or lower-case letter. In the text diagram, the top layer is on the left, and the bottom layer is on the right.
+

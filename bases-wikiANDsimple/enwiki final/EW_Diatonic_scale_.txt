@@ -1,0 +1,60 @@
+
+In music theory, a diatonic scale is any heptatonic scale that includes five whole steps (whole tones) and two half steps (semitones) in each octave, in which the two half steps are separated from each other by either two or three whole steps, depending on their position in the scale. This pattern ensures that, in a diatonic scale spanning more than one octave, all the half steps are maximally separated from each other (i.e. separated by at least two whole steps).
+The seven pitches of any diatonic scale can also be obtained by using a chain of six perfect fifths. For instance, the seven natural pitch classes that form the C-major scale can be obtained from a stack of perfect fifths starting from F:
+Any sequence of seven successive natural notes, such as C–D–E–F–G–A–B, and any transposition thereof, is a diatonic scale. Modern musical keyboards are designed so that the white notes form a diatonic scale, though transpositions of this diatonic scale require one or more black keys. A diatonic scale can be also described as two tetrachords separated by a whole tone.
+The term "diatonic" originally referred to the diatonic genus, one of the three genera of the ancient Greeks. In musical set theory, Allen Forte classifies diatonic scales as set form 7–35.
+This article does not concern alternative seven-note scales such as the harmonic minor or the melodic minor which, although sometimes called "diatonic", do not fulfill the condition of maximal separation of the semitones indicated above.
+History.
+The word "diatonic" comes from the Greek word " diatonikós" (διατονικός), which essentially means "through tones", from "diatonos" (διάτονος), "stretched to the uttermost", probably referring to the tension of the strings of musical instruments.
+Western music from the Middle Ages until the late 19th century (see common practice period) is based on the diatonic scale and the unique hierarchical relationships created by this system of organizing seven notes.
+Prehistory.
+There is a claim that the 45,000-year-old Divje Babe Flute used a diatonic scale, but there is no proof or consensus of it even being a musical instrument.
+There is evidence that the Sumerians and Babylonians used a version of the diatonic scale. This derives from surviving inscriptions that contain a tuning system and musical composition. Despite the conjectural nature of reconstructions of the piece known as the Hurrian songs from the surviving score, the evidence that it used the diatonic scale is much more soundly based. This is because instructions for tuning the scale involve tuning a chain of six fifths, so that the corresponding circle of seven major and minor thirds are all consonant, and this is a recipe for tuning a diatonic scale.
+The 9,000-year-old flutes found in Jiahu, China, indicate the evolution over 1,200 years of flutes having 4, 5 and 6 holes to having 7 and 8 holes, the latter exhibiting striking similarity to diatonic hole spacings and sounds.
+Middle Ages.
+The scales corresponding to the medieval church modes were diatonic. Depending on which of the seven notes of the diatonic scale you use as the beginning, the positions of the intervals fall at different distances from the starting tone (the "reference note"), producing seven different scales. One of these, the one starting on B, has no pure fifth above its reference note (B–F is a diminished fifth): it is probably for this reason that it was not used. Of the six remaining scales, two were described as corresponding to two others with a B instead of a B:
+As a result, medieval theory described the church modes as corresponding to four diatonic scales only (two of which had the variable B/). They were the modern Dorian, Phrygian, Lydian, and Mixolydian modes of C major, plus the Ionian and Aeolian modes of F major when B was substituted into the Lydian and Dorian.
+Renaissance.
+Heinrich Glarean considered that the modal scales including a B had to be the result of a transposition. In his "Dodecachordon", he not only described six "natural" diatonic scales (still neglecting the seventh one with a diminished fifth above the reference note), but also six "transposed" ones, each including a B, resulting in the total of twelve scales that justified the title of his treatise. These were the 6 non-Locrian modes of C major and F major.
+Modern.
+By the beginning of the Baroque period, the notion of the musical key was established, describing additional possible transpositions of the diatonic scale. Major and minor scales came to dominate until at least the start of the 20th century, partly because their intervallic patterns are suited to the reinforcement of a central triad. Some church modes survived into the early 18th century, as well as appearing in classical and 20th-century music, and jazz (see chord-scale system).
+Theory.
+Of Glarean's six natural scales, three are major scales (those with a major third/triad: Ionian, Lydian, and Mixolydian), and three are minor (those with a minor third/triad: Dorian, Phrygian, and Aeolian). To these may be added the seventh diatonic scale, with a diminished fifth above the reference note, the Locrian scale. These could be transposed not only to include one flat in the signature (as described by Glarean), but to all twelve notes of the chromatic scale, resulting in a total of eighty-four diatonic scales.
+The modern musical keyboard originated as a diatonic keyboard with only white keys. The black keys were progressively added for several purposes:
+The pattern of elementary intervals forming the diatonic scale can be represented either by the letters T (Tone) and S (Semitone) respectively. With this abbreviation, major scale, for instance, can be represented as
+Major scale.
+The major scale or Ionian mode is one of the diatonic scales. It is made up of seven distinct notes, plus an eighth that duplicates the first an octave higher. The pattern of seven intervals separating the eight notes is T–T–S–T–T–T–S. In solfege, the syllables used to name each degree of the scale are "Do–Re–Mi–Fa–Sol–La–Ti–Do". A sequence of successive natural notes starting from C is an example of major scale, called C-major scale.
+The eight degrees of the scale are also known by traditional names, especially when used in a tonal context:
+Natural minor scale.
+For each major scale, there is a corresponding natural minor scale, sometimes called its relative minor. It uses the same sequence of notes as the corresponding major scale but starts from a different note. That is, it begins on the sixth degree of the major scale and proceeds step-by-step to the first octave of the sixth degree. A sequence of successive natural notes starting from A is an example of a natural minor scale, called the A natural minor scale.
+The degrees of the natural minor scale, especially in a tonal context, have the same names as those of the major scale, except the seventh degree, which is known as the subtonic because it is a whole step below the tonic. The term leading tone is generally reserved for seventh degrees that are a "half step" (semitone) below the tonic, as is the case in the major scale.
+Besides the natural minor scale, five other kinds of scales can be obtained from the notes of a major scale, by simply choosing a different note as the starting note. All these scales meet the definition of diatonic scale.
+Modes.
+The whole collection of diatonic scales as defined above can be divided into seven different scales.
+As explained above, all major scales use the same interval sequence T–T–S–T–T–T–S. This interval sequence was called the "Ionian mode" by Glarean. It is one of the seven modern modes. From any major scale, a new scale is obtained by taking a different degree as the tonic. With this method it is possible to generate six other scales or modes from each major scale. Another way to describe the same result would be to consider that, behind the diatonic scales, there exists an underlying "diatonic system" which is the series of diatonic notes without a reference note; assigning the reference note in turn to each of the seven notes in each octave of the system produces seven diatonic scales, each characterized by a different interval sequence:
+For the sake of simplicity, the examples shown above are formed by natural notes (i.e. neither sharps nor flats, also called "white-notes", as they can be played using the white keys of a piano keyboard). However, any transposition of each of these scales (or of the system underlying them) is a valid example of the corresponding mode. In other words, transposition preserves mode.
+The whole set of diatonic scales is commonly defined as the set composed of these seven natural-note scales, together with all of their possible transpositions. As discussed elsewhere, different definitions of this set are sometimes adopted in the literature.
+Diatonic scales and tetrachords.
+A diatonic scale can be also described as two tetrachords separated by a whole tone. For example, under this view the two tetrachord structures of C major would be:
+each tetrachord being formed of two tones and a semitone, T T S,
+and the natural minor of A would be:
+formed two different tetrachords, the first consisting in a semitone between two tones, T S T, and the second of a semitone and two tones, S T T.
+The medieval conception of the tetrachordal structure, however, was based on one single tetrachord, that of the D scale,
+each formed of a semitone between tones, T S T. It viewed other diatonic scales as differently overlapping disjunct and conjunct tetrachords:
+(where G | A indicates the disjunction of tetrachords, always between G and A, and D = D indicates their conjunction, always on the common note D).
+Tuning.
+Diatonic scales can be tuned variously, either by iteration of a perfect or tempered fifth, or by a combination of perfect fifths and perfect thirds (Just intonation), or possibly by a combination of fifths and thirds of various sizes, as in well temperament.
+Iteration of the fifth.
+If the scale is produced by the iteration of six perfect fifths, for instance F–C–G–D–A–E–B, the result is Pythagorean tuning:
+Six of the "fifth" intervals (C–G, D–A, E–B, F–C′, G–D′, A–E′) are all = 1.5 (702 cents), but B–F′ is the discordant tritone, here = 1.423828125 (673.5 cents). Tones are each = 1.125 (204 cents) and diatonic semitones are ≈ 1.0535 (90 cents).
+Extending the series of fifths to eleven fifths would result into the Pythagorean chromatic scale.
+Equal temperament.
+Equal temperament is the division of the octave in twelve equal semitones. The frequency ratio of the semitone then becomes the twelfth root of two ( ≈ 1.059463, 100 cents). The tone is the sum of two semitone. Its ratio is the sixth root of two ( ≈ 1.122462, 200 cents). Equal temperament can be produced by a succession of tempered fifths, each of them with the ratio of 2 ≈ 1.498307, 700 cents.
+Meantone temperament.
+The fifths could be tempered more than in equal temperament, in order to produce better thirds. See quarter-comma meantone for a meantone temperament commonly used in the sixteenth and seventeenth centuries and sometimes after, which produces perfect major thirds.
+Just intonation.
+Just intonation often is represented using Euler's Tonnetz, with the horizontal axis showing the perfect fifths and the vertical axis the perfect major thirds. In the Tonnetz, the diatonic scale in just intonation appears as follows:
+F–A, C–E and G–B, aligned vertically, are perfect major thirds; A–E–B and F–C–G–D are two series of perfect fifths. The notes of the top line, A, E and B, are lowered by the syntonic comma, , and the "wolf" fifth D–A is too narrow by the same amount. The tritone F–B is ≈ 1.40625.
+This tuning has been first described by Ptolemy and is known as Ptolemy's intense diatonic scale. It was also mentioned by Zarlino in the 16th century and has been described by theorists in the 17th and 18th centuries as the "natural" scale.
+Since the frequency ratios are based on simple powers of the prime numbers 2, 3, and 5, this is also known as five-limit tuning.
+

@@ -1,0 +1,1 @@
+A digon is a shape that has two sides and two corners (vertices). It is impossible to make on a flat surface, called a plane because the sides would be the same, but possible to make on a sphere. It can be made by picking two places on a great circle and connecting them. If the places are opposite each other, the digon is called a regular digon.

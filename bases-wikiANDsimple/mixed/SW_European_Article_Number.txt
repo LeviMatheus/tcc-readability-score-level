@@ -1,0 +1,1 @@
+The European Article Number (often shortened to "EAN") is a standard to do barcodes. Barcodes are machine-readable codes. They encode information. They can be found on many product packets in supermarkets. They are also found on most retail products (electronics, books etc.)

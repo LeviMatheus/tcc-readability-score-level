@@ -1,0 +1,1 @@
+In electronics, an analog-to-digital converter (abbreviated ADC, A/D or A to D) is an electronic integrated circuit, which converts continuous signals to discrete digital numbers. The reverse operation is performed by a digital-to-analog converter (DAC). Typically, an ADC is an electronic device that converts an input analog voltage (or current) to a digital number.

@@ -1,0 +1,51 @@
+
+The radian, denoted by the symbol formula_1, is the SI unit for measuring angles, and is the standard unit of angular measure used in many areas of mathematics. The unit was formerly an SI supplementary unit (before that category was abolished in 1995) and the radian is now an SI derived unit. The radian is defined in the SI as being a dimensionless value, and its symbol is accordingly often omitted, especially in mathematical writing.
+Definition.
+One radian is defined as the angle subtended from the center of a circle which intercepts an arc equal in length to the radius of the circle. More generally, the magnitude in radians of a subtended angle is equal to the ratio of the arc length to the radius of the circle; that is, , where is the subtended angle in radians, is arc length, and is radius. Conversely, the length of the intercepted arc is equal to the radius multiplied by the magnitude of the angle in radians; that is, .
+As the ratio of two lengths, the radian is a pure number. In SI, the radian is defined as having the value 1. As a consequence, in mathematical writing, the symbol "rad" is almost always omitted. When quantifying an angle in the absence of any symbol, radians are assumed, and when degrees are meant, the degree sign is used.
+It follows that the magnitude in radians of one complete revolution (360 degrees) is the length of the entire circumference divided by the radius, or , or 2. Thus 2 radians is equal to 360 degrees, meaning that one radian is equal to 180/ ≈ degrees.
+The relation can be derived using the formula for arc length. Taking the formula for arc length, or formula_2. Assuming a unit circle; the radius is therefore 1. Since radian is the measure of an angle that subtends an arc of a length equal to the radius of the circle, formula_3. This can be further simplified to formula_4. Multiplying both sides by 360° gives .
+History.
+The concept of radian measure, as opposed to the degree of an angle, is normally credited to Roger Cotes in 1714. He described the radian in everything but name, and recognized its naturalness as a unit of angular measure. Prior to the term "radian" becoming widespread, the unit was commonly called "circular measure" of an angle.
+The idea of measuring angles by the length of the arc was already in use by other mathematicians. For example, al-Kashi (c. 1400) used so-called "diameter parts" as units, where one diameter part was radian. They also used sexagesimal subunits of the diameter part.
+The term "radian" first appeared in print on 5 June 1873, in examination questions set by James Thomson (brother of Lord Kelvin) at Queen's College, Belfast. He had used the term as early as 1871, while in 1869, Thomas Muir, then of the University of St Andrews, vacillated between the terms "rad", "radial", and "radian". In 1874, after a consultation with James Thomson, Muir adopted "radian". The name "radian" was not universally adopted for some time after this. "Longmans' School Trigonometry" still called the radian "circular measure" when published in 1890.
+Unit symbol.
+The International Bureau of Weights and Measures and International Organization for Standardization specify rad as the symbol for the radian. Alternative symbols used 100 years ago are c (the superscript letter c, for "circular measure"), the letter r, or a superscript , but these variants are infrequently used, as they may be mistaken for a degree symbol (°) or a radius (r). Hence a value of 1.2 radians would most commonly be written as 1.2 rad; other notations include 1.2 r, 1.2, 1.2, or 1.2.
+Conversions.
+Conversion between radians and degrees.
+As stated, one radian is equal to formula_5. Thus, to convert from radians to degrees, multiply by formula_5.
+For example:
+Conversely, to convert from degrees to radians, multiply by formula_11.
+For example:
+formula_14
+Radians can be converted to turns (complete revolutions) by dividing the number of radians by 2.
+Radian to degree conversion derivation.
+The length of circumference of a circle is given by formula_15, where formula_16 is the radius of the circle.
+So the following equivalent relation is true:
+formula_17[Since a formula_18 sweep is needed to draw a full circle]
+By the definition of radian, a full circle represents:
+Combining both the above relations:
+Conversion between radians and gradians.
+formula_24 radians equals one turn, which is by definition 400 gradians (400 gons or 400g). So, to convert from radians to gradians multiply by formula_25, and to convert from gradians to radians multiply by formula_26. For example,
+Advantages of measuring in radians.
+In calculus and most other branches of mathematics beyond practical geometry, angles are universally measured in radians. This is because radians have a mathematical "naturalness" that leads to a more elegant formulation of a number of important results.
+Most notably, results in analysis involving trigonometric functions can be elegantly stated, when the functions' arguments are expressed in radians. For example, the use of radians leads to the simple limit formula
+which is the basis of many other identities in mathematics, including
+Because of these and other properties, the trigonometric functions appear in solutions to mathematical problems that are not obviously related to the functions' geometrical meanings (for example, the solutions to the differential equation formula_32, the evaluation of the integral formula_33 and so on). In all such cases, it is found that the arguments to the functions are most naturally written in the form that corresponds, in geometrical contexts, to the radian measurement of angles.
+The trigonometric functions also have simple and elegant series expansions when radians are used. For example, when "x" is in radians, the Taylor series for sin "x" becomes:
+If "x" were expressed in degrees, then the series would contain messy factors involving powers of /180: if "x" is the number of degrees, the number of radians is , so
+In a similar spirit, mathematically important relationships between the sine and cosine functions and the exponential function (see, for example, Euler's formula) can be elegantly stated, when the functions' arguments are in radians (and messy otherwise).
+Dimensional analysis.
+Although the radian is a unit of measure, it is a dimensionless quantity. This can be seen from the definition given earlier: the angle subtended at the centre of a circle, measured in radians, is equal to the ratio of the length of the enclosed arc to the length of the circle's radius. Since the units of measurement cancel, this ratio is dimensionless.
+Although polar and spherical coordinates use radians to describe coordinates in two and three dimensions, the unit is derived from the radius coordinate, so the angle measure is still dimensionless.
+Use in physics.
+The radian is widely used in physics when angular measurements are required. For example, angular velocity is typically measured in radians per second (rad/s). One revolution per second is equal to 2 radians per second.
+Similarly, angular acceleration is often measured in radians per second per second (rad/s2).
+For the purpose of dimensional analysis, the units of angular velocity and angular acceleration are s−1 and s−2 respectively.
+Likewise, the phase difference of two waves can also be measured in radians. For example, if the phase difference of two waves is ("k"⋅2) radians, where "k" is an integer, they are considered in phase, whilst if the phase difference of two waves is (), where "k" is an integer, they are considered in antiphase.
+SI multiples.
+Metric prefixes have limited use with radians, and none in mathematics. A milliradian (mrad) is a thousandth of a radian and a microradian (μrad) is a millionth of a radian, i.e. .
+There are 2 × 1000 milliradians (≈ 6283.185 mrad) in a circle. So a milliradian is just under of the angle subtended by a full circle. This "real" unit of angular measurement of a circle is in use by telescopic sight manufacturers using (stadiametric) rangefinding in reticles. The divergence of laser beams is also usually measured in milliradians.
+An approximation of the milliradian (0.001 rad) is used by NATO and other military organizations in gunnery and targeting. Each angular mil represents of a circle and is % or 1.875% smaller than the milliradian. For the small angles typically found in targeting work, the convenience of using the number 6400 in calculation outweighs the small mathematical errors it introduces. In the past, other gunnery systems have used different approximations to ; for example Sweden used the "streck" and the USSR used . Being based on the milliradian, the NATO mil subtends roughly 1 m at a range of 1000 m (at such small angles, the curvature is negligible).
+Smaller units like microradians (μrad) and nanoradians (nrad) are used in astronomy, and can also be used to measure the beam quality of lasers with ultra-low divergence. More common is arc second, which is  rad (around 4.8481 microradians). Similarly, the prefixes smaller than milli- are potentially useful in measuring extremely small angles.
+

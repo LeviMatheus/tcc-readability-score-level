@@ -1,0 +1,4 @@
+
+In telecommunication, an articulation score (AS) is a subjective measure of the intelligibility of a voice system in terms of the percentage of words correctly understood over a channel perturbed by interference.
+Articulation scores have been experimentally obtained as functions of varying word content, bandwidth, audio signal-to-noise ratio and the experience of the talkers and listeners involved.
+

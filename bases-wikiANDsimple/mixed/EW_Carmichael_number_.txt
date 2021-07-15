@@ -1,0 +1,53 @@
+
+In number theory, a Carmichael number is a composite number formula_1 which satisfies the modular arithmetic congruence relation:
+for all integers formula_3 which are relatively prime to formula_1.
+They are named for Robert Carmichael.
+The Carmichael numbers are the subset "K"1 of the Knödel numbers.
+Equivalently, a Carmichael number is a composite number formula_1 for which
+for all integers formula_3.
+Overview.
+Fermat's little theorem states that if "p" is a prime number, then for any integer "b", the number "b" − "b" is an integer multiple of "p". Carmichael numbers are composite numbers which have this property. Carmichael numbers are also called Fermat pseudoprimes or absolute Fermat pseudoprimes. A Carmichael number will pass a Fermat primality test to every base "b" relatively prime to the number, even though it is not actually prime.
+This makes tests based on Fermat's Little Theorem less effective than strong probable prime tests such as the Baillie–PSW primality test and the Miller–Rabin primality test.
+However, no Carmichael number is either an Euler–Jacobi pseudoprime or a strong pseudoprime to every base relatively prime to it
+so, in theory, either an Euler or a strong probable prime test could prove that a Carmichael number is, in fact, composite.
+Arnault
+gives a 397-digit Carmichael number formula_8 that is a "strong" pseudoprime to all "prime" bases less than 307:
+where
+is a 131-digit prime. formula_11 is the smallest prime factor of formula_8, so this Carmichael number is also a (not necessarily strong) pseudoprime to all bases less than formula_11.
+As numbers become larger, Carmichael numbers become increasingly rare. For example, there are 20,138,200 Carmichael numbers between 1 and 1021 (approximately one in 50 trillion (5·1013) numbers).
+Korselt's criterion.
+An alternative and equivalent definition of Carmichael numbers is given by Korselt's criterion.
+It follows from this theorem that all Carmichael numbers are odd, since any even composite number that is square-free (and hence has only one prime factor of two) will have at least one odd prime factor, and thus formula_19 results in an even dividing an odd, a contradiction. (The oddness of Carmichael numbers also follows from the fact that formula_20 is a Fermat witness for any even composite number.)
+From the criterion it also follows that Carmichael numbers are cyclic. Additionally, it follows that there are no Carmichael numbers with exactly two prime divisors.
+Discovery.
+Korselt was the first who observed the basic properties of Carmichael numbers, but he did not give any examples. In 1910, Carmichael found the first and smallest such number, 561, which explains the name "Carmichael number".
+That 561 is a Carmichael number can be seen with Korselt's criterion. Indeed, formula_21 is square-free and formula_22, formula_23 and formula_24.
+The next six Carmichael numbers are :
+These first seven Carmichael numbers, from 561 to 8911, were all found by the Czech mathematician in 1885 (thus preceding not just Carmichael but also Korselt, although Šimerka did not find anything like Korselt's criterion). His work, however, remained unnoticed.
+J. Chernick proved a theorem in 1939 which can be used to construct a subset of Carmichael numbers. The number formula_31 is a Carmichael number if its three factors are all prime. Whether this formula produces an infinite quantity of Carmichael numbers is an open question (though it is implied by Dickson's conjecture).
+Paul Erdős heuristically argued there should be infinitely many Carmichael numbers. In 1994 W. R. (Red) Alford, Andrew Granville and Carl Pomerance used a bound on Olson's constant to show that there really do exist infinitely many Carmichael numbers. Specifically, they showed that for sufficiently large formula_1, there are at least formula_33 Carmichael numbers between 1 and formula_1.
+Thomas Wright proved that if formula_35 and formula_36 are relatively prime,
+then there are infinitely many Carmichael numbers in the arithmetic progression formula_37,
+where formula_38.
+Löh and Niebuhr in 1992 found some very large Carmichael numbers, including one with 1,101,518 factors and over 16 million digits.
+This has been improved to 10,333,229,505 prime factors and 295,486,761,787 digits, so the largest known Carmichael number is much greater than the largest known prime.
+Properties.
+Factorizations.
+Carmichael numbers have at least three positive prime factors. The first Carmichael numbers with formula_39 prime factors are :
+The first Carmichael numbers with 4 prime factors are :
+The second Carmichael number (1105) can be expressed as the sum of two squares in more ways than any smaller number. The third Carmichael number (1729) is the Hardy-Ramanujan Number: the smallest number that can be expressed as the sum of two cubes (of positive numbers) in two different ways.
+Distribution.
+Let formula_40 denote the number of Carmichael numbers less than or equal to formula_41. The distribution of Carmichael numbers by powers of 10 :
+In 1953, Knödel proved the upper bound:
+for some constant formula_43.
+In 1956, Erdős improved the bound to
+for some constant formula_45. He further gave a heuristic argument suggesting that this upper bound should be close to the true growth rate of formula_40.
+In the other direction, Alford, Granville and Pomerance proved in 1994 that for sufficiently large "X",
+In 2005, this bound was further improved by Harman to
+who subsequently improved the exponent to formula_49.
+Regarding the asymptotic distribution of Carmichael numbers, there have been several conjectures. In 1956, Erdős conjectured that there were formula_50 Carmichael numbers for "X" sufficiently large. In 1981, Pomerance sharpened Erdős' heuristic arguments to conjecture that there are at least
+Carmichael numbers up to formula_41, where formula_53.
+However, inside current computational ranges (such as the counts of Carmichael numbers performed by Pinch up to 1021), these conjectures are not yet borne out by the data.
+Generalizations.
+The notion of Carmichael number generalizes to a Carmichael ideal in any number field "K". For any nonzero prime ideal formula_54 in formula_55, we have &lt;math&gt;\alpha^
+

@@ -1,0 +1,2 @@
+A solenoid is a 3 dimensional structure of wire. When this wire is wrapped around a metallic block, it has some special magnetic properties. When an electric current is passed thorugh it, it turns into an electromagnet that can be switched on or off.
+This principle is used to create valves, among other things.

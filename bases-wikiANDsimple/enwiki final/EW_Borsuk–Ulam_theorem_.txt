@@ -1,0 +1,35 @@
+
+In mathematics, the Borsuk–Ulam theorem states that every continuous function from an "n"-sphere into Euclidean "n"-space maps some pair of antipodal points to the same point. Here, two points on a sphere are called antipodal if they are in exactly opposite directions from the sphere's center.
+Formally: if formula_1 is continuous then there exists an formula_2 such that: formula_3.
+The case formula_4 can be illustrated by saying that there always exist a pair of opposite points on the Earth's equator with the same temperature. The same is true for any circle. This assumes the temperature varies continuously in space.
+The case formula_5 is often illustrated by saying that at any moment, there is always a pair of antipodal points on the Earth's surface with equal temperatures and equal barometric pressures, assuming that both parameters vary continuously in space.
+The Borsuk–Ulam theorem has several equivalent statements in terms of odd functions. Recall that formula_6 is the "n"-sphere and formula_7 is the "n"-ball:
+History.
+According to , the first historical mention of the statement of the Borsuk–Ulam theorem appears in . The first proof was given by , where the formulation of the problem was attributed to Stanislaw Ulam. Since then, many alternative proofs have been found by various authors, as collected by .
+Equivalent statements.
+The following statements are equivalent to the Borsuk–Ulam theorem.
+With odd functions.
+A function formula_16 is called "odd" (aka "antipodal" or "antipode-preserving") if for every formula_17: formula_18.
+The Borsuk–Ulam theorem is equivalent to the following statement: A continuous odd function from an "n"-sphere into Euclidean "n"-space has a zero. PROOF: 
+With retractions.
+Define a "retraction" as a function formula_25 The Borsuk–Ulam theorem is equivalent to the following claim: there is no continuous odd retraction.
+Proof: If the theorem is correct, then every continuous odd function from formula_6 must include 0 in its range. However, formula_27 so there cannot be a continuous odd function whose range is formula_12.
+Conversely, if it is incorrect, then there is a continuous odd function formula_29 with no zeroes. Then we can construct another odd function formula_30 by:
+since formula_16 has no zeroes, formula_33 is well-defined and continuous. Thus we have a continuous odd retraction.
+Proofs.
+1-dimensional case.
+The 1-dimensional case can easily be proved using the intermediate value theorem (IVT).
+Let formula_16 be an odd real-valued continuous function on a circle. Pick an arbitrary formula_17. If formula_10 then we are done. Otherwise, without loss of generality, formula_37 But formula_38 Hence, by the IVT, there is a point formula_39 between formula_17 and formula_41 at which formula_42.
+General case - algebraic topology proof.
+Assume that formula_30 is an odd continuous function with formula_44 (the case formula_45 is treated above, the case formula_46 can be handled using basic covering theory). By passing to orbits under the antipodal action, we then get an induced continuous function formula_47 between real projective spaces, which induces an isomorphism on fundamental groups. By the Hurewicz theorem, the induced ring homomorphism on cohomology with formula_48 coefficients [where formula_48 denotes the field with two elements], 
+sends formula_51 to formula_52. But then we get that formula_53 is sent to formula_54, a contradiction.
+One can also show the stronger statement that any odd map formula_55 has odd degree and then deduce the theorem from this result.
+General case - combinatorial proof.
+The Borsuk–Ulam theorem can be proved from Tucker's lemma.
+Let formula_8 be a continuous odd function. Because "g" is continuous on a compact domain, it is uniformly continuous. Therefore, for every formula_57, there is a formula_58 such that, for every two points of formula_59 which are within formula_60 of each other, their images under "g" are within formula_61 of each other.
+Define a triangulation of formula_59 with edges of length at most formula_60. Label each vertex formula_64 of the triangulation with a label formula_65 in the following way:
+Because "g" is odd, the labeling is also odd: formula_68. Hence, by Tucker's lemma, there are two adjacent vertices formula_69 with opposite labels. Assume w.l.o.g. that the labels are formula_70. By the definition of "l", this means that in both formula_71 and formula_72, coordinate #1 is the largest coordinate: in formula_71 this coordinate is positive while in formula_72 it is negative. By the construction of the triangulation, the distance between formula_71 and formula_72 is at most formula_61, so in particular formula_78 (since formula_79 and formula_80 have opposite signs) and so formula_81. But since the largest coordinate of formula_71 is coordinate #1, this means that formula_83 for each formula_84. So formula_85, where formula_86 is some constant depending on formula_87 and the norm formula_88 which you have chosen.
+The above is true for every formula_57; since formula_59 is compact there must hence be a point "u" in which formula_91.
+Equivalent results.
+Above we showed how to prove the Borsuk–Ulam theorem from Tucker's lemma. The converse is also true: it is possible to prove Tucker's lemma from the Borsuk–Ulam theorem. Therefore, these two theorems are equivalent.
+

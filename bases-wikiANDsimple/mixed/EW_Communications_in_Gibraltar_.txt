@@ -1,0 +1,78 @@
+
+Communications in Gibraltar comprise a wide range of telephony systems (both fixed-line and mobile), Internet access, broadcasting (radio and television) and satellite control. There is also printed and online media. Regulation of telecommunications and broadcasting are the responsibility of the Gibraltar Regulatory Authority (GRA), established by means of the Gibraltar Regulatory Authority Act in 2000.
+Telecommunications.
+History.
+The first submarine telegraph cable started its operation in Gibraltar in 1870. Gibraltar was a landing point of the long-range submarine cable that from Porthcurno, in the United Kingdom ran to Lisbon, Gibraltar, Malta, Alexandria, Suez, Aden, Bombay, over land to the east coast of India, then on to Penang, Malacca, Singapore, Batavia (current Jakarta), to finally reach Darwin, Australia. It was the first direct link between Australia and Great Britain. The company that laid the first part of the cable took the name of Falmouth, Gibraltar and Malta Telegraph Company and had been founded in 1869. This company later operated as the Eastern Telegraph Company from Mount Pleasant in Gibraltar and eventually became Cable &amp; Wireless.
+The first telephones were introduced to Gibraltar in 1886 by a private company which was later taken over by the colonial authorities. The first wireless message was transmitted to Gibraltar in 1903. Since 1926, the telephone service was operated by the City Council. An automatic exchange was installed in the last floor of the City Hall. On 4 April 1927, following an agreement signed between the Compañía Telefónica Nacional de España, the Spanish incumbent telecommunications operator, and the Gibraltar City Council, direct communications between Spain and Gibraltar were established.
+Upon the approval of the 1969 Constitution and the dissolution of the City Council, the telephone service was transferred to the newly formed Government of Gibraltar. In the 1970s there were three generations of automatic telephone exchange equipment in use with four and five digit numbers. The volume of calls grew and a System X digital exchange was installed.
+Until 1990, all telephone services were operated by the Gibraltar Government Telephone Department. International circuits were provided by Cable &amp; Wireless, present in Gibraltar since 1870 as the Falmouth, Malta, Gibraltar Telegraph Company. However, Cable &amp; Wireless left Gibraltar in 1987. On 1 January 1988, British Telecom (BT) and the Government of Gibraltar formed a joint venture company called Gibraltar Telecommunications International Ltd (known by its commercial brand Gibtel) to operate Gibraltar's international telecommunications services. Gibtel was subsequently granted a licence to offer mobile telephony introducing a GSM900 network.
+In 1990, the Government decided to privatise its Telephone Department and therefore entered into a joint venture with Nynex of the United States. Gibraltar Nynex Communications Ltd (GNC) became responsible for fixed-line telephony. GNC was the first acquisition of Nynex outside the Americas. In 1997, GNC, through its wholly owned subsidiary, GNC Networks, commenced Internet services. GNC Networks was later renamed GibConnect. ADSL services were introduced in 2002.
+In 2001, BT sold its 50% stake in Gibtel to GNC. Both companies subsequently merged to form Gibtelecom, a joint venture between the Government of Gibraltar and Nynex's successor company, Verizon. The name Gibtelecom begun to be used in July 2002, and as of 1 October 2003 this name was formally adopted by the company (which up until then was still Gibraltar Nynex Communications). In April 2007, Verizon sold its shares to Telekom Slovenije which is the incumbent telecommunications operator in Slovenia and is quoted on the Ljubljana Stock Exchange.
+Infrastructure.
+Telephones – Numbers in use: 25,000 (2006)
+Telephones – mobile cellular:
+15,000 (2006)
+The telecommunications infrastructure in Gibraltar is modelled on that of the UK; for example; the ringing tone of fixed telephone lines is identical to that of the UK, although that of mobile phones may resemble that of mainland Europe, with long tones. Telephone jacks are also British Standard BS 6312, as opposed to the RJ11 versions found in other parts of Europe and the world.
+Numbering plan.
+Calling code: +350
+Telecom dispute.
+Telecommunication services in Gibraltar were subject to Spanish restrictions until 10 February 2007. Subsequent to the resolution of the dispute, the Gibraltar telephone numbering plan has been increased to eight digits for land lines, adding a prefix of 200 to the existing Gibtelecom five digit numbers which is required to be dialled from October 2008.
+Gibtelecom was also prevented from having roaming agreements with Spanish GSM networks so its mobile phones did not operate in Spain. Gibtelecom had roaming arrangements with local GSM networks in most other countries. After the Córdoba Agreement, Gibtel (Gibtelecom's mobile service) could roam on Spanish network Movistar (Telefonica). As of recent customers can now roam on Vodafone and Yoigo. Orange still (September 2008) identifies as AMENA and does not allow Gibraltar phones to register.
+Fixed line services.
+In the 1980s there was a shortage of local line capacity on the existing crossbar exchange, which itself had replaced the relay and Strowger switch exchanges and a modern digital System/X switch was installed.
+Cable and Wireless, who provided international circuits installed a satellite earth station which made International Subscriber Dialling possible.
+When the frontier with Spain was re-opened, telephone and telex circuits cut by General Franco were re-established. Subsequently, fibre links into the FLAG cable system (which had a landing point in Estepona, about 50 km from Gibraltar) were established and along with microwave links to Morocco giving Gibraltar a resilient communications infrastructure. Gibtelecom is also a partner in the EIG cable system, which will have a landing point in Gibraltar.
+Provision for Local Loop Unbundling was introduced in Gibraltar, under the 2006 Communications Act, similar to the UK's 2003 Communications Act. Earlier in December 2005, the European Commission initiated the second stage of infringement proceedings against the British Government relating to Gibraltar's failure to transpose five European Union directives on electronic communications, but these were closed after the relevant legislation was passed into law by the then House of Assembly in June 2006.
+Fixed line numbers are now eight digits, with Gibtelecom numbers being prefixed with 200. A second operator, CTS Gibraltar Limited, provided fixed line services beginning with the prefix 216, but closed down in early 2013.
+Mobile network.
+GSM Network Identifiers : GIBTEL
+Gibraltar Telecommunications International Limited (Gibtel) (now Gibtelecom) introduced mobile phones in Gibraltar using a GSM900 network. The new GPRS network installed by the Scandinavian company allows faster and permanent connectivity for all mobile users, as well as providing high-speed picture and video messaging for owners of the new range of multi-purpose hand-sets.
+Gibtelecom operates 3G &amp; 4G networks.
+CTS ceased providing 3G services in early 2013.
+A new provider, Shine Mobile, launched on 23 September 2013. On 12 May 2016 the Company posted a notice on its website [www.shinemobile.gi] saying that "As from 18/05/2016, our services are going to be SUSPENDED; therefore your Shine line will NOT be operational." It was said that was to facilitate working on upgrading infrastructure, but as of 29 May 2016 the service is still down. Suspending service with less than a week's notice, suggests this may not have just been related to upgrading infrastructure which presumably would have been in the planning stage for more than six days. Shine Mobile will not be back.
+Broadcasting.
+Television.
+Television stations:
+1 (plus three low-power repeaters) (2002)
+Television licences:
+7,452 (2002)
+Requirement abolished (2007).
+GBC Television is operated by the Gibraltar Broadcasting Corporation (GBC) is transmitted on VHF Channel 12 with UHF repeaters on 56 and 53.
+Until 1999, GBC retransmitted BBC Prime, but was relaunched as a community-based service focusing on local news and other items of local interest. GBC programming starts at around 19:30 and finishes before midnight with the most popular programme being the local news bulletin, News Watch at 20:30. During the day fillers and the sound of GBC radio are transmitted.
+The station was funded by a mix of advertising, government funding, and an annual television licence fee. In June 2006, the licence was abolished by the Government. A new general manager was appointed in 2010 with a mandate to develop the station to meet future requirements of the community.
+The majority of homes also have access to satellite television with mostly United Kingdom channels. Gibraltar also receives Spanish national digital television and radio stations, as well as Spanish digital regional (from Andalusia) and local stations (from the Campo de Gibraltar area).
+Radio.
+Radio stations:
+AM 1, FM 4, DAB+, Internet 2 (2019)
+Radios:
+37,000 (1997) – Radio licences now discontinued
+The Gibraltar Broadcasting Corporation (GBC) operates Radio Gibraltar on both FM and AM, broadcasting a mix of local programming in English and Spanish, and retransmissions of the BBC World Service. In December 2005, GBC started internet streaming of its radio service, and in 2009 the daily Newswatch programme became available as video on demand. These services along with an up-to-date programme guide for GBC television and radio, can be found on the website.
+The British Forces Broadcasting Service (BFBS) operates two radio stations on FM, BFBS1 and BFBS2 and a private cable television network. BFBS1 and 2 are also available on the Internet streamed from the UK.
+On 1 October 2018, Rock Radio – Gibraltar's Hit Music Station was launched. Rock Radio is Gibraltar's first and only independent commercial radio station, the first to launch in over 50 years. The station transmits live from the top of the Rock on 99.2 FM, DAB+ and online.
+Amateur radio.
+Callsigns:
+ZB0x (VHF only), ZB2xx (Full), ZB3x (novice) + special event stations
+Amateur radio started in Gibraltar shortly after the Second World War. The Gibraltar Amateur Radio Society (GARS) is a small but active society representing the interests of Amateur Radio both locally and internationally as a full International Amateur Radio Union (IARU) member society.
+Each year for Gibraltar National Week amateur radio operators can use the ZG prefix instead of ZB. Special event stations are licensed by the GRA for example the Lighthouse Activity Weekend uses ZB2LGT.
+Internet.
+Country code (top-level domain): .gi
+Internet service providers (ISPs): 4
+Gibnet Limited, a private company, began Internet services in January 1996, with a 64 kbit/s circuit to Spain. In 2005 it merged with Broadband Gibraltar Limited to form Sapphire Networks Limited. Sapphire have their own redundant fibre and microwave infrastructure into and around Gibraltar.
+Sapphire uses the Gibtelecom ADSL concentrator to reach customers that are outside their own network, and sells high-bandwidth Internet services and Internet connectivity, competing directly with Gibtelecom.
+GNC Networks, a wholly owned subsidiary of Gibraltar Nynex Communications, commenced services in 1997. GNC Networks was renamed Gibconnect and the parent company became Gibraltar Telecommunications International Limited, which is referred to as Gibtelecom, in 2002. ADSL services were introduced in 2002, by 2005, there were several thousand users. The company is co-owned by the Government of Gibraltar and Slovenia Telecom.
+In 2000, the Gibraltar Regulatory Authority issued Ladbrokes, who then operated Gibraltar's biggest call centre, with a licence to establish their own internet services. Under this Advanced Business Communications (Europe) began operating on the rock. The company applied for a licence in their own right. The GRA eventually denied ABC (Europe) a licence. Ladbrokes scaled down their Gibraltar operations and their 'Internet permit' was not renewed. ABC ceased their Gibraltar operations in early 2002.
+CTS Gibraltar Limited launched a WiMax service in 2008, competing against the established ADSL providers. It then expanded into ADSL for nearby housing estates, and set up a rival UTMS service. CTS was closed down in early 2013 due to significant debts owed to government authorities and other creditors.
+Shine Mobile, launched in September 2013, has obtained a licence for broadband services, which it planned to introduce, but the company closed down.
+In 2013, GibFibreSpeed Ltd, trading under A.J. Sheriff Electrical Ltd, obtained a broadband licence. GibFibreSpeed is Gibraltar's first communications provider to offer Fibre to the Home (FTTH) broadband services. Since 2013, GibFibreSpeed has been upgrading its own independent all-fibre network and preparing for the launch of broadband services, it has since opened its stores and has planned to begin offering broadband in early 2015.
+Printed media.
+Newspapers.
+The largest and most frequently published newspaper is the "Gibraltar Chronicle", Gibraltar's oldest established daily newspaper and the world's second oldest English language newspaper to have been in print continuously with daily editions six days a week. "Panorama" is published on weekdays, and "7 Days", "The New People", and "Gibsport" are weekly. Other newspapers such as the weekly "El Faro de Gibraltar", are published in Spanish.
+Defunct newspapers include "El Calpense", a Spanish-language newspaper that was published in Gibraltar between 1868 and 1982. In the 1960s it became a weekly newspaper. When the border between Spain and Gibraltar was eventually closed by the Spanish dictator in 1969, the newspaper changed its ownership and begun to be published in English. It later closed in 1982. Also, "El Anunciador" was a Spanish-language newspaper that was published between 1885 and 1940.
+Magazines.
+Gibraltar has two prominent monthly magazines; "Insight" and the "Gibraltar Magazine".
+EuropeAxess Media, in liaison with the Roman Catholic Diocese of Gibraltar, also publishes a monthly magazine: "Upon This Rock"
+"Globe" magazine also appears monthly, having first started as a bi-lingual publication which produced two versions of each of its articles – one in English and the other in Spanish. Over time, "Globe" phased out the Spanish language element and is now an English language monthly aimed at Gibraltar and the Campo de Gibraltar.
+"B" magazine is Gibraltar's first locally produced magazine aimed at women. It appears monthly and its contents include fashion, advice, health, weddings and similar features geared at young women. The publication also features a Social spotlight section composed of photos depicting eventsand fundraisers.
+Online Media.
+Various online news outlets covering general news exist such as online editions of the Gibraltar Broadcasting Corporation, and the Gibraltar Chronicle. Independent online media include Your Gibraltar TV and sports news outlets such as GibFootballTalk.
+

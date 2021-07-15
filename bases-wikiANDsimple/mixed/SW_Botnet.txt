@@ -1,0 +1,2 @@
+A Botnet (short for robot network) is a word which is sometimes used by Computer scientists. Botnets are made up of many software agents. Each software agent is controlled remotely.
+Such networks are often used to send E-Mail Spam, but they can also be used to attack (and bring down) a computer through Denial of Service attacks, amongst others.

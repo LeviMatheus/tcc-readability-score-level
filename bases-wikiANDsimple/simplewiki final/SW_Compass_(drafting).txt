@@ -1,0 +1,9 @@
+A compass (or pair of compasses) is a drawing tool that can be used for making circles or arcs. They can also be used as a tool to measure distances, in particular on maps. Compasses can be used for mathematics, drafting, navigation, and other purposes.
+Construction.
+Compasses are usually made of metal, and consist of two parts called "legs" connected by a hinge which can be adjusted. Typically one part has a spike at its end, and the other part a pencil, or sometimes a pen.
+Drawing.
+Circles can be made by fastening one leg of the compasses into the paper with the spike, putting the pencil on the paper, and moving the pencil around while keeping the hinge on the same angle. The radius of the circle can be adjusted by changing the angle of the hinge.
+Measuring.
+Distances can be measured on a map using compasses with two spikes. The hinge is set in such a way that the distance between the spikes on the map represents a certain distance in reality, and by measuring how many times the compasses fit between two points on the map the distance between those points can be calculated.
+Geometry.
+Compass and straightedge construction is used to illustrate principles of plane geometry. Although a real pair of compasses is used to draft visible illustrations, the ideal compass used in proofs is an abstract creator of perfect circles. The most rigorous definition of this abstract tool is the "collapsing compass"; having drawn a circle from a given point with a given radius, it disappears; it cannot simply be moved to another point and used to draw another circle of equal radius (unlike a real pair of compasses).

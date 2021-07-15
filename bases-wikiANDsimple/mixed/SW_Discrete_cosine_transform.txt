@@ -1,0 +1,2 @@
+A discrete cosine transform is a math process that is used to make things like MP3s, and JPEGs smaller. It does this by helping to figure out what information to throw away. Information that is not as important can be thrown away. This saves space while keeping the important information. "Discrete" () means that it works on information that has been changed to binary.
+One way to calculate a discrete cosine transform is to use Fourier transformation.

@@ -1,0 +1,59 @@
+
+A wireless LAN (WLAN) is a wireless computer network that links two or more devices using wireless communication to form a local area network (LAN) within a limited area such as a home, school, computer laboratory, campus, or office building. This gives users the ability to move around within the area and remain connected to the network. Through a gateway, a WLAN can also provide a connection to the wider Internet.
+Most modern WLANs are based on IEEE 802.11 standards and are marketed under the Wi-Fi brand name.
+Wireless LANs are popular for use in the home, due to their ease of installation and use. They are also popular in commercial properties that offer wireless access to their employees and customers.
+History.
+Norman Abramson, a professor at the University of Hawaii, developed the world's first wireless computer communication network, ALOHAnet. The system became operational in 1971 and included seven computers deployed over four islands to communicate with the central computer on the Oahu island without using phone lines.
+Wireless LAN hardware initially cost so much that it was only used as an alternative to cabled LAN in places where cabling was difficult or impossible. Early development included industry-specific solutions and proprietary protocols, but at the end of the 1990s these were replaced by technical standards, primarily the various versions of IEEE 802.11 (in products using the Wi-Fi brand name). 
+Beginning in 1991, a European alternative known as HiperLAN/1 was pursued by the European Telecommunications Standards Institute (ETSI) with a first version approved in 1996. This was followed by a HiperLAN/2 functional specification with ATM influences accomplished February 2000. Neither European standard achieved the commercial success of 802.11, although much of the work on HiperLAN/2 has survived in the physical specification (PHY) for IEEE 802.11a, which is nearly identical to the PHY of HiperLAN/2.
+In 2009 802.11n was added to 802.11. It operates in both the 2.4 GHz and 5 GHz bands at a maximum data transfer rate of 600 Mbit/s. Most newer routers are "dualband" and able to utilize both wireless bands. This allows data communications to avoid the crowded 2.4 GHz band, which is also shared with Bluetooth devices and microwave ovens. The 5 GHz band also has more channels than the 2.4 GHz band, permitting a greater number of devices to share the space. Not all channels are available in all regions.
+A HomeRF group formed in 1997 to promote a technology aimed for residential use, but it disbanded January 2003.
+Architecture.
+Stations.
+All components that can connect into a wireless medium in a network are referred to as stations (STA).
+All stations are equipped with wireless network interface controllers (WNICs).
+Wireless stations fall into two categories: wireless access points, and clients.
+Access points (APs), normally wireless routers, are base stations for the wireless network. They transmit and receive radio frequencies for wireless enabled devices to communicate with.
+Wireless clients can be mobile devices such as laptops, personal digital assistants, IP phones and other smartphones, or non-portable devices such as desktop computers, printers, and workstations that are equipped with a wireless network interface.
+Basic service set.
+The basic service set (BSS) is a set of all stations that can communicate with each other at PHY layer.
+Every BSS has an identification (ID) called the BSSID, which is the MAC address of the access point servicing the BSS.
+There are two types of BSS: Independent BSS (also referred to as IBSS), and infrastructure BSS.
+An independent BSS (IBSS) is an ad hoc network that contains no access points, which means they cannot connect to any other basic service set.
+Independent basic service set.
+An IBSS is a set of STAs configured in ad hoc (peer-to-peer)mode.
+Extended service set.
+An extended service set (ESS) is a set of connected BSSs. Access points in an ESS are connected by a distribution system. Each ESS has an ID called the SSID which is a 32-byte (maximum) character string.
+Distribution system.
+A distribution system (DS) connects access points in an extended service set.
+The concept of a DS can be used to increase network coverage through roaming between cells.
+DS can be wired or wireless. Current wireless distribution systems are mostly based on WDS or MESH protocols, though other systems are in use.
+Types of wireless LANs.
+The IEEE 802.11 has two basic modes of operation: "infrastructure" and "ad hoc" mode. In ad hoc mode, mobile units transmit directly peer-to-peer. In infrastructure mode, mobile units communicate through a wireless access point (WAP) that serves as a bridge to other networks (such as the Internet or a local area network).
+Since wireless communication uses a more open medium for communication in comparison to wired LANs, the 802.11 designers also included encryption mechanisms: Wired Equivalent Privacy (WEP, now insecure), Wi-Fi Protected Access (WPA, WPA2, WPA3), to secure wireless computer networks. Many access points will also offer Wi-Fi Protected Setup, a quick (but now insecure) method of joining a new device to an encrypted network.
+Infrastructure.
+Most Wi-Fi networks are deployed in infrastructure mode. In infrastructure mode, wireless clients, such as laptops and smartphones, connect to the WAP to join the network. The WAP usually has a wired network connection and may have permanent wireless connections to other WAPs.
+WAPs are usually fixed, and provide service to their client nodes within range. Some networks will have multiple WAPs, using the same SSID and security arrangement. In that case connecting to any WAP on that network joins the client to the network and the client software will try to choose the WAP that gives the best service, such as the WAP with the strongest signal.
+Peer-to-peer.
+An ad hoc network (not the same as a WiFi Direct network) is a network where stations communicate only peer to peer (P2P). There is no base and no one gives permission to talk.
+This is accomplished using the Independent Basic Service Set (IBSS).
+A WiFi Direct network is another type of network where stations communicate peer to peer.
+In a Wi-Fi P2P group, the group owner operates as an access point and all other devices are clients. There are two main methods to establish a group owner in the Wi-Fi Direct group. In one approach, the user sets up a P2P group owner manually. This method is also known as Autonomous Group Owner (autonomous GO). In the second method, also called negotiation-based group creation, two devices compete based on the group owner intent value. The device with higher intent value becomes a group owner and the second device becomes a client. Group owner intent value can depend on whether the wireless device performs a cross-connection between an infrastructure WLAN service and a P2P group, remaining power in the wireless device, whether the wireless device is already a group owner in another group or a received signal strength of the first wireless device.
+A peer-to-peer network allows wireless devices to directly communicate with each other. Wireless devices within range of each other can discover and communicate directly without involving central access points. This method is typically used by two computers so that they can connect to each other to form a network. This can basically occur in devices within a closed range.
+If a signal strength meter is used in this situation, it may not read the strength accurately and can be misleading, because it registers the strength of the strongest signal, which may be the closest computer.
+IEEE 802.11 defines the physical layer (PHY) and MAC (Media Access Control) layers based on CSMA/CA (Carrier Sense Multiple Access with Collision Avoidance). This is in contrast to Ethernet which uses CSMA-CD (Carrier Sense Multiple Access with Collision Detection). The 802.11 specification includes provisions designed to minimize collisions, because two mobile units may both be in range of a common access point, but out of range of each other.
+Bridge.
+A bridge can be used to connect networks, typically of different types. A wireless Ethernet bridge allows the connection of devices on a wired Ethernet network to a wireless network. The bridge acts as the connection point to the Wireless LAN.
+Wireless distribution system.
+A wireless distribution system (WDS) enables the wireless interconnection of access points in an IEEE 802.11 network. It allows a wireless network to be expanded using multiple access points without the need for a wired backbone to link them, as is traditionally required. The notable advantage of a WDS over other solutions is that it preserves the MAC addresses of client packets across links between access points.
+An access point can be either a main, relay or remote base station. A main base station is typically connected to the wired Ethernet. A relay base station relays data between remote base stations, wireless clients or other relay stations to either a main or another relay base station. A remote base station accepts connections from wireless clients and passes them to relay or main stations. Connections between clients are made using MAC addresses rather than by specifying IP assignments.
+All base stations in a WDS must be configured to use the same radio channel, and share WEP keys or WPA keys if they are used. They can be configured to different service set identifiers. WDS also requires that every base station be configured to forward to others in the system as mentioned above.
+WDS capability may also be referred to as repeater mode because it appears to bridge and accept wireless clients at the same time (unlike traditional bridging). Throughput in this method is halved for all clients connected wirelessly.
+When it is difficult to connect all of the access points in a network by wires, it is also possible to put up access points as repeaters.
+Roaming.
+There are two definitions for wireless LAN roaming:
+Applications.
+Wireless LANs have a great deal of applications. Modern implementations of WLANs range from small in-home networks to large, campus-sized ones to completely mobile networks on airplanes and trains.
+Users can access the Internet from WLAN hotspots in restaurants, hotels, and now with portable devices that connect to 3G or 4G networks. Oftentimes these types of public access points require no registration or password to join the network. Others can be accessed once registration has occurred or a fee is paid.
+Existing Wireless LAN infrastructures can also be used to work as indoor positioning systems with no modification to the existing hardware.
+

@@ -1,0 +1,2 @@
+Control theory is an interdisciplinary branch of engineering and mathematics. It deals with the behavior of dynamical systems. The desired output of a system is called the "reference".
+In a control system a controller manipulates the inputs to a system. In the control systems one or more output variables of a system need to follow a certain reference over time. By manipulating the input, the controller wants to obtain the desired effect on the output of the system.

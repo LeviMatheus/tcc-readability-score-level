@@ -1,0 +1,7 @@
+To measure something is to give a number to some property of the thing. Measuring something puts the amount of the thing into numbers.
+What can be Measured?
+One can measure many other things.
+Units of Measurement.
+Most properties are measured using a number and a unit of measurement. The unit of measurement is a standard amount. The number compares the property to that standard amount. This means a tree that is ten times as tall as a meter stick is 10 meters tall.
+Measure Theory.
+There is an advanced part of mathematics that is about measuring things with unusual characteristics. This is called measure theory.

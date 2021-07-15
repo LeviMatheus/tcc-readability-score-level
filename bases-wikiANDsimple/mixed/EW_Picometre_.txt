@@ -1,0 +1,7 @@
+
+The picometre (international spelling as used by the International Bureau of Weights and Measures; SI symbol: pm) or picometer (American spelling) is a unit of length in the metric system, equal to , or one trillionth of a metre, which is the SI base unit of length.
+The picometre is one thousandth of a nanometre ( nm), one millionth of a micrometre (also known as a micron), and one trillionth of a metre. The symbol μμ was once used for it. It is also one hundredth of an ångström, an internationally known (but non-SI) unit of length.
+Use.
+The picometre's length is of an order so small that its application is almost entirely confined to particle physics, quantum physics, chemistry and acoustics. Atoms are between 62 and 520 pm in diameter, and the typical length of a carbon–carbon single bond is 154 pm. Smaller units still may be used to describe smaller particles (some of which are the components of atoms themselves), such as hadrons and the upper limits of possible size for fermion point particles.
+The Laser Interferometer Space Antenna (LISA) probe is planned for launch in 2034 to directly detect gravitational waves and will measure relative displacements with a resolution of 20 picometres over a distance of 2.5 gigametres, yielding a strain sensitivity of better than 1 part in 1020.
+

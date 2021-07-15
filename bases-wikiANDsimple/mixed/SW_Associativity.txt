@@ -1,0 +1,2 @@
+Associativity is a part of mathematic operations. In an expression, if two or more associative signs are in a row, the order of the operations does not matter, as long as the order of the operands is not changed.
+Associativity must not be confused with commutativity, where the order of the operands can be changed.

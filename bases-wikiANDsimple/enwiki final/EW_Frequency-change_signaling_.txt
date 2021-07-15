@@ -1,0 +1,3 @@
+
+In telecommunication, frequency-change signaling is a telegraph signaling method in which one or more particular frequencies correspond to each desired signaling condition of a telegraph code. The transition from one set of frequencies to the other may be a continuous or a discontinuous change in the frequency or phase.
+

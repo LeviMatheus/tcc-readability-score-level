@@ -1,0 +1,2 @@
+Padding is a term used in cryptography. Very often, messages (to be encrypted) start or end in a well-known way ("Dear Bob..., Yours, Alice"). This is a problem, because that knowledge could be used to break (or start to break) encryption. To prevent this, a number of random characters are added at the beginning or the end of the message.
+This procedure may also be necessary because many cryptographic methods operate on blocks of code. If a block is not full, additional characters need to be filled in. Filling in random text has proven very useful.

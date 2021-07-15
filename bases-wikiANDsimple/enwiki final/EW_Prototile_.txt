@@ -1,0 +1,8 @@
+
+In the mathematical theory of tessellations, a prototile is one of the shapes of a tile in a tessellation.
+Definition.
+A tessellation of the plane or of any other space is a cover of the space by closed shapes, called tiles, that have disjoint interiors. Some of the tiles may be congruent to one or more others. If is the set of tiles in a tessellation, a set of shapes is called a set of prototiles if no two shapes in are congruent to each other, and every tile in is congruent to one of the shapes in .
+It is possible to choose many different sets of prototiles for a tiling: translating or rotating any one of the prototiles produces another valid set of prototiles. However, every set of prototiles has the same cardinality, so the number of prototiles is well defined. A tessellation is said to be monohedral if it has exactly one prototile.
+Aperiodicity.
+A set of prototiles is said to be aperiodic if every tiling with those prototiles is an aperiodic tiling. It is unknown whether there exists a single two-dimensional shape (called an "einstein") that forms the prototile of an aperiodic tiling, but not of any periodic tiling. That is, the existence of a single-tile (monohedral) aperiodic prototile set is an open problem. The Socolar-Taylor tile forms two-dimensional aperiodic tilings, but is defined by combinatorial matching conditions rather than purely by its shape. In higher dimensions, the problem is solved: the Schmitt-Conway-Danzer tile is the prototile of a monohedral aperiodic tiling of three-dimensional Euclidean space, and cannot tile space periodically.
+

@@ -1,0 +1,6 @@
+C# (pronounced "see sharp") is a computer programming language made by Microsoft, more precisely by Anders Hejlsberg, the creator of Delphi. It was created to use all capacities of .NET platform. The first version appeared in 2001, last update appeared in 2007 with the C# 3.0. C# is a modern language.
+Execution Platform.
+Today, C# can be run on most platforms (Windows, Linux...) without modification of the source code. The C# can be run on the Xbox 360 platform with a special framework.
+Syntax.
+C# code looks a lot like C++ and Java code. It is an object-oriented programming language. The CLR (Common Language Runtime is obligatory in order to run a C# program.
+This code writes "Hello world" in the output console.

@@ -1,0 +1,1 @@
+Multiprocessing is the use of two or more central processing units (CPUs) within a single computer system. The CPUs don't have to be the same. Systems that treat all CPUs equally are called symmetric multiprocessing (SMP) systems.

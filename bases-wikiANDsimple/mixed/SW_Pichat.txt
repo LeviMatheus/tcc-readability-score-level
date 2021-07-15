@@ -1,0 +1,1 @@
+Pichat is a chat software and protocol to communicate and exchange information. Users can also create their own webchat on the Internet. You don't need to download anything to chat, all you need is a web browser. Alternatively a telnet software can be used to chat, the default port of a chat server is 9009/TCP.

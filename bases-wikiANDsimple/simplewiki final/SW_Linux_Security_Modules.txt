@@ -1,0 +1,1 @@
+Linux Security Modules (LSM) is a framework that allows the Linux kernel to support a variety of computer security models while avoiding favoritism toward any single security implementation. The framework is licensed under the terms of the GNU General Public License and is standard part of the Linux kernel since Linux version 2.6.

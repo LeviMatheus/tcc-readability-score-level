@@ -1,0 +1,1 @@
+In Computer Science, an interpreter is a computer program that performs commands written in a computer programming language. Interpreters are one of the two most important ways a program can be run, the other being compilation.

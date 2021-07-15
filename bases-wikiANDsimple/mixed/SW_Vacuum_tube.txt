@@ -1,0 +1,6 @@
+A vacuum tube (also called a "valve" in British English) is an electronic device used in many older model radios, television sets, and amplifiers.
+History.
+Vacuum tubes were used in the first computers like the ENIAC, which demanded lots of maintenance because of the heat produced.
+Vacuum tubes produce a lot of heat and often break. For this reason, when the transistor was invented in the 1960s, most manufacturers of radios, television sets, and amplifiers used transistors instead of vacuum tubes.
+Current uses.
+In the 2000s, vacuum tube devices are rarely used in electronics.

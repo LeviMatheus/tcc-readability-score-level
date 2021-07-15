@@ -1,0 +1,13 @@
+
+LAME is a software encoder that converts a digitized WAV audio file into the MP3 audio coding file format. LAME is a free software project that was first released in 1998, and has incorporated many improvements since then, including an improved psychoacoustic model. The LAME encoder outperforms early encoders like L3enc.
+LAME was required by some programs released as free software in which LAME was linked for MP3 support, but the patent has expired. This avoided including LAME itself, which use patented techniques, and so required patent licenses in some countries. LAME is now bundled with Audacity, which previously required a separate download for LAME.
+History.
+The name LAME is a recursive acronym for "LAME Ain't an MP3 Encoder".
+Around mid-1998, Mike Cheng created LAME 1.0 as a set of modifications against the "8Hz-MP3" encoder source code. After some quality concerns raised by others, he decided to start again from scratch based on the "dist10" MPEG reference software sources. His goal was only to speed up the dist10 sources, and leave its quality untouched. That branch (a patch against the reference sources) became Lame 2.0. The project quickly became a team project. Mike Cheng eventually left leadership and started working on tooLAME (an MP2 encoder).
+Mark Taylor then started pursuing increased quality in addition to better speed, and released version 3.0 featuring gpsycho, a new psychoacoustic model he developed.
+A few key improvements, in chronological order:
+Patents and legal issues.
+Like all MP3 encoders, LAME implemented techniques covered by patents owned by the Fraunhofer Society and others. The developers of LAME did not license the technology described by these patents. Distributing compiled binaries of LAME, its libraries, or programs that derive from LAME in countries where those patents have been granted may have constituted infringement, but since 23 April 2017, all of these patents have expired.
+The LAME developers stated that, since their code was only released in source code form, it should only be considered as an educational description of an MP3 encoder, and thus did not infringe any patent in itself. They also advised users to obtain relevant patent licenses before including a compiled version of the encoder in a product. Some software was released using this strategy: companies used the LAME library, but obtained patent licenses.
+In the course of the 2005 Sony BMG copy protection rootkit scandal, there were reports that the Extended Copy Protection rootkit included on some Sony Compact Discs had portions of the LAME library without complying with the terms of the LGPL.
+

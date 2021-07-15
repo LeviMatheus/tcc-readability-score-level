@@ -1,0 +1,5 @@
+In computing, the Post Office Protocol version 3 (POP3) is an application-layer Internet standard protocol used by local e-mail clients to get e-mail from a remote server over a IP connection. POP3 and IMAP4 (Internet Message Access Protocol) are the two most widely accepted Internet standard protocols for e-mail retrieval. Almost all modern e-mail clients and servers support both.
+POP4.
+While not yet an official standardized mail protocol, a proposal has been outlined for a, complete with a working server implementation.
+The proposed POP4 extension adds basic folder management, multipart message support, as well as message flag management, allowing for a light protocol which supports some popular IMAP features which POP3 currently lacks.
+No progress has been found in the POP4 specification since 2003.

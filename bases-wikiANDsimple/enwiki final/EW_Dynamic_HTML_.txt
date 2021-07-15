@@ -1,0 +1,99 @@
+
+Dynamic HTML, or DHTML, is a collection of technologies used together to create interactive and animated websites by using a combination of a static markup language (such as HTML), a client-side scripting language (such as JavaScript), a presentation definition language (such as CSS), and the Document Object Model (DOM). The application of DHTML was introduced by Microsoft with the release of Internet Explorer 4 in 1997. Today, references to unobtrusive JavaScript coding (DOM Scripting) have replaced the usage of the term DHTML.
+DHTML allows scripting languages to change variables in a web page's definition language, which in turn affects the look and function of otherwise "static" HTML page content, after the page has been fully loaded and during the viewing process. Thus the dynamic characteristic of DHTML is the way it functions while a page is viewed, not in its ability to generate a unique page with each page load.
+By contrast, a dynamic web page is a broader concept, covering any web page generated differently for each user, load occurrence, or specific variable values. This includes pages created by client-side scripting, and ones created by server-side scripting (such as PHP, Python, JSP or ASP.NET) where the web server generates content before sending it to the client.
+DHTML is differentiated from Ajax by the fact that a DHTML page is still request/reload-based. With DHTML, there may not be any interaction between the client and server after the page is loaded; all processing happens in JavaScript on the client side. By contrast, an Ajax page uses features of DHTML to initiate a request (or 'subrequest') to the server to perform additional actions. For example, if there are multiple tabs on a page, pure DHTML approach would load the contents of all tabs and then dynamically display only the one that is active, while AJAX could load each tab only when it is really needed.
+Uses.
+DHTML allows authors to add effects to their pages that are otherwise difficult to achieve, by changing the Document Object Model (DOM) and page style. The combination of HTML, CSS and JavaScript offers ways to:
+A less common use is to create browser-based action games. Although a number of games were created using DHTML during the late 1990s and early 2000s, differences between browsers made this difficult: many techniques had to be implemented in code to enable the games to work on multiple platforms. Recently browsers have been converging towards web standards, which has made the design of DHTML games more viable. Those games can be played on all major browsers and they can also be ported to Plasma for KDE, Widgets for macOS and Gadgets for Windows Vista, which are based on DHTML code.
+The term "DHTML" has fallen out of use in recent years as it was associated with practices and conventions that tended to not work well between various web browsers. DHTML may now be referred to as unobtrusive JavaScript coding (DOM Scripting), in an effort to place an emphasis on agreed-upon best practices while allowing similar effects in an accessible, standards-compliant way.
+DHTML support with extensive DOM access was introduced with Internet Explorer 4.0. Although there was a basic dynamic system with Netscape Navigator 4.0, not all HTML elements were represented in the DOM. When DHTML-style techniques became widespread, varying degrees of support among web browsers for the technologies involved made them difficult to develop and debug. Development became easier when Internet Explorer 5.0+, Mozilla Firefox 2.0+, and Opera 7.0+ adopted a shared DOM inherited from ECMAScript.
+More recently, JavaScript libraries such as jQuery have abstracted away many of the day-to-day difficulties in cross-browser DOM manipulation.
+Structure of a web page.
+Typically a web page using DHTML is set up in the following way:
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+ &lt;head&gt;
+ &lt;meta charset="utf-8"&gt;
+ &lt;title&gt;DHTML example&lt;/title&gt;
+ &lt;/head&gt;
+ &lt;body bgcolor="red"&gt;
+ &lt;script&gt;
+ function init() {
+ var myObj = document.getElementById("navigation");
+ // ... manipulate myObj
+ window.onload = init;
+ &lt;/script&gt;
+ Often the code is stored in an external file; this is done
+ by linking the file that contains the JavaScript.
+ This is helpful when several pages use the same script:
+ &lt;script src="myjavascript.js"&gt;&lt;/script&gt;
+ &lt;/body&gt;
+&lt;/html&gt;
+Example: Displaying an additional block of text.
+The following code illustrates an often-used function. An additional part of a web page will only be displayed if the user requests it.
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+ &lt;head&gt;
+ &lt;meta charset="utf-8"&gt;
+ &lt;title&gt;Using a DOM function&lt;/title&gt;
+ &lt;style&gt;
+ &lt;/style&gt;
+ &lt;/head&gt;
+ &lt;body&gt;
+ &lt;h1&gt;Using a DOM function&lt;/h1&gt;
+ &lt;h2&gt;&lt;a id="showhide" href="#"&gt;Show paragraph&lt;/a&gt;&lt;/h2&gt;
+ &lt;p id="toggleMe"&gt;This is the paragraph that is only displayed on request.&lt;/p&gt;
+ &lt;p&gt;The general flow of the document continues.&lt;/p&gt;
+ &lt;script&gt;
+ function changeDisplayState(id) {
+ var d = document.getElementById('showhide'),
+ e = document.getElementById(id);
+ if (e.style.display === 'none' || e.style.display === ") {
+ e.style.display = 'block';
+ d.innerHTML = 'Hide paragraph';
+ } else {
+ e.style.display = 'none';
+ d.innerHTML = 'Show paragraph';
+ document.getElementById('showhide').addEventListener('click', function (e) {
+ e.preventDefault();
+ changeDisplayState('toggleMe');
+ &lt;/script&gt;
+ &lt;/body&gt;
+&lt;/html&gt;
+Document Object Model.
+DHTML is not a technology in and of itself; rather, it is the product of three related and complementary technologies: HTML, Cascading Style Sheets (CSS), and JavaScript. To allow scripts and components to access features of HTML and CSS, the contents of the document are represented as objects in a programming model known as the Document Object Model (DOM).
+The DOM API is the foundation of DHTML, providing a structured interface that allows access and manipulation of virtually anything in the document. The HTML elements in the document are available as a hierarchical tree of individual objects, making it possible to examine and modify an element and its attributes by reading and setting properties and by calling methods. The text between elements is also available through DOM properties and methods.
+The DOM also provides access to user actions such as pressing a key and clicking the mouse. It is possible to intercept and process these and other events by creating event handler functions and routines. The event handler receives control each time a given event occurs and can carry out any appropriate action, including using the DOM to change the document.
+Dynamic styles.
+Dynamic styles are a key feature of DHTML. By using CSS, one can quickly change the appearance and formatting of elements in a document without adding or removing elements. This helps keep documents small and the scripts that manipulate the document fast.
+The object model provides programmatic access to styles. This means you can change inline styles on individual elements and change style rules using simple JavaScript programming.
+Inline styles are CSS style assignments that have been applied to an element using the style attribute. You can examine and set these styles by retrieving the style object for an individual element. For example, to highlight the text in a heading when the user moves the mouse pointer over it, you can use the style object to enlarge the font and change its color, as shown in the following simple example.
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+ &lt;head&gt;
+ &lt;meta charset="utf-8"&gt;
+ &lt;title&gt;Dynamic Styles&lt;/title&gt;
+ &lt;style&gt;
+ &lt;/style&gt;
+ &lt;/head&gt;
+ &lt;body&gt;
+ &lt;h1 id="firstHeader"&gt;Welcome to Dynamic HTML&lt;/h1&gt;
+ &lt;p&gt;&lt;a id="clickableLink" href="#"&gt;Dynamic styles are a key feature of DHTML.&lt;/a&gt;&lt;/p&gt;
+ &lt;ul id="unorderedList"&gt;
+ &lt;li&gt;Change the color, size, and typeface of text&lt;/li&gt;
+ &lt;li&gt;Show and hide text&lt;/li&gt;
+ &lt;li&gt;And much, much more&lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;We've only just begun!&lt;/p&gt;
+ &lt;script&gt;
+ function showMe() {
+ document.getElementById("firstHeader").style.color = "#990000";
+ document.getElementById("unorderedList").style.display = "block";
+ document.getElementById("clickableLink").addEventListener("click", function (e) {
+ e.preventDefault();
+ showMe();
+ &lt;/script&gt;
+ &lt;/body&gt;
+&lt;/html&gt;
+

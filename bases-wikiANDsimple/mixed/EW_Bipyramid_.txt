@@ -1,0 +1,73 @@
+
+A (symmetric) "n"-gonal bipyramid or dipyramid is a polyhedron formed by joining an "n"-gonal pyramid and its mirror image base-to-base. An "n"-gonal bipyramid has 2"n" triangle faces, 3"n" edges, and 2 + "n" vertices.
+The referenced "n"-gon in the name of a bipyramid is not a face but the internal polygon base, lying in the mirror plane that connects the two pyramid halves. (If it were a face, then each of its edges would connect three faces instead of two.)
+"Regular", right bipyramids.
+A "regular" bipyramid has a "regular" polygon base. It is usually implied to be also a "right" bipyramid.
+A "right" bipyramid has its two apexes "right" above and "right" below the center or the "centroid" of its polygon base.
+A "regular" right (symmetric) "n"-gonal bipyramid has Schläfli symbol }.
+A right (symmetric) bipyramid has Schläfli symbol , for polygon base P.
+The "regular" right (thus face-transitive) "n"-gonal bipyramid with regular vertices is the dual of the "n"-gonal uniform (thus right) prism, and has congruent isosceles triangle faces.
+A "regular" right (symmetric) "n"-gonal bipyramid can be projected on a sphere or globe as a "regular" right (symmetric) "n"-gonal spherical bipyramid: "n" equally spaced lines of longitude going from pole to pole, and an equator line bisecting them.
+Equilateral triangle bipyramids.
+Only three kinds of bipyramids can have all edges of the same length (which implies that all faces are equilateral triangles, and thus the bipyramid is a deltahedron): the "regular" right (symmetric) triangular, tetragonal, and pentagonal bipyramids. The tetragonal or square bipyramid with same length edges, or regular octahedron, counts among the Platonic solids; the triangular and pentagonal bipyramids with same length edges count among the Johnson solids (J12 and J13).
+Kaleidoscopic symmetry.
+A ""regular" right" (symmetric) "n"-gonal bipyramid has dihedral symmetry group D"n"h, of order 4"n", except in the case of a regular octahedron, which has the larger octahedral symmetry group Oh, of order 48, which has three versions of D4h as subgroups. The rotation group is D"n", of order 2"n", except in the case of a regular octahedron, which has the larger rotation group O, of order 24, which has three versions of D4 as subgroups.
+The 4"n triangle faces of a "regular" right (symmetric) 2"n-gonal bipyramid, projected as the 4"n spherical triangle faces of a "regular" right (symmetric) 2"n-gonal spherical bipyramid, represent the fundamental domains of dihedral symmetry in three dimensions: D"n"h, ["n",2], (*"n"22), order 4"n". These domains can be shown as alternately colored spherical triangles:
+An "n"-gonal (symmetric) bipyramid can be seen as the Kleetope of the "corresponding" "n"-gonal dihedron.
+Volume.
+Volume of a (symmetric) bipyramid:
+where "B" is the area of the base and "h" the height from the base plane to an apex.
+This works for any shape of the base, and for any location of the apex, provided that "h" is measured as the perpendicular distance from the plane which contains the internal polygon base. Hence:
+Volume of a (symmetric) bipyramid whose base is a "regular" "n"-sided polygon with side length "s" and whose height is "h":
+Oblique bipyramids.
+Non-right bipyramids are called oblique bipyramids.
+Concave bipyramids.
+A "concave" bipyramid has a "concave" polygon base.
+(*) Its base has no obvious centroid; if its apexes are not "right" above/below the gravity center of its base, it is not a "right" bipyramid. Anyway, it is a concave octahedron.
+Asymmetric/inverted right bipyramids.
+An asymmetric "right" bipyramid joins two "right" pyramids with congruent bases but unequal heights, base-to-base.
+An inverted "right" bipyramid joins two "right" pyramids with congruent bases but unequal heights, base-to-base, but on the same side of their common base.
+The dual of an asymmetric or inverted right bipyramid is a frustum.
+A "regular" asymmetric/inverted right "n"-gonal bipyramid has symmetry group C"n"v, of order 2"n".
+Scalene triangle bipyramids.
+An "isotoxal" "right" (symmetric) di-"n"-gonal bipyramid is a "right" (symmetric) 2"n"-gonal bipyramid with an "isotoxal" flat polygon base: its 2"n" vertices around sides are coplanar, but alternate in two radii.
+An "isotoxal" right (symmetric) di-"n"-gonal bipyramid has "n" two-fold rotation axes through vertices around sides, "n" reflection planes through vertices and apexes, an "n"-fold rotation axis through apexes, a reflection plane through base, and an "n"-fold rotation-reflection axis through apexes, representing symmetry group D"n"h, ["n",2], (*22"n"), of order 4"n". (The reflection in base plane corresponds to the 0° rotation-reflection. If "n" is even, there is a symmetry about the center, corresponding to the 180° rotation-reflection.)
+All its faces are congruent scalene triangles, and it is isohedral. It can be seen as another type of right "symmetric" di-"n"-gonal "scalenohedron".
+Note: For at most two particular apex heights, triangle faces may be isoceles.
+Example:
+In crystallography, "isotoxal" right (symmetric) "didigonal" (*) (8-faced), ditrigonal (12-faced), ditetragonal (16-faced), and dihexagonal (24-faced) bipyramids exist.
+(*) The smallest geometric di-"n"-gonal bipyramids have eight faces, and are topologically identical to the regular octahedron. In this case (2"n" = 2×2):&lt;br&gt;an "isotoxal" right (symmetric) "didigonal" bipyramid is called a "rhombic bipyramid", although all its faces are scalene triangles, because its flat polygon base is a rhombus.
+Scalenohedra.
+A ""regular" right "symmetric"" di-"n"-gonal scalenohedron can be made with a "regular" zig-zag skew 2"n"-gon base, two "symmetric" apexes "right" above and "right" below the base center, and triangle faces connecting each base edge to each apex.
+It has two apexes and 2"n" vertices around sides, 4"n" faces, and 6"n" edges; it is topologically identical to a 2"n"-gonal bipyramid, but its 2"n" vertices around sides alternate in two rings above and below the center.
+A "regular" right "symmetric" di-"n"-gonal scalenohedron has "n" two-fold rotation axes through mid-edges around sides, "n" reflection planes through vertices and apexes, an "n"-fold rotation axis through apexes, and an "n"-fold rotation-reflection axis through apexes, representing symmetry group D"n"v = D"n"d, [2+,2"n"], (2*"n"), of order 4"n". (If n is odd, there is a symmetry about the center, corresponding to the 180° rotation-reflection.)
+All its faces are congruent scalene triangles, and it is isohedral. It can be seen as another type of right "symmetric" 2"n"-gonal bipyramid, with a regular zig-zag skew polygon base.
+Note: For at most two particular apex heights, triangle faces may be isoceles.
+In crystallography, "regular" right "symmetric" "didigonal" (8-faced) and ditrigonal (12-faced) scalenohedra exist.
+The smallest geometric scalenohedra have eight faces, and are topologically identical to the regular octahedron. In this case (2"n" = 2×2):&lt;br&gt;a "regular" right "symmetric" "didigonal" scalenohedron is called a "tetragonal scalenohedron"; its six vertices can be represented as (0,0,±1), (±1,0,"z"), (0,±1,−"z"), where "z" is a parameter between 0 and 1; &lt;br&gt;at "z" = 0, it is a regular octahedron; at "z" = 1, it is a disphenoid with all merged coplanar faces (four congruent isosceles triangles); for "z" &gt; 1, it becomes concave.
+Note: If the 2"n"-gon base is both isotoxal in-out and zig-zag skew, then not all triangle faces of the "isotoxal" right "symmetric" solid are congruent.
+Example: The solid with isotoxal in-out zig-zag skew 2×2-gon base vertices:&lt;br&gt;U(1;0;1), U'(-1;0;1), V(0;2;-1), V'(0;-2;-1),&lt;br&gt;and with "right" symmetric apexes:&lt;br&gt;A(0;0;3), A'(0;0;-3),&lt;br&gt;has five different edge lengths:
+thus "not" all its triangle faces are congruent.
+"Regular" star bipyramids.
+A self-intersecting or "star" bipyramid has a "star" polygon base.
+A ""regular" right symmetric" star bipyramid can be made with a "regular" star polygon base, two "symmetric" apexes "right" above and "right" below the base center, and thus one-to-one "symmetric" triangle faces connecting each base edge to each apex.
+A "regular" right symmetric star bipyramid has congruent isosceles triangle faces, and is isohedral.
+Note: For at most one particular apex height, triangle faces may be equilateral.
+A {"p"/"q"}-bipyramid has Coxeter diagram .
+Scalene triangle star bipyramids.
+An ""isotoxal" right symmetric" 2"p"/"q"-gonal star bipyramid can be made with an "isotoxal" in-out star 2"p"/"q"-gon base, two "symmetric" apexes "right" above and "right" below the base center, and thus one-to-one "symmetric" triangle faces connecting each base edge to each apex.
+An "isotoxal" right symmetric 2"p"/"q"-gonal star bipyramid has congruent scalene triangle faces, and is isohedral. It can be seen as another type of 2"p"/"q"-gonal right "symmetric" "star scalenohedron".
+Note: For at most two particular apex heights, triangle faces may be isoceles.
+Star scalenohedra.
+A ""regular" right "symmetric"" 2"p"/"q"-gonal star scalenohedron can be made with a "regular" zig-zag skew star 2"p"/"q"-gon base, two "symmetric" apexes "right" above and "right" below the base center, and triangle faces connecting each base edge to each apex.
+A "regular" right "symmetric" 2"p"/"q"-gonal star scalenohedron has congruent scalene triangle faces, and is isohedral. It can be seen as another type of right "symmetric" 2"p"/"q"-gonal star bipyramid, with a regular zig-zag skew star polygon base.
+Note: For at most two particular apex heights, triangle faces may be isosceles.
+Note: If the star 2"p"/"q"-gon base is both isotoxal in-out and zig-zag skew, then not all triangle faces of the "isotoxal" right "symmetric" star polyhedron are congruent.
+With base vertices:&lt;br&gt;U0(1;0;1), U1(0;1;1), U2(-1;0;1), U3(0;-1;1),&lt;br&gt;V0(2;2;-1), V1(-2;2;-1), V2(-2;-2;-1), V3(2;-2;-1),&lt;br&gt;and with apexes:&lt;br&gt;A(0;0;3), A'(0;0;-3),&lt;br&gt;it has four different edge lengths:
+thus "not" all its triangle faces are congruent.
+4-polytopes with bipyramid cells.
+The dual of the rectification of each convex regular 4-polytopes is a cell-transitive 4-polytope with bipyramidal cells. In the following, the apex vertex of the bipyramid is A and an equator vertex is E. The distance between adjacent vertices on the equator EE = 1, the apex to equator edge is AE and the distance between the apices is AA. The bipyramid 4-polytope will have "V"A vertices where the apices of "N"A bipyramids meet. It will have "V"E vertices where the type E vertices of "N"E bipyramids meet. "N"AE bipyramids meet along each type AE edge. "N"EE bipyramids meet along each type EE edge. "C"AE is the cosine of the dihedral angle along an AE edge. "C"EE is the cosine of the dihedral angle along an EE edge. As cells must fit around an edge, 
+Higher dimensions.
+In general, a "bipyramid" can be seen as an "n"-polytope constructed with a ("n" − 1)-polytope in a hyperplane with two points in opposite directions, equal distance perpendicular from the hyperplane. If the ("n" − 1)-polytope is a regular polytope, it will have identical pyramidal facets. An example is the 16-cell, which is an octahedral bipyramid, and more generally an "n"-orthoplex is an ("n" − 1)-orthoplex bipyramid.
+A two-dimensional bipyramid is a square.
+

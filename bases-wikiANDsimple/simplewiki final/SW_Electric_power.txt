@@ -1,0 +1,2 @@
+Electric power is defined as the amount of work done by an electric current, or the rate at which electrical energy is transmitted. The SI unit of power is the watt.
+When electric current flows in a circuit with resistance, it does work. Devices convert this work into many useful forms, such as heat (electric heaters), light (light bulbs), motion (electric motors) and sound (loudspeaker).

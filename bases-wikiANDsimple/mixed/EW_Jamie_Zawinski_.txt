@@ -1,0 +1,39 @@
+
+Jamie Zawinski (born November 3, 1968), commonly known as jwz, is an American impresario, computer programmer, and blogger. He is best known for his role in the creation of Netscape Navigator, Netscape Mail, Lucid Emacs, Mozilla.org, and XScreenSaver. He is also the proprietor of DNA Lounge, a nightclub and live music venue in San Francisco.
+Biography.
+Zawinski's programming career began at age 16 with Scott Fahlman's Spice Lisp project at Carnegie Mellon University. He then worked at AI startup Expert Technologies, Inc. followed by Robert Wilensky and Peter Norvig's AI research group at UC Berkeley, working on natural language processing. 
+In 1990 he began working at Lucid Inc., first working on Lucid Common Lisp, and then on Lucid's Energize C++ IDE. Lucid decided to use GNU Emacs as the text editor for their IDE due to its free license, popularity, and extensibility, and Zawinski led that project. As Zawinski and the other programmers made fundamental changes to GNU Emacs to add new functionality, tensions over how to merge these patches into the main tree eventually led to the fork of the project into GNU Emacs and Lucid Emacs (now XEmacs).
+In 1992 he released the first version of XScreenSaver, a free and open-source collection now containing more than 240
+screensavers. Initially released for Unix, it now supports macOS, iOS and Android as well. On Unix systems, it also provides the framework for blanking and locking the screen. He still maintains it, with new releases coming out several times a year.
+Netscape and Mozilla.
+Following Lucid's bankruptcy in 1994, Zawinski was one of the initial employees of Mosaic Communications, later known as Netscape. At Netscape, he developed the Unix release of Netscape Navigator 1.0,
+and later, Netscape Mail, the first mail reader (or Usenet reader) to natively support HTML.
+Zawinski came up with the name "Mozilla" (originally the internal code-name of the web browser) during a staff meeting, as a reference to Godzilla and a portmanteau of "Mosaic killer".
+An easter egg he coded in the Netscape browser became quite well known during the early days of the World Wide Web: typing "about:jwz" into the address box would take the user to his home page, and would change the browser's logo animation to a fire-breathing dragon.
+Through his long-time support and advocacy for free software both inside and outside the company, Zawinski is credited with having been the inspiration for Netscape's decision to open-source the source code of the browser in 1998.
+He was a founder of Mozilla.org, personally registering its domain name on the day of Netscape's open source announcement and helping design and run the organization through its first year.
+When Netscape was acquired by AOL, he wrote a bulletin explaining that Mozilla's work would continue with or without Netscape. And a year after the initial source code release, he resigned from Netscape and Mozilla, citing his disappointment that others involved in the project had decided to rewrite the code instead of incrementally improving it.
+DNA Lounge.
+Shortly after leaving Mozilla, he announced his purchase of DNA Lounge, a nightclub in San Francisco. Zawinski purchased the nightclub in 1999 for approximately 5 million dollars and it was re-opened in July of 2001, a process which he documented extensively in a blog named "DNA Sequencing"
+In 2016, he explored alternative funding ideas to keep the venue afloat during a downturn in attendence.
+Interviews and Appearances.
+In 2000, Zawinski starred in the 60-minute-long PBS documentary "Code Rush", which chronicles the creation of Mozilla.org and the release of the browser source code over the course of 1998.
+Zawinski features extensively in Josh Quittner's 1998 book "Speeding the Net: The Inside Story of Netscape and How It Challenged Microsoft",
+and in Glyn Moody's 2001 book, "Rebel Code: Linux and the Open Source Revolution".
+There is a chapter on Zawinski in Peter Seibel's 2009 book, "Coders at Work: Reflections on the Craft of Programming".
+And in 2001, he was featured in "California Dreamin': The Gold Rush", a documentary for German public television.
+Zawinski appears in several video installations at the Computer History Museum's exhibit, "Revolution: The First 2000 Years of Computing".
+He was also featured in "Sleep Mode: The Art of the Screensaver", a gallery exhibition curated by Rafaël Rozendaal at Rotterdam's Het Nieuwe Instituut in 2017.
+Notable Quotes.
+"Zawinski's Law of Software Envelopment", also known as "Zawinski's Law":
+Some have interpreted this as commenting on the phenomenon of software bloating with popular features:
+Zawinski himself has stated: 
+"Now you have two problems" -- Zawinski first made this often-referenced quip in 1997 on the alt.religion.emacs newsgroup:
+A 1998 observation on the hidden costs of free software:
+A 1998 warning in Code Rush on the potential future of the web:
+On the release of the Netscape source code and the Constructivist branding of Mozilla.org:
+Principles.
+Zawinski first attained prominence as a Lisp programmer, but most of his larger projects are written in C. Despite that, he has long been critical of languages lacking memory safety and automatic storage management. He has particularly proselytized against C++. In Peter Seibel's book "Coders at Work: Reflections on the Craft of Programming", Zawinski calls C++ an "abomination... the PDP-11 assembler that thinks it's an object system". 
+Though he has written and published many utilities in Perl, he is not without his criticisms, characterizing Perl as "combining all the worst aspects of C and Lisp: a billion different sublanguages in one monolithic executable. It combines the power of C with the readability of PostScript."
+He has criticized several language and library deficiencies he encountered while programming in Java, specifically the overhead of certain fundamental classes but especially the marketing and politics behind it that led Sun to conflate the language, the class library, the virtual machine, and the security model all under the same name, "Java" -- to, he says, the detriment of them all. Despite the positive aspects, ultimately Zawinski returned to programming in C "since it's still the only way to ship portable programs".
+

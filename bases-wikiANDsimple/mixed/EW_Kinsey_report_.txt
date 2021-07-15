@@ -1,0 +1,14 @@
+
+ &lt;ns&gt;0&lt;/ns&gt;
+ &lt;id&gt;38201&lt;/id&gt;
+ &lt;revision&gt;
+ &lt;id&gt;15933871&lt;/id&gt;
+ &lt;timestamp&gt;2002-02-25T15:51:15Z&lt;/timestamp&gt;
+ &lt;contributor&gt;
+ &lt;ip&gt;213.253.39.211&lt;/ip&gt;
+ &lt;/contributor&gt;
+ &lt;minor /&gt;
+ &lt;comment&gt;#REDIRECT Kinsey Reports&lt;/comment&gt;
+ &lt;model&gt;wikitext&lt;/model&gt;
+ &lt;format&gt;text/x-wiki&lt;/format&gt;
+

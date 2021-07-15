@@ -1,0 +1,4 @@
+
+In computer engineering, an execution unit (E-unit or EU) is a part of the central processing unit (CPU) that performs the operations and calculations as instructed by the computer program. It may have its own internal control sequence unit (not to be confused with the CPU's main control unit), some registers, and other internal units such as an arithmetic logic unit (ALU), address generation unit (AGU), floating-point unit (FPU), load-store unit (LSU), branch execution unit (BEU) or some smaller and more specific components.
+It is common for modern CPUs to have multiple parallel functional units within its execution units, which is referred to as superscalar design. The simplest arrangement is to use a single bus manager unit to manage the memory interface, and the others to perform calculations. Additionally, modern CPUs' execution units are usually pipelined.
+

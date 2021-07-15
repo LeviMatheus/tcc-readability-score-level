@@ -1,0 +1,9 @@
+
+UseModWiki is a wiki engine written in the Perl programming language. It is licensed under the GNU General Public License. Pages in UseModWiki are stored in ordinary files, not in a relational database.
+History.
+Clifford Adams based UseModWiki on the code of AtisWiki by Markus Denker. AtisWiki was based on CvWiki by Peter Merel. CvWiki was the first GNU-licensed wiki based on WikiBase, the wiki engine of the original WikiWikiWeb by Ward Cunningham.
+The first installation of UseModWiki was Adams's usemod.com wiki, the basis of the "Use"net "Mod"eration Project (Usemod) which had been running on AtisWiki since October 11, 1999. The second wiki to use UseModWiki, the MeatballWiki created by Adams and Sunir Shah dedicated to online communities, was installed on the usemod.com Web site on April 24, 2000. It was later used on Nupedia.
+From January 15, 2001, until early 2002, UseModWiki was also used to run the English Wikipedia. All language instances of Wikipedia have since been moved over to MediaWiki.
+WikiWikiWeb's sister wiki , started in July 2005, also ran on UseModWiki.
+Adams is credited with the idea and software coding to use double brackets in Wikipedia to create links (e.g., codice_1 creates a link to page "Title"), replacing the use of CamelCase on the early versions of wikis.
+

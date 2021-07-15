@@ -1,0 +1,4 @@
+NepaLinux is a Debian and Morphix based Linux distribution focused on desktop usage in Nepali language computing.
+It contains applications for desktop users like OpenOffice.org, Nepali GNOME and KDE desktops, and a way for people to type Nepali text.
+The development and distribution of NepaLinux is done by Madan Puraskar Pustakalaya. Version 1.0 was produced as part of the PAN Localization Project, with the support of the International Development Research Centre (IDRC) of Canada. NepaLinux is an effort of promoting Free and Open Source Software in Nepal.
+In October 2007, NepaLinux was the joint recipient of the Association for Progressive Communications' annual APC FOSS prize.

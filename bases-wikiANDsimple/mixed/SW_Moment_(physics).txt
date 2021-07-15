@@ -1,0 +1,4 @@
+In physics, the moment of force (often just moment) means the magnitude of force that influences the rotation of an object.
+In this concept the moment arm, the distance from the axis of rotation, plays an important role. The lever, pulley, gear, and most other simple machines create mechanical advantage by changing the moment arm. The SI unit for moment is the newton meter (Nm).
+History of moment.
+The principle of moments is derived from Archimedes' discovery of the operating principle of the lever. In the lever one applies a force, in his day most often human muscle, to an "arm", a beam of some sort. Archimedes noted that the amount of force applied to the object, the "moment of force", is defined as "M = rF", where "F" is the applied force, and "r" is the distance from the applied force to object.

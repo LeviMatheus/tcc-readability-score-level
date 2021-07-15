@@ -1,0 +1,4 @@
+North Star Computers was one of the earliest manufacturers of microcomputers. Before they started making their first computer, the "North Star Horizon", they made floppy disk drives for S-100 bus computers. They included a disk operating system called "North Star DOS" (or "N*DOS"). The Horizon used the North Star disk controller and operating system. It was one of the first microcomputers that had multi-user features.
+Their second computer, called the "North Star Advantage", ran M, and had the keyboard and monitor built-in. The graphics were very powerful for their time. When the IBM PC came out, North Star made an MS-DOS compatible processor card that could be added to the "Advantage".
+Their third computer, the "North Star Dimension", was multi-user like the "Horizon", but MS-DOS based.
+Because their products in the early 1980s were only MS-DOS compatible, not fully PC compatible, they never sold very many, and the company went out of business.

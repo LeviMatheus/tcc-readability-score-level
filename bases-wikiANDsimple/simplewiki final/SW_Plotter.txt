@@ -1,0 +1,1 @@
+A Plotter is a kind of printer for Computers. Plotters use Vector graphics. Usually they are used to print to paper which is very large in size. Plotters print things using special, colored pens. There is one called the Drum Plotter.

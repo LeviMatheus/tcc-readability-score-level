@@ -1,0 +1,11 @@
+In computer engineering, register renaming refers to a technique used to avoid unnecessary serialized execution of program instructions because of the reuse of the same registers by those instructions.
+Problem definition.
+Programs are composed of instructions which operate on values. The instructions must name these values in order to distinguish them from one another. A typical instruction might say, add X and Y and put the result in Z. In this instruction, X, Y, and Z are the names of storage locations.
+In order to have a compact instruction encoding, most processor instruction sets have a small set of special locations which can be directly named. For example, the x86 instruction set architecture has 8 integer registers, x86-64 has 16, many RISCs have 32, and IA-64 has 128. In smaller processors, the names of these locations correspond directly to elements of a register file.
+Different instructions may take different amounts of time (e.g., CISC architecture). For instance, a processor may be able to execute hundreds of instructions while a single load from main memory instruction is in progress. Shorter instructions executed while the load is outstanding will finish first, thus the instructions are finishing out of the original program order. Out-of-order execution has been used in most recent high-performance CPUs to achieve some of their speed gains.
+Instructions 4, 5, and 6 are independent of instructions 1, 2, and 3, but the processor cannot finish 4 until 3 is done, because 3 would then write the wrong value.
+Problem solution.
+Now instructions 4, 5, and 6 can be executed in parallel with instructions 1, 2, and 3, so that the program can be executed faster.
+When possible, compilers do this renaming. But compilers are limited by the number of register inside the CPU. Many high performance CPUs have more physical registers than may be named directly in the instruction set and they can rename registers in hardware to achieve better instruction level parallelism.
+Anything that is read and written can be renamed. While the general-purpose and floating-point registers are the most, flag and status registers or even individual status bits are commonly renamed as well.
+Memory locations can also be renamed, although it is not commonly done to the level used in register renaming.

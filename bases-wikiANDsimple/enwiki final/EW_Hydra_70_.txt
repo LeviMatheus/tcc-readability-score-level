@@ -1,0 +1,22 @@
+
+The Hydra 70 rocket is a diameter fin-stabilized unguided rocket used primarily in the air-to-ground role. It can be equipped with a variety of warheads, and in more recent versions, guidance systems for point attacks. The Hydra is widely used by US and allied forces, competing with the Canadian CRV-7, with which it is physically interchangeable.
+Overview.
+The Hydra 70 is derived from the diameter Mk 4/Mk 40 Folding-Fin Aerial Rocket developed by the United States Navy for use as a free-flight aerial rocket in the late 1940s. The Mk 40 was used during the Korean and Vietnam wars to provide close air support to ground forces from about 20 different firing platforms, both fixed-wing and armed helicopters.
+The main change made to produce the Hydra was the Mk. 66 motor which uses a new propellant that offers considerably more thrust, (Mod 2/3) (Mod 4). The fins of the Mk 40 flipped forward from the rear when the rocket left the launching tube, but in the Hydra they are curved to match the outside diameter of the rocket fuselage and flip sideways to open, which is referred to as WAFAR (Wrap-Around Fin Aerial Rocket) instead of FFAR (folding-fin aerial rocket). To improve stability during the time while the fins are still opening, the four motor nozzles have a slight cant angle to impart a spin while the rocket is still in the launch tube.
+Today, the OH-58D(R) Kiowa Warrior and AH-64D Apache Longbow, as well as the Marine Corps' versatile UH-1 Huey and AH-1 Cobra, carry the Hydra rocket launcher standard on its weapon pylons.
+Service.
+The family of Hydra 70 (70 mm) 2.75 inch rockets perform a variety of functions. The war reserve unitary and cargo warheads are used for anti-materiel, anti-personnel, and suppression missions. The Hydra 70 family of folding-fin aerial rockets also includes smoke screening, illumination, and training warheads. Hydra 70 rockets are known mainly by either their warhead type or by the rocket motor designation, Mk 66 in US military service.
+United States.
+In the U.S. Army, Hydra 70 rockets are fired from the AH-64A Apache and AH-64D Apache Longbow helicopters using M261 19-tube rocket launchers, and the OH-58D Kiowa Warrior using seven-tube M260 rocket launchers. In the U.S. Marine Corps, either the M260 or M261 launchers are employed on the AH-1W SuperCobra and AH-1Z Viper, depending upon the mission. The M260 and M261 are used with the Mk 66 series of rocket motor, which replaced the Mk 40 series. The Mk 66 has a reduced system weight and provides a remote fuze setting interface. Hydra 70s have also been fired from UH-60 and AH-6 series aircraft in US Army service.
+The AH-1G Cobra and the UH-1B "Huey" used a variety of launchers including the M158 seven-tube and M200 19-tube rocket launchers designed for the Mk 40 rocket motor; however, these models have been replaced by upgraded variants in the U.S. Marine Corps because they were not compatible with the Mk 66 rocket motor. The Hydra 70 rocket system is also used by the U.S. Navy, and the U.S. Air Force.
+Accidents.
+In 2019 a 72-year-old Taiwanese man was killed by a discarded Hydra rocket which he had cut into with an electric saw believing it to be a length of pipe. The rocket had been caught in the net of a fishing vessel and then discarded by the crew ashore as scrap metal.
+Warheads.
+Hydra 70 warheads fall into three categories:
+Common warheads.
+The most common warhead for the Hydra 70 rocket is the M151 "10-Pounder," which has a blast radius of 10 meters and lethal fragmentation radius of around 50 meters.
+Precision guided Hydra 70.
+There are several design efforts to turn the Hydra 70 rocket into a precision guided munition (PGM) to produce a weapon with greater accuracy but at less cost than other guided missiles. These include:
+The APKWS was the first to be fielded in March 2012, and the TALON entered full rate production for the United Arab Emirates Armed Forces in September 2014.
+The Turkish ROKETSAN Cirit is a similar missile compatible with 70 mm rocket launchers, but it was developed from scratch and doesn't use Hydra 70 components.
+

@@ -1,0 +1,9 @@
+
+ArgoUML is an UML diagramming application written in Java and released under the open source Eclipse Public License. By virtue of being a Java application, it is available on any platform supported by Java SE.
+History.
+ArgoUML was originally developed at UC Irvine by Jason E. Robbins, leading to his Ph.D. It was an open source project hosted by Tigris.org and moved in 2019 to GitHub. The ArgoUML project included more than 19,000 registered users and over 150 developers.
+In 2003, ArgoUML won the Software Development Magazine's annual Readers' Choice Award in the “Design and Analysis Tools” category.
+ArgoUML development has suffered from lack of manpower. For example, "Undo" has been a perpetually requested feature since 2003 but has not been implemented yet.
+Features.
+According to the official feature list, ArgoUML is capable of the following: 
+

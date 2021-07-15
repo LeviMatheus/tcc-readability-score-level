@@ -1,0 +1,20 @@
+In Computer science, a closure is a function that has an environment of its own. Inside this environment, there is at least one bound variable. Closures were first used in programming languages such as ML and Lisp.
+Closures keep the state of their bound variables over several invocations.
+The term closure is often mistakenly used to mean anonymous function. This is probably because most languages implementing anonymous functions allow them to form closures and programmers are usually introduced to both concepts at the same time. These are however different concepts.
+The concept of closures was developed in the 1960s and was first fully implemented as a language feature in the programming language Scheme. Since then, many languages have been designed to support closures.
+Function objects are sometimes also called closures.
+Closures and first-class functions.
+In this example, the lambda expression codice_1 appears within the function codice_2. When the lambda expression is evaluated, Scheme creates a closure consisting of the code for the lambda and a reference to the codice_3 variable, which is a free variable inside the lambda.
+The closure is then passed to the codice_4 function, which calls it repeatedly to determine which books are to be added to the result list and which are to be discarded. Because the closure itself has a reference to codice_3, it can use that variable each time codice_4 calls it. The function codice_4 itself might be defined in a completely separate file.
+// Return a list of all books with at least 'threshold' copies sold.
+The codice_8 keyword is used here instead of codice_9, and an codice_10 method instead of a global codice_4 function, but otherwise the structure and the effect of the code are the same.
+A function may create a closure and return it. The following example is a function that returns a function.
+// Return a function that approximates the derivative of f
+// using an interval of dx, which should be appropriately small.
+Because the closure in this case outlives the scope of the function that creates it, the variables codice_12 and codice_13 live on after the function codice_14 returns. In languages without closures, the lifetime of a local variable coincides with the execution of the scope where that variable is declared. In languages with closures, variables must continue to exist as long as any existing closures have references to them.
+This is most commonly implemented using some form of garbage collection.
+return (f(x + dx) - f(x)) / dx
+In this example, the function named "gradient" forms a closure together with the variables "f" and "dx". This closure is then returned by the outer function named "derivative". In fact, closures in Python must often be formed using named functions, where an anonymous function might be equally appropriate in other languages, because of the restrictions on lambda forms.
+Uses of closures.
+(display (bar)); prints "meet me by the docks at midnight"
+Note: Some speakers call any data structure that binds a lexical environment a closure, but the term usually refers specifically to functions.

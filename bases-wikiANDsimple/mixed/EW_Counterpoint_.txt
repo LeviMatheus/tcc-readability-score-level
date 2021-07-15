@@ -1,0 +1,79 @@
+
+In music, counterpoint is the relationship between two or more musical lines (or voices) which are harmonically interdependent yet independent in rhythm and melodic contour. It has been most commonly identified in the European classical tradition, strongly developing during the Renaissance and in much of the common practice period, especially in the Baroque. The term originates from the Latin "punctus contra punctum" meaning "point against point", i.e. "note against note".
+In Western pedagogy, counterpoint is taught through a system of species (see below). 
+There are several different forms of counterpoint, including imitative counterpoint and free counterpoint. Imitative counterpoint involves the repetition of a main melodic idea across different vocal parts, with or without variation. Compositions written in free counterpoint often incorporate non-traditional harmonies and chords, chromaticism and dissonance.
+General principles.
+The term "counterpoint" has been used to designate a voice or even an entire composition. Counterpoint focuses on melodic interaction—only secondarily on the harmonies produced by that interaction. In the words of John Rahn:
+Work initiated by Guerino Mazzola (born 1947) has given counterpoint theory a mathematical foundation. In particular, Mazzola's model gives a structural (and not psychological) foundation of forbidden parallels of fifths and the dissonant fourth. Octavio Agustin has extended the model to microtonal contexts.
+In counterpoint, the "functional independence" of voices is the prime concern. The violation of this principle leads to special effects, which are avoided in counterpoint. In organ registers, certain interval combinations and chords are activated by a single key so that playing a melody results in parallel voice leading. These voices, losing independence, are fused into one and the parallel chords are perceived as single tones with a new timbre. This effect is also used in orchestral arrangements; for instance, in Ravel’s Bolero #5 the parallel parts of flutes, horn and celesta resemble the sound of an electric organ. In counterpoint, parallel voices are prohibited because they violate the homogeneity of musical texture when independent voices occasionally disappear turning into a new timbre quality and vice versa.
+Development.
+Some examples of related compositional techniques include: the round (familiar in folk traditions), the canon, and perhaps the most complex contrapuntal convention: the fugue. All of these are examples of imitative counterpoint.
+Examples from the repertoire.
+There are many examples of song melodies that sound good together when performed simultaneously. For example, "Frère Jacques" and "Three Blind Mice" combine euphoniously when sung together. A number of popular songs that share the same chord progression can also be sung together as counterpoint. A well-known pair of examples is "My Way" combined with "Life on Mars".
+Bach's 3-part Invention in F minor combines three independent melodies:
+According to pianist András Schiff, Bach's counterpoint influenced the composing of both Mozart and Beethoven. In the development section of the opening movement of Beethoven's Piano Sonata in E minor, Beethoven demonstrates this influence by adding "a wonderful counterpoint" to one of the main themes.
+A further example of fluid counterpoint in late Beethoven may be found in the first orchestral variation on the "Ode to Joy" theme in the last movement of Beethoven's Symphony No. 9, bars 116–123. The famous theme is heard on the violas and cellos, while "the basses add a bass-line whose sheer unpredictability gives the impression that it is being spontaneously improvised. Meantime a solo bassoon adds a counterpoint that has a similarly impromptu quality."
+In the Prelude to Richard Wagner's opera "Die Meistersinger von Nürnberg", three themes from the opera are combined simultaneously. According to Gordon Jacob, "This is universally and justly acclaimed as an extraordinary feat of virtuosity." However, Donald Tovey points out that here "the combination of themes ... unlike classical counterpoint, really do not of themselves combine into complete or euphonious harmony."
+One spectacular example of 5-voice counterpoint can be found in the finale to Mozart's Symphony No 41 ("Jupiter" Symphony). Here five tunes combine simultaneously in "a rich tapestry of dialogue":
+See also Invertible counterpoint.
+Species counterpoint.
+Species counterpoint was developed as a pedagogical tool in which students progress through several "species" of increasing complexity, with a very simple part that remains constant known as the cantus firmus (Latin for "fixed melody"). Species counterpoint generally offers less freedom to the composer than other types of counterpoint and therefore is called a "strict" counterpoint. The student gradually attains the ability to write "free" counterpoint (that is, less rigorously constrained counterpoint, usually without a cantus firmus) according to the given rules at the time. The idea is at least as old as 1532, when Giovanni Maria Lanfranco described a similar concept in his "Scintille di musica" (Brescia, 1533). The 16th-century Venetian theorist Zarlino elaborated on the idea in his influential "Le institutioni harmoniche", and it was first presented in a codified form in 1619 by Lodovico Zacconi in his "Prattica di musica". Zacconi, unlike later theorists, included a few extra contrapuntal techniques, such as invertible counterpoint.
+In 1725 Johann Joseph Fux published "Gradus ad Parnassum" (Steps to Parnassus), in which he described five species:
+A succession of later theorists quite closely imitated Fux's seminal work, often with some small and idiosyncratic modifications in the rules. Many of Fux's rules concerning the purely linear construction of melodies have their origin in solfeggi. Concerning the common practice era, alterations to the melodic rules were introduced to enable the function of certain harmonic forms. The combination of these melodies produced the basic harmonic structure, the figured bass.
+Considerations for all species.
+The following rules apply to melodic writing in each species, for each part:
+And, in all species, the following rules govern the combination of the parts:
+First species.
+In "first species" counterpoint, each note in every added part (parts being also referred to as "lines" or "voices") sounds against one note in the cantus firmus. Notes in all parts are sounded simultaneously, and move against each other simultaneously. Since all notes in First species counterpoint are whole notes, rhythmic independence is not available.
+In the present context, a "step" is a melodic interval of a half or whole step. A "skip" is an interval of a third or fourth. (See Steps and skips.) An interval of a fifth or larger is referred to as a "leap".
+A few further rules given by Fux, by study of the Palestrina style, and usually given in the works of later counterpoint pedagogues, are as follows.
+In the adjacent example in two parts, the cantus firmus is the lower part. (The same cantus firmus is used for later examples also. Each is in the Dorian mode.)
+Second species.
+In "second species" counterpoint, two notes in each of the added parts work against each longer note in the given part.
+Additional considerations in second species counterpoint are as follows, and are in addition to the considerations for first species:
+Third species.
+In "third species" counterpoint, four (or three, etc.) notes move against each longer note in the given part.
+Three special figures are introduced into third species and later added to fifth species, and ultimately outside the restrictions of "species writing". There are three figures to consider: The "nota cambiata", "double neighbor tones", and "double passing tones".
+Double neighbor tones: the figure is prolonged over four beats and allows special dissonances. The upper and lower tones are prepared on beat 1 and resolved on beat 4. The fifth note or downbeat of the next measure should move by step in the same direction as the last two notes of the double neighbor figure. Lastly a double passing tone allows two dissonant passing tones in a row. The figure would consist of 4 notes moving in the same direction by step. The two notes that allow dissonance would be beat 2 and 3 or 3 and 4. The dissonant interval of a fourth would proceed into a diminished fifth and the next note would resolve at the interval of a sixth.
+Fourth species.
+In "fourth species" counterpoint, some notes are sustained or "suspended" in an added part while notes move against them in the given part, often creating a dissonance on the beat, followed by the suspended note then changing (and "catching up") to create a subsequent consonance with the note in the given part as it continues to sound. As before, fourth species counterpoint is called "expanded" when the added-part notes vary in length among themselves. The technique requires chains of notes sustained across the boundaries determined by beat, and so creates syncopation. Also it is important to note that a dissonant interval is allowed on beat 1 because of the syncopation created by the suspension. While it is not incorrect to start with a half note, it is also common to start 4th species with a half rest. 
+&lt;score %vorbis="1"%%T257066%&gt;
+\relative c' {
+\new PianoStaff «
+\new Staff {
+\set Staff.explicitKeySignatureVisibility = #all-invisible
+a'2 d~ d c~ c bes~
+\key d \minor bes
+a b cis d1 \bar "|."
+\new Staff {
+d, f g f e d \bar "|."
+»
+&lt;/score&gt;Short example of "fourth species" counterpoint
+Fifth species (florid counterpoint).
+In "fifth species" counterpoint, sometimes called "florid counterpoint", the other four species of counterpoint are combined within the added parts. In the example, the first and second bars are second species, the third bar is third species, the fourth and fifth bars are third and embellished fourth species, and the final bar is first species. In florid counterpoint it is important that no one species dominates the composition.
+&lt;score %vorbis="1"%%T257066%&gt;
+\relative c' {
+\new PianoStaff «
+\new Staff {
+r2 a' d c b4 c d e f e d2~ d4 cis8 b cis2 d1 \bar "|."
+\new Staff {
+d, f g f e d \bar "|."
+»
+&lt;/score&gt;
+Short example of "Florid" counterpoint
+Contrapuntal derivations.
+Since the Renaissance period in European music, much contrapuntal music has been written in imitative counterpoint. In imitative counterpoint, two or more voices enter at different times, and (especially when entering) each voice repeats some version of the same melodic element. The fantasia, the ricercar, and later, the canon and fugue (the contrapuntal form "par excellence") all feature imitative counterpoint, which also frequently appears in choral works such as motets and madrigals. Imitative counterpoint spawned a number of devices, including:
+Free counterpoint.
+Broadly speaking, due to the development of harmony, from the Baroque period on, most contrapuntal compositions were written in the style of free counterpoint. This means that the general focus of the composer had shifted away from how the intervals of added melodies related to a "cantus firmus", and more toward how they related to each other.
+Nonetheless, according to Kent Kennan: "...actual teaching in that fashion (free counterpoint) did not become widespread until the late nineteenth century." Young composers of the eighteenth and nineteenth centuries, such as Mozart, Beethoven, and Schumann, were still educated in the style of "strict" counterpoint, but in practice, they would look for ways to expand on the traditional concepts of the subject.
+Main features of free counterpoint:
+Linear counterpoint.
+Linear counterpoint is "a purely horizontal technique in which the integrity of the individual melodic lines is not sacrificed to harmonic considerations. "Its distinctive feature is rather the concept of melody, which served as the starting-point for the adherents of the 'new objectivity' when they set up linear counterpoint as an anti-type to the Romantic harmony." The voice parts move freely, irrespective of the effects their combined motions may create." In other words, either "the domination of the horizontal (linear) aspects over the vertical" is featured or the "harmonic control of lines is rejected."
+Associated with neoclassicism, the technique was first used in Igor Stravinsky's "Octet" (1923), inspired by J. S. Bach and Giovanni Palestrina. However, according to Knud Jeppesen: "Bach's and Palestrina's points of departure are antipodal. Palestrina starts out from lines and arrives at chords; Bach's music grows out of an ideally harmonic background, against which the voices develop with a bold independence that is often breath-taking."
+According to Cunningham, linear harmony is "a frequent approach in the 20th century...[in which lines] are combined with almost careless abandon in the hopes that new 'chords' and 'progressions'...will result." It is possible with "any kind of line, diatonic or duodecuple".
+Dissonant counterpoint.
+Dissonant counterpoint was originally theorized by Charles Seeger as "at first purely a school-room discipline," consisting of species counterpoint but with all the traditional rules reversed. First species counterpoint must be all dissonances, establishing "dissonance, rather than consonance, as the rule," and consonances are "resolved" through a skip, not step. He wrote that "the effect of this discipline" was "one of purification". Other aspects of composition, such as rhythm, could be "dissonated" by applying the same principle.
+Seeger was not the first to employ dissonant counterpoint, but was the first to theorize and promote it. Other composers who have used dissonant counterpoint, if not in the exact manner prescribed by Charles Seeger, include Johanna Beyer, John Cage, Ruth Crawford-Seeger, Vivian Fine, Carl Ruggles, Henry Cowell, Carlos Chávez, John J. Becker, Henry Brant, Lou Harrison, Wallingford Riegger, and Frank Wigglesworth.
+References.
+Sources
+

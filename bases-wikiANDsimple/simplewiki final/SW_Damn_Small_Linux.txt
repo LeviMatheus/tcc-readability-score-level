@@ -1,0 +1,14 @@
+Damn Small Linux or DSL is a free operating system for the x86 family of personal computers. It was designed to run graphical applications on older PC hardware—for example, machines with 486/early Pentium processors and very little memory. DSL is a Live CD with a size of 50 MB. What originally started as an experiment to see how much software could fit in 50 MB eventually became a full-fledged Linux distribution. It can be installed on storage media with small capacities, like bootable business cards, USB flash drives, various memory cards, and Zip drives.
+History.
+DSL was originally conceived and maintained by John Andrews. The community now includes Robert Shingledecker, who created the MyDSL system, DSL Control Panel, and other features.
+DSL was originally based on Model-K, a 22 MB stripped-down version of Knoppix, but soon after was based on Knoppix proper, allowing much easier remastering and improvements.
+System requirements.
+DSL supports only x86 PCs. The minimum system requirements are a 486 processor and 8 MB of RAM. DSL has been demonstrated browsing the web with Dillo, running simple games and playing music on systems with a 486 processor and 16 MB of RAM. The system requirements are higher for running Mozilla Firefox and optional add-ons such as the OpenOffice.org office suite.
+Features.
+DSL has built-in scripts to download and install Advanced Packaging Tool (APT). Once APT is enabled, the user can install packages from Debian's 'Woody' repository. Additionally, DSL hosts software ranging from large applications like OpenOffice.org and GCC, to smaller ones such as aMSN, by means of the "MyDSL" system, which allows convenient one-click download and installation of software. Files hosted on MyDSL are called "extensions". As of June 2008, the MyDSL servers were hosting over 900 applications, plugins, and other extensions.
+The MyDSL system.
+MyDSL is handled and maintained mostly by Robert Shingledecker and hosted by many organizations, such as ibiblio and Belgium's BELNET. There are 2 areas of MyDSL - regular and "testing". The regular area contains extensions that have been proven stable enough for everyday use and is broken down into different areas such as "apps", "net", "system", and "uci" ("Universal Compressed ISO" - Extensions in.uci format are mounted as a separate filesystem to minimize RAM usage). The "testing" area is for newly submitted extensions that theoretically work 'as advertised', but may have any number of bugs.
+Versions and ports.
+The standard flavour of DSL is the Live CD. There are also other versions available.
+Live USB.
+A Live USB of Damn Small Linux can be created manually or with UNetbootin..

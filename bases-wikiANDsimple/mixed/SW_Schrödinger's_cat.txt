@@ -1,0 +1,6 @@
+Schrödinger's cat is a thought experiment about quantum physics. It was proposed by Erwin Schrödinger.
+A cat is placed in a room that is shielded from the environment. A Geiger counter and a little bit of a radioactive element are in the room. Within some time, say one hour, one of the atoms of the radioactive element may decay, or it may not. The Geiger counter can of course measure that. If it does measure the decay, it will release some poisonous gas, which will kill the cat.
+The question now is: at the end of the hour, is the cat alive or dead?
+Schrödinger's interpretation is that as long as the door is closed, the cat is both dead and alive in dual superposed quantum states. When the door is opened, the quantum states are made known and the cat is observed to be either alive or dead.
+The problem exists in that by opening the room, the person is interfering with the experiment. The person and the experiment have to be described with reference to each other.
+By merely "looking" at the experiment the person has influenced the experiment.

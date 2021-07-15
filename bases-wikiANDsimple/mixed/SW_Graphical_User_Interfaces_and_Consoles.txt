@@ -1,0 +1,5 @@
+Computers can display information and let the user give commands to it using two methods: a Command Line Interface (CLI) or a Graphical User Interface (GUI).
+In a Command Line Interface, the user types commands using the keyboard to tell the computer to take an action. For example, the more command available in most operating systems will display the contents of a file. Sometimes people call CLI “Console”, but consoles can be GUI, too.
+In a Graphical User Interface, the user can use the computer mouse to click on buttons. For example, your web browser probably has a Print icon to print this page.
+Graphical User Interfaces are generally thought simpler to use than Command lines, whereas Command lines are faster than Graphical User Interfaces and can be used to give special commands to the computer.
+List of Operating Systems with Graphical User Interfaces

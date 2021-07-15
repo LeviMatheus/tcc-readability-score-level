@@ -1,0 +1,1 @@
+Java Embedding Plugin (JEP) allows Java on Mac OS X with browsers that are not Safari.

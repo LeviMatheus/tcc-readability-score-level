@@ -1,0 +1,10 @@
+The Xbox Live Vision is a webcam designed for the Xbox 360 and Xbox Live.
+Overview.
+The camera can be used for video chat, personalized gamer pictures, in-game video chat, and still pictures. The camera features 640 × 480 video at 30 fps and is capable of taking still images at 1.3 megapixels. It allows for video chat and picture messages using an Xbox Live Gold Subscription with video effects along with in-game compatibility.
+It also features three camera effects, in which the currently captured video image is overlaid on the dashboard background. The three effects are 'watery', 'edgy', and 'dotty'. The camera uses a standard USB 2.0 connection and is also Windows (XP and newer) and Mac OS X (v10.4.9 and newer) compatible.
+The Xbox Live Vision Camera was announced at E3 2006 and released in North America on September 19 2006, following a 1-month pre-launch period in which Toys "R" Us stores in New York City and Los Angeles sold them to build up hype. It was released in Europe and Asia on October 6 2006, and November 2 2006 in Japan.
+PC compatibility.
+The Vision Camera is compatible with Windows XP Service Pack 2 using USB 2.0 connection. It requires a microphone for audio when used on a PC. Drivers are not included with the Vision Camera–you must allow Windows to download them automatically when prompted.
+After a few seconds, the device will appear in "Imaging Devices." In "USB Controllers" there will be an entry called "Microsoft Xbox 360 Live Vision Security Method 3." This indicates the camera is installed and ready for use.
+Mac OS X 10.4.9 added support for the USB "video class" group of peripherals, including Vision Camera. They work in iChat, Photo Booth and other applications that use Quicktime for video display, such as Skype. Connection over USB2 is also mandatory.
+The Vision Camera is also compatible with Sony's PlayStation 3 (requires firmware 1.54).

@@ -1,0 +1,4 @@
+Solar radiation is the energy given off by the sun in all directions. When this energy reaches the earth's surface, it is called insolation.
+Solar radiation gives out light and heat to the earth in the form of electromagnetic waves. It has different wave lengths. Radiation such as ultraviolet radiation, X rays and visible light have short wave lengths. Infrared radiation has a long wave length.
+Solar radiation is measured with a pyranometer or pyrheliometer.
+The atmosphere affects the amount of solar radiation received. When solar radiation travels through the atmosphere, some of it is absorbed by the atmosphere(16%). Some of it is scattered to space (6%). Some of it is reflected by clouds (28%). About 47% of it reaches the earth's surface.

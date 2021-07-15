@@ -1,0 +1,19 @@
+
+Omega (capital: Ω, lowercase: ω; Greek ὦ, later ὦ μέγα, Modern Greek ωμέγα) is the 24th and final letter in the Greek alphabet. In the Greek numeric system/Isopsephy (Gematria), it has a value of 800. The word literally means "great O" ("ō mega", mega meaning "great"), as opposed to Ο ο omicron, which means "little O" ("o mikron", micron meaning "little"). 
+In phonetic terms, the Ancient Greek Ω is a long open-mid "o" , comparable to the vowel of English "raw". In Modern Greek, Ω represents the , the same sound as omicron. The letter omega is transcribed "ō" or simply "o".
+As the final letter in the Greek alphabet, omega is often used to denote the last, the end, or the ultimate limit of a set, in contrast to alpha, the first letter of the Greek alphabet; see Alpha and Omega.
+History.
+Ω was not part of the early (8th century BC) Greek alphabets. It was introduced in the late 7th century BC in the Ionian cities of Asia Minor to denote a long open-mid back rounded vowel [ɔː]. It is a variant of omicron (Ο), broken up at the side (), with the edges subsequently turned outward (, , , ).
+The Dorian city of Knidos as well as a few Aegean islands, namely Paros, Thasos and Melos, chose the exact opposite innovation, using a broken-up circle for the short and a closed circle for the long /o/.
+The name Ωμέγα is Byzantine; in Classical Greek, the letter was called "ō" (), whereas the omicron was called "ou" (). 
+The modern lowercase shape goes back to the uncial form , a form that developed during the 3rd century BC in ancient handwriting on papyrus, from a flattened-out form of the letter () that had its edges curved even further upward.
+In addition to the Greek alphabet, Omega was also adopted into the early Cyrillic alphabet. See Cyrillic omega (Ѡ, ѡ). A Raetic variant is conjectured to be at the origin or parallel evolution of the Elder Futhark ᛟ. 
+Omega was also adopted into the Latin alphabet, as a letter of the 1982 revision to the African reference alphabet. It has had little use. See Latin omega.
+The symbol Ω (uppercase letter).
+The uppercase letter Ω is used as a symbol:
+The symbol ω (lower case letter).
+The minuscule letter ω is used as a symbol:
+Character encodings.
+Mathematical omega.
+These characters are used only as mathematical symbols. Stylized Greek text should be encoded using the normal Greek letters, with markup and formatting to indicate the style of the text.
+

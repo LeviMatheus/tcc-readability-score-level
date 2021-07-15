@@ -1,0 +1,3 @@
+A digital signal processor (DSP or DSP micro) is a specialized microprocessor designed specifically for digital signal processing, generally used in real-time computing.
+Digital signal processing algorithms require a large number of mathematical operations to be performed quickly on a set of data. Signals are converted from analog to digital, manipulated digitally, and then converted again to form digital to analog, as shown in the diagram. Many digital signal processing applications have real-time constraints; that is, for the system to work, the DSP operation must be completed within some time constraint.
+The microarchitecture of a digital signal processor is optimized specifically for digital signal processing applications.

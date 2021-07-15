@@ -1,0 +1,10 @@
+
+ 
+In telecommunications, extended superframe (ESF) is a T1 framing standard. ESF is sometimes called D5 Framing because it was first used in the D5 channel bank, invented in the 1980s.
+It is preferred to its predecessor, superframe, because it includes a cyclic redundancy check (CRC) and 4000 bit/s channel capacity for a data link channel (used to pass out-of-band data between equipment.) It requires less frequent synchronization than the earlier superframe format, and provides on-line, real-time monitoring of circuit capability and operating condition.
+Structure.
+An extended superframe is 24 frames long, and the framing bit of each frame is used in the following manner:
+The CRC is computed using the polynomial over all 24×193 = 4632 bits (framing and data) of the previous superframe, but with its framing bits forced to 1 for the purpose of CRC computation. The purpose of this small CRC is not to take any immediate action, but to keep statistics on the performance of the link.
+Like the predecessor superframe, every sixth frame's least-significant data bit can be used for robbed-bit signaling of call supervision state. However, there are four such bits (ABCD) per channel per extended superframe, rather than the two bits (AB) provided per superframe. 
+Unlike the superframe, it is possible to avoid robbed-bit signalling and send call supervision over the data link instead.
+

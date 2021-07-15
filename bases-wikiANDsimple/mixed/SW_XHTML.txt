@@ -1,0 +1,1 @@
+XHTML stands for Extensible Hypertext Transfer Markup Language. XHTML is HTML based on XML. It is used to make websites and webpages.

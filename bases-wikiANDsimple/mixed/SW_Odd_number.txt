@@ -1,0 +1,6 @@
+An odd number is an integer which is not a multiple of two. If it is divided by two the result is a fraction. One is the first odd positive number. The next four bigger odd numbers are three, five, seven, and nine. You can also tell if a decimal number is an odd number if the last digit is an odd number.
+An integer that is not an odd number is an even number.
+An even number is defined as a whole number that is a multiple of two.
+If an even number is divided by two, the result is another whole number.
+On the other hand, an odd number, when divided by two, will result in a fraction.
+Since odd and even numbers are defined only in reference to the set of integers (...,-3,-2,-1,0,1,2,3...), all negative numbers can also be either odd or even.

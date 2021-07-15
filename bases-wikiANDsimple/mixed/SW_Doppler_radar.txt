@@ -1,0 +1,2 @@
+Doppler radar uses the Doppler effect to measure the radial velocity of targets in the antenna's directional beam. The Doppler effect shifts the received frequency up or down based on the radial velocity of target (closing or opening) in the beam, allowing for the direct and highly accurate measurement of target velocity.
+Doppler radars may be Coherent Pulsed, Continuous Wave, or Frequency Modulated.

@@ -1,0 +1,89 @@
+
+In mathematics, a countable set is a set with the same cardinality (number of elements) as some subset of the set of natural numbers. A countable set is either a finite set or a countably infinite set. Whether finite or infinite, the elements of a countable set can always be counted one at a time and—although the counting may never finish—every element of the set is associated with a unique natural number.
+Some authors use countable set to mean "countably infinite" alone. To avoid this ambiguity, the term "at most countable" may be used when finite sets are included and "countably infinite", "enumerable", or "denumerable" otherwise.
+Georg Cantor introduced the term "countable set", contrasting sets that are countable with those that are "uncountable" (i.e., "nonenumerable" or "nondenumerable"). Today, countable sets form the foundation of a branch of mathematics called "discrete mathematics".
+Definition.
+A set is "countable" if there exists an injective function from to the natural numbers }.
+If such an can be found that is also surjective (and therefore bijective), then is called "countably infinite."
+In other words, a set is "countably infinite" if it has one-to-one correspondence with the natural number set, . In which case, the cardinality of the set is denoted formula_1 (aleph-null)—the first in the series of aleph numbers.
+This terminology is not universal. Some authors use countable to mean what is here called "countably infinite," and do not include finite sets.
+Alternative (equivalent) formulations of the definition in terms of a bijective function or a surjective function can also be given. See also below.
+History.
+In 1874, in his first set theory article, Cantor proved that the set of real numbers is uncountable, thus showing that not all infinite sets are countable. In 1878, he used one-to-one correspondences to define and compare cardinalities. In 1883, he extended the natural numbers with his infinite ordinals, and used sets of ordinals to produce an infinity of sets having different infinite cardinalities.
+Introduction.
+A "set" is a collection of "elements", and may be described in many ways. One way is simply to list all of its elements; for example, the set consisting of the integers 3, 4, and 5 may be denoted {3, 4, 5}, called roster form. This is only effective for small sets, however; for larger sets, this would be time-consuming and error-prone. Instead of listing every single element, sometimes an ellipsis ("...") is used to represent many elements between the starting element and the end element in a set, if the writer believes that the reader can easily guess what ... represents; for example, {1, 2, 3, ..., 100} presumably denotes the set of integers from 1 to 100. Even in this case, however, it is still "possible" to list all the elements, because number of elements in the set is finite.
+Some sets are "infinite"; these sets have more than "n" elements where "n" is any integer that can be specified. (No matter how large the specified integer "n" is, such as "n" = 9 × 1032, infinite sets have more than "n" elements.) For example, the set of natural numbers, denotable by {0, 1, 2, 3, 4, 5, ...}, has infinitely many elements, and we cannot use any natural number to give its size. Nonetheless, it turns out that infinite sets do have a well-defined notion of size (or more properly, "cardinality", the technical term for the number of elements in a set), and not all infinite sets have the same cardinality.
+To understand what this means, we first examine what it "does not" mean. For example, there are infinitely many odd integers, infinitely many even integers, and (hence) infinitely many integers overall. However, it turns out that the number of even integers, which is the same as the number of odd integers, is also the same as the number of integers overall. This is because we can arrange things such that, for every integer, there is a distinct even integer:formula_2or, more generally, formula_3 (see picture). What we have done here is arrange the integers and the even integers into a "one-to-one correspondence" (or "bijection"), which is a function that maps between two sets such that each element of each set corresponds to a single element in the other set.
+However, not all infinite sets have the same cardinality. For example, Georg Cantor (who introduced this concept) demonstrated that the real numbers cannot be put into one-to-one correspondence with the natural numbers (non-negative integers), and therefore that the set of real numbers has a greater cardinality than the set of natural numbers.
+A set is "countable" if: (1) it is finite, or (2) it has the same cardinality (size) as the set of natural numbers (i.e., denumerable). Equivalently, a set is "countable" if it has the same cardinality as some subset of the set of natural numbers. Otherwise, it is "uncountable".
+Formal overview without details.
+By definition, a set "S" is "countable" if there exists an injective function "f" : "S" → N from "S" to the natural numbers N = {0, 1, 2, 3, ...}. It simply means that every element in "S" has the correspondence to a different element in N"."
+It might seem natural to divide the sets into different classes: put all the sets containing one element together; all the sets containing two elements together; ...; finally, put together all infinite sets and consider them as having the same size.
+This view is not tenable, however, under the natural definition of size.
+To elaborate this, we need the concept of a bijection. Although a "bijection" seems a more advanced concept than a number, the usual development of mathematics in terms of set theory defines functions before numbers, as they are based on much simpler sets. This is where the concept of a bijection comes in: define the correspondence
+Since every element of {"a", "b", "c"} is paired with "precisely one" element of {1, 2, 3}, "and" vice versa, this defines a bijection.
+We now generalize this situation; we "define" that two sets are of the same size, if and only if there is a bijection between them. For all finite sets, this gives us the usual definition of "the same size". 
+As for the case of infinite sets, consider the sets "A" = {1, 2, 3, ... }, the set of positive integers, and "B" = {2, 4, 6, ... }, the set of even positive integers. We claim that, under our definition, these sets have the same size, and that therefore "B" is countably infinite. Recall that to prove this, we need to exhibit a bijection between them. This can be achieved using the assignment "n" ↔ 2"n", so that
+As in the earlier example, every element of A has been paired off with precisely one element of B, and vice versa. Hence they have the same size. This is an example of a set of the same size as one of its proper subsets, which is impossible for finite sets.
+Likewise, the set of all ordered pairs of natural numbers (the Cartesian product of two sets of natural numbers, N × N) is countably infinite, as can be seen by following a path like the one in the picture: The resulting mapping proceeds as follows:
+This mapping covers all such ordered pairs.
+If a pair is treated as the numerator and denominator of a vulgar fraction (a fraction in the form of "a"/"b" where "a" and "b" ≠ 0 are integers), then for every positive fraction, we can come up with a distinct natural number corresponding to it. This representation also includes the natural numbers, since every natural number is also a fraction "N"/1. So we can conclude that there are exactly as many positive rational numbers as there are positive integers. This is also true for all rational numbers, as can be seen below.
+Sometimes more than one mapping is useful: a set A to be shown as countable is one-to-one mapped (injection) to another set B, then A is proved as countable if B is one-to-one mapped to the set of natural numbers. For example, the set of positive rational numbers can easily be one-to-one mapped to the set of natural number pairs (2-tuples) because "p"/"q "maps to ("p", "q"). Since the set of natural number pairs is one-to-one mapped (actually one-to-one correspondence or bijection) to the set of natural numbers as shown above, the positive rational number set is proved as countable.
+Theorem: The Cartesian product of finitely many countable sets is countable.
+This form of triangular mapping recursively generalizes to "n"-tuples of natural numbers, i.e., ("a1", "a2", "a3", ..., "an") where "ai" and "n" are natural numbers, by repeatedly mapping the first two elements of a "n"-tuple to a natural number. For example, (0, 2, 3) can be written as ((0, 2), 3). Then (0, 2) maps to 5 so ((0, 2), 3) maps to (5, 3), then (5, 3) maps to 39. Since a different 2-tuple, that is a pair such as ("a", "b"), maps to a different natural number, a difference between two n-tuples by a single element is enough to ensure the n-tuples being mapped to different natural numbers. So, an injection from the set of "n"-tuples to the set of natural numbers N is proved. For the set of n-tuples made by the Cartesian product of finitely many different sets, each element in each tuple has the correspondence to a natural number, so every tuple can be written in natural numbers then the same logic is applied to prove the theorem. 
+The following theorem concerns infinite subsets of countably infinite sets.
+Theorem: Every subset of a countable set is countable. In particular, every infinite subset of a countably infinite set is countably infinite.
+For example, the set of prime numbers is countable, by mapping the "n"-th prime number to "n":
+There are also sets which are "naturally larger than" N. For instance, Z the set of all integers or Q, the set of all rational numbers, which intuitively may seem much bigger than N. But looks can be deceiving, for we assert:
+Theorem: Z (the set of all integers) and Q (the set of all rational numbers) are countable.
+In a similar manner, the set of algebraic numbers is countable.
+These facts follow easily from a result that many individuals find non-intuitive.
+Theorem: Any finite union of countable sets is countable. 
+With the foresight of knowing that there are uncountable sets, we can wonder whether or not this last result can be pushed any further. The answer is "yes" and "no", we can extend it, but we need to assume a new axiom to do so.
+Theorem: (Assuming the axiom of countable choice) The union of countably many countable sets is countable.
+For example, given countable sets a, b, c, ...
+Using a variant of the triangular enumeration we saw above:
+This only works if the sets a, b, c, ... are disjoint. If not, then the union is even smaller and is therefore also countable by a previous theorem.
+We need the axiom of countable choice to index "all" the sets a, b, c, ... simultaneously.
+Theorem: The set of all finite-length sequences of natural numbers is countable.
+This set is the union of the length-1 sequences, the length-2 sequences, the length-3 sequences, each of which is a countable set (finite Cartesian product). So we are talking about a countable union of countable sets, which is countable by the previous theorem.
+Theorem: The set of all finite subsets of the natural numbers is countable.
+The elements of any finite subset can be ordered into a finite sequence. There are only countably many finite sequences, so also there are only countably many finite subsets.
+The following theorem gives equivalent formulations in terms of a bijective function or a surjective function. A proof of this result can be found in Lang's text.
+(Basic) Theorem: Let "S" be a set. The following statements are equivalent:
+Corollary: Let "S" and "T" be sets.
+Cantor's theorem asserts that if "A" is a set and "P"("A") is its power set, i.e. the set of all subsets of "A", then there is no surjective function from "A" to "P"("A"). A proof is given in the article Cantor's theorem. As an immediate consequence of this and the Basic Theorem above we have:
+Proposition: The set "P"(N) is not countable; i.e. it is uncountable.
+For an elaboration of this result see Cantor's diagonal argument.
+The set of real numbers is uncountable (see Cantor's first uncountability proof), and so is the set of all infinite sequences of natural numbers.
+Some technical details.
+The proofs of the statements in the above section rely upon the existence of functions with certain properties. This section presents functions commonly used in this role, but not the verifications that these functions have the required properties. The Basic Theorem and its Corollary are often used to simplify proofs. Observe that in that theorem can be replaced with any countably infinite set.
+Proposition: Any finite set is countable.
+Proof: Let be such a set. Two cases are to be considered: Either is empty or it isn't. 1.) The empty set is even itself a subset of the natural numbers, so it is countable. 2.) If is nonempty and finite, then by definition of finiteness there is a bijection between and the set {1, 2, ..., } for some positive natural number . This function is an injection from into .
+Proposition: Any subset of a countable set is countable.
+Proof: The restriction of an injective function to a subset of its domain is still injective.
+Proposition: If is a countable set then } is countable.
+Proof: If there is nothing to be shown. Otherwise let be an injection. Define by and 
+ for all in . This function is an injection.
+Proposition: If and are countable sets then is countable.
+Proof: Let and be injections. Define a new injection by if is in and if is in but not in .
+Proposition: The Cartesian product of two countable sets and is countable.
+Proof: Observe that is countable as a consequence of the definition because the function given by is injective. It then follows from the Basic Theorem and the Corollary that the Cartesian product of any two countable sets is countable. This follows because if and are countable there are surjections and . So
+is a surjection from the countable set to the set and the Corollary implies is countable. This result generalizes to the Cartesian product of any finite collection of countable sets and the proof follows by induction on the number of sets in the collection.
+Proposition: The integers are countable and the rational numbers are countable.
+Proof: The integers are countable because the function given by if is non-negative and if is negative, is an injective function. The rational numbers are countable because the function given by is a surjection from the countable set to the rationals .
+Proposition: The algebraic numbers are countable.
+Proof: Per definition, every algebraic number (including complex numbers) is a root of a polynomial with integer coefficients. Given an algebraic number formula_4, let formula_5 be a polynomial with integer coefficients such that formula_4 is the "k"th root of the polynomial, where the roots are sorted by absolute value from small to big, then sorted by argument from small to big. We can define an injection (i. e. one-to-one) function given by formula_7, while formula_8 is the "n"-th prime.
+Proposition: If is a countable set for each in then the union of all is also countable.
+Proof: This is a consequence of the fact that for each there is a surjective function and hence the function
+given by is a surjection. Since is countable, the Corollary implies that the union is countable. We use the axiom of countable choice in this proof to pick for each in a surjection from the non-empty collection of surjections from to .
+A topological proof for the uncountability of the real numbers is described at finite intersection property.
+Minimal model of set theory is countable.
+If there is a set that is a standard model (see inner model) of ZFC set theory, then there is a minimal standard model ("see" Constructible universe). The Löwenheim–Skolem theorem can be used to show that this minimal model is countable. The fact that the notion of "uncountability" makes sense even in this model, and in particular that this model "M" contains elements that are:
+was seen as paradoxical in the early days of set theory, see Skolem's paradox for more.
+The minimal standard model includes all the algebraic numbers and all effectively computable transcendental numbers, as well as many other kinds of numbers.
+Total orders.
+Countable sets can be totally ordered in various ways, for example:
+In both examples of well orders here, any subset has a "least element"; and in both examples of non-well orders, "some" subsets do not have a "least element".
+This is the key definition that determines whether a total order is also a well order.
+

@@ -1,0 +1,4 @@
+FreeOTFE is a free, open source, computer program used to automatically encrypt and decrypt information stored on a hard disk.
+FreeOTFE was originally written for Microsoft Windows and was later ported to Windows Mobile (FreeOTFE4PDA).
+It can encrypt information using a number algorithms including AES (aka Rijndael), Blowfish, CAST6, MARS, RC6, Serpent and Twofish
+Sarah Dean is the developer of FreeOTFE.

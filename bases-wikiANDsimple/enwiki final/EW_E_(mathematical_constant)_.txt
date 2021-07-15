@@ -1,0 +1,108 @@
+
+The number , also known as Euler's number, is a mathematical constant approximately equal to 2.71828, and can be characterized in many ways. It is the base of the natural logarithm. It is the limit of as approaches infinity, an expression that arises in the study of compound interest. It can also be calculated as the sum of the infinite series
+It is also the unique positive number such that the graph of the function has a slope of 1 at .
+The (natural) exponential function is the unique function which is equal to its own derivative, with the initial value (and hence one may define as ). The natural logarithm, or logarithm to base , is the inverse function to the natural exponential function. The natural logarithm of a number can be defined directly as the area under the curve between and , in which case is the value of for which this area equals one (see image). There are various other characterizations.
+ is sometimes called Euler's number, after the Swiss mathematician Leonhard Euler (not to be confused with , the Euler–Mascheroni constant, sometimes called simply "Euler's constant"), or Napier's constant. However, Euler's choice of the symbol is said to have been retained in his honor. The constant was discovered by the Swiss mathematician Jacob Bernoulli while studying compound interest.
+The number has eminent importance in mathematics, alongside 0, 1, , and . All five of these numbers play important and recurring roles across mathematics, and these five constants appear in one formulation of Euler's identity. Like the constant , is irrational (that is, it cannot be represented as a ratio of integers) and transcendental (that is, it is not a root of any non-zero polynomial with rational coefficients). To 50 decimal places the value of is:
+History.
+The first references to the constant were published in 1618 in the table of an appendix of a work on logarithms by John Napier. However, this did not contain the constant itself, but simply a list of logarithms calculated from the constant. It is assumed that the table was written by William Oughtred.
+The discovery of the constant itself is credited to Jacob Bernoulli in 1683, who attempted to find the value of the following expression (which is equal to ):
+The first known use of the constant, represented by the letter , was in correspondence from Gottfried Leibniz to Christiaan Huygens in 1690 and 1691. Leonhard Euler introduced the letter as the base for natural logarithms, writing in a letter to Christian Goldbach on 25 November 1731. Euler started to use the letter for the constant in 1727 or 1728, in an unpublished paper on explosive forces in cannons, while the first appearance of in a publication was in Euler's "Mechanica" (1736). Although some researchers used the letter in the subsequent years, the letter was more common and eventually became standard.
+In mathematics, the standard is to typeset the constant as "", in italics; the ISO 80000-2:2009 standard recommends typesetting constants in an upright style, but this has not been validated by the scientific community.
+Applications.
+Compound interest.
+Jacob Bernoulli discovered this constant in 1683, while studying a question about compound interest:
+If the interest is credited twice in the year, the interest rate for each 6 months will be 50%, so the initial $1 is multiplied by 1.5 twice, yielding at the end of the year. Compounding quarterly yields , and compounding monthly yields If there are compounding intervals, the interest for each interval will be and the value at the end of the year will be $1.00 × .
+Bernoulli noticed that this sequence approaches a limit (the force of interest) with larger and, thus, smaller compounding intervals. Compounding weekly () yields $2.692597..., while compounding daily () yields $2.714567... (approximately two cents more). The limit as grows large is the number that came to be known as . That is, with "continuous" compounding, the account value will reach $2.718281828...
+More generally, an account that starts at $1 and offers an annual interest rate of will, after years, yield dollars with continuous compounding.
+Bernoulli trials.
+The number itself also has applications in probability theory, in a way that is not obviously related to exponential growth. Suppose that a gambler plays a slot machine that pays out with a probability of one in and plays it times. Then, for large , the probability that the gambler will lose every bet is approximately . For , this is already approximately 1/2.79.
+This is an example of a Bernoulli trial process. Each time the gambler plays the slots, there is a one in "n" chance of winning. Playing "n" times is modeled by the binomial distribution, which is closely related to the binomial theorem and Pascal's triangle. The probability of winning times out of "n" trials is:
+In particular, the probability of winning zero times () is
+The limit of the above expression, as "n" tends to infinity, is precisely .
+Standard normal distribution.
+The normal distribution with zero mean and unit standard deviation is known as the "standard normal distribution", given by the probability density function
+The constraint of unit variance (and thus also unit standard deviation) results in the in the exponent, and the constraint of unit total area under the curve formula_6 results in the factor formula_7.[proof] This function is symmetric around , where it attains its maximum value formula_7, and has inflection points at .
+Derangements.
+Another application of , also discovered in part by Jacob Bernoulli along with Pierre Remond de Montmort, is in the problem of derangements, also known as the "hat check problem": guests are invited to a party, and at the door, the guests all check their hats with the butler, who in turn places the hats into boxes, each labelled with the name of one guest. But the butler has not asked the identities of the guests, and so he puts the hats into boxes selected at random. The problem of de Montmort is to find the probability that "none" of the hats gets put into the right box. This probability, denoted by formula_9, is:
+As the number of guests tends to infinity, approaches . Furthermore, the number of ways the hats can be placed into the boxes so that none of the hats are in the right box is (rounded to the nearest integer for every positive ).
+Optimal planning problems.
+A stick of length is broken into equal parts. The value of that maximizes the product of the lengths is then either
+The stated result follows because the maximum value of formula_13 occurs at formula_14 (Steiner's problem, discussed below). The quantity formula_13 is a measure of information gleaned from an event occurring with probability formula_16, so that essentially the same optimal division appears in optimal planning problems like the secretary problem.
+Asymptotics.
+The number occurs naturally in connection with many problems involving asymptotics. An example is Stirling's formula for the asymptotics of the factorial function, in which both the numbers and appear:
+As a consequence,
+In calculus.
+The principal motivation for introducing the number , particularly in calculus, is to perform differential and integral calculus with exponential functions and logarithms. A general exponential has a derivative, given by a limit:
+The parenthesized limit on the right is independent of the Its value turns out to be the logarithm of to base . Thus, when the value of is set this limit is equal and so one arrives at the following simple identity:
+Consequently, the exponential function with base is particularly suited to doing calculus. (as opposed to some other number as the base of the exponential function) makes calculations involving the derivatives much simpler.
+Another motivation comes from considering the derivative of the base- logarithm (i.e., ), for :
+where the substitution was made. The base- logarithm of is 1, if equals . So symbolically,
+The logarithm with this special base is called the natural logarithm, and is denoted as ; it behaves well under differentiation since there is no undetermined limit to carry through the calculations.
+Thus, there are two ways of selecting such special numbers . One way is to set the derivative of the exponential function equal to , and solve for . The other way is to set the derivative of the base logarithm to and solve for . In each case, one arrives at a convenient choice of base for doing calculus. It turns out that these two solutions for are actually "the same": the number .
+Alternative characterizations.
+Other characterizations of are also possible: one is as the limit of a sequence, another is as the sum of an infinite series, and still others rely on integral calculus. So far, the following two (equivalent) properties have been introduced:
+The following four characterizations can be proven to be equivalent:
+&lt;/math&gt;
+ | The number is the sum of the infinite series
+where is the factorial of . (By convention formula_26.)
+ | The number is the unique positive real number such that
+ | If is an exponential function, then the quantity formula_28 is a constant, sometimes called the time constant (it is the reciprocal of the exponential growth constant or decay constant). The time constant is the time it takes for the exponential function to increase by a factor of : formula_29.
+Properties.
+Calculus.
+As in the motivation, the exponential function is important in part because it is the unique nontrivial function that is its own derivative (up to multiplication by a constant):
+and therefore its own antiderivative as well:
+Inequalities.
+The number is the unique real number such that
+for all positive .
+Also, we have the inequality
+for all real , with equality if and only if . Furthermore, is the unique base of the exponential for which the inequality holds for all . This is a limiting case of Bernoulli's inequality.
+Exponential-like functions.
+Steiner's problem asks to find the global maximum for the function
+This maximum occurs precisely at .
+The value of this maximum is 1.4446 6786 1009 7661 3365... (accurate to 20 decimal places).
+For proof, the inequality formula_35, from above, evaluated at formula_36 and simplifying gives formula_37. So formula_38 for all positive "x".
+Similarly, is where the global minimum occurs for the function
+defined for positive . More generally, for the function
+the global maximum for positive occurs at for any ; and the global minimum occurs at for any .
+The infinite tetration
+converges if and only if (or approximately between 0.0660 and 1.4447), due to a theorem of Leonhard Euler.
+Number theory.
+The real number is irrational. Euler proved this by showing that its simple continued fraction expansion is infinite. (See also Fourier's proof that is irrational.)
+Furthermore, by the Lindemann–Weierstrass theorem, is transcendental, meaning that it is not a solution of any non-constant polynomial equation with rational coefficients. It was the first number to be proved transcendental without having been specifically constructed for this purpose (compare with Liouville number); the proof was given by Charles Hermite in 1873.
+It is conjectured that is normal, meaning that when is expressed in any base the possible digits in that base are uniformly distributed (occur with equal probability in any sequence of given length).
+Complex numbers.
+The exponential function may be written as a Taylor series
+Because this series is convergent for every complex value of , it is commonly used to extend the definition of to the complex numbers. This, with the Taylor series for and, allows one to derive Euler's formula:
+which holds for every complex . The special case with is Euler's identity:
+from which it follows that, in the principal branch of the logarithm,
+Furthermore, using the laws for exponentiation,
+which is de Moivre's formula.
+The expression
+is sometimes referred to as .
+The expressions of and in terms of the exponential function can be deduced:
+Differential equations.
+The family of functions
+where is any real number, is the solution to the differential equation
+Representations.
+The number can be represented in a variety of ways: as an infinite series, an infinite product, a continued fraction, or a limit of a sequence. Two of these representations, often used in introductory calculus courses, are the limit
+given above, and the series
+obtained by evaluating at the above power series representation of .
+Less common is the continued fraction
+which written out looks like
+This continued fraction for converges three times as quickly:
+Many other series, sequence, continued fraction, and infinite product representations of have been proved.
+Stochastic representations.
+In addition to exact analytical expressions for representation of , there are stochastic techniques for estimating . One such approach begins with an infinite sequence of independent random variables , ..., drawn from the uniform distribution on [0, 1]. Let be the least number such that the sum of the first observations exceeds 1:
+Then the expected value of is : .
+Known digits.
+The number of known digits of has increased substantially during the last decades. This is due both to the increased performance of computers and to algorithmic improvements.
+Since around 2010, the proliferation of modern high-speed desktop computers has made it feasible for most amateurs to compute trillions of digits of within acceptable amounts of time. It currently has been calculated to 31,415,926,535,897 digits.
+In computer culture.
+During the emergence of internet culture, individuals and organizations sometimes paid homage to the number .
+In an early example, the computer scientist Donald Knuth let the version numbers of his program Metafont approach . The versions are 2, 2.7, 2.71, 2.718, and so forth.
+In another instance, the IPO filing for Google in 2004, rather than a typical round-number amount of money, the company announced its intention to raise 2,718,281,828 USD, which is billion dollars rounded to the nearest dollar.
+Google was also responsible for a billboard
+that appeared in the heart of Silicon Valley, and later in Cambridge, Massachusetts; Seattle, Washington; and Austin, Texas. It read "{first 10-digit prime found in consecutive digits of }.com". The first 10-digit prime in is 7427466391, which starts at the 99th digit. Solving this problem and visiting the advertised (now defunct) website led to an even more difficult problem to solve, which consisted in finding the fifth term in the sequence 7182818284, 8182845904, 8747135266, 7427466391. It turned out that the sequence consisted of 10-digit numbers found in consecutive digits of whose digits summed to 49. The fifth term in the sequence is 5966290435, which starts at the 127th digit. 
+Solving this second problem finally led to a Google Labs webpage where the visitor was invited to submit a résumé.
+

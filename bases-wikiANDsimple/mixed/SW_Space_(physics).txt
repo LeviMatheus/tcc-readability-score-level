@@ -1,0 +1,4 @@
+In a simple understanding space is something that we all know and that is measured in the three dimensions: length, width and height.
+In physics a definition of space is difficult, because it cannot be explained by something else, because there is nothing more fundamental known at present. Therefore the only definition that one uses is done by measurement. (The same is done with time and mass).
+The standard space interval, called a standard meter or simply meter, is defined as the distance traveled by light in a vacuum during a time interval of exactly 1/299,792,458 of a second.
+Before Einstein's work on relativistic physics, time and space were viewed as independent dimensions. Einstein's discoveries have shown that due to relativity of motion our space and time can be mathematically combined into one symmetric object — space-time.

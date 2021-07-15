@@ -1,0 +1,6 @@
+
+In telecommunication, a burst transmission or data burst is the broadcast of a relatively high-bandwidth transmission over a short period. 
+Burst transmission can be intentional, broadcasting a compressed message at a very high data signaling rate within a very short transmission time.
+In the 1980s, the term "data burst" (and "info burst") was used for a technique used by some United Kingdom and South African TV programmes to transmit large amounts of primarily textual information. They would display multiple pages of text in rapid succession, usually at the end of the programme; viewers would videotape it and then read it later by playing it back using the pause button after each page.
+Data bursts can occur naturally, such as when the download of data from the internet briefly experiences higher speeds. It can also occur in a computer network where data transmission is interrupted at intervals. Burst transmission enables communications between data terminal equipment (DTEs) and a data network operating at dissimilar data signaling rates.
+

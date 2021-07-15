@@ -1,0 +1,97 @@
+
+A finite difference is a mathematical expression of the form . If a finite difference is divided by , one gets a difference quotient. The approximation of derivatives by finite differences plays a central role in finite difference methods for the numerical solution of differential equations, especially boundary value problems.
+Certain recurrence relations can be written as difference equations by replacing iteration notation with finite differences.
+Today, the term "finite difference" is often taken as synonymous with finite difference approximations of derivatives, especially in the context of numerical methods. Finite difference approximations are finite difference quotients in the terminology employed above.
+Finite differences were introduced by Brook Taylor in 1715 and have also been studied as abstract self-standing mathematical objects in works by George Boole (1860), L. M. Milne-Thomson (1933), and (1939). Finite differences trace their origins back to one of Jost Bürgi's algorithms () and work by others including Isaac Newton. The formal calculus of finite differences can be viewed as an alternative to the calculus of infinitesimals.
+Basic types.
+Three basic types are commonly considered: "forward", "backward", and "central" finite differences.
+A forward difference is an expression of the form
+Depending on the application, the spacing may be variable or constant. When omitted, is taken to be 1: .
+A backward difference uses the function values at and , instead of the values at and :
+Finally, the central difference is given by
+Relation with derivatives.
+Finite difference is often used as an approximation of the derivative, typically in numerical differentiation.
+The derivative of a function at a point is defined by the limit.
+If has a fixed (non-zero) value instead of approaching zero, then the right-hand side of the above equation would be written
+Hence, the forward difference divided by approximates the derivative when is small. The error in this approximation can be derived from Taylor's theorem. Assuming that is differentiable, we have
+The same formula holds for the backward difference:
+However, the central (also called centered) difference yields a more accurate approximation. If is twice differentiable,
+The main problem with the central difference method, however, is that oscillating functions can yield zero derivative. If for odd, and for even, then if it is calculated with the central difference scheme. This is particularly troublesome if the domain of is discrete. See also Symmetric derivative
+Authors for whom finite differences mean finite difference approximations define the forward/backward/central differences as the quotients given in this section (instead of employing the definitions given in the previous section).
+Higher-order differences.
+In an analogous way, one can obtain finite difference approximations to higher order derivatives and differential operators. For example, by using the above central difference formula for and and applying a central difference formula for the derivative of at , we obtain the central difference approximation of the second derivative of :
+Similarly we can apply other differencing formulas in a recursive manner.
+More generally, the th order forward, backward, and central differences are given by, respectively,
+or for ,
+These equations use binomial coefficients after the summation sign shown as . Each row of Pascal's triangle provides the coefficient for each value of .
+Note that the central difference will, for odd , have multiplied by non-integers. This is often a problem because it amounts to changing the interval of discretization. The problem may be remedied taking the average of and .
+Forward differences applied to a sequence are sometimes called the binomial transform of the sequence, and have a number of interesting combinatorial properties. Forward differences may be evaluated using the Nörlund–Rice integral. The integral representation for these types of series is interesting, because the integral can often be evaluated using asymptotic expansion or saddle-point techniques; by contrast, the forward difference series can be extremely hard to evaluate numerically, because the binomial coefficients grow rapidly for large .
+The relationship of these higher-order differences with the respective derivatives is straightforward,
+Higher-order differences can also be used to construct better approximations. As mentioned above, the first-order difference approximates the first-order derivative up to a term of order . However, the combination
+approximates up to a term of order . This can be proven by expanding the above expression in Taylor series, or by using the calculus of finite differences, explained below.
+If necessary, the finite difference can be centered about any point by mixing forward, backward, and central differences.
+Arbitrarily sized kernels.
+Using linear algebra one can construct finite difference approximations which utilize an arbitrary number of points to the left and a (possibly different) number of points to the right of the evaluation point, for any order derivative. This involves solving a linear system such that the Taylor expansion of the sum of those points around the evaluation point best approximates the Taylor expansion of the desired derivative. Such formulas can be represented graphically on a hexagonal or diamond-shaped grid.
+This is useful for differentiating a function on a grid, where, as one approaches the edge of the grid, one must sample fewer and fewer points on one side.
+The details are outlined in these notes.
+The Finite Difference Coefficients Calculator constructs finite difference approximations for non-standard (and even non-integer) stencils given an arbitrary stencil and a desired derivative order.
+In differential equations.
+An important application of finite differences is in numerical analysis, especially in numerical differential equations, which aim at the numerical solution of ordinary and partial differential equations. The idea is to replace the derivatives appearing in the differential equation by finite differences that approximate them. The resulting methods are called finite difference methods.
+Common applications of the finite difference method are in computational science and engineering disciplines, such as thermal engineering, fluid mechanics, etc.
+Newton's series.
+The Newton series consists of the terms of the Newton forward difference equation, named after Isaac Newton; in essence, it is the Newton interpolation formula, first published in his "Principia Mathematica" in 1687, namely the discrete analog of the continuous Taylor expansion,
+which holds for any polynomial function and for many (but not all) analytic functions (It does not hold when is exponential type formula_20. This is easily seen, as the sine function vanishes at integer multiples of formula_20; the corresponding Newton series is identically zero, as all finite differences are zero in this case. Yet clearly, the sine function is not zero.). Here, the expression
+is the binomial coefficient, and
+is the "falling factorial" or "lower factorial", while the empty product is defined to be 1. In this particular case, there is an assumption of unit steps for the changes in the values of of the generalization below.
+Note the formal correspondence of this result to Taylor's theorem. Historically, this, as well as the Chu–Vandermonde identity, 
+(following from it, and corresponding to the binomial theorem), are included in the observations that matured to the system of umbral calculus.
+To illustrate how one may use Newton's formula in actual practice, consider the first few terms of doubling the Fibonacci sequence One can find a polynomial that reproduces these values, by first computing a difference table, and then substituting the differences that correspond to (underlined) into the formula as follows,
+For the case of nonuniform steps in the values of , Newton computes the divided differences,
+the series of products,
+and the resulting polynomial is the scalar product,
+In analysis with -adic numbers, Mahler's theorem states that the assumption that is a polynomial function can be weakened all the way to the assumption that is merely continuous.
+Carlson's theorem provides necessary and sufficient conditions for a Newton series to be unique, if it exists. However, a Newton series does not, in general, exist.
+The Newton series, together with the Stirling series and the Selberg series, is a special case of the general difference series, all of which are defined in terms of suitably scaled forward differences.
+In a compressed and slightly more general form and equidistant nodes the formula reads
+Calculus of finite differences.
+The forward difference can be considered as an operator, called the , which maps the function to . This operator amounts to
+where is the shift operator with step "h", defined by , and is the identity operator.
+The finite difference of higher orders can be defined in recursive manner as . Another equivalent definition is .
+The difference operator is a linear operator, as such it satisfies .
+It also satisfies a special Leibniz rule indicated above,
+. Similar statements hold for the backward and central differences.
+Formally applying the Taylor series with respect to , yields the formula
+where denotes the continuum derivative operator, mapping to its derivative . The expansion is valid when both sides act on analytic functions, for sufficiently small . Thus, , and formally inverting the exponential yields 
+This formula holds in the sense that both operators give the same result when applied to a polynomial.
+Even for analytic functions, the series on the right is not guaranteed to converge; it may be an asymptotic series. However, it can be used to obtain more accurate approximations for the derivative. For instance, retaining the first two terms of the series yields the second-order approximation to mentioned at the end of the section "Higher-order differences".
+The analogous formulas for the backward and central difference operators are
+The calculus of finite differences is related to the umbral calculus of combinatorics. This remarkably systematic correspondence is due to the identity of the commutators of the umbral quantities to their continuum analogs ( limits),
+A large number of formal differential relations of standard calculus involving 
+functions thus "map systematically to umbral finite-difference analogs" involving .
+For instance, the umbral analog of a monomial is a generalization of the above falling factorial (Pochhammer k-symbol), 
+so that 
+hence the above Newton interpolation formula (by matching coefficients in the expansion of an arbitrary function in such symbols), and so on.
+For example, the umbral sine is
+As in the continuum limit, the eigenfunction of also happens to be an exponential,
+and hence "Fourier sums of continuum functions are readily mapped to umbral Fourier sums faithfully", i.e., involving the same Fourier coefficients multiplying these umbral basis exponentials. This umbral exponential thus amounts to the exponential generating function of the Pochhammer symbols.
+Thus, for instance, the Dirac delta function maps to its umbral correspondent, the cardinal sine function,
+and so forth. Difference equations can often be solved with techniques very similar to those for solving differential equations.
+The inverse operator of the forward difference operator, so then the umbral integral, is the indefinite sum or antidifference operator.
+Rules for calculus of finite difference operators.
+Analogous to rules for finding the derivative, we have:
+All of the above rules apply equally well to any difference operator, including as to .
+See references.
+Multivariate finite differences.
+Finite differences can be considered in more than one variable. They are analogous to partial derivatives in several variables.
+Some partial derivative approximations are:
+Alternatively, for applications in which the computation of is the most costly step, and both first and second derivatives must be computed, a more efficient formula for the last case is
+since the only values to compute that are not already needed for the previous four equations are and .
+External links.
+[[Category:Finite differences| ]]
+[[Category:Numerical differential equations]]
+[[Category:Mathematical analysis]]
+[[Category:Factorial and binomial topics]]
+[[Category:Linear operators in calculus]]
+[[Category:Numerical analysis]]
+[[Category:Non-Newtonian calculus]]
+

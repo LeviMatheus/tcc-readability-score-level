@@ -1,0 +1,5 @@
+
+A 56 kbit/s line is a digital connection capable of carrying 56 kilobits per second (kbit/s), or 56,000 bit/s, the data rate of a classical single channel digital telephone line in North America. In many urban areas, which have seen wide deployment of faster, cheaper technologies, 56 kbit/s lines are generally considered to be an obsolete technology.
+Speed derivation.
+The figure of 56 kbit/s is derived from its implementation using the same digital infrastructure used since the 1960s for digital telephony in the public switched telephone network, which uses a sampling rate of 8,000 Hz for PCM audio with 8-bit audio bit depth to encode analogue signals into a digital stream of 64,000 bit/s. However, in the T-carrier systems used in the US and Canada, a technique called bit-robbing uses, in every sixth frame, the least significant bit for Channel Associated Signaling (CAS). This effectively renders the lowest bit of the 8 speech bits unusable for data transmission, and so a 56 kbit/s line uses only 7 of the 8 data bits in each sample period to send data, thus giving a data rate of .
+

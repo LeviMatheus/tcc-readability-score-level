@@ -1,0 +1,82 @@
+
+In Euclidean geometry, an affine transformation, or an affinity (from the Latin, "affinis", "connected with"), is a geometric transformation that preserves lines and parallelism (but not necessarily distances and angles).
+More generally, an "affine transformation" is an automorphism of an affine space (Euclidean spaces are specific affine spaces), that is, a function which maps an affine space onto itself while preserving both the dimension of any affine subspaces (meaning that it sends points to points, lines to lines, planes to planes, and so on) and the ratios of the lengths of parallel line segments. Consequently, sets of parallel affine subspaces remain parallel after an affine transformation. An affine transformation does not necessarily preserve angles between lines or distances between points, though it does preserve ratios of distances between points lying on a straight line.
+If is the point set of an affine space, then every affine transformation on can be represented as the composition of a linear transformation on and a translation of . Unlike a purely linear transformation, an affine transformation need not preserve the origin of the affine space. Thus, every linear transformation is affine, but not every affine transformation is linear.
+Examples of affine transformations include translation, scaling, homothety, similarity, reflection, rotation, shear mapping, and compositions of them in any combination and sequence.
+Viewing an affine space as the complement of a hyperplane at infinity of a projective space, the affine transformations are the projective transformations of that projective space that leave the hyperplane at infinity invariant, restricted to the complement of that hyperplane.
+A generalization of an affine transformation is an affine map (or affine homomorphism or affine mapping) between two (potentially different) affine spaces over the same field . Let and be two affine spaces with and the point sets and and the respective associated vector spaces over the field . A map is an affine map if there exists a linear map such that for all in .
+Definition.
+Let be an affine space of dimension at least two, with the point set and the associated vector space over the field . A "semiaffine transformation" of is a bijection of onto itself satisfying:
+These two conditions express what is precisely meant by the expression that " preserves parallelism".
+These conditions are not independent as the second follows from the first. Furthermore, if the field has at least three elements, the first condition can be simplified to: is a collineation, that is, it maps lines to lines.
+If the dimension of the affine space is at least two, then an affine transformation is a semiaffine transformation that satisfies the condition: If and are points of such that the line segments and are parallel, then
+Affine lines.
+If the dimension of the affine space is one, that is, the space is an affine line, then any permutation of would automatically satisfy the conditions to be a semiaffine transform. So, an affine transformation of an affine line is "defined" as any permutation of the points of such that if and are points of , then
+Structure.
+By the definition of an affine space, acts on , so that, for every pair in there is associated a point in . We can denote this action by . Here we use the convention that are two interchangeable notations for an element of . By fixing a point in one can define a function by . For any , this function is one-to-one, and so, has an inverse function given by . These functions can be used to turn into a vector space (with respect to the point ) by defining:
+This vector space has origin and formally needs to be distinguished from the affine space , but common practice is to denote it by the same symbol and mention that it is a vector space "after" an origin has been specified. This identification permits points to be viewed as vectors and vice versa.
+For any linear transformation of , we can define the function by
+Then is an affine transformation of which leaves the point fixed. It is a linear transformation of , viewed as a vector space with origin .
+Let be any affine transformation of . Pick a point in and consider the translation of by the vector formula_6, denoted by . Translations are affine transformations and the composition of affine transformations is an affine transformation. For this choice of , there exists a unique linear transformation of such that 
+That is, an arbitrary affine transformation of is the composition of a linear transformation of (viewed as a vector space) and a translation of .
+This representation of affine transformations is often taken as the definition of an affine transformation (with the choice of origin being implicit).
+Representation.
+As shown above, an affine map is the composition of two functions: a translation and a linear map. Ordinary vector algebra uses matrix multiplication to represent linear maps, and vector addition to represent translations. Formally, in the finite-dimensional case, if the linear map is represented as a multiplication by an invertible matrix formula_8 and the translation as the addition of a vector formula_9, an affine map formula_10 acting on a vector formula_11 can be represented as
+Augmented matrix.
+Using an augmented matrix and an augmented vector, it is possible to represent both the translation and the linear map using a single matrix multiplication. The technique requires that all vectors be augmented with a "1" at the end, and all matrices be augmented with an extra row of zeros at the bottom, an extra column—the translation vector—to the right, and a "1" in the lower right corner. If formula_8 is a matrix,
+is equivalent to the following
+The above-mentioned augmented matrix is called an "affine transformation matrix". In the general case, when the last row vector is not restricted to be formula_16, the matrix becomes a "projective transformation matrix" (as it can also be used to perform projective transformations).
+This representation exhibits the set of all invertible affine transformations as the semidirect product of formula_17 and formula_18. This is a group under the operation of composition of functions, called the affine group.
+Ordinary matrix-vector multiplication always maps the origin to the origin, and could therefore never represent a translation, in which the origin must necessarily be mapped to some other point. By appending the additional coordinate "1" to every vector, one essentially considers the space to be mapped as a subset of a space with an additional dimension. In that space, the original space occupies the subset in which the additional coordinate is 1. Thus the origin of the original space can be found at formula_19. A translation within the original space by means of a linear transformation of the higher-dimensional space is then possible (specifically, a shear transformation). The coordinates in the higher-dimensional space are an example of homogeneous coordinates. If the original space is Euclidean, the higher dimensional space is a real projective space.
+The advantage of using homogeneous coordinates is that one can combine any number of affine transformations into one by multiplying the respective matrices. This property is used extensively in computer graphics, computer vision and robotics.
+Example augmented matrix.
+If the vectors formula_20 are a basis of the domain's projective vector space and if formula_21 are the corresponding vectors in the codomain vector space then the augmented matrix formula_22 that achieves this affine transformation
+is
+This formulation works irrespective of whether any of the domain, codomain and image vector spaces have the same number of dimensions.
+For example, the affine transformation of a vector plane is uniquely determined from the knowledge of where the three vertices (formula_25) of a non-degenerate triangle are mapped to (formula_26), regardless of the number of dimensions of the codomain and regardless of whether the triangle is non-degenerate in the codomain.
+Properties.
+Properties preserved.
+An affine transformation preserves:
+Groups.
+An affine transformation is invertible, therefore formula_8 is invertible. In the matrix representation, the inverse is:
+The invertible affine transformations (of an affine space onto itself) form the affine group, which has the general linear group of degree formula_37 as subgroup and is itself a subgroup of the general linear group of degree formula_38.
+The similarity transformations form the subgroup where formula_8 is a scalar times an orthogonal matrix. For example, if the affine transformation acts on the plane and if the determinant of formula_8 is 1 or −1 then the transformation is an equiareal mapping. Such transformations form a subgroup called the "equi-affine group". A transformation that is both equi-affine and a similarity is an isometry of the plane taken with Euclidean distance.
+Each of these groups has a subgroup of "orientation-preserving" or "positive" affine transformations: those where the determinant of formula_8 is positive. In the last case this is in 3D the group of rigid transformations (proper rotations and pure translations).
+If there is a fixed point, we can take that as the origin, and the affine transformation reduces to a linear transformation. This may make it easier to classify and understand the transformation. For example, describing a transformation as a rotation by a certain angle with respect to a certain axis may give a clearer idea of the overall behavior of the transformation than describing it as a combination of a translation and a rotation. However, this depends on application and context.
+Affine maps.
+An affine map formula_42 between two affine spaces is a map on the points that acts linearly on the vectors (that is, the vectors between points of the space). In symbols, "formula_10" determines a linear transformation "formula_44" such that, for any pair of points formula_45:
+or
+We can interpret this definition in a few other ways, as follows.
+If an origin formula_48 is chosen, and formula_49 denotes its image formula_50, then this means that for any vector formula_51:
+If an origin formula_53 is also chosen, this can be decomposed as an affine transformation formula_54 that sends formula_55, namely
+followed by the translation by a vector formula_57.
+The conclusion is that, intuitively, formula_10 consists of a translation and a linear map.
+Alternative definition.
+Given two affine spaces formula_59 and formula_60, over the same field, a function formula_61 is an affine map if and only if for every family formula_62 of weighted points in formula_59 such that 
+we have
+In other words, formula_10 preserves barycenters.
+History.
+The word "affine" as a mathematical term is defined in connection with tangents to curves in Euler's 1748 Introductio in analysin infinitorum. Felix Klein attributes the term "affine transformation" to Möbius and Gauss.
+Image transformation.
+In their applications to digital image processing, the affine transformations are analogous to printing on a sheet of rubber and stretching the sheet's edges parallel to the plane. This transform relocates pixels requiring intensity interpolation to approximate the value of moved pixels, bicubic interpolation is the standard for image transformations in image processing applications. Affine transformations scale, rotate, translate, mirror and shear images as shown in the following examples:
+The affine transforms are applicable to the registration process where two or more images are aligned (registered). An example of image registration is the generation of panoramic images that are the product of multiple images stitched together.
+Affine warping.
+The affine transform preserves parallel lines. However, the stretching and shearing transformations warp shapes, as the following example shows:
+This is an example of image warping. However, the affine transformations do not facilitate projection onto a curved surface or radial distortions.
+In the plane.
+Affine transformations in two real dimensions include:
+To visualise the general affine transformation of the Euclidean plane, take labelled parallelograms "ABCD" and "A′B′C′D′". Whatever the choices of points, there is an affine transformation "T" of the plane taking "A" to "A′", and each vertex similarly. Supposing we exclude the degenerate case where "ABCD" has zero area, there is a unique such affine transformation "T". Drawing out a whole grid of parallelograms based on "ABCD", the image "T"("P") of any point "P" is determined by noting that "T"("A") = "A′", "T" applied to the line segment "AB" is "A′B′", "T" applied to the line segment "AC" is "A′C′", and "T" respects scalar multiples of vectors based at "A". [If "A", "E", "F" are collinear then the ratio length("AF")/length("AE") is equal to length("A"′"F"′)/length("A"′"E"′).] Geometrically "T" transforms the grid based on "ABCD" to that based in "A′B′C′D′".
+Affine transformations do not respect lengths or angles; they multiply area by a constant factor
+A given "T" may either be "direct" (respect orientation), or "indirect" (reverse orientation), and this may be determined by its effect on "signed" areas (as defined, for example, by the cross product of vectors).
+Examples.
+Over the real numbers.
+The functions formula_67 with formula_68 and formula_69 in formula_70, are precisely the affine transformations of the real line.
+Over a finite field.
+The following equation expresses an affine transformation of GF(28) viewed as an 8-dimensional vector space over GF(2), that is used in the crypto-algorithm Rijndael (AES):
+For instance, the affine transformation of the element formula_72 in big-endian binary notation is calculated as follows:
+Thus, formula_81.
+In plane geometry.
+In formula_82, the transformation shown at left is accomplished using the map given by:
+Transforming the three corner points of the original triangle (in red) gives three new points which form the new triangle (in blue). This transformation skews and translates the original triangle.
+In fact, all triangles are related to one another by affine transformations. This is also true for all parallelograms, but not for all quadrilaterals.
+

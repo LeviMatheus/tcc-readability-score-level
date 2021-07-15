@@ -1,0 +1,4 @@
+The lift force, lifting force or simply lift is the sum of all the forces on a body that force him to move upwards (or to be exact for the case of "negative lift": vertical).
+The most common type of lift is that of a wing of an aircraft. But there are many other common uses such as propellers on both aircraft and boats, rotors on helicopters, fan blades, sails on sailboats and even some kinds of wind turbines.
+While the common meaning of the term "lift" suggests an "upwards" action, in fact, the direction of lift (and its definition) does not depend on the meaning of "up" and "down". Specifically, the term negative lift means the lift force directed "down".
+There are a number of ways of explaining the production of lift, all of which are equivalent. That is, there are different expressions of the same underlying physical principles.

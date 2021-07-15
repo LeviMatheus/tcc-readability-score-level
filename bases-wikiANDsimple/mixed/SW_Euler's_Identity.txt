@@ -1,0 +1,7 @@
+Euler's Identity, sometimes called Euler's Equation, is a simple equation that links several important numbers in mathematics in an unexpected way. Euler's identity is named after the Swiss mathematician Leonhard Euler.
+Euler's identity is the equation formula_1.
+The special numbers in Euler's Identity, are
+Reputation.
+A reader poll done by Physics World in 2004 called Euler's identity the "greatest equation ever", together with Maxwell's equations. Richard Feynman called Euler's identity "the most beautiful equation". The Identity is well-known for its mathematical beauty; that is, the equation is very pretty and pleasing to the eye. Some say this is because it is simple, and others because it uses many basic mathematical elements.
+Mathematical Proof using Euler's Formula.
+Euler's Formula is the equation formula_11. Our variable formula_12 can be any real number, but for this proof formula_13. Then formula_14. Since formula_15 and formula_16, the equation can be changed to read formula_17, which gives the identity formula_1.

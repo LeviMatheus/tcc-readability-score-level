@@ -1,0 +1,6 @@
+Euclidean geometry is a system in mathematics. People think Euclid was the first person who described it. Therefore it bears his name. He first described it in his textbook Elements. The book was the first systematic discussion of geometryat it was known at the time. In the book, Euclid first assumes a few axioms. These form the base for later work. They are intuitively clear. Starting from those axioms, other theorems can be proven.
+In the 19th century other forms of geometry were found. These are non-Euclidean. Carl Friedrich Gauss, János Bolyai, and Nikolai Ivanovich Lobachevsky were some people that developed such geometries.
+The axioms.
+Euclid makes the following assumptions. These are axioms, and need not be proved.
+Status.
+Euclidean geometry is a first-order theory. With it, statements like "For all triangles..." can be made, and be proven. Statements like "For all sets of triangles..." are outside the scope of the theory.

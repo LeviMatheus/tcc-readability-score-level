@@ -1,0 +1,21 @@
+
+
+
+In mathematics, a set "A" is a subset of a set "B" if all elements of "A" are also elements of "B"; "B" is then a superset of "A". It is possible for "A" and "B" to be equal; if they are unequal, then "A" is a proper subset of "B". The relationship of one set being a subset of another is called inclusion (or sometimes containment). "A" is a subset of "B" may also be expressed as "B" includes (or contains) "A" or "A" is included (or contained) in "B".
+The subset relation defines a partial order on sets. In fact, the subsets of a given set form a Boolean algebra under the subset relation, in which the join and meet are given by intersection and union, and the subset relation itself is the Boolean inclusion relation.
+Definitions.
+If "A" and "B" are sets and every element of "A" is also an element of "B", then:
+If "A" is a subset of "B", but "A" is not equal to "B" (i.e. there exists at least one element of B which is not an element of "A"), then: 
+For any set "S", the inclusion relation ⊆ is a partial order on the set formula_7 (the power set of "S"—the set of all subsets of "S") defined by formula_8. We may also partially order formula_7 by reverse set inclusion by defining formula_10
+When quantified, is represented as .
+We can prove the statement by applying a proof technique known as the element argument:Let sets "A" and "B" be given. To prove that ,
+The validity of this technique can be seen as a consequence of Universal generalization: the technique shows for an arbitrarily chosen element "c". Universal generalisation then implies , which is equivalent to , as stated above.
+⊂ and ⊃ symbols.
+Some authors use the symbols ⊂ and ⊃ to indicate "subset" and "superset" respectively; that is, with the same meaning and instead of the symbols, ⊆ and ⊇. For example, for these authors, it is true of every set "A" that .
+Other authors prefer to use the symbols ⊂ and ⊃ to indicate "proper" (also called strict) subset and "proper" superset respectively; that is, with the same meaning and instead of the symbols, ⊊ and ⊋. This usage makes ⊆ and ⊂ analogous to the inequality symbols ≤ and &lt;. For example, if , then "x" may or may not equal "y", but if , then "x" definitely does not equal "y", and "is" less than "y". Similarly, using the convention that ⊂ is proper subset, if , then "A" may or may not equal "B", but if , then "A" definitely does not equal "B".
+Examples of subsets.
+Another example in an Euler diagram:
+Other properties of inclusion.
+Inclusion is the canonical partial order, in the sense that every partially ordered set ("X", formula_14) is isomorphic to some collection of sets ordered by inclusion. The ordinal numbers are a simple example: if each ordinal "n" is identified with the set ["n"] of all ordinals less than or equal to "n", then "a" ≤ "b" if and only if ["a"] ⊆ ["b"].
+For the power set formula_7 of a set "S", the inclusion partial order is—up to an order isomorphism—the Cartesian product of "k" = |"S"| (the cardinality of "S") copies of the partial order on {0,1} for which 0 &lt; 1. This can be illustrated by enumerating "S" = {"s"1, "s"2, ..., "s""k"}, and associating with each subset "T" ⊆ "S" (i.e., each element of 2"S") the "k"-tuple from {0,1}"k", of which the "i"th coordinate is 1 if and only if "s""i" is a member of "T".
+

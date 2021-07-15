@@ -1,0 +1,4 @@
+
+Double-sideband reduced carrier transmission (DSB-RC): transmission in which (a) the frequencies produced by amplitude modulation are symmetrically spaced above and below the carrier and (b) the carrier level is reduced for transmission at a fixed level below that which is provided to the modulator. 
+"Note:" In DSB-RC transmission, the carrier is usually transmitted at a level suitable for use as a reference by the receiver, except for the case in which it is reduced to the minimum practical level, i.e. the carrier is suppressed.
+

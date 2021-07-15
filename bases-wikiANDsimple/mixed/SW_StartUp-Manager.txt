@@ -1,0 +1,2 @@
+StartUp-Manager is a program to configure GRUB, Splash and Splashy.
+It was originally an Ubuntu project, but was later adapted to Debian.

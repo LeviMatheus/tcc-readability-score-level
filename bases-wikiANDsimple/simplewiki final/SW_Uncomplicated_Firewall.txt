@@ -1,0 +1,3 @@
+Uncomplicated Firewall is a firewall for host-based iptables firewall configuration.
+Graphical interface.
+A graphical user interface exists, called "GUI for Uncomplicated Firewall"

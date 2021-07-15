@@ -1,0 +1,34 @@
+
+The American Registry for Internet Numbers (ARIN) is the regional Internet registry for Canada, the United States, and many Caribbean and North Atlantic islands. ARIN manages the distribution of Internet number resources, including IPv4 and IPv6 address space and AS numbers. ARIN opened for business on December 22, 1997 after incorporating on April 18, 1997. ARIN is a nonprofit corporation with headquarters in Chantilly, Virginia, United States.
+ARIN is one of five regional Internet registries in the world. Like the other regional Internet registries, ARIN:
+Services.
+ARIN provides services related to the technical coordination and management of Internet number resources. The nature of these services is described in ARIN's mission statement:
+These services are grouped in three areas: Registration, Organization, and Policy Development.
+Registration services.
+Registration services pertain to the technical coordination and inventory management of Internet number resources. Services include:
+For information on requesting Internet number resources from ARIN, see https://www.arin.net/resources/index.html. This section includes the request templates, specific distribution policies, and guidelines for requesting and managing Internet number resources.
+Organization services.
+Organization services pertain to interaction between stakeholders, ARIN members, and ARIN. Services include:
+Policy development services.
+Policy development services facilitate the development of policy for the technical coordination and management of Internet number resources.
+All ARIN policies are set by the community. Everyone is encouraged to participate in the policy development process at public policy meetings and on the Public Policy Mailing List. The ARIN Board of Trustees ratifies policies only after:
+Membership is not required to participate in ARIN's policy development process or to apply for Internet number resources.
+Services include:
+Organizational structure.
+ARIN consists of the Internet community within its region, its members, a 7-member Board of Trustees, a 15-member Advisory Council, and a professional staff of about 50. The board of trustees and Advisory Council are elected by ARIN members for three-year terms.
+Board of trustees.
+The ARIN membership elects the Board of Trustees (BoT), which has ultimate responsibility for the business affairs and financial health of ARIN, and manages ARIN's operations in a manner consistent with the guidance received from the Advisory Council and the goals set by the registry's members. The BoT is responsible for determining the disposition of all revenues received to ensure all services are provided in an equitable manner. The BoT ratifies proposals generated from the membership and submitted through the Advisory Council. Executive decisions are carried out following approval by the BoT. The BoT consists of 7 members consisting of a President and CEO, a chairman, a Treasurer, and others.
+Advisory council.
+In addition to the BoT, ARIN has an advisory council that advises ARIN and the BoT on IP address allocation policy and related matters. Adhering to the procedures in the Internet Resource Policy Evaluation Process, the advisory council forwards consensus-based policy proposals to the BoT for ratification. The advisory council consists of 15 elected members consisting of a chair, Vice Chair, and others.
+History.
+The organization was formed in December 1997 to "provide IP registration services as an independent, nonprofit corporation." Until this time, IP address registration (outside of RIPE and APNIC regions) was done in accordance with policies set by the IETF by Network Solutions corporation as part of the InterNIC project. The National Science Foundation approved the plan for the creation of the not-for-profit organization to "give the users of IP numbers (mostly Internet service providers, corporations and other large institutions) a voice in the policies by which they are managed and allocated within the North American region.". As part of the transition, Network Solutions corporation transitioned these tasks as well as initial staff and computer infrastructure to ARIN.
+The initial Board of Trustees consisted of Scott Bradner, John Curran, Kim Hubbard, Don Telage, Randy Bush, Raymundo Vega Aguilar, and Jon Postel (IANA) as an ex-officio member.
+The first president of ARIN was Kim Hubbard, from 1997 until 2000. Kim was succeeded by Raymond "Ray" Plzak until the end of 2008. Trustee John Curran was acting president until July 1 of 2009 when he assumed the CEO role permanently.
+Until late 2002 it served Mexico, Central America, South America and all of the Caribbean. LACNIC now handles parts of the Caribbean, Mexico, Central America, and South America. Also, Sub-Saharan Africa was part of its region until April 2005, when AfriNIC was officially recognized by ICANN as the fifth regional Internet registry.
+On 24 September 2015 ARIN has declared exhaustion of the ARIN IPv4 addresses pool.
+Service region.
+The countries in the ARIN service region are:
+Former service regions.
+ARIN formerly covered Angola, Botswana, Burundi, Republic of Congo, Democratic Republic of Congo, Lesotho, Malawi, Mozambique, Namibia, Rwanda, South Africa, Swaziland, Tanzania, Zambia, and Zimbabwe until AfriNIC was formed.
+ARIN formerly covered Argentina, Aruba, Belize, Bolivia, Brazil, Chile, Colombia, Costa Rica, Cuba, Dominican Republic, Dutch West Indies, Ecuador, El Salvador, Falkland Islands (UK), French Guiana, Guatemala, Guyana, Haiti, Honduras, Mexico, Nicaragua, Panama, Paraguay, Peru, South Georgia and the South Sandwich Islands, Suriname, Trinidad and Tobago, Uruguay, and Venezuela until LACNIC was formed.
+

@@ -1,0 +1,2 @@
+Mainframes (often nicknamed big iron) are large and expensive computers used mainly by government institutions and large companies for things like data processing, industry and consumer statistics, and financial transaction processing.
+The term was first used during the early 1970s after the introduction of smaller, easier-to-use systems such as DEC's PDP-8 and PDP-11 series. The DEC computers were soon called minicomputers (minis for short). The name "mainframe" was used for larger, earlier types of computers.

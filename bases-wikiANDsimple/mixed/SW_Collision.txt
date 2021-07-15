@@ -1,0 +1,10 @@
+A collision occurs when two objects come in contact with each other. All collisions have the same momentum before and after a collision. Examples of collisions include car crashes, bouncing a ball, and playing pool. Collisions are made from two smaller sections called elastic and inelastic collisions.
+Elastic Collisions.
+In the case of playing pool or bouncing a ball, an elastic collision occurs. An elastic collision generally occurs when an elastic or hard object experiences a collision that bounces off another elastic or hard object, where the kinetic energy and momentum are the same before and after the collision. In an experiment, a small amount of energy will still be lost because of the friction between the surface and the objects.
+Inelastic Collisions.
+In the case of a car crash, an inelastic collision occurs. An inelastic collision generally occurs when a soft object experiences a collision that does not result in a bounce. Kinetic energy is lost during this type of collision because the energy is transformed into other forces. The momentum is the same before and after the collision.
+Two Dimensional Collisions.
+In the case of a two dimensional collision, the rules in elastic and inelastic collision are still the same, but vectors are used to find the momentum before or after a collision.
+Sources.
+Duncan, Tom. "Advanced Physics for Hong Kong: Volume 1 Mechanics & Electricity". John Murray Ltd, 1995.
+Wai, Loo Kwok. "Longman A-Level Course in Physics: Volume 1". Pearson Education South Asia Pte Ltd, 2003.

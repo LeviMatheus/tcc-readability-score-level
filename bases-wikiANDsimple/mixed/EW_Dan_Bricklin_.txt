@@ -1,0 +1,33 @@
+
+Daniel Singer Bricklin (born on July 16, 1951) is an American businessman and engineer who is the co-creator, with Bob Frankston, of the VisiCalc spreadsheet program. He also founded Software Garden, Inc., of which he is currently president, and Trellix Corporation. He currently serves as the chief technology officer of Alpha Software.
+His book, "Bricklin on Technology", was published by Wiley in May 2009. For his work with VisiCalc, Bricklin is often referred to as “the father of the Spreadsheet.”
+Early life and education.
+Bricklin was born in a Jewish family in Philadelphia, where he attended Akiba Hebrew Academy. He began his college as a mathematics major, but soon switched to computer science. He earned a Bachelor of Science in electrical engineering and computer science from the Massachusetts Institute of Technology in 1973, where he was a resident of Bexley Hall.
+Upon graduating from MIT, Bricklin worked for Digital Equipment Corporation (DEC) where he was part of the team that worked on WPS-8 until 1976, when he began working for FasFax, a cash register manufacturer. In 1977, he returned to education, and was awarded a Master of Business Administration from Harvard University in 1979.
+While a student at Harvard Business School, Bricklin co-developed VisiCalc in 1979, making it the first electronic spreadsheet readily available for home and office use. It ran on an Apple II computer, and was considered a fourth generation software program. VisiCalc is widely credited for fueling the rapid growth of the personal computer industry. Instead of doing financial projections with manually calculated spreadsheets, and having to recalculate with every single cell in the sheet, VisiCalc allowed the user to change any cell, and have the entire sheet automatically recalculated. This could turn 20 hours of work into 15 minutes and allowed for more creativity.
+Career.
+Software Arts.
+In 1979, Bricklin and Frankston founded Software Arts, Inc., and began selling VisiCalc, via a separate company named VisiCorp. Along with co-founder Bob Frankston, he started writing versions of the program for the Tandy TRS-80, Commodore PET and the Atari 800. Soon after its launch, VisiCalc became a fast seller at $100.
+Software Arts also published TK/Solver and "and "Spotlight","a desktop organizer for the I.B.M. Personal Computer."
+Bricklin was awarded the Grace Murray Hopper Award in 1981 for VisiCalc. Bricklin could not patent VisiCalc, since software programs were not eligible for patent protection at the time.
+Bricklin was chairman of Software Arts until 1985, the year that Software Arts was acquired by Lotus. He left and founded Software Garden.
+Software Garden.
+Dan Bricklin founded Software Garden, a small consulting firm and developer of software applications, in 1985. The company's focus was to produce and market “Dan Bricklin's Demo Program”. The program allowed users to create demonstrations of their programs before they were even written, and was also used to create tutorials for Windows-based programs. Other versions released soon after included demo-it!. He remained the president of the company until he co-founded Slate Corporation in 1990. In 1992, he became the vice president of Phoenix-based Slate corporation, and developed "At Hand", a pen-based spreadsheet. When Slate closed in 1994, Bricklin returned to Software Garden.
+His "Dan Bricklin's Overall Viewer" (described by "The New York Times" as "a visual way to display information in Windows-based software") was released in November 1994.
+Corporation.
+In 1995 Bricklin founded Trellix Corporation, named for "Trellix Site Builder".
+Trellix was bought by Interland (now Web.com) in 2003, and Bricklin became Interland's chief technology officer until early 2004.
+Current work.
+Bricklin continues to serve as president of Software Garden, a small company that develops and markets software tools he creates, as well as providing speaking and consulting services.
+He has released Note Taker HD, an application that integrates handwritten notes on the Apple iPad tablet.
+He is also developing wikiCalc, a collaborative, basic spreadsheet running on the Web.
+He is currently the chief technology officer of Alpha Software in Burlington, Massachusetts, a company that creates tools to easily develop cross-platform mobile business applications.
+Affiliations.
+In 1994, Bricklin was inducted as a Fellow of the Association for Computing Machinery. He is a founding trustee of the Massachusetts Technology Leadership Council and has served on the boards of the Software Publishers Association and the Boston Computer Society. He was also elected to be a member of the National Academy of Engineering.
+Awards.
+In 1981, Bricklin was given a Grace Murray Hopper Award for VisiCalc.
+In 1996, Bricklin was awarded by the IEEE Computer Society with the Computer Entrepreneur Award for pioneering the development and commercialization of the spreadsheet and the profound changes it fostered in business and industry.
+In 2003, Bricklin was given the Wharton Infosys Business Transformation Award for being a technology change leader. He was recognized for having used information technology in an industry-transforming way. He has received an Honorary Doctor of Humane Letters from Newbury College.
+In 2004, he was made a Fellow of the Computer History Museum "for advancing the utility of personal computers by developing the VisiCalc electronic spreadsheet."
+Bricklin:
+

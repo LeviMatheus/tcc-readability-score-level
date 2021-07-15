@@ -1,0 +1,82 @@
+
+In vector calculus, the curl is a vector operator that describes the infinitesimal circulation of a vector field in three-dimensional Euclidean space. The curl at a point in the field is represented by a vector whose length and direction denote the magnitude and axis of the maximum circulation. The curl of a field is formally defined as the circulation density at each point of the field.
+A vector field whose curl is zero is called irrotational. The curl is a form of differentiation for vector fields. The corresponding form of the fundamental theorem of calculus is Stokes' theorem, which relates the surface integral of the curl of a vector field to the line integral of the vector field around the boundary curve.
+The alternative terminology "rotation" or "rotational" and alternative notations or the cross product with the del (nabla) operator are sometimes used for . The ISO/IEC 80000-2 standard recommends the use of the notation in boldface as opposed to the notation.
+Unlike the gradient and divergence, curl does not generalize as simply to other dimensions; some generalizations are possible, but only in three dimensions is the geometrically defined curl of a vector field again a vector field. This is a phenomenon similar to the 3-dimensional cross product, and the connection is reflected in the notation for the curl.
+The name "curl" was first suggested by James Clerk Maxwell in 1871 but the concept was apparently first used in the construction of an optical field theory by James MacCullagh in 1839.
+Definition.
+&lt;/math&gt;.
+&lt;/math&gt; and the fingers curl along the orientation of 
+The curl of a vector field , denoted by , or , or , at a point is defined in terms of its projection onto various lines through the point. If formula_1 is any unit vector, the projection of the curl of onto formula_1 is defined to be the limiting value of a closed line integral in a plane orthogonal to formula_1 divided by the area enclosed, as the path of integration is contracted around the point.
+The curl operator maps continuously differentiable functions to continuous functions , and in particular, it maps functions in to functions in .
+Implicitly, curl is defined at a point as
+where the line integral is calculated along the boundary of the area in question, being the magnitude of the area. This equation defines the projection of the curl of onto formula_1. The infinitesimal surfaces bounded by have formula_1 as their normal. is oriented via the right-hand rule.
+The above formula means that the curl of a vector field is defined as the infinitesimal area density of the "circulation" of that field. To this definition fit naturally 
+The equation for each component can be obtained by exchanging each occurrence of a subscript 1, 2, 3 in cyclic permutation: 1 → 2, 2 → 3, and 3 → 1 (where the subscripts represent the relevant indices).
+If are the Cartesian coordinates and are the orthogonal coordinates, then 
+is the length of the coordinate vector corresponding to . The remaining two components of curl result from cyclic permutation of indices: 3,1,2 → 1,2,3 → 2,3,1.
+Intuitive interpretation.
+Suppose the vector field describes the velocity field of a fluid flow (such as a large tank of liquid or gas) and a small ball is located within the fluid or gas (the centre of the ball being fixed at a certain point). If the ball has a rough surface, the fluid flowing past it will make it rotate. The rotation axis (oriented according to the right hand rule) points in the direction of the curl of the field at the centre of the ball, and the angular speed of the rotation is half the magnitude of the curl at this point.
+The curl of the vector at any point is given by the rotation of an infinitesimal area in the "xy"-plane (for "z"-axis component of the curl), "zx"-plane (for "y"-axis component of the curl) and "yz"-plane (for "x"-axis component of the curl vector). This can be clearly seen in the examples below.
+Usage.
+In practice, the above definition is rarely used because in virtually all cases, the curl operator can be applied using some set of curvilinear coordinates, for which simpler representations have been derived.
+The notation has its origins in the similarities to the 3-dimensional cross product, and it is useful as a mnemonic in Cartesian coordinates if is taken as a vector differential operator del. Such notation involving operators is common in physics and algebra.
+Expanded in 3-dimensional Cartesian coordinates (see "Del in cylindrical and spherical coordinates" for spherical and cylindrical coordinate representations), is, for composed of (where the subscripts indicate the components of the vector, not partial derivatives):
+where , , and are the unit vectors for the -, -, and -axes, respectively. This expands as follows:
+Although expressed in terms of coordinates, the result is invariant under proper rotations of the coordinate axes but the result inverts under reflection.
+In a general coordinate system, the curl is given by
+where denotes the Levi-Civita tensor, the covariant derivative, formula_12 is the Jacobian and the Einstein summation convention implies that repeated indices are summed over. Due to the symmetry of the Christoffel symbols participating in the covariant derivative, this expression reduces to the partial derivative:
+where are the local basis vectors. Equivalently, using the exterior derivative, the curl can be expressed as:
+Here and are the musical isomorphisms, and is the Hodge star operator. This formula shows how to calculate the curl of in any coordinate system, and how to extend the curl to any oriented three-dimensional Riemannian manifold. Since this depends on a choice of orientation, curl is a chiral operation. In other words, if the orientation is reversed, then the direction of the curl is also reversed.
+Examples.
+Example 1.
+The vector field
+can be decomposed as
+Upon visual inspection, the field can be described as "rotating". If the vectors of the field were to represent a linear force acting on objects present at that point, and an object were to be placed inside the field, the object would start to rotate clockwise around itself. This is true regardless of where the object is placed.
+Calculating the curl:
+The resulting vector field describing the curl would at all points be pointing in the negative direction. The results of this equation align with what could have been predicted using the right-hand rule using a right-handed coordinate system. Being a uniform vector field, the object described before would have the same rotational intensity regardless of where it was placed.
+Example 2.
+For the vector field
+the curl is not as obvious from the graph. However, taking the object in the previous example, and placing it anywhere on the line , the force exerted on the right side would be slightly greater than the force exerted on the left, causing it to rotate clockwise. Using the right-hand rule, it can be predicted that the resulting curl would be straight in the negative direction. Inversely, if placed on , the object would rotate counterclockwise and the right-hand rule would result in a positive direction.
+Calculating the curl:
+The curl points in the negative direction when is positive and vice versa. In this field, the intensity of rotation would be greater as the object moves away from the plane .
+Identities.
+In general curvilinear coordinates (not only in Cartesian coordinates), the curl of a cross product of vector fields and can be shown to be
+Interchanging the vector field and operator, we arrive at the cross product of a vector field with curl of a vector field:
+where is the Feynman subscript notation, which considers only the variation due to the vector field (i.e., in this case, is treated as being constant in space).
+Another example is the curl of a curl of a vector field. It can be shown that in general coordinates
+and this identity defines the vector Laplacian of , symbolized as .
+The curl of the gradient of "any" scalar field is always the zero vector field
+which follows from the antisymmetry in the definition of the curl, and the symmetry of second derivatives.
+If is a scalar valued function and is a vector field, then
+Generalizations.
+The vector calculus operations of grad, curl, and div are most easily generalized in the context of differential forms, which involves a number of steps. In short, they correspond to the derivatives of 0-forms, 1-forms, and 2-forms, respectively. The geometric interpretation of curl as rotation corresponds to identifying bivectors (2-vectors) in 3 dimensions with the special orthogonal Lie algebra of infinitesimal rotations (in coordinates, skew-symmetric 3 × 3 matrices), while representing rotations by vectors corresponds to identifying 1-vectors (equivalently, 2-vectors) and , these all being 3-dimensional spaces.
+Differential forms.
+In 3 dimensions, a differential 0-form is simply a function ; a differential 1-form is the following expression:
+a differential 2-form is the formal sum:
+and a differential 3-form is defined by a single term:
+The exterior derivative of a -form in is defined as the -form from above—and in if, e.g.,
+then the exterior derivative leads to
+The exterior derivative of a 1-form is therefore a 2-form, and that of a 2-form is a 3-form. On the other hand, because of the interchangeability of mixed derivatives, e.g. because of
+the twofold application of the exterior derivative leads to 0.
+Thus, denoting the space of -forms by and the exterior derivative by one gets a sequence:
+Here is the space of sections of the exterior algebra vector bundle over R"n", whose dimension is the binomial coefficient ; note that for or . Writing only dimensions, one obtains a row of Pascal's triangle:
+the 1-dimensional fibers correspond to scalar fields, and the 3-dimensional fibers to vector fields, as described below. Modulo suitable identifications, the three nontrivial occurrences of the exterior derivative correspond to grad, curl, and div.
+Differential forms and the differential can be defined on any Euclidean space, or indeed any manifold, without any notion of a Riemannian metric. On a Riemannian manifold, or more generally pseudo-Riemannian manifold, -forms can be identified with -vector fields (-forms are -covector fields, and a pseudo-Riemannian metric gives an isomorphism between vectors and covectors), and on an "oriented" vector space with a nondegenerate form (an isomorphism between vectors and covectors), there is an isomorphism between -vectors and -vectors; in particular on (the tangent space of) an oriented pseudo-Riemannian manifold. Thus on an oriented pseudo-Riemannian manifold, one can interchange -forms, -vector fields, -forms, and -vector fields; this is known as Hodge duality. Concretely, on this is given by:
+Thus, identifying 0-forms and 3-forms with scalar fields, and 1-forms and 2-forms with vector fields:
+On the other hand, the fact that corresponds to the identities
+for any scalar field , and
+for any vector field .
+Grad and div generalize to all oriented pseudo-Riemannian manifolds, with the same geometric interpretation, because the spaces of 0-forms and -forms at each point are always 1-dimensional and can be identified with scalar fields, while the spaces of 1-forms and -forms are always fiberwise -dimensional and can be identified with vector fields.
+Curl does not generalize in this way to 4 or more dimensions (or down to 2 or fewer dimensions); in 4 dimensions the dimensions are
+so the curl of a 1-vector field (fiberwise 4-dimensional) is a "2-vector field", which at each point belongs to 6-dimensional vector space, and so one has
+which yields a sum of six independent terms, and cannot be identified with a 1-vector field. Nor can one meaningfully go from a 1-vector field to a 2-vector field to a 3-vector field (4 → 6 → 4), as taking the differential twice yields zero (). Thus there is no curl function from vector fields to vector fields in other dimensions arising in this way.
+However, one can define a curl of a vector field as a "2-vector field" in general, as described below.
+Curl geometrically.
+2-vectors correspond to the exterior power ; in the presence of an inner product, in coordinates these are the skew-symmetric matrices, which are geometrically considered as the special orthogonal Lie algebra of infinitesimal rotations. This has dimensions, and allows one to interpret the differential of a 1-vector field as its infinitesimal rotations. Only in 3 dimensions (or trivially in 0 dimensions) does , which is the most elegant and common case. In 2 dimensions the curl of a vector field is not a vector field but a function, as 2-dimensional rotations are given by an angle (a scalar – an orientation is required to choose whether one counts clockwise or counterclockwise rotations as positive); this is not the div, but is rather perpendicular to it. In 3 dimensions the curl of a vector field is a vector field as is familiar (in 1 and 0 dimensions the curl of a vector field is 0, because there are no non-trivial 2-vectors), while in 4 dimensions the curl of a vector field is, geometrically, at each point an element of the 6-dimensional Lie algebra formula_35.
+The curl of a 3-dimensional vector field which only depends on 2 coordinates (say and ) is simply a vertical vector field (in the direction) whose magnitude is the curl of the 2-dimensional vector field, as in the examples on this page.
+Considering curl as a 2-vector field (an antisymmetric 2-tensor) has been used to generalize vector calculus and associated physics to higher dimensions.
+Inverse.
+In the case where the divergence of a vector field is zero, a vector field exists such that . This is why the magnetic field, characterized by zero divergence, can be expressed as the curl of a magnetic vector potential.
+If is a vector field with , then adding any gradient vector field to will result in another vector field such that as well. This can be summarized by saying that the inverse curl of a three-dimensional vector field can be obtained up to an unknown irrotational field with the Biot–Savart law.
+

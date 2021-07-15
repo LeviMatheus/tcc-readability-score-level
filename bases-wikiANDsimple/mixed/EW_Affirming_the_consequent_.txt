@@ -1,0 +1,24 @@
+
+Affirming the consequent, sometimes called converse error, fallacy of the converse, or confusion of necessity and sufficiency, is a formal fallacy of taking a true conditional statement (e.g., "If the lamp were broken, then the room would be dark,") and invalidly inferring its converse ("The room is dark, so the lamp is broken,") even though the converse may not be true. This arises when a consequent ("the room would be dark") has more than one "other" possible antecedents (for example, "the lamp is not plugged in" or "the lamp is in working order, but is switched off").
+Converse errors are common in everyday thinking and communication and can result from, among other causes, communication issues, misconceptions about logic, and failure to consider other causes.
+The opposite statement, denying the consequent, "is" a valid form of argument.
+Formal description.
+Affirming the consequent is the action of taking a true statement formula_1 and invalidly concluding its converse formula_2. The name "affirming the consequent" derives from using the consequent, "Q", of formula_1, to conclude the antecedent "P". This illogic can be summarized formally as formula_4 or, alternatively, formula_5.
+The root cause of such a logic error is sometimes failure to realize that just because "P" is a "possible" condition for "Q", "P" may not be the "only" condition for "Q", i.e. "Q" may follow from another condition as well.
+Affirming the consequent can also result from overgeneralizing the experience of many statements "having" true converses. If "P" and "Q" are "equivalent" statements, i.e. formula_6, it "is" possible to infer "P" under the condition "Q". For example, the statements "It is August 13, so it is my birthday" formula_1 and "It is my birthday, so it is August 13" formula_2 are equivalent and both true consequences of the statement "August 13 is my birthday" (an abbreviated form of formula_6). Using one statement to conclude the other is "not" an example of affirming the consequent, but some people may misapply the approach.
+Additional examples.
+Example 1
+One way to demonstrate the invalidity of this argument form is with a counterexample with true premises but an obviously false conclusion. For example:
+Owning Fort Knox is not the "only" way to be rich. Any number of other ways to be rich exist.
+However, one can affirm with certainty that "if someone is not rich" ("non-Q"), then "this person does not own Fort Knox" ("non-P"). This is the contrapositive of the first statement, and it must be true if and only if the original statement is true.
+Example 2
+Here is another useful, obviously-fallacious example, but one that does not require familiarity with who Bill Gates is and what Fort Knox is:
+Here, it is immediately intuitive that any number of other antecedents ("If an animal is a deer...", "If an animal is an elephant...", "If an animal is a moose...", "etc.") can give rise to the consequent ("then it has four legs"), and that it is preposterous to suppose that having four legs "must" imply that the animal is a dog and nothing else. This is useful as a teaching example since most people can immediately recognize that the conclusion reached must be wrong (intuitively, a cat cannot be a dog), and that the method by which it was reached must therefore be fallacious.
+Example 3
+Arguments of the same form can sometimes seem superficially convincing, as in the following example:
+Being thrown off the top of the Eiffel Tower is not the "only" cause of death, since there exist numerous different causes of death.
+Affirming the consequent is commonly used in rationalization, and thus appears as a coping mechanism in some people.
+Example 4
+In "Catch-22", the chaplain is interrogated for supposedly being "Washington Irving"/"Irving Washington", who has been blocking out large portions of soldiers' letters home. The colonel has found such a letter, but with the Chaplain's name signed.
+"P" in this case is 'The chaplain signs his own name', and "Q" 'The chaplain's name is written'. The chaplain's name may be written, but he did not necessarily write it, as the colonel falsely concludes."
+

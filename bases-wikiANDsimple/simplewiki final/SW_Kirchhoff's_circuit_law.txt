@@ -1,0 +1,17 @@
+In 1845, German physicist Gustav kirchhoff first described two laws.
+In electromagnetics field these laws are action to generalization of ohm's law.
+This Kirchhoff's circuit law is very useful solving in circuit problem.
+kirchhoff's current law, also known as Kirchhoff's first law and Kirchhoff's junction law.
+This law states that 'The sum of current into a junction equals the sum of current out of the joining'.
+This Kirchhoff's junction law is same.
+In junction an electric charge's sum preservation law is applied.
+If the first of the current's value is i2 and i3 these divides two of current i1 and i4. Then this equation(i1 + i4 = i2 + i3) satisfies.
+This Kirchhoff's first law is that the electron is not disappear or created in junction point.
+This is based by an electric charge preservation law.
+Kirchhoff's voltage law, also known as Kirchhoff's second law, a closed circuit law and Kirchhoff's loop law.
+The algebraic sum of the voltage (potential) differences in any loop must equal zero.(This circuit is a closed circuit)
+Because any complex circuit is divided in many closed circuit.
+This mean that in the circuit there are an electric cell and electric resistance.
+So the electric cell give to electron the electromotive force, and then in the electric resistance this electromotive force is disappear by it.
+But in electric resistance if our direction is opposit with current's direction, this electric resistance is help to electromotive force.
+This Kirchhoff's second law is based by energy preservation law.

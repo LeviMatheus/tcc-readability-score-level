@@ -1,0 +1,14 @@
+
+In electronics and photonics design, tape-out or tapeout is the final result of the design process for integrated circuits or printed circuit boards before they are sent for manufacturing. The tapeout is specifically the point at which the graphic for the photomask of the circuit is sent to the fabrication facility. 
+History.
+Historically, the term references the early days of printed circuit design, when the enlarged (for higher precision) "artwork" for the photomask was manually "taped out" using black line tape (commonly Bishop Graphics crepe). In the post-war era of the 1940–50s, the techniques developed for rapid and low-cost circuit reproduction evolved to photographically replicated 2D manufacturing. The verb "to tapeout" was already widely used for the process and adopted for transistor fabrication, which evolved to full integrated-circuit approaches.
+Procedures involved.
+The term "tapeout" currently is used to describe the creation of the photomask itself from the final approved electronic CAD file. Designers may use this term to refer to the writing of the final file to disk or CD and its subsequent transmission to the semiconductor foundry; however, in current practice the foundry will perform checks and make modifications to the mask design specific to the manufacturing process before actual tapeout. These modifications of the mask data include: 
+Naming issues.
+Some sources erroneously believe that the roots of the term can be traced back to the time when paper tape and later magnetic tape reels were loaded with the final electronic files used to create the photomask at the factory. However, the use of the term predates the widespread CAD usage of magnetic tape by decades.
+At the University of California, Berkeley, the tongue-in-cheek term "tape-in" was coined by Professor John Wawrzynek to allude to iterative "internal tape-outs" in the spirit of agile design philosophy around 2010.
+A synonym used at IBM is "RIT" (release interface tape). IBM differentiates between "RIT-A" for the non-metallic structures and "RIT-B" for the metal layers.
+Miscellaneous.
+A modern IC has to go through a long and complex design process before it is ready for tape-out. Many of the steps along the way use software tools collectively known as electronic design automation (EDA). The design must then go through a series of verification steps collectively known as "signoff" before it can be taped-out. Tape-out is usually a cause for celebration by everyone who worked on the project, followed by trepidation awaiting the first article, the first physical samples of a chip from the manufacturing facility (semiconductor foundry).
+First tapeout is rarely the end of work for the design team. Most chips will go through a series of iterations, called "spins", in which errors are detected and fixed after testing the first article. Many different factors can cause a spin, including:
+

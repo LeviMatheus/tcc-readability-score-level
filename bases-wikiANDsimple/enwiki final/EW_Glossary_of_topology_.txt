@@ -1,0 +1,6 @@
+
+This is a glossary of some terms used in the branch of mathematics known as topology. Although there is no absolute distinction between different areas of topology, the focus here is on general topology. The following definitions are also fundamental to algebraic topology, differential topology and geometric topology.
+All spaces in this glossary are assumed to be topological spaces unless stated otherwise.
+S.
+Here are some facts about submaximality as a property of topological spaces:
+

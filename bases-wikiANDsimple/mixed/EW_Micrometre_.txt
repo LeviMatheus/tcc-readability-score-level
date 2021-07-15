@@ -1,0 +1,15 @@
+
+The micrometre (international spelling as used by the International Bureau of Weights and Measures; SI symbol: μm) or micrometer (American spelling), also commonly known as a micron, is an SI derived unit of length equalling (SI standard prefix "micro-" = 10−6); that is, one millionth of a metre (or one thousandth of a millimetre, 0.001 mm, or about 0.000039 inch).
+The next smallest common SI unit is the nanometre, equivalent to one one-thousandth of a micrometre, or one billionth of a metre ( m).
+The micrometre is a common unit of measurement for wavelengths of infrared radiation as well as sizes of biological cells and bacteria, and for grading wool by the diameter of the fibres. The width of a single human hair ranges from approximately 20 to 200 μm. The longest human chromosome is approximately 10 μm in length.
+Examples.
+Between 1 μm and 10 μm:
+Between 10 μm and 100 μm:
+SI standardization.
+The term "micron" and the symbol μ were officially accepted for use in isolation to denote the micrometre in 1879, but officially revoked by the International System of Units (SI) in 1967. This became necessary because the older usage was incompatible with the official adoption of the unit prefix "micro-", denoted μ, during the creation of the SI in 1960.
+In the SI, the systematic name "micrometre" became the official name of the unit, and μm became the official unit symbol.
+ Additionally, in American English, the use of "micron" helps differentiate the unit from the micrometer, a measuring device, because the unit's name in mainstream American spelling is a homograph of the device's name. In spoken English, they may be distinguished by pronunciation, as the name of the measuring device is often stressed on the second syllable ( ), whereas the systematic pronunciation of the unit name, in accordance with the convention for pronouncing SI units in English, places the stress on the first syllable ( ).
+The plural of "micron" is normally "microns", though "micra" was occasionally used before 1950.
+Symbol.
+The official symbol for the SI prefix "micro-" is a Greek lowercase mu. In Unicode, there is also a micro sign with the code point U+00B5 (μ), distinct from the code point U+03BC (μ) of the Greek letter lowercase mu. According to the Unicode Consortium, the Greek letter character is preferred, but implementations must recognize the micro sign as well. Most fonts use the same glyph for the two characters.
+

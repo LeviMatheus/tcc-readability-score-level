@@ -1,0 +1,1 @@
+A page cache or "disk cache is a buffer of pages certain operating systems keep in memory. These operating systems usually use paging.

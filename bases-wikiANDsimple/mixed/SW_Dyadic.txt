@@ -1,0 +1,1 @@
+A dyadic is a math function that needs two things in order to give something out. Addition and multiplication are dyadic. Powers are also dyadic. There are many more functions that are dyadic.

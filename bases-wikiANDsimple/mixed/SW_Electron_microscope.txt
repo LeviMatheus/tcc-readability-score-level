@@ -1,0 +1,9 @@
+An electron microscope is a microscope that uses electrons. Electron microscopes are very powerful and can see very small objects, like cells in the body.
+Transmission Electron Microscope (TEM).
+It is the original form of electron microscope. High voltage electrons are sent from a cathode towards the specimen. Part of the electrons passes through the specimen, and is collected by a detector. The image is then created using a computer. This image shows the internal structure of the specimen.
+Scanning Electron Microscope (SEM).
+High voltage electrons are sent towards the specimen. The specimen sends back low voltage electrons, which are collected by a detector. The image shows the characteristics of the "surface" of the specimen.
+Reflection Electron Microscope (REM).
+High voltage electrons are sent towards the specimen. Part of the electrons is reflected (sent back), which is collected by a detector. The resulted image shows the characteristics of the surface of the specimen.
+Scanning Transmission Electron Microscope (STEM).
+It combines the high resolution of TEM with the rastering functions of SEM. It can be used to perform complex analyses on the specimen, which cannot be done using TEM alone.

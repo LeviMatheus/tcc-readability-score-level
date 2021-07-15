@@ -1,0 +1,164 @@
+
+Algol , designated Beta Persei (β Persei, abbreviated Beta Per, β Per), known colloquially as the Demon Star, is a bright multiple star in the constellation of Perseus and one of the first non-nova variable stars to be discovered.
+Algol is a three-star system, consisting of Beta Persei Aa1, Aa2, and Ab – in which the hot luminous primary β Persei Aa1 and the larger, but cooler and fainter, β Persei Aa2 regularly pass in front of each other, causing eclipses. Thus Algol's magnitude is usually near-constant at 2.1, but regularly dips to 3.4 every 2.86 days during the roughly 10-hour-long partial eclipses. The secondary eclipse when the brighter primary star occults the fainter secondary is very shallow and can only be detected photoelectrically.
+Algol gives its name to its class of eclipsing variable, known as Algol variables.
+Observation history.
+An Ancient Egyptian Calendar of Lucky and Unlucky Days composed some 3,200 years ago is claimed to be the oldest historical documentation of the discovery of Algol.
+The association of Algol with a demon-like creature (Gorgon in the Greek tradition, ghoul in the Arabic tradition) suggests that its variability was known long before the 17th century, but there is still no indisputable evidence for this. The Arabic astronomer al-Sufi said nothing about any variability of the star in his "Book of Fixed Stars" published c.964.
+The variability of Algol was noted in 1667 by Italian astronomer Geminiano Montanari, but the periodic nature of its variations in brightness was not recognized until more than a century later, when the British amateur astronomer John Goodricke also proposed a mechanism for the star's variability. In May 1783, he presented his findings to the Royal Society, suggesting that the periodic variability was caused by a dark body passing in front of the star (or else that the star itself has a darker region that is periodically turned toward the Earth). For his report he was awarded the Copley Medal.
+In 1881, the Harvard astronomer Edward Charles Pickering presented evidence that Algol was actually an eclipsing binary. This was confirmed a few years later, in 1889, when the Potsdam astronomer Hermann Carl Vogel found periodic doppler shifts in the spectrum of Algol, inferring variations in the radial velocity of this binary system. Thus Algol became one of the first known spectroscopic binaries. Joel Stebbins at the University of Illinois Observatory used an early selenium cell photometer to produce the first-ever photoelectric study of a variable star. The light curve revealed the second minimum and the reflection effect between the two stars.
+Some difficulties in explaining the observed spectroscopic features led to the conjecture that a third star may be present in the system; four decades later this conjecture was found to be correct.
+Listed are the first eclipse dates and times of each month; all times in UT.
+β Persei Aa2 eclipses β Persei Aa1 every 2.867321 days (2 days 20 hours 49 min); therefore keep adding that much to each date and time to get the following eclipses. For example, the Jan 3, 21h, eclipse will yield consecutive eclipse times on Jan 6, 18h, then Jan 9, 15h, then Jan 12, 12h, etc. (all times approximate).
+System.
+Algol is a multiple-star system with three confirmed and two suspected stellar components. From the point of view of the Earth, Algol Aa1 and Algol Aa2 form an eclipsing binary because their orbital plane contains the line of sight to the Earth. The eclipsing binary pair is separated by only 0.062 astronomical units (au) from each other, whereas the third star in the system (Algol Ab) is at an average distance of 2.69 au from the pair, and the mutual orbital period of the trio is 681 Earth days. The total mass of the system is about 5.8 solar masses, and the mass ratios of Aa1, Aa2, and Ab are about 4.5 to 1 to 2.
+The three components of the bright triple star used to be, and still sometimes are, referred to as β Per A, B, and C. The Washington Double Star Catalog lists them as Aa1, Aa2, and Ab, with two very faint stars B and C about one arcmin distant. A further five faint stars are also listed as companions.
+Studies of Algol led to the Algol paradox in the theory of stellar evolution: although components of a binary star form at the same time, and massive stars evolve much faster than the less massive stars, the more massive component Algol Aa1 is still in the main sequence, but the less massive Algol Aa2 is a subgiant star at a later evolutionary stage. The paradox can be solved by mass transfer: when the more massive star became a subgiant, it filled its Roche lobe, and most of the mass was transferred to the other star, which is still in the main sequence. In some binaries similar to Algol, a gas flow can be seen. The gas flow between the primary and secondary stars in Algol has been imaged using Doppler Tomography.
+This system also exhibits x-ray and radio wave flares. The x-ray flares are thought to be caused by the magnetic fields of the A and B components interacting with the mass transfer. The radio-wave flares might be created by magnetic cycles similar to those of sunspots, but because the magnetic fields of these stars are up to ten times stronger than the field of the Sun, these radio flares are more powerful and more persistent. The secondary component was identified as the radio emitting source in Algol using Very-long-baseline interferometry by Lestrade and co-authors.
+Magnetic activity cycles in the chromospherically active secondary component induce changes in its radius of gyration that have been linked to recurrent orbital period variations on the order of  ≈ 10−5 via the Applegate mechanism. Mass transfer between the components is small in the Algol system but could be a significant source of period change in other Algol-type binaries.
+Algol is about 92.8 light-years from the Sun, but about 7.3 million years ago it passed within 9.8 light-years of the Solar System and its apparent magnitude was about −2.5, which is considerably brighter than the star Sirius is today. Because the total mass of the Algol system is about 5.8 solar masses, at the closest approach this might have given enough gravity to perturb the Oort cloud of the Solar System somewhat and hence increase the number of comets entering the inner Solar System. However, the actual increase in net cometary collisions is thought to have been quite small.
+Names.
+"Beta Persei" is the star's Bayer designation. The name "Algol" derives from Arabic "raʾs al-ghūl" : head ("raʾs") of the ogre ("al-ghūl") (see "ghoul"). The English name Demon Star was taken from the Arabic name. In 2016, the International Astronomical Union organized a Working Group on Star Names (WGSN) to catalog and standardize proper names for stars. The WGSN's first bulletin of July 2016 included a table of the first two batches of names approved by the WGSN; which included "Algol" for this star. It is so entered on the IAU Catalog of Star Names.
+In Hebrew folklore, Algol was called "Rōsh ha Sāṭān" or "Satan's Head", as stated by Edmund Chilmead, who called it "Divels head" or "Rosch hassatan". A Latin name for Algol from the 16th century was "Caput Larvae" or "the Spectre's Head". Hipparchus and Pliny made this a separate, though connected, constellation.
+In Chinese, (), meaning "Mausoleum", refers to an asterism consisting of β Persei, 9 Persei, τ Persei, ι Persei, κ Persei, ρ Persei, 16 Persei and 12 Persei. Consequently, the Chinese name for β Persei itself is (, English: The Fifth Star of Mausoleum.). According to R.H. Allen the star bore the grim name of "Tseih She" (), meaning "Piled up Corpses" but this appears to be a misidentification, and "Dié Shī" is correctly π Persei, which is inside the Mausoleum.
+Cultural significance.
+Historically, the star has received a strong association with bloody violence across a wide variety of cultures. In the "Tetrabiblos", the 2nd-century astrological text of the Alexandrian astronomer Ptolemy, Algol is referred to as "the Gorgon of Perseus" and associated with death by decapitation: a theme which mirrors the myth of the hero Perseus's victory over the snake-haired Gorgon Medusa. Astrologically, Algol is considered one of the unluckiest stars in the sky, and was listed as one of the 15 Behenian stars.
+
+
+ALGOL (; short for "Algorithmic Language") is a family of imperative computer programming languages originally developed in 1958. ALGOL heavily influenced many other languages and was the standard method for algorithm description used by the Association for Computing Machinery (ACM) in textbooks and academic sources for more than thirty years.
+In the sense that the syntax of most modern languages is "Algol-like", it was arguably the most influential of the four high-level programming languages among which it was roughly contemporary: FORTRAN, Lisp, and COBOL. It was designed to avoid some of the perceived problems with FORTRAN and eventually gave rise to many other programming languages, including PL/I, Simula, BCPL, B, Pascal, and C.
+ALGOL introduced code blocks and the codice_1...codice_2 pairs for delimiting them. It was also the first language implementing nested function definitions with lexical scope. Moreover, it was the first programming language which gave detailed attention to formal language definition and through the "Algol 60 Report" introduced Backus–Naur form, a principal formal grammar notation for language design.
+There were three major specifications, named after the years they were first published:
+ALGOL 68 is substantially different from ALGOL 60 and was not well received, so that in general "Algol" means ALGOL 60 and dialects thereof.
+Important implementations.
+The International Algebraic Language (IAL), renamed ALGOL 58, was highly influential and generally considered the ancestor of most of the modern programming languages (the so-called Algol-like languages). Further, "ALGOL object code" was a simple, compact, and stack-based instruction set architecture commonly used in teaching compiler construction and other high order languages; of which Algol is generally considered the first.
+History.
+ALGOL was developed jointly by a committee of European and American computer scientists in a meeting in 1958 at the Swiss Federal Institute of Technology in Zurich (ETH Zurich; cf. ALGOL 58). It specified three different syntaxes: a reference syntax, a publication syntax, and an implementation syntax. The different syntaxes permitted it to use different keyword names and conventions for decimal points (commas vs periods) for different languages.
+ALGOL was used mostly by research computer scientists in the United States and in Europe. Its use in commercial applications was hindered by the absence of standard input/output facilities in its description and the lack of interest in the language by large computer vendors other than Burroughs Corporation. ALGOL 60 did however become the standard for the publication of algorithms and had a profound effect on future language development.
+John Backus developed the "Backus normal form" method of describing programming languages specifically for ALGOL 58. It was revised and expanded by Peter Naur for ALGOL 60, and at Donald Knuth's suggestion renamed Backus–Naur form.
+Peter Naur: "As editor of the ALGOL Bulletin I was drawn into the international discussions of the language and was selected to be member of the European language design group in November 1959. In this capacity I was the editor of the ALGOL 60 report, produced as the result of the ALGOL 60 meeting in Paris in January 1960."
+The following people attended the meeting in Paris (from 1 to 16 January):
+Alan Perlis gave a vivid description of the meeting: "The meetings were exhausting, interminable, and exhilarating. One became aggravated when one's good ideas were discarded along with the bad ones of others. Nevertheless, diligence persisted during the entire period. The chemistry of the 13 was excellent."
+ALGOL 60 inspired many languages that followed it. Tony Hoare remarked: "Here is a language so far ahead of its time that it was not only an improvement on its predecessors but also on nearly all its successors." The Scheme programming language, a variant of Lisp that adopted the block structure and lexical scope of ALGOL, also adopted the wording "Revised Report on the Algorithmic Language Scheme" for its standards documents in homage to ALGOL.
+ALGOL and programming language research.
+As Peter Landin noted, ALGOL was the first language to combine seamlessly imperative effects with the (call-by-name) lambda calculus. Perhaps the most elegant formulation of the language is due to John C. Reynolds, and it best exhibits its syntactic and semantic purity. Reynolds's idealized ALGOL also made a convincing methodologic argument regarding the suitability of local effects in the context of call-by-name languages, in contrast with the global effects used by call-by-value languages such as ML. The conceptual integrity of the language made it one of the main objects of semantic research, along with Programming Computable Functions (PCF) and ML.
+IAL implementations timeline.
+To date there have been at least 70 augmentations, extensions, derivations and sublanguages of Algol 60.
+The Burroughs dialects included special Bootstrapping dialects such as ESPOL and NEWP. The latter is still used for Unisys MCP system software.
+Properties.
+ALGOL 60 as officially defined had no I/O facilities; implementations defined their own in ways that were rarely compatible with each other. In contrast, ALGOL 68 offered an extensive library of "transput" (input/output) facilities.
+ALGOL 60 allowed for two evaluation strategies for parameter passing: the common call-by-value, and call-by-name. Call-by-name has certain effects in contrast to call-by-reference. For example, without specifying the parameters as "value" or "reference", it is impossible to develop a procedure that will swap the values of two parameters if the actual parameters that are passed in are an integer variable and an array that is indexed by that same integer variable. Think of passing a pointer to swap(i, A[i]) in to a function. Now that every time swap is referenced, it is reevaluated. Say i := 1 and A[i] := 2, so every time swap is referenced it will return the other combination of the values ([1,2], [2,1], [1,2] and so on). A similar situation occurs with a random function passed as actual argument.
+Call-by-name is known by many compiler designers for the interesting "thunks" that are used to implement it. Donald Knuth devised the "man or boy test" to separate compilers that correctly implemented "recursion and non-local references." This test contains an example of call-by-name.
+ALGOL 68 was defined using a two-level grammar formalism invented by Adriaan van Wijngaarden and which bears his name. Van Wijngaarden grammars use a context-free grammar to generate an infinite set of productions that will recognize a particular ALGOL 68 program; notably, they are able to express the kind of requirements that in many other programming language standards are labelled "semantics" and have to be expressed in ambiguity-prone natural language prose, and then implemented in compilers as "ad hoc" code attached to the formal language parser.
+Examples and portability issues.
+Code sample comparisons.
+ALGOL 60.
+ procedure Absmax(a) Size:(n, m) Result:(y) Subscripts:(i, k);
+ value n, m; array a; integer n, m, i, k; real y;
+ comment The absolute greatest element of the matrix a, of size n by m
+ is transferred to y, and the subscripts of this element to i and k;
+ begin
+ integer p, q;
+ y := 0; i := k := 1;
+ for p := 1 step 1 until n do
+ for q := 1 step 1 until m do
+ if abs(a[p, q]) &gt; y then
+ begin y := abs(a[p, q]);
+ i := p; k := q
+ end
+ end Absmax
+Here is an example of how to produce a table using Elliott 803 ALGOL.
+ FLOATING POINT ALGOL TEST'
+ BEGIN REAL A,B,C,D'
+ READ D'
+ FOR A:= 0.0 STEP D UNTIL 6.3 DO
+ BEGIN
+ PRINT PUNCH(3),££L??'
+ B := SIN(A)'
+ C := COS(A)'
+ PRINT PUNCH(3),SAMELINE,ALIGNED(1,6),A,B,C'
+ END'
+ END'
+PUNCH(3) sends output to the teleprinter rather than the tape punch.&lt;br&gt;
+SAMELINE suppresses the carriage return + line feed normally printed between arguments.&lt;br&gt;
+ALIGNED(1,6) controls the format of the output with 1 digit before and 6 after the decimal point.
+ALGOL 68.
+The following code samples are ALGOL 68 versions of the above ALGOL 60 code samples.
+ALGOL 68 implementations used ALGOL 60's approaches to stropping. In ALGOL 68's case tokens with the bold typeface are reserved words, types (modes) or operators.
+ proc abs max = ([,]real a, ref real y, ref int i, k)real:
+ comment The absolute greatest element of the matrix a, of size ⌈a by 2⌈a
+ is transferred to y, and the subscripts of this element to i and k; comment
+ begin
+ real y := 0; i := ⌊a; k := 2⌊a;
+ for p from ⌊a to ⌈a do
+ for q from 2⌊a to 2⌈a do
+ if abs a[p, q] &gt; y then
+ y := abs a[p, q];
+ i := p; k := q
+ fi
+ od
+ od;
+ y
+ end # abs max #
+Note: lower (⌊) and upper (⌈) bounds of an array, and array slicing, are directly available to the programmer.
+ floating point algol68 test:
+ real a,b,c,d;
+ # "printf" - sends output to the file "stand out". #
+ # "printf($p$);" – selects a "new page" #
+ printf(($pg$,"Enter d:")); 
+ read(d);
+ for step from 0 while a:=step*d; a &lt;= 2*pi do
+ printf($l$); # "$l$" - selects a "new line". #
+ b := sin(a);
+ c := cos(a);
+ printf(($z-d.6d$,a,b,c)) # formats output with 1 digit before and 6 after the decimal point. #
+ od
+Timeline: Hello world.
+The variations and lack of portability of the programs from one implementation to another is easily demonstrated by the classic hello world program.
+ALGOL 58 (IAL).
+ALGOL 58 had no I/O facilities.
+ALGOL 60 family.
+Since ALGOL 60 had no I/O facilities, there is no portable hello world program in ALGOL.
+The next three examples are in Burroughs Extended Algol. The first two direct output at the interactive terminal they are run on. The first uses a character array, similar to C. The language allows the array identifier to be used as a pointer to the array, and hence in a REPLACE statement.
+ BEGIN
+ FILE F(KIND=REMOTE);
+ EBCDIC ARRAY E[0:11];
+ REPLACE E BY "HELLO WORLD!";
+ WRITE(F, *, E);
+ END.
+A simpler program using an inline format:
+ BEGIN
+ FILE F(KIND=REMOTE);
+ WRITE(F, &lt;"HELLO WORLD!"&gt;);
+ END.
+An even simpler program using the Display statement. Note that its output would end up at the system console ('SPO'):
+ BEGIN DISPLAY("HELLO WORLD!") END.
+An alternative example, using Elliott Algol I/O is as follows. Elliott Algol used different characters for "open-string-quote" and "close-string-quote":
+ program HiFolks;
+ begin
+ print 'Hello world';
+ end;
+Here is a version for the Elliott 803 Algol (A104) The standard Elliott 803 used 5 hole paper tape and thus only had upper case. The code lacked any quote characters so £ (UK Pound Sign) was used for open quote and ? (Question Mark) for close quote. Special sequences were placed in double quotes (e.g. ££L?? produced a new line on the teleprinter).
+ HIFOLKS'
+ BEGIN
+ PRINT £HELLO WORLD£L??'
+ END'
+The ICT 1900 series Algol I/O version allowed input from paper tape or punched card. Paper tape 'full' mode allowed lower case. Output was to a line printer. The open and close quote characters were represented using '(' and ')' and spaces by %.
+ 'BEGIN'
+ WRITE TEXT('('HELLO%WORLD')');
+ 'END'
+ALGOL 68.
+ALGOL 68 code was published with reserved words typically in lowercase, but bolded or underlined.
+ begin
+ printf(($gl$,"Hello, world!"))
+ end
+In the language of the "Algol 68 Report" the input/output facilities were collectively called the "Transput".
+Timeline of ALGOL special characters.
+The ALGOLs were conceived at a time when character sets were diverse and evolving rapidly; also, the ALGOLs were defined so that only "uppercase" letters were required.
+1960: IFIP – The Algol 60 language and report included several mathematical symbols which are available on modern computers and operating systems, but, unfortunately, were unsupported on most computing systems at the time. For instance: ×, ÷, ≤, ≥, ≠, ¬, ∨, ∧, ⊂, ≡, ␣ and ⏨.
+1961 September: ASCII – The ASCII character set, then in an early stage of development, had the \ (Back slash) character added to it in order to support ALGOL's boolean operators /\ and \/.
+1962: ALCOR – This character set included the unusual "᛭" runic cross character for multiplication and the "⏨" Decimal Exponent Symbol for floating point notation.
+1964: GOST – The 1964 Soviet standard GOST 10859 allowed the encoding of 4-bit, 5-bit, 6-bit and 7-bit characters in ALGOL.
+1968: The "Algol 68 Report" – used extant ALGOL characters, and further adopted →, ↓, ↑, □, ⌊, ⌈, ⎩, ⎧, ○, ⊥, and ¢ characters which can be found on the IBM 2741 keyboard with "typeball" (or "golf ball") print heads inserted (such as the APL golf ball). These became available in the mid-1960s while ALGOL 68 was being drafted. The report was translated into Russian, German, French, and Bulgarian, and allowed programming in languages with larger character sets, e.g., Cyrillic alphabet of the Soviet BESM-4. All ALGOL's characters are also part of the Unicode standard and most of them are available in several popular fonts.
+2009 October: Unicode – The codice_3 (Decimal Exponent Symbol) for floating point notation was added to Unicode 5.2 for backward compatibility with historic Buran programme ALGOL software.
+

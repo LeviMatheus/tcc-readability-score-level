@@ -1,0 +1,3 @@
+The word data means "pieces of information". Types of data include numbers, words, sounds, and images.
+"see also data processing, data mining, Data Warehouse, datasheet, Computer program"
+"This article (or an earlier version of it) contains material from FOLDOC, used with permission."

@@ -1,0 +1,36 @@
+
+The pantoum is a poetic form derived from the pantun, a Malay verse form: specifically from the "pantun berkait", a series of interwoven quatrains.
+Structure.
+The pantoum is a form of poetry similar to a villanelle in that there are repeating lines throughout the poem. It is composed of a series of quatrains; the second and fourth lines of each stanza are repeated as the first and third lines of the next stanza. The pattern continues for any number of stanzas, except for the final stanza, which differs in the repeating pattern. The first and third lines of the last stanza are the second and fourth of the penultimate; the first line of the poem is the last line of the final stanza, and the third line of the first stanza is the second of the final. Ideally, the meaning of lines shifts when they are repeated although the words remain exactly the same: this can be done by shifting punctuation, punning, or simply recontextualizing.
+A four-stanza pantoum is common (although more may be used), and in the final stanza, lines one and three from the first stanza can be repeated, or new lines can be written. The pantoum form is as follows:
+&lt;poem&gt;Stanza 1
+A
+B
+C
+D
+Stanza 2
+B
+E
+D
+F
+Stanza 3
+E
+G
+F
+H
+Stanza 4
+G
+I (or A or C)
+H
+J (or A or C)&lt;/poem&gt;
+Verse forms.
+The pantoum is derived from the "pantun berkait", a series of interwoven quatrains. An English translation of such a "pantun berkait" appeared in William Marsden's "A Dictionary and Grammar of the Malayan Language" in 1812. Victor Hugo published an unrhymed French version by Ernest Fouinet of this poem in the notes to "Les Orientales" (1829) and subsequent French poets began to make their own attempts at composing original "pantoums". Leconte de Lisle published five pantoums in his "Poèmes tragiques" (1884).
+There is also the imperfect pantoum, in which the final stanza differs from the form stated above, and the second and fourth lines may be different from any preceding lines.
+Baudelaire's famous poem "Harmonie du soir" is usually cited as an example of the form, but it is irregular. The stanzas rhyme "abba" rather than the expected "abab", and the last line, which is supposed to be the same as the first, is original.
+Poets.
+American poets such as Clark Ashton Smith, John Ashbery, Marilyn Hacker, Donald Justice ("Pantoum of the Great Depression"), Carolyn Kizer, and David Trinidad have done work in this form, as has Irish poet Caitriona O'Reilly. 
+The December 2015 issue of First Things featured a pantoum by James Matthew Wilson, "The Christmas Preface."
+Music.
+Claude Debussy set Charles Baudelaire's "Harmonie du soir" in his "Cinq poèmes de Charles Baudelaire" in the form of a pantoum. Perhaps inspired by this setting, Maurice Ravel entitled the second movement of his Piano Trio, "Pantoum (Assez vif)". While Ravel never commented on the significance of the movement's title, Brian Newbould has suggested that the poetic form is reflected in the way the two themes are developed in alternation.
+Neil Peart used the form (with one difference from the format listed above) for the lyrics of "The Larger Bowl (A Pantoum)", the fourth track on Rush's 2007 album "Snakes &amp; Arrows", also released as a single.
+

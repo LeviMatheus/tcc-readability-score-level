@@ -1,0 +1,4 @@
+The ELISA method (Enzyme Linked Immuno-Sorbent Assay) is a technique used in biochemistry to determine if a certain substance--such as a specific cytokine or antigen--is present within a sample. It is sometimes abbreviated as "EIA."
+This technique uses special antibodies that attach themselves to the substance. These antibodies generate a specific color. The amount of color indicates the amount of substance present. (Sometimes, the substance must be viewed under ultraviolet light for the antibodies to generate this color.)
+Another set of antibodies are used to "capture" the substance. These antibodies adhere to both the substance and the testing container, thus holding the substance in place.
+A more sophisticated and sensitive technique, the ELISPOT method, was derived from the ELISA techique.

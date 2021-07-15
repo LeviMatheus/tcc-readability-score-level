@@ -1,0 +1,1 @@
+ChatZilla is an IRC client made by Mozilla that is free of charge. It is programmed in JavaScript and XUL. Its first public release date was in 2001. The latest stable version (0.9.83) was made in 2008. It is licensed under MPL, GPL, and LGPL.

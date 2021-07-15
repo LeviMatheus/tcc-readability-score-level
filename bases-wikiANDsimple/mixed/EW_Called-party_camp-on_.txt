@@ -1,0 +1,4 @@
+
+In telecommunication, a called-party camp-on is a communication system service feature that enables the system to complete an access attempt in spite of issuance of a user blocking signal. This is most often found in a switchboard system at a company. Instead of going to voicemail or simply sitting on hold until the line is free, this feature places you in a queue whereby the call will be put through as soon as the line clears.
+Systems that provide this feature monitor the busy user until the user blocking signal ends, and then proceed to complete the requested access. This feature permits holding an incoming telephone call until the called party is free.
+

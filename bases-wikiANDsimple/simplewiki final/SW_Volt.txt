@@ -1,0 +1,9 @@
+The volt (symbol: V) is the SI derived unit of electric potential difference or electromotive force. It is named in honor of the Italian physicist Alessandro Volta (1745–1827), who invented the voltaic pile, the first chemical battery.
+Definition.
+The volt is defined as the potential difference across a conductor when a current of one ampere dissipates one watt of power. Hence, it is the base SI representation m2 · kg · s-3 · A-1, which can be equally represented as one joule of energy per coulomb of charge, J/C.
+Hydraulic analogy.
+In the "hydraulic analogy" sometimes used to explain electric circuits by comparing them to water-filled pipes, voltage is likened to water pressure - it determines how fast the electrons will travel through the circuit. Current (in amperes), in the same analogy, is a measure of the volume of water that flows past a given point, the rate of which is determined by the voltage, and the total output measured in watts. The equation that brings all three components together is: volts × amperes = watts
+Common voltages.
+Note: Where 'RMS' (root mean square) is stated above, the peak voltage is formula_2 times greater than the RMS voltage for a sinusoidal signal.
+History of the volt.
+In 1800, as the result of a professional disagreement over the galvanic response advocated by Luigi Galvani, Alessandro Volta developed the so-called Voltaic pile, a forerunner of the battery, which produced a steady electric current. Volta had determined that the most effective pair of dissimilar metals to produce electricity was zinc and silver. In the 1880s, the International Electrical Congress, now the International Electrotechnical Commission (IEC), approved the volt for electromotive force. The volt was defined as the potential difference across a conductor when a current of one ampere dissipates one watt of power.

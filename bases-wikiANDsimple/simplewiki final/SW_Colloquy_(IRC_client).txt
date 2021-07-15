@@ -1,0 +1,1 @@
+Colloquy is an IRC client written in Objective-C. It was first released in 2005 and has since been updated to version 2.0.2 in 2008. It is licensed as GNU and is free of charge.

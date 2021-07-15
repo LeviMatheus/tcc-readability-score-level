@@ -1,0 +1,50 @@
+
+Ethers are a class of organic compounds that contain an ether group—an oxygen atom connected to two alkyl or aryl groups. They have the general formula R–O–R′, where R and R′ represent the alkyl or aryl groups. Ethers can again be classified into two varieties: if the alkyl groups are the same on both sides of the oxygen atom, then it is a simple or symmetrical ether, whereas if they are different, the ethers are called mixed or unsymmetrical ethers. A typical example of the first group is the solvent and anesthetic diethyl ether, commonly referred to simply as "ether" (). Ethers are common in organic chemistry and even more prevalent in biochemistry, as they are common linkages in carbohydrates and lignin.
+Structure and bonding.
+Ethers feature bent C–O–C linkages. In dimethyl ether, the bond angle is 111° and C–O distances are 141 pm. The barrier to rotation about the C–O bonds is low. The bonding of oxygen in ethers, alcohols, and water is similar. In the language of valence bond theory, the hybridization at oxygen is sp3.
+Oxygen is more electronegative than carbon, thus the hydrogens alpha to ethers are more acidic than in simple hydrocarbons. They are far less acidic than hydrogens alpha to carbonyl groups (such as in ketones or aldehydes), however.
+Ethers can be symmetrical of the type ROR or unsymmetrical of the type ROR'. Examples of the former are diethyl ether, dimethyl ether, dipropyl ether etc. Illustrative unsymmetrical ethers are anisole (methoxybenzene) and dimethoxyethane.
+Nomenclature.
+In the IUPAC Nomenclature system, ethers are named using the general formula "alkoxyalkane", for example CH3–CH2–O–CH3 is methoxyethane. If the ether is part of a more-complex molecule, it is described as an alkoxy substituent, so –OCH3 would be considered a "methoxy-" group. The simpler alkyl radical is written in front, so CH3–O–CH2CH3 would be given as "methoxy"(CH3O)"ethane"(CH2CH3).
+Trivial name.
+IUPAC rules are often not followed for simple ethers. The trivial names for simple ethers (i.e., those with none or few other functional groups) are a composite of the two substituents followed by "ether". For example, ethyl methyl ether (CH3OC2H5), diphenylether (C6H5OC6H5). As for other organic compounds, very common ethers acquired names before rules for nomenclature were formalized. Diethyl ether is simply called "ether", but was once called "sweet oil of vitriol". Methyl phenyl ether is anisole, because it was originally found in aniseed. The aromatic ethers include furans. Acetals (α-alkoxy ethers R–CH(–OR)–O–R) are another class of ethers with characteristic properties.
+Polyethers.
+Polyethers are generally polymers containing ether linkages in their main chain. The term glycol generally refers to polyether polyols with one or more functional end-groups such as a hydroxyl group. The term "oxide" or other terms are used for high molar mass polymer when end-groups no longer affect polymer properties.
+Crown ethers are cyclic polyethers. Some toxins produced by dinoflagellates such as brevetoxin and ciguatoxin are extremely large and are known as "cyclic" or "ladder" polyethers.
+The phenyl ether polymers are a class of aromatic polyethers containing aromatic cycles in their main chain: Polyphenyl ether (PPE) and Poly("p"-phenylene oxide) (PPO).
+Related compounds.
+Many classes of compounds with C–O–C linkages are not considered ethers: Esters (R–C(=O)–O–R′), hemiacetals (R–CH(–OH)–O–R′), carboxylic acid anhydrides (RC(=O)–O–C(=O)R′).
+Physical properties.
+Ethers have boiling points similar to those of the analogous alkanes. Simple ethers are generally colorless.
+Reactions.
+The C-O bonds that comprise simple ethers are strong. They are unreactive toward all but the strongest bases. Although generally of low chemical reactivity, they are more reactive than alkanes. 
+Specialized ethers such as epoxides, ketals, and acetals are unrepresentative classes of ethers and are discussed in separate articles. Important reactions are listed below.
+Cleavage.
+Although ethers resist hydrolysis, they are cleaved by hydrobromic acid and hydroiodic acid. Hydrogen chloride cleaves ethers only slowly. Methyl ethers typically afford methyl halides:
+These reactions proceed via onium intermediates, i.e. [RO(H)CH3]+Br−.
+Some ethers undergo rapid cleavage with boron tribromide (even aluminium chloride is used in some cases) to give the alkyl bromide. Depending on the substituents, some ethers can be cleaved with a variety of reagents, e.g. strong base.
+Peroxide formation.
+When stored in the presence of air or oxygen, ethers tend to form explosive peroxides, such as diethyl ether hydroperoxide. The reaction is accelerated by light, metal catalysts, and aldehydes. In addition to avoiding storage conditions likely to form peroxides, it is recommended, when an ether is used as a solvent, not to distill it to dryness, as any peroxides that may have formed, being less volatile than the original ether, will become concentrated in the last few drops of liquid. The presence of peroxide in old samples of ethers may be detected by shaking them with freshly prepared solution of a ferrous sulfate followed by addition of KSCN. Appearance of blood red color indicates presence of peroxides. The dangerous properties of ether peroxides are the reason that diethyl ether and other peroxide forming ethers like tetrahydrofuran (THF) or ethylene glycol dimethyl ether (1,2-dimethoxyethane) are avoided in industrial processes.
+Lewis bases.
+Ethers serve as Lewis bases. For instance, diethyl ether forms a complex with boron trifluoride, i.e. diethyl etherate (BF3·OEt2). Ethers also coordinate to the Mg center in Grignard reagents. The cyclic ether thf is more basic than acyclic ethers. It forms complexes with many metal halides.
+Alpha-halogenation.
+This reactivity is similar to the tendency of ethers with alpha hydrogen atoms to form peroxides. Reaction with chlorine produces alpha-chloroethers.
+Synthesis.
+Ethers can be prepared by numerous routes. In general alkyl ethers form more readily than aryl ethers, with the later species often requiring metal catalysts.
+The synthesis of diethyl ether by a reaction between ethanol and sulfuric acid has been known since the 13th century.
+Dehydration of alcohols.
+The dehydration of alcohols affords ethers:
+This direct nucleophilic substitution reaction requires elevated temperatures (about 125 °C). The reaction is catalyzed by acids, usually sulfuric acid. The method is effective for generating symmetrical ethers, but not unsymmetrical ethers, since either OH can be protonated, which would give a mixture of products. Diethyl ether is produced from ethanol by this method. Cyclic ethers are readily generated by this approach. Elimination reactions compete with dehydration of the alcohol:
+The dehydration route often requires conditions incompatible with delicate molecules. Several milder methods exist to produce ethers.
+Williamson ether synthesis.
+Nucleophilic displacement of alkyl halides by alkoxides
+This reaction is called the Williamson ether synthesis. It involves treatment of a parent alcohol with a strong base to form the alkoxide, followed by addition of an appropriate aliphatic compound bearing a suitable leaving group (R–X). Suitable leaving groups (X) include iodide, bromide, or sulfonates. This method usually does not work well for aryl halides (e.g. bromobenzene, see Ullmann condensation below). Likewise, this method only gives the best yields for primary halides. Secondary and tertiary halides are prone to undergo E2 elimination on exposure to the basic alkoxide anion used in the reaction due to steric hindrance from the large alkyl groups.
+In a related reaction, alkyl halides undergo nucleophilic displacement by phenoxides. The R–X cannot be used to react with the alcohol. However phenols can be used to replace the alcohol while maintaining the alkyl halide. Since phenols are acidic, they readily react with a strong base like sodium hydroxide to form phenoxide ions. The phenoxide ion will then substitute the –X group in the alkyl halide, forming an ether with an aryl group attached to it in a reaction with an SN2 mechanism.
+Ullmann condensation.
+The Ullmann condensation is similar to the Williamson method except that the substrate is an aryl halide. Such reactions generally require a catalyst, such as copper.
+Electrophilic addition of alcohols to alkenes.
+Alcohols add to electrophilically activated alkenes.
+Acid catalysis is required for this reaction. Often, mercury trifluoroacetate (Hg(OCOCF3)2) is used as a catalyst for the reaction generating an ether with Markovnikov regiochemistry. Using similar reactions, tetrahydropyranyl ethers are used as protective groups for alcohols.
+Preparation of epoxides.
+Epoxides are typically prepared by oxidation of alkenes. The most important epoxide in terms of industrial scale is ethylene oxide, which is produced by oxidation of ethylene with oxygen. Other epoxides are produced by one of two routes:
+

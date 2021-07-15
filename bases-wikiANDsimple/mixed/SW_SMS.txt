@@ -1,0 +1,2 @@
+An SMS, or short messaging service is a type of communication used in mobile phones. More commonly known as a 'text message', someone can send text to another person.
+SMS is often slow, as normal calls take priority over sending text messages on a network. There is also a limit of 160 characters that a text message can send.

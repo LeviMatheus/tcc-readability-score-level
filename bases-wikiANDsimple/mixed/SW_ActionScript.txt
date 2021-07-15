@@ -1,0 +1,1 @@
+ActionScript is a scripting language similar to Javascript. It is used for Adobe Flash and Adobe Flex.

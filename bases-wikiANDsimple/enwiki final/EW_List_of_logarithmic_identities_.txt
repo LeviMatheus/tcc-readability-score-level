@@ -1,0 +1,63 @@
+
+In mathematics, many logarithmic identities exist. The following is a compilation of the notable of these, many of which are used for computational purposes.
+Cancelling exponentials.
+Logarithms and exponentials with the same base cancel each other. This is true because logarithms and exponentials are inverse operations—much like the same way multiplication and division are inverse operations, and addition and subtraction are inverse operations.
+Both of the above are derived from the following two equations that define a logarithm:
+Substituting in the left equation gives , and substituting in the right gives . Finally, replace with .
+Using simpler operations.
+Logarithms can be used to make calculations easier. For example, two numbers can be multiplied just by using a logarithm table and adding. These are often known as logarithmic properties, which are documented in the table below. The first three operations below assume that and/or , so that and . Derivations also use the log definitions and .
+Where formula_4, formula_5, and formula_6 are positive real numbers and formula_7, and formula_8 and formula_9 are real numbers.
+The laws result from canceling exponentials and the appropriate law of indices. Starting with the first law:
+formula_10
+The law for powers exploits another of the laws of indices:
+formula_11
+The law relating to quotients then follows:
+formula_12
+formula_13
+Similarly, the root law is derived by rewriting the root as a reciprocal power:
+formula_14
+Changing the base.
+This identity is useful to evaluate logarithms on calculators. For instance, most calculators have buttons for ln and for , but not all calculators have buttons for the logarithm of an arbitrary base.
+This formula has several consequences:
+where formula_26 is any permutation of the subscripts 1, ..., "n". For example
+Summation/subtraction.
+The following summation/subtraction rule is especially useful in probability theory when one is dealing with a sum of log-probabilities:
+Note that the subtraction identity is not defined if formula_28, since the logarithm of zero is not defined.
+Also note that, when programming, formula_29 and formula_8 may have to be switched on the right hand side of the equations if formula_31 to avoid losing the "1 +" due to rounding errors. Many programming languages have a specific codice_1 function that calculates formula_32 without underflow (when formula_5 is small).
+More generally:
+Exponents.
+A useful identity involving exponents:
+or more universally:
+Inequalities.
+Based on, and 
+All are accurate around formula_41, but not for large numbers.
+Calculus identities.
+Limits.
+The last limit is often summarized as "logarithms grow more slowly than any power or root of "x"".
+Derivatives of logarithmic functions.
+Where formula_50, formula_51, and formula_7.
+Integrals of logarithmic functions.
+To remember higher integrals, it is convenient to define
+where formula_56 is the "n"th harmonic number:
+Then
+Approximating large numbers.
+The identities of logarithms can be used to approximate large numbers. Note that , where "a", "b", and "c" are arbitrary constants. Suppose that one wants to approximate the 44th Mersenne prime, . To get the base-10 logarithm, we would multiply 32,582,657 by , getting . We can then get .
+Similarly, factorials can be approximated by summing the logarithms of the terms.
+Complex logarithm identities.
+The complex logarithm is the complex number analogue of the logarithm function. No single valued function on the complex plane can satisfy the normal rules for logarithms. However, a multivalued function can be defined which satisfies most of the identities. It is usual to consider this as a function defined on a Riemann surface. A single valued version, called the principal value of the logarithm, can be defined which is discontinuous on the negative x axis, and is equal to the multivalued version on a single branch cut.
+Definitions.
+In what follows, a capital first letter is used for the principal value of functions, and the lower case version is used for the multivalued function. The single valued version of definitions and identities is always given first, followed by a separate section for the multiple valued versions.
+The multiple valued version of is a set, but it is easier to write it without braces and using it in formulas follows obvious rules.
+When "k" is any integer:
+Constants.
+Principal value forms:
+Multiple value forms, for any "k" an integer:
+Summation.
+Principal value forms:
+Multiple value forms:
+Powers.
+A complex power of a complex number can have many possible values.
+Principal value form:
+Multiple value forms:
+Where , are any integers:
+

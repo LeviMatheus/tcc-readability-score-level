@@ -1,0 +1,12 @@
+
+Kilo is a decimal unit prefix in the metric system denoting multiplication by one thousand (103). It is used in the International System of Units, where it has the symbol k, in lower case.
+The prefix "kilo" is derived from the Greek word (), meaning "thousand". It was originally adopted by Antoine Lavoisier's research group in 1795, and introduced into the metric system in France with its establishment in 1799.
+In 19th century English it was sometimes spelled chilio, in line with a puristic opinion by Thomas Young.
+Examples.
+By extension, currencies are also sometimes preceded by the prefix kilo-:
+kilobyte.
+For the kilobyte, a second definition has been in common use in some fields of computer science and information technology. It uses "kilobyte" to mean 210 bytes (= 1024 bytes), because of the mathematical coincidence that 210 is approximately 103. The reason for this application is that digital hardware and architectures natively use base 2 exponentiation, and not decimal systems. JEDEC memory standards still permit this definition, but acknowledge the correct SI usage.
+NIST comments on the confusion caused by these contrasting definitions: "Faced with this reality, the "IEEE Standards Board" decided that IEEE standards will use the conventional, internationally adopted, definitions of the SI prefixes", instead of kilo for 1024. To address this conflict, a new set of binary prefixes has been introduced, which is based on powers of 2. Therefore, 1024 bytes are defined as one kibibyte (1 KiB).
+Exponentiation.
+When units occur in exponentiation, such as in square and cubic forms, any multiplier prefix is considered part of the unit, and thus included in the exponentiation.
+

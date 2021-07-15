@@ -1,0 +1,89 @@
+
+In mathematics, a spherical coordinate system is a coordinate system for three-dimensional space where the position of a point is specified by three numbers: the "radial distance" of that point from a fixed origin, its "polar angle" measured from a fixed zenith direction, and the "azimuthal angle" of its orthogonal projection on a reference plane that passes through the origin and is orthogonal to the zenith, measured from a fixed reference direction on that plane. It can be seen as the three-dimensional version of the polar coordinate system. 
+The radial distance is also called the "radius" or "radial coordinate". The polar angle may be called "colatitude", "zenith angle", "normal angle", or "inclination angle".
+The use of symbols and the order of the coordinates differs among sources and disciplines. "This article will use the ISO convention frequently encountered in physics": formula_1 gives the radial distance, polar angle, and azimuthal angle. In many mathematics books, formula_2 or formula_1 gives the radial distance, azimuthal angle, and polar angle, switching the meanings of "θ" and "φ". Other conventions are also used, such as "r" for radius from the "z-"axis, so great care needs to be taken to check the meaning of the symbols. 
+According to the conventions of geographical coordinate systems, positions are measured by latitude, longitude, and height (altitude). There are a number of celestial coordinate systems based on different fundamental planes and with different terms for the various coordinates. The spherical coordinate systems used in mathematics normally use radians rather than degrees and measure the azimuthal angle counterclockwise from the -axis to the -axis rather than clockwise from north (0°) to east (+90°) like the horizontal coordinate system. The polar angle is often replaced by the "elevation angle" measured from the reference plane, so that the elevation angle of zero is at the horizon.
+The spherical coordinate system generalizes the two-dimensional polar coordinate system. It can also be extended to higher-dimensional spaces and is then referred to as a hyperspherical coordinate system.
+Definition.
+To define a spherical coordinate system, one must choose two orthogonal directions, the "zenith" and the "azimuth reference", and an "origin" point in space. These choices determine a reference plane that contains the origin and is perpendicular to the zenith. The spherical coordinates of a point are then defined as follows:
+The sign of the azimuth is determined by choosing what is a "positive" sense of turning about the zenith. This choice is arbitrary, and is part of the coordinate system's definition.
+The "elevation" angle is 90 degrees ( radians) minus the inclination angle.
+If the inclination is zero or 180 degrees ( radians), the azimuth is arbitrary. If the radius is zero, both azimuth and inclination are arbitrary.
+In linear algebra, the vector from the origin to the point is often called the "position vector" of "P".
+Conventions.
+Several different conventions exist for representing the three coordinates, and for the order in which they should be written. The use of formula_1 to denote radial distance, inclination (or elevation), and azimuth, respectively, is common practice in physics, and is specified by ISO standard 80000-2:2019, and earlier in ISO 31-11 (1992).
+However, some authors (including mathematicians) use "ρ" for radial distance, "φ" for inclination (or elevation) and "θ" for azimuth, and "r" for radius from the "z-"axis, which "provides a logical extension of the usual polar coordinates notation".&lt;ref name="http://mathworld.wolfram.com/SphericalCoordinates.html"&gt;&lt;/ref&gt; Some authors may also list the azimuth before the inclination (or elevation). Some combinations of these choices result in a left-handed coordinate system. The standard convention formula_1 conflicts with the usual notation for two-dimensional polar coordinates and three-dimensional cylindrical coordinates, where is often used for the azimuth.
+The angles are typically measured in degrees (°) or radians (rad), where 360° = 2"π" rad. Degrees are most common in geography, astronomy, and engineering, whereas radians are commonly used in mathematics and theoretical physics. The unit for radial distance is usually determined by the context.
+When the system is used for physical three-space, it is customary to use positive sign for azimuth angles that are measured in the counter-clockwise sense from the reference direction on the reference plane, as seen from the zenith side of the plane. This convention is used, in particular, for geographical coordinates, where the "zenith" direction is north and positive azimuth (longitude) angles are measured eastwards from some prime meridian.
+Unique coordinates.
+Any spherical coordinate triplet formula_1 specifies a single point of three-dimensional space. On the other hand, every point has infinitely many equivalent spherical coordinates. One can add or subtract any number of full turns to either angular measure without changing the angles themselves, and therefore without changing the point. It is also convenient, in many contexts, to allow negative radial distances, with the convention that formula_7 is equivalent to formula_1 for any , , and . Moreover, formula_9 is equivalent to formula_10.
+If it is necessary to define a unique set of spherical coordinates for each point, one must restrict their ranges. A common choice is
+However, the azimuth is often restricted to the interval , or in radians, instead of . This is the standard convention for geographic longitude.
+The range for inclination is equivalent to for elevation (latitude).
+Even with these restrictions, if is 0° or 180° (elevation is 90° or −90°) then the azimuth angle is arbitrary; and if is zero, both azimuth and inclination/elevation are arbitrary. To make the coordinates unique, one can use the convention that in these cases the arbitrary coordinates are zero.
+Plotting.
+To plot a dot from its spherical coordinates , where is inclination, move units from the origin in the zenith direction, rotate by about the origin towards the azimuth reference direction, and rotate by about the zenith in the proper direction.
+Applications.
+The geographic coordinate system uses the azimuth and elevation of the spherical coordinate system to express locations on Earth, calling them respectively longitude and latitude. Just as the two-dimensional Cartesian coordinate system is useful on the plane, a two-dimensional spherical coordinate system is useful on the surface of a sphere. In this system, the sphere is taken as a unit sphere, so the radius is unity and can generally be ignored. This simplification can also be very useful when dealing with objects such as rotational matrices.
+Spherical coordinates are useful in analyzing systems that have some degree of symmetry about a point, such as volume integrals inside a sphere, the potential energy field surrounding a concentrated mass or charge, or global weather simulation in a planet's atmosphere. A sphere that has the Cartesian equation has the simple equation in spherical coordinates.
+Two important partial differential equations that arise in many physical problems, Laplace's equation and the Helmholtz equation, allow a separation of variables in spherical coordinates. The angular portions of the solutions to such equations take the form of spherical harmonics.
+Another application is ergonomic design, where is the arm length of a stationary person and the angles describe the direction of the arm as it reaches out.
+Three dimensional modeling of loudspeaker output patterns can be used to predict their performance. A number of polar plots are required, taken at a wide selection of frequencies, as the pattern changes greatly with frequency. Polar plots help to show that many loudspeakers tend toward omnidirectionality at lower frequencies.
+The spherical coordinate system is also commonly used in 3D game development to rotate the camera around the player's position.
+In geography.
+To a first approximation, the geographic coordinate system uses elevation angle (latitude) in degrees north of the equator plane, in the range , instead of inclination. Latitude is either geocentric latitude, measured at the Earth's center and designated variously by or geodetic latitude, measured by the observer's local vertical, and commonly designated . The azimuth angle (longitude), commonly denoted by , is measured in degrees east or west from some conventional reference meridian (most commonly the IERS Reference Meridian), so its domain is . For positions on the Earth or other solid celestial body, the reference plane is usually taken to be the plane perpendicular to the axis of rotation. 
+The polar angle, which is 90° minus the latitude and ranges from 0 to 180°, is called colatitude in geography.
+Instead of the radial distance, geographers commonly use altitude above or below some reference surface, which may be the sea level or "mean" surface level for planets without liquid oceans. The radial distance can be computed from the altitude by adding the mean radius of the planet's reference surface, which is approximately for Earth.
+However, modern geographical coordinate systems are quite complex, and the positions implied by these simple formulae may be wrong by several kilometers. The precise standard meanings of latitude, longitude and altitude are currently defined by the World Geodetic System (WGS), and take into account the flattening of the Earth at the poles (about ) and many other details.
+In astronomy.
+In astronomy there are a series of spherical coordinate systems that measure the elevation angle from different fundamental planes. These reference planes are the observer's horizon, the celestial equator (defined by Earth's rotation), the plane of the ecliptic (defined by Earth's orbit around the Sun), the plane of the earth terminator (normal to the instantaneous direction to the Sun), and the galactic equator (defined by the rotation of the Milky Way).
+Coordinate system conversions.
+As the spherical coordinate system is only one of many three-dimensional coordinate systems, there exist equations for converting coordinates between the spherical coordinate system and others.
+Cartesian coordinates.
+The spherical coordinates of a point in the ISO convention (i.e. for physics: "radius" , "inclination" , "azimuth" ) can be obtained from its Cartesian coordinates by the formulae
+The inverse tangent denoted in must be suitably defined, taking into account the correct quadrant of . See the article on atan2.
+Alternatively, the conversion can be considered as two sequential rectangular to polar conversions: the first in the Cartesian plane from to , where is the projection of onto the -plane, and the second in the Cartesian -plane from to . The correct quadrants for and are implied by the correctness of the planar rectangular to polar conversions.
+These formulae assume that the two systems have the same origin, that the spherical reference plane is the Cartesian plane, that is inclination from the direction, and that the azimuth angles are measured from the Cartesian axis (so that the axis has ). If "θ" measures elevation from the reference plane instead of inclination from the zenith the arccos above becomes an arcsin, and the and below become switched.
+Conversely, the Cartesian coordinates may be retrieved from the spherical coordinates ("radius" , "inclination" , "azimuth" ), where , , , by
+Cylindrical coordinates.
+Cylindrical coordinates ("axial" "radius" "ρ", "azimuth" "φ", "elevation" "z") may be converted into spherical coordinates ("central radius" "r", "inclination" "θ", "azimuth" "φ"), by the formulas
+Conversely, the spherical coordinates may be converted into cylindrical coordinates by the formulae
+These formulae assume that the two systems have the same origin and same reference plane, measure the azimuth angle in the same senses from the same axis, and that the spherical angle is inclination from the cylindrical axis.
+Modified spherical coordinates.
+It is also possible to deal with ellipsoids in Cartesian coordinates by using a modified version of the spherical coordinates. 
+Let P be an ellipsoid specified by the level set
+The modified spherical coordinates of a point in P in the ISO convention (i.e. for physics: "radius" , "inclination" , "azimuth" ) can be obtained from its Cartesian coordinates by the formulae
+An infinitesimal volume element is given by
+The square-root factor comes from the property of the determinant that allows a constant to be pulled out from a column:
+Integration and differentiation in spherical coordinates.
+The following equations (Iyanaga 1977) assume that the colatitude is the inclination from the (polar) axis (ambiguous since , , and are mutually normal), as in the physics convention discussed.
+The line element for an infinitesimal displacement from to is
+where
+are the local orthogonal unit vectors in the directions of increasing , , and , respectively,
+and , , and are the unit vectors in Cartesian coordinates. The linear transformation to this right-handed coordinate triplet is a rotation matrix,
+The general form of the formula to prove the differential line element, is
+that is, the change in formula_23 is decomposed into individual changes corresponding to changes in the individual coordinates. 
+To apply this to the present case, one needs to calculate how formula_23 changes with each of the coordinates. In the conventions used, 
+Thus,
+The desired coefficients are the magnitudes of these vectors:
+The surface element spanning from to and to on a spherical surface at (constant) radius is then
+Thus the differential solid angle is
+The surface element in a surface of polar angle constant (a cone with vertex the origin) is
+The surface element in a surface of azimuth constant (a vertical half-plane) is
+The volume element spanning from to , to , and to is specified by the determinant of the Jacobian matrix of partial derivatives, 
+namely 
+Thus, for example, a function can be integrated over every point in ℝ3 by the triple integral
+The del operator in this system leads to the following expressions for gradient, divergence, curl and Laplacian,
+Further, the inverse Jacobian in Cartesian coordinates is
+The metric tensor in the spherical coordinate system is formula_37.
+Distance in spherical coordinates.
+In spherical coordinates, given two points with being the azimuthal coordinate
+The distance between the two points can be expressed as
+Kinematics.
+In spherical coordinates, the position of a point is written as
+Its velocity is then
+and its acceleration is
+The angular momentum is 
+In the case of a constant or else , this reduces to vector calculus in polar coordinates.
+The corresponding angular momentum operator then follows from the phase-space reformulation of the above, 
+

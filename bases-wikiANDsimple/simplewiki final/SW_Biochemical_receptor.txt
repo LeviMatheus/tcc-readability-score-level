@@ -1,0 +1,2 @@
+In biochemistry, receptors are special structures that can be found in cells. Receptors bind to specialised molecules. If the receptor has such a molecule, it is activated, else it is deactivated. Depending on its state, a change inside the cell may be triggered.
+In short, receptors work like locks and keys. With the key, the lock can be locked or unlocked. If it is unlocked, the door belonging to it can be opened.

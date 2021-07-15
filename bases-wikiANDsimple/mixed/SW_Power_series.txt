@@ -1,0 +1,5 @@
+In mathematics, a power series (in one variable) is an infinite series of the form
+where "an" represents the coefficient of the nth term, "c" is a constant, and "x" varies around "c" (for this reason one sometimes speaks of the series as being "centered" at "c"). This series usually arises as the Taylor series of some known function; the Taylor series article contains many examples.
+In many situations "c" is equal to zero, for instance when considering a Maclaurin series.
+In such cases, the power series takes the simpler form
+These power series arise primarily in analysis, but also occur in combinatorics (under the name of generating functions) and in electrical engineering (under the name of the Z-transform). The familiar decimal notation for integers can also be viewed as an example of a power series, but with the argument "x" fixed at 10. In number theory, the concept of p-adic numbers is also closely related to that of a power series.

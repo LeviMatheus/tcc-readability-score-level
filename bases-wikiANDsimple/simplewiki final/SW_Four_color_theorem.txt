@@ -1,0 +1,3 @@
+The four color theorem is a theorem of mathematics. It says that in any plane surface with regions in it, the regions can be colored with no more than four colors. Two regions that have a common border must not get the same color. They are called "adjacent" (next to each other) if they share a segment of the border, not just a point.
+This was the first theorem to be proved by a computer. Not all mathematicians accept the proof. The proof can not be done by hand.
+It is quite obvious, that there are maps that cannot be colored in this way with only three colors. On the other hand, five colors are enough for every map.

@@ -1,0 +1,1 @@
+Simply, data integrity is to make sure that data is "consistent" and "correct".

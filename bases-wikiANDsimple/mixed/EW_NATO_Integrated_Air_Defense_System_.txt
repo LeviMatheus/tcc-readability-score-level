@@ -1,0 +1,81 @@
+
+The NATO Integrated Air Defense System (short: NATINADS) is a command and control network combining radars and other facilities spread throughout the NATO alliance's air defence forces. It formed in the mid-1950s and became operational in 1962 as NADGE. It has been constantly upgraded since its formation, notably with the integration of Airborne Early Warning aircraft in the 1970s. The United Kingdom maintained its own network, but was fully integrated with the network since the introduction of the Linesman/Mediator network in the 1970s. Similarly, the German network maintained an independent nature through GEADGE.
+Development.
+Development was approved by the NATO Military Committee in December 1955. The system was to be based on four air defense regions (ADRs) coordinated by SACEUR (Supreme Allied Commander Europe). Starting from 1956 early warning coverage was extended across Western Europe using 18 radar stations. This part of the system was completed by 1962. Linked to existing national radar sites the coordinated system was called the NATO Air Defence Ground Environment (NADGE).
+From 1960 NATO countries agreed to place all their air defence forces under the command of SACEUR in the event of war. These forces included command &amp; control (C2) systems, radar installations, and Surface-to-Air (SAM) missile units as well as interceptor aircraft.
+By 1972 NADGE was converted into NATINADS consisting of 84 radar sites and associated Control Reporting Centers (CRC) and in the 1980s the Airborne Early Warning / Ground Environment Integration Segment (AEGIS) upgraded the NATINADS with the possibility to integrate the AWACS radar picture and all of its information into its visual displays. (NOTE: This AEGIS is not to be confused with the U.S.Navy AEGIS, a shipboard fire control radar and weapons system.) AEGIS processed the information through Hughes H5118ME computers, which replaced the H3118M computers installed at NADGE sites in the late 1960s and early 1970s.
+NATINADS ability to handle data increased with faster clock rates. The H5118M computer had a staggering 1 megabyte of memory and could handle 1.2 million instructions per second while the former model had a memory of only 256 kilobytes and a clock speed of 150,000 instructions per seconds.
+NATINADS/AEGIS were complemented, in West Germany by the German Air Defence Ground Environment (GEADGE), an updated radar network adding the southern part of Germany to the European system and Coastal Radar Integration System (CRIS), adding data links from Danish coastal radars.
+In order to counter the hardware obsolescence, during the mid-1990s NATO started the AEGIS Site Emulator (ASE) program allowing the NATINADS/AEGIS sites to replace the proprietary hardware (the 5118ME computer and the various operator consoles IDM-2, HMD-22, IDM-80) with commercial-off-the-shelf (COTS) servers and workstations.
+In the first years 2000, the initial ASE capability was expanded with the possibility to run, thanks to the new hardware power, multiple site emulators on the same hardware, so the system was renamed into Multi-AEGIS Site Emulator (MASE). The NATO system designed to replace MASE in the near future is the Air Command and Control System (ACCS).
+Because of changing politics, NATO expanding and financial crises most European (NATO) countries are trying to cut defence budgets; as a direct result, many obsolete and outdated NATINADS facilities are phased out earlier. As of 2013, operational NATO radar sites in Europe are as follows:
+Allied Air Command.
+Allied Air Command (AIRCOM) is the central command of all NATO air forces on the European continent. The command is based at Ramstein Air Base in Germany and has two subordinate commands in Germany and Spain. The Royal Canadian Air Force and United States Air Force fall under command of the Canadian/American North American Aerospace Defense Command.
+Radar stations.
+Albania.
+The Albanian Air Force operates Lockheed Martin AN/TPS-77 radars.
+Belgium.
+The Belgian Air Component's Control and Reporting Centre was based at Glons, where also its main radar was located. The radar was deactivated in 2015 and the Centre moved to Beauvechain Air Base in 2020. The Belgian Control and Reporting Centre reports to CAOC Uedem in Germany and is also responsible for guarding the airspace of Luxembourg. At the new location the Control and Reporting Centre uses digital radar data of the civilian radars of Belgocontrol and the Marconi S-723 radar of the Air Component's Air Traffic Control Centre in Semmerzake.
+Bulgaria.
+The Bulgarian Air Force's Air Sovereignty Operations Centre is located in Sofia and reports to CAOC Torrejón. The Bulgarian Air Force fields three control and surveillance zones, which operate obsolete Soviet-era radars. The Bulgarian Air Force intends to replace these radars with fewer, but more capable Western 3-D radars as soon as possible. The future locations of the new radars are as of 2018 unknown.
+Canada.
+The Royal Canadian Air Force's control centres and radar stations are part of the Canadian/American North American Aerospace Defense Command.
+Croatia.
+The Croatian Air Force and Air Defense's Airspace Surveillance Centre is headquartered in Podvornica and reports to CAOC Torrejón.
+Czech Republic.
+The Czech Air Force's Control and Reporting Centre is located in Hlavenec and reports to CAOC Uedem.
+Denmark.
+The Royal Danish Air Force's Combined Air Operations Centre (CAOC 1) in Finderup was deactivated in 2008 and replaced at the same location by the Combined Air Operations Centre Finderup (CAOC F), which had responsibility for the airspaces of Iceland, Norway, Denmark and the United Kingdom. CAOC F was deactivated in 2013 and its responsibilities were transferred to CAOC Uedem in Germany. The national Danish Control and Reporting Centre is located at Karup Air Base and it reports to CAOC Uedem.
+The Thule Air Base in Greenland is a United States Air Force installation and its radars are part of the North American Aerospace Defense Command.
+Estonia.
+The Estonian Air Force's Air Operations Control Centre is located at Ämari Air Base and reports to the Baltic Air Surveillance Network's Regional Airspace Surveillance Coordination Centre (RASCC) in Karmėlava, Lithuania, which in turn reports to CAOC Uedem.
+France.
+The French Air and Space Force's Air Operations Centre is located at Mont Verdun Air Base and reports to CAOC Uedem. Most French radar sites use the PALMIER radar, which is being taken out of service. By 2022 all PALMIER radars will have been replaced with new radar stations using the GM 403 radar.
+Additionally the French Air and Space Force fields a GM 406 radar at the Cayenne-Rochambeau Air Base in French Guiana to protect the Guiana Space Centre in Kourou.
+Germany.
+The German Air Force's Combined Air Operations Centre (CAOC 2) in Uedem was deactivated in 2008 and reactivated as CAOC Uedem in 2013. CAOC Uedem is responsible for the NATO airspace North of the Alps. The HADR radars are a variant of the HR-3000 radar, while the RRP-117 radars are a variant of the AN/FPS-117.
+Greece.
+1st Area Control Centre, inside Mount Chortiatis, with Marconi S-743D
+2nd Area Control Centre, inside Mount Parnitha, with Marconi S-743D
+9th Control and Warning Station Squadron, on Mount Pelion, with Marconi S-743D
+10th Control and Warning Station Squadron, on Mount Chortiatis, with Marconi S-743D
+The Hellenic Air Force's Combined Air Operations Centre (CAOC 7) at Larissa Air Base was deactivated in 2013 and its responsibilities transferred to the CAOC Torrejón in Spain. The Hellenic Air Force fields two HR-3000, four AR-327 and six Marconi S-743D radar systems, however as of 2018 the air force is in the process of replacing some of its older systems with three RAT-31DL radars.
+Hungary.
+The Hungarian Air Force's Air Operations Centre is located in Veszprém and reports to CAOC Uedem. There are additional three radar companies with Soviet-era equipment subordinate to the 54th Radar Regiment "Veszprém", however it is unclear if they will remain in service once Hungary's newest radar at Medina reaches full operational capability.
+Iceland.
+The Iceland Air Defense System, which is part of the Icelandic Coast Guard, monitors Iceland's airspace. Air Defense is provided by fighter jets from NATO allies, which rotate units for the Icelandic Air Policing mission to Keflavik Air Base.
+The Iceland Air Defense System's Control and Reporting Centre is at Keflavik Air Base and reports to CAOC Uedem in Germany.
+Italy.
+The Italian Air Force's Combined Air Operations Centre (CAOC 5) in Poggio Renatico was deactivated in 2013 and replaced with the Mobile Command and Control Regiment (RMCC) at Bari Air Base, while the Centre's responsibilities were transferred to the CAOC Torrejón in Spain.
+Latvia.
+The Latvian Air Force's Air Operations Centre is located at Lielvārde Air Base and reports to the Baltic Air Surveillance Network's Regional Airspace Surveillance Coordination Centre (RASCC) in Karmėlava, Lithuania, which in turn reports to CAOC Uedem.
+Lithuania.
+The Lithuanian Air Force's Air Operations Control Centre is located in Karmėlava and reports to the Baltic Air Surveillance Network's Regional Airspace Surveillance Coordination Centre (RASCC) co-located in Karmėlava, which in turn reports to CAOC Uedem.
+Luxembourg.
+Luxembourg's airspace is monitored and guarded by the Belgian Air Component's Control and Reporting Centre at Beauvechain Air Base.
+Montenegro.
+The Armed Forces of Montenegro do not possess a modern air defense radar and the country's airspace is monitored by Italian Air Force radar sites. The Armed Forces Air Surveillance and Reporting Centre is located at Podgorica Airport in Golubovci and reports to CAOC Torrejón in Spain.
+Netherlands.
+The Royal Netherlands Air Force's Air Operations Centre is located at Nieuw-Milligen and reports to CAOC Uedem. The air force's main radars are being replaced with two modern SMART-L GB radars.
+Norway.
+The Royal Norwegian Air Force's Combined Air Operations Centre (CAOC 3) in Reitan was deactivated in 2008 and its responsibilities were transferred to the Combined Air Operations Centre Finderup (CAOC F). After CAOC F was deactivated in 2013 the responsibility for the air defense of Norway was transferred to CAOC Uedem in Germany and the Royal Norwegian Air Force's Control and Reporting Centre in Sørreisa reports to it. Until 2016 the Royal Norwegian Air Force's radar installations were distributed between two CRCs. That year the CRC Mågerø was disbanded. In its place a wartime mobilization back-up CRC has been formed with a reduction in personnel from the around active 170 duty to about 50 air force home guardsmen. The SINDRE I radars are a variant of the HR-3000 radar, which is also used in the German HADR radars. The newer RAT-31SL/N radars are sometimes designated SINDRE II.
+Poland.
+The Polish Armed Forces Operational Command's Air Operations Centre is located in the Warsaw-Pyry neighborhood and reports to CAOC Uedem. The 3rd "Wrocław" Radiotechnical Brigade is responsible for the operation of the Armed Forces radar equipment. As of 2021 the Polish Air Force possesses three NUR-12M and three RAT-31DL long-range radars making up BACKBONE system, which are listed below.
+Portugal.
+The Portuguese Air Force's Combined Air Operations Centre (CAOC 10) in Lisbon was deactivated in 2013 and its responsibilities were transferred to CAOC Torrejón in Spain.
+Romania.
+The Romanian Air Force's Air Operations Centre is headquartered in Bucharest and reports to CAOC Torrejón. The radar station in Bârnova is officially designated and operated as a civilian radar station, however its data is fed into the military air surveillance system.
+Slovakia.
+The Slovak Air Force's Air Operations Centre is located at Sliač Air Base and reports to CAOC Uedem. The Slovak Air Force still operates obsolete Soviet-era radars, which it intends to replace with fewer, but more capable Western 3-D radars as soon as possible. The future locations of the new radars are as of 2018 unknown.
+Slovenia.
+The Slovenian Air Force and Air Defense's Airspace Surveillance and Control Centre is headquartered in Brnik and reports to CAOC Torrejón.
+The Italian Air Force's 4th Wing at Grosseto Air Base and 36th Wing at Gioia del Colle Air Base rotate a QRA flight of Eurofighter Typhoons to Istrana Air Base, which are responsible for the air defense of Northern Italy and Slovenia.
+Spain.
+The Spanish Air Force's Combined Air Operations Centre (CAOC 8) at Torrejón Air Base was deactivated in 2013 and replaced at same location by CAOC Torrejon, which took over the functions of CAOC 5, CAOC 7, CAOC 8 and CAOC 10. CAOC Torrejón is responsible for the NATO airspace South of the Alps.
+Turkey.
+The Turkish Air Force's Combined Air Operations Centre (CAOC 6) in Eskisehir was deactivated in 2013 and its responsibilities were transferred to CAOC Torrejón in Spain. Turkey's Air Force fields a mix of HR-3000, AN/FPS-117, RAT-31SL and RAT-31DL radars, however the exact number of each of these radar and their location in the Turkish radar system is unknown.
+United Kingdom.
+The Royal Air Force's Combined Air Operations Centre (CAOC 9) at RAF High Wycombe was deactivated in 2008 and its responsibilities were transferred to the Combined Air Operations Centre Finderup (CAOC F). After CAOC F was deactivated in 2013 the responsibility for the air defense of the United Kingdom was transferred to CAOC Uedem in Germany. The Royal Air Force's Control and Reporting Centres report to it.
+United States.
+The United States Air Force's control centres and radar stations are part of the Canadian/American North American Aerospace Defense Command.
+

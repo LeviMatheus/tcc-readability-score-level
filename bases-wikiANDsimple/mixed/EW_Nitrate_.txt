@@ -1,0 +1,37 @@
+
+Nitrate is a polyatomic ion with the chemical formula . Salts containing this ion are called nitrates. Nitrates are common components of fertilizers and explosives. Almost all inorganic nitrates are soluble in water. An example of an insoluble nitrate is Bismuth oxynitrate.
+Structure.
+The ion is the conjugate base of nitric acid, consisting of one central nitrogen atom surrounded by three identically bonded oxygen atoms in a trigonal planar arrangement. The nitrate ion carries a formal charge of −1. This charge results from a combination formal charge in which each of the three oxygens carries a − charge, whereas the nitrogen carries a +1 charge, all these adding up to formal charge of the polyatomic nitrate ion. This arrangement is commonly used as an example of resonance. Like the isoelectronic carbonate ion, the nitrate ion can be represented by resonance structures:
+Dietary nitrates.
+A rich source of inorganic nitrate in the human diets come from leafy green foods, such as spinach and arugula. (inorganic nitrate) is the viable active component within beetroot juice and other vegetables. Drinking water is also a dietary source.
+Dietary nitrate supplementation delivers positive results when testing endurance exercise performance.
+Ingestion of large doses of nitrate either in the form of pure sodium nitrate or beetroot juice in young healthy individuals rapidly increases plasma nitrate concentration about 2-3 fold, and this elevated nitrate concentration can be maintained for at least 2 weeks. Increased plasma nitrate stimulates the production of nitric oxide. Nitric oxide is important physiological signalling molecule that is used in, among other things, regulation of muscle blood flow and mitochondrial respiration.
+Cured meats.
+Nitrite consumption is primarily determined by the amount of processed meats eaten, and the concentration of nitrates in these meats. Although nitrites are the nitrogen compound chiefly used in meat curing, nitrates are used as well. Nitrates lead to the formation of nitrosamines. The production of carcinogenic nitrosamines may be inhibited by the use of the antioxidants vitamin C and the alpha-tocopherol form of vitamin E during curing.
+Anti-hypertensive diets, such as the DASH diet, typically contain high levels of nitrates, which are first reduced to nitrite in the saliva, as detected in saliva testing, prior to forming nitric oxide.
+Occurrence and production.
+Nitrate salts are found naturally on earth as large deposits, particularly of nitratine, a major source of sodium nitrate.
+Nitrates are produced by a number of species of nitrifying bacteria in the natural environment using ammonia or urea as a source of nitrogen. Nitrate compounds for gunpowder were historically produced, in the absence of mineral nitrate sources, by means of various fermentation processes using urine and dung.
+Lightning strikes in earth's nitrogen-oxygen rich atmosphere produce a mixture of oxides of nitrogen which form nitrous ions and nitrate ions which are washed from the atmosphere by rain or in occult deposition.
+Nitrates are produced industrially from nitric acid.
+Uses.
+Nitrates are mainly produced for use as fertilizers in agriculture because of their high solubility and biodegradability. The main nitrate fertilizers are ammonium, sodium, potassium, calcium, and magnesium salts. Several million kilograms are produced annually for this purpose.
+The second major application of nitrates is as oxidizing agents, most notably in explosives where the rapid oxidation of carbon compounds liberates large volumes of gases (see gunpowder for an example). Sodium nitrate is used to remove air bubbles from molten glass and some ceramics. Mixtures of the molten salt are used to harden some metals.
+Detection.
+Almost all methods for detection of nitrate rely on its conversion to nitrite followed by nitrite-specific tests. The reduction of nitrate to nitrite is effected by copper-cadmium material. The sample is introduced with a flow injection analyzer, and the resulting nitrite-containing effluent is then combined with a reagent for colorimetric or electrochemical detection. The most popular of these assays is the Griess test, whereby nitrite is converted to a deeply colored azo dye, suited for UV-vis spectroscopic analysis. The method exploits the reactivity of nitrous acid derived from acidification of nitrite. Nitrous acid selectively reacts with aromatic amines to give diazonium salts, which in turn couple with a second reagent to give the azo dye. The detection limit is 0.02 to 2 μM. Methods have been highly adapted to biological samples.
+Safety.
+The acute toxicity of nitrate is low. "Substantial disagreement" exists about the long-term risks of nitrate exposure. The two areas of possible concern are that (i) nitrate could be a precursor to nitrite in the lower gut, and nitrite is a precursor to nitrosamines, which are implicated in carcinogenesis, and (ii) nitrate is implicated in methemoglobinemia, a disorder of red blood cells hemoglobin.
+Methemoglobinemia.
+Nitrates do not affect infants and pregnant women. Blue baby syndrome is caused by a number of other factors such as gastric upset, such as diarrheal infection, protein intolerance, heavy metal toxicity etc., with nitrates playing a minor role.
+Drinking water standards.
+Through the Safe Drinking Water Act, the United States Environmental Protection Agency has set a maximum contaminant level of 10 mg/L or 10 ppm of nitrates in drinking water.
+An acceptable daily intake (ADI) for nitrate ions was established in the range of 0–3.7 mg (kg body weight)−1 day−1 by the Joint FAO/WHO Expert Committee on Food additives (JEFCA).
+Aquatic toxicity.
+In freshwater or estuarine systems close to land, nitrate can reach concentrations that are lethal to fish. While nitrate is much less toxic than ammonia, levels over 30 ppm of nitrate can inhibit growth, impair the immune system and cause stress in some aquatic species. Nitrate toxicity remains the subject of debate.
+In most cases of excess nitrate concentrations in aquatic systems, the primary sources are wastewater discharges, as well as surface runoff from agricultural or landscaped areas that have received excess nitrate fertilizer. The resulting eutrophication and algae blooms result in anoxia and dead zones. As a consequence, as nitrate forms a component of total dissolved solids, they are widely used as an indicator of water quality.
+Domestic animal feed.
+Symptoms of nitrate poisoning in domestic animals include increased heart rate and respiration; in advanced cases blood and tissue may turn a blue or brown color. Feed can be tested for nitrate; treatment consists of supplementing or substituting existing supplies with lower nitrate material. Safe levels of nitrate for various types of livestock are as follows:
+The values above are on a dry (moisture-free) basis.
+Salts and covalent derivatives.
+Nitrate formation with elements of the periodic table.
+

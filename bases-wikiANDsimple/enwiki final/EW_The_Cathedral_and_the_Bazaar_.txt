@@ -1,0 +1,15 @@
+
+The Cathedral and the Bazaar: Musings on Linux and Open Source by an Accidental Revolutionary (abbreviated CatB) is an essay, and later a book, by Eric S. Raymond on software engineering methods, based on his observations of the Linux kernel development process and his experiences managing an open source project, fetchmail. It examines the struggle between top-down and bottom-up design. The essay was first presented by the author at the Linux Kongress on May 27, 1997 in Würzburg (Germany) and was published as part of the sametitled book in 1999.
+The illustration on the cover of the book is a 1913 painting by titled "Composition with Figures" and belongs to the collection of the State Tretyakov Gallery.
+The book was released under the Open Publication License v2.0 in 1999.
+"The Cathedral and the Bazaar".
+The essay contrasts two different free software development models:
+The essay's central thesis is Raymond's proposition that "given enough eyeballs, all bugs are shallow" (which he terms Linus's law): the more widely available the source code is for public testing, scrutiny, and experimentation, the more rapidly all forms of bugs will be discovered. In contrast, Raymond claims that an inordinate amount of time and energy must be spent hunting for bugs in the Cathedral model, since the working version of the code is available only to a few developers.
+Lessons for creating good open source software.
+Raymond points to 19 "lessons" learned from various software development efforts, each describing attributes associated with good practice in open source software development:
+Legacy and reception.
+In 1998, the essay helped the final push for Netscape Communications Corporation to release the source code for Netscape Communicator and start the Mozilla project; it was cited by Frank Hecker and other employees as an outside independent validation of his arguments. Netscape's public recognition of this influence brought Raymond renown in hacker culture.
+When O'Reilly Media published the book in 1999, it became one of the first (if not the first) complete and commercially distributed book published under the Open Publication License.
+Marshall Poe, in his essay "The Hive", likens Wikipedia to the Bazaar model that Raymond defines. Jimmy Wales himself was in fact inspired by the work (as well as arguments put forward in works prior to the Internet age, such as Friedrich Hayek's article "The Use of Knowledge in Society"), arguing that "It opened my eyes to the possibility of mass collaboration".
+In 1999 Nikolai Bezroukov published two cited critical essays on Eric Raymond's views on open source software, the second one called "A second look at "The Cathedral and the Bazaar"". They produced a sharp response from Eric Raymond.
+

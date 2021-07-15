@@ -1,0 +1,21 @@
+The Order of operations is a mathematical and Algebraic concept. It is used to simplify expressions and equations. The Order of operations defines the order in which different operations should be simplified. It is used for operations such as addition, subtraction, multiplication and division. It is critical to the solution of equations or expressions in the mathematics world.
+solve any math operations within parentheses and change any exponential notations to standard notations.
+Next, again starting on the left and working right, across the problem,
+solve any multiplication and division in the problem.
+Lastly, "and always lastly", working again from left to right solve any addition or subtraction left in the problem.
+The result is the answer to the problem.
+12 – 2²(9 – 6) + 5 ÷ 5
+First … Parenthesis and Exponent … what ever comes first as the person works from left to right.
+12 – 2²(9 – 6) + 5 ÷ 5
+12 – 4(3) + 5 ÷ 5.
+Once they have solved the operations within the parentheses they are no longer being used to define a grouping to do first, but now stand for multiplication.
+Second … Multiplication and Division … what ever comes first as they work from left to right.
+12 – 4(3) + 5 ÷ 5
+12 – 12 + 1.
+Third "and lastly" … Addition and Subtraction … what ever comes first as they work from left to right.
+1.
+12 – 2²(9 – 6) + 5 ÷ 5 = 1
+A good way to remember the Order of Operations is by memorizing the phrase “Please Excuse My Dear Aunt Sarah”. The first letter of each word of this phrase is key in remembering the order.
+Memorizing the phrase "“Please Excuse My Dear Aunt Sarah”" will help people remember the Order of Operations.
+Another good way of memorizing the Order of Operations is the word BIMDAS. The letters of the word represent the first letters of each word in the order of operations.
+I stands for Indices (indices are the same as exponents)

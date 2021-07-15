@@ -1,0 +1,25 @@
+
+KornShell (codice_1) is a Unix shell which was developed by David Korn at Bell Labs in the early 1980s and announced at USENIX on July 14, 1983. The initial development was based on Bourne shell source code. Other early contributors were Bell Labs developers Mike Veach and Pat Sullivan, who wrote the Emacs and vi-style line editing modes' code, respectively. KornShell is backward-compatible with the Bourne shell and includes many features of the C shell, inspired by the requests of Bell Labs users.
+KornShell, i.e. ksh2020, a "major release for several reasons" (such as removal of EBCDIC support, dropped support for binary plugins written for ksh93u+ and removal of some broken math functions), was released by AT&amp;T, but is not maintained or supported (by AT&amp;T; wasn't even on release date).
+Design.
+KornShell complies with POSIX.2, Shell and Utilities, Command Interpreter (IEEE Std 1003.2-1992.) Major differences between KornShell and the traditional Bourne shell include:
+History.
+KornShell was originally proprietary software. In 2000 the source code was released under a license particular to AT&amp;T, but since the ksh93q release in early 2005 it has been licensed under the Eclipse Public License. KornShell is available as part of the AT&amp;T Software Technology (AST) Open Source Software Collection. As KornShell was initially only available through a proprietary license from AT&amp;T, a number of free and open source alternatives were created. These include , , , and .
+The functionality of the original KornShell, , was used as a basis for the standard POSIX.2, Shell and Utilities, Command Interpreter (IEEE Std 1003.2-1992.)
+Some vendors still ship their own versions of the older variant, sometimes with extensions. is maintained on GitHub.
+As "Desktop KornShell" (), is distributed as part of the Common Desktop Environment. This version also provides shell-level mappings for Motif widgets. It was intended as a competitor to Tcl/Tk.
+The original KornShell, , became the default shell on AIX in version 4, with ksh93 being available separately.
+UnixWare 7 includes both and . The default Korn shell is , which is supplied as , and the older version is available as . UnixWare also includes when CDE is installed.
+The ksh93 distribution underwent a less stable fate after the authors left AT&amp;T around 2012 at stable version ksh93u+. The primary authors continued working on a ksh93v- beta branch until around 2014. That work was eventually taken up primarily by Red Hat in 2017 (due to customer requests) and resulted in the eventual initial release of ksh2020 in the Fall of 2019. That initial release (although fixing several prior stability issues) introduced some minor breakage and compatibility issues. In March 2020, AT&amp;T decided to roll back the community changes, stash them in a branch, and restart from ksh93u+, as the changes were too broad and too ksh-focused for the company to absorb into a project in maintenance mode. Bugfix development continues on the ksh93u+m branch, based on the last stable AT&amp;T release (ksh93u+ 2012-08-01).
+Primary contributions to the main software branch.
+For the purposes of the lists below, the main software branch of KSH is defined as the original program, dating from July of 1983, up and through the release of KSH2020 in late 2019.
+Continuing development of follow-on versions (branches) of KSH have split into different groups starting in 2020 and are not elaborated on below.
+primary individual contributors.
+The following are listed in a roughly ascending chronological order of their contributions:
+primary corporate contributors.
+The following are listed in a roughly ascending chronological order of their contributions:
+donated corporate resources.
+Besides the primary major contributing corporations (listed above), some companies have contributed free resources to the development of KSH. These are listed below (in no particular order).
+Variants.
+There are several software products related to KornShell:
+

@@ -1,0 +1,3 @@
+Anaconda is the installer for Red Hat Linux and Fedora. It is written in Python and C, with a graphical interface using PyGTK and a text inetrface using python-newt. A kickstart file can be used to automatically configure the installation, allowing users to run it without much supervision.
+Anaconda is used by RHEL, Fedora and a number of other projects, Anaconda offers a text-mode and GUI mode, so users can install on a wide range of systems.
+Anacondas are lizard-eating pythons, and the Caldera installation program was called "Lizard", hence this name was chosen.

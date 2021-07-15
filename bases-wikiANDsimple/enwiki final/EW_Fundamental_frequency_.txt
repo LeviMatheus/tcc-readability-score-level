@@ -1,0 +1,25 @@
+
+The fundamental frequency, often referred to simply as the fundamental, is defined as the lowest frequency of a periodic waveform. In music, the fundamental is the musical pitch of a note that is perceived as the lowest partial present. In terms of a superposition of sinusoids, the fundamental frequency is the lowest frequency sinusoidal in the sum of harmonically related frequencies, or the frequency of the difference between adjacent frequencies. In some contexts, the fundamental is usually abbreviated as 0, indicating the lowest frequency counting from zero. In other contexts, it is more common to abbreviate it as 1, the first harmonic. (The second harmonic is then 2 = 2⋅1, etc. In this context, the zeroth harmonic would be 0 Hz.)
+According to Benward's and Saker's "Music: In Theory and Practice":
+Explanation.
+All sinusoidal and many non-sinusoidal waveforms repeat exactly over time – they are periodic. The period of a waveform is the smallest value of for which the following equation is true:
+Where () is the value of the waveform at . This means that this equation and a definition of the waveform’s values over any interval of length is all that is required to describe the waveform completely. Waveforms can be represented by Fourier series.
+Every waveform may be described using any multiple of this period. There exists a smallest period over which the function may be described completely and this period is the fundamental period. The fundamental frequency is defined as its reciprocal:
+Since the period is measured in units of time, then the units for frequency are 1/time. When the time units are seconds, the frequency is in −1, also known as Hertz.
+For a tube of length with one end closed and the other end open the wavelength of the fundamental harmonic is 4, as indicated by the first two animations. Hence,
+Therefore, using the relation
+where is the speed of the wave, the fundamental frequency can be found in terms of the speed of the wave and the length of the tube:
+If the ends of the same tube are now both closed or both opened as in the last two animations, the wavelength of the fundamental harmonic becomes 2. By the same method as above, the fundamental frequency is found to be
+At 20 °C (68 °F) the speed of sound in air is 343 m/s (1129 ft/s). This speed is temperature dependent and increases at a rate of 0.6 m/s for each degree Celsius increase in temperature (1.1 ft/s for every increase of 1 °F).
+The velocity of a sound wave at different temperatures:
+In music.
+In music, the fundamental is the musical pitch of a note that is perceived as the lowest partial present. The fundamental may be created by vibration over the full length of a string or air column, or a higher harmonic chosen by the player. The fundamental is one of the harmonics. A harmonic is any member of the harmonic series, an ideal set of frequencies that are positive integer multiples of a common fundamental frequency. The reason a fundamental is also considered a harmonic is because it is 1 times itself.
+The fundamental is the frequency at which the entire wave vibrates. Overtones are other sinusoidal components present at frequencies above the fundamental. All of the frequency components that make up the total waveform, including the fundamental and the overtones, are called partials. Together they form the harmonic series. Overtones which are perfect integer multiples of the fundamental are called harmonics. When an overtone is near to being harmonic, but not exact, it is sometimes called a harmonic partial, although they are often referred to simply as harmonics. Sometimes overtones are created that are not anywhere near a harmonic, and are just called partials or inharmonic overtones.
+The fundamental frequency is considered the "first harmonic" and the "first partial". The numbering of the partials and harmonics is then usually the same; the second partial is the second harmonic, etc. But if there are inharmonic partials, the numbering no longer coincides. Overtones are numbered as they appear the fundamental. So strictly speaking, the "first" overtone is the "second" partial (and usually the "second" harmonic). As this can result in confusion, only harmonics are usually referred to by their numbers, and overtones and partials are described by their relationships to those harmonics.
+Mechanical systems.
+Consider a spring, fixed at one end and having a mass attached to the other; this would be a single degree of freedom (SDoF) oscillator. Once set into motion, it will oscillate at its natural frequency. For a single degree of freedom oscillator, a system in which the motion can be described by a single coordinate, the natural frequency depends on two system properties: mass and stiffness; (providing the system is undamped). The natural frequency, or fundamental frequency, 0, can be found using the following equation:
+where:
+To determine the natural frequency, the omega value is divided by 2. Or:
+where:
+While doing a modal analysis, the frequency of the 1st mode is the fundamental frequency.
+

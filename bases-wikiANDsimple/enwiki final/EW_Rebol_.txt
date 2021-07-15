@@ -1,0 +1,58 @@
+
+Rebol ( ; historically REBOL) is a cross-platform data exchange language and a multi-paradigm dynamic programming language designed by Carl Sassenrath for network communications and distributed computing. It introduces the concept of dialecting: small, optimized, domain-specific languages for code and data, which is also the most notable property of the language according to its designer Carl Sassenrath:
+Douglas Crockford, known for his involvement in the development of JavaScript, has described Rebol as "a more modern language, but with some very similar ideas to Lisp, in that it's all built upon a representation of data which is then executable as programs" and as one of JSON's influences.
+Originally, the language and its official implementation were proprietary and closed source, developed by REBOL Technologies. Following discussion with Lawrence Rosen, the Rebol version 3 interpreter was released under the Apache 2.0 license on December 12, 2012. Older versions are only available in binary form, and no source release for them is planned.
+Rebol has been used to program Internet applications (both client- and server-side), database applications, utilities, and multimedia applications.
+Etymology.
+Rebol was initially an acronym for Relative Expression Based Object Language written in all caps. To align with modern trends in language naming represented, e.g. by the change replacing historical name "LISP" by "Lisp", programmers ceased the practice of writing "REBOL" in all caps. Sassenrath eventually put the naming question to the community debate on his blog. In subsequent writing, Sassenrath adopted the convention of writing the language name as "Rebol".
+History.
+First released in 1997, Rebol was designed over a 20-year period by Carl Sassenrath, the architect and primary developer of AmigaOS, based on his study of denotational semantics and using concepts from the programming languages Lisp, Forth, Logo, and Self.
+Design.
+Ease of use.
+One of the Rebol design principles is "to do simple things in simple ways". In the following example the "Visual interface dialect" is used to describe a simple Hello world program with a graphical user interface:
+view layout [text "Hello world!" button "Quit" [quit]]
+This is how a similar example looks in R3-GUI:
+view [text "Hello world!" button "Quit" on-action [quit]]
+Dialects.
+Rebol domain-specific languages, called "dialects", are micro-languages optimized for a specific purpose. Dialects can be used to define business rules, graphical user interfaces or sequences of screens during the installation of a program. Users can define their own dialects, reusing any existing Rebol word and giving it a specific meaning in that dialect. Dialects are interpreted by functions processing Rebol blocks (or parsing strings) in a specific way.
+An example of Rebol's dialecting abilities can be seen with the word codice_1. In the "data exchange dialect" codice_1 is just a word not having any specific meaning. In the "do dialect", codice_1 is a global variable referring to a native function passing back a function result value. In the "visual interface dialect (VID)", codice_1 is a keyword causing the layout engine to simulate a carriage return, moving the "rendering pen" down to the beginning of the next line.
+A Rebol interpreter with graphical abilities must understand and interpret many dialects. The table below lists the most important ones in order of significance.
+Syntax.
+Rebol syntax is free-form, not requiring specific positioning. However, indentation is often used to better convey the structure of the text to human readers.
+Syntactic properties of different dialects may differ. The common platform for all Rebol dialects is the "data exchange dialect"; other dialects are usually derived from it. In addition to being the common platform for all dialects, the "data exchange dialect" is directly used to represent data and metadata, populate data structures, send data over Internet, and save them in data storage.
+In contrast to programming languages like C, the "data exchange dialect" does not consist of declarations, statements, expressions or keywords. A valid "data exchange dialect" text stream is a tree data structure consisting of blocks (the root block is implicit, subblocks are delimited by square brackets), parens (delimited by round brackets), strings (delimited by double quotes or curly brackets suitable for multi-line strings; caret notation is used for unprintable characters), URLs, e-mail addresses, files, paths or other composite values. Unlike ALGOL blocks, Rebol blocks are composite values similar to quoted s-expressions in Lisp. The fact that code is written in the form of Rebol blocks makes the language homoiconic.
+Blocks as well as parens may contain other composite values (a block may contain subblocks, parens, strings, ...) or scalar values like words, set-words (words suffixed by the colon), get-words (words prefixed by the colon), lit-words (words prefixed by the apostrophe), numbers, money, characters, etc., separated by whitespace. Note that special characters are allowed in words, so codice_5 is a word unlike codice_6, which is a sequence of three words separated by spaces.
+Comments may appear following the semicolon until the end of the line. Multi-line comments or comments not ignored by the lexical parser can be written using "ordinary" datatypes like multi-line strings.
+Semantics.
+Blocks containing domain-specific language can be submitted as arguments to specific "evaluator" functions.
+do.
+The most frequently used evaluator is the codice_7 function. It is used by default to interpret the text input to the interpreter console.
+The "do dialect" interpreted by the codice_7 function, is an expression-oriented sublanguage of the "data exchange dialect". The main semantic unit of the language is the expression. In contrast to imperative programming languages descending from ALGOL, the "do dialect" has neither keywords, nor statements.
+Words are used as case-insensitive variables. Like in all dynamically typed languages, variables don't have an associated type, type is associated with values. The result, i.e. the evaluation of a word is returned, when a word is encountered by the codice_7 function. The set-word form of a word can be used for assignment. While not having statements, assignment, together with functions with side-effects can be used for imperative programming.
+Subblocks of the root block evaluate to themselves. This property is used to handle data blocks, for structured programming by submitting blocks as arguments to control functions like codice_10, codice_11, codice_12, etc., and for dialecting, when a block is passed to a specific interpreter function.
+A specific problem worth noting is that composite values, assigned to variables, are not copied. To make a copy, the value must be passed to the codice_13 function.
+The codice_7 function normally follows a prefix style of evaluation, where a function processes the arguments that follow it. However, infix evaluation using infix operators exists too. Infix evaluation takes precedence over the prefix evaluation. For example,
+ abs -2 + 3
+returns 1, since the infix addition takes precedence over the computation of the absolute value. When evaluating infix expressions, the order of evaluation is left to right, no operator takes precedence over another. For example,
+2 + 3 * 4
+returns 20, while an evaluation giving precedence to multiplication would yield 14. All operators have prefix versions. codice_15 usually evaluates arguments before passing them to a function. So, the below expression:
+ print read http://en.wikipedia.org/wiki/Rebol
+first reads the Wikipedia Rebol page and then passes the result to the codice_16 function. Parentheses can be used to change the order of evaluation. Using prefix notation, the usage of parentheses in expressions can be avoided.
+The simple precedence rules are both an advantage:
+as well as a disadvantage:
+parse.
+The codice_17 function is preferably used to specify, validate, transform and interpret dialects. It does so by matching "parse expressions" at run time.
+"Parse expressions" are written in the "parse dialect", which, like the "do dialect", is an expression-oriented sublanguage of the "data exchange dialect". Unlike the "do dialect", the "parse dialect" uses keywords representing operators and the most important nonterminals, infix parsing operators don't have prefix equivalents and use precedence rules ("sequence" has higher precedence than "choice").
+Actions can be included to be taken during the parsing process as well and the codice_17 function can be used to process blocks or strings. At the "string parsing" level codice_17 must handle the "low level" parsing, taking into account characters and delimiters. "Block parsing" is higher level, handling the scanning at the level of Rebol values.
+The parse dialect belongs to the family of grammars represented by the top-down parsing language or the parsing expression grammar (PEG). The main similarity is the presence of the "sequence" and "choice" operators all the family members have. Parse dialect syntax and the similarities between the parse dialect and the PEG are illustrated by this transliteration of a PEG example that parses an arithmetic expression:
+Digit: charset [#"0" - #"9"]
+Value: [some Digit | "(" Expr ")"]
+Product: [Value any "/"] Value
+Sum: [Product any "-"] Product
+Expr: Sum
+parse/all "12+13" Expr
+Implementations.
+The official Rebol 2.7.8 implementation is available in several editions ("/Core", "/View", "/Command", "/SDK" and "/IOS"). Both "/Core" and "/View" editions are freely redistributable software.
+The runtime environment is stored in a single executable file. "Rebol/Core" 2.7.8, the console edition, is about 300 KB and "Rebol/View" 2.7.8, the graphical user interface edition, is about 650 KB in size.
+"Rebol/View" provides platform-independent graphics and sound access, and comes with its own windowing toolkit and extensible set of styles (GUI widgets). Extended editions, such as "Rebol/Command" 2.7.8 or "Rebol/SDK" 2.7.8 require a paid license; they add features like ODBC data access, and the option to create standalone executable files.
+

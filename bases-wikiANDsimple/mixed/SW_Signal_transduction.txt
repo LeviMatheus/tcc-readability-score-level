@@ -1,0 +1,17 @@
+In biology, signal transduction means any process by which a cell converts one kind of signal or stimulus into another.
+Most often ordered sequences of biochemical reactions inside the cell are involved. These are carried out by enzymes and linked through second messengers. So a "second messenger pathway" is produced. Such processes are usually rapid. They last only milliseconds (in the case of ion flux) or minutes (in the activation of protein and lipid mediated kinase cascades).
+In many signal transduction processes, the number of proteins and other molecules that take part increases during the process. So a "signal cascade" develops and often a relatively small stimulus causes a large response.
+In bacteria and other single-cell organisms, the variety of signal transduction processes of which the cell is capable influences how many ways it can react and respond to its environment. In multicellular organisms, lots of different signal transduction processes are used to coordinate the behavior of individual cells. By this means the function of the organism as a whole is organized. The more complex the organism, the more complex the repertoire of signal transduction processes the organism must possess.
+Thus, sensing of both the external and internal environment at the cellular level, relys on signal transduction. Many disease processes such as diabetes, heart disease, autoimmunity and cancer arise from defects in signal transduction pathways, further highlighting the critical importance of signal transduction to biology as well as medicine.
+Stimulatory Molecules.
+Signal transduction usually involves the binding of small extracellular signaling molecules to receptors that face outwards from the plasma membrane and trigger events inside the cell.
+Environmental stimuli.
+In addition to many of the regular signal transduction stimuli listed above, in complex organisms, there are also examples of additional environmental stimuli that initiate signal transduction processes. Environmental stimuli may also be molecular in nature (as above) or more physical, such as, light striking cells in the retina of the eye,
+odorants binding to odorant receptors in the nasal epithelium,
+and bitter and sweet tastes stimulating taste receptors in the taste buds.
+Unicellular organisms may also respond to environmental stimuli via the activation of signal transduction pathways.
+Types of receptor.
+Ligand gated ion channel receptors are a class of receptor that may occur both at the cell-surface or intracellularly.
+Receptors that are solely intracellular include those for steroid hormones, thyroid hormone, retinoic acid and derivatives of vitamin D3. In contrast to ligands that bind to cell surface receptors, in order to initiate signal transduction these ligands must cross the cell membrane. See the intracellular receptors section below for more details.
+Cell-surface receptors.
+Cell-surface receptors are integral transmembrane proteins and recognise the vast majority of extracellular signaling molecules.

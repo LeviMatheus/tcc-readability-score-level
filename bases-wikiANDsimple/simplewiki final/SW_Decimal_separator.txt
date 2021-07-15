@@ -1,0 +1,1 @@
+The decimal separator is a symbol used to mark the border between the integral and the fractional parts of a decimal numeral. As this symbol can be a period "." or a comma ",", decimal point and decimal comma are common names for the decimal separator. For example 9.5 means nine and one half in English speaking countries.

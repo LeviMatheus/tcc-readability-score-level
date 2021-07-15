@@ -1,0 +1,25 @@
+
+The Torino scale is a method for categorizing the impact hazard associated with near-Earth objects (NEOs) such as asteroids and comets.
+It is intended as a communication tool for astronomers and the public to assess the seriousness of collision predictions, by combining probability statistics and known kinetic damage potentials into a single threat value. The Palermo Technical Impact Hazard Scale is a similar, but more complex scale.
+Overview.
+The Torino Scale uses an integer scale from 0 to 10. A 0 indicates an object has a negligibly small chance of collision with the Earth, compared with the usual "background noise" of collision events, or is too small to penetrate Earth's atmosphere intact. A 10 indicates that a collision is certain, and the impacting object is large enough to precipitate a global disaster.
+An object is assigned a 0 to 10 value based on its collision probability and the kinetic energy (expressed in megatons of TNT) of the possible collision.
+The Torino Scale is defined only for potential impacts less than 100 years in the future.
+"For an object with multiple potential collisions on a set of dates, a Torino Scale value should be determined for each date. It may be convenient to summarize such an object by the greatest Torino Scale value within the set."
+History and naming.
+The Torino Scale was created by Professor Richard P. Binzel in the Department of Earth, Atmospheric, and Planetary Sciences, at the Massachusetts Institute of Technology (MIT). The first version, called "A Near-Earth Object Hazard Index", was presented at a United Nations conference in 1995 and was published by Binzel in the subsequent conference proceedings ("Annals of the New York Academy of Sciences," volume 822, 1997.)
+A revised version of the "Hazard Index" was presented at a June 1999 international conference on NEOs held in Torino (Turin), Italy. The conference participants voted to adopt the revised version, where the bestowed name "Torino Scale" recognizes the spirit of international cooperation displayed at that conference toward research efforts to understand the hazards posed by NEOs. ("Torino Scale" is the proper usage, not "Turin Scale.")
+Due to exaggerated press coverage of Level 1 asteroids, a rewording of the Torino Scale was published in 2005, adding more details and renaming the categories: in particular, Level 1 was changed from "Events meriting careful monitoring" to "Normal".
+The Torino Scale has served as the model for the Rio Scale which quantifies the validity and societal impact of SETI data.
+Current Torino scale.
+The Torino Scale also uses a color code scale: white, green, yellow, orange, red. Each color code has an overall meaning:
+No incoming object has ever been rated above level 4, though over all Earth's history impacts have spanned the full range of damage described by the scale.
+Actual impacts and impact energy comparisons.
+The Chicxulub impact, believed by most scientists to be a significant factor in the extinction of the non-avian dinosaurs, has been estimated at 100 million (108) megatons, or Torino Scale 10. The impacts which created the Barringer Crater and the 1908 Tunguska event are both estimated to be in the 3–10 megaton range, corresponding to Torino Scale 8. The 2013 Chelyabinsk meteor had a total kinetic energy prior to impact of about 0.5 megatons, corresponding to Torino Scale 0. Between 2000 and 2013, 26 asteroid impacts with an energy of 1–600 kilotons were detected.
+The biggest hydrogen bomb ever exploded, the Tsar Bomba, was around 50 megatons.
+The 1883 eruption of Krakatoa was the equivalent of roughly 200 megatons.
+The comet C/2013 A1, which passed close to Mars in 2014, was originally estimated to have a potential impact energy of 5 million to 24 billion megatons, and in March 2013 was estimated to have a Mars impact probability of ~1:1250, corresponding to the Martian equivalent of Torino Scale 6. The impact probability was reduced to ~1:120000 in April 2013, corresponding to Torino Scale 1 or 2.
+Objects with non-zero Torino ratings.
+Downgraded to zero.
+This is a partial list of near-Earth asteroids that have been listed with a Torino Scale rating of 1+ and been lowered to 0 or been removed from the Sentry Risk Table altogether. Most objects that reach a Torino Scale of 1 have a short observation arc of less than 2 weeks and are quickly removed as the observation arc gets longer and more accurate.
+

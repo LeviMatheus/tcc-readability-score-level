@@ -1,0 +1,2 @@
+In logic, the truth value of a logical statement says how much it is true. Usually, the truth value can only be "true" or "false". For example, "The car is red" is true when the car is red and false when it is not.
+In multi-valued logics, the truth value can be other values as well. For example, one could use a value between 0 and 1 to say how much it is true. Zero would mean that it is completely false and one would mean that is completely true. When the car is orange (half red, half yellow), the truth value could be 0.5 because the statement is half true and half false.

@@ -1,0 +1,3 @@
+Here are some words for small numbers. Words in bold are irregular.
+When writing other numbers between 21 and 99, you must use a hyphen (-).
+The number 100 is written as "one hundred", but sometimes people say "a hundred".

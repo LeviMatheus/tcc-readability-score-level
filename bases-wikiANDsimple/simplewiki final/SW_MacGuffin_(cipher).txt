@@ -1,0 +1,6 @@
+In cryptography, MacGuffin is a block cipher created in 1994 by Bruce Schneier and Matt Blaze at a Fast Software Encryption workshop. It was intended as a catalyst for analysis of a new cipher structure, known as Generalized Unbalanced Feistel Networks (GUFNs).
+Schneier and Blaze based MacGuffin on DES, their main change was spliting the DES 64 bits data block into two unequal halves in the Feistel network, 48 bits of the 64-bit data block are fed through the round function, whose output is XORed with the other 16 bits of the data block.
+MacGuffin's key schedule is a modified version of the encryption algorithm itself. Since MacGuffin is a Feistel network, decryption is easy; simply run the encryption algorithm in reverse.
+The algorithm was experimental, intended to explore the security properties of unbalanced Feistel networks. The cryptanalysis proceeded very quickly, so quickly that the cipher was broken using differential cryptanalysis at the same workshop by Vincent Rijmen and Bart Preneel. They also tried attacking MacGuffin with different S-boxes, taken directly from DES. This version was slightly stronger.
+Rijmen and Preneel warn that designing an algorithm to resist only known attacks is generally not a good design principle.
+Schneier and Blaze recommended using 32 "rounds", and specified MacGuffin with a 128-bit key.

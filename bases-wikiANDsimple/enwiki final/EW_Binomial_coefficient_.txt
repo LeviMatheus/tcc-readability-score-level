@@ -1,0 +1,281 @@
+
+In mathematics, the binomial coefficients are the positive integers that occur as coefficients in the binomial theorem. Commonly, a binomial coefficient is indexed by a pair of integers and is written formula_1 It is the coefficient of the term in the polynomial expansion of the binomial power , and is given by the formula
+For example, the fourth power of is
+and the binomial coefficient formula_4 is the coefficient of the term.
+Arranging the numbers formula_5 in successive rows for formula_6 gives a triangular array called Pascal's triangle, satisfying the recurrence relation 
+The binomial coefficients occur in many areas of mathematics, and especially in combinatorics. The symbol formula_8 is usually read as " choose " because there are formula_8 ways to choose an (unordered) subset of elements from a fixed set of elements. For example, there are formula_10 ways to choose 2 elements from formula_11 namely formula_12 and formula_13
+The binomial coefficients can be generalized to formula_14 for any complex number and integer , and many of their properties continue to hold in this more general form.
+History and notation.
+Andreas von Ettingshausen introduced the notation formula_15 in 1826, although the numbers were known centuries earlier (see Pascal's triangle). The earliest known detailed discussion of binomial coefficients is in a tenth-century commentary, by Halayudha, on an ancient Sanskrit text, Pingala's "Chandaḥśāstra". In about 1150, the Indian mathematician Bhaskaracharya gave an exposition of binomial coefficients in his book "Līlāvatī".
+Alternative notations include , , , , , and in all of which the stands for "combinations" or "choices". Many calculators use variants of the because they can represent it on a single-line display. In this form the binomial coefficients are easily compared to -permutations of, written as , etc.
+Definition and interpretations.
+For natural numbers (taken to include 0) "n" and "k", the binomial coefficient formula_15 can be defined as the coefficient of the monomial "X""k" in the expansion of . The same coefficient also occurs (if ) in the binomial formula
+(valid for any elements "x", "y" of a commutative ring),
+which explains the name "binomial coefficient".
+Another occurrence of this number is in combinatorics, where it gives the number of ways, disregarding order, that "k" objects can be chosen from among "n" objects; more formally, the number of "k"-element subsets (or "k"-combinations) of an "n"-element set. This number can be seen as equal to the one of the first definition, independently of any of the formulas below to compute it: if in each of the "n" factors of the power one temporarily labels the term "X" with an index "i" (running from 1 to "n"), then each subset of "k" indices gives after expansion a contribution "X""k", and the coefficient of that monomial in the result will be the number of such subsets. This shows in particular that formula_15 is a natural number for any natural numbers "n" and "k". There are many other combinatorial interpretations of binomial coefficients (counting problems for which the answer is given by a binomial coefficient expression), for instance the number of words formed of "n" bits (digits 0 or 1) whose sum is "k" is given by formula_15, while the number of ways to write formula_19 where every "a""i" is a nonnegative integer is given by formula_20. Most of these interpretations are easily seen to be equivalent to counting "k"-combinations.
+Computing the value of binomial coefficients.
+Several methods exist to compute the value of formula_15 without actually expanding a binomial power or counting "k"-combinations.
+Recursive formula.
+One method uses the recursive, purely additive formula
+with initial/boundary values
+The formula follows from considering the set {1, 2, 3, ..., "n"} and counting separately (a) the "k"-element groupings that include a particular set element, say ""i", in every group (since "i" is already chosen to fill one spot in every group, we need only choose "k" − 1 from the remaining "n" − 1) and (b) all the "k"-groupings that don't include "i""; this enumerates all the possible "k"-combinations of "n" elements. It also follows from tracing the contributions to "X""k" in . As there is zero "X""n"+1 or "X"−1 in , one might extend the definition beyond the above boundaries to include formula_27 when either "k" &gt; "n" or "k" &lt; 0. This recursive formula then allows the construction of Pascal's triangle, surrounded by white spaces where the zeros, or the trivial coefficients, would be.
+Multiplicative formula.
+A more efficient method to compute individual binomial coefficients is given by the formula
+where the numerator of the first fraction formula_29 is expressed as a falling factorial power.
+This formula is easiest to understand for the combinatorial interpretation of binomial coefficients.
+The numerator gives the number of ways to select a sequence of "k" distinct objects, retaining the order of selection, from a set of "n" objects. The denominator counts the number of distinct sequences that define the same "k"-combination when order is disregarded.
+Due to the symmetry of the binomial coefficient with regard to "k" and , calculation may be optimised by setting the upper limit of the product above to the smaller of "k" and .
+Factorial formula.
+Finally, though computationally unsuitable, there is the compact form, often used in proofs and derivations, which makes repeated use of the familiar factorial function:
+where "n"! denotes the factorial of "n". This formula follows from the multiplicative formula above by multiplying numerator and denominator by ; as a consequence it involves many factors common to numerator and denominator. It is less practical for explicit computation (in the case that "k" is small and "n" is large) unless common factors are first cancelled (in particular since factorial values grow very rapidly). The formula does exhibit a symmetry that is less evident from the multiplicative formula (though it is from the definitions)
+which leads to a more efficient multiplicative computational routine. Using the falling factorial notation,
+Generalization and connection to the binomial series.
+The multiplicative formula allows the definition of binomial coefficients to be extended by replacing "n" by an arbitrary number "α" (negative, real, complex) or even an element of any commutative ring in which all positive integers are invertible:
+With this definition one has a generalization of the binomial formula (with one of the variables set to 1), which justifies still calling the formula_33 binomial coefficients:
+This formula is valid for all complex numbers "α" and "X" with |"X"| &lt; 1. It can also be interpreted as an identity of formal power series in "X", where it actually can serve as definition of arbitrary powers of power series with constant coefficient equal to 1; the point is that with this definition all identities hold that one expects for exponentiation, notably
+If "α" is a nonnegative integer "n", then all terms with "k" &gt; "n" are zero, and the infinite series becomes a finite sum, thereby recovering the binomial formula. However, for other values of "α", including negative integers and rational numbers, the series is really infinite.
+Pascal's triangle.
+Pascal's rule is the important recurrence relation
+which can be used to prove by mathematical induction that formula_35 is a natural number for all integer "n" ≥ 0 and all integer "k", a fact that is not immediately obvious from formula (1). To the left and right of Pascal's triangle, the entries (shown as blanks) are all zero. 
+Pascal's rule also gives rise to Pascal's triangle:
+Row number contains the numbers formula_8 for . It is constructed by first placing 1s in the outermost positions, and then filling each inner position with the sum of the two numbers directly above. This method allows the quick calculation of binomial coefficients without the need for fractions or multiplications. For instance, by looking at row number 5 of the triangle, one can quickly read off that
+Combinatorics and statistics.
+Binomial coefficients are of importance in combinatorics, because they provide ready formulas for certain frequent counting problems:
+Binomial coefficients as polynomials.
+For any nonnegative integer "k", the expression formula_44 can be simplified and defined as a polynomial divided by "k"!:
+this presents a polynomial in "t" with rational coefficients.
+As such, it can be evaluated at any real or complex number "t" to define binomial coefficients with such first arguments. These "generalized binomial coefficients" appear in Newton's generalized binomial theorem.
+For each "k", the polynomial formula_46 can be characterized as the unique degree "k" polynomial "p"("t") satisfying "p"(0) = "p"(1) = ⋯ = "p"("k" − 1) = 0 and "p"("k") = 1.
+Its coefficients are expressible in terms of Stirling numbers of the first kind:
+The derivative of formula_46 can be calculated by logarithmic differentiation:
+This can cause a problem when evaluated at integers from formula_50 to formula_51, but using identities below we can compute the derivative as:
+Binomial coefficients as a basis for the space of polynomials.
+Over any field of characteristic 0 (that is, any field that contains the rational numbers), each polynomial "p"("t") of degree at most "d" is uniquely expressible as a linear combination formula_53 of binomial coefficients. The coefficient "a""k" is the "k"th difference of the sequence "p"(0), "p"(1), ..., "p"("k"). Explicitly,
+Integer-valued polynomials.
+Each polynomial formula_46 is integer-valued: it has an integer value at all integer inputs formula_55. (One way to prove this is by induction on "k", using Pascal's identity.) Therefore, any integer linear combination of binomial coefficient polynomials is integer-valued too. Conversely, () shows that any integer-valued polynomial is an integer linear combination of these binomial coefficient polynomials. More generally, for any subring "R" of a characteristic 0 field "K", a polynomial in "K"["t"] takes values in "R" at all integers if and only if it is an "R"-linear combination of binomial coefficient polynomials.
+Example.
+The integer-valued polynomial 3"t"(3"t" + 1)/2 can be rewritten as
+Identities involving binomial coefficients.
+The factorial formula facilitates relating nearby binomial coefficients. For instance, if "k" is a positive integer and "n" is arbitrary, then
+and, with a little more work,
+Moreover, the following may be useful:
+For constant "n", we have the following recurrence:
+Sums of the binomial coefficients.
+The formula
+says the elements in the th row of Pascal's triangle always add up to 2 raised to the th power. This is obtained from the binomial theorem () by setting "x" = 1 and "y" = 1. The formula also has a natural combinatorial interpretation: the left side sums the number of subsets of {1, ..., "n"} of sizes "k" = 0, 1, ..., "n", giving the total number of subsets. (That is, the left side counts the power set of {1, ..., "n"}.) However, these subsets can also be generated by successively choosing or excluding each element 1, ..., "n"; the "n" independent binary choices (bit-strings) allow a total of formula_60 choices. The left and right sides are two ways to count the same collection of subsets, so they are equal.
+The formulas
+and
+follow from the binomial theorem after differentiating with respect to (twice for the latter) and then substituting .
+The Chu–Vandermonde identity, which holds for any complex-values "m" and "n" and any non-negative integer "k", is
+and can be found by examination of the coefficient of formula_62 in the expansion of using equation (). When , equation () reduces to equation (). In the special case , using (), the expansion () becomes (as seen in Pascal's triangle at right)
+where the term on the right side is a central binomial coefficient.
+Another form of the Chu–Vandermonde identity, which applies for any integers "j", "k", and "n" satisfying , is
+The proof is similar, but uses the binomial series expansion () with negative integer exponents.
+When , equation () gives the hockey-stick identity
+and its relative
+Let "F"("n") denote the "n"-th Fibonacci number.
+Then
+This can be proved by induction using () or by Zeckendorf's representation. A combinatorial proof is given below.
+Multisections of sums.
+For integers "s" and "t" such that formula_66 series multisection gives the following identity for the sum of binomial coefficients:
+For small "s", these series have particularly nice forms; for example,
+Partial sums.
+Although there is no closed formula for partial sums
+of binomial coefficients, one can again use () and induction to show that for ,
+with special case
+for "n" &gt; 0. This latter result is also a special case of the result from the theory of finite differences that for any polynomial "P"("x") of degree less than "n",
+Differentiating () "k" times and setting "x" = −1 yields this for
+formula_79,
+when 0 ≤ "k" &lt; "n",
+and the general case follows by taking linear combinations of these.
+When "P"("x") is of degree less than or equal to "n",
+where formula_80 is the coefficient of degree "n" in "P"("x").
+More generally for (),
+where "m" and "d" are complex numbers. This follows immediately applying () to the polynomial instead of , and observing that still has degree less than or equal to "n", and that its coefficient of degree "n" is "dnan".
+The series
+formula_82 is convergent for "k" ≥ 2. This formula is used in the analysis of the German tank problem. It follows from formula_83
+which is proved by induction on "M".
+Identities with combinatorial proofs.
+Many identities involving binomial coefficients can be proved by combinatorial means. For example, for nonnegative integers formula_84, the identity
+(which reduces to () when "q" = 1) can be given a double counting proof, as follows. The left side counts the number of ways of selecting a subset of ["n"] = {1, 2, ..., "n"} with at least "q" elements, and marking "q" elements among those selected. The right side counts the same thing, because there are formula_86 ways of choosing a set of "q" elements to mark, and formula_87 to choose which of the remaining elements of ["n"] also belong to the subset.
+In Pascal's identity
+both sides count the number of "k"-element subsets of ["n"]: the two terms on the right side group them into those that contain element "n" and those that do not.
+The identity () also has a combinatorial proof. The identity reads
+Suppose you have formula_90 empty squares arranged in a row and you want to mark (select) "n" of them. There are formula_91 ways to do this. On the other hand, you may select your "n" squares by selecting "k" squares from among the first "n" and formula_92 squares from the remaining "n" squares; any "k" from 0 to "n" will work. This gives
+Now apply () to get the result.
+If one denotes by the sequence of Fibonacci numbers, indexed so that , then the identity 
+formula_94
+has the following combinatorial proof. One may show by induction that counts the number of ways that a strip of squares may be covered by and tiles. On the other hand, if such a tiling uses exactly of the tiles, then it uses of the tiles, and so uses tiles total. There are formula_95 ways to order these tiles, and so summing this coefficient over all possible values of gives the identity.
+Sum of coefficients row.
+The number of "k"-combinations for all "k", formula_96, is the sum of the "n"th row (counting from 0) of the binomial coefficients. These combinations are enumerated by the 1 digits of the set of base 2 numbers counting from 0 to formula_97, where each digit position is an item from the set of "n".
+Dixon's identity.
+Dixon's identity is
+or, more generally,
+where "a", "b", and "c" are non-negative integers.
+Continuous identities.
+Certain trigonometric integrals have values expressible in terms of
+binomial coefficients: For any formula_100
+These can be proved by using Euler's formula to convert trigonometric functions to complex exponentials, expanding using the binomial theorem, and integrating term by term.
+Generating functions.
+Ordinary generating functions.
+For a fixed , the ordinary generating function of the sequence formula_104 is
+For a fixed , the ordinary generating function of the sequence formula_106 is
+The bivariate generating function of the binomial coefficients is
+A symmetric bivariate generating function of the binomial coefficients is
+which is the same as the previous generating function after the substitution formula_110.
+Exponential generating function.
+A symmetric exponential bivariate generating function of the binomial coefficients is:
+Divisibility properties.
+In 1852, Kummer proved that if "m" and "n" are nonnegative integers and "p" is a prime number, then the largest power of "p" dividing formula_112 equals "p""c", where "c" is the number of carries when "m" and "n" are added in base "p".
+Equivalently, the exponent of a prime "p" in formula_38
+equals the number of nonnegative integers "j" such that the fractional part of "k"/"p""j" is greater than the fractional part of "n"/"p""j". It can be deduced from this that formula_38 is divisible by "n"/gcd("n","k"). In particular therefore it follows that "p" divides formula_115 for all positive integers "r" and "s" such that . However this is not true of higher powers of "p": for example 9 does not divide formula_116.
+A somewhat surprising result by David Singmaster (1974) is that any integer divides almost all binomial coefficients. More precisely, fix an integer "d" and let "f"("N") denote the number of binomial coefficients formula_38 with "n" &lt; "N" such that "d" divides formula_38. Then
+Since the number of binomial coefficients formula_38 with "n" &lt; "N" is "N"("N" + 1) / 2, this implies that the density of binomial coefficients divisible by "d" goes to 1.
+Binomial coefficients have divisibility properties related to least common multiples of consecutive integers. For example:
+formula_121 divides formula_122.
+formula_121 is a multiple of formula_124.
+Another fact:
+An integer is prime if and only if
+all the intermediate binomial coefficients
+are divisible by "n".
+Proof:
+When "p" is prime, "p" divides
+because formula_127 is a natural number and "p" divides the numerator but not the denominator.
+When "n" is composite, let "p" be the smallest prime factor of "n" and let . Then and
+otherwise the numerator has to be divisible by , this can only be the case when is divisible by "p". But "n" is divisible by "p", so "p" does not divide and because "p" is prime, we know that "p" does not divide and so the numerator cannot be divisible by "n".
+Bounds and asymptotic formulas.
+The following bounds for formula_38 hold for all values of "n" and "k" such that 1 ≤ "k" ≤ "n":
+The first inequality follows from the fact that
+and each of these formula_132 terms in this product is formula_133. A similar argument can be made to show the second inequality. The final strict inequality is equivalent to formula_134, that is clear since the RHS is a term of the exponential series formula_135.
+From the divisibility properties we can infer that
+where both equalities can be achieved.
+Both and large.
+Stirling's approximation yields the following approximation, valid when formula_23 both tend to infinity:
+Because the inequality forms of Stirling's formula also bound the factorials, slight variants on the above asymptotic approximation give exact bounds.
+In particular, when formula_139 is sufficiently large:
+and, in general, for "m" ≥ 2 and "n" ≥ 1,
+Another useful asymptotic approximation for when both numbers grow at the same rate is
+where formula_144 is the binary entropy function.
+If "n" is large and "k" is linear in "n", various precise asymptotic estimates exist for the binomial coefficient formula_145. For example, if formula_146 then
+where "d" = "n" − 2"k".
+much larger than.
+If is large and is (that is, if ), then
+formula_148
+where again is the little o notation.
+Sums of binomial coefficients.
+A simple and rough upper bound for the sum of binomial coefficients can be obtained using the binomial theorem:
+More precise bounds are given by
+which is valid for all integers formula_151 with formula_152.
+Generalized binomial coefficients.
+The infinite product formula for the Gamma function also gives an expression for binomial coefficients
+which yields the asymptotic formulas
+as formula_155.
+This asymptotic behaviour is contained in the approximation
+as well. (Here formula_157 is the "k"-th harmonic number and formula_158 is the Euler–Mascheroni constant.)
+Further, the asymptotic formula
+hold true, whenever formula_160 and formula_161 for some complex number formula_162.
+Generalizations.
+Generalization to multinomials.
+Binomial coefficients can be generalized to multinomial coefficients defined to be the number:
+where
+While the binomial coefficients represent the coefficients of ("x"+"y")"n", the multinomial coefficients
+represent the coefficients of the polynomial
+The case "r" = 2 gives binomial coefficients:
+The combinatorial interpretation of multinomial coefficients is distribution of "n" distinguishable elements over "r" (distinguishable) containers, each containing exactly "ki" elements, where "i" is the index of the container.
+Multinomial coefficients have many properties similar to those of binomial coefficients, for example the recurrence relation:
+and symmetry:
+where formula_169 is a permutation of (1, 2, ..., "r").
+Taylor series.
+Using Stirling numbers of the first kind the series expansion around any arbitrarily chosen point formula_170 is
+Binomial coefficient with "n" = 1/2.
+The definition of the binomial coefficients can be extended to the case where formula_139 is real and formula_173 is integer.
+In particular, the following identity holds for any non-negative integer formula_173 :
+This shows up when expanding formula_176 into a power series using the Newton binomial series :
+Products of binomial coefficients.
+One can express the product of two binomial coefficients as a linear combination of binomial coefficients:
+where the connection coefficients are multinomial coefficients. In terms of labelled combinatorial objects, the connection coefficients represent the number of ways to assign "m" + "n" − "k" labels to a pair of labelled combinatorial objects—of weight "m" and "n" respectively—that have had their first "k" labels identified, or glued together to get a new labelled combinatorial object of weight "m" + "n" − "k". (That is, to separate the labels into three portions to apply to the glued part, the unglued part of the first object, and the unglued part of the second object.) In this regard, binomial coefficients are to exponential generating series what falling factorials are to ordinary generating series.
+The product of all binomial coefficients in the "n"th row of the Pascal triangle is given by the formula:
+Partial fraction decomposition.
+The partial fraction decomposition of the reciprocal is given by
+Newton's binomial series.
+Newton's binomial series, named after Sir Isaac Newton, is a generalization of the binomial theorem to infinite series:
+The identity can be obtained by showing that both sides satisfy the differential equation (1 + "z") "f"'("z") = α "f"("z").
+The radius of convergence of this series is 1. An alternative expression is
+where the identity
+is applied.
+Multiset (rising) binomial coefficient.
+Binomial coefficients count subsets of prescribed size from a given set. A related combinatorial problem is to count multisets of prescribed size with elements drawn from a given set, that is, to count the number of ways to select a certain number of elements from a given set with the possibility of selecting the same element repeatedly. The resulting numbers are called "multiset coefficients"; the number of ways to "multichoose" (i.e., choose with replacement) "k" items from an "n" element set is denoted formula_184.
+To avoid ambiguity and confusion with "n"'s main denotation in this article,&lt;br&gt; let "f" = "n" = "r" + ("k" – 1) and "r" = "f" – ("k" – 1).
+Multiset coefficients may be expressed in terms of binomial coefficients by the rule
+One possible alternative characterization of this identity is as follows:
+We may define the falling factorial as
+and the corresponding rising factorial as
+so, for example,
+Then the binomial coefficients may be written as 
+while the corresponding multiset coefficient is defined by replacing the falling with the rising factorial:
+Generalization to negative integers "n".
+For any "n",
+In particular, binomial coefficients evaluated at negative integers "n" are given by signed multiset coefficients. In the special case formula_192, this reduces to formula_193
+For example, if "n" = −4 and "k" = 7, then "r" = 4 and "f" = 10:
+Two real or complex valued arguments.
+The binomial coefficient is generalized to two real or complex valued arguments using the gamma function or beta function via
+This definition inherits these following additional properties from formula_196:
+moreover,
+The resulting function has been little-studied, apparently first being graphed in . Notably, many binomial identities fail: formula_199 but formula_199 for "n" positive (so formula_201 negative). The behavior is quite complex, and markedly different in various octants (that is, with respect to the "x" and "y" axes and the line formula_202), with the behavior for negative "x" having singularities at negative integer values and a checkerboard of positive and negative regions:
+Generalization to "q"-series.
+The binomial coefficient has a q-analog generalization known as the Gaussian binomial coefficient.
+Generalization to infinite cardinals.
+The definition of the binomial coefficient can be generalized to infinite cardinals by defining:
+where A is some set with cardinality formula_211. One can show that the generalized binomial coefficient is well-defined, in the sense that no matter what set we choose to represent the cardinal number formula_211, formula_213 will remain the same. For finite cardinals, this definition coincides with the standard definition of the binomial coefficient.
+Assuming the Axiom of Choice, one can show that formula_214 for any infinite cardinal formula_211.
+Binomial coefficient in programming languages.
+The notation formula_216 is convenient in handwriting but inconvenient for typewriters and computer terminals. Many programming languages do not offer a standard subroutine for computing the binomial coefficient, but for example both the APL programming language and the (related) J programming language use the exclamation mark: codice_1. The binomial coefficient is implemented in SciPy as "scipy.special.comb".
+Naive implementations of the factorial formula, such as the following snippet in Python:
+from math import factorial
+def binomial_coefficient(n: int, k: int) -&gt; int:
+ return factorial(n) // (factorial(k) * factorial(n - k))
+are very slow and are useless for calculating factorials of very high numbers (in languages such as C or Java they suffer from overflow errors because of this reason). A direct implementation of the multiplicative formula works well:
+def binomial_coefficient(n: int, k: int) -&gt; int:
+ if k &lt; 0 or k &gt; n:
+ return 0
+ if k == 0 or k == n:
+ return 1
+ k = min(k, n - k) # Take advantage of symmetry
+ c = 1
+ for i in range(k):
+ c = c * (n - i) / (i + 1)
+ return c
+Pascal's rule provides a recursive definition which can also be implemented in Python, although it is less efficient:
+def binomial_coefficient(n: int, k: int) -&gt; int:
+ if k &lt; 0 or k &gt; n:
+ return 0
+ if k &gt; n - k: # Take advantage of symmetry
+ k = n - k
+ if k == 0 or n &lt;= 1:
+ return 1
+ return binomial_coefficient(n - 1, k) + binomial_coefficient(n - 1, k - 1)
+The example mentioned above can be also written in functional style. The following Scheme example uses the recursive definition
+Rational arithmetic can be easily avoided using integer division
+The following implementation uses all these ideas
+ (define (binomial-iter n k i prev)
+ (if (&gt;= i k)
+ prev
+ (binomial-iter n k (+ i 1) (/ (* (- n i) prev) (+ i 1)))))
+ (if (&lt; k (- n k))
+ (binomial-iter n k 0 1)
+ (binomial-iter n (- n k) 0 1)))
+When computing formula_219 in a language with fixed-length integers, the multiplication by formula_220 may overflow even when the result would fit. The overflow can be avoided by dividing first and fixing the result using the remainder:
+Implementation in the C language:
+unsigned long binomial(unsigned long n, unsigned long k) {
+ unsigned long c = 1, i;
+ if (k &gt; n-k) // take advantage of symmetry
+ k = n-k;
+ for (i = 1; i &lt;= k; i++, n--) {
+ if (c/i &gt; UINT_MAX/n) // return 0 on overflow
+ return 0;
+ c = c / i * n + c % i * n / i; // split c * n / i into (c / i * i + c % i) * n / i
+ 
+ return c;
+Another way to compute the binomial coefficient when using large numbers is to recognize that
+where formula_223 denotes the natural logarithm of the gamma function at formula_139. It is a special function that is easily computed and is standard in some programming languages such as using "log_gamma" in Maxima, "LogGamma" in Mathematica, "gammaln" in MATLAB and Python's SciPy module, "lngamma" in PARI/GP or "lgamma" in C, R, and Julia. Roundoff error may cause the returned value to not be an integer.
+

@@ -1,0 +1,10 @@
+Turing machine is a term from computer science. A Turing machine is a system of rules, states and transitions rather than a "real" machine. It was first described by Alan Turing. There are two purposes of a Turing machine. Either it can be used to decide a formal language or it solves mathematical functions. Turing machines are one of the most important formal models in the study of computer science.
+Common basics.
+Furthermore a working-alphabet (set of characters) has to be defined.
+When a Turing machine is started a word (out of the working-alphabet) must be present on the infinite tape of the machine. The read/write-device on the first character now reads the first character and depending on the current state of Turing machine the read/write-device overwrites the character with a new one or moves one cell to the left or to the right. Furthermore the current state of the machine can be switched.
+Turing machines that decide languages.
+A Turing machine is said to "decide a language" if it is always able to determine whether a given word is contained in a certain language or not. Therefore the machine usually has two special states marked as "Accept" and "Reject". After a while one of the two states will be reached (depending on the input word) and the machine is halted. If only one of the two states will ever be reached, the Turing machine is said to "semi-decide" a language.
+Turing machines that compute functions.
+If a Turing machine is used for the computation of functions it only has one "end state". When the machine comes to that state it is halted and the result of the function (depending on the input) can be found on the tape.
+Impact of Turing machines.
+Turing machines were not invented to be built in reality, but they are very important for theoretical computer science as they are one of the simplest models for computers. The Church-Turing-Thesis states that all computers are only as powerful as Turing machines. This can be used to prove if a problem is solvable by a computer or not.

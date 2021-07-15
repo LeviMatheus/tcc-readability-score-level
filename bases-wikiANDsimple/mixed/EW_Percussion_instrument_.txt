@@ -1,0 +1,59 @@
+
+A percussion instrument is a musical instrument that is sounded by being struck or scraped by a beater including attached or enclosed beaters or rattles struck, scraped or rubbed by hand or struck against another similar instrument. Excluding zoomusicological instruments and the human voice, the percussion family is believed to include the oldest musical instruments.
+The percussion section of an orchestra most commonly contains instruments such as the timpani, snare drum, bass drum, cymbals, triangle and tambourine. However, the section can "also" contain non-percussive instruments, such as whistles and sirens, or a blown conch shell. Percussive techniques can even be applied to the human body itself, as in body percussion. On the other hand, keyboard instruments, such as the celesta, are not normally part of the percussion section, but keyboard percussion instruments such as the glockenspiel and xylophone (which do not have piano keyboards) are included.
+Percussion instruments are most commonly divided into two classes: pitched percussion instruments, which produce notes with an identifiable pitch, and unpitched percussion instruments, which produce notes or sounds in an indefinite pitch.
+Function.
+Percussion instruments may play not only rhythm, but also melody and harmony.
+Percussion is commonly referred to as "the backbone" or "the heartbeat" of a musical ensemble, often working in close collaboration with bass instruments, when present. In jazz and other popular music ensembles, the pianist, bassist, drummer and sometimes the guitarist are referred to as the rhythm section. Most classical pieces written for full orchestra since the time of Haydn and Mozart are orchestrated to place emphasis on the strings, woodwinds, and brass. However, often at least one pair of timpani is included, though they rarely play continuously. Rather, they serve to provide additional accents when needed. In the 18th and 19th centuries, other percussion instruments (like the triangle or cymbals) have been used, again generally sparingly. The use of percussion instruments became more frequent in the 20th century classical music.
+In almost every style of music, percussion plays a pivotal role. In military marching bands and pipes and drums, it is the beat of the bass drum that keeps the soldiers in step and at a regular speed, and it is the snare that provides that crisp, decisive air to the tune of a regiment. In classic jazz, one almost immediately thinks of the distinctive rhythm of the hi-hats or the ride cymbal when the word-swing is spoken. In more recent popular-music culture, it is almost impossible to name three or four rock, hip-hop, rap, funk or even soul charts or songs that do not have some sort of percussive beat keeping the tune in time.
+Because of the diversity of percussive instruments, it is not uncommon to find large musical ensembles composed entirely of percussion. Rhythm, melody, and harmony are all represented in these ensembles.
+Percussion notation.
+Music for pitched percussion instruments can be notated on a staff with the same treble and bass clefs used by many non-percussive instruments. Music for percussive instruments without a definite pitch can be notated with a specialist rhythm or percussion-clef. The guitar also has a special "tab" staff. More often a bass clef is substituted for rhythm clef.
+Classification.
+Percussion instruments are classified by various criteria sometimes depending on their construction, ethnic origin, function within musical theory and orchestration, or their relative prevalence in common knowledge.
+The word percussion derives from the Latin verb "percussio" to beat, strike in the musical sense, and the noun "percussus", a beating. As a noun in contemporary English, Wiktionary describes it as the collision of two bodies to produce a sound. The term is not unique to music, but has application in medicine and weaponry, as in percussion cap. However, all known uses of "percussion" appear to share a similar lineage beginning with the original Latin percussus. In a musical context then, the "percussion instruments" may have been originally coined to describe a family of musical instruments including drums, rattles, metal plates, or blocks that musicians beat or struck to produce sound.
+The Hornbostel–Sachs system has no high-level section for "percussion". Most percussion instruments as the term is normally understood are classified as idiophones and membranophones. However the term "percussion" is instead used at lower-levels of the Hornbostel–Sachs hierarchy, including to identify instruments struck with either a non sonorous object hand, stick, striker or against a non-sonorous object human body, the ground. This is opposed to "concussion", which refers to instruments with two or more complementary sonorous parts that strike against each other and other meanings. For example:
+111.1 "Concussion idiophones or clappers", played in pairs and beaten against each other, such as zills and clapsticks.
+111.2 "Percussion idiophones", includes many percussion instruments played with the hand or by a percussion mallet, such as the hang, gongs and the xylophone, but not drums and only some cymbals.
+21 "Struck drums", includes most types of drum, such as the timpani, snare drum, and tom-tom. 
+412.12 "Percussion reeds", a class of wind instrument unrelated to "percussion" in the more common sense 
+There are many instruments that have some claim to being percussion, but are classified otherwise:
+Percussion instruments are sometimes classified as pitched or unpitched. While valid, this classification is widely seen as inadequate. Rather, it may be more informative to describe percussion instruments in regards to one or more of the following four paradigms:
+By methods of sound production.
+Many texts, including "Teaching Percussion" by Gary Cook of the University of Arizona, begin by studying the physical characteristics of instruments and the methods by which they can produce sound. This is perhaps the most scientifically pleasing assignment of nomenclature whereas the other paradigms are more dependent on historical or social circumstances. Based on observation and experimentation, one can determine how an instrument produces sound and then assign the instrument to one of the following four categories:
+Idiophone.
+"Idiophones produce sounds through the vibration of their entire body." Examples of idiophones:
+Membranophone.
+Most objects commonly known as drums are membranophones. Membranophones produce sound when the membrane or head is struck with a hand, mallet, stick, beater, or improvised tool.
+Examples of membranophones:
+Chordophone.
+Most instruments known as chordophones are defined as string instruments, wherein their sound is derived from the vibration of a string, but some such as these examples "also" fall under percussion instruments.
+Aerophone.
+ 
+Most instruments known as aerophones are defined as wind instruments such as a saxophone whereby sound is produced by a stream of air being blown through the object. Although most aerophones are played by specialist players who are trained for that specific instrument, in a traditional ensemble setting, aerophones are played by a percussionist, generally due to the instrument's unconventional nature. Examples of aerophones played by percussionists 
+By musical function or orchestration.
+When classifying instruments by function it is useful to note if a percussion instrument makes a definite pitch or indefinite pitch.
+For example, some percussion instruments such as the marimba and timpani produce an obvious fundamental pitch and can therefore play melody and serve harmonic functions in music. Other instruments such as crash cymbals and snare drums produce sounds with such complex overtones and a wide range of prominent frequencies that no pitch is discernible.
+Definite pitch of Music.
+Percussion instruments in this group are sometimes referred to as pitched or tuned.
+Examples of percussion instruments with definite pitch:
+Indefinite pitch.
+Instruments in this group are sometimes referred to as non-pitched, unpitched, or untuned. Traditionally these instruments are thought of as making a sound that contains such complex frequencies that no discernible pitch can be heard.
+In fact many traditionally unpitched instruments, such as triangles and even cymbals, have also been produced as tuned sets.
+Examples of percussion instruments with indefinite pitch:
+By prevalence in common knowledge.
+It is difficult to define what is common knowledge but there are instruments percussionists and composers use in contemporary music that most people wouldn't consider musical instruments. It is worthwhile to "try" to distinguish between instruments based on their acceptance or consideration by a general audience.
+For example, most people would not consider an anvil, a brake drum (on a vehicle with drum brakes, the circular hub the brake shoes press against), or a fifty-five gallon oil barrel musical instruments yet composers and percussionists use these objects.
+Percussion instruments generally fall into the following categories:
+Unconventional.
+One pre-20th century example of found percussion is the use of cannon usually loaded with blank charges in Tchiakovsky's "1812 Overture". John Cage, Harry Partch, Edgard Varèse, and Peter Schickele, all noted composers, created entire pieces of music using unconventional instruments. Beginning in the early 20th century perhaps with "Ionisation" by Edgard Varèse which used air-raid sirens among other things, composers began to require that percussionists invent or find objects to produce desired sounds and textures. Another example the use of a hammer and saw in Penderecki's "De Natura Sonoris No. 2". By the late 20th century, such instruments were common in modern percussion ensemble music and popular productions, such as the off-Broadway show, Stomp. Rock band Aerosmith used a number of unconventional instruments in their song Sweet Emotion, including shotguns, brooms, and a sugar bag. The metal band Slipknot is well known for playing unusual percussion items, having two percussionists in the band. Along with deep sounding drums, their sound includes hitting baseball bats and other objects on beer kegs to create a distinctive sound.
+By cultural significance or tradition.
+It is not uncommon to discuss percussion instruments in relation to their cultural origin. This led to a division between instruments considered common or modern, and folk instruments with significant history or purpose within a geographic region or culture.
+"Common" drums.
+This category includes instruments that are widely available and popular throughout the world:
+By percussive beater.
+The percussionist uses various objects to strike a percussion instrument to produce sound.
+Names for percussionists.
+The general term for a musician who plays percussion instruments is "percussionist" but the terms listed below often describe specialties:
+Within rock music, the term "percussionist" is often used to refer to someone who plays percussion instruments but is not primarily a drummer. The term is especially found in bands where one person plays drums and another plays other hit instruments.
+

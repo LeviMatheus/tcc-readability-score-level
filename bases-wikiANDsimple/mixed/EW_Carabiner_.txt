@@ -1,0 +1,22 @@
+
+A carabiner or karabiner () is a specialized type of shackle, a metal loop with a spring-loaded gate used to quickly and reversibly connect components, most notably in safety-critical systems. The word is a shortened form of "Karabinerhaken" (or also short "Karabiner"), a German phrase for a "spring hook" used by a carbine rifleman, or carabinier, to attach his carabin to a belt or bandolier.
+Use.
+Carabiners are widely used in rope-intensive activities such as climbing, arboriculture, caving, sailing, hot air ballooning, rope rescue, construction, industrial rope work, window cleaning, whitewater rescue, and acrobatics. They are predominantly made from both steel and aluminium. Those used in sports tend to be of a lighter weight than those used in commercial applications and rope rescue. Often referred to as carabiner-style or as mini-biners, carabiner keyrings and other light-use clips of similar style and design have also become popular. Most are stamped with a "Not For Climbing" or similar warning due to a common lack of load-testing and safety standards in manufacturing. While from an etymological perspective any metal attaching link with a spring gate is technically a carabiner, the strict usage among the climbing community specifically refers only to those devices manufactured and tested for load-bearing in safety-critical systems like rock and mountain climbing, typically rated to 20 kN or more.
+Carabiners on hot air balloons are used to connect the envelope to the basket and are rated at 2.5 tonne, 3 tonne or 4 tonne.
+Load-bearing screw-gate carabiners are used to connect the diver's umbilical to the surface supplied diver's harness. They are usually rated for a safe working load of 5 kN or more (equivalent to a weight in excess of approximately 500 kg).
+Physical properties.
+Shape.
+Carabiners come in four characteristic shapes:
+Locking mechanisms.
+There are three broad categories of locking mechanisms for carabiners: auto locking, manual locking, and non-locking.
+Non-locking.
+Non-locking carabiners (or "snap-links") have a sprung swinging gate that accepts a rope, webbing sling, or other hardware. Rock climbers frequently connect two non-locking carabiners with a short length of webbing to create a quickdraw (an extender).
+Two gate types are common:
+Both solid and wire gate carabiners can be either "straight gate" or "bent gate". Bent-gate carabiners are easier to clip a rope into using only one hand, and so are often used for the rope-end carabiner of quickdraws and alpine draws used for lead climbing.
+Locking.
+Life supporting carabiners such as those used in tree climbing need to be strong (thus strength ratings), but also secure against unintentional opening under use. All carabiners with a spring loaded gate are "self closing" (single action). Several are also "self locking" (double action), some even "self double locking" (triple action).
+Locking carabiners have the same general shape as non-locking carabiners, but have an additional mechanism securing the gate. These mechanisms may be either threaded sleeves ("screw-lock"), spring-loaded sleeves ("twist-lock"), magnetic levers ("Magnetron"), other spring loaded unlocking levers or opposing double spring loaded gates ("Twin-Gate").
+Certification.
+United States.
+American National Standards Institute/American Society of Safety Engineers standard ANSI Z359.1-2007 "Safety Requirement for Personal Fall Arrest Systems, Subsystems and Components", section 3.2.1.4 (for snap hooks and carabiners) is a voluntary consensus standard. This standard requires that all connectors/ carabiners support a minimum breaking strength (MBS) of and feature an auto-locking gate mechanism which supports a minimum breaking strength (MBS) of .
+

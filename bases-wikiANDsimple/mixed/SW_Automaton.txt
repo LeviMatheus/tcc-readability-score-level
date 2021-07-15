@@ -1,0 +1,7 @@
+An Automaton (one automaton, several "automata") is a concept from mathematics. Sometimes the concept is called "state machine". It is like an abstract machine.
+Such a machine can be given "input", which is either rejected, or accepted. Its like one of those vending machines. When something is bought, coins (or money) needs to be inserted into the machine. If these are the right coins, they are accepted, and the requested item is dropped so it can be removed. If the coins are wrong, they are rejected.
+Internally, the automaton has different "states" it can be in. Feeding it input may (or may not) change its state. That way, the automaton goes through all the input, consuming one item (Which mathematicians call symbol) at a time. When no symbol is left, the automaton is in a certain state. This may be an "final state". In this case the input is accepted. Otherwise, the input is rejected.
+If the machine has a countable, finite number of states, it is called "finite state machine". A diagram that shows all the states, and transitions of such a machine is called finite state diagram.
+Problems.
+Like in real life, there are machines that are too complex to understand. The mathematician and computer scients therefore ask themselves if a certain automaton is "minimal". If it is not minimal, there must be another automaton with fewer states that can do the same thing.
+An example of an automaton is the Turing machine

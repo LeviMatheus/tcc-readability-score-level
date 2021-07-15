@@ -1,0 +1,3 @@
+Cardinal numbers (or cardinals) are numbers that say "how many" of something there are, for example: one, two, three, four, five. They are sometimes called counting numbers.
+The cardinality of a set is the cardinal number that tells how many things are in the set.
+In mathematics, people also study infinite cardinal numbers. The first infinite cardinal number was named formula_1 (pronounced Aleph-zero or Aleph-naught) by Georg Cantor. Cantor proved that there are many different infinite cardinal numbers. A famous theorem of Cantor is that the cardinality of the real numbers is larger than the cardinality of the natural numbers.

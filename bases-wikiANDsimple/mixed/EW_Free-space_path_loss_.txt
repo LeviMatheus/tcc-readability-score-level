@@ -1,0 +1,27 @@
+
+In telecommunication, the free-space path loss (FSPL) is the attenuation of radio energy between the feedpoints of two antennas that results from the combination of the receiving antenna's capture area plus the obstacle-free, line-of-sight path through free space (usually air). The "Standard Definitions of Terms for Antennas", IEEE Std 145-1993, defines "free-space loss" as "The loss between two isotropic radiators in free space, expressed as a power ratio." It does not include any power loss in the antennas themselves due to imperfections such as resistance. Free space loss increases with the square of distance between the antennas because the radio waves spread out by the inverse square law and decreases with the square of the wavelength of the radio waves. The FSPL is rarely used standalone, but rather as a part of the Friis transmission formula, which includes the gain of antennas. It is a factor that must be included in the power link budget of a radio communication system, to ensure that sufficient radio power reaches the receiver such that the transmitted signal is received intelligibly.
+Free-space path loss formula.
+The free-space path loss (FSPL) formula derives from the Friis transmission formula. This states that in a radio system consisting of a transmitting antenna transmitting radio waves to a receiving antenna, the ratio of radio wave power received formula_1 to the power transmitted formula_2 is:
+where
+The distance between the antennas formula_8 must be large enough that the antennas are in the far field of each other formula_9.
+The free-space path loss is the loss factor in this equation that is due to distance and wavelength, or in other words, the ratio of power transmitted to power received assuming the antennas are isotropic and have no directivity (formula_10): 
+formula_11
+Since the frequency of a radio wave formula_12 is equal to the speed of light formula_13 divided by the wavelength, the path loss can also be written in terms of frequency: 
+formula_14
+Beside the assumption that the antennas are lossless, this formula assumes that the polarization of the antennas is the same, that there are no multipath effects, and that the radio wave path is sufficiently far away from obstructions that it acts as if it is in free space. This last restriction requires an ellipsoidal area around the line of sight out to 0.6 of the Fresnel zone be clear of obstructions. The Fresnel zone increases in diameter with the wavelength of the radio waves. Often the concept of free space path loss is applied to radio systems that don't completely meet these requirements, but these imperfections can be accounted for by small constant power loss factors that can be included in the link budget.
+Influence of distance and frequency.
+The free-space loss increases with the distance between the antennas and decreases with the wavelength of the radio waves due to these factors:
+Derivation.
+The radio waves from the transmitting antenna spread out in a spherical wavefront. The amount of power passing through any sphere centered on the transmitting antenna is equal. The surface area of a sphere of radius formula_8 is formula_18. Thus the intensity or power density of the radiation in any particular direction from the antenna is inversely proportional to the square of distance 
+For an isotropic antenna which radiates equal power in all directions, the power density is evenly distributed over the surface of a sphere centered on the antenna
+The amount of power the receiving antenna receives from this radiation field is 
+The factor formula_16, called the "effective area" or "aperture" of the receiving antenna, which has the units of area, can be thought of as the amount of area perpendicular to the direction of the radio waves from which the receiving antenna captures energy. Since the linear dimensions of an antenna scale with the wavelength formula_23, the cross sectional area of an antenna and thus the aperture scales with the square of wavelength formula_24. The effective area of an isotropic antenna (for a derivation of this see antenna aperture article) is 
+Combining the above (1) and (2), for isotropic antennas
+Free-space path loss in decibels.
+A convenient way to express FSPL is in terms of decibels (dB)
+where the units are as before.
+For typical radio applications, it is common to find formula_29 measured in units of GHz and formula_7 in km, in which case the FSPL equation becomes
+For formula_32 in meters and kilohertz respectively, the constant becomes formula_33.
+For formula_32 in meters and megahertz respectively, the constant becomes formula_35.
+For formula_32 in kilometers and megahertz respectively, the constant becomes formula_37.
+

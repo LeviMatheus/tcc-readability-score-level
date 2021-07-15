@@ -1,0 +1,4 @@
+
+In telecommunications, bit inversion means the changing of the state of a bit to the opposite state, i.e. the changing of a 0 bit to 1 or of a 1 bit to 0. It also refers to the changing of a "state representing a given bit" to the opposite state.
+"Source: Federal Standard 1037C and MIL-STD-188"
+

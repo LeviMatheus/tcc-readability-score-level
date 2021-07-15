@@ -1,0 +1,22 @@
+
+Frederick Phillips "Fred" Brooks Jr. (born April 19, 1931) is an American computer architect, software engineer, and computer scientist, best known for managing the development of IBM's System/360 family of computers and the OS/360 software support package, then later writing candidly about the process in his seminal book "The Mythical Man-Month". Brooks has received many awards, including the National Medal of Technology in 1985 and the Turing Award in 1999.
+Education.
+Born in Durham, North Carolina, he attended Duke University, graduating in 1953 with a Bachelor of Science degree in physics, and he received a Ph.D. in applied mathematics (computer science) from Harvard University in 1956, supervised by Howard Aiken.
+Brooks served as the graduate teaching assistant for Ken Iverson at Harvard's graduate program in "automatic data processing", the first such program in the world.
+Career and research.
+Brooks joined IBM in 1956, working in Poughkeepsie, New York, and Yorktown, New York. He worked on the architecture of the IBM 7030 Stretch, a $10 million scientific supercomputer of which nine were sold, and the IBM 7950 Harvest computer for the National Security Agency. Subsequently, he became manager for the development of the IBM System/360 family of computers and the OS/360 software package. During this time he coined the term "computer architecture".
+In 1964, Brooks accepted an invitation to come to the University of North Carolina at Chapel Hill and founded the University's computer science department. He chaired it for 20 years. he was still engaged in active research there, primarily in virtual environments and scientific visualization.
+A few years after leaving IBM he wrote "The Mythical Man-Month". The seed for the book was planted by IBM's then-CEO Thomas Watson Jr., who asked in Brooks's exit interview why it was so much harder to manage software projects than hardware projects. In this book, Brooks made the now-famous statement: "Adding manpower to a late software project makes it later." This has since come to be known as "Brooks's law". In addition to "The Mythical Man-Month", Brooks is also known for the paper "No Silver Bullet – Essence and Accident in Software Engineering".
+In 2004 in a talk at the Computer History Museum and also in a 2010 interview in "Wired" magazine, Brooks was asked "What do you consider your greatest technological achievement?" Brooks responded, "The most important single decision I ever made was to change the IBM 360 series from a 6-bit byte to an 8-bit byte, thereby enabling the use of lowercase letters. That change propagated everywhere."
+A "20th anniversary" edition of "The Mythical Man-Month" with four additional chapters was published in 1995.
+As well as "The Mythical Man-Month", Brooks has authored or co-authored many books and peer reviewed papers including "Automatic Data Processing", "No Silver Bullet", "Computer Architecture", and "The Design of Design".
+His contributions to human–computer interaction are described in Ben Shneiderman's HCI pioneers website.
+Service and memberships.
+Brooks has served on a number of US national boards and committees.
+Awards and honors.
+In chronological order:
+In January 2005 he gave the Turing Lecture on the subject of "Collaboration and Telecollaboration in Design". In 1994 he was inducted as a Fellow of the Association for Computing Machinery.
+Personal life.
+Brooks is an evangelical Christian who is active with InterVarsity Christian Fellowship.
+Brooks named his eldest son after Kenneth E. Iverson.
+

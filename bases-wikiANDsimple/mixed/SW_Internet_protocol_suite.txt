@@ -1,0 +1,3 @@
+The Internet protocol suite, also called TCP/IP for "Transmission Control Protocol / Internet Protocol".
+Origin.
+Its name comes from two of the main protocols: Transmission Control Protocol (TCP) and the Internet Protocol (IP).

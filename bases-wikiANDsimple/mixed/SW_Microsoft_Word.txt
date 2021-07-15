@@ -1,0 +1,16 @@
+Microsoft Word (often called "Word") is a graphical word processing program that users can type with. It is made by the computer company Microsoft. The purpose of the MS Word is to allow the users to type and maintain documents.
+Similar to other word processors, it includes helpful tools to make good documents. Some of the important tools include a spelling & grammar checker, word count (this also counts letters and lines), and the newer version includes speech recognition (a technology that lets users control their computers by speaking to it, or telling it what to write). Also, like with other programs, with this program one can make attractive documents, insert pictures in documents, make web pages, graphs etc.Also you can create tables. Also, it displays synonyms (similar words) of words and can read out the text. Not to forget its fully customizable printing facility.
+It can be bought at shops and normally comes with Microsoft Office, but can be bought separately.
+History.
+The program was first released in 1981.
+Many of the ideas and features in Microsoft Word came from Bravo, the first graphical writing program.
+Microsoft brought the Bravo program, and changed its name to "Microsoft Word".
+When it first came out, it was not very popular, and didn't sell as well as other writing programs like WordPerfect.
+Although it was not very popular when it came out, it had a feature called "WYSIWYG" (What You See Is What You Get), which meant that people can change the visual style of writing (e.g. bold, italics), by clicking on buttons, when in other programs like WordPerfect, people had to add special 'codes' to change the style of writing. "WYSIWYG" is now a common feature of all computer writing programs.
+Versions.
+"There are versions for Microsoft Word for other operating systems as well as Microsoft Windows, but new versions support fewer operating systems, although they always support Windows."
+For Microsoft Windows.
+"Note: "Word for Windows" is the name of the of Microsoft Word made for Microsoft Windows.'
+Popularity.
+Although it is sold for money, some of the people who cannot buy it download it illegally. Although Microsoft says doing that is against the copyright of Microsoft, this makes the program more popular than if only the people who could buy it used it.
+It is so popular because, if the user did not configure it, the program saved the document in a secret file format, so other programs could not open it. Then if the user who does not configure the program sent his document to a friend, the friend needed a copy of Microsoft Word to read the document. Then that friend would probably also save documents in the secret format of Word. After many years, the most important parts of the format were guessed, and the format is less secret (though it is patented, and some people say the patents are still bad), but Microsoft Word is still popular, because many people do not know of other programs, or do not want to learn to use them.

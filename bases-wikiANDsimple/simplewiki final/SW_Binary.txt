@@ -1,0 +1,7 @@
+Binary is a way to show whole numbers using only 1 and 0. Computers work in binary.
+Number system.
+Binary numbers use the 8421 i.e. using 4 bit. Binary numbers can be changed to decimal (base 10, the kind most people use) in a simple way. The value of the bit (binary 1 or 0) on the right side of the number is 1. Every other bit has a value two times the value of the bit to its right. Add the values of every bit that is a 1 together to get the decimal number.
+For example, the binary number 101 is 5 in decimal. The bit on the right is 1 and has a value of 1. The middle bit has a value of 2 (1 times 2), but it is a 0, so it is not added. The bit on the left is 1 and has a value of 4 (2 times 2). The bits that are 1's have values of 1 and 4. 1 + 4 = 5.
+Computers.
+All computers use binary at the lowest level. Most computer storage, like compact discs and DVDs, use binary to represent large files.
+With computers, 8 binary bits together is called a "byte". The size of files is commonly measured in "kilobytes" or "megabytes" (sometimes in "gigabytes"). A kilobyte is 1,000 bytes. A megabyte is 1,000 kilobytes, or 1,000,000 bytes, while a gigabyte is 1,000 megabytes.

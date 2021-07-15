@@ -1,0 +1,23 @@
+
+A phosphodiesterase inhibitor is a drug that blocks one or more of the five subtypes of the enzyme phosphodiesterase (PDE), thereby preventing the inactivation of the intracellular second messengers cyclic adenosine monophosphate (cAMP) and cyclic guanosine monophosphate (cGMP) by the respective PDE subtype(s). The ubiquitous presence of this enzyme means that non-specific inhibitors have a wide range of actions, the actions in the heart, and lungs being some of the first to find a therapeutic use.
+History.
+The different forms or subtypes of phosphodiesterase were initially isolated from rat brains in the early 1970s and were soon afterward shown to be selectively inhibited in the brain and in other tissues by a variety of drugs. The potential for selective phosphodiesterase inhibitors as therapeutic agents was predicted as early as 1977 by Weiss and Hait. This prediction meanwhile has proved to be true in a variety of fields.
+Classification.
+Nonselective PDE inhibitors.
+Methylated xanthines and derivatives:
+Methylated xanthines act as both
+But different analogues show varying potency at the numerous subtypes, and a wide range of synthetic xanthine derivatives (some nonmethylated) have been developed in the search for compounds with greater selectivity for phosphodiesterase enzyme or adenosine receptor subtypes.
+ Al-Kuraishy HM, Al-Gareeb AI, Al-Nami MS. Vinpocetine improves oxidative stress and pro-inflammatory mediators in acute kidney injury. International journal of preventive medicine. 2019;10.
+PDE3 selective inhibitors.
+PDE3 is sometimes referred to as cGMP-inhibited phosphodiesterase.
+PDE4 selective inhibitors.
+PDE4 is the major cAMP-metabolizing enzyme found in inflammatory and immune cells. PDE4 inhibitors have proven potential as anti-inflammatory drugs, especially in inflammatory pulmonary diseases such as asthma, COPD, and rhinitis. They suppress the release of cytokines and other inflammatory signals, and inhibit the production of reactive oxygen species. PDE4 inhibitors may have antidepressive effects and have also recently been proposed for use as antipsychotics.
+On October 26, 2009, The University of Pennsylvania reported that researchers at their institution had discovered a link between elevated levels of PDE4 (and therefore decreased levels of cAMP) in sleep deprived mice. Treatment with a PDE4 inhibitor raised the deficient cAMP levels and restored some functionality to Hippocampus-based memory functions.
+PDE7 selective inhibitors.
+Recent studies have shown Quinazoline type PDE7 inhibitor to be potent anti-inflammatory and neuroprotective agents.
+PDE9 selective inhibitors.
+Paraxanthine, the main metabolite of Caffeine (84% in humans), is another cGMP-specific phosphodiesterase inhibitor which inhibits PDE9, a cGMP preferring phosphodiesterase. PDE9 is expressed as high as PDE5 in the corpus cavernosum.
+PDE10 selective inhibitors.
+Papaverine, an opium alkaloid, has been reported to act as a PDE10 inhibitor. 
+PDE10A is almost exclusively expressed in the striatum and subsequent increase in cAMP and cGMP after PDE10A inhibition (e.g. by papaverine) is "a novel therapeutic avenue in the discovery of antipsychotics".
+

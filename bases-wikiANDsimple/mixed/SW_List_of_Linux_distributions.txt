@@ -1,0 +1,16 @@
+Debian-based.
+Debian is a distribution that accepts just free software. It is supported on many hardware platforms.
+Knoppix-based.
+Knoppix is itself based on Debian.
+Ubuntu-based.
+Ubuntu is based on Debian.
+Gentoo-based.
+Gentoo is a distribution designed to have highly optimized and frequently updated software.
+RPM-based.
+Red Hat Linux and SUSE Linux were the original major distributions that used the RPM file format, which is today used in several package management systems. Both of these later divided into commercial and community-supported distributions.
+Slackware-based.
+Slackware is known as a highly customizable distribution,generally considered a distribution for expert users.
+SLAX-Based.
+SLAX's distributions are know for be really good in branch of quality.
+Others.
+The following distributions either use another packaging system, do not use any, or are simply not categorized.

@@ -1,0 +1,31 @@
+Windows 7 (also known by the codenames Blackcomb and Vienna) is the next version of Microsoft Windows. It has a new taskbar called 'Superbar' and it looks like the taskbar from the Mac OS operating system. Computer manufactures will be able to customize the boot screen.
+Development of Windows 7.
+Development of windows 7 started after windows XP. Codename longhorn was meant to be released in 2005 but it was delayed because Microsoft was having problems with new technology.
+In 2007, Microsoft stated that windows 7 is to be made in a 3 year timeframe.
+Naming.
+In October 2008, Microsoft have stated that the official name for the next version of windows will be known as windows 7.
+Windows 2000 was version 5, Windows XP was version 5.1 and Windows Vista was version 6 so thefore, windows 7 will be version 6.1 because it's using the same kernel as vista.
+Milestone 1.
+The first known build of Windows 7 was called Milestone 1. It was the very first build of Windows 7 and it was a customised version of Windows Vista and the builder number was 6519.
+Milestone 2.
+Microsoft then released Windows 7 Milestone 2 which was shown to D6 conference. It had several new features such as a touch screen and the build number was 6589.
+Milestone 3.
+The next major build of Windows 7 was Milestone 3 build 6870. It had a few changes to the background in control panel. It had the ribbon interface in Microsoft Paint and WordPad. It had Internet Explorer 8 beta 2 and Windows Media player 12 beta.
+Build 6801.
+Microsoft presented a pre-beta version of Windows 7 build 6801. It was leaked to torrent sites and it could be only used for 30 days. It did not include the new taskbar like in the beta but there is an unoffical patch which can enable the new taskbar.
+Pre Beta.
+During the PDC conference, build 6933 was shown but was not handed out during the conference. 2 builds were leaked to the internet, build 6936 and build 6956 were leaked to torrent sites as a 32 bit version. A 64 bit version of build 6936 was also leaked.
+Beta.
+The beta was released on 10th Janurary 2009 and the customer preview program will be closed on 24th January 2009.
+Release Candidate.
+Windows 7 news has confirmed that the release candidate will be released on April 2009.
+OEM release.
+Windows 7 will be released to OEM's in Autum 2009.
+Final Build.
+The final release date will all depend on the feedback and reviews on the release candidate build.
+Windows 7 Home Premium.
+Windows 7 home premium will be the right edition for home users.
+Windows 7 Professional.
+Windows 7 Professional will be the edition for business users.
+Windows 7 Ultimate.
+Windows 7 Ultimate is the default version in beta and release candidate builds, and will have all the features in home premium and professional.

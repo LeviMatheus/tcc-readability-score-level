@@ -1,0 +1,56 @@
+
+In computer networking, Point-to-Point Protocol (PPP) is a data link layer (layer 2) communication protocol between two routers directly without any host or any other networking in between. It can provide connection authentication, transmission encryption, and data compression.
+PPP is used over many types of physical networks, including serial cable, phone line, trunk line, cellular telephone, specialized radio links, ISDN, and fiber optic links such as SONET. Internet service providers (ISPs) have used PPP for customer dial-up access to the Internet, since IP packets cannot be transmitted over a modem line on their own without some data link protocol that can identify where the transmitted frame starts and where it ends.
+Two derivatives of PPP, Point-to-Point Protocol over Ethernet (PPPoE) and Point-to-Point Protocol over ATM (PPPoA), are used most commonly by ISPs to establish a digital subscriber line (DSL) Internet service connection with customers.
+Description.
+PPP is commonly used as a data link layer protocol for connection over synchronous and asynchronous circuits, where it has largely superseded the older Serial Line Internet Protocol (SLIP) and telephone company mandated standards (such as Link Access Protocol, Balanced (LAPB) in the X.25 protocol suite). The only requirement for PPP is that the circuit provided be duplex. PPP was designed to work with numerous network layer protocols, including Internet Protocol (IP), TRILL, Novell's Internetwork Packet Exchange (IPX), NBF, DECnet and AppleTalk. Like SLIP, this is a full Internet connection over telephone lines via modem. It is more reliable than SLIP because it double checks to make sure that Internet packets arrive intact. It resends any damaged packets.
+PPP was designed somewhat after the original HDLC specifications. The designers of PPP included many additional features that had been seen only in proprietary data-link protocols up to that time. PPP is specified in RFC 1661.
+RFC 2516 describes Point-to-Point Protocol over Ethernet (PPPoE) as a method for transmitting PPP over Ethernet that is sometimes used with DSL. RFC 2364 describes Point-to-Point Protocol over ATM (PPPoA) as a method for transmitting PPP over ATM Adaptation Layer 5 (AAL5), which is also a common alternative to PPPoE used with DSL.
+PPP, PPPoE and PPPoA are widely used in WAN lines.
+PPP is a layered protocol that has three components:
+Automatic self configuration.
+LCP initiates and terminates connections gracefully, allowing hosts to negotiate connection options. It is an integral part of PPP, and is defined in the same standard specification. LCP provides automatic configuration of the interfaces at each end (such as setting datagram size, escaped characters, and magic numbers) and for selecting optional authentication. The LCP protocol runs on top of PPP (with PPP protocol number 0xC021) and therefore a basic PPP connection has to be established before LCP is able to configure it.
+RFC 1994 describes Challenge-Handshake Authentication Protocol (CHAP), which is preferred for establishing dial-up connections with ISPs.
+Although deprecated, Password Authentication Protocol (PAP) is still sometimes used.
+Another option for authentication over PPP is Extensible Authentication Protocol (EAP) described in RFC 2284.
+After the link has been established, additional network (layer 3) configuration may take place. Most commonly, the Internet Protocol Control Protocol (IPCP) is used, although Internetwork Packet Exchange Control Protocol (IPXCP) and AppleTalk Control Protocol (ATCP) were once popular. Internet Protocol Version 6 Control Protocol (IPv6CP) will see extended use in the future, when IPv6 replaces IPv4 as the dominant layer-3 protocol.
+Multiple network layer protocols.
+PPP permits multiple network layer protocols to operate on the same communication link. For every network layer protocol used, a separate Network Control Protocol (NCP) is provided in order to encapsulate and negotiate options for the multiple network layer protocols. It negotiates network-layer information, e.g. network address or compression options, after the connection has been established.
+For example, Internet Protocol (IP) uses the IP Control Protocol (IPCP), and Internetwork Packet Exchange (IPX) uses the Novell IPX Control Protocol (IPX/SPX). NCPs include fields containing standardized codes to indicate the network layer protocol type that the PPP connection encapsulates.
+The following NCPs may be used with PPP:
+Looped link detection.
+PPP detects looped links using a feature involving magic numbers. When the node sends PPP LCP messages, these messages may include a magic number. If a line is looped, the node receives an LCP message with its own magic number, instead of getting a message with the peer's magic number.
+Configuration options.
+The previous section introduced the use of LCP options to meet specific WAN connection requirements. PPP may include the following LCP options:
+PPP frame.
+Structure.
+PPP frames are variants of HDLC frames:
+If both peers agree to Address field and Control field compression during LCP, then those fields are omitted. Likewise if both peers agree to Protocol field compression, then the 0x00 byte can be omitted.
+The Protocol field indicates the type of payload packet: 0xC021 for LCP, 0x80xy for various NCPs, 0x0021 for IP, 0x0029 AppleTalk, 0x002B for IPX, 0x003D for Multilink, 0x003F for NetBIOS, 0x00FD for MPPC and MPPE, etc. PPP is limited, and cannot contain general Layer 3 data, unlike EtherType.
+The Information field contains the PPP payload; it has a variable length with a negotiated maximum called the Maximum Transmission Unit. By default, the maximum is 1500 octets. It might be padded on transmission; if the information for a particular protocol can be padded, that protocol must allow information to be distinguished from padding.
+Encapsulation.
+PPP frames are encapsulated in a lower-layer protocol that provides framing and may provide other functions such as a checksum to detect transmission errors. PPP on serial links is usually encapsulated in a framing similar to HDLC, described by IETF RFC 1662.
+The Flag field is present when PPP with HDLC-like framing is used.
+The Address and Control fields always have the value hex FF (for "all stations") and hex 03 (for "unnumbered information"), and can be omitted whenever PPP LCP Address-and-Control-Field-Compression (ACFC) is negotiated.
+The frame check sequence (FCS) field is used for determining whether an individual frame has an error. It contains a checksum computed over the frame to provide basic protection against errors in transmission. This is a CRC code similar to the one used for other layer two protocol error protection schemes such as the one used in Ethernet. According to RFC 1662, it can be either 16 bits (2 bytes) or 32 bits (4 bytes) in size (default is 16 bits - Polynomial "x"16 + "x"12 + "x"5 + 1).
+The FCS is calculated over the Address, Control, Protocol, Information and Padding fields after the message has been encapsulated.
+Over several links.
+Multilink PPP.
+Multilink PPP (also referred to as MLPPP, MP, MPPP, MLP, or Multilink) provides a method for spreading traffic across multiple distinct PPP connections. It is defined in RFC 1990. It can be used, for example, to connect a home computer to an Internet Service Provider using two traditional 56k modems, or to connect a company through two leased lines.
+On a single PPP line frames cannot arrive out of order, but this is possible when the frames are divided among multiple PPP connections. Therefore, Multilink PPP must number the fragments so they can be put in the right order again when they arrive.
+Multilink PPP is an example of a link aggregation technology. Cisco IOS Release 11.1 and later supports Multilink PPP. 
+Multiclass PPP.
+With PPP, one cannot establish several simultaneous distinct PPP connections over a single link.
+That's not possible with Multilink PPP either. Multilink PPP uses contiguous numbers for all the fragments of a packet, and as a consequence it is not possible to suspend the sending of a sequence of fragments of one packet in order to send another packet. This prevents from running Multilink PPP multiple times on the same links.
+Multiclass PPP is a kind of Multilink PPP where each "class" of traffic uses a separate sequence number space and reassembly buffer. Multiclass PPP is defined in RFC 2686
+Tunnels.
+Derived protocols.
+PPTP (Point-to-Point Tunneling Protocol) is a form of PPP between two hosts via GRE using encryption (MPPE) and compression (MPPC).
+As a layer 2 protocol between both ends of a tunnel.
+Many protocols can be used to tunnel data over IP networks. Some of them, like SSL, SSH, or L2TP create virtual network interfaces and give the impression of direct physical connections between the tunnel endpoints. On a Linux host for example, these interfaces would be called tun0 or ppp0.
+As there are only two endpoints on a tunnel, the tunnel is a point-to-point connection and PPP is a natural choice as a data link layer protocol between the virtual network interfaces. PPP can assign IP addresses to these virtual interfaces, and these IP addresses can be used, for example, to route between the networks on both sides of the tunnel.
+IPsec in tunneling mode does not create virtual physical interfaces at the end of the tunnel, since the tunnel is handled directly by the TCP/IP stack. L2TP can be used to provide these interfaces, this technique is called L2TP/IPsec. In this case too, PPP provides IP addresses to the extremities of the tunnel.
+IETF standards.
+PPP is defined in RFC 1661 (The Point-to-Point Protocol, July 1994). RFC 1547 (Requirements for an Internet Standard Point-to-Point Protocol, December 1993) provides historical information about the need for PPP and its development. A series of related RFCs have been written to define how a variety of network control protocols-including TCP/IP, DECnet, AppleTalk, IPX, and others-work with PPP.
+Additional drafts:
+

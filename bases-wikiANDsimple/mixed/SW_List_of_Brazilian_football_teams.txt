@@ -1,0 +1,55 @@
+This is a list of Brazilian football teams.
+Acre.
+"State championship: Campeonato Acreano"
+Alagoas.
+"State championship: Campeonato Alagoano"
+Amapá.
+"State championship: Campeonato Amapaense"
+Amazonas.
+"State championship: Campeonato Amazonense"
+Bahia.
+"State championship: Campeonato Baiano"
+Ceará.
+"State championship: Campeonato Cearense"
+Distrito Federal.
+"State championship: Campeonato Brasiliense"
+Espírito Santo.
+"State championship: Campeonato Capixaba"
+Goiás.
+"State championship: Campeonato Goiano"
+Maranhão.
+"State championship: Campeonato Maranhense"
+Mato Grosso.
+"State championship: Campeonato Matogrossense"
+Mato Grosso do Sul.
+"State championship: Campeonato Sul-Matogrossense"
+Minas Gerais.
+"State championship: Campeonato Mineiro"
+Pará.
+"State championship: Campeonato Paraense"
+Paraíba.
+"State championship: Campeonato Paraibano"
+Paraná.
+"State championship: Campeonato Paranaense"
+Pernambuco.
+"State championship: Campeonato Pernambucano"
+Piauí.
+"State championship: Campeonato Piauiense"
+Rio de Janeiro.
+"State championship: Campeonato Carioca"
+Rio Grande do Norte.
+"State championship: Campeonato Potiguar"
+Rio Grande do Sul.
+"State championship: Campeonato Gaúcho"
+Rondônia.
+"State championship: Campeonato Rondoniense"
+Roraima.
+"State championship: Campeonato Roraimense"
+Santa Catarina.
+"State championship: Campeonato Catarinense"
+São Paulo.
+"State championship: Campeonato Paulista"
+Sergipe.
+"State championship: Campeonato Sergipano"
+Tocantins.
+"State championship: Campeonato Tocantinense"

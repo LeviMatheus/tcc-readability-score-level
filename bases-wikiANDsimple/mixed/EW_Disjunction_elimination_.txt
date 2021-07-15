@@ -1,0 +1,11 @@
+
+In propositional logic, disjunction elimination (sometimes named proof by cases, case analysis, or or elimination), is the valid argument form and rule of inference that allows one to eliminate a disjunctive statement from a logical proof. It is the inference that if a statement formula_1 implies a statement formula_2 and a statement formula_3 also implies formula_2, then if either formula_1 or formula_3 is true, then formula_2 has to be true. The reasoning is simple: since at least one of the statements P and R is true, and since either of them would be sufficient to entail Q, Q is certainly true.
+An example in English:
+It is the rule can be stated as:
+where the rule is that whenever instances of "formula_9", and "formula_10" and "formula_11" appear on lines of a proof, "formula_2" can be placed on a subsequent line.
+Formal notation.
+The "disjunction elimination" rule may be written in sequent notation:
+where formula_14 is a metalogical symbol meaning that formula_2 is a syntactic consequence of formula_9, and formula_10 and formula_11 in some logical system;
+and expressed as a truth-functional tautology or theorem of propositional logic:
+where formula_1, formula_2, and formula_3 are propositions expressed in some formal system.
+

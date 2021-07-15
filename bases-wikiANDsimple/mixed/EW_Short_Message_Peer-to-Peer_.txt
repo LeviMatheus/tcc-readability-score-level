@@ -1,0 +1,72 @@
+
+Short Message Peer-to-Peer (SMPP) in the telecommunications industry is an open, industry standard protocol designed to provide a flexible data communication interface for the transfer of short message data between External Short Messaging Entities (ESMEs), Routing Entities (REs) and SMSC.
+SMPP is often used to allow third parties (e.g. value-added service providers like news organizations) to submit messages, often in bulk, but it may be used for SMS peering as well. SMPP is able to carry short messages including EMS, voicemail notifications, Cell Broadcasts, WAP messages including WAP Push messages (used to deliver MMS notifications), USSD messages and others. Because of its versatility and support for non-GSM SMS protocols, like UMTS, IS-95 (CDMA), CDMA2000, ANSI-136 (TDMA) and iDEN, SMPP is the most commonly used protocol for short message exchange outside SS7 networks.
+History.
+SMPP (Short Message Peer-to-Peer) was originally designed by Aldiscon, a small Irish company that was later acquired by Logica (since 2016, after a number of changes Mavenir). The protocol was originally created by a developer, Ian J Chambers, to test the functionality of the SMSC without using SS7 test equipment to submit messages. In 1999, Logica formally handed over SMPP to the SMPP Developers Forum, later renamed as The SMS Forum and now disbanded. As part of the original handover terms, SMPP ownership has now returned to Mavenir due to the disbanding of the SMS Forum.
+To date, SMPP development is suspended and SMS Forum is disbanded. From the SMS Forum website:
+July 31, 2007 - The SMS Forum, a non-profit organization with a mission to develop, foster and promote SMS (short message service) to the benefit of the global wireless industry will disband by July 27, 2007
+A press release, attached to the news, used to warn that site will be suspended soon. In spite of this, the site was mostly functioning and specifications could be downloaded (as of 31 January 2012). As of 12 April 2021, the website owner has changed and the specifications can be download from mirror sites only.
+Operation.
+Contrary to its name, the SMPP uses the client–server model of operation. The Short Message Service Center (SMSC) usually acts as a server, awaiting connections from ESMEs. When SMPP is used for SMS peering, the sending MC usually acts as a client.
+The protocol is based on pairs of request/response PDUs (protocol data units, or packets) exchanged over OSI layer 4 (TCP session or X.25 SVC3) connections. The well-known port assigned by the IANA for SMPP when operating over TCP is 2775, but multiple arbitrary port numbers are often used in messaging environments.
+Before exchanging any messages, a bind command must be sent and acknowledged. The bind command determines in which direction will be possible to send messages; bind_transmitter only allows client to submit messages to the server, bind_receiver means that the client will only receive the messages, and bind_transceiver (introduced in SMPP 3.4) allows message transfer in both directions. In the bind command the ESME identifies itself using system_id, system_type and password; the address_range field designed to contain ESME address is usually left empty. The bind command contains interface_version parameter to specify which version of SMPP protocol will be used.
+Message exchange may be synchronous, where each peer waits for a response for each PDU being sent, or asynchronous, where multiple requests can be issued without waiting and acknowledged in a skew order by the other peer; the number of unacknowledged requests is called a "window"; for the best performance both communicating sides must be configured with the same window size.
+Versions.
+The SMPP standard has evolved during the time. The most commonly used versions of SMPP are:
+The applicable version is passed in the interface_version parameter of a bind command.
+PDU format (after version 3.4).
+The SMPP PDUs are binary encoded for efficiency. They start with a header which may be followed by a body:
+PDU header.
+Each PDU starts with a header. The header consists of 4 fields, each of length of 4 octets:
+All numeric fields in SMPP use the big endian order, which means that the first octet is the Most Significant Byte (MSB).
+Example.
+This is an example of the binary encoding of a 60-octet "submit_sm" PDU. The data is shown in Hex octet values as a single dump and followed by a header and body break-down of that PDU.
+This is best compared with the definition of the submit_sm PDU from the SMPP specification in order to understand how the encoding matches the field by field definition.
+The value break-downs are shown with decimal in parentheses and Hex values after that. Where you see one or several hex octets appended, this is because the given field size uses 1 or more octets encoding.
+Again, reading the definition of the submit_sm PDU from the spec will make all this clearer.
+PDU header.
+ 'command_length', (60) ... 00 00 00 3C
+ 'command_id', (4) ... 00 00 00 04
+ 'command_status', (0) ... 00 00 00 00
+ 'sequence_number', (5) ... 00 00 00 05
+PDU body.
+ 'service_type', () ... 00
+ 'source_addr_ton', (2) ... 02
+ 'source_addr_npi', (8) ... 08
+ 'source_addr', (555) ... 35 35 35 00
+ 'dest_addr_ton', (1) ... 01
+ 'dest_addr_npi', (1) ... 01
+ 'dest_addr', (555555555) ... 35 35 35 35 35 35 35 35 35 00
+ 'esm_class', (0) ... 00
+ 'protocol_id', (0) ... 00
+ 'priority_flag', (0) ... 00
+ 'schedule_delivery_time', (0) ... 00
+ 'validity_period', (0) ... 00
+ 'registered_delivery', (0) ... 00
+ 'replace_if_present_flag', (0) ... 00
+ 'data_coding', (3) ... 03
+ 'sm_default_msg_id', (0) ... 00
+ 'sm_length', (15) ... 0F
+ 'short_message', (Hello Wikipedia) ... 48 65 6C 6C 6F 20 57 69 6B 69 70 65 64 69 61
+Note that the text in the short_message field must match the data_coding. When the data_coding is 8 (UCS2), the text must be in UCS-2BE (or its extension, UTF-16BE). When the data_coding indicates a 7-bit encoding, each septet is stored in a separate octet in the short_message field (with the most significant bit set to 0). SMPP 3.3 data_coding exactly copied TP-DCS values of GSM 03.38, which make it suitable only for GSM 7-bit default alphabet, UCS2 or binary messages; SMPP 3.4 introduced a new list of data_coding values:
+The meaning of the data_coding=4 or 8 is the same as in SMPP 3.3. Other values in the range 1-15 are reserved in SMPP 3.3. Unfortunately, unlike SMPP 3.3, where data_coding=0 was unambiguously GSM 7-bit default alphabet, for SMPP 3.4 and higher the GSM 7-bit default alphabet is missing in this list, and data_coding=0 may differ for various Short message service centers—it may be ISO-8859-1, ASCII, GSM 7-bit default alphabet, UTF-8 or even configurable per ESME. When using data_coding=0, both sides (ESME and SMSC) must be sure they consider it the same encoding. Otherwise it is better not to use data_coding=0. It may be tricky to use the GSM 7-bit default alphabet, some Short message service centers requires data_coding=0, others e.g. data_coding=241.
+Quirks.
+Despite its wide acceptance, the SMPP has a number of problematic features:
+No data_coding for GSM 7-bit default alphabet.
+Although data_coding value in SMPP 3.3 are based on the GSM 03.38, since SMPP 3.4 there is no data_coding value for GSM 7-bit alphabet (GSM 03.38). However, it is common for DCS=0 to indicate the GSM 7-bit alphabet, particularly for SMPP connections to SMSCs on GSM mobile networks.
+Not standardized meaning of data_coding=0.
+According to SMPP 3.4 and 5.0 the data_coding=0 means ″SMSC Default Alphabet″. Which encoding it really is, depends on the type of the SMSC and its configuration.
+Unclear support for Shift-JIS encoding.
+One of the encodings in CDMA standard C.R1001 is Shift-JIS used for Japanese. SMPP 3.4 and 5.0 specifies three encodings for Japanese (JIS, ISO-2022-JP and Extended Kanji JIS), but none of them is identical with CDMA MSG_ENCODING 00101. It seems that the Pictogram encoding (data_coding=9) is used to carry the messages in Shift-JIS in SMPP.
+Incompatibility of submit_sm_resp between SMPP versions.
+When a submit_sm fails, the SMSC returns a submit_sm_resp with non-zero value of command_status and ″empty″ message_id.
+For the best compatibility, any SMPP implementation should accept both variants of negative submit_sm_resp regardless of the version of SMPP standard used for the communication.
+Message ID in SMPP 3.3 SMSC Delivery Receipts.
+The only way to pass delivery receipts in SMPP 3.3 is to put information in a text form to the short_message field; however, the format of the text is described in Appendix B of SMPP 3.4, although SMPP 3.4 may (and should) use receipted_message_id and message_state TLVs for the purpose. While SMPP 3.3 states that Message ID is a C-Octet String (Hex) of up to 8 characters (plus terminating '\0'), the SMPP 3.4 specification states that the id field in the Delivery Receipt Format is a C-Octet String (Decimal) of up to 10 characters. This splits SMPP implementations to 2 groups:
+The SMPP 3.4 specification does however state that the delivery receipt format is SMSC vendor specific, and therefore the format included in the specification is merely one possibility. As noted above, when using SMPP 3.4 receipted_message_id and message_state TLVs should be used to convey the outcome of a message.
+Extensibility, compatibility and interoperability.
+Since introduction of Tag-Length-Value (TLV) parameters in version 3.4, the SMPP may be regarded an extensible protocol. In order to achieve the highest possible degree of compatibility and interoperability any implementation should apply the Internet robustness principle: ″Be conservative in what you send, be liberal in what you accept″. It should use a minimal set of features which are necessary to accomplish a task. And if the goal is communication and not quibbling, each implementation should overcome minor nonconformities with standard:
+Information applicable to one version of SMPP can often be found in another version of SMPP, for example with the case of SMPP 3.4 describing the only mechanism of delivery receipts in SMPP 3.3 described above.
+Security.
+The SMPP protocol is designed on a clear-text binary protocol which needs to be considered if using for potentially sensitive information such as one-time passwords via SMS. There are, however, implementations of SMPP over secure SSL/TLS if required.
+

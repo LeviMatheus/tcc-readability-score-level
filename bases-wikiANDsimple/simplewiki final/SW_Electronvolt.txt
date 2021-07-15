@@ -1,0 +1,3 @@
+The electronvolt, symbol eV, is used to measure energy. It is defined as the amount of energy a single electron has after being accelerated by 1 volt of electricity. Joules are used most often to measure energy, but it is sometimes useful to use electronvolts for very small amounts of energy. To convert joules into electronvolts, divide joules by the charge of an electron, which is about 1.602,
+E.g. 5 J = 5/1.602 eV = 3.125 eV.
+The electronvolt is often used in atomic, nuclear and particle physics.

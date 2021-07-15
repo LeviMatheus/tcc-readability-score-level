@@ -1,0 +1,4 @@
+In computer architecture, a branch predictor is the part of a processor that determines whether a conditional branch (jump) in the instruction flow of a program is likely to be taken or not. This is called branch prediction.
+Branch predictors are important in today's modern, superscalar processors for achieving high performance. They allow processors to fetch and execute instructions without waiting for a branch to be resolved.
+Almost all pipelined processors do branch prediction of some form, because they must guess the address of the next instruction to fetch before the current instruction has been executed.
+Many earlier microprogrammed CPUs did not do branch prediction because there was little or no performance requirements; for this reason there is no need for altering the flow of the instruction stream.

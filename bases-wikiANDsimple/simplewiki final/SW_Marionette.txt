@@ -1,0 +1,1 @@
+A marionette is a puppet that people control with strings called a manipulator from above.

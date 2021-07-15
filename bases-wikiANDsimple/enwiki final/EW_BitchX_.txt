@@ -1,0 +1,11 @@
+
+BitchX is a free IRC client and has been considered to be the most popular ircII-based IRC client. The initial implementation, written by "Trench" and "HappyCrappy", was a script for the IrcII chat client. It was converted to a program in its own right by panasync (Colten Edwards). BitchX 1.1 final was released in 2004. It is written in C and is a TUI application utilizing ncurses. GTK+ toolkit support has been dropped. It works on all Unix-like operating systems, and is distributed under a BSD license. It is originally based on ircII-EPIC and eventually it was merged into the EPIC IRC client. It supports IPv6, multiple servers and SSL and a subset of UTF-8 (characters contained in ISO-8859-1) with an unofficial patch.
+BitchX has frequently been noted to be a popular IRC client for Unix-like systems.
+The latest official release is version 1.2
+BitchX does not yet support Unicode.
+Security.
+It was known that early versions of BitchX were vulnerable to a denial-of-service attack in that they could be caused to crash by passing specially-crafted strings as arguments to certain IRC commands. This was before format string attacks became a well-known class of vulnerability.
+The previous version of BitchX, released in 2004, has security problems allowing remote IRC servers to execute arbitrary code on the client's machine (CVE-2007-3360, CVE-2007-4584).
+On April 26, 2009, Slackware removed BitchX from its distribution, citing the numerous unresolved security issues.
+The aforementioned vulnerabilities were fixed in the sources for the 1.2 release.
+

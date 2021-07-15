@@ -1,0 +1,5 @@
+Pneumatics is the use of pressurized air for mechanical motion.
+It is used in different context.
+Pneumatic transfer systems are employed in many industries to move powders and devices. Pneumatic devices are also used where electric motors cannot be used for safety reasons, such as deep in a mine where explosive dust or gases may be present.
+Comparison to Hydraulics.
+Both pneumatics and hydraulics are applications of fluid power. Pneumatics uses air, which is compressible, while hydraulics uses relatively incompressible liquid media such as oil or water.

@@ -1,0 +1,13 @@
+The Central Time Zone subtracts six hours from UTC during standard time (UTC-6) and five hours during daylight saving time (UTC-5).
+This time zone is called Central Standard Time (CST) during standard time (Winter). It is called Central Daylight Time (CDT) during daylight saving time (Summer). In the United States and Canada, this time zone is often just called Central Time (CT).
+The zone is one hour ahead of the Mountain Time Zone and one hour behind the Eastern Time Zone.
+Canada.
+In Canada, this time zone includes all of Manitoba, nearly all of Saskatchewan, a little part of western Ontario, and part of Nunavut (most of the Kivalliq Region and part of the Qikiqtaaluk Region).
+United States.
+In the United States, the time zone includes the entire area of the states of Alabama, Arkansas, Illinois, Iowa, Louisiana, Minnesota, Missouri, Mississippi, Oklahoma, and Wisconsin. It also includes parts of Florida, Indiana, Kansas, Kentucky, Michigan, Nebraska, North Dakota, South Dakota, Tennessee, and Texas.
+Mexico.
+Most of Mexico belongs to the Central Time Zone. The six northwestern states are not part of the time zone.
+Central America, South America, Oceania.
+Central Time Zone includes the Central American countries of Belize, Guatemala, Honduras, El Salvador, Nicaragua and Costa Rica. In South America, this zone includes the Ecuadorian province of Galápagos. In Oceania, the Chilean Easter Island also belongs to this time zone.
+Central Daylight Time.
+Daylight saving time occurs from early April to late October. During daylight saving, Central Time Zone is only 5 hours behind Coordinated Universal Time (UTC-5). Most of the locations in Central Time Zone observe daylight saving time. A few places do not. These include Saskatchewan, Central America and Galápagos. They stay on standard time all year.

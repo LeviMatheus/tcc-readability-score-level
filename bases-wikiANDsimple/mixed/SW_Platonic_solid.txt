@@ -1,0 +1,5 @@
+Uses.
+The shapes are often used to make dice, because dice of these shapes can be made fair. 6-sided dice are very common, but the other numbers are commonly used in role-playing games. Such dice are commonly referred to as D followed by the number of faces (d8, d20 etc.).
+The tetrahedron (4 sided), cube (6 sided), and octahedron (8 sided), are found naturally in crystal structures. The dodecahedron (12 sides) is combinatorially identical to the pyritohedron (in that both have twelve pentagonal faces), which is one of the possible crystal structures of pyrite. However, the pyritohedron is not a regular dodecahedron, but rather has the same symmetry as the cube.
+In meteorology and climatology, global numerical models of atmospheric flow are of increasing interest which use grids that are based on an icosahedron (20 sides,refined by triangulation) instead of the more commonly used longitude/latitude grid. This has the advantage of better spatial resolution without singularities (i.e. the poles) at the expense of somewhat greater numerical difficulty.
+Geometry of space frames is often based on platonic solids.

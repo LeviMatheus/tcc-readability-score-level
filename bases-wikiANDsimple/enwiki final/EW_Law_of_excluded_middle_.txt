@@ -1,0 +1,81 @@
+
+In logic, the law of excluded middle (or the principle of excluded middle) states that for every proposition, either this proposition or its negation is true. It is one of the so called three laws of thought, along with the law of noncontradiction, and the law of identity. However, no system of logic is built on just these laws, and none of these laws provide inference rules, such as modus ponens or De Morgan's laws.
+The law is also known as the law (or principle) of the excluded third, in Latin principium tertii exclusi. Another Latin designation for this law is tertium non datur: "no third [possibility] is given". It is a tautology.
+The principle should not be confused with the semantical principle of bivalence, which states that every proposition is either true or false. The principle of bivalence always implies the law of excluded middle, while the converse is not always true. A commonly cited counterexample uses statements unprovable now, but provable in the future to show that the law of excluded middle may apply when the principle of bivalence fails.
+History.
+Aristotle.
+The earliest known formulation is in Aristotle's discussion of the principle of non-contradiction, first proposed in "On Interpretation," where he says that of two contradictory propositions (i.e. where one proposition is the negation of the other) one must be true, and the other false. He also states it as a principle in the "Metaphysics" book 3, saying that it is necessary in every case to affirm or deny, and that it is impossible that there should be anything between the two parts of a contradiction.
+Aristotle wrote that ambiguity can arise from the use of ambiguous names, but cannot exist in the facts themselves:
+Aristotle's assertion that "it will not be possible to be and not to be the same thing", which would be written in propositional logic as ¬("P" ∧ ¬"P"), is a statement modern logicians could call the law of excluded middle ("P" ∨ ¬"P"), as distribution of the negation of Aristotle's assertion makes them equivalent, regardless that the former claims that no statement is "both" true and false, while the latter requires that any statement is "either" true or false.
+But Aristotle also writes, "since it is impossible that contradictories should be at the same time true of the same thing, obviously contraries also cannot belong at the same time to the same thing" (Book IV, CH 6, p. 531). He then proposes that "there cannot be an intermediate between contradictories, but of one subject we must either affirm or deny any one predicate" (Book IV, CH 7, p. 531). In the context of Aristotle's traditional logic, this is a remarkably precise statement of the law of excluded middle, "P" ∨ ¬"P".
+Also in "On Interpretation", Aristotle seems to deny the law of excluded middle in the case of future contingents, in his discussion on the sea battle.
+Bertrand Russell and "Principia Mathematica".
+The principle was stated as a theorem of propositional logic by Russell and Whitehead in "Principia Mathematica" as:
+formula_1.
+So just what is "truth" and "falsehood"? At the opening "PM" quickly announces some definitions:
+This is not much help. But later, in a much deeper discussion ("Definition and systematic ambiguity of Truth and Falsehood" Chapter II part III, p. 41 ff), "PM" defines truth and falsehood in terms of a relationship between the "a" and the "b" and the "percipient". For example "This 'a' is 'b'" (e.g. "This 'object a' is 'red'") really means "'object a' is a sense-datum" and "'red' is a sense-datum", and they "stand in relation" to one another and in relation to "I". Thus what we really mean is: "I perceive that 'This object a is red'" and this is an undeniable-by-3rd-party "truth".
+"PM" further defines a distinction between a "sense-datum" and a "sensation":
+Russell reiterated his distinction between "sense-datum" and "sensation" in his book "The Problems of Philosophy" (1912), published at the same time as "PM" (1910–1913):
+Russell further described his reasoning behind his definitions of "truth" and "falsehood" in the same book (Chapter XII, "Truth and Falsehood").
+Consequences of the law of excluded middle in "Principia Mathematica".
+From the law of excluded middle, formula ✸2.1 in "Principia Mathematica," Whitehead and Russell derive some of the most powerful tools in the logician's argumentation toolkit. (In "Principia Mathematica," formulas and propositions are identified by a leading asterisk and two numbers, such as "✸2.1".)
+✸2.1 ~"p" ∨ "p" "This is the Law of excluded middle" ("PM", p. 101).
+The proof of ✸2.1 is roughly as follows: "primitive idea" 1.08 defines "p" → "q" = ~"p" ∨ "q". Substituting "p" for "q" in this rule yields "p" → "p" = ~"p" ∨ "p". Since "p" → "p" is true (this is Theorem 2.08, which is proved separately), then ~"p" ∨ "p" must be true.
+✸2.11 "p" ∨ ~"p" (Permutation of the assertions is allowed by axiom 1.4)&lt;br&gt;
+✸2.12 "p" → ~(~"p") (Principle of double negation, part 1: if "this rose is red" is true then it's not true that "'this rose is not-red' is true".)&lt;br&gt;
+✸2.13 "p" ∨ ~{~(~"p")} (Lemma together with 2.12 used to derive 2.14)&lt;br&gt;
+✸2.14 ~(~"p") → "p" (Principle of double negation, part 2)&lt;br&gt;
+✸2.15 (~"p" → "q") → (~"q" → "p") (One of the four "Principles of transposition". Similar to 1.03, 1.16 and 1.17. A very long demonstration was required here.)&lt;br&gt;
+✸2.16 ("p" → "q") → (~"q" → ~"p") (If it's true that "If this rose is red then this pig flies" then it's true that "If this pig doesn't fly then this rose isn't red.")&lt;br&gt;
+✸2.17 ( ~"p" → ~"q" ) → ("q" → "p") (Another of the "Principles of transposition".)&lt;br&gt;
+✸2.18 (~"p" → "p") → "p" (Called "The complement of "reductio ad absurdum". It states that a proposition which follows from the hypothesis of its own falsehood is true" ("PM", pp. 103–104).)
+Most of these theorems—in particular ✸2.1, ✸2.11, and ✸2.14—are rejected by intuitionism. These tools are recast into another form that Kolmogorov cites as "Hilbert's four axioms of implication" and "Hilbert's two axioms of negation" (Kolmogorov in van Heijenoort, p. 335).
+Propositions ✸2.12 and ✸2.14, "double negation":
+The intuitionist writings of L. E. J. Brouwer refer to what he calls "the "principle of the reciprocity of the multiple species", that is, the principle that for every system the correctness of a property follows from the impossibility of the impossibility of this property" (Brouwer, ibid, p. 335).
+This principle is commonly called "the principle of double negation" ("PM", pp. 101–102). From the law of excluded middle (✸2.1 and ✸2.11), "PM" derives principle ✸2.12 immediately. We substitute ~"p" for "p" in 2.11 to yield ~"p" ∨ ~(~"p"), and by the definition of implication (i.e. 1.01 p → q = ~p ∨ q) then ~p ∨ ~(~p)= p → ~(~p). QED (The derivation of 2.14 is a bit more involved.)
+Reichenbach.
+It is correct, at least for bivalent logic—i.e. it can be seen with a Karnaugh map—that this law removes "the middle" of the inclusive-or used in his law (3). And this is the point of Reichenbach's demonstration that some believe the "exclusive"-or should take the place of the "inclusive"-or.
+About this issue (in admittedly very technical terms) Reichenbach observes:
+In line (30) the "(x)" means "for all" or "for every", a form used by Russell and Reichenbach; today the symbolism is usually formula_2 "x". Thus an example of the expression would look like this:
+Logicians versus Intuitionists.
+From the late 1800s through the 1930s, a bitter, persistent debate raged between Hilbert and his followers versus Hermann Weyl and L. E. J. Brouwer. Brouwer's philosophy, called intuitionism, started in earnest with Leopold Kronecker in the late 1800s.
+Hilbert intensely disliked Kronecker's ideas:
+The debate had a profound effect on Hilbert. Reid indicates that Hilbert's second problem (one of Hilbert's problems from the Second International Conference in Paris in 1900) evolved from this debate (italics in the original):
+Thus Hilbert was saying: "If "p" and ~"p" are both shown to be true, then "p" does not exist", and was thereby invoking the law of excluded middle cast into the form of the law of contradiction.
+The rancorous debate continued through the early 1900s into the 1920s; in 1927 Brouwer complained about "polemicizing against it [intuitionism] in sneering tones" (Brouwer in van Heijenoort, p. 492). But the debate was fertile: it resulted in "Principia Mathematica" (1910–1913), and that work gave a precise definition to the law of excluded middle, and all this provided an intellectual setting and the tools necessary for the mathematicians of the early 20th century:
+Brouwer reduced the debate to the use of proofs designed from "negative" or "non-existence" versus "constructive" proof:
+In his lecture in 1941 at Yale and the subsequent paper Gödel proposed a solution: "that the negation of a universal proposition was to be understood as asserting the existence ... of a counterexample" (Dawson, p. 157))
+Gödel's approach to the law of excluded middle was to assert that objections against "the use of 'impredicative definitions'" "carried more weight" than "the law of excluded middle and related theorems of the propositional calculus" (Dawson p. 156). He proposed his "system Σ ... and he concluded by mentioning several applications of his interpretation. Among them were a proof of the consistency with intuitionistic logic of the principle ~ (∀A: (A ∨ ~A)) (despite the inconsistency of the assumption ∃ A: ~ (A ∨ ~A)" (Dawson, p. 157)
+The debate seemed to weaken: mathematicians, logicians and engineers continue to use the law of excluded middle (and double negation) in their daily work.
+Intuitionist definitions of the law (principle) of excluded middle.
+The following highlights the deep mathematical and philosophic problem behind what it means to "know", and also helps elucidate what the "law" implies (i.e. what the law really means). Their difficulties with the law emerge: that they do not want to accept as true implications drawn from that which is unverifiable (untestable, unknowable) or from the impossible or the false. (All quotes are from van Heijenoort, italics added).
+"Brouwer" offers his definition of "principle of excluded middle"; we see here also the issue of "testability":
+"Kolmogorov"'s definition cites Hilbert's two axioms of negation
+where ∨ means "or". The equivalence of the two forms is easily proved (p. 421)
+Examples.
+For example, if "P" is the proposition:
+then the law of excluded middle holds that the logical disjunction:
+is true by virtue of its form alone. That is, the "middle" position, that Socrates is neither mortal nor not-mortal, is excluded by logic, and therefore either the first possibility ("Socrates is mortal") or its negation ("it is not the case that Socrates is mortal") must be true.
+An example of an argument that depends on the law of excluded middle follows. We seek to prove that 
+It is known that formula_6 is irrational (see proof). Consider the number
+Clearly (excluded middle) this number is either rational or irrational. If it is rational, the proof is complete, and
+But if formula_7 is irrational, then let
+Then
+and 2 is certainly rational. This concludes the proof.
+In the above argument, the assertion "this number is either rational or irrational" invokes the law of excluded middle. An intuitionist, for example, would not accept this argument without further support for that statement. This might come in the form of a proof that the number in question is in fact irrational (or rational, as the case may be); or a finite algorithm that could determine whether the number is rational.
+Non-constructive proofs over the infinite.
+The above proof is an example of a "non-constructive" proof disallowed by intuitionists:
+&lt;/math&gt; is irrational but there is no known easy proof of that fact.) (Davis 2000:220)}} (Constructive proofs of the specific example above are not hard to produce; for example formula_8 and formula_15 are both easily shown to be irrational, and formula_16; a proof allowed by intuitionists).
+By "non-constructive" Davis means that "a proof that there actually are mathematic entities satisfying certain conditions would not have to provide a method to exhibit explicitly the entities in question." (p. 85). Such proofs presume the existence of a totality that is complete, a notion disallowed by intuitionists when extended to the "infinite"—for them the infinite can never be completed:
+David Hilbert and Luitzen E. J. Brouwer both give examples of the law of excluded middle extended to the infinite. Hilbert's example: "the assertion that either there are only finitely many prime numbers or there are infinitely many" (quoted in Davis 2000:97); and Brouwer's: "Every mathematical species is either finite or infinite." (Brouwer 1923 in van Heijenoort 1967:336).
+In general, intuitionists allow the use of the law of excluded middle when it is confined to discourse over finite collections (sets), but not when it is used in discourse over infinite sets (e.g. the natural numbers). Thus intuitionists absolutely disallow the blanket assertion: "For all propositions "P" concerning infinite sets "D": "P" or ~"P"" (Kleene 1952:48).
+Putative counterexamples to the law of excluded middle include the liar paradox or Quine's paradox. Certain resolutions of these paradoxes, particularly Graham Priest's dialetheism as formalised in LP, have the law of excluded middle as a theorem, but resolve out the Liar as both true and false. In this way, the law of excluded middle is true, but because truth itself, and therefore disjunction, is not exclusive, it says next to nothing if one of the disjuncts is paradoxical, or both true and false.
+Criticisms.
+Many modern logic systems replace the law of excluded middle with the concept of negation as failure. Instead of a proposition's being either true or false, a proposition is either true or not able to be proved true. These two dichotomies only differ in logical systems that are not complete. The principle of negation as failure is used as a foundation for autoepistemic logic, and is widely used in logic programming. In these systems, the programmer is free to assert the law of excluded middle as a true fact, but it is not built-in "a priori" into these systems.
+Mathematicians such as L. E. J. Brouwer and Arend Heyting have also contested the usefulness of the law of excluded middle in the context of modern mathematics.
+In mathematical logic.
+In modern mathematical logic, the excluded middle has been shown to result in possible self-contradiction. It is possible in logic to make well-constructed propositions that can be neither true nor false; a common example of this is the "Liar's paradox", the statement "this statement is false", which can itself be neither true nor false. The law of excluded middle still holds here as the negation of this statement "This statement is not false", can be assigned true. In set theory, such a self-referential paradox can be constructed by examining the set "the set of all sets that do not contain themselves". This set is unambiguously defined, but leads to a Russell's paradox: does the set contain, as one of its elements, itself? However, in the modern Zermelo–Fraenkel set theory, this type of contradiction is no longer admitted.
+Analogous laws.
+Some systems of logic have different but analogous laws. For some finite "n"-valued logics, there is an analogous law called the "law of excluded "n"+1th". If negation is cyclic and "∨" is a "max operator", then the law can be expressed in the object language by (P ∨ ~P ∨ ~~P ∨ ... ∨ ~...~P), where "~...~" represents "n"−1 negation signs and "∨ ... ∨" "n"−1 disjunction signs. It is easy to check that the sentence must receive at least one of the "n" truth values (and not a value that is not one of the "n").
+Other systems reject the law entirely.
+

@@ -1,0 +1,3 @@
+AbiWord is a free word processor that can be downloaded for free, it is open source and is much smaller in size than a proprietary alternative, Microsoft Word. It is available for FreeBSD, Linux, Microsoft Windows, Mac OS X, and QNX. Its mascot is Abi the ant. It is much smaller than many other commercial word-processors of its time, only using about 15Mb on a computer's hard drive under Microsoft Windows. It is easy to use.
+See also.
+OpenOffice.org Writer

@@ -1,0 +1,10 @@
+Introduction.
+An integrated circuit (more often called an IC, microchip, silicon chip, computer chip, or chip) is a piece of specially prepared silicon (or another semiconductor) into which a very complex electronic circuit is etched using photographic technique. Silicon chips can contain computer processors, memory and special devices. The chip, which is very fragile with normally being surrounded by a tough plastic package, and electrical contacts are provided through metal legs sticking out of the package.
+There are two main advantages of ICs over discrete circuits: cost and peformance. Cost is low because the ICs are printed as a complete unit by photolithography and not constructed as one transistor at a time. Performance is higher since the components switch quickly consumed little power.
+ICs work as they are designed. Let's suppose that you designed a chip as a calculator, which only works as a calculator.
+Invention.
+An integrated circuit was independently co-invented by Jack Kilby and Robert Noyce around the same time in late 1950's.
+Generations.
+※The difference between VLSI and ULSI is obscure.
+Classification.
+Integrated circuits can be classified into DIP(Dual in-line package), PLCC(Plastic leaded chip carrier), TSOP(Thin small-outline package), PQFP(Plastic Quad Flat Pack) and etc by chip package type.

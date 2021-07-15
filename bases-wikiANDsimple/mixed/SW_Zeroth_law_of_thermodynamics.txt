@@ -1,0 +1,1 @@
+The Zeroth Law of Thermodynamics says that if the temperature(T) from one object (for example 'A') is equal to another object ('B'), and the temperature of 'B' is equal to the temperature of 'C' (a third object), then the temperature from 'A' is equal to the temperature from 'C'

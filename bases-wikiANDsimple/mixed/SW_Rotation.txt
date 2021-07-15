@@ -1,0 +1,10 @@
+Rotation is the movement of an object in a circular motion.
+A two-dimensional object rotates around a "center" (or "point") "of rotation". A three-dimensional object rotates around a line called an "axis". If the axis of rotation is within the body, the body is said to rotate upon itself, or "spin"— which implies relative speed and perhaps free-movement with angular momentum. A circular motion about an external point (for example the Earth around the Sun) is called an "orbit" or more properly "orbital revolution."
+Types of rotation.
+Rotation around a point in one plane can be in a clockwise direction or an anticlockwise direction.
+Aviation.
+In flight dynamics, the principal rotations are known as "pitch", "roll" and "yaw". The term rotation is also used in aviation to refer to the upward pitch of an aircraft, particularly when starting the major climb for takeoff.
+Amusement rides.
+Many amusement rides provide rotation. A Ferris wheel and observation wheel have a horizontal central axis, and parallel axes for each gondola, where the rotation is opposite, by gravity or mechanically.
+Sports.
+Rotation, usually called "spin", plays a role in many sports. "Topspin" and "backspin" in tennis. "English", "follow" and "draw" in billiards and pool. Curve balls in baseball and spin bowling in cricket. Table tennis paddles are specialized to allow players to spin the ball as they hit it.

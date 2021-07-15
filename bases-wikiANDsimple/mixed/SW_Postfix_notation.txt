@@ -1,0 +1,4 @@
+Postfix notation is a mathematical notation. It is a way to write down equations and other mathematical formulae. Postfix notation is also known as Reverse Polish Notation. The notation was invented by Charles Hamblin in 1920. He wanted to simplify writing logic equations. He used Jan Łukasiewicz's prefix notation.
+When postfix notation is used, no grouping elements (like parenthesis) are needed.
+Some computer languages, like Postscript use Postfix notation. It is also use in some models of Hewlett-Packard calculators
+With postfix notation, the operations are noted after their arguments. Because of this, postfix is relatively easy to do with computers who have a stack to do calculations.

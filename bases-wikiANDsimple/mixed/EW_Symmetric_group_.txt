@@ -1,0 +1,100 @@
+
+In abstract algebra, the symmetric group defined over any set is the group whose elements are all the bijections from the set to itself, and whose group operation is the composition of functions. In particular, the finite symmetric group formula_1 defined over a finite set of formula_2 symbols consists of the permutations that can be performed on the formula_2 symbols. Since there are formula_4 (formula_2 factorial) such permutation operations, the order (number of elements) of the symmetric group formula_1 is formula_4.
+Although symmetric groups can be defined on infinite sets, this article focuses on the finite symmetric groups: their applications, their elements, their conjugacy classes, a finite presentation, their subgroups, their automorphism groups, and their representation theory. For the remainder of this article, "symmetric group" will mean a symmetric group on a finite set.
+The symmetric group is important to diverse areas of mathematics such as Galois theory, invariant theory, the representation theory of Lie groups, and combinatorics. Cayley's theorem states that every group formula_8 is isomorphic to a subgroup of the symmetric group on (the underlying set of) formula_8.
+Definition and first properties.
+The symmetric group on a finite set formula_10 is the group whose elements are all bijective functions from formula_10 to formula_10 and whose group operation is that of function composition. For finite sets, "permutations" and "bijective functions" refer to the same operation, namely rearrangement. The symmetric group of degree formula_2 is the symmetric group on the set formula_14.
+The symmetric group on a set formula_10 is denoted in various ways, including formula_16, formula_17, formula_18, formula_19 and formula_20. If formula_10 is the set formula_22 then the name may be abbreviated to formula_1, formula_24, formula_25, or formula_26.
+Symmetric groups on infinite sets behave quite differently from symmetric groups on finite sets, and are discussed in , , and .
+The symmetric group on a set of formula_2 elements has order formula_4 (the factorial of formula_2). It is abelian if and only if formula_2 is less than or equal to 2. For formula_31 and formula_32 (the empty set and the singleton set), the symmetric groups are trivial (they have order formula_33). The group S"n" is solvable if and only if formula_34. This is an essential part of the proof of the Abel–Ruffini theorem that shows that for every formula_35 there are polynomials of degree formula_2 which are not solvable by radicals, that is, the solutions cannot be expressed by performing a finite number of operations of addition, subtraction, multiplication, division and root extraction on the polynomial's coefficients.
+Applications.
+The symmetric group on a set of size "n" is the Galois group of the general polynomial of degree "n" and plays an important role in Galois theory. In invariant theory, the symmetric group acts on the variables of a multi-variate function, and the functions left invariant are the so-called symmetric functions. In the representation theory of Lie groups, the representation theory of the symmetric group plays a fundamental role through the ideas of Schur functors. In the theory of Coxeter groups, the symmetric group is the Coxeter group of type A"n" and occurs as the Weyl group of the general linear group. In combinatorics, the symmetric groups, their elements (permutations), and their representations provide a rich source of problems involving Young tableaux, plactic monoids, and the Bruhat order. Subgroups of symmetric groups are called permutation groups and are widely studied because of their importance in understanding group actions, homogeneous spaces, and automorphism groups of graphs, such as the Higman–Sims group and the Higman–Sims graph.
+Elements.
+The elements of the symmetric group on a set "X" are the permutations of "X".
+Multiplication.
+The group operation in a symmetric group is function composition, denoted by the symbol ∘ or simply by juxtaposition of the permutations. The composition of permutations "f" and "g", pronounced ""f" of "g"", maps any element "x" of "X" to "f"("g"("x")). Concretely, let (see permutation for an explanation of notation):
+Applying "f" after "g" maps 1 first to 2 and then 2 to itself; 2 to 5 and then to 4; 3 to 4 and then to 5, and so on. So composing "f" and "g" gives
+A cycle of length , taken to the "k"th power, will decompose into "k" cycles of length "m": For example, (, ),
+Verification of group axioms.
+To check that the symmetric group on a set "X" is indeed a group, it is necessary to verify the group axioms of closure, associativity, identity, and inverses.
+Transpositions, sign, and the alternating group.
+A transposition is a permutation which exchanges two elements and keeps all others fixed; for example (1 3) is a transposition. Every permutation can be written as a product of transpositions; for instance, the permutation "g" from above can be written as "g" = (1 2)(2 5)(3 4). Since "g" can be written as a product of an odd number of transpositions, it is then called an odd permutation, whereas "f" is an even permutation.
+The representation of a permutation as a product of transpositions is not unique; however, the number of transpositions needed to represent a given permutation is either always even or always odd. There are several short proofs of the invariance of this parity of a permutation.
+The product of two even permutations is even, the product of two odd permutations is even, and all other products are odd. Thus we can define the sign of a permutation:
+With this definition,
+is a group homomorphism ({+1, –1} is a group under multiplication, where +1 is e, the neutral element). The kernel of this homomorphism, that is, the set of all even permutations, is called the alternating group A"n". It is a normal subgroup of S"n", and for it has elements. The group S"n" is the semidirect product of A"n" and any subgroup generated by a single transposition.
+Furthermore, every permutation can be written as a product of "adjacent transpositions", that is, transpositions of the form . For instance, the permutation "g" from above can also be written as . The sorting algorithm bubble sort is an application of this fact. The representation of a permutation as a product of adjacent transpositions is also not unique.
+Cycles.
+A cycle of "length" "k" is a permutation "f" for which there exists an element "x" in {1, ..., "n"} such that "x", "f"("x"), "f"2("x"), ..., "f""k"("x") = "x" are the only elements moved by "f"; it is required that since with the element "x" itself would not be moved either. The permutation "h" defined by
+is a cycle of length three, since , and , leaving 2 and 5 untouched. We denote such a cycle by , but it could equally well be written or by starting at a different point. The order of a cycle is equal to its length. Cycles of length two are transpositions. Two cycles are "disjoint" if they move disjoint subsets of elements. Disjoint cycles commute: for example, in S6 there is the equality . Every element of S"n" can be written as a product of disjoint cycles; this representation is unique up to the order of the factors, and the freedom present in representing each individual cycle by choosing its starting point.
+Cycles admit the following conjugation property with any permutation formula_44, this property is often used to obtain its generators and relations.
+Special elements.
+Certain elements of the symmetric group of {1, 2, ..., "n"} are of particular interest (these can be generalized to the symmetric group of any finite totally ordered set, but not to that of an unordered set).
+The is the one given by:
+This is the unique maximal element with respect to the Bruhat order and the
+longest element in the symmetric group with respect to generating set consisting of the adjacent transpositions , .
+This is an involution, and consists of formula_47 (non-adjacent) transpositions
+so it thus has sign:
+which is 4-periodic in "n".
+In S2"n", the "perfect shuffle" is the permutation that splits the set into 2 piles and interleaves them. Its sign is also formula_51
+Note that the reverse on "n" elements and perfect shuffle on 2"n" elements have the same sign; these are important to the classification of Clifford algebras, which are 8-periodic.
+Conjugacy classes.
+The conjugacy classes of S"n" correspond to the cycle structures of permutations; that is, two elements of S"n" are conjugate in S"n" if and only if they consist of the same number of disjoint cycles of the same lengths. For instance, in S5, (1 2 3)(4 5) and (1 4 3)(2 5) are conjugate; (1 2 3)(4 5) and (1 2)(4 5) are not. A conjugating element of S"n" can be constructed in "two line notation" by placing the "cycle notations" of the two conjugate permutations on top of one another. Continuing the previous example:
+which can be written as the product of cycles, namely: (2 4).
+This permutation then relates (1 2 3)(4 5) and (1 4 3)(2 5) via conjugation, that is,
+It is clear that such a permutation is not unique.
+Low degree groups.
+The low-degree symmetric groups have simpler and exceptional structure, and often must be treated separately.
+Maps between symmetric groups.
+Other than the trivial map and the sign map , the most notable homomorphisms between symmetric groups, in order of relative dimension, are:
+There are also a host of other homomorphisms where .
+Relation with alternating group.
+For , the alternating group A"n" is simple, and the induced quotient is the sign map: which is split by taking a transposition of two elements. Thus S"n" is the semidirect product , and has no other proper normal subgroups, as they would intersect A"n" in either the identity (and thus themselves be the identity or a 2-element group, which is not normal), or in A"n" (and thus themselves be A"n" or S"n").
+S"n" acts on its subgroup A"n" by conjugation, and for , S"n" is the full automorphism group of A"n": Aut(A"n") ≅ S"n". Conjugation by even elements are inner automorphisms of A"n" while the outer automorphism of A"n" of order 2 corresponds to conjugation by an odd element. For , there is an exceptional outer automorphism of A"n" so S"n" is not the full automorphism group of A"n".
+Conversely, for , S"n" has no outer automorphisms, and for it has no center, so for it is a complete group, as discussed in automorphism group, below.
+For , S"n" is an almost simple group, as it lies between the simple group A"n" and its group of automorphisms.
+S"n" can be embedded into A"n"+2 by appending the transposition to all odd permutations, while embedding into A"n"+1 is impossible for .
+Generators and relations.
+The symmetric group on letters is generated by the adjacent transpositions formula_54 that swap and . The collection formula_55 generates subject to the following relations:
+where 1 represents the identity permutation. This representation endows the symmetric group with the structure of a Coxeter group (and so also a reflection group).
+Other possible generating sets include the set of transpositions that swap and for , and a set containing any -cycle and a -cycle of adjacent elements in the -cycle.
+Subgroup structure.
+A subgroup of a symmetric group is called a permutation group.
+Normal subgroups.
+The normal subgroups of the finite symmetric groups are well understood. If , S"n" has at most 2 elements, and so has no nontrivial proper subgroups. The alternating group of degree "n" is always a normal subgroup, a proper one for and nontrivial for ; for it is in fact the only non-identity proper normal subgroup of S"n", except when where there is one additional such normal subgroup, which is isomorphic to the Klein four group.
+The symmetric group on an infinite set does not have a subgroup of index 2, as Vitali (1915) proved that each permutation can be written as a product of three squares. However it contains the normal subgroup "S" of permutations that fix all but finitely many elements, which is generated by transpositions. Those elements of "S" that are products of an even number of transpositions form a subgroup of index 2 in "S", called the alternating subgroup "A". Since "A" is even a characteristic subgroup of "S", it is also a normal subgroup of the full symmetric group of the infinite set. The groups "A" and "S" are the only non-identity proper normal subgroups of the symmetric group on a countably infinite set. This was first proved by Onofri (1929) and independently Schreier–Ulam (1934). For more details see or .
+Maximal subgroups.
+The maximal subgroups of the finite symmetric groups fall into three classes: the intransitive, the imprimitive, and the primitive. The intransitive maximal subgroups are exactly those of the form for . The imprimitive maximal subgroups are exactly those of the form Sym("k") wr Sym("n"/"k") where is a proper divisor of "n" and "wr" denotes the wreath product acting imprimitively. The primitive maximal subgroups are more difficult to identify, but with the assistance of the O'Nan–Scott theorem and the classification of finite simple groups, gave a fairly satisfactory description of the maximal subgroups of this type according to .
+Sylow subgroups.
+The Sylow subgroups of the symmetric groups are important examples of "p"-groups. They are more easily described in special cases first:
+The Sylow "p"-subgroups of the symmetric group of degree "p" are just the cyclic subgroups generated by "p"-cycles. There are such subgroups simply by counting generators. The normalizer therefore has order and is known as a Frobenius group (especially for ), and is the affine general linear group, .
+The Sylow "p"-subgroups of the symmetric group of degree "p"2 are the wreath product of two cyclic groups of order "p". For instance, when , a Sylow 3-subgroup of Sym(9) is generated by and the elements , and every element of the Sylow 3-subgroup has the form for .
+The Sylow "p"-subgroups of the symmetric group of degree "p""n" are sometimes denoted W"p"("n"), and using this notation one has that is the wreath product of W"p"("n") and W"p"(1).
+In general, the Sylow "p"-subgroups of the symmetric group of degree "n" are a direct product of "a""i" copies of W"p"("i"), where and (the base "p" expansion of "n").
+For instance, , the dihedral group of order 8, and so a Sylow 2-subgroup of the symmetric group of degree 7 is generated by and is isomorphic to .
+These calculations are attributed to and described in more detail in . Note however that attributes the result to an 1844 work of Cauchy, and mentions that it is even covered in textbook form in .
+Transitive subgroups.
+A transitive subgroup of S"n" is a subgroup whose action on {1, 2, ..., "n"} is transitive. For example, the Galois group of a (finite) Galois extension is a transitive subgroup of S"n", for some "n".
+Cayley's theorem.
+Cayley's theorem states that every group "G" is isomorphic to a subgroup of some symmetric group. In particular, one may take a subgroup of the symmetric group on the elements of "G", since every group acts on itself faithfully by (left or right) multiplication.
+Automorphism group.
+For , S"n" is a complete group: its center and outer automorphism group are both trivial.
+For , the automorphism group is trivial, but S2 is not trivial: it is isomorphic to C2, which is abelian, and hence the center is the whole group.
+For , it has an outer automorphism of order 2: , and the automorphism group is a semidirect product .
+In fact, for any set "X" of cardinality other than 6, every automorphism of the symmetric group on "X" is inner, a result first due to according to .
+Homology.
+The group homology of S"n" is quite regular and stabilizes: the first homology (concretely, the abelianization) is:
+The first homology group is the abelianization, and corresponds to the sign map S"n" → S2 which is the abelianization for "n" ≥ 2; for "n" &lt; 2 the symmetric group is trivial. This homology is easily computed as follows: S"n" is generated by involutions (2-cycles, which have order 2), so the only non-trivial maps are to S2 and all involutions are conjugate, hence map to the same element in the abelianization (since conjugation is trivial in abelian groups). Thus the only possible maps send an involution to 1 (the trivial map) or to −1 (the sign map). One must also show that the sign map is well-defined, but assuming that, this gives the first homology of S"n".
+The second homology (concretely, the Schur multiplier) is:
+This was computed in , and corresponds to the double cover of the symmetric group, 2 · S"n".
+Note that the exceptional low-dimensional homology of the alternating group (formula_62 corresponding to non-trivial abelianization, and formula_63 due to the exceptional 3-fold cover) does not change the homology of the symmetric group; the alternating group phenomena do yield symmetric group phenomena – the map formula_64 extends to formula_65 and the triple covers of A6 and A7 extend to triple covers of S6 and S7 – but these are not "homological" – the map formula_66 does not change the abelianization of S4, and the triple covers do not correspond to homology either.
+The homology "stabilizes" in the sense of stable homotopy theory: there is an inclusion map , and for fixed "k", the induced map on homology is an isomorphism for sufficiently high "n". This is analogous to the homology of families Lie groups stabilizing.
+The homology of the infinite symmetric group is computed in , with the cohomology algebra forming a Hopf algebra.
+Representation theory.
+The representation theory of the symmetric group is a particular case of the representation theory of finite groups, for which a concrete and detailed theory can be obtained. This has a large area of potential applications, from symmetric function theory to problems of quantum mechanics for a number of identical particles.
+The symmetric group S"n" has order "n"!. Its conjugacy classes are labeled by partitions of "n". Therefore, according to the representation theory of a finite group, the number of inequivalent irreducible representations, over the complex numbers, is equal to the number of partitions of "n". Unlike the general situation for finite groups, there is in fact a natural way to parametrize irreducible representation by the same set that parametrizes conjugacy classes, namely by partitions of "n" or equivalently Young diagrams of size "n".
+Each such irreducible representation can be realized over the integers (every permutation acting by a matrix with integer coefficients); it can be explicitly constructed by computing the Young symmetrizers acting on a space generated by the Young tableaux of shape given by the Young diagram.
+Over other fields the situation can become much more complicated. If the field "K" has characteristic equal to zero or greater than "n" then by Maschke's theorem the group algebra "K"S"n" is semisimple. In these cases the irreducible representations defined over the integers give the complete set of irreducible representations (after reduction modulo the characteristic if necessary).
+However, the irreducible representations of the symmetric group are not known in arbitrary characteristic. In this context it is more usual to use the language of modules rather than representations. The representation obtained from an irreducible representation defined over the integers by reducing modulo the characteristic will not in general be irreducible. The modules so constructed are called "Specht modules", and every irreducible does arise inside some such module. There are now fewer irreducibles, and although they can be classified they are very poorly understood. For example, even their dimensions are not known in general.
+The determination of the irreducible modules for the symmetric group over an arbitrary field is widely regarded as one of the most important open problems in representation theory.
+

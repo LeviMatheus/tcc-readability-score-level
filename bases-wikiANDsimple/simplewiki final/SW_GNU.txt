@@ -1,0 +1,2 @@
+GNU is the name of a computer operating system. The name is short for "GNU's Not U'"nix". Richard Stallman leads the project working on GNU, known as the GNU Project.
+People have been working on GNU since 1983, but it is still not finished. The central part of the operating system, called the Kernel, is not finished, and lots of people use the Linux kernel instead. Software that runs on the GNU system often has been made for other computer software systems like Microsoft Windows and Mac OS X.

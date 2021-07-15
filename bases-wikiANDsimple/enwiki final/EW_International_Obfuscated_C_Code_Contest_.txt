@@ -1,0 +1,189 @@
+
+The International Obfuscated C Code Contest (abbreviated IOCCC) is a computer programming contest for the most creatively obfuscated C code. Held annually, it is described as "celebrating [C's] syntactical opaqueness". The winning code for the 27th contest, held in 2020, was released in July 2020. Previous contests were held in the years 1984–1996, 1998, 2000, 2001, 2004–2006, 2011–2015 and 2018–2020.
+Entries are evaluated anonymously by a panel of judges. The judging process is documented in the competition guidelines and consists of elimination rounds. By tradition, no information is given about the total number of entries for each competition. Winning entries are awarded with a category, such as "Worst Abuse of the C preprocessor" or "Most Erratic Behavior", and then announced on the official IOCCC website. The contest states that being announced on the IOCCC website is the reward for winning.
+History.
+The IOCCC was started by Landon Curt Noll and Larry Bassel in 1984 while employed at National Semiconductor's Genix porting group. The idea for the contest came after they compared notes with each other about some poorly written code that they had to fix, notably the Bourne shell, which used macros to emulate ALGOL 68 syntax, and a buggy version of finger for BSD. The contest itself was the topic of a quiz question in the 1993 Computer Bowl. After a hiatus of five years starting in 2006, the contest returned in 2011.
+Compared with other programming contests, the IOCCC is described as "not all that serious" by Michael Swaine, editor of "Dr. Dobb's Journal".
+Rules.
+Each year, the rules of the contest are published on the IOCCC website. All material is published under Creative Commons license BY-SA 3.0 Unported. Rules vary from year to year and are posted with a set of guidelines that attempt to convey the spirit of the rules.
+The rules are often deliberately written with loopholes that contestants are encouraged to find and abuse. Entries that take advantage of loopholes can cause the rules for the following year's contest to be adjusted.
+Obfuscations employed.
+Entries often employ strange or unusual tricks, such as using the C preprocessor to do things it was not designed to do, or avoiding commonly used constructs in the C programming language in favor of much more obscure ways of achieving the same thing. Two contest winners generated a list of prime numbers using the C preprocessor "spectacularly", according to "Dr. Dobbs". Some quotes from 2004 winners include:
+Contributions have included source code formatted to resemble images, text, etc., after the manner of ASCII art, preprocessor redefinitions to make code harder to read, and self-modifying code. In several years, an entry was submitted that required a new definition of some of the rules for the next year. This is regarded as a high honor. An example is the world's shortest self-reproducing program. The entry was a program designed to output its own source code, and which had zero bytes of source code. When the program ran, it printed out zero bytes, equivalent to its source code.
+In the effort to take obfuscation to its extremes, contestants have produced programs which skirt around the edges of C standards, or result in constructs which trigger rarely used code path combinations in compilers. As a result, several of the past entries may not compile directly in a modern compiler, and some may cause crashes.
+Examples.
+Within the code size limit of only a few kilobytes, contestants have managed to do complicated things – a 2004 winner turned out an operating system.
+Toledo Nanochess.
+"Toledo Nanochess" is a chess engine developed by Mexican Oscar Toledo Gutiérrez, a five-time winner of the IOCCC. In accordance with IOCCC rules, it is 1255 characters long. The author claims that it is the world's smallest chess program written in C.
+The source code for "Toledo Nanochess" and other engines is available.
+Because "Toledo Nanochess" is based on Toledo's winning entry from the 18th IOCCC (Best Game), it is heavily obfuscated.
+On February 2, 2014, the author published the book "Toledo Nanochess: The commented source code", which contains the fully commented source code.
+As of February 7, 2010, it appears to be one of only two chess engines written in less than 2 kilobytes of C that are able to play full legal chess moves, along with "Micro-Max" by Dutch physicist H. G. Muller. In 2014 the 1 kilobyte barrier was broken by "Super Micro Chess" – a derivative of Micro-Max – totaling 760 characters (spaces and newlines included). There is also a smaller version of Toledo's engine, the "Toledo Picochess", consisting of 944 non-blank characters.
+Source code excerpt
+B,i,y,u,b,I[411],*G=I,x=10,z=15,M=1e4;X(w,c,h,e,S,s){int t,o,L,E,d,O=e,N=-M*M,K
+=78-h«x,p,*g,n,*m,A,q,r,C,J,a=y?-x:x;y^=8;G++;d=w||s&amp;&amp;s&gt;=h&amp;&amp;v 0,0)&gt;M;do{_ o=I[
+p=O]){q=o&amp;z^y _ q&lt;7){A=q--&amp;2?8:4;C=o-9&amp;z?q["&amp; .$ "]:42;do{r=I[p+=C[l]-64]_!w|p
+==w){g=q|p+a-S?0:I+S _!r&amp;(q|A&lt;3||g)||(r+1&amp;z^y)&gt;9&amp;&amp;q|A&gt;2){_ m=!(r-2&amp;7))P G[1]=O,
+K;J=n=o&amp;z;E=I[p-a]&amp;z;t=q|E-7?n:(n+=2,6^y);Z n&lt;=t){L=r?l[r&amp;7]*9-189-h-q:0 _ s)L
++=(1-q?l[p/x+5]-l[O/x+5]+l[p%x+6]*-~!q-l[O%x+6]+o/16*8:!!m*9)+(q?0:!(I[p-1]^n)+
+!(I[p+1]^n)+l[n&amp;7]*9-386+!!g*99+(A&lt;2))+!(E^y^9)_ s&gt;h||1&lt;s&amp;s==h&amp;&amp;L&gt;z|d){p[I]=n,O
+[I]=m?*g=*m,*m=0:g?*g=0:0;L-=X(s&gt;h|d?0:p,L-N,h+1,G[1],J=q|A&gt;1?0:p,s)_!(h||s-1|B
+-O|i-n|p-b|L&lt;-M))P y^=8,u=J;J=q-1|A&lt;7||m||!s|d|r|o&lt;z||v 0,0)&gt;M;O[I]=o;p[I]=r;m?
+n+=J||(g=I+p,m=p&lt;O?g-3:g+2,*m&lt;z|m[O-p]||I[p+=p-O]);}}}}Z!r&amp;q&gt;2||(p=O,q|A&gt;2|o&gt;z&amp;
+!r&amp;&amp;++C*--A));}}}Z++O&gt;98?O=20:e-O);P N+M*M&amp;&amp;N&gt;-K+1924|d?N:0;}main(){Z++B&lt;121)*G
+=B/x%x&lt;2|B%x&lt;2?7:B/x&amp;4?0:*l++&amp;31;Z B=19){Z B++&lt;99)putchar(B%x?l[B[I]|16]:x.
+x-(B=F)){i=I[B+=(x-F)*x]&amp;z;b=F;b+=(x-F)*x;Z x-(*G=F))i=*G^8^y;}else v u,5);v u,
+Pi.
+Below is a 1988 entry which calculates pi by looking at its own area:
+int F=00,OO=00;main(){F_OO();printf("%1.3f\n",4.*-F/OO/OO);}F_OO()
+ _-_-_-_
+ _-_-_-_-_-_-_-_-_
+ _-_-_-_-_-_-_-_-_-_-_-_
+ _-_-_-_-_-_-_-_-_-_-_-_-_-_
+ _-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+ _-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+ _-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+ _-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+ _-_-_-_-_-_-_-_-_-_-_-_-_-_
+ _-_-_-_-_-_-_-_-_-_-_-_
+ _-_-_-_-_-_-_-_
+ _-_-_-_
+Flight simulator.
+Another example is the following flight simulator, the winner of the 1998 IOCCC, as listed and described in "Calculated Bets: Computers, Gambling, and Mathematical Modeling to Win" (2001) and shown below:
+ double L ,o ,P
+ ,_=dt,T,Z,D=1,d,
+ s[999],E,h= 8,I,
+ J,K,w[999],M,m,O
+ ,n[999],j=33e-3,i=
+ 1E3,r,t, u,v ,W,S=
+ 74.5,l=221,X=7.26,
+ a,B,A=32.2,c, F,H;
+ int N,q, C, y,p,U;
+ Window z; char f[52]
+ ; GC k; main(){ Display*e=
+ XOpenDisplay( 0); z=RootWindow(e,0); for (XSetForeground(e,k=XCreateGC (e,z,0,0),BlackPixel(e,0))
+sin(j); a=B*T*D-E*W; XClearWindow(e,z); t=T*E+ D*B*W; j+=d*_*D-_*F*E; P=W*E*B-T*D; for (o+=(I=D*W+E
+]== 0|K &lt;fabs(W=T*r-I*E +D*P) |fabs(D=t *D+Z *T-a *E)&gt; K)N=1e4; else{ q=W/K *4E2+2e2; C= 2E2+4e2/ K
+ *D; N-1E4&amp;&amp; XDrawLine(e ,z,k,N ,U,q,C); N=q; U=C; } ++p; } L+=_* (X*t +P*M+m*l); T=X*X+ l*l+M *M;
+ XDrawString(e,z,k ,20,380,f,17); D=v/l*15; i+=(B *l-M*r -X*Z)*_; for(; XPending(e); u *=CS!=N){
+ XEvent z; XNextEvent(e ,&amp;z);
+ ++*((N=XLookupKeysym
+ (&amp;z.xkey,0))-IT?
+ N-LT? UP-N?&amp; E:&amp;
+ J:&amp; u: &amp;h); --*(
+ DN -N? N-DT ?N==
+ RT?&amp;u: &amp; W:&amp;h:&amp;J
+ ); } m=15*F/l;
+ c+=(I=M/ l,l*H
+ +I*M+a*X)*_; H
+ =A*r+v*X-F*l+(
+ E=.1+X*4.9/l,t
+ =T*m/32-I*T/24
+ )/S; K=F*M+(
+ h* 1e4/l-(T+
+ E*5*T*E)/3e2
+ )/S-X*d-B*A;
+ a=2.63 /l*d;
+ X+=( d*l-T/S
+ *(.19*E +a
+ *.64+J/1e3
+ )-M* v +A*
+ Z)*_; l +=
+ K *_; W=d;
+ sprintf(f,
+ "%5d %3d"
+ "%7d",p =l
+ /1.7,(C=9E3+
+ O*57.3)%0550,(int)i); d+=T*(.45-14/l*
+ X-a*130-J* .14)*_/125e2+F*_*v; P=(T*(47
+ *I-m* 52+E*94 *D-t*.38+u*.21*E) /1e2+W*
+ 179*v)/2312; select(p=0,0,0,0,&amp;G); v-=(
+ W*F-T*(.63*m-I*.086+m*E*19-D*25-.11*u
+This program needs the following command line on a Linux system to be compiled:
+In order to run the binary file () it has to be supplied with a senery file via input:
+ cat pittsburgh.sc | ./banks 
+Akari.
+Below is a 2011 entry which downsamples an ascii image by Don, Yang:
+ /*
+ +
+ +
+ [ &gt;i&gt;n[t
+ */ #include&lt;stdio.h&gt;
+ /*2w0,1m2,]_&lt;n+a m+o&gt;r&gt;i&gt;=&gt;(['0n1'0)1;
+ */int/**/main(int/**/n,char**m){FILE*p,*q;int A,k,a,r,i/*
+ #uinndcelfu_dset&lt;rsitcdti_oa.nhs&gt;i/_*/;char*d="P%" "d\n%d\40%d"/**/
+ "\n%d\n\00wb+",b[1024],y[]="yuriyurarararayuruyuri*daijiken**akkari~n**"
+ "/y*u*k/riin&lt;ty(uyr)g,aur,arr[a1r2a82*y2*/u*r{uyu}riOcyurhiyua**rrar+*arayra*="
+ "yuruyurwiyuriyurara'rariayuruyuriyuriyu&gt;rarararayuruy9uriyu3riyurar_aBrMaPrOaWy^?"
+ "*]/f]`;hvroai&lt;dp/f*i*s/&lt;ii(f)a{tpguat&lt;cahfaurh(+uf)a;f}vivn+tf/g*`*w/jmaa+i`ni("/**
+ */"i+k[&gt;+b+i&gt;++b++&gt;l[rb";int/**/u;for(i=0;i&lt;101;i++)y[i*2]^="~hktrvg~dmG*eoa+%squ#l2"
+ ":(wn\"1l))v?wM353{/Y;lgcGp`vedllwudvOK`cct~[|ju {stkjalor(stwvne\"gt\"yogYURUYURI"[
+ i]^y[i*2+1]^4;/*!*/p=(n&gt;1&amp;&amp;(m[1][0]-'-'||m[1][1] !='\0'))?fopen(m[1],y+298):stdin;
+ /*y/riynrt~(^w^)],]c+h+a+r+*+*[n&gt;)+{&gt;f+o&lt;r&lt;(-m] =&lt;2&lt;5&lt;64;}-]-(m+;yry[rm*])/[*
+ */q=(n&lt;3||!(m[2][0]-'-'||m[2][1]))?stdout /*]{ }[*/:fopen(m[2],d+14);if(!p||/*
+ "]«*-]&gt;y++&gt;u»+r &gt;+u+++y&gt;--u---r&gt;++i+++" &lt;)&lt; ;[&gt;-m-.&gt;a-.-i.++n.&gt;[(w)*/!q/**/)
+ return+printf("Can " "not\x20open\40%s\40" "" "for\40%sing\n",m[!p?1:2],!p?/*
+ o=82]5«+(+3+1+&amp;.(+ m +-+1.)&lt;)&lt;|&lt;|.6&gt;4&gt;-+(&gt; m- &amp;-1.9-2-)-|-|.28&gt;-w-?-m.:&gt;([28+
+ */"read":"writ");for ( a=k=u= 0;y[u]; u=2 +u){y[k++ ]=y[u];}if((a=fread(b,1,1024/*
+]&amp;&lt;1&lt;6&lt;?&lt;m.-+1&gt;3&gt; +:+ .1&gt;3+++ . -m-) -;.u+=++.1&lt;0&lt; &lt;; f&lt;o&lt;r&lt;(.;&lt;([m(=)/8*/
+u++;i++;}fprintf (q, d,k, u »1,i»1,r);u = k-5?8:4;k=3;}else
+ /*]&gt;*/{(u)=/*{ p&gt; &gt;u &gt;t&gt;-]s &gt;++(.yryr*/+( n+14&gt;17)?8/4:8*5/
+ 4;}for(r=i=0 ; ;){u*=6;u+= (n&gt;3?1:0);if (y[u]&amp;01)fputc(/*
+ &lt;g-e&lt;t.c&gt;h.a r -(-).)8+&lt;1. &gt;;+i.(&lt;)&lt; &lt;)+{+i.f&gt;([180*/1*
+ (r),q);if(y[u ]&amp;16)k=A;if (y[u]&amp;2)k--;if(i/*
+ ("^w^NAMORI; { I*/==a/*" )*/){/**/i=a=(u)*11
+ &amp;255;if(1&amp;&amp;0&gt;= (a= fread(b,1,1024,p))&amp;&amp;
+ ")]i&gt;(w)-;} { /i-f-(-m--M1-0.)&lt;{"
+ [ 8]==59/* */ )break;i=0;}r=b[i++]
+ ;u+=(/**» *..&lt;/«&lt;)&lt;[[;]**/+8&amp;*
+ (y+u))?(10- r?4:2):(y[u] &amp;4)?(k?2:4):2;u=y[u/*
+ 49;7i\(w)/;} y}ru\=*ri[ ,mc]o;n}trientuu ren (
+ */]-(int)'`';} fclose( p);k= +fclose( q);
+ " */ return k- -1+ /*\' '-`*/
+If you run the program using its own source as the input, you will get:
+[root@host ~]# ./akari akari.c 
+ 
+ int
+ *w,m,_namori=('n');
+ #include&lt;stdio.h&gt;/*;hrd"% dnd4%"*/
+ /**/int(y),u,r[128*2/*{y}icuhya*rr*rya=
+ */];void/**/i(){putchar(u);}int/**/main(/*
+ "(n"l)?M5{YlcpvdluvKct[j skao(tve"t"oYRYR"
+ */int(w),char**n){for(m =256;--m;r[m]/*
+ "&lt;*]y+u&gt;r&gt;u+y-u-r+i+" ) ;&gt;m.a.i+n&gt;()/q*/
+ =25&lt;(31&amp;( m -1))||64-( m &amp;192)||2&gt;w?m:(2+
+m/*"*,/U// R/)/U * &amp; /Y/0/U/=P &amp;=/"*/)\
+&amp;16?m-13 : 13+ m) ;u=+10 ;for(;(m=/*
+ *&gt;/()/{ p u t-s +(yy*+ n1&gt;7?/:*/
+ getchar ())+1 ;i() ){if(10/*
+ "wNMR;{ I/=/" )/{*/==u*1
+ )i(); if(m-10){
+ u=/*&gt; *./&lt;)[;*/8*
+ 4;i(); }u=r[ m];}return(
+[root@host ~]# ./akari akari.c &gt; ./akari.small
+[root@host ~]# ./akari ./akari.small 
+ wm_aoi(n)
+ /*ity,[2*/{}char*y=
+ (")M{lpduKtjsa(v""YY"
+ "*yuruyuri") ;main(/*
+/",U/ R)U* Y0U= ="/\
+ "NR{I=" ){/=*
+[root@host ~]# 
+[root@host ~]# ./akari ./akari.small &gt; ./akari.smaller
+[root@host ~]# ./akari ./akari.smaller
+ main
+(){puts("Y"
+"U RU YU "\
+"RI" )/*
+[root@host ~]# 
+External links.
+[[Category:C (programming language) contests]]
+[[Category:Computer humor]]
+[[Category:Obfuscation]]
+[[Category:Ironic and humorous awards]]
+[[Category:Recurring events established in 1984]]
+

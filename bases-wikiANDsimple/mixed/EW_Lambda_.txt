@@ -1,0 +1,15 @@
+
+Lambda (; uppercase ', lowercase '; , "lám(b)da") is the 11th letter of the Greek alphabet, representing the sound /l/. In the system of Greek numerals lambda has a value of 30. Lambda is derived from the Phoenician Lamed . Lambda gave rise to the Latin L and the Cyrillic El (Л). The ancient grammarians and dramatists give evidence to the pronunciation as () in Classical Greek times. In Modern Greek the name of the letter, Λάμδα, is pronounced .
+In early Greek alphabets, the shape and orientation of lambda varied. Most variants consisted of two straight strokes, one longer than the other, connected at their ends. The angle might be in the upper-left, lower-left ("Western" alphabets) or top ("Eastern" alphabets). Other variants had a vertical line with a horizontal or sloped stroke running to the right. With the general adoption of the Ionic alphabet, Greek settled on an angle at the top; the Romans put the angle at the lower-left.
+The HTML 4 character entity references for the Greek capital and small letter lambda are codice_1 and codice_2 respectively. The Unicode code points for lambda are U+039B and U+03BB.
+Symbol.
+Upper-case letter Λ.
+Examples of the symbolic use of uppercase lambda include:
+Lower-case letter λ.
+Examples of the symbolic use of lowercase lambda include:
+Litra symbol.
+The Roman "libra" and Byzantine "lítra" (), which served as both the pound mass unit and liter volume unit, were abbreviated in Greek using lambda with modified forms of the iota subscript (as λͅ). These are variously encoded in Unicode. The Ancient Greek Numbers Unicode block includes 10183 (𐆃) as well as 𐅢, which is described as 10162 but was much more common as a form of the litra sign. A variant of the sign can be formed from 0338 and either 039B (Λ̸) or 03BB (λ̸).
+Character encodings.
+Unicode uses the spelling "lamda" in character names, instead of "lambda", due to "preferences expressed by the Greek National Body".
+These characters are used only as mathematical symbols. Stylized Greek text should be encoded using the normal Greek letters, with markup and formatting to indicate text style.
+

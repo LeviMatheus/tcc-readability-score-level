@@ -1,0 +1,3 @@
+Continuum mechanics is a branch of physics (specifically mechanics) where matter is understood as continuous.
+This is useful in engineering (especially civil engineering and mechanical engineering) and in physics that deals with deformation of matter. It is important for both: solids "and" fluids (i.e., liquids and gases).
+The fact that matter is made of atoms and that it commonly has some sort of heterogeneous "microstructure" is ignored in the simplifying approximation that is used in continuum mechanics.

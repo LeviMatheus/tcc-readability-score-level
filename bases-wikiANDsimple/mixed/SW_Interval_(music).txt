@@ -1,0 +1,9 @@
+An interval in music means the distance between two notes (whether these notes are played together or separately).
+Two notes on a keyboard which are next to one another (counting both white and black notes) are a “semitone” apart. A “tone” is two semitones (see semitone). However, an “interval” depends on how the notes are written (what they are called) e.g. whether the black note between D and E is written as D sharp or E flat (which are two different names for the same note).
+C D E F G A B C and down again.
+(this is always so long as the letter name has not changed).
+It is important to realize that, in order to work out what an interval is, the lower note should be treated as the first note of the scale.
+Intervals can be “inverted” (turned upside down). For example: instead of going from a C up to an A (major 6th) we can go from C down to an A (minor 3rd).
+Compound intervals are intervals bigger than an octave e.g.
+C to D an octave and one more note above it is a major 9th.
+Big intervals are called “wide” intervals. The opposite is a “narrow” interval.

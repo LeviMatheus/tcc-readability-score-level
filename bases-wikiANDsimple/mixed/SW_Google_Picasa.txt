@@ -1,0 +1,12 @@
+Picasa is a software application for organizing and editing digital photos, it was first created by Idealab but is now owned by Google. "Picasa" is a blend of the name of Spanish painter Pablo Picasso, the phrase "mi casa" for "my house", and "pic" for pictures). In July 2004, Google bought Picasa and began offering Picasa for free download.
+There is a version for Windows XP and Windows Vista, as well as a version for Linux. For Windows 98 and Windows Me, only an older version is available. There is also an iPhoto plugin or program for uploading photos available for Mac OS X 10.4 and later.
+Picasa Web Albums.
+Picasa Web Albums (PWA) is a photo-sharing web application from Google, similar to websites like Flickr and Zooomr.
+Users may upload pictures by using either a web interface, through Picasa 2.5.0 or later on Microsoft Windows, using the Exporter for iPhoto, the Aperture to Picasa Web Albums plug-in, or Uploader on Mac OS X, or F-Spot on Linux.
+No ads are shown on Picasa Web Albums, in either free or paid accounts. The Terms of Service let Google to use the uploaded photos to display on the website or via RSS feeds, and also for promoting Google services without needing to pay the users.
+Picasa Web Albums was first announced on June 6, 2006. When introduced, it came with 250 MB free space. On March 7, 2007, it was upgraded to 1 GB.
+Windows.
+There are no versions of Picasa for Windows 95 or NT. The latest version offered for Windows 98/ME is 2.0.0 (build 18.84). Newer versions are for Windows 2000/XP/Vista only.
+See also the release notes. and the latest updates page
+Mac OS X.
+Picasa for Mac is under development and will be launched later in 2008. A plugin is available for iPhoto to upload to the Picasa Web Albums hosting service. There is also a standalone Picasa Web Albums uploading tools for OS X 10.4 or later. Using Darwine or similar compatibility layers, however, Picasa can run on Mac OS X.

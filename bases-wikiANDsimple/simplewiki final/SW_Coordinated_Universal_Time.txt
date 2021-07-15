@@ -1,0 +1,4 @@
+Coordinated Universal Time (UTC) is the standard time zone of the world. The standard before was Greenwich Mean Time (GMT). UTC and GMT are almost the same. It is also called civil time and Zulu time.
+Some websites, like Wikipedia, use UTC because it does not make any country look more important than the others. It offers one time for all the internet (the same time can be used by people all over the world).
+Timezones are often named by how many hours they are different from UTC time. For example, UTC -5 (United States east coast) is 5 hours behind UTC. If the time is 07:00 UTC, the local time is 02:00 in New York (UTC -5) and 10:00 in Moscow (UTC +3)
+When this page loaded, it was, in UTC

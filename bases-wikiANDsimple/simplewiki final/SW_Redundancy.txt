@@ -1,0 +1,1 @@
+Redundancy is a concept. It is a word that is used to talk about systems that are fault-tolerant. It means that there are things that are there several times. So if one such things fails, there are still other things that can replace it.

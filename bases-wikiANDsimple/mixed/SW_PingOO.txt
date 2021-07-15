@@ -1,0 +1,2 @@
+PingOO is a communication server based on Debian.
+PingOO was created by the CRI (Centre des Ressources Informatiques) in Haute-Savoie (France).

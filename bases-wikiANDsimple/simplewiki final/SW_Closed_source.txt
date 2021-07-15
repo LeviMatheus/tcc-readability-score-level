@@ -1,0 +1,4 @@
+Closed source (or proprietary, especially when compared to Free software) software is the opposite of Open source. Closed source software does not give others access to the source code of the software.
+Most companies who sell their software for money make it closed source to make it harder for people to copy it for free.
+Even some people and companies who give their software for free do not show the source code, because they think it looks bad, or that somebody will change the authors' names to their own (“plagiarism”) without making the program better. Some of such programs are called “freeware”, and they are not free software.
+Closed source software is often considered less secure than open source software, however this is not always the case.

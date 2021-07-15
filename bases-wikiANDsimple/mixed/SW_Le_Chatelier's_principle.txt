@@ -1,0 +1,9 @@
+The Le Chatelier's principle is a principle used in chemistry. It is a system that tries to make up for the changes that affect the system at equilibrium.
+Overview.
+It is used to see the effects of relations between concentration, pressure, and temperature. If a change of condition is added onto a system at equilibrium, the equilibrium position will shift in the direction that wants to reduce that change.
+Concentration.
+Equilibrium is measured by concentration of a chemistry substance. If there is more concentration, the extra material must be used up to try to set the change back at equilibrium. It tries to fill the void.
+Pressure.
+Pressure is applied to an airy substance called gas. If there is more pressure, the system will take away the number of molecules, leaving with fewer gas molecules.
+Temperature.
+If heat is added, the system moves away from heat so it can use it up.

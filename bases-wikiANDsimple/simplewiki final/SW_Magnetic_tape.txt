@@ -1,0 +1,10 @@
+Magnetic tape a long and narrow strip of plastic that thin magnetic material is coated on. Nearly all recording tape is of this type, whether used for recording audio or video or computer data storage.
+Magnetic tape recording uses magnetic tape which moves on a recording head. Electrical signals are fed to the recording head, inducing a pattern of magnetization similar to the signal. A playback head can then pick up the changes in magnetic field from the tape and convert it into an electrical signal.
+Devices that record and playback audio and video using magnetic tape are generally called tape recorders and video tape recorders respectively. A device that stores computer data on magnetic tape can be called a tape drive, a tape unit, or a streamer. Autoloaders and tape libraries are frequently used to automate cartridge handling.
+History.
+Magnetic tape was first invented for recording sound by Fritz Pfleumer in 1928 in Germany. Pfleumer's invention used an iron oxide(Fe2O3) powder coating on a long strip of paper.
+Magnetic tape has been used for data storage for over 50 years. In this time, many advances in tape have been made. Modern magnetic tape is most commonly packaged in cartridges and cassettes.
+Today, many other technologies like CD or DVD are replacing magnetic tape. However, innovation in the technology continues and tape is still widely used.
+Strength and Weakness.
+When storing large amounts of data, tape can be cheaper than disk or other data storage options. Tape storage has always been used with large computer systems. Modern usage is a high capacity medium for backups and archives. As of 2008, the highest capacity tape cartridge (Sun StorageTek T10000B) can store 1 TB of data without using compression.
+But, magnetic tape has quite a long wait time for random accesses since the deck must wind the tape to move from one data to another. (Magnetic tape data stroage uses Sequential access method.)

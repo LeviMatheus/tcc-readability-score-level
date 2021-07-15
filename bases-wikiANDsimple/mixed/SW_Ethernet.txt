@@ -1,0 +1,8 @@
+Ethernet is a way of connecting computers together in a local area network or LAN. It has been the most widely used method of linking computers together in LANs since the 1990s.
+Different cable types.
+There are different Ethernet standards. Today, Ethernet looks like connecting cables that look like thick telephone cables to a set of boxes called hubs or switches. Each cable runs from a computer's network interface card (NIC) to such a box. This cable is called 10BaseT or 100BaseT, or 1000BaseT Cable.
+Today, the cables for 10BaseT, 100BaseT, and 1000BaseT are the same. They use unshielded twisted pair of Category 5 (UTP-Cat5) or 5e for that. Shielded cable (STP-Cat5 or Cat5e) can be used when there is a lot of electrical noise, and Category 6 (UTP-Cat6 or STP-Cat6) works better with faster signals such as 1GBit or 10GBit.
+Different devices.
+Other devices,such as the Xbox can also be connected using the same kind of cabling. Certain computer peripherals, for example printers and certain hard disks can be directly connected to the network with such cables.
+Different speeds.
+Ethernet can go at different speeds. In the beginning, Ethernet was at 10 MBits per second. The Ethernet most often used today is at 100 MBits per second. Most new computers now have the NIC built in, and can go at 1GBit. There are also standards for 1GBit per second and 10 GBit per second. 100 MBit can usually talk to 10 MBit, and 1 GBit can talk to 100 MBit and usually to 10 MBit (both full and half duplex).

@@ -1,0 +1,9 @@
+"Visual Basic.NET" is the second series of Microsoft's Visual Basic series. It is sometimes shortened to "VB.NET". It is an IDE (Integrated Development Environment) and it includes an easy 'drag-and-drop' interface. It can make complete programs for Windows very easily.
+Visual Basic.
+It was first released in 1991 by Microsoft. Visual Basic is a simple way to make programs for Windows. It started as "Project Ruby" by Alan Cooper and then was sold to Microsoft. The system is built loosely on the original BASIC programming language released in 1963 and it can 'Test' programs in real-time, error checking them in a user-friendly way.
+.NET Framework.
+This package is the 'backbone' of Visual Basic.NET. When applications are created, the Windows Installer includes the framework with it. It includes all the items needed to run the VB.NET applications that have been made.
+Visual Basic 2005 Express Edition.
+This is a free version of Visual Basic 2005 released officially from Microsoft. It is aimed at encouraging more newbie programmers to try the series. The program can be downloaded from.
+Controls.
+Visual Basic.NET uses many controls which can be added to the forms or windows in the application. Other developers can create controls for applications, not just the ones that Microsoft include.

@@ -1,0 +1,5 @@
+Set theory is a theory used in mathematics. It deals with sets, which are collections of various objects.
+History.
+The reason why set theory was made is that collections of objects can cause problems if you work with them without explaining them better. It was made by people like Georg Cantor and Bertrand Russell.
+Theory.
+Set theory begins by giving some examples of things that are sets. Then it gives rules with which you can make other sets from the already known sets. Collections of objects that are not sets are called classes. It is possible to do mathematics using only sets, rather than classes, so that the problems that classes cause in mathematics do not occur.

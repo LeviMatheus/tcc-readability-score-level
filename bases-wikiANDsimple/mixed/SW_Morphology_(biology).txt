@@ -1,0 +1,4 @@
+The term morphology in biology means the outward appearance (shape, structure, colour, pattern) of an organism or taxon and its parts. This is in contrast to physiology, which deals with function.
+"Gross morphology", means the principal aspects of an organism or taxon's morphology. A description of an organism's gross morphology would include, for example, its overall shape, overall colour, main markings etc. but not finer details.
+Most taxa differ morphologically from other taxa. Typically closely related taxa differ much less than more distantly related ones, but there are exceptions to this.
+Cryptic species are species which look very similar, or perhaps even outwardly identical, but are reproductively isolated. But sometimes unrelated taxa develop similar appearance through convergent evolution or even through mimicry.

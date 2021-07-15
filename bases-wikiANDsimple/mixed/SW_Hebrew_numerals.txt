@@ -1,0 +1,4 @@
+The system of Hebrew numerals is a quasi-decimal alphabetic numeral system using the letters of the Hebrew alphabet.
+In this system, zero does not have a place, and the number values for each letter is added together. Each unit (1, 2..., 9) is assigned a separate letter, each tens (10, 20..., 90) a separate letter, and each hundreds (100, 200..., 900) a separate letter.
+Main Table.
+Hebrew has masculine and feminine ways of saying the words. For just counting, feminine is used. Otherwise, the gender is used (ex. two boys, two girls).

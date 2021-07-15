@@ -1,0 +1,24 @@
+
+ 
+Euler's conjecture is a disproved conjecture in mathematics related to Fermat's last theorem. It was proposed by Leonhard Euler in 1769. It states that for all integers and greater than 1, if the sum of th powers of positive integers is itself a th power, then is greater than or equal to :
+The conjecture represents an attempt to generalize Fermat's last theorem, which is the special case : if , then .
+Although the conjecture holds for the case (which follows from Fermat's last theorem for the third powers), it was disproved for and . It is unknown whether the conjecture fails or holds for any value .
+Background.
+Euler was aware of the equality involving sums of four fourth powers; this however is not a counterexample because no term is isolated on one side of the equation. He also provided a complete solution to the four cubes problem as in Plato's number or the taxicab number 1729. The general solution of the equation
+is
+where and are any integers.
+Counterexamples.
+Euler's conjecture was disproven by L. J. Lander and T. R. Parkin in 1966 when, through a direct computer search on a CDC 6600, they found a counterexample for . This was published in a paper comprising just two sentences. A total of three primitive (that is, in which the summands do not all have a common factor) counterexamples are known:
+In 1988, Noam Elkies published a method to construct an infinite series of counterexamples for the case. His smallest counterexample was
+A particular case of Elkies' solutions can be reduced to the identity
+where
+This is an elliptic curve with a rational point at . From this initial rational point, one can compute an infinite collection of others. Substituting into the identity and removing common factors gives the numerical example cited above.
+In 1988, Roger Frye found the smallest possible counterexample 
+for by a direct computer search using techniques suggested by Elkies. This solution is the only one with values of the variables below 1,000,000.
+Generalizations.
+In 1967, L. J. Lander, T. R. Parkin, and John Selfridge conjectured that if 
+where are positive integers for all and , then . In the special case , the conjecture states that if
+(under the conditions given above) then .
+The special case may be described as the problem of giving a partition of a perfect power into few like powers. For and or , there are many known solutions. Some of these are listed below. As of 2002, there are no solutions for formula_6 whose final term is ≤ 730000. 
+This is the smallest solution to the problem by R. Norrie.
+

@@ -1,0 +1,7 @@
+Linear algebra describes ways to solve and manipulate (rearrange) systems of linear equations.
+These two equations form a system of linear equations.
+It is linear because none of the variables are raised to a power.
+Often the graph of a linear equation is a straight line.
+since it makes all of the original equations valid, that is, the value on left side of the equals sign is exactly the same as the value on the right side for both equations.
+Linear algebra uses a system of notation for describing system behavior, called a matrix.
+For the previous example, the coefficients of the equations can be stored in a coefficient matrix.

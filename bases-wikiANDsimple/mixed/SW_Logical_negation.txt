@@ -1,0 +1,1 @@
+Logical negation (also known as not) is a logic operation. It takes one input. It flips the value of the input as the output. If the input was true, it returns false. If the input was false, it returns true.

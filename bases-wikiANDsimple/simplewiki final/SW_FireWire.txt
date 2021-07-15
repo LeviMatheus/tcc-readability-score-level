@@ -1,0 +1,20 @@
+FireWire is a way to connect things together to transfer information. It is most often used to connect a computer to an external hard drive or digital camcorder. It is similar to USB.
+"FireWire" wires are available with 6-pins or 4-pins. The 6-pin variety provides the device with power from the computer.
+Advantages.
+"FireWire" is popular in industrial systems for machine vision and professional audio systems. It is preferred over the more common USB for its greater effective speed and power distribution capabilities, and because it does not need a computer host. Perhaps more importantly, "FireWire" makes full use of all SCSI (older connecting possibility) capabilities and, compared to USB 2.0, has usually higher data transfer rates - feature especially important for audio and video editors.
+Also many computers intended for home or professional audio/video use have built-in "FireWire" ports, including all Apple Inc. and Sony laptop computers and most Dell and HP models currently produced. It is available to general public on retail motherboards for do-it-yourself PCs, alongside USB.
+FireWire is beside produced in wireless, optical fiber, and coaxial cable versions.
+However, the copyright fees demanded from users of FireWire and the more expensive hardware needed to implement it has prevented FireWire from displacing USB in mass-market, where cost of product is crucial.
+History and development.
+FireWire is Apple Inc.'s name for the IEEE 1394 High Speed Serial Bus. Apple intended FireWire to be a serial replacement for the parallel SCSI (Small Computer System Interface) bus while also providing connectivity for digital audio and video equipment.
+Apple's development of the original IEEE 1394 was completed in 1995.It was followed by several modifications: The IEEE Std. 1394a-2000, the IEEE Std. 1394b-2002, and the IEEE Std. 1394c-2006 amendment. The aim of current work is to incorporate all four of these documents into new revision of the 1394 standard.
+Sony's version of the system is known as i.LINK, and uses only the four signal pins, omitting the two pins which provide power to the device because of a separate power connector on Sony's i.LINK products
+FireWire 400 (IEEE 1394).
+FireWire 400 can transfer data between devices at 100, 200, or 400 Mbit/s data rates. The 6-pin connector is commonly found on desktop computers, and can supply the connected device with power.
+Typically a device can pull about 7 to 8 watts from the port; However, the voltage varies significantly from different devices.
+Enhancements (IEEE 1394a).
+Modification IEEE 1394a was released in 2000. It standardized the 4 pin connector already widely in use. The 4-pin version is used on many consumer devices such as camcorders, some laptops and other small "FireWire" devices. It is fully data compatible with 6-pin interfaces.
+FireWire 800 (IEEE 1394b).
+9-pin FireWire 800 was introduced commercially by Apple Inc. in 2003. This newer specification (1394b) and corresponding products allow a transfer rate of 786.432 Mbit/s. It is backwards compatibility to the slower rates and 6-pin connectors of FireWire 400. However, while the IEEE 1394a and IEEE 1394b standards are compatible, connectors are different, making the cables used by previous versions incompatible.
+FireWire S3200.
+In December 2007, the 1394 Trade Association announced the products will soon be available using S3200 mode. It will use the same 9-pin connectors as the existing FireWire 800 and will be fully compatible with existing S400 and S800 devices. The future products are intended to compete with the USB 3.0.

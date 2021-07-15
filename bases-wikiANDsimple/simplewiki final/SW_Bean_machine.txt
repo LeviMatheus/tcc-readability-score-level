@@ -1,0 +1,4 @@
+The bean machine, also known as the quincunx or Galton box, is a machine invented by Sir Francis Galton to demonstrate the law of error and the normal distribution.
+The machine consists of a vertical board with interleaved rows of pins. Balls are dropped from the top, and bounce left and right as they hit the pins. Eventually, they are collected into one-ball-wide bins at the bottom. The height of ball columns in the bins approximates a bell curve.
+Overlaying Pascal's triangle onto the pins shows the number of different paths that can be taken to get to each pin.
+A large-scale working model of this device can be seen at the Museum of Science, Boston.

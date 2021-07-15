@@ -1,0 +1,5 @@
+
+In telecommunication, the term frequency averaging has the following meanings: 
+In frequency averaging, all oscillators are assigned equal weight in determining the ultimate network frequency. 
+In terms of musical note frequency, the averaging of the frequency of low or high notes in a solo instrumental piece is a technique used to match different instruments together so they may be played together. The musical note frequency calculation formula is used: F=(2^12/n)*440, where n equals the number of positive or negative steps away from the base note of A4(440 hertz) and F equals the frequency. The formula is used in calculating the frequency of each note in the piece. The values are then added together and divided by the number of notes. This is the average frequency of those notes. It is said that such techniques were used by classical composers, especially those who involved mathematics heavily in their music. 
+

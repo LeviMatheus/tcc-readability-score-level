@@ -1,0 +1,2 @@
+Surface area is the amount of space covering the outside of a three-dimensional (3D) object. The surface area of a polyhedron is found by finding the sum of the area of all of the faces. The surface area is found between many three-dimensional shapes using formulas.
+The surface area is useful because it tells you how much material is required in order to cover the object -- for example, how much paint is needed to paint a table.

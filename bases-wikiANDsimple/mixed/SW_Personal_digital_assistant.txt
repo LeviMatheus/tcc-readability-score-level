@@ -1,0 +1,15 @@
+A personal digital assistant (PDA) is a handheld computer. Personal digital assistants were designed to replace non-electronic day planners. Many PDAs can work as an address book, a calculator, a clock, and a calendar. Some also have games on them. Newer PDAs have Wi-Fi, touch screens, can read e-mail, record video, play music, etc.
+Processor.
+PDA's processor is a chip which makes the device work. PDAs can have different processors depending on their speed. If access to the Internet, GPS, or video recording are needed, the PDA needs to have a fast processor.
+Memory.
+PDA stores data and applications on RAM memory(Random Access Memory). It is a memory card inside the device. PDAs can also use SD (Secure Digital), SDIO and MMS cards. These are easy to remove and are called flash memory cards. USB flash drives can be used to add more memory.
+Screen.
+Most PDAs have touch screens. This means that the device has less buttons or has no buttons at all. Usually PDAs come with removable 'pen' (stylus) with which the screen is touched. The pen acts like a mouse for desktop PCs or like a touch pad for laptops. For other PDAs a finger is used instead of the pen.
+Battery.
+PDAs are powered by batteries. There are two types of batteries: removable and fixed. Older PDAs used alkaline batteries which the user would have to take out and replace when they ran out. Most new PDAs have Li-ion batteries. These batteries are rechargeable. PDAs use more battery power when playing video, accessing Internet or transferring data using Bluetooth. Large and bright screens also take more power. This makes the battery run out faster.
+Connection.
+A PDA can communicate with other devices, PDAs, PCs, etc. This is made with the help of infrared (IrDA) port or with Bluetooth. Due to this ability the devices can transfer data, download music, images, video, games, etc.
+Synchronization.
+Synchronization means having the same data on both the PDA and a PC. When changes are made on either the PDA or the PC, when they are synchronized, these changes made to data on one of them are also made the data on the other. The synchronization also prevents the loss of the stored information.
+Adaptation (Customization).
+Customization is adding more memory, miniature keyboards, etc to the PDA. Customization also can be putting other software (download Internet programs) on the PDA device.

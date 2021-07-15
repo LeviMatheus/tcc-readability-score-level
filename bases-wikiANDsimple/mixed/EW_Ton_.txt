@@ -1,0 +1,43 @@
+
+The ton is a unit of measure. It has a long history and has acquired a number of meanings and uses over the years. It is used principally as a unit of weight. Its original use as a measurement of volume has continued in the capacity of cargo ships and in terms such as the "freight ton". Recent specialized uses include the ton as a measure of energy and for truck classification. It is also a colloquial term, "ton" (any definition) is the heaviest unit of weight typically used in colloquial speech. It is also used informally to mean a large amount of something, material or not.
+In the United Kingdom, the (Imperial) ton is a statute measure, defined as 2,240 pounds (about ).
+In the United States and Canada, a ton is defined to be .
+Where confusion is possible, the 2240 lb ton is called "long ton" and the 2000 lb ton "short ton". The 1000 kg tonne is distinguished by its spelling, but usually pronounced the same as ton, hence the US term "metric ton". In the UK the final "e" of "tonne" can also be pronounced (), or "metric ton" when it is necessary to make the distinction.
+Where precision is required the correct term must be used, but for many purposes this is not necessary: the metric and long tons differ by only 1.6%.
+The term "ton" is also used to refer to a number of units of volume, ranging from in capacity. 
+It can also be used as a unit of energy, or in refrigeration as a unit of power, sometimes called a "ton of refrigeration".
+History.
+The ton is derived from the "tun", the term applied to a cask of the largest capacity. This could contain a volume between , which could weigh around and occupy some of space.
+Units of mass/weight.
+There are several similar units of mass or volume called the ton:
+Other units of mass/weight.
+Both the long ton and the short ton are 20 hundredweight, the long hundredweight and the short hundredweight being 112 and 100 pounds respectively. Before the twentieth century there were several definitions. Prior to the 15th century in England, the ton was 20 hundredweight, each of 108 lb, giving a ton of . In the nineteenth century in different parts of Britain, definitions of 2240, 2352, and 2400 lb were used, with 2000 lb for explosives; the legal ton was usually 2240 lb.
+Assay ton (abbreviation 'AT') is not a unit of measurement but a standard quantity used in assaying ores of precious metals. A short assay ton is grams while a long assay ton is gram. These amounts bear the same ratio to a milligram as a short or long ton bears to a troy ounce. Therefore, the number of milligrams of a particular metal found in a sample weighing one assay ton gives the number of troy ounces of metal contained in a ton of ore.
+In documents that predate 1960 the word "ton" is sometimes spelled "tonne", but in more recent documents "tonne" refers exclusively to the metric ton.
+In nuclear power plants tHM and MTHM mean tonnes of heavy metals, and MTU means tonnes of uranium. In the steel industry, the abbreviation THM means 'tons/tonnes hot metal', which refers to the amount of liquid iron or steel that is produced, particularly in the context of blast furnace production or specific consumption.
+A dry ton or dry tonne has the same mass value, but the material (sludge, slurries, compost, and similar mixtures in which solid material is soaked with or suspended in water) has been dried to a relatively low, consistent moisture level (dry weight). If the material is in its natural, wet state, it is called a wet ton or wet tonne.
+Subdivisions.
+In the Imperial units system, the imperial (long) ton is equivalent to 20 hundredweight, a hundredweight being eight stone, and a stone weighing 14 pounds.
+Units of volume.
+The displacement, essentially the weight, of a ship is traditionally expressed in long tons. To simplify measurement it is determined by measuring the volume, rather than weight, of water displaced, and calculating the weight from the volume and density.
+For practical purposes the displacement ton (DT) is a unit of volume, , the approximate volume occupied by one ton of seawater (the actual volume varies with salinity and temperature). It is slightly less than the 224 imperial gallons (1.018 m3) of the water ton (based on distilled water).
+One measurement ton or freight ton is equal to , but historically it has had several different definitions. It is used to determine the amount of money to be charged in loading, unloading, or carrying different sorts of cargo. In general if a cargo is heavier than salt water, the actual tonnage is used. If it is lighter than salt water, e.g. feathers, freight is calculated using Measurement Tons of 40 cubic feet.
+Gross tonnage and net tonnage are volumetric measures of the cargo-carrying capacity of a ship.
+The Panama Canal/Universal Measurement System (PC/UMS) is based on net tonnage, modified for Panama Canal billing purposes. PC/UMS is based on a mathematical formula to calculate a vessel's total volume; a PC/UMS net ton is equivalent to 100 cubic feet of capacity.
+The water ton is used chiefly in Great Britain, in statistics dealing with petroleum products, and is defined as , the volume occupied by of water under the conditions that define the imperial gallon.
+Units of energy and power.
+Ton of TNT.
+Note that these are small calories (cal). The large or dietary calorie (Cal) is equal to one kilocalorie (kcal), and is gradually being replaced by the latter correct term.
+Early values for the explosive energy released by trinitrotoluene (TNT) ranged from 900 to 1100 calories per gram. In order to standardise the use of the term "TNT" as a unit of energy, an arbitrary value was assigned based on 1000 calories () per gram. Thus there is no longer a direct connection to the chemical TNT itself. It is now merely a unit of energy that happens to be expressed using words normally associated with mass (e.g., kilogram, tonne, pound). The definition applies for both spellings: "ton of TNT" and "tonne of TNT".
+Measurements in tons of TNT have been used primarily to express nuclear weapon yields, though they have also been used since in seismology as well.
+Tonne of oil equivalent.
+A tonne of oil equivalent (toe), sometimes "ton of oil equivalent", is a conventional value, based on the amount of energy released by burning one tonne of crude oil. The unit is used, for example, by the International Energy Agency (IEA), for the reported world energy consumption as TPES in millions of toe (Mtoe).
+Other sources convert 1 toe into 1.28 tonne of coal equivalent (tce). 1 toe is also standardized as 7.33 barrel of oil equivalent (boe).
+Tonne of coal equivalent.
+A tonne of coal equivalent (tce), sometimes "ton of coal equivalent", is a conventional value, based on the amount of energy released by burning one tonne of coal. Plural name is "tonnes of coal equivalent".
+Refrigeration.
+The unit "ton" is used in refrigeration and air conditioning to measure the rate of heat absorption. Prior to the introduction of mechanical refrigeration, cooling was accomplished by delivering ice. Installing one ton of mechanical refrigeration capacity replaced the daily delivery of one ton of ice.
+The refrigeration ton is commonly abbreviated as RT.
+References.
+ 
+

@@ -1,0 +1,111 @@
+
+The IBM 3270 is a family of block oriented display and printer computer terminals introduced by IBM in 1971 and normally used to communicate with IBM mainframes. The 3270 was the successor to the IBM 2260 display terminal. Due to the text colour on the original models, these terminals are informally known as "green screen" terminals. Unlike a character-oriented terminal, the 3270 minimizes the number of I/O interrupts required by transferring large blocks of data known as data streams, and uses a high speed proprietary communications interface, using coaxial cable.
+IBM no longer manufactures 3270 terminals, but the IBM 3270 protocol is still commonly used via TN3270 clients, 3270 terminal emulation or web interfaces to access mainframe-based applications, which are sometimes referred to as "green screen applications".
+Principles.
+The 3270 series was designed to connect with mainframe computers, often at a remote location, using the technology then available in the early 1970s. The main goal of the system was to maximize the number of terminals that could be used on a single mainframe. To do this, the 3270 was designed to minimize the amount of data transmitted, and minimize the frequency of interrupts to the mainframe. By ensuring the CPU is not interrupted at every keystroke, a 1970s-era IBM 3033 mainframe fitted with only 16 MB of main memory was able to support up to 17,500 3270 terminals under CICS.
+3270 devices are "clustered", with one or more displays or printers connected to a "control unit" (the 3275 and 3276 included an integrated control unit). Originally devices were connected to the control unit over coaxial cable; later Token Ring, twisted pair, or Ethernet connections were available. A "local" control unit attaches directly to the channel of a nearby mainframe. A "remote" control unit is connected to a communications line by a modem. Remote 3270 controllers are frequently "multi-dropped", with multiple control units on a line.
+In a data stream, both text and control (or formatting functions) are interspersed allowing an entire screen to be "painted" as a single output operation. The concept of formatting in these devices allows the screen to be divided into fields (clusters of contiguous character cells) for which numerous field attributes, e.g., color, highlighting, character set, protection from modification, can be set. A field attribute occupies a physical location on the screen that also determines the beginning and end of a field. There are also character attributes associated with individual screen locations.
+Using a technique known as "read modified", a single transmission back to the mainframe can contain the changes from any number of formatted fields that have been modified, but without sending any unmodified fields or static data. This technique enhances the terminal throughput of the CPU, and minimizes the data transmitted. Some users familiar with character interrupt-driven terminal interfaces find this technique unusual. There is also a "read buffer" capability that transfers the entire content of the 3270-screen buffer including field attributes. This is mainly used for debugging purposes to preserve the application program screen contents while replacing it, temporarily, with debugging information.
+Early 3270s offered three types of keyboards. The "typewriter keyboard" came in both a 66 key version, with no programmed function (PF) keys, and a 78 key version with twelve. Both versions had two "Program Attention" (PA) keys. The "data entry keyboard" had five PF keys and two PA keys. The "operator console keyboard" had twelve PF keys and two PA keys. Later 3270s had an Attention key, a Cursor Select key, a System Request key, twenty-four PF keys and three PA keys. There was also a TEST REQ key. When one of these keys is pressed, it will cause its control unit to generate an I/O interrupt to the host computer and present an "Attention ID" (AID) identifying which key was pressed. Application program functions such as termination, page-up, page-down, or help can be invoked by a single key press, thereby reducing the load on very busy processors.
+A downside to this approach was that vi-like behavior, responding to individual keystrokes, was not possible. For the same reason, a porting of Lotus 1-2-3 to mainframes with 3279 screens did not meet with success because its programmers were not able to properly adapt the spreadsheet's user interface to a "screen at a time" rather than "character at a time" device. But end-user responsiveness was arguably more predictable with 3270, something users appreciated.
+Applications.
+Following its introduction the 3270 and compatibles were by far the most commonly used terminals on IBM System/370 and successor systems. IBM and third-party software that included an interactive component took for granted the presence of 3270 terminals and provided a set of ISPF panels and supporting programs.
+Conversational Monitor System (CMS) in VM has support for the 3270 continuing to z/VM.
+Time Sharing Option (TSO) in OS/360 and successors has line mode command line support and also has facilities for full screen applications, e.g., ISPF.
+Device independent Display Operator Console Support (DIDOCS) in Multiple Console Support (MCS) for OS/360 and successors.
+The SPF and "Program Development Facility" (ISPF/PDF) editors for MVS and VM/SP (ISPF/PDF was available for VM, but little used) and the XEDIT editors for VM/SP through z/VM make extensive use of 3270 features.
+Customer Information Control System (CICS) has support for 3270 panels.
+Various versions of Wylbur have support for 3270, including support for full-screen applications.
+The modified data tag is well suited to converting formatted, structured punched card input onto the 3270 display device. With the appropriate programming, any batch program that uses formatted, structured card input can be layered onto a 3270 terminal.
+IBM's OfficeVision office productivity software enjoyed great success with 3270 interaction because of its design understanding. And for many years the PROFS calendar was the most commonly displayed screen on office terminals around the world.
+A version of the WordPerfect word processor ported to System/370 was designed for the 3270 architecture.
+Third parties.
+One of the first groups to write and provide operating system support for the 3270 and its early predecessors was the University of Michigan, who created the Michigan Terminal System in order for the hardware to be useful outside of the manufacturer. MTS was the default OS at Michigan for many years, and was still used at Michigan well into the 1990s.
+Many manufacturers, such as GTE, Hewlett Packard, Honeywell/Incoterm Div, Memorex, ITT Courier and Teletype/AT&amp;T created 3270 compatible terminals, or adapted ASCII terminals such as the HP 2640 series to have a similar block-mode capability that would transmit a screen at a time, with some form validation capability. Modern applications are sometimes built upon legacy 3270 applications, using software utilities to capture (screen scraping) screens and transfer the data to web pages or GUI interfaces.
+In the early 1990s a popular solution to link PCs with the mainframes was the Irma board, an expansion card that plugged into a PC and connected to the controller through a coaxial cable. 3270 simulators for IRMA and similar adapters typically provide file transfers between the PC and the mainframe using the same protocol as the IBM 3270 PC.
+Models.
+The IBM 3270 display terminal subsystem consists of displays, printers and controllers.
+Optional features for the 3275 and 3277 are the "selector-pen" or light pen, ASCII rather than EBCDIC character set, an audible alarm, and a keylock for the keyboard. A "keyboard numeric lock" was available and will lock the keyboard if the operator attempts to enter non-numeric data into a field defined as numeric. Later an "Operator Identification Card Reader" was added which could read information encoded on a magnetic stripe card.
+Displays.
+Generally, 3277 models allow only upper-case input, except for the mixed EBCDIC/APL or "text" keyboards, which have lower case. Lower-case capability and dead keys were available as an RPQ ("Request Price Quotation"); these were added to the later 3278 &amp; 3279 models.
+A version of the IBM PC called the 3270 PC, released in October 1983, includes 3270 terminal emulation. Later, the 3270 PC/G (graphics), 3270 PC/GX (extended graphics), 3270 Personal Computer AT, 3270 PC AT/G (graphics) and 3270 PC AT/GX (extended graphics) followed.
+CUT vs. DFT.
+There are two types of 3270 displays in respect to where the 3270 data stream terminates. For CUT (Control Unit Terminal) displays, the stream terminates in the display controller, the controller instructs the display to move the cursor, position a character, etc. For DFT (Distributed Function Terminal) type displays, most of the 3270 data stream is forwarded to the display by the controller. The display interprets the 3270 protocol itself.
+3279.
+The IBM 3279 was IBM's first colour terminal. IBM initially announced four models, and later added a fifth model for use as a processor console.
+The 3279 was introduced in 1979. The 3279 was widely used as an IBM mainframe terminal before PCs became commonly used for the purpose. It was part of the 3270 series, using the 3270 data stream. Terminals could be connected to a 3274 controller, either channel connected to an IBM mainframe or linked via an SDLC (Synchronous Data Link Control) link. In the Systems Network Architecture (SNA) protocol these terminals were logical unit type 2 (LU2). The basic model 2 used red, green for input fields, and blue and white for output fields. However, there were other models with seven colors and different screen sizes, and one kind had a loadable character set that could be used to show graphics.
+The IBM 3279 with its graphics software support, Graphical Data Display Manager (GDDM), was designed at IBM's Hursley Development Laboratory, near Winchester, England.
+3180.
+The 3180 was a monochrome display, introduced on March 20, 1984, that the user could configure for several different basic and extended display modes; all of the basic modes have a primary screen size of 24x80. Modes 2 and 2+ have a secondary size of 24x80, 3 and 3+ have a secondary size of 32x80, 4 and 4+ have a secondary size of 43x80 and 5 and 5+ have a secondary size of 27x132. An application can override the primary and alternate screen sizes for the extended mode. The 3180 also supported a single explicit partition that could be reconfigured under application control.
+3191.
+The IBM 3191 Display Station is an economical monochrome CRT. Models A and B are 1920 characters 12-inch CRTs. Models D, E and L are 1920 or 2560 character 14-inch CRTs.
+3193.
+The IBM 3193 Display Station is a high-resolution, portrait-type, monochrome, 380mm (15 inch) CRT image display providing up to letter or A4 size document display capabilities in addition to alphanumeric data.
+Compressed images can be sent to the 3193 from a scanner and decompression is performed in the 3193.
+Image data compression is a technique to save transmission time and reduce storage requirements.
+3194.
+The IBM 3194 is a Display Station that features a 1.44MB 3.5" floppy drive and IND$FILE transfer.
+Non-IBM Displays.
+Several third-party manufacturers produced 3270 displays besides IBM.
+Informer 270 376/SNA.
+The Informer company manufactured a special version of their model 270 terminal that was compatible with IBM 3270 and it's associated coax port to connect to a 3x74.
+Memorex Telex.
+Documentation for the following is available at 
+AT&amp;T.
+AT&amp;T introduced the Dataspeed 40 terminal/controller, compatible with the IBM 3275, in 1980.
+Graphics models.
+These were specialized models that provided All Points Addressable (APA) graphics, allowing more efficient graphics than the older technique of piecing together custom symbols defined using the Programmable Symbol Sets (PSS) feature. The 3179G, 3279G and 3472G were APA graphics models.
+IBM 3179G.
+The IBM 3179G released in March 1984 is an IBM mainframe computer terminal providing 80×24 or 80×32 characters plus graphics.
+3179-G terminals combine text and graphics as separate layers on the screen. Although the text and graphics appear combined on the screen, the text layer actually sits over the graphics layer. The text layer contains the usual 3270-style cells which display characters (letters, numbers, symbols, or invisible control characters). The graphics layer is an area of 720×384 pixels. 'All Points Addressable' or 'vector graphics' is used to paint each pixel in one of sixteen colors. As well as being separate layers on the screen, the text and graphics layers are sent to the display in separate data streams, making them completely independent.
+The G10 model is a standard 122-key typewriter keyboard, while the G20 model offers APL on the same layout. Compatible with IBM System/370, IBM 4300 series, 303x, 308x, IBM 3090, and IBM 9370.
+IBM 3279G.
+The 3279g has a capability called "Extended Data Stream" (EDS). Documentation for the SAS software package says 
+"The ability to do graphics on a 3270 terminal implies that it is an EDS device."
+IBM 3472G.
+The IBM 3472G has Native Vector Graphics capability.
+Controllers.
+By 1994 the "3174 Establishment Controller" supported features such as attachment to multiple hosts via Token Ring, Ethernet, or X.25 in addition to the standard channel attach or SDLC, and terminal attachment via twisted pair, Token Ring or Ethernet in addition to co-ax. They also support attachment of asynchronous ASCII terminals, printers, and plotters alongside 3270 devices.
+Non-IBM Controllers.
+Home grown.
+An alternative implementation of an establishment controller exists in form of OEC (Open Establishment Controller). It's a combination of an Arduino shield with a BNC connector and a Python program that runs on a POSIX system. OEC allows to connect a 3270 display to IBM mainframes via TN3270 or to other systems via VT100. Currently only CUT but not DFT displays are supported.
+Memorex.
+Memorex had two controllers for its 3277-compatible 1377; the 1371 for remote connection and the 1372 for local connection.
+Later Memorex offered a series of controllers compatible with the IBM 3274 and 3174
+Multiplexers.
+IBM offered a device called 3299 that acted as a multiplexer between an accordingly configured 3x74 and several displays, therefore increasing the number of displays a single controller could serve with the added benefit of extending the maximum distance between controller and displays as the signal was terminated and re-established by the 3299.
+The 3299 model 2 multiplexed a single physical connection to a controller to 8 displays.
+Manufacture.
+The IBM 3270 display terminal subsystem was designed and developed by IBM's Kingston, New York, laboratory (which later closed during in the mid-1990s). The printers were developed by the Endicott, New York, laboratory. As the subsystem expanded, the 3276 display-controller was developed by the Fujisawa laboratory, Japan, and later the Yamato laboratory; and the 3279 color display and 3287 color printer by the Hursley, UK, laboratory. The subsystem products were manufactured in Kingston (displays and controllers), Endicott (printers), and Greenock, Scotland, UK, (most products) and shipped to users in U.S. and worldwide. 3278 terminals continued to be manufactured in Hortolândia, near Campinas, Brazil as far as late 1980s, having its internals redesigned by a local engineering team using modern CMOS technology, while retaining its external look and feel.
+Telnet 3270.
+Telnet 3270, or tn3270 describes both the process of sending and receiving 3270 data streams using the telnet protocol and the software that emulates a 3270 class terminal that communicates using that process. tn3270 allows a 3270 terminal emulator to communicate over a TCP/IP network instead of an SNA network. Telnet 3270 can be used for either terminal or print connections. Standard telnet clients cannot be used as a substitute for tn3270 clients, as they use fundamentally different techniques for exchanging data.
+Technical Information.
+3270 character set.
+The 3270 displays are available with a variety of keyboards and character sets. The following table shows the 3275/3277/3284/3286 character set for US English EBCDIC (optional characters were available for US ASCII, and UK, French, German, and Italian EBCDIC). The numbers are the equivalent Unicode code points.
+On the 3275 and 3277 terminals without the a text feature, lower case characters display as uppercase. NL, EM, DUP, and FM control characters display and print as 5, 9, *, and ; characters, respectively, except by the printer when WCC or CCC bits 2 and 3 = '00'b, in which case NL and EM serve their control function and do not print.
+Data stream.
+Data sent to the 3270 consist of commands, a Copy Control Character (CCC) or Write Control Character (WCC) if appropriate, a device address for copy, orders, character data and structured fields. Commands instruct the 3270 control unit to perform some action on a specified device, such as a read or write. Orders are sent as part of the data stream to control the format of the device buffer. Structured fields are to convey additional control functions and data to or from the terminal.
+On a local non-SNA controller, the command is a CCW opcode rather than the first byte of the outbound display stream; on all other controllers, the command is the first byte of the display stream, exclusive of protocol headers.
+Commands.
+The following table includes datastream commands and CCW opcodes for local non-SNA controllers; it does not include CCW opcodes for local SNA controllers.
+Write control character.
+The data sent by Write or Erase/Write consists of the command code itself followed by a "Write Control Character" (WCC) optionally followed by a buffer containing orders or data (or both). The WCC controls the operation of the device. Bits may start printer operation and specify a print format. Other bit settings will sound the audible alarm if installed, unlock the keyboard to allow operator entry, or reset all the Modified Data Tags in the device buffer.
+Orders.
+Orders consist of the order code byte followed by zero to three bytes of variable information.
+Attributes.
+The 3270 has three kinds of attributes:
+Field attributes.
+The original 3277 and 3275 displays used an 8-bit field attribute byte of which five bits were used.
+Later models include "base color": "Base color (four colors) can be produced on color displays and color printers from current 3270 application programs by use of combinations of the field intensify and field protection attribute bits. For more information on color, refer to IBM 3270 Information System: Color and Programmed Symbols, GA33-3056."
+Extended attributes.
+The 3278 and 3279 and later models used "extended attributes" to add support for seven colours, blinking, reverse video, underscoring, field outlining, field validation, and programmed symbols.
+Character attributes.
+The 3278 and 3279 and later models allowed attributes on individual characters in a field to override the corresponding field attributes.
+Buffer addressing.
+3270 displays and printers have a buffer containing one byte for every screen position. For example, a 3277 model 2 featured a screen size of 24 rows of 80 columns for a buffer size of 1920 bytes. Bytes are addressed from zero to the screen size minus one, in this example 1919. "There is a fixed relationship between each ... buffer storage location and its position on the display screen." Most orders start operation at the "current" buffer address, and executing an order or writing data will update this address. The buffer address can be set directly using the "Set Buffer Address (SBA)" order, often followed by "Start Field" or "Start Field Extended". For a device with a 1920 character display a twelve bit address is sufficient. Later 3270s with larger screen sizes use fourteen or sixteen bits.
+Addresses are encoded within orders in two bytes. For twelve bit addresses the high order two bits of each byte are set to form valid EBCDIC (or ASCII) characters. For example, address 0 is coded as X'4040', or space-space, address 1919 is coded as X'5D7F', or ". Programmers hand-coding panels usually keep the table of addresses from the 3270 Component Description or the 3270 Reference Card handy. For fourteen and sixteen-bit address, the address uses contiguous bits in two bytes.
+Example.
+The following data stream writes an attribute in row 24, column 1, writes the (protected) characters '&gt; ' in row 24, columns 2 and 3, and creates an unprotected field on row 24 from columns 5-79. Because the buffer wraps around an attribute is placed on row 24, column 80 to terminate the input field. This data stream would normally be written using an Erase/Write command which would set undefined positions on the screen to '00'x. Values are given in hexadecimal.
+Extended Data Stream.
+Most 3270 terminals newer than the 3275, 3277, 3284 and 3286 Support an extended data stream (EDS) that allows many new capabilities, including:
+

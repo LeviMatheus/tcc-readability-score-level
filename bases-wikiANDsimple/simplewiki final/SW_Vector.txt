@@ -1,0 +1,4 @@
+A vector is a mathematical object that has a size and direction. A vector can be used to show distance and direction. Vectors can be used to show how fast something is moving and in what direction. Vectors can also be used to show many other things.
+The simplest picture of a vector is a line segment, with a starting point and an ending point.
+Examples of nonvectors.
+Sometimes, only a number for the size is needed. However, the direction is also needed sometimes.

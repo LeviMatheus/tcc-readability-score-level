@@ -1,0 +1,12 @@
+
+Electron counting is a formalism used for classifying compounds and for explaining or predicting electronic structure and bonding. Many rules in chemistry rely on electron-counting:
+Atoms are called "electron-deficient" when they have too few electrons as compared to their respective rules, or "hypervalent" when they have too many electrons. Since these compounds tend to be more reactive than compounds that obey their rule, electron counting is an important tool for identifying the reactivity of molecules.
+Counting rules.
+Two methods of electron counting are popular and both give the same result. 
+It is important, though, to be aware that most chemical species exist between the purely covalent and ionic extremes.
+Electrons donated by common fragments.
+"Special cases".
+The numbers of electrons "donated" by some ligands depends on the geometry of the metal-ligand ensemble. An example of this complication is the M–NO entity. When this grouping is linear, the NO ligand is considered to be a three-electron ligand. When the M–NO subunit is strongly bent at N, the NO is treated as a pseudohalide and is thus a one electron (in the neutral counting approach). The situation is not very different from the "η"3 versus the "η"1 allyl. Another unusual ligand from the electron counting perspective is sulfur dioxide. 
+Examples.
+These examples show the methods of electron counting, they are a "formalism", and don't have anything to do with "real life" chemical transformations. Most of the 'fragments' mentioned above do not exist as such; they cannot be kept in a bottle: e.g. the neutral C, the tetraanionic C, the neutral Ti, and the tetracationic Ti are not "free" species, they are always bound to something, for neutral C, it is commonly found in graphite, charcoal, diamond (sharing electrons with the neighboring carbons), as for Ti which can be found as its metal (where it shares its electrons with neighboring Ti atoms), C4− and Ti4+ 'exist' only with appropriate counterions (with which they probably share electrons). So these formalisms are only used to predict stabilities or properties of compounds!
+

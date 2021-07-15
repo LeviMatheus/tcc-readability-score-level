@@ -1,0 +1,22 @@
+
+In computer programming, a precondition is a condition or predicate that must always be true just prior to the execution of some section of code or before an operation in a formal specification.
+If a precondition is violated, the effect of the section of code becomes undefined and thus may or may not carry out its intended work. Security problems can arise due to incorrect preconditions.
+Often, preconditions are simply included in the documentation of the affected section of code. Preconditions are sometimes tested using guards or assertions within the code itself, and some languages have specific syntactic constructions for doing so.
+For example: the factorial is only defined for integers greater than or equal to zero. So a program that calculates the factorial of an input number would have preconditions that the number be an integer and that it be greater than or equal to zero.
+In object-oriented programming.
+Preconditions in object-oriented software development are an essential part of design by contract. Design by contract also includes notions of postcondition and class invariant. 
+The precondition for any routine defines any constraints on object state which are necessary for successful execution. From the program developer's viewpoint, this constitutes the routine caller's portion of the contract. The caller then is obliged to ensure that the precondition holds prior to calling the routine. The reward for the caller's effort is expressed in the called routine's postcondition.
+Eiffel example.
+The routine in the following example written in Eiffel takes as an argument an integer which must be a valid value for an hour of the day, i. e., 0 through 23, inclusively. The precondition follows the keyword codice_1. It specifies that the argument must be greater than or equal to zero and less than or equal to 23. The tag "codice_2" describes this precondition clause and serves to identify it in case of a runtime precondition violation.
+ set_hour (a_hour: INTEGER)
+ -- Set `hour' to `a_hour'
+ require
+ valid_argument: 0 &lt;= a_hour and a_hour &lt;= 23
+ do
+ hour := a_hour
+ ensure
+ hour_set: hour = a_hour
+ end
+Preconditions and inheritance.
+In the presence of inheritance, the routines inherited by descendant classes (subclasses) do so with their preconditions in force. This means that any implementations or redefinitions of inherited routines also have to be written to comply with their inherited contract. Preconditions can be modified in redefined routines, but they may only be weakened. That is, the redefined routine may lessen the obligation of the client, but not increase it.
+

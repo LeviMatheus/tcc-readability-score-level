@@ -1,0 +1,32 @@
+In cryptography, a Feistel cipher is a symmetric structure used in the construction of block ciphers, named after the German IBM cryptographer Horst Feistel; it is also commonly known as a Feistel network. A large set of block ciphers use the scheme, including the Data Encryption Standard (DES).
+The Feistel structure has the advantage that encryption and decryption operations are very similar, even identical in some cases, requiring only a reversal of the key schedule. Therefore the size of the code or circuitry required to implement such a cipher is nearly halved.
+Feistel construction is iterative in nature which makes implementing the cryptosystem in hardware easier.
+to produce a function with large amounts of what Claude Shannon described as "confusion and diffusion".
+Bit shuffling creates the diffusion effect, while substitution is used for confusion.
+Theoretical Work.
+Many modern symmetric block ciphers uses Feistel networks, and the structure and properties of Feistel ciphers have been extensively explored by cryptographers. Specifically, Michael Luby and Charles Rackoff analyzed the Feistel block cipher construction, and proved that if the round function is a cryptographically secure pseudorandom function, with Ki used as the seed, then 3 rounds is sufficient to make the block cipher a pseudorandom permutation, while 4 rounds is sufficient to make it a "strong" pseudorandom permutation (which means that it remains pseudorandom even to an adversary who gets oracle access to its inverse permutation). Because of this very important result of Luby and Rackoff, Feistel ciphers are sometimes called Luby-Rackoff block ciphers. Further theoretical studies generalized the construction, and defined more precise limits for security.
+Construction Details.
+Let formula_1 be the round function and let
+formula_2 be the sub-keys for the rounds formula_3 respectively.
+Split the plaintext block into two equal pieces, (formula_4, formula_5)
+For each round formula_6, compute (calculate)
+Then the ciphertext is formula_9. (Commonly the two pieces formula_10 and formula_11 are not switched after the last round.)
+Decryption of a ciphertext formula_9 is accomplished by computing for formula_13
+Then formula_16 is the plaintext again.
+One advantage of this model is that the round function formula_1 does not have to be "invertible", and can be very complex.
+Unbalanced Feistel ciphers use a modified structure where formula_4 and formula_5 are not of equal lengths. The MacGuffin cipher is an experimental example of such a cipher.
+The Feistel construction is also used in cryptographic algorithms other than block ciphers. For example, the Optimal Asymmetric Encryption Padding (OAEP) scheme uses a simple Feistel network to randomize ciphertexts in certain asymmetric-key encryption schemes.
+List of Feistel ciphers.
+Blowfish,
+Camellia,
+DES,
+ICE,
+KASUMI,
+Lucifer,
+MARS,
+MAGENTA,
+TEA,
+Triple DES,
+GOST 28147-89
+MacGuffin,
+Skipjack

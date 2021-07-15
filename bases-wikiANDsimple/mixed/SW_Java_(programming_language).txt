@@ -1,0 +1,7 @@
+Java is a programming language that can run on many different computers including mobile phones. It was originally developed by Sun Microsystems and released in 1995. There are small Java programs, called Applets. They often run inside web browsers.
+Java should not to be confused with JavaScript, a scripting language mainly used by web browsers.
+Background.
+Java is object oriented. Java code looks a lot like C++ or C code.
+Java is platform independent, meaning it can run on many different operating systems. The way that Java manages this is making the Java compiler turn code into Java bytecode instead of machine code. This means that when the program is executed, the Java Virtual Machine interprets the code and translates it into machine code.
+Platform.
+The "Java platform" is the name for a bundle of related programs, or platform, developed by Sun Microsystems which allow for developing and running programs written in the Java programming language. The platform is not specific to any one processor or operating system, but rather an execution engine (called a Java Virtual Machine) and a compiler with a set of standard libraries that are implemented for various hardware and operating systems so that Java programs can run identically on all of them.

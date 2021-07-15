@@ -1,0 +1,34 @@
+
+In mathematics, the cardinality of a set is a measure of the "number of elements" of the set. For example, the set formula_1 contains 3 elements, and therefore formula_2 has a cardinality of 3. Beginning in the late 19th century, this concept was generalized to infinite sets, which allows one to distinguish between the different types of infinity, and to perform arithmetic on them. There are two approaches to cardinality: one which compares sets directly using bijections and injections, and another which uses cardinal numbers.
+The cardinality of a set is also called its size, when no confusion with other notions of size is possible.
+The cardinality of a set formula_2 is usually denoted formula_4, with a vertical bar on each side; this is the same notation as absolute value, and the meaning depends on context. The cardinality of a set formula_2 may alternatively be denoted by formula_6, formula_2, formula_8, or formula_9.
+Comparing sets.
+While the cardinality of a finite set is just the number of its elements, extending the notion to infinite sets usually starts with defining the notion of comparison of arbitrary sets (some of which are possibly infinite).
+Definition 3: &lt;.
+If ≤ and ≤ , then = (a fact known as Schröder–Bernstein theorem). The axiom of choice is equivalent to the statement that ≤ or ≤ for every "A", "B".
+Cardinal numbers.
+In the above section, "cardinality" of a set was defined functionally. In other words, it was not defined as a specific object itself. However, such an object can be defined as follows.
+The relation of having the same cardinality is called equinumerosity, and this is an equivalence relation on the class of all sets. The equivalence class of a set "A" under this relation, then, consists of all those sets which have the same cardinality as "A". There are two ways to define the "cardinality of a set":
+Assuming the axiom of choice, the cardinalities of the infinite sets are denoted
+For each ordinal formula_11, formula_12 is the least cardinal number greater than formula_13.
+The cardinality of the natural numbers is denoted aleph-null (formula_14), while the cardinality of the real numbers is denoted by "formula_15" (a lowercase fraktur script "c"), and is also referred to as the cardinality of the continuum. Cantor showed, using the diagonal argument, that formula_16. We can show that formula_17, this also being the cardinality of the set of all subsets of the natural numbers.
+The continuum hypothesis says that formula_18, i.e. formula_19 is the smallest cardinal number bigger than formula_14, i.e. there is no set whose cardinality is strictly between that of the integers and that of the real numbers. The continuum hypothesis is independent of ZFC, a standard axiomatization of set theory; that is, it is impossible to prove the continuum hypothesis or its negation from ZFC—provided that ZFC is consistent. For more detail, see § Cardinality of the continuum below.
+Finite, countable and uncountable sets.
+If the axiom of choice holds, the law of trichotomy holds for cardinality. Thus we can make the following definitions:
+Infinite sets.
+Our intuition gained from finite sets breaks down when dealing with infinite sets. In the late nineteenth century Georg Cantor, Gottlob Frege, Richard Dedekind and others rejected the view that the whole cannot be the same size as the part. One example of this is Hilbert's paradox of the Grand Hotel.
+Indeed, Dedekind defined an infinite set as one that can be placed into a one-to-one correspondence with a strict subset (that is, having the same size in Cantor's sense); this notion of infinity is called Dedekind infinite. Cantor introduced the cardinal numbers, and showed—according to his bijection-based definition of size—that some infinite sets are greater than others. The smallest infinite cardinality is that of the natural numbers (formula_14).
+Cardinality of the continuum.
+One of Cantor's most important results was that the cardinality of the continuum (formula_24) is greater than that of the natural numbers (formula_14); that is, there are more real numbers R than natural numbers N. Namely, Cantor showed that formula_26 (see Beth one) satisfies:
+The continuum hypothesis states that there is no cardinal number between the cardinality of the reals and the cardinality of the natural numbers, that is,
+However, this hypothesis can neither be proved nor disproved within the widely accepted ZFC axiomatic set theory, if ZFC is consistent.
+Cardinal arithmetic can be used to show not only that the number of points in a real number line is equal to the number of points in any segment of that line, but that this is equal to the number of points on a plane and, indeed, in any finite-dimensional space. These results are highly counterintuitive, because they imply that there exist proper subsets and proper supersets of an infinite set "S" that have the same size as "S", although "S" contains elements that do not belong to its subsets, and the supersets of "S" contain elements that are not included in it.
+The first of these results is apparent by considering, for instance, the tangent function, which provides a one-to-one correspondence between the interval (−½π, ½π) and R (see also Hilbert's paradox of the Grand Hotel).
+The second result was first demonstrated by Cantor in 1878, but it became more apparent in 1890, when Giuseppe Peano introduced the space-filling curves, curved lines that twist and turn enough to fill the whole of any square, or cube, or hypercube, or finite-dimensional space. These curves are not a direct proof that a line has the same number of points as a finite-dimensional space, but they can be used to obtain such a proof.
+Cantor also showed that sets with cardinality strictly greater than formula_15 exist (see his generalized diagonal argument and theorem). They include, for instance:
+Both have cardinality
+The cardinal equalities formula_31 formula_32 and formula_33 can be demonstrated using cardinal arithmetic:
+Union and intersection.
+If "A" and "B" are disjoint sets, then
+From this, one can show that in general, the cardinalities of unions and intersections are related by the following equation:
+

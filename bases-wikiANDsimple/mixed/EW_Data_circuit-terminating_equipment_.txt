@@ -1,0 +1,8 @@
+
+A data circuit-terminating equipment (DCE) is a device that sits between the data terminal equipment (DTE) and a data transmission circuit. It is also called data communication(s) equipment and data carrier equipment. Usually, the DTE device is the terminal (or computer), and the DCE is a modem.
+In a data station, the DCE performs functions such as signal conversion, coding, and line clocking and may be a part of the DTE or intermediate equipment. Interfacing equipment may be required to couple the DTE into a transmission circuit or channel and from a transmission circuit or channel into the DTE.
+Usage.
+Although the terms are most commonly used with RS-232, several data communication standards define different types of interfaces between a DCE and a DTE. The DCE is a device that communicates with a DTE device in these standards. Standards that use this nomenclature include:
+A general rule is that DCE devices provide the clock signal (internal clocking) and the DTE device synchronizes on the provided clock (external clocking). D-sub connectors follow another rule for pin assignment. DTE devices usually transmit on pin connector number 2 and receive on pin connector number 3. DCE devices are just the opposite: pin connector number 2 receives and pin connector number 3 transmits the signals.
+When two devices, that are both DTE or both DCE, must be connected together without a modem or a similar media translator between them, a crossover cable must be used, e.g. a null modem for RS-232 or an Ethernet crossover cable/body
+

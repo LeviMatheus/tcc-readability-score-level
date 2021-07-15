@@ -1,0 +1,5 @@
+Probability is a part of mathematics. It is to do with chance, the study of things that might happen or might not happen.
+For example, using probability, you can show that if you throw a coin up in the air and let it land, half of the time it will land with one side facing up, and half the time with the other side facing up. Many coins have a picture of the face of a famous person on one side, and something else on the other side. Often people call the side with the face "heads", and the other side "tails".
+The probability (p) of an event is always between zero (impossible) and one (certain).
+If we roll a die (plural: dice), then the chance that it will land on 1 is 1/6 (This is because there are 6 numbers on a die). Also, the chance it will land on 2 is 1/6. This is because it can land on 1, 2, 3, 4, 5, or 6.
+The chance of any number between 1 and 6 landing is 1. Every time we roll the die, it will always land on a number between 1 and 6.

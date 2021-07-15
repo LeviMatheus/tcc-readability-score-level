@@ -1,0 +1,98 @@
+
+In mathematics, a Diophantine equation is a polynomial equation, usually involving two or more unknowns, such that the only solutions of interest are the integer ones (an integer solution is such that all the unknowns take integer values). A linear Diophantine equation equates to a constant the sum of two or more monomials, each of degree one. An exponential Diophantine equation is one in which unknowns can appear in exponents.
+Diophantine problems have fewer equations than unknowns and involve finding integers that solve simultaneously all equations. As such systems of equations define algebraic curves, algebraic surfaces, or, more generally, algebraic sets, their study is a part of algebraic geometry that is called "Diophantine geometry".
+The word "Diophantine" refers to the Hellenistic mathematician of the 3rd century, Diophantus of Alexandria, who made a study of such equations and was one of the first mathematicians to introduce symbolism into algebra. The mathematical study of Diophantine problems that Diophantus initiated is now called Diophantine analysis.
+While individual equations present a kind of puzzle and have been considered throughout history, the formulation of general theories of Diophantine equations (beyond the case of linear and quadratic equations) was an achievement of the twentieth century.
+Examples.
+In the following Diophantine equations, , , , and are the unknowns and the other letters are given constants:
+Linear Diophantine equations.
+One equation.
+The simplest linear Diophantine equation takes the form , where , and are given integers. The solutions are described by the following theorem:
+Proof: If is this greatest common divisor, Bézout's identity asserts the existence of integers and such that . If is a multiple of , then for some integer , and is a solution. On the other hand, for every pair of integers and , the greatest common divisor of and divides . Thus, if the equation has a solution, then must be a multiple of . If and , then for every solution , we have
+showing that is another solution. Finally, given two solutions such that , one deduces that . As and are coprime, Euclid's lemma shows that divides , and thus that there exists an integer such that and . Therefore, and , which completes the proof.
+Chinese remainder theorem.
+The Chinese remainder theorem describes an important class of linear Diophantine systems of equations: let be pairwise coprime integers greater than one, be arbitrary integers, and be the product . The Chinese remainder theorem asserts that the following linear Diophantine system has exactly one solution such that , and that the other solutions are obtained by adding to a multiple of :
+System of linear Diophantine equations.
+More generally, every system of linear Diophantine equations may be solved by computing the Smith normal form of its matrix, in a way that is similar to the use of the reduced row echelon form to solve a system of linear equations over a field. Using matrix notation every system of linear Diophantine equations may be written
+where is an matrix of integers, is an column matrix of unknowns and is an column matrix of integers.
+The computation of the Smith normal form of provides two unimodular matrices (that is matrices that are invertible over the integers and have ±1 as determinant) and of respective dimensions and , such that the matrix
+is such that is not zero for not greater than some integer , and all the other entries are zero. The system to be solved may thus be rewritten as
+Calling the entries of and those of , this leads to the system
+This system is equivalent to the given one in the following sense: A column matrix of integers is a solution of the given system if and only if for some column matrix of integers such that .
+It follows that the system has a solution if and only if divides for and for . If this condition is fulfilled, the solutions of the given system are
+where are arbitrary integers.
+Hermite normal form may also be used for solving systems of linear Diophantine equations. However, Hermite normal form does not directly provide the solutions; to get the solutions from the Hermite normal form, one has to successively solve several linear equations. Nevertheless, Richard Zippel wrote that the Smith normal form "is somewhat more than is actually needed to solve linear diophantine equations. Instead of reducing the equation to diagonal form, we only need to make it triangular, which is called the Hermite normal form. The Hermite normal form is substantially easier to compute than the Smith normal form."
+Integer linear programming amounts to finding some integer solutions (optimal in some sense) of linear systems that include also inequations. Thus systems of linear Diophantine equations are basic in this context, and textbooks on integer programming usually have a treatment of systems of linear Diophantine equations.
+Homogeneous equations.
+A homogeneous Diophantine equation is a Diophantine equation that is defined by a homogeneous polynomial. A typical such equation is the equation of Fermat's Last Theorem
+As a homogeneous polynomial in indeterminates defines a hypersurface in the projective space of dimension , solving a homogeneous Diophantine equation is the same as finding the rational points of a projective hypersurface.
+Solving a homogeneous Diophantine equation is generally a very difficult problem, even in the simplest non-trivial case of three indeterminates (in the case of two indeterminates the problem is equivalent with testing if a rational number is the th power of another rational number). A witness of the difficulty of the problem is Fermat's Last Theorem (for , there is no integer solution of the above equation), which needed more than three centuries of mathematicians' efforts for being solved.
+For degrees higher than three, most known results are theorems asserting that there are no solutions (for example Fermat's Last Theorem) or that the number of solutions is finite (for example Falting's theorem). 
+For the degree three, there are general solving methods, which work on almost all equations that are encountered in practice, but no algorithm is known that works for every cubic equation.
+Degree two.
+Homogeneous Diophantine equations of degree two are easier to solve. The standard solving method proceed in two steps. One has first to find one solution, or to prove that there is no solution. When a solution has been found, all solutions are then deduced.
+For proving that there is no solution, one may reduce the equation modulo. For example, the Diophantine equation
+does not have any other solution than the trivial solution . In fact, by dividing and by their greatest common divisor, one may suppose that they are coprime. The squares modulo 4 are congruent to 0 and 1. Thus the left-hand side of the equation is congruent to 0, 1, or 2, and the right-hand side is congruent to 0 or 3. Thus the equality may be obtained only if and are all even, and are thus not coprime. Thus the only solution is the trivial solution . This shows that there is no rational point on a circle of radius formula_5 centered at the origin.
+More generally, Hasse principle allows deciding whether a homogeneous Diophantine equation of degree two has an integer solution, and computing a solution if there exist. 
+If a non-trivial integer solution is known, one may produce all other solutions in the following way.
+Geometric interpretation.
+Let 
+be a homogeneous Diophantine equation, where formula_7 is a quadratic form (that is, a homogeneous polynomial of degree 2), with integer coefficients. The "trivial solution" is the solution where all formula_8 are zero. If formula_9 is a non-trivial integer solution of this equation, then formula_10 are the homogeneous coordinates of a rational point of the hypersurface defined by . Conversely, if formula_11 are homogeneous coordinates of a rational point of this hypersurface, where formula_12 are integers, then formula_13 is an integer solution of the Diophantine equation. Moreover, the integer solutions that define a given rational point are all sequences of the form 
+where is any integer, and is the greatest common divisor of the formula_15
+It follows that solving the Diophantine equation formula_6 is completely reduced to finding the rational points of the corresponding projective hypersurface.
+Parameterization.
+Let now formula_17 be an integer solution of the equation formula_18 As is a polynomial of degree two, a line passing through crosses the hypersurface at a single other point, which is rational if and only if the line is rational (that is, if the line is defined by rational parameters). This allows parameterizing the hypersurface by the lines passing through , and the rational points are the those that are obtained from rational lines, that is, those that correspond to rational values of the parameters.
+More precisely, one may proceed as follows. 
+By permuting the indices, one may suppose, without loss of generality that formula_19 Then one may pass to the affine case by considering the affine hypersurface defined by 
+which has the rational point
+If this rational point is a singular point, that is if all partial derivatives are zero at , all lines passing through are contained in the hypersurface, and one has a cone. The change of variables 
+does not change the rational points, and transforms into a homogeneous polynomial in variables. In this case, the problem may thus be solved by applying the method to an equation with fewer variables.
+If the polynomial is a product of linear polynomials (possibly with non-rational coefficients), then it defines two hyperplanes. The intersection of these hyperplanes is a rational flat, and contains rational singular points. This case is thus a special instance of the preceding case.
+In the general case, let consider the parametric equation of a line passing through :
+Substituting this in , one gets a polynomial of degree two in formula_24 that is zero for formula_25 It is thus divisible by formula_26. The quotient is linear in formula_24 and may be solved for expressing formula_28 as a quotient of two polynomials of degree at most two in formula_29 with integer coefficients:
+Substituting this in the expressions for formula_31 one gets, for ,
+where formula_33 are polynomials of degree at most two with integer coefficients.
+Then, one can return to the homogeneous case. Let, for , 
+be the homogenization of formula_35 These quadratic polynomials with integer coefficients form a parameterization of the projective hypersurface defined by :
+A point of the projective hypersurface defined by is rational if and only if it may be obtained from rational values of formula_37 As formula_38 are homogeneous polynomials, the point is not changed if all formula_39 are multiplied by the same rational number. Thus, one may suppose that formula_40 are coprime integers. It follows that the integer solutions of the Diophantine equation are exactly the sequences formula_41 where, for ,
+where is an integer, formula_40 are coprime integers, and is the greatest common divisor of the integers formula_44
+One could hope that the coprimality of the formula_39 could imply that . Unfortunately this is not the case, as shown in the next section.
+Example of Pythagorean triples.
+The equation 
+is probably the first homogeneous Diophantine equation of degree two that has been studied. Its solutions are the Pythagorean triples. This is also the homogeneous equation of the unit circle. In this section, we show how the above method allows retrieving Euclid's formula for generating Pythagorean triples.
+For retrieving exactly Euclid's formula, we start from the solution , corresponding to the point of the unit circle. A line passing through this point may be parameterized by its slope:
+Putting this in the circle equation 
+one gets 
+Dividing by , results in
+which is easy to solve in :
+It follows
+Homogenizing as described above one gets all solutions as 
+where is any integer, and are coprime integers, and is the greatest common divisor of the three numerators. In fact, if and are both odd, and if one is odd and the other is even.
+The "primitive triples" are the solutions where and .
+This description of the solutions differs slightly from Euclid's formula because Euclid's formula considers only the solutions such that and are all positive, and does not distinguish between two triples that differ by the exchange of and ,
+Diophantine analysis.
+Typical questions.
+The questions asked in Diophantine analysis include:
+These traditional problems often lay unsolved for centuries, and mathematicians gradually came to understand their depth (in some cases), rather than treat them as puzzles.
+Typical problem.
+The given information is that a father's age is 1 less than twice that of his son, and that the digits making up the father's age are reversed in the son's age (i.e. ). This leads to the equation , thus . Inspection gives the result , , and thus equals 73 years and equals 37 years. One may easily show that there is not any other solution with and positive integers less than 10.
+Many well known puzzles in the field of recreational mathematics lead to diophantine equations. Examples include the Cannonball problem, Archimedes's cattle problem and The monkey and the coconuts.
+17th and 18th centuries.
+In 1637, Pierre de Fermat scribbled on the margin of his copy of "Arithmetica": "It is impossible to separate a cube into two cubes, or a fourth power into two fourth powers, or in general, any power higher than the second into two like powers." Stated in more modern language, "The equation has no solutions for any higher than 2." Following this, he wrote: "I have discovered a truly marvelous proof of this proposition, which this margin is too narrow to contain." Such a proof eluded mathematicians for centuries, however, and as such his statement became famous as Fermat's Last Theorem. It wasn't until 1995 that it was proven by the British mathematician Andrew Wiles.
+In 1657, Fermat attempted to solve the Diophantine equation (solved by Brahmagupta over 1000 years earlier). The equation was eventually solved by Euler in the early 18th century, who also solved a number of other Diophantine equations. The smallest solution of this equation in positive integers is , (see Chakravala method).
+Hilbert's tenth problem.
+In 1900, David Hilbert proposed the solvability of all Diophantine equations as the tenth of his fundamental problems. In 1970, Yuri Matiyasevich solved it negatively, building on work of Julia Robinson, Martin Davis, and Hilary Putnam to prove that a general algorithm for solving all Diophantine equations cannot exist.
+Diophantine geometry.
+Diophantine geometry, which is the application of techniques from algebraic geometry in this field, has continued to grow as a result; since treating arbitrary equations is a dead end, attention turns to equations that also have a geometric meaning. The central idea of Diophantine geometry is that of a rational point, namely a solution to a polynomial equation or a system of polynomial equations, which is a vector in a prescribed field , when is "not" algebraically closed.
+Modern research.
+One of the few general approaches is through the Hasse principle. Infinite descent is the traditional method, and has been pushed a long way.
+The depth of the study of general Diophantine equations is shown by the characterisation of Diophantine sets as equivalently described as recursively enumerable. In other words, the general problem of Diophantine analysis is blessed or cursed with universality, and in any case is not something that will be solved except by re-expressing it in other terms.
+The field of Diophantine approximation deals with the cases of "Diophantine inequalities". Here variables are still supposed to be integral, but some coefficients may be irrational numbers, and the equality sign is replaced by upper and lower bounds.
+The single most celebrated question in the field, the conjecture known as Fermat's Last Theorem, was solved by Andrew Wiles, using tools from algebraic geometry developed during the last century rather than within number theory where the conjecture was originally formulated. Other major results, such as Faltings's theorem, have disposed of old conjectures.
+Infinite Diophantine equations.
+An example of an infinite diophantine equation is:
+which can be expressed as "How many ways can a given integer be written as the sum of a square plus twice a square plus thrice a square and so on?" The number of ways this can be done for each forms an integer sequence. Infinite Diophantine equations are related to theta functions and infinite dimensional lattices. This equation always has a solution for any positive . Compare this to:
+which does not always have a solution for positive .
+Exponential Diophantine equations.
+If a Diophantine equation has as an additional variable or variables occurring as exponents, it is an exponential Diophantine equation. Examples include the Ramanujan–Nagell equation, , and the equation of the Fermat-Catalan conjecture and Beal's conjecture, with inequality restrictions on the exponents. A general theory for such equations is not available; particular cases such as Catalan's conjecture have been tackled. However, the majority are solved via ad hoc methods such as Størmer's theorem or even trial and error.
+

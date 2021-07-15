@@ -1,0 +1,2 @@
+In computer science, synchronization refers to one of two different but related concepts: synchronization of processes, and synchronization of data.
+Process synchronization is commonly used to implement Data synchronization.

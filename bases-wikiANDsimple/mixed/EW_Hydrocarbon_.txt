@@ -1,0 +1,46 @@
+
+ In organic chemistry, a hydrocarbon is an organic compound consisting entirely of hydrogen and carbon. Hydrocarbons are examples of group 14 hydrides. Hydrocarbons from which one hydrogen atom has been removed are functional groups called hydrocarbyls. Hydrocarbons are generally colourless and hydrophobic with only weak odours. Because of their diverse molecular structures, it is difficult to generalize further. Most anthropogenic emissions of hydrocarbons are from the burning of fossil fuels including fuel production and combustion. Natural sources of hydrocarbons such as ethylene, isoprene, and monoterpenes come from the emissions of vegetation.
+Types.
+As defined by IUPAC nomenclature of organic chemistry, the classifications for hydrocarbons are:
+Hydrocarbons can be gases (e.g. methane and propane), liquids (e.g. hexane and benzene), waxes or low melting solids (e.g. paraffin wax and naphthalene) or polymers (e.g. polyethylene, polypropylene and polystyrene).
+The term 'aliphatic' refers to non-aromatic hydrocarbons. Saturated aliphatic hydrocarbons are sometimes referred to as 'paraffins'. Aliphatic hydrocarbons containing a double bond between carbon atoms are sometimes referred to as 'olefins'.
+Usage.
+The predominant use of hydrocarbons is as a combustible fuel source. Methane is the predominant component of natural gas. The C6 through C10 alkanes, alkenes and isomeric cycloalkanes are the top components of gasoline, naphtha, jet fuel and specialized industrial solvent mixtures. With the progressive addition of carbon units, the simple non-ring structured hydrocarbons have higher viscosities, lubricating indices, boiling points, solidification temperatures, and deeper color. At the opposite extreme from methane lie the heavy tars that remain as the "lowest fraction" in a crude oil refining retort. They are collected and widely utilized as roofing compounds, pavement composition (bitumen), wood preservatives (the creosote series) and as extremely high viscosity shear-resisting liquids.
+Some large-scale nonfuel applications of hydrocarbons begins with ethane and propane, which are obtained from petroleum and natural gas. These two gases are converted either to syngas or to ethylene and propylene. These two alkenes are precursors to polymers, including polyethylene, polystyrene, acrylates, polypropylene, etc. Another class of special hydrocarbons is BTX, a mixture of benzene, toluene, and the three xylene isomers. Global consumption of benzene, estimated at more than 40,000,000 tons (2009).
+Hydrocarbons are also prevalent in nature. Some eusocial arthropods, such as the Brazilian stingless bee, "Schwarziana quadripunctata", use unique hydrocarbon "scents" in order to determine kin from non-kin. The chemical hydrocarbon composition varies between age, sex, nest location, and hierarchal position.
+There is also potential to harvest hydrocarbons from plants like Euphorbia lathyri and Euphorbia tirucalli as an alternative and renewable energy source for vehicles that use diesel. Furthermore, endophytic bacteria from plants that naturally produce hydrocarbons have been used in hydrocarbon degradation in attempts to deplete hydrocarbon concentration in polluted soils.
+Reactions.
+The noteworthy feature of hydrocarbons is their inertness, especially for saturated members. Otherwise, three main types of reactions can be identified:
+Free-radical reactions.
+Substitution reactions only occur in saturated hydrocarbons (single carbon–carbon bonds). Such reactions require highly reactive reagents, such as chlorine and fluorine. In the case of chlorination, one of the chlorine atoms replaces a hydrogen atom. The reactions proceed via free-radical pathways. 
+all the way to CCl (carbon tetrachloride)
+all the way to CCl (hexachloroethane)
+Substitution.
+Of the classes of hydrcarbons, aromatic compounds uniquely (or nearly so) undergo substitution reactions. The chemical process practiced on the largest scale is an example: the reaction of benzene and ethylene to give ethylbenzene.
+Addition reactions.
+Addition reactions apply to alkenes and alkynes. In this reaction a variety of reagents add "across" the pi-bond(s). Chlorine, hydrogen chloride, water, and hydrogen are illustrative reagents. Alkenes and some alkynes also undergo polymerization, alkene metathesis, and alkyne metathesis.
+Oxidation.
+Hydrocarbons are currently the main source of the world's electric energy and heat sources (such as home heating) because of the energy produced when they are combusted. Often this energy is used directly as heat such as in home heaters, which use either petroleum or natural gas. The hydrocarbon is burnt and the heat is used to heat water, which is then circulated. A similar principle is used to create electrical energy in power plants.
+Common properties of hydrocarbons are the facts that they produce steam, carbon dioxide and heat during combustion and that oxygen is required for combustion to take place. The simplest hydrocarbon, methane, burns as follows:
+In inadequate supply of air, carbon monoxide gas and water vapour are formed:
+Another example is the combustion of propane:
+And finally, for any linear alkane of n carbon atoms,
+Partial oxidation characterizes the reactions of alkenes and oxygen. This process is the basis of rancidification and paint drying.
+Origin.
+The vast majority of hydrocarbons found on Earth occur in petroleum, coal, and natural gas. Petroleum (literally "rock oil" – petrol for short) and coal are generally thought to be products of decomposition of organic matter. Coal, in contrast to petroleum, is richer in carbon and poorer in hydrogen. Natural gas is the product of methanogenesis. 
+A seemingly limitless variety of compounds comprise petroleum, hence the necessity of refineries. These hydrocarbons consist of saturated hydrocarbons, aromatic hydrocarbons, or combinations of the two. Missing in petroleum are alkenes and alkynes. Their production requires refineries. Petroleum-derived hydrocarbons are mainly consumed for fuel, but they are also the source of virtually all synthetic organic compounds, including plastics and pharmaceuticals. Natural gas is consumed almost exclusively as fuel. Coal is used as a fuel and as a reducing agent in metallurgy.
+Abiological hydrocarbons.
+A small fraction of hydrocarbon found on earth is thought to be abiological.
+Some hydrocarbons also are widespread and abundant in the solar system. Lakes of liquid methane and ethane have been found on Titan, Saturn's largest moon, confirmed by the Cassini-Huygens Mission. Hydrocarbons are also abundant in nebulae forming polycyclic aromatic hydrocarbon (PAH) compounds.
+Bioremediation.
+Bioremediation of hydrocarbon from soil or water contaminated is a formidable challenge because of the chemical inertness that characterize hydrocarbons (hence they survived millions of years in the source rock). Nonetheless, many strategies have been devised, bioremediation being prominent. The basic problem with bioremediation is the paucity of enzymes that act on them. Nonetheless the area has received regular attention.
+Bacteria in the gabbroic layer of the ocean's crust can degrade hydrocarbons; but the extreme environment makes research difficult. Other bacteria such as "Lutibacterium anuloederans" can also degrade hydrocarbons.
+Mycoremediation or breaking down of hydrocarbon by mycelium and mushrooms is possible.
+Safety.
+Hydrocarbons are generally of low toxicity, hence the widespread use of gasoline and related volatile products. Aromatic compounds such as benzene are narcotic and chronic toxins and are carcinogenic. Certain rare polycyclic aromatic compounds are carcinogenic.
+Hydrocarbons are highly flammable.
+Environmental impact.
+Burning hydrocarbons as fuel, which produces carbon dioxide and water, is a major contributor to anthropogenic global warming.
+Hydrocarbons are introduced into the environment through their extensive use as fuels and chemicals as well as through leaks or accidental spills during exploration, production, refining, or transport of fossil fuels. Anthropogenic hydrocarbon contamination of soil is a serious global issue due to contaminant persistence and the negative impact on human health.
+When soil is contaminated by hydrocarbons, it can have a significant impact on its microbiological, chemical, and physical properties. This can serve to prevent, slow down or even accelerate the growth of vegetation depending on the exact changes that occur. Crude oil and natural gas are the two largest sources of hydrocarbon contamination of soil.
+

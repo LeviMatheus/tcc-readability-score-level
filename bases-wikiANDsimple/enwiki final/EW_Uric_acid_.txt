@@ -1,0 +1,47 @@
+
+Uric acid is a heterocyclic compound of carbon, nitrogen, oxygen, and hydrogen with the formula C5H4N4O3. It forms ions and salts known as urates and acid urates, such as ammonium acid urate. Uric acid is a product of the metabolic breakdown of purine nucleotides, and it is a normal component of urine. High blood concentrations of uric acid can lead to gout and are associated with other medical conditions, including diabetes and the formation of ammonium acid urate kidney stones.
+Chemistry.
+Uric acid was first isolated from kidney stones in 1776 by the Swedish chemist Carl Wilhelm Scheele. In 1882, the Ukrainian chemist Ivan Horbaczewski first synthesized uric acid by melting urea with glycine.
+Uric acid displays lactam–lactim tautomerism (also often described as keto–enol tautomerism). Although the lactim form is expected to possess some degree of aromaticity, uric acid crystallizes in the lactam form, with computational chemistry also indicating that tautomer to be the most stable.
+Uric acid is a diprotic acid with p"K"a1 = 5.4 and p"K"a2 = 10.3, thus at physiological pH, it predominately exists as the monoionic urate ion.
+Water Solubility.
+In general, the water solubility of uric acid and its alkali metal and alkaline earth salts is rather low. All these salts exhibit greater solubility in hot water than cold, allowing for easy recrystallization. This low solubility is significant for the etiology of gout. The solubility of the acid and its salts in ethanol is very low or negligible. In ethanol/water mixtures, the solubilities are somewhere between the end values for pure ethanol and pure water.
+The figures given indicate what mass of water is required to dissolve a unit mass of compound indicated. The lower the number the more soluble the substance in the said solvent.
+Biochemistry.
+Xanthine oxidase is an enzyme which catalyzes the formation of uric acid from xanthine and hypoxanthine, which in turn are produced from other purines. Xanthine oxidase is a large enzyme whose active site consists of the metal molybdenum bound to sulfur and oxygen. Within cells, xanthine oxidase can exist as xanthine dehydrogenase and xanthine oxireductase, which has also been purified from bovine milk and spleen extracts. Uric acid is released in hypoxic conditions (low oxygen saturation).
+Genetic and physiological diversity.
+Primates. In humans and higher primates, uric acid (actually hydrogen urate ion) is the final oxidation (breakdown) product of purine metabolism and is excreted in urine, whereas in most other mammals, the enzyme uricase further oxidizes uric acid to allantoin. The loss of uricase in higher primates parallels the similar loss of the ability to synthesize ascorbic acid, leading to the suggestion that urate may partially substitute for ascorbate in such species. Both uric acid and ascorbic acid are strong reducing agents (electron donors) and potent antioxidants. In humans, over half the antioxidant capacity of blood plasma comes from hydrogen urate ion.
+Humans. The normal concentration range of uric acid (or hydrogen urate ion) in human blood is 25 to 80 mg/L for men and 15 to 60 mg/L for women (but see below for slightly different values). An individual can have serum values as high as 96 mg/L and not have gout. In humans, about 70% of daily uric acid disposal occurs via the kidneys, and in 5–25% of humans, impaired renal (kidney) excretion leads to hyperuricemia. Normal excretion of uric acid in the urine is 250 to 750 mg per day (concentration of 250 to 750 mg/L if one litre of urine is produced per day – higher than the solubility of uric acid because it is in the form of dissolved acid urates).
+Dogs. The Dalmatian dog has a genetic defect in uric acid uptake by the liver and kidneys, resulting in decreased conversion to allantoin, so this breed excretes uric acid, and not allantoin, in the urine.
+Birds and reptiles. In birds and reptiles, and in some desert dwelling mammals (such as the kangaroo rat), uric acid also is the end-product of purine metabolism, but it is excreted in feces as a dry mass. This involves a complex metabolic pathway that is energetically costly in comparison to processing of other nitrogenous wastes such as urea (from the urea cycle) or ammonia, but has the advantages of reducing water loss and preventing dehydration.
+Invertebrates. "Platynereis dumerilii", a marine polychaete worm, uses uric acid as a sexual pheromone. The female of the species releases uric acid into the water during mating, to induce males to release sperm.
+Genetics.
+Although foods such as meat and seafood can elevate serum urate levels, genetic variation is a much greater contributor to high serum urate. 
+A proportion of people have mutations in the proteins responsible for the excretion of uric acid by the kidneys. Variants within a number of genes have so far been identified: "SLC2A9"; "ABCG2"; "SLC17A1"; "SLC22A11"; "SLC22A12"; "SLC16A9"; "GCKR"; "LRRC16A"; and "PDZK1". "SLC2A9" is known to transport both uric acid and fructose.
+Clinical significance and research.
+In human blood plasma, the reference range of uric acid is typically 3.4–7.2 mg per 100 mL (200–430 μmol/L) for men, and 2.4–6.1 mg per 100 mL for women (140–360 μmol/L). Uric acid concentrations in blood plasma above and below the normal range are known as, respectively, hyperuricemia and hypouricemia. Likewise, uric acid concentrations in urine above and below normal are known as hyperuricosuria and hypouricosuria. Uric acid levels in saliva may be associated with blood uric acid levels.
+High uric acid.
+Hyperuricemia (high levels of uric acid), which induces gout, has various potential origins:
+Gout.
+A 2011 survey in the United States indicated that 3.9% of the population had gout, whereas 21.4% had hyperuricemia without having symptoms. 
+Excess blood uric acid can induce gout, a painful condition resulting from needle-like crystals of uric acid precipitating in joints, capillaries, skin, and other tissues. Gout can occur where serum uric acid levels are as low as 6 mg per 100 mL (357 μmol/L), but an individual can have serum values as high as 9.6 mg per 100 mL (565 μmol/L) and not have gout.
+In humans, purines are metabolized into uric acid which is then excreted in the urine. Consumption of some types of purine-rich foods, particularly meat and seafood, increases gout risk. Gout may arise from regular consumption of meats, such as liver, kidney, and sweetbreads, and certain types of seafood including anchovies, herring, sardines, mussels, scallops, trout, haddock, mackerel and tuna. Moderate intake of purine-rich vegetables, however, is not associated with an increased risk of gout.
+One treatment for gout in the 19th century was administration of lithium salts; lithium urate is more soluble. Today, inflammation during attacks is more commonly treated with NSAIDs, colchicine, or corticosteroids, and urate levels are managed with allopurinol. Allopurinol, which weakly inhibits xanthine oxidase, is an analog of hypoxanthine that is hydroxylated by xanthine oxidoreductase at the 2-position to give oxipurinol.
+Tumor lysis syndrome.
+Tumor lysis syndrome, an emergency condition that may result from blood cancers, produces high uric acid levels in blood when tumor cells release their contents into the blood, either spontaneously or following chemotherapy. Tumor lysis syndrome may lead to acute kidney injury when uric acid crystals are deposited in the kidneys. Treatment includes hyperhydration to dilute and excrete uric acid via urine, rasburicase to reduce levels of poorly soluble uric acid in blood, or allopurinol to inhibit purine catabolism from adding to uric acid levels.
+Lesch–Nyhan syndrome.
+Lesch–Nyhan syndrome, a rare inherited disorder, is also associated with high serum uric acid levels. Spasticity, involuntary movement, and cognitive retardation as well as manifestations of gout are seen in this syndrome.
+Cardiovascular disease.
+Hyperuricemia may increase risk factors for cardiovascular disease.
+Type 2 diabetes.
+Hyperuricemia may be a consequence of insulin resistance in diabetes rather than its precursor. One study showed high serum uric acid was associated with higher risk of type 2 diabetes, independent of obesity, dyslipidemia, and hypertension. Hyperuricemia is associated with components of metabolic syndrome, including in children.
+Uric acid stone formation.
+Kidney stones can form through deposits of sodium urate microcrystals.
+Saturation levels of uric acid in blood may result in one form of kidney stones when the urate crystallizes in the kidney. These uric acid stones are radiolucent and so do not appear on an abdominal plain X-ray. Uric acid crystals can also promote the formation of calcium oxalate stones, acting as "seed crystals".
+Low uric acid.
+Low uric acid (hypouricemia) can have numerous causes. Low dietary zinc intakes cause lower uric acid levels. This effect can be even more pronounced in women taking oral contraceptive medication. Sevelamer, a drug indicated for prevention of hyperphosphataemia in people with chronic kidney failure, can significantly reduce serum uric acid.
+Multiple sclerosis.
+Meta-analysis of 10 case-control studies found that the serum uric acid levels of patients with multiple sclerosis were significantly lower compared to those of healthy controls, possibly indicating a diagnostic biomarker for multiple sclerosis.
+Normalizing low uric acid.
+Correcting low or deficient zinc levels can help elevate serum uric acid.
+

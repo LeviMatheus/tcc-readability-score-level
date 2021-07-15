@@ -1,0 +1,1 @@
+The Onion Router or Tor is a software that keeps users anonymous on the Internet. It works by routing data through multiple Tor servers. The role of each server is to only route that data to another server. As a result, information transmitted in this way is difficult to trace.

@@ -1,0 +1,2 @@
+A multimeter or a multitester is an electronic measuring tool that is a combination of several tools in one unit. It usutally includes an ammeter, voltmeter, and ohmmeter. Digital multimeters are sometimes called DMM too.
+Modern multimeters can be used to measure electrical quantities other than current, resistance and voltage. For example, they can be used to measure frequency, capacitance and temperature.

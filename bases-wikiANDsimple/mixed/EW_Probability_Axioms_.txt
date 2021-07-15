@@ -1,0 +1,60 @@
+
+
+
+The Kolmogorov axioms are the foundations of probability theory introduced by Andrey Kolmogorov in 1933. These axioms remain central and have direct contributions to mathematics, the physical sciences, and real-world probability cases. An alternative approach to formalising probability, favoured by some Bayesians, is given by Cox's theorem.
+Axioms.
+The assumptions as to setting up the axioms can be summarised as follows: Let (Ω, "F", "P") be a measure space with formula_1 being the probability of some event E"," and formula_2 = 1. Then (Ω, "F", "P") is a probability space, with sample space Ω, event space "F" and probability measure "P".
+First axiom.
+The probability of an event is a non-negative real number:
+where formula_4 is the event space. It follows that formula_1 is always finite, in contrast with more general measure theory. Theories which assign negative probability relax the first axiom.
+Second axiom.
+This is the assumption of unit measure: that the probability that at least one of the elementary events in the entire sample space will occur is 1
+Third axiom.
+This is the assumption of σ-additivity:
+Some authors consider merely finitely additive probability spaces, in which case one just needs an algebra of sets, rather than a σ-algebra. Quasiprobability distributions in general relax the third axiom.
+Consequences.
+From the Kolmogorov axioms, one can deduce other useful rules for studying probabilities. The proofs of these rules are a very insightful procedure that illustrates the power of the third axiom, and its interaction with the remaining two axioms. Four of the immediate corollaries and their proofs are shown below:
+Monotonicity.
+If A is a subset of, or equal to B, then the probability of A is less than, or equal to the probability of B.
+"Proof of monotonicity".
+In order to verify the monotonicity property, we set formula_10 and formula_11, where formula_12 and formula_13 for formula_14. It is easy to see that the sets formula_15 are pairwise disjoint and formula_16. Hence, we obtain from the third axiom that
+Since, by the first axiom, the left-hand side of this equation is a series of non-negative numbers, and since it converges to formula_18 which is finite, we obtain both formula_19 and formula_20.
+The probability of the empty set.
+In some cases, formula_22 is not the only event with probability 0.
+"Proof of probability of the empty set".
+As shown in the previous proof, formula_20. However, this statement is seen by contradiction: if formula_24 then the left hand side formula_25 is not less than infinity; formula_26
+If formula_27 then we obtain a contradiction, because the sum does not exceed formula_18 which is finite. Thus, formula_29. We have shown as a byproduct of the proof of monotonicity that formula_20.
+The complement rule.
+formula_31
+"Proof of the complement rule".
+Given formula_32 and formula_33 are mutually exclusive and that formula_34:
+formula_35 "... (by axiom 3)"
+and, formula_36 ... "(by axiom 2)"
+formula_37
+formula_38
+The numeric bound.
+It immediately follows from the monotonicity property that
+"Proof of the numeric bound".
+Given the complement rule formula_40 and "axiom 1" formula_41:
+formula_42
+formula_43
+formula_44
+Further consequences.
+Another important property is:
+This is called the addition law of probability, or the sum rule.
+That is, the probability that an event in "A" "or" "B" will happen is the sum of the probability of an event in "A" and the probability of an event in "B", minus the probability of an event that is in both "A" "and" "B". The proof of this is as follows:
+Firstly,
+So,
+Also,
+and eliminating formula_50 from both equations gives us the desired result.
+An extension of the addition law to any number of sets is the inclusion–exclusion principle.
+Setting "B" to the complement "Ac" of "A" in the addition law gives
+That is, the probability that any event will "not" happen (or the event's complement) is 1 minus the probability that it will.
+Simple example: coin toss.
+Consider a single coin-toss, and assume that the coin will either land heads (H) or tails (T) (but not both). No assumption is made as to whether the coin is fair.
+We may define:
+Kolmogorov's axioms imply that:
+The probability of "neither" heads "nor" tails, is 0.
+The probability of "either" heads "or" tails, is 1.
+The sum of the probability of heads and the probability of tails, is 1.
+

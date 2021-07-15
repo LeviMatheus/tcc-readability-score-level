@@ -1,0 +1,48 @@
+
+Puzzle video games make up a broad genre of video games that emphasize puzzle solving. The types of puzzles can test many problem-solving skills including logic, pattern recognition, sequence solving, spatial recognition, and word completion.
+Definition and gameplay.
+Puzzle games focus on logical and conceptual challenges. While many action games and adventure games include puzzle elements in level design, a true puzzle game focuses on puzzle solving as its primary gameplay activity.
+Rather than presenting a random collection of puzzles to solve, puzzle games typically offer a series of related puzzles that are a variation on a single theme. This theme could involve pattern recognition, logic, or understanding a process. These games usually have a set of rules, where players manipulate game pieces on a grid, network or other interaction space. Players must unravel clues in order to achieve some victory condition, which will then allow them to advance to the next level. Completing each puzzle will usually lead to a more difficult challenge.
+Puzzle games can include:
+History.
+Origins and popularity.
+Puzzle video games owe their origins to brain teasers and puzzles throughout human history. The mathematical strategy game Nim, and other traditional, thinking games, such as Hangman and Bulls and Cows (commercialized as "Mastermind"), were popular targets for computer implementation.
+The University of Tokyo's 1979 "Heiankyo Alien", originally for the PC-8001, is a precursor to later puzzle-platform games such as "Lode Runner" (1983), "Door Door" (1983), and "Doki Doki Penguin Land" (1985).
+"Blockbuster", by Alan Griesemer and Stephen Bradshaw (Atari 8-bit, 1981), is a computerized version of the Rubik's Cube puzzle. "Snark Hunt" (Atari 8-bit, 1982) is a single-player game of logical deduction, a clone of the 1970s "Black Box" board game. "Sokoban"'s crate-pushing puzzles from 1982 have been widely copied and its core mechanic incorporated into other games.
+Elements of Konami's tile-sliding "Loco-Motion" (1982) were later seen seen in "Pipe Mania" from LucasArts (1989).
+1984's "Puzzle Panic" for the Atari 8-bit computers specifically uses the word "puzzle" in the game's title. 1984 also saw the release of "Boulder Dash", where the goal is to collect diamonds while avoiding or exploiting rocks that fall when the dirt beneath them is removed. It led to a number of clones categorized as "rocks and diamonds games."
+In 1985, "Chain Shot!" introduced removing groups of the same color tiles on a grid, causing the remaining tiles to fall into the gap. "Uncle Henry's Nuclear Waste Dump" (1986) has similarities to "Tetris", though it was published prior to "Tetris" reaching the US, and the author claims he hadn't seen it.
+"Tetris" revolutionized and popularized the puzzle game genre. The game was created by Soviet game designer Alexey Pajitnov in 1984, who was inspired by a traditional puzzle game named Pentomino in which players arrange falling blocks into lines without any gaps. The game was a moderate success when released by Spectrum Holobyte for MS-DOS in 1987 and Atari Games in arcades in 1988, but it sold 30 million copies on the Game Boy alone.
+Refinement.
+1991 saw the release of "Lemmings". The game involves a series of creatures who mindlessly walk into deadly situations, and the player assigns jobs to specific lemmings to guide the swarm to a safe destination.
+1994 was marked by a surge in interest in mahjong video games from Japan.
+When "Minesweeper" was released with Windows 95, mainstream audiences embraced using a mouse to play puzzle games.
+Modern puzzle games.
+In 2001, PopCap Games released a graphically-enhanced clone of an obscure 1994 MS-DOS game, "Shariki", where the player must touch groups of three or more jewels on a grid, causing them to disappear and new stones to fall into place. A decade later, the match three mechanic was the foundation for popular games, including "Candy Crush Saga" and "Puzzle &amp; Dragons", both from 2012.
+Since the release of "Portal" in 2007, there has been a rise in popularity of physics-based logic puzzle games.
+Subgenres.
+There is a large variety of puzzle game types. Some feed to the player a random assortment of blocks or pieces that they must organize in the correct manner. Others present a preset game board or pieces and challenge the player to solve the puzzle by achieving a goal.
+Puzzle games are often easy to develop and adapt, being implemented on dedicated arcade units, home video game consoles, personal digital assistants, and mobile phones.
+Logical.
+Logical puzzle games exhibit logic and mechanisms that are consistent throughout the entire game. Solving them typically require deductive reasoning skills.
+Physics game.
+A physics game is a type of logical puzzle video game wherein the player must use the game's physics and environment to complete each puzzle. Physics games use consistent physics to make games more challenging. The genre is especially popular in online flash games and mobile games. Educators have used these games to demonstrate principles of physics.
+Popular physics-based logic puzzle games include "Portal", "The Talos Principle", "The Witness", "Braid", "Fez", "World of Goo", and "Cut the Rope".
+These also include projectile collision games such as "Angry Birds", "Peggle", "Monster Strike", and "Crush the Castle".
+Coding.
+These are logical puzzle games that require programming elements. Examples include "The Incredible Machine", "SpaceChem", and "Infinifactory".
+Trial-and-Error / Exploration.
+This sub-genre includes point-n-click games that often exhibit similarities with adventure games and walking simulators. Unlike logical puzzle games, these games generally require inductive reasoning to solve. The defining trait is that you must experiment with mechanisms in each level before you can solve them. Puzzle elements often do not have consistency throughout the game, and thus require guessing and checking, and exploration to reveal more of the puzzle.
+These include "Myst", "Limbo", "The Dig", "Monument Valley", and escape room games such as "The Room".
+Hidden object game.
+A hidden object game (sometimes called hidden picture or hidden object puzzle adventure (HOPA)) is a genre of puzzle video game in which the player must find items from a list that are hidden within a scene. Hidden object games are a popular trend in casual gaming, and are comparatively inexpensive to buy. Time-limited trial versions of these games are usually available for download.
+An early hidden object game was "", released for the CD-i in 1991. Other early incarnations are the video game adaptations of the "I Spy" books published by Scholastic Corporation since 1997.
+Publishers of hidden object games include Sandlot Games, Big Fish Games, Awem Studio, SpinTop Games, and Codeminion. Examples of hidden object game series include " Awakening", "Antique Road Trip" (both by Boomzap Entertainment), "Dream Chronicles" (PlayFirst), "Mortimer Beckett" (RealArcade/GameHouse), "Mystery Trackers" (by Elephant Games), "Hidden Expedition", "Mystery Case Files" (both by Big Fish Games), and Criminal Case (by Pretty Simple.) 
+Reveal the picture game.
+A reveal the picture game is a type of puzzle game that features piece-by-piece revealing of a photo or picture.
+Tile-matching.
+In tile-matching video games, the player manipulates tiles in order to make them disappear according to a matching criterion. The genre began with 1985's "Chain Shot!" and has similarities to "falling block" games such as "Tetris." This genre includes games that require pieces to be swapped such as "Bejeweled" or "Candy Crush Saga", games that adapt the classic tile-based game Mahjong such as "Mahjong Trails", and games in which pieces are shot on the board such as "Zuma". Puzzle games based on Tetris include In many recent tile-matching games, the matching criterion is to place a given number of tiles of the same type so that they adjoin each other. That number is often three, and the corresponding subset of tile-matching games is referred to as "match-three games."
+Other examples include "Threes" and "Lumines".
+Traditional puzzle.
+There have also been many digital adaptations of traditional puzzle games, including solitaire and mahjong solitaire. Even familiar word puzzles, number puzzles, and association puzzles have been adapted as games such as "Dr. Kawashima's Brain Training".
+

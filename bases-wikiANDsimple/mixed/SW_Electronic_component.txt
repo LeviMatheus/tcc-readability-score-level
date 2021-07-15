@@ -1,0 +1,9 @@
+An electronic component is a basic electronic element. These components can be connected together. Components can be single items (resistor, transistor) or in more or less complex groups as integrated circuits (logic gate, resistor array).
+Cable.
+A flexible conducting electrical or optical link.
+Terminal.
+A device usually made up of a display unit and a keyboard which allows entry and display of information when on-line to central computer system.
+Connector.
+A physical device with a number of metal contacts that allow devices to be easily linked together.
+Switch.
+A mechanical or hard state device that can electrically connect or isolate two or more lines.

@@ -1,0 +1,40 @@
+
+Quadratic programming (QP) is the process of solving certain mathematical optimization problems involving quadratic functions. Specifically, one seeks to optimize (minimize or maximize) a multivariate quadratic function subject to linear constraints on the variables. Quadratic programming is a type of nonlinear programming.
+"Programming" in this context refers to a formal procedure for solving mathematical problems. This usage dates to the 1940s and is not specifically tied to the more recent notion of "computer programming." To avoid confusion, some practitioners prefer the term "optimization" — e.g., "quadratic optimization."
+Problem formulation.
+The quadratic programming problem with variables and constraints can be formulated as follows.
+Given:
+the objective of quadratic programming is to find an -dimensional vector , that will
+where denotes the vector transpose of . The notation means that every entry of the vector is less than or equal to the corresponding entry of the vector (component-wise inequality).
+Least squares.
+As a special case when "Q" is symmetric positive-definite, the cost function reduces to least squares:
+where follows from the Cholesky decomposition of and . Conversely, any such constrained least squares program can be equivalently framed as a QP, even for generic non-square matrix.
+Generalizations.
+When minimizing a function in the neighborhood of some reference point , is set to its Hessian matrix and is set to its gradient . A related programming problem, quadratically constrained quadratic programming, can be posed by adding quadratic constraints on the variables.
+Solution methods.
+For general problems a variety of methods are commonly used, including
+In the case in which is positive definite, the problem is a special case of the more general field of convex optimization.
+Equality constraints.
+Quadratic programming is particularly simple when is positive definite and there are only equality constraints; specifically, the solution process is linear. By using Lagrange multipliers and seeking the extremum of the Lagrangian, it may be readily shown that the solution to the equality constrained problem
+is given by the linear system
+where is a set of Lagrange multipliers which come out of the solution alongside .
+The easiest means of approaching this system is direct solution (for example, LU factorization), which for small problems is very practical. For large problems, the system poses some unusual difficulties, most notably that the problem is never positive definite (even if is), making it potentially very difficult to find a good numeric approach, and there are many approaches to choose from dependent on the problem.
+If the constraints don't couple the variables too tightly, a relatively simple attack is to change the variables so that constraints are unconditionally satisfied. For example, suppose (generalizing to nonzero is straightforward). Looking at the constraint equations:
+introduce a new variable defined by
+where has dimension of minus the number of constraints. Then
+and if is chosen so that the constraint equation will be always satisfied. Finding such entails finding the null space of , which is more or less simple depending on the structure of . Substituting into the quadratic form gives an unconstrained minimization problem:
+the solution of which is given by:
+Under certain conditions on , the reduced matrix will be positive definite. It is possible to write a variation on the conjugate gradient method which avoids the explicit calculation of .
+Lagrangian duality.
+The Lagrangian dual of a QP is also a QP. To see that let us focus on the case where and Q is positive definite. We write the Lagrangian function as 
+Defining the (Lagrangian) dual function as formula_10, we find an infimum of , using formula_11 and positive-definiteness of :
+Hence the dual function is 
+and so the Lagrangian dual of the QP is
+Besides the Lagrangian duality theory, there are other duality pairings (e.g. Wolfe, etc.).
+Complexity.
+For positive definite , the ellipsoid method solves the problem in (weakly) polynomial time. If, on the other hand, is indefinite, then the problem is NP-hard. In fact, even if has only one negative eigenvalue, the problem is (strongly) NP-hard.
+Integer constraints.
+There are some situations where one or more elements of the formula_15 vector will need to take on integer values. This leads to the formulation of a mixed-integer quadratic programming (MIQP) problem. Applications of MIQP include water resources and the construction of index funds.
+Further reading.
+ 
+

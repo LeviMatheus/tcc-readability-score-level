@@ -1,0 +1,2 @@
+The person then makes some theories. It is normal to build a theory on one kind of structure, like the group theory or the category theory.
+Each theory has the mission of organizing in a simple-to-complex model the precise definition of a concept, examples, its substructures, the relations between them: morphisms and its applications, inside the own theory as well outside.

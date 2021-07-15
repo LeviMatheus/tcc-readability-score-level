@@ -1,0 +1,3 @@
+A real or complex number is called transcendental number if it cannot be found as a result of an algebraic equation with integer coefficients.
+formula_1
+Proving that a certain number is transcendental can be very difficult. Each transcendental number is also an irrational number. The first people to see that there were transcendental numbers were Gottfried Wilhelm Leibniz and Leonhard Euler. The first to actually prove there were transcendental numbers was Joseph Liouville. He did this in 1844.

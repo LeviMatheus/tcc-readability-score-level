@@ -1,0 +1,2 @@
+µCLinux is an operating system for small computers inside integrated circuits (chips). The system is based on the Linux operating system in many ways. Apart from the rather big size of Linux, µCLinux is much smaller and not as packed with features as Linux. It finds uses in many places, mostly dealing with sensor and data-gathering of different sorts.
+Thanks to its compact nature, it can easily be transferred over slow connections. Yet it is a stable and robust system distributed as an open source program.

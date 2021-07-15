@@ -1,0 +1,1 @@
+A Prime lens is a lens wich has a fixed focal length. It is easier to make fixed focal lenses than to include them in a variable focus lens. Therefore, fixed focal lenses usually have a higher aperture than comparable variable focus lenses. They are usually also of a higher optical quality.

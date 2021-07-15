@@ -1,0 +1,14 @@
+Elastic potential energy is stored in objects that are stretched, compressed, bent, or twisted. It is the energy that represents the elastic distortion of a solid or a fluid. It is mainly used in physics.
+Examples.
+Examples of everyday objects that have Elastic potential energy would be elastic bands, springs, bungee cords, car shocks etc. Hooke's Law is one of the primary concepts needed to understand how Elastic Potential Energy works. Any spring that obeys Hooke's law is called an ideal spring.
+Hooke's Law - the magnitude of the force exerted by a spring is directly proportional to the distance the spring has moved from equilibrium.
+Ideal spring - a spring that obeys Hooke's law because it experiences no internal or external friction.
+For example: Consider a spring, at its equillibrium position, that has one end attached to a wall. If the spring is then stretched away from the wall, the force exerted by the spring pulls the spring back towards the wall. On the other hand, if the spring is compressed towards the wall, the force exerted by the spring is working in the opposite direction of the applied force, and pushes away from the wall. This is what Hooke's law is trying to explain.
+Equilibrium position - The position at which the spring rests.
+Hooke's law.
+formula_1
+The force constant (k) is the proportionality constant of the spring. Springs that require a large force to stretch or compress them have large k values.
+Note: Hooke's law applies to any elastic device that follows its conditions. It is not specifically dependant on just springs. The equation for the Force exerted by the spring is different than the energy being stored by the spring.
+formula_2
+Ee is the elastic potential energy, x is the position of the spring relative to the equilibrium position, and k is the force constant for the spring.
+Note: The Elastic Potential Energy equation is very similar to Hooke's Spring Force equation. Hooke's Spring Force equation is actually used to derive the Elastic Potential Energy equation.

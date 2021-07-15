@@ -1,0 +1,2 @@
+Secure Shell or SSH is an Internet Protocol used to be exchange data using a secure channel between two computers talking with each other.
+Used mainly on Linux and Unix computers to access shell accounts, SSH was designed to replace other remote shells that were not secure such as telnet, to encrypt data like passwords on public networks.

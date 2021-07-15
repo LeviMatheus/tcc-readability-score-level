@@ -1,0 +1,4 @@
+The Extensible Markup Language (short XML) is a computer language. It is a markup language like HTML but is extensible. It's created by the World Wide Web Consortium (W3C). XML defines rules for the construction of an document. XML adds context to the information in a document. It does not say how this should be displayed.
+Some programs get information out of a XML-document. To do that, they need a description of the document. To do that, you can use the DTD. It's an other language.
+Languages.
+The following languages are based on XML.

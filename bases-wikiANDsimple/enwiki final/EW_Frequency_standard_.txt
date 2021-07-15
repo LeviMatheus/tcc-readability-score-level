@@ -1,0 +1,9 @@
+
+A frequency standard is a stable oscillator used for frequency calibration or reference. A frequency standard generates a fundamental frequency with a high degree of accuracy and precision. Harmonics of this fundamental frequency are used to provide reference points.
+Since time is the reciprocal of frequency, it is relatively easy to derive a time standard from a frequency standard. A standard clock comprises a frequency standard, a device to count off the cycles of the oscillation emitted by the frequency standard, and a means of displaying or outputting the result.
+Frequency standards in a network or facility are sometimes administratively designated as "primary" or "secondary". The terms "primary" and "secondary", as used in this context, should not be confused with the respective technical meanings of these words in the discipline of precise time and frequency.
+Frequency reference.
+A frequency reference is an instrument used for providing a stable frequency of some kind. There are different sorts of frequency references, acoustic ones such as tuning forks but also electrical ones that emit a signal of a certain frequency (a frequency standard).
+Among the most stable frequency references in the world are cesium standards, including cesium fountains, and hydrogen masers. Cesium standards are widely recognized as having better long-term stability, whereas hydrogen masers can attain superior short-term performance; therefore, several national standards laboratories use ensembles of cesium standards and hydrogen masers in order to combine the best attributes of both.
+The carrier of time signal transmitters, Loran-C transmitters and of several long wave and medium wave broadcasting stations is derived from an atomic clock and can be therefore used as frequency standard.
+

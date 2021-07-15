@@ -1,0 +1,6 @@
+KOffice is a free office suite for the K Desktop Environment (KDE). All its components have been released under free software/open source licenses. The latest version of KOffice is 1.6.3, which was released on June 7, 2007.
+KOffice is primarily designed for Unix operating systems, but in the future there will likely be a Microsoft Windows and native Mac OS X version of all the applications.
+KOffice applications uses OpenDocument as their native file format when possible.
+The suite is released separately from KDE and can be downloaded at the KOffice homepage.
+KOffice components.
+KOffice includes import filters for some file formats provided by competitors.

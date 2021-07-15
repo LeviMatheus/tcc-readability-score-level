@@ -1,0 +1,22 @@
+
+
+
+In group theory, a branch of mathematics, given a group "G" under a binary operation ∗, a subset "H" of "G" is called a subgroup of "G" if "H" also forms a group under the operation ∗. More precisely, "H" is a subgroup of "G" if the restriction of ∗ to is a group operation on "H". This is usually denoted , read as ""H" is a subgroup of "G".
+The trivial subgroup of any group is the subgroup {"e"} consisting of just the identity element.
+A proper subgroup of a group "G" is a subgroup "H" which is a proper subset of "G" (that is, ). This is usually represented notationally by , read as "H" is a proper subgroup of "G"". Some authors also exclude the trivial group from being proper (that is, }).
+If "H" is a subgroup of "G", then "G" is sometimes called an overgroup of "H".
+The same definitions apply more generally when "G" is an arbitrary semigroup, but this article will only deal with subgroups of groups. The group "G" is sometimes denoted by the ordered pair , usually to emphasize the operation ∗ when "G" carries multiple algebraic or other structures.
+Cosets and Lagrange's theorem.
+Given a subgroup "H" and some "a" in G, we define the left coset "aH" = {"ah" : "h" in "H"}. Because "a" is invertible, the map φ : "H" → "aH" given by φ("h") = "ah" is a bijection. Furthermore, every element of "G" is contained in precisely one left coset of "H"; the left cosets are the equivalence classes corresponding to the equivalence relation "a"1 ~ "a"2 if and only if "a"1−1"a"2 is in "H". The number of left cosets of "H" is called the index of "H" in "G" and is denoted by ["G" : "H"].
+Lagrange's theorem states that for a finite group "G" and a subgroup "H", 
+where |"G"| and |"H"| denote the orders of "G" and "H", respectively. In particular, the order of every subgroup of "G" (and the order of every element of "G") must be a divisor of |"G"|.
+Right cosets are defined analogously: "Ha" = {"ha" : "h" in "H"}. They are also the equivalence classes for a suitable equivalence relation and their number is equal to ["G" : "H"].
+If "aH" = "Ha" for every "a" in "G", then "H" is said to be a normal subgroup. Every subgroup of index 2 is normal: the left cosets, and also the right cosets, are simply the subgroup and its complement. More generally, if "p" is the lowest prime dividing the order of a finite group "G," then any subgroup of index "p" (if such exists) is normal.
+Example: Subgroups of Z8.
+Let "G" be the cyclic group Z8 whose elements are
+and whose group operation is addition modulo eight. Its Cayley table is
+This group has two nontrivial subgroups: "J"={0,4} and "H"={0,2,4,6}, where "J" is also a subgroup of "H". The Cayley table for "H" is the top-left quadrant of the Cayley table for "G". The group "G" is cyclic, and so are its subgroups. In general, subgroups of cyclic groups are also cyclic.
+Example: Subgroups of S4 (the symmetric group on 4 elements).
+Every group has as many small subgroups as neutral elements on the main diagonal:
+The trivial group and two-element groups Z2. These small subgroups are not counted in the following list.
+

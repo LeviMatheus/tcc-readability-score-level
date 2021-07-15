@@ -1,0 +1,11 @@
+
+A centimetre (international spelling) or centimeter (American spelling) (SI symbol cm) is a unit of length in the metric system, equal to one hundredth of a metre, "centi" being the SI prefix for a factor of . The centimetre was the base unit of length in the now deprecated centimetre–gram–second (CGS) system of units.
+Though for many physical quantities, SI prefixes for factors of 103—like "milli-" and "kilo-"—are often preferred by technicians, the centimetre remains a practical unit of length for many everyday measurements. A centimetre is approximately the width of the fingernail of an average adult person.
+Equivalence to other units of length.
+One millilitre is defined as one cubic centimetre, under the SI system of units.
+Other uses.
+In addition to its use in the measurement of length, the centimetre is used:
+Unicode symbols.
+For the purposes of compatibility with Chinese, Japanese and Korean (CJK) characters, Unicode has symbols for:
+They are mostly used only with East Asian fixed-width CJK fonts, because they are equal in size to one Chinese character.
+

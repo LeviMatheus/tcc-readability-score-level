@@ -1,0 +1,1 @@
+Write Anywhere File Layout (WAFL) is a file system. It was developed with large RAID arrays in mind. After a failure, the RAID array can be directly restarted. Other features like making the filesystem bigger without taking it offline are also supported.

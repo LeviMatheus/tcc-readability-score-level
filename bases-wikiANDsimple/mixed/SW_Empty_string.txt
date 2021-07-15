@@ -1,0 +1,7 @@
+The empty string is the unique string of no characters over some alphabet Σ. It is written as "ε" or "λ". The length of this empty string is 0.
+In simple words, given some characters of an alphabet, the empty string is the "word" that can be made if no letters are used. There is of course only one such word.
+Under concatenation, the empty string is the identity element of the free monoid on Σ. That is, for any string "s", "s"ε = ε"s" = s.
+Representations.
+In many programming languages, the empty string is written with two double quotes: "". The empty string is also sometimes noted by the Greek letter λ.
+Implementation.
+In C, the empty string is represented by a character array with a null character in the zeroeth position. Note that all strings in C are terminated by a null character.

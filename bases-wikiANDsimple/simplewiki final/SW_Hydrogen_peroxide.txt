@@ -1,0 +1,6 @@
+Hydrogen peroxide is a chemical compound. Its molecular formula is H2O2. It is used as a cleaner, and as hair bleach. In a concentration of 3% (meaning that there are 3 of hydrogen peroxide for 97 of water), it can be used to treat wounds. In aqueous solution, hydrogen peroxide can oxidize or reduce a variety of inorganic ions. When it acts as a reducing agent, oxygen gas is also produced. In acid solution Fe2+ is oxidized to Fe3+,
+2 Fe2+(aq) + H2O2 + 2 H+(aq) → 2 Fe3+(aq) + 2H2O(l)
+and sulfite (SO32−) is oxidized to sulfate (SO42−). However, potassium permanganate is reduced to Mn2+ by acidic H2O2. Under alkaline conditions, however, some of these reactions reverse; Mn2+ is oxidized to Mn4+ (as MnO2), yet Fe3+ is reduced to Fe2+.
+2 Fe3+ + H2O2 + 2 OH− → 2 Fe2+ + 2 H2O + O2
+Ph-S-CH3 + H2O2 → Ph-S(O)-CH3 + H2O
+Alkaline hydrogen peroxide is used for epoxidation of electron-deficient alkenes such as acrylic acids, and also for oxidation of alkylboranes to alcohols, the second step of hydroboration-oxidation.

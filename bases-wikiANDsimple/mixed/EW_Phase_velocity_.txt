@@ -1,0 +1,15 @@
+
+The phase velocity of a wave is the rate at which the wave propagates in some medium. This is the velocity at which the phase of any one frequency component of the wave travels. For such a component, any given phase of the wave (for example, the crest) will appear to travel at the phase velocity. The phase velocity is given in terms of the wavelength (lambda) and time period as
+Equivalently, in terms of the wave's angular frequency , which specifies angular change per unit of time, and wavenumber (or angular wave number) , which represents the proportionality between the angular frequency and the linear speed (speed of propagation) ν,
+To understand where this equation comes from, consider a basic cosine wave, . After time , the source has produced oscillations. After the same time, the initial wave front has propagated away from the source through space to the distance to fit the same number of oscillations, . 
+Thus the propagation velocity "v" is . The wave would have to propagate faster when higher frequency oscillations are distributed less densely in space unless the wave length is compensatorily shortened. Formally, is the phase, where
+Since and , the wave velocity is .
+Relation to group velocity, refractive index and transmission speed.
+Since a pure sine wave cannot convey any information, some change in amplitude or frequency, known as modulation, is required. By combining two sines with slightly different frequencies and wavelengths,
+the amplitude becomes a sinusoid with "phase" speed . It is this modulation that represents the signal content. Since each amplitude "envelope" contains a group of internal waves, this speed is usually called the group velocity, "v"g.
+In a given medium, the frequency is some function of the wave number, so in general, the phase velocity and the group velocity depend on the frequency and on the medium. The ratio between the speed of light c and the phase velocity "v"p is known as the refractive index, . 
+Taking the derivative of with respect to , would yield the group velocity,
+except one cannot create a group with only a finite number of wave frequencies/wave vectors. (That is: the envelope in such a situation changes shape so rapidly that group velocity loses its meaning.) Noting that , indicates that the group speed is equal to the phase speed only when the refractive index is a constant, and in this case the phase speed and group speed are independent of frequency, . 
+Otherwise, both the phase velocity and the group velocity vary with frequency, and the medium is called dispersive; the relation is known as the dispersion relation of the medium.
+The group velocity of electromagnetic radiation may – under certain circumstances (for example anomalous dispersion) – exceed the speed of light in a vacuum, but this does not indicate any superluminal information or energy transfer. It was theoretically described by physicists such as Arnold Sommerfeld and Léon Brillouin.
+

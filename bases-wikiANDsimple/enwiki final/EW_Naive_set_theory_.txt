@@ -1,0 +1,95 @@
+
+Naive set theory is any of several theories of sets used in the discussion of the foundations of mathematics.
+Unlike axiomatic set theories, which are defined using formal logic, naive set theory is defined informally, in natural language. It describes the aspects of mathematical sets familiar in discrete mathematics (for example Venn diagrams and symbolic reasoning about their Boolean algebra), and suffices for the everyday use of set theory concepts in contemporary mathematics.
+Sets are of great importance in mathematics; in modern formal treatments, most mathematical objects (numbers, relations, functions, etc.) are defined in terms of sets. Naive set theory suffices for many purposes, while also serving as a stepping-stone towards more formal treatments.
+Method.
+A "naive theory" in the sense of "naive set theory" is a non-formalized theory, that is, a theory that uses a natural language to describe sets and operations on sets. The words "and", "or", "if ... then", "not", "for some", "for every" are treated as in ordinary mathematics. As a matter of convenience, use of naive set theory and its formalism prevails even in higher mathematics – including in more formal settings of set theory itself.
+The first development of set theory was a naive set theory. It was created at the end of the 19th century by Georg Cantor as part of his study of infinite sets and developed by Gottlob Frege in his "Grundgesetze der Arithmetik".
+Naive set theory may refer to several very distinct notions. It may refer to
+Paradoxes.
+The assumption that any property may be used to form a set, without restriction, leads to paradoxes. One common example is Russell's paradox: there is no set consisting of "all sets that do not contain themselves". Thus consistent systems of naive set theory must include some limitations on the principles which can be used to form sets.
+Cantor's theory.
+Some believe that Georg Cantor's set theory was not actually implicated in the set-theoretic paradoxes (see Frápolli 1991). One difficulty in determining this with certainty is that Cantor did not provide an axiomatization of his system. By 1899, Cantor was aware of some of the paradoxes following from unrestricted interpretation of his theory, for instance Cantor's paradox and the Burali-Forti paradox, and did not believe that they discredited his theory. Cantor's paradox can actually be derived from the above (false) assumption—that any property may be used to form a set—using for " is a cardinal number". Frege explicitly axiomatized a theory in which a formalized version of naive set theory can be interpreted, and it is "this" formal theory which Bertrand Russell actually addressed when he presented his paradox, not necessarily a theory Cantor, who, as mentioned, was aware of several paradoxes, presumably had in mind.
+Axiomatic theories.
+Axiomatic set theory was developed in response to these early attempts to understand sets, with the goal of determining precisely what operations were allowed and when.
+Consistency.
+A naive set theory is not "necessarily" inconsistent, if it correctly specifies the sets allowed to be considered. This can be done by the means of definitions, which are implicit axioms. It is possible to state all the axioms explicitly, as in the case of Halmos' "Naive Set Theory", which is actually an informal presentation of the usual axiomatic Zermelo–Fraenkel set theory. It is "naive" in that the language and notations are those of ordinary informal mathematics, and in that it does not deal with consistency or completeness of the axiom system.
+Likewise, an axiomatic set theory is not necessarily consistent: not necessarily free of paradoxes. It follows from Gödel's incompleteness theorems that a sufficiently complicated first order logic system (which includes most common axiomatic set theories) cannot be proved consistent from within the theory itself – even if it actually is consistent. However, the common axiomatic systems are generally believed to be consistent; by their axioms they do exclude "some" paradoxes, like Russell's paradox. Based on Gödel's theorem, it is just not known – and never can be – if there are "no" paradoxes at all in these theories or in any first-order set theory.
+The term "naive set theory" is still today also used in some literature to refer to the set theories studied by Frege and Cantor, rather than to the informal counterparts of modern axiomatic set theory.
+Utility.
+The choice between an axiomatic approach and other approaches is largely a matter of convenience. In everyday mathematics the best choice may be informal use of axiomatic set theory. References to particular axioms typically then occur only when demanded by tradition, e.g. the axiom of choice is often mentioned when used. Likewise, formal proofs occur only when warranted by exceptional circumstances. This informal usage of axiomatic set theory can have (depending on notation) precisely the "appearance" of naive set theory as outlined below. It is considerably easier to read and write (in the formulation of most statements, proofs, and lines of discussion) and is less error-prone than a strictly formal approach.
+Sets, membership and equality.
+In naive set theory, a set is described as a well-defined collection of objects. These objects are called the elements or members of the set. Objects can be anything: numbers, people, other sets, etc. For instance, 4 is a member of the set of all even integers. Clearly, the set of even numbers is infinitely large; there is no requirement that a set be finite.
+The definition of sets goes back to Georg Cantor. He wrote in his 1915 article "Beiträge zur Begründung der transfiniten Mengenlehre":
+“Unter einer 'Menge' verstehen wir jede Zusammenfassung M von bestimmten wohlunterschiedenen Objekten unserer Anschauung oder unseres Denkens (welche die 'Elemente' von M genannt werden) zu einem Ganzen.” – Georg Cantor
+“A set is a gathering together into a whole of definite, distinct objects of our perception or of our thought—which are called elements of the set.” – Georg Cantor
+Note on consistency.
+It does "not" follow from this definition "how" sets can be formed, and what operations on sets again will produce a set. The term "well-defined" in "well-defined collection of objects" cannot, by itself, guarantee the consistency and unambiguity of what exactly constitutes and what does not constitute a set. Attempting to achieve this would be the realm of axiomatic set theory or of axiomatic class theory.
+The problem, in this context, with informally formulated set theories, not derived from (and implying) any particular axiomatic theory, is that there may be several widely differing formalized versions, that have both different sets and different rules for how new sets may be formed, that all conform to the original informal definition. For example, Cantor's verbatim definition allows for considerable freedom in what constitutes a set. On the other hand, it is unlikely that Cantor was particularly interested in sets containing cats and dogs, but rather only in sets containing purely mathematical objects. An example of such a class of sets could be the von Neumann universe. But even when fixing the class of sets under consideration, it is not always clear which rules for set formation are allowed without introducing paradoxes.
+For the purpose of fixing the discussion below, the term "well-defined" should instead be interpreted as an "intention", with either implicit or explicit rules (axioms or definitions), to rule out inconsistencies. The purpose is to keep the often deep and difficult issues of consistency away from the, usually simpler, context at hand. An explicit ruling out of "all" conceivable inconsistencies (paradoxes) cannot be achieved for an axiomatic set theory anyway, due to Gödel's second incompleteness theorem, so this does not at all hamper the utility of naive set theory as compared to axiomatic set theory in the simple contexts considered below. It merely simplifies the discussion. Consistency is henceforth taken for granted unless explicitly mentioned.
+Membership.
+If "x" is a member of a set "A", then it is also said that "x" belongs to "A", or that "x" is in "A". This is denoted by "x" ∈ "A". The symbol ∈ is a derivation from the lowercase Greek letter epsilon, "ε", introduced by Giuseppe Peano in 1889 and is the first letter of the word ἐστί (means "is"). The symbol ∉ is often used to write "x" ∉ "A", meaning "x is not in A".
+Equality.
+Two sets "A" and "B" are defined to be equal when they have precisely the same elements, that is, if every element of "A" is an element of "B" and every element of "B" is an element of "A". (See axiom of extensionality.) Thus a set is completely determined by its elements; the description is immaterial. For example, the set with elements 2, 3, and 5 is equal to the set of all prime numbers less than 6.
+If the sets "A" and "B" are equal, this is denoted symbolically as "A" = "B" (as usual).
+Empty set.
+The empty set, often denoted Ø and sometimes formula_1, is a set with no members at all. Because a set is determined completely by its elements, there can be only one empty set. (See axiom of empty set.) Although the empty set has no members, it can be a member of other sets. Thus Ø ≠ {Ø}, because the former has no members and the latter has one member. In mathematics, the only sets with which one needs to be concerned can be built up from the empty set alone.()
+Specifying sets.
+The simplest way to describe a set is to list its elements between curly braces (known as defining a set "extensionally"). Thus denotes the set whose only elements are and .
+Note the following points:
+This notation can be informally abused by saying something like to indicate the set of all dogs, but this example would usually be read by mathematicians as "the set containing the single element "dogs"".
+An extreme (but correct) example of this notation is , which denotes the empty set.
+The notation , or sometimes , is used to denote the set containing all objects for which the condition holds (known as defining a set "intensionally").
+For example, denotes the set of real numbers, denotes the set of everything with blonde hair.
+This notation is called set-builder notation (or "set comprehension", particularly in the context of Functional programming).
+Some variants of set builder notation are:
+Subsets.
+Given two sets "A" and "B", "A" is a subset of "B" if every element of "A" is also an element of "B".
+In particular, each set "B" is a subset of itself; a subset of "B" that is not equal to "B" is called a proper subset.
+If "A" is a subset of "B", then one can also say that "B" is a superset of "A", that "A" is contained in "B", or that "B" contains "A". In symbols, "A" ⊆ "B" means that "A" is a subset of "B", and "B" ⊇ "A" means that "B" is a superset of "A".
+Some authors use the symbols ⊂ and ⊃ for subsets, and others use these symbols only for "proper" subsets. For clarity, one can explicitly use the symbols ⊊ and ⊋ to indicate non-equality.
+As an illustration, let R be the set of real numbers, let Z be the set of integers, let "O" be the set of odd integers, and let "P" be the set of current or former U.S. Presidents.
+Then "O" is a subset of Z, Z is a subset of R, and (hence) "O" is a subset of R, where in all cases "subset" may even be read as "proper subset".
+Not all sets are comparable in this way. For example, it is not the case either that R is a subset of "P" nor that "P" is a subset of R.
+It follows immediately from the definition of equality of sets above that, given two sets "A" and "B", "A" = "B" if and only if "A" ⊆ "B" and "B" ⊆ "A". In fact this is often given as the definition of equality. Usually when trying to prove that two sets are equal, one aims to show these two inclusions. The empty set is a subset of every set (the statement that all elements of the empty set are also members of any set "A" is vacuously true).
+The set of all subsets of a given set "A" is called the power set of "A" and is denoted by formula_2 or formula_3; the ""P" is sometimes in a script font. If the set "A" has "n" elements, then formula_3 will have formula_5 elements.
+Universal sets and absolute complements.
+In certain contexts, one may consider all sets under consideration as being subsets of some given universal set.
+For instance, when investigating properties of the real numbers R (and subsets of R), R may be taken as the universal set. A true universal set is not included in standard set theory (see Paradoxes below), but is included in some non-standard set theories.
+Given a universal set U and a subset "A" of U, the complement of "A" (in U) is defined as
+In other words, "A"C ("A-complement"; sometimes simply "A, "A-prime"" ) is the set of all members of U"' which are not members of "A".
+Thus with R, Z and "O" defined as in the section on subsets, if Z is the universal set, then "OC" is the set of even integers, while if R is the universal set, then "OC" is the set of all real numbers that are either even integers or not integers at all.
+Unions, intersections, and relative complements.
+Given two sets "A" and "B", their union is the set consisting of all objects which are elements of "A" or of "B" or of both (see axiom of union). It is denoted by "A" ∪ "B".
+The intersection of "A" and "B" is the set of all objects which are both in "A" and in "B". It is denoted by "A" ∩ "B".
+Finally, the relative complement of "B" relative to "A", also known as the set theoretic difference of "A" and "B", is the set of all objects that belong to "A" but "not" to "B". It is written as "A" \ "B" or "A" − "B".
+Symbolically, these are respectively
+The set "B" doesn't have to be a subset of "A" for "A" \ "B" to make sense; this is the difference between the relative complement and the absolute complement ("A"C = "U" \ "A") from the previous section.
+To illustrate these ideas, let "A" be the set of left-handed people, and let "B" be the set of people with blond hair. Then "A" ∩ "B" is the set of all left-handed blond-haired people, while "A" ∪ "B" is the set of all people who are left-handed or blond-haired or both. "A" \ "B", on the other hand, is the set of all people that are left-handed but not blond-haired, while "B" \ "A" is the set of all people who have blond hair but aren't left-handed.
+Now let "E" be the set of all human beings, and let "F" be the set of all living things over 1000 years old. What is "E" ∩ "F" in this case? No living human being is over 1000 years old, so "E" ∩ "F" must be the empty set {}.
+For any set "A", the power set formula_3 is a Boolean algebra under the operations of union and intersection.
+Ordered pairs and Cartesian products.
+Intuitively, an ordered pair is simply a collection of two objects such that one can be distinguished as the "first element" and the other as the "second element", and having the fundamental property that, two ordered pairs are equal if and only if their "first elements" are equal and their "second elements" are equal.
+Formally, an ordered pair with first coordinate "a", and second coordinate "b", usually denoted by ("a", "b"), can be defined as the set .
+It follows that, two ordered pairs ("a","b") and ("c","d") are equal if and only if "a" = "c" and "b" = "d".
+Alternatively, an ordered pair can be formally thought of as a set {a,b} with a total order.
+(The notation ("a", "b") is also used to denote an open interval on the real number line, but the context should make it clear which meaning is intended. Otherwise, the notation ]"a", "b"[ may be used to denote the open interval whereas ("a", "b") is used for the ordered pair).
+If "A" and "B" are sets, then the Cartesian product (or simply product) is defined to be:
+That is, "A" × "B" is the set of all ordered pairs whose first coordinate is an element of "A" and whose second coordinate is an element of "B".
+This definition may be extended to a set "A" × "B" × "C" of ordered triples, and more generally to sets of ordered n-tuples for any positive integer "n".
+It is even possible to define infinite Cartesian products, but this requires a more recondite definition of the product.
+Cartesian products were first developed by René Descartes in the context of analytic geometry. If R denotes the set of all real numbers, then R2 := R × R represents the Euclidean plane and R3 := R × R × R represents three-dimensional Euclidean space.
+Some important sets.
+There are some ubiquitous sets for which the notation is almost universal. Some of these are listed below. In the list, "a", "b", and "c" refer to natural numbers, and "r" and "s" are real numbers.
+Paradoxes in early set theory.
+The unrestricted formation principle of sets referred to as the axiom schema of unrestricted comprehension,
+is the source of several early appearing paradoxes:
+If the axiom schema of unrestricted comprehension is weakened to the axiom schema of specification or axiom schema of separation,
+then all the above paradoxes disappear. There is a corollary. With the axiom schema of separation as an axiom of the theory, it follows, as a theorem of the theory:
+Or, more spectacularly (Halmos' phrasing): There is no universe. "Proof": Suppose that it exists and call it . Now apply the axiom schema of separation with and for use . This leads to Russell's paradox again. Hence can't exist in this theory.
+Related to the above constructions is formation of the set
+It is (perhaps surprisingly) not the possibility of that is problematic. It is again the axiom schema of unrestricted comprehension allowing for . With the axiom schema of specification instead of unrestricted comprehension, the conclusion doesn't hold and, hence is not a logical consequence.
+Nonetheless, the possibility of is often removed explicitly or, e.g. in ZFC, implicitly, by demanding the axiom of regularity to hold. One consequence of it is
+or, in other words, no set is an element of itself.
+The axiom schema of separation is simply too weak (while unrestricted comprehension is a very strong axiom—too strong for set theory) to develop set theory with its usual operations and constructions outlined above. The axiom of regularity is of a restrictive nature as well. Therefore, one is led to the formulation of other axioms to guarantee the existence of enough sets to form a set theory. Some of these have been described informally above and many others are possible. Not all conceivable axioms can be combined freely into consistent theories. For example, the axiom of choice of ZFC is incompatible with the conceivable every set of reals is Lebesgue measurable. The former implies the latter is false.
+

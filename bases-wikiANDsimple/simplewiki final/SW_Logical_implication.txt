@@ -1,0 +1,5 @@
+Logical implication (also known as implies, or If... then) is a logical operation. It takes two arguments. It returns false, only if the first term is true, and the second term is false.
+This may be problematic, because it means that from a false proposition, anything can follow.
+Examples.
+The following shows a (valid) implication
+Now look at "If I am healthy, I will come to class". There are four possibilities

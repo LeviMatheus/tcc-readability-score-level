@@ -1,0 +1,10 @@
+Wave-particle duality is where waves can behave like particles, and particles can behave like waves. Albert Einstein and Louis de Broglie were scientists who studied it.
+Particles as waves.
+An electron has a wavelength called the "de Broglie wavelength". It can be calculated using the equation
+formula_1
+formula_2 is the de Broglie wavelength.
+formula_3 is Planck's constant
+formula_4 is the momentum of the particle.
+This made the idea that electrons in atoms show a standing wave pattern.
+Waves as particles.
+The photoelectric effect shows that a light photon which has enough energy (a high enough frequency), can cause an electron to be released off a metals surface. Electrons in this case can be called photoelectrons.

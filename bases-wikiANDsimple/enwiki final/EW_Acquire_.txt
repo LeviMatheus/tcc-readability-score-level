@@ -1,0 +1,38 @@
+
+Acquire is a multi-player mergers and acquisitions themed board game. It is played with tiles representing hotels that are arranged on the board, play money and stock certificates. The object of the game is to earn the most money by developing and merging hotel chains. When a chain in which a player owns stock is acquired by a larger chain, players earn money based on the size of the acquired chain. At the end of the game, all players liquidate their stock in order to determine which player has the most money. It was one of the most popular games in the 1960s 3M bookshelf game series, and the only one still published in the United States.
+Components.
+The following components are included in all versions:
+History.
+Acquire started life as the Milton Bradley gambling-themed board game Lotto played in childhood by Sid Sackson, who went on to become a game designer. He reworked the game into a wargame he called "Lotto War". Sackson (along with Alex Randolph) was commissioned by 3M to start a new games division in 1962. When he submitted the game to 3M in 1963, he called the game "Vacation". 3M suggested the name change to Acquire, and Sackson agreed. The game was test marketed in several U.S. cities in 1963, and production began in 1964 as a part of the bookshelf games series. The 3M game division was sold to Avalon Hill in 1976 and became part of their bookcase game series. Avalon Hill made "Computer Acquire" for the PET, Apple II and TRS-80 in 1980. The Avalon brand became part of Hasbro in 1998. Hasbro slightly reworked and reissued the game in 2000, but thereafter discontinued it. In the mid-2000s, the game was transferred to a Hasbro subsidiary Wizards of the Coast. Wizards celebrated "50 years of Avalon Hill Games" with the release of the 2008 edition (though the game was not yet 50 years old). In 2016, the game was transferred back to the Hasbro games division and republished in Nov. 2016 under the Avalon label.
+In most versions, the theme of the game is investing in hotel chains. In the 1990s Hasbro edition, the hotel chains were replaced by fictitious corporations, though the actual gameplay was unchanged. In the current Avalon edition, the companies are once again hotel chains.
+The components of the game have varied over the years. In particular, the tiles have been made from wood, plastic, and cardboard in various editions of the game. In the 2008 version, the tiles were cardboard. In the 2016 version, the tiles are plastic, but the board size was reduced, from 9x12 to 10x10.
+Gameplay.
+A short setup precedes play, wherein each player receives play cash and a small random set of playing tiles and becomes
+the founder of a nascent hotel chain by drawing and placing a tile representing a hotel on the board. Tiles are
+ordered, and correspond to spaces on the board. Position of the starting tiles determines order of play.
+Play consists of placing a tile on the board and optionally buying stock. The placed tile may found a new hotel
+chain, grow an existing one or merge two or more chains. Chains are sets of edge-wise adjacent tiles. Founders
+receive a share of stock in new chains. A chain can become "safe", immune to acquisition, by attaining a specified
+size. Following placement of a tile, the player may then buy a limited number of shares of stock in existing chains.
+Shares have a market value determined by the size and stature of the hotel chain. At the end of his or her
+turn, the player receives a new tile to replace the one played.
+When mergers occur, the smaller chain becomes defunct, and its tiles are then part of the acquiring chain. The two
+largest shareholders in the acquired chain receive cash bonuses; players may sell their shares in the defunct chain,
+trade them in for shares of the acquiring chain, or keep them. Mergers between 3 or more chains are handled in order 
+from larger to smaller.
+A player during his turn may declare the game at an end if the largest chain exceeds a specified size (about 40%
+of the board), or all chains on the board are too large to be acquired. When the game ends, shareholder bonuses
+are paid to the two largest shareholders of each chain, and players cash out their shares at market price (shares
+in any defunct chains are worthless). The player with the most money wins.
+An interesting and optional aspect of gameplay is whether numbers of players' shares is public or private information.
+This is negotiated before the game starts. Keeping this information private can greatly extend the game: when players
+are less certain of their status, they are less willing to end the game.
+Acquire is for 2–6 players, and takes about an hour and a half to play.
+Reception.
+In the December 1993 edition of "Dragon" (Issue 200), Allen Varney advised readers to ignore the hotel theme: "Supposedly a game of hotel acquisitions and mergers, this is actually a superb abstract game of strategy and capital." Varney called the game "An early masterpiece from [Sid] Sackson, game historian and one of the great designers of our time."
+Awards.
+The game was short-listed for the first Spiel des Jahres board game awards in 1979.
+"GAMES" magazine has inducted "Acquire" into their buyers' guide Hall of Fame. The magazine's stated criteria for the Hall of Fame encompasses "games that have met or exceeded the highest standards of quality and play value and have been continuously in production for at least 10 years; i.e., classics."
+It was inducted into the Academy of Adventure Gaming Arts &amp; Design's Hall of Fame, along with Sackson, in 2011.
+Acquire is one of the Mind Sports Olympiad games.
+

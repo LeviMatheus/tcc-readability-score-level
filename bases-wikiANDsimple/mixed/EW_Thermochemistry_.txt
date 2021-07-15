@@ -1,0 +1,15 @@
+
+Thermochemistry is the study of the heat energy which is associated with chemical reactions and/or physical transformations. A reaction may release or absorb energy, and a phase change may do the same, such as in melting and boiling. Thermochemistry focuses on these energy changes, particularly on the system's energy exchange with its surroundings. Thermochemistry is useful in predicting reactant and product quantities throughout the course of a given reaction. In combination with entropy determinations, it is also used to predict whether a reaction is spontaneous or non-spontaneous, favorable or unfavorable.
+Endothermic reactions absorb heat, while exothermic reactions release heat. Thermochemistry coalesces the concepts of thermodynamics with the concept of energy in the form of chemical bonds. The subject commonly includes calculations of such quantities as heat capacity, heat of combustion, heat of formation, enthalpy, entropy, free energy, and calories.
+History.
+Thermochemistry rests on two generalizations. Stated in modern terms, they are as follows:
+These statements preceded the first law of thermodynamics (1845) and helped in its formulation.
+Lavoisier, Laplace and Hess also investigated specific heat and latent heat, although it was Joseph Black who made the most important contributions to the development of latent energy changes.
+Gustav Kirchhoff showed in 1858 that the variation of the heat of reaction is given by the difference in heat capacity between products and reactants: dΔH / dT = ΔCp. Integration of this equation permits the evaluation of the heat of reaction at one temperature from measurements at another temperature.
+Calorimetry.
+The measurement of heat changes is performed using calorimetry, usually an enclosed chamber within which the change to be examined occurs. The temperature of the chamber is monitored either using a thermometer or thermocouple, and the temperature plotted against time to give a graph from which fundamental quantities can be calculated. Modern calorimeters are frequently supplied with automatic devices to provide a quick read-out of information, one example being the differential scanning calorimeter (DSC).
+Systems.
+Several thermodynamic definitions are very useful in thermochemistry. A system is the specific portion of the universe that is being studied. Everything outside the system is considered the surroundings or environment. A system may be:
+Processes.
+A system undergoes a process when one or more of its properties changes. A process relates to the change of state. An isothermal (same-temperature) process occurs when temperature of the system remains constant. An isobaric (same-pressure) process occurs when the pressure of the system remains constant. A process is adiabatic when no heat exchange occurs.
+

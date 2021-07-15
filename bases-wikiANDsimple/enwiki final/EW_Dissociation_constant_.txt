@@ -1,0 +1,13 @@
+
+In chemistry, biochemistry, and pharmacology, a dissociation constant (formula_1) is a specific type of equilibrium constant that measures the propensity of a larger object to separate (dissociate) reversibly into smaller components, as when a complex falls apart into its component molecules, or when a salt splits up into its component ions. The dissociation constant is the inverse of the association constant. In the special case of salts, the dissociation constant can also be called an ionization constant.
+For a general reaction:
+ A_\mathit{x} B_\mathit{y} &lt;=&gt; \mathit{x} A{} + \mathit{y} B
+&lt;/chem&gt;
+in which a complex formula_2 breaks down into "x" A subunits and "y" B subunits, the dissociation constant is defined
+where [A], [B], and [AxBy] are the equilibrium concentrations of A, B, and the complex AxBy, respectively.
+One reason for the popularity of the dissociation constant in biochemistry and pharmacology is that in the frequently encountered case where x=y=1, Kd has a simple physical interpretation: when formula_4, then formula_5 or equivalently formula_6
+Dissociation constant of water.
+The dissociation constant of water is denoted "K"w:
+The concentration of water &lt;chem&gt;H2O&lt;/chem&gt; is omitted by convention, which means that the value of "K"w differs from the value of "K"eq that would be computed using that concentration.
+The value of "K"w varies with temperature, as shown in the table below. This variation must be taken into account when making precise measurements of quantities such as pH.
+

@@ -1,0 +1,93 @@
+
+Fick's laws of diffusion describe diffusion and were derived by Adolf Fick in 1855. They can be used to solve for the diffusion coefficient, . Fick's first law can be used to derive his second law which in turn is identical to the diffusion equation.
+A diffusion process that obeys Fick's laws is called normal or Fickian diffusion; otherwise, it is called anomalous diffusion or non-Fickian diffusion.
+History.
+In 1855, physiologist Adolf Fick first reported his now well-known laws governing the transport of mass through diffusive means. Fick's work was inspired by the earlier experiments of Thomas Graham, which fell short of proposing the fundamental laws for which Fick would become famous. Fick's law is analogous to the relationships discovered at the same epoch by other eminent scientists: Darcy's law (hydraulic flow), Ohm's law (charge transport), and Fourier's Law (heat transport).
+Fick's experiments (modeled on Graham's) dealt with measuring the concentrations and fluxes of salt, diffusing between two reservoirs through tubes of water. It is notable that Fick's work primarily concerned diffusion in fluids, because at the time, diffusion in solids was not considered generally possible. Today, Fick's Laws form the core of our understanding of diffusion in solids, liquids, and gases (in the absence of bulk fluid motion in the latter two cases). When a diffusion process does "not" follow Fick's laws (which happens in cases of diffusion through porous media and diffusion of swelling penetrants, among others), it is referred to as "non-Fickian".
+Fick's first law.
+Fick's first law relates the diffusive flux to the gradient of the concentration. It postulates that the flux goes from regions of high concentration to regions of low concentration, with a magnitude that is proportional to the concentration gradient (spatial derivative), or in simplistic terms the concept that a solute will move from a region of high concentration to a region of low concentration across a concentration gradient. In one (spatial) dimension, the law can be written in various forms, where the most common form (see) is in a molar basis:
+where
+ is proportional to the squared velocity of the diffusing particles, which depends on the temperature, viscosity of the fluid and the size of the particles according to the Stokes–Einstein relation. In dilute aqueous solutions the diffusion coefficients of most ions are similar and have values that at room temperature are in the range of . For biological molecules the diffusion coefficients normally range from 10−11 to 10−10 m2/s.
+In two or more dimensions we must use , the del or gradient operator, which generalises the first derivative, obtaining
+where denotes the diffusion flux vector.
+The driving force for the one-dimensional diffusion is the quantity , which for ideal mixtures is the concentration gradient.
+Alternative formulations of the first law.
+Another form for the first law is to write it with the primary variable as mass fraction (, given for example in kg/kg), then the equation changes to:
+where
+Note that the formula_4 is outside the gradient operator. This is because:
+where is the partial density of the th species.
+Beyond this, in chemical systems other than ideal solutions or mixtures, the driving force for diffusion of each species is the gradient of chemical potential of this species. Then Fick's first law (one-dimensional case) can be written
+where
+The driving force of Fick's law can be expressed as a fugacity difference:
+Fugacity formula_8 has Pa units. formula_8 is a partial pressure of component i in a vapor formula_10 or liquid formula_11 phase. At vapor liquid equilibrium the evaporation flux is zero because formula_12.
+Derivation of Fick's first law for gases.
+Four versions of Fick's law for binary gas mixtures are given below. These assume: thermal diffusion is negligible; the body force per unit mass is the same on both species; and either pressure is constant or both species have the same molar mass. Under these conditions, Ref. shows in detail how the diffusion equation from the kinetic theory of gases reduces to this version of Fick's law:
+formula_13 ,
+where is the diffusion velocity of species . In terms of species flux this is
+formula_3 .
+If, additionally, formula_15, this reduces to the most common form of Fick's law,
+formula_16 .
+If (instead of or in addition to formula_15) both species have the same molar mass, Fick's law becomes
+formula_18,
+where formula_19 is the mole fraction of species .
+Fick's second law.
+Fick's second law predicts how diffusion causes the concentration to change with respect to time. It is a partial differential equation which in one dimension reads:
+where
+In two or more dimensions we must use the Laplacian , which generalises the second derivative, obtaining the equation
+Fick's second law has the same mathematical form as the Heat equation and its fundamental solution is the same as the Heat kernel, except switching thermal conductivity formula_22 with diffusion coefficient formula_23:
+formula_24
+Derivation of Fick's second law.
+Fick's second law can be derived from Fick's first law and the mass conservation in absence of any chemical reactions:
+Assuming the diffusion coefficient to be a constant, one can exchange the orders of the differentiation and multiply by the constant:
+and, thus, receive the form of the Fick's equations as was stated above.
+For the case of diffusion in two or more dimensions Fick's second law becomes
+which is analogous to the heat equation.
+If the diffusion coefficient is not a constant, but depends upon the coordinate or concentration, Fick's second law yields
+An important example is the case where is at a steady state, i.e. the concentration does not change by time, so that the left part of the above equation is identically zero. In one dimension with constant , the solution for the concentration will be a linear change of concentrations along . In two or more dimensions we obtain
+which is Laplace's equation, the solutions to which are referred to by mathematicians as harmonic functions.
+Example solutions and generalization.
+Fick's second law is a special case of the convection–diffusion equation in which there is no advective flux and no net volumetric source. It can be derived from the continuity equation:
+where is the total flux and is a net volumetric source for . The only source of flux in this situation is assumed to be diffusive flux:
+Plugging the definition of diffusive flux to the continuity equation and assuming there is no source (), we arrive at Fick's second law:
+If flux were the result of both diffusive flux and advective flux, the convection–diffusion equation is the result.
+Example solution 1: constant concentration source and Diffusion length.
+A simple case of diffusion with time in one dimension (taken as the -axis) from a boundary located at position , where the concentration is maintained at a value is
+where is the complementary error function. This is the case when corrosive gases diffuse through the oxidative layer towards the metal surface (if we assume that concentration of gases in the environment is constant and the diffusion space – that is, the corrosion product layer – is "semi-infinite", starting at 0 at the surface and spreading infinitely deep in the material). If, in its turn, the diffusion space is "infinite" (lasting both through the layer with , and that with , ), then the solution is amended only with coefficient in front of (as the diffusion now occurs in both directions). This case is valid when some solution with concentration is put in contact with a layer of pure solvent. (Bokstein, 2005) The length is called the "diffusion length" and provides a measure of how far the concentration has propagated in the -direction by diffusion in time (Bird, 1976).
+As a quick approximation of the error function, the first 2 terms of the Taylor series can be used:
+If is time-dependent, the diffusion length becomes
+This idea is useful for estimating a diffusion length over a heating and cooling cycle, where varies with temperature.
+Example solution 2: Brownian particle and Mean squared displacement.
+Another simple case of diffusion is the Brownian motion of one particle. The particle's Mean squared displacement from its original position is:
+formula_36
+where formula_37 is the dimension of the particle's Brownian motion. For example, the diffusion of a molecule across a cell membrane 8 nm thick is 1-D diffusion because of the spherical symmetry; However, the diffusion of a molecule from the membrane to the center of a eukaryotic cell is a 3-D diffusion. For a cylindrical cactus, the diffusion from photosynthetic cells on its surface to its center (the axis of its cylindrical symmetry) is a 2-D diffusion.
+The square root of MSD, formula_38, is often used as a characterization of how far has the particle moved after time formula_39 has elapsed. The MSD is symmetrically distributed over the 1D, 2D, and 3D space. Thus, the probability distribution of the magnitude of MSD in 1D is Gaussian and 3D is Maxwell-Boltzmann distribution.
+Generalizations.
+The Chapman–Enskog formulae for diffusion in gases include exactly the same terms. These physical models of diffusion are different from the test models which are valid for very small deviations from the uniform equilibrium. Earlier, such terms were introduced in the Maxwell–Stefan diffusion equation.
+For anisotropic multicomponent diffusion coefficients one needs a rank-four tensor, for example , where refer to the components and correspond to the space coordinates.
+Applications.
+Equations based on Fick's law have been commonly used to model transport processes in foods, neurons, biopolymers, pharmaceuticals, porous soils, population dynamics, nuclear materials, plasma physics, and semiconductor doping processes. The theory of voltammetric methods is based on solutions of Fick's equation. On the other hand, in some cases a "Fickian" description is inadequate. For example, in polymer science and food science a more general approach is required to describe transport of components in materials undergoing a glass transition. One more general framework is the Maxwell–Stefan diffusion equations
+of multi-component mass transfer, from which Fick's law can be obtained as a limiting case, when the mixture is extremely dilute and every chemical species is interacting only with the bulk mixture and not with other species. To account for the presence of multiple species in a non-dilute mixture, several variations of the Maxwell–Stefan equations are used. See also non-diagonal coupled transport processes (Onsager relationship). 
+Fick's flow in liquids.
+When two miscible liquids are brought into contact, and diffusion takes place, the macroscopic (or average) concentration evolves following Fick's law. On a mesoscopic scale, that is, between the macroscopic scale described by Fick's law and molecular scale, where molecular random walks take place, fluctuations cannot be neglected. Such situations can be successfully modeled with Landau-Lifshitz fluctuating hydrodynamics. In this theoretical framework, diffusion is due to fluctuations whose dimensions range from the molecular scale to the macroscopic scale.
+In particular, fluctuating hydrodynamic equations include a Fick's flow term, with a given diffusion coefficient, along with hydrodynamics equations and stochastic terms describing fluctuations. When calculating the fluctuations with a perturbative approach, the zero order approximation is Fick's law. The first order gives the fluctuations, and it comes out that fluctuations contribute to diffusion. This represents somehow a tautology, since the phenomena described by a lower order approximation is the result of a higher approximation: this problem is solved only by renormalizing the fluctuating hydrodynamics equations.
+Sorption rate and collision frequency of diluted solute.
+The adsorption or absorption rate of a dilute solute to a surface or interface in a (gas or liquid) solution can be calculated using Fick's laws of diffusion. The accumulated number of molecules adsorbed on the surface is expressed by the Langmuir-Schaefer equation at the short-time limit by integrating the diffusion equation over time:
+where formula_47 is the surface area and formula_48 is the number concentration of the molecule in the bulk solution.
+The Langmuir-Schaefer equation can be extended to the Ward-Tordai Equation to account for the "back-diffusion" of rejected molecules from the surface:
+where formula_48 is the bulk concentration, formula_51 is the sub-surface concentration (which is a function of time depending on the reaction model of the adsorption), and formula_52 is a dummy variable. 
+In the ultrashort time limit, in the order of the diffusion time "a"2/"D", where "a" is the particle radius, the diffusion is described by the Langevin equation. At a longer time, the Langevin equation merges into the Stokes–Einstein equation. The latter is appropriate for the condition of the diluted solution, where long-range diffusion is considered. According to the fluctuation-dissipation theorem based on the Langevin equation in the long-time limit and when the particle is significantly denser than the surrounding fluid, the time-dependent diffusion constant is:
+where
+For a single molecule such as organic molecules or biomolecules (e.g. proteins) in water, the exponential term is negligible due to the small product of "mμ" in the picosecond region.
+When the area of interest is the size of a molecule (specifically, a "long cylindrical molecule" such as DNA), the adsorption rate equation represents the collision frequency of two molecules in a diluted solution, with one molecule a specific side and the other no steric dependence, i.e., a molecule (random orientation) hit one side of the other. The diffusion constant need to be updated to the relative diffusion constant between two diffusing molecules. This estimation is especially useful in studying the interaction between a small molecule and a larger molecule such as a protein. The effective diffusion constant is dominated by the smaller one whose diffusion constant can be used instead.
+The above hitting rate equation is also useful to predict the kinetics of molecular self-assembly on a surface. Molecules are randomly oriented in the bulk solution. Assuming 1/6 of the molecules has the right orientation to the surface binding sites, i.e. 1/2 of the z-direction in x, y, z three dimensions, thus the concentration of interest is just 1/6 of the bulk concentration. Put this value into the equation one should be able to calculate the theoretical adsorption kinetic curve using the Langmuir adsorption model. In a more rigid picture, 1/6 can be replaced by the steric factor of the binding geometry.
+Biological perspective.
+The first law gives rise to the following formula:
+in which,
+Fick's first law is also important in radiation transfer equations. However, in this context it becomes inaccurate when the diffusion constant is low and the radiation becomes limited by the speed of light rather than by the resistance of the material the radiation is flowing through. In this situation, one can use a flux limiter.
+The exchange rate of a gas across a fluid membrane can be determined by using this law together with Graham's law.
+Under the condition of a diluted solution when diffusion takes control, the membrane permeability mentioned in the above section can be theoretically calculated for the solute using the equation mentioned in the last section (use with particular care because the equation is derived for dense solutes, while biological molecules are not denser than water):
+where
+Semiconductor fabrication applications.
+Integrated circuit fabrication technologies, model processes like CVD, thermal oxidation, wet oxidation, doping, etc. use diffusion equations obtained from Fick's law.
+In certain cases, the solutions are obtained for boundary conditions such as constant source concentration diffusion, limited source concentration, or moving boundary diffusion (where junction depth keeps moving into the substrate).
+

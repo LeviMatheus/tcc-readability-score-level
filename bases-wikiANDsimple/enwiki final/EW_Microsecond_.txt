@@ -1,0 +1,4 @@
+
+A microsecond is an SI unit of time equal to one millionth (0.000001 or 10−6 or ) of a second. Its symbol is μs, sometimes simplified to us when Unicode is not available.
+A microsecond is equal to 1000 nanoseconds or of a millisecond. Because the next SI prefix is 1000 times larger, measurements of 10−5 and 10−4 seconds are typically expressed as tens or hundreds of microseconds.
+

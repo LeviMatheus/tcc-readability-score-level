@@ -1,0 +1,22 @@
+
+Bugzilla is a web-based general-purpose bug tracking system and testing tool originally developed and used by the Mozilla project, and licensed under the Mozilla Public License.
+Released as open-source software by Netscape Communications in 1998, it has been adopted by a variety of organizations for use as a bug tracking system for both free and open-source software and proprietary projects and products. Bugzilla is used, among others, by the Mozilla Foundation, WebKit, Linux kernel, FreeBSD, KDE, Apache, Red Hat, Eclipse and LibreOffice. It is also self-hosting.
+History.
+Bugzilla was originally devised by Terry Weissman in 1998 for the nascent Mozilla.org project, as an open source application to replace the in-house system then in use at Netscape Communications for tracking defects in the Netscape Communicator suite. Bugzilla was originally written in Tcl, but Weissman decided to port it to Perl before its release as part of Netscape's early open-source code drops, in the hope that more people would be able to contribute to it, given that Perl seemed to be a more popular language at the time.
+Bugzilla 2.0 was the result of that port to Perl, and the first version was released to the public via anonymous CVS. In April 2000, Weissman handed over control of the Bugzilla project to Tara Hernandez. Under her leadership, some of the regular contributors were coerced into taking more responsibility, and Bugzilla development became more community-driven. In July 2001, facing distraction from her other responsibilities in Netscape, Hernandez handed control to Dave Miller, who was still in charge .
+Bugzilla 3.0 was released on May 10, 2007 and brought a refreshed UI, an XML-RPC interface, custom fields and resolutions, mod_perl support, shared saved searches, and improved UTF-8 support, along with other changes.
+Bugzilla 4.0 was released on February 15, 2011 and Bugzilla 5.0 was released in July 2015.
+Timeline.
+Bugzilla's release timeline:
+Requirements.
+Bugzilla's system requirements include:
+Currently supported database systems are MySQL, PostgreSQL, Oracle, and SQLite. Bugzilla is usually installed on Linux using the Apache HTTP Server, but any web server that supports CGI such as Lighttpd, Hiawatha, Cherokee can be used. Bugzilla's installation process is command line driven and runs through a series of stages where system requirements and software capabilities are checked.
+Design.
+While the potential exists in the code to turn Bugzilla into a technical support ticket system, task management tool, or project management tool, Bugzilla's developers have chosen to focus on the task of designing a system to track software defects. Mandated design requirements include:
+In practice, most Bugzilla projects allowing the public to file bugs—such as the Bugzilla bug database for Bugzilla itself—assign all bugs to a gatekeeper, whose job is to assign responsibility and priority level.
+Zarro Boogs.
+Bugzilla returns the string "zarro boogs found" instead of "0 bugs found" when a search for bugs returns no results. "Zarro Boogs" is intended as a 'buggy' statement itself (a misspelling of "zero bugs") and is thus a meta-statement about the nature of software debugging, implying that even when no bugs have been identified, some may exist.
+The following comment is provided in the Bugzilla source code to developers who may be confused by this behaviour:
+WONTFIX.
+WONTFIX is used as a label on issues in Bugzilla and other systems. It indicates that a verified issue will not be addressed for one of several possible reasons including fixing would be too expensive, complicated or risky.
+

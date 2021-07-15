@@ -1,0 +1,1 @@
+gNewSense is a free software-only Ubuntu based distro. The project aims to contain only free software in their distribution.

@@ -1,0 +1,33 @@
+
+In mathematics, a bilinear map is a function combining elements of two vector spaces to yield an element of a third vector space, and is linear in each of its arguments. Matrix multiplication is an example.
+Definition.
+Vector spaces.
+Let formula_1 and formula_2 be three vector spaces over the same base field formula_3. A bilinear map is a function
+such that for all formula_5, the map formula_6
+is a linear map from formula_8 to formula_2, and for all formula_10, the map formula_11
+is a linear map from formula_13 to formula_2. In other words, when we hold the first entry of the bilinear map fixed while letting the second entry vary, the result is a linear operator, and similarly for when we hold the second entry fixed.
+Such a map formula_15 satisfies the following properties.
+If and we have for all "v", "w" in "V", then we say that "B" is "symmetric". If "X" is the base field "F", then the map is called a bilinear form, which are well-studied (see for example "Scalar product", "Inner product" and "Quadratic form").
+Modules.
+The definition works without any changes if instead of vector spaces over a field "F", we use modules over a commutative ring "R". It generalizes to "n"-ary functions, where the proper term is "multilinear".
+For non-commutative rings "R" and "S", a left "R"-module "M" and a right "S"-module "N", a bilinear map is a map with "T" an -bimodule, and for which any "n" in "N", is an "R"-module homomorphism, and for any "m" in "M", is an "S"-module homomorphism. This satisfies
+for all "m" in "M", "n" in "N", "r" in "R" and "s" in "S", as well as "B" being additive in each argument.
+Properties.
+An immediate consequence of the definition is that whenever or . This may be seen by writing the zero vector 0"V" as (and similarly for 0"W") and moving the scalar 0 "outside", in front of "B", by linearity.
+The set of all bilinear maps is a linear subspace of the space (viz. vector space, module) of all maps from into "X".
+If "V", "W", "X" are finite-dimensional, then so is . For , i.e. bilinear forms, the dimension of this space is (while the space of "linear" forms is of dimension ). To see this, choose a basis for "V" and "W"; then each bilinear map can be uniquely represented by the matrix , and vice versa. 
+Now, if "X" is a space of higher dimension, we obviously have .
+Continuity and separate continuity.
+Suppose "X", "Y", and "Z" are topological vector spaces and let formula_23 be a bilinear map. 
+Then "b" is said to be separately continuous if the following two conditions hold:
+Many separately continuous bilinear that are not continuous satisfy an additional property: hypocontinuity. 
+All continuous bilinear maps are hypocontinuous.
+Sufficient conditions for continuity.
+Many bilinear maps that occur in practice are separately continuous but not all are continuous. 
+We list here sufficient conditions for a separately continuous bilinear to be continuous.
+Composition map.
+Let "X", "Y", and "Z" be locally convex Hausdorff spaces and let formula_32 be the composition map defined by formula_33. 
+In general, the bilinear map "C" is not continuous (no matter what topologies the spaces of linear maps are given). 
+We do, however, have the following results:
+Give all three spaces of linear maps one of the following topologies:
+

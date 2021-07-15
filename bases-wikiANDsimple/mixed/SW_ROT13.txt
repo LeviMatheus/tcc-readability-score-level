@@ -1,0 +1,6 @@
+ROT13 (or ROT-13) is a very simple form of encryption cipher. It is a variant of a Caesar cipher. In it, the alphabet is written in two lines, of 13 characters each. Encryption, and decryption is done by simply switching the letters that are below each other. That way, "A" becomes "N", "B" becomes "O", and so on.
+It is widely used in USENET forums.
+Letter games and net culture.
+ROT13 can also be used for letter games. There are some words, that will produce another existing word, when they are treated with ROT13. The longest example in the English language is the pair of 7-letter words abjurer and nowhere; there is also the 7-letter pair chechen and purpura. Other examples of words like these are shown in the table.
+The 1989 International Obfuscated C Code Contest (IOCCC) had an entry by Brian Westley. Westley's computer program can be ROT13'd or reversed and still compiles correctly. Its operation, when executed, is either to perform ROT13 encoding on, or to reverse its input.
+The newsgroup "alt.folklore.urban" made a word—furrfu. It was the ROT13 encoding of the frequently encoded utterance "sheesh". "Furrfu" evolved in mid-1992 as a response to postings repeating urban myths on alt.folklore.urban, after some posters complained that "Sheesh!" as a response to newcomers was being overused.

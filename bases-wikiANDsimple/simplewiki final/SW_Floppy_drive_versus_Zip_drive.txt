@@ -1,0 +1,32 @@
+Floppy drives (FDD) and Zip drives (YD) are the hardward used to read some types of diskettes
+Diskettes are magnetic mediums which are used for saving and sending electronically data. On the opposite there are disks (fixed disk drive), classical savings mechanics in personal computers. Standard transfer speeds up to 1 MB/s. With direct contact has a rotation about 300 RPM.
+Advantages of FDD.
+One of the mainly advantage is that diskettes can be easily used for reading/transferring data in mechanics (also compatibility) and the reason why the diskettes were so popular in the past was their price. In terminology called Floppy disks what means that diskettes are exactly limp. This feature is caused by the first products because they don't loose their reading/transferring properties after limping with them.
+Disadvantages of FDD.
+On the other side in the present they are not so used because of they are slow, have low data capacity and they are unreliable. It is duty to protect this mechanics from hot, dust, mechanical damage or magnetic field.
+Usage.
+Floppy disk drives are ideal for backing-up or saving important data. Also they are still used in the most of accountant programs to archiving data.
+History.
+1971 - 8 inch (203,2 mm) with a data capacity to 160 kB, later to 1MB
+1976–5,25 inch (133,3 mm) on the first time with a data capacity to 160 kB, on the second time to 1,2 MB–this type of FDD was used in personal computers from 1981, but after year 1995 a producing was end because of newer mechanics
+1984–3,5 inch (88,9 mm)–used in present, originally with a data capacity to 400/800 kB, then with a data capacity to 1,44 MB, in the end a limit to 2,88 MB (but they are more expensive than 3,5 inch).
+Components.
+Write-protect tab, hub, shutter, plastic housing, paper ring, magnetic disk and disk sector.
+Floppy disks of 3,5“ are composed of: 80 cylinders, 2 tracks per cylinder, 9 sectors per track.
+Summary of FDD.
+The best type of FDD’s are 3,5 inch. In spite of the same level of quality from 1984 they are using for 23 years which is in a computer’s world very long time to be still handy. They are being used on home or in every personal computer. Available to buy them in every computer shop for a low price.
+ZIP’S (Zip Drives - ZD) Medium- capacity mechanics.
+Zip drives (ZD) was introduced in 1994 by Iomega Company. They are also magnetic medium, but their data capacity is greater. Originally it was 100MB. After some years was invented ZD with a data capacity to 250 MB and then to 750 MB. Even 100MB are more then 1, 4 MB - a data capacity of the diskettes. Maximal transfer speed of ZD is 1,4 MB/s (with a date capacity of 250 MB to 2,4 MB/s).
+Advantages of ZD.
+ZD showed up more responsible and faster then FDD. They never were on the same market penetration as FDD, as only some new computers were sold with Zip drives.
+Disadvantages of ZD.
+Despite of their capacity were not so popular in a market because they were robust and heavy. The mainly disadvantage is that ZD’s need special mechanism in computer (not the same as in FDD!).
+External.
+Which are fixed on a face of computer (in the opening mechanism in a front of PC’s)
+Internal.
+On the opposite internal ZD has a mechanism inside of a computer. Internal type is preferable not to transfer with a mechanism. And on the other side transferring data is faster by internal data bus then by external type.
+Summary of ZD.
+Available to buy everywhere, but for higher price then FDD. ZD are still used for transferring capacious data and sometimes for archiving data in some Personal and Corporate computers.
+But the decreasing prices of CD-R and CD-RW media reduced the popularity of the ZD and anymore nobody is using them.
+Summary of comparison.
+All FDD and ZD are not longer famous because of the success of CD’s and later DVD’s. Nowadays burning data on a compact disk is almost as fast as it would take to copy it to floppy disk. Moreover, CD offers bigger capacity and is much more reliable. Considering a situation as a regular user, the best option is FDD because of the low price. In day to day use its data transfer and the capacity is completely enough.BLAAH BLAAH

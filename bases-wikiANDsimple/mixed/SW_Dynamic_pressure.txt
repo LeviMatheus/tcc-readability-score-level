@@ -1,0 +1,3 @@
+In fluid dynamics dynamic pressure depends on density and velocity of the fluid.
+Physical meaning.
+Dynamic pressure is closely related to the kinetic energy of a fluid particle, since both quantities are proportional to the particle's mass (through the density, in the case of dynamic pressure) and square of the velocity. Dynamic pressure is in fact one of the terms of Bernoulli's equation, which is essentially an equation of energy conservation for a fluid in motion.

@@ -1,0 +1,3 @@
+In geometrical optics, a focus (also called an image point) is the point where light rays that come from a point on the object converge (come together).
+In reality the focus is never a point but a small spot called the "blur circle".
+An image, or image point or region, is "in focus" if light from object points is converged almost as much as possible in the image, and "out of focus" if light is not well converged.

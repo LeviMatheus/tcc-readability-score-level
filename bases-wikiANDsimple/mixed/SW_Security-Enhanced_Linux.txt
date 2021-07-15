@@ -1,0 +1,1 @@
+Security-Enhanced Linux (SELinux) is a Linux feature that gives a variety of security rules, including mandatory access controls. It does so by using Linux Security Modules (LSM) in the Linux kernel. It is not a Linux distribution, but rather a group of changes that can be used on Unix-like operating systems, such as Linux and BSD.

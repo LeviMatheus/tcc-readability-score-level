@@ -1,0 +1,12 @@
+
+In logic, equivocation ('calling two different things by the same name') is an informal fallacy resulting from the use of a particular word/expression in multiple senses within an argument.
+It is a type of ambiguity that stems from a phrase having two or more distinct meanings, not from the grammar or structure of the sentence.
+Fallacy of four terms.
+Equivocation in a syllogism (a chain of reasoning) produces a fallacy of four terms (). Below are some examples:
+The first instance of "man" implies the entire human species, while the second implies just those who are male.
+In the above example, distinct meanings of the word "light" are implied in contexts of the first and second statements. 
+Here, the equivocation is the metaphorical use of "jackass" to imply a simple-minded or obnoxious person instead of a male donkey.
+Motte-and-bailey fallacy.
+Equivocation can also be used to conflate two positions which share similarities, one modest and easy to defend and one much more controversial. The arguer advances the controversial position, but when challenged, they insist that they are only advancing the more modest position.
+Related term: Definitional retreat (see )
+

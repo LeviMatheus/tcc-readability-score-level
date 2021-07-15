@@ -1,0 +1,337 @@
+
+Ruby is an interpreted, high-level, general-purpose programming language. It was designed and developed in the mid-1990s by Yukihiro "Matz" Matsumoto in Japan.
+Ruby is dynamically typed and uses garbage collection. It supports multiple programming paradigms, including procedural, object-oriented, and functional programming. According to the creator, Ruby was influenced by Perl, Smalltalk, Eiffel, Ada, BASIC, and Lisp.
+History.
+Early concept.
+Matsumoto has said that Ruby was conceived in 1993. In a 1999 post to the "ruby-talk" mailing list, he describes some of his early ideas about the language:
+Matsumoto describes the design of Ruby as being like a simple Lisp language at its core, with an object system like that of Smalltalk, blocks inspired by higher-order functions, and practical utility like that of Perl.
+The name "Ruby".
+The name "Ruby" originated during an online chat session between Matsumoto and Keiju Ishitsuka on February 24, 1993, before any code had been written for the language. Initially two names were proposed: "Coral" and "Ruby". Matsumoto chose the latter in a later e-mail to Ishitsuka. Matsumoto later noted a factor in choosing the name "Ruby" – it was the birthstone of one of his colleagues.
+First publication.
+The first public release of Ruby 0.95 was announced on Japanese domestic newsgroups on December 21, 1995. Subsequently, three more versions of Ruby were released in two days. The release coincided with the launch of the Japanese-language "ruby-list" mailing list, which was the first mailing list for the new language.
+Already present at this stage of development were many of the features familiar in later releases of Ruby, including object-oriented design, classes with inheritance, mixins, iterators, closures, exception handling and garbage collection.
+Early releases.
+Following the release of Ruby 0.95 in 1995, several stable versions of Ruby were released in the following years:
+In 1997, the first article about Ruby was published on the Web. In the same year, Matsumoto was hired by netlab.jp to work on Ruby as a full-time developer.
+In 1998, the Ruby Application Archive was launched by Matsumoto, along with a simple English-language homepage for Ruby.
+In 1999, the first English language mailing list "ruby-talk" began, which signaled a growing interest in the language outside Japan. In this same year, Matsumoto and Keiju Ishitsuka wrote the first book on Ruby, "The Object-oriented Scripting Language Ruby" (オブジェクト指向スクリプト言語 Ruby), which was published in Japan in October 1999. It would be followed in the early 2000s by around 20 books on Ruby published in Japanese.
+By 2000, Ruby was more popular than Python in Japan. In September 2000, the first English language book "Programming Ruby" was printed, which was later freely released to the public, further widening the adoption of Ruby amongst English speakers. In early 2002, the English-language "ruby-talk" mailing list was receiving more messages than the Japanese-language "ruby-list", demonstrating Ruby's increasing popularity in the non-Japanese speaking world.
+Ruby 1.8.
+Ruby 1.8 was initially released August 2003, was stable for a long time, and was retired June 2013. Although deprecated, there is still code based on it. Ruby 1.8 is only partially compatible with Ruby 1.9.
+Ruby 1.8 has been the subject of several industry standards. The language specifications for Ruby were developed by the Open Standards Promotion Center of the Information-Technology Promotion Agency (a Japanese government agency) for submission to the Japanese Industrial Standards Committee (JISC) and then to the International Organization for Standardization (ISO). It was accepted as a Japanese Industrial Standard (JIS X 3017) in 2011 and an international standard (ISO/IEC 30170) in 2012.
+Around 2005, interest in the Ruby language surged in tandem with Ruby on Rails, a web framework written in Ruby. Rails is frequently credited with increasing awareness of Ruby.
+Ruby 1.9.
+Ruby 1.9 was released on Christmas Day in 2007. Effective with Ruby 1.9.3, released October 31, 2011, Ruby switched from being dual-licensed under the Ruby License and the GPL to being dual-licensed under the Ruby License and the two-clause BSD license. Adoption of 1.9 was slowed by changes from 1.8 that required many popular third party gems to be rewritten.
+Ruby 1.9 introduces many significant changes over the 1.8 series. Examples:
+Ruby 1.9 has been obsolete since February 23, 2015, and it will no longer receive bug and security fixes. Users are advised to upgrade to a more recent version.
+Ruby 2.0.
+Ruby 2.0 added several new features, including:
+Ruby 2.0 was intended to be fully backward compatible with Ruby 1.9.3. As of the official 2.0.0 release on February 24, 2013, there were only five known (minor) incompatibilities.
+Ruby 2.0 has been obsolete since February 24, 2016, and it will no longer receive bug and security fixes. Users are advised to upgrade to a more recent version.
+Ruby 2.1.
+Ruby 2.1.0 was released on Christmas Day in 2013. The release includes speed-ups, bugfixes, and library updates.
+Starting with 2.1.0, Ruby's versioning policy is more like semantic versioning. Although similar, Ruby's versioning policy is not compatible with semantic versioning:
+Semantic versioning also provides additional labels for pre-release and build metadata are available as extensions to the MAJOR.MINOR.PATCH format, not available at Ruby.
+Ruby 2.1 has been obsolete since April 1, 2017, and it will no longer receive bug and security fixes. Users are advised to upgrade to a more recent version.
+Ruby 2.2.
+Ruby 2.2.0 was released on Christmas Day in 2014. The release includes speed-ups, bugfixes, and library updates and removes some deprecated APIs. Most notably, Ruby 2.2.0 introduces changes to memory handling an incremental garbage collector, support for garbage collection of symbols and the option to compile directly against jemalloc. It also contains experimental support for using vfork(2) with system() and spawn(), and added support for the Unicode 7.0 specification.
+Features that were made obsolete or removed include callcc, the DL library, Digest::HMAC, lib/rational.rb, lib/complex.rb, GServer, Logger::Application as well as various C API functions.
+Ruby 2.2 has been obsolete since April 1, 2018, and it will no longer receive bug and security fixes. Users are advised to upgrade to a more recent version.
+Ruby 2.3.
+Ruby 2.3.0 was released on Christmas Day in 2015. A few notable changes include:
+The 2.3 branch also includes many performance improvements, updates, and bugfixes including changes to Proc#call, Socket and IO use of exception keywords, Thread#name handling, default passive Net::FTP connections, and Rake being removed from stdlib.
+Ruby 2.4.
+Ruby 2.4.0 was released on Christmas Day in 2016. A few notable changes include:
+The 2.4 branch also includes performance improvements to hash table, Array#max, Array#min, and instance variable access.
+Ruby 2.5.
+Ruby 2.5.0 was released on Christmas Day in 2017. A few notable changes include:
+On top of that come a lot of performance improvements like faster block passing (3 times faster), faster Mutexes, faster ERB templates and improvements on some concatenation methods.
+Ruby 2.6.
+Ruby 2.6.0 was released on Christmas Day in 2018. A few notable changes include:
+Ruby 2.7.
+Ruby 2.7.0 was released on Christmas Day in 2019. A few notable changes include:
+Ruby 3.0.
+Ruby 3.0.0 was released on Christmas Day in 2020.
+It is known as Ruby 3x3. One of its main aims was to switch the interpreter to a Just-In-Time Compiler, to make programs faster.
+Philosophy.
+Matsumoto has said that Ruby is designed for programmer productivity and fun, following the principles of good user interface design. At a Google Tech Talk in 2008 Matsumoto further stated, "I hope to see Ruby help every programmer in the world to be productive, and to enjoy programming, and to be happy. That is the primary purpose of Ruby language." He stresses that systems design needs to emphasize human, rather than computer, needs:
+Ruby is said to follow the principle of least astonishment (POLA), meaning that the language should behave in such a way as to minimize confusion for experienced users. Matsumoto has said his primary design goal was to make a language that he himself enjoyed using, by minimizing programmer work and possible confusion. He has said that he had not applied the principle of least astonishment to the design of Ruby, but nevertheless the phrase has come to be closely associated with the Ruby programming language. The phrase has itself been a source of surprise, as novice users may take it to mean that Ruby's behaviors try to closely match behaviors familiar from other languages. In a May 2005 discussion on the newsgroup comp.lang.ruby, Matsumoto attempted to distance Ruby from POLA, explaining that because any design choice will be surprising to someone, he uses a personal standard in evaluating surprise. If that personal standard remains consistent, there would be few surprises for those familiar with the standard.
+Matsumoto defined it this way in an interview:
+Semantics.
+Ruby is object-oriented: every value is an object, including classes and instances of types that many other languages designate as primitives (such as integers, booleans, and "null"). Variables always hold references to objects. Every function is a method and methods are always called on an object. Methods defined at the top level scope become methods of the Object class. Since this class is an ancestor of every other class, such methods can be called on any object. They are also visible in all scopes, effectively serving as "global" procedures. Ruby supports inheritance with dynamic dispatch, mixins and singleton methods (belonging to, and defined for, a single instance rather than being defined on the class). Though Ruby does not support multiple inheritance, classes can import modules as mixins.
+Ruby has been described as a multi-paradigm programming language: it allows procedural programming (defining functions/variables outside classes makes them part of the root, 'self' Object), with object orientation (everything is an object) or functional programming (it has anonymous functions, closures, and continuations; statements all have values, and functions return the last evaluation). It has support for introspection, reflection and metaprogramming, as well as support for interpreter-based threads. Ruby features dynamic typing, and supports parametric polymorphism.
+According to the Ruby FAQ, the syntax is similar to Perl and the semantics are similar to Smalltalk, but it differs greatly from Python.
+Syntax.
+The syntax of Ruby is broadly similar to that of Perl and Python. Class and method definitions are signaled by keywords, whereas code blocks can be defined by either keywords or braces. In contrast to Perl, variables are not obligatorily prefixed with a sigil. When used, the sigil changes the semantics of scope of the variable. For practical purposes there is no distinction between expressions and statements. Line breaks are significant and taken as the end of a statement; a semicolon may be equivalently used. Unlike Python, indentation is not significant.
+One of the differences from Python and Perl is that Ruby keeps all of its instance variables completely private to the class and only exposes them through accessor methods (codice_11, codice_12, etc.). Unlike the "getter" and "setter" methods of other languages like C++ or Java, accessor methods in Ruby can be created with a single line of code via metaprogramming; however, accessor methods can also be created in the traditional fashion of C++ and Java. As invocation of these methods does not require the use of parentheses, it is trivial to change an instance variable into a full function, without modifying a single line of calling code or having to do any refactoring achieving similar functionality to C# and VB.NET property members.
+Python's property descriptors are similar, but come with a trade-off in the development process. If one begins in Python by using a publicly exposed instance variable, and later changes the implementation to use a private instance variable exposed through a property descriptor, code internal to the class may need to be adjusted to use the private variable rather than the public property. Ruby's design forces all instance variables to be private, but also provides a simple way to declare codice_13 and codice_14 methods. This is in keeping with the idea that in Ruby, one never directly accesses the internal members of a class from outside the class; rather, one passes a message to the class and receives a response.
+See the Examples section below for samples of code demonstrating Ruby syntax.
+Interaction.
+The Ruby official distribution also includes codice_15, an interactive command-line interpreter that can be used to test code quickly. The following code fragment represents a sample session using codice_15:
+$ irb
+irb(main):001:0&gt; puts 'Hello, World'
+Hello, World
+ =&gt; nil
+irb(main):002:0&gt; 1+2
+ =&gt; 3
+Examples.
+The following examples can be run in a Ruby shell such as Interactive Ruby Shell, or saved in a file and run from the command line by typing codice_17.
+Classic Hello world example:
+puts 'Hello World!'
+Some basic Ruby code:
+-199.abs # =&gt; 199
+'ice is nice'.length # =&gt; 11
+'ruby is cool.'.index('u') # =&gt; 1
+"Nice Day Isn't It?".downcase.split(").uniq.sort.join 
+Input:
+print 'Please type name &gt;'
+name = gets.chomp
+puts "Hello #{name}."
+Conversions:
+puts 'Give me a number'
+number = gets.chomp
+puts number.to_i
+output_number = number.to_i + 1
+puts output_number.to_s + ' is a bigger number.'
+Strings.
+There are a variety of ways to define strings in Ruby.
+The following assignments are equivalent:
+a = "\nThis is a double-quoted string\n"
+a = %/\nThis is a double-quoted string\n/
+a = «-BLOCK
+This is a double-quoted string
+BLOCK
+Strings support variable interpolation:
+var = 3.14159
+"pi is #{var}"
+=&gt; "pi is 3.14159"
+The following assignments are equivalent and produce raw strings:
+a = 'This is a single-quoted string'
+Collections.
+Constructing and using an array:
+a = [3, 'hello', 14.5, 1, 2, [6, 15]]
+a[2] # =&gt; 14.5
+a.[](2) # =&gt; 14.5
+a.reverse # =&gt; [[6, 15], 2, 1, 14.5, 'hello', 3]
+a.flatten.uniq # =&gt; [3, 'hello', 14.5, 1, 2, 6, 15]
+Constructing and using an [[associative array]] (in Ruby, called a "hash"):
+hash = { water: 'wet', fire: 'hot' } # makes the previous line redundant as we are now
+ # assigning hash to a new, separate hash object
+puts hash[:fire] # prints "hot"
+hash.each_pair do |key, value| # or: hash.each do |key, value|
+ puts "#{key} is #{value}"
+end
+hash.delete :water # deletes the pair :water =&gt; 'wet' and returns "wet"
+Control structures.
+If statement:
+if rand(100).even?
+ puts "It's even"
+else
+ puts "It's odd"
+end
+Blocks and iterators.
+The two syntaxes for creating a code block:
+do
+ puts 'Hello, World!'
+end
+A code block can be passed to a method as an optional block argument. Many built-in methods have such arguments:
+File.open('file.txt', 'w') do |file| # 'w' denotes "write mode"
+ file.puts 'Wrote some text.'
+end # file is automatically closed here
+File.readlines('file.txt').each do |line|
+ puts line
+end
+Parameter-passing a block to be a [[Closure (computer science)|closure]]:
+def remember(&amp;a_block)
+ @block = a_block
+end
+@block.call('Jon') # =&gt; "Hello, Jon!"
+Creating an [[anonymous function]]:
+-&gt;(arg) {puts arg} # introduced in Ruby 1.9
+Returning [[Closure (computer science)|closures]] from a method:
+def create_set_and_get(initial_value=0) # note the default value of 0
+ closure_value = initial_value
+ [ Proc.new {|x| closure_value = x}, Proc.new { closure_value } ]
+end
+setter, getter = create_set_and_get # returns two values
+setter.call(21)
+getter.call # =&gt; 21
+def create_set_and_get(closure_value=0)
+ [ proc {|x| closure_value = x } , proc { closure_value } ]
+end
+Yielding the flow of program control to a block that was provided at calling time:
+def use_hello
+ yield "hello"
+end
+use_hello {|string| puts string} # =&gt; 'hello'
+Iterating over enumerations and arrays using blocks:
+array = [1, 'hi', 3.14]
+A method such as codice_18 can accept both a parameter and a block. The codice_18 method iterates over each member of a list, performing some function on it while retaining an aggregate. This is analogous to the codice_20 function in [[functional programming languages]]. For example:
+[1,3,5].inject(10) {|sum, element| sum + element} # =&gt; 19
+On the first pass, the block receives 10 (the argument to inject) as codice_21, and 1 (the first element of the array) as codice_22. This returns 11, which then becomes codice_21 on the next pass. It is added to 3 to get 14, which is then added to 5 on the third pass, to finally return 19.
+Using an enumeration and a block to square the numbers 1 to 10 (using a "range"):
+(1..10).collect {|x| x*x} # =&gt; [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+Or invoke a method on each item (codice_24 is a synonym for codice_25):
+(1..5).map(&amp;:to_f) # =&gt; [1.0, 2.0, 3.0, 4.0, 5.0]
+Classes.
+The following code defines a class named codice_26. In addition to codice_27, the usual constructor to create new objects, it has two methods: one to override the codice_28 comparison operator (so codice_29 can sort by age) and the other to override the codice_30 method (so codice_31 can format its output). Here, codice_12 is an example of metaprogramming in Ruby: codice_33 defines getter and setter methods of instance variables, but codice_12 only getter methods. The last evaluated statement in a method is its return value, allowing the omission of an explicit codice_35 statement.
+class Person
+ attr_reader :name, :age
+ def initialize(name, age)
+ @name, @age = name, age
+ end
+ def &lt;=&gt;(person) # the comparison operator for sorting
+ @age &lt;=&gt; person.age
+ end
+ def to_s
+ "#{@name} (#{@age})"
+ end
+end
+group = [
+ Person.new("Bob", 33),
+ Person.new("Chris", 16),
+ Person.new("Ash", 23)
+puts group.sort.reverse
+The preceding code prints three names in reverse age order:
+Bob (33)
+Ash (23)
+Chris (16)
+codice_26 is a constant and is a reference to a codice_37 object.
+Open classes.
+In Ruby, classes are never closed: methods can always be added to an existing class. This applies to "all" classes, including the standard, built-in classes. All that is needed to do is open up a class definition for an existing class, and the new contents specified will be added to the existing contents. A simple example of adding a new method to the standard library's codice_38 class:
+class Time
+ def yesterday
+ self - 86400
+ end
+end
+today = Time.now # =&gt; 2013-09-03 16:09:37 +0300
+yesterday = today.yesterday # =&gt; 2013-09-02 16:09:37 +0300
+Adding methods to previously defined classes is often called [[monkey patch|monkey-patching]]. If performed recklessly, the practice can lead to both behavior collisions with subsequent unexpected results and code scalability problems.
+Since Ruby 2.0 it has been possible to use refinements to reduce the potentially negative consequences of monkey-patching, by limiting the scope of the patch to particular areas of the code base.
+module RelativeTimeExtensions
+ refine Time do
+ def half_a_day_ago
+ self - 43200
+ end
+ end
+end
+module MyModule
+ class MyClass
+ # Allow the refinement to be used
+ using RelativeTimeExtensions
+ def window
+ Time.now.half_a_day_ago
+ end
+ end
+end
+Exceptions.
+An exception is raised with a codice_39 call:
+raise
+An optional message can be added to the exception:
+raise "This is a message"
+Exceptions can also be specified by the programmer:
+raise ArgumentError, "Illegal arguments!"
+Alternatively, an exception instance can be passed to the codice_39 method:
+raise ArgumentError.new("Illegal arguments!")
+This last construct is useful when raising an instance of a custom exception class featuring a constructor that takes more than one argument:
+class ParseError &lt; Exception
+ def initialize(input, line, pos)
+ super "Could not parse '#{input}' at line #{line}, position #{pos}"
+ end
+end
+raise ParseError.new("Foo", 3, 9)
+Exceptions are handled by the codice_41 clause. Such a clause can catch exceptions that inherit from codice_42. Other flow control keywords that can be used when handling exceptions are codice_43 and codice_44:
+begin
+ # do something
+rescue
+ # handle exception
+else
+ # do this if no exception was raised
+ensure
+ # do this whether or not an exception was raised
+end
+It is a common mistake to attempt to catch all exceptions with a simple rescue clause. To catch all exceptions one must write:
+begin
+ # do something
+rescue Exception
+ # Exception handling code here.
+ # Don't write only "rescue"; that only catches StandardError, a subclass of Exception.
+end
+Or catch particular exceptions:
+begin
+ # do something
+rescue RuntimeError
+ # handle only RuntimeError and its subclasses
+end
+It is also possible to specify that the exception object be made available to the handler clause:
+begin
+ # do something
+rescue RuntimeError =&gt; e
+ # handling, possibly involving e, such as "puts e.to_s"
+end
+Alternatively, the most recent exception is stored in the magic global codice_45.
+Several exceptions can also be caught:
+begin
+ # do something
+rescue RuntimeError, Timeout::Error =&gt; e
+ # handling, possibly involving e
+end
+Metaprogramming.
+Ruby code can programmatically modify, at [[Run time (program lifecycle phase)|runtime]], aspects of its own structure that would be fixed in more rigid languages, such as class and method definitions. This sort of [[metaprogramming]] can be used to write more concise code and effectively extend the language.
+For example, the following Ruby code generates new methods for the built-in codice_46 class, based on a list of colors. The methods wrap the contents of the string with an HTML tag styled with the respective color.
+COLORS = { black: "000",
+ red: "f00",
+ green: "0f0",
+ yellow: "ff0",
+ blue: "00f",
+ magenta: "f0f",
+ cyan: "0ff",
+class String
+ COLORS.each do |color,code|
+ define_method "in_#{color}" do
+ "&lt;span style=\"color: ##{code}\"&gt;#{self}&lt;/span&gt;"
+ end
+ end
+end
+The generated methods could then be used like this:
+"Hello, World!".in_blue
+ =&gt; "&lt;span style=\"color: #00f\"&gt;Hello, World!&lt;/span&gt;"
+To implement the equivalent in many other languages, the programmer would have to write each method (codice_47, codice_48, codice_49, etc.) separately.
+Some other possible uses for Ruby metaprogramming include:
+Implementations.
+Matz's Ruby interpreter.
+The original Ruby [[interpreter (computer software)|interpreter]] is often referred to as [[Ruby MRI|Matz's Ruby Interpreter]] or MRI. This implementation is written in C and uses its own Ruby-specific [[virtual machine]].
+The standardized and retired Ruby 1.8 [[Ruby MRI|implementation]] was written in [[C (programming language)|C]], as a single-pass [[interpreted language]].
+Starting with Ruby 1.9, and continuing with Ruby 2.x and above, the official Ruby interpreter has been [[YARV]] ("Yet Another Ruby VM"), and this implementation has superseded the slower virtual machine used in previous releases of MRI.
+Alternate implementations.
+, there are a number of alternative implementations of Ruby, including [[JRuby]], [[Rubinius]], and [[mruby]]. Each takes a different approach, with JRuby and Rubinius providing [[just-in-time compilation]] and mruby also providing [[ahead-of-time compilation]].
+Ruby has three major alternate implementations:
+Other Ruby implementations include:
+Other now defunct Ruby implementations were:
+The maturity of Ruby implementations tends to be measured by their ability to run the [[Ruby on Rails]] (Rails) framework, because it is complex to implement and uses many Ruby-specific features. The point when a particular implementation achieves this goal is called "the Rails singularity". The reference implementation, JRuby, and Rubinius are all able to run Rails unmodified in a production environment.
+Platform support.
+Matsumoto originally did Ruby development on the [[BSD|4.3BSD]]-based [[Sony NEWS|Sony NEWS-OS]] 3.x, but later migrated his work to [[SunOS]] 4.x, and finally to [[Linux]].
+By 1999, Ruby was known to work across many different [[operating system]]s, including NEWS-OS, SunOS, [[AIX]], [[SVR4]], [[Solaris (operating system)|Solaris]], [[NEC]] [[UP-UX]], [[NeXTSTEP]], BSD, Linux, [[Classic Mac OS|Mac OS]], [[DOS]], [[Windows (operating system)|Windows]], and [[BeOS]].
+Modern Ruby versions and implementations are available on many operating systems, such as Linux, BSD, Solaris, AIX, [[macOS]], Windows, [[Windows Phone]], [[Windows CE]], [[Symbian OS]], BeOS, and [[IBM i]].
+Ruby programming language is supported across a number of cloud hosting platforms like [[Jelastic]], [[Heroku]], [[Google Cloud Platform]] and others.
+Repositories and libraries.
+[[RubyGems]] is Ruby's package manager. A Ruby package is called a "gem" and can be installed via the command line. Most gems are libraries, though a few exist that are applications, such as [[integrated development environment|IDEs]]. There are over 10,000 Ruby gems hosted on RubyGems.org.
+Many new and existing Ruby libraries are hosted on [[GitHub]], a service that offers [[Revision control|version control]] repository hosting for [[Git (software)|Git]].
+The Ruby Application Archive, which hosted applications, documentation, and libraries for Ruby programming, was maintained until 2013, when its function was transferred to RubyGems.
+External links.
+[[Category:Ruby (programming language)| ]]
+[[Category:Articles with example Ruby code]]
+[[Category:Class-based programming languages]]
+[[Category:Dynamic programming languages]]
+[[Category:Dynamically typed programming languages]]
+[[Category:Free software programmed in C]]
+[[Category:ISO standards]]
+[[Category:Multi-paradigm programming languages]]
+[[Category:Object-oriented programming languages]]
+[[Category:Programming languages created in 1995]]
+[[Category:Programming languages with an ISO standard]]
+[[Category:Scripting languages]]
+[[Category:Software using the BSD license]]
+[[Category:Text-oriented programming languages]]
+[[Category:Free compilers and interpreters]]
+

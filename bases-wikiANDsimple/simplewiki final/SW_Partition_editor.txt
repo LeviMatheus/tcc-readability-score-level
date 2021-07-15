@@ -1,0 +1,2 @@
+partition editor, partitioner, and partitioning utility are all names for computer programs used to view, create, change, and delete disk partitions on a computer storage device, most commonly a hard disk, but also a USB flash drive or other storage medium.
+A "partition" is a section or segment of the storage space on a storage device. By partitioning a large device into several partitions it is possible to isolate various types of data from one another, and allow the coexistence of two or more operating systems simultaneously.

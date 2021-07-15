@@ -1,0 +1,62 @@
+
+In probability theory, the expected value of a random variable formula_1, denoted formula_2 or formula_3, is a generalization of the weighted average, and is intuitively the arithmetic mean of a large number of independent realizations of formula_1. The expected value is also known as the expectation, mathematical expectation, mean, average, or first moment. Expected value is a key concept in economics, finance, and many other subjects.
+By definition, the expected value of a constant random variable formula_5 is formula_6. The expected value of a random variable formula_1 with equiprobable outcomes formula_8 is defined as the arithmetic mean of the terms formula_9 If some of the probabilities formula_10 of an individual outcome formula_11 are unequal, then the expected value is defined to be the probability-weighted average of the formula_11s, that is, the sum of the formula_13 products formula_14. The expected value of a general random variable involves integration in the sense of Lebesgue.
+History.
+The idea of the expected value originated in the middle of the 17th century from the study of the so-called problem of points, which seeks to divide the stakes "in a fair way" between two players, who have to end their game before it is properly finished. This problem had been debated for centuries, and many conflicting proposals and solutions had been suggested over the years, when it was posed to Blaise Pascal by French writer and amateur mathematician Chevalier de Méré in 1654. Méré claimed that this problem couldn't be solved, and that it showed just how flawed mathematics was when it came to its application to the real world. Pascal, being a mathematician, was provoked and determined to solve the problem once and for all.
+He began to discuss the problem in a now famous series of letters to Pierre de Fermat. Soon enough, they both independently came up with a solution. They solved the problem in different computational ways, but their results were identical because their computations were based on the same fundamental principle. The principle is that the value of a future gain should be directly proportional to the chance of getting it. This principle seemed to have come naturally to both of them. They were very pleased by the fact that they had found essentially the same solution, and this in turn made them absolutely convinced that they had solved the problem conclusively; however, they did not publish their findings. They only informed a small circle of mutual scientific friends in Paris about it.
+Three years later, in 1657, a Dutch mathematician Christiaan Huygens, who had just visited Paris, published a treatise (see ) "De ratiociniis in ludo aleæ" on probability theory. In this book, he considered the problem of points, and presented a solution based on the same principle as the solutions of Pascal and Fermat. Huygens also extended the concept of expectation by adding rules for how to calculate expectations in more complicated situations than the original problem (e.g., for three or more players). In this sense, this book can be seen as the first successful attempt at laying down the foundations of the theory of probability.
+In the foreword to his book, Huygens wrote:
+Thus, Huygens learned about de Méré's Problem in 1655 during his visit to France; later on in 1656 from his correspondence with Carcavi, he learned that his method was essentially the same as Pascal's; so that before his book went to press in 1657, he knew about Pascal's priority in this subject.
+In the mid-nineteenth century, Pafnuty Chebyshev became the first person to think systematically in terms of the expectations of random variables.
+Etymology.
+Neither Pascal nor Huygens used the term "expectation" in its modern sense. In particular, Huygens writes:
+More than a hundred years later, in 1814, Pierre-Simon Laplace published his tract "Théorie analytique des probabilités", where the concept of expected value was defined explicitly:
+Notations.
+The use of the letter formula_15 to denote expected value goes back to W. A. Whitworth in 1901. The symbol has become popular since then for English writers. In German, formula_15 stands for "Erwartungswert", in Spanish for "Esperanza matemática", and in French for "Espérance mathématique".
+Another popular notation is formula_17, whereas formula_18 is commonly used in physics, and formula_19 in Russian-language literature.
+Definition.
+Finite case.
+Let formula_1 be a random variable with a finite number of finite outcomes formula_21 occurring with probabilities formula_22 respectively. The expectation of formula_1 is defined as 
+Since formula_25 the expected value is the weighted sum of the formula_26 values, with the probabilities formula_27 as the weights.
+If all outcomes formula_26 are equiprobable (that is, formula_29), then the weighted average turns into the simple average. On the other hand, if the outcomes formula_26 are not equiprobable, then the simple average must be replaced with the weighted average, which takes into account the fact that some outcomes are more likely than others.
+Countably infinite case.
+Intuitively, the expectation of a random variable taking values in a countable set of outcomes is defined analogously as the weighted sum of the outcome values, where the weights correspond to the probabilities of realizing that value. However, convergence issues associated with the infinite sum necessitate a more careful definition. A rigorous definition first defines expectation of a non-negative random variable, and then adapts it to general random variables.
+Let formula_1 be a non-negative random variable with a countable set of outcomes formula_43 occurring with probabilities formula_44 respectively. Analogous to the discrete case, the expected value of formula_1 is then defined as the series
+Note that since formula_47, the infinite sum is well-defined and does not depend on the order in which it is computed. Unlike the finite case, the expectation here can be equal to infinity, if the infinite sum above increases without bound.
+For a general (not necessarily non-negative) random variable formula_1 with a countable number of outcomes, set formula_49 and formula_50. By definition,
+Like with non-negative random variables, formula_3 can, once again, be finite or infinite. The third option here is that formula_3 is no longer guaranteed to be well defined at all. The latter happens whenever formula_54.
+Absolutely continuous case.
+If formula_1 is a random variable with a probability density function of formula_83, then the expected value is defined as the Lebesgue integral
+where the values on both sides are well defined or not well defined simultaneously.
+Example. A random variable that has the Cauchy distribution has a density function, but the expected value is undefined since the distribution has large "tails".
+General case.
+In general, if formula_1 is a random variable defined on a probability space formula_86, then the expected value of formula_1, denoted by formula_3, is defined as the Lebesgue integral 
+For multidimensional random variables, their expected value is defined per component. That is,
+and, for a random matrix formula_1 with elements formula_92, formula_93
+Basic properties.
+The basic properties below (and their names in bold) replicate or follow immediately from those of Lebesgue integral. Note that the letters "a.s." stand for "almost surely"—a central property of the Lebesgue integral. Basically, one says that an inequality like formula_94 is true almost surely, when the probability measure attributes zero-mass to the complementary event formula_95.
+Uses and applications.
+The expectation of a random variable plays an important role in a variety of contexts. For example, in decision theory, an agent making an optimal choice in the context of incomplete information is often assumed to maximize the expected value of their utility function.
+For a different example, in statistics, where one seeks estimates for unknown parameters based on available data, the estimate itself is a random variable. In such settings, a desirable criterion for a "good" estimator is that it is unbiased; that is, the expected value of the estimate is equal to the true value of the underlying parameter.
+It is possible to construct an expected value equal to the probability of an event, by taking the expectation of an indicator function that is one if the event has occurred and zero otherwise. This relationship can be used to translate properties of expected values into properties of probabilities, e.g. using the law of large numbers to justify estimating probabilities by frequencies.
+The expected values of the powers of "X" are called the moments of "X"; the moments about the mean of "X" are expected values of powers of "X" − E["X"]. The moments of some random variables can be used to specify their distributions, via their moment generating functions.
+To empirically estimate the expected value of a random variable, one repeatedly measures observations of the variable and computes the arithmetic mean of the results. If the expected value exists, this procedure estimates the true expected value in an unbiased manner and has the property of minimizing the sum of the squares of the residuals (the sum of the squared differences between the observations and the estimate). The law of large numbers demonstrates (under fairly mild conditions) that, as the size of the sample gets larger, the variance of this estimate gets smaller.
+This property is often exploited in a wide variety of applications, including general problems of statistical estimation and machine learning, to estimate (probabilistic) quantities of interest via Monte Carlo methods, since most quantities of interest can be written in terms of expectation, e.g. formula_171, where formula_172 is the indicator function of the set formula_173.
+ In classical mechanics, the center of mass is an analogous concept to expectation. For example, suppose "X" is a discrete random variable with values "xi" and corresponding probabilities "pi". Now consider a weightless rod on which are placed weights, at locations "xi" along the rod and having masses "pi" (whose sum is one). The point at which the rod balances is E["X"].
+Expected values can also be used to compute the variance, by means of the computational formula for the variance
+A very important application of the expectation value is in the field of quantum mechanics. The expectation value of a quantum mechanical operator formula_175 operating on a quantum state vector formula_176 is written as formula_177. The uncertainty in formula_175 can be calculated using the formula formula_179.
+Interchanging limits and expectation.
+In general, it is not the case that formula_180 despite formula_181 pointwise. Thus, one cannot interchange limits and expectation, without additional conditions on the random variables. To see this, let formula_182 be a random variable distributed uniformly on formula_183. For formula_184 define a sequence of random variables
+with formula_186 being the indicator function of the event formula_104. Then, it follows that formula_188 (a.s). But, formula_189 for each formula_13. Hence, formula_191
+Analogously, for general sequence of random variables formula_192, the expected value operator is not formula_193-additive, i.e.
+An example is easily obtained by setting formula_195 and formula_196 for formula_197, where formula_198 is as in the previous example.
+A number of convergence results specify exact conditions which allow one to interchange limits and expectations, as specified below.
+Inequalities.
+There are a number of inequalities involving the expected values of functions of random variables. The following list includes some of the more basic ones.
+Relationship with characteristic function.
+The probability density function formula_257 of a scalar random variable formula_1 is related to its characteristic function formula_259 by the inversion formula:
+For the expected value of formula_136 (where formula_262 is a Borel function), we can use this inversion formula to obtain
+If formula_264 is finite, changing the order of integration, we get, in accordance with Fubini–Tonelli theorem,
+where
+is the Fourier transform of formula_267 The expression for formula_264 also follows directly from Plancherel theorem.
+

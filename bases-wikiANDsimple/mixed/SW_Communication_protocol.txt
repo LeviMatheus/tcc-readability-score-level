@@ -1,0 +1,1 @@
+A Protocol or Communication Protocol is like a language used for computers to talk to each other. The protocol says what bit of the conversation comes at what time. It also says how to end the communication. It is just a hard word people in computer science use to describe a simple thing.

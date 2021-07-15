@@ -1,0 +1,10 @@
+
+A back-to-back connection is the direct connection of the output of one device to the input of a similar or related device.
+Telecommunications.
+In telecommunications, a back-to-back connection can be formed by connecting a transmitter directly to a receiver without a transmission line in between. This is used for equipment measurements and testing purposes. The back-to-back connection eliminates the effects of the transmission medium.
+In some cases, the output of a receiving device is instead connected to the input of a transmitting device.
+Power transmission.
+A back-to-back connection for electric power transmission is a high-voltage direct-current (HVDC) system with both ends in the same switchyard. This is used to couple asynchronously operated power grids or for connecting power grids of different frequencies where no DC transmission line is necessary.
+Electronics.
+In electronics, a back-to-back connection is the connection of two identical or similar components in series with the opposite polarity. This is used to convert polarised components to non-polar use. Common examples include:
+

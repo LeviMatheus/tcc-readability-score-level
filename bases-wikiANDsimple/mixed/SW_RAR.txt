@@ -1,0 +1,3 @@
+In computing, RAR is a patented archival file format that allows data compression, error recovery, and file spanning. It was created by Eugene Roshal (that is why it is named RR: Roshal ARchive) and is now license to "Win.RAR GmbH".
+RAR File Archiver Software.
+The following is an example of file archiver software by platforms. For a comprehensive list see Comparison of file archivers

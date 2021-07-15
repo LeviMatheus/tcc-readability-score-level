@@ -1,0 +1,39 @@
+
+In reliability engineering, the term availability has the following meanings:
+Normally high availability systems might be specified as 99.98%, 99.999% or 99.9996%.
+Representation.
+The simplest representation of availability ("A") is a ratio of the expected value of the uptime of a system to the aggregate of the expected values of up and down time (that results in the "total amont of time" "C" of the observation window)
+Another equation for availability ("A") is a ratio of the Mean Time Between Failure (MTBF) and Mean Time To Repair (MTTR), or
+If we define the status function formula_3 as
+therefore, the availability "A"("t") at time "t" &gt; 0 is represented by
+Average availability must be defined on an interval of the real line. If we consider an arbitrary constant formula_6, then average availability is represented as
+Limiting (or steady-state) availability is represented by
+Limiting average availability is also defined on an interval formula_9 as,
+Availability is the probability that an item will be in an operable and committable state at the start of a mission when the mission is called for at a random time, and is generally defined as uptime divided by total time (uptime plus downtime).
+Methods and techniques to model availability.
+Reliability Block Diagrams or Fault Tree Analysis are developed to calculate availability of a system or a functional failure condition within a system including many factors like:
+Furthermore, these methods are capable to identify the most critical items and failure modes or events that impact availability.
+Definitions within systems engineering.
+Availability, inherent (Ai) 
+The probability that an item will operate satisfactorily at a given point in time when used under stated conditions in an ideal support environment. It excludes logistics time, waiting or administrative downtime, and preventive maintenance downtime. It includes corrective maintenance downtime. 
+Inherent availability is generally derived from analysis of an engineering design:
+It is based on quantities under control of the designer.
+Availability, achieved (Aa) 
+The probability that an item will operate satisfactorily at a given 
+point in time when used under stated conditions in an ideal support environment (i.e., that personnel, tools, spares, etc. are instantaneously available). It excludes logistics time and waiting or administrative downtime. 
+It includes active preventive and corrective maintenance downtime.
+Availability, operational (Ao) 
+The probability that an item will operate satisfactorily at a given point in time when used in an actual or realistic operating and support environment. It includes logistics time, ready time, and waiting or administrative downtime, and both preventive and corrective maintenance downtime. This value is equal to the mean time between failure (MTBF) divided by the mean time between failure plus the mean downtime (MDT). This measure extends the definition of availability to elements controlled by the logisticians and mission planners such as quantity and proximity of spares, tools and manpower to the hardware item.
+Refer to Systems engineering for more details
+Basic example.
+If we are using equipment which has a mean time to failure (MTTF) of 81.5 years and mean time to repair (MTTR) of 1 hour:
+Outage due to equipment in hours per year = 1/rate = 1/MTTF = 0.01235 hours per year.
+Literature.
+Availability is well established in the literature of stochastic modeling and optimal maintenance. Barlow and Proschan [1975] define availability of a repairable system as "the probability that the system is operating at a specified time t." Blanchard [1998] gives a qualitative definition of availability as "a measure of the degree of a system which is in the operable and committable state at the start of mission when the mission is called for at an unknown random point in time." This definition comes from the MIL-STD-721. Lie, Hwang, and Tillman [1977] developed a complete survey along with a systematic classification of availability.
+Availability measures are classified by either the time interval of interest or the mechanisms for the system downtime. If the time interval of interest is the primary concern, we consider instantaneous, limiting, average, and limiting average availability. The aforementioned definitions are developed in Barlow and Proschan [1975], Lie, Hwang, and Tillman [1977], and Nachlas [1998]. The second primary classification for availability is contingent on the various mechanisms for downtime such as the inherent availability, achieved availability, and operational availability. (Blanchard [1998], Lie, Hwang, and Tillman [1977]). Mi [1998] gives some comparison results of availability considering inherent availability.
+Availability considered in maintenance modeling can be found in Barlow and Proschan [1975] for replacement models, Fawzi and Hawkes [1991] for an R-out-of-N system with spares and repairs, Fawzi and Hawkes [1990] for a series system with replacement and repair, Iyer [1992] for imperfect repair models, Murdock [1995] for age replacement preventive maintenance models, Nachlas [1998, 1989] for preventive maintenance models, and Wang and Pham [1996] for imperfect maintenance models. A very comprehensive recent book is by Trivedi and Bobbio [2017].
+Applications.
+Availability is used extensively in power plant engineering. For example, the North American Electric Reliability Corporation implemented the Generating Availability Data System in 1982.
+References.
+K. Trivedi and A. Bobbio, Reliability and Availability Engineering: Modeling, Analysis and Applications, Cambridge University Press, 2017.
+

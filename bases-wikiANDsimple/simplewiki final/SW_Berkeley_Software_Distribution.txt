@@ -1,0 +1,2 @@
+Berkeley Software Distribution (BSD) is a kind of the UNIX operating system that is distributed for free since 1989. It was started by people in Berkeley, California, USA in the year 1977. Now, people from around the world work on it.
+There are many different kinds of BSD that many people have worked on. Some of them are NetBSD, FreeBSD, OpenBSD and Mac OS X

@@ -1,0 +1,28 @@
+A set is a concept from mathematics. A set is like a bag, that can hold things. A set cannot hold a certain item more than once. Either that item is in the set or it is not. Structures from mathematics, that are like sets in quite a few ways, but can hold a certain type of item more than once are called multisets (or indeed, "bags").
+In the following sections, a "bag" is a "shopping bag".
+Element of.
+Various things can be put into a bag. Later on, a valid question would be if a certain thing is in the bag. Mathematicians call this "element of". Something is an element of a set, if that thing can be found in the respective bag.
+Empty set.
+Like a bag, a set can also be "empty". The empty set is like an empty bag: it has no things in it.
+Comparing sets.
+Two sets can be compared. This is done by looking at two different bags. If they contain the same things, they are equal.
+Cardinality of a set.
+When mathematicians talk about a set, they sometimes want to know how big a set is. They do this by counting how many elements are in the set (how many items are in the bag). The cardinality is a simple number. The empty set has a cardinality of 0, since there are no things in the respective bag.
+A set can have an infinite number of elements. One such set is the set of natural numbers. Some sets with an infinite number of elements are bigger (have a bigger cardinality) than others. There are more real numbers than there are natural numbers, for example.
+Subsets.
+A set can have a large number of elements. Like a pretty full, large bag. Some of these elements perhaps have some other things in common, other than that they are all in the bag. Mathematicians call this a "subset". It can be thought of as a smaller bag, inside the bigger bag. In the shopping bag, there might be a bag of vegetables and a bag containing meat. Those two sets would then be subsets of the bigger set.
+Combining sets.
+There are different ways to combine sets.
+Unions.
+The Union of two sets is a set that contains all the elements of both sets. It is like taking several shopping bags, and putting all things from them into a bigger bag.
+Intersections.
+The intersections of two sets is a set that contains all the elements that are in both sets. If two people went shopping independently, the intersection is all the things that both of them bought: if one bought apples, carrots, and potatoes and the other bought apples, carrots and sausage, the intersection would be apples and carrots.
+Complements.
+The complement is like the difference of two sets. It's like saying I want all things that are in the first bag, but not in the second bag. Taking the example from above, this would be potatoes.
+Special sets.
+Some sets are very important to mathematics. They are used very often. One of these is the "empty set".
+Each of these sets of numbers has an infinite number of elements, and formula_16. The primes are used less frequently than the others outside of number theory and related fields.
+The barber paradox.
+There is a small town somewhere. In that town, there is a barber. All the men in the town do not like beards, so they either shave themselves, or they go to the barber shop to be shaved by the barber.
+We can therefore make a statement about the barber himself: "The barber shaves all men that do not shave themselves. He only shaves those men (since the others shave themselves and do not need a barber to give them a shave)."
+This of course raises the question: What does the barber do each morning to look clean-shaven? This is the paradox.

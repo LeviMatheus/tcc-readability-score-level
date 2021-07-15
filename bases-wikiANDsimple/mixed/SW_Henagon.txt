@@ -1,0 +1,2 @@
+A henagon (or monogon) is a shape in geometry. It is like a polygon, except that it only has one side and one corner (vertex). Henagons are considered to be impossible to draw, using Euclidean geometry. This is because the single side would go to infinity.
+Since it only has one side, there is only one angle. Therefore all henagons are considered regular shapes.

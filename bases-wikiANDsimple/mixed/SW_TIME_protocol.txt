@@ -1,0 +1,3 @@
+The TIME service is an Internet protocol defined in RFC 868. Its purpose is to provide a site-independent, machine readable date and time.
+TIME can operate over either TCP or UDP. When operating over TCP, a host connects to a server that supports the TIME protocol on TCP port 37. The server then sends the time as a 32-bit unsigned binary number in network byte order representing a number of seconds since 00:00 (midnight) 1 January, 1900 GMT and closes the connection. The host receives the time and closes the connection.
+When operating over UDP, the client sends a (usually empty) datagram to UDP port 37. The server responds with a single datagram of length 4 containing the time. There is no connection setup or teardown.

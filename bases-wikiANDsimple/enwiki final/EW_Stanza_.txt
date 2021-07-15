@@ -1,0 +1,34 @@
+
+In poetry, a stanza (; from Italian "stanza" , "room") is a grouped set of lines within a poem, usually set off from others by a blank line or indentation. Stanzas can have regular rhyme and metrical schemes, though stanzas are not strictly required to have either. There are many unique . Some stanzaic forms are simple, such as four-line quatrains. Other forms are more complex, such as the Spenserian stanza. Fixed verse poems, such as sestinas, can be defined by the number and form of their stanzas. The term "stanza" is similar to "strophe", though strophe sometimes refers to an irregular set of lines, as opposed to regular, rhymed stanzas.
+The stanza in poetry is analogous with the paragraph that is seen in prose; related thoughts are grouped into units. The stanza has also been known by terms such as "batch", "fit", and "stave". Even though the term "stanza" is taken from Italian, in the Italian language the word "strofa" is more commonly used. In music, groups of lines are typically referred to as "verses".
+Example I.
+This short poem by Emily Dickinson has two stanzas of four lines each.
+&lt;poem&gt;I had no time to hate, because
+The grave would hinder me,
+And life was not so ample I
+Could finish enmity.
+Nor had I time to love; but since
+Some industry must be, 
+The little toil of love, I thought,
+was large enough for me.&lt;/poem&gt;
+Example II.
+This poem by Andrew John Young has three stanzas of six lines each
+&lt;poem&gt;Frost called to the water Halt 
+And crusted the moist snow with sparkling salt;
+Brooks, their one bridges, stop, 
+And icicles in long stalactites drop. 
+And tench in water-holes 
+Lurk under gluey glass-like fish in bowls.
+In the hard-rutted lane 
+At every footstep breaks a brittle pane, 
+And tinkling trees ice-bound, 
+Changed into weeping willows, sweep the ground; 
+Dead boughs take root in ponds 
+And ferns on windows shoot their ghostly fronds.
+But vainly the fierce frost 
+Interns poor fish, ranks trees in an armed host, 
+Hangs daggers from house-eaves 
+And on the windows ferny am bush weaves; 
+In the long war grown warmer 
+The sun will strike him dead and strip his armour.&lt;/poem&gt;
+

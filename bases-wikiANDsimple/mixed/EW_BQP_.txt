@@ -1,0 +1,55 @@
+
+In computational complexity theory, bounded-error quantum polynomial time (BQP) is the class of decision problems solvable by a quantum computer in polynomial time, with an error probability of at most 1/3 for all instances. It is the quantum analogue to the complexity class BPP.
+A decision problem is a member of BQP if there exists a quantum algorithm (an algorithm that runs on a quantum computer) that solves the decision problem with high probability and is guaranteed to run in polynomial time. A run of the algorithm will correctly solve the decision problem with a probability of at least 2/3.
+Definition.
+BQP can be viewed as the languages associated with certain bounded-error uniform families of quantum circuits. A language "L" is in BQP if and only if there exists a polynomial-time uniform family of quantum circuits formula_1, such that
+Alternatively, one can define BQP in terms of quantum Turing machines. A language "L" is in BQP if and only if there exists a polynomial quantum Turing machine that accepts "L" with an error probability of at most 1/3 for all instances.
+Similarly to other "bounded error" probabilistic classes the choice of 1/3 in the definition is arbitrary. We can run the algorithm a constant number of times and take a majority vote to achieve any desired probability of correctness less than 1, using the Chernoff bound. The complexity class is unchanged by allowing error as high as 1/2 − "n"−"c" on the one hand, or requiring error as small as 2−"nc" on the other hand, where "c" is any positive constant, and "n" is the length of input.
+A BQP-complete problem.
+Similar to the notion of NP-completeness and other complete problems, we can define a BQP-complete problem as a problem that is in BQP and that every problem in BQP reduces to it in polynomial time.
+Here is an intuitive BQP-complete problem, which stems directly from the definition of BQP.
+APPROX-QCIRCUIT-PROB problem.
+Given a description of a quantum circuit formula_5 acting on formula_6 qubits with formula_7 gates, where formula_8 is a polynomial in formula_6 and each gate acts on one or two qubits, and two numbers formula_10, distinguish between the following two cases:
+Note that the problem does not specify the behavior if an instance is not covered by these two cases.
+Claim. Any BQP problem reduces to APPROX-QCIRCUIT-PROB. 
+Proof. 
+Suppose we have an algorithm formula_17 that solves APPROX-QCIRCUIT-PROB, i.e., given a quantum circuit formula_18 acting on formula_6 qubits, and two numbers formula_10, formula_17 distinguishes between the above two cases. We can solve any problem in BQP with this oracle, by setting formula_22.
+For any formula_23, there exists family of quantum circuits formula_1 such that for all formula_2, a state formula_26 of formula_6 qubits, if formula_28; else if formula_29. Fix an input formula_26 of formula_6 qubits, and the corresponding quantum circuit formula_32. We can first construct a circuit formula_33 such that formula_34. This can be done easily by hardwiring formula_26 and apply a sequence of CNOT gates to flip the qubits. Then we can combine two circuits to get formula_36, and now formula_37. And finally, necessarily the results of formula_32 is obtained by measuring several qubits and apply some (classical) logic gates to them. We can always defer the measurement and reroute the circuits so that by measuring the first qubit of formula_37, we get the output. This will be our circuit formula_18, and we decide the membership of formula_41 in formula_42 by running formula_43 with formula_22. By definition of BQP, we will either fall into the first case (acceptance), or the second case (rejection), so formula_23 reduces to APPROX-QCIRCUIT-PROB.
+APPROX-QCIRCUIT-PROB comes handy when we try to prove the relationships between some well-known complexity classes and BQP.
+Relationship to other complexity classes.
+BQP is defined for quantum computers; the corresponding complexity class for classical computers (or more formally for probabilistic Turing machines) is BPP. Just like P and BPP, BQP is low for itself, which means BQPBQP = BQP. Informally, this is true because polynomial time algorithms are closed under composition. If a polynomial time algorithm calls as a subroutine polynomially many polynomial time algorithms, the resulting algorithm is still polynomial time.
+BQP contains P and BPP and is contained in AWPP, PP and PSPACE.
+In fact, BQP is low for PP, meaning that a PP machine achieves no benefit from being able to solve BQP problems instantly, an indication of the possible difference in power between these similar classes. The known relationships with classic complexity classes are:
+As the problem of P ≟ PSPACE has not yet been solved, the proof of inequality between BQP and classes mentioned above is supposed to be difficult. The relation between BQP and NP is not known, though we do know that NP is not contained in BQP. In May 2018, computer scientists Ran Raz of Princeton University and Avishay Tal of Stanford University published a paper which showed that, relative to an oracle, BQP was not contained in PH.
+Adding postselection to BQP results in the complexity class PostBQP which is equal to PP.
+We will prove or discuss some of these results below.
+BQP and EXP.
+We begin with an easier containment. To show that formula_47, it suffices to show that APPROX-QCIRCUIT-PROB is in EXP since APPROX-QCIRCUIT-PROB is BQP-complete.
+Claim. formula_48
+Proof. The idea is simple. Since we have exponential power, given a quantum circuit formula_18, we can use classical computer to stimulate each gate in formula_18 to get the final state. 
+More formally, let formula_18 be a polynomial sized quantum circuit on formula_52 qubits and formula_53 gates, where m is polynomial in n. Let formula_54 and formula_55 be the state after the formula_56-th gate in the circuit is applied to formula_57. Each state formula_58 can be represented in a classical computer as a unit vector in formula_59. Furthermore, each gate can be represented by a matrix in formula_60. Hence, the final state formula_61 can be computed in formula_62 time, and therefore all together, we have an formula_63 time algorithm for calculating the final state, and thus the probability that the first qubit is measured to be one. This implies that formula_48.
+Note that this algorithm also requires formula_63 space to store the vectors and the matrices. We will show in the following section that we can improve upon the space complexity.
+BQP and PSPACE.
+To prove formula_66, we first introduce a technique called the sum of histories.
+Sum of Histories.
+Sum of histories is a technique introduced by physicist Richard Feynman for Path integral formulation. We apply this technique to quantum computing to solve APPROX-QCIRCUIT-PROB.
+Consider a quantum circuit formula_18, which consists of formula_68 gates, formula_69, where each formula_70 comes from a universal gate set and acts on at most two qubits.
+To understand what the sum of histories is, we visualize the evolution of a quantum state given a quantum circuit as a tree. The root is the input formula_71, and each node in the tree has formula_72 children, each representing a state in formula_73. The weight on a tree edge from a node in formula_74-th level representing a state formula_75 to a node in formula_76-th level representing a state formula_77 is formula_78, the amplitude of formula_77 after applying formula_80 on formula_75. The transition amplitude of a root-to-leaf path is the product of all the weights on the edges along the path. To get the probability of the final state being formula_82, we sum up the amplitudes of all root-to-leave paths that ends at a node representing formula_82.
+More formally, for the quantum circuit formula_18, its sum over histories tree is a tree of depth formula_53, with one level for each gate formula_86 in addition to the root, and with branching factor formula_72.
+Define. A history is a path in the sum of histories tree. We will denote a history by a sequence formula_88 for some final state formula_89.
+Define. Let formula_90. Let amplitude of the edge formula_91 in the formula_74-th level of the sum over histories tree be formula_93. For any history formula_94, the transition amplitude of the history is the product formula_95.
+Claim. For a history formula_96 . The transition amplitude of the history is computable in polynomial time.
+Proof. Each gate formula_70 can be decomposed into formula_98 for some unitary operator formula_99 acting on two qubits, which without loss of generality can taken to be the first two. Hence, formula_100 which can be computed in polynomial time in formula_52. Since formula_53 is polynomial in formula_52, the transition amplitude of the history can be computed in polynomial time.
+Claim. Let formula_104 be the final state of the quantum circuit. For some formula_105, the amplitude formula_106 can be computed by formula_107.
+Proof. We have formula_108. The result comes directly by inserting formula_109 between formula_110, and formula_111, and so on, and then expand out the equation. Then each term corresponds to a formula_112, where formula_113
+Claim. formula_114
+Notice in the sum over histories algorithm to compute some amplitude formula_106, only one history is stored at any point in the computation. Hence, the sum over histories algorithm uses formula_116 space to compute formula_106 for any formula_89 since formula_116 bits are needed to store the histories in addition to some workspace variables.
+Therefore, in polynomial space, we may compute formula_120 over all formula_89 with the first qubit being formula_122, which is the probability that the first qubit is measured to be 1 by the end of the circuit.
+Notice that compared with the simulation given for the proof that formula_47, our algorithm here takes far less space but far more time instead. In fact it takes formula_124 time to calculate a single amplitude!
+BQP and PP.
+A similar sum-over-histories argument can be used to show that formula_125. 
+BQP, P, and NP.
+First of all, we know formula_126, since every classical circuit can be simulated by a quantum circuit. 
+It is conjectured that BQP solves hard problems outside of P, specifically, problems in NP. The claim is indefinite because we don't know if P=NP, so we don't know if those problems are actually in P. Below are some evidence of the conjecture:
+However, we also know an analogue of formula_127 in a "black-box" sense. Consider the unstructured search problem: given an oracle access to an unknown function formula_128, find formula_89 such that formula_130. This problem is clearly in NP. The optimal quantum algorithm for this problem, on the other hand, is Grover's algorithm, which has a complexity of formula_131 if only allowed to access formula_132 via that oracle.
+

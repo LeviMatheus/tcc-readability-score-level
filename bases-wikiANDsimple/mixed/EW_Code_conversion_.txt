@@ -1,0 +1,6 @@
+
+In telecommunication, the term code conversion has the following meanings: 
+1. Conversion of signals, or groups of signals, in one code into corresponding signals, or groups of signals, in another code. 
+2. A process for converting a code of some predetermined bit structure, such as 5, 7, or 14 bits per character interval, to another code with the same or a different number of bits per character interval. 
+In code conversion, alphabetical order is not significant.
+

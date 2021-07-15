@@ -1,0 +1,7 @@
+In aerodynamics, hypersonic speeds are speeds that are highly supersonic. The word hypersonic came from a word used in the 1970s, Mach 5, or 5 times the speed of sound. Everything about the plane changes greatly when the airplane that is flying at those speeds reaches supersonic speeds.
+Thin Shock Layer.
+As the plane goes faster and mach numbers increase, the density behind the shock also goes up. This happens in concert with a decrease in volume behind the shock wave because of the conservation of mass theory. Because of this, the shock layer (the volume between the body and the shock wave) is thin at high mach numbers.
+Entropy Layer.
+As a plane goes faster and mach numbers go up, the entropy change across the shock also goes up. This results in a strong entropy gradient and highly vortical flow that mixes with the boundary layer.
+Viscous Interaction.
+Some of the big kinetic energy found with flow at large mach numbers becomes internal energy in the fluid because of viscosity. The increase in internal energy makes the temperature go up. Because the pressure gradient normal to the flow within a boundary layer is zero, the increase of temperature through the boundary layer causes the density to fall. This causes the boundary layer over the body of the airplane to grow. This, in turn, causes the temperature to go up.

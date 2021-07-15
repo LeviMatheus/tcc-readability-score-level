@@ -1,0 +1,26 @@
+The colon (":") is a punctuation mark, visually consisting of two equally sized dots centered on the same vertical line.
+Usage.
+As with many other punctuation marks, the usage of colon varies among languages and, for a given language, among historical periods. As a rule, however, a colon informs the reader that what follows proves, clarifies, explains, or simply enumerates elements of what is referred to before.
+This last was once a common means of indicating an unmarked quotation on the same line (from the Fowlers' grammar book, "The King's English")
+In English, a colon may be followed either by a capital letter or by a lower case letter, depending on usage: where speech follows, a capital letter is used; where an acronym or proper noun follows, a capital is used; otherwise a lower case letter is used.
+Conventions and non-English languages.
+In European languages the colon is usually followed by a lowercase letter (again, unless the uppercase is due to other reasons, such as a proper noun). Exceptions are Dutch and German, where an uppercase letter must be used if the colon is followed by a complete sentence or a noun, although in all other cases a lowercase letter should be used.
+No space is put before a colon, except in French.
+Other uses.
+In Finnish and Swedish, the colon can appear inside words in a manner similar to the English apostrophe, between a word (or abbreviation, especially an acronym) and its grammatical (mostly genitive) suffixes. It occurs in names, for example ("Ax:son" for "Axelson"). It is done in loanwords and abbreviations; e.g., "USA:han" for the illative case of "USA". But for loanwords ending orthographically in a consonant but phonetically in a vowel, the apostrophe is used instead: e.g. "show'n" for the genitive case of the English loan "show".
+History.
+The colon was established in the English language well before 1700.
+Diacritical usage.
+A special triangular colon symbol is used in IPA to indicate that the preceding sound is long. Its form is that of two triangles, each a bit larger than a point of a standard colon, pointing toward each other. It is available in Unicode as modifier letter triangular colon, Unicode U+02D0 (). A regular colon is often used as a fallback when this character is not available, and in the practical orthography of some languages (particularly in Mexico) which have a phonemic long/short distinction in vowels.
+Mathematics.
+The colon is also used in mathematics, cartography, model building and other fields to denote a ratio or a scale, as in 3:1 (pronounced "three to one").
+Unicode provides a distinct ratio character, Unicode U+2236 () for mathematical usage.
+In many non-Anglophone countries the colon is used as a division sign: "a divided by b" is written as "a : b".
+The combination with an equal sign, formula_1, is used for definitions.
+Computing.
+In computing, the colon character is represented by ASCII code 58, and is located at Unicode code-point U+003A. The full-width (double-byte) equivalent, ：, is located at Unicode code point U+FF1A.
+The colon is quite often used as a special control character in many operating systems commands, URLs, computer programming languages, and in the path representation of several file systems. It is often used as a single post-fix delimiter, signifying a token keyword had immediately preceded it or the transition from one mode of character string interpretation to another related mode. Some applications, such as the widely used MediaWiki, utilize the colon as both a pre-fix and post-fix delimiter.
+For a double colon see Paamayim Nekudotayim.
+Internet usage.
+Colons may also be used for sounds.:Click: Compare to the use of the asterisk.
+It also has the widespread usage of representing two vertically aligned eyes in a emoticon, such as:),:(:P,:D, etc.

@@ -1,0 +1,23 @@
+
+In telecommunication and electronics, baud (; symbol: Bd) is a common unit of measurement of symbol rate, which is one of the components that determine the speed of communication over a data channel.
+It is the unit for symbol rate or modulation rate in "symbols per second" or "pulses per second". It is the number of distinct symbol changes (signaling events) made to the transmission medium per second in a digitally modulated signal or a bd rate line code.
+Baud is related to gross bit rate, which can be expressed in bits per second. If there are precisely two symbols in the system (typically 0 and 1), then baud and bit per second (bit/s) are equivalent.
+Naming.
+The baud unit is named after Émile Baudot, the inventor of the Baudot code for telegraphy, and is represented in accordance with the rules for SI units. 
+That is, the first letter of its symbol is uppercase (Bd), but when the unit is spelled out, it should be written in lowercase (baud) except when it begins a sentence.
+It was defined by the CCITT (now the ITU) in November 1926. The earlier standard had been the number of words per minute. One baud was equal to one pulse per second, a more robust measure as word length can vary.
+Definitions.
+The symbol duration time, also known as unit interval, can be directly measured as the time between transitions by looking at an eye diagram of the signal on an oscilloscope. The symbol duration time "T"s can be calculated as:
+where "f"s is the symbol rate.
+There is also a chance of miscommunication which leads to ambiguity.
+In digital systems (i.e., using discrete/discontinuous values) with binary code, 1 Bd = 1 bit/s. By contrast, non-digital (or analog) systems use a continuous range of values to represent information and in these systems the exact informational size of 1 Bd varies.
+The baud is scaled using standard metric prefixes, so that for example
+Relationship to gross bit rate.
+The symbol rate is related to gross bit rate expressed in bit/s.
+The term baud has sometimes incorrectly been used to mean bit rate, since these rates are the same in old modems as well as in the simplest digital communication links using only one bit per symbol, such that binary digit "0" is represented by one symbol, and binary digit "1" by another symbol. In more advanced modems and data transmission techniques, a symbol may have more than two states, so it may represent more than one bit. A bit (binary digit) always represents one of two states.
+If "N" bits are conveyed per symbol, and the gross bit rate is "R", inclusive of channel coding overhead, the symbol rate "f"s can be calculated as
+By taking information per pulse "N" in bit/pulse to be the base-2-logarithm of the number of distinct messages "M" that could be sent, Hartley constructed a measure of the gross bitrate "R" as
+In that case , different symbols are used. In a modem, these may be time-limited sinewave tones with unique combinations of amplitude, phase and/or frequency. For example, in a 64QAM modem, , and so the bit rate is times the baud rate. In a line code, these may be "M" different voltage levels.
+The ratio is not necessarily even an integer; in 4B3T coding, the bit rate is of the baud rate. (A typical basic rate interface with a 160 kbit/s raw data rate operates at 120 kBd.) 
+Codes with many symbols, and thus a bit rate higher than the symbol rate, are most useful on channels such as telephone lines with a limited bandwidth but a high signal-to-noise ratio within that bandwidth. In other applications, the bit rate is less than the symbol rate. Eight-to-fourteen modulation as used on audio CDs has bit rate of the baud rate.
+

@@ -1,0 +1,5 @@
+A triode is an electronic amplification device containing a filament and three active legs that are called electrodes. The name of each leg is cathode, grid, and plate or anode. The triode vacuum tube is often viewed as the first electrical amplification device, although the relay is usually viewed, in a broad sense, as the first actual electrical amplifier.
+Lee De Forest invented this device from his original two-element 1906 Audion in 1908. The triode incorporates the key principle of amplification. The name triode emerged because people needed to distinguish it from other similar vacuum tubes(for example, diodes, tetrodes, pentodes, etc.)
+If the cathode is heated, it gives out electrons. Then, the anode absorbs electrons. This process makes an electric current, which is controlled by the grid.
+The triode can do not only amplification but also oscillation(making waves) and detecting waves. It is used in radio, but the transistor replaced it in 1960s. It is ancestor of a transistor and a semiconductor. It is still used in an vacuum tube amp.
+The triode include 3 triod-standard, 4triod, 5triod, and 4,5 triod is just 3 triod adding grid.

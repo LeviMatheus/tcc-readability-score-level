@@ -1,0 +1,4 @@
+
+Significance of 1901 for modern computers.
+The date of Friday December 13 20:45:52 1901 is significant for modern computers because it is the earliest date representable with a signed 32-bit integer on systems that reference time in seconds since the Unix epoch. This corresponds to -2147483648 seconds from Thursday January 1 00:00:00 1970. For the same reason, many computers are also unable to represent an earlier date. For related reasons, many computer systems suffer from the Year 2038 problem. This is when the positive number of seconds since 1970 exceeds 2147483647 (01111111 11111111 11111111 11111111 in binary) and wraps to -2147483648. Hence the computer system erroneously displays or operates on the time Friday December 13 20:45:52 1901. In this way, the year 1900 is to the Year 2000 problem as the year 1901 is to the Year 2038 problem.
+

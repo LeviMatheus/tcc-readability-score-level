@@ -1,0 +1,10 @@
+Fermat's primality test is an algorithm. It is a recipe for computers. It can test if a given number "p" is probably prime. There is a flaw however: There are numbers that pass the test, and that are not prime.
+Concept.
+Fermat's little theorem states that if "p" is prime and formula_1, then
+If we want to test if "n" is prime, then we can pick random "as in the interval and see if the equation above holds. If the equality does not hold for a value of "a", then "n" is composite (not prime). If the equality does hold for many values of "a", then we can say that "n" is probably prime, or a pseudoprime.
+It may be in our tests that we do not pick any value for "a" such that the equality fails. Any "a" such that
+when "n" is composite is known as a "Fermat liar". If we do pick an "a" such that
+then "a" is known as a "Fermat witness" for the compositeness of "n".
+"formula_5" is the modulo operation. Its result is what remains, if p is divided by n. As an example,
+What this test is used for.
+The RSA algorithm for public-key encryption can be done in such a way that it uses this test. This is useful in cryptography

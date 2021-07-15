@@ -1,0 +1,10 @@
+Fortran is a programming language first created in the 1950s. It is still in use today. It is a procedural language mainly used for scientific computing and numerical analysis.
+The first FORTRAN compiler was created in 1954-57 by a team at IBM led by John W. Backus. This compiler was the first compiler for any High level language. The authors were worried that no one would use the language if programs written in it did not run nearly as fast as programs written in assembly language. So they made it an optimizing compiler.
+Because of the heavy use by scientists doing numerical work the language grew in ways that encouraged compiler writers to produce compilers that generated high quality (fast) code. There are many high performance compiler vendors. Much work and research in compiler theory and design was caused by the need to generate good code for Fortran programs.
+Several revisions of the language have appeared, including the very well known FORTRAN IV (the same as FORTRAN 66), FORTRAN 77 and Fortran 90. The most recent formal standard for the language was published in 1997 and is known as Fortran 95.
+Initially, the language relied on precise formatting of the source code and heavy use of statement numbers and goto statements.
+Every version introduced 'modern' programming concepts, such as source code comments and output of text, IF-THEN-ELSE (in FORTRAN 77), recursion (in Fortran 90) and parallel constructs, while trying to maintain Fortran's 'lean' profile and high performance.
+Meaning and spelling of the name.
+The name "Fortran" is short for "Formula Translation". The language was formerly known as FORTRAN (and older variants of it still are). Since Fortran 90, the capitalization has been abandoned. The published formal standards use "Fortran".
+Standards.
+The two standards below reflect the current Fortran implementations.

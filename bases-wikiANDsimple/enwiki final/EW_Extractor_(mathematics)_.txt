@@ -1,0 +1,10 @@
+
+An formula_1 -extractor is a bipartite graph with formula_2 nodes on the left and formula_3 nodes on the right such that each node on the left has formula_4 neighbors (on the right), which has the added property that
+for any subset formula_5 of the left vertices of size at least formula_6, the distribution on right vertices obtained by choosing a random node in formula_5 and then following a random edge to get a node x on the right side is formula_8-close to the uniform distribution in terms of total variation distance.
+A disperser is a related graph. 
+An equivalent way to view an extractor is as a bivariate function 
+in the natural way. With this view it turns out that the extractor property is equivalent to: for any source of randomness formula_10 that gives formula_11 bits with min-entropy formula_12, the distribution formula_13 is formula_8-close to formula_15, where formula_16 denotes the uniform distribution on formula_17.
+Extractors are interesting when they can be constructed with small formula_18 relative to formula_2 and formula_3 is as close to formula_21 (the total randomness in the input sources) as possible.
+Extractor functions were originally researched as a way to "extract" randomness from weakly random sources. "See" randomness extractor.
+Using the probabilistic method it is easy to show that extractor graphs with really good parameters exist. The challenge is to find explicit or polynomial time computable examples of such graphs with good parameters. Algorithms that compute extractor (and disperser) graphs have found many applications in computer science.
+

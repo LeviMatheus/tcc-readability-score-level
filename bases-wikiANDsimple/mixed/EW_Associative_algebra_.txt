@@ -1,0 +1,66 @@
+
+In mathematics, an associative algebra is an algebraic structure with compatible operations of addition, multiplication (assumed to be associative), and a scalar multiplication by elements in some field. The addition and multiplication operations together give "A" the structure of a ring; the addition and scalar multiplication operations together give "A" the structure of a vector space over "K". In this article we will also use the term "K"-algebra"' to mean an associative algebra over the field "K". A standard first example of a "K"-algebra is a ring of square matrices over a field "K", with the usual matrix multiplication.
+A commutative algebra is an associative algebra that has a commutative multiplication, or, equivalently, an associative algebra that is also a commutative ring.
+In this article associative algebras are assumed to have a multiplicative identity, denoted 1; they are sometimes called unital associative algebras for clarification. In some areas of mathematics this assumption is not made, and we will call such structures non-unital associative algebras. We will also assume that all rings are unital, and all ring homomorphisms are unital.
+Many authors consider the more general concept of an associative algebra over a commutative ring "R", instead of a field: An "R"-algebra is an "R"-module with an associative "R"-bilinear binary operation, which also contains a multiplicative identity. For examples of this concept, if "S" is any ring with center "C", then "S" is an associative "C"-algebra.
+Definition.
+Let "R" be a commutative ring (so "R" could be a field). An associative "R"-algebra (or more simply, an "R"-algebra) is a ring
+that is also an "R"-module in such a way that the ring addition and the module addition are the same operation, and scalar multiplication satisfies
+for all "r" ∈ "R" and "x", "y" ∈ "A". (This implies that "A" is assumed to be unital, as rings are supposed to have a multiplicative identity).
+Equivalently, an associative algebra "A" is a ring together with a ring homomorphism from "R" to the center of "A". If "f" is such a homomorphism, the scalar multiplication is formula_2 (here the multiplication is the ring multiplication); if the scalar multiplication if given, the ring homomorphism is given by formula_3 (See also below).
+Every ring is an associative formula_4-algebra, where formula_4 denotes the ring of the integers.
+A is an associative algebra that is also a commutative ring.
+As a monoid object in the category of modules.
+The definition is equivalent to saying that a unital associative "R"-algebra is a monoid object in "R"-Mod (the monoidal category of "R"-modules). By definition, a ring is a monoid object in the category of abelian groups; thus, the notion of an associative algebra is obtained by replacing the category of abelian groups with the category of modules.
+Pushing this idea further, some authors have introduced a "generalized ring" as a monoid object in some other category that behaves like the category of modules. Indeed, this reinterpretation allows one to avoid making an explicit reference to elements of an algebra "A". For example, the associativity can be expressed as follows. By the universal property of a tensor product of modules, the multiplication (the "R"-bilinear map) corresponds to a unique "R"-linear map
+The associativity then refers to the identity:
+From ring homomorphisms.
+An associative algebra amounts to a ring homomorphism whose image lies in the center. Indeed, starting with a ring "A" and a ring homomorphism formula_8 whose image lies in the center of "A", we can make "A" an "R"-algebra by defining
+for all "r" ∈ "R" and "x" ∈ "A". If "A" is an "R"-algebra, taking "x" = 1, the same formula in turn defines a ring homomorphism formula_8 whose image lies in the center.
+If a ring is commutative then it equals its center, so that a commutative "R"-algebra can be defined simply as a commutative ring "A" together with a commutative ring homomorphism formula_8.
+The ring homomorphism "η" appearing in the above is often called a structure map. In the commutative case, one can consider the category whose objects are ring homomorphisms "R" → "A"; i.e., commutative "R"-algebras and whose morphisms are ring homomorphisms "A" → "A" that are under "R"; i.e., "R" → "A" → "A" is "R" → "A" (i.e., the coslice category of the category of commutative rings under "R".) The prime spectrum functor Spec then determines an anti-equivalence of this category to the category of affine schemes over Spec "R".
+How to weaken the commutativity assumption is a subject matter of noncommutative algebraic geometry and, more recently, of derived algebraic geometry. See also: generic matrix ring.
+Algebra homomorphisms.
+A homomorphism between two "R"-algebras is an "R"-linear ring homomorphism. Explicitly, formula_12 is an associative algebra homomorphism if
+The class of all "R"-algebras together with algebra homomorphisms between them form a category, sometimes denoted "R"-Alg.
+The subcategory of commutative "R"-algebras can be characterized as the coslice category "R"/CRing where CRing is the category of commutative rings.
+Examples.
+The most basic example is a ring itself; it is an algebra over its center or any subring lying in the center. In particular, any commutative ring is an algebra over any of its subrings. Other examples abound both from algebra and other fields of mathematics.
+Separable algebra.
+Let "A" be an algebra over a commutative ring "R". Then the algebra "A" is a right module over formula_23 with the action formula_24. Then, by definition, "A" is said to separable if the multiplication map formula_25 splits as an formula_26-linear map, where formula_27 is an formula_26-module by formula_29. Equivalently,
+formula_18 is separable if it is a projective module over formula_26; thus, the formula_26-projective dimension of "A", sometimes called the bidimension of "A", measures the failure of separability.
+Finite-dimensional algebra.
+Let "A" be a finite-dimensional algebra over a field "k". Then "A" is an Artinian ring.
+Commutative case.
+As "A" is Artinian, if it is commutative, then it is a finite product of Artinian local rings whose residue fields are algebras over the base field "k". Now, a reduced Artinian local ring is a field and thus the following are equivalent
+Noncommutative case.
+Since a simple Artinian ring is a (full) matrix ring over a division ring, if "A" is a simple algebra, then "A" is a (full) matrix algebra over a division algebra "D" over "k"; i.e., formula_40. More generally, if "A" is a semisimple algebra, then it is a finite product of matrix algebras (over various division "k"-algebras), the fact known as the Artin–Wedderburn theorem.
+The fact that "A" is Artinian simplifies the notion of a Jacobson radical; for an Artinian ring, the Jacobson radical of "A" is the intersection of all (two-sided) maximal ideals (in contrast, in general, a Jacobson radical is the intersection of all left maximal ideals or the intersection of all right maximal ideals.)
+The Wedderburn principal theorem states: for a finite-dimensional algebra "A" with a nilpotent ideal "I", if the projective dimension of formula_41 as an formula_42-module is at most one, then the natural surjection formula_43 splits; i.e., formula_18 contains a subalgebra formula_45 such that formula_46 is an isomorphism. Taking "I" to be the Jacobson radical, the theorem says in particular that the Jacobson radical is complemented by a semisimple algebra. The theorem is an analog of Levi's theorem for Lie algebras.
+Lattices and orders.
+Let "R" be a Noetherian integral domain with field of fractions "K" (for example, they can be formula_47). A "lattice" "L" in a finite-dimensional "K"-vector space "V" is a finitely generated "R"-submodule of "V" that spans "V"; in other words, formula_48.
+Let formula_49 be a finite-dimensional "K"-algebra. An "order" in formula_49 is an "R"-subalgebra that is a lattice. In general, there are a lot fewer orders than lattices; e.g., formula_51 is a lattice in formula_52 but not an order (since it is not an algebra).
+A "maximal order" is an order that is maximal among all the orders.
+Related concepts.
+Coalgebras.
+An associative algebra over "K" is given by a "K"-vector space "A" endowed with a bilinear map "A" × "A" → "A" having two inputs (multiplicator and multiplicand) and one output (product), as well as a morphism "K" → "A" identifying the scalar multiples of the multiplicative identity. If the bilinear map "A" × "A" → "A" is reinterpreted as a linear map (i. e., morphism in the category of "K"-vector spaces) "A" ⊗ "A" → "A" (by the universal property of the tensor product), then we can view an associative algebra over "K" as a "K"-vector space "A" endowed with two morphisms (one of the form "A" ⊗ "A" → "A" and one of the form "K" → "A") satisfying certain conditions that boil down to the algebra axioms. These two morphisms can be dualized using categorial duality by reversing all arrows in the commutative diagrams that describe the algebra axioms; this defines the structure of a coalgebra.
+There is also an abstract notion of "F"-coalgebra, where "F" is a functor. This is vaguely related to the notion of coalgebra discussed above.
+Representations.
+A representation of an algebra "A" is an algebra homomorphism "ρ" : "A" → End("V") from "A" to the endomorphism algebra of some vector space (or module) "V". The property of "ρ" being an algebra homomorphism means that "ρ" preserves the multiplicative operation (that is, "ρ"("xy") = "ρ"("x")"ρ"("y") for all "x" and "y" in "A"), and that "ρ" sends the unit of "A" to the unit of End("V") (that is, to the identity endomorphism of "V").
+If "A" and "B" are two algebras, and "ρ" : "A" → End("V") and "τ" : "B" → End("W") are two representations, then there is a (canonical) representation "A" formula_53 "B" → End("V" formula_53 "W") of the tensor product algebra "A formula_53 B" on the vector space "V formula_53 W". However, there is no natural way of defining a tensor product of two representations of a single associative algebra in such a way that the result is still a representation of that same algebra (not of its tensor product with itself), without somehow imposing additional conditions. Here, by "tensor product of representations", the usual meaning is intended: the result should be a linear representation of the same algebra on the product vector space. Imposing such additional structure typically leads to the idea of a Hopf algebra or a Lie algebra, as demonstrated below.
+Motivation for a Hopf algebra.
+Consider, for example, two representations formula_57 and formula_58. One might try to form a tensor product representation formula_59 according to how it acts on the product vector space, so that
+However, such a map would not be linear, since one would have
+for "k" ∈ "K". One can rescue this attempt and restore linearity by imposing additional structure, by defining an algebra homomorphism Δ: "A" → "A" ⊗ "A", and defining the tensor product representation as
+Such a homomorphism Δ is called a comultiplication if it satisfies certain axioms. The resulting structure is called a bialgebra. To be consistent with the definitions of the associative algebra, the coalgebra must be co-associative, and, if the algebra is unital, then the co-algebra must be co-unital as well. A Hopf algebra is a bialgebra with an additional piece of structure (the so-called antipode), which allows not only to define the tensor product of two representations, but also the Hom module of two representations (again, similarly to how it is done in the representation theory of groups).
+Motivation for a Lie algebra.
+One can try to be more clever in defining a tensor product. Consider, for example,
+so that the action on the tensor product space is given by
+This map is clearly linear in "x", and so it does not have the problem of the earlier definition. However, it fails to preserve multiplication:
+But, in general, this does not equal
+This shows that this definition of a tensor product is too naive; the obvious fix is to define it such that it is antisymmetric, so that the middle two terms cancel. This leads to the concept of a Lie algebra.
+Non-unital algebras.
+Some authors use the term "associative algebra" to refer to structures which do not necessarily have a multiplicative identity, and hence consider homomorphisms which are not necessarily unital.
+One example of a non-unital associative algebra is given by the set of all functions "f": R → R whose limit as "x" nears infinity is zero.
+Another example is the vector space of continuous periodic functions, together with the convolution product.
+

@@ -1,0 +1,104 @@
+
+In mathematics, an inner product space or a Hausdorff pre-Hilbert space is a vector space with a binary operation called an inner product. This operation associates each pair of vectors in the space with a scalar quantity known as the inner product of the vectors, often denoted using angle brackets (as in formula_1). Inner products allow the rigorous introduction of intuitive geometrical notions, such as the length of a vector or the angle between two vectors. They also provide the means of defining orthogonality between vectors (zero inner product). Inner product spaces generalize Euclidean spaces (in which the inner product is the dot product, also known as the scalar product) to vector spaces of any (possibly infinite) dimension, and are studied in functional analysis. Inner product spaces over the field of complex numbers are sometimes referred to as unitary spaces. The first usage of the concept of a vector space with an inner product is due to Giuseppe Peano, in 1898.
+An inner product naturally induces an associated norm, (|"x"| and |"y"| are the norms of and , in the picture), which canonically makes every inner product space into a normed vector space. If this normed space is also a Banach space then the inner product space is called a Hilbert space. If an inner product space is not a Hilbert space then it can be "extended" to a Hilbert space , called a completion. Explicitly, this means that is linearly and isometrically embedded onto a dense vector subspace of and that the inner product on is the unique continuous extension of the original inner product .
+Definition.
+In this article, the field of scalars denoted is either the field of real numbers formula_2 or the field of complex numbers formula_3.
+Formally, an inner product space is a vector space over the field together with a map
+called an inner product that satisfies the following conditions (1), (2), and (3) for all vectors and all scalars :
+The above three conditions are the defining properties of an inner product, which is why an inner product is sometimes (equivalently) defined as being a .
+An inner product can equivalently be defined as a positive-definite sesquilinear form.
+Assuming (1) holds, condition (3) will hold if and only if both conditions (4) and (5) below hold:
+Conditions (1) through (5) are satisfied by every inner product. 
+Elementary properties.
+Positive-definiteness and linearity, respectively, ensure that:
+Conjugate symmetry implies that is real for all , because
+Conjugate symmetry and linearity in the first variable imply
+that is, conjugate linearity in the second argument. So, an inner product is a sesquilinear form.
+This important generalization of the familiar square expansion follows:
+These properties, constituents of the above linearity in the first and second argument:
+are otherwise known as .
+In the case of formula_10 conjugate-symmetry reduces to symmetry, and sesquilinearity reduces to bilinearity. Hence an inner product on a real vector space is a . That is,
+and the binomial expansion becomes:
+Alternative definitions, notations and remarks.
+A common special case of the inner product, the scalar product or dot product, is written with a centered dot formula_13
+Some authors, especially in physics and matrix algebra, prefer to define the inner product and the sesquilinear form with linearity in the second argument rather than the first. Then the first argument becomes conjugate linear, rather than the second. In those disciplines, we would write the inner product formula_14 as (the bra–ket notation of quantum mechanics), respectively (dot product as a case of the convention of forming the matrix product , as the dot products of rows of with columns of ). Here, the kets and columns are identified with the vectors of , and the bras and rows with the linear functionals (covectors) of the dual space , with conjugacy associated with duality. This reverse order is now occasionally followed in the more abstract literature, taking to be conjugate linear in rather than . A few instead find a middle ground by recognizing both and as distinct notations—differing only in which argument is conjugate linear.
+There are various technical reasons why it is necessary to restrict the base field to formula_2 and formula_3 in the definition. Briefly, the base field has to contain an ordered subfield in order for non-negativity to make sense, and therefore has to have characteristic equal to (since any ordered field has to have such characteristic). This immediately excludes finite fields. The basefield has to have additional structure, such as a distinguished automorphism. More generally, any quadratically closed subfield of formula_2 or formula_3 will suffice for this purpose (e.g., algebraic numbers, constructible numbers). However, in the cases where it is a proper subfield (i.e., neither formula_2 nor formula_3), even finite-dimensional inner product spaces will fail to be metrically complete. In contrast, all finite-dimensional inner product spaces over formula_2 or formula_22 such as those used in quantum computation, are automatically metrically complete (and hence Hilbert spaces).
+In some cases, one needs to consider non-negative sesquilinear forms. This means that formula_23 is only required to be non-negative. Treatment for these cases are illustrated below.
+Some examples.
+Real numbers.
+A simple example is the real numbers with the standard multiplication as the inner product
+Euclidean vector space.
+More generally, the real -space formula_25 with the dot product is an inner product space, an example of a Euclidean vector space.
+where is the transpose of .
+Complex coordinate space.
+The general form of an inner product on formula_27 is known as the Hermitian form and is given by
+where is any Hermitian positive-definite matrix and is the conjugate transpose of . For the real case, this corresponds to the dot product of the results of directionally-different scaling of the two vectors, with positive scale factors and orthogonal directions of scaling. It is a weighted-sum version of the dot product with positive weights—up to an orthogonal transformation.
+Hilbert space.
+The article on Hilbert spaces has several examples of inner product spaces, wherein the metric induced by the inner product yields a complete metric space. An example of an inner product space which induces an incomplete metric is the space formula_29 of continuous complex valued functions formula_30 and formula_31 on the interval formula_32 The inner product is
+This space is not complete; consider for example, for the interval the sequence of continuous "step" functions, , defined by:
+This sequence is a Cauchy sequence for the norm induced by the preceding inner product, which does not converge to a function.
+Random variables.
+For real random variables and , the expected value of their product
+is an inner product. In this case, if and only if (i.e., almost surely). This definition of expectation as inner product can be extended to random vectors as well.
+Real matrices.
+For real square matrices of the same size, with transpose as conjugation
+is an inner product.
+Vector spaces with forms.
+On an inner product space, or more generally a vector space with a nondegenerate form (hence an isomorphism ), vectors can be sent to covectors (in coordinates, via transpose), so that one can take the inner product and outer product of two vectors—not simply of a vector and a covector.
+Norm.
+Inner product spaces are normed vector spaces for the norm defined by
+As for every normed vector space, an inner product space is a metric space, for the distance defined by
+The axioms of the inner product guarantee that the map above forms a norm, which will have the following properties.
+Real and complex parts of inner products.
+Suppose that formula_39 is an inner product on (so it is antilinear in its second argument). The polarization identity shows that the real part of the inner product is
+If formula_41 is a real vector space then
+formula_42
+and the imaginary part (also called the ) of formula_39 is always .
+Assume for the rest of this section that is a complex vector space.
+The polarization identity for complex vector spaces shows that
+The map defined by formula_45 for all formula_46 satisfies the axioms of the inner product except that it is antilinear in its , rather than its second, argument. The real part of both formula_47 and formula_14 are equal to formula_49 but the inner products differ in their complex part:
+The last equality is similar to the formula expressing a linear functional in terms of its real part.
+Let formula_51 denote formula_41 considered as a vector space over the real numbers rather than complex numbers.
+The real part of the complex inner product formula_14 is the map formula_54 which necessarily forms a real inner product on the real vector space formula_55 Every inner product on a real vector space is symmetric and bilinear.
+For example, if formula_56 with inner product formula_57 where formula_41 is a vector space over the field formula_22 then formula_60 is a vector space over formula_2 and formula_62 is the dot product formula_63 where formula_64 is identified with the point formula_65 (and similarly for formula_66). Also, had formula_14 been instead defined to be the symmetric map formula_68 (rather than the usual antisymmetric map formula_69) then its real part formula_62 would be the dot product.
+The next examples show that although real and complex inner products have many properties and results in common, they are not entirely interchangeable.
+For instance, if formula_71 then formula_72 but the next example shows that the converse is in general true.
+Given any formula_73 the vector formula_74 (which is the vector formula_75 rotated by 90°) belongs to formula_41 and so also belongs to formula_51 (although scalar multiplication of formula_75 by is not defined in formula_79 it is still true that the vector in formula_41 denoted by formula_74 is an element of formula_51). For the complex inner product, formula_83 whereas for the real inner product the value is always formula_84
+If formula_56 has the inner product mentioned above, then the map formula_86 defined by formula_87 is a non-zero linear map (linear for both formula_41 and formula_51) that denotes rotation by 90° in the plane. This map satisfies formula_90 for all vectors formula_91 where had this inner product been complex instead of real, then this would have been enough to conclude that this linear map formula_92 is identically formula_93 (i.e. that formula_94), which rotation is certainly not. In contrast, for all non-zero formula_73 the map formula_92 satisfies formula_97
+Orthonormal sequences.
+Let be a finite dimensional inner product space of dimension . Recall that every basis of consists of exactly linearly independent vectors. Using the Gram–Schmidt process we may start with an arbitrary basis and transform it into an orthonormal basis. That is, into a basis in which all the elements are orthogonal and have unit norm. In symbols, a basis is orthonormal if for every and for each .
+This definition of orthonormal basis generalizes to the case of infinite-dimensional inner product spaces in the following way. Let be any inner product space. Then a collection
+is a for if the subspace of generated by finite linear combinations of elements of is dense in (in the norm induced by the inner product). We say that is an for if it is a basis and
+if and for all .
+Using an infinite-dimensional analog of the Gram-Schmidt process one may show:
+Theorem. Any separable inner product space has an orthonormal basis.
+Using the Hausdorff maximal principle and the fact that in a complete inner product space orthogonal projection onto linear subspaces is well-defined, one may also show that
+Theorem. Any complete inner product space has an orthonormal basis.
+The two previous theorems raise the question of whether all inner product spaces have an orthonormal basis. The answer, it turns out is negative. This is a non-trivial result, and is proved below. The following proof is taken from Halmos's "A Hilbert Space Problem Book" (see the references).
+Parseval's identity leads immediately to the following theorem:
+Theorem. Let be a separable inner product space and an orthonormal basis of . Then the map
+is an isometric linear map with a dense image.
+This theorem can be regarded as an abstract form of Fourier series, in which an arbitrary orthonormal basis plays the role of the sequence of trigonometric polynomials. Note that the underlying index set can be taken to be any countable set (and in fact any set whatsoever, provided is defined appropriately, as is explained in the article Hilbert space). In particular, we obtain the following result in the theory of Fourier series:
+Theorem. Let be the inner product space . Then the sequence (indexed on set of all integers) of continuous functions
+is an orthonormal basis of the space with the inner product. The mapping
+is an isometric linear map with dense image.
+Orthogonality of the sequence follows immediately from the fact that if , then
+Normality of the sequence is by design, that is, the coefficients are so chosen so that the norm comes out to 1. Finally the fact that the sequence has a dense algebraic span, in the , follows from the fact that the sequence has a dense algebraic span, this time in the space of continuous periodic functions on with the uniform norm. This is the content of the Weierstrass theorem on the uniform density of trigonometric polynomials.
+Operators on inner product spaces.
+Several types of linear maps from an inner product space to an inner product space are of relevance:
+From the point of view of inner product space theory, there is no need to distinguish between two spaces which are isometrically isomorphic. The spectral theorem provides a canonical form for symmetric, unitary and more generally normal operators on finite dimensional inner product spaces. A generalization of the spectral theorem holds for continuous normal operators in Hilbert spaces.
+Generalizations.
+Any of the axioms of an inner product may be weakened, yielding generalized notions. The generalizations that are closest to inner products occur where bilinearity and conjugate symmetry are retained, but positive-definiteness is weakened.
+Degenerate inner products.
+If is a vector space and a semi-definite sesquilinear form, then the function:
+makes sense and satisfies all the properties of norm except that does not imply (such a functional is then called a semi-norm). We can produce an inner product space by considering the quotient }. The sesquilinear form factors through .
+This construction is used in numerous contexts. The Gelfand–Naimark–Segal construction is a particularly important example of the use of this technique. Another example is the representation of semi-definite kernels on arbitrary sets.
+Nondegenerate conjugate symmetric forms.
+Alternatively, one may require that the pairing be a nondegenerate form, meaning that for all non-zero there exists some such that , though need not equal ; in other words, the induced map to the dual space is injective. This generalization is important in differential geometry: a manifold whose tangent spaces have an inner product is a Riemannian manifold, while if this is related to nondegenerate conjugate symmetric form the manifold is a pseudo-Riemannian manifold. By Sylvester's law of inertia, just as every inner product is similar to the dot product with positive weights on a set of vectors, every nondegenerate conjugate symmetric form is similar to the dot product with weights on a set of vectors, and the number of positive and negative weights are called respectively the positive index and negative index. Product of vectors in Minkowski space is an example of indefinite inner product, although, technically speaking, it is not an inner product according to the standard definition above. Minkowski space has four dimensions and indices 3 and 1 (assignment of "+" and "−" to them differs depending on conventions).
+Purely algebraic statements (ones that do not use positivity) usually only rely on the nondegeneracy (the injective homomorphism ) and thus hold more generally.
+Related products.
+The term "inner product" is opposed to outer product, which is a slightly more general opposite. Simply, in coordinates, the inner product is the product of a with an vector, yielding a 1 × 1 matrix (a scalar), while the outer product is the product of an vector with a covector, yielding an matrix. Note that the outer product is defined for different dimensions, while the inner product requires the same dimension. If the dimensions are the same, then the inner product is the of the outer product (trace only being properly defined for square matrices). In an informal summary: "inner is horizontal times vertical and shrinks down, outer is vertical times horizontal and expands out".
+More abstractly, the outer product is the bilinear map sending a vector and a covector to a rank 1 linear transformation (simple tensor of type (1, 1)), while the inner product is the bilinear evaluation map given by evaluating a covector on a vector; the order of the domain vector spaces here reflects the covector/vector distinction.
+The inner product and outer product should not be confused with the interior product and exterior product, which are instead operations on vector fields and differential forms, or more generally on the exterior algebra.
+As a further complication, in geometric algebra the inner product and the (Grassmann) product are combined in the geometric product (the Clifford product in a Clifford algebra) – the inner product sends two vectors (1-vectors) to a scalar (a 0-vector), while the exterior product sends two vectors to a bivector (2-vector) – and in this context the exterior product is usually called the (alternatively, ). The inner product is more correctly called a product in this context, as the nondegenerate quadratic form in question need not be positive definite (need not be an inner product).
+

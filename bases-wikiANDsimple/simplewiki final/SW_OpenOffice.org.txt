@@ -1,0 +1,3 @@
+OpenOffice.org is a free open source office suite made by Sun Microsystems and the free software community. It is available for many different operating systems, including Microsoft Windows, Linux, OS X, FreeBSD and Solaris; and is meant to be an alternative to Microsoft Office. It supports Microsoft Office file formats as well as its own OpenDocument format.
+The ".org" part of the name OpenOffice.org is there because OpenOffice is already trademarked. It is often called "OOo" for short.
+OpenOffice.org is based on the older StarOffice software that was created by Sun Microsystems.

@@ -1,0 +1,6 @@
+
+In digital printing, a page description language (PDL) is a computer language that describes the appearance of a printed page in a higher level than an actual output bitmap (or generally raster graphics). An overlapping term is printer control language, which includes Hewlett-Packard's Printer Command Language (PCL). PostScript is one of the most noted page description languages. The markup language adaptation of the PDL is the page description markup language.
+Page description languages are text (human-readable) or binary data streams, usually intermixed with text or graphics to be printed. They are distinct from graphics application programming interfaces (APIs) such as GDI and OpenGL that can be called by software to generate graphical output.
+Notable examples.
+Various page description languages exist:
+

@@ -1,0 +1,10 @@
+Pidgin (also known as Gaim) is a instant messaging client that can work on Linux, Mac OS X and Windows. The software can use most instant messaging protocols, which will let the user log into different instant messaging services from one program.
+The number of Pidgin users is thought to be more than 3 million in 2007.
+Released under the terms of the GNU General Public License, Pidgin is free software.
+History.
+The program was made in or before 1999 by Mark Spencer, an Auburn University sophomore. It was made to give the features of AOL Instant Messenger for Linux.
+Naming dispute.
+The original name was GAIM, which stood for GTK+ AOL Instant Messenger. After pressure form AOL, the program was renamed to gaim.
+However, on April 6 2007, the project development team announced the results of their talks with AOL. This included some name changes: "gaim" became "Pidgin", "libgaim" became "libpurple", and "gaim-text" became "finch".
+Due to the legal problems, version 2.0 of the software was stuck in beta stages. Following the talks, it was said that the first official release of Pidgin 2.0.0 was hoped to happen during the two weeks from April 8, 2007. However, Pidgin 2.0 did not release on time, but on April 22, 2007.
+Pidgin 2.0.0 was released on May 3, 2007. This was the first version to be called Pidgin. It also contained a completely new graphics design.

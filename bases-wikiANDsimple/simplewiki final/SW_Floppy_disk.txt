@@ -1,0 +1,5 @@
+The floppy disk (or a 3½ floppy for today's standard) is a magnetic storage medium mainly used for computers and laptops. A floppy drive is the part of the computer that reads from and writes to the floppy disk.
+Floppy disks store less data than a CD-ROM or USB flash drive. A current 3½ inch floppy can take 1.44 megabytes of data. This is usually enough for text documents. Special floppies were made to hold 2.88 MB of data, but they were not commonly available.
+Floppies have been around since the early 1970s (known as the 8-inch floppy then). Today, floppy disks have been replaced by other storage media, like memory sticks. A few years ago, the Zip Disk was made as a replacement for floppies.
+The floppy drive.
+A floppy drive (often called drive “A” on a computer) can be connected to or installed in a personal computer (PC). It is the part of a computer that reads and writes the disk that can be removed. A disk, often called a "floppy disk", is used to store files and carry them from one computer to another by using the floppy drive. The floppy drive reads the disk (or diskette) and the user is then able to open and change the files saved on the disk.

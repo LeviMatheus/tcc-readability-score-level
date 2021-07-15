@@ -1,0 +1,45 @@
+
+Ampicillin is an antibiotic used to prevent and treat a number of bacterial infections, such as respiratory tract infections, urinary tract infections, meningitis, salmonellosis, and endocarditis. It may also be used to prevent group B streptococcal infection in newborns. It is used by mouth, by injection into a muscle, or intravenously.
+Common side effects include rash, nausea, and diarrhea. It should not be used in people who are allergic to penicillin. Serious side effects may include "Clostridium difficile" colitis or anaphylaxis. While usable in those with kidney problems, the dose may need to be decreased. Its use during pregnancy and breastfeeding appears to be generally safe.
+Ampicillin was discovered in 1958 and came into commercial use in 1961. It is on the World Health Organization's List of Essential Medicines. The World Health Organization classifies ampicillin as critically important for human medicine. It is available as a generic medication.
+Medical uses.
+Diseases.
+Ampicillin used to also be used to treat gonorrhea, but there are now too many strains resistant to penicillins.
+Bacteria.
+Ampicillin is used to treat infections by many Gram-positive and Gram-negative bacteria. It was the first "broad spectrum" penicillin with activity against Gram-positive bacteria, including "Streptococcus pneumoniae", "Streptococcus pyogenes", some isolates of "Staphylococcus aureus" (but not penicillin-resistant or methicillin-resistant strains), "Trueperella", and some "Enterococcus". It is one of the few antibiotics that works against multidrug resistant "Enterococcus faecalis" and "E. faecium". Activity against Gram-negative bacteria includes "Neisseria meningitidis", some "Haemophilus influenzae", and some of the Enterobacteriaceae (though most Enterobacteriaceae and "Pseudomonas" are resistant). Its spectrum of activity is enhanced by co-administration of sulbactam, a drug that inhibits beta lactamase, an enzyme produced by bacteria to inactivate ampicillin and related antibiotics. It is sometimes used in combination with other antibiotics that have different mechanisms of action, like vancomycin, linezolid, daptomycin, and tigecycline.
+Available forms.
+Ampicillin can be administered by mouth, an intramuscular injection (shot) or by intravenous infusion. The oral form, available as capsules or oral suspensions, is not given as an initial treatment for severe infections, but rather as a follow-up to an IM or IV injection. For IV and IM injections, ampicillin is kept as a powder that must be reconstituted.
+IV injections must be given slowly, as rapid IV injections can lead to convulsive seizures.
+Specific populations.
+Ampicillin is one of the most used drugs in pregnancy, and has been found to be generally harmless both by the Food and Drug Administration in the U.S. (which classified it as category B) and the Therapeutic Goods Administration in Australia (which classified it as category A). It is the drug of choice for treating "Listeria monocytogenes" in pregnant women, either alone or combined with an aminoglycoside. Pregnancy increases the clearance of ampicillin by up to 50%, and a higher dose is thus needed to reach therapeutic levels.
+Ampicillin crosses the placenta and remains in the amniotic fluid at 50–100% of the concentration in maternal plasma; this can lead to high concentrations of ampicillin in the newborn.
+While lactating mothers secrete some ampicillin into their breast milk, the amount is minimal.
+In newborns, ampicillin has a longer half-life and lower plasma protein binding. The clearance by the kidneys is lower, as kidney function has not fully developed.
+Contraindications.
+Ampicillin is contraindicated in those with a hypersensitivity to penicillins, as they can cause fatal anaphylactic reactions. Hypersensitivity reactions can include frequent skin rashes and hives, exfoliative dermatitis, erythema multiforme, and a temporary decrease in both red and white blood cells.
+Ampicillin is not recommended in people with concurrent mononucleosis, as over 40% of patients develop a skin rash.
+Side effects.
+Ampicillin is comparatively less toxic than other antibiotics, and side effects are more likely in those who are sensitive to penicillins and those with a history of asthma or allergies. In very rare cases, it causes severe side effects such as angioedema, anaphylaxis, and "C. difficile" infection (that can range from mild diarrhea to serious pseudomembranous colitis). Some develop black "furry" tongue. Serious adverse effects also include seizures and serum sickness. The most common side effects, experienced by about 10% of users are diarrhea and rash. Less common side effects can be nausea, vomiting, itching, and blood dyscrasias. The gastrointestinal effects, such as hairy tongue, nausea, vomiting, diarrhea, and colitis, are more common with the oral form of penicillin. Other conditions may develop up several weeks after treatment.
+Overdose.
+Ampicillin overdose can cause behavioral changes, confusion, blackouts, and convulsions, as well as neuromuscular hypersensitivity, electrolyte imbalance, and kidney failure.
+Interactions.
+Ampicillin reacts with probenecid and methotrexate to decrease renal excretion. Large doses of ampicillin can increase the risk of bleeding with concurrent use of warfarin and other oral anticoagulants, possibly by inhibiting platelet aggregation. Ampicillin has been said to make oral contraceptives less effective, but this has been disputed. It can be made less effective by other antibiotic, such as chloramphenicol, erythromycin, cephalosporins, and tetracyclines. For example, tetracyclines inhibit protein synthesis in bacteria, reducing the target against which ampicillin acts. If given at the same time as aminoglycosides, it can bind to it and inactivate it. When administered separately, aminoglycosides and ampicillin can potentiate each other instead.
+Ampicillin causes skin rashes more often when given with allopurinol.
+Both the live cholera vaccine and live typhoid vaccine can be made ineffective if given with ampicillin. Ampicillin is normally used to treat cholera and typhoid fever, lowering the immunological response that the body has to mount.
+Pharmacology.
+Mechanism of action.
+Ampicillin is in the penicillin group of beta-lactam antibiotics and is part of the aminopenicillin family. It is roughly equivalent to amoxicillin in terms of activity. Ampicillin is able to penetrate Gram-positive and some Gram-negative bacteria. It differs from penicillin G, or benzylpenicillin, only by the presence of an amino group. This amino group, present on both ampicillin and amoxicillin, helps these antibiotics pass through the pores of the outer membrane of Gram-negative bacteria, such as "E. coli", "Proteus mirabilis", "Salmonella enterica", and "Shigella".
+Ampicillin acts as an irreversible inhibitor of the enzyme transpeptidase, which is needed by bacteria to make the cell wall. It inhibits the third and final stage of bacterial cell wall synthesis in binary fission, which ultimately leads to cell lysis; therefore, ampicillin is usually bacteriolytic.
+Pharmacokinetics.
+Ampicillin is well-absorbed from the GI tract (though food reduces its absorption), and reaches peak concentrations in one to two hours. The bioavailability is around 62% for parenteral routes. Unlike other penicillins, which usually bind 60–90% to plasma proteins, ampicillin binds to only 15–20%.
+Ampicillin is distributed through most tissues, though it is concentrated in the liver and kidneys. It can also be found in the cerebrospinal fluid when the meninges become inflamed (such as, for example, meningitis). Some ampicillin is metabolized by hydrolyzing the beta-lactam ring to penicilloic acid, though most of it is excreted unchanged. In the kidneys, it is filtered out mostly by tubular secretion; some also undergoes glomerular filtration, and the rest is excreted in the feces and bile.
+Hetacillin and pivampicillin are ampicillin esters that have been developed to increase bioavailability.
+History.
+Ampicillin has been used extensively to treat bacterial infections since 1961. Until the introduction of ampicillin by the British company Beecham, penicillin therapies had only been effective against Gram-positive organisms such as staphylococci and streptococci. Ampicillin (originally branded as "Penbritin") also demonstrated activity against Gram-negative organisms such as "H. influenzae", coliforms, and "Proteus" spp.
+Cost.
+Ampicillin is relatively inexpensive. In the United States, it is available as a generic medication.
+Veterinary use.
+In veterinary medicine, ampicillin is used in cats, dogs, and farm animals to treat:
+Horses are generally not treated with ampicillin, as they have low bioavailability of beta-lactams.
+The half-life in animals is around that same of that in humans (just over an hour). Oral absorption is less than 50% in cats and dogs, and less than 4% in horses.
+

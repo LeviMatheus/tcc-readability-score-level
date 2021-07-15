@@ -1,0 +1,51 @@
+
+In physics, optical depth or optical thickness is the natural logarithm of the ratio of "incident" to "transmitted" radiant power through a material.
+Thus, the larger the optical depth, the smaller the amount of transmitted radiant power through the material. 
+Spectral optical depth or spectral optical thickness is the natural logarithm of the ratio of incident to transmitted spectral radiant power through a material. Optical depth is dimensionless, and in particular is not a length, though it is a monotonically increasing function of optical path length, and approaches zero as the path length approaches zero. The use of the term "optical density" for optical depth is discouraged.
+In chemistry, a closely related quantity called "absorbance" or "decadic absorbance" is used instead of optical depth: the "common logarithm" of the ratio of incident to "transmitted" radiant power through a material, that is the optical depth divided by ln 10.
+Mathematical definitions.
+Optical depth.
+Optical depth of a material, denoted formula_1, is given by:
+where
+Absorbance is related to optical depth by:
+where "A" is the absorbance.
+Spectral optical depth.
+Spectral optical depth in frequency and spectral optical depth in wavelength of a material, denoted "τ"ν and "τ"λ respectively, are given by:
+where
+Spectral absorbance is related to spectral optical depth by:
+where
+Relationship with attenuation.
+Attenuation.
+Optical depth measures the attenuation of the transmitted radiant power in a material. Attenuation can be caused by absorption, but also reflection, scattering, and other physical processes. Optical depth of a material is approximately equal to its attenuation when both the absorbance is much less than 1 and the emittance of that material (not to be confused with radiant exitance or emissivity) is much less than the optical depth:
+where
+and according to Beer–Lambert law,
+so:
+Attenuation coefficient.
+Optical depth of a material is also related to its "attenuation coefficient" by:
+where
+and if "α"("z") is uniform along the path, the attenuation is said to be a "linear attenuation" and the relation becomes:
+Sometimes the relation is given using the "attenuation cross section" of the material, that is its attenuation coefficient divided by its number density:
+where
+and if formula_15 is uniform along the path, i.e., formula_16, the relation becomes:
+Applications.
+Atomic physics.
+In atomic physics, the spectral optical depth of a cloud of atoms can be calculated from the quantum-mechanical properties of the atoms. It is given by
+where
+Atmospheric sciences.
+In atmospheric sciences, one often refers to the optical depth of the atmosphere as corresponding to the vertical path from Earth's surface to outer space; at other times the optical path is from the observer's altitude to outer space. The optical depth for a slant path is , where "τ′" refers to a vertical path, "m" is called the relative airmass, and for a plane-parallel atmosphere it is determined as where "θ" is the zenith angle corresponding to the given path. Therefore,
+The optical depth of the atmosphere can be divided into several components, ascribed to Rayleigh scattering, aerosols, and gaseous absorption. The optical depth of the atmosphere can be measured with a sun photometer.
+The optical depth with respect to the height within the atmosphere is given by
+formula_20 
+and it follows that the total atmospheric optical depth is given by
+formula_21 
+In both equations:
+The optical depth of a plane parallel cloud layer is given by
+formula_22
+where:
+So, with a fixed depth and total liquid water path,
+formula_23 
+Astronomy.
+In astronomy, the photosphere of a star is defined as the surface where its optical depth is 2/3. This means that each photon emitted at the photosphere suffers an average of less than one scattering before it reaches the observer. At the temperature at optical depth 2/3, the energy emitted by the star (the original derivation is for the Sun) matches the observed total energy emitted.
+Note that the optical depth of a given medium will be different for different colors (wavelengths) of light.
+For planetary rings, the optical depth is the (negative logarithm of the) proportion of light blocked by the ring when it lies between the source and the observer. This is usually obtained by observation of stellar occultations.
+

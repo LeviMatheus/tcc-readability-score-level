@@ -1,0 +1,36 @@
+
+A hull is the watertight body of a ship, boat, or flying boat. The hull may open at the top (such as a dinghy), or it may be fully or partially covered with a deck. Atop the deck may be a deckhouse and other superstructures, such as a funnel, derrick, or mast. The line where the hull meets the water surface is called the waterline.
+General features.
+There is a wide variety of hull types that are chosen for suitability for different usages, the hull shape being dependent upon the needs of the design. Shapes range from a nearly perfect box in the case of scow barges to a needle-sharp surface of revolution in the case of a racing multihull sailboat. The shape is chosen to strike a balance between cost, hydrostatic considerations (accommodation, load carrying, and stability), hydrodynamics (speed, power requirements, and motion and behavior in a seaway) and special considerations for the ship's role, such as the rounded bow of an icebreaker or the flat bottom of a landing craft.
+In a typical modern steel ship, the hull will have watertight decks, and major transverse members called bulkheads. There may also be intermediate members such as girders, stringers and webs, and minor members called ordinary transverse frames, frames, or longitudinals, depending on the structural arrangement. The uppermost continuous deck may be called the "upper deck", "weather deck", "spar deck", "main deck", or simply "deck". The particular name given depends on the context—the type of ship or boat, the arrangement, or even where it sails.
+In a typical wooden sailboat, the hull is constructed of wooden planking, supported by transverse frames (often referred to as ribs) and bulkheads, which are further tied together by longitudinal stringers or ceiling. Often but not always there is a centerline longitudinal member called a keel. In fiberglass or composite hulls, the structure may resemble wooden or steel vessels to some extent, or be of a monocoque arrangement. In many cases, composite hulls are built by sandwiching thin fiber-reinforced skins over a lightweight but reasonably rigid core of foam, balsa wood, impregnated paper honeycomb, or other material.
+Perhaps the earliest proper hulls were built by the Ancient Egyptians, who by 3000 BC knew how to assemble wooden planks into a hull.
+Hull shapes.
+Hulls come in many varieties and can have composite shape, (e.g., a fine entry forward and inverted bell shape aft), but are grouped primarily as follows:
+Hull forms.
+At present, the most widely used form is the round bilge hull. It gives hulls the rough cross-sectional shape of an inverted bell. 
+With a small payload, such a craft has less of its hull below the waterline, giving less resistance and more speed. With a greater payload, resistance is greater and speed lower, but the hull's outward bend provides smoother performance in waves. As such, the inverted bell shape is a popular form used with planing hulls.
+Chined and hard-chined hulls.
+A chined hull does not have a smooth rounded lower cross-section. Instead, its contours are interrupted by hard angles where components of the hull meet underwater. The sharper the intersection ( the more acute the angle ), the “harder“ the chine. 
+The Cajun "pirogue" is an example of a craft with hard chines. 
+Benefits of this type of hull include potentially lower production cost and a (usually) fairly flat bottom, making the boat faster at planing. A chined hull resists rolling ( in smooth water ) more than does a smooth bilge hull ( the chine creates turbulence/drag, as it moves through the water, the smooth-bilge just slips down or up ). In rough seas, this can make the boat roll more, as the waves' water drags 1st down, then up, on a chine: round-bilge boats are more seakindly in waves, as a result.
+Chined hulls may have one of three shapes:
+Each of these chine hulls has its own unique characteristics and use. The flat-bottom hull has high initial stability but high drag. To counter the high drag, hull forms are narrow and sometimes severely tapered at bow and stern. This leads to poor stability when heeled in a sailboat. This is often countered by using heavy interior ballast on sailing versions. They are best suited to sheltered inshore waters. Early racing power boats were fine forward and flat aft. This produced maximum lift and a smooth, fast ride in flat water, but this hull form is easily unsettled in waves. The multi-chine hull approximates a curved hull form. It has less drag than a flat-bottom boat. Multi chines are more complex to build but produce a more seaworthy hull form. They are usually displacement hulls. V or arc-bottom chine boats have a Vshape between 6and 23degrees. This is called the deadrise angle. The flatter shape of a 6-degree hull will plane with less wind or a lower-horsepower engine but will pound more in waves. The deep Vform (between 18and 23degrees) is only suited to high-powered planing boats. They require more powerful engines to lift the boat onto the plane but give a faster, smoother ride in waves.
+Displacement chined hulls have more wetted surface area, hence more drag, than an equivalent round-hull form, for any given displacement.
+Smooth curve hulls.
+Smooth curve hulls are hulls that use, just like the curved hulls, a centreboard, or an attached keel.
+Semi round bilge hulls are somewhat less round. The advantage of the semi-round is that it is a nice middle between the S-bottom and chined hull. Typical examples of a semi-round bilge hull can be found in the Centaur and Laser cruising dinghies.
+S-bottom hulls are hulls shaped like an "s". In the s-bottom, the hull runs smooth to the keel, as there are no sharp corners on the exterior. Boats with this hull have a fixed keel, or a "kielmidzwaard" (literally "keel with sword"). This is a short fixed keel, with a swing keel inside. Examples of cruising dinghies that use this s-shape are the Yngling and Randmeer.
+Metrics.
+Hull forms are defined as follows:
+Block measures that define the principal dimensions. They are:
+Form derivatives that are calculated from the shape and the block measures. They are:
+Coefficients help compare hull forms as well:
+formula_1
+formula_2
+formula_3
+formula_4
+formula_5
+Computer-aided design.
+Use of computer-aided design has superseded paper-based methods of ship design that relied on manual calculations and lines drawing. Since the early 1990s, a variety of commercial and freeware software packages specialized for naval architecture have been developed that provide 3D drafting capabilities combined with calculation modules for hydrostatics and hydrodynamics. These may be referred to as geometric modeling systems for naval architecture.
+

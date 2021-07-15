@@ -1,0 +1,59 @@
+For the majority of numbered asteroids, almost nothing is known apart from a few physical parameters. Hundreds of these (See) have their own Wikipedia page, where the only information is their name and discovery circumstances plus a table of orbital elements and some physical characteristics (often only estimated).
+The aim of this page is to provide a reference explaining where the physical data for such generic asteroids comes from.
+Please note that due to the various ages of the single asteroid articles, the reference below may not be accurate for all asteroid articles.
+Dimensions.
+Data from the IRAS minor planet survey
+or the Midcourse Space Experiment (MSX) minor planet survey (available at the Planetary Data System Small Bodies Node (PDS)) is the usual source of the diameter.
+For many asteroids, lightcurve analysis provides estimates of pole direction and diameter ratios. Pre-1995 estimates collected by Per Magnusson are tabulated in the PDS, with the most reliable data being the "syntheses" labeled in the data tables as "Synth". More recent determinations for several dozens of asteroids are collected at the web page of a Finnish research group in Helsinki which is running a systematic campaign to determine poles and shape models from lightcurves.
+Mass.
+Barring detailed mass determinations, the mass "M" can be estimated from the diameter and (assumed) density values "ρ" worked out as below.
+Such estimates can be indicated as approximate by use of a tilde "~". Besides these "guesstimates", masses can be obtained for the larger asteroids by solving for the perturbations they cause in each others' orbits, or when the asteroid has an orbiting companion of known orbital radius. The masses of the largest asterois 1 Ceres, 2 Pallas, and 4 Vesta can also be obtained from perturbations of Mars.
+While these perturbations are tiny, they can be accurately measured from radar ranging data from the Earth to spacecraft on the surface of Mars, such as the Viking landers.
+Density.
+Apart from a few asteroids whose densities have been investigated, one has to resort to enlightened guesswork.
+For many asteroids a value of "ρ"~2 g/cm3 has been assumed.
+However, a better guess can be obtained by taking into account the asteroid's spectral type. A recent paper gives calculations for the mean densities of C, S, and M class asteroids as 1.38, 2.71, and 5.32 g/cm3. (Here "C" included Tholen classes C, D, P, T, B, G, and F, while "S" included Tholen classes S, K, Q, V, R, A, and E). Assuming these values (rather than the present ~2 g/cm3) is a better guess.
+Spherical body.
+For a spherical body, the gravitational acceleration at the surface ("g"), is given by
+Where "G" = 6.6742 m3s−2kg−1 is the gravitational constant, "M" is the mass of the body, and "r" its radius.
+Irregular body.
+For irregularly shaped bodies, the surface gravity will differ appreciably with location.
+At the outermost point/s, where the distance to the centre of mass is the greatest, the surface gravity is still given by the above formula, slightly modified to use the largest radius formula_7
+because all the body's mass is contained within this radius.
+At other locations, the calculation becomes more involved because the mass "inside" a given radius to the center contributes normally, while the parts of the body that are more outlying contribute to a lesser degree. The value of "g" at surface points closer to the center of mass is usually somewhat greater that formula_9.
+Centrifugal force.
+On a rotating body, the apparent weight experienced by an object on the surface is reduced by the centrifugal force, when one is away from the poles. The centrifugal acceleration experienced at a latitude θ is
+where "T" is the rotation period in seconds, "r" is the equatorial radius, and θ is the latitude. Its magnitude is maximized when one is at the equator, and sinθ=1. The negative sign indicates that it acts in the opposite direction to the gravitational acceleration "g".
+Close binaries.
+If the body in question is a member of a close binary with components of comparable mass, the effect of the second body may also be non-negligible.
+Rotation period.
+Rotation period is usually taken from lightcurve parameters at the PDS.
+Spectral class.
+Spectral class is usually taken from the Tholen classification at the PDS.
+Absolute magnitude.
+Absolute magnitude is usually given by the IRAS minor planet survey or the MSX minor planet survey (available at the PDS).
+Albedo.
+Usually given by the IRAS minor planet survey or the MSX minor planet survey (available at the PDS). These are "geometric albedos". If there is no IRAS/MSX data a rough average of 0.1 can be used.
+Mean.
+The simplest method which gives sensible results is to assume the asteroid
+where formula_14 is the asteroid albedo (precisely, the Bond albedo), formula_15 its semi-major axis, formula_16 is the solar luminosity (i.e. total power output 3.827×1026 W), and formula_17 the asteroid's radius. It has been assumed that: the absorptivity is formula_18, the asteroid is spherical, it is on a circular orbit, and that the Sun's energy output is isotropic.
+where formula_20 is the Stefan-Boltzmann constant (5.6704×10-8 W/m²K4), formula_21 is the temperature in kelvins, and formula_22 is the asteroid's infra-red emissivity. Equating formula_23, one obtains
+The standard value of formula_25=0.9, estimated from detailed observations of a few of the large asteroids is used.
+While this method gives a fairly good estimate of the average surface temperature, the local temperature varies greatly, as is typical for bodies without atmospheres.
+Maximum.
+A rough estimate of the maximum temperature can be obtained by assuming that when the sun is overhead, the surface is in thermal equilibrium with the instantaneous solar radiation. This gives "average" "sub-solar" temperature of
+where formula_21 is the average temperature calculated as above.
+At "perihelion", the radiation is maximised, and
+where formula_29 is the eccentricity of the orbit.
+Temperature measurements and regular temperature variations.
+Infra-red observations are commonly combined with albedo to measure the temperature more directly. For example L.F.Lim et al [Icarus, Vo. 173, 385 (2005)] does this for 29 asteroids. However, it should be pointed out that these are measurements for "a particular observing day", and that the asteroid's surface temperature will change in a regular way depending on its distance from the Sun. From the Stefan-Boltzmann calculation above,
+where formula_31 is the distance from the Sun on any particular day. If the day of the relevant observations is known, the distance from the Sun on that day can be obtained online from e.g. the NASA orbit calculator, and corresponding temperature estimates at perihelion, aphelion, etc. can be obtained from the expression above.
+Albedo inaccuracy problem.
+There is a snag when using these expressions to estimate the temperature of a particular asteroid. The calculation requires the Bond albedo "A" (the proportion of total incoming power reflected, taking into account all directions), while the IRAS and MSX albedo data that is available for asteroids gives only the geometric albedo "p" which characterises only the strength of light reflected back to the source (the Sun).
+While these two albedos are correlated, the numerical factor between them depends in a very nontrivial way on the surface properties. Actual measurements of Bond albedo are not forthcoming for the majority of asteroids because they require measurements from high phase angles that can only be acquired by spacecraft that pass near or beyond the asteroid belt. Some complicated modelling of surface and thermal properties can lead to estimates of the Bond albedo given the geometric one, but this far is beyond the scope of a quick estimate for these articles. It can be obtained for some asteroids from scientific publications.
+For want of a better alternative for most asteroids, the best that can be done here is to assume that these two albedos are equal, but keep in mind that there is an inherent inaccuracy in the resulting temperature values.
+A glance at the examples in this table shows that for bodies in the asteroid albedo range, the typical difference between Bond and geometric albedo is 20% or less, with either quantity capable of being larger. Since the calculated temperature varies as (1-"A")1/4, the dependence is fairly weak for typical asteroid "A"≈"p" values of 0.05−0.3.
+The typical inaccuracy in calculated temperature "from this source alone" is then found to be about 2%. This translates to an uncertainty of about ±5 K for maximum temperatures.
+Other common data.
+Some other information for large numbers of asteroids can be found at the Planetary Data System Small Bodies Node. Up-to date information on pole orientation of several dozen asteroids is provided by Dr., Doc. Mikko Kaasalainen, and can be used to determine axial tilt.
+Another source of useful information is NASA's orbit calculator.

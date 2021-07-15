@@ -1,0 +1,5 @@
+
+In telecommunication, a combat-net radio (CNR) is a radio operating in a network that (a) provides a half-duplex circuit and (b) uses either a single radio frequency or a discrete set of radio frequencies when in a frequency hopping mode.
+CNRs are primarily used for push-to-talk-operated radio nets for command and control of combat, combat support, and combat service support operations among military ground, sea, and air forces.
+In the United States, two military standards govern the use of combat net radios and the host applications that communicate over the network: MIL-STD-188-220 and MIL-STD-2045-47001. In addition to IETF RFCs governing UDP, TCP, and IPv4/IPv6, all seven layers of the OSI communications architecture are addressed. MIL-STD-2045-47001 covers layer 7 (application), while MIL-STD-188-220 covers layers 1 through 3 (physical, data link, and network).
+

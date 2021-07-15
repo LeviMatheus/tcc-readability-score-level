@@ -1,0 +1,13 @@
+"Sauerbraten" (also known as "Cube 2" or "Sauer", German for "“sour roast”") is a cross-platform, "Quake"-like, first-person shooter computer game that runs on Microsoft Windows, Linux, FreeBSD and Mac OS X using OpenGL and SDL. The game features single-player and multiplayer game play and contains an in-game level editor, its main feature. The game engine is free and open source software, under the Zlib License, with commercial support available from the developer's own business counterpart.
+The game started as a redesign to the original Cube Engine, and its first release was made on May 6, 2004. The most recent sauerbraten game, called "Sauerbraten CTF Edition", was given on June 17, 2008.
+Technology.
+Sauerbraten was made out of the game Cube, but is much more advanced and a player can create new levels. Sauerbraten was not made to look very good, but to allow easy map making within the game without making a big download. Sauerbraten CTF edition is less than 350 megabytes. The game Crysis is around 3,000 megabytes.
+Map editing.
+Maps are made of cubes and can be made longer or shorter and can be made round. This is called "what you see is what you get" editing. People can add a lot of detail to maps very quickly. Cube 2's doesn't need expesnive graphics cards but can produce high quality graphics.
+Programming.
+Cube 2 is programmed on high quality computers but can also be run on very low quality computers.
+Gameplay.
+The game has singleplayer and multiplayer modes. Multiplayer can be with LAN and Internet connection. Online game types are deathmatch, last man standing,"Capture" (where teams fight for control of parts on the map), Quake-style Capture the Flag, also instant-shot games (Instagib, Insta-clan-arena, insta-capture) as well as online multiplayer map editing, which is one of Sauerbraten's most interesting and popular features. In single player modes the computer controls monsters against you.
+Media.
+The game has been shown in a Burger King television commercial, it received four out of five stars in a MacWorld UK review, and the game was mentioned in Issue 3 of (as well as their 101 Free Games Article), where it was described as being "perfect for both stingy and creative gamers alike".
+The CTF edition was given a long review by Phoronix, a website focused on Linux and software reviews, as well as Linux.com, a website providing news related to free and open source software.

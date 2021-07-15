@@ -1,0 +1,1 @@
+In Statistics, a null hypothesis is a hypothesis. It is made so that it can be proven to be false, by the numbers. Another hypothesis, called Alternernative hypothesis is then proved to be true, by proving that the null hypothesis is false.

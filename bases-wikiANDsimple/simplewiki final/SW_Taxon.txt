@@ -1,0 +1,6 @@
+A taxon (plural taxa), or taxonomic unit, is a name that means an organism or group of organisms.
+One can assign a rank to a taxon and can place at a particular level in a systematic hierarchy depending on their evolutionary relationships.
+One has to distinct between taxa/taxonomy and classification/systematics. Taxonomy refers to biological names and the rules of naming. Classification refers to rank ordering of taxa according to presumptive evolutionary (phylogenetic) relationships.
+Note: "Phylum" applies formally to any biologial domain but traditionally it was always used of animals whereas "Division" was traditionally often used of plants, fungi etc.
+A simple phrase to remember the order is
+"Dignified Kings Play Chess On Fine Green Silk".

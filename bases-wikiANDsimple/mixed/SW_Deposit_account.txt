@@ -1,0 +1,1 @@
+A Deposit Account is an account at a bank where money can be put in or taken out by whoever owns the account. Each time money is moved, it is recorded in the bank's books. Some banks charge a fee for this.

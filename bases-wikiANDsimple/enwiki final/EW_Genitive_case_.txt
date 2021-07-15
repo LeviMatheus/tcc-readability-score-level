@@ -1,0 +1,126 @@
+
+In grammar, the genitive case (abbreviated ), is the grammatical case that marks a word, usually a noun, as modifying another word, also usually a noun—thus, indicating an attributive relationship of one noun to the other noun. A genitive can also serve purposes indicating other relationships. For example, some verbs may feature arguments in the genitive case; and the genitive case may also have adverbial uses (see adverbial genitive).
+Genitive construction includes the genitive case, but is a broader category. Placing a modifying noun in the genitive case is one way of indicating that it is related to a head noun, in a genitive construction. However, there are other ways to indicate a genitive construction. For example, many Afroasiatic languages place the head noun (rather than the modifying noun) in the construct state.
+Possessive grammatical constructions, including the possessive case, may be regarded as a subset of genitive construction. For example, the genitive construction "pack of dogs" is similar, but not identical in meaning to the possessive case "dogs' pack" (and neither of these is entirely interchangeable with "dog pack", which is neither genitive nor possessive). Modern English is an example of a language that has a possessive case rather than a "conventional" genitive case. That is, Modern English indicates a genitive construction with either the possessive clitic suffix "-", or a prepositional genitive construction such as "x of y". However, some irregular English pronouns do have possessive forms which may more commonly be described as genitive (see English possessive). The names of the astronomical constellations have genitive forms which are used in star names, for example the star Mintaka in the constellation Orion (genitive Orionis) is also known as Delta Orionis or 34 Orionis. 
+Many languages have a genitive case, including Albanian, Arabic, Armenian, Basque, Czech, Estonian, Finnish, Georgian, German, Greek, Gothic, Hungarian, Icelandic, Irish, Latin, Latvian, Lithuanian, Romanian, Sanskrit, Scottish Gaelic, Swedish, Kannada, Tamil, Telugu, Turkish and all Slavic languages except Bulgarian and Macedonian.
+Functions.
+Depending on the language, specific varieties of genitive-noun–main-noun relationships may include:
+Depending on the language, some of the relationships mentioned above have their own distinct cases different from the genitive.
+Possessive pronouns are distinct pronouns, found in Indo-European languages such as English, that function like pronouns inflected in the genitive. They are considered separate pronouns if contrasting to languages where pronouns are regularly inflected in the genitive. For example, English "my" is either a separate possessive adjective or an irregular genitive of "I", while in Finnish, for example, "minun" is regularly agglutinated from "minu-" "I" and "-n" (genitive).
+In some languages, nouns in the genitive case also agree in case with the nouns they modify (that is, it is marked for two cases). This phenomenon is called suffixaufnahme.
+In some languages, nouns in the genitive case may be found in inclusio – that is, between the main noun's article and the noun itself.
+Chinese.
+Cantonese.
+The particle 嘅 ("ge") or the possessed noun's classifier is used to denote possession for singular nouns, while the particle 啲 ("dī") is used for plural nouns.
+Examples (In Yale transcription):
+Hokkien.
+The Hokkien possessive is constructed by using the suffix "ê" (的 or 个 or 兮) to make the genitive case. For example:
+It also uses the suffix "chi" (之) for classical or official cases. For example:
+Some of the Hokkien singular pronouns play the roles of possessive determiners with their nasalized forms. For example: (see Hokkien pronouns)
+Still, suffix "ê" is available for pronouns to express the genitive. For example:
+Mandarin.
+In Mandarin Chinese, the genitive case is made by use of the particle 的 (de).
+For instance: 我的猫 "wǒ de māo" (my cat).
+However, about persons in relation to oneself, 的 is often dropped when the context allows for it to be easily understood.
+For instance: 我妈妈 "wǒ māmā" and 我的妈妈 "wǒ de māmā" both mean "my mother".
+English.
+Old English had a genitive case, which has left its mark in modern English in the form of the possessive ending "'s" (now sometimes referred to as the "Saxon genitive"), as well as possessive pronoun forms such as "his", "theirs", etc., and in certain words derived from adverbial genitives such as "once" and "afterwards". (Other Old English case markers have generally disappeared completely.) The modern English possessive forms are not normally considered to represent a grammatical case, although they are sometimes referred to as genitives or as belonging to a possessive case. One of the reasons that the status of "’s" as a case ending is often rejected is that it does not behave as such, but rather as a clitic marking that indicates that a dependency relationship exists between phrases. One can say "the Queen’s dress", but also "the Queen of England’s dress", where the genitive marker is completely separated from the actual possessor. If it were a genitive case as many other languages have (including Old English), one would expect something like "*the Queen’s of England dress" or, to emulate languages with a single consistent genitive case, "*the England’s queen’s dress".
+Finnic genitives and accusatives.
+Finnic languages (Finnish, Estonian, etc.) have genitive cases.
+In Finnish, prototypically the genitive is marked with "-n", e.g. "maa – maan" "country – of the country". The stem may change, however, with consonant gradation and other reasons. For example, in certain words ending in consonants, "-e-" is added, e.g. "mies – miehen" "man – of the man", and in some, but not all words ending in "-i", the "-i" is changed to an "-e-", to give "-en", e.g. "lumi – lumen" "snow – of the snow". The genitive is used extensively, with animate and inanimate possessors. In addition to the genitive, there is also a partitive case (marked "-ta/-tä" or "-a/-ä") used for expressing that something is a part of a larger mass, e.g. "joukko miehiä" "a group of men".
+In Estonian, the genitive marker "-n" has elided with respect to Finnish. Thus, the genitive always ends with a vowel, and the singular genitive is sometimes (in a subset of words ending with a vocal in nominative) identical in form to nominative.
+In Finnish, in addition to the uses mentioned above, there is a construct where the genitive is used to mark a surname. For example, "Juhani Virtanen" can be also expressed "Virtasen Juhani" ("Juhani of the Virtanens").
+A complication in Finnic languages is that the accusative case "-(e)n" is homophonic to the genitive case. This case does not indicate possession, but is a syntactic marker for the object, additionally indicating that the action is telic (completed). In Estonian, it is often said that only a "genitive" exists. However, the cases have completely different functions, and the form of the accusative has developed from *"-(e)m". (The same sound change has developed into a synchronic mutation of a final "m" into "n" in Finnish, e.g. genitive "sydämen" vs. nominative "sydän".) This homophony has exceptions in Finnish, where a separate accusative "-(e)t" is found in pronouns, e.g. "kenet" "who (telic object)", vs. "kenen" "whose".
+A difference is also observed in some of the related Sámi languages, where the pronouns and the plural of nouns in the genitive and accusative are easily distinguishable from each other, e.g., "kuä'cǩǩmi" "eagles' (genitive plural)" and "kuä'cǩǩmid" "eagles (accusative plural)" in Skolt Sami.
+German.
+Formation.
+Articles.
+The genitive singular definite article for masculine and neuter nouns is "des", while the feminine and plural definite article is "der". The indefinite articles are "eines" for masculine and neuter nouns, and "einer" for feminine and plural nouns (although the bare form cannot be used in the plural, it manifests in "keiner", "meiner", etc.)
+Nouns.
+Singular masculine and neuter nouns of the strong declension in the genitive case are marked with "-(e)s". Generally, one-syllable nouns favour the "-es" ending, and it is obligatory with nouns ending with a sibilant such as "s" or "z". Otherwise, a simple "-s" ending is usual. Feminine and plural nouns remain uninflected:
+Singular masculine nouns (and one neuter noun) of the weak declension are marked with an "-(e)n" (or rarely "-(e)ns") ending in the genitive case:
+Adjectives.
+The declension of adjectives in the genitive case is as follows:
+Personal pronouns.
+The genitive personal pronouns are quite rare and either very formal, literary or outdated. They are as follows (with comparison to the nominative pronouns):
+Some examples:
+Relative pronouns.
+Unlike the personal ones, the genitive relative pronouns are in regular use and are as follows (with comparison to the nominative relative pronouns):
+Some examples:
+Usage.
+Nouns.
+The genitive case is often used to show possession or the relation between nouns:
+A simple "s" is added to the end of a name:
+Prepositions.
+The genitive case is also commonly found after certain prepositions:
+Adjectives.
+The genitive case can sometimes be found in connection with certain adjectives:
+Verbs.
+The genitive case is occasionally found in connection with certain verbs (some of which require an accusative before the genitive); they are mostly either formal or legal:
+Greek.
+The ablative case of Indo-European was absorbed into the genitive in Classical Greek. This added to the usages of the "genitive proper", the usages of the "ablatival genitive". The genitive occurs with verbs, adjectives, adverbs and prepositions.
+Hungarian.
+The Hungarian genitive is constructed using the suffix "-é".
+The genitive "-é" suffix is only used with the predicate of a sentence: it serves the role of mine, yours, hers, etc. The possessed object is left in the nominative case. For example:
+If the possessor is not the predicate of the sentence, the genitive is not used. Instead, the possessive suffixes ("-(j)e" or "-(j)a" in the third person singular, depending on vowel harmony) mark the possessed object. The possessor is left in the nominative if it directly precedes the possessed object (otherwise it takes a dative "-nak/-nek" suffix). For example: 
+In addition, the suffix "-i" ('of') is also used. For example:
+Japanese.
+The Japanese possessive is constructed by using the suffix "-no" 〜の to make the genitive case. For example:
+It also uses the suffix "-na" 〜な for adjectival noun; in some analyses adjectival nouns are simply nouns that take "-na" in the genitive, forming a complementary distribution ("-no" and "-na" being allomorphs).
+The archaic genitive case particle "-ga" ～が is still retained in certain expressions, place names, and dialects.
+Typically, languages have nominative case nouns converting into genitive case. It has been found, however, that Japanese will in rare cases allow accusative case to convert to genitive, if specific conditions are met in the clause in which the conversion appears. This is referred to as "Accusative-Genitive conversion."
+Korean.
+The genitive in Korean can be formed using the particle "-ui" '의', although this particle is normally elided in Modern Korean, which leaves the genitive unmarked. (If not, it is usually pronounced "-e" '에') Only some personal pronouns retain a distinctive genitive which comes from the amalgamation of the pronoun plus "-ui" '의'
+But, Modern Korean: "igeoseun geu namja jadongchayeyo." 이것은 그 남자 자동차예요.
+의 is used to mark possession, relation, origination, containment, description/limitation, partition, being an object of a metaphor, or modification.
+Latin.
+The genitive is one of the cases of nouns and pronouns in Latin. Latin genitives still have certain modern scientific uses:
+Irish.
+The Irish language also uses a genitive case ("tuiseal ginideach"). For example, in the phrase "bean an tí" (woman of the house), "tí" is the genitive case of "teach", meaning "house". Another example is "barr an chnoic", "top of the hill", where "cnoc" means "hill", but is changed to "chnoic", which also incorporates lenition.
+Persian.
+Old Persian had a true genitive case inherited from Proto-Indo-European. By the time of Middle Persian, the genitive case had been lost and replaced by an analytical construction which is now called Ezāfe. This construction was inherited by New Persian, and was also later borrowed into numerous other Iranic, Turkic and Indo-Aryan languages of Western and South Asia.
+Semitic languages.
+Genitive case marking existed in Proto-Semitic, Akkadian, and Ugaritic. It indicated possession, and it is preserved today only in Arabic.
+Arabic.
+Called المجرور "al-majrūr" (meaning "dragged") in Arabic, the genitive case functions both as an indication of ownership (ex. the door of the house) and for nouns following a preposition.
+The Arabic genitive marking also appears after prepositions.
+The Semitic genitive should not be confused with the pronominal possessive suffixes that exist in all the Semitic languages
+Slavic languages.
+With the exception of Bulgarian and Macedonian, all Slavic languages decline the nouns and adjectives in accordance with the genitive case using a variety of endings depending on the word's lexical category, its gender, number (singular or plural) and in some cases meaning.
+Possessives.
+To indicate possession the ending of the noun indicating the possessor changes depending on the word's ending in the nominative case. 
+For example, to "a, u, i or y" in Polish, "а, я, ы or и" in Russian, "а, я, y, ю, і, и or ей" in Ukrainian, and similar cases in other Slavic languages.
+Possessives can also be formed by the construction (pol.) "u [subject] jest [object]" / (rus.) "У [subject] есть [object]"/ (ukr.) "у(в) [subject] є [object]"
+In sentences where the possessor includes an associated pronoun, the pronoun also changes:
+And in sentences denoting negative possession, the ending of the object noun also changes:
+Note that the Polish phrase "nie ma [object]" can work both as a negation of having [object] or a negation of an existence of [object], 
+but the meaning of the two sentences and its structure is different. (In the first case [subject] is Irene, and in the second case [subject] is virtual, it is "the space" at Irene's place, not Irene herself)
+Note that the Russian word "нет" is a contraction of "не" + "есть". 
+In Russian there is no distinction between [subject] not having an [object] and [object] not being present at [subject]'s.
+Note the difference between the spelling "не має [object]" and "нема(є) [object]" in both cases.
+To express negation.
+The genitive case is also used in sentences expressing negation, even when no possessive relationship is involved. The ending of the subject noun changes just as it does in possessive sentences. The genitive, in this sense, can only be used to negate nominative, accusative and genitive sentences, and not other cases.
+Use of genitive for negation is obligatory in Slovene, Polish and Old Church Slavonic. Some East Slavic languages ( e.g. Russian and Belorussian) employ either the accusative or genitive for negation, although the genitive is more commonly used. In Czech, Slovak and Serbo-Croatian, negating with the genitive case is perceived as rather archaic and the accusative is preferred, but genitive negation in these languages is still not uncommon, especially in music and literature.
+Partial direct object.
+The genitive case is used with some verbs and mass nouns to indicate that the action covers only a part of the direct object (having a function of non-existing partitive case), whereas similar constructions using the Accusative case denote full coverage. Compare the sentences:
+In Russian, special partitive case or sub-case is observed for some uncountable nouns which in some contexts have preferred alternative form on -у/ю instead of standard genitive on -а/я: выпил чаю ('drank some tea'), but сорта чая ('sorts of tea').
+Prepositional constructions.
+The genitive case is also used in many prepositional constructions. (Usually when some movement or change of state is involved, and when describing the source / destination of the movement. Sometimes also when describing the manner of acting.) 
+Turkish.
+The Turkish possessive is constructed using two suffixes: a genitive case for the possessor and a possessive suffix for the possessed object. For example:
+Albanian.
+The genitive in Albanian is formed with the help of clitics. For example:
+If the possessed object is masculine, the clitic is "i". If the possessed object is feminine, the clitic is "e". If the possessed object is plural, the clitic is "e" regardless of the gender.
+The genitive is used with some prepositions: "me anë" ('by means of'), "nga ana" ('on behalf of', 'from the side of'), "për arsye" ('due to'), "për shkak" ('because of'), "me përjashtim" ('with the exception of'), "në vend" ('instead of').
+Dravidian languages.
+Kannada.
+In Kannada, the genitive case-endings are:
+for masculine or feminine nouns ending in "ಅ" (a): ನ (na)
+for neuter nouns ending in "ಅ" (a): ದ (da)
+for all nouns ending in "ಇ" (i), "ಈ" (ī), "ಎ" (e), or "ಏ" (ē): ಅ (a)
+for all nouns ending in "ಉ" (u), "ಊ" (ū), "ಋ" (r̥), or "ೠ" (r̥̄): ಇನ (ina)
+Most postpositions in Kannada take the genitive case.
+Tamil.
+In Tamil, the genitive case ending is the word உடைய or இன், which signifies possession. Depending on the last letter of the noun, the genitive case endings may vary.
+If the last letter is a consonant (மெய் எழுத்து), like க், ங், ச், ஞ், ட், ண், த், ந், ப், ம், ய், ர், ல், வ், ழ், then the suffix உடைய/இன் gets added. *Examples: His: அவன் + உடைய = அவனுடைய, Doctor's: மருத்துவர் + உடைய = மருத்துவருடைய, மருத்துவர் + இன் = மருத்துவரின் Kumar's: குமார் + உடைய = குமாருடைய, குமார்+ இன் = குமாரின்
+

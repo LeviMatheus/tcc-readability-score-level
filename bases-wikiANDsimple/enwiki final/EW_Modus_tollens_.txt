@@ -1,0 +1,41 @@
+
+In propositional logic, modus tollens () (MT), also known as modus tollendo tollens (Latin for "mode that by denying denies") and denying the consequent, is a deductive argument form and a rule of inference. "Modus tollens" takes the form of "If P, then Q. Not Q. Therefore, not P." It is an application of the general truth that if a statement is true, then so is its contrapositive. The form shows that inference from "P implies Q" to "the negation of Q implies the negation of P" is a valid argument.
+The history of the inference rule "modus tollens" goes back to antiquity. The first to explicitly describe the argument form "modus tollens" was Theophrastus.
+"Modus tollens" is closely related to "modus ponens". There are two similar, but invalid, forms of argument: affirming the consequent and denying the antecedent. See also contraposition and proof by contrapositive.
+Explanation.
+The form of a "modus tollens" argument resembles a syllogism, with two premises and a conclusion:
+The first premise is a conditional ("if-then") claim, such as "P" implies "Q". The second premise is an assertion that "Q", the consequent of the conditional claim, is not the case. From these two premises it can be logically concluded that "P", the antecedent of the conditional claim, is also not the case.
+For example:
+Supposing that the premises are both true (the dog will bark if it detects an intruder, and does indeed not bark), it follows that no intruder has been detected. This is a valid argument since it is not possible for the conclusion to be false if the premises are true. (It is conceivable that there may have been an intruder that the dog did not detect, but that does not invalidate the argument; the first premise is "if the dog "detects" an intruder". The thing of importance is that the dog detects or does not detect an intruder, not whether there is one.)
+Another example:
+Another example: 
+Relation to "modus ponens".
+Every use of "modus tollens" can be converted to a use of "modus ponens" and one use of transposition to the premise which is a material implication. For example:
+Likewise, every use of "modus ponens" can be converted to a use of "modus tollens" and transposition.
+Formal notation.
+The "modus tollens" rule can be stated formally as:
+where formula_2 stands for the statement "P implies Q". formula_3 stands for "it is not the case that Q" (or in brief "not Q"). Then, whenever "formula_2" and "formula_5" each appear by themselves as a line of a proof, then "formula_6" can validly be placed on a subsequent line.
+The "modus tollens" rule may be written in sequent notation:
+where formula_8 is a metalogical symbol meaning that formula_6 is a syntactic consequence of formula_2 and formula_5 in some logical system;
+or as the statement of a functional tautology or theorem of propositional logic:
+where formula_13 and formula_14 are propositions expressed in some formal system;
+or including assumptions:
+though since the rule does not change the set of assumptions, this is not strictly necessary.
+More complex rewritings involving "modus tollens" are often seen, for instance in set theory:
+Also in first-order predicate logic:
+Strictly speaking these are not instances of "modus tollens", but they may be derived from "modus tollens" using a few extra steps.
+Justification via truth table.
+The validity of "modus tollens" can be clearly demonstrated through a truth table.
+In instances of "modus tollens" we assume as premises that p → q is true and q is false. There is only one line of the truth table—the fourth line—which satisfies these two conditions. In this line, p is false. Therefore, in every instance in which p → q is true and q is false, p must also be false.
+Correspondence to other mathematical frameworks.
+Probability calculus.
+"Modus tollens" represents an instance of the law of total probability combined with Bayes' theorem expressed as:
+formula_22,
+where the conditionals formula_23 and formula_24 are obtained with (the extended form of) Bayes' theorem expressed as:
+formula_25 and formula_26.
+In the equations above formula_27 denotes the probability of formula_14, and formula_29 denotes the base rate (aka. prior probability) of formula_13. The conditional probability formula_31 generalizes the logical statement formula_2, i.e. in addition to assigning TRUE or FALSE we can also assign any probability to the statement. Assume that formula_33 is equivalent to formula_14 being TRUE, and that formula_35 is equivalent to formula_14 being FALSE. It is then easy to see that formula_37 when formula_38 and formula_35. This is because formula_40 so that formula_41 in the last equation. Therefore, the product terms in the first equation always have a zero factor so that formula_37 which is equivalent to formula_13 being FALSE. Hence, the law of total probability combined with Bayes' theorem represents a generalization of "modus tollens".
+Subjective logic.
+"Modus tollens" represents an instance of the abduction operator in subjective logic expressed as:
+formula_44,
+where formula_45 denotes the subjective opinion about formula_14, and formula_47 denotes a pair of binomial conditional opinions, as expressed by source formula_48. The parameter formula_49 denotes the base rate (aka. the prior probability) of formula_13. The abduced marginal opinion on formula_13 is denoted formula_52. The conditional opinion formula_53 generalizes the logical statement formula_2, i.e. in addition to assigning TRUE or FALSE the source formula_48 can assign any subjective opinion to the statement. The case where formula_45 is an absolute TRUE opinion is equivalent to source formula_48 saying that formula_14 is TRUE, and the case where formula_45 is an absolute FALSE opinion is equivalent to source formula_48 saying that formula_14 is FALSE. The abduction operator formula_62 of subjective logic produces an absolute FALSE abduced opinion formula_63 when the conditional opinion formula_53 is absolute TRUE and the consequent opinion formula_45 is absolute FALSE. Hence, subjective logic abduction represents a generalization of both "modus tollens" and of the Law of total probability combined with Bayes' theorem.
+

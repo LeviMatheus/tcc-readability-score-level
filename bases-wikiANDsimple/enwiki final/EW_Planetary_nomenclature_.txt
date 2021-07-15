@@ -1,0 +1,76 @@
+
+Planetary nomenclature, like terrestrial nomenclature, is a system of uniquely identifying features on the surface of a planet or natural satellite so that the features can be easily located, described, and discussed. Since the invention of the telescope, astronomers have given names to the surface features they have discerned, especially on the Moon and Mars. To standardize planetary nomenclature, the International Astronomical Union (IAU) was assigned in 1919 the task of selecting official names for features on Solar System bodies.
+How names are approved by the IAU.
+When images are first obtained of the surface of a planet or satellite, a theme for naming features is chosen and a few important features are named, usually by members of the appropriate IAU task group (a commonly accepted planet-naming group). Later, as higher resolution images and maps become available, additional features are named at the request of investigators mapping or describing specific surfaces, features, or geologic formations. Anyone may suggest that a specific name be considered by a task group. If the members of the task group agree that the name is appropriate, it can be retained for use when there is a request from a member of the scientific community for a name of a specific feature. Names that pass review by a task group are submitted to the IAU Working Group for Planetary System Nomenclature (WGPSN). Once approved by the WGPSN, names are considered official and can be used on maps and in publications. They are also listed in the Gazetteer of Planetary Nomenclature.
+IAU rules and conventions.
+Names adopted by the IAU must follow various rules and conventions established and amended through the years by the Union. These include:
+In addition to these general rules, each task group develops additional conventions as it formulates an interesting and meaningful nomenclature for individual planetary bodies.
+Naming conventions.
+Names for all planetary features include a descriptor term, with the exception of two feature types. For craters, the descriptor term is implicit. Some features named on Io and Triton do not carry a descriptor term because they are ephemeral.
+In general, the naming convention for a feature type remains the same regardless of its size. Exceptions to this rule are valleys and craters on Mars and Venus; naming conventions for these features differ according to size.
+One feature classification, "regio", was originally used on early maps of the Moon and Mercury (drawn from telescopic observations) to describe vague albedo features. It is now used to delineate a broad geographic region.
+Named features on bodies so small that coordinates have not yet been determined are identified on drawings of the body that are included in the IAU Transactions volume of the year when the names were adopted. Satellite rings and gaps in the rings are named for scientists who have studied these features; drawings that show these names are also included in the pertinent Transactions volume. Names for atmospheric features are informal at present; a formal system will be chosen in the future.
+The boundaries of many large features (such as "terrae, regiones, planitiae" and "plana") are not topographically or geomorphically distinct; the coordinates of these features are identified from an arbitrarily chosen center point. Boundaries (and thus coordinates) may be determined more accurately from geochemical and geophysical data obtained by future missions.
+During active missions, small surface features are often given informal names. These may include landing sites, spacecraft impact sites, and small topographic features, such as craters, hills, and rocks. Such names will not be given official status by the IAU, except as provided for by Rule 2 above. As for the larger objects, official names for any such small features would have to conform to established IAU rules and categories.
+Categories for naming features on planets and satellites.
+Venus.
+All but three features on Venus are named after female personages (goddesses and historical or mythological women). These three exceptions were named before the convention was adopted, being respectively Alpha Regio, Beta Regio, and Maxwell Montes which is named after James Clerk Maxwell.
+Mars and martian satellites.
+Mars.
+When space probes have landed on Mars, individual small features such as rocks, dunes, and hollows have often been given informal names. Many of these are frivolous: features have been named after ice cream (such as Cookies N Cream); cartoon characters (such as SpongeBob SquarePants and Patrick); and '70s music acts (such as ABBA and the Bee Gees).
+Deimos.
+Features on Deimos are named after authors who wrote about Martian satellites. There are currently two named features on Deimos - Swift crater and Voltaire crater - after Jonathan Swift and Voltaire who predicted the presence of Martian moons.
+Phobos.
+All features on Phobos are named after scientists involved with the discovery, dynamics, or properties of the Martian satellites or people and places from Jonathan Swift's "Gulliver's Travels".
+Satellites of Jupiter.
+Amalthea.
+People and places associated with the Amalthea myth
+Thebe.
+Features on Thebe are named after people and places associated with the Thebe myth. There is only one named feature on Thebe - Zethus Crater.
+Satellites of Saturn.
+Janus.
+People from myth of Castor and Pollux (twins)
+Epimetheus.
+People from myth of Castor and Pollux (twins)
+Mimas.
+People and places from Malory's "Le Morte d'Arthur" legends (Baines translation)
+Enceladus.
+People and places from Burton's "Arabian Nights"
+Tethys.
+People and places from Homer's "Odyssey"
+Dione.
+People and places from Virgil's "Aeneid"
+Rhea.
+People and places from creation myths
+Hyperion.
+Sun and Moon deities
+Iapetus.
+People and places from Sayers' translation of "Chanson de Roland"; the only exception is Cassini Regio, which is named after its discoverer, Giovanni Cassini.
+Satellites of Uranus.
+Satellites of Uranus are named for characters from the works of William Shakespeare.
+Puck.
+Mischievous (Pucklike) spirits (class)
+Miranda.
+Characters, places from Shakespeare's plays
+Ariel.
+Light spirits (individual and class)
+Umbriel.
+Dark spirits (individual)
+Titania.
+Female Shakespearean characters, places
+Oberon.
+Shakespearean tragic heroes and places
+Small satellites.
+There are currently no named features on Uranian small satellites, however the naming convention is heroines from plays by Shakespeare and Pope.
+Satellites of Neptune.
+Proteus.
+Features on Proteus are to be named after water-related spirits, gods or goddesses who are neither Greek nor Roman. The only named feature on Proteus is crater Pharos.
+Triton.
+Geological features on Triton should be assigned aquatic names, excluding those which are Roman and Greek in origin. Possible themes for individual descriptor terms include worldwide aquatic spirits, famous terrestrial fountains or fountain locations, terrestrial aquatic features, famous terrestrial geysers or geyser locations and terrestrial islands.
+Nereid.
+There are currently no named features on Nereid. When features are discovered, they are to be named after individual nereids.
+Small satellites.
+Features on other satellites of Neptune, once discovered, should be named after gods and goddesses associated with Neptune/Poseidon mythology or generic mythological aquatic beings.
+Pluto and plutonian satellites.
+In February 2017, the IAU approved the following themes for surface features on Pluto and its satellites:
+

@@ -1,0 +1,6 @@
+
+In telecommunication, the term bit-stream transmission has the following meanings:
+1. In bit-oriented systems, the transmission of bit strings.
+2. In character-oriented systems, the transmission of bit streams that represent characters.
+In bit-stream transmission, the bits usually occur at fixed time intervals, start and stop signals are not used, and the bit patterns follow each other in sequence without interruption.
+

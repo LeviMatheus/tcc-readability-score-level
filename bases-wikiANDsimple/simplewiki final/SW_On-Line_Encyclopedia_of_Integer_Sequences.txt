@@ -1,0 +1,2 @@
+The On-Line Encyclopedia of Integer Sequences (OEIS), also known as Sloane's, is an large searchable database. It is on the Web, and it contains number sequences..
+It contains over 120,000 sequences. This makes it the largest database of its kind. Each entry contains the leading terms of the sequence, keywords, mathematical motivations, literature links. It also includes the option to generate a graph or play a musical representation of the sequence. The database can be searched by keyword and by subsequence.

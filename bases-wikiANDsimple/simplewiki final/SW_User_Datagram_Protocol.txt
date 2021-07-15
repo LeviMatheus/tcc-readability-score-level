@@ -1,0 +1,6 @@
+The User Datagram Protocol (UDP) is one of the core members of the Internet Protocol Suite, the set of network protocols used for the Internet. With UDP, computer applications can send messages, sometimes known as "datagrams", to other hosts on an Internet Protocol (IP) network without requiring other communications to set up special transmission channels or data paths. UDP is sometimes called the Universal Datagram Protocol. The protocol was designed by David P. Reed in 1980 and formally defined in RFC 768.
+Ports.
+UDP applications use datagram sockets to establish host-to-host communications. Sockets bind the application to service ports that function as the endpoints of data transmission. A port is a software structure that is identified by the port number, a 16 bit integer value, allowing for port numbers between 0 and 65,535. Port 0 is reserved, but is able to be used if the sending process does not expect messages in response.
+Ports 1 through 1023 (hexadecimal 0x3FF) are named "well-known" ports and on Unix-like operating systems, binding to one of these ports requires superuser (root) access.
+Ports 1024 through 49,151 (0xBFFF) are registered ports.
+Ports 49,152 through 65,535 (0xFFFF) are used as temporary ports usually by clients when communicating to servers.

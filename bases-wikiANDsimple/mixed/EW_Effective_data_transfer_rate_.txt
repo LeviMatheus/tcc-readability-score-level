@@ -1,0 +1,4 @@
+
+In telecommunication, effective data transfer rate is the average number of units of data, such as bits, characters, blocks, or frames, transferred per unit time from a source and accepted as valid by a sink.
+"Note:" The effective data transfer rate is usually expressed in bits, characters, blocks, or frames per second. The effective data transfer rate may be averaged over a period of seconds, minutes, or hours.
+

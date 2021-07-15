@@ -1,0 +1,3 @@
+A permissive free software licence is a free software licence for a copyrighted work that offers freedoms such as publishing a work to the public domain. In contrast, copyleft licences like the GNU General Public License require copies and derivatives of the source code to be made available on terms not more restrictive than those of the original licence.
+A license tells what someone can do with something that was bought. It also tells what cannot be done with it without getting into legal trouble.
+Examples of permissive licences include the MIT License and the BSD licence.

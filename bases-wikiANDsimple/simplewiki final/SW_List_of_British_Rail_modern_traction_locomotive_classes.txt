@@ -1,0 +1,13 @@
+This page lists every locomotive allocated a TOPS classification and all modern traction (e.g. diesel, electric, gas turbine, petrol) stock used on the mainline network since 1948 (i.e British Railways and post-privatisation).
+Diesel locomotives.
+The 1955 diesel locomotive classes are given in brackets where applicable.
+Small shunters: under 300 hp.
+Shunter classes are listed by 1955 class, which puts TOPS classes in ascending order, and generally puts 1948 and 1962 classes in ascending order. Unclassed shunters are placed at the start of the table; TOPS class 07 has been placed so its 1962 class is in the logical place.
+Type 2 locomotives: 1001 - 1499hp.
+Locomotive class are listed by TOPS class. Locomotives for TOPS classes 24 and 26 have their original sub-classes shown, as each wholly comprised locomotives from a distinct 1962 class.
+Class 99.
+When British Rail implemented the TOPS system for managing their operating stock, part of their shipping fleet was incorporated into the system as Class 99, in order to circumvent some of the restrictions of the application software.
+Builders' demonstrators.
+These were locomotives built and owned by private firms, but used by British Rail to test them.
+Unbuilt locomotives.
+A number of TOPS class numbers were allocated to proposed locomotives, both diesel and electric, which for many reasons were not proceeded with.

@@ -1,0 +1,11 @@
+
+In mathematics, a relation "R" on a set "X" is antisymmetric if there is no pair of "distinct" elements of "X" each of which is related by "R" to the other. More formally, "R" is antisymmetric precisely if for all "a" and "b" in "X"
+or, equivalently,
+Examples.
+The divisibility relation on the natural numbers is an important example of an antisymmetric relation. In this context, antisymmetry means that the only way each of two numbers can be divisible by the other is if the two are, in fact, the same number; equivalently, if "n" and "m" are distinct and "n" is a factor of "m", then "m" cannot be a factor of "n". For example, 12 is divisible by 4, but 4 is not divisible by 12.
+The usual order relation ≤ on the real numbers is antisymmetric: if for two real numbers "x" and "y" both inequalities "x" ≤ "y" and "y" ≤ "x" hold then "x" and "y" must be equal. Similarly, the subset order ⊆ on the subsets of any given set is antisymmetric: given two sets "A" and "B", if every element in "A" also is in "B" and every element in "B" is also in "A", then "A" and "B" must contain all the same elements and therefore be equal:
+A real-life example of a relation that is typically antisymmetric is "paid the restaurant bill of" (understood as restricted to a given occasion). Typically some people pay their own bills, while others pay for their spouses or friends. As long as no two people pay each other's bills, the relation is antisymmetric.
+Properties.
+Partial and total orders are antisymmetric by definition. A relation can be both symmetric and antisymmetric (in this case, it must be coreflexive), and there are relations which are neither symmetric nor antisymmetric (e.g., the "preys on" relation on biological species).
+Antisymmetry is different from asymmetry: a relation is asymmetric if, and only if, it is antisymmetric and irreflexive.
+

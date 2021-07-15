@@ -1,0 +1,4 @@
+
+In telecommunication, ground constants are the electrical parameters of earth: electrical conductivity, σ, electrical permittivity, ε, and magnetic permeability, μ.
+The values of these parameters vary with the local chemical composition and density of the Earth. For a propagating electromagnetic wave, such as a surface wave propagating along the surface of the Earth, these parameters vary with frequency and direction. 
+

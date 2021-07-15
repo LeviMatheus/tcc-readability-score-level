@@ -1,0 +1,212 @@
+
+In mathematics, the gamma function (represented by , the capital letter gamma from the Greek alphabet) is one commonly used extension of the factorial function to complex numbers. The gamma function is defined for all complex numbers except the non-positive integers. For any positive integer ,
+Derived by Daniel Bernoulli, for complex numbers with a positive real part, the gamma function is defined via a convergent improper integral:
+The gamma function then is defined as the analytic continuation of this integral function to a meromorphic function that is holomorphic in the whole complex plane except zero and the negative integers, where the function has simple poles.
+The gamma function has no zeroes, so the reciprocal gamma function formula_3 is an entire function. In fact, the gamma function corresponds to the Mellin transform of the negative exponential function:
+Other extensions of the factorial function do exist, but the gamma function is the most popular and useful. It is a component in various probability-distribution functions, and as such it is applicable in the fields of probability and statistics, as well as combinatorics.
+Motivation.
+The gamma function can be seen as a solution to the following interpolation problem:
+A plot of the first few factorials makes clear that such a curve can be drawn, but it would be preferable to have a formula that precisely describes the curve, in which the number of operations does not depend on the size of . The simple formula for the factorial, , cannot be used directly for fractional values of since it is only valid when is a natural number (or positive integer). There are, relatively speaking, no such simple solutions for factorials; no finite combination of sums, products, powers, exponential functions, or logarithms will suffice to express ; but it is possible to find a general formula for factorials using tools such as integrals and limits from calculus. A good solution to this is the gamma function.
+There are infinitely many continuous extensions of the factorial to non-integers: infinitely many curves can be drawn through any set of isolated points. The gamma function is the most useful solution in practice, being analytic (except at the non-positive integers), and it can be defined in several equivalent ways. However, it is not the only analytic function which extends the factorial, as adding to it any analytic function which is zero on the positive integers, such as for an integer , will give another function with that property.
+A more restrictive property than satisfying the above interpolation is to satisfy the recurrence relation defining a translated version of the factorial function,
+for any positive real number . But this would allow for multiplication by any function satisfying both for all real numbers and , such as the function . One of several ways to finally resolve the ambiguity comes from the Bohr–Mollerup theorem. It states that when the condition that be logarithmically convex (or "super-convex," meaning that formula_7 is convex) is added, it uniquely determines for positive, real inputs. From there, the gamma function can be extended to all real and complex values (except the negative integers and zero) by using the unique analytic continuation of .
+Definition.
+Main definition.
+The notation formula_8 is due to Legendre. If the real part of the complex number  is strictly positive (formula_9), then the integral
+converges absolutely, and is known as the Euler integral of the second kind. (Euler's integral of the first kind is the beta function.) Using integration by parts, one sees that:
+Recognizing that formula_12 as formula_13
+We can calculate 
+Given that formula_16 and formula_17
+for all positive integers . This can be seen as an example of proof by induction.
+The identity formula_19 can be used (or, yielding the same result, analytic continuation can be used) to uniquely extend the integral formulation for formula_8 to a meromorphic function defined for all complex numbers , except integers less than or equal to zero. It is this extended version that is commonly referred to as the gamma function.
+Alternative definitions.
+Euler's definition as an infinite product.
+When seeking to approximate formula_21 for a complex number formula_22, it is effective to first compute formula_23 for some large integer formula_24. Use that to approximate a value for formula_25, and then use the recursion relation formula_26 backwards formula_24 times, to unwind it to an approximation for formula_21. Furthermore, this approximation is exact in the limit as formula_24 goes to infinity.
+Specifically, for a fixed integer formula_30, it is the case that
+If formula_30 is not an integer then it is not possible to say whether this equation is true because we have not yet (in this section) defined the factorial function for non-integers. However, we do get a unique extension of the factorial function to the non-integers by insisting that this equation continue to hold when the arbitrary integer formula_30 is replaced by an arbitrary complex number formula_22.
+Multiplying both sides by formula_21 gives
+This infinite product converges for all complex numbers formula_22 except the negative integers, which fail because trying to use the recursion relation formula_39 backwards through the value formula_40 involves a division by zero.
+Similarly for the gamma function, the definition as an infinite product due to Euler is valid for all complex numbers formula_22 except the non-positive integers:
+By this construction, the gamma function is the unique function that simultaneously satisfies formula_16, formula_44 for all complex numbers formula_22 except the non-positive integers, and formula_46 for all complex numbers formula_22.
+Weierstrass's definition.
+The definition for the gamma function due to Weierstrass is also valid for all complex numbers  except the non-positive integers:
+where formula_49 is the Euler–Mascheroni constant. This is the Hadamard Product of formula_50 in a rewritten form. Indeed, since formula_50 is entire of genus 1 with a simple zero at formula_52, we have the product representation
+where the product is over the zeros formula_54 of formula_50. Since formula_56 has simple poles at the non-positive integers, it follows formula_50 has simple zeros at the nonpositive integers, and so the equation above becomes Weierstrass's formula with formula_58 in place of formula_59. The derivation of the constants formula_60 and formula_61 is somewhat technical, but can be accomplished by using some identities involving the Riemann zeta function (see this identity, for instance). See also the Weierstrass factorization theorem.
+In terms of generalized Laguerre polynomials.
+A representation of the incomplete gamma function in terms of generalized Laguerre polynomials is
+which converges for formula_63 and formula_64.
+Properties.
+General.
+Other important functional equations for the gamma function are Euler's reflection formula
+which implies
+for any integer formula_24, 
+and the Legendre duplication formula
+Since formula_69
+the gamma function can be represented as
+Integrating by parts formula_24 times yields
+which is equal to
+This can be rewritten as
+We can use this to evaluate the left-hand side of the reflection formula:
+It can be proved that
+Then
+Euler's reflection formula follows:
+The beta function can be represented as
+Setting formula_80 yields
+After the substitution formula_82 we get
+The function formula_84 is even, hence
+Now assume
+Then
+This implies
+Since
+the Legendre duplication formula follows:
+The duplication formula is a special case of the multiplication theorem (See, Eq. 5.5.6)
+A simple but useful property, which can be seen from the limit definition, is:
+In particular, with , this product is
+If the real part is an integer or a half-integer, this can be finitely expressed in closed form:
+First, consider the reflection formula applied to formula_95.
+Applying the recurrence relation to the second term, we have
+which with simple rearrangement gives
+Second, consider the reflection formula applied to formula_99.
+Formulas for other values of formula_22 for which the real part is integer or half-integer quickly follow by induction using the recurrence relation in the positive and negative directions.
+Perhaps the best-known value of the gamma function at a non-integer argument is
+which can be found by setting formula_103 in the reflection or duplication formulas, by using the relation to the beta function given below with formula_104, or simply by making the substitution formula_105 in the integral definition of the gamma function, resulting in a Gaussian integral. In general, for non-negative integer values of formula_24 we have:
+where formula_108 denotes the double factorial of "n" and, when formula_109, formula_110. See Particular values of the gamma function for calculated values.
+It might be tempting to generalize the result that formula_111 by looking for a formula for other individual values formula_112 where formula_113 is rational, especially because according to Gauss's digamma theorem, it is possible to do so for the closely related digamma function at every rational value. However, these numbers formula_112 are not known to be expressible by themselves in terms of elementary functions. It has been proved that formula_115 is a transcendental number and algebraically independent of formula_116 for any integer formula_24 and each of the fractions formula_118. In general, when computing values of the gamma function, we must settle for numerical approximations.
+The derivatives of the gamma function are described in terms of the polygamma function. For example:
+For a positive integer  the derivative of the gamma function can be calculated as follows (here formula_120 is the Euler–Mascheroni constant):
+For formula_122 the formula_24th derivative of the gamma function is:
+Using the identity
+where formula_127 is the Riemann zeta function, and formula_116 is a partition of formula_24 given by
+we have in particular
+Inequalities.
+When restricted to the positive real numbers, the gamma function is a strictly logarithmically convex function. This property may be stated in any of the following three equivalent ways:
+The last of these statements is, essentially by definition, the same as the statement that formula_139, where formula_140 is the polygamma function of order 1. To prove the logarithmic convexity of the gamma function, it therefore suffices to observe that formula_140 has a series representation which, for positive real , consists of only positive terms.
+Logarithmic convexity and Jensen's inequality together imply, for any positive real numbers formula_142 and formula_143,
+There are also bounds on ratios of gamma functions. The best-known is Gautschi's inequality, which says that for any positive real number and any ,
+Stirling's formula.
+The behavior of formula_146 for an increasing positive real variable is given by Stirling's formula
+where the symbol formula_148 means asymptotic convergence; the ratio of the two sides converges to 1 in the limit This growth is faster than exponential, formula_149, for any fixed value of formula_150.
+Another useful limit for asymptotic approximations for formula_151 is:
+Residues.
+The behavior for non-positive formula_22 is more intricate. Euler's integral does not converge for but the function it defines in the positive complex half-plane has a unique analytic continuation to the negative half-plane. One way to find that analytic continuation is to use Euler's integral for positive arguments and extend the domain to negative numbers by repeated application of the recurrence formula,
+choosing formula_24 such that formula_156 is positive. The product in the denominator is zero when formula_22 equals any of the integers formula_158. Thus, the gamma function must be undefined at those points to avoid division by zero; it is a meromorphic function with simple poles at the non-positive integers.
+For a function formula_159 of a complex variable formula_22, at a simple pole formula_161, the residue of formula_159 is given by:
+For the simple pole formula_164 we rewrite recurrence formula as:
+The numerator at formula_164 is
+and the denominator 
+So the residues of the gamma function at those points are:
+The gamma function is non-zero everywhere along the real line, although it comes arbitrarily close to zero as . There is in fact no complex number formula_22 for which formula_171, and hence the reciprocal gamma function formula_172 is an entire function, with zeros at formula_173.
+Minima.
+The gamma function has a local minimum at (truncated) where it attains the value (truncated). The gamma function must alternate sign between the poles because the product in the forward recurrence contains an odd number of negative factors if the number of poles between formula_22 and formula_156 is odd, and an even number if the number of poles is even.
+Integral representations.
+There are many formulas, besides the Euler integral of the second kind, that express the gamma function as an integral. For instance, when the real part of is positive,
+Binet's first integral formula for the gamma function states that, when the real part of is positive, then:
+The integral on the right-hand side may be interpreted as a Laplace transform. That is,
+Binet's second integral formula states that, again when the real part of is positive, then:
+Let be a Hankel contour, meaning a path that begins and ends at the point on the Riemann sphere, whose unit tangent vector converges to at the start of the path and to at the end, which has winding number 1 around , and which does not cross . Fix a branch of formula_180 by taking a branch cut along and by taking formula_180 to be real when is on the negative real axis. Assume is not an integer. Then Hankel's formula for the gamma function is:
+where formula_183 is interpreted as formula_184. The reflection formula leads to the closely related expression 
+again valid whenever is not an integer.
+Fourier series expansion.
+The logarithm of the gamma function has the following Fourier series expansion for formula_186
+which was for a long time attributed to Ernst Kummer, who derived it in 1847. However, Iaroslav Blagouchine discovered that Carl Johan Malmsten first derived this series in 1842.
+Raabe's formula.
+In 1840 Joseph Ludwig Raabe proved that
+In particular, if formula_189 then
+The latter can be derived taking the logarithm in the above multiplication formula, which gives an expression for the Riemann sum of the integrand. Taking the limit for formula_191 gives the formula.
+Pi function.
+An alternative notation which was originally introduced by Gauss and which was sometimes used is the formula_192-function, which in terms of the gamma function is
+so that formula_194 for every non-negative integer formula_24.
+Using the pi function the reflection formula takes on the form
+where is the normalized sinc function, while the multiplication theorem takes on the form
+We also sometimes find
+which is an entire function, defined for every complex number, just like the reciprocal gamma function. That formula_199 is entire entails it has no poles, so formula_200, like formula_201, has no zeros.
+The volume of an -ellipsoid with radii can be expressed as
+Particular values.
+Including up to the first 20 digits after the decimal point, some particular values of the gamma function are:
+The complex-valued gamma function is undefined for non-positive integers, but in these cases the value can be defined in the Riemann sphere as . The reciprocal gamma function is well defined and analytic at these values (and in the entire complex plane):
+The log-gamma function.
+Because the gamma and factorial functions grow so rapidly for moderately large arguments, many computing environments include a function that returns the natural logarithm of the gamma function (often given the name codice_1 or codice_2 in programming environments or codice_3 in spreadsheets); this grows much more slowly, and for combinatorial calculations allows adding and subtracting logs instead of multiplying and dividing very large values. It is often defined as
+The digamma function, which is the derivative of this function, is also commonly seen.
+In the context of technical and physical applications, e.g. with wave propagation, the functional equation
+is often used since it allows one to determine function values in one strip of width 1 in from the neighbouring strip. In particular, starting with a good approximation for a  with large real part one may go step by step down to the desired . Following an indication of Carl Friedrich Gauss, Rocktaeschel (1922) proposed for formula_216 an approximation for large :
+This can be used to accurately approximate for with a smaller via (P.E.Böhmer, 1939)
+A more accurate approximation can be obtained by using more terms from the asymptotic expansions of and , which are based on Stirling's approximation.
+In a more "natural" presentation:
+The coefficients of the terms with of in the last expansion are simply
+where the are the Bernoulli numbers.
+Properties.
+The Bohr–Mollerup theorem states that among all functions extending the factorial functions to the positive real numbers, only the gamma function is log-convex, that is, its natural logarithm is convex on the positive real axis. Another characterisation is given by the Wielandt theorem.
+In a certain sense, the function is the more natural form; it makes some intrinsic attributes of the function clearer. A striking example is the Taylor series of around 1:
+with denoting the Riemann zeta function at .
+So, using the following property:
+we can find an integral representation for the function:
+or, setting to obtain an integral for , we can replace the term with its integral and incorporate that into the above formula, to get:
+There also exist special formulas for the logarithm of the gamma function for rational . 
+For instance, if formula_226 and formula_24 are integers with formula_228 and formula_229 then
+see.
+This formula is sometimes used for numerical computation, since the integrand decreases very quickly.
+Integration over log-gamma.
+The integral
+can be expressed in terms of the Barnes -function (see Barnes -function for a proof):
+where .
+It can also be written in terms of the Hurwitz zeta function:
+When formula_234 it follows that
+and this is a consequence of Raabe's formula as well. O. Espinosa and V. Moll derived a similar formula for the integral of the square of formula_236:
+where formula_238 is formula_239.
+D. H. Bailey and his co-authors gave an evaluation for
+when formula_241 in terms of the Tornheim-Witten zeta function and its derivatives.
+In addition, it is also known that
+Approximations.
+Complex values of the gamma function can be computed numerically with arbitrary precision using Stirling's approximation or the Lanczos approximation.
+The gamma function can be computed to fixed precision for formula_243 by applying integration by parts to Euler's integral. For any positive number  the gamma function can be written
+When and formula_245, the absolute value of the last integral is smaller than formula_246. By choosing a large enough formula_125, this last expression can be made smaller than formula_248 for any desired value formula_249. Thus, the gamma function can be evaluated to formula_249 bits of precision with the above series.
+A fast algorithm for calculation of the Euler gamma function for any algebraic argument (including rational) was constructed by E.A. Karatsuba,
+For arguments that are integer multiples of , the gamma function can also be evaluated quickly using arithmetic–geometric mean iterations (see particular values of the gamma function and ).
+Applications.
+One author describes the gamma function as "Arguably, the most common special function, or the least 'special' of them. The other transcendental functions […] are called 'special' because you could conceivably avoid some of them by staying away from many specialized mathematical topics. On the other hand, the gamma function is most difficult to avoid."
+Integration problems.
+The gamma function finds application in such diverse areas as quantum physics, astrophysics and fluid dynamics. The gamma distribution, which is formulated in terms of the gamma function, is used in statistics to model a wide range of processes; for example, the time between occurrences of earthquakes.
+The primary reason for the gamma function's usefulness in such contexts is the prevalence of expressions of the type formula_251 which describe processes that decay exponentially in time or space. Integrals of such expressions can occasionally be solved in terms of the gamma function when no elementary solution exists. For example, if is a power function and is a linear function, a simple change of variables gives the evaluation
+The fact that the integration is performed along the entire positive real line might signify that the gamma function describes the cumulation of a time-dependent process that continues indefinitely, or the value might be the total of a distribution in an infinite space.
+It is of course frequently useful to take limits of integration other than 0 and to describe the cumulation of a finite process, in which case the ordinary gamma function is no longer a solution; the solution is then called an incomplete gamma function. (The ordinary gamma function, obtained by integrating across the entire positive real line, is sometimes called the "complete gamma function" for contrast.)
+An important category of exponentially decaying functions is that of Gaussian functions
+and integrals thereof, such as the error function. There are many interrelations between these functions and the gamma function; notably, the factor formula_254 obtained by evaluating formula_255 is the "same" as that found in the normalizing factor of the error function and the normal distribution.
+The integrals we have discussed so far involve transcendental functions, but the gamma function also arises from integrals of purely algebraic functions. In particular, the arc lengths of ellipses and of the lemniscate, which are curves defined by algebraic equations, are given by elliptic integrals that in special cases can be evaluated in terms of the gamma function. The gamma function can also be used to calculate "volume" and "area" of -dimensional hyperspheres.
+Calculating products.
+The gamma function's ability to generalize factorial products immediately leads to applications in many areas of mathematics; in combinatorics, and by extension in areas such as probability theory and the calculation of power series. Many expressions involving products of successive integers can be written as some combination of factorials, the most important example perhaps being that of the binomial coefficient
+The example of binomial coefficients motivates why the properties of the gamma function when extended to negative numbers are natural. A binomial coefficient gives the number of ways to choose elements from a set of elements; if , there are of course no ways. If , is the factorial of a negative integer and hence infinite if we use the gamma function definition of factorials—dividing by infinity gives the expected value of 0.
+We can replace the factorial by a gamma function to extend any such formula to the complex numbers. Generally, this works for any product wherein each factor is a rational function of the index variable, by factoring the rational function into linear expressions. If and are monic polynomials of degree and with respective roots and , we have
+If we have a way to calculate the gamma function numerically, it is a breeze to calculate numerical values of such products. The number of gamma functions in the right-hand side depends only on the degree of the polynomials, so it does not matter whether equals 5 or 105. By taking the appropriate limits, the equation can also be made to hold even when the left-hand product contains zeros or poles.
+By taking limits, certain rational products with infinitely many factors can be evaluated in terms of the gamma function as well. Due to the Weierstrass factorization theorem, analytic functions can be written as infinite products, and these can sometimes be represented as finite products or quotients of the gamma function. We have already seen one striking example: the reflection formula essentially represents the sine function as the product of two gamma functions. Starting from this formula, the exponential function as well as all the trigonometric and hyperbolic functions can be expressed in terms of the gamma function.
+More functions yet, including the hypergeometric function and special cases thereof, can be represented by means of complex contour integrals of products and quotients of the gamma function, called Mellin–Barnes integrals.
+Analytic number theory.
+An elegant and deep application of the gamma function is in the study of the Riemann zeta function. A fundamental property of the Riemann zeta function is its functional equation:
+Among other things, this provides an explicit form for the analytic continuation of the zeta function to a meromorphic function in the complex plane and leads to an immediate proof that the zeta function has infinitely many so-called "trivial" zeros on the real line. Borwein "et al." call this formula "one of the most beautiful findings in mathematics". Another champion for that title might be
+Both formulas were derived by Bernhard Riemann in his seminal 1859 paper "Über die Anzahl der Primzahlen unter einer gegebenen Größe" ("On the Number of Prime Numbers less than a Given Quantity"), one of the milestones in the development of analytic number theory—the branch of mathematics that studies prime numbers using the tools of mathematical analysis. Factorial numbers, considered as discrete objects, are an important concept in classical number theory because they contain many prime factors, but Riemann found a use for their continuous extension that arguably turned out to be even more important.
+History.
+The gamma function has caught the interest of some of the most prominent mathematicians of all time. Its history, notably documented by Philip J. Davis in an article that won him the 1963 Chauvenet Prize, reflects many of the major developments within mathematics since the 18th century. In the words of Davis, "each generation has found something of interest to say about the gamma function. Perhaps the next generation will also."
+18th century: Euler and Stirling.
+The problem of extending the factorial to non-integer arguments was apparently first considered by Daniel Bernoulli and Christian Goldbach in the 1720s, and was solved at the end of the same decade by Leonhard Euler. Euler gave two different definitions: the first was not his integral but an infinite product,
+of which he informed Goldbach in a letter dated 13 October 1729. He wrote to Goldbach again on 8 January 1730, to announce his discovery of the integral representation
+which is valid for . By the change of variables , this becomes the familiar Euler integral. Euler published his results in the paper "De progressionibus transcendentibus seu quarum termini generales algebraice dari nequeunt" ("On transcendental progressions, that is, those whose general terms cannot be given algebraically"), submitted to the St. Petersburg Academy on 28 November 1729. Euler further discovered some of the gamma function's important functional properties, including the reflection formula.
+James Stirling, a contemporary of Euler, also attempted to find a continuous expression for the factorial and came up with what is now known as Stirling's formula. Although Stirling's formula gives a good estimate of , also for non-integers, it does not provide the exact value. Extensions of his formula that correct the error were given by Stirling himself and by Jacques Philippe Marie Binet.
+19th century: Gauss, Weierstrass and Legendre.
+Carl Friedrich Gauss rewrote Euler's product as
+and used this formula to discover new properties of the gamma function. Although Euler was a pioneer in the theory of complex variables, he does not appear to have considered the factorial of a complex number, as instead Gauss first did. Gauss also proved the multiplication theorem of the gamma function and investigated the connection between the gamma function and elliptic integrals.
+Karl Weierstrass further established the role of the gamma function in complex analysis, starting from yet another product representation,
+where is the Euler–Mascheroni constant. Weierstrass originally wrote his product as one for , in which case it is taken over the function's zeros rather than its poles. Inspired by this result, he proved what is known as the Weierstrass factorization theorem—that any entire function can be written as a product over its zeros in the complex plane; a generalization of the fundamental theorem of algebra.
+The name gamma function and the symbol were introduced by Adrien-Marie Legendre around 1811; Legendre also rewrote Euler's integral definition in its modern form. Although the symbol is an upper-case Greek gamma, there is no accepted standard for whether the function name should be written "gamma function" or "Gamma function" (some authors simply write "-function"). The alternative "pi function" notation due to Gauss is sometimes encountered in older literature, but Legendre's notation is dominant in modern works.
+It is justified to ask why we distinguish between the "ordinary factorial" and the gamma function by using distinct symbols, and particularly why the gamma function should be normalized to instead of simply using "". Consider that the notation for exponents, , has been generalized from integers to complex numbers without any change. Legendre's motivation for the normalization does not appear to be known, and has been criticized as cumbersome by some (the 20th-century mathematician Cornelius Lanczos, for example, called it "void of any rationality" and would instead use ). Legendre's normalization does simplify a few formulae, but complicates most others. From a modern point of view, the Legendre normalization of the Gamma function is the integral of the additive character against the multiplicative character with respect to the Haar measure formula_264 on the Lie group . Thus this normalization makes it clearer that the gamma function is a continuous analogue of a Gauss sum.
+19th–20th centuries: characterizing the gamma function.
+It is somewhat problematic that a large number of definitions have been given for the gamma function. Although they describe the same function, it is not entirely straightforward to prove the equivalence. Stirling never proved that his extended formula corresponds exactly to Euler's gamma function; a proof was first given by Charles Hermite in 1900. Instead of finding a specialized proof for each formula, it would be desirable to have a general method of identifying the gamma function.
+One way to prove would be to find a differential equation that characterizes the gamma function. Most special functions in applied mathematics arise as solutions to differential equations, whose solutions are unique. However, the gamma function does not appear to satisfy any simple differential equation. Otto Hölder proved in 1887 that the gamma function at least does not satisfy any "algebraic" differential equation by showing that a solution to such an equation could not satisfy the gamma function's recurrence formula, making it a transcendentally transcendental function. This result is known as Hölder's theorem.
+A definite and generally applicable characterization of the gamma function was not given until 1922. Harald Bohr and Johannes Mollerup then proved what is known as the "Bohr–Mollerup theorem": that the gamma function is the unique solution to the factorial recurrence relation that is positive and "logarithmically convex" for positive and whose value at 1 is 1 (a function is logarithmically convex if its logarithm is convex). Another characterisation is given by the Wielandt theorem.
+The Bohr–Mollerup theorem is useful because it is relatively easy to prove logarithmic convexity for any of the different formulas used to define the gamma function. Taking things further, instead of defining the gamma function by any particular formula, we can choose the conditions of the Bohr–Mollerup theorem as the definition, and then pick any formula we like that satisfies the conditions as a starting point for studying the gamma function. This approach was used by the Bourbaki group.
+Borwein &amp; Corless review three centuries of work on the gamma function.
+Reference tables and software.
+Although the gamma function can be calculated virtually as easily as any mathematically simpler function with a modern computer—even with a programmable pocket calculator—this was of course not always the case. Until the mid-20th century, mathematicians relied on hand-made tables; in the case of the gamma function, notably a table computed by Gauss in 1813 and one computed by Legendre in 1825.
+Tables of complex values of the gamma function, as well as hand-drawn graphs, were given in "Tables of Higher Functions" by Jahnke and , first published in Germany in 1909. According to Michael Berry, "the publication in J&amp;E of a three-dimensional graph showing the poles of the gamma function in the complex plane acquired an almost iconic status."
+There was in fact little practical need for anything but real values of the gamma function until the 1930s, when applications for the complex gamma function were discovered in theoretical physics. As electronic computers became available for the production of tables in the 1950s, several extensive tables for the complex gamma function were published to meet the demand, including a table accurate to 12 decimal places from the U.S. National Bureau of Standards.
+"Abramowitz and Stegun" became the standard reference for this and many other special functions after its publication in 1964.
+Double-precision floating-point implementations of the gamma function and its logarithm are now available in most scientific computing software and special functions libraries, for example TK Solver, Matlab, GNU Octave, and the GNU Scientific Library. The gamma function was also added to the C standard library (math.h). Arbitrary-precision implementations are available in most computer algebra systems, such as Mathematica and Maple. PARI/GP, MPFR and MPFUN contain free arbitrary-precision implementations. A little-known feature of the calculator app included with the Android operating system is that it will accept fractional values as input to the factorial function and return the equivalent gamma function value. The same is true for Windows Calculator.
+

@@ -1,0 +1,43 @@
+
+In chemistry, the mole fraction or molar fraction (xi) is defined as unit of the amount of a constituent (expressed in moles), "ni" divided by the total amount of all constituents in a mixture (also expressed in moles), "n"tot:.This expression is given below:-
+The sum of all the mole fractions is equal to 1:
+The same concept expressed with a denominator of 100 is the mole percent, molar percentage or molar proportion (mol%).
+The mole fraction is also called the amount fraction. It is identical to the number fraction, which is defined as the number of molecules of a constituent "Ni" divided by the total number of all molecules "N"tot. The mole fraction is sometimes denoted by the lowercase Greek letter "χ" (chi) instead of a Roman "x". For mixtures of gases, IUPAC recommends the letter "y".
+The National Institute of Standards and Technology of the United States prefers the term amount-of-substance fraction over mole fraction because it does not contain the name of the unit mole.
+Whereas mole fraction is a ratio of moles to moles, molar concentration is a quotient of moles to volume.
+The mole fraction is one way of expressing the composition of a mixture with a dimensionless quantity; mass fraction (percentage by weight, wt%) and volume fraction (percentage by volume, vol%) are others.
+Properties.
+Mole fraction is used very frequently in the construction of phase diagrams. It has a number of advantages:
+Differential quotients can be formed at constant ratios like those above:
+or 
+The ratios "X", "Y", and "Z" of mole fractions can be written for ternary and multicomponent systems:
+These can be used for solving PDE like:
+or 
+This equality can be rearranged to have differential quotient of mole amounts or fractions on one side.
+or 
+Mole amounts can be eliminated by forming ratios:
+Thus the ratio of chemical potentials becomes:
+Similarly the ratio for the multicomponents system becomes
+Related quantities.
+Mass fraction.
+The mass fraction "wi" can be calculated using the formula
+where "Mi" is the molar mass of the component "i" and "M̄" is the average molar mass of the mixture.
+Molar mixing ratio.
+The mixing of two pure components can be expressed introducing the amount or molar mixing ratio of them formula_15. Then the mole fractions of the components will be:
+The amount ratio equals the ratio of mole fractions of components:
+due to division of both numerator and denominator by the sum of molar amounts of components. This property has consequences for representations of phase diagrams using, for instance, ternary plots.
+Mixing binary mixtures with a common component to form ternary mixtures.
+Mixing binary mixtures with a common component gives a ternary mixture with certain mixing ratios between the three components. These mixing ratios from the ternary and the corresponding mole fractions of the ternary mixture x1(123), x2(123), x3(123) can be expressed as a function of several mixing ratios involved, the mixing ratios between the components of the binary mixtures and the mixing ratio of the binary mixtures to form the ternary one.
+Mole percentage.
+Multiplying mole fraction by 100 gives the mole percentage, also referred as amount/amount percent [abbreviated as (n/n)%].
+Mass concentration.
+The conversion to and from mass concentration "ρi" is given by:
+where "M̄" is the average molar mass of the mixture.
+Molar concentration.
+The conversion to molar concentration "ci" is given by:
+where "M̄" is the average molar mass of the solution, "c" is the total molar concentration and "ρ" is the density of the solution.
+Mass and molar mass.
+The mole fraction can be calculated from the masses "mi" and molar masses "Mi" of the components:
+Spatial variation and gradient.
+In a spatially non-uniform mixture, the mole fraction gradient triggers the phenomenon of diffusion.
+

@@ -1,0 +1,18 @@
+
+Classical mechanics is the branch of physics used to describe the motion of macroscopic objects. It is the most familiar of the theories of physics. The concepts it covers, such as mass, acceleration, and force, are commonly used and known. The subject is based upon a three-dimensional Euclidean space with fixed axes, called a frame of reference. The point of concurrency of the three axes is known as the origin of the particular space.
+Classical mechanics utilises many equations—as well as other mathematical concepts—which relate various physical quantities to one another. These include differential equations, manifolds, Lie groups, and ergodic theory. This article gives a summary of the most important of these.
+This article lists equations from Newtonian mechanics, see analytical mechanics for the more general formulation of classical mechanics (which includes Lagrangian and Hamiltonian mechanics).
+Classical mechanics.
+General energy definitions.
+Every conservative force has a potential energy. By following two principles one can consistently assign a non-relative value to "U":
+Kinematics.
+In the following rotational definitions, the angle can be any angle about the specified axis of rotation. It is customary to use "θ", but this does not have to be the polar angle used in polar coordinate systems. The unit axial vector
+defines the axis of rotation, formula_2 = unit vector in direction of r, formula_3 = unit vector tangential to the angle.
+!
+! Translation
+! Rotation
+!Velocity
+Instantaneous:
+Instantaneous:
+Instantaneous:
+

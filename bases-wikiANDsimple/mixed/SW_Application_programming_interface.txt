@@ -1,0 +1,1 @@
+An Application Programming Interface (API) is a set of functions, procedures, methods or classes used by computer programs to requests services from the operating system, software libraries or any other service providers running on the computer.

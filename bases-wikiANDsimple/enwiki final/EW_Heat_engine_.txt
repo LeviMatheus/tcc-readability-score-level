@@ -1,0 +1,54 @@
+
+In thermodynamics and engineering, a heat engine is a system that converts heat or thermal energy to mechanical energy, which can then be used to do mechanical work. It does this by bringing a working substance from a higher state temperature to a lower state temperature. A heat source generates thermal energy that brings the working substance to the high temperature state. The working substance generates work in the working body of the engine while transferring heat to the colder sink until it reaches a low temperature state. During this process some of the thermal energy is converted into work by exploiting the properties of the working substance. The working substance can be any system with a non-zero heat capacity, but it usually is a gas or liquid. During this process, some heat is normally lost to the surroundings and is not converted to work. Also, some energy is unusable because of friction and drag.
+In general, an engine converts energy to mechanical work. Heat engines distinguish themselves from other types of engines by the fact that their efficiency is fundamentally limited by Carnot's theorem. Although this efficiency limitation can be a drawback, an advantage of heat engines is that most forms of energy can be easily converted to heat by processes like exothermic reactions (such as combustion), nuclear fission, absorption of light or energetic particles, friction, dissipation and resistance. Since the heat source that supplies thermal energy to the engine can thus be powered by virtually any kind of energy, heat engines cover a wide range of applications.
+Heat engines are often confused with the cycles they attempt to implement. Typically, the term "engine" is used for a physical device and "cycle" for the models.
+Overview.
+In thermodynamics, heat engines are often modeled using a standard engineering model such as the Otto cycle. The theoretical model can be refined and augmented with actual data from an operating engine, using tools such as an indicator diagram. Since very few actual implementations of heat engines exactly match their underlying thermodynamic cycles, one could say that a thermodynamic cycle is an ideal case of a mechanical engine. In any case, fully understanding an engine and its efficiency requires a good understanding of the (possibly simplified or idealised) theoretical model, the practical nuances of an actual mechanical engine and the discrepancies between the two.
+In general terms, the larger the difference in temperature between the hot source and the cold sink, the larger is the potential thermal efficiency of the cycle. On Earth, the cold side of any heat engine is limited to being close to the ambient temperature of the environment, or not much lower than 300 Kelvin, so most efforts to improve the thermodynamic efficiencies of various heat engines focus on increasing the temperature of the source, within material limits. The maximum theoretical efficiency of a heat engine (which no engine ever attains) is equal to the temperature difference between the hot and cold ends divided by the temperature at the hot end, each expressed in absolute temperature (Kelvin).
+The efficiency of various heat engines proposed or used today has a large range:
+The efficiency of these processes is roughly proportional to the temperature drop across them. Significant energy may be consumed by auxiliary equipment, such as pumps, which effectively reduces efficiency.
+Examples.
+It is important to note that although some cycles have a typical combustion location (internal or external), they often can be implemented with the other. For example, John Ericsson developed an external heated engine running on a cycle very much like the earlier Diesel cycle. In addition, externally heated engines can often be implemented in open or closed cycles.
+Everyday examples.
+Everyday examples of heat engines include the thermal power station, internal combustion engine and firearms. All of these heat engines are powered by the expansion of heated gases.
+Earth's heat engine.
+Earth's atmosphere and hydrosphere—Earth's heat engine—are coupled processes that constantly even out solar heating imbalances through evaporation of surface water, convection, rainfall, winds and ocean circulation, when distributing heat around the globe.
+A Hadley cell is an example of a heat engine. It involves the rising of warm and moist air in the earth's equatorial region and the descent of colder air in the subtropics creating a thermally driven direct circulation, with consequent net production of kinetic energy.
+Phase-change cycles.
+In these cycles and engines, the working fluids are gases and liquids. The engine converts the working fluid from a gas to a liquid, from liquid to gas, or both, generating work from the fluid expansion or compression.
+Gas-only cycles.
+In these cycles and engines the working fluid is always a gas (i.e., there is no phase change):
+Liquid-only cycles.
+In these cycles and engines the working fluid are always like liquid:
+Cycles used for refrigeration.
+A domestic refrigerator is an example of a heat pump: a heat engine in reverse. Work is used to create a heat differential. Many cycles can run in reverse to move heat from the cold side to the hot side, making the cold side cooler and the hot side hotter. Internal combustion engine versions of these cycles are, by their nature, not reversible.
+Refrigeration cycles include:
+Evaporative heat engines.
+The Barton evaporation engine is a heat engine based on a cycle producing power and cooled moist air from the evaporation of water into hot dry air.
+Mesoscopic heat engines.
+Mesoscopic heat engines are nanoscale devices that may serve the goal of processing heat fluxes and perform useful work at small scales. Potential applications include e.g. electric cooling devices.
+In such mesoscopic heat engines, work per cycle of operation fluctuates due to thermal noise.
+There is exact equality that relates average of exponents of work performed by any heat engine and the heat transfer from the hotter heat bath. This relation transforms the Carnot's inequality into exact equality. This relation is also a Carnot cycle equality
+Efficiency.
+The efficiency of a heat engine relates how much useful work is output for a given amount of heat energy input.
+From the laws of thermodynamics, after a completed cycle:
+In other words, a heat engine absorbs heat energy from the high temperature heat source, converting part of it to useful work and delivering the rest to the cold temperature heat sink.
+In general, the efficiency of a given heat transfer process (whether it be a refrigerator, a heat pump or an engine) is defined informally by the ratio of "what is taken out" to "what is put in".
+In the case of an engine, one desires to extract work and puts in a heat transfer.
+The "theoretical" maximum efficiency of any heat engine depends only on the temperatures it operates between. This efficiency is usually derived using an ideal imaginary heat engine such as the Carnot heat engine, although other engines using different cycles can also attain maximum efficiency. Mathematically, this is because in reversible processes, the change in entropy of the cold reservoir is the negative of that of the hot reservoir (i.e., formula_7), keeping the overall change of entropy zero. Thus:
+where formula_9 is the absolute temperature of the hot source and formula_10 that of the cold sink, usually measured in kelvins. Note that formula_11 is positive while formula_12 is negative; in any reversible work-extracting process, entropy is overall not increased, but rather is moved from a hot (high-entropy) system to a cold (low-entropy one), decreasing the entropy of the heat source and increasing that of the heat sink.
+The reasoning behind this being the maximal efficiency goes as follows. It is first assumed that if a more efficient heat engine than a Carnot engine is possible, then it could be driven in reverse as a heat pump. Mathematical analysis can be used to show that this assumed combination would result in a net decrease in entropy. Since, by the second law of thermodynamics, this is statistically improbable to the point of exclusion, the Carnot efficiency is a theoretical upper bound on the reliable efficiency of "any" thermodynamic cycle.
+Empirically, no heat engine has ever been shown to run at a greater efficiency than a Carnot cycle heat engine.
+Figure 2 and Figure 3 show variations on Carnot cycle efficiency. Figure 2 indicates how efficiency changes with an increase in the heat addition temperature for a constant compressor inlet temperature. Figure 3 indicates how the efficiency changes with an increase in the heat rejection temperature for a constant turbine inlet temperature.
+Endo-reversible heat-engines.
+By its nature, any maximally efficient Carnot cycle must operate at an infinitesimal temperature gradient; this is because any transfer of heat between two bodies of differing temperatures is irreversible, therefore the Carnot efficiency expression applies only to the infinitesimal limit. The major problem is that the objective of most heat-engines is to output power, and infinitesimal power is seldom desired.
+A different measure of ideal heat-engine efficiency is given by considerations of endoreversible thermodynamics, where the cycle is identical to the Carnot cycle except that the two processes of heat transfer are "not" reversible (Callen 1985):
+This model does a better job of predicting how well real-world heat-engines can do (Callen 1985, see also endoreversible thermodynamics):
+As shown, the endo-reversible efficiency much more closely models that observed.
+History.
+Heat engines have been known since antiquity but were only made into useful devices at the time of the industrial revolution in the 18th century. They continue to be developed today.
+Enhancements.
+Engineers have studied the various heat-engine cycles to improve the amount of usable work they could extract from a given power source. The Carnot cycle limit cannot be reached with any gas-based cycle, but engineers have found at least two ways to bypass that limit and one way to get better efficiency without bending any rules:
+Heat engine processes.
+Each process is one of the following:
+

@@ -1,0 +1,9 @@
+
+Federal Telecommunications System 2000 (FTS2000) is a long distance telecommunications service for the United States federal government, including services such as switched voice service for voice or data up to 4.8 kbit/s, switched data at 56 kbit/s and 64 kbit/s, switched digital integrated service for voice, data, image, and video up to 1.544 Mbit/s, packet switched service for data in packet form, video transmission for both compressed and wideband video, and dedicated point-to-point private line for voice and data. 
+"Note 1:" Use of FTS2000 contract services is mandatory for use by U.S. Government agencies for all acquisitions subject to 40 U.S.C. 759. 
+"Note 2:" No U.S. Government information processing equipment or customer premises equipment other than that which are required to provide an FTS2000 service are furnished. 
+"Note 3:" The FTS2000 contractors will be required to provide service directly to an agency's terminal equipment interface. For example, the FTS2000 contractor might provide a terminal adapter to an agency location in order to connect FTS2000 ISDN services to the agency's terminal equipment. 
+"Note 4:" GSA awarded two 10-year, fixed-price contracts covering FTS2000 services on December 7, 1988. 
+"Note 5:" The Warner Amendment excludes the mandatory use of FTS2000 in instances related to maximum security.
+FTS2000 was completed in 2000, then replaced by FTS2001, and thereafter, in 2008, by Networx.
+

@@ -1,0 +1,5 @@
+
+In physics, field strength means the "magnitude" of a vector-valued field (e.g., in volts per meter, V/m, for an electric field E). 
+For example, an electromagnetic field results in both electric field strength and magnetic field strength.
+As an application, in radio frequency telecommunications, the signal strength excites a receiving antenna and thereby induces a voltage at a specific frequency and polarization in order to provide an input signal to a radio receiver. Field strength meters are used for such applications as cellular, broadcasting, wi-fi and a wide variety of other radio-related applications.
+

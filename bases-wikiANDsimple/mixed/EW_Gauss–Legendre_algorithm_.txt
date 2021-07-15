@@ -1,0 +1,23 @@
+
+The Gauss–Legendre algorithm is an algorithm to compute the digits of . It is notable for being rapidly convergent, with only 25 iterations producing 45 million correct digits of . However, the drawback is that it is computer memory-intensive and therefore sometimes Machin-like formulas are used instead.
+The method is based on the individual work of Carl Friedrich Gauss (1777–1855) and Adrien-Marie Legendre (1752–1833) combined with modern algorithms for multiplication and square roots. It repeatedly replaces two numbers by their arithmetic and geometric mean, in order to approximate their arithmetic-geometric mean.
+The version presented below is also known as the Gauss–Euler, Brent–Salamin (or Salamin–Brent) algorithm; it was independently discovered in 1975 by Richard Brent and Eugene Salamin. It was used to compute the first 206,158,430,000 decimal digits of on September 18 to 20, 1999, and the results were checked with Borwein's algorithm.
+Algorithm.
+1. Initial value setting:
+2. Repeat the following instructions until the difference of formula_2 and formula_3 is within the desired accuracy:
+3. is then approximated as:
+The first three iterations give (approximations given up to and including the first incorrect digit):
+The algorithm has quadratic convergence, which essentially means that the number of correct digits doubles with each iteration of the algorithm.
+Mathematical background.
+Limits of the arithmetic–geometric mean.
+The arithmetic–geometric mean of two numbers, a0 and b0, is found by calculating the limit of the sequences
+which both converge to the same limit.
+If formula_10 and formula_11 then the limit is formula_12 where formula_13 is the complete elliptic integral of the first kind
+If formula_15, formula_16, then
+where formula_18 is the complete elliptic integral of the second kind:
+Gauss knew of both of these results.
+Legendre’s identity.
+For formula_21 and formula_22 such that formula_23 Legendre proved the identity:
+Elementary proof with integral calculus.
+The Gauss-Legendre algorithm can be proven without elliptic modular functions. This is done here and here using only integral calculus.
+

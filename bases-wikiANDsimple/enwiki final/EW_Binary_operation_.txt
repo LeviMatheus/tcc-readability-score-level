@@ -1,0 +1,32 @@
+
+In mathematics, a binary operation or dyadic operation is a calculation that combines two elements (called operands) to produce another element. More formally, a binary operation is an operation of arity two.
+More specifically, a binary operation "on a set" is an operation whose two domains and the codomain are the same set. Examples include the familiar arithmetic operations of addition, subtraction, multiplication. Other examples are readily found in different areas of mathematics, such as vector addition, matrix multiplication and conjugation in groups.
+An operation of arity two that involves several sets is sometimes also called a "binary operation". For example, scalar multiplication of vector spaces takes a scalar and a vector to produce a vector, and scalar product takes two vectors to produce a scalar. Such binary operations may be called simply binary functions.
+Binary operations are the keystone of most algebraic structures, that are studied in algebra, in particular in semigroups, monoids, groups, rings, fields, and vector spaces.
+Terminology.
+More precisely, a binary operation on a set "S" is a mapping of the elements of the Cartesian product to "S":
+Because the result of performing the operation on a pair of elements of "S" is again an element of "S", the operation is called a closed (or internal) binary operation on "S" (or sometimes expressed as having the property of closure). 
+If "f" is not a function, but a partial function, then "f" is called a partial binary operation. For instance, division of real numbers is a partial binary operation, because one can't divide by zero: "a"/0 is undefined for every real number "a". In both universal algebra and model theory, binary operations are required to be defined on all of .
+Sometimes, especially in computer science, the term binary operation is used for any binary function.
+Properties and examples.
+Typical examples of binary operations are the addition (+) and multiplication (×) of numbers and matrices as well as composition of functions on a single set.
+For instance,
+Many binary operations of interest in both algebra and formal logic are commutative, satisfying for all elements "a" and "b" in "S", or associative, satisfying for all "a", "b" and "c" in "S". Many also have identity elements and inverse elements.
+The first three examples above are commutative and all of the above examples are associative.
+On the set of real numbers R, subtraction, that is, , is a binary operation which is not commutative since, in general, . It is also not associative, since, in general, ; for instance, but .
+On the set of natural numbers N, the binary operation exponentiation, , is not commutative since, (cf. Equation xʸ = yˣ), and is also not associative since . For instance, with , and , , but . By changing the set N to the set of integers Z, this binary operation becomes a partial binary operation since it is now undefined when and "b" is any negative integer. For either set, this operation has a "right identity" (which is 1) since for all "a" in the set, which is not an "identity" (two sided identity) since in general.
+Division (/), a partial binary operation on the set of real or rational numbers, is not commutative or associative. Tetration (↑↑), as a binary operation on the natural numbers, is not commutative or associative and has no identity element.
+Notation.
+Binary operations are often written using infix notation such as , , or (by juxtaposition with no symbol) "ab" rather than by functional notation of the form . Powers are usually also written without operator, but with the second argument as superscript.
+Binary operations sometimes use prefix or (probably more often) postfix notation, both of which dispense with parentheses. They are also called, respectively, Polish notation and reverse Polish notation.
+Pair and tuple.
+A binary operation, "ab", depends on the ordered pair ("a, b") and so ("ab")"c" (where the parentheses here mean first operate on the ordered pair ("a", "b") and then operate on the result of that using the ordered pair (("ab"), "c")) depends in general on the ordered pair (("a", "b"), "c"). Thus, for the general, non-associative case, binary operations can be represented with binary trees.
+However:
+Binary operations as ternary relations.
+A binary operation "f" on a set "S" may be viewed as a ternary relation on "S", that is, the set of triples ("a", "b", "f"("a,b")) in "S" × "S" × "S" for all "a" and "b" in "S".
+External binary operations.
+An external binary operation is a binary function from "K" × "S" to "S". This differs from a "binary operation on a set" in the sense in that "K" need not be "S"; its elements come from "outside".
+An example of an external binary operation is scalar multiplication in linear algebra. Here "K" is a field and "S" is a vector space over that field.
+An external binary operation may alternatively be viewed as an action; "K" is acting on "S".
+The dot product of two vectors maps from "S" × "S" to "K", where "K" is a field and "S" is a vector space over "K". It depends on authors whether it is considered as a binary operation.
+

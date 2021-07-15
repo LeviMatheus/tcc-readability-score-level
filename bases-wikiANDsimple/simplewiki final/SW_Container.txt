@@ -1,0 +1,1 @@
+A container is an object used for holding something. People put things in a container.

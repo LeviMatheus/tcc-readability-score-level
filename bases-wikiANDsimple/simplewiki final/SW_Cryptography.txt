@@ -1,0 +1,11 @@
+Cryptography (also known as cryptology; comes from Greek, "kryptos", "hidden, secret"; and, "gráphō", "I write", or, "-logia", respectively) is the practice and study of hiding information; the science used to try to keep a information secret and safe.
+It has been used for over 2000 years. In modern times, cryptography can be a part of mathematics and computer science, and is related to information theory, computer security, and engineering. Cryptography can be used to protect all different kinds of information. Things that use cryptography include keeping information secret on bank cards, computer passwords, and the internet, which all use cryptography to keep information hidden and secret.
+Using Cryptography.
+When a message is sent using cryptography, it is changed (or "encrypted") before it is sent. The change makes the message hard to read. If someone wants to read it (or "decrypt" it), they need to change it back. How to change it back is a secret. Both the person that sends the message and the one that gets it should know the secret way to change it, but other people should not be able to.
+Types of Cryptography.
+Different types of Cryptography can be easier or harder to use and can hide the secret better or worse.
+Computers.
+Computers can do hard math very fast, because of this they can do very strong encryption. Examples are computer algorithms like RSA, AES, Blowfish, and many others. Using good algorithms like these can make it very hard to read the information that is sent.
+People.
+People are better at patterns, changing order of words or letters, and using words with different meanings. Because people are slower than computers any cryptography they use can probably be broken if enough of the secret way to change it is known.
+Simple forms of cryptography that people can do are Caesar ciphers and Straddling checkerboard, but there are lots more.

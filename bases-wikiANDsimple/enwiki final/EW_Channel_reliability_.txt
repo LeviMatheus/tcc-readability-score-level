@@ -1,0 +1,5 @@
+
+In telecommunication, channel reliability (ChR) is the percentage of time a communication channel was available for use in a specified period of scheduled availability. 
+Channel reliability is given by 
+where "T" o is the channel total outage time, "T" s is the channel total scheduled time, and "T" a is the channel total available time.
+

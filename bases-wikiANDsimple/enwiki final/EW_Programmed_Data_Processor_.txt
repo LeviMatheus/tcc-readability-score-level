@@ -1,0 +1,8 @@
+
+Programmed Data Processor (PDP), referred to by some customers, media and authors as "Programmable Data Processor, is a term used by the Digital Equipment Corporation from 1957 to 1990 for several lines of minicomputers. The name "PDP" intentionally avoids the use of the term "computer" because, at the time of the first PDPs, computers had a reputation of being large, complicated, and expensive machines, and the venture capitalists behind Digital (especially Georges Doriot) would not support Digital's attempting to build a "computer"; the word "minicomputer" had not yet been coined. So instead, Digital used their existing line of logic modules to build a "Programmed Data Processor" and aimed it at a market that could not afford the larger computers.
+The various PDP machines can generally be grouped into families based on word length.
+Series.
+Members of the PDP series include:
+External links.
+Various sites list documents by Charles Lasner, the creator of the alt.sys.pdp8 discussion group, and related documents by various members of the alt.sys.pdp8 readership with even more authoritative information about the various models, especially detailed focus upon the various members of the PDP-8 "family" of computers both made and not made by DEC.
+

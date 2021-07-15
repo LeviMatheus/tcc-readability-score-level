@@ -1,0 +1,15 @@
+
+In fiber optics, a graded index is an optical fiber whose core has a refractive index that decreases with increasing radial distance from the optical axis of the fiber.
+Because parts of the core closer to the fiber axis have a higher refractive index than the parts near the cladding, light rays follow sinusoidal paths down the fiber. The most common refractive index profile for a graded-index fiber is very nearly parabolic. The parabolic profile results in continual refocusing of the rays in the core, and minimizes modal dispersion.
+Multi-mode optical fiber can be built with either graded index or step index. The advantage of the multi-mode graded index compared to the multi-mode step index is the considerable decrease in modal dispersion. Modal dispersion can be further decreased by selecting a smaller core size (less than 5-10μm) and forming a single mode step index fiber.
+This type of fiber is normalized by the International Telecommunications Union ITU-T at recommendation G.651.1.
+Pulse dispersion.
+Pulse dispersion in a graded index optical fiber is given by
+formula_1     
+where
+formula_2 is the difference in refractive indices of core and cladding,
+formula_3 is the refractive index of the cladding,
+formula_4 is the length of the fiber taken for observing the pulse dispersion,
+formula_5 is the speed of light, and
+formula_6 is the constant of graded index profile.
+

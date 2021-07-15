@@ -1,0 +1,20 @@
+Reed-Solomon error correction is an error-correcting code. It works by oversampling a polynomial constructed from the data. The polynomial is evaluated at several points, and these values are sent or recorded. Sampling the polynomial more often than is necessary makes the polynomial over-determined. As long as it receives "many" of the points correctly, the receiver can recover the original polynomial even in the presence of a "few" bad points.
+Reed-Solomon codes are used in many different kinds of commercial applications, for example in CDs, DVDs and Blu-ray Discs, in data transmission technologies such as DSL & WiMAX, and broadcast systems such as DVB and ATSC.
+Overview.
+Reed-Solomon codes are block codes. This means that a fixed block of input data is processed
+into a fixed block of output data. In the case of the most commonly used R-S code (255, 223) – 223 Reed-Solomon input symbols (each eight bits long) are encoded into 255 output symbols.
+The Reed-Solomon code, like the convolutional code, is a transparent code. This means that if
+the channel symbols have been inverted somewhere along the line, the decoders will still
+operate. The result will be the complement of the original data. However, the Reed-Solomon
+code loses its transparency if virtual zero fill is used. For this reason it is mandatory that the
+sense of the data (i.e., true or complemented) be resolved before Reed-Solomon decoding.
+In the case of the Voyager program R-S codes reach near optimal performance when concatenated with the (7, 1/2) convolutional (Viterbi) inner code. Since two check symbols are required for each error to be corrected, this results in a total of 32 check symbols and 223 information symbols per codeword.
+In addition, the Reed-Solomon codewords can be interleaved on a symbol basis before being
+convolutionally encoded. Since this separates the symbols in a codeword, it becomes less likely
+that a burst from the Viterbi decoder disturbs more than one Reed-Solomon symbol in any one
+Basic idea.
+The key idea behind a Reed-Solomon code is that the data encoded is first visualized as a polynomial. The code relies on a theorem from algebra that states that any "k" distinct points "uniquely" determine a polynomial of degree at most "k"-1.
+The sender determines a degree formula_1 polynomial, over a finite field, that represents the formula_2 data points. The polynomial is then "encoded" by its evaluation at various points, and these values are what is actually sent. During transmission, some of these values may become corrupted. Therefore, more than "k" points are actually sent. As long as sufficient values are received correctly, the receiver can deduce what the original polynomial was, and decode the original data.
+In the same sense that one can correct a curve by interpolating past a gap, a Reed-Solomon code can bridge a series of errors in a block of data to recover the coefficients of the polynomial that drew the original curve.
+History.
+The code was invented in 1960 by Irving S. Reed and Gustave Solomon, who were then members of MIT Lincoln Laboratory. Their seminal article was entitled "Polynomial Codes over Certain Finite Fields." When it was written, digital technology was not advanced enough to implement the concept. The first application, in 1982, of RS codes in mass-produced products was the compact disc, where two interleaved RS codes are used. An efficient decoding algorithm for large-distance RS codes was developed by Elwyn Berlekamp and James Massey in 1969. Today RS codes are used in hard disk drive, DVD, telecommunication, and digital broadcast protocols.

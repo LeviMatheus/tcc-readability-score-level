@@ -1,0 +1,5 @@
+MySQL is a database engine used for many websites around the internet.
+History.
+MySQL was first released in May 1995 and a Windows version was released in January 1998. The latest version (5.0) was released in October 2005.
+Compatibility.
+MySQL is compatible with many major programming languages. The most common one is PHP. An ODBC interface (called MyODBC) has been made so that users of Microsoft's ASP language can use MySQL.

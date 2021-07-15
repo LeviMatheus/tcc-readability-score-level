@@ -1,0 +1,9 @@
+A thing is true if it is correct. A thing is true if it is a fact.
+Example.
+For example, it is true that a dog is an animal. It is "untrue" (not true) that a dog is a plant.
+Other words.
+Something untrue is false. A half truth is something true mixed with something false.
+If the things you say are true, then you speak the truth, or speak truly. Saying something untrue can be called 'a lie', if the person saying it knows it is untrue.
+True and False in Logic.
+"True" is also one of the two basic values of classical logic. The other such value is usually called "false".
+Classical logic is also known as boolean algebra

@@ -1,0 +1,1 @@
+The parallel port (also known as a printer port or Centronics port) is a type of interface found on computers for connecting various peripherals.

@@ -1,0 +1,17 @@
+This is a list of formula to measure textual difficulty.
+Overview.
+These are method of finding out how hard a piece of writing is (its textual difficulty).
+Fog.
+Uses affixes, Personal Pronouns,
+Gunning Fog.
+The Gunning fog, sometimes fog index, is a formula developed by Robert Gunning. It was first published in his book "The Technique of Clear Writing" in 1952. It became popular due to the easy which the score is calculated without a calculator.
+The formula has been criticized since it weights, or uses, sentence length. The critics argue that texts created with the formula will use shorter sentences without using simpler words.
+Spache.
+The Spache method compares words in a text to a list of words which are familiar in everyday writing. The words that are not on the list are called "unfamiliar". The number of words per sentence are counted. This number and the percentage of unfamiliar words is put into a formula. The result is a reading age. Someone of this age should be able to read the text. It is designed to work on texts for children in primary education or grades from 1 to 7.
+Formula.
+The calculations are performed in two steps. The first step finds the Estimated Close Percentage. The second stop, calculation the actual grade.
+SMOG.
+The SMOG formula is a way of estimating the difficulty of writing. It was developed G. Harry McLaughlin in 1969 to make calculations as simple as possible. It has a high correlation 0.985 or 0.97% accuracy of the score to the actual grade at which students where able to fully understand the piece of writing.
+Like Gunning-Fog the formula uses words which have 3 or more syllables as an indicator for hardness, these are said to be polysyllabic.
+Formula.
+McLaughlin has made directions for a version which could be done with just mental math.

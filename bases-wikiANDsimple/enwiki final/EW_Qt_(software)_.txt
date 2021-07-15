@@ -1,0 +1,72 @@
+
+Qt (pronounced "cute") is a widget toolkit for creating graphical user interfaces as well as cross-platform applications that run on various software and hardware platforms such as Linux, Windows, macOS, Android or embedded systems with little or no change in the underlying codebase while still being a native application with native capabilities and speed.
+Qt is currently being developed by The Qt Company, a publicly listed company, and the Qt Project under open-source governance, involving individual developers and organizations working to advance Qt. Qt is available under both commercial licenses and open-source GPL 2.0, GPL 3.0, and LGPL 3.0 licenses.
+Purposes and abilities.
+Qt is used for developing graphical user interfaces (GUIs) and multi-platform applications that run on all major desktop platforms and most mobile or embedded platforms.
+Most GUI programs created with Qt have a native-looking interface, in which case Qt is classified as a "widget toolkit". Non-GUI programs can also be developed, such as command-line tools and consoles for servers. An example of such a non-GUI program using Qt is the Cutelyst web framework.
+Qt supports various compilers, including the GCC C++ compiler, the Visual Studio suite, PHP via an extension for PHP5, and has extensive internationalization support. Qt also provides Qt Quick, that includes a declarative scripting language called QML that allows using JavaScript to provide the logic. With Qt Quick, rapid application development for mobile devices became possible, while logic can still be written with native code as well to achieve the best possible performance.
+Other features include SQL database access, XML parsing, JSON parsing, thread management and network support.
+Qt releases.
+The latest version is Qt 6.0, which was released on 8 December 2020.
+The current long-term support (LTS) version is Qt 5.15 LTS. The Qt Company is moving Qt 5.15 To Its Commercial-Only LTS Phase starting on Jan 5th 2021.
+Also Qt 5.12 is LTS version Actual Version is 5.12.10.
+The initial release of Qt software was on 20 May 1995.
+Qt in use.
+In 2017, the Qt Company estimated a community of about 1 million developers worldwide in over 70 industries.
+Desktop UIs.
+Graphical user-interfaces and desktop environments that utilize Qt/QML as widget toolkit:
+Applications using Qt.
+Many notable open-source or proprietary cross-platform software are using Qt or QML: 
+Organizations using Qt.
+Qt is utilized by a wide range of companies and organizations such as
+Qt software architecture.
+Qt concepts.
+Qt is built on these key concepts:
+Qt modules.
+Starting with Qt 4.0 the framework was split into individual modules. With Qt 5.0 the architecture was modularized even further. Qt is now split into "essential" and "add-on" modules.
+Editions.
+There are four editions of Qt available: "Community", "Indie Mobile", "Professional" and "Enterprise". The Community version is under the open source licenses, while the Indie Mobile, Professional and Enterprise versions, which contain additional functionality and libraries, e.g. Enterprise Controls are commercially sold by The Qt Company.
+Supported platforms.
+Qt works on many different platforms; the following are officially supported:
+After Nokia opened the Qt source code to the community on Gitorious, various ports appeared. There are also some ports of Qt that may be available, but are not supported anymore. These platforms are listed in List of platforms supported by Qt. See also there for current community support for other lesser known platforms, such as SailfishOS.
+Licensing.
+Qt is available under the following free software licenses: GPL 2.0, GPL 3.0, LGPL 3.0 and LGPL 2.1 (with Qt special exception). Note that some modules are available only under a GPL license, which means that applications which link to these modules need to comply with that license.
+In addition, Qt has always been available under a commercial license, like the Qt Commercial License, that allows developing proprietary applications with no restrictions on licensing.
+Qt tools.
+Qt comes with its own set of tools to ease cross-platform development, which can otherwise be cumbersome due to different set of development tools.
+Qt Creator is a cross-platform IDE for C++ and QML. Qt Designer's GUI layout/design functionality is integrated into the IDE, although Qt Designer can still be started as a standalone tool.
+In addition to Qt Creator, Qt provides qmake, a cross-platform build script generation tool that automates the generation of Makefiles for development projects across different platforms.
+There are other tools available in Qt, including the Qt Designer interface builder and the Qt Assistant help browser (which are both embedded in Qt Creator), the Qt Linguist translation tool, uic (user interface compiler), and moc (Meta-Object Compiler).
+History of Qt.
+Early developments.
+In the summer of 1990, Haavard Nord and Eirik Chambe-Eng (the original developers of Qt and the CEO and President, respectively, of Trolltech) were working together on a database application for ultrasound images written in C++ and running on Mac OS, Unix, and Microsoft Windows. They began development of "Qt" in 1991, three years before the company was incorporated as Quasar Technologies, then changed the name to Troll Tech and then to Trolltech.
+The toolkit was called Qt because the letter Q looked appealing in Haavard's Emacs typeface, and "t" was inspired by Xt, the X toolkit.
+The first two versions of Qt had only two flavors: Qt/X11 for Unix and Qt/Windows for Windows.
+On 20 May 1995 Troll Tech publicly released Qt 0.90 for X11/Linux with the source code under the "Qt Free Edition License". This license was viewed as not compliant with the free software definition by Free Software Foundation because, while the source was available, it did not allow the redistribution of modified versions. Trolltech used this license until version 1.45. Controversy erupted around 1998 when it became clear that the K Desktop Environment was going to become one of the leading desktop environments for Linux. As it was based on Qt, many people in the free software movement worried that an essential piece of one of their major operating systems would be proprietary.
+The Windows platform was available only under a proprietary license, which meant free/open source applications written in Qt for X11 could not be ported to Windows without purchasing the proprietary edition.
+Becoming free software–friendly.
+With the release of version 2.0 of the toolkit, the license was changed to the Q Public License (QPL), a free software license, but one regarded by the Free Software Foundation as incompatible with the GPL. Compromises were sought between KDE and Trolltech whereby Qt would not be able to fall under a more restrictive license than the QPL, even if Trolltech was bought out or went bankrupt. This led to the creation of the KDE Free Qt foundation, which guarantees that Qt would fall under a BSD-style license should no free/open source version of Qt be released during 12 months.
+In 2000, Qt/X11 2.2 was released under the GPL v2, ending all controversy regarding GPL compatibility.
+At the end of 2001, Trolltech released Qt 3.0, which added support for Mac OS X (now known as macOS). The Mac OS X support was available only in the proprietary license until June 2003, when Trolltech released Qt 3.2 with Mac OS X support available under the GPL.
+In 2002, members of the KDE on Cygwin project began porting the GPL licensed Qt/X11 code base to Windows. This was in response to Trolltech's refusal to license Qt/Windows under the GPL on the grounds that Windows was not a free/open source software platform. The project achieved reasonable success although it never reached production quality.
+This was resolved when Trolltech released Qt 4.0 also for Windows under the GPL in June 2005. Qt 4 supported the same set of platforms in the free software/open source editions as in the proprietary edition, so it is possible, with Qt 4.0 and later releases, to create GPL-licensed free/open source applications using Qt on all supported platforms. The GPL v3 with special exception was later added as an added licensing option. The GPL exception allows the final application to be licensed under various GPL-incompatible free software/open source licenses such as the Mozilla Public License 1.1.
+Acquisition by Nokia.
+Nokia acquired Trolltech ASA on 17 June 2008 and changed the name first to Qt Software, then to Qt Development Frameworks.
+Nokia focused on turning Qt into the main development platform for its devices, including a port to the Symbian S60 platform. Version 1.0 of the Nokia Qt SDK was released on 23 June 2010. The source code was made available over Gitorious, a community oriented git source code repository, with a goal of creating a broader community using and improving Qt.
+On 14 January 2009, Qt version 4.5 added another option, the LGPL, to make Qt more attractive for both non-GPL open source projects and closed applications.
+In February 2011, Nokia announced its decision to drop Symbian technologies and base their future smartphones on the Windows Phone platform instead (and since then support for that platform has also been dropped). One month later, Nokia announced the sale of Qt's commercial licensing and professional services to Digia, with the immediate goal of taking Qt support to Android, iOS and Windows 8 platforms, and to continue focusing on desktop and embedded development, although Nokia was to remain the main development force behind the framework at that time.
+Merging and demerging with Digia.
+In March 2011, Nokia sold the commercial licensing part of Qt to Digia, creating Qt Commercial. In August 2012, Digia announced that it would acquire Qt from Nokia. The Qt team at Digia started their work in September 2012. They released Qt 5.0 within a month and newer versions every six months with new features and additional supported platforms.
+In September 2014, Digia transferred the Qt business and copyrights to their wholly owned subsidiary, The Qt Company, which owns 25 brands related to Qt. In May 2016, Digia and Qt demerged completely into two independent companies.
+The Qt Project and open governance.
+Qt 5 was officially released on 19 December 2012. This new version marked a major change in the platform, with hardware-accelerated graphics, QML and JavaScript playing a major role. The traditional C++-only QWidgets continued to be supported, but did not benefit from the performance improvements available through the new architecture. Qt 5 brings significant improvements to the speed and ease of developing user interfaces.
+Framework development of Qt 5 moved to open governance at qt-project.org, which made it possible for developers outside Digia to submit patches for review.
+Qt contributors.
+Aside from The Qt Company, many organizations and individuals using Qt as their development platform participate in the open development of Qt via the Qt Project.
+One such Qt contributor is Klarälvdalens Datakonsult AB, a Swedish Qt consulting company. KDAB is involved in many areas, including maintenance of several components.
+Together with RIM/BlackBerry, KDAB is maintaining the QNX and BlackBerry 10 ports of Qt.
+Another participator is Intel, contributing for example Wayland support. AudioCodes maintains IBM ClearCase support in Qt Creator.
+As a heavy user of Qt, the KDE project submits many patches and features from its developer library KDE Frameworks back to Qt.
+Bibliography.
+Qt Wiki provides a comprehensive list of English books about Qt. This is a list of notable books:
+

@@ -1,0 +1,5 @@
+
+In a hybrid set, hybrid coil, or resistance hybrid, balancing network is a circuit used to match, "i.e.", to balance, the impedance of a uniform transmission line, (e.g., a twisted metallic pair, coaxial cable, etc.) over a selected range of frequencies. A balancing network is required to ensure isolation between the two ports of the four-wire side of the hybrid.
+A balancing network can also be a device used between a balanced device or line and an unbalanced device or line for the purpose of transforming from balanced to unbalanced or from unbalanced to balanced.
+Source: from Federal Standard 1037C and from MIL-STD-188
+

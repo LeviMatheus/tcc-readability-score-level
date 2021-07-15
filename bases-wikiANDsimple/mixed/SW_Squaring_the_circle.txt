@@ -1,0 +1,2 @@
+Squaring the cicle is a problem of geometry. The problem is to construct a square that has the same area as the unit circle, only by using a compass and straightedge construction method. Some people also call this problem the quadrature of the circle.
+In 1882, Ferdinand von Lindenmann proved that this is impossible.

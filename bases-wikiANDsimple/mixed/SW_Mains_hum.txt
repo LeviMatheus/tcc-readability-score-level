@@ -1,0 +1,1 @@
+Mains hum is a signal at a nominal 50 or 60 Hz, depending on local alternating current frequency, and usually some harmonic content. The changing magnetic flux caused by the mains current links with the windings of the pickup, inducing a voltage by transformer action.

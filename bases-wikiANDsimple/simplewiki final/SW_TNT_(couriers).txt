@@ -1,0 +1,4 @@
+TNT is a delivery company that delivers packages either world-wide or within a country by couriers. The company picks up parcels from the sender and then delivers them to the addressee. TNT Airways, based in Liège Airport, is the airline of TNT, using more than 40 planes to reach 70 destinations in Europe every night.
+System.
+All packages are delivered to a local warehouse. A courier collects the packages from the warehouse and delivers them to the address on the package. Couriers will also collect packages from a certain area and take them to the warehouse where they can be sorted and sent to the warehouse nearest the receiver's address.
+In the United Kingdom, couriers are often part-time workers, delivering packages using their own cars. They collect and deliver packages to any house in a certain postcode area. This way, the TNT company can be sure of delivering to any house in the area.

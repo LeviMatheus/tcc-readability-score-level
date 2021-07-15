@@ -1,0 +1,1 @@
+Recursion is a word from mathematics. In mathematics and in computer science, it is used to define a thing, usually a function. Unlike with normal definitions, the function to be defined can be used to define it.

@@ -1,0 +1,1 @@
+In cryptography, key whitening is a technique used to increase the security of block ciphers. It consists of steps that combine the data with portions of the key (most commonly using a simple XOR) before the first round and after the last round of encryption. DES-X was the first block cipher that used key whitening.

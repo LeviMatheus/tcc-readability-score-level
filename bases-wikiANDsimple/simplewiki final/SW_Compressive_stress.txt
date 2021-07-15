@@ -1,0 +1,3 @@
+Compressive stress is the stress on materials that leads to a smaller volume.
+By compressive stress the material is under compression. Compressive stress to bars, columns, etc. leads to shortening.
+One can increase the compressive stress til compressive strength is reached. Then materials will react with ductile behaviour (most metals, some soils and plastics) or with fracture in case of brittle materials (geomaterials, cast iron, glass, etc).

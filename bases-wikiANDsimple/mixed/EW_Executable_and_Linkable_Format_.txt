@@ -1,0 +1,36 @@
+
+In computing, the Executable and Linkable Format (ELF, formerly named Extensible Linking Format), is a common standard file format for executable files, object code, shared libraries, and core dumps. First published in the specification for the application binary interface (ABI) of the Unix operating system version named System V Release 4 (SVR4), and later in the Tool Interface Standard, it was quickly accepted among different vendors of Unix systems. In 1999, it was chosen as the standard binary file format for Unix and Unix-like systems on x86 processors by the 86open project.
+By design, the ELF format is flexible, extensible, and cross-platform. For instance it supports different endiannesses and address sizes so it does not exclude any particular central processing unit (CPU) or instruction set architecture. This has allowed it to be adopted by many different operating systems on many different hardware platforms.
+File layout.
+Each ELF file is made up of one ELF header, followed by file data. The data can include:
+The segments contain information that is needed for run time execution of the file, while sections contain important data for linking and relocation. Any byte in the entire file can be owned by one section at most, and orphan bytes can occur which are unowned by any section.
+File header.
+The ELF header defines whether to use 32-bit or 64-bit addresses. The header contains three fields that are affected by this setting and offset other fields that follow them. The ELF header is 52 or 64 bytes long for 32-bit and 64-bit binaries respectively.
+Program header.
+The program header table tells the system how to create a process image. It is found at file offset , and consists of entries, each with size . The layout is slightly different in 32-bit ELF vs 64-bit ELF, because the are in a different structure location for alignment reasons. Each entry is structured as:
+Applications.
+Unix-like systems.
+The ELF format has replaced older executable formats in various environments.
+It has replaced a.out and COFF formats in Unix-like operating systems:
+Non-Unix adoption.
+ELF has also seen some adoption in non-Unix operating systems, such as:
+Game consoles.
+Some game consoles also use ELF:
+PowerPC.
+Other (operating) systems running on PowerPC that use ELF:
+Mobile phones.
+Some operating systems for mobile phones and mobile devices use ELF:
+Some phones can run ELF files through the use of a patch that adds assembly code to the main firmware, which is a feature known as "ELFPack" in the underground modding culture. The ELF file format is also used with the Atmel AVR (8-bit), AVR32
+and with Texas Instruments MSP430 microcontroller architectures. Some implementations of Open Firmware can also load ELF files, most notably Apple's implementation used in almost all PowerPC machines the company produced.
+Specifications.
+The Linux Standard Base (LSB) supplements some of the above specifications for architectures in which it is specified. For example, that is the case for the System V ABI, AMD64 Supplement.
+86open.
+86open was a project to form consensus on a common binary file format for Unix and Unix-like operating systems on the common PC compatible x86 architecture, to encourage software developers to port to the architecture. The initial idea was to standardize on a small subset of Spec 1170, a predecessor of the Single UNIX Specification, and the GNU C Library (glibc) to enable unmodified binaries to run on the x86 Unix-like operating systems. The project was originally designated "Spec 150".
+The format eventually chosen was ELF, specifically the Linux implementation of ELF, after it had turned out to be a "de facto" standard supported by all involved vendors and operating systems.
+The group began email discussions in 1997 and first met together at the Santa Cruz Operation offices on August 22, 1997.
+The steering committee was Marc Ewing, Dion Johnson, Evan Leibovitch, Bruce Perens, Andrew Roach, Bryan Wayne Sparks and Linus Torvalds. Other people on the project were Keith Bostic, Chuck Cranor, Michael Davidson, Chris G. Demetriou, Ulrich Drepper, Don Dugger, Steve Ginzburg, Jon "maddog" Hall, Ron Holt, Jordan Hubbard, Dave Jensen, Kean Johnston, Andrew Josey, Robert Lipe, Bela Lubkin, Tim Marsland, Greg Page, Ronald Joe Record, Tim Ruckle, Joel Silverstein, Chia-pi Tien, and Erik Troan. Operating systems and companies represented were BeOS, BSDI, FreeBSD, Intel, Linux, NetBSD, SCO and SunSoft.
+The project progressed and in mid-1998, SCO began developing lxrun, an open-source compatibility layer able to run Linux binaries on OpenServer, UnixWare, and Solaris. SCO announced official support of lxrun at LinuxWorld in March 1999. Sun Microsystems began officially supporting lxrun for Solaris in early 1999, and later moved to integrated support of the Linux binary format via Solaris Containers for Linux Applications.
+With the BSDs having long supported Linux binaries (through a compatibility layer) and the main x86 Unix vendors having added support for the format, the project decided that Linux ELF was the format chosen by the industry and "declare[d] itself dissolved" on July 25, 1999.
+FatELF: universal binaries for Linux.
+FatELF is an ELF binary-format extension that adds fat binary capabilities. It is aimed for Linux and other Unix-like operating systems. Additionally to the CPU architecture abstraction (byte order, word size, CPU instruction set etc.), there is the potential advantage of software-platform abstraction e.g., binaries which support multiple kernel ABI versions. , FatELF has not been integrated into the mainline Linux Kernel.
+

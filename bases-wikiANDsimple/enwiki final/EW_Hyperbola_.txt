@@ -1,0 +1,249 @@
+
+In mathematics, a hyperbola () (adjective form hyperbolic, ) (plural "hyperbolas", or "hyperbolae" ()) is a type of smooth curve lying in a plane, defined by its geometric properties or by equations for which it is the solution set. A hyperbola has two pieces, called connected components or branches, that are mirror images of each other and resemble two infinite bows. The hyperbola is one of the three kinds of conic section, formed by the intersection of a plane and a double cone. (The other conic sections are the parabola and the ellipse. A circle is a special case of an ellipse.) If the plane intersects both halves of the double cone but does not pass through the apex of the cones, then the conic is a hyperbola.
+Hyperbolas arise in many ways: 
+and so on.
+Each branch of the hyperbola has two arms which become straighter (lower curvature) further out from the center of the hyperbola. Diagonally opposite arms, one from each branch, tend in the limit to a common line, called the asymptote of those two arms. So there are two asymptotes, whose intersection is at the center of symmetry of the hyperbola, which can be thought of as the mirror point about which each branch reflects to form the other branch. In the case of the curve formula_1 the asymptotes are the two coordinate axes.
+Hyperbolas share many of the ellipses' analytical properties such as eccentricity, focus, and directrix. Typically the correspondence can be made with nothing more than a change of sign in some term. Many other mathematical objects have their origin in the hyperbola, such as hyperbolic paraboloids (saddle surfaces), hyperboloids ("wastebaskets"), hyperbolic geometry (Lobachevsky's celebrated non-Euclidean geometry), hyperbolic functions (sinh, cosh, tanh, etc.), and gyrovector spaces (a geometry proposed for use in both relativity and quantum mechanics which is not Euclidean).
+Etymology and history.
+The word "hyperbola" derives from the Greek , meaning "over-thrown" or "excessive", from which the English term hyperbole also derives. Hyperbolae were discovered by Menaechmus in his investigations of the problem of doubling the cube, but were then called sections of obtuse cones. The term hyperbola is believed to have been coined by Apollonius of Perga (c. 262–c. 190 BC) in his definitive work on the conic sections, the "Conics". 
+The names of the other two general conic sections, the ellipse and the parabola, derive from the corresponding Greek words for "deficient" and "applied"; all three names are borrowed from earlier Pythagorean terminology which referred to a comparison of the side of rectangles of fixed area with a given line segment. The rectangle could be "applied" to the segment (meaning, have an equal length), be shorter than the segment or exceed the segment.
+Definitions.
+As locus of points.
+A hyperbola can be defined geometrically as a set of points (locus of points) in the Euclidean plane:
+The midpoint formula_8 of the line segment joining the foci is called the "center" of the hyperbola. The line through the foci is called the "major axis". It contains the "vertices" formula_9, which have distance formula_10 to the center. The distance formula_11 of the foci to the center is called the "focal distance" or "linear eccentricity". The quotient formula_12 is the "eccentricity" formula_13.
+The equation formula_14 can be viewed in a different way (see diagram):
+If formula_15 is the circle with midpoint formula_16 and radius formula_17, then the distance of a point formula_3 of the right branch to the circle formula_15 equals the distance to the focus formula_20:
+formula_15 is called the "circular directrix" (related to focus formula_16) of the hyperbola. In order to get the left branch of the hyperbola, one has to use the circular directrix related to formula_20. This property should not be confused with the definition of a hyperbola with help of a directrix (line) below.
+Hyperbola with equation "y" = "A"/"x".
+If the "xy"-coordinate system is rotated about the origin by the angle formula_25 and new coordinates formula_26 are assigned, then formula_27. 
+The rectangular hyperbola formula_28 (whose semi-axes are equal) has the new equation formula_29.
+Solving for formula_30 yields formula_31
+Thus, in an "xy"-coordinate system the graph of a function formula_32 with equation
+A rotation of the original hyperbola by formula_43 results in a rectangular hyperbola entirely in the second and fourth quadrants, with the same asymptotes, center, semi-latus rectum, radius of curvature at the vertices, linear eccentricity, and eccentricity as for the case of formula_25 rotation, with equation 
+Shifting the hyperbola with equation formula_49 so that the new center is formula_50, yields the new equation 
+and the new asymptotes are formula_52 and formula_53. 
+The shape parameters formula_54 remain unchanged.
+By the directrix property.
+The two lines at distance formula_55 from the center and parallel to the minor axis are called directrices of the hyperbola (see diagram).
+For an arbitrary point formula_3 of the hyperbola the quotient of the distance to one focus and to the corresponding directrix (see diagram) is equal to the eccentricity:
+The proof for the pair formula_58 follows from the fact that formula_59 and formula_60 satisfy the equation
+The second case is proven analogously.
+The "inverse statement" is also true and can be used to define a hyperbola (in a manner similar to the definition of a parabola):
+For any point formula_62 (focus), any line formula_63 (directrix) not through formula_62 and any real number formula_13 with formula_66 the set of points (locus of points), for which the quotient of the distances to the point and to the line is formula_13
+Let formula_71 and assume formula_35 is a point on the curve. 
+The directrix formula_63 has equation formula_74. With formula_75, the relation formula_76 produces the equations
+The substitution formula_79 yields
+This is the equation of an "ellipse" (formula_81) or a "parabola" (formula_82) or a "hyperbola" (formula_83). All of these non-degenerate conics have, in common, the origin as a vertex (see diagram).
+If formula_83, introduce new parameters formula_85 so that
+formula_86, and then the equation above becomes 
+which is the equation of a hyperbola with center formula_88, the "x"-axis as major axis and
+the major/minor semi axis formula_85.
+Because of formula_90 point formula_91 of directrix formula_92 (see diagram) and focus formula_20 are inverse with respect to the circle inversion at circle formula_94 (in diagram green). Hence point formula_95 can be constructed using the theorem of Thales (not shown in the diagram). The directrix formula_92 is the perpendicular to line formula_97 through point formula_95. &lt;br&gt;
+"Alternative construction of formula_95": Calculation shows, that point formula_95 is the intersection of the asymptote with its perpendicular through formula_20 (see diagram).
+As plane section of a cone.
+The intersection of an upright double cone by a plane not through the vertex with slope greater than the slope of the lines on the cone is a hyperbola (see diagram: red curve). In order to prove the defining property of a hyperbola (see above) one uses two Dandelin spheres formula_102, which are spheres that touch the cone along circles formula_103 , formula_104 and the intersecting (hyperbola) plane at points formula_20 and formula_16. It turns out: formula_5 are the "foci" of the hyperbola.
+Pin and string construction.
+The definition of a hyperbola by its foci and its circular directrices (see above) can be used for drawing an arc of it with help of pins, a string and a ruler:
+(0) Choose the "foci" formula_129, the vertices formula_9 and one of the "circular directrices" , for example formula_15 (circle with radius formula_17) &lt;br&gt;
+(1) A "ruler" is fixed at point formula_16 free to rotate around formula_16. Point formula_113 is marked at distance formula_17.&lt;br&gt;
+(2) A "string" with length formula_137 is prepared.&lt;br&gt;
+(3) One end of the string is pinned at point formula_111 on the ruler, the other end is pinned to point formula_20.&lt;br&gt;
+(4) Take a "pen" and hold the string tight to the edge of the ruler. &lt;br&gt;
+(5) "Rotating" the ruler around formula_16 prompts the pen to draw an arc of the right branch of the hyperbola, because of formula_141 (see the definition of a hyperbola by "circular directrices").
+Steiner generation of a hyperbola.
+The following method to construct single points of a hyperbola relies on the Steiner generation of a non degenerate conic section:
+For the generation of points of the hyperbola formula_149 one uses the pencils at the vertices formula_9. Let formula_151 be a point of the hyperbola and formula_152. The line segment formula_153 is divided into n equally-spaced segments and this division is projected parallel with the diagonal formula_126 as direction onto the line segment formula_155 (see diagram). The parallel projection is part of the projective mapping between the pencils at formula_156 and formula_157 needed. The intersection points of any two related lines formula_158 and formula_159 are points of the uniquely defined hyperbola.
+"Remark:" The subdivision could be extended beyond the points formula_111 and formula_113 in order to get more points, but the determination of the intersection points would become more inaccurate. A better idea is extending the points already constructed by symmetry (see animation).
+"Remark:"
+Inscribed angles for hyperbolas "y" = "a"/("x" − "b") + "c" and the 3-point-form.
+A hyperbola with equation formula_162 is uniquely determined by three points formula_163 with different "x"- and "y"-coordinates. A simple way to determine the shape parameters formula_164 uses the "inscribed angle theorem" for hyperbolas:
+Analogous to the inscribed angle theorem for circles one gets the
+Inscribed angle theorem for hyperbolas:,:
+A consequence of the inscribed angle theorem for hyperbolas is the
+3-point-form of a hyperbola's equation:
+As an affine image of the unit hyperbola "x"² − "y"² = 1.
+Another definition of a hyperbola uses affine transformations:
+An affine transformation of the Euclidean plane has the form formula_177, where formula_111 is a regular matrix (its determinant is not 0) and formula_179 is an arbitrary vector. If formula_180 are the column vectors of the matrix formula_111, the unit hyperbola formula_182 is mapped onto the hyperbola
+formula_179 is the center, formula_185 a point of the hyperbola and formula_186 a tangent vector at this point. 
+In general the vectors formula_180 are not perpendicular. That means, in general formula_188 are "not" the vertices of the hyperbola. But formula_189 point into the directions of the asymptotes. The tangent vector at point formula_190 is 
+Because at a vertex the tangent is perpendicular to the major axis of the hyperbola one gets the parameter formula_192 of a vertex from the equation 
+and hence from
+which yields
+The two "vertices" of the hyperbola are formula_197
+Solving the parametric representation for formula_198 by Cramer's rule and using formula_199, one gets the implicit representation
+The definition of a hyperbola in this section gives a parametric representation of an arbitrary hyperbola, even in space, if one allows formula_201 to be vectors in space.
+As an affine image of the hyperbola "y" = 1/"x".
+Because the unit hyperbola formula_176 is affinely equivalent to the hyperbola formula_203, an arbitrary hyperbola can be considered as the affine image (see previous section) of the hyperbola formula_204
+formula_206 is the center of the hyperbola, the vectors formula_207 have the directions of the asymptotes and formula_208 is a point of the hyperbola. The tangent vector is
+At a vertex the tangent is perpendicular to the major axis. Hence 
+and the parameter of a vertex is
+formula_212 is equivalent to formula_213 and formula_214 are the vertices of the hyperbola.
+The following properties of a hyperbola are easily proven using the representation of a hyperbola introduced in this section.
+Tangent construction.
+The tangent vector can be rewritten by factorization:
+This means that
+This property provides a way to construct the tangent at a point on the hyperbola.
+This property of a hyperbola is an affine version of the 3-point-degeneration of Pascal's theorem.
+The area of the grey parallelogram formula_219 in the above diagram is
+and hence independent of point formula_3. The last equation follows from a calculation for the case, where formula_3 is a vertex and the hyperbola in its canonical form formula_223
+Point construction.
+For a hyperbola with parametric representation formula_224 (for simplicity the center is the origin) the following is true:
+The simple proof is a consequence of the equation formula_227.
+This property provides a possibility to construct points of a hyperbola if the asymptotes and one point are given.
+This property of a hyperbola is an affine version of the 4-point-degeneration of Pascal's theorem.
+Tangent-asymptotes-triangle.
+For simplicity the center of the hyperbola may be the origin and the vectors formula_228 have equal length. If the last assumption is not fulfilled one can first apply a parameter transformation (see above) in order to make the assumption true. Hence formula_229 are the vertices, formula_230 span the minor axis and one gets formula_231 and formula_232.
+For the intersection points of the tangent at point formula_233 with the asymptotes one gets the points 
+The "area" of the triangle formula_235 can be calculated by a 2 × 2 determinant: 
+(see rules for determinants).
+formula_237 is the area of the rhombus generated by formula_228. The area of a rhombus is equal to one half of the product of its diagonals. The diagonals are the semi-axes formula_85 of the hyperbola. Hence:
+Reciprocation of a circle.
+The reciprocation of a circle "B" in a circle "C" always yields a conic section such as a hyperbola. The process of "reciprocation in a circle "C"" consists of replacing every line and point in a geometrical figure with their corresponding pole and polar, respectively. The "pole" of a line is the inversion of its closest point to the circle "C", whereas the polar of a point is the converse, namely, a line whose closest point to "C" is the inversion of the point.
+The eccentricity of the conic section obtained by reciprocation is the ratio of the distances between the two circles' centers to the radius "r" of reciprocation circle "C". If B and C represent the points at the centers of the corresponding circles, then
+Since the eccentricity of a hyperbola is always greater than one, the center B must lie outside of the reciprocating circle "C".
+This definition implies that the hyperbola is both the locus of the poles of the tangent lines to the circle "B", as well as the envelope of the polar lines of the points on "B". Conversely, the circle "B" is the envelope of polars of points on the hyperbola, and the locus of poles of tangent lines to the hyperbola. Two tangent lines to "B" have no (finite) poles because they pass through the center C of the reciprocation circle "C"; the polars of the corresponding tangent points on "B" are the asymptotes of the hyperbola. The two branches of the hyperbola correspond to the two parts of the circle "B" that are separated by these tangent points.
+Quadratic equation.
+A hyperbola can also be defined as a second-degree equation in the Cartesian coordinates ("x", "y") in the plane,
+provided that the constants "A""xx", "A""xy", "A""yy", "B""x", "B""y", and "C" satisfy the determinant condition
+This determinant is conventionally called the discriminant of the conic section.
+A special case of a hyperbola—the "degenerate hyperbola" consisting of two intersecting lines—occurs when another determinant is zero:
+This determinant Δ is sometimes called the discriminant of the conic section.
+Given the above general parametrization of the hyperbola in Cartesian coordinates, the eccentricity can be found using the formula in Conic section#Eccentricity in terms of coefficients.
+The center ("x""c", "y""c") of the hyperbola may be determined from the formulae
+In terms of new coordinates, and , the defining equation of the hyperbola can be written
+The principal axes of the hyperbola make an angle "φ" with the positive "x"-axis that is given by
+Rotating the coordinate axes so that the "x"-axis is aligned with the transverse axis brings the equation into its canonical form
+The major and minor semiaxes "a" and "b" are defined by the equations
+where λ1 and λ2 are the roots of the quadratic equation
+For comparison, the corresponding equation for a degenerate hyperbola (consisting of two intersecting lines) is
+The tangent line to a given point ("x"0, "y"0) on the hyperbola is defined by the equation
+where "E", "F" and "G" are defined by
+The normal line to the hyperbola at the same point is given by the equation
+The normal line is perpendicular to the tangent line, and both pass through the same point ("x"0, "y"0).
+From the equation
+the left focus is formula_261 and the right focus is formula_262 where is the eccentricity. Denote the distances from a point ("x, y") to the left and right foci as formula_263 and formula_264 For a point on the right branch,
+and for a point on the left branch,
+This can be proved as follows:
+If ("x","y") is a point on the hyperbola the distance to the left focal point is
+To the right focal point the distance is
+If ("x","y") is a point on the right branch of the hyperbola then formula_269 and
+Subtracting these equations one gets
+If ("x,y") is a point on the left branch of the hyperbola then formula_273 and
+Subtracting these equations one gets
+In Cartesian coordinates.
+Equation.
+If Cartesian coordinates are introduced such that the origin is the center of the hyperbola and the "x"-axis is the major axis, then the hyperbola is called "east-west-opening" and 
+For an arbitrary point formula_279 the distance to the focus formula_280 is 
+formula_281 and to the second focus formula_282. Hence the point formula_279 is on the hyperbola if the following condition is fulfilled 
+Remove the square roots by suitable squarings and use the relation formula_285 to obtain the equation of the hyperbola:
+This equation is called the canonical form of a hyperbola, because any hyperbola, regardless of its orientation relative to the Cartesian axes and regardless of the location of its center, can be transformed to this form by a change of variables, giving a hyperbola that is congruent to the original (see below).
+The axes of symmetry or "principal axes" are the "transverse axis" (containing the segment of length 2"a" with endpoints at the vertices) and the "conjugate axis" (containing the segment of length 2"b" perpendicular to the transverse axis and with midpoint at the hyperbola's center). As opposed to an ellipse, a hyperbola has only two vertices: formula_287. The two points formula_288 on the conjugate axes are "not" on the hyperbola.
+It follows from the equation that the hyperbola is "symmetric" with respect to both of the coordinate axes and hence symmetric with respect to the origin.
+Eccentricity.
+For a hyperbola in the above canonical form, the eccentricity is given by
+Two hyperbolas are geometrically similar to each other – meaning that they have the same shape, so that one can be transformed into the other by rigid left and right movements, rotation, taking a mirror image, and scaling (magnification) – if and only if they have the same eccentricity.
+Asymptotes.
+Solving the equation (above) of the hyperbola for formula_290 yields
+It follows from this that the hyperbola approaches the two lines 
+for large values of formula_293. These two lines intersect at the center (origin) and are called "asymptotes" of the hyperbola formula_294
+With the help of the second figure one can see that
+From the Hesse normal form formula_297 of the asymptotes and the equation of the hyperbola one gets:
+From the equation formula_301 of the hyperbola (above) one can derive:
+In addition, from (2) above it can be shown that
+Semi-latus rectum.
+The length of the chord through one of the foci, perpendicular to the major axis of the hyperbola, is called the "latus rectum". One half of it is the "semi-latus rectum" formula_306. A calculation shows
+The semi-latus rectum formula_306 may also be viewed as the "radius of curvature " at the vertices.
+Tangent.
+The simplest way to determine the equation of the tangent at a point formula_309 is to implicitly differentiate the equation formula_310 of the hyperbola. Denoting "dy/dx" as "y′", this produces
+With respect to formula_312, the equation of the tangent at point formula_309 is
+A particular tangent line distinguishes the hyperbola from the other conic sections. Let "f" be the distance from the vertex "V" (on both the hyperbola and its axis through the two foci) to the nearer focus. Then the distance, along a line perpendicular to that axis, from that focus to a point P on the hyperbola is greater than 2"f". The tangent to the hyperbola at P intersects that axis at point Q at an angle ∠PQV of greater than 45°.
+Rectangular hyperbola.
+In the case formula_315 the hyperbola is called "rectangular" (or "equilateral"), because its asymptotes intersect at right angles. For this case, the linear eccentricity is formula_316, the eccentricity formula_317 and the semi-latus rectum formula_318. The graph of the equation formula_203 is a rectangular hyperbola.
+Parametric representation with hyperbolic sine/cosine.
+Using the hyperbolic sine and cosine functions formula_320, a parametric representation of the hyperbola formula_310 can be obtained, which is similar to the parametric representation of an ellipse:
+which satisfies the Cartesian equation because formula_323
+Further parametric representations are given in the section Parametric equations below.
+Conjugate hyperbola.
+Exchange formula_324 and formula_290 to obtain the equation of the conjugate hyperbola (see diagram):
+In polar coordinates.
+For pole = focus: 
+The polar coordinates used most commonly for the hyperbola are defined relative to the Cartesian coordinate system that has its "origin in a focus" and its x-axis pointing towards the origin of the "canonical coordinate system" as illustrated in the first diagram.
+In this case the angle formula_328 is called true anomaly.
+Relative to this coordinate system one has that
+and
+for pole = center:
+With polar coordinates relative to the "canonical coordinate system" (see second diagram)
+one has that
+For the right branch of the hyperbola the range of formula_332 is
+Parametric equations.
+A hyperbola with equation formula_334 can be described by several parametric equations:
+Hyperbolic functions.
+Just as the trigonometric functions are defined in terms of the unit circle, so also the hyperbolic functions are defined in terms of the unit hyperbola, as shown in this diagram. In a unit circle, the angle (in radians) is equal to twice the area of the circular sector which that angle subtends. The analogous hyperbolic angle is likewise defined as twice the area of a hyperbolic sector.
+Let formula_10 be twice the area between the formula_324 axis and a ray through the origin intersecting the unit hyperbola, and define formula_349 as the coordinates of the intersection point.
+Then the area of the hyperbolic sector is the area of the triangle minus the curved region past the vertex at formula_350:
+which simplifies to the area hyperbolic cosine
+Solving for formula_324 yields the exponential form of the hyperbolic cosine:
+From formula_176 one gets
+and its inverse the area hyperbolic sine:
+Other hyperbolic functions are defined according to the hyperbolic cosine and hyperbolic sine, so for example
+Properties.
+The tangent bisects the angle between the lines to the foci.
+The tangent at a point formula_3 bisects the angle between the lines formula_360.
+Let formula_361 be the point on the line formula_117 with the distance formula_17 to the focus formula_16 (see diagram, formula_10 is the semi major axis of the hyperbola). Line formula_366 is the bisector of the angle between the lines formula_360. In order to prove that formula_366 is the tangent line at point formula_3, one checks that any point formula_370 on line formula_366 which is different from formula_3 cannot be on the hyperbola. Hence formula_366 has only point formula_3 in common with the hyperbola and is, therefore, the tangent at point formula_3. 
+From the diagram and the triangle inequality one recognizes that formula_376 holds, which means: formula_377. But if formula_370 is a point of the hyperbola, the difference should be formula_17.
+Midpoints of parallel chords.
+The midpoints of parallel chords of a hyperbola lie on a line through the center (see diagram).
+The points of any chord may lie on different branches of the hyperbola.
+The proof of the property on midpoints is best done for the hyperbola formula_203. Because any hyperbola is an affine image of the hyperbola formula_203 (see section below) and an affine transformation preserves parallelism and midpoints of line segments, the property is true for all hyperbolas:
+For two points formula_382 of the hyperbola formula_203
+For parallel chords the slope is constant and the midpoints of the parallel chords lie on the line formula_386
+Consequence: for any pair of points formula_387 of a chord there exists a "skew reflection" with an axis (set of fixed points) passing through the center of the hyperbola, which exchanges the points formula_387 and leaves the hyperbola (as a whole) fixed. A skew reflection is a generalization of an ordinary reflection across a line formula_338, where all point-image pairs are on a line perpendicular to formula_338.
+Because a skew reflection leaves the hyperbola fixed, the pair of asymptotes is fixed, too. Hence the midpoint formula_8 of a chord formula_392 divides the related line segment formula_393 between the asymptotes into halves, too. This means that formula_394. This property can be used for the construction of further points formula_370 of the hyperbola if a point formula_3 and the asymptotes are given.
+If the chord degenerates into a "tangent", then the touching point divides the line segment between the asymptotes in two halves.
+Orthogonal tangents – orthoptic.
+For a hyperbola formula_397 the intersection points of "orthogonal" tangents lie on the circle formula_398. 
+This circle is called the "orthoptic" of the given hyperbola.
+The tangents may belong to points on different branches of the hyperbola.
+In case of formula_399 there are no pairs of orthogonal tangents.
+Pole-polar relation for a hyperbola.
+Any hyperbola can be described in a suitable coordinate system by an equation formula_310. The equation of the tangent at a point formula_401 of the hyperbola is formula_402 If one allows point formula_401 to be an arbitrary point different from the origin, then
+This relation between points and lines is a bijection.
+The inverse function maps
+Such a relation between points and lines generated by a conic is called pole-polar relation or just "polarity". The pole is the point, the polar the line. See Pole and polar.
+By calculation one checks the following properties of the pole-polar relation of the hyperbola:
+"Remarks:"
+Pole-polar relations exist for ellipses and parabolas, too.
+Arc length.
+The arc length of a hyperbola does not have a closed-form expression. The upper half of a hyperbola can be parameterized as
+Then the integral giving the arc length formula_422 from formula_423 to formula_424 can be computed numerically:
+After using the substitution formula_426, this can also be represented using the elliptic integral of the second kind with parameter formula_427:
+Derived curves.
+Several other curves can be derived from the hyperbola by inversion, the so-called inverse curves of the hyperbola. If the center of inversion is chosen as the hyperbola's own center, the inverse curve is the lemniscate of Bernoulli; the lemniscate is also the envelope of circles centered on a rectangular hyperbola and passing through the origin. If the center of inversion is chosen at a focus or a vertex of the hyperbola, the resulting inverse curves are a limaçon or a strophoid, respectively.
+Elliptic coordinates.
+A family of confocal hyperbolas is the basis of the system of elliptic coordinates in two dimensions. These hyperbolas are described by the equation
+where the foci are located at a distance "c" from the origin on the "x"-axis, and where θ is the angle of the asymptotes with the "x"-axis. Every hyperbola in this family is orthogonal to every ellipse that shares the same foci. This orthogonality may be shown by a conformal map of the Cartesian coordinate system "w" = "z" + 1/"z", where "z"= "x" + "iy" are the original Cartesian coordinates, and "w"="u" + "iv" are those after the transformation.
+Other orthogonal two-dimensional coordinate systems involving hyperbolas may be obtained by other conformal mappings. For example, the mapping "w" = "z"2 transforms the Cartesian coordinate system into two families of orthogonal hyperbolas.
+Conic section analysis of the hyperbolic appearance of circles.
+Besides providing a uniform description of circles, ellipses, parabolas, and hyperbolas, conic sections can also be understood as a natural model of the geometry of perspective in the case where the scene being viewed consists of circles, or more generally an ellipse. The viewer is typically a camera or the human eye and the image of the scene a central projection onto an image plane, that is, all projection rays pass a fixed point "O", the center. The lens plane is a plane parallel to the image plane at the lens "O".
+The image of a circle c is 
+These results can be understood if one recognizes that the projection process can be seen in two steps: 1) circle c and point "O" generate a cone which is 2) cut by the image plane, in order to generate the image.
+One sees a hyperbola whenever catching sight of a portion of a circle cut by one's lens plane. The inability to see very much of the arms of the visible branch, combined with the complete absence of the second branch, makes it virtually impossible for the human visual system to recognize the connection with hyperbolas.
+Applications.
+Sundials.
+Hyperbolas may be seen in many sundials. On any given day, the sun revolves in a circle on the celestial sphere, and its rays striking the point on a sundial traces out a cone of light. The intersection of this cone with the horizontal plane of the ground forms a conic section. At most populated latitudes and at most times of the year, this conic section is a hyperbola. In practical terms, the shadow of the tip of a pole traces out a hyperbola on the ground over the course of a day (this path is called the "declination line"). The shape of this hyperbola varies with the geographical latitude and with the time of the year, since those factors affect the cone of the sun's rays relative to the horizon. The collection of such hyperbolas for a whole year at a given location was called a "pelekinon" by the Greeks, since it resembles a double-bladed axe.
+Multilateration.
+A hyperbola is the basis for solving multilateration problems, the task of locating a point from the differences in its distances to given points — or, equivalently, the difference in arrival times of synchronized signals between the point and the given points. Such problems are important in navigation, particularly on water; a ship can locate its position from the difference in arrival times of signals from a LORAN or GPS transmitters. Conversely, a homing beacon or any transmitter can be located by comparing the arrival times of its signals at two separate receiving stations; such techniques may be used to track objects and people. In particular, the set of possible positions of a point that has a distance difference of 2"a" from two given points is a hyperbola of vertex separation 2"a" whose foci are the two given points.
+Path followed by a particle.
+The path followed by any particle in the classical Kepler problem is a conic section. In particular, if the total energy "E" of the particle is greater than zero (that is, if the particle is unbound), the path of such a particle is a hyperbola. This property is useful in studying atomic and sub-atomic forces by scattering high-energy particles; for example, the Rutherford experiment demonstrated the existence of an atomic nucleus by examining the scattering of alpha particles from gold atoms. If the short-range nuclear interactions are ignored, the atomic nucleus and the alpha particle interact only by a repulsive Coulomb force, which satisfies the inverse square law requirement for a Kepler problem.
+Korteweg–de Vries equation.
+The hyperbolic trig function formula_430 appears as one solution to the Korteweg–de Vries equation which describes the motion of a soliton wave in a canal.
+Angle trisection.
+As shown first by Apollonius of Perga, a hyperbola can be used to trisect any angle, a well studied problem of geometry. Given an angle, first draw a circle centered at its vertex O, which intersects the sides of the angle at points A and B. Next draw the line segment with endpoints A and B and its perpendicular bisector formula_431. Construct a hyperbola of eccentricity "e"=2 with formula_431 as directrix and B as a focus. Let P be the intersection (upper) of the hyperbola with the circle. Angle POB trisects angle AOB.
+To prove this, reflect the line segment OP about the line formula_431 obtaining the point P' as the image of P. Segment AP' has the same length as segment BP due to the reflection, while segment PP' has the same length as segment BP due to the eccentricity of the hyperbola. As OA, OP', OP and OB are all radii of the same circle (and so, have the same length), the triangles OAP', OPP' and OPB are all congruent. Therefore, the angle has been trisected, since 3×POB = AOB.
+Efficient portfolio frontier.
+In portfolio theory, the locus of mean-variance efficient portfolios (called the efficient frontier) is the upper half of the east-opening branch of a hyperbola drawn with the portfolio return's standard deviation plotted horizontally and its expected value plotted vertically; according to this theory, all rational investors would choose a portfolio characterized by some point on this locus.
+Biochemistry.
+In biochemistry and pharmacology, the Hill equation and Hill-Langmuir equation respectively describe biological responses and the formation of protein–ligand complexes as functions of ligand concentration. They are both rectangular hyperbolae.
+Hyperbolas as plane sections of quadrics.
+Hyperbolas appear as plane sections of the following quadrics:
+

@@ -1,0 +1,3 @@
+OpenZaurus is a Debian-based embedded Linux distribution for the Sharp Zaurus personal mobile tool PDA.
+Status.
+On April 26, 2007, it was announced that the OpenZaurus project was over. Future development efforts are to focus on the Ångström distribution for embedded systems.

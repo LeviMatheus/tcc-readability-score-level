@@ -1,0 +1,23 @@
+
+Tru64 UNIX is a discontinued 64-bit UNIX operating system for the Alpha instruction set architecture (ISA), currently owned by Hewlett-Packard (HP). Previously, Tru64 UNIX was a product of Compaq, and before that, Digital Equipment Corporation (DEC), where it was known as Digital UNIX (originally DEC OSF/1 AXP).
+As its original name suggests, Tru64 UNIX is based on the OSF/1 operating system. DEC's previous UNIX product was known as Ultrix and was based on BSD.
+It is unusual among commercial UNIX implementations, as it is built on top of the Mach kernel developed at Carnegie Mellon University. (Other UNIX and UNIX-like implementations built on top of the Mach kernel are GNU Hurd, NeXTSTEP, MkLinux, macOS and Apple iOS.)
+Tru64 UNIX required the SRM boot firmware found on Alpha-based computer systems.
+DEC OSF/1 AXP.
+In 1988, Digital Equipment Corporation (DEC) joined with IBM, Hewlett-Packard, and others to form the Open Software Foundation (OSF). A primary aim was to develop a version of Unix, named OSF/1, to compete with System V Release 4 from AT&amp;T Corporation and Sun Microsystems. After DEC's first release (OSF/1 Release 1.0) in January 1992 for their line of MIPS-based DECstation workstations, DEC ported OSF/1 to their new Alpha AXP platform (as DEC OSF/1 AXP), and this was the first version (Release 1.2) of what is most commonly referred to as OSF/1. DEC OSF/1 AXP Release 1.2 was shipped on March 1993. OSF/1 AXP was a full 64-bit operating system and the native UNIX implementation for the Alpha architecture. After OSF/1 AXP V2.0 onwards, UNIX System V compatibility was also integrated into the system.
+Digital UNIX.
+In 1995, starting with release 3.2, DEC renamed OSF/1 AXP to Digital UNIX to reflect its conformance with the X/Open Single UNIX Specification.
+Tru64 UNIX.
+After Compaq's purchase of DEC in early 1998, with the release of version 4.0F, Digital UNIX was renamed to Tru64 UNIX to emphasise its 64-bit-clean nature and de-emphasise the Digital brand.
+In April 1999, Compaq announced that Tru64 UNIX 5.0 successfully ran on Intel's IA-64 simulator. However, this port was cancelled a few months later.
+A Chinese version of Tru64 UNIX named COSIX was jointly developed by Compaq and China National Computer Software &amp; Technology Service Corporation (CS&amp;S). It was released in 1999.
+TruCluster Server.
+From release V5.0 Tru64 UNIX offered a clustering facility named TruCluster Server. TruCluster utilised a cluster-wide filesystem visible to each cluster member, plus member specific storage and an optional quorum disk. Member specific files paths were enhanced symbolic links incorporating the member id of the owning member. Each member had one or zero votes, which, combined with a possible quorum disk, implemented a cluster formation algorithm similar to that found in OpenVMS.
+End of Life.
+With their purchase of Compaq in 2002, HP announced their intention to migrate many of Tru64 UNIX's more innovative features (including its AdvFS, TruCluster, and LSM) to HP-UX. In December 2004, HP announced a change of plan: they would instead use the Veritas File System and abandon the Tru64 advanced features. In the process, many of the remaining Tru64 developers were laid off.
+The last maintenance release, 5.1B-6 was released in October 2010.
+In October 2010, HP stated that they would continue to support Tru64 UNIX until 31 December 2012.
+In 2008, HP contributed the AdvFS filesystem to the open-source community.
+Versions.
+These versions were released for Alpha AXP platforms.
+

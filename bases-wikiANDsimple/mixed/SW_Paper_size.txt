@@ -1,0 +1,9 @@
+There are different systems for telling paper size. The most used one has been specified by ISO 216. It shows the DIN format for paper.
+There are different series (A,B,C). Each series is written as the name of the series and a number, to tell the size of the paper.
+Increasing the number by one is the same as cutting the size of the paper in half. DIN A4 is half the size of DIN A3. The biggest of them is DIN A0. DIN A0 has the surface of 1 m².
+In this system the aspect ratio (width to height) does not change. it is always the square root of 2 (1.4142..).
+The B series and the C series are found by scaling.When something is made bigger or smaller, but the aspect ratio does not change people say it is scaled. B1 is halfway between A0 and A1. C0 is halfway between A0 and B0.
+In the United States, Canada, and some other countries of the Americas, the formats US Letter (a little smaller than A4) and US Legal (a little larger than A4) are still used. The scalability also means that less paper (and money) is wasted by printing companies.
+The tolerances in the standard are
+Paper Sizes in the US and Canada.
+In the United States and Canada, there is another system of standard paper sizes. Getting the DIN sizes is very hard.

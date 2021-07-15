@@ -1,0 +1,137 @@
+
+In mathematics, the trigonometric functions (also called circular functions, angle functions or goniometric functions) are real functions which relate an angle of a right-angled triangle to ratios of two side lengths. They are widely used in all sciences that are related to geometry, such as navigation, solid mechanics, celestial mechanics, geodesy, and many others. They are among the simplest periodic functions, and as such are also widely used for studying periodic phenomena through Fourier analysis.
+The trigonometric functions most widely used in modern mathematics are the sine, the cosine, and the tangent. Their reciprocals are respectively the cosecant, the secant, and the cotangent, which are less used. Each of these six trigonometric functions has a corresponding inverse function (called inverse trigonometric function), and an equivalent in the hyperbolic functions as well.
+The oldest definitions of trigonometric functions, related to right-angle triangles, define them only for acute angles. To extending these definitions to functions whose domain is the whole projectively extended real line, geometrical definitions using the standard unit circle (i.e., a circle with radius 1 unit) is often used. Modern definitions express trigonometric functions as infinite series or as solutions of differential equations. This allows extending the domain of sine and cosine functions to the whole complex plane, and the domain of the other trigonometric functions to the complex plane (from which some isolated points are removed).
+Right-angled triangle definitions.
+"In this section, the same upper-case letter denotes a vertex of a triangle and the measure of the corresponding angle; the same lower case letter denotes an edge of the triangle and its length."
+Given an acute angle = of a right-angled triangle, the hypotenuse is the side that connects the two acute angles. The side "adjacent" to is the side of the triangle that connects to the right angle. The third side is said to be "opposite" to .
+If the angle is given, then all sides of the right-angled triangle are well-defined up to a scaling factor. This means that the ratio of any two side lengths depends only on . Thus these six ratios define six functions of , which are the trigonometric functions. More precisely, the six trigonometric functions are:
+In a right-angled triangle, the sum of the two acute angles is a right angle, that is, 90° or formula_1 radians.
+Radians versus degrees.
+In geometric applications, the argument of a trigonometric function is generally the measure of an angle. For this purpose, any angular unit is convenient, and angles are most commonly measured in conventional units of degrees in which a right angle is 90° and a complete turn is 360° (particularly in elementary mathematics).
+However, in calculus and mathematical analysis, the trigonometric functions are generally regarded more abstractly as functions of real or complex numbers, rather than angles. In fact, the functions sin and cos can be defined for all complex numbers in terms of the exponential function via power series or as solutions to differential equations given particular initial values ("see below"), without reference to any geometric notions. The other four trigonometric functions (tan, cot, sec, csc) can be defined as quotients and reciprocals of sin and cos, except where zero occurs in the denominator. It can be proved, for real arguments, that these definitions coincide with elementary geometric definitions "if" "the argument is regarded as an angle given in radians". Moreover, these definitions result in simple expressions for the derivatives and indefinite integrals for the trigonometric functions. Thus, in settings beyond elementary geometry, radians are regarded as the mathematically natural unit for describing angle measures.
+When radians (rad) are employed, the angle is given as the length of the arc of the unit circle subtended by it: the angle that subtends an arc of length 1 on the unit circle is 1 rad (≈ 57.3°), and a complete turn (360°) is an angle of 2π (≈ 6.28) rad. For real number "x", the notations sin "x", cos "x", etc. refer to the value of the trigonometric functions evaluated at an angle of "x" rad. If units of degrees are intended, the degree sign must be explicitly shown (e.g., sin "x°", cos "x°", etc.). Using this standard notation, the argument "x" for the trigonometric functions satisfies the relationship "x" = (180"x"/π)°, so that, for example, sin π = sin 180° when we take "x" = π. In this way, the degree symbol can be regarded as a mathematical constant such that 1° = π/180 ≈ 0.0175.
+Unit-circle definitions.
+The six trigonometric functions can be defined as coordinate values of points on the Euclidean plane that are related to the unit circle, which is the circle of radius one centered at the origin of this coordinate system. While right-angled triangle definitions allows for the definition of the trigonometric functions for angles between and formula_2 radian the unit circle definitions allow the domain of trigonometric functions to be extended to all positive and negative real numbers.
+Let formula_3 be the ray obtained by rotating by an angle the positive half of the -axis (counterclockwise rotation for formula_4 and clockwise rotation for formula_5). This ray intersects the unit circle at the point formula_6 The ray formula_7 extended to a line if necessary, intersects the line of equation formula_8 at formula_9 and the line of equation formula_10 at formula_11 The tangent line to the unit circle at the point , is perpendicular to formula_7 and intersects the - and -axes at points formula_13 and formula_14 The coordinates of these points give the values of all trigonometric functions for any arbitrary real value of in the following manner.
+The trigonometric functions and are defined, respectively, as the "x"- and "y"-coordinate values of point . That is,
+In the range formula_17, this definition coincides with the right-angled triangle definition, by taking the right-angled triangle to have the unit radius as hypotenuse. And since the equation formula_18 holds for all points formula_19 on the unit circle, this definition of cosine and sine also satisfies the Pythagorean identity 
+The other trigonometric functions can be found along the unit circle as 
+By applying the Pythagorean identity and geometric proof methods, these definitions can readily be shown to coincide with the definitions of tangent, cotangent, secant and cosecant in terms of sine and cosine, that is
+Since a rotation of an angle of formula_26 does not change the position or size of a shape, the points , , , , and are the same for two angles whose difference is an integer multiple of formula_27. Thus trigonometric functions are periodic functions with period formula_27. That is, the equalities
+hold for any angle and any integer . The same is true for the four other trigonometric functions. By observing the sign and the monotonicity of the functions sine, cosine, cosecant, and secant in the four quadrants, one can show that is the smallest value for which they are periodic (i.e., is the fundamental period of these functions). However, after a rotation by an angle formula_31, the points and already return to their original position, so that the tangent function and the cotangent function have a fundamental period of . That is, the equalities
+hold for any angle and any integer .
+Algebraic values.
+The algebraic expressions for the most important angles are as follows:
+Writing the numerators as square roots of consecutive non-negative integers, with a denominator of 2, provides an easy way to remember the values.
+Such simple expressions generally do not exist for other angles which are rational multiples of a straight angle.
+For an angle which, measured in degrees, is a multiple of three, the sine and the cosine may be expressed in terms of square roots, see Trigonometric constants expressed in real radicals. These values of the sine and the cosine may thus be constructed by ruler and compass.
+For an angle of an integer number of degrees, the sine and the cosine may be expressed in terms of square roots and the cube root of a non-real complex number. Galois theory allows proving that, if the angle is not a multiple of 3°, non-real cube roots are unavoidable.
+For an angle which, measured in degrees, is a rational number, the sine and the cosine are algebraic numbers, which may be expressed in terms of th roots. This results from the fact that the Galois groups of the cyclotomic polynomials are cyclic.
+For an angle which, measured in degrees, is not a rational number, then either the angle or both the sine and the cosine are transcendental numbers. This is a corollary of Baker's theorem, proved in 1966.
+Simple algebraic values.
+The following table summarizes the simplest algebraic values of trigonometric functions. The symbol represents the point at infinity on the projectively extended real line; it is not signed, because, when it appears in the table, the corresponding trigonometric function tends to on one side, and to on the other side, when the argument tends to the value in the table.
+In calculus.
+The modern trend in mathematics is to build geometry from calculus rather than the converse. Therefore, except at a very elementary level, trigonometric functions are defined using the methods of calculus.
+Trigonometric functions are differentiable and analytic at every point where they are defined; that is, everywhere for the sine and the cosine, and, for the tangent, everywhere except at for every integer . 
+The trigonometric function are periodic functions, and their primitive period is for the sine and the cosine, and for the tangent, which is increasing in each open interval . At each end point of these intervals, the tangent function has a vertical asymptote. 
+In calculus, there are two equivalent definitions of trigonometric functions, either using power series or differential equations. These definitions are equivalent, as starting from one of them, it is easy to retrieve the other as a property. However the definition through differential equations is somehow more natural, since, for example, the choice of the coefficients of the power series may appear as quite arbitrary, and the Pythagorean identity is much easier to deduce from the differential equations.
+Definition by differential equations.
+Sine and cosine are the unique differentiable functions such that
+Differentiating these equations, one gets that both sine and cosine are solutions of the differential equation
+Applying the quotient rule to the definition of the tangent as the quotient of the sine by the cosine, one gets that the tangent function verifies
+Power series expansion.
+Applying the differential equations to power series with indeterminate coefficients, one may deduce recurrence relations for the coefficients of the Taylor series of the sine and cosine functions. These recurrence relations are easy to solve, and give the series expansions 
+The radius of convergence of these series is infinite. Therefore, the sine and the cosine can be extended to entire functions (also called "sine" and "cosine"), which are (by definition) complex-valued functions that are defined and holomorphic on the whole complex plane.
+Being defined as fractions of entire functions, the other trigonometric functions may be extended to meromorphic functions, that is functions that are holomorphic in the whole complex plane, except some isolated points called poles. Here, the poles are the numbers of the form formula_43 for the tangent and the secant, or formula_44 for the cotangent and the cosecant, where is an arbitrary integer.
+Recurrences relations may also be computed for the coefficients of the Taylor series of the other trigonometric functions. These series have a finite radius of convergence. Their coefficients have a combinatorial interpretation: they enumerate alternating permutations of finite sets.
+More precisely, defining
+one has the following series expansions: 
+Partial fraction expansion.
+There is a series representation as partial fraction expansion where just translated reciprocal functions are summed up, such that the poles of the cotangent function and the reciprocal functions match:
+This identity can be proven with the Herglotz trick.
+Combining the th with the th term lead to absolutely convergent series:
+Similarly, one can find a partial fraction expansion for the secant, cosecant and tangent functions:
+Infinite product expansion.
+The following infinite product for the sine is of great importance in complex analysis:
+For the proof of this expansion, see Sine. From this, it can be deduced that
+Relationship to exponential function (Euler's formula).
+Euler's formula relates sine and cosine to the exponential function:
+This formula is commonly considered for real values of , but it remains true for all complex values.
+"Proof": Let formula_57 and formula_58 One has formula_59 for . The quotient rule implies thus that formula_60. Therefore, formula_61 is a constant function, which equals , as formula_62 This proves the formula.
+One has
+Solving this linear system in sine and cosine, one can express them in terms of the exponential function:
+When is real, this may be rewritten as 
+Most trigonometric identities can be proved by expressing trigonometric functions in terms of the complex exponential function by using above formulas, and then using the identity formula_66 for simplifying the result.
+Definitions using functional equations.
+One can also define the trigonometric functions using various functional equations.
+For example, the sine and the cosine form the unique pair of continuous functions that satisfy the difference formula
+and the added condition
+In the complex plane.
+The sine and cosine of a complex number formula_69 can be expressed in terms of real sines, cosines, and hyperbolic functions as follows:
+By taking advantage of domain coloring, it is possible to graph the trigonometric functions as complex-valued functions. Various features unique to the complex functions can be seen from the graph; for example, the sine and cosine functions can be seen to be unbounded as the imaginary part of formula_71 becomes larger (since the color white represents infinity), and the fact that the functions contain simple zeros or poles is apparent from the fact that the hue cycles around each zero or pole exactly once. Comparing these graphs with those of the corresponding Hyperbolic functions highlights the relationships between the two.
+Basic identities.
+Many identities interrelate the trigonometric functions. This section contains the most basic ones; for more identities, see List of trigonometric identities. These identities may be proved geometrically from the unit-circle definitions or the right-angled-triangle definitions (although, for the latter definitions, care must be taken for angles that are not in the interval , see Proofs of trigonometric identities). For non-geometrical proofs using only tools of calculus, one may use directly the differential equations, in a way that is similar to that of the above proof of Euler's identity. One can also use Euler's identity for expressing all trigonometric functions in terms of complex exponentials and using properties of the exponential function.
+Parity.
+The cosine and the secant are even functions; the other trigonometric functions are odd functions. That is:
+Periods.
+All trigonometric functions are periodic functions of period . This is the smallest period, except for the tangent and the cotangent, which have as smallest period. This means that, for every integer , one has
+Pythagorean identity.
+The Pythagorean identity, is the expression of the Pythagorean theorem in terms of trigonometric functions. It is 
+Sum and difference formulas.
+The sum and difference formulas allow expanding the sine, the cosine, and the tangent of a sum or a difference of two angles in terms of sines and cosines and tangents of the angles themselves. These can be derived geometrically, using arguments that date to Ptolemy. One can also produce them algebraically using Euler's formula.
+When the two angles are equal, the sum formulas reduce to simpler equations known as the double-angle formulae.
+These identities can be used to derive the product-to-sum identities.
+By setting formula_78 and formula_79 this allows expressing all trigonometric functions of formula_80 as a rational fraction of formula_81:
+Together with 
+this is the tangent half-angle substitution, which allows reducing the computation of integrals and antiderivatives of trigonometric functions to that of rational fractions.
+Derivatives and antiderivatives.
+The derivatives of trigonometric functions result from those of sine and cosine by applying quotient rule. The values given for the antiderivatives in the following table can be verified by differentiating them. The number  is a constant of integration.
+Alternatively, the derivatives of the 'co-functions' can be obtained using trigonometric identities and the chain rule:
+Inverse functions.
+The trigonometric functions are periodic, and hence not injective, so strictly speaking, they do not have an inverse function. However, on each interval on which a trigonometric function is monotonic, one can define an inverse function, and this defines inverse trigonometric functions as multivalued functions. To define a true inverse function, one must restrict the domain to an interval where the function is monotonic, and is thus bijective from this interval to its image by the function. The common choice for this interval, called the set of principal values, is given in the following table. As usual, the inverse trigonometric functions are denoted with the prefix "arc" before the name or its abbreviation of the function.
+The notations sin−1, cos−1, etc. are often used for arcsin and arccos, etc. When this notation is used, inverse functions could be confused with multiplicative inverses. The notation with the "arc" prefix avoids such a confusion, though "arcsec" for arcsecant can be confused with "arcsecond".
+Just like the sine and cosine, the inverse trigonometric functions can also be expressed in terms of infinite series. They can also be expressed in terms of complex logarithms. See Inverse trigonometric functions for details.
+Applications.
+Angles and sides of a triangle.
+In this sections denote the three (interior) angles of a triangle, and denote the lengths of the respective opposite edges. They are related by various formulas, which are named by the trigonometric functions they involve.
+Law of sines.
+The law of sines states that for an arbitrary triangle with sides , , and and angles opposite those sides , and :
+where is the area of the triangle,
+or, equivalently,
+where is the triangle's circumradius.
+It can be proven by dividing the triangle into two right ones and using the above definition of sine. The law of sines is useful for computing the lengths of the unknown sides in a triangle if two angles and one side are known. This is a common situation occurring in "triangulation", a technique to determine unknown distances by measuring two angles and an accessible enclosed distance.
+Law of cosines.
+The law of cosines (also known as the cosine formula or cosine rule) is an extension of the Pythagorean theorem:
+or equivalently,
+In this formula the angle at is opposite to the side . This theorem can be proven by dividing the triangle into two right ones and using the Pythagorean theorem.
+The law of cosines can be used to determine a side of a triangle if two sides and the angle between them are known. It can also be used to find the cosines of an angle (and consequently the angles themselves) if the lengths of all the sides are known.
+Law of tangents.
+The following all form the law of tangents
+The explanation of the formulae in words would be cumbersome, but the patterns of sums and differences, for the lengths and corresponding opposite angles, are apparent in the theorem.
+Law of cotangents.
+If
+and
+then the following all form the law of cotangents
+It follows that
+In words the theorem is: the cotangent of a half-angle equals the ratio of the semi-perimeter minus the opposite side to the said angle, to the inradius for the triangle.
+Periodic functions.
+The trigonometric functions are also important in physics. The sine and the cosine functions, for example, are used to describe simple harmonic motion, which models many natural phenomena, such as the movement of a mass attached to a spring and, for small angles, the pendular motion of a mass hanging by a string. The sine and cosine functions are one-dimensional projections of uniform circular motion.
+Trigonometric functions also prove to be useful in the study of general periodic functions. The characteristic wave patterns of periodic functions are useful for modeling recurring phenomena such as sound or light waves.
+Under rather general conditions, a periodic function can be expressed as a sum of sine waves or cosine waves in a Fourier series. Denoting the sine or cosine basis functions by , the expansion of the periodic function takes the form:
+For example, the square wave can be written as the Fourier series
+In the animation of a square wave at top right it can be seen that just a few terms already produce a fairly good approximation. The superposition of several terms in the expansion of a sawtooth wave are shown underneath.
+History.
+While the early study of trigonometry can be traced to antiquity, the trigonometric functions as they are in use today were developed in the medieval period. The chord function was discovered by Hipparchus of Nicaea (180–125 BCE) and Ptolemy of Roman Egypt (90–165 CE). The functions of sine and versine (1 - cosine) can be traced back to the "jyā" and "koti-jyā" functions used in Gupta period Indian astronomy ("Aryabhatiya", "Surya Siddhanta"), via translation from Sanskrit to Arabic and then from Arabic to Latin. (See Aryabhata's sine table.)
+All six trigonometric functions in current use were known in Islamic mathematics by the 9th century, as was the law of sines, used in solving triangles. With the exception of the sine (which was adopted from Indian mathematics), the other five modern trigonometric functions were discovered by Persian and Arab mathematicians, including the cosine, tangent, cotangent, secant and cosecant. Al-Khwārizmī (c. 780–850) produced tables of sines, cosines and tangents. Circa 830, Habash al-Hasib al-Marwazi discovered the cotangent, and produced tables of tangents and cotangents. Muhammad ibn Jābir al-Harrānī al-Battānī (853–929) discovered the reciprocal functions of secant and cosecant, and produced the first table of cosecants for each degree from 1° to 90°. The trigonometric functions were later studied by mathematicians including Omar Khayyám, Bhāskara II, Nasir al-Din al-Tusi, Jamshīd al-Kāshī (14th century), Ulugh Beg (14th century), Regiomontanus (1464), Rheticus, and Rheticus' student Valentinus Otho.
+Madhava of Sangamagrama (c. 1400) made early strides in the analysis of trigonometric functions in terms of infinite series. (See Madhava series and Madhava's sine table.)
+The terms "tangent" and "secant" were first introduced by the Danish mathematician Thomas Fincke in his book "Geometria rotundi" (1583).
+The 17th century French mathematician Albert Girard made the first published use of the abbreviations "sin", "cos", and "tan" in his book "Trigonométrie".
+In a paper published in 1682, Leibniz proved that is not an algebraic function of . Though introduced as ratios of sides of a right triangle, and thus appearing to be rational functions, Leibnitz result established that they are actually transcendental functions of their argument. The task of assimilating circular functions into algebraic expressions was accomplished by Euler in his "Introduction to the Analysis of the Infinite" (1748). His method was to show that the sine and cosine functions are alternating series formed from the even and odd terms respectively of the exponential series. He presented "Euler's formula", as well as near-modern abbreviations ("sin.", "cos.", "tang.", "cot.", "sec.", and "cosec.").
+A few functions were common historically, but are now seldom used, such as the chord, the versine (which appeared in the earliest tables), the coversine, the haversine, the exsecant and the excosecant. The list of trigonometric identities shows more relations between these functions.
+Etymology.
+The word derives from Latin "sinus", meaning "bend; bay", and more specifically "the hanging fold of the upper part of a toga", "the bosom of a garment", which was chosen as the translation of what was interpreted as the Arabic word "jaib", meaning "pocket" or "fold" in the twelfth-century translations of works by Al-Battani and al-Khwārizmī into Medieval Latin.
+The choice was based on a misreading of the Arabic written form "j-y-b" (), which itself originated as a transliteration from Sanskrit ', which along with its synonym ' (the standard Sanskrit term for the sine) translates to "bowstring", being in turn adopted from Ancient Greek "string".
+The word "tangent" comes from Latin "tangens" meaning "touching", since the line "touches" the circle of unit radius, whereas "secant" stems from Latin "secans"—"cutting"—since the line "cuts" the circle.
+The prefix "co-" (in "cosine", "cotangent", "cosecant") is found in Edmund Gunter's "Canon triangulorum" (1620), which defines the "cosinus" as an abbreviation for the "sinus complementi" (sine of the complementary angle) and proceeds to define the "cotangens" similarly.
+

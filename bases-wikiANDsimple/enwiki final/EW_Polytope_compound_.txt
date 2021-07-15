@@ -1,0 +1,42 @@
+
+A polyhedral compound is a figure that is composed of several polyhedra sharing a common centre. They are the three-dimensional analogs of polygonal compounds such as the hexagram.
+The outer vertices of a compound can be connected to form a convex polyhedron called its convex hull. A compound is a facetting of its convex hull.
+Another convex polyhedron is formed by the small central space common to all members of the compound. This polyhedron can be used as the core for a set of stellations.
+Regular compounds.
+A regular polyhedral compound can be defined as a compound which, like a regular polyhedron, is vertex-transitive, edge-transitive, and face-transitive. Unlike the case of polyhedra, this is not equivalent to the symmetry group acting transitively on its flags; the compound of two tetrahedra is the only regular compound with that property. There are five regular compounds of polyhedra:
+Best known is the regular compound of two tetrahedra, often called the stella octangula, a name given to it by Kepler. The vertices of the two tetrahedra define a cube, and the intersection of the two define a regular octahedron, which shares the same face-planes as the compound. Thus the compound of two tetrahedra is a stellation of the octahedron, and in fact, the only finite stellation thereof.
+The regular compound of five tetrahedra comes in two enantiomorphic versions, which together make up the regular compound of ten tetrahedra. The regular compound of ten tetrahedra can also be constructed with five Stellae octangulae.
+Each of the regular tetrahedral compounds is self-dual or dual to its chiral twin; the regular compound of five cubes and the regular compound of five octahedra are dual to each other.
+Hence, regular polyhedral compounds can also be regarded as dual-regular compounds.
+Coxeter's notation for regular compounds is given in the table above, incorporating Schläfli symbols. The material inside the square brackets, ["d"{"p","q"}], denotes the components of the compound: "d" separate {"p","q"}'s. The material "before" the square brackets denotes the vertex arrangement of the compound: "c"{"m","n"}["d"{"p","q"}] is a compound of "d" {"p","q"}'s sharing the vertices of {"m","n"} counted "c" times. The material "after" the square brackets denotes the facet arrangement of the compound: ["d"{"p","q"}]"e"{"s","t"} is a compound of "d" {"p","q"}'s sharing the faces of {"s","t"} counted "e" times. These may be combined: thus "c"{"m","n"}["d"{"p","q"}]"e"{"s","t"} is a compound of "d" {"p","q"}'s sharing the vertices of {"m","n"} counted "c" times "and" the faces of {"s","t"} counted "e" times. This notation can be generalised to compounds in any number of dimensions.
+Dual compounds.
+A dual compound is composed of a polyhedron and its dual, arranged reciprocally about a common intersphere or midsphere, such that the edge of one polyhedron intersects the dual edge of the dual polyhedron. There are five dual compounds of the regular polyhedra.
+The core is the rectification of both solids. The hull is the dual of this rectification, and its rhombic faces have the intersecting edges of the two solids as diagonals (and have their four alternate vertices). For the convex solids, this is the convex hull.
+The tetrahedron is self-dual, so the dual compound of a tetrahedron with its dual is the regular stellated octahedron.
+The octahedral and icosahedral dual compounds are the first stellations of the cuboctahedron and icosidodecahedron, respectively.
+Uniform compounds.
+In 1976 John Skilling published "Uniform Compounds of Uniform Polyhedra" which enumerated 75 compounds (including 6 as infinite prismatic sets of compounds, #20-#25) made from uniform polyhedra with rotational symmetry. (Every vertex is vertex-transitive and every vertex is transitive with every other vertex.) This list includes the five regular compounds above. 
+The 75 uniform compounds are listed in the Table below. Most are shown singularly colored by each polyhedron element. Some chiral pairs of face groups are colored by symmetry of the faces within each polyhedron.
+Other compounds.
+Two polyhedra that are compounds but have their elements rigidly locked into place are the small complex icosidodecahedron (compound of icosahedron and great dodecahedron) and the great complex icosidodecahedron (compound of small stellated dodecahedron and great icosahedron). If the definition of a uniform polyhedron is generalised, they are uniform.
+The section for enantiomorph pairs in Skilling's list does not contain the compound of two great snub dodecicosidodecahedra, as the pentagram faces would coincide. Removing the coincident faces results in the compound of twenty octahedra.
+4-polytope compounds.
+In 4-dimensions, there are a large number of regular compounds of regular polytopes. Coxeter lists a few of these in his book Regular Polytopes. McMullen added six in his paper "New Regular Compounds of 4-Polytopes".
+Self-duals:
+Dual pairs:
+Uniform compounds and duals with convex 4-polytopes:
+The superscript (var) in the tables above indicates that the labeled compounds are distinct from the other compounds with the same number of constituents.
+Compounds with regular star 4-polytopes.
+Self-dual star compounds:
+Dual pairs of compound stars:
+Uniform compound stars and duals:
+Compounds with duals.
+Dual positions:
+Group theory.
+In terms of group theory, if "G" is the symmetry group of a polyhedral compound, and the group acts transitively on the polyhedra (so that each polyhedron can be sent to any of the others, as in uniform compounds), then if "H" is the stabilizer of a single chosen polyhedron, the polyhedra can be identified with the orbit space "G"/"H" – the coset "gH" corresponds to which polyhedron "g" sends the chosen polyhedron to.
+Compounds of tilings.
+There are eighteen two-parameter families of regular compound tessellations of the Euclidean plane. In the hyperbolic plane, five one-parameter families and seventeen isolated cases are known, but the completeness of this listing has not been enumerated.
+The Euclidean and hyperbolic compound families 2 {"p","p"} (4 ≤ "p" ≤ ∞, "p" an integer) are analogous to the spherical stella octangula, 2 {3,3}.
+A known family of regular Euclidean compound honeycombs in five or more dimensions is an infinite family of compounds of hypercubic honeycombs, all sharing vertices and faces with another hypercubic honeycomb. This compound can have any number of hypercubic honeycombs.
+There are also "dual-regular" tiling compounds. A simple example is the E2 compound of a hexagonal tiling and its dual triangular tiling, which shares its edges with the deltoidal trihexagonal tiling. The Euclidean compounds of two hypercubic honeycombs are both regular and dual-regular.
+

@@ -1,0 +1,2 @@
+UTC+10 means a time zone that is 10 hours ahead of Coordinated Universal Time or UTC. UTC is the standard time zone of the world. Timezones are often named by how many hours they are different from UTC time. For example, UTC -5 (United States east coast) is 5 hours behind UTC.
+In Australia UTC+10 is called Australian Eastern Standard Time or AEST.

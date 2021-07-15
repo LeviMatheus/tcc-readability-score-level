@@ -1,0 +1,12 @@
+
+Delta (uppercase Δ, lowercase δ or 𝛿; "délta", ) is the fourth letter of the Greek alphabet. In the system of Greek numerals it has a value of 4. It was derived from the Phoenician letter dalet 𐤃, Letters that come from delta include Latin D and Cyrillic Д.
+A river delta (originally, the Nile River delta) is so named because its shape approximates the triangular uppercase letter delta. Contrary to a popular legend, this use of the word "delta" was not coined by Herodotus.
+Pronunciation.
+In Ancient Greek, delta represented a voiced dental plosive . In Modern Greek, it represents a voiced dental fricative , like the "th" in "that" or "this" (while in foreign words is instead commonly transcribed as ντ). Delta is romanized as "d" or "dh".
+Upper case.
+The uppercase letter Δ is used to denote:
+Lower case.
+The lowercase letter δ (or 𝛿) can be used to denote:
+Computer encodings.
+These characters are used only as mathematical symbols. Stylized Greek text should be encoded using the normal Greek letters, with markup and formatting to indicate text style.
+

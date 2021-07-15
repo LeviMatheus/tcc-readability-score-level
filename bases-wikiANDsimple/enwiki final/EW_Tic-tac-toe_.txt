@@ -1,0 +1,43 @@
+
+Tic-tac-toe (American English), noughts and crosses (Commonwealth English and British English), or Xs and Os/“X’y O’sies” (Ireland), is a paper-and-pencil game for two players, "X" and "O", who take turns marking the spaces in a 3×3 grid. The player who succeeds in placing three of their marks in a diagonal, horizontal, or vertical row is the winner. It is a solved game with a forced draw assuming best play from both players.
+Gameplay.
+In order to win the game, a player must place three of their marks in a horizontal, vertical, or diagonal row.
+The following example game is won by the first player, X:
+Players soon discover that the best play from both parties leads to a draw. Hence, tic-tac-toe is most often played by young children, who often have not yet discovered the optimal strategy.
+Because of the simplicity of tic-tac-toe, it is often used as a pedagogical tool for teaching the concepts of good sportsmanship and the branch of artificial intelligence that deals with the searching of game trees. It is straightforward to write a computer program to play tic-tac-toe perfectly or to enumerate the 765 essentially different positions (the state space complexity) or the 26,830 possible games up to rotations and reflections (the game tree complexity) on this space. If played optimally by both players, the game always ends in a draw, making tic-tac-toe a futile game.
+The game can be generalized to an m,n,k-game in which two players alternate placing stones of their own color on an "m"×"n" board, with the goal of getting "k" of their own color in a row. Tic-tac-toe is the (3,3,3)-game. Harary's generalized tic-tac-toe is an even broader generalization of tic-tac-toe. It can also be generalized as a nd game. Tic-tac-toe is the game where n equals 3 and d equals 2. It can be generalised even further by playing on an arbitrary incidence structure, where rows are lines and cells are points. Tic-tac-toe is the game given by the incidence structure shown to the right, consisting of nine points, three horizontal lines, three vertical lines, and two diagonal lines, each line consisting of at least three points.
+History.
+Games played on three-in-a-row boards can be traced back to ancient Egypt, where such game boards have been found on roofing tiles dating from around 1300 BC.
+An early variation of tic-tac-toe was played in the Roman Empire, around the first century BC. It was called "terni lapilli" ("three pebbles at a time") and instead of having any number of pieces, each player only had three, thus they had to move them around to empty spaces to keep playing. The game's grid markings have been found chalked all over Rome. Another closely related ancient game is three men's morris which is also played on a simple grid and requires three pieces in a row to finish, and Picaria, a game of the Puebloans.
+The different names of the game are more recent. The first print reference to "noughts and crosses" (nought being an alternative word for zero), the British name, appeared in 1858, in an issue of "Notes and Queries". The first print reference to a game called "tick-tack-toe" occurred in 1884, but referred to "a children's game played on a slate, consisting in trying with the eyes shut to bring the pencil down on one of the numbers of a set, the number hit being scored". "Tic-tac-toe" may also derive from "tick-tack", the name of an old version of backgammon first described in 1558. The US renaming of "noughts and crosses" as "tic-tac-toe" occurred in the 20th century.
+In 1952, "OXO" (or "Noughts and Crosses"), developed by British computer scientist Sandy Douglas for the EDSAC computer at the University of Cambridge, became one of the first known video games. The computer player could play perfect games of tic-tac-toe against a human opponent.
+In 1975, tic-tac-toe was also used by MIT students to demonstrate the computational power of Tinkertoy elements. The Tinkertoy computer, made out of (almost) only Tinkertoys, is able to play tic-tac-toe perfectly. It is currently on display at the Museum of Science, Boston.
+Combinatorics.
+When considering only the state of the board, and after taking into account board symmetries (i.e. rotations and reflections), there are only 138 terminal board positions. A combinatorics study of the game shows that when "X" makes the first move every time, the game outcomes are as follows:
+Strategy.
+A player can play a perfect game of tic-tac-toe (to win or at least draw) if, each time it is their turn to play, they choose the first available move from the following list, as used in Newell and Simon's 1972 tic-tac-toe program.
+The first player, who shall be designated "X", has 3 possible strategically distinct positions to mark during the first turn. Superficially, it might seem that there are 9 possible positions, corresponding to the 9 squares in the grid. However, by rotating the board, we will find that, in the first turn, every corner mark is strategically equivalent to every other corner mark. The same is true of every edge (side middle) mark. From a strategical point of view, there are therefore only three possible first marks: corner, edge, or center. Player X can win or force a draw from any of these starting marks; however, playing the corner gives the opponent the smallest choice of squares which must be played to avoid losing. This might suggest that the corner is the best opening move for X, however another study shows that if the players are not perfect, an opening move in the center is best for X.
+The second player, who shall be designated "O", must respond to X's opening mark in such a way as to avoid the forced win. Player O must always respond to a corner opening with a center mark, and to a center opening with a corner mark. An edge opening must be answered either with a center mark, a corner mark next to the X, or an edge mark opposite the X. Any other responses will allow X to force the win. Once the opening is completed, O's task is to follow the above list of priorities in order to force the draw, or else to gain a win if X makes a weak play.
+More detailed, to guarantee a draw, O should adopt the following strategies:
+When X plays corner first, and O is not a perfect player, the following may happen:
+Further details.
+Consider a board with the nine positions numbered as follows:
+When X plays 1 as their opening move, then O should take 5. Then X takes 9 (in this situation, O should not take 3 or 7, O should take 2, 4, 6 or 8):
+or 6 (in this situation, O should not take 4 or 7, O should take 2, 3, 8 or 9. In fact, taking 9 is the best move, since a non-perfect player X may take 4, then O can take 7 to win).
+In both of these situations (X takes 9 or 6 as second move), X has a property to win.
+If X is not a perfect player, X may take 2 or 3 as second move. Then this game will be a draw, X cannot win.
+If X plays 1 opening move, and O is not a perfect player, the following may happen:
+Although O takes the only good position (5) as first move, but O takes a bad position as second move:
+Although O takes good positions as the first two moves, but O takes a bad position as third move:
+O takes a bad position as first move (except of 5, all other positions are bad):
+Variations.
+Many board games share the element of trying to be the first to get "n"-in-a-row, including three men's morris, nine men's morris, pente, gomoku, Qubic, Connect Four, Quarto, Gobblet, Order and Chaos, Toss Across, and Mojo. Tic-tac-toe is an instance of an m,n,k-game, where two players alternate taking turns on an "m"×"n" board until one of them gets "k" in a row. Harary's generalized tic-tac-toe is an even broader generalization. The game can be generalised even further by playing on an arbitrary hypergraph, where rows are hyperedges and cells are vertices.
+Other variations of tic-tac-toe include:
+One can play on a board of 4x4 squares, winning in several ways. Winning can include: 4 in a straight line, 4 in a diagonal line, 4 in a diamond, or 4 to make a square.
+Another variant, Qubic, is played on a 4×4×4 board; it was solved by Oren Patashnik in 1980 (the first player can force a win). Higher dimensional variations are also possible.
+English names.
+The game has a number of English names.
+Sometimes, the games tic-tac-toe (where players keep adding "pieces") and three men's morris (where pieces start to move after a certain number have been placed) are confused with each other.
+In popular culture.
+Various game shows have been based on tic-tac-toe and its variants:
+

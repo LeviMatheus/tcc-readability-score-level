@@ -1,0 +1,2 @@
+A video card is a special circuit board that controls what is shown on a computer monitor. Video cards can be called graphics cards and graphics accelerators. Graphics are pictures. Some video cards can control two monitors or lots of monitors. Video cards have computer memory. Some video cards can show television stations on a computer monitor.
+Most computers do not need a video card to work with a monitor, but the computers need extra RAM and faster processors to show 3D graphics and video games. Video cards make it easier for the computer to show detailed graphics.

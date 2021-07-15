@@ -1,0 +1,13 @@
+
+In poetry, a monometre is a line of verse with just one metrical foot.
+Example.
+Monometer can be exemplified by this portion of Robert Herrick's poem "Upon His Departure Hence":
+&lt;poem style="margin-left: 2em;"&gt;
+Thus I
+Passe by,
+And die:
+As one,
+Unknown,
+And gone.
+&lt;/poem&gt;
+

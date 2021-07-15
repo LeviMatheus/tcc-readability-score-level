@@ -1,0 +1,55 @@
+
+In mathematics, the classic Möbius inversion formula is a relation between pairs of arithmetic functions, each defined from the other by sums over divisors. It was introduced into number theory in 1832 by August Ferdinand Möbius.
+A large generalization of this formula applies to summation over an arbitrary locally finite partially ordered set, with Möbius' classical formula applying to the set of the natural numbers ordered by divisibility: see incidence algebra.
+Statement of the formula.
+The classic version states that if and are arithmetic functions satisfying
+then
+where is the Möbius function and the sums extend over all positive divisors of (indicated by formula_3 in the above formulae). In effect, the original can be determined given by using the inversion formula. The two sequences are said to be Möbius transforms of each other.
+The formula is also correct if and are functions from the positive integers into some abelian group (viewed as a -module).
+In the language of Dirichlet convolutions, the first formula may be written as
+where denotes the Dirichlet convolution, and is the constant function . The second formula is then written as
+Many specific examples are given in the article on multiplicative functions.
+The theorem follows because is (commutative and) associative, and , where is the identity function for the Dirichlet convolution, taking values , for all . Thus
+There is a product version of the summation-based Möbius inversion formula stated above:
+Series relations.
+Let
+so that
+is its transform. The transforms are related by means of series: the Lambert series
+and the Dirichlet series:
+where is the Riemann zeta function.
+Repeated transformations.
+Given an arithmetic function, one can generate a bi-infinite sequence of other arithmetic functions by repeatedly applying the first summation. 
+For example, if one starts with Euler's totient function , and repeatedly applies the transformation process, one obtains:
+If the starting function is the Möbius function itself, the list of functions is:
+Both of these lists of functions extend infinitely in both directions. The Möbius inversion formula enables these lists to be traversed backwards.
+As an example the sequence starting with is:
+The generated sequences can perhaps be more easily understood by considering the corresponding Dirichlet series: each repeated application of the transform corresponds to multiplication by the Riemann zeta function.
+Generalizations.
+A related inversion formula more useful in combinatorics is as follows: suppose and are complex-valued functions defined on the interval such that
+then
+Here the sums extend over all positive integers which are less than or equal to .
+This in turn is a special case of a more general form. If is an arithmetic function possessing a Dirichlet inverse , then if one defines
+then
+The previous formula arises in the special case of the constant function , whose Dirichlet inverse is .
+A particular application of the first of these extensions arises if we have (complex-valued) functions and defined on the positive integers, with
+By defining and , we deduce that
+A simple example of the use of this formula is counting the number of reduced fractions , where and are coprime and . If we let be this number, then is the total number of fractions with , where and are not necessarily coprime. (This is because every fraction with and can be reduced to the fraction with , and vice versa.) Here it is straightforward to determine , but is harder to compute.
+Another inversion formula is (where we assume that the series involved are absolutely convergent):
+As above, this generalises to the case where is an arithmetic function possessing a Dirichlet inverse :
+For example, there is a well known proof relating the Riemann zeta function to the prime zeta function that uses the series-based form of 
+Möbius inversion in the previous equation when formula_22. Namely, by the Euler product representation of formula_23 for 
+formula_24 
+These identities for alternate forms of Möbius inversion are found in. 
+A more general theory of Möbius inversion formulas partially cited in the next section on incidence algebras is constructed by Rota in.
+Multiplicative notation.
+As Möbius inversion applies to any abelian group, it makes no difference whether the group operation is written as addition or as multiplication. This gives rise to the following notational variant of the inversion formula:
+Proofs of generalizations.
+The first generalization can be proved as follows. We use Iverson's convention that [condition] is the indicator function of the condition, being 1 if the condition is true and 0 if false. We use the result that
+that is, .
+We have the following:
+The proof in the more general case where replaces 1 is essentially identical, as is the second generalisation.
+On posets.
+For a poset , a set endowed with a partial order relation formula_29, define the Möbius function formula_30 of recursively by 
+(Here one assumes the summations are finite.) Then for formula_32, where is a commutative ring, we have 
+if and only if 
+

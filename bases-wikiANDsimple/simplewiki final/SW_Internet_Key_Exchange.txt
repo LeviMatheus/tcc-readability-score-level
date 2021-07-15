@@ -1,0 +1,6 @@
+Internet Key Exchange (IKE or IKEv2) is the protocol used to set up a security association (SA) in the IPsec protocol suite. IKE uses a Diffie-Hellman key exchange to set up a shared session secret, from which cryptographic keys are derived. Public key techniques or, alternatively, a pre-shared key, are used to mutually authenticate the communicating parties.
+IKE builds upon the Oakley protocol.
+History.
+IKE was originally defined in November 1998 by the Internet Engineering Task Force (IETF) in a series of publications (Request for Comments) known as RFC 2407, RFC 2408, and RFC 2409.
+IKE was updated to version two (IKEv2) in December 2005 by RFC 4306. IKEv2 has been further expanded by RFC 4301 (Security Architecture for the Internet Protocol) through RFC 4310 (DNS Security Extensions Mapping for the EPP). More RFCs are being added all the time as the need arises to further develop the features of the protocol.
+The parent organization of the IETF,The Internet Society (ISOC), has maintained the copyrights of these standards as being freely available to the Internet community.

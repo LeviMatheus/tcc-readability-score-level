@@ -1,0 +1,12 @@
+Pressure means how much something is pushing on something else
+expressed as force per unit area.
+Pounds per square inch - "(psi, PSI, lb/in2, lb/sq in)"
+Commonly used in the U.S., but not elsewhere. Normal atmospheric pressure is 14.7 psi, which means that a column of air one square inch in area rising from the Earth's atmosphere to space weighs 14.7 pounds.
+Normal atmospheric pressure is called 1 atmosphere. 1 atm = 14.6956 psi = 760 torr.
+This is called the Torr because it is based on the original Torricelli barometer design. One atmosphere of pressure will push the column of mercury (Hg) in a mercury barometer to a height of 760 millimeters. A pressure that causes the Hg column to rise 1 millimeter is called a torr. 1 atm = 760 torr = 14.7 psi.
+The bar is almost the same as the atmosphere unit. One bar = 750.062 torr = 0.9869 atm = 100,000 Pa.
+There are 1,000 millibar in one bar. This unit is used by meteorologists who find it easier to refer to atmospheric pressures without using decimals. One millibar = 0.001 bar = 0.750 torr = 100 Pa.
+1 pascal = a force of 1 Newton per square meter (1 Newton = the force needed to accelerate 1 kilogram one meter per second per second = 1 kg.m/s2; this is actually quite logical for physicists and engineers, honest). 1 pascal = 10 dyne/cm2 = 0.01 mbar. 1 atm = 101,325 Pascals = 760 mm Hg = 760 torr = 14.7 psi.
+The prefix "kilo" means "1,000", so one kilopascal = 1,000 Pa. Therefore, 101.325 kPa = 1 atm = 760 torr and 100 kPa = 1 bar = 750 torr.
+The prefix "mega" means "1,000,000", so one megapascal = 1,000 kPa = 1,000,000 Pa. Pressures in the megapascal range are common in high-pressure air compressors and hydraulic systems, where high pressure liquids are used to do useful work.
+The prefix "giga" means "1,000,000,000", so one gigapascal = 1,000 MPa = 1,000,000 kPa = 1,000,000,000 Pa = 9,870 atm = 10,000 bar. Pressures of several gigapascals can change graphite to diamond or make hydrogen a metallic conductor!

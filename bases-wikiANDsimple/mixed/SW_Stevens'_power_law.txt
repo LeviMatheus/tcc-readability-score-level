@@ -1,0 +1,6 @@
+Stevens' power law is a proposed relationship between the magnitude of a physical stimulus and the intensity or strength that people feel.
+Most people think that it describes a wider range of sensations than Weber-Fechner law. But critics argue that the validity of the law is not sure.
+The theory is named after psychophysicist Stanley Smith Stevens (1906–1973). Although the idea of a power law had been suggested by 19th century researchers, Stevens is credited with reviving the law and publishing a body of psychophysical data to support it in 1957.
+The general form of the law is
+where formula_3 is the magnitude of the physical stimulus, formula_4 is the psychophysical function capturing sensation (the subjective size of the stimulus), formula_1 is an exponent that depends on the type of stimulation and formula_6 is a proportionality constant that depends on the type of stimulation and the units used.
+The table to the right lists the exponents reported by Stevens.

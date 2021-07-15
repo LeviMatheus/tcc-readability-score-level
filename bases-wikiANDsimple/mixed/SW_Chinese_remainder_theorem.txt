@@ -1,0 +1,2 @@
+The Chinese remainder theorem is a theorem from number theory. It is about congruence. The original form was
+The Chinese remainder theorem is used in cryptography, for example for the RSA algorithm

@@ -1,0 +1,40 @@
+
+Jess is a rule engine for the Java platform that was developed by Ernest Friedman-Hill of Sandia National Labs. It is a superset of the CLIPS programming language. It was first written in late 1995. The language provides rule-based programming for the automation of an expert system, and is frequently termed as an "expert system shell". In recent years, intelligent agent systems have also developed, which depend on a similar capability.
+Rather than a procedural paradigm, where a single program has a loop that is activated only one time, the declarative paradigm used by Jess continuously applies a collection of rules to a collection of facts by a process called "pattern matching". Rules can modify the collection of facts, or they can execute any Java code. It uses the Rete algorithm to execute rules.
+License.
+While CLIPS is licensed as open source, Jess is not open source.
+JESS is free for educational and government use but a license is required to use JESS for commercial systems.
+Code examples.
+Code examples:
+ (if (&gt; ?a ?b) then ?a else ?b))
+(deffacts myroom
+ (furniture chair)
+ (furniture table)
+ (furniture bed)
+(deftemplate car
+ (slot color)
+ (slot mileage)
+ (slot value)
+Sample code:
+(deffacts blood-bank ; put names &amp; their types into working memory
+ (blood-donor (name "Alice")(type "A"))
+ (blood-donor (name "Agatha")(type "A"))
+ (blood-donor (name "Bob")(type "B"))
+ (blood-donor (name "Barbara")(type "B"))
+ (blood-donor (name "Jess")(type "AB"))
+ (blood-donor (name "Karen")(type "AB"))
+ (blood-donor (name "Onan")(type "O"))
+ (blood-donor (name "Osbert")(type "O"))
+(defrule can-give-to-same-type-but-not-self ; handles A &gt; A, B &gt; B, O &gt; O, AB &gt; AB, but not N1 &gt; N1
+ (blood-donor (name ?name)(type ?type))
+ (blood-donor (name ?name2)(type ?type2 &amp;:(eq ?type ?type2) &amp;: (neq ?name ?name2) ))
+ (printout t ?name " can give blood to " ?name2 crlf)
+(defrule O-gives-to-others-but-not-itself ; O to O cover in above rule
+ (blood-donor (name ?name)(type ?type &amp;:(eq ?type "O")))
+ (blood-donor (name ?name2)(type ?type2 &amp;: (neq ?type ?type2) &amp;: (neq ?name ?name2) ))
+ (printout t ?name " can give blood to " ?name2 crlf)
+(defrule A-or-B-gives-to-AB ; case O gives to AB and AB gives to AB already dealt with
+ (blood-donor (name ?name)(type ?type &amp;:(or (eq ?type "A") (eq ?type "B" ))))
+ (blood-donor (name ?name2)(type ?type2 &amp;: (eq ?type2 "AB") &amp;: (neq ?name ?name2) ))
+ (printout t ?name " can give blood to " ?name2 crlf)
+

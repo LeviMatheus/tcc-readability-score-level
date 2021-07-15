@@ -1,0 +1,53 @@
+
+A quatrain is a type of stanza, or a complete poem, consisting of four lines.
+Existing in a variety of forms, the quatrain appears in poems from the poetic traditions of various ancient civilizations including Persia, Ancient India, Ancient Greece, Ancient Rome, and China, and continues into the 21st century, where it is seen in works published in many languages. 
+This form of poetry has been continually popular in Iran since the medieval period, as Ruba'is form an important faction of the vast repertoire of Persian poetry, with famous poets such as Omar Khayyam and Mahsati Ganjavi of Seljuk Persia only writing poetry in this format.
+Michel de Nostredame (Nostradamus) used the quatrain form to deliver his famous prophecies in the 16th century.
+There are fifteen possible rhyme schemes, but the most traditional and common are: ABAA, AAAA, ABAB, and ABBA
+Forms.
+An example can be found in the following of Thomas Gray's "Elegy Written in a Country Churchyard".
+&lt;poem style="margin-left:3em"&gt;
+The curfew tolls the knell of parting day,
+The lowing herd wind slowly o'er the lea,
+The plowman homeward plods his weary way,
+And leaves the world to darkness and to me.
+&lt;/poem&gt;
+An example can be found in Robert Burns, "A Red, Red Rose".
+&lt;poem style="margin-left:3em"&gt;
+O, my luve’s like a red, red rose,
+That’s newly sprung in June;
+O, my luve’s like the melodie
+That’s sweetly played in tune.
+&lt;/poem&gt;
+An example can be found in Alfred Lord Tennyson's "In Memoriam A.H.H.".
+&lt;poem style="margin-left:3em"&gt;
+So word by word, and line by line,
+The dead man touch’d me from the past,
+And all at once it seem’d at last
+The living soul was flash’d on mine.
+&lt;/poem&gt;
+An example can be found in William Blake's "The Tyger". (these are the first and last stanzas of the poem) 
+&lt;poem style="margin-left:3em"&gt;
+Tyger Tyger, burning bright,
+In the forests of the night;
+What immortal hand or eye,
+Could frame thy fearful symmetry?
+Tyger Tyger burning bright,
+In the forests of the night:
+What immortal hand or eye,
+Dare frame thy fearful symmetry
+&lt;/poem&gt;
+An example can be found in “La Belle Dame sans Merci” by John Keats.
+&lt;poem style="margin-left:3em"&gt;
+I saw pale kings and princes too,
+Pale warriors, death-pale were they all;
+They cried—‘La Belle Dame sans Merci
+Thee hath in thrall!’
+&lt;/poem&gt;
+&lt;poem style="margin-left:3em"&gt;
+Come, fill the Cup, and in the fire of Spring
+Your Winter garment of Repentance fling:
+The Bird of Time has but a little way
+To flutter—and the Bird is on the Wing.
+&lt;/poem&gt;
+

@@ -1,0 +1,4 @@
+
+In waveguide design and construction, angular misalignment loss is power loss caused by the deviation from optimum angular alignment of the axes of source-to-waveguide, waveguide-to-waveguide, or waveguide-to-detector. The waveguide may be dielectric (an optical fiber) or metallic. Angular misalignment loss does not include lateral offset loss and longitudinal offset loss.
+Source: from Federal Standard 1037C
+

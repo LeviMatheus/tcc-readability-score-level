@@ -1,0 +1,21 @@
+Algebra is a part of mathematics (maths) that helps show the general links between numbers and math operations (adding, subtracting, multiplying or dividing) used on the numbers. Algebra does this by using letters ("a","b","c"...) or other symbols to represent numbers, either because the numbers are unknown or because the numbers change during the course of the problem, in which case the letters are called variables. In many math problems, time is a variable, often represented by the letter "t". Using the basic ideas in algebra can help reduce a math problem to its simplest form making it easier to solve difficult problems. Algebra is taught in school to help in harder mathematics, science, and engineering classes.
+Here is a simple example of an algebra problem.
+Sue has 12 jellybeans, Ann has 24 jellybeans. They decide to share, so that they have same jellybeans. Let "x" represent the number of jellybeans Ann gives to Sue. Then we want 12 + "x" = 24 - "x".
+Here are steps you can use to solve the problem.
+1) Subtract 12 from both sides of the equation. This gives "x" = 12 - "x".
+2) Add "x" to both sides of the equation. This gives 2"x" = 12.
+3) Divide both sides of the equation by 2. This gives "x" = 6. If Ann gives Sue 6 jellybeans, they will have the same number of jellybeans.
+Of course, this problem could be solved without algebra. The purpose of simple story problems such as this one is to teach algebra, so that the students can use algebra when faced with a problem that is too hard to solve any other way. Problems such as building a freeway, designing a cell phone, or finding the cure for a disease all require alegbra.
+In addition to "elementary algebra", or basic algebra, there are advanced forms of algebra, taught in colleges and universities, such as abstract algebra, linear algebra, and universal algebra.
+Algebra can be used to solve real problems because the rules of algebra work in real life and numbers can be used to represent the values of real things.
+Writing algebra.
+In algebra, adding "z" to "y" (or "y" plus "z") is written as y + z.
+Subtracting "z" from "y" (or "y" minus "z") is written as y − z.
+In algebra, multiplying "y" by "z" (or "y" times "z") can be written in 4 ways: y × z, y*z, y·z, or yz. yz is the most usual form of writing the product of "y" and "z" in algebra.
+When we multiply a number and a letter in algebra, we write the number in front of the letter: 5 × y = 5y. When the number is 1, then the 1 is not written because 1 times any number is that number (1 × "y" = "y") and so is not necessary.
+When we multiply 2 numbers in algebra, the only way is usually 3·4. × is not used, because it looks too much like the letter x.
+In algebra, dividing "y" by "z" (or "y" over "z") is written as y ÷ z or y/z. y/z is more commonly used.
+Graphing algebra.
+Algebra also introduces graphing and the basic formula formula_1 where "b" is the y-intercept of the graph and "m" is the slope. This formula applies to the coordinates of the graph or formula_2.
+History.
+The word "algebra" is a Latin form of the Arabic word "Al-Jabr" ("casting") and comes from a mathematics book "Al-Maqala fi Hisab-al Jabr wa-al-Muqabilah", ("Essay on the Computation of Casting and Equation") written in the 9th century by a famous Persian mathematician, Muhammad ibn Mūsā al-Khwārizmī, who was a Muslim born in Kharazm in Iran. He flourished under Al-Ma'moun in Baghdad, Iraq through 813-833 AD, and died around 840 AD. The book was brought into Europe and translated into Latin in the 12th century. The book was then given the name 'Algebra'.

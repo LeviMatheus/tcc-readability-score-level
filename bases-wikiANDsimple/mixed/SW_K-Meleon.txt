@@ -1,0 +1,1 @@
+K-Meleon is a web browser for Microsoft Windows. It's build to be small, simple and fast. Small means that if a users computer doesn't have much space in his hard drive, the person will still be able to use it.

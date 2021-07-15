@@ -1,0 +1,3 @@
+
+A busy signal is information communicated to a user or apparatus attempting a connection, indicating the requested connection cannot be completed.
+

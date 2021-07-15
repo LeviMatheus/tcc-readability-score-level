@@ -1,0 +1,30 @@
+
+In probability theory and statistics, a central moment is a moment of a probability distribution of a random variable about the random variable's mean; that is, it is the expected value of a specified integer power of the deviation of the random variable from the mean. The various moments form one set of values by which the properties of a probability distribution can be usefully characterized. Central moments are used in preference to ordinary moments, computed in terms of deviations from the mean instead of from zero, because the higher-order central moments relate only to the spread and shape of the distribution, rather than also to its location.
+Sets of central moments can be defined for both univariate and multivariate distributions.
+Univariate moments.
+The "n"th moment about the mean (or "n"th central moment) of a real-valued random variable "X" is the quantity "μ""n" := E[("X" − E["X"])"n"], where E is the expectation operator. For a continuous univariate probability distribution with probability density function "f"("x"), the "n"th moment about the mean "μ" is
+For random variables that have no mean, such as the Cauchy distribution, central moments are not defined.
+The first few central moments have intuitive interpretations:
+Properties.
+The "n"th central moment is translation-invariant, i.e. for any random variable "X" and any constant "c", we have
+For all "n", the "n"th central moment is homogeneous of degree "n":
+"Only" for "n" such that n equals 1, 2, or 3 do we have an additivity property for random variables "X" and "Y" that are independent:
+A related functional that shares the translation-invariance and homogeneity properties with the "n"th central moment, but continues to have this additivity property even when "n" ≥ 4 is the "n"th cumulant κ"n"("X"). For "n" = 1, the "n"th cumulant is just the expected value; for "n" = either 2 or 3, the "n"th cumulant is just the "n"th central moment; for "n" ≥ 4, the "n"th cumulant is an "n"th-degree monic polynomial in the first "n" moments (about zero), and is also a (simpler) "n"th-degree polynomial in the first "n" central moments.
+Relation to moments about the origin.
+Sometimes it is convenient to convert moments about the origin to moments about the mean. The general equation for converting the "n"th-order moment about the origin to the moment about the mean is
+where "μ" is the mean of the distribution, and the moment about the origin is given by
+For the cases "n" = 2, 3, 4 — which are of most interest because of the relations to variance, skewness, and kurtosis, respectively — this formula becomes (noting that formula_7 and formula_8):
+... and so on, following Pascal's triangle, i.e.
+because formula_14
+The following sum is a stochastic variable having a compound distribution
+where the formula_16 are mutually independent random variables sharing the same common distribution and formula_17 a random integer variable independent of the formula_18 with its own distribution. The moments of formula_19 are obtained as 
+where formula_21 is defined as zero for formula_22.
+Symmetric distributions.
+In a symmetric distribution (one that is unaffected by being reflected about its mean), all odd central moments equal zero, because in the formula for the "n"th moment, each term involving a value of "X" less than the mean by a certain amount exactly cancels out the term involving a value of "X" greater than the mean by the same amount.
+Multivariate moments.
+For a continuous bivariate probability distribution with probability density function "f"("x","y") the ("j","k") moment about the mean "μ" = ("μ""X", "μ""Y") is
+Central moment of complex random variables.
+The "n"th central moment for a complex random variable "X" is defined as 
+The absolute "n"th central moment of "X" is defined as
+The 2nd-order central moment "β"2 is called the "variance" of "X" whereas the 2nd-order central moment "α"2 is the "pseudo-variance" of "X".
+

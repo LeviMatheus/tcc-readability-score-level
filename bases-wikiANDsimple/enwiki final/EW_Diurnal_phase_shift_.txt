@@ -1,0 +1,3 @@
+
+In telecommunication, diurnal phase shift is the phase shift of electromagnetic signals associated with daily changes in the ionosphere. The major changes usually occur during the period of time when sunrise or sunset is present at critical points along the path. Significant phase shifts may occur on paths wherein a reflection area of the path is subject to a large tidal range. In cable systems, significant phase shifts can be occasioned by diurnal temperature variance.
+

@@ -1,0 +1,4 @@
+
+Rescuing Prometheus: Four Monumental Projects That Changed the Modern World is a book by Thomas P. Hughes. The book uses four extremely large engineering projects of the late 20th century as examples to explore how the limits of modern system engineering are stressed by real life projects. It also traces the development of the management of large technical system development.
+The book documents four massively-cooperative projects:
+

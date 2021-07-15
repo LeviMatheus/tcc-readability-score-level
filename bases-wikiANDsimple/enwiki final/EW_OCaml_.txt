@@ -1,0 +1,176 @@
+
+OCaml ( , formerly Objective Caml) is a general-purpose, multi-paradigm programming language which extends the Caml dialect of ML with object-oriented features. OCaml was created in 1996 by Xavier Leroy, Jérôme Vouillon, Damien Doligez, Didier Rémy, Ascánder Suárez, and others.
+The OCaml toolchain includes an interactive top-level interpreter, a bytecode compiler, an optimizing native code compiler, a reversible debugger, and a package manager (OPAM). OCaml was initially developed in the context of automated theorem proving, and has an outsize presence in static analysis and formal methods software. Beyond these areas, it has found serious use in systems programming, web development, and financial engineering, among other application domains.
+The acronym "CAML" originally stood for "Categorical Abstract Machine Language", but OCaml omits this abstract machine. OCaml is a free and open-source software project managed and principally maintained by the French Institute for Research in Computer Science and Automation (INRIA). In the early 2000s, elements from OCaml were adopted by many languages, notably F# and Scala.
+Philosophy.
+ML-derived languages are best known for their static type systems and type-inferring compilers. OCaml unifies functional, imperative, and object-oriented programming under an ML-like type system. Thus, programmers need not be highly familiar with the pure functional language paradigm to use OCaml.
+By requiring the programmer to work within the constraints of its static type system, OCaml eliminates many of the type-related runtime problems associated with dynamically typed languages. Also, OCaml's type-inferring compiler greatly reduces the need for the manual type annotations that are required in most statically typed languages. For example, the data type of variables and the signature of functions usually need not be declared explicitly, as they do in languages like Java and C#, because they can be inferred from the operators and other functions that are applied to the variables and other values in the code. Effective use of OCaml's type system can require some sophistication on the part of a programmer, but this discipline is rewarded with reliable, high-performance software. 
+OCaml is perhaps most distinguished from other languages with origins in academia by its emphasis on performance. Its static type system prevents runtime type mismatches and thus obviates runtime type and safety checks that burden the performance of dynamically typed languages, while still guaranteeing runtime safety, except when array bounds checking is turned off or when some type-unsafe features like serialization are used. These are rare enough that avoiding them is quite possible in practice.
+Aside from type-checking overhead, functional programming languages are, in general, challenging to compile to efficient machine language code, due to issues such as the funarg problem. Along with standard loop, register, and instruction optimizations, OCaml's optimizing compiler employs static program analysis methods to optimize value boxing and closure allocation, helping to maximize the performance of the resulting code even if it makes extensive use of functional programming constructs.
+Xavier Leroy has stated that "OCaml delivers at least 50% of the performance of a decent C compiler", although a direct comparison is impossible. Some functions in the OCaml standard library are implemented with faster algorithms than equivalent functions in the standard libraries of other languages. For example, the implementation of set union in the OCaml standard library in theory is asymptotically faster than the equivalent function in the standard libraries of imperative languages (e.g., C++, Java) because the OCaml implementation exploits the immutability of sets to reuse parts of input sets in the output (see persistent data structure).
+Features.
+OCaml features a static type system, type inference, parametric polymorphism, tail recursion, pattern matching, first class lexical closures, functors (parametric modules), exception handling, and incremental generational automatic garbage collection.
+OCaml is notable for extending ML-style type inference to an object system in a general-purpose language. This permits structural subtyping, where object types are compatible if their method signatures are compatible, regardless of their declared inheritance (an unusual feature in statically typed languages).
+A foreign function interface for linking to C primitives is provided, including language support for efficient numerical arrays in formats compatible with both C and Fortran. OCaml also supports creating libraries of OCaml functions that can be linked to a "main" program in C, so that an OCaml library can be distributed to C programmers who have no knowledge or installation of OCaml.
+The OCaml distribution contains:
+The native code compiler is available for many platforms, including Unix, Microsoft Windows, and Apple macOS. Portability is achieved through native code generation support for major architectures: IA-32, X86-64 (AMD64), Power, SPARC, ARM, and ARM64.
+OCaml bytecode and native code programs can be written in a multithreaded style, with preemptive context switching. However, because the garbage collector of the INRIA OCaml system (which is the only currently available full implementation of the language) is not designed for concurrency, symmetric multiprocessing is unsupported. OCaml threads in the same process execute by time sharing only. There are however several libraries for distributed computing such as Functory and ocamlnet/Plasma.
+Development environment.
+Since 2011, many new tools and libraries have been contributed to the OCaml development environment:
+Code examples.
+Snippets of OCaml code are most easily studied by entering them into the "top-level REPL". This is an interactive OCaml session that prints the inferred types of resulting or defined expressions. The OCaml top-level is started by simply executing the OCaml program:
+$ ocaml
+ Objective Caml version 3.09.0
+Code can then be entered at the "#" prompt. For example, to calculate 1+2*3:
+- : int = 7
+OCaml infers the type of the expression to be "int" (a machine-precision integer) and gives the result "7".
+Hello World.
+The following program "hello.ml":
+print_endline "Hello World!"
+can be compiled into a bytecode executable:
+ $ ocamlc hello.ml -o hello
+or compiled into an optimized native-code executable:
+ $ ocamlopt hello.ml -o hello
+and executed:
+$ ./hello
+Hello World!
+The first argument to ocamlc, "hello.ml", specifies the source file to compile and the "-o hello" flag specifies the output file.
+Summing a list of integers.
+Lists are one of the fundamental datatypes in OCaml. The following code example defines a recursive function "sum" that accepts one argument, "integers", which is supposed to be a list of integers. Note the keyword codice_1 which denotes that the function is recursive. The function recursively iterates over the given list of integers and provides a sum of the elements. The "match" statement has similarities to C's switch element, though it is far more general.
+let rec sum integers = (* Keyword rec means 'recursive'. *)
+ match integers with
+ | [] -&gt; 0 (* Yield 0 if integers is the empty 
+ list []. *)
+ | first :: rest -&gt; first + sum rest;; (* Recursive call if integers is a non-
+ empty list; first is the first 
+ element of the list, and rest is a 
+ list of the rest of the elements, 
+ possibly []. *)
+ # sum [1;2;3;4;5];;
+ - : int = 15
+Another way is to use standard fold function that works with lists.
+let sum integers =
+ List.fold_left (fun accumulator x -&gt; accumulator + x) 0 integers;;
+ # sum [1;2;3;4;5];;
+ - : int = 15
+Since the anonymous function is simply the application of the + operator, this can be shortened to:
+let sum integers =
+ List.fold_left (+) 0 integers
+Furthermore, one can omit the list argument by making use of a partial application:
+let sum =
+ List.fold_left (+) 0
+Quicksort.
+OCaml lends itself to concisely expressing recursive algorithms. The following code example implements an algorithm similar to quicksort that sorts a list in increasing order.
+ let rec qsort = function
+ | pivot :: rest -&gt;
+ let is_less x = x &lt; pivot in
+ let left, right = List.partition is_less rest in
+ qsort left @ [pivot] @ qsort right
+Birthday problem.
+The following program calculates the smallest number of people in a room for whom the probability of completely unique birthdays is less than 50% (the birthday problem, where for 1 person the probability is 365/365 (or 100%), for 2 it is 364/365, for 3 it is 364/365 × 363/365, etc.) (answer = 23).
+let year_size = 365.
+let rec birthday_paradox prob people =
+ let prob = (year_size -. float people) /. year_size *. prob in
+ if prob &lt; 0.5 then
+ Printf.printf "answer = %d\n" (people+1)
+ else
+ birthday_paradox prob (people+1)
+birthday_paradox 1.0 1
+Church numerals.
+The following code defines a Church encoding of natural numbers, with successor (succ) and addition (add). A Church numeral is a higher-order function that accepts a function and a value and applies to exactly times. To convert a Church numeral from a functional value to a string, we pass it a function that prepends the string to its input and the constant string .
+let zero f x = x
+let succ n f x = f (n f x)
+let one = succ zero
+let two = succ (succ zero)
+let add n1 n2 f x = n1 f (n2 f x)
+let to_string n = n (fun k -&gt; "S" ^ k) "0"
+let _ = to_string (add (succ two) two)
+Arbitrary-precision factorial function (libraries).
+A variety of libraries are directly accessible from OCaml. For example, OCaml has a built-in library for arbitrary-precision arithmetic. As the factorial function grows very rapidly, it quickly overflows machine-precision numbers (typically 32- or 64-bits). Thus, factorial is a suitable candidate for arbitrary-precision arithmetic.
+In OCaml, the Num module (now superseded by the ZArith module) provides arbitrary-precision arithmetic and can be loaded into a running top-level using:
+ # 
+The factorial function may then be written using the arbitrary-precision numeric operators , and :
+ if n =/ Int 0 then Int 1 else n */ fact(n -/ Int 1);;
+val fact : Num.num -&gt; Num.num = &lt;fun&gt;
+This function can compute much larger factorials, such as 120!:
+- : string =
+"6689502913449127057588118054090372586752746333138029810295671352301633
+55724496298936687416527198498130815763789321409055253440858940812185989
+8481114389650005964960521256960000000000000000000000000000"
+Triangle (graphics).
+The following program renders a rotating triangle in 2D using OpenGL:
+let () =
+ ignore (Glut.init Sys.argv);
+ Glut.initDisplayMode ~double_buffer:true ();
+ ignore (Glut.createWindow ~title:"OpenGL Demo");
+ let angle t = 10. *. t *. t in
+ let render () =
+ GlClear.clear [ `color ];
+ GlMat.load_identity ();
+ GlMat.rotate ~angle: (angle (Sys.time ())) ~z:1. ();
+ GlDraw.begins `triangles;
+ List.iter GlDraw.vertex2 [-1., -1.; 0., 1.; 1., -1.];
+ GlDraw.ends ();
+ Glut.swapBuffers () in
+ GlMat.mode `modelview;
+ Glut.displayFunc ~cb:render;
+ Glut.idleFunc ~cb:(Some Glut.postRedisplay);
+ Glut.mainLoop ()
+The LablGL bindings to OpenGL are required. The program may then be compiled to bytecode with:
+ $ ocamlc -I +lablGL lablglut.cma lablgl.cma simple.ml -o simple
+or to nativecode with:
+ $ ocamlopt -I +lablGL lablglut.cmxa lablgl.cmxa simple.ml -o simple
+or, more simply, using the ocamlfind build command
+ $ ocamlfind opt simple.ml -package lablgl.glut -linkpkg -o simple
+and run:
+ $ ./simple
+Far more sophisticated, high-performance 2D and 3D graphical programs can be developed in OCaml. Thanks to the use of OpenGL and OCaml, the resulting programs can be cross-platform, compiling without any changes on many major platforms.
+Fibonacci sequence.
+The following code calculates the Fibonacci sequence of a number "n" inputted. It uses tail recursion and pattern matching.
+let fib n =
+ let rec fib_aux m a b =
+ match m with
+ | 0 -&gt; a
+ | _ -&gt; fib_aux (m - 1) b (a + b)
+ in fib_aux n 0 1
+Higher-order functions.
+Functions may take functions as input and return functions as result. For example, applying "twice" to a function "f" yields a function that applies "f" two times to its argument.
+let twice (f : 'a -&gt; 'a) = fun (x : 'a) -&gt; f (f x);;
+let inc (x : int) : int = x + 1;;
+let add2 = twice inc;;
+let inc_str (x : string) : string = x ^ " " ^ x;;
+let add_str = twice(inc_str);;
+ # add2 98;;
+ - : int = 100
+ # add_str "Test";;
+ - : string = "Test Test Test Test"
+The function "twice" uses a type variable" 'a" to indicate that it can be applied to any function "f" mapping from a type" 'a" to itself, rather than only to "int-&gt;int" functions. In particular, "twice" can even be applied to itself.
+ # let fourtimes f = (twice twice) f;;
+ val fourtimes : ('a -&gt; 'a) -&gt; 'a -&gt; 'a = &lt;fun&gt;
+ # let add4 = fourtimes inc;;
+ val add4 : int -&gt; int = &lt;fun&gt;
+ # add4 98;;
+ - : int = 102
+Derived languages.
+MetaOCaml.
+MetaOCaml is a multi-stage programming extension of OCaml enabling incremental compiling of new machine code during runtime. Under some circumstances, significant speedups are possible using multistage programming, because more detailed information about the data to process is available at runtime than at the regular compile time, so the incremental compiler can optimize away many cases of condition checking, etc.
+As an example: if at compile time it is known that some power function is needed often, but the value of is known only at runtime, a two-stage power function can be used in MetaOCaml:
+ let rec power n x =
+ if n = 0
+ then .&lt;1&gt;.
+ else
+ if even n
+ then sqr (power (n/2) x)
+ else .&lt;.~x *. .~(power (n - 1) x)&gt;.
+As soon as is known at runtime, a specialized and very fast power function can be created:
+ .&lt;fun x -&gt; .~(power 5 .&lt;x&gt;.)&gt;.
+The result is:
+ fun x_1 -&gt; (x_1 *
+ let y_3 = 
+ let y_2 = (x_1 * 1)
+ in (y_2 * y_2)
+ in (y_3 * y_3))
+The new function is automatically compiled.
+Users.
+Several dozen companies use OCaml to some degree. Notable examples include:
+

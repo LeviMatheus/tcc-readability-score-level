@@ -1,0 +1,1 @@
+Southbridge is also known as Input/Output Controller Hub. The microchip realizes lower functions of the motherboard in computer architecture with northbridge and southbridge. It's easy to distinguish southbridge and northbridge: the southbridge is not directly connected to the processor. Northbridge realizes connection between southbridge and processor.

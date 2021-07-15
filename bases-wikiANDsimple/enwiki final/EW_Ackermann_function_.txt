@@ -1,0 +1,48 @@
+
+In computability theory, the Ackermann function, named after Wilhelm Ackermann, is one of the simplest and earliest-discovered examples of a total computable function that is not primitive recursive. All primitive recursive functions are total and computable, but the Ackermann function illustrates that not all total computable functions are primitive recursive. After Ackermann's publication of his function (which had three nonnegative integer arguments), many authors modified it to suit various purposes, so that today "the Ackermann function" may refer to any of numerous variants of the original function. One common version, the two-argument Ackermann–Péter function, is defined as follows for nonnegative integers "m" and "n":
+Its value grows rapidly, even for small inputs. For example, is an integer of 19,729 decimal digits (equivalent to 265536−3, or 22222−3).
+History.
+In the late 1920s, the mathematicians Gabriel Sudan and Wilhelm Ackermann, students of David Hilbert, were studying the foundations of computation. Both Sudan and Ackermann are credited with discovering total computable functions (termed simply "recursive" in some references) that are not primitive recursive. Sudan published the lesser-known Sudan function, then shortly afterwards and independently, in 1928, Ackermann published his function formula_2 (the Greek letter "phi"). Ackermann's three-argument function, formula_3, is defined such that for formula_4, it reproduces the basic operations of addition, multiplication, and exponentiation as
+and for "p" &gt; 2 it extends these basic operations in a way that can be compared to the hyperoperations:
+In "On the Infinite", David Hilbert hypothesized that the Ackermann function was not primitive recursive, but it was Ackermann, Hilbert's personal secretary and former student, who actually proved the hypothesis in his paper "On Hilbert's Construction of the Real Numbers".
+Rózsa Péter and Raphael Robinson later developed a two-variable version of the Ackermann function that became preferred by many authors.
+The generalized hyperoperation sequence, e.g. formula_7, is a version of Ackermann function as well.
+In 1963 R.C. Buck based an intuitive two-variable variant (formula_8) on the hyperoperation sequence:
+Compared to most other versions Buck's function has no unessential offsets:
+Definition and properties.
+Ackermann's original three-argument function formula_3 is defined recursively as follows for nonnegative integers formula_12 and formula_13:
+Of the various two-argument versions, the one developed by Péter and Robinson (called "the" Ackermann function by some authors) is defined for nonnegative integers formula_15 and formula_16 as follows:
+It may not be immediately obvious that the evaluation of formula_18 always terminates. However, the recursion is bounded because in each recursive application either formula_15 decreases, or formula_15 remains the same and formula_16 decreases. Each time that formula_16 reaches zero, formula_15 decreases, so formula_15 eventually reaches zero as well. (Expressed more technically, in each case the pair formula_25 decreases in the lexicographic order on pairs, which is a well-ordering, just like the ordering of single non-negative integers; this means one cannot go down in the ordering infinitely many times in succession.) However, when formula_15 decreases there is no upper bound on how much formula_16 can increase—and it will often increase greatly.
+The Péter-Ackermann function can also be expressed in relation to various other versions of the Ackermann function:
+For small values of "m" like 1, 2, or 3, the Ackermann function grows relatively slowly with respect to "n" (at most exponentially). For formula_37, however, it grows much more quickly; even formula_38 is about 2, and the decimal expansion of is very large by any typical measure.
+An interesting aspect of the (Péter-)Ackermann function is that the only arithmetic operation it ever uses is addition of 1. Its fast growing power is based solely on nested recursion. This also implies that its running time is at least proportional to its output, and so is also extremely huge. In actuality, for most cases the running time is far larger than the output; see below.
+A single-argument version formula_39 that increases both formula_15 and formula_16 at the same time dwarfs every primitive recursive function, including very fast-growing functions such as the exponential function, the factorial function, multi- and superfactorial functions, and even functions defined using Knuth's up-arrow notation (except when the indexed up-arrow is used). It can be seen that formula_42 is roughly comparable to formula_43 in the fast-growing hierarchy. This extreme growth can be exploited to show that formula_44 which is obviously computable on a machine with infinite memory such as a Turing machine and so is a computable function, grows faster than any primitive recursive function and is therefore not primitive recursive.
+In a category with exponentials, using the isomorphism formula_45 (in computer science, this is called currying), the Ackermann function may be defined via primitive recursion over higher-order functionals as follows:
+where is the usual successor function and Iter denotes the functional power operator, defined by primitive recursion as well:
+The function formula_48 defined in this way agrees with the Ackermann function formula_49 defined above: formula_50.
+Example expansions.
+To see how the Ackermann function grows so quickly, it helps to expand out some simple expressions using the rules in the original definition. For example, one can fully evaluate formula_51 in the following way:
+To demonstrate how formula_53's computation results in many steps and in a large number:
+Table of values.
+Computing the Ackermann function can be restated in terms of an infinite table. First, place the natural numbers along the top row. To determine a number in the table, take the number immediately to the left. Then use that number to look up the required number in the column given by that number and one row up. If there is no number to its left, simply look at the column headed "1" in the previous row. Here is a small upper-left portion of the table:
+! 
+! 0
+! 1
+! 2
+! 3
+! 4
+! "n"
+! 0
+! 1
+! 2
+! 3
+! 4
+This inverse appears in the time complexity of some algorithms, such as the disjoint-set data structure and Chazelle's algorithm for minimum spanning trees. Sometimes Ackermann's original function or other variations are used in these settings, but they all grow at similarly high rates. In particular, some modified functions simplify the expression by eliminating the −3 and similar terms.
+A two-parameter variation of the inverse Ackermann function can be defined as follows, where formula_72 is the floor function:
+This function arises in more precise analyses of the algorithms mentioned above, and gives a more refined time bound. In the disjoint-set data structure, "m" represents the number of operations while "n" represents the number of elements; in the minimum spanning tree algorithm, "m" represents the number of edges while "n" represents the number of vertices. Several slightly different definitions of exist; for example, is sometimes replaced by "n", and the floor function is sometimes replaced by a ceiling.
+Other studies might define an inverse function of one where m is set to a constant, such that the inverse applies to a particular row. 
+The inverse of the Ackermann function is primitive recursive.
+Use as benchmark.
+The Ackermann function, due to its definition in terms of extremely deep recursion, can be used as a benchmark of a compiler's ability to optimize recursion. The first published use of Ackermann's function in this way was in 1970 by Dragoș Vaida and, almost simultaneously, in 1971, by Yngve Sundblad.
+Sundblad's seminal paper was taken up by Brian Wichmann (co-author of the Whetstone benchmark) in a trilogy of papers written between 1975 and 1982.
+

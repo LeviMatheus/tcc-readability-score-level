@@ -1,0 +1,22 @@
+Mathematics is the study of numbers, patterns, and shapes. People who are experts at mathematics are called mathematicians.
+Mathematics can find useful answers to real problems. A common saying in the U.S. is "Do the math," meaning check the answer and see that it is right. For example, if we want to know if a new medicine will help to cure a disease, mathematics is used to answer that question.
+The way mathematicians solve problems is deduction. Deduction is the use of thinking to discover new ideas from old. For example, from the simple idea of a triangle mathematicians found the Pythagorean theorem, that in a right triangle the sum of the squares of the two shorter sides is equal to the square of the longest side. Thus, if we know that the shorter sides of a right triangle are 3 inches and 4 inches, we can deduce that the longest side is 5 inches, because the square of 3(3^2) is 9, the square of 4(4^2) is 16, and the square of 5 (5^2) is 25; and 9 + 16 = 25.
+Mathematics is necessary in business, science, engineering, construction and many other jobs.
+About.
+Mathematics uses logic to study these things and to create general rules, which are an important part of mathematics. These rules leave out information that isn't important so that a single rule can cover many situations. By finding general rules, mathematics solves many problems at the same time.
+A "proof" gives a reason why a rule in mathematics is correct. The reason can include using certain other rules that everyone agrees are correct, which are called "axioms". A rule that has a proof is sometimes called a "theorem". Experts in mathematics perform research to create new theorems.
+Sometimes, mathematics finds and studies rules or ideas that have not yet been found in the real world. Often in mathematics, ideas and rules are chosen because they are considered simple or beautiful. Sometimes these ideas and rules are found in the real world after they are studied in mathematics. This has happened many times in the past. This means that studying the rules and ideas of mathematics can help us know the world better.
+Famous theorems.
+These theorems have interested mathematicians and people who are not mathematicians.
+These are theorems and conjectures that have greatly changed mathematics.
+Foundations and methods.
+Progress in understanding the nature of mathematics also influences the way mathematicians study their subject.
+History and the world of mathematicians.
+"See also list of mathematics history topics"
+Mathematics in history, and the history of mathematics.
+Name.
+The word "mathematics" comes from the Greek word "μάθημα" (máthema). The Greek word "μάθημα" means "science, knowledge, or learning".
+Often, the word "mathematics" is made shorter into "maths" (in British English) or "math" (in American English). The short words "math" or "maths" are often used for arithmetic, geometry or simple algebra by young students and their schools.
+Awards in mathematics.
+There is no Nobel prize in mathematics. The most important awards a mathematician can receive are the Abel prize and the Fields Medal.
+The Clay mathematics institute has said they will give one million dollars to any mathematician who solves one of the Millennium Prize Problems

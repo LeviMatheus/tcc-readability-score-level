@@ -1,0 +1,31 @@
+
+α-Ketoglutaric acid (2-oxoglutaric acid) is one of two ketone derivatives of glutaric acid. The term "ketoglutaric acid," when not further qualified, almost always refers to the alpha variant. β-Ketoglutaric acid varies only by the position of the ketone functional group, and is much less common.
+Its anion, α-ketoglutarate also called 2-oxoglutarate, is an important biological compound. It is the keto acid produced by deamination of glutamate, and is an intermediate in the Krebs cycle.
+Functions.
+Alanine transaminase.
+The enzyme alanine transaminase converts α-ketoglutarate and -alanine to -glutamate and pyruvate, respectively, as a reversible process.
+Krebs cycle.
+α-Ketoglutarate is a key intermediate in the Krebs cycle, coming after isocitrate and before succinyl CoA. Anaplerotic reactions can replenish the cycle at this juncture by synthesizing α-ketoglutarate from transamination of glutamate, or through action of glutamate dehydrogenase on glutamate.
+Formation of amino acids.
+Glutamine is synthesized from glutamate by glutamine synthetase, which utilizes adenosine triphosphate to form glutamyl phosphate; this intermediate is attacked by ammonia as a nucleophile giving glutamine and inorganic phosphate. Proline, arginine, and lysine (in some organisms) are other amino acids synthesized as well. These three amino acids derive from glutamate with the addition of further steps or enzymes to facilitate reactions.
+Nitrogen transporter.
+Another function is to combine with nitrogen released in cells, therefore preventing nitrogen overload.
+α-Ketoglutarate is one of the most important nitrogen transporters in metabolic pathways. The amino groups of amino acids are attached to it (by transamination) and carried to the liver where the urea cycle takes place.
+α-Ketoglutarate is transaminated, along with glutamine, to form the excitatory neurotransmitter glutamate. Glutamate can then be decarboxylated (requiring vitamin B6) into the inhibitory neurotransmitter gamma-aminobutyric acid.
+It is reported that high ammonia and/or high nitrogen levels may occur with high protein intake, excessive aluminum exposure, Reye's syndrome, cirrhosis, and urea cycle disorder.
+It plays a role in detoxification of ammonia in brain.
+Relationship to molecular oxygen.
+Acting as a co-substrate for α-ketoglutarate-dependent hydroxylase, it also plays important function in oxidation reactions involving molecular oxygen.
+Molecular oxygen (O2) directly oxidizes many compounds to produce useful products in an organism, such as antibiotics, in reactions catalyzed by oxygenases. In many oxygenases, α-ketoglutarate helps the reaction by being oxidized with the main substrate. EGLN1, one of the α-ketoglutarate-dependent oxygenases, is an O2 sensor, informing the organism the oxygen level in its environment.
+In combination with molecular oxygen, alpha-ketoglutarate is one of the requirements for the hydroxylation of proline to hydroxyproline in the production of type 1 collagen.
+Antioxidant.
+α-Ketoglutarate, which is released by several cell types, decreases the levels of hydrogen peroxide, and the α-ketoglutarate was depleted and converted to succinate in cell culture media.
+Longevity.
+Studies released linked α-ketoglutarate with increased lifespan in nematode worms
+&lt;ref name="doi:10.1038/nature13264"&gt;&lt;/ref&gt; and increased healthspan/lifespan in mice.
+Immune regulation.
+A study showed that in glutamine deprived conditions, α-ketoglutarate promotes naïve CD4+ T cell differentiation into TH1 whilst inhibiting their differentiation into anti-inflammatory Treg cells.&lt;ref name="DOI:10.1126/scisignal.aab2610"&gt;&lt;/ref&gt;
+Production.
+α-Ketoglutarate can be produced by:
+Alpha-ketoglutarate can be used to produce:
+

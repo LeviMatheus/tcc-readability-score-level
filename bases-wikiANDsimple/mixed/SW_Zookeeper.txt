@@ -1,0 +1,2 @@
+A zookeeper is a worker in a zoo.
+More specifically, it is someone who maintains or cares for animals in the zoo. They are responsible for the feeding and daily care of the animals. They clean out the exhibits and report health problems. They answer questions about the animals and might demonstrate the feeding of the animals.

@@ -1,0 +1,7 @@
+Dynamic random access memory is the most used form of RAM.
+DRAM is called dynamic (or active), because it must be refreshed all the time or it will lose the data which it is supposed to be storing. That’s why, it is called “volatile”. If something is volatile, it runs away quickly.
+Refreshing DRAM means "reading" the data "from" the DRAM and directly "writing" them "back" to the DRAM.
+DRAM is made up of large data fields of very small capacitors. Each of these capacitors slowly lets energy out, and if the DRAM is not refreshed, in the end one or more of the capacitors will let so much energy out, that for example a 1 will become a 0, so data will be lost or corrupted.
+Comparison DRAM and SRAM.
+DRAM is often compraed to SRAM (Static ram). SRAM is able to store data as long as power/energy is used. There is no need to refresh it. SRAM can also be faster than DRAM. But SRAM is much more expensive than DRAM. Also, SRAM heats up much faster than DRAM.
+DRAM and SRAM lose the data when the power to them is turned off.

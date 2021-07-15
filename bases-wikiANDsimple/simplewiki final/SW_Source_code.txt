@@ -1,0 +1,3 @@
+In computer programming, source code is a text file version of a program that contains instructions to be understood by humans and a compiler program or a shell. There are many different computer programming languages, some produce machine code and are called compilers, others are called interpreters and directly run code without creating code.
+Example of C source code.
+When compiled by a C compiler and executed, this will print "Hello world!" on the computer screen and then exit.

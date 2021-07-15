@@ -1,0 +1,8 @@
+A writing system is a system of symbols that are used to represent language.
+There are different kinds of writing systems, with symbols that represent different things: logographic, syllabic and alphabetic. Beside natural scripts, there are also constructed scripts.
+Logographic system.
+A logographic system, is a writing system with symbols that mean "whole words", symbols that represent "things" or "ideas". These symbols are called "logogram" or "logograph". An example for a logographic writing system is the system used for the Chinese language.
+Syllabary.
+A syllabary is a writing system with symbols that mean a "syllable". An example for syllabaries are the "hiragana" and "katakana" used for the Japanese language.
+Alphabet.
+An alphabet is a writing system with symbols that mean a "sound". An example for an alphabetic writing system is the Latin alphabet, which is used in large parts of the world.

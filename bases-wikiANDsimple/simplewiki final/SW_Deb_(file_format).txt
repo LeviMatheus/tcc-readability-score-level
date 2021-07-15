@@ -1,0 +1,5 @@
+deb is the extension of the Debian software package format and the most often used name for such binary packages. Like the "Deb" part of the term "Debian", it comes from the name of Debra, wife of Debian's founder Ian Murdock.
+Debian packages are also used in operating systems based on Debian.
+Debian packages are standard Unix ar archives that include two gzipped or bzipped tar archives: one that holds the control information and another that contains the data.
+The canonical program for handling these packages is dpkg, most commonly via apt/aptitude.
+deb packages can be converted into other packages and vice versa using Alien.

@@ -1,0 +1,197 @@
+
+Nim is a mathematical game of strategy in which two players take turns removing (or "nimming") objects from distinct heaps or piles. On each turn, a player must remove at least one object, and may remove any number of objects provided they all come from the same heap or pile. Depending on the version being played, the goal of the game is either to avoid taking the last object or to take the last object.
+Variants of Nim have been played since ancient times. The game is said to have originated in China—it closely resembles the Chinese game of 捡石子 "jiǎn-shízi", or "picking stones"—but the origin is uncertain; the earliest European references to Nim are from the beginning of the 16th century. Its current name was coined by Charles L. Bouton of Harvard University, who also developed the complete theory of the game in 1901, but the origins of the name were never fully explained.
+Nim is typically played as a "misère game", in which the player to take the last object loses. Nim can also be played as a "normal play" game whereby the player taking the last object wins. This is called normal play because the last move is a winning move in most games, even though it is not the normal way that Nim is played. In either normal play or a misère game, when the number of heaps with at least two objects is exactly equal to one, the player who takes next can easily win. If this removes either all or all but one objects from the heap that has two or more, then no heaps will have more than one object, so the players are forced to alternate removing exactly one object until the game ends. If the player leaves an even number of non-zero heaps (as the player would do in normal play), the player takes last; if the player leaves an odd number of heaps (as the player would do in misère play), then the other player takes last.
+Normal play Nim (or more precisely the system of nimbers) is fundamental to the Sprague–Grundy theorem, which essentially says that in normal play every impartial game is equivalent to a Nim heap that yields the same outcome when played in parallel with other normal play impartial games (see disjunctive sum).
+While all normal play impartial games can be assigned a Nim value, that is not the case under the misère convention. Only tame games can be played using the same strategy as misère Nim.
+Nim is a special case of a poset game where the poset consists of disjoint chains (the heaps).
+The evolution graph of the game of Nim with three heaps is the same as three branches of the evolution graph of the Ulam-Warburton automaton.
+At the 1940 New York World's Fair Westinghouse displayed a machine, the Nimatron, that played Nim. From May 11, 1940, to October 27, 1940, only a few people were able to beat the machine in that six-week period; if they did, they were presented with a coin that said Nim Champ. It was also one of the first-ever electronic computerized games. Ferranti built a Nim playing computer which was displayed at the Festival of Britain in 1951. In 1952 Herbert Koppel, Eugene Grant and Howard Bailer, engineers from the W. L. Maxon Corporation, developed a machine weighing which played Nim against a human opponent and regularly won. A Nim Playing Machine has been described made from TinkerToy.
+The game of Nim was the subject of Martin Gardner's February 1958 Mathematical Games column in Scientific American. A version of Nim is played—and has symbolic importance—in the French New Wave film "Last Year at Marienbad" (1961).
+Game play and illustration.
+The normal game is between two players and is played with three heaps of any number of objects. The two players alternate taking any number of objects from any one of the heaps. The goal is to be the last to take an object. In misère play, the goal is instead to ensure that the opponent is forced to take the last remaining object.
+The following example of a normal game is played between fictional players Bob and Alice, who start with heaps of three, four and five objects.
+ Sizes of heaps Moves
+ A B C
+ 3 4 5 Bob takes 2 from A
+ 1 4 5 Alice takes 3 from C
+ 1 4 2 Bob takes 1 from B
+ 1 3 2 Alice takes 1 from B
+ 1 2 2 Bob takes entire A heap, leaving two 2s
+ 0 2 2 Alice takes 1 from B
+ 0 1 2 Bob takes 1 from C leaving two 1s. ("In misère play he would take 2 from C leaving (0, 1, 0).")
+ 0 1 1 Alice takes 1 from B
+ 0 0 1 Bob takes entire C heap and wins
+Winning positions.
+The practical strategy to win at the game of "Nim" is for a player to get the other into one of the following positions, and every successive turn afterwards they should be able to make one of the smaller positions. Only the last move changes between misere and normal play.
+For the generalisations, "n" and "m" can be any value &gt; 0, and they may be the same.
+Mathematical theory.
+Nim has been mathematically solved for any number of initial heaps and objects, and there is an easily calculated way to determine which player will win and which winning moves are open to that player.
+The key to the theory of the game is the binary digital sum of the heap sizes, i.e., the sum (in binary), neglecting all carries from one digit to another. This operation is also known as "bitwise xor" or "vector addition over GF(2)" (bitwise addition modulo 2). Within combinatorial game theory it is usually called the nim-sum, as it will be called here. The nim-sum of "x" and "y" is written to distinguish it from the ordinary sum, . An example of the calculation with heaps of size 3, 4, and 5 is as follows:
+ Binary Decimal
+ 0112 310 Heap A
+ 1002 410 Heap B
+ 1012 510 Heap C
+ 0102 210 The nim-sum of heaps A, B, and C, 3 ⊕ 4 ⊕ 5 = 2
+An equivalent procedure, which is often easier to perform mentally, is to express the heap sizes as sums of distinct powers of 2, cancel pairs of equal powers, and then add what is left:
+ 3 = 0 + 2 + 1 = 2 1 Heap A
+ 4 = 4 + 0 + 0 = 4 Heap B
+ 5 = 4 + 0 + 1 = 4 1 Heap C
+ 2 = 2 What is left after canceling 1s and 4s
+In normal play, the winning strategy is to finish every move with a nim-sum of 0. This is always possible if the nim-sum is not zero before the move. If the nim-sum is zero, then the next player will lose if the other player does not make a mistake. To find out which move to make, let X be the nim-sum of all the heap sizes. Find a heap where the nim-sum of X and heap-size is less than the heap-size; the winning strategy is to play in such a heap, reducing that heap to the nim-sum of its original size with X. In the example above, taking the nim-sum of the sizes is . The nim-sums of the heap sizes A=3, B=4, and C=5 with X=2 are
+The only heap that is reduced is heap A, so the winning move is to reduce the size of heap A to 1 (by removing two objects).
+As a particular simple case, if there are only two heaps left, the strategy is to reduce the number of objects in the bigger heap to make the heaps equal. After that, no matter what move your opponent makes, you can make the same move on the other heap, guaranteeing that you take the last object.
+When played as a misère game, Nim strategy is different only when the normal play move would leave only heaps of size one. In that case, the correct move is to leave an odd number of heaps of size one (in normal play, the correct move would be to leave an even number of such heaps).
+These strategies for normal play and a misère game are the same until the number of heaps with at least two objects is exactly equal to one. At that point, the next player removes either all objects (or all but one) from the heap that has two or more, so no heaps will have more than one object (in other words, so all remaining heaps have exactly one object each), so the players are forced to alternate removing exactly one object until the game ends. In normal play, the player leaves an even number of non-zero heaps, so the same player takes last; in misère play, the player leaves an odd number of non-zero heaps, so the other player takes last.
+In a misère game with heaps of sizes three, four and five, the strategy would be applied like this:
+ A B C nim-sum 
+ 3 4 5 0102=210 I take 2 from A, leaving a sum of 000, so I will win.
+ 1 4 5 0002=010 You take 2 from C
+ 1 4 3 1102=610 I take 2 from B
+ 1 2 3 0002=010 You take 1 from C
+ 1 2 2 0012=110 I take 1 from A
+ 0 2 2 0002=010 You take 1 from C
+ 0 2 1 0112=310 The normal play strategy would be to take 1 from B, leaving an even number (2)
+ heaps of size 1. For misère play, I take the entire B heap, to leave an odd
+ number (1) of heaps of size 1.
+ 0 0 1 0012=110 You take 1 from C, and lose.
+Example implementation.
+The previous strategy for a misère game can be easily implemented (for example in Python, below).
+import functools
+MISERE = 'misere'
+NORMAL = 'normal'
+def nim(heaps, game_type):
+ """Computes next move for Nim, for both game types normal and misere.
+ if there is a winning move:
+ return tuple(heap_index, amount_to_remove)
+ else:
+ return "You will lose :("
+ - mid-game scenarios are the same for both game types
+ »&gt; print(nim([1, 2, 3], MISERE))
+ misere [1, 2, 3] You will lose :(
+ »&gt; print(nim([1, 2, 3], NORMAL))
+ normal [1, 2, 3] You will lose :(
+ »&gt; print(nim([1, 2, 4], MISERE))
+ misere [1, 2, 4] (2, 1)
+ »&gt; print(nim([1, 2, 4], NORMAL))
+ normal [1, 2, 4] (2, 1)
+ - endgame scenarios change depending upon game type
+ »&gt; print(nim([1], MISERE))
+ misere [1] You will lose :(
+ »&gt; print(nim([1], NORMAL))
+ normal [1] (0, 1)
+ »&gt; print(nim([1, 1], MISERE))
+ misere [1, 1] (0, 1)
+ »&gt; print(nim([1, 1], NORMAL))
+ normal [1, 1] You will lose :(
+ »&gt; print(nim([1, 5], MISERE))
+ misere [1, 5] (1, 5)
+ »&gt; print(nim([1, 5], NORMAL))
+ normal [1, 5] (1, 4)
+ print(game_type, heaps, end=' ')
+ is_misere = game_type == MISERE
+ is_near_endgame = False
+ count_non_0_1 = sum(1 for x in heaps if x &gt; 1)
+ is_near_endgame = (count_non_0_1 &lt;= 1)
+ # nim sum will give the correct end-game move for normal play but
+ # misere requires the last move be forced onto the opponent
+ if is_misere and is_near_endgame:
+ moves_left = sum(1 for x in heaps if x &gt; 0)
+ is_odd = (moves_left % 2 == 1)
+ sizeof_max = max(heaps)
+ index_of_max = heaps.index(sizeof_max)
+ if sizeof_max == 1 and is_odd:
+ return "You will lose :("
+ # reduce the game to an odd number of 1's
+ return index_of_max, sizeof_max - int(is_odd)
+ nim_sum = functools.reduce(lambda x, y: x ^ y, heaps)
+ if nim_sum == 0:
+ return "You will lose :("
+ # Calc which move to make
+ for index, heap in enumerate(heaps):
+ target_size = heap ^ nim_sum
+ if target_size &lt; heap:
+ amount_to_remove = heap - target_size
+ return index, amount_to_remove
+if __name__ == "__main__":
+ import doctest
+ doctest.testmod()
+Proof of the winning formula.
+The soundness of the optimal strategy described above was demonstrated by C. Bouton.
+Theorem. In a normal Nim game, the player making the first move has a winning strategy if and only if the nim-sum of the sizes of the heaps is not zero. Otherwise, the second player has a winning strategy.
+"Proof:" Notice that the nim-sum (⊕) obeys the usual associative and commutative laws of addition (+) and also satisfies an additional property, "x" ⊕ "x" = 0.
+Let "x"1, ..., "xn" be the sizes of the heaps before a move, and "y"1, ..., "yn" the corresponding sizes after a move. Let "s" = "x"1 ⊕ ... ⊕ "xn" and "t" = "y"1 ⊕ ... ⊕ "yn". If the move was in heap "k", we have "xi" = "yi" for all "i" ≠ "k", and "xk" &gt; "yk". By the properties of ⊕ mentioned above, we have
+ "t" = 0 ⊕ "t"
+ = "s" ⊕ "s" ⊕ "t"
+ = "s" ⊕ ("x"1 ⊕ ... ⊕ "xn") ⊕ ("y"1 ⊕ ... ⊕ "yn")
+ = "s" ⊕ ("x"1 ⊕ "y"1) ⊕ ... ⊕ ("xn" ⊕ "yn")
+ = "s" ⊕ 0 ⊕ ... ⊕ 0 ⊕ ("xk" ⊕ "yk") ⊕ 0 ⊕ ... ⊕ 0
+ = "s" ⊕ "xk" ⊕ "yk"
+ (*) "t" = "s" ⊕ "xk" ⊕ "yk".
+The theorem follows by induction on the length of the game from these two lemmas.
+Lemma 1. If "s" = 0, then "t" ≠ 0 no matter what move is made.
+"Proof:" If there is no possible move, then the lemma is vacuously true (and the first player loses the normal play game by definition). Otherwise, any move in heap "k" will produce "t" = "xk" ⊕ "yk" from (*). This number is nonzero, since "xk" ≠ "yk".
+Lemma 2. If "s" ≠ 0, it is possible to make a move so that "t" = 0.
+"Proof:" Let "d" be the position of the leftmost (most significant) nonzero bit in the binary representation of "s", and choose "k" such that the "d"th bit of "xk" is also nonzero. (Such a "k" must exist, since otherwise the "d"th bit of "s" would be 0.)
+Then letting "yk" = "s" ⊕ "xk", we claim that "yk" &lt; "xk": all bits to the left of "d" are the same in "xk" and "yk", bit "d" decreases from 1 to 0 (decreasing the value by 2"d"), and any change in the remaining bits will amount to at most 2"d"−1. The first player can thus make a move by taking "xk" − "yk" objects from heap "k", then
+ "t" = "s" ⊕ "xk" ⊕ "yk" (by (*))
+ = "s" ⊕ "xk" ⊕ ("s" ⊕ "xk")
+ = 0.
+The modification for misère play is demonstrated by noting that the modification first arises in a position that has only one heap of size 2 or more. Notice that in such a position "s" ≠ 0, and therefore this situation has to arise when it is the turn of the player following the winning strategy. The normal play strategy is for the player to reduce this to size 0 or 1, leaving an even number of heaps with size 1, and the misère strategy is to do the opposite. From that point on, all moves are forced.
+Variations.
+The subtraction game.
+In another game which is commonly known as Nim (but is better called the subtraction game), an upper bound is imposed on the number of objects that can be removed in a turn. Instead of removing arbitrarily many objects, a player can only remove 1 or 2 or ... or "k" at a time. This game is commonly played in practice with only one heap (for instance with "k" = 3 in the game "Thai 21" on , where it appeared as an Immunity Challenge).
+Bouton's analysis carries over easily to the general multiple-heap version of this game. The only difference is that as a first step, before computing the Nim-sums we must reduce the sizes of the heaps modulo "k" + 1. If this makes all the heaps of size zero (in misère play), the winning move is to take "k" objects from one of the heaps. In particular, in ideal play from a single heap of "n" objects, the second player can win if and only if
+This follows from calculating the nim-sequence of "S"(1,2...,"k"),
+from which the strategy above follows by the Sprague–Grundy theorem.
+The 21 game.
+The game "21" is played as a misère game with any number of players who take turns saying a number. The first player says "1" and each player in turn increases the number by 1, 2, or 3, but may not exceed 21; the player forced to say "21" loses. This can be modeled as a subtraction game with a heap of 21–"n" objects. The winning strategy for the two-player version of this game is to always say a multiple of 4; it is then guaranteed that the other player will ultimately have to say 21; so in the standard version, wherein the first player opens with "1", they start with a losing move.
+The 21 game can also be played with different numbers, e.g., "Add at most 5; lose on 34".
+A sample game of 21 in which the second player follows the winning strategy:
+ Player Number
+ 1 1
+ 2 4
+ 1 5, 6 or 7
+ 2 8
+ 1 9, 10 or 11
+ 2 12
+ 1 13, 14 or 15
+ 2 16
+ 1 17, 18 or 19
+ 2 20
+ 1 21
+The 100 game.
+A similar version is the "100 game": Two players start from 0 and alternately add a number from 1 to 10 to the sum. The player who reaches 100 wins. The winning strategy is to reach a number in which the digits are subsequent (e.g., 01, 12, 23, 34...) and control the game by jumping through all the numbers of this sequence. Once a player reaches 89, the opponent can only choose numbers from 90 to 99, and the next answer can in any case be 100.
+A multiple-heap rule.
+In another variation of Nim, besides removing any number of objects from a single heap, one is permitted to remove the same number of objects from each heap.
+Circular Nim.
+Yet another variation of Nim is 'Circular Nim', wherein any number of objects are placed in a circle and two players alternately remove one, two or three adjacent objects. For example, starting with a circle of ten objects,
+three objects are taken in the first move
+ _ . . . . . . . _ _
+then another three
+ _ . _ _ _ . . . _ _
+then one
+ _ . _ _ _ . . _ _ _
+but then three objects cannot be taken out in one move.
+Grundy's game.
+In Grundy's game, another variation of Nim, a number of objects are placed in an initial heap and two players alternately divide a heap into two nonempty heaps of different sizes. Thus, six objects may be divided into piles of 5+1 or 4+2, but not 3+3. Grundy's game can be played as either misère or normal play.
+Greedy Nim.
+"Greedy Nim" is a variation wherein the players are restricted to choosing stones from only the largest pile. It is a finite impartial game. "Greedy Nim Misère" has the same rules as Greedy Nim, but here the last player able to make a move loses.
+Let the largest number of stones in a pile be "m" and the second largest number of stones in a pile be "n". Let "p""m" be the number of piles having "m" stones and "p""n" be the number of piles having "n" stones. Then there is a theorem that game positions with "p""m" even are "P" positions.
+ This theorem can be shown by considering the positions where "p""m" is odd. If "p""m" is larger than 1, all stones may be removed from this pile to reduce "p""m" by 1 and the new "p""m" will be even. If "p""m" = 1 (i.e. the largest heap is unique), there are two cases:
+Thus, there exists a move to a state where "p""m" is even. Conversely, if "p""m" is even, if any move is possible ("p""m" ≠ 0), then it must take the game to a state where "p""m" is odd. The final position of the game is even ("p""m" = 0). Hence, each position of the game with "p""m" even must be a "P" position.
+Index-"k" Nim.
+A generalization of multi-heap Nim was called "Nimformula_2" or "index-"k"" Nim by E. H. Moore, who analyzed it in 1910. In index-"k" Nim, instead of removing objects from only one heap, players can remove objects from at least one but up to "k" different heaps. The number of elements that may be removed from each heap may be either arbitrary or limited to at most "r" elements, like in the "subtraction game" above.
+The winning strategy is as follows: Like in ordinary multi-heap Nim, one considers the binary representation of the heap sizes (or heap sizes modulo "r" + 1). In ordinary Nim one forms the XOR-sum (or sum modulo 2) of each binary digit, and the winning strategy is to make each XOR sum zero. In the generalization to index-"k" Nim, one forms the sum of each binary digit modulo "k" + 1.
+Again the winning strategy is to move such that this sum is zero for every digit. Indeed, the value thus computed is zero for the final position, and given a configuration of heaps for which this value is zero, any change of at most "k" heaps will make the value non-zero. Conversely, given a configuration with non-zero value, one can always take from at most "k" heaps, carefully chosen, so that the value will become zero.
+Building Nim.
+Building Nim is a variant of Nim wherein the two players first construct the game of Nim. Given "n" stones and "s" empty piles, the players, alternating turns, place exactly one stone into a pile of their choice. Once all the stones are placed, a game of Nim begins, starting with the next player that would move. This game is denoted "BN(n,s)".
+Higher dimensional Nim.
+"n"-d Nim is played on a formula_3 board, whereon any number of continuous pieces can be removed from any hyper-row. The starting position is usually the full board, but other options are allowed.
+Graph Nim.
+The starting board is a disconnected graph, and players take turns to remove adjacent vertices.
+Candy Nim.
+Candy Nim is a version of normal play Nim in which players try to achieve two goals at the same time: taking the last object (in this case, candy) and taking the maximum number of candies by the end of the game.
+Wordnim.
+Wordnim is the verbal version of Nim where players form words from initial sets or series of letters until none are left or no legitimate word can be formed.
+

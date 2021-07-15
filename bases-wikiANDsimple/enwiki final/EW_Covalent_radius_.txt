@@ -1,0 +1,14 @@
+
+The covalent radius, "r"cov, is a measure of the size of an atom that forms part of one covalent bond. It is usually measured either in picometres (pm) or angstroms (Å), with 1 Å = 100 pm.
+In principle, the sum of the two covalent radii should equal the covalent bond length between two atoms, "R"(AB) = "r"(A) + "r"(B). Moreover, different radii can be introduced for single, double and triple bonds (r1, r2 and r3 below), in a purely operational sense. These relationships are certainly not exact because the size of an atom is not constant but depends on its chemical environment. For heteroatomic A–B bonds, ionic terms may enter. Often the polar covalent bonds are shorter than would be expected based on the sum of covalent radii. Tabulated values of covalent radii are either average or idealized values, which nevertheless show a certain transferability between different situations, which makes them useful.
+The bond lengths "R"(AB) are measured by X-ray diffraction (more rarely, neutron diffraction on molecular crystals). Rotational spectroscopy can also give extremely accurate values of bond lengths. For homonuclear A–A bonds, Linus Pauling took the covalent radius to be half the single-bond length in the element, e.g. "R"(H–H, in H2) = 74.14 pm so "r"cov(H) = 37.07 pm: in practice, it is usual to obtain an average value from a variety of covalent compounds, although the difference is usually small. Sanderson has published a recent set of non-polar covalent radii for the main-group elements, but the availability of large collections of bond lengths, which are more transferable, from the Cambridge Crystallographic Database has rendered covalent radii obsolete in many situations.
+Average radii.
+The values in the table below are based on a statistical analysis of more than 228,000 experimental bond lengths from the Cambridge Structural Database. For carbon, values are given for the different hybridisations of the orbitals.
+Radii for multiple bonds.
+A different approach is to make a self-consistent fit for all elements in a smaller set of molecules. This was done separately for single,
+double,
+and triple bonds
+up to superheavy elements. Both experimental and computational data were used. 
+The single-bond results are often similar to those of Cordero et al. When they are different, the coordination numbers used can be different. This is notably the case for most (d and f) transition metals. Normally one expects that "r"1 &gt; "r"2 &gt; "r"3. Deviations may occur for weak multiple bonds, if the differences of the ligand are larger than the differences of "R" in the data used.
+Note that elements up to atomic number 118 (oganesson) have now been experimentally produced and that there are chemical studies on an increasing number of them. The same, self-consistent approach was used to fit tetrahedral covalent radii for 30 elements in 48 crystals with subpicometer accuracy.
+

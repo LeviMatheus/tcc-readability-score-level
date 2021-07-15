@@ -1,0 +1,4 @@
+A pendulum is a mass (any object, usually metal) on an arm, (a pole or string). The arm is attached to a pivot, a point to swing from. The mass will naturally hang down because of gravity, but if it is pushed to one side it will oscillate, swing from side to side. The frequency of the swinging pendulum stays the same.
+formula_1
+Where π is read 'pi'.
+The regular motion of the pendulum can be used for time keeping, and pendulums are used to regulate pendulum clocks.

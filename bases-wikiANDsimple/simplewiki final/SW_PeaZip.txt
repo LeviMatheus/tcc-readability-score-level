@@ -1,0 +1,7 @@
+PeaZip is an open source, cross-platform, portable file archiver for Microsoft Windows and Linux.
+PeaZip created and can open,the "Pea" archive format,made by the same orporation of the archiver.Peazip is written in Free Pascal, using Lazarus.Peazip is under the GNU Lesser General Public License, PeaZip is free software.
+Peazip can change look,like opacity, colors, and icons.
+Full support formats.
+7Z, 7Z-sfx, BZip2/TBZ, GZip/TGZ, LPAQ1/5, PAQ8F/JD/L/O, PEA, QUAD, split (.001), TAR, ZIP
+Just extract or reading formats.
+ACE, ARJ, CAB, CHM, COMPOUND files (MSI, DOC, PPT, XLS...), CPIO, DEB, ISO CD/DVD images, Java archives (JAR, EAR, WAR), LZH, NSIS installers, OpenOffice file types, PET/PUP (Puppy Linux installers), PAK/PK3/PK4, RAR, RPM, WIM, XPI, Z

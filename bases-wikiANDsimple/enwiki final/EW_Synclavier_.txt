@@ -1,0 +1,27 @@
+
+The Synclavier is an early digital synthesizer, polyphonic digital sampling system, and music workstation manufactured by New England Digital Corporation of Norwich, Vermont. It was produced in various forms from the late 1970s into the early 1990s. The instrument has been used by prominent musicians.
+History.
+The original design and development of the Synclavier prototype occurred at Dartmouth College with the collaboration of Jon Appleton, Professor of Digital Electronics, Sydney A. Alonso, and Cameron Jones, a software programmer and student at Dartmouth's Thayer School of Engineering.
+Synclavier I.
+First released in 1977–78, it proved to be highly influential among both electronic music composers and music producers, including Mike Thorne, an early adopter from the commercial world, due to its versatility, its cutting-edge technology, and distinctive sounds.
+The early Synclavier I used FM synthesis, re-licensed from Yamaha, and was sold mostly to universities. The initial models had only a computer and synthesis modules, later models added a musical keyboard and control panel.
+Synclavier II.
+The system evolved in its next generation of product, the Synclavier II, which was released in early 1980 with the strong influence of master synthesist and music producer Denny Jaeger of Oakland, California. It was originally Jaeger's suggestion that the FM synthesis concept be extended to allow four simultaneous channels or voices of synthesis to be triggered with one key depression to allow the final synthesized sound to have much more harmonic series activity. This change greatly improved the overall sound design of the system and was very noticeable. 16-bit user sampling (originally in mono only) was added as an option in 1982. This model was succeeded by the ABLE Model C computer based PSMT in 1984 and then the Mac-based 3200, 6400 and 9600 models, all of which used the VPK keyboard.
+Keyboard controller.
+Synclavier II models used an on/off type keyboard (called the "ORK") while later models, labeled simply "Synclavier", used a weighted velocity- and pressure-sensitive keyboard (called the "VPK") that was licensed from Sequential Circuits and used in their Prophet-T8 synthesizer.
+Digital sampling.
+The company evolved the system continuously through the early 1980s to integrate the first 16-bit digital sampling system to magnetic disk, and eventually a 16-bit polyphonic sampling system to memory, as well. The company's product was the only digital sampling system that allowed sample rates to go as high as 100 kHz.
+Tapeless studio concept.
+Ultimately, the system was referred to as the Synclavier Digital Recording "Tapeless Studio" system among many professionals. It was a pioneer system in revolutionizing movie and television sound effects and Foley effects methods of design and production starting at Glen Glenn Sound. Although pricing made it inaccessible for most musicians (a Synclavier could cost anywhere from $25,000 to $200,000), it found widespread use among producers and professional recording studios, competing at times in this market with high-end production systems such as the Fairlight CMI.
+Technological achievements.
+When the company launched and evolved its technology, there were no off-the-shelf computing systems, integrated software, nor sound cards. Consequently, all of the hardware from the company's main real-time CPU, all input and output cards, analog-to-digital and digital-to-analog cards and all of its memory cards were all developed internally, as well as all of the software. The hardware and software of the company's real-time capability was used in other fields completely remote to music, such as the main Dartmouth College campus computing node computers for one of the USA's first campus-wide computing networks, and in medical data acquisition research projects.
+End of manufacture.
+New England Digital ceased operations in 1993. According to Jones, "The intellectual property was bought up by a bank—then it was owned by a Canadian company called Airworks—and I bought the intellectual property and the trademark back from a second bank which had foreclosed on it from Airworks."
+Reincarnations.
+In 2019, Jones released an iOS version of the Synclavier dubbed Synclavier Go! using much of the original code base. Jones has also worked with Arturia to bring the Synclavier V software version of the instrument to their V Collection plugin suite.
+Models and options.
+Black panel models.
+On 1970s–late 1980s:
+Ivory panel models.
+In late 1980s–1993; operated via Macintosh II as terminal.
+

@@ -1,0 +1,1 @@
+MenuetOS (also known as MeOS) is an operating system for architecture computers for x86 and x86_64 processors, by Ville Mikael Turjanmaa. It is a very small system, which can be run from a floppy disk. It is written in only assembley code, and works fast because of these differences and because it has less "code overhead".

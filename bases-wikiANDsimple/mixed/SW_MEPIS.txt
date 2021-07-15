@@ -1,0 +1,6 @@
+MEPIS (pronunciation: meh-pis) is a set of Linux Distributions distributed as Live CDs. The most popular of these distributions is SimplyMEPIS. MEPIS distributions are based on Debian, some of them indirectly. For example, SimplyMEPIS 7.0 is based mainly on Debian, with additional source code from Ubuntu (which is also based on Debian). MEPIS distributions are created by Warren Woodford.
+It can either be installed onto a hard drive or used as a Live CD, which makes it a boot disc for troubleshooting many operating systems. It includes KDE, the K Desktop Environment.
+History.
+MEPIS was designed as an alternative to SUSE Linux, Red Hat Linux, and Mandriva Linux (formerly Mandrake) which, in the creator Warren Woodford's opinion, were too difficult for the average user. MEPIS's first official release was on May 10, 2003.
+Distributions.
+The most popular MEPIS distribution, SimplyMEPIS, is designed for everyday desktop and laptop computing. SimplyMEPIS 7.0 contains several new packages and features. It contains Linux 2.6.22 and OpenOffice.org 2.3.0. It was released on 2007-12-23.

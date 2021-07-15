@@ -1,0 +1,11 @@
+A circle is a round two-dimensional shape, such as the letter "o".
+The centre of a circle is the point in the very middle.
+The radius of a circle is a line from the centre of the circle to a point on the side.
+All points on the circle are at the same distance from the centre. In other words, the radius is the same length all the way around the circle. Mathematicians use the letter "r" for the length of a circle's radius.
+The diameter (meaning "all the way across") of a circle is a straight line that goes from one side to the opposite and right through the centre. Mathematicians use the letter "d" for the length of this line.
+The diameter of a circle is equal to twice its radius ("d" equals 2 times "r").
+The circumference (meaning "all the way around") of a circle is line that goes around the circle. Mathematicians use the letter "c" for the length of this line.
+The number "π" (written as the Greek letter "pi") is a very useful number. It is the length of the circumference divided by the length of the diameter ("π" equals "c" divided by "d"). The number π is equal to about or 3.14159.
+The area, "a", inside a circle is equal to the radius multiplied by itself, then multiplied by π ("a" equals π times ("r" times "r")).
+Calculating π.
+π can be empirically measured by drawing a large circle, then measuring its diameter and circumference, since the circumference of a circle is always π times its diameter.

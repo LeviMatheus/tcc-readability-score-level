@@ -1,0 +1,31 @@
+
+The letter yogh (ȝogh) ( ; Scots: ; Middle English: ) was used in Middle English and Older Scots, representing "y" () and various velar phonemes. It was derived from the Insular form of the letter "g".
+In Middle English writing, tailed z came to be indistinguishable from yogh.
+In Middle Scots, the character yogh became confused with a cursive z and the early Scots printers often used z when yogh was not available in their fonts. Consequently, some Lowland Scots words have a "z" in place of a yogh—the common surname MacKenzie was originally written MacKenȝie (pronounced "makenyie").
+Yogh is shaped similarly to the Arabic numeral 3, which is sometimes substituted for the character in online reference works. There is some confusion about the letter in the literature, as the English language was far from standardised at the time. The upper and lower case letters (, ) are represented in Unicode by code points and respectively.
+Pronunciation.
+In Modern English "yogh" is pronounced , , using short o or , , , using long o.
+It stood for and its various allophones—including and the voiced velar fricative —as well as the phoneme ( in modern English orthography). In Middle English, it also stood for the phoneme and its allophone [ç] as in ("night", in an early Middle English way still often pronounced as spelled so: ). Sometimes, yogh stood for or , as in the word , "yowling".
+In Middle Scots, it represented the sound in the clusters , and written "l" and "n". Yogh was generally used for rather than "y".
+In medieval Cornish manuscripts, yogh was used to represent the voiced dental fricative , as in its , now written , pronounced .
+History.
+Old English.
+The original Germanic "g" sound was expressed by the gyfu rune in the Anglo-Saxon futhorc (which is itself sometimes rendered as in modern transliteration). Following palatalization, both "gyfu" and Latin "g" in Old English expressed the sound before front vowels. For example, "year" was written as "gear", even though the word had never had a "g" sound (deriving from Proto-Germanic "*jērą").
+With the re-introduced possibility of a sound before front vowels, notably in the form of loanwords from the Old Norse (such as "gere" from Norse "gervi", Modern English "gear"), this orthographical state of affairs became a source for confusion, and a distinction of "real "g"" () from "palatalized "g"" () became desirable.
+In the Old English period, ᵹ was simply the way Latin "g" was written in the Insular script introduced at the Christianisation of Anglo-Saxon England by the Hiberno-Scottish mission. It only came to be used as a letter "distinct" from "g" in the Middle English period, where it evolved in appearance into ȝ, now considered a separate character.
+Middle English.
+Some Norman scribes avoided non-Latin characters and certain spellings in English and therefore the digraph "gh" arose as an alternative to yogh; still, the variety of pronunciations persisted, as evidenced by "cough", "taught", and "though". The process of replacing the yogh with "gh" was slow, and was not completed until the arrival of printing presses (which lacked yogh) in England around the end of the fifteenth century. Not every English word that contains a "gh" was originally spelled with a yogh: for example, "spaghetti" is Italian, where the "h" makes the "g" hard (i.e., instead of ); "ghoul" is Arabic, in which the "gh" was .
+The medieval author Orm used this letter in three ways when writing Early Middle English. By itself, it represented , so he used this letter for the "y" in "yet". Doubled, it represented , so he ended his spelling of "may" with two yoghs. Finally, the digraph of yogh followed by an "h" represented .
+In the late Middle English period, yogh was no longer used: came to be spelled "night". Middle English re-imported G in its French form for .
+Scots.
+In words of French and Gaelic origin, the Early Scots palatal consonant had become or in some cases , and the palatal consonant had become by the Middle Scots period. Those were variously written , , or , and , or (cf. "gn" and "gli" in Italian). By the Modern Scots period the yogh had been replaced by the character "z", in particular for , ("n") and ("l"), written "nz" and "lz". The original and developed into in some words such as or "Zetland" for "Shetland". Yogh was also used to represent in words such as , " (yesterday) and " but by the Modern Scots period "y" had replaced yogh. The pronunciation of MacKenzie (and its variant spellings) (from Scottish Gaelic ), originally pronounced in Scots, shows where yogh became z. Menzies Campbell is another example.
+After the development of printing.
+In Middle Scots orthography, the use of yogh became confused with a cursive "z" and the early Scots printers often used "z" when yogh was not available in their fonts.
+The yogh glyph can be found in surnames that start with a "Y" in Scotland and Ireland; for example the surname Yeoman, which would have been spelled . Sometimes, the yogh would be replaced by the letter "z", because the shape of the yogh was identical to some forms of handwritten "z".
+In Unicode 1.0, the character yogh was mistakenly unified with the quite different character ezh (Ʒ ʒ), and yogh itself was not added to Unicode until version 3.0.
+List of Middle English words containing a yogh.
+These are examples of Middle English words that contain the letter yogh in their spellings.
+In Egyptology.
+A Unicode-based transliteration system adopted by the Institut Français d'Archéologie Orientale suggested the use of the yogh ȝ character as the transliteration of the Ancient Egyptian "aleph" glyph: A
+The symbol actually used in Egyptology is , two half-rings opening to the left. Since Unicode 5.1, it has been assigned its own codepoints (uppercase U+A722 Ꜣ , lowercase U+A723 ꜣ ); a fallback is the numeral "3".
+

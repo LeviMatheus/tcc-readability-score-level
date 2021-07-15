@@ -1,0 +1,6 @@
+
+An arcjet rocket or arcjet thruster is a form of electrically powered spacecraft propulsion, in which an electrical discharge (arc) is created in a flow of propellant (typically hydrazine or ammonia). This imparts additional energy to the propellant, so that one can extract more work out of each kilogram of propellant, at the expense of increased power consumption and (usually) higher cost. Also, the thrust levels available from typically used arcjet engines are very low compared with chemical engines.
+When the energy is available, arcjets are well suited to keeping stations in orbit and can replace monopropellant rockets.
+Aerojet MR-510 series arcjet engines are currently used on Lockheed Martin A2100 satellites using hydrazine as a propellant, providing over 585s average specific impulse at 2 kW.
+In Germany, researchers at the University of Stuttgart's Institute of Space Aviation Systems have been looking into these challenges for years and have developed various hydrogen-powered arcjet engines capable of power outputs from 1 to 100 kW. The heated hydrogen reaches exit speeds of . An arcjet-propelled test satellite by the name of Baden-Württemberg 1 (BW1) was scheduled to go to the Moon by 2010. No such launch has yet occurred. Baden-Württemberg 1 would have used polytetrafluoroethylene PTFE propellant.
+

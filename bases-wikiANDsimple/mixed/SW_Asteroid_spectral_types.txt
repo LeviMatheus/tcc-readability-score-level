@@ -1,0 +1,14 @@
+Asteroids are assigned a type based on spectral shape, color, and sometimes albedo. These types are thought to correspond to an asteroid's surface composition. For small bodies which are not internally differentiated, the surface and internal compositions are presumably similar, while large bodies such as 1 Ceres and 4 Vesta are known to have internal structure.
+A list of types can be found at.
+Present-day classifications.
+The present-day classification was initiated by Clark R. Chapman, David Morrison, and Ben Zellner in 1975 93; with three categories: C for dark carbonaceous objects, S for stony (silicaceous) objects, and U for those which did not fit into either C or S. This classification has since been expanded and clarified.
+Tholen classification.
+The most widely used taxonomy for over a decade has been that of David J. Tholen, first proposed in 1984. This classification was developed from broad band spectra (between 0.31μm and 1.06μm) obtained during the Eight-Color Asteroid Survey (ECAS) in the 1980s, in combination with albedo measurements 93;. The original formulation was based on 978 asteroids.
+Objects were sometimes assigned a combined type such as "e.g." CG when their properties were a combination of those typical for several types.
+SMASS classification.
+This is a more recent taxonomy introduced by Schelte J. Bus and Richard P. Binzel in 2002, based on the Small Main-Belt Asteroid Spectroscopic Survey (SMASS) of 1447 asteroids 93;. This survey produced spectra of a far higher resolution than ECAS, and was able to resolve a variety of narrow spectral features. However, a somewhat smaller range of wavelengths (0.44μm to 0.92μm) was observed. Also, albedos were not considered.
+A significant number of small asteroids were found to fall in the Q, R, and V types, which were represented by only a single body in the Tholen scheme.
+In this Bus and Binzel SMASS scheme only a single type was assigned to any particular asteroid.
+A few Near-Earth objects have spectra which differ strongly from any of the SMASS classes. This is presumably because these bodies are much smaller than those detected in the Main Belt, and as such may have younger less-altered surfaces or be composed of a less varied mix of minerals.
+Appraisal.
+These classification schemes are expected to be refined and/or replaced as further research progresses. However, for now, the spectral classification based on the two above coarse resolution spectroscopic surveys from the 1990s is still the standard. Scientists have been unable to agree on a better taxonomic system, largely due to the difficulty of obtaining detailed measurements consistently for a large sample of asteroids (e.g. finer resolution spectra, or non-spectral data such as densities would be very useful).

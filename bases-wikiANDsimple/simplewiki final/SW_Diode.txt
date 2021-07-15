@@ -1,0 +1,58 @@
+A diode is an electronic component with two electrodes which a signal can flow between (but thermionic diodes can have one or two more electrodes).
+The most common function of a diode is to allow an electric current to flow in one direction and to block it in the opposite direction.
+Today, the most common diodes are made from semiconductor materials such as silicon or germanium.
+There are many kinds of diode. For example, Schottky Diode, LED(Light Emitting Diode, Photo Diode, Laser Diode, Varactor Diode, Current Regulator Diode, PIN Diode, Tunnel Diode, Step Recovery Diode, IMPATT Diode, etc.
+Introduction.
+In the following text you can read about construction, function, Influence of temperature and types of Diodes
+Construction.
+Mostly the material of Diodes is silicon, germanium or gallium arsenide. In a Diode are two different kinds of polarisations. There are the n-side and the p-side. In the n-side is given phosphor or arsenic into the silicon. The phosphor has got more electrons than the silicon and so the n-side gets a negative polarisation. In the p-side is given boron into the silicon. The boron has got less electrons than the silicon and so the p-side gets a positive polarisation. At the p-side exists positive holes.
+Positive voltage at p-side.
+If you give positive voltage to the p-side and negative voltage to the n-side, the electrons from the n-side wants to go to the positive voltage at the p-side and the holes of the p-side wants to go to the negative voltage at the n-side. In fact of this, current flow is able to exist. This is called breakdown. The breakdown voltage of a silicon Diode is at about 0.7V. A germanium Diode needs a breakdown voltage at about 0.3V.
+Negative voltage at p-side.
+If you give negative voltage to the p-side and positive voltage to the n-side, the electrons of the n-side go to the negative voltage at the n-side. The holes of the p-side do to the positive voltage at the p-side. So there won´t be a current flow between p- and n-side. If you give to much voltage to the Diode in negative direction, the Diode will be destroyed.
+Influence of temperature.
+When the temperature increases, the voltage, when the breakdown happens, will go down.
+The standard rectifier diode.
+The standard rectifier diode is the actual original diode. It has different requirements. It should have high current densities in the forward area, and a high barrier permissible temperature. It should also have a minimum passing-voltage and a high cut-off-frequency. You should also have a high blocking voltage, whereby the blocking flows should remain low.
+Their applications are the whole modern analog and digital electronics. Especially it becomes straightening of changing and turning tension, and to limit power supply voltage used. The Diode is often needed for measurement and drive.
+The Z-diode.
+The Z-diode (Zener diode) operates in the direction lock and so the direction of their work area is located in the 3rd Quadrant. In working towards the passage it is like a normal diode. The name comes from Zenereffekt, the man with the name Zener discovered. The term Z-diode is only a shortcut. A Z-diode can vary how high it is doped and then has different properties breakthrough. With a high allocation to the diode it has a low and a small space charge zone. Is it high, it works with Zener \ tunneleffect. At low doping, it has a large breakdown voltage and space charge zone and works with the avalanche effect. For medium-doping is the breakdown voltage 5-8 volts and there are two effects.
+Z-diodes are best suited to stabilize voltage for circuits with low power consumption. But the limitation of voltage spikes is a possibility to use it. With appropriate Zener voltage they can be used as donors in nominal value of measuring and control technology, or where reference voltages are required. It can also be used as a protective diode.
+Top diode and Junction diode.
+Top diodes are actually the exact opposite of junction diodes. They have a small barrier layer capacity and are also in high-frequency applications up to several GHz. But they must ensure only at low currents and voltages to operate. As a particular example the gold wire germanium diode is mentioned.
+Junction diodes have a p-n-transition over a large area and are often made of silicon. They are designed for high currents and voltages. Because they have a pretty big barrier layer capacity, they are not suitable for high frequency applications. A specific example of the application is called the power diode.
+The Capacity diode.
+The capacity diode is a semiconductor diode barrier in the direction of running, so does the barrier layer or space charge zone on pn-transition as a capacity. If the voltage on the diode is changing, than the capacity of the barrier will change, too. Then you look at the capacity diode you see the barrier layer capacity is especially great. Because of the capacity variation can be set 3 different p-n-transitions. With a 1:3 ratio, it is a linear transition, in an abrupt 1:6 and 1:30 a hyper-abrupt p-n-transition.
+They are used as a substitute for rotary capacitors for the swing vote in the district of radios and televisions, and they will also find use in circuits for the generation of frequency modulation.
+Step-Recovery-Diode.
+The symbol of this diode is the usual symbol of a diode with a kind of snag.
+It is especially used in circuits with high frequencies up to GHz.
+The idea is, to work with the current that flows after the polarity was reversed. It has also an intrinsic layer between the p- and the n-layer. After the polarization has changed, there develops a layer without carriers. That means, there is a layer that is almost not conducting. So you can achieve a high slew rate.
+This diode is used with high gigahertz-frequencies.
+pin-Diode.
+This diode has no special symbol.
+The construction of this diode is, that there´s not only a pn-junction, but also an intrinsic layer between the n- and the p-layer. This means, this layer is nearly nonconducting. If it´s forward biased, especially at lower frequencies, it has almost the same characteristics as a usual standard diode. But if it runs in reverse direction, there develops two space charge regions with different extensions. Because of this broad space charge region in the i-zone, the i-zone becomes very conductive.
+The pin-diode is useful for a high block voltage. It´s a quite fast diode and also used at very high frequencies.
+Schottky-Diode.
+The symbol if this diode is the usual symbol with a ‘S’ at the peak.
+It consists of a pn-junction with a metal layer, which is oxidized on the n-doped silicon.
+This metal can be e.g. aluminum or nickel.
+In forward direction, the threshold voltage is about 0.3 volt. This is about half of the threshold voltage of a usual diode.
+The function of this diode is that no minority carriers are injected.
+So, there´s no diffusion capacitance, because there are no carriers, that could diffuse.
+This explains why this diode is a very fast one. So it is always used, when speed plays a role.
+The advantage of this diode is, that it is faster, but has otherwise no restrictions and works like a usual diode.
+The only disadvantage is, it isn´t appropriate in reverse direction.
+Tunnel Diode.
+In the symbol of the tunnel diode there´s a kind of additional square bracket at the end of the usual symbol.
+A tunnel diode consists of a high doped pn-junction. That means both, the n- and the p-layer are high doped. Because of this high doping, there is only a very narrow gap, where the electrons are able to pass through. This so called tunnel-effect appears in both directions.
+After a certain amount of electrons have passed, the current through the gap decreases, until the normal current through the diode at the threshold voltage begins.
+This causes an area of a negative differential resistance.
+This diods are used to deal with really high frequencies (100 GHz) and are of course mostly used in the area of the negative differential resistance.
+Backwarddiode.
+The symbol has at the end of the diode a sign that looks like a big I.
+This diode has a construction that is similar to the tunnel diode, but the n- and the p-layer aren´t doped as high.
+It works with small negative voltages, because it has no threshold voltage in the third quadrant. The current increases immediately, there.
+From this reason, this diode works in most times in this area.
+Summary.
+Diodes are used in almost every electrical function. There are so much different types of it. In fact of this, you can see, they are very important to us.

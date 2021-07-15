@@ -1,0 +1,2 @@
+In mathematics, a coefficient is a constant multiplicative factor of a certain object. For example, the coefficient in "9x'2" is "9".
+where "a'n" is the coefficient of the variable "x'n" for each "n" = 1, 2, 3, …

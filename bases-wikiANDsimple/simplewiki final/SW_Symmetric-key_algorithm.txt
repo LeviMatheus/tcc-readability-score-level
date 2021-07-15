@@ -1,0 +1,19 @@
+Symmetric-key algorithms are a class of algorithms for cryptography that use trivially related, often identical, cryptographic keys for both decryption and encryption.
+The encryption key is simply related to the decryption key, in that they may be identical or there is a simple relation between the two keys. The keys, in practice, represent a shared secret between two or more parties that can be used to maintain a private secure connection.
+Other terms for symmetric-key encryption are secret-key, single-key, shared-key, one-key and eventually private-key encryption. Make sure that the use of the latter term does conflict with the term "private key" in public-key cryptography.
+Symmetric-key algorithms can be divided into stream ciphers and block ciphers. Stream ciphers encrypt the bits of the message as a stream of bits one at a time, and block ciphers take a number of bits and encrypt them as a single unit. Blocks of 64 bits have been commonly used; though modern ciphers like the Advanced Encryption Standard algorithm uses 128-bit blocks.
+Symmetric ciphers have historically been susceptible to known-plaintext attacks, chosen plaintext attacks, differential cryptanalysis and linear cryptanalysis.
+Symmetric-keys are generated using the process of cryptographic keys generation, though it is recommended to use highly entropy systems to generate the initial seed.
+Examples of popular symmetric cyphers include Twofish, Serpent, AES (aka Rijndael), Blowfish, CAST5, RC4, TDES, and IDEA.
+Speed.
+Symmetric-key algorithms are generally much less "computationally intensive" than asymmetric key algorithms. In practice, asymmetric key algorithms are typically hundreds to thousands times slower than symmetric key algorithms.
+Key management.
+One disadvantage of symmetric-key algorithms is the requirement of a "shared secret key", with both parties holding the same copy at each end.
+In order to ensure secure communications between everyone in a group of n people a total of "n"("n" − 1)/2 keys are needed, which is the total number of possible communication channels.
+To limit the impact of a potential discovery by a cryptographic attacker, they should be changed regularly and kept secure during distribution and in service. The process of selecting, distributing and storing keys is known as key management, and is difficult to achieve reliably and securely.
+Hybrid cryptosystem.
+In modern cryptosystems designs, both asymmetric (public key) and symmetric algorithms are used to take advantage of the best of both.
+Asymmetric algorithms are used to distribute symmetric-keys at the start of a session. Once a symmetric key is known to all parties of the session, faster symmetric-key algorithms using that key can be used to encrypt the remainder of the session. This simplifies the key distribution problem, because asymmetric keys only have to be distributed authentically, while symmetric keys need to be distributed in both an authentic and confidential manner.
+Systems that use such a hybrid approach include SSL, PGP and GPG, etc.
+See also.
+Asymmetric key algorithms

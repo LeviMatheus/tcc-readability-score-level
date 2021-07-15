@@ -1,0 +1,44 @@
+
+The macrolides are a class of natural products that consist of a large macrocyclic lactone ring to which one or more deoxy sugars, usually cladinose and desosamine, may be attached. The lactone rings are usually 14-, 15-, or 16-membered. Macrolides belong to the polyketide class of natural products. Some macrolides have antibiotic or antifungal activity and are used as pharmaceutical drugs.
+Macrolides are bacteriostatic in that they suppress or inhibit bacterial growth rather than killing bacteria completely.
+History.
+The first macrolide discovered was erythromycin, which was first used in 1952. Erythromycin was widely used as a substitute to penicillin in cases where patients were allergic to penicillin or had penicillin-resistant illnesses. Later macrolides developed, including azithromycin and clarithromycin, stemmed from chemically modifying erythromycin; these compounds were designed to be more easily absorbed and have fewer side-effects (erythromycin caused gastrointestinal side-effects in a significant proportion of users). 
+Uses.
+Antibiotic macrolides are used to treat infections caused by Gram-positive bacteria (e.g., "Streptococcus pneumoniae") and limited Gram-negative bacteria (e.g., "Bordetella pertussis", "Haemophilus influenzae"), and some respiratory tract and soft-tissue infections. The antimicrobial spectrum of macrolides is slightly wider than that of penicillin, and, therefore, macrolides are a common substitute for patients with a penicillin allergy. Beta-hemolytic streptococci, pneumococci, staphylococci, and enterococci are usually susceptible to macrolides. Unlike penicillin, macrolides have been shown to be effective against Legionella pneumophila, mycoplasma, mycobacteria, some rickettsia, and chlamydia.
+Macrolides are "not" to be used on non-ruminant herbivores, such as horses and rabbits. They rapidly produce a reaction causing fatal digestive disturbance. It can be used in horses less than one year old, but care must be taken that other horses (such as a foal's mother) do not come in contact with the macrolide treatment.
+Macrolides can be administered in a variety of ways that include tablets, capsules, suspensions, injectings and topically.
+Mechanism of action.
+Antibacterial.
+Macrolides are protein synthesis inhibitors. The mechanism of action of macrolides is inhibition of bacterial protein biosynthesis, and they are thought to do this by preventing peptidyltransferase from adding the growing peptide attached to tRNA to the next amino acid (similarly to chloramphenicol) as well as inhibiting bacterial ribosomal translation. Another potential mechanism is premature dissociation of the peptidyl-tRNA from the ribosome.
+Macrolide antibiotics do so by binding reversibly to the P site on the 50S subunit of the bacterial ribosome. This action is considered to be bacteriostatic. Macrolides are actively concentrated within leukocytes, and thus are transported into the site of infection.
+Immunomodulation.
+Diffuse panbronchiolitis.
+The macrolide antibiotics erythromycin, clarithromycin, and roxithromycin have proven to be an effective long-term treatment for the idiopathic, Asian-prevalent lung disease diffuse panbronchiolitis (DPB). The successful results of macrolides in DPB stems from controlling symptoms through immunomodulation (adjusting the immune response), with the added benefit of low-dose requirements.
+With macrolide therapy in DPB, great reduction in bronchiolar inflammation and damage is achieved through suppression of not only neutrophil granulocyte proliferation but also lymphocyte activity and obstructive secretions in airways. The antimicrobial and antibiotic effects of macrolides, however, are not believed to be involved in their beneficial effects toward treating DPB. This is evident, as the treatment dosage is much too low to fight infection, and in DPB cases with the occurrence of the macrolide-resistant bacterium "Pseudomonas aeruginosa", macrolide therapy still produces substantial anti-inflammatory results.
+Examples.
+Antibiotic macrolides.
+US FDA-approved :
+Non-US FDA-approved:
+Ketolides.
+Ketolides are a class of antibiotics that are structurally related to the macrolides. They are used to treat respiratory tract infections caused by macrolide-resistant bacteria. Ketolides are especially effective, as they have two ribosomal binding sites.
+Ketolides include:
+Fluoroketolides.
+Fluoroketolides are a class of antibiotics that are structurally related to the ketolides. The fluoroketolides have three ribosomal interaction sites.
+Fluoroketolides include:
+Non-antibiotic macrolides.
+The drugs tacrolimus, pimecrolimus, and sirolimus, which are used as immunosuppressants or immunomodulators, are also macrolides. They have similar activity to ciclosporin.
+Antifungal drugs.
+Polyene antimycotics, such as amphotericin B, nystatin etc., are a subgroup of macrolides. Cruentaren is another example of an antifungal macrolide.
+Toxic macrolides.
+A variety of toxic macrolides produced by bacteria have been isolated and characterized, such as the mycolactones.
+Resistance.
+The primary means of bacterial resistance to macrolides occurs by post-transcriptional methylation of the 23S bacterial ribosomal RNA. This acquired resistance can be either plasmid-mediated or chromosomal, i.e., through mutation, and results in cross-resistance to macrolides, lincosamides, and streptogramins (an MLS-resistant phenotype).
+Two other types of acquired resistance rarely seen include the production of drug-inactivating enzymes (esterases or kinases), as well as the production of active ATP-dependent efflux proteins that transport the drug outside of the cell.
+Azithromycin has been used to treat strep throat (Group A streptococcal (GAS) infection caused by "Streptococcus pyogenes") in penicillin-sensitive patients, however macrolide-resistant strains of GAS are not uncommon. Cephalosporin is another option for these patients.
+Side-effects.
+A 2008 "British Medical Journal" article highlights that the combination of some macrolides and statins (used for lowering cholesterol) is not advisable and can lead to debilitating myopathy. This is because some macrolides (clarithromycin and erythromycin, not azithromycin) are potent inhibitors of the cytochrome P450 system, particularly of CYP3A4. Macrolides, mainly erythromycin and clarithromycin, also have a class effect of QT prolongation, which can lead to torsades de pointes. Macrolides exhibit enterohepatic recycling; that is, the drug is absorbed in the gut and sent to the liver, only to be excreted into the duodenum in bile from the liver. This can lead to a buildup of the product in the system, thereby causing nausea. In infants the use of erythromycin has been associated with pyloric stenosis.
+Some macrolides are also known to cause cholestasis, a condition where bile cannot flow from the liver to the duodenum. A new study found an association between erythromycin use during infancy and developing IHPS (Infantile hypertrophic pyloric stenosis) in infants. However, no significant association was found between macrolides use during pregnancy or breastfeeding.
+A Cochrane review showed gastrointestinal symptoms to be the most frequent adverse event reported in literature.
+Interactions.
+Macrolides should not be taken with colchicine as it may lead to colchicine toxicity. Symptoms of colchicine toxicity include gastrointestinal upset, fever, myalgia, pancytopenia, and organ failure.
+

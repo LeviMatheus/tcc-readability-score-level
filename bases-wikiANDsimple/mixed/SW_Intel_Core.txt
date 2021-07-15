@@ -1,0 +1,10 @@
+Intel Core is a name of family 32-bit processors with dual-core, projected and produced by Intel Company. Intel Core processors are based on Pentium M technology. Those processors are more advanced than Intel P6 architecture. This architecture is getting replaced by new Core 2 microarchitecture. In the Core family are two groups: the Duo (with two cores) and Solo (Duo with one disabled core) processors. The Solo line replaced Pentium M one-core processor.
+September 2006 and January 4, 2008 mark a discontinuation of many Core branded CPUs.
+Yonah.
+Yonah is a company name for Intel's first generation of microprocessors for mobile computers. Sale Core Duo was started in 5 January 2006 with rest elements of Napa platform. It was the first Intel processor to be used in Apple Macintosh computers. Yonah does not have 64-bit function. Intel 64 technology is used in newer Intel's processor- Core 2 Duo.
+Intel Core Duo has two cores,2 Mebibytes L2 cache for both cores, and an arbiter bus that controls L2 cache and FSB access. In future, newer Core Duo processors versions will be able switch off one core to save the energy.
+Intel Core Solo uses same two-core die, as a Core Duo, but one core doesn't work. Only one core is active. In the past Intel was doing similar policy in case of 486 CPU.
+Advantages and shortcomings.
+Duo version of Intel Core (Yonah) has two cores, which give performance per watt almost as good as single-core processors. In computer machines operating with batteries, this translates to getting as much total work done per one battery charge like in old computers.
+Core based processor- Intel Xeon Sossaman LV (low-voltage), for servers, also does not have Intel 64-bit function. Results of this fact was more serious- all new server system have support for x86-64, and Microsoft Exchange Server 2007 even requires a 64-bit processor to run.
+On July 27, 2006, Intel released newer Core version- Core 2.

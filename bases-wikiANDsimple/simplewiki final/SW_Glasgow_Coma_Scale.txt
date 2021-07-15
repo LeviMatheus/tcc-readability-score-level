@@ -1,0 +1,4 @@
+Glasgow Coma Scale or GCS is an scale which is used to measure the consciousness of a person. It was invented in 1974 by "Graham Teasdale" and "Bryan J. Jennett", professors of neurosurgery at the University of Glasgow.
+GCS is used in evaluation of patients specially in ICUs. This scale consists of three tests, which are described below. A score is given for each test, and the GCS score is calculated by adding the scores given to each test. The maximum score is 15, which means the patient is fully conscious. The minimum score is 3, and is usually seen in patients with brain death or those in deep coma.
+Elements of the scale.
+The scale comprises three tests: eye, verbal (talking) and motor (movement) responses.

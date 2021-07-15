@@ -1,0 +1,60 @@
+
+In logic, mathematics and linguistics, And (formula_1) is the truth-functional operator of logical conjunction; the "and" of a set of operands is true if and only if "all" of its operands are true. The logical connective that represents this operator is typically written as formula_1 or .
+formula_3 is true if and only if formula_4 is true and formula_5 is true.
+An operand of a conjunction is a conjunct.
+Beyond logic, the term "conjunction" also refers to similar concepts in other fields:
+Notation.
+And is usually denoted by an infix operator: in mathematics and logic, it is denoted by formula_1, ' or '; in electronics, ; and in programming languages, codice_1, codice_2, or codice_3. In Jan Łukasiewicz's prefix notation for logic, the operator is K, for Polish "koniunkcja".
+Definition.
+Logical conjunction is an operation on two logical values, typically the values of two propositions, that produces a value of "true" if and only if both of its operands are true.
+The conjunctive identity is true, which is to say that AND-ing an expression with true will never change the value of the expression. In keeping with the concept of vacuous truth, when conjunction is defined as an operator or function of arbitrary arity, the empty conjunction (AND-ing over an empty set of operands) is often defined as having the result true.
+Truth table.
+The truth table of formula_3:
+Defined by other operators.
+In systems where logical conjunction is not a primitive, it may be defined as
+or
+Introduction and elimination rules.
+As a rule of inference, conjunction introduction is a classically valid, simple argument form. The argument form has two premises, "A" and "B". Intuitively, it permits the inference of their conjunction.
+or in logical operator notation:
+Here is an example of an argument that fits the form "conjunction introduction":
+Conjunction elimination is another classically valid, simple argument form. Intuitively, it permits the inference from any conjunction of either element of that conjunction.
+...or alternatively,
+In logical operator notation:
+...or alternatively,
+Negation.
+Definition.
+A conjunction formula_17 is be proven false by establishing either formula_18 or formula_19. In terms of the object language, this reads
+This formula can be seen as a special case of
+when formula_22 is a false proposition.
+Other proof strategies.
+If formula_4 implies formula_19, then both formula_18 as well as formula_4 prove the conjunction false:
+In other words, a conjunction can actually be proven false just by knowing about the relation of its conjuncts, and not necessary about their truth values.
+This formula can be seen as a special case of
+when formula_22 is a false proposition.
+Either of the above are constructively valid proofs by contradiction.
+Properties.
+commutativity: yes
+associativity: yes
+distributivity: with various operations, especially with "or"
+idempotency: yes&lt;br&gt;
+monotonicity: yes
+truth-preserving: yes&lt;br&gt;When all inputs are true, the output is true.
+falsehood-preserving: yes&lt;br&gt;When all inputs are false, the output is false.
+Walsh spectrum: (1,-1,-1,1)
+Nonlinearity: 1 (the function is bent)
+If using binary values for true (1) and false (0), then "logical conjunction" works exactly like normal arithmetic multiplication.
+Applications in computer engineering.
+In high-level computer programming and digital electronics, logical conjunction is commonly represented by an infix operator, usually as a keyword such as "codice_4", an algebraic multiplication, or the ampersand symbol codice_1 (sometimes doubled as in codice_2). Many languages also provide short-circuit control structures corresponding to logical conjunction.
+Logical conjunction is often used for bitwise operations, where codice_7 corresponds to false and codice_8 to true:
+The operation can also be applied to two binary words viewed as bitstrings of equal length, by taking the bitwise AND of each pair of bits at corresponding positions. For example:
+This can be used to select part of a bitstring using a bit mask. For example, codice_19  =  codice_20 extracts the fifth bit of an 8-bit bitstring.
+In computer networking, bit masks are used to derive the network address of a subnet within an existing network from a given IP address, by ANDing the IP address and the subnet mask.
+Logical conjunction "codice_4" is also used in SQL operations to form database queries.
+The Curry–Howard correspondence relates logical conjunction to product types.
+Set-theoretic correspondence.
+The membership of an element of an intersection set in set theory is defined in terms of a logical conjunction: "x" ∈ "A" ∩ "B" if and only if ("x" ∈ "A") ∧ ("x" ∈ "B"). Through this correspondence, set-theoretic intersection shares several properties with logical conjunction, such as associativity, commutativity and idempotence.
+Natural language.
+As with other notions formalized in mathematical logic, the logical conjunction "and" is related to, but not the same as, the grammatical conjunction "and" in natural languages.
+English "and" has properties not captured by logical conjunction. For example, "and" sometimes implies order having the sense of "then". For example, "They got married and had a child" in common discourse means that the marriage came before the child.
+The word "and" can also imply a partition of a thing into parts, as "The American flag is red, white, and blue." Here, it is not meant that the flag is "at once" red, white, and blue, but rather that it has a part of each color.
+

@@ -1,0 +1,92 @@
+
+In quantum mechanics, the Hamiltonian of a system is an operator corresponding to the total energy of that system, including both kinetic energy and potential energy. Its spectrum, the system's "energy spectrum" or its set of "energy eigenvalues", is the set of possible outcomes obtainable from a measurement of the system's total energy. Due to its close relation to the energy spectrum and time-evolution of a system, it is of fundamental importance in most formulations of quantum theory.
+The Hamiltonian is named after William Rowan Hamilton, who developed a revolutionary reformulation of Newtonian mechanics, known as Hamiltonian mechanics, which was historically important to the development of quantum physics. Similar to vector notation, it is typically denoted by formula_1, where the hat indicates that it is an operator. It can also be written as formula_2 or formula_3.
+Introduction.
+The Hamiltonian of a system is the sum of the kinetic energies of all the particles, plus the potential energy of the particles associated with the system. The Hamiltonian takes different forms and can be simplified in some cases by taking into account the concrete characteristics of the system under analysis, such as single or several particles in the system, interaction between particles, kind of potential energy, time varying potential or time independent one.
+Schrödinger Hamiltonian.
+One particle.
+By analogy with classical mechanics, the Hamiltonian is commonly expressed as the sum of operators corresponding to the kinetic and potential energies of a system in the form
+where
+is the potential energy operator and 
+is the kinetic energy operator in which formula_7 is the mass of the particle, the dot denotes the dot product of vectors, and 
+is the momentum operator where a formula_9 is the del operator. The dot product of formula_9 with itself is the Laplacian formula_11. In three dimensions using Cartesian coordinates the Laplace operator is
+However, complications can arise in the many-body problem. Since the potential energy depends on the spatial arrangement of the particles, the kinetic energy will also depend on the spatial configuration to conserve energy. The motion due to any one particle will vary due to the motion of all the other particles in the system. For this reason cross terms for kinetic energy may appear in the Hamiltonian; a mix of the gradients for two particles:
+where formula_14 denotes the mass of the collection of particles resulting in this extra kinetic energy. Terms of this form are known as "mass polarization terms", and appear in the Hamiltonian of many electron atoms (see below).
+For formula_15 interacting particles, i.e. particles which interact mutually and constitute a many-body situation, the potential energy function formula_16 is "not" simply a sum of the separate potentials (and certainly not a product, as this is dimensionally incorrect). The potential energy function can only be written as above: a function of all the spatial positions of each particle.
+For non-interacting particles, i.e. particles which do not interact mutually and move independently, the potential of the system is the sum of the separate potential energy for each particle, that is
+The general form of the Hamiltonian in this case is:
+where the sum is taken over all particles and their corresponding potentials; the result is that the Hamiltonian of the system is the sum of the separate Hamiltonians for each particle. This is an idealized situation—in practice the particles are almost always influenced by some potential, and there are many-body interactions. One illustrative example of a two-body interaction where this form would not apply is for electrostatic potentials due to charged particles, because they interact with each other by Coulomb interaction (electrostatic force), as shown below.
+Schrödinger equation.
+The Hamiltonian generates the time evolution of quantum states. If formula_19 is the state of the system at time formula_20, then
+This equation is the Schrödinger equation. It takes the same form as the Hamilton–Jacobi equation, which is one of the reasons formula_2 is also called the Hamiltonian. Given the state at some initial time (formula_23), we can solve it to obtain the state at any subsequent time. In particular, if formula_2 is independent of time, then
+The exponential operator on the right hand side of the Schrödinger equation is usually defined by the corresponding power series in formula_2. One might notice that taking polynomials or power series of unbounded operators that are not defined everywhere may not make mathematical sense. Rigorously, to take functions of unbounded operators, a functional calculus is required. In the case of the exponential function, the continuous, or just the holomorphic functional calculus suffices. We note again, however, that for common calculations the physicists' formulation is quite sufficient.
+By the *-homomorphism property of the functional calculus, the operator
+is a unitary operator. It is the "time evolution operator", or "propagator", of a closed quantum system. If the Hamiltonian is time-independent, formula_28 form a one parameter unitary group (more than a semigroup); this gives rise to the physical principle of detailed balance.
+Dirac formalism.
+However, in the more general formalism of Dirac, the Hamiltonian is typically implemented as an operator on a Hilbert space in the following way:
+The eigenkets (eigenvectors) of formula_2, denoted formula_30, provide an orthonormal basis for the Hilbert space. The spectrum of allowed energy levels of the system is given by the set of eigenvalues, denoted formula_31, solving the equation:
+Since formula_2 is a Hermitian operator, the energy is always a real number.
+From a mathematically rigorous point of view, care must be taken with the above assumptions. Operators on infinite-dimensional Hilbert spaces need not have eigenvalues (the set of eigenvalues does not necessarily coincide with the spectrum of an operator). However, all routine quantum mechanical calculations can be done using the physical formulation.
+Expressions for the Hamiltonian.
+Following are expressions for the Hamiltonian in a number of situations. Typical ways to classify the expressions are the number of particles, number of dimensions, and the nature of the potential energy function—importantly space and time dependence. Masses are denoted by formula_7, and charges by formula_35.
+Free particle.
+The particle is not bound by any potential energy, so the potential is zero and this Hamiltonian is the simplest. For one dimension:
+and in higher dimensions:
+Constant-potential well.
+For a particle in a region of constant potential formula_38 (no dependence on space or time), in one dimension, the Hamiltonian is:
+in three dimensions
+This applies to the elementary "particle in a box" problem, and step potentials.
+Simple harmonic oscillator.
+For a simple harmonic oscillator in one dimension, the potential varies with position (but not time), according to:
+where the angular frequency "formula_42", effective spring constant formula_43, and mass formula_7 of the oscillator satisfy:
+so the Hamiltonian is:
+For three dimensions, this becomes
+where the three-dimensional position vector formula_48 using cartesian coordinates is (formula_49, formula_50, formula_51), its magnitude is
+Writing the Hamiltonian out in full shows it is simply the sum of the one-dimensional Hamiltonians in each direction:
+Rigid rotor.
+For a rigid rotor—i.e., system of particles which can rotate freely about any axes, not bound in any potential (such as free molecules with negligible vibrational degrees of freedom, say due to double or triple chemical bonds), the Hamiltonian is:
+where formula_55, formula_56, and formula_57 are the moment of inertia components (technically the diagonal elements of the moment of inertia tensor), and formula_58, formula_59 and formula_60 are the total angular momentum operators (components), about the formula_49, formula_50, and formula_51 axes respectively.
+Electrostatic or coulomb potential.
+The Coulomb potential energy for two point charges formula_64 and formula_65 (i.e., those that have no spatial extent independently), in three dimensions, is (in SI units—rather than Gaussian units which are frequently used in electromagnetism):
+However, this is only the potential for one point charge due to another. If there are many charged particles, each charge has a potential energy due to every other point charge (except itself). For formula_15 charges, the potential energy of charge formula_68 due to all other charges is (see also Electrostatic potential energy stored in a configuration of discrete point charges):
+where formula_70 is the electrostatic potential of charge formula_68 at formula_72. The total potential of the system is then the sum over formula_73:
+so the Hamiltonian is:
+Electric dipole in an electric field.
+For an electric dipole moment formula_76 constituting charges of magnitude formula_35, in a uniform, electrostatic field (time-independent) formula_78, positioned in one place, the potential is:
+the dipole moment itself is the operator
+Since the particle is stationary, there is no translational kinetic energy of the dipole, so the Hamiltonian of the dipole is just the potential energy:
+Magnetic dipole in a magnetic field.
+For a magnetic dipole moment formula_82 in a uniform, magnetostatic field (time-independent) formula_83, positioned in one place, the potential is:
+Since the particle is stationary, there is no translational kinetic energy of the dipole, so the Hamiltonian of the dipole is just the potential energy:
+For a spin-½ particle, the corresponding spin magnetic moment is:
+where formula_87 is the spin gyromagnetic ratio (a.k.a. "spin g-factor"), formula_88 is the electron charge, formula_89 is the spin operator vector, whose components are the Pauli matrices, hence
+Charged particle in an electromagnetic field.
+For a particle with mass formula_7 and charge formula_35 in an electromagnetic field, described by the scalar potential formula_93 and vector potential formula_94, there are two parts to the Hamiltonian to substitute for. The canonical momentum operator formula_95, which includes a contribution from the formula_94 field and fulfils the canonical commutation relation, must be quantized;
+where formula_98 is the kinetic momentum operator. The quantization prescription reads
+so the corresponding kinetic energy operator is
+and the potential energy, which is due to the formula_93 field, is given by
+Casting all of these into the Hamiltonian gives
+Energy eigenket degeneracy, symmetry, and conservation laws.
+In many systems, two or more energy eigenstates have the same energy. A simple example of this is a free particle, whose energy eigenstates have wavefunctions that are propagating plane waves. The energy of each of these plane waves is inversely proportional to the square of its wavelength. A wave propagating in the formula_49 direction is a different state from one propagating in the formula_50 direction, but if they have the same wavelength, then their energies will be the same. When this happens, the states are said to be "degenerate".
+It turns out that degeneracy occurs whenever a nontrivial unitary operator formula_106 commutes with the Hamiltonian. To see this, suppose that formula_107 is an energy eigenket. Then formula_108 is an energy eigenket with the same eigenvalue, since
+Since formula_106 is nontrivial, at least one pair of formula_107 and formula_108 must represent distinct states. Therefore, formula_2 has at least one pair of degenerate energy eigenkets. In the case of the free particle, the unitary operator which produces the symmetry is the rotation operator, which rotates the wavefunctions by some angle while otherwise preserving their shape.
+The existence of a symmetry operator implies the existence of a conserved observable. Let formula_114 be the Hermitian generator of formula_106:
+It is straightforward to show that if formula_106 commutes with formula_2, then so does formula_114:
+Therefore,
+In obtaining this result, we have used the Schrödinger equation, as well as its dual,
+Thus, the expected value of the observable formula_114 is conserved for any state of the system. In the case of the free particle, the conserved quantity is the angular momentum.
+Hamilton's equations.
+Hamilton's equations in classical Hamiltonian mechanics have a direct analogy in quantum mechanics. Suppose we have a set of basis states formula_124, which need not necessarily be eigenstates of the energy. For simplicity, we assume that they are discrete, and that they are orthonormal, i.e.,
+Note that these basis states are assumed to be independent of time. We will assume that the Hamiltonian is also independent of time.
+The instantaneous state of the system at time formula_20, formula_127, can be expanded in terms of these basis states:
+where
+The coefficients formula_130 are complex variables. We can treat them as coordinates which specify the state of the system, like the position and momentum coordinates which specify a classical system. Like classical coordinates, they are generally not constant in time, and their time dependence gives rise to the time dependence of the system as a whole.
+The expectation value of the Hamiltonian of this state, which is also the mean energy, is
+where the last step was obtained by expanding formula_127 in terms of the basis states.
+Each formula_130 actually corresponds to "two" independent degrees of freedom, since the variable has a real part and an imaginary part. We now perform the following trick: instead of using the real and imaginary parts as the independent variables, we use formula_130 and its complex conjugate formula_135. With this choice of independent variables, we can calculate the partial derivative
+By applying Schrödinger's equation and using the orthonormality of the basis states, this further reduces to
+Similarly, one can show that
+If we define "conjugate momentum" variables formula_139 by
+then the above equations become
+which is precisely the form of Hamilton's equations, with the formula_142s as the generalized coordinates, the formula_139s as the conjugate momenta, and formula_144 taking the place of the classical Hamiltonian.
+

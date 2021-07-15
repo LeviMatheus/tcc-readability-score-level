@@ -1,0 +1,26 @@
+
+The Great Internet Mersenne Prime Search (GIMPS) is a collaborative project of volunteers who use freely available software to search for Mersenne prime numbers.
+GIMPS was founded in 1996 by George Woltman, who also wrote the Prime95 client and its Linux port MPrime. Scott Kurowski wrote the back end PrimeNet server to demonstrate distributed computing software by Entropia, a company he founded in 1997. GIMPS is registered as Mersenne Research, Inc. with Kurowski as Executive Vice President and board director. GIMPS is said to be one of the first large scale distributed computing projects over the Internet for research purposes.
+, the project has found a total of seventeen Mersenne primes, fifteen of which were the largest known prime number at their respective times of discovery. The largest known prime is 282,589,933 − 1 (or M82,589,933 for short) and was discovered on December 7, 2018, by Patrick Laroche. On December 4, 2020, the project passed a major milestone after all exponents below 100 million were checked at least once.
+The project relies primarily on the Lucas–Lehmer primality test as it is an algorithm that is both specialized for testing Mersenne primes and particularly efficient on binary computer architectures. There is also a trial division phase, used to rapidly eliminate many Mersenne numbers with small factors. Pollard's "p" − 1 algorithm is also used to search for smooth factors. In 2017, GIMPS adopted the Fermat primality test as an alternative option for primality testing. In 2020, GIMPS has started using PRP proofs, which together with the very reliable error-check, devised by Robert Gerbicz, provide a complete confidence in the correctness of the test result, and thus eliminating the need for double checks.
+History.
+The project began in early January 1996, with a program that ran on i386 computers.
+The name for the project was coined by Luther Welsh, one of its earlier searchers and the co-discoverer of the 29th Mersenne prime.
+Within a few months, several dozen people had joined, and over a thousand by the end of the first year.
+Joel Armengaud, a participant, discovered the primality of M1,398,269 on November 13, 1996.
+Status.
+, GIMPS has a sustained average aggregate throughput of approximately 1.17 PetaFLOPS (or PFLOPS). In November 2012, GIMPS maintained 95 TFLOPS, theoretically earning the GIMPS virtual computer a rank of 330 among the TOP500 most powerful known computer systems in the world. The preceding place was then held by an 'HP Cluster Platform 3000 BL460c G7' of Hewlett-Packard. As of November 2014 TOP500 results, these old GIMPS numbers would no longer make the list.
+Previously, this was approximately 50 TFLOPS in early 2010, 30 TFLOPS in mid-2008, 20 TFLOPS in mid-2006, and 14 TFLOPS in early 2004.
+Software license.
+Although the GIMPS software's source code is publicly available, technically it is not free software, since it has a restriction that users must abide by the project's distribution terms.
+Specifically, if the software is used to discover a prime number with at least 100,000,000 decimal digits, the user will only win $50,000 of the $150,000 prize offered by the Electronic Frontier Foundation.
+Third-party programs for testing Mersenne numbers, such as Mlucas and Glucas (for non-x86 systems), do not have this restriction.
+GIMPS also "reserves the right to change this EULA without notice and with reasonable retroactive effect".""
+Primes found.
+All Mersenne primes are of the form , where "p" is a prime number itself. The smallest Mersenne prime in this table is 
+The first column is the rank of the Mersenne prime in the (ordered) sequence of all Mersenne primes; GIMPS has found all known Mersenne primes beginning with the 35th.
+ , 55,227,947 is the largest exponent below which all other prime exponents have been checked twice, so it is not verified whether any undiscovered Mersenne primes exist between the 47th (M43112609) and the 51st (M82589933) on this chart; the ranking is therefore provisional. Furthermore, 102,529,169 is the largest exponent below which all other prime exponents have been tested at least once, so all Mersenne numbers below the 51st (M82589933) have been tested.
+ The number M82589933 has 24,862,048 decimal digits. To help visualize the size of this number, if it were to be saved to disk, the resulting text file would be nearly 25 megabytes long (most books in plain text format clock in under two megabytes). A standard word processor layout (50 lines per page, 75 digits per line) would require 6,629 pages to display it. If one were to print it out using standard printer paper, single-sided, it would require approximately 14 reams of paper.
+Whenever a possible prime is reported to the server, it is verified first before it is announced. The importance of this was illustrated in 2003, when a false positive was reported to possibly be the 40th Mersenne prime but verification failed.
+The official "discovery date" of a prime is the date that a human first noticed the result for the prime, which may differ from the date that the result was first reported to the server. For example, M74207281 was reported to the server on September 17, 2015, but the report was overlooked until January 7, 2016.
+

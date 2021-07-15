@@ -1,0 +1,6 @@
+An Axiom is a statement of logic. In a system, it is usually taken as being true. It does not need to be proven. Logic then deduces other theorems from the axioms.
+Two numbers that are both the same as a third number are the same number
+If A and B are two numbers that are the same, and C and D are also the same, A+C is the same as B+D
+If A and B are two numbers that are the same, and C and D are also the same, A-C is the same as B-D
+Two shapes that fill the exact same space are the same shape.
+If you divide a number by anything more than 1, the quotient (result) will be less than the original number

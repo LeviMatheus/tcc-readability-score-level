@@ -1,0 +1,13 @@
+
+The nitronium ion, , is a cation. It is an onium ion because of its tetravalent nitrogen atom and +1 charge, similar in that regard to ammonium. It is created by the removal of an electron from the paramagnetic nitrogen dioxide molecule, or the protonation of nitric acid (with removal of H2O).
+It is stable enough to exist in normal conditions, but it is generally reactive and used extensively as an electrophile in the nitration of other substances. The ion is generated "in situ" for this purpose by mixing concentrated sulfuric acid and concentrated nitric acid according to the equilibrium:
+Structure.
+The nitronium ion is isoelectronic with carbon dioxide and nitrous oxide, and has the same linear structure and bond angle of 180°. For this reason it has a similar vibrational spectrum to carbon dioxide. Historically, the nitronium ion was detected by Raman spectroscopy, because its symmetric stretch is Raman-active but infrared-inactive. The Raman-active symmetrical stretch was first used to identify the ion in nitrating mixtures.
+Salts.
+A few stable nitronium salts with anions of weak nucleophilicity can be isolated. These include nitronium perchlorate (), nitronium tetrafluoroborate (), nitronium hexafluorophosphate (), nitronium hexafluoroarsenate (), and nitronium hexafluoroantimonate (). These are all very hygroscopic compounds.
+The solid form of dinitrogen pentoxide, N2O5, actually consists of nitronium and nitrate ions, so it is an ionic compound, [][], not a molecular solid. However, dinitrogen pentoxide in liquid or gaseous state is molecular and does not contain nitronium ions.
+Related species.
+The compounds nitryl fluoride, NO2F, and nitryl chloride, NO2Cl, are not nitronium salts but molecular compounds, as shown by their low boiling points (−72 °C and −6 °C respectively) and short N–X bond lengths (N–F 135 pm, N–Cl 184 pm).
+Addition of one electron forms the neutral nitryl radical, ; in fact, this is fairly stable and known as the compound nitrogen dioxide.
+The related negatively charged species is , the nitrite ion.
+

@@ -1,0 +1,26 @@
+
+Brazil has both modern technologies in the center-south portion, counting with LTE, 3G HSPA, DSL ISDB based Digital TV. Other areas of the country, particularly the North and Northeast regions, lack even basic analog PSTN telephone lines. This is a problem that the government is trying to solve by linking the liberation of new technologies such as WiMax and FTTH) only tied with compromises on extension of the service to less populated regions.
+Telephone system.
+Landline.
+The Brazilian landline sector is fully open to competition and continues to attract operators. The bulk of the market is divided between three operators: Telefónica, América Móvil, and Oi (controlled by Brazilian investors and Pharol SGPS). Telefónica operates through Telefónica Brasil, which has integrated its landline and mobile services under the brand name Vivo. The América Móvil group in Brazil comprises long distance incumbent Embratel, mobile operator Claro, and cable TV provider Net Serviços. The group has started to integrate its landline and mobile services under the brand name Claro, previously used only for mobile services. Oi offers landline and mobile services under the Oi brand name. GVT was the country's most successful alternative network provider, offering landline services only, until it was acquired by Telefónica in 2015 and integrated into Vivo.
+"National:"
+extensive microwave radio relay system and a national satellite system with 64 earth stations.
+"International:"
+country code - 55; landing point for a number of submarine cables, including Atlantis 2, that provide direct links to South and Central America, the Caribbean, the US, Africa, and Europe; satellite earth stations - 3 Intelsat (Atlantic Ocean), 1 Inmarsat (Atlantic Ocean region east), connected by microwave relay system to Mercosur Brazilsat B3 satellite earth station (2007)
+Statistics
+Mobile.
+The history of mobile telephony in Brazil began on 30 December 1990, when the Cellular Mobile System began operating in the city of Rio de Janeiro, with a capacity for 10,000 terminals. At that time, according to Anatel (the national telecommunications agency), there were 667 devices in the country. The number of devices rose to 6,700 in the next year, to 30,000 in 1992. In November 2007 3G services were launched, and increased rapidly to almost 90% of the population in 2012 and the agreements signed as part of the auction specify a 3G coverage obligation of 100% of population by 2019. After the auction that took place in June 2012, LTE tests were undertaken in several cities, tourist locations and international conference venues. The first LTE-compatible devices became available in the local market and LTE services was commercially launched in 2013. Under the 4G licence terms, operators were required to have commercial networks in all twelve state capitals which are acting as host cities for the 2014 FIFA World Cup.
+The mobile market is ruled by 4 companies:
+Statistics
+Technology distribution
+International backbones.
+Submarine cables.
+Several submarine cables link Brazil to the world:
+All these cables have a bandwidth from 20 Gbit/s to 80 Gbit/s, and some have a projected final capacity of more than 1 Tbit/s.
+Satellite connections.
+List of business and satellites they operate (Brazilian Geostationary Satellites)
+Television and radio.
+Under the Brazilian constitution, television and radio are not treated as forms of telecommunication, in order to avoid creating problems with a series of regulations that reduce and control how international businesses and individuals can participate. It is worth mentioning that Brazil has the second largest media conglomerate in the world in terms of revenue, Grupo Globo.
+Internet.
+The Internet has become quite popular in Brazil, with steadily growing numbers of users as well as increased availability. Brazil holds the 6th spot in number of users worldwide. Many technologies are used to bring broadband Internet to consumers, with DSL and cable being the most common (respectively, about 13 million and 9 million connections), and 3G technologies. 4G technologies were introduced in April 2013 and presently are available in over 90% of the country.
+

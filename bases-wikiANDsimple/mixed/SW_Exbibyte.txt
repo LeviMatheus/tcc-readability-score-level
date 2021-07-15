@@ -1,0 +1,2 @@
+An exbibyte (EiB) is a large unit of measurement for computers of the future. Exbibytes hold 1024 pebibytes (PiB) or 1,152,921,504,606,846,976 bytes. Some people call this number of bytes an exabyte.
+1024 exbibytes make 1 zebibyte.

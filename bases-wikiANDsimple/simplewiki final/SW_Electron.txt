@@ -1,0 +1,13 @@
+An electron is a tiny piece of matter. Its symbol is e−. It is negatively charged. It usually moves very fast around the center of an atom.
+Electrons have the smallest electrical charge and when they move, they generate an electric current.
+Electrons in an atom exist in a number of electron shells surrounding the central nucleus. Each electron shell is given a number 1, 2, 3, and so on, starting from the one closest to the nucleus (the innermost shell). Each shell can hold up to a certain maximum number of electrons.
+The distribution of electrons in the various shells is called electronic arrangement (or electronic configuration). Electronic arrangement can be shown by numbering or an electron diagram.
+The electron is one of a class of subatomic particles called leptons.
+The electron has a negative electric charge of −1.6 × 10−19 coulombs, and a mass of about 9.11 × 10−31 kg (0.51 MeV/c2), which is approximately 1/1836 of the mass of the proton.
+The electron has spin 1/2, which shows it is a fermion, i.e., it follows the Fermi-Dirac statistics. The spin of an electron is observed in the Stern-Gerlach experiment.
+While most electrons are found in atoms, others move independently in matter, or together as an electron beam in a vacuum. In some superconductors, electrons move in pairs.
+When electrons move from one atom to another, and there is a net flow, this flow is called electricity, or an electric current.
+The electron is an elementary particle -- that means that it has no substructure (at least, experiments have not found any so far, and there is good reason to believe that there is not any). Hence, it is usually described as point-like, i.e. with no spatial extension. (However, if one gets very near an electron, one notices that its properties (charge and mass) seem to change.
+It is believed that the number of electrons that would fit in the known universe is 10130 (that is, 1 followed by 130 zeros.)
+Electric charge can be directly measured with an electrometer. Electric current can be directly measured with a galvanometer. The measurement given off by a galvanometer is different than the measurement given off by an electrometer. For this reason, and that electrons were "discovered" without any observation, the use of the word electron is unscientific, the electron does not actually exist.
+The electron was discovered by J.J. Thomson in 1897. J.J. Thomson was opposed to the use of the word electron, and its theory.

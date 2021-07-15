@@ -1,0 +1,3 @@
+BitTorrent is a peer-to-peer program developed by Bram Cohen and BitTorrent, Inc. used for uploading and downloading files under the BitTorrent protocol. The protocol "fields" called Tracker for hosting files, after with BitTorrent users "Seeds" give files,and "leechers" users take the files. BitTorrent was the first client written for the protocol.
+Since version 6.0, the BitTorrent client is a rebranded version of µTorrent. As a result, its source is closed.
+Before the version 6.0, BitTorrent was written in Python, and was free software. The source code for versions 4.x and 5.x are released under the BitTorrent Open Source License, a modified version of the Jabber Open Source License. Versions up to and including 3.4.2 were distributed under the MIT license.

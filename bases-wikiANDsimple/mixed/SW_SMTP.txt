@@ -1,0 +1,1 @@
+SMTP or Simple Mail Transfer Protocol is a web-based mail protocol. It is used to send e-mails. It is the opposite of the POP protocol which is used to receive e-mails. It is one of the protocols which makes up the protocol suite IP.

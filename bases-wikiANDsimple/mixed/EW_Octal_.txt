@@ -1,0 +1,67 @@
+
+The octal numeral system, or oct for short, is the base-8 number system, and uses the digits 0 to 7. Octal numerals can be made from binary numerals by grouping consecutive binary digits into groups of three (starting from the right). For example, the binary representation for decimal 74 is 1001010. Two zeroes can be added at the left: , corresponding the octal digits , yielding the octal representation 112.
+In the decimal system each decimal place is a power of ten. For example:
+In the octal system each place is a power of eight. For example:
+By performing the calculation above in the familiar decimal system we see why 112 in octal is equal to 64+8+2 = 74 in decimal.
+Usage.
+In computers.
+Octal became widely used in computing when systems such as the UNIVAC 1050, PDP-8, ICL 1900 and IBM mainframes employed 6-bit, 12-bit, 24-bit or 36-bit words. Octal was an ideal abbreviation of binary for these machines because their word size is divisible by three (each octal digit represents three binary digits). So two, four, eight or twelve digits could concisely display an entire machine word. It also cut costs by allowing Nixie tubes, seven-segment displays, and calculators to be used for the operator consoles, where binary displays were too complex to use, decimal displays needed complex hardware to convert radices, and hexadecimal displays needed to display more numerals.
+All modern computing platforms, however, use 16-, 32-, or 64-bit words, further divided into eight-bit bytes. On such systems three octal digits per byte would be required, with the most significant octal digit representing two binary digits (plus one bit of the next significant byte, if any). Octal representation of a 16-bit word requires 6 digits, but the most significant octal digit represents (quite inelegantly) only one bit (0 or 1). This representation offers no way to easily read the most significant byte, because it's smeared over four octal digits. Therefore, hexadecimal is more commonly used in programming languages today, since two hexadecimal digits exactly specify one byte. Some platforms with a power-of-two word size still have instruction subwords that are more easily understood if displayed in octal; this includes the PDP-11 and Motorola 68000 family. The modern-day ubiquitous x86 architecture belongs to this category as well, but octal is rarely used on this platform, although certain properties of the binary encoding of opcodes become more readily apparent when displayed in octal, e.g. the ModRM byte, which is divided into fields of 2, 3, and 3 bits, so octal can be useful in describing these encodings. Before the availability of assemblers, some programmers would handcode programs in octal; for instance, Dick Whipple and John Arnold wrote Tiny BASIC Extended directly in machine code, using octal.
+Octal is sometimes used in computing instead of hexadecimal, perhaps most often in modern times in conjunction with file permissions under Unix systems (see chmod). It has the advantage of not requiring any extra symbols as digits (the hexadecimal system is base-16 and therefore needs six additional symbols beyond 0–9). It is also used for digital displays.
+In programming languages, octal literals are typically identified with a variety of prefixes, including the digit codice_1, the letters codice_2 or codice_3, the digit–letter combination codice_4, or the symbol codice_5 or codice_6. In "Motorola convention", octal numbers are prefixed with codice_7, whereas a small (or capital) letter codice_2 or codice_3 is added as a postfix following the "Intel convention". In Concurrent DOS, Multiuser DOS and REAL/32 as well as in DOS Plus and DR-DOS various environment variables like $CLS, $ON, $OFF, $HEADER or $FOOTER support an codice_10 octal number notation, and DR-DOS DEBUG utilizes codice_11 to prefix octal numbers as well.
+For example, the literal 73 (base 8) might be represented as codice_12, codice_13, codice_14, codice_15, codice_16, codice_17, codice_18, codice_19 or codice_20 in various languages.
+Newer languages have been abandoning the prefix codice_1, as decimal numbers are often represented with leading zeroes. The prefix codice_3 was introduced to avoid the prefix codice_2 being mistaken for a zero, while the prefix codice_4 was introduced to avoid starting a numerical literal with an alphabetic character (like codice_2 or codice_3), since these might cause the literal to be confused with a variable name. The prefix codice_4 also follows the model set by the prefix codice_28 used for hexadecimal literals in the C language; it is supported by Haskell, OCaml, Python as of version 3.0, Raku, Ruby, Tcl as of version 9, PHP as of version 8.1 and it is intended to be supported by ECMAScript 6 (the prefix codice_1 originally stood for base 8 in JavaScript but could cause confusion, therefore it has been discouraged in ECMAScript 3 and dropped in ECMAScript 5).
+Octal numbers that are used in some programming languages (C, Perl, PostScript…) for textual/graphical representations of byte strings when some byte values (unrepresented in a code page, non-graphical, having special meaning in current context or otherwise undesired) have to be to escaped as codice_10. Octal representation may be particularly handy with non-ASCII bytes of UTF-8, which encodes groups of 6 bits, and where any start byte has octal value codice_31 and any continuation byte has octal value codice_32.
+Octal was also used for floating point in the Ferranti Atlas (1962), Burroughs B5500 (1964), Burroughs B5700 (1971), Burroughs B6700 (1971) and Burroughs B7700 (1972) computers.
+In aviation.
+Transponders in aircraft transmit a code, expressed as a four-octal-digit number, when interrogated by ground radar. This code is used to distinguish different aircraft on the radar screen.
+Conversion between bases.
+Decimal to octal conversion.
+Method of successive Euclidean division by 8.
+To convert integer decimals to octal, divide the original number by the largest possible power of 8 and divide the remainders by successively smaller powers of 8 until the power is 1. The octal representation is formed by the quotients, written in the order generated by the algorithm.
+For example, to convert 12510 to octal:
+Therefore, 12510 = 1758.
+Another example:
+Therefore, 90010 = 16048.
+Method of successive multiplication by 8.
+To convert a decimal fraction to octal, multiply by 8; the integer part of the result is the first digit of the octal fraction. Repeat the process with the fractional part of the result, until it is null or within acceptable error bounds.
+Example: Convert 0.1640625 to octal:
+Therefore, 0.164062510 = 0.1248.
+These two methods can be combined to handle decimal numbers with both integer and fractional parts, using the first on the integer part and the second on the fractional part.
+Method of successive duplication.
+To convert integer decimals to octal, prefix the number with "0.". Perform the following steps for as long as digits remain on the right side of the radix:
+Double the value to the left side of the radix, using "octal" rules, move the radix point one digit rightward, and then place the doubled value underneath the current value so that the radix points align. If the moved radix point crosses over a digit that is 8 or 9, convert it to 0 or 1 and add the carry to the next leftward digit of the current value. "Add" "octally" those digits to the left of the radix and simply drop down those digits to the right, without modification.
+Example:
+Octal to decimal conversion.
+To convert a number to decimal, use the formula that defines its base-8 representation:
+In this formula, is an individual octal digit being converted, where is the position of the digit (counting from 0 for the right-most digit).
+Example: Convert 7648 to decimal:
+For double-digit octal numbers this method amounts to multiplying the lead digit by 8 and adding the second digit to get the total.
+Example: 658 = 6 × 8 + 5 = 5310
+Method of successive duplication.
+To convert octals to decimals, prefix the number with "0.". Perform the following steps for as long as digits remain on the right side of the radix: Double the value to the left side of the radix, using "decimal" rules, move the radix point one digit rightward, and then place the doubled value underneath the current value so that the radix points align. "Subtract" "decimally" those digits to the left of the radix and simply drop down those digits to the right, without modification.
+Example:
+Octal to binary conversion.
+To convert octal to binary, replace each octal digit by its binary representation.
+Example: Convert 518 to binary:
+Therefore, 518 = 101 0012.
+Binary to octal conversion.
+The process is the reverse of the previous algorithm. The binary digits are grouped by threes, starting from the least significant bit and proceeding to the left and to the right. Add leading zeroes (or trailing zeroes to the right of decimal point) to fill out the last group of three if necessary. Then replace each trio with the equivalent octal digit.
+For instance, convert binary 1010111100 to octal:
+Therefore, 10101111002 = 12748.
+Convert binary 11100.01001 to octal:
+Therefore, 11100.010012 = 34.228.
+Octal to hexadecimal conversion.
+The conversion is made in two steps using binary as an intermediate base. Octal is converted to binary and then binary to hexadecimal, grouping digits by fours, which correspond each to a hexadecimal digit.
+For instance, convert octal 1057 to hexadecimal:
+Therefore, 10578 = 22F16.
+Hexadecimal to octal conversion.
+Hexadecimal to octal conversion proceeds by first converting the hexadecimal digits to 4-bit binary values, then regrouping the binary bits into 3-bit octal digits.
+For example, to convert 3FA516:
+Therefore, 3FA516 = 376458.
+Real numbers.
+Fractions.
+Due to having only factors of two, many octal fractions have repeating digits, although these tend to be fairly simple:
+Irrational numbers.
+The table below gives the expansions of some common irrational numbers in decimal and octal.
+

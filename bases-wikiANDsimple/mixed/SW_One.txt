@@ -1,0 +1,11 @@
+One (1) is a natural number after zero and before two.
+A human typically has one head, nose, mouth, and navel (or belly-button).
+The Roman numeral is I.
+Language.
+It is also a pronoun, as in, "one says...", "one does...". It is used in place of "a person says..." or "an individual does...".
+Mathematics.
+In mathematics, one is also the only number with this special fact: Any number multiplied by 1 equals that number.
+Then, the number 1 divides any number but it is not divided by any. The number 1 divides any number to give that same number but it cannot be divided by any other number to give one as the answer. Let "n" be any number. Then "n"/1 = "n" but 1/"n" is never 1.(When n is not 1) Example: 7/1 = 7 but 1/7 is not 1 but 0.142857...
+Any number divided by itself always gives 1 as the answer. "n"/"n" = 1.(When n is not 0) Example: 7/7 = 1.
+Computer science.
+The number one is important for computer science because it is together with Zero a part of the Binary numeral system. In Machine code and in Programming languages one means true. Zero means false.

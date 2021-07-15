@@ -1,0 +1,5 @@
+Before learning the General Theory of Relativity one must know about the Special theory of relativity.
+General relativity is the physics of the very large.
+The earth is small, and our sun is far away, so anything an average person does can be described by the much simpler Newtonian physics. When you start dealing with things that are very large, like stars and galaxies, things start to move and interact differently. The science of how this works is called general relativity.
+General relativity is a theory of space and time created by Albert Einstein and published in 1915. The central idea of general relativity is that space and time are two aspects of something called spacetime, which is curved in the presence of matter, energy, and momentum, in a way that Einstein wrote down in the Einstein Field Equations.
+In general relativity, freefall is inertial motion instead of being at rest on a massive body such as the Earth, as described by the equivalence principle.

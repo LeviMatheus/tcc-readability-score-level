@@ -1,0 +1,3 @@
+
+In a noise-measuring set, flat weighting is a noise weighting based on an amplitude-frequency characteristic that is flat over a frequency range that must be stated. 
+

@@ -1,0 +1,2 @@
+The albedo of an object is the extent to which it reflects light, defined as
+the ratio of reflected to incident electromagnetic radiation. It is a unitless measure indicative of a surface's or body's diffuse reflectivity. The word is derived from "albus", a Latin word for "white".

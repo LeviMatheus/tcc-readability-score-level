@@ -1,0 +1,3 @@
+
+In telecommunications, effective input noise temperature is the source noise temperature in a two-port network or amplifier that will result in the same output noise power, when connected to a noise-free network or amplifier, as that of the actual network or amplifier connected to a noise-free source. If "F" is the noise figure numeric and 290K the standard noise temperature, then the effective noise temperature is given by "T" n = 290("F' − 1).
+

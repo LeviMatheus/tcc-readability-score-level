@@ -1,0 +1,8 @@
+Most computers contain some form of Memory. In order to make use of this memory, they must talk to it in some way.
+Types of memory.
+There are different kinds of memory. Some of the memory might be stored on a disk, other memory might be physical RAM.
+It is the connection between processor and physical main memory.Ihe address specified by progam is translated by memory control cicuitry into such a address which can be accessed in physical memory,this is called virtual or logical address.
+Location of memory.
+Each program has its own memory space. When the program addresses some memory that is on disk, this block is loaded into RAM, where it can be addressed. While the block is read into RAM, the program is stopped.
+Tapping into the memory.
+The operating system itself may also use this technique. With Microsoft Windows, a hidden file is created an used. Unix-like systems use a whole disk partition for this. The loading of a block of memory into ram is called paging or swapping.

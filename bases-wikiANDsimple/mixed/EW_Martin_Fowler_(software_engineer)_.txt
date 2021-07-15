@@ -1,0 +1,8 @@
+
+Martin Fowler (18 December 1963) is an American-resident British software developer, author and international public speaker on software development, specialising in object-oriented analysis and design, UML, patterns, and agile software development methodologies, including extreme programming.
+His 1999 book "Refactoring" popularised the practice of code refactoring. In 2004 he introduced Presentation Model (PM), an architectural pattern.
+Biography.
+Fowler was born and grew up in Walsall, England, where he went to Queen Mary's Grammar School for his secondary education. He graduated at University College London in 1986. In 1994 he moved to the United States, where he lives near Boston, Massachusetts in the suburb of Melrose.
+Fowler started working with software in the early 1980s. Out of university in 1986 he started working in software development for Coopers &amp; Lybrand until 1991. In 2000 he joined ThoughtWorks, a systems integration and consulting company, where he serves as Chief Scientist.
+Fowler has written nine books on the topic of software development (see "Publications"). He is a member of the "Agile Alliance" and helped create the Manifesto for Agile Software Development in 2001, along with 16 fellow signatories. He maintains a "bliki", a mix of blog and wiki. He popularised the term Dependency Injection as a form of Inversion of Control.
+

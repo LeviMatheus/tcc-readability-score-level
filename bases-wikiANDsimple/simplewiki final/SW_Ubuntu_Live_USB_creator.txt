@@ -1,0 +1,1 @@
+Ubuntu Live USB Creator is an official tool to create Live USBs of Ubuntu from an iso image. The tool is already included in the repositories of Ubuntu 8.10.

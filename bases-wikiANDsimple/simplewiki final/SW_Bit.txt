@@ -1,0 +1,2 @@
+A bit is a small amount of something, such as a bit that is the smallest amount of computer or electronic information storage. It can be set to 0 (false) or 1 (true), as machine-readable information. (It's like a light switch; either there is light or there is not.)
+8 bits are called a byte.

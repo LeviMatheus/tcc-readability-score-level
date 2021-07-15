@@ -1,0 +1,3 @@
+A square number is the result of a number multiplied by itself to equal another number.
+Examples.
+There are many more examples that are possible, these are just the examples that will occur the most often in real life.

@@ -1,0 +1,3 @@
+Shear stress is a stress state where the stress is parallel to a face of the material, as opposed to normal stress when the stress is vertical to the face.
+Shear stress is relevant to themotion of fluids upon surfaces, which result in the generation of shear stress.
+Also constructions in soil can fail due to shear; e.g., the weight of an earth-filled dam may cause the subsoil to collapse, like a small landslide.

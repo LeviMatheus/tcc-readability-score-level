@@ -1,0 +1,4 @@
+Entropy is a concept from information theory. It tells how much information there is in an event. In general, the more uncertain or random the event is, the more information it will contain. The concept of entropy was created by a mathematician. He was named Claude Elwood Shannon.
+Example.
+Let's look at an example. If someone is told something they already know, the information they get is very small. It will be pointless for them to be told something they already know.
+If they were told about something they knew little about, they would get much new information. This information would be very valuable to them. They would learn something.

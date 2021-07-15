@@ -1,0 +1,1 @@
+Read-only memory (or simply ROM) is computer memory that, unlike RAM, does not lose its contents when the computer is turned off. Normally, its contents cannot be changed. It is used to keep important firmware, such as the computer BIOS, which the computer will need every time it is turned on. Like RAM, ROM is normally provided in the form of computer chips.

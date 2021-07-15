@@ -1,0 +1,29 @@
+
+The Segway is a two-wheeled, self-balancing personal transporter invented by Dean Kamen and brought to market in 2001 as the Segway HT, subsequently as the Segway PT, and manufactured by Segway Inc. "HT" is an initialism for "human transporter" and "PT" for "personal transporter."
+Ninebot Inc., a Beijing-based transportation robotics startup rival, acquired the Segway company in April 2015, broadened the company to include other transportation devices, and announced in June 2020 it would no longer make a two-wheeled, self-balancing product.
+History.
+Independent company.
+The Segway PT, referred to during development and initial marketing as the Segway HT, was developed from the self-balancing iBOT wheelchair which was initially developed at University of Plymouth, in conjunction with BAE Systems and Sumitomo Precision Products. Segway's first patent was filed in 1994 and granted in 1997, followed by others, including one submitted in June 1999 and granted in October 2001.
+Prior to its introduction, a news report about a proposal for a book about the invention, development, and financing of the Segway led to speculation about the device and its importance. John Doerr speculated that it would be more important than the Internet. "South Park" devoted an episode to making fun of the hype before the product was released. Steve Jobs was quoted as saying that it was "as big a deal as the PC", (but later retracted that, saying that it "sucked", presumably referring to "the design" but commenting about the boutique price, asking, "You're "sure" your market is upscale consumers for transportation?") The device was unveiled on 3 December 2001, following months of public speculation, in Bryant Park, New York City, on the ABC News morning program "Good Morning America", with the first units delivered to customers in early 2002.
+The original Segway models featured three speed settings: , with faster turning, and . Steering of early versions was controlled using a twist grip that varied the speeds of the two motors. The range of the p-Series was on a fully charged nickel metal hydride (NiMH) battery with a recharge time of 4–6 hours. In September 2003, the Segway PT was recalled, because if users ignored repeated low battery warnings on the PTs, it could ultimately lead them to fall. With a software patch to version 12.0, the PT would automatically slow down and stop in response to detecting low battery power.
+In August 2006, Segway discontinued all previous models and introduced the i2 and x2 products, which were steered by leaning the handlebars to the right or left, had a maximum speed of from a pair of Brushless DC electric motors with regenerative braking and a range of up to , depending on terrain, riding style and state of the batteries. 
+Recharging took 8–10 hours. The i2 and x2 also introduced the wireless InfoKey which could show mileage and a trip odometer, and put the Segway into Security mode, which locked the wheels and set off an alarm if it was moved, and could also be used to turn on the PT from up to away.
+Versions of the product prior to 2011 included (in order of release):
+In March 2014, Segway announced third generation designs, including the i2 SE and x2 SE sport, new LeanSteer frame and powerbase designs, with integrated lighting.
+Subsidiary of Ninebot.
+Ninebot Inc., a Beijing-based transportation robotics startup and a Segway rival, acquired Segway in April 2015, having raised $80M from Xiaomi and Sequoia Capital.
+In June 2016, the company launched the Segway miniPRO, a smaller self-balancing scooter.
+End of production.
+In June 2020, Ninebot, the owner of the Segway brand, announced that it would no longer make the namesake two-wheeled, self-balancing product.
+A relatively small number of 140,000 units were sold during the lifetime of the product, however the Segway PT only made up 1.5% of total company profit. Factors contributing to the end of production include the price (US$5,000 at launch), and the learning curve in learning to balance on a Segway which has led to notable accidents involving Usain Bolt, George W Bush and the Segway Company owner Jimi Heselden. While the Segway has remained popular for security and tourism, electric scooters have been more popular for personal mobility.
+Products.
+As of July 2017, the following self-balancing scooters were available from Segway. (For other Segway products see Segway Inc.)
+Technology.
+The dynamics of the Segway PT are similar to a classic control problem, the inverted pendulum. It uses brushless DC electric motors in each wheel powered by lithium-ion batteries with balance achieved using tilt sensors, and gyroscopic sensors developed by BAE Systems' Advanced Technology Centre. The wheels are driven forward or backward as needed to return its pitch to upright.
+Usage.
+In 2011, the Segway i2 was being marketed to the emergency medical services community. 
+In 2018, the police of Stockholm adopted segways as permanent transportation method for the patrollers of the old town.
+The Segway miniPro is also available to be used as the mobility section of a robot.
+Disability Rights Advocates for Technology worked to supply Segway PTs to veterans who had trouble walking. Segway Inc. cannot market its devices in the US as medical devices. Kamen sold the intellectual property rights for medical purposes to Johnson &amp; Johnson, makers of the iBOT, a self-balancing wheelchair).
+The maximum speed of the Segway PT is . The product is capable of covering on a fully charged lithium-ion battery, depending on terrain, riding style, and the condition of the batteries. The U.S. Consumer Product Safety Commission does not have Segway-specific recommendations but does say that bicycle helmets are adequate for "low-speed, motor-assisted" scooters.
+

@@ -1,0 +1,14 @@
+
+An irrelevant conclusion, also known as ignoratio elenchi () or missing the point, is the informal fallacy of presenting an argument that may or may not be logically valid and sound, but (whose conclusion) fails to address the issue in question. It falls into the broad class of relevance fallacies.
+The irrelevant conclusion should not be confused with formal fallacy, an argument whose conclusion does not follow from its premises.
+Overview.
+"Ignoratio elenchi" is one of the fallacies identified by Aristotle in his "Organon". In a broader sense he asserted that all fallacies are a form of "ignoratio elenchi".
+● Example 1: A and B are debating as to whether criticizing indirectly has any merit in general. 
+ attempts to support their position with an argument that politics ought not to be criticized on social media because the message is not directly being heard by the head of state; this would make them guilty of "ignoratio elenchi", as people such as B may be criticizing politics because they have a strong message for their peers, or because they wish to bring attention to political matters, rather than ever intending that their views would be directly read by the president.
+● Example 2: A and B are debating about the law.
+B missed the point. The question was not if the law should allow, but if it does or not.
+Dr Johnson's unique "refutation" of Bishop Berkeley's immaterialism, his claim that matter did not actually exist but only seemed to exist, has been described as "ignoratio elenchi": during a conversation with Boswell, Johnson powerfully kicked a nearby stone and proclaimed of Berkeley's theory, "I refute it "thus"!" (See also "argumentum ad lapidem".)
+A related concept is that of the red herring, which is a deliberate attempt to divert a process of enquiry by changing the subject. "Ignoratio elenchi" is sometimes confused with straw man argument.
+Etymology.
+The phrase "ignoratio elenchi" is . Here "elenchi" is the genitive singular of the Latin noun "elenchus", which is . The translation in English of the Latin expression has varied somewhat. Hamblin proposed "misconception of refutation" or "ignorance of refutation" as a literal translation, John Arthur Oesterle preferred "ignoring the issue", and Irving Copi, Christopher Tindale and others used "irrelevant conclusion".
+

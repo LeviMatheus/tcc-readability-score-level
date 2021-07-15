@@ -1,0 +1,7 @@
+A triangle is a shape. It has three straight sides and three points. The three angles of a triangle add to 180 degrees. It is the polygon with the least possible number of sides.
+Types of triangles.
+Triangles can be grouped according to how long their sides are
+Triangles can also be grouped by their angles.
+Uses.
+Triangles are extremely useful, because the ratio of the length of sides to an angle is always the same. Measuring objects using triangles is called Trigonometry. Some people have spent their entire lives studying triangles for use in trigonometry.
+Modern computers usually use triangles to make more complex graphic images or shapes.

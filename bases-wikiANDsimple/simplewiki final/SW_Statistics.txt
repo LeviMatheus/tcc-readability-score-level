@@ -1,0 +1,26 @@
+Statistics is a way to collect and analyze measurements. Statistics is used to describe data and to test theories about the world and how it works. Statistics is based on probability — the "laws of chance".
+Collecting data.
+Before the world can be described with statistics, data has to be collected. This data has the form of measurements. After the data is collected, there will be a series of numbers which describe that observation, or measurement. A typical example might be to find out how popular a certain TV program is, how many people watch it. Another example might be to find out, whether a certain drug helps in curing a specific disease.
+Methods.
+Most commonly statistical data is by doing surveys, or experiments. Surveys are done by using a small number individuals, and collecting data from them. They may be asked questions, if there are people. If they are not, some measurements might be taken from them.
+The choice of which individuals to take for a survey or data collection is very important, as it directly influences the statistics. When the statistics are done, it can no longer be determined which individuals are taken. Suppose, the water quality of a lake needs to be measured. It is a big lake. If samples are taken next to the waste drain, results of this will be totally different, than if the samples are taken in a remote, nearly inaccessible spot of the lake,
+Errors.
+We can avoid chance errors by taking a larger sample, and we can avoid some bias by choosing randomly. However, sometimes large random samples are hard to take. And bias can happen if some people refuse to answer our questions, or if they know they are getting a fake treatment. These problems can be hard to fix.
+Finding the middle of the data.
+The middle of the data is often called an average. The average tells us about a typical individual in the population. There are three kinds of average that are often used: the mean, the median and the mode.
+Name | A B C D E F G H I J
+score| 23 26 49 49 57 64 66 78 82 92
+Mean.
+The formula for the mean is
+formula_1
+Where formula_2 are the data and formula_3 is the population size. (see Sigma Notation).
+In our example formula_4
+The problem with the mean is that it does no longer tell about how the values are distributed. It is easy to influence the mean by extreme values. In statistics, extreme values might be errors of measurement,
+Median.
+The median is the middle item of the data. To find the median we sort the data from the smallest number to the largest number and then choose the number in the middle. If there are an even number of data we choose the two middle ones and calculate their mean. In our example there are 10 items of data, the two middle ones are "E" and "F", so the median is (57+64)/2 = 60.5.
+Mode.
+The mode is the most frequent item of data. For example the most common letter in English is the letter "e". We would say that "e" is the mode of the distribution of the letters.
+Other descriptive statistics.
+We use it to find out that some percent, percentile, number, or fraction of people or things in a group do something or fit in a certain category.
+For example, social scientists used statistics to find out that 49% of people in the world are males.
+"See also: Normal distribution"

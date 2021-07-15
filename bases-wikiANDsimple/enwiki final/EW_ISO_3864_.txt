@@ -1,0 +1,8 @@
+
+ISO 3864 specifies international standards for safety signs and markings in workplaces and public facilities. These labels are graphical, to overcome language barriers. The standard is split into four parts:
+Colours.
+These are the colours specified in ISO Standard 3864-4 in RAL colour standard.
+Related standards.
+The corresponding American standard is ANSI Z535, which is incompatible with the ISO standard. ANSI Z535.1 divides "Warning (Signal Yellow)" into two colors: Yellow (Pantone 109) for 'caution' messages, and Orange (Pantone 151) for stronger 'warning' messages. Like ISO 3864, ANSI Z535 includes multiple sections: ANSI Z535.6-2006 defines an optional accompanying text in one or more languages.
+ISO 3864 is extended by ISO 7010, which provides a set of symbols based on the principles and properties specified in ISO 3864.
+

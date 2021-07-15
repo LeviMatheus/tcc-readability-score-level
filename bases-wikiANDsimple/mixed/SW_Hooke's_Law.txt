@@ -1,0 +1,7 @@
+The spring equation is the most common type of Hooke's Law.
+The spring equation.
+When x = 0, the spring is at rest. The spring is at the equilibrium position.
+There is a negative sign because the force of the spring does not go to the same direction as the spring moves.
+This equation only works on a linear spring. A linear spring can only be pushed or pulled in one direction.
+Elastic Potential Energy.
+Elastic potential energy is the energy saved in an object that is stretched, compressed (compression is pressing objects together), twisted or bent. For example, an arrow gets the elastic potential energy from the bow. When it leaves the bow, the energy turns into kinetic energy.

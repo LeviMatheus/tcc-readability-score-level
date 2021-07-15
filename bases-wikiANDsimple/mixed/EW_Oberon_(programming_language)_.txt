@@ -1,0 +1,140 @@
+
+Oberon is a general-purpose programming language first published in 1987 by Niklaus Wirth and the latest member of the Wirthian family of ALGOL-like languages (Euler, ALGOL W, Pascal, Modula, and Modula-2). Oberon was the result of a concentrated effort to increase the power of Modula-2, the direct successor of Pascal, and simultaneously to reduce its complexity. Its principal new feature is the concept of type extension of record types. It permits constructing new data types on the basis of existing ones and to relate them, deviating from the dogma of strictly static typing of data. Type extension is Wirth's way of inheritance reflecting the viewpoint of the parent site. Oberon was developed as part of the implementation of an operating system, also named Oberon at ETH Zurich in Switzerland. The name is from the moon of the planet Uranus, named Oberon.
+Oberon is still maintained by Wirth and the latest Project Oberon compiler update is dated 6 March 2020.
+Design.
+Oberon is designed with a motto attributed to Albert Einstein in mind: “Make things as simple as possible, but not simpler.” The principal guideline was to concentrate on features that are basic and essential and to omit ephemeral issues. Another factor was recognition of the growth of complexity in languages such as C++ and Ada. In contrast to these, Oberon emphasizes the use of the library concept to extend the language. Enumeration and subrange types, which were present in Modula-2, were omitted; similarly, set types have been limited to small sets of integers, and the number of low-level facilities has been sharply reduced (especially, type transfer functions were omitted). Omitting the remaining potentially unsafe facilities concludes the most essential step toward obtaining a truly high-level programming language. Very close type checking even across modules, strict index checking at runtime, null pointer checking, and the safe type extension concept largely allow programming to rely on the language rules alone.
+The intent of this strategy was to produce a language that is easier to learn, simpler to implement, and very efficient. Oberon compilers have been viewed as compact and fast, while providing adequate code quality compared to commercial compilers.
+Characteristics.
+Features characterizing the Oberon language include:
+Object orientation.
+Oberon supports extension of record types for the construction of abstractions and heterogeneous structures. In contrast to the later dialects, Oberon-2 and Active Oberon, the original Oberon lacks a dispatch mechanism as a language feature but has it as a programming technique or design pattern. This gives great flexibility in OOP. In the Oberon operating system, two programming techniques are used together for the dispatch call: Method suite and Message handler.
+Method suite.
+In this technique, a table of procedure variables is defined and a global variable of this type is declared in the extended module and assigned back in the generic module:
+ MODULE Figures; "(* Abstract module *)"
+ TYPE
+ Figure* = POINTER TO FigureDesc;
+ Interface* = POINTER TO InterfaceDesc;
+ InterfaceDesc* = RECORD
+ draw* : PROCEDURE (f : Figure);
+ clear* : PROCEDURE (f : Figure);
+ mark* : PROCEDURE (f : Figure);
+ move* : PROCEDURE (f : Figure; dx, dy : INTEGER);
+ END;
+ FigureDesc* = RECORD
+ if : Interface;
+ END;
+ PROCEDURE Init* (f : Figure; if : Interface);
+ BEGIN
+ f.if := if;
+ END Init;
+ PROCEDURE Draw* (f : Figure);
+ BEGIN
+ f.if.draw(f);
+ END Draw;
+ "(* Other procedures here *)"
+ END Figures.
+We extend the generic type Figure to a specific shape:
+ MODULE Rectangles;
+ IMPORT Figures;
+ TYPE
+ Rectangle* = POINTER TO RectangleDesc;
+ RectangleDesc* = RECORD
+ (Figures.FigureDesc)
+ x, y, w, h : INTEGER;
+ END;
+ VAR
+ if : Figures.Interface;
+ PROCEDURE New* (VAR r : Rectangle);
+ BEGIN
+ NEW(r);
+ Figures.Init(r, if);
+ END New;
+ PROCEDURE Draw* (f : Figure);
+ VAR
+ r : Rectangle;
+ BEGIN
+ r := f(Rectangle); "(* f AS Rectangle *)"
+ END Draw;
+ (* Other procedures here *)
+ BEGIN "(* Module initialisation *)"
+ NEW(if);
+ if.draw := Draw;
+ if.clear := Clear;
+ if.mark := Mark;
+ if.move := Move;
+ END Rectangles.
+Dynamic dispatch is only done via procedures in Figures module that is the generic module.
+Message handler.
+This technique consists of replacing the set of methods with a single procedure, which discriminates among the various methods:
+ MODULE Figures; "(* Abstract module *)"
+ TYPE
+ Figure* = POINTER TO FigureDesc;
+ Message* = RECORD END;
+ DrawMsg* = RECORD (Message) END;
+ ClearMsg* = RECORD (Message) END;
+ MarkMsg* = RECORD (Message) END;
+ MoveMsg* = RECORD (Message) dx*, dy* : INTEGER END;
+ Handler* = PROCEDURE (f : Figure; VAR msg : Message);
+ FigureDesc* = RECORD
+ "(* Abstract *)"
+ handle : Handler;
+ END;
+ PROCEDURE Handle* (f : Figure; VAR msg : Message);
+ BEGIN
+ f.handle(f, msg);
+ END Handle;
+ PROCEDURE Init* (f : Figure; handle : Handler);
+ BEGIN
+ f.handle := handle;
+ END Init;
+ END Figures.
+We extend the generic type Figure to a specific shape:
+ MODULE Rectangles;
+ IMPORT Figures;
+ TYPE
+ Rectangle* = POINTER TO RectangleDesc;
+ RectangleDesc* = RECORD
+ (Figures.FigureDesc)
+ x, y, w, h : INTEGER;
+ END;
+ PROCEDURE Draw* (r : Rectangle);
+ BEGIN
+ END Draw;
+ "(* Other procedures here *)"
+ PROCEDURE Handle* (f: Figure; VAR msg: Figures.Message);
+ VAR
+ r : Rectangle;
+ BEGIN
+ r := f(Rectangle);
+ IF msg IS Figures.DrawMsg THEN Draw(r)
+ ELSIF msg IS Figures.MarkMsg THEN Mark(r)
+ ELSIF msg IS Figures.MoveMsg THEN Move(r, msg(Figures.MoveMsg).dx, msg(Figures.MoveMsg).dy)
+ ELSE (* ignore *)
+ END
+ END Handle;
+ PROCEDURE New* (VAR r : Rectangle);
+ BEGIN
+ NEW(r);
+ Figures.Init(r, Handle);
+ END New;
+ END Rectangles.
+In the Oberon operating system both of these techniques are used for dynamic dispatch. The first one is used for a known set of methods; the second is used for any new methods declared in the extension module. For example, if the extension module Rectangles were to implement a new Rotate() procedure, within the Figures module it could only be called via a message handler.
+Implementations and variants.
+Oberon.
+No-cost implementations of Oberon (the language) and Oberon (the operating system) can be found on the Internet (several are from ETHZ itself).
+Oberon-2.
+A few changes were made to the first released specification. For example, object-oriented programming (OOP) features were added, the codice_1 loop was reinstated. The result was "Oberon-2". One release, named "Native Oberon" which includes an operating system, and can directly boot on IBM PC compatible class hardware. A .NET implementation of Oberon with the addition of some minor .NET-related extensions was also developed at ETHZ. In 1993, an ETHZ spin off company brought a dialect of Oberon-2 to the market named "Oberon-L". In 1997, it was renamed "Component Pascal".
+Oberon-2 compilers developed by ETH include versions for Microsoft Windows, Linux, Solaris, and classic Mac OS. Implementations from other sources exist for some other operating systems, including Atari TOS and AmigaOS.
+There is an Oberon-2 Lex scanner and Yacc parser by Stephen J Bevan of Manchester University, UK, based on the one in the Mössenböck and Wirth reference. It is at version 1.4.
+Other compilers include Oxford Oberon-2, which also understands Oberon-07, and Vishap Oberon. The latter is based on Josef Templ's Oberon to C language source-to-source compiler (transpiler) named Ofront, which in turn is based on the OP2 Compiler developed by Regis Crelier at ETHZ.
+Oberon-07.
+Oberon-07, defined by Niklaus Wirth in 2007 and revised in 2008, 2011, 2013, 2014, 2015, and 2016 is based on the original version of Oberon rather than Oberon-2. The main changes are: explicit numeric conversion functions (e.g., codice_2 and codice_3) must be used, the codice_4, codice_5 and codice_6 statements were omitted, codice_7 statements were extended, codice_8 statements can be used for type extension tests, codice_9 statements can only be connected to the end of a function, imported variables and structured value parameters are read-only and arrays can be assigned without using codice_10.
+Oberon-07 compilers have been developed for use with many different computer systems. Wirth's compiler targets a reduced instruction set computer (RISC) processor of his own design that was used to implement the 2013 version of the Project Oberon operating system on a Xilinx field-programmable gate array (FPGA) Spartan-3 board. Ports of the RISC processor to FPGA Spartan-6, Spartan-7, Artix-7 and a RISC emulator for Windows (compilable on Linux and macOS, and binaries available for Windows) also exist. OBNC compiles via C and can be used on any Portable Operating System Interface (POSIX) compatible operating system. The commercial Astrobe implementation targets 32-bit ARM Cortex-M3, M4 and M7 microcontrollers. The Patchouli compiler produces 64-bit Windows binaries. Oberon-07M produces 32-bit Windows binaries and implements revision 2008 of the language. Akron's produces binaries for both Windows and Linux. OberonJS translates Oberon to JavaScript. There is online IDE for Oberon. oberonc is an implementation for the Java virtual machine.
+Active Oberon.
+Active Oberon is yet another variant of Oberon, which adds objects (with object-centered access protection and local activity control), system-guarded assertions, preemptive priority scheduling and a changed syntax for methods (named "type-bound procedures" in Oberon vocabulary). Objects may be active, which means that they may be threads or processes. Further, Active Oberon has a way to implement operators (including overloading), an advanced syntax for using arrays (see OberonX language extensions and Proceedings of the 7th Joint Modular Languages Conference 2006 Oxford, UK), and knows about namespaces. The operating system A2 (formerly "Active Object System" (AOS), then "Bluebottle"), especially the kernel, synchronizes and coordinates different active objects.
+ETHZ has released Active Oberon which supports active objects, and the operating systems based thereon (Active Object System (AOS), Bluebottle, A2), and environment (JDK, HTTP, FTP, etc.) for the language. As with many prior designs from ETHZ, versions of both are available for download on the Internet. As of 2003, supported central processing units (CPUs) include single and dual core x86, and StrongARM.
+Related languages.
+Development has continued on languages in this family. A further extension of Oberon-2, originally named Oberon/L but later renamed to Component Pascal, was developed for Windows and classic Mac OS by Oberon microsystems, a commercial company spin-off from ETHZ, and for .NET by Queensland University of Technology. Further, the languages "Lagoona" and "Obliq" carry Oberon methods into specialized areas.
+Recent .NET development efforts at ETHZ have been focused on a new language named Zonnon. This includes the features of Oberon and restores some from Pascal (enumerated types, built-in IO) but has some syntactic differences. Other features include support for active objects, operator overloading, and exception handling. Zonnon is available as a plug-in language for the Microsoft Visual Studio for .NET development environment.
+Oberon-V (originally named Seneca, after Seneca the Younger) is a descendant of Oberon designed for numerical applications on supercomputers, especially vector or pipelined architectures. It includes array constructors and an codice_11 statement.
+

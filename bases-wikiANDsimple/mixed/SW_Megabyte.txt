@@ -1,0 +1,2 @@
+A megabyte is a large number used when talking about hard drives or computer memory. One megabyte is 1 million bytes.
+Until December 1998, when the International Electrotechnical Commission (IEC) first defined a mebibyte as 220, or 1,048,576 bytes, "megabyte" also meant either 1,048,576 bytes, or 1,024 kilobytes, or 1024² bytes. Casual computer users still often use megabyte to mean one of these numbers.

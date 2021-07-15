@@ -1,0 +1,4 @@
+Uses.
+The resulting iso can also be installed on a USB pendrive, creating a Live USB distro, using either a command-line approach or a graphical tool such as UNetbootin.
+It has a command line version and a GUI version. It currently works with Ubuntu, and possibly more Ubuntu-based distributions.
+The latest version of Ubuntu (8.04) is already supported

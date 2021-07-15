@@ -1,0 +1,2 @@
+Cytosine is one of the 5 main nucleobases used in storing and transporting genetic information within a cell in the nucleic acids DNA and RNA.
+In DNA and RNA, cytosine is paired with guanine. However, it is unstable, and can change into uracil (spontaneous deamination). This can lead to a point mutation if not repaired by the DNA repair enzymes such as uracil glycosylase, which cleaves a uracil in DNA.

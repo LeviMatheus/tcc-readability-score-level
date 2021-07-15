@@ -1,0 +1,60 @@
+
+Telecommunications in Ireland operate in a regulated competitive market that provides customers with a wide array of advanced digital services. This article explores Ireland's telecommunications infrastructure including: fixed and mobile networks, The voice, data and Internet services, cable television, developments in next generation networks and broadcast networks for radio and television.
+Regulation.
+Telecommunications, including radio frequency spectrum licensing and the postal sector, are regulated by the Commission for Communications Regulation (ComReg). ComReg was established on 1 December 2002. The Broadcasting Authority of Ireland (BAI) () is the regulator of both public and commercial broadcasting sector in Ireland. It was established on 1 October 2009, replacing the Broadcasting Commission of Ireland (BCI) ().
+The Minister for Communications, Climate Action and Environment has overall responsibility for national policy and regulation of both telecommunications and broadcasting.
+The telecommunications market in Ireland was opened to competition in 1998.
+Eir's dominance has reduced and by Q3 2019 operators other than eir accounted for 61% of the Irish fixed voice market retail revenue and 54.7% market share by fixed-line retail and wholesale revenue and 80.9% of the mobile market (excluding mobile broadband and machine-to-machine subscriptions) or 84.4% of total subscriptions. Other operators accounted for 68.6% of retail fixed broadband subscriptions (comprising cable, FTTH, FTTC/VDSL and ADSL) and 57.3% of retail FTTP subscriptions
+Eir remains the largest telecommunications company in Ireland, offering fixed, mobile, and broadband services. As Bord Telecom Éireann, the company was state owned until 1999, when it was floated on the Irish and New York Stock Exchanges.
+Infrastructure.
+Ireland's telecommunications network is a modern digital system connected by an extensive national fibre optic network with multiple high capacity fibre optic links to the UK, Continental Europe, North America and with dedicated capacity on routes to Asia and other parts of the globe.
+There is an open and competitive telecommunications market regulated by ComReg. However, the fixed-line market is still dominated by the incumbent operator Eir.
+Several companies operate national fibre optic networks including Eir, BT Ireland, ESB Group and Virgin Media Ireland. Eir's fibre network is the most extensive covering most parts of the country with 12,000 km of fibre routes (&gt;40,000 km of fibres)
+Eir's Next Generation Network upgrade rolled out Dense Wavelength Division Multiplexing (DWDM) which is capable of delivering up to 320 Gbit/s along a single fibre route.
+This upgrade also sees Eir's core infrastructure moving to an all-IP network. It has major aggregation nodes at 140 locations around Ireland and onward fibre connections to another 470 central office sites.
+Ireland also has major connections to multiple international fibre optic networks.
+94 Irish towns and cities also have access to publicly owned, carrier-neutral metropolitan fibre networks managed by Enet.
+These networks can be used by any licensed Irish telecommunications operator to provide commercial or residential end users with products.
+For residential and small business providers, most major urban areas have access to Virgin Media Ireland's HFC network which provides speeds of up to 1 Gbit/s using EuroDOCSIS 3.1 cable modem technology.
+Open Eir is also in the process of rolling out FTTH which provides speeds of up to 1000Mbit/s down and 100Mbit/s up. They also provide an extensive vectored VDSL2 based FTTC access network, using the legacy cooper network. This offers speeds of up to 100Mbit/s down and 20Mbps up.
+Retail services using this next generation access infrastructure are provided by approximately 15 operators.
+SIRO, a joint venture between ESB Group and Vodafone Ireland, provides another open access fibre to home network, used by multiple ISPs to deliver service. Fibre is run alongside ESB Networks 230V/400V LV electricity distribution system, sharing underground ducts and poles, with fibre typically entering premises next to the electricity meter. This, similar to Eir's FTTH network, delivers speeds of up to 1 Gbit/s and is capable of delivery of 10 Gbit/s in the future.
+Ireland has three mobile networks that own and operate their own network infrastructure and a number of MVNO operators that operate mobile phone services using one of these infrastructure providers' radio networks. The three infrastructure owning networks are Eir Mobile, Three, and Vodafone.
+Meteor and Eir Mobile were the first to launch 4G LTE services in Ireland on 26 September 2013, followed by Vodafone on 14 October 2013, and Three on 27 January 2014. O2 was due to launch its 4G services later in 2014, but plans were put on hold when its acquisition by Three was approved in May, and from the time of the merger in 2015, previous O2 customers gained 4G coverage through Three's network, albeit with initial service problems.
+In 2016, 41.9% of Ireland's mobile subscriptions were using 4G technology. 3G remained the dominant technology with 44.6% share, however, it is likely to be overtaken by 4G in 2017.
+Telephone system.
+As mobile phone services become more price competitive, more Irish customers are opting to drop landline services. This is reflected by a sharp fall in the number of fixed line channels in use and an equivalent increase in mobile subscriptions. Details are tracked on ComReg's ComStat website
+There are three mobile telecommunications providers: Three Ireland, Eir Mobile and Vodafone Ireland.
+There are also some MNVOs (Mobile Network Virtual Operators), such as: 48, GoMo, Lycamobile, An Post Mobile, Tesco Mobile, Virgin Mobile and Clear Mobile.
+History.
+The original network was taken over by the Irish Department of Posts and Telegraphs (P&amp;T) from the British Post Office in 1921 and used a mixture of manual and step-by-step automatic exchanges. Development of the network was relatively stagnant with slow rollout of automatic switching using step-by-step exchanges until after WWII.
+From 1957 onwards, P&amp;T began to roll out more modern crossbar switches primarily using equipment supplied by Ericsson built at their Athlone facility. ITT Pentaconta crossbar switches, built by CGCT (Compagnie générale de constructions téléphoniques) were also used in some areas. This saw significant improvements to many services, but the network was still quite underdeveloped in rural areas.
+Digital switching was introduced in 1980 using Ericsson AXE and Alcatel E10 switches both of which were manufactured at facilities in Ireland. This saw a total transformation of the telephone network with modern automatic and digital services reaching even the most rural parts of Ireland by the mid-1980s.
+The fixed-line network is now made up of multiple operators using a diverse range of digital technologies including VoIP.
+Ireland's first mobile telephone network, Eircell, went live in 1986 using the analogue TACS system.
+2G GSM services from Eircell launched on 1 July 1993. Digifone followed in 1997, then Meteor in 2001 (having been licensed in 1998) and 3 Ireland launched its UMTS 3G-only service in 2005.
+3G services launched in 2004 (Vodafone Ireland) and other networks quickly followed suit, and 4G launched in 2013 (Meteor) and is now available on most networks. Meteor was bought out by Eir in 2005 and eventually rebranded as Eir in 2017.
+Internet.
+Broadband Internet access is available in Ireland via DSL, cable, wireless, and satellite. By the end of 2011 Eircom announced that 75% of its working lines would be connected to Next Generation Broadband (NGB) enabled exchanges.
+Currently available services (Q3 2014)
+A typical monthly broadband Internet subscription cost $26.02 in 2011, 14% less than the average of $30.16 for the 34 Organisation for Economic Co-operation and Development (OECD) countries surveyed.
+In August 2012 Pat Rabbitte, the Minister for Communications, Energy and Natural Resources, outlined a national broadband plan with goals of:
+Founded in 1996, the Internet Neutral Exchange (INEX) is an industry-owned association that provides IP peering and traffic exchange for its members in Ireland. The INEX switching centres are located in five secure data centres in Dublin and one in Cork: TeleCity Group in Kilcarbery Park, Dublin 22 &amp; TeleCity Group in Citywest Business Campus, Dublin 24 and Interxion DUB1, and Interxion DUB2 in Park West, and Vodafone Clonshaugh as well as at CIX, Hollyhill, Cork T23 R68N. The switches are connected by dedicated resilient fibre links. In June 2015 it listed 74 full and 21 associate members.
+Established in 1998, the Internet Service Providers Association of Ireland (ISPAI) listed 24 Internet access and hosting providers as members in 2012.
+Radio and television.
+Infrastructure.
+Television in Ireland is broadcast using DVB-T using the common platform specifications defined by NorDig which apply in the Nordic countries and Ireland. Video is encoded using the MPEG4 system.
+The analogue PAL-I broadcasting system is no longer on air.
+Cable systems operate using the DVB-C standard and Satellite is broadcast using DVB-S/S2.
+Some areas still carry a range of cable channels in analogue PAL-I format. Although, this is normally just a legacy service provided by default. It is not possible to subscribe to analogue cable as a new customer.
+Radio is broadcast primarily using FM 88-108 MHz.
+Digital DAB Radio is also available in some areas.
+RTÉ Radio 1 is also broadcast on Longwave 252 kHz (AM)
+Mediumwave services have been discontinued.
+2RN operates a national FM network and DAB services. However, most independent FM stations own their own broadcasting infrastructure.
+Raidió Teilifís Éireann ("Radio [and] Television of Ireland"; abbreviated as RTÉ) is a statutory semi-state company and the public service broadcaster that dominates the radio and TV sectors in Ireland. The first commercial radio stations began broadcasting in 1989. Prior to 1989 hundreds of pirate radio stations were a mainstay of radio listener-ship, particularly in Dublin, and a handful of pirate stations continue to operate illegally today. In 1998 TV3 became the first privately owned commercial TV station and it remains the main free-to-air service after RTÉ. Competition also comes from British public and private terrestrial TV. Satellite and cable TV are widely available. There are also non-commercial community and special interest radio stations.
+RTÉ both produces programmes and broadcasts them on television, radio and the Internet in English and Irish. The radio service began on 1 January 1926, while regular television broadcasts began on 31 December 1961, making RTÉ one of the oldest continuously operating public service broadcasters in the world. Some RTÉ services are only funded by advertising, while other RTÉ services are only funded by the television licence fee.
+Saorview ( ) is Ireland's national free-to-air digital terrestrial television (DTT) service operated by 2RN. Trial service began on 29 October 2010 with full service to the public from May 2011. Analogue television transmissions ended on 24 October 2012.
+SAORSAT is Ireland's national free-to-air digital satellite television service, also operated by 2RN. SAORSAT delivers Irish television services to the 1% to 2% of homes that are not covered by the SAORVIEW Digital Terrestrial Television service.
+A television licence is required for any address at which there is a television set or device that is not exempt. The annual licence fee is €160. The licence is free to senior citizens (to anyone over the age of 70, some over 66), some social welfare recipients, and individuals who are blind.
+

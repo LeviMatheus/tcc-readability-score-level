@@ -1,0 +1,3 @@
+In statistics and probability theory, correlation (also called correlation coefficient) means the strength and direction of a linear relationship between two random variables.
+In general statistical usage, "correlation" means the departure of two variables from independence, although correlation does not imply causation.
+A number of different coefficients are used for different situations..

@@ -1,0 +1,49 @@
+
+Active Server Pages (ASP) is Microsoft's first server-side scripting language and engine for dynamic web pages.
+It was first released in December 1996, before being superseded in January 2002 by ASP.NET.
+History.
+Initially released as an add-on to Internet Information Services (IIS) via the Windows NT 4.0 Option Pack (ca. 1996), it is included as a component of Windows Server (since the initial release of Windows 2000 Server). There have been three versions of ASP, each introduced with different versions of IIS:
+ASP 2.0 provides six built-in objects: Application, ASPError, Request, Response, Server, and Session. codice_1 object, for example, represents a session that maintains the state of variables from page to page. The Active Scripting engine's support of the Component Object Model (COM) enables ASP websites to access functionality in compiled libraries such as DLLs.
+ASP 3.0 does not differ greatly from ASP 2.0 but it does offer some additional enhancements such as Server.Transfer method, Server.Execute method, and an enhanced ASPError object. ASP 3.0 also enables buffering by default and optimized the engine for better performance.
+ASP was supported until 14 January 2020 on Windows 7. The use of ASP pages will be supported on Windows 8 for a minimum of 10 years from the Windows 8 release date. ASP is currently supported in all available versions of IIS.
+Architecture.
+ASP uses scripting on the server to generate content that is sent to the client's web browser via HTTP response. The ASP interpreter reads and executes all script code between &lt;% and %&gt; tags, the result of which is content generation. These scripts were written using VBScript, JScript, or PerlScript. The codice_2 directive, the syntax or server configuration can be used to select the language. In the example below, Response.Write Now() is in an HTML page; it would be dynamically replaced by the current time of the server.
+Web pages with the ".asp" filename extension use ASP, although some web sites disguise their choice of scripting language for security purposes by using the more common ".htm" or ".html" extensions. Pages with the ".aspx" extension use compiled ASP.NET; however, ASP.NET pages may still include some ASP scripting. The introduction of ASP.NET led to use of the term "Classic ASP" for the original technology.
+Sun Java System ASP (formerly ChiliSoft ASP) was a popular and reportedly complete emulator, but it has been discontinued.
+The Server object.
+The server object allows connections to databases (ADO), filesystem, and use of components installed on the server.
+&lt;%
+Dim oAdoCon, oAdoRec, oAdoStm, oCdoCon, oCdoMsg, oSciDic, oSciFsm, oMswAdr
+Set oAdoCon = Server.CreateObject("ADODB.Connection")
+Set oAdoRec = Server.CreateObject("ADODB.Recordset")
+Set oAdoStm = Server.CreateObject("ADODB.Stream")
+Set oCdoCon = Server.CreateObject("CDO.Configuration")
+Set oCdoMsg = Server.CreateObject("CDO.Message")
+Set oSciDic = Server.CreateObject("Scripting.Dictionary")
+Set oSciFsm = Server.CreateObject("Scripting.FileSystemObject")
+Set oMswAdr = Server.CreateObject("MSWC.Swingbridge")
+The Application object.
+This object stores global variables, which are variables accessible to all users.
+&lt;%
+Application("Ali") = "My ASP Application"
+Response.Write "Welcome to " &amp; Server.HTMLEncode(Application("Ali")) &amp; "!"
+The Session object.
+Stores variables accessible only to a single visitor, which are local variables.
+&lt;%
+If Len(Request.QueryString("name")) &gt; 0 Then
+ Session("name") = Request.QueryString("name") 
+End If
+Response.Write "Welcome " &amp; Server.HTMLEncode(Session("name")) &amp; "!"
+The session object is file based and multiple concurrent read and/or write requests will be blocked and processed in turn.
+The Err object.
+Allows the management and fixing of non-fatal errors.
+&lt;%
+On Error Resume Next
+Response.Write 1 / 0 ' Division by zero
+If Err.Number &lt;&gt; 0 Then
+ Response.Write "Error Code: " &amp; Server.HTMLEncode(Err.Number) &amp; "&lt;br /&gt;"
+ Response.Write "Error Source: " &amp; Server.HTMLEncode(Err.Source) &amp; "&lt;br /&gt;"
+ Response.Write "Error Description: " &amp; Server.HTMLEncode(Err.Description) &amp; "&lt;br /&gt;"
+ Err.Clear 
+End If 
+

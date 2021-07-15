@@ -1,0 +1,10 @@
+Definition.
+The most basic definition of torque in physics is a turning or twisting force. If a force is used to begin to spin an object, or to stop an object from spinning, a torque is generated.
+The force applied to a lever, multiplied by the distance from the lever's fulcrum is described as torque.
+Fulcrum.
+Fulcrum is the axis of rotation or point of support on which a lever turns in raising or moving something.
+Equation.
+where, F is the force vector, and r is the vector from the axis of rotation to the point where the force is acting.
+Note: The SI unit of torque is the newton-metre. The most common English unit is the foot-pound.
+Key.
+Vector - quantities with magnitudes and direction.

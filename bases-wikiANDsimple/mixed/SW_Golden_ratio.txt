@@ -1,0 +1,9 @@
+If a person has one number "a" and another smaller number "b", he can make the ratio of the two numbers by dividing them. Their ratio is "a"/"b". He can make another ratio by adding the two numbers together "a"+"b" and dividing this by the larger number "a". The new ratio is ("a"+"b")/"a". If these two ratios are equal to the same number, then that number is called the golden ratio. The Greek letter formula_1 (phi) is usually used as the name for the golden ratio.
+formula_5
+One way to write this number is
+formula_6
+formula_7 is the number which, when multiplied by itself, makes 5: formula_8.
+Golden rectangle.
+If the length of a rectangle divided by its width is equal to the golden ratio, then the rectangle is a "golden rectangle". If a square is cut off from one end of a golden rectangle, then the other end is a new golden rectangle. In the picture, the big rectangle (blue and pink together) is a golden rectangle because formula_11. The blue part (B) is a square. The pink part by itself (A) is another golden rectangle because formula_12. The big rectangle and the pink rectangle have the same form, but the pink rectangle is smaller and is turned.
+Fibonacci numbers.
+The Fibonacci numbers are a list of numbers. A person can find the next number in the list by adding the last two numbers together. If a person divides a number in the list by the number that came before it, this ratio comes closer and closer to the golden ratio.

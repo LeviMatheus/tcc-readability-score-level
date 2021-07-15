@@ -1,0 +1,15 @@
+
+In computer networking, cell relay refers to a method of statistically multiplexing small fixed-length packets, called "cells", to transport data between computers or kinds of network equipment. It is a reliable, connection-oriented packet switched data communications protocol.
+Transmission Rates.
+Cell relay transmission rates usually are between 56 kbit/s and several gigabits per second. ATM, a particularly popular form of cell relay, is most commonly used for home DSL connections, which often runs between 128 kbit/s and 1.544 Mbit/s (DS1), and for high-speed backbone connections (OC-3 and faster).
+Cell relay protocols have neither flow control nor error correction capability, are information-content independent, and correspond only to layers one and two of the OSI Reference Model.
+Cell relay can be used for delay- and jitter-sensitive traffic such as voice and video.
+How Cell Relay Works.
+Cell relay systems break variable-length user packets into groups of fixed-length cells, that add addressing and verification information. Frame length is fixed in networking hardware, based on time delay and user packet-length considerations. One user data message may be segmented over many cells.
+Cell relay systems may also carry bitstream-based data such as PDH traffic, by breaking it into streams of cells, with a lightweight synchronization and clock recovery shim. Thus cell relay systems may potentially carry any combination of stream-based and packet-based data. This is a form of statistical time division multiplexing.
+Cell relay is an implementation of fast packet-switching technology that is used in connection-oriented broadband integrated services digital networks (B-ISDN, and its better-known supporting technology ATM) and connectionless IEEE 802.6 switched multi-megabit data service (SMDS).
+At any time there is information to be transmitted; the switch basically sends the data units. Connections don't have to be negotiated like circuit switching. Channels don't have to be allocated because channels do not exist in ATM, and on condition that there is an adequate amount of bandwidth to maintain it, there can be indefinite transmissions over the same facility.
+Cell relay utilizes data cells of a persistent size. Frames are comparable to data packets; however they contrast from cells in that they may fluctuate in size based on circumstances. This type of technology is not secure for the reason that its procedures do not support error handling or data recovery. Per se, all delicate and significant transmissions may perhaps be transported faster via fixed-sized cells, which are simpler to transmit compared to variable-sized frames or packets.
+Reliability.
+Cell relay is extremely reliable for transporting vital data. Switching devices give the precise method to cells as each endpoint address embedded in a cell. An example of cell relay is ATM, a prevalent form utilized to transfer a cell with a fixed size of 53 bytes.
+

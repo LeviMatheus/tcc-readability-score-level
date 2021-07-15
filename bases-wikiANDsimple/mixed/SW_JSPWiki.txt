@@ -1,0 +1,2 @@
+JSPWiki is a feature-rich and extensible WikiWiki software built around the standard J2EE components (Java, servlets, JSP).
+It was created by Janne Jalkanen.

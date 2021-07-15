@@ -1,0 +1,1 @@
+Synaptic is a computer program which is a GTK+ graphical user interface front-end to the Advanced Packaging Tool for the Debian package management system. Synaptic is usually used on systems based on deb packages but can also be used on systems based on RPM packages. It can be used to install, remove and upgrade software packages and to add repositories.

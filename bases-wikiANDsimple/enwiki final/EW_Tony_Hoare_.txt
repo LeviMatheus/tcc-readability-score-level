@@ -1,0 +1,15 @@
+
+Sir Charles Antony Richard Hoare (born 11 January 1934) is a British computer scientist. He developed the sorting algorithm quicksort in 1959–1960. He also developed Hoare logic for verifying program correctness, and the formal language communicating sequential processes (CSP) to specify the interactions of concurrent processes (including the dining philosophers problem) and the inspiration for the programming language occam.
+Education and early life.
+Tony Hoare was born in Colombo, Ceylon (now Sri Lanka) to British parents; his father was a colonial civil servant and his mother was the daughter of a tea planter. Hoare was educated in England at the Dragon School in Oxford and the King's School in Canterbury. He then studied Classics and Philosophy ("Greats") at Merton College, Oxford. On graduating in 1956 he did 18 months National Service in the Royal Navy, where he learned Russian. He returned to the University of Oxford in 1958 to study for a postgraduate certificate in statistics, and it was here that he began computer programming, having been taught Autocode on the Ferranti Mercury by Leslie Fox. He then went to Moscow State University as a British Council exchange student, where he studied machine translation under Andrey Kolmogorov.
+Research and career.
+In 1960, Hoare left the Soviet Union and began working at Elliott Brothers Ltd, a small computer manufacturing firm located in London. There, he implemented the language ALGOL 60 and began developing major algorithms.
+He was involved with developing international standards in programming and informatics, as a member of the International Federation for Information Processing (IFIP) Working Group 2.1 on Algorithmic Languages and Calculi, which specified, maintains, and supports the languages ALGOL 60 and ALGOL 68.
+He became the Professor of Computing Science at the Queen's University of Belfast in 1968, and in 1977 returned to Oxford as the Professor of Computing to lead the Programming Research Group in the Oxford University Computing Laboratory (now Department of Computer Science, University of Oxford), following the death of Christopher Strachey. He is now an Emeritus Professor there, and is also a principal researcher at Microsoft Research in Cambridge, England.
+Hoare's most significant work has been in the following areas: his sorting and selection algorithm (Quicksort and Quickselect), Hoare logic, the formal language communicating sequential processes (CSP) used to specify the interactions between concurrent processes, structuring computer operating systems using the monitor concept, and the axiomatic specification of programming languages.
+Apologies and retractions.
+Speaking at a software conference in 2009, Tony Hoare apologized for inventing the null reference:
+For many years under his leadership, Hoare's Oxford department worked on formal specification languages such as CSP and Z. These did not achieve the expected take-up by industry, and in 1995 Hoare was led to reflect upon the original assumptions:
+Personal.
+In 1962, Hoare married Jill Pym, a member of his research team.
+

@@ -1,0 +1,16 @@
+
+ &lt;ns&gt;0&lt;/ns&gt;
+ &lt;id&gt;37210&lt;/id&gt;
+ &lt;revision&gt;
+ &lt;id&gt;874753094&lt;/id&gt;
+ &lt;parentid&gt;268343769&lt;/parentid&gt;
+ &lt;timestamp&gt;2018-12-21T10:11:06Z&lt;/timestamp&gt;
+ &lt;contributor&gt;
+ &lt;username&gt;EmausBot&lt;/username&gt;
+ &lt;id&gt;11292982&lt;/id&gt;
+ &lt;/contributor&gt;
+ &lt;minor /&gt;
+ &lt;comment&gt;Bot: Fixing double redirect to Domino (card game)&lt;/comment&gt;
+ &lt;model&gt;wikitext&lt;/model&gt;
+ &lt;format&gt;text/x-wiki&lt;/format&gt;
+

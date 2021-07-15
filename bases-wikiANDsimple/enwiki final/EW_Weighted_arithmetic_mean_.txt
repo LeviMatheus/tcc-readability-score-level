@@ -1,0 +1,107 @@
+
+The weighted arithmetic mean is similar to an ordinary arithmetic mean (the most common type of average), except that instead of each of the data points contributing equally to the final average, some data points contribute more than others. The notion of weighted mean plays a role in descriptive statistics and also occurs in a more general form in several other areas of mathematics.
+If all the weights are equal, then the weighted mean is the same as the arithmetic mean. While weighted means generally behave in a similar fashion to arithmetic means, they do have a few counterintuitive properties, as captured for instance in Simpson's paradox.
+Examples.
+Basic example.
+Given two school classes, one with 20 students, and one with 30 students, the grades in each class on a test were:
+The mean for the morning class is 80 and the mean of the afternoon class is 90. The unweighted mean of the two means is 85. However, this does not account for the difference in number of students in each class (20 versus 30); hence the value of 85 does not reflect the average student grade (independent of class). The average student grade can be obtained by averaging all the grades, without regard to classes (add all the grades up and divide by the total number of students):
+Or, this can be accomplished by weighting the class means by the number of students in each class. The larger class is given more "weight":
+Thus, the weighted mean makes it possible to find the mean average student grade without knowing each student's score. Only the class means and the number of students in each class are needed.
+Convex combination example.
+Since only the "relative" weights are relevant, any weighted mean can be expressed using coefficients that sum to one. Such a linear combination is called a convex combination.
+Using the previous example, we would get the following weights:
+Then, apply the weights like this: 
+Mathematical definition.
+Formally, the weighted mean of a non-empty finite multiset of data formula_6
+with corresponding non-negative weights formula_7 is
+which expands to:
+Therefore, data elements with a high weight contribute more to the weighted mean than do elements with a low weight. The weights cannot be negative. Some may be zero, but not all of them (since division by zero is not allowed).
+The formulas are simplified when the weights are normalized such that they sum up to formula_10, i.e.:
+For such normalized weights the weighted mean is then:
+Note that one can always normalize the weights by making the following transformation on the original weights:
+Using the normalized weight yields the same results as when using the original weights:
+The ordinary mean formula_15 is a special case of the weighted mean where all data have equal weights. 
+The "standard error of the weighted mean (unit input variances)", formula_16 can be shown via uncertainty propagation to be:
+Statistical properties.
+The weighted sample mean, formula_18, is itself a random variable. Its expected value and standard deviation are related to the expected values and standard deviations of the observations, as follows. For simplicity, we assume normalized weights (weights summing to one). 
+If the observations have expected values 
+then the weighted sample mean has expectation
+In particular, if the means are equal, formula_21, then the expectation of the weighted sample mean will be that value,
+For uncorrelated observations with variances formula_23, the variance of the weighted sample mean is 
+whose square root formula_25 can be called the "standard error of the weighted mean (general case)".
+Consequently, if all the observations have equal variance, formula_26, the weighted sample mean will have variance
+where formula_28. The variance attains its maximum value, formula_29, when all weights except one are zero. Its minimum value is found when all weights are equal (i.e., unweighted mean), in which case we have formula_30, i.e., it degenerates into the standard error of the mean, squared.
+Note that because one can always transform non-normalized weights to normalized weights all formula in this section can be adapted to non-normalized weights by replacing all formula_31.
+Variance weights.
+For the weighted mean of a list of data for which each element formula_32 potentially comes from a different probability distribution with known variance formula_33, one possible choice for the weights is given by the reciprocal of variance:
+The weighted mean in this case is:
+and the "standard error of the weighted mean (with variance weights)" is:
+Note this reduces to formula_37 when all formula_38.
+It is a special case of the general formula in previous section,
+The equations above can be combined to obtain:
+The significance of this choice is that this weighted mean is the maximum likelihood estimator of the mean of the probability distributions under the assumption that they are independent and normally distributed with the same mean.
+Correcting for over- or under-dispersion.
+Weighted means are typically used to find the weighted mean of historical data, rather than theoretically generated data. In this case, there will be some error in the variance of each data point. Typically experimental errors may be underestimated due to the experimenter not taking into account all sources of error in calculating the variance of each data point. In this event, the variance in the weighted mean must be corrected to account for the fact that formula_41 is too large. The correction that must be made is
+where formula_43 is the reduced chi-squared:
+The square root formula_45 can be called the "standard error of the weighted mean (variance weights, scale corrected)".
+When all data variances are equal, formula_38, they cancel out in the weighted mean variance, formula_47, which again reduces to the standard error of the mean (squared), formula_48, formulated in terms of the sample standard deviation (squared),
+Bootstrapping validation.
+It has been shown by bootstrapping methods that the following is an accurate estimation for the square of the standard error of the mean (general case):
+where formula_51. Further simplification leads to
+Weighted sample variance.
+Typically when a mean is calculated it is important to know the variance and standard deviation about that mean. When a weighted mean formula_53 is used, the variance of the weighted sample is different from the variance of the unweighted sample.
+The "biased" weighted sample variance formula_54 is defined similarly to the normal "biased" sample variance formula_55:
+where formula_57 for normalized weights. If the weights are "frequency weights" (and thus are random variables), it can be shown that formula_54 is the maximum likelihood estimator of formula_59 for iid Gaussian observations.
+For small samples, it is customary to use an unbiased estimator for the population variance. In normal unweighted samples, the "N" in the denominator (corresponding to the sample size) is changed to "N" − 1 (see Bessel's correction). In the weighted setting, there are actually two different unbiased estimators, one for the case of "frequency weights" and another for the case of "reliability weights".
+Frequency weights.
+If the weights are "frequency weights" (where a weight equals the number of occurrences), then the unbiased estimator is:
+This effectively applies Bessel's correction for frequency weights.
+For example, if values formula_61 are drawn from the same distribution, then we can treat this set as an unweighted sample, or we can treat it as the weighted sample formula_62 with corresponding weights formula_63, and we get the same result either way.
+If the frequency weights formula_64 are normalized to 1, then the correct expression after Bessel's correction becomes
+where the total number of samples is formula_66 (not formula_67). In any case, the information on total number of samples is necessary in order to obtain an unbiased correction, even if formula_68 has a different meaning other than frequency weight.
+Note that the estimator can be unbiased only if the weights are not standardized nor normalized, these processes changing the data's mean and variance and thus leading to a loss of the base rate (the population count, which is a requirement for Bessel's correction).
+Reliability weights.
+If the weights are instead non-random ("reliability weights"), we can determine a correction factor to yield an unbiased estimator. Assuming each random variable is sampled from the same distribution with mean formula_69 and actual variance formula_70, taking expectations we have,
+where formula_72 and formula_73. Therefore, the bias in our estimator is formula_74, analogous to the formula_75 bias in the unweighted estimator (also notice that formula_76 is the effective sample size). This means that to unbias our estimator we need to pre-divide by formula_77, ensuring that the expected value of the estimated variance equals the actual variance of the sampling distribution.
+The final unbiased estimate of sample variance is:
+where formula_79.
+The degrees of freedom of the weighted, unbiased sample variance vary accordingly from "N" − 1 down to 0.
+The standard deviation is simply the square root of the variance above.
+As a side note, other approaches have been described to compute the weighted sample variance.
+Weighted sample covariance.
+In a weighted sample, each row vector formula_80 (each set of single observations on each of the "K" random variables) is assigned a weight formula_81.
+Then the weighted mean vector formula_82 is given by
+And the weighted covariance matrix is given by:
+Similarly to weighted sample variance, there are two different unbiased estimators depending on the type of the weights.
+Frequency weights.
+If the weights are "frequency weights", the "unbiased" weighted estimate of the covariance matrix formula_85, with Bessel's correction, is given by:
+Note that this estimator can be unbiased only if the weights are not standardized nor normalized, these processes changing the data's mean and variance and thus leading to a loss of the base rate (the population count, which is a requirement for Bessel's correction).
+Reliability weights.
+In the case of "reliability weights", the weights are normalized:
+(If they are not, divide the weights by their sum to normalize prior to calculating formula_88:
+Then the weighted mean vector formula_82 can be simplified to
+and the "unbiased" weighted estimate of the covariance matrix formula_85 is:
+The reasoning here is the same as in the previous section.
+Since we are assuming the weights are normalized, then formula_94 and this reduces to:
+If all weights are the same, i.e. formula_96, then the weighted mean and covariance reduce to the unweighted sample mean and covariance above.
+Vector-valued estimates.
+The above generalizes easily to the case of taking the mean of vector-valued estimates. For example, estimates of position on a plane may have less certainty in one direction than another. As in the scalar case, the weighted mean of multiple estimates can provide a maximum likelihood estimate. We simply replace the variance formula_59 by the covariance matrix formula_98 and the arithmetic inverse by the matrix inverse (both denoted in the same way, via superscripts); the weight matrix then reads:
+The weighted mean in this case is:
+(where the order of the matrix-vector product is not commutative), in terms of the covariance of the weighted mean:
+For example, consider the weighted mean of the point [1 0] with high variance in the second component and [0 1] with high variance in the first component. Then
+then the weighted mean is:
+which makes sense: the [1 0] estimate is "compliant" in the second component and the [0 1] estimate is compliant in the first component, so the weighted mean is nearly [1 1].
+Accounting for correlations.
+In the general case, suppose that formula_105, formula_98 is the covariance matrix relating the quantities formula_32, formula_18 is the common mean to be estimated, and formula_109 is a design matrix equal to a vector of ones formula_110 (of length formula_111). The Gauss–Markov theorem states that the estimate of the mean having minimum variance is given by:
+and
+where:
+Decreasing strength of interactions.
+Consider the time series of an independent variable formula_115 and a dependent variable formula_116, with formula_111 observations sampled at discrete times formula_118. In many common situations, the value of formula_116 at time formula_118 depends not only on formula_32 but also on its past values. Commonly, the strength of this dependence decreases as the separation of observations in time increases. To model this situation, one may replace the independent variable by its sliding mean formula_122 for a window size formula_123.
+Exponentially decreasing weights.
+In the scenario described in the previous section, most frequently the decrease in interaction strength obeys a negative exponential law. If the observations are sampled at equidistant times, then exponential decrease is equivalent to decrease by a constant fraction formula_125 at each time step. Setting formula_126 we can define formula_123 normalized weights by
+where formula_88 is the sum of the unnormalized weights. In this case formula_88 is simply
+approaching formula_132 for large values of formula_123.
+The damping constant formula_134 must correspond to the actual decrease of interaction strength. If this cannot be determined from theoretical considerations, then the following properties of exponentially decreasing weights are useful in making a suitable choice: at step formula_135, the weight approximately equals formula_136, the tail area the value formula_137, the head area formula_138. The tail area at step formula_111 is formula_140. Where primarily the closest formula_111 observations matter and the effect of the remaining observations can be ignored safely, then choose formula_134 such that the tail area is sufficiently small.
+Weighted averages of functions.
+The concept of weighted average can be extended to functions. Weighted averages of functions play an important role in the systems of weighted differential and integral calculus.
+

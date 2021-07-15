@@ -1,0 +1,50 @@
+A water turbine is a rotary engine that takes energy from moving water.
+Water turbines were developed in the nineteenth century and were widely used for industrial power prior to electrical grids. Now they are mostly used for electric power generation. They harness a clean and renewable energy source.
+Swirl.
+Water wheels have been used for thousands of years for industrial power. Their main shortcoming is size, which limits the flow rate and head that can be used.
+The migration from water wheels to modern turbines took about one hundred years. Development occurred during the Industrial revolution, using scientific principles and methods. They also made extensive use of new materials and manufacturing methods developed at the time.
+The word turbine was coined by the French engineer Claude Bourdin in the early 19th century and is derived from the Latin word for "whirling" or a "vortex". The main difference between early water turbines and water wheels is a swirl component of the water which passes energy to a spinning rotor. This additional component of motion allowed the turbine to be smaller than a water wheel of the same power. They could process more water by spinning faster and could use much greater heads. (Later, impulse turbines were developed which didn't use swirl).
+Time line.
+Ján Andrej Segner developed a reactive water turbine in the mid-1700s. It had a horizontal axis and was a precursor to modern water turbines. It is a very simple machine that is still produced today for use in small hydro sites. Segner worked with Euler on some of the early mathematical theories of turbine design.
+In 1820, Jean-Victor Poncelet developed an inward-flow turbine.
+In 1826 Benoit Fourneyron developed an outward-flow turbine. This was an efficient machine (~80%) that sent water through a runner with blades curved in one dimension. The stationary outlet also had curved guides.
+In 1844 Uriah A. Boyden developed an outward flow turbine that improved on the performance of the Fourneyron turbine. Its runner shape was similar to that of a Francis turbine.
+In 1849, James B. Francis improved the inward flow reaction turbine to over 90% efficiency. He also conducted sophisticated tests and developed engineering methods for water turbine design. The Francis turbine, named for him, is the first modern water turbine. It is still the most widely used water turbine in the world today.
+Inward flow water turbines have a better mechanical arrangement and all modern reaction water turbines are of this design. Also, as the swirling mass of water spins into a tighter rotation, it tries to speed up to conserve energy. This property acts on the runner, in addition to the water's falling weight and swirling motion. Water pressure decreases to zero as it passes through the turbine blades and gives up its energy.
+Around 1890, the modern fluid bearing was invented, now universally used to support heavy water turbine spindles. As of 2002, fluid bearings appear to have a mean time between failures of more than 1300 years.
+Around 1913, Victor Kaplan created the Kaplan turbine, a propeller-type machine. It was an evolution of the Francis turbine but revolutionized the ability to develop low-head hydro sites.
+A new concept.
+All common water machines until the late 19th century (including water wheels) were reaction machines; water's "pressure" head acted on the machine and produced work. A reaction turbine needs to fully contain the water during energy transfer.
+In 1866, California millwright Samuel Knight invented a machine that worked off a completely different concept. Inspired by the high pressure jet systems used in hydraulic mining in the gold fields, Knight developed a bucketed wheel which captured the energy of a free jet, which had converted a high head (hundreds of vertical feet in a pipe or penstock) of water to kinetic energy. This is called an impulse or tangential turbine. The water's velocity, roughly twice the velocity of the bucket periphery, does a u-turn in the bucket and drops out of the runner at 0 velocity.
+In 1879, Lester Pelton, experimenting with a Knight Wheel, developed a double bucket design, which exhausted the water to the side, eliminating some energy loss of the Knight wheel which exhausted some water back against the center of the wheel. In about 1895, William Doble improved on Pelton's half-cylindrical bucket form with an elliptical bucket that included a cut in it to allow the jet a cleaner bucket entry. This is the modern form of the Pelton turbine which today achieves up to 92% efficiency. Pelton had been quite an effective promoter of his design and although Doble took over the Pelton company he did not change the name to Doble because it had brand name recognition.
+Turgo and Crossflow turbines were later impulse designs.
+Theory of operation.
+Flowing water is directed on to the blades of a turbine runner, creating a force on the blades. Since the runner is spinning, the force acts through a distance (force acting through a distance is the definition of work). In this way, energy is transferred from the water flow to the turbine.
+Water turbines are divided into two groups; reaction turbines and impulse turbines.
+Reaction turbines.
+Reaction turbines are acted on by water, which changes pressure as it moves through the turbine and gives up its energy. They must be encased to contain the water pressure (or suction), or they must be fully submerged in the water flow.
+Newton's Third Law of Motion describes the transfer of energy for reaction turbines.
+Most water turbines in use are reaction turbines. They are used in low and medium head applications.
+Impulse turbines.
+Impulse turbines change the velocity of a water jet. The jet pushes the turbine's curved blades which reverse the flow. The resulting change in momentum (impulse) causes a force on the turbine blades. Since the turbine is spinning, the force acts through a distance (work) and the diverted water flow is left with diminished energy.
+Prior to hitting the turbine blades, the water's pressure (potential energy) is converted to kinetic energy by a nozzle and focused on the turbine. No pressure change occurs at the turbine blades, and the turbine doesn't require a housing for operation.
+Newton's Second Law of Motion describes the transfer of energy for impulse turbines.
+Impulse turbines are most often used in very high head applications.
+Power.
+The power available in a stream of water is;
+formula_1
+Pumped storage.
+Some water turbines are designed for Pumped storage hydroelectricity. They can reverse flow and operate as a pump to fill a high reservoir during off-peak electrical hours, and then revert to a turbine for power generation during peak electrical demand. This type of turbine is usually a Deriaz or Francis in design.
+Efficiency.
+Large modern water turbines operate at mechanical efficiencies greater than 90% (not to be confused with thermodynamic efficiency).
+Design and application.
+Turbine selection is based mostly on the available water head, and less so on the available flow rate. In general, impulse turbines are used for high head sites, and reaction turbines are used for low head sites. Kaplan turbines are well-adapted to wide ranges of flow or head conditions, since their peak efficiency can be achieved over a wide range of flow conditions.
+Small turbines (mostly under 10 MW) may have horizontal shafts, and even fairly large bulb-type turbines up to 100 MW or so may be horizontal. Very large Francis and Kaplan machines usually have vertical shafts because this makes best use of the available head, and makes installation of a generator more economical. Pelton wheels may be either vertical or horizontal shaft machines because the size of the machine is so much less than the available head. Some impulse turbines use multiple water jets per runner to increase specific speed and balance shaft thrust.
+Maintenance.
+Turbines are designed to run for decades with very little maintenance of the main elements; overhaul intervals are on the order of several years. Maintenance of the runners and parts exposed to water include removal, inspection, and repair of worn parts.
+Normal wear and tear is pitting from cavitation, fatigue cracking, and abrasion from suspended solids in the water. Steel elements are repaired by welding, usually with stainless steel rod. Damage areas are cut or ground out, then welding back up to their original or an improved profile. Old turbine runners may have a significant amount of stainless steel added this way by the end of their lifetime. Elaborate welding procedures may be used to achieve the highest quality repairs.
+Other elements requiring inspection and repair during overhauls include bearings, packing box and shaft sleeves, servomotors, cooling systems for the bearings and generator coils, seal rings, wicket gate linkage elements and all surfaces.
+Environmental impact.
+Water turbines have had both positive and negative impacts on the environment.
+They are one of the cleanest producers of power, replacing the burning of fossil fuels and eliminating nuclear waste. They use a renewable energy source and are designed to operate for decades. They produce significant amounts of the world's electrical supply.
+Historically there have also been negative consequences. The rotating blades or gated runners of water turbines can interrupt the natural ecology of rivers, killing fish, stopping migrations, and disrupting peoples' livelihoods. For example, American Indian tribes in the Pacific Northwest had livelihoods built around salmon fishing, but aggressive dam-building destroyed their way of life. Since the late 20th century, it has been possible to construct hydropower systems that divert fish and other organisms away from turbine intakes without significant damage or loss of power; such systems require less cleaning but are substantially more expensive to construct. In the United States, it is now illegal to block the migration of fish so fish ladders must be provided by dam builders.

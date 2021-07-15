@@ -1,0 +1,63 @@
+
+In mathematics, Bernoulli's inequality (named after Jacob Bernoulli) is an inequality that approximates exponentiations of 1 + "x". It is often employed in real analysis.
+The inequality states that
+for every integer "r" ≥ 0 and every real number "x" ≥ −1.
+If the exponent "r" is even, then the inequality is valid for "all" real numbers "x". The strict version of the inequality reads
+for every integer "r" ≥ 2 and every real number "x" ≥ −1 with "x" ≠ 0.
+There is also a generalized version that says for every real number "r" ≥ 1 and real number "x" ≥ −1,
+while for 0 ≤ "r" ≤ 1 and real number "x" ≥ −1,
+Bernoulli's inequality is often used as the crucial step in the proof of other inequalities. It can itself be proved using mathematical induction, as shown below.
+History.
+Jacob Bernoulli first published the inequality in his treatise “Positiones Arithmeticae de Seriebus Infinitis” (Basel, 1689), where he used the inequality often.
+According to Joseph E. Hofmann, Über die Exercitatio Geometrica des M. A. Ricci (1963), p. 177, the inequality is actually due to Sluse in his Mesolabum (1668 edition), Chapter IV "De maximis &amp; minimis".
+Proof of the inequality.
+We proceed with mathematical induction in the following form:
+For "r" = 0,
+is equivalent to 1 ≥ 1 which is true.
+Similarly, for "r" = 1 we have
+Now suppose the statement is true for "r" = "k":
+Then it follows that 
+since formula_10 as well as formula_11. By the modified induction we conclude the statement is true for every non-negative integer "r".
+Generalizations.
+Generalization of exponent.
+The exponent "r" can be generalized to an arbitrary real number as follows: if "x" &gt; −1, then
+for "r" ≤ 0 or "r" ≥ 1, and
+for 0 ≤ "r" ≤ 1.
+This generalization can be proved by comparing derivatives.
+Again, the strict versions of these inequalities require "x" ≠ 0 and "r" ≠ 0, 1.
+Generalization of base.
+Instead of formula_14 the inequality holds also in the form formula_15 where formula_16 are real numbers, all greater than -1, all with the same sign. The Bernoulli's inequality is special case when formula_17. This generalized inequality can be proved by mathematical induction.
+Proof.
+In the first step we take formula_18. In this case inequality formula_19 is obviously true.
+In the second step we assume validity of inequality for formula_20 numbers and deduce validity for formula_21 numbers.
+We assume thatformula_22is valid. After multiplying both sides with a positive number formula_23 we get:
+formula_24
+As formula_25 have all equal sign, the products formula_26 are all positive numbers. So the quantity on the right-hand side can be bounded as follows:formula_27what was to be shown.
+Related inequalities.
+The following inequality estimates the "r"-th power of 1 + "x" from the other side. For any real numbers "x", "r" with "r" &gt; 0, one has
+where "e" = 2.718... This may be proved using the inequality (1 + 1/"k")"k" &lt; "e".
+Alternative form.
+An alternative form of Bernoulli's inequality for formula_29 and formula_30 is:
+This can be proved (for any integer "t") by using the formula for geometric series: (using "y" = 1 − "x")
+or equivalently formula_33
+Alternative proof.
+Using AM-GM 
+An elementary proof for formula_34 and "x" ≥ -1 can be given using weighted AM-GM. 
+Let formula_35 be two non-negative real constants. By weighted AM-GM on formula_36 with weights formula_35 respectively, we get
+Note that 
+and
+so our inequality is equivalent to
+After substituting formula_42 (bearing in mind that this implies formula_34) our inequality turns into 
+which is Bernoulli's inequality.
+Using the formula for geometric series
+Bernoulli's inequality 
+is equivalent to
+and by the formula for geometric series (using "y" = 1 + "x") we get
+which leads to
+Now if formula_45 then by monotony of the powers each summand formula_46, and therefore their sum is greater formula_47 and hence the product on the LHS of ().
+If formula_48 then by the same arguments formula_49 and thus
+all addends formula_50 are non-positive and hence so is their sum. Since the product of two non-positive numbers is non-negative, we get again
+ 
+Using the binomial theorem
+One can prove Bernoulli's inequality for "x" ≥ 0 using the binomial theorem. It is true trivially for "r" = 0, so suppose "r" is a positive integer. Then formula_51 Clearly formula_52 and hence formula_53 as required.
+

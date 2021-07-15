@@ -1,0 +1,157 @@
+
+The duodecimal system (also known as base 12, dozenal, or, rarely, uncial) is a positional notation numeral system using twelve as its base. The number twelve (that is, the number written as "12" in the base ten numerical system) is instead written as "10" in duodecimal (meaning "1 dozen and 0 units", instead of "1 ten and 0 units"), whereas the digit string "12" means "1 dozen and 2 units" (i.e. the same number that in decimal is written as "14"). Similarly, in duodecimal "100" means "1 gross", "1000" means "1 great gross", and "0.1" means "1 twelfth" (instead of their decimal meanings "1 hundred", "1 thousand", and "1 tenth").
+The number twelve, a superior highly composite number, is the smallest number with four non-trivial factors (2, 3, 4, 6), and the smallest to include as factors all four numbers (1 to 4) within the subitizing range, and the smallest abundant number. As a result of this increased factorability of the radix and its divisibility by a wide range of the most elemental numbers (whereas ten has only two non-trivial factors: 2 and 5), duodecimal representations fit more easily than decimal ones into many common patterns, as evidenced by the higher regularity observable in the duodecimal multiplication table. As a result, duodecimal has been described as the optimal number system. Of its factors, 2 and 3 are prime, which means the reciprocals of all 3-smooth numbers (such as 2, 3, 4, 6, 8, 9, 12, 16, 18, 24, 27, 32, 36, ...) have a terminating representation in duodecimal. In particular, the five most elementary fractions (, , , and ) all have a short terminating representation in duodecimal (0.6, 0.4, 0.8, 0.3 and 0.9, respectively), and twelve is the smallest radix with this feature (because it is the least common multiple of 3 and 4). This all makes it a more convenient number system for computing fractions than most other number systems in common use, such as the decimal, vigesimal, binary, octal and hexadecimal systems. Although the trigesimal and sexagesimal systems (where the reciprocals of all 5-smooth numbers terminate) do even better in this respect, this is at the cost of unwieldy multiplication tables and a much larger number of symbols to memorize.
+Various symbols have been used to stand for ten and eleven in duodecimal notation; Unicode includes () and (). Using these symbols, a count from zero to twelve in duodecimal reads: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, , , 10. These were implemented in Unicode 8.0 (2015), but most general Unicode fonts in use by current operating systems and browsers have not yet included them. A more common alternative is to use A and B, as in hexadecimal, and this page uses and .
+Origin.
+Languages using duodecimal number systems are uncommon. Languages in the Nigerian Middle Belt such as Janji, Gbiri-Niragu (Gure-Kahugu), Piti, and the Nimbia dialect of Gwandara; and the Chepang language of Nepal are known to use duodecimal numerals.
+Germanic languages have special words for 11 and 12, such as "eleven" and "twelve" in English. They come from Proto-Germanic *"ainlif" and *"twalif" (meaning, respectively "one left" and "two left"), suggesting a decimal rather than duodecimal origin. However, Old Norse used a duodecimal counting system, with its words for "one hundred and eighty" meaning 200 and "two hundred" meaning 240. On British Isles, this style of counting survived well into the middle ages as the long hundred.
+Historically, units of time in many civilizations are duodecimal. There are twelve signs of the zodiac, twelve months in a year, and the Babylonians had twelve hours in a day (although at some point this was changed to 24). Traditional Chinese calendars, clocks, and compasses are based on the twelve Earthly Branches. There are 12 inches in an imperial foot, 12 troy ounces in a troy pound, 12 old British pence in a shilling, 24 (12×2) hours in a day, and many other items counted by the dozen, gross (144, square of 12), or great gross (1728, cube of 12). The Romans used a fraction system based on 12, including the uncia which became both the English words "ounce" and "inch". Pre-decimalisation, Ireland and the United Kingdom used a mixed duodecimal-vigesimal currency system (12 pence = 1 shilling, 20 shillings or 240 pence to the pound sterling or Irish pound), and Charlemagne established a monetary system that also had a mixed base of twelve and twenty, the remnants of which persist in many places.
+The importance of 12 has been attributed to the number of lunar cycles in a year as well as the fact that humans have 12 finger bones (phalanges) on one hand (three in each of four fingers). It is possible to count to 12 with the thumb acting as a pointer, touching each finger bone in turn. A traditional finger counting system still in use in many regions of Asia works in this way and could help to explain the occurrence of numeral systems based on 12 and 60 besides those based on 10, 20, and 5. In this system, the one (usually right) hand counts repeatedly to 12, displaying the number of iterations on the other (usually left), until five dozens, i.e. the 60, are full.
+Notations and pronunciations.
+Transdecimal symbols.
+In a numbering system the base (twelve for duodecimal) must be written as 10, but there are numerous proposals for how to write duodecimal ten and eleven.
+To allow entry on typewriters, letters such as A and B (as in hexadecimal), T and E (initials of Ten and Eleven), X and E (X from the Roman numeral for ten), or X and Z are used. Some employ Greek letters such as δ (standing for Greek δέκα 'ten') and ε (for Greek ένδεκα 'eleven'), or τ and ε. Frank Emerson Andrews, an early American advocate for duodecimal, suggested and used in his book "New Numbers" an X and ℰ (script E, ).
+Edna Kramer in her 1951 book "The Main Stream of Mathematics" used a six-pointed asterisk (sextile) ⚹ and a hash (or octothorpe) #. The symbols were chosen because they were available on some typewriters; they are also on push-button telephones. This notation was used in publications of the Dozenal Society of America (DSA) from 1974–2008.
+From 2008 to 2015, the DSA used and , the symbols devised by William Addison Dwiggins.
+The Dozenal Society of Great Britain (DSGB) proposed symbols and . This notation, derived from Arabic digits by 180° rotation, was introduced by Isaac Pitman. In March 2013, a proposal was submitted to include the digit forms for ten and eleven propagated by the Dozenal Societies in the Unicode Standard. Of these, the British/Pitman forms were accepted for encoding as characters at code points and . They were included in the Unicode 8.0 release in June 2015 and are available in LaTeX as codice_1 and codice_2.
+After the Pitman digits were added to Unicode, the DSA took a vote and then began publishing content using the Pitman digits instead. They still use the letters X and E in ASCII text. As the Unicode characters are poorly supported, this page uses and .
+Other proposals are more creative or aesthetic; for example, many do not use any Arabic numerals under the principle of "separate identity."
+Base notation.
+There are also varying proposals of how to distinguish a duodecimal number from a decimal one. They include italicizing duodecimal numbers ""54" = 64", adding a "Humphrey point" (a semicolon instead of a decimal point) to duodecimal numbers "54;6 = 64.5", or some combination of the two. Others use subscript or affixed labels to indicate the base, allowing for more than decimal and duodecimal to be represented (for single letters 'z' from "dozenal" is used as 'd' would mean decimal) such as "54z = 64d," "5412 = 6410" or "doz 54 = dec 64."
+Pronunciation.
+The Dozenal Society of America suggested the pronunciation of ten and eleven as "dek" and "el". For the names of powers of twelve there are two prominent systems.
+"Do-gro-mo" system.
+In this system, the prefix "e"- is added for fractions.
+Multiple digits in this series are pronounced differently: 12 is "do two"; 30 is "three do"; 100 is "gro"; 9 is "el gro dek do nine"; 86 is "el gro eight do six"; 8,15 is "eight gro el do el mo, one gro five do dek"; and so on.
+Systematic Dozenal Nomenclature (SDN).
+This system uses "-qua" ending for the positive powers of 12 and "-cia" ending for the negative powers of 12, and an extension of the IUPAC systematic element names (with syllables dec and lev for the two extra digits needed for duodecimal) to express which power is meant.
+Advocacy and "dozenalism".
+William James Sidis used 12 as the base for his constructed language Vendergood in 1906, noting it being the smallest number with four factors and its prevalence in commerce.
+The case for the duodecimal system was put forth at length in Frank Emerson Andrews' 1935 book "New Numbers: How Acceptance of a Duodecimal Base Would Simplify Mathematics". Emerson noted that, due to the prevalence of factors of twelve in many traditional units of weight and measure, many of the computational advantages claimed for the metric system could be realized "either" by the adoption of ten-based weights and measure "or" by the adoption of the duodecimal number system.
+Both the Dozenal Society of America and the Dozenal Society of Great Britain promote widespread adoption of the base-twelve system. They use the word "dozenal" instead of "duodecimal" to avoid the more overtly base-ten terminology. However, the etymology of "dozenal" itself is also an expression based on base-ten terminology since "dozen" is a direct derivation of the French word "douzaine" which is a derivative of the French word for twelve, "douze", descended from Latin "duodecim".
+Since at least as far back as 1945 some members of the Dozenal Society of America and Dozenal Society of Great Britain have suggested that a more apt word would be "uncial". Uncial is a derivation of the Latin word "uncia", meaning "one-twelfth", and also the base-twelve analogue of the Latin word "decima", meaning "one-tenth".
+Mathematician and mental calculator Alexander Craig Aitken was an outspoken advocate of duodecimal:
+In media.
+In "Little Twelvetoes", American television series "Schoolhouse Rock!" portrayed an alien child using base-twelve arithmetic, using "dek", "el" and "doh" as names for ten, eleven and twelve, and Andrews' script-X and script-E for the digit symbols.
+Duodecimal systems of measurements.
+Systems of measurement proposed by dozenalists include:
+Comparison to other number systems.
+The number 12 has six factors, which are 1, 2, 3, 4, 6, and 12, of which 2 and 3 are prime. The decimal system has only four factors, which are 1, 2, 5, and 10, of which 2 and 5 are prime. Vigesimal (base 20) adds two factors to those of ten, namely 4 and 20, but no additional prime factor. Although twenty has 6 factors, 2 of them prime, similarly to twelve, it is also a much larger base, and so the digit set and the multiplication table are much larger. Binary has only two factors, 1 and 2, the latter being prime. Hexadecimal (base 16) has five factors, adding 4, 8 and 16 to those of 2, but no additional prime. Trigesimal (base 30) is the smallest system that has three different prime factors (all of the three smallest primes: 2, 3 and 5) and it has eight factors in total (1, 2, 3, 5, 6, 10, 15, and 30). Sexagesimal—which the ancient Sumerians and Babylonians among others actually used—adds the four convenient factors 4, 12, 20, and 60 to this but no new prime factors. The smallest system that has four different prime factors is base 210 and the pattern follows the primorials. In all base systems, there are similarities to the representation of multiples of numbers which are one less than the base.
+Conversion tables to and from decimal.
+To convert numbers between bases, one can use the general conversion algorithm (see the relevant section under positional notation). Alternatively, one can use digit-conversion tables. The ones provided below can be used to convert any duodecimal number between 0;01 and ,; to decimal, or any decimal number between 0.01 and 999,999.99 to duodecimal. To use them, the given number must first be decomposed into a sum of numbers with only one significant digit each. For example:
+This decomposition works the same no matter what base the number is expressed in. Just isolate each non-zero digit, padding them with as many zeros as necessary to preserve their respective place values. If the digits in the given number include zeroes (for example, 102,304.05), these are, of course, left out in the digit decomposition (102,304.05 = 100,000 + 2,000 + 300 + 4 + 0.05). Then the digit conversion tables can be used to obtain the equivalent value in the target base for each digit. If the given number is in duodecimal and the target base is decimal, we get:
+Now, because the summands are already converted to base ten, the usual decimal arithmetic is used to perform the addition and recompose the number, arriving at the conversion result:
+ Duodecimal -----&gt; Decimal
+ 100,000 = 248,832
+ 20,000 = 41,472
+ 3,000 = 5,184
+ 400 = 576
+ 50 = 60
+ + 6 = + 6
+ 0;7 = 0.58333333333...
+ 0;08 = 0.05555555555...
+ 123,456;78 = 296,130.63888888888...
+That is, 123,456.78 equals 296,130.63 ≈ 296,130.64
+If the given number is in decimal and the target base is duodecimal, the method is basically same. Using the digit conversion tables:
+ 100,000 + 20,000 + 3,000 + 400 + 50 + 6 + 0.7 + 0.08 = 49,54 + ,68 + 1,80 + 294 + 42 + 6 + 0;84972497249724972497... + 0;062...
+However, in order to do this sum and recompose the number, now the addition tables for the duodecimal system have to be used, instead of the addition tables for decimal most people are already familiar with, because the summands are now in base twelve and so the arithmetic with them has to be in duodecimal as well. In decimal, 6 + 6 equals 12, but in duodecimal it equals 10; so, if using decimal arithmetic with duodecimal numbers one would arrive at an incorrect result. Doing the arithmetic properly in duodecimal, one gets the result:
+ Decimal -----&gt; Duodecimal
+ 100,000 = 49,54
+ 20,000 = ,68
+ 3,000 = 1,80
+ 400 = 294
+ 50 = 42
+ + 6 = + 6
+ 0;7 = 0.84972497249724972497...
+ 0;08 = 0.062...
+ 123,456.78 = 5,540.943...
+That is, 123,456.78 equals 5,540;9... ≈ 5,540;94
+Divisibility rules.
+This section is about the divisibility rules in duodecimal.
+Any integer is divisible by 1.
+If a number is divisible by 2 then the unit digit of that number will be 0, 2, 4, 6, 8 or .
+If a number is divisible by 3 then the unit digit of that number will be 0, 3, 6 or 9.
+If a number is divisible by 4 then the unit digit of that number will be 0, 4 or 8.
+To test for divisibility by 5, double the units digit and subtract the result from the number formed by the rest of the digits. If the result is divisible by 5 then the given number is divisible by 5.
+This rule comes from 21(5*5)
+Examples: &lt;br&gt;
+13     rule =&gt; |1-2*3| = 5 which is divisible by 5.&lt;br&gt;
+25   rule =&gt; |2-2*5| = 20(5*70) which is divisible by 5(or apply the rule on 20).
+OR
+To test for divisibility by 5, subtract the units digit and triple of the result to the number formed by the rest of the digits. If the result is divisible by 5 then the given number is divisible by 5.
+This rule comes from 13(5*3)
+Examples: &lt;br&gt;
+13     rule =&gt; |3-3*1| = 0 which is divisible by 5.&lt;br&gt;
+25   rule =&gt; |5-3*2| = 81(5*195) which is divisible by 5(or apply the rule on 81).
+OR
+Form the alternating sum of blocks of two from right to left. If the result is divisible by 5 then the given number is divisible by 5.
+This rule comes from 101, since 101 = 5*25, thus this rule can be also tested for the divisibility by 25.
+Example:
+97,374,627 =&gt; 27-46+37-97 = -7 which is divisible by 5.
+If a number is divisible by 6 then the unit digit of that number will be 0 or 6.
+To test for divisibility by 7, triple the units digit and add the result to the number formed by the rest of the digits. If the result is divisible by 7 then the given number is divisible by 7.
+This rule comes from 2(7*5)
+Examples:&lt;br&gt;
+12     rule =&gt; |3*2+1| = 7 which is divisible by 7.&lt;br&gt;
+271    rule =&gt; |3*+271| = 29(7*4) which is divisible by 7(or apply the rule on 29).
+OR
+To test for divisibility by 7, subtract the units digit and double the result from the number formed by the rest of the digits. If the result is divisible by 7 then the given number is divisible by 7.
+This rule comes from 12(7*2)
+Examples:&lt;br&gt;
+12     rule =&gt; |2-2*1| = 0 which is divisible by 7.&lt;br&gt;
+271    rule =&gt; |-2*271| = 513(7*89) which is divisible by 7(or apply the rule on 513).
+OR
+To test for divisibility by 7, 4 times the units digit and subtract the result from the number formed by the rest of the digits. If the result is divisible by 7 then the given number is divisible by 7.
+This rule comes from 41(7*7)
+Examples:&lt;br&gt;
+12     rule =&gt; |4*2-1| = 7 which is divisible by 7.&lt;br&gt;
+271    rule =&gt; |4*-271| = 235(7*3) which is divisible by 7(or apply the rule on 235).
+OR
+Form the alternating sum of blocks of three from right to left. If the result is divisible by 7 then the given number is divisible by 7.
+This rule comes from 1001, since 1001 = 7*11*17, thus this rule can be also tested for the divisibility by 11 and 17.
+Example:
+386,967,443 =&gt; 443-967+386 = -168 which is divisible by 7.
+If the 2-digit number formed by the last 2 digits of the given number is divisible by 8 then the given number is divisible by 8.
+Example: 148, 4120
+ rule =&gt; since 48(8*7) divisible by 8, then 148 is divisible by 8.
+ rule =&gt; since 20(8*3) divisible by 8, then 4120 is divisible by 8.
+If the 2-digit number formed by the last 2 digits of the given number is divisible by 9 then the given number is divisible by 9.
+Example: 7423, 8330
+ rule =&gt; since 23(9*3) divisible by 9, then 7423 is divisible by 9.
+ rule =&gt; since 30(9*4) divisible by 9, then 8330 is divisible by 9.
+If the number is divisible by 2 and 5 then the number is divisible by .
+If the sum of the digits of a number is divisible by then the number is divisible by (the equivalent of casting out nines in decimal).
+Example: 29, 6113
+ rule =&gt; 2+9 = which is divisible by , then 29 is divisible by .
+ rule =&gt; 6+1++1+3 = 1 which is divisible by , then 6113 is divisible by .
+If a number is divisible by 10 then the unit digit of that number will be 0.
+Sum the alternate digits and subtract the sums. If the result is divisible by 11 the number is divisible by 11 (the equivalent of divisibility by eleven in decimal).
+Example: 66, 9427
+ rule =&gt; |6-6| = 0 which is divisible by 11, then 66 is divisible by 11.
+ rule =&gt; |(9+2)-(4+7)| = |-| = 0 which is divisible by 11, then 9427 is divisible by 11.
+If the number is divisible by 2 and 7 then the number is divisible by 12.
+If the number is divisible by 3 and 5 then the number is divisible by 13.
+If the 2-digit number formed by the last 2 digits of the given number is divisible by 14 then the given number is divisible by 14.
+Example: 1468, 7394
+ rule =&gt; since 68(14*5) divisible by 14, then 1468 is divisible by 14.
+ rule =&gt; since 94(14*7) divisible by 14, then 7394 is divisible by 14.
+Fractions and irrational numbers.
+Fractions.
+Duodecimal fractions may be simple:
+or complicated:
+As explained in recurring decimals, whenever an irreducible fraction is written in radix point notation in any base, the fraction can be expressed exactly (terminates) if and only if all the prime factors of its denominator are also prime factors of the base. Thus, in base-ten (= 2 × 5) system, fractions whose denominators are made up solely of multiples of 2 and 5 terminate:  = ,  =  and  =  can be expressed exactly as 0.125, 0.05 and 0.002 respectively. and , however, recur (0.333... and 0.142857142857...). In the duodecimal (= 2 × 2 × 3) system, is exact; and recur because they include 5 as a factor; is exact; and recurs, just as it does in decimal.
+The number of denominators which give terminating fractions within a given number of digits, say "n", in a base "b" is the number of factors (divisors) of "bn", the "n"th power of the base "b" (although this includes the divisor 1, which does not produce fractions when used as the denominator). The number of factors of "bn" is given using its prime factorization.
+For decimal, 10"n" = 2"n" × 5"n". The number of divisors is found by adding one to each exponent of each prime and multiplying the resulting quantities together, so the number of factors of 10"n" is ("n" + 1)("n" + 1) = ("n" + 1)2.
+For example, the number 8 is a factor of 103 (1000), so 1/8 and other fractions with a denominator of 8 cannot require more than 3 fractional decimal digits to terminate. 5/8 = 0.625ten
+For duodecimal, 12"n" = 22"n" × 3"n". This has (2"n" + 1)("n" + 1) divisors. The sample denominator of 8 is a factor of a gross (122 = 144), so eighths cannot need more than two duodecimal fractional places to terminate. 5/8 = 0;76twelve
+Because both ten and twelve have two unique prime factors, the number of divisors of "bn" for "b" = 10 or 12 grows quadratically with the exponent "n" (in other words, of the order of "n"2).
+Recurring digits.
+The Dozenal Society of America argues that factors of 3 are more commonly encountered in real-life division problems than factors of 5. Thus, in practical applications, the nuisance of repeating decimals is encountered less often when duodecimal notation is used. Advocates of duodecimal systems argue that this is particularly true of financial calculations, in which the twelve months of the year often enter into calculations.
+However, when recurring fractions "do" occur in duodecimal notation, they are less likely to have a very short period than in decimal notation, because 12 (twelve) is between two prime numbers, 11 (eleven) and 13 (thirteen), whereas ten is adjacent to the composite number 9. Nonetheless, having a shorter or longer period doesn't help the main inconvenience that one does not get a finite representation for such fractions in the given base (so rounding, which introduces inexactitude, is necessary to handle them in calculations), and overall one is more likely to have to deal with infinite recurring digits when fractions are expressed in decimal than in duodecimal, because one out of every three consecutive numbers contains the prime factor 3 in its factorization, whereas only one out of every five contains the prime factor 5. All other prime factors, except 2, are not shared by either ten or twelve, so they do not
+influence the relative likeliness of encountering recurring digits (any irreducible fraction that contains any of these other factors in its denominator will recur in either base). Also, the prime factor 2 appears twice in the factorization of twelve, whereas only once in the factorization of ten; which means that most fractions whose denominators are powers of two will have a shorter, more convenient terminating representation in duodecimal than in decimal representation (e.g. 1/(22) = 0.25ten = 0.3twelve; 1/(23) = 0.125ten = 0.16twelve; 1/(24) = 0.062510 = 0.0912; 1/(25) = 0.0312510 = 0.04612; etc.).
+The duodecimal period length of 1/"n" are (in base 10)
+The duodecimal period length of 1/("n"th prime) are (in base 10)
+Smallest prime with duodecimal period "n" are (in base 10)
+Irrational numbers.
+The representations of irrational numbers in any positional number system (including decimal and duodecimal) neither terminate nor repeat. The following table gives the first digits for some important algebraic and transcendental numbers in both decimal and duodecimal.
+

@@ -1,0 +1,58 @@
+
+TECO (Tee'koh / ), Text Editor &amp; Corrector is both a character-oriented text editor and a programming language, that was developed in 1962 for use on Digital Equipment Corporation computers, and has since become available on PCs and Unix. Dan Murphy developed TECO while a student at the Massachusetts Institute of Technology (MIT).
+According to Murphy, the initial acronym was "Tape Editor and Corrector" because "punched paper tape was the only medium for the storage of program source on our PDP-1. There was no hard disk, floppy disk, magnetic tape (magtape), or network." By the time TECO was made available for general use, the name had become "Text Editor and Corrector," since even the PDP-1 version
+by then supported other media. It was subsequently modified by many other people and is a direct ancestor of Emacs, which was originally implemented in TECO macros.
+Description.
+TECO is not only an editor but also an interpreted programming language for text manipulation. Arbitrary programs (called "macros") for searching and modifying text give it great power. Unlike regular expressions, however, the language was imperative, though some versions had an "or" operator in string search.
+TECO does not really have syntax; each character in a program is an imperative command, dispatched to its corresponding routine. That routine may read further characters from the program stream (giving the effect of string arguments), change the position of the "program counter" (giving the effect of control structures), or push values onto a value stack (giving the effect of nested parentheses). But there is nothing to prevent operations like jumping into the middle of a comment, since there is no syntax and no parsing.
+TECO ignores case and whitespace (except tab, which is an insertion command).
+A satirical essay on computer programming, Real Programmers Don't Use Pascal, suggested that a common game for TECO fans was to enter their name as a command sequence, and then try to work out what would happen. The same essay in describing TECO coined the acronym "YAFIYGI", meaning "You Asked For It You Got It" (like WYSIWYG).
+Impact.
+Richard Stallman's Emacs editor was originally implemented in TECO. TECO became more widely used following a Digital Equipment Corporation (DEC) PDP-6 implementation developed at MIT's Project MAC in 1964. This implementation continuously displayed the edited text visually on a CRT screen, and was used as an interactive online editor. Later versions of TECO were capable of driving full-screen mode on various DEC RS232 video terminals such as the VT52 or VT100.
+TECO was available for several operating systems and computers, including the PDP-1 computer, the PDP-8 (under OS/8), the Incompatible Timesharing System (ITS) on the PDP-6 and PDP-10, and TOPS-10 and TOPS-20 on the PDP-10. A version of TECO was provided with all DEC operating systems; the version available for RT11 was able to drive the GT40 graphics display while the version available for RSTS/E was implemented as a multi-user run-time system and could be used as the user's complete operating environment; the user never actually had to exit TECO. The VTEDIT (Video Terminal Editor) TECO macro was commonly used on RSTS/E and VAX systems with terminals capable of direct-cursor control (e.g. VT52 and VT100) to provide a full-screen visual editor similar in function to the contemporaneously developed Emacs.
+TECO continues to be included in OpenVMS by VSI, and is invoked with the codice_1 command.
+A descendant of the version DEC distributed for the PDP-10 is still available on the Internet, along with several partial implementations for the MS-DOS/Microsoft Windows environment.
+History.
+TECO was originally developed at MIT in around 1963 by Daniel L. Murphy for use on two PDP-1 computers, belonging to different departments, both housed in MIT's Building 26. On these machines, the normal development process involved the use of a Friden Flexowriter to prepare source code offline on a continuous strip of punched paper tape. Programmers of the big IBM mainframes customarily punched their source code on cards, using key punches which printed human-readable dot-matrix characters along the top of every card at the same time as they punched each machine-readable character. Thus IBM programmers could read, insert, delete, and move lines of code by physically manipulating the cards in the deck. Punched paper tape offered no such amenities, leading to the development of online editing.
+An early editor for the PDP-1 was named "Expensive Typewriter". Written by Stephen D. Piner, it was the most rudimentary imaginable line-oriented editor, lacking even search-and-replace capabilities. Its name was chosen as a wry poke at an earlier, rather bloated, editor called "Colossal Typewriter". Even in those days, online editing could save time in the debugging cycle. Another program written by the PDP-1 hackers was Expensive Desk Calculator, in a similar vein.
+The original stated purpose of TECO was to make more efficient use of the PDP-1. As envisioned in the manual, rather than performing editing "expensively" by sitting at a console, one would simply examine the faulty text and prepare a "correction tape" describing the editing operations to be performed on the text. One would efficiently feed the source tape and the correction tape into the PDP-1 via its high-speed (200 characters per second) reader. Running TECO, it immediately would punch an edited tape with its high-speed (60 characters per second) punch. One could then immediately proceed to load and run the assembler, with no time wasted in online editing.
+TECO's then-sophisticated searching operations were motivated by the fact that the offline Flexowriter printouts were not line-numbered. Editing locations therefore needed to be specified by context rather than by line number. The various looping and conditional constructs (which made TECO Turing-complete) were included in order to provide sufficient descriptive power for the correction tape. The terse syntax minimized the number of keystrokes needed to prepare the correction tape.
+The correction tape was a program, and required debugging just like any other program. The pitfalls of even the simplest global search-and-replace soon became evident. In practice, TECO editing was performed online just as it had been with Expensive Typewriter (although TECO was certainly a more feature-complete editor than Expensive Typewriter, so editing was much more efficient with TECO). The original PDP-1 version had no screen display. The only way to observe the state of the text during the editing process was to type in commands that would cause the text (or portions thereof) to be typed out on the console typewriter.
+By 1964, a special Version of TECO ("TECO-6") had been implemented on the PDP-6 at MIT. That version supported visual editing, using a screen display that showed the contents of the editing buffer in real time, updating as it changed. Amongst the creators of TECO-6 were Richard Greenblatt and Stewart Nelson.
+At MIT, TECO development continued in the fall of 1971. Carl Mikkelsen had implemented a real-time edit mode loosely based on the TECO-6 graphic console commands, but working with the newly installed Datapoint-3300 CRT text displays. The TECO buffer implementation, however, was terribly inefficient for processing single character insert or delete functions—editing consumed 100% of the PDP-10. With Richard Greenblatt's support, in summer of 1972 Carl reimplemented the TECO buffer storage and reformed the macros as native PDP-10 code. As entering the real-time mode was by typing , this was known as control-R mode. At the same time, Rici Liknaitski added input-time macros (), which operated as the command string was read rather than when executed. Read-time macros made the TECO auxiliary text buffers, called Q-registers, more useful. Carl expanded the Q-register name space. With read-time macros, a large Q-register name space, and efficient buffer operations, the stage was set for binding each key to a macro. These edit macros evolved into Emacs.
+The VMS implementation has a long history - it began as TECO-8, implemented in PDP-8 assembly. This code was translated into PDP-11 assembly to produce TECO-11. TECO-11 was used in early versions of VAX/VMS in PDP-11 compatibility mode. It was later translated from PDP-11 assembly into VAX assembly to produce TECO32. TECO32 was then converted with the VEST and AEST binary translation utilities to make it compatible with OpenVMS on the Alpha and Itanium respectively.
+OS/8 MUNG command.
+The OS/8 CCL MUNG command invoked TECO to read and execute the specified .TE TECO macro. Optional command line parameters gave added adaptability.
+As a programmer's tool.
+During and shortly following the years of the punched card era, there were source programs that had begun as punched card-based. Comments were often a series of lines that included single marginal asterisks and top/bottom full lines of asterisks. Once the cards were transferred online, it was a chore to realign the marginal stars. TECO to the rescue...
+As a programming language.
+The obscurity of the TECO programming language is described in the following quote from "Real Programmers Don't Use Pascal", a letter from Ed Post to Datamation, July 1983:
+According to Craig Finseth, author of "The Craft of Text Editing", TECO has been described as a "write-only" language, implying that once a program is written in TECO, it is extremely difficult to comprehend what it did without appropriate documentation.
+Despite its syntax, the TECO command language was tremendously powerful, and clones are still available for MS-DOS and for Unix.
+TECO commands are characters (including control-characters), and the prompt is a single asterisk:
+The escape key displays as a dollar sign, pressed once it delineates the end of a command requiring an argument and pressed twice initiates the execution of the entered commands:
+Example code.
+Given a file named hello.c with the following contents:
+ int main(int argc, char **argv)
+ printf("Hello world!\n");
+ return 0;
+one could use the following TECO session (noting that the prompt is "*" and "$" is how ESC is echoed) to change "Hello" into "Goodbye":
+ printf("Hello world!\n"); The line
+ printf("Goodbye world!\n"); The updated line
+These two example programs are a simple interchange sort of the current text buffer, based on the 1st character of each line, taken from the PDP-11 TECO User's Guide. A "goto" and "structured" version are shown.
+Example 1.
+ !START! j 0aua ! jump to beginning, load 1st char in register A !
+ !CONT! l 0aub ! load first char of next line in register B !
+ qa-qb"g xa k -l ga 1uz ' ! if A&gt;B, switch lines and set flag in register Z !
+ qbua ! load B into A !
+ l z-."g -l @o/CONT/ ' ! loop back if another line in buffer !
+ qz"g 0uz @o/START/ ' ! repeat if a switch was made on last pass !
+Example 2.
+ 0uz ! clear repeat flag !
+ &lt;j 0aua l ! load 1st char into register A !
+ &lt;0aub ! load 1st char of next line into B !
+ qa-qb"g xa k -l ga -1uz ' ! if A&gt;B, switch lines and set flag !
+ qbua ! load B into A !
+ l .-z;&gt; ! loop back if another line in buffer !
+ qz;&gt; ! repeat if a switch was made last pass !
+

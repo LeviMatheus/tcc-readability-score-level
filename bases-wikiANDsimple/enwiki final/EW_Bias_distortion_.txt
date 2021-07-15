@@ -1,0 +1,4 @@
+
+In telecommunication, the term bias distortion has the following meanings: 
+Bias distortion is expressed in percent of the system-specified unit interval.
+

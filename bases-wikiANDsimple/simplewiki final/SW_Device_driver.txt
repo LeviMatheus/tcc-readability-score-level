@@ -1,0 +1,5 @@
+A driver is a program that lets the operating system communicate with the computer hardware.
+Computer parts need a driver because they do not use standard commands. (Ex.: ATI and Nvidia graphic cards do the same jobs, but not the same way). Different operating systems also need different drivers, a driver written for Linux can not be used by Microsoft Windows.
+Some other parts do not need drivers because they use a kind of standard; the operating system recognizes those parts and knows how to use those parts.
+Compatibility Issues.
+Using the wrong device driver can prevent hardware from operating correctly. For example, a HP printer will not work with a computer that only has an Canon driver. Keeping drivers up-to-date avoids problems when using new programs (such as Windows Vista) with the piece of hardware.

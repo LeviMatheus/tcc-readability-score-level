@@ -1,0 +1,3 @@
+Parsix GNU/Linux is a Linux distribution available as a live CD that can also be installed on a hard disk. It is based on Debian "testing" and comes from Kanotix. Opposite to Kanotix, its desktop environment is GNOME. It is made in Iran, and supports many languages. It includes the xFarDic multi-language dictionary and also Persian fonts.
+History.
+The Parsix GNU/Linux distribution was first announced on January 25, 2005 by Alan Baghumian.

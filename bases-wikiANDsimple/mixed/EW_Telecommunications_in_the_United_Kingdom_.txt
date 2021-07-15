@@ -1,0 +1,51 @@
+
+Telecommunications in the United Kingdom have evolved from the early days of the telegraph to modern broadband and mobile phone networks with Internet services.
+History.
+National Telephone Company (NTC) was a British telephone company from 1881 until 1911 which brought together smaller local companies in the early years of the telephone. Under the Telephone Transfer Act 1911 it was taken over by the General Post Office (GPO) in 1912.
+Until 1982, the main civil telecommunications system in the UK was a state monopoly known (since reorganisation in 1969) as Post Office Telecommunications. Broadcasting of radio and television was a duopoly of the BBC and Independent Broadcasting Authority (IBA): these two organisations controlled all broadcast services, and directly owned and operated the broadcast transmitter sites. Mobile phone and Internet services did not then exist. The civil telecoms monopoly ended when Mercury Communications arrived in 1983. The Post Office system evolved into British Telecom and was privatised in 1984. 
+Broadcast transmitters, which belonged to the BBC and IBA, were privatised during the 1990s and now belong to Babcock International and Arqiva.
+British Rail Telecommunications was created in 1992 by British Rail (BR). It was the largest private telecoms network in Britain, consisting of 17,000 route kilometres of fibre optic and copper cable which connected every major city and town in the country and provided links to continental Europe through the Channel Tunnel. BR also operated its own national trunked radio network providing dedicated train-to-shore mobile communications, and in the early 1980s BR helped establish Mercury Communications', now C&amp;WC, core infrastructure by laying a resilient 'figure-of-eight' fibre optic network alongside Britain's railway lines, spanning London, Bristol, Birmingham, Leeds and Manchester.
+Regulation of communications has changed many times during the same period, and most of the bodies have been merged into Ofcom, the independent regulator and competition authority for the UK communications industries.
+Infrastructure.
+Domestic trunk infrastructure.
+All communications trunks are now digital. Most are carried via national optical fibre networks. There are several companies with national fibre networks, including BT, Level 3 Communications, Virgin Media, Cable &amp; Wireless, Easynet and Thus. Microwave links are used up to the 155 Mbit/s level, but are seldom cost-effective at higher bit rates.
+International trunks.
+The UK is a focal point for many of the world's submarine communications cables, which are now mostly digital optical fibre cables. There are many satellite links too, but these now provide a relatively small part of the international bandwidth.
+Broadcast transmission.
+Most broadcasting organisations, BBC and commercial, lease transmission facilities from one or more of the transmission companies. The main exception is the smaller local radio stations, some of which find it more cost-effective to provide their own.
+Fixed phone lines.
+BT is still the main provider of fixed telephones lines, both POTS and ISDN, and it has a universal service obligation, although companies can now contract Openreach to install a phoneline on their behalf, rather than telling the customer to get BT to install it, then transfer over.
+Virgin Media is the second biggest player in the residential telephone line market.
+Other companies provide fixed telephone lines too, but mainly to large companies in the major cities.
+There are many other providers who sell fixed telephone services carried over BT lines. They have no network infrastructure of their own.
+Mobile phone networks.
+First generation networks.
+Both companies ran ETACS analogue mobile phone networks.
+Third generation networks.
+The four 2G companies all won 3G licences in a competitive auction, as did new entrant known as Hutchison 3G, which branded its network as 3. They have now rolled out their networks. Hutchison 3G does not operate a 2G network, previously having agreements with Orange and O2 to allow roaming on their 2G networks.
+The third generation stems from technological improvements and is in essence an improvement of the available bandwidth, enabling new services to be provided to customers. Such services include streaming of live radio or video, video calls and live TV.
+Fourth generation networks.
+Long-term evolution (LTE) services are currently being rolled out. EE launched their 4G network in October 2012, using part of their existing 1800 MHz spectrum. O2 and Vodafone will use the 800 MHz band with Vodafone also using the 2600 MHz band for their services. O2 launched its 4G network on 29 August 2013, initially in London, Leeds and Bradford with a further 13 cities added by the end of 2013. Vodafone commenced its 4G services on 29 August 2013, initially in London with 12 more cities to be added by the end of 2013. 3 commenced LTE services in London, Birmingham, Manchester, Reading, Wolverhampton and the Black country in December 2013 albeit with a limited number of subscribers to evaluate its implementation. Full rollout to remaining subscribers commenced on 5 February 2014 on a phased basis via a silent SIM update. A 50 further cities and over 200 towns are scheduled to receive LTE coverage by the end of 2014. As a condition of acquiring part of EE's 1800 MHz spectrum for 4G use, 3 were unable to use it until October 2013.
+Services.
+Telephones.
+Fixed telephones.
+In the UK, there were 35 million (2002) main line telephones.
+The telephone service in the United Kingdom was originally provided by private companies and local city councils, but by 1912–13 all except the telephone service of Kingston upon Hull, Yorkshire and Guernsey had been bought out by the General Post Office. Post Office Telephones also operated telephone services in Jersey and the Isle of Man until 1969 when the islands took over responsibility for their own postal and telephone services.
+Post Office Telephones was reorganised in 1980–81 as "British Telecommunications" ("British Telecom", or "BT"), and was the first nationalised industry to be privatised by the Conservative government. The Hull Telephone Department was itself sold by Hull City Council as "Kingston Communications" in the late 1990s and celebrated its centenary in 2004.
+Mobile telephones.
+There are more mobile phones than people in the UK. In 2011 there were 82 million subscriptions in the UK. There were 76 million in 2008 and 55 million in January 2005.
+Each of the main network operators sells mobile phone services to the public. In addition, companies such as Virgin Mobile UK, Tesco Mobile and Global act as mobile virtual network operators, using the infrastructure of other companies.
+Numbering.
+There is a set numbering plan for phone numbers within the United Kingdom, which is regulated by the Office of Communications (Ofcom), which replaced the Office of Telecommunications (Oftel) in 2003. Each number consists of an area code—one for each of the large towns and cities and their surroundings—and a subscriber number—the individual number.
+Mobile IMSI is the actual number assigned to it the mobile telephone number, and provided with individual license to the MNOs.
+Television and radio broadcasting.
+Radio.
+In 1998 there were 663 radio broadcast stations: 219 on AM, 431 on FM and 3 on shortwave. There were 84.5 million radio receiver sets (1997). Today there are around 600 licensed radio stations in the UK.
+Television.
+In 1997 there were 30.5 million households with television sets.
+Analogue television broadcasts ceased in the UK in 2012, replaced by the Digital Terrestrial Service Freeview which operates via the DVB-T and DVB-T2 (for HD broadcasts) standards. Digital Satellite is provided by BSkyB (subscription and free services) and Freesat (free to air services only) from services at 28.2° East. Digital cable is primarily provided by Virgin Media.
+Internet.
+The country code top-level domain for United Kingdom web pages is codice_1. Nominet UK is the codice_1. Network Information Centre and second-level domains must be used.
+At the end of 2004, 52% of households (12.6 million) were reported to have access to the internet (Source: Office for National Statistics Omnibus Survey). broadband connections accounted for 50.7% of all internet connections in July 2005, with one broadband connection being created every ten seconds. Broadband connections grew by nearly 80% in 2004. In 1999, there were 364 Internet service providers (ISPs). Public libraries also provide access to the internet, sometimes for a fee.
+In 2017, 90% of households were reported to have access to an internet connection. This percentage shows an increase in internet access from 80% in 2012 and 61% in 2007.
+

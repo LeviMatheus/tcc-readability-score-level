@@ -1,0 +1,7 @@
+(British English) (also called a half step or a half tone) is the smallest musical interval used in Western music.. It is the distance between two notes which are next to one another in pitch.
+A whole tone means a distance of two semitones, i.e. the distance between two notes which are separated by one other note in pitch.
+This is easy to see with a picture of a keyboard. The distance between two white notes that are side by side may be a whole tone (if there is a black note in between them) or a semitone (if there is no black note between).
+To go from a C to a C sharp (or D flat) is a semitone.
+To go from a C sharp (or D flat) to a D is a semitone.
+To go from a C to a D is a tone.
+An octave is divided into twelve semitones. These semitones are exactly equal in size.

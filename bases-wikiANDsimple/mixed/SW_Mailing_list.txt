@@ -1,0 +1,5 @@
+Postal maling lists.
+Some people, or organisations, like companies have many addresses of different people. They use these addresses to send the same mail to these addresses they have. In the postal system, using regular mail, such mailing lists are used to distribute these mails, which may be wanted (like newspapers) or unwanted (advertising).
+Electronic mailing lists.
+In the electronic form, these differences also exist. Bulk mailings (SPAM) is distributed using mailing lists. On the other hand there are mailing lists people subscribe to. Every time, someone sends a mail to the mailing list, this mail is distributed to all people who are on the list. The Software which manages such a mailing list sometimes offers options to the people who subscribe. Instead of getting each mail directly, they might want only one mail (per day). This mail then contains all the mails of that day. This is called a "digest".
+Also, mails that come from people on the list might be handled differently from mails from people who are not subscribed to the mailing list.

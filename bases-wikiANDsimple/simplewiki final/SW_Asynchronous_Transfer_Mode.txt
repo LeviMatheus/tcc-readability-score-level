@@ -1,0 +1,1 @@
+Asynchronous Transfer Mode is a set of protocols used for computer networks. It is mostly used for Wide Area Networks. It splits the data, and encodes it into packets of a fixed size. Each packet can be routed differently, along virtual paths set up in the network.

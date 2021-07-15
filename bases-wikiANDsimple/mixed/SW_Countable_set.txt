@@ -1,0 +1,1 @@
+A countable set is a set which has the same cardinality (number of elements) as the set of natural numbers. Georg Cantor coined the term.

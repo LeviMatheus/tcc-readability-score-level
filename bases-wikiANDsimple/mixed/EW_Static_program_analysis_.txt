@@ -1,0 +1,21 @@
+
+Static program analysis is the analysis of computer software that is performed without actually executing programs, in contrast with dynamic analysis, which is analysis performed on programs while they are executing. In most cases the analysis is performed on some version of the source code, and in the other cases, some form of the object code.
+The term is usually applied to the analysis performed by an automated tool, with human analysis being called program understanding, program comprehension, or code review. Software inspections and software walkthroughs are also used in the latter case.
+Rationale.
+The sophistication of the analysis performed by tools varies from those that only consider the behaviour of individual statements and declarations, to those that include the complete source code of a program in their analysis. The uses of the information obtained from the analysis vary from highlighting possible coding errors (e.g., the lint tool) to formal methods that mathematically prove properties about a given program (e.g., its behaviour matches that of its specification).
+Software metrics and reverse engineering can be described as forms of static analysis. Deriving software metrics and static analysis are increasingly deployed together, especially in creation of embedded systems, by defining so-called "software quality objectives".
+A growing commercial use of static analysis is in the verification of properties of software used in safety-critical computer systems and
+locating potentially vulnerable code. For example, the following industries have identified the use of static code analysis as a means of improving the quality of increasingly sophisticated and complex software:
+A study in 2012 by VDC Research reported that 28.7% of the embedded software engineers surveyed currently use static analysis tools and 39.7% expect to use them within 2 years.
+A study from 2010 found that 60% of the interviewed developers in European research projects made at least use of their basic IDE built-in static analyzers. However, only about 10% employed an additional other (and perhaps more advanced) analysis tool.
+In the application security industry the name Static application security testing (SAST) is also used. SAST is an important part of Security Development Lifecycles (SDLs) such as the SDL defined by Microsoft and a common practice in software companies.
+Tool types.
+The OMG (Object Management Group) published a study regarding the types of software analysis required for software quality measurement and assessment. This document on "How to Deliver Resilient, Secure, Efficient, and Easily Changed IT Systems in Line with CISQ Recommendations" describes three levels of software analysis.
+A further level of software analysis can be defined.
+Formal methods.
+Formal methods is the term applied to the analysis of software (and computer hardware) whose results are obtained purely through the use of rigorous mathematical methods. The mathematical techniques used include denotational semantics, axiomatic semantics, operational semantics, and abstract interpretation.
+By a straightforward reduction to the halting problem, it is possible to prove that (for any Turing complete language), finding all possible run-time errors in an arbitrary program (or more generally any kind of violation of a specification on the final result of a program) is undecidable: there is no mechanical method that can always answer truthfully whether an arbitrary program may or may not exhibit runtime errors. This result dates from the works of Church, Gödel and Turing in the 1930s (see: Halting problem and Rice's theorem). As with many undecidable questions, one can still attempt to give useful approximate solutions.
+Some of the implementation techniques of formal static analysis include:
+Data-driven static analysis.
+Data-driven static analysis uses large amounts of code to infer coding rules. For instance, one can use all Java open-source packages on GitHub to learn a good analysis strategy. The rule inference can use machine learning techniques. For instance, it has been shown that when one deviates too much in the way one uses an object-oriented API, it is likely to be a bug. It is also possible to learn from a large amount of past fixes and warnings.
+

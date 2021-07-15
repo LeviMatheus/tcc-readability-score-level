@@ -1,0 +1,9 @@
+
+In chemistry, a heteroatom (from Ancient Greek "heteros", "different", + "atomos", "uncut") is, strictly, any atom that is not carbon or hydrogen.
+Organic chemistry.
+In practice, the term is usually used more specifically to indicate that non-carbon atoms have replaced carbon in the backbone of the molecular structure. Typical heteroatoms are nitrogen (N), oxygen (O), sulfur (S), phosphorus (P), chlorine (Cl), bromine (Br), and iodine (I), as well as the metals lithium (Li) and magnesium (Mg).
+Proteins.
+It can also be used with highly specific meanings in specialised contexts. In the description of protein structure, in particular in the Protein Data Bank file format, a heteroatom record (HETATM) describes an atom as belonging to a small molecule cofactor rather than being part of a biopolymer chain.
+Zeolites.
+In the context of zeolites, the term "heteroatom" refers to partial isomorphous substitution of the typical framework atoms (silicon, aluminium, and phosphorus) by other elements such as beryllium, vanadium, and chromium. The goal is usually to adjust properties of the material (e.g., Lewis acidity) to optimize the material for a certain application (e.g., catalysis).
+

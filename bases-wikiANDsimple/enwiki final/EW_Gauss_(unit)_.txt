@@ -1,0 +1,6 @@
+
+The gauss, symbol (sometimes Gs), is a unit of measurement of magnetic induction, also known as "magnetic flux density". The unit is part of the Gaussian system of units, which inherited it from the older CGS-EMU system. It was named after the German mathematician and physicist Carl Friedrich Gauss in 1936. One gauss is defined as one maxwell per square centimetre.
+As the cgs system has been superseded by the International System of Units (SI), the use of the gauss has been deprecated by the standards bodies, but is still regularly used in various subfields of science. The SI unit for magnetic flux density is the tesla (symbol T), which corresponds to .
+Name, symbol, and metric prefixes.
+Albeit not a component of the International System of Units, the usage of the gauss generally follows the rules for SI units. Since the name is derived from a person's name, its symbol is the uppercase letter "G". When the unit is spelled out, it is written in lowercase ("gauss"), unless it begins a sentence. The gauss may be combined with metric prefixes, such as in milligauss, mG (or mGs).
+

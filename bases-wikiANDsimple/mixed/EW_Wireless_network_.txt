@@ -1,0 +1,76 @@
+
+A wireless network is a computer network that uses wireless data connections between network nodes.
+Wireless networking is a method by which homes, telecommunications networks and business installations avoid the costly process of introducing cables into a building, or as a connection between various equipment locations. Admin telecommunications networks are generally implemented and administered using radio communication. This implementation takes place at the physical level (layer) of the OSI model network structure.
+Examples of wireless networks include cell phone networks, wireless local area networks (WLANs), wireless sensor networks, satellite communication networks, and terrestrial microwave networks.
+History.
+Wireless networks.
+The first professional wireless network was developed under the brand ALOHAnet in 1969 at the University of Hawaii and became operational in June 1971. The first commercial wireless network was the WaveLAN product family, developed by NCR in 1986.
+Underlying technology.
+Advances in MOSFET (MOS transistor) wireless technology enabled the development of digital wireless networks. The wide adoption of RF CMOS (radio frequency CMOS), power MOSFET and LDMOS (lateral diffused MOS) devices led to the development and proliferation of digital wireless networks by the 1990s, with further advances in MOSFET technology leading to increasing bandwidth in the 2000s (Edholm's law). Most of the essential elements of wireless networks are built from MOSFETs, including the mobile transceivers, base station modules, routers, RF power amplifiers, telecommunication circuits, RF circuits, and radio transceivers, in networks such as 2G, 3G, and 4G.
+Types of wireless networks.
+Wireless PAN.
+Wireless personal area networks (WPANs) connect devices within a relatively small area, that is generally within a person's reach. For example, both Bluetooth radio and invisible infrared light provides a WPAN for interconnecting a headset to a laptop. ZigBee also supports WPAN applications. Wi-Fi PANs are becoming commonplace (2010) as equipment designers start to integrate Wi-Fi into a variety of consumer electronic devices. Intel "My WiFi" and Windows 7 "virtual Wi-Fi" capabilities have made Wi-Fi PANs simpler and easier to set up and configure.
+Wireless LAN.
+A wireless local area network (WLAN) links two or more devices over a short distance using a wireless distribution method, usually providing a connection through an access point for internet access. The use of spread-spectrum or OFDM technologies may allow users to move around within a local coverage area, and still remain connected to the network.
+Products using the IEEE 802.11 WLAN standards are marketed under the Wi-Fi brand name.
+Fixed wireless technology implements point-to-point links between computers or networks at two distant locations, often using dedicated microwave or modulated laser light beams over line of sight paths. It is often used in cities to connect networks in two or more buildings without installing a wired link.
+To connect to Wi-Fi, sometimes are used devices like a router or connecting HotSpot using mobile smartphones.
+Wireless ad hoc network.
+A wireless ad hoc network, also known as a wireless mesh network or mobile ad hoc network (MANET), is a wireless network made up of radio nodes organized in a mesh topology. Each node forwards messages on behalf of the other nodes and each node performs routing. Ad hoc networks can "self-heal", automatically re-routing around a node that has lost power. Various network layer protocols are needed to realize ad hoc mobile networks, such as Distance Sequenced Distance Vector routing, Associativity-Based Routing, Ad hoc on-demand Distance Vector routing, and Dynamic source routing.
+Wireless MAN.
+Wireless metropolitan area networks are a type of wireless network that connects several wireless LANs.
+Wireless WAN.
+Wireless wide area networks are wireless networks that typically cover large areas, such as between neighbouring towns and cities, or city and suburb. These networks can be used to connect branch offices of business or as a public Internet access system. The wireless connections between access points are usually point to point microwave links using parabolic dishes on the 2.4 GHz and 5.8Ghz band, rather than omnidirectional antennas used with smaller networks. A typical system contains base station gateways, access points and wireless bridging relays. Other configurations are mesh systems where each access point acts as a relay also. When combined with renewable energy systems such as photovoltaic solar panels or wind systems they can be stand alone systems.
+Cellular network.
+A cellular network or mobile network is a radio network distributed over land areas called cells, each served by at least one fixed-location transceiver, known as a cell site or base station. In a cellular network, each cell characteristically uses a different set of radio frequencies from all their immediate neighbouring cells to avoid any interference.
+When joined together these cells provide radio coverage over a wide geographic area. This enables a large number of portable transceivers (e.g., mobile phones, pagers, etc.) to communicate with each other and with fixed transceivers and telephones anywhere in the network, via base stations, even if some of the transceivers are moving through more than one cell during transmission.
+Although originally intended for cell phones, with the development of smartphones, cellular telephone networks routinely carry data in addition to telephone conversations:
+Global area network.
+A global area network (GAN) is a network used for supporting mobile across an arbitrary number of wireless LANs, satellite coverage areas, etc. The key challenge in mobile communications is handing off user communications from one local coverage area to the next. In IEEE Project 802, this involves a succession of terrestrial wireless LANs.
+Space network.
+Space networks are networks used for communication between spacecraft, usually in the vicinity of the Earth. The example of this is NASA's Space Network.
+Uses.
+Some examples of usage include cellular phones which are part of everyday wireless networks, allowing easy personal communications. Another example, Intercontinental network systems, use radio satellites to communicate across the world. Emergency services such as the police utilize wireless networks to communicate effectively as well. Individuals and businesses use wireless networks to send and share data rapidly, whether it be in a small office building or across the world.
+Properties.
+General.
+In a general sense, wireless networks offer a vast variety of uses by both business and home users.
+"Now, the industry accepts a handful of different wireless technologies. Each wireless technology is defined by a standard that describes unique functions at both the Physical and the Data Link layers of the OSI model. These standards differ in their specified signaling methods, geographic ranges, and frequency usages, among other things. Such differences can make certain technologies better suited to home networks and others better suited to network larger organizations."
+Performance.
+Each standard varies in geographical range, thus making one standard more ideal than the next depending on what it is one is trying to accomplish with a wireless network.
+The performance of wireless networks satisfies a variety of applications such as voice and video. The use of this technology also gives room for expansions, such as from 2G to 3G and, 4G and 5G technologies, which stand for the fourth and fifth generation of cell phone mobile communications standards. As wireless networking has become commonplace, sophistication increases through configuration of network hardware and software, and greater capacity to send and receive larger amounts of data, faster, is achieved. Now the wireless network has been running on LTE, which is a 4G mobile communication standard. Users of an LTE network should have data speeds that are 10x faster than a 3G network. 
+Space.
+Space is another characteristic of wireless networking. Wireless networks offer many advantages when it comes to difficult-to-wire areas trying to communicate such as across a street or river, a warehouse on the other side of the premises or buildings that are physically separated but operate as one. Wireless networks allow for users to designate a certain space which the network will be able to communicate with other devices through that network.
+Space is also created in homes as a result of eliminating clutters of wiring. This technology allows for an alternative to installing physical network mediums such as TPs, coaxes, or fiber-optics, which can also be expensive.
+Home.
+For homeowners, wireless technology is an effective option compared to Ethernet for sharing printers, scanners, and high-speed Internet connections. WLANs help save the cost of installation of cable mediums, save time from physical installation, and also creates mobility for devices connected to the network.
+Wireless networks are simple and require as few as one single wireless access point connected directly to the Internet via a router.
+Wireless network elements.
+The telecommunications network at the physical layer also consists of many interconnected wireline network elements (NEs). These NEs can be stand-alone systems or products that are either supplied by a single manufacturer or are assembled by the service provider (user) or system integrator with parts from several different manufacturers.
+Wireless NEs are the products and devices used by a wireless carrier to provide support for the backhaul network as well as a mobile switching center (MSC).
+Reliable wireless service depends on the network elements at the physical layer to be protected against all operational environments and applications (see GR-3171, "Generic Requirements for Network Elements Used in Wireless Networks – Physical Layer Criteria").
+What are especially important are the NEs that are located on the cell tower to the base station (BS) cabinet. The attachment hardware and the positioning of the antenna and associated closures and cables are required to have adequate strength, robustness, corrosion resistance, and resistance against wind, storms, icing, and other weather conditions. Requirements for individual components, such as hardware, cables, connectors, and closures, shall take into consideration the structure to which they are attached.
+Difficulties.
+Interference.
+Compared to wired systems, wireless networks are frequently subject to electromagnetic interference. This can be caused by other networks or other types of equipment that generate radio waves that are within, or close, to the radio bands used for communication. Interference can degrade the signal or cause the system to fail.
+Absorption and reflection.
+Some materials cause absorption of electromagnetic waves, preventing it from reaching the receiver, in other cases, particularly with metallic or conductive materials reflection occurs. This can cause dead zones where no reception is available. Aluminium foiled thermal isolation in modern homes can easily reduce indoor mobile signals by 10 dB frequently leading to complaints about the bad reception of long-distance rural cell signals.
+Multipath fading.
+In multipath fading two or more different routes taken by the signal, due to reflections, can cause the signal to cancel out each other at certain locations, and to be stronger in other places (upfade).
+Hidden node problem.
+The hidden node problem occurs in some types of network when a node is visible from a wireless access point (AP), but not from other nodes communicating with that AP. This leads to difficulties in media access control (collisions).
+Exposed terminal node problem.
+The exposed terminal problem is when a node on one network is unable to send because of co-channel interference from a node that is on a different network.
+Shared resource problem.
+The wireless spectrum is a limited resource and shared by all nodes in the range of its transmitters. Bandwidth allocation becomes complex with multiple participating users. Often users are not aware that advertised numbers (e.g., for IEEE 802.11 equipment or LTE networks) are not their capacity, but shared with all other users and thus the individual user rate is far lower. With increasing demand, the capacity crunch is more and more likely to happen. User-in-the-loop (UIL) may be an alternative solution to ever upgrading to newer technologies for over-provisioning.
+Capacity.
+Channel.
+Shannon's theorem can describe the maximum data rate of any single wireless link, which relates to the bandwidth in hertz and to the noise on the channel.
+One can greatly increase channel capacity by using MIMO techniques, where multiple aerials or multiple frequencies can exploit multiple paths to the receiver to achieve much higher throughput – by a factor of the product of the frequency and aerial diversity at each end.
+Under Linux, the Central Regulatory Domain Agent (CRDA) controls the setting of channels.
+Network.
+The total network bandwidth depends on how dispersive the medium is (more dispersive medium generally has better total bandwidth because it minimises interference), how many frequencies are available, how noisy those frequencies are, how many aerials are used and whether a directional antenna is in use, whether nodes employ power control and so on.
+Cellular wireless networks generally have good capacity, due to their use of directional aerials, and their ability to reuse radio channels in non-adjacent cells. Additionally, cells can be made very small using low power transmitters this is used in cities to give network capacity that scales linearly with population density.
+Safety.
+Wireless access points are also often close to humans, but the drop off in power over distance is fast, following the inverse-square law.
+The position of the United Kingdom's Health Protection Agency (HPA) is that “...radio frequency (RF) exposures from WiFi are likely to be lower than those from mobile phones.” It also saw “...no reason why schools and others should not use WiFi equipment.” In October 2007, the HPA launched a new “systematic” study into the effects of WiFi networks on behalf of the UK government, in order to calm fears that had appeared in the media in a recent period up to that time". Dr Michael Clark, of the HPA, says published research on mobile phones and masts does not add up to an indictment of WiFi.
+

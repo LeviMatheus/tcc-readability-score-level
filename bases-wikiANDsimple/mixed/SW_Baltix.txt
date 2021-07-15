@@ -1,0 +1,5 @@
+"Baltix GNU/Linux" is a Linux distribution aimed to be a complete, user-friendly operating system for Lithuanian and Latvian people, based on Debian and ubuntu. Supported languages include Lithuanian, Latvian, Estonian, Russian, English, Norwegian and others near and around the Baltic region. The main language is Lithuanian.
+It uses the GNOME desktop environment and is distributed as an installable Live CD.
+The first public versions of Baltix GNU/Linux were released in 2003 and were based based on Knoppix Live CD and Debian software packages, and later, on the Morphix Live CD.
+Additional software.
+Baltix can run directly from its live-cd, without installation to a computer's permanent storage (hard disk, solid state drive, etc), but also can be installed into a computer's Linux or Windows partition(s).

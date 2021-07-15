@@ -1,0 +1,3 @@
+Wikibooks is a collection of free books. It is one of many projects that are run by the Wikimedia Foundation.
+Some books are original, but others have started as text copied from other sources of free-content textbooks found on the Internet.
+The GNU Free Documentation License covers all the content that is in Wikibooks.

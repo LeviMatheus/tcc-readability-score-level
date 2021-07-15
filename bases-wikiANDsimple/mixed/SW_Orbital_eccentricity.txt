@@ -1,0 +1,5 @@
+In astrodynamics, Orbital eccentricity shows how much the shape of an objects orbit is different from a circle.
+Finding eccentricity.
+formula_6, where
+ra is the apoapsis of the object's orbit
+rp is the periapsis of the object's orbit

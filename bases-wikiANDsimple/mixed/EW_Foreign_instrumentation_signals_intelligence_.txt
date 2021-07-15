@@ -1,0 +1,9 @@
+
+Foreign instrumentation signature intelligence, FISINT ("F"oreign "I"nstrumentation "S"ignature "INT"elligence) is intelligence from the interception of foreign electromagnetic emissions associated with the testing and operational deployment of foreign aerospace, surface, and subsurface systems. Since it deals with signals that have communicational content, it is a subset of Communications Intelligence (COMINT), which, in turn, is a subset of SIGINT. Unlike general COMINT signals, the content of FISINT signals is not in regular human language, but rather in machine to machine (instrumentation) language or in a combination of regular human language and instrumentation language. FISINT is also considered as a subset of MASINT (measurement and signature intelligence).
+Typical examples of such communication include:
+Telecommunication.
+In telecommunication, the term FISINT has the following meanings: 
+1. Intelligence information derived from electromagnetic emissions associated with the testing and operational deployment of foreign aerospace, surface, and subsurface systems. 
+2. Technical information and intelligence information derived from the intercept of foreign instrumentation signals by other than the intended recipients. Foreign instrumentation signals intelligence is a category of signals intelligence. 
+Foreign instrumentation signals include but are not limited to signals from telemetry, beaconry, electronic interrogators, tracking/fusing/arming/firing command systems, and video data links.
+

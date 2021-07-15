@@ -1,0 +1,15 @@
+MINIX is a Unix-like computer operating system based on a microkernel architecture. Andrew S. Tanenbaum wrote the operating system so it could be used educational purposes; MINIX also helped Linus Torvalds design the Linux kernel. Its name comes from the words "minimal" and "Unix".
+Released under the BSD license, MINIX is Open Source.
+History.
+Andrew S. Tanenbaum created MINIX at Vrije Universiteit in Amsterdam.
+MINIX 3.
+MINIX 3 was announced to the public on 24 October 2005 by Andrew Tanenbaum during his speech on top of the ACM Symposium Operating System Principles conference. MINIX 3 currently supports only IA-32 architecture PC systems. It has a Live CD format that lets it be used on a computer without installing it.
+Version 3.1.2 was released 8 May 2006. It contains X11, emacs, vi, cc, gcc, perl, python, ash, bash, zsh, ftp, ssh, telnet, pine, and over 400 other common UNIX programs. With the addition of X11, this version starts the change from a Text-Only System.
+MINIX and Linux.
+The design principles Tanenbaum applied to MINIX had influenced the design decisions Linus Torvalds applied in the creation of the Linux kernel. Torvalds used and appreciated MINIX, but his design was different from the MINIX architecture in significant ways, most notably by employing a monolithic kernel instead of a microkernel. This was famously disapproved by Tanenbaum in the Tanenbaum-Torvalds debate. (Tanenbaum explained again his for using a microkernel in May 2006.)
+Linux being copied from MINIX.
+In May 2004 Kenneth Brown of the Alexis de Tocqueville Institution raised the accusation that major parts of the Linux kernel had been copied from MINIX, in a book called "Samizdat".
+These accusations were refused by almost everyone - in particular by Andrew Tanenbaum, who strongly felt that Kenneth Brown was very wrong and published a long rebuttal on his own personal website.
+Licensing.
+Its licensing fee was very small ($69) compared to the ones of other operating systems. Although Tanenbaum wished for MINIX to be as easily available to students, his publisher would not allow it.
+When open source Unix-like operating systems such as Linux became available in the early 1990s, many volunteer software developers stopped using MINIX for Linux. In April 2000, MINIX became open source software under a permissive free software licence, but by this time other operating systems were much better, and it was used as an operating system for students and hobbyists.

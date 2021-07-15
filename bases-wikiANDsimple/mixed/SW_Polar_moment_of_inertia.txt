@@ -1,0 +1,4 @@
+Polar moment of inertia is a measure of an object's ability to resist torsion. It is required to calculate the twist of an object subjected to a torque. It is analogous to the area moment of inertia, which characterizes an object's ability to resist bending and is required to calculate displacement.
+The larger the polar moment of inertia, the less the beam will twist, when subjected to a given torque.
+The "polar moment of inertia" must not be confused with the "moment of inertia", which characterizes an object's angular acceleration due to a torque.
+See also moment (physics).

@@ -1,0 +1,52 @@
+
+An integer (from the Latin "integer" meaning "whole") is colloquially defined as a number that can be written without a fractional component. For example, 21, 4, 0, and −2048 are integers, while 9.75, , and  are not.
+The set of integers consists of zero (), the positive natural numbers (, , , ...), also called "whole numbers" or "counting numbers", and their additive inverses (the negative integers, i.e., −1, −2, −3, ...). The set of integers is often denoted by the boldface () or blackboard bold formula_1 letter "Z"—standing originally for the German word "Zahlen" ("numbers").
+ is a subset of the set of all rational numbers , which in turn is a subset of the real numbers . Like the natural numbers, is countably infinite.
+The integers form the smallest group and the smallest ring containing the natural numbers. In algebraic number theory, the integers are sometimes qualified as rational integers to distinguish them from the more general algebraic integers. In fact, (rational) integers are algebraic integers that are also rational numbers.
+Symbol.
+The symbol can be annotated to denote various sets, with varying usage amongst different authors: , or for the positive integers, or for non-negative integers, and for non-zero integers. Some authors use for non-zero integers, while others use it for non-negative integers, or for . Additionally, is used to denote either the set of integers modulo (i.e., the set of congruence classes of integers), or the set of -adic integers.
+Algebraic properties.
+Like the natural numbers, is closed under the operations of addition and multiplication, that is, the sum and product of any two integers is an integer. However, with the inclusion of the negative natural numbers (and importantly, ), , unlike the natural numbers, is also closed under subtraction.
+The integers form a unital ring which is the most basic one, in the following sense: for any unital ring, there is a unique ring homomorphism from the integers into this ring. This universal property, namely to be an initial object in the category of rings, characterizes the ring .
+ is not closed under division, since the quotient of two integers (e.g., 1 divided by 2) need not be an integer. Although the natural numbers are closed under exponentiation, the integers are not (since the result can be a fraction when the exponent is negative).
+The following table lists some of the basic properties of addition and multiplication for any integers , and :
+In the language of abstract algebra, the first five properties listed above for addition say that , under addition, is an abelian group. It is also a cyclic group, since every non-zero integer can be written as a finite sum or . In fact, under addition is the "only" infinite cyclic group—in the sense that any infinite cyclic group is isomorphic to .
+The first four properties listed above for multiplication say that under multiplication is a commutative monoid. However, not every integer has a multiplicative inverse (as is the case of the number 2), which means that under multiplication is not a group.
+All the rules from the above property table (except for the last), when taken together, say that together with addition and multiplication is a commutative ring with unity. It is the prototype of all objects of such algebraic structure. Only those equalities of expressions are true in  for all values of variables, which are true in any unital commutative ring. Certain non-zero integers map to zero in certain rings.
+The lack of zero divisors in the integers (last property in the table) means that the commutative ring  is an integral domain.
+The lack of multiplicative inverses, which is equivalent to the fact that is not closed under division, means that is "not" a field. The smallest field containing the integers as a subring is the field of rational numbers. The process of constructing the rationals from the integers can be mimicked to form the field of fractions of any integral domain. And back, starting from an algebraic number field (an extension of rational numbers), its ring of integers can be extracted, which includes as its subring.
+Although ordinary division is not defined on , the division "with remainder" is defined on them. It is called Euclidean division, and possesses the following important property: given two integers and with , there exist unique integers and such that and , where denotes the absolute value of . The integer is called the "quotient" and is called the "remainder" of the division of by . The Euclidean algorithm for computing greatest common divisors works by a sequence of Euclidean divisions.
+Again, in the language of abstract algebra, the above says that is a Euclidean domain. This implies that is a principal ideal domain, and any positive integer can be written as the products of primes in an essentially unique way. This is the fundamental theorem of arithmetic.
+Order-theoretic properties.
+ is a totally ordered set without upper or lower bound. The ordering of is given by:
+An integer is "positive" if it is greater than zero, and "negative" if it is less than zero. Zero is defined as neither negative nor positive.
+The ordering of integers is compatible with the algebraic operations in the following way:
+Thus it follows that together with the above ordering is an ordered ring.
+The integers are the only nontrivial totally ordered abelian group whose positive elements are well-ordered. This is equivalent to the statement that any Noetherian valuation ring is either a field—or a discrete valuation ring.
+Construction.
+In elementary school teaching, integers are often intuitively defined as the (positive) natural numbers, zero, and the negations of the natural numbers. However, this style of definition leads to many different cases (each arithmetic operation needs to be defined on each combination of types of integer) and makes it tedious to prove that integers obey the various laws of arithmetic. Therefore, in modern set-theoretic mathematics, a more abstract construction allowing one to define arithmetical operations without any case distinction is often used instead. The integers can thus be formally constructed as the equivalence classes of ordered pairs of natural numbers .
+The intuition is that stands for the result of subtracting from . To confirm our expectation that and denote the same number, we define an equivalence relation on these pairs with the following rule:
+precisely when
+Addition and multiplication of integers can be defined in terms of the equivalent operations on the natural numbers; by using to denote the equivalence class having as a member, one has:
+The negation (or additive inverse) of an integer is obtained by reversing the order of the pair:
+Hence subtraction can be defined as the addition of the additive inverse:
+The standard ordering on the integers is given by:
+It is easily verified that these definitions are independent of the choice of representatives of the equivalence classes.
+Every equivalence class has a unique member that is of the form or (or both at once). The natural number is identified with the class (i.e., the natural numbers are embedded into the integers by map sending to ), and the class is denoted (this covers all remaining classes, and gives the class a second time since 
+Thus, is denoted by
+If the natural numbers are identified with the corresponding integers (using the embedding mentioned above), this convention creates no ambiguity.
+This notation recovers the familiar representation of the integers as }.
+Some examples are:
+In theoretical computer science, other approaches for the construction of integers are used by automated theorem provers and term rewrite engines.
+Integers are represented as algebraic terms built using a few basic operations (e.g., zero, succ, pred) and, possibly, using natural numbers, which are assumed to be already constructed (using, say, the Peano approach).
+There exist at least ten such constructions of signed integers. These constructions differ in several ways: the number of basic operations used for the construction, the number (usually, between 0 and 2) and the types of arguments accepted by these operations; the presence or absence of natural numbers as arguments of some of these operations, and the fact that these operations are free constructors or not, i.e., that the same integer can be represented using only one or many algebraic terms.
+The technique for the construction of integers presented above in this section corresponds to the particular case where there is a single basic operation pairformula_12 that takes as arguments two natural numbers formula_13 and formula_14, and returns an integer (equal to formula_15). This operation is not free since the integer 0 can be written pair(0,0), or pair(1,1), or pair(2,2), etc. This technique of construction is used by the proof assistant Isabelle; however, many other tools use alternative construction techniques, notable those based upon free constructors, which are simpler and can be implemented more efficiently in computers.
+Computer science.
+An integer is often a primitive data type in computer languages. However, integer data types can only represent a subset of all integers, since practical computers are of finite capacity. Also, in the common two's complement representation, the inherent definition of sign distinguishes between "negative" and "non-negative" rather than "negative, positive, and 0". (It is, however, certainly possible for a computer to determine whether an integer value is truly positive.) Fixed length integer approximation data types (or subsets) are denoted "int" or Integer in several programming languages (such as Algol68, C, Java, Delphi, etc.).
+Variable-length representations of integers, such as bignums, can store any integer that fits in the computer's memory. Other integer data types are implemented with a fixed size, usually a number of bits which is a power of 2 (4, 8, 16, etc.) or a memorable number of decimal digits (e.g., 9 or 10).
+Cardinality.
+The cardinality of the set of integers is equal to (aleph-null). This is readily demonstrated by the construction of a bijection, that is, a function that is injective and surjective from to .
+If then consider the function:
+If then consider the function:
+If the domain is restricted to then each and every member of has one and only one corresponding member of and by the definition of cardinal equality the two sets have equal cardinality.
+

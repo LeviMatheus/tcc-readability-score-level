@@ -1,0 +1,3 @@
+In cryptography, linear cryptanalysis is a general form of cryptanalysis based on finding affine approximations to the action of a cipher. Attacks have been developed for block ciphers and stream ciphers. Linear cryptanalysis is one of the two most widely used attacks on block ciphers; the other being differential cryptanalysis.
+A variety of refinements to the attack have been suggested, including using multiple linear approximations or including non-linear expressions.
+Evidence of security against linear cryptanalysis is usually expected of new cipher designs.

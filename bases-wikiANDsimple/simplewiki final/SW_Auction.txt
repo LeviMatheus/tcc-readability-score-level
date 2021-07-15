@@ -1,0 +1,4 @@
+An auction is a place where people can buy or sell things. People say how much they will pay for something and the person who is willing to pay the most gets the thing.
+The amount people will pay is called a bid. The person in charge of the auction is the auctioneer. He usually has a hammer which he will knock when he accepts a bid.
+Some auctions only let you place one bid. Some let you change your bid if someone else bids higher. There is also another kind called a Dutch auction. In a Dutch auction the auctioneer starts off with a price that is much too high and gradually makes it lower until somebody makes a bid. That person will then buy the thing.
+Recently, people have also started to do auctions online. The most popular online auction place is EBay.

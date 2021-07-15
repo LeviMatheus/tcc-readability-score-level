@@ -1,0 +1,10 @@
+The Extensible Messaging and Presence Protocol (XMPP) is a protocol for instant messaging. It is the foundation of the Jabber Project. It is inspired by XML.
+It is different to most protocols because it is an open standard. This means that anybody who has a domain name and an internet connection can run their own server. Most of the software and the clients are open source.
+Other software such as Google Talk and the Gizmo Project use the XMPP protocol. It has been installed on thousands of servers across the internet. There are over ten-million users who use software based on the protocol. Clients include Pidgin and iChat.
+History.
+Jeremie Miller started the Jabber project in 1998. The first major public release was in May 2000. This early software was the basis of XMPP. It was a competitor to SIMPLE, which was based on the SIP protocol.
+In August 2001, the Jabber Software Foundation (JSF) was started. The main role of the JSF was to manage the XML protocols for XMPP by documenting them. As well as this, the organisation was to co-ordinate the many companies that were using the Jabber technology.
+In 2002, the Internet Engineering Task Force created a working group to formalize the protocol. The group was named the "Extensible Messaging and Presence Protocol Working Group", or "XMPP WG".
+XMPP and HTTP.
+XMPP can use HTTP to send data to the servers. This is useful when there are strict firewalls in place, because data can be sent through the web instead of through a different port.
+There are also open public servers which use standard ports (port 80 and 443) so that users can connect from behind most firewalls.

@@ -1,0 +1,3 @@
+Wikiquote is a "sister" (related) project of Wikipedia. It is one of many projects run by the Wikimedia Foundation.
+Wikiquote was based on an idea by Daniel Alston and made by Brion Vibber. The goal of the project is to produce a large reference of quotations from famous people, books, and proverbs, and to give details about them.
+As of October 29, 2008, 17 versions each have more than 1,000 articles. The largest Wikiquote is the English project with over 16,500 content pages, followed by German and Italian versions, both with over 7,000 content pages. In total, forty-eight language have over 100 content pages.

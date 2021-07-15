@@ -1,0 +1,11 @@
+
+In economics the Pareto index, named after the Italian economist and sociologist Vilfredo Pareto, is a measure of the breadth of income or wealth distribution. It is one of the parameters specifying a Pareto distribution and embodies the Pareto principle. As applied to income, the Pareto principle is sometimes stated in popular expositions by saying 20% of the population has 80% of the income. In fact, Pareto's data on British income taxes in his "Cours d'économie politique" indicates that about 20% of the population had about 80% of the income.
+One of the simplest characterizations of the Pareto distribution, when used to model the distribution of incomes, says that the proportion of the population whose income exceeds any positive number "x" &gt; "x"m is
+where "x"m is a positive number, the minimum of the support of this probability distribution (the subscript m stands for "minimum"). The Pareto index is the parameter α. Since a proportion must be between 0 and 1, inclusive, the index α must be positive, but in order for the total income of the whole population to be finite, α must also be greater than 1. The larger the Pareto index, the smaller the proportion of very high-income people.
+Given a formula_2 rule, with formula_3, the Pareto index is given by:
+If formula_5, this simplifies to
+Alternatively, in terms of odds, X:Y
+so X:1 yields
+For example, the 80–20 (4:1) rule corresponds to α = log(5)/log(4) ≈ 1.16, 90–10 (9:1) corresponds to α = log(10)/log(9) ≈ 1.05, and 99–1 corresponds to α = log(100)/log(99) ≈ 1.002, whereas the 70–30 rule corresponds to α = log(0.3)/log(0.3/0.7) ≈ 1.42 and 2:1 (67–33) corresponds to α = log(3)/log(2) ≈ 1.585.
+Mathematically, the formula above entails that all incomes are at least the lower bound "x"m, which is positive. At this income the probability density suddenly jumps up from zero and then starts decreasing, which is clearly unrealistic. Economists therefore sometimes state that the Pareto law as stated here applies only to the upper tail of the distribution.
+

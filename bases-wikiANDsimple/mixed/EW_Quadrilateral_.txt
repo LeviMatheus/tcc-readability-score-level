@@ -1,0 +1,132 @@
+
+A quadrilateral is a polygon in Euclidean plane geometry with four edges (sides) and four vertices (corners). Other names for quadrilateral include quadrangle (in analogy to triangle), tetragon (in analogy to pentagon and hexagon), and 4-gon (in analogy to "n"-gons for arbitrary values of "n"). A quadrilateral with vertices formula_1, formula_2, formula_3 and formula_4 is sometimes denoted as formula_5.
+The word "quadrilateral" is derived from the Latin words "quadri", a variant of four, and "latus", meaning "side".
+Quadrilaterals are either simple (not self-intersecting), or complex (self-intersecting, or crossed). Simple quadrilaterals are either convex or concave.
+The interior angles of a simple (and planar) quadrilateral "ABCD" add up to 360 degrees of arc, that is
+This is a special case of the "n"-gon interior angle sum formula: ("n" − 2) × 180°.
+All non-self-crossing quadrilaterals tile the plane, by repeated rotation around the midpoints of their edges.
+Simple quadrilaterals.
+Any quadrilateral that is not self-intersecting is a simple quadrilateral.
+Convex quadrilaterals.
+In a convex quadrilateral all interior angles are less than 180°, and the two diagonals both lie inside the quadrilateral.
+Concave quadrilaterals.
+In a concave quadrilateral, one interior angle is bigger than 180°, and one of the two diagonals lies outside the quadrilateral.
+Complex quadrilaterals.
+A self-intersecting quadrilateral is called variously a cross-quadrilateral, crossed quadrilateral, butterfly quadrilateral or bow-tie quadrilateral. In a crossed quadrilateral, the four "interior" angles on either side of the crossing (two acute and two reflex, all on the left or all on the right as the figure is traced out) add up to 720°.
+Special line segments.
+The two diagonals of a convex quadrilateral are the line segments that connect opposite vertices.
+The two bimedians of a convex quadrilateral are the line segments that connect the midpoints of opposite sides. They intersect at the "vertex centroid" of the quadrilateral (see below).
+The four maltitudes of a convex quadrilateral are the perpendiculars to a side—through the midpoint of the opposite side.
+Area of a convex quadrilateral.
+There are various general formulas for the area of a convex quadrilateral "ABCD" with sides .
+Trigonometric formulas.
+The area can be expressed in trigonometric terms as
+where the lengths of the diagonals are and and the angle between them is . In the case of an orthodiagonal quadrilateral (e.g. rhombus, square, and kite), this formula reduces to formula_8 since is .
+The area can be also expressed in terms of bimedians as
+where the lengths of the bimedians are and and the angle between them is .
+Bretschneider's formula expresses the area in terms of the sides and two opposite angles:
+where the sides in sequence are , , , , where is the semiperimeter, and and are two (in fact, any two) opposite angles. This reduces to Brahmagupta's formula for the area of a cyclic quadrilateral—when .
+Another area formula in terms of the sides and angles, with angle being between sides and , and being between sides and , is
+In the case of a cyclic quadrilateral, the latter formula becomes formula_12
+In a parallelogram, where both pairs of opposite sides and angles are equal, this formula reduces to formula_13
+Alternatively, we can write the area in terms of the sides and the intersection angle of the diagonals, as long is not :
+In the case of a parallelogram, the latter formula becomes formula_15
+Another area formula including the sides , , , is
+where is the distance between the midpoints of the diagonals, and is the angle between the bimedians.
+The last trigonometric area formula including the sides , , , and the angle (between and ) is: 
+which can also be used for the area of a concave quadrilateral (having the concave part opposite to angle ), by just changing the first sign to .
+Non-trigonometric formulas.
+The following two formulas express the area in terms of the sides , , and , the semiperimeter , and the diagonals , :
+The first reduces to Brahmagupta's formula in the cyclic quadrilateral case, since then .
+The area can also be expressed in terms of the bimedians , and the diagonals , :
+In fact, any three of the four values , , , and suffice for determination of the area, since in any quadrilateral the four values are related by formula_22 The corresponding expressions are:
+if the lengths of two bimedians and one diagonal are given, and
+if the lengths of two diagonals and one bimedian are given.
+Vector formulas.
+The area of a quadrilateral can be calculated using vectors. Let vectors and form the diagonals from to and from to . The area of the quadrilateral is then
+which is half the magnitude of the cross product of vectors and . In two-dimensional Euclidean space, expressing vector as a free vector in Cartesian space equal to and as , this can be rewritten as:
+Diagonals.
+Properties of the diagonals in some quadrilaterals.
+In the following table it is listed if the diagonals in some of the most basic quadrilaterals bisect each other, if their diagonals are perpendicular, and if their diagonals have equal length. The list applies to the most general cases, and excludes named subsets.
+"Note 1: The most general trapezoids and isosceles trapezoids do not have perpendicular diagonals, but there are infinite numbers of (non-similar) trapezoids and isosceles trapezoids that do have perpendicular diagonals and are not any other named quadrilateral."
+"Note 2: In a kite, one diagonal bisects the other. The most general kite has unequal diagonals, but there is an infinite number of (non-similar) kites in which the diagonals are equal in length (and the kites are not any other named quadrilateral)."
+Lengths of the diagonals.
+The lengths of the diagonals in a convex quadrilateral "ABCD" can be calculated using the law of cosines on each triangle formed by one diagonal and two sides of the quadrilateral. Thus
+and
+Other, more symmetric formulas for the lengths of the diagonals, are
+and
+Generalizations of the parallelogram law and Ptolemy's theorem.
+In any convex quadrilateral "ABCD", the sum of the squares of the four sides is equal to the sum of the squares of the two diagonals plus four times the square of the line segment connecting the midpoints of the diagonals. Thus
+where "x" is the distance between the midpoints of the diagonals. This is sometimes known as Euler's quadrilateral theorem and is a generalization of the parallelogram law.
+The German mathematician Carl Anton Bretschneider derived in 1842 the following generalization of Ptolemy's theorem, regarding the product of the diagonals in a convex quadrilateral
+This relation can be considered to be a law of cosines for a quadrilateral. In a cyclic quadrilateral, where "A" + "C" = 180°, it reduces to "pq = ac + bd". Since cos ("A" + "C") ≥ −1, it also gives a proof of Ptolemy's inequality.
+Other metric relations.
+If "X" and "Y" are the feet of the normals from "B" and "D" to the diagonal "AC" = "p" in a convex quadrilateral "ABCD" with sides "a" = "AB", "b" = "BC", "c" = "CD", "d" = "DA", then
+In a convex quadrilateral "ABCD" with sides "a" = "AB", "b" = "BC", "c" = "CD", "d" = "DA", and where the diagonals intersect at "E",
+where "e" = "AE", "f" = "BE", "g" = "CE", and "h" = "DE".
+The shape and size of a convex quadrilateral are fully determined by the lengths of its sides in sequence and of one diagonal between two specified vertices. The two diagonals "p, q" and the four side lengths "a, b, c, d" of a quadrilateral are related by the Cayley-Menger determinant, as follows:
+Angle bisectors.
+The internal angle bisectors of a convex quadrilateral either form a cyclic quadrilateral (that is, the four intersection points of adjacent angle bisectors are concyclic) or they are concurrent. In the latter case the quadrilateral is a tangential quadrilateral.
+In quadrilateral "ABCD", if the angle bisectors of "A" and "C" meet on diagonal "BD", then the angle bisectors of "B" and "D" meet on diagonal "AC".
+Bimedians.
+The bimedians of a quadrilateral are the line segments connecting the midpoints of the opposite sides. The intersection of the bimedians is the centroid of the vertices of the quadrilateral.
+The midpoints of the sides of any quadrilateral (convex, concave or crossed) are the vertices of a parallelogram called the Varignon parallelogram. It has the following properties:
+The two bimedians in a quadrilateral and the line segment joining the midpoints of the diagonals in that quadrilateral are concurrent and are all bisected by their point of intersection.
+In a convex quadrilateral with sides "a", "b", "c" and "d", the length of the bimedian that connects the midpoints of the sides "a" and "c" is
+where "p" and "q" are the length of the diagonals. The length of the bimedian that connects the midpoints of the sides "b" and "d" is
+Hence
+This is also a corollary to the parallelogram law applied in the Varignon parallelogram.
+The lengths of the bimedians can also be expressed in terms of two opposite sides and the distance "x" between the midpoints of the diagonals. This is possible when using Euler's quadrilateral theorem in the above formulas. Whence
+and
+Note that the two opposite sides in these formulas are not the two that the bimedian connects.
+In a convex quadrilateral, there is the following dual connection between the bimedians and the diagonals:
+Trigonometric identities.
+The four angles of a simple quadrilateral "ABCD" satisfy the following identities:
+and
+Also,
+In the last two formulas, no angle is allowed to be a right angle, since tan 90° is not defined.
+Inequalities.
+Area.
+If a convex quadrilateral has the consecutive sides "a", "b", "c", "d" and the diagonals "p", "q", then its area "K" satisfies
+From Bretschneider's formula it directly follows that the area of a quadrilateral satisfies
+with equality if and only if the quadrilateral is cyclic or degenerate such that one side is equal to the sum of the other three (it has collapsed into a line segment, so the area is zero).
+The area of any quadrilateral also satisfies the inequality
+Denoting the perimeter as "L", we have
+with equality only in the case of a square.
+The area of a convex quadrilateral also satisfies
+for diagonal lengths "p" and "q", with equality if and only if the diagonals are perpendicular.
+Let "a", "b", "c", "d" be the lengths of the sides of a convex quadrilateral "ABCD" with the area "K" and diagonals "AC = p", "BD = q". Then
+Let "a", "b", "c", "d" be the lengths of the sides of a convex quadrilateral "ABCD" with the area "K", then the following inequality holds:
+Diagonals and bimedians.
+A corollary to Euler's quadrilateral theorem is the inequality
+where equality holds if and only if the quadrilateral is a parallelogram.
+Euler also generalized Ptolemy's theorem, which is an equality in a cyclic quadrilateral, into an inequality for a convex quadrilateral. It states that
+where there is equality if and only if the quadrilateral is cyclic. This is often called Ptolemy's inequality.
+In any convex quadrilateral the bimedians "m, n" and the diagonals "p, q" are related by the inequality
+with equality holding if and only if the diagonals are equal. This follows directly from the quadrilateral identity formula_57
+Sides.
+The sides "a", "b", "c", and "d" of any quadrilateral satisfy
+and
+Maximum and minimum properties.
+Among all quadrilaterals with a given perimeter, the one with the largest area is the square. This is called the "isoperimetric theorem for quadrilaterals". It is a direct consequence of the area inequality
+where "K" is the area of a convex quadrilateral with perimeter "L". Equality holds if and only if the quadrilateral is a square. The dual theorem states that of all quadrilaterals with a given area, the square has the shortest perimeter.
+The quadrilateral with given side lengths that has the maximum area is the cyclic quadrilateral.
+Of all convex quadrilaterals with given diagonals, the orthodiagonal quadrilateral has the largest area. This is a direct consequence of the fact that the area of a convex quadrilateral satisfies
+where "θ" is the angle between the diagonals "p" and "q". Equality holds if and only if "θ" = 90°.
+If "P" is an interior point in a convex quadrilateral "ABCD", then
+From this inequality it follows that the point inside a quadrilateral that minimizes the sum of distances to the vertices is the intersection of the diagonals. Hence that point is the Fermat point of a convex quadrilateral.
+Remarkable points and lines in a convex quadrilateral.
+The centre of a quadrilateral can be defined in several different ways. The "vertex centroid" comes from considering the quadrilateral as being empty but having equal masses at its vertices. The "side centroid" comes from considering the sides to have constant mass per unit length. The usual centre, called just centroid (centre of area) comes from considering the surface of the quadrilateral as having constant density. These three points are in general not all the same point.
+The "vertex centroid" is the intersection of the two bimedians. As with any polygon, the "x" and "y" coordinates of the vertex centroid are the arithmetic means of the "x" and "y" coordinates of the vertices.
+The "area centroid" of quadrilateral "ABCD" can be constructed in the following way. Let "Ga", "Gb", "Gc", "Gd" be the centroids of triangles "BCD", "ACD", "ABD", "ABC" respectively. Then the "area centroid" is the intersection of the lines "GaGc" and "GbGd".
+In a general convex quadrilateral "ABCD", there are no natural analogies to the circumcenter and orthocenter of a triangle. But two such points can be constructed in the following way. Let "Oa", "Ob", "Oc", "Od" be the circumcenters of triangles "BCD", "ACD", "ABD", "ABC" respectively; and denote by "Ha", "Hb", "Hc", "Hd" the orthocenters in the same triangles. Then the intersection of the lines "OaOc" and "ObOd" is called the quasicircumcenter, and the intersection of the lines "HaHc" and "HbHd" is called the "quasiorthocenter" of the convex quadrilateral. These points can be used to define an Euler line of a quadrilateral. In a convex quadrilateral, the quasiorthocenter "H", the "area centroid" "G", and the quasicircumcenter "O" are collinear in this order, and "HG" = 2"GO".
+There can also be defined a "quasinine-point center" "E" as the intersection of the lines "EaEc" and "EbEd", where "Ea", "Eb", "Ec", "Ed" are the nine-point centers of triangles "BCD", "ACD", "ABD", "ABC" respectively. Then "E" is the midpoint of "OH".
+Another remarkable line in a convex non-parallelogram quadrilateral is the Newton line, which connects the midpoints of the diagonals, the segment connecting these points being bisected by the vertex centroid. One more interesting line (in some sense dual to the Newton's one) is the line connecting the point of intersection of diagonals with the vertex centroid. The line is remarkable by the fact that it contains the (area) centroid. The vertex centroid divides the segment connecting the intersection of diagonals and the (area) centroid in the ratio 3:1.
+For any quadrilateral "ABCD" with points "P" and "Q" the intersections of "AD" and "BC" and "AB" and "CD", respectively, the circles "(PAB), (PCD), (QAD)," and "(QBC)" pass through a common point "M", called a Miquel point.
+For a convex quadrilateral "ABCD" in which "E" is the point of intersection of the diagonals and "F" is the point of intersection of the extensions of sides "BC" and "AD", let ω be a circle through "E" and "F" which meets "CB" internally at "M" and "DA" internally at "N". Let "CA" meet ω again at "L" and let "DB" meet ω again at "K". Then there holds: the straight lines "NK" and "ML" intersect at point "P" that is located on the side "AB"; the straight lines "NL" and "KM" intersect at point "Q" that is located on the side "CD". 
+Points "P" and "Q" are called ”Pascal points” formed by circle ω on sides "AB" and "CD".
+Taxonomy.
+A hierarchical taxonomy of quadrilaterals is illustrated by the figure to the right. Lower classes are special cases of higher classes they are connected to. Note that "trapezoid" here is referring to the North American definition (the British equivalent is a trapezium). Inclusive definitions are used throughout.
+Skew quadrilaterals.
+A non-planar quadrilateral is called a skew quadrilateral. Formulas to compute its dihedral angles from the edge lengths and the angle between two adjacent edges were derived for work on the properties of molecules such as cyclobutane that contain a "puckered" ring of four atoms. Historically the term gauche quadrilateral was also used to mean a skew quadrilateral. A skew quadrilateral together with its diagonals form a (possibly non-regular) tetrahedron, and conversely every skew quadrilateral comes from a tetrahedron where a pair of opposite edges is removed.
+

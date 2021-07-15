@@ -1,0 +1,8 @@
+The dipole antenna is one of the most important and commonly used type of radio frequency (RF) antenna. It is widely used on its own. It is also used in many other RF antenna designs where it forms the radiating or driven element for the antenna.
+Basic facts dipole antenna.
+The dipole antenna is made of two poles into which radio frequency current flows. This current and the voltage causes an electromagnetic or radio signal to be radiated. Being more specific, a dipole is usually an antenna that uses a resonant length of conductor. This conductor is cut so it can be connected to the what is sending the signal. For resonance, the length of the conductor is an odd number of half wavelengths long. In most cases a single half-wavelength is used.
+Length of a dipole antenna.
+The length of a dipole is very important for selecting the frequency that the antenna will work at. The antenna is an electrical half wavelength, or multiple of half wavelengths. This is not the same length as the wavelength for a signal travelling through air. There are a number of reasons for this. This means that an antenna will be a small amount shorter than the length calculated for a wave moving in air.
+For a half wave dipole, the length for a wave moving in air is calculated. This number is multiplied by a factor "A". "A" is normally between 0.96 and 0.98. It is affected by the ratio of the length of the antenna to the thickness of the wire or tube used poles.
+Uses of dipole antennas.
+Dipole antennas are used for many different things. These include television antennas (commonly referred to as "rabbit ears"), shortwave radio antennas and whip antennas.

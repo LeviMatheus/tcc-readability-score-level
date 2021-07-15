@@ -1,0 +1,5 @@
+A fermion is one of the things that everything is made of. Fermions are really small and don't weigh much. Fermions can be thought of as particles of matter because atoms are made up of fermions.
+An electron (a particle of electricity) is a fermion, but a photon (a particle of light) is not. Fermions are particles with spin numbers that are 1/2, 3/2, 5/2, etc. They are named after a man called Enrico Fermi, who was a famous physicist
+Fermions are special because you cannot put two of them in the same place at the same time. This is because the Pauli exclusion principle says that no two fermions can have the same quantum numbers, such as spin numbers, at the same time. Fermions obey Fermi-Dirac statistics.
+This is different to photons, where you can have many in the same place at the same time.
+Most well known fermions have spin of 1/2. Fermions with spin 1/2 are called Leptons. The electron is the best known lepton.

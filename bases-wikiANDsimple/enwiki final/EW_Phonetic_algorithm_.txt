@@ -1,0 +1,5 @@
+
+A phonetic algorithm is an algorithm for indexing of words by their pronunciation. Most phonetic algorithms were developed for English and are not useful for indexing words in other languages. Because English spelling varies significantly depending on multiple factors, such as the word's origin and usage over time and borrowings from other languages, phonetic algorithms necessarily take into account numerous rules and exceptions.
+Algorithms.
+Among the best-known phonetic algorithms are:
+

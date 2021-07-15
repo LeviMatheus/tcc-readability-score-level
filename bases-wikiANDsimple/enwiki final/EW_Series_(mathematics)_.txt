@@ -1,0 +1,192 @@
+
+In mathematics, a series is, roughly speaking, a description of the operation of adding infinitely many quantities, one after the other, to a given starting quantity. The study of series is a major part of calculus and its generalization, mathematical analysis. Series are used in most areas of mathematics, even for studying finite structures (such as in combinatorics) through generating functions. In addition to their ubiquity in mathematics, infinite series are also widely used in other quantitative disciplines such as physics, computer science, statistics and finance.
+For a long time, the idea that such a potentially infinite summation could produce a finite result was considered paradoxical. This paradox was resolved using the concept of a limit during the 17th century. Zeno's paradox of Achilles and the tortoise illustrates this counterintuitive property of infinite sums: Achilles runs after a tortoise, but when he reaches the position of the tortoise at the beginning of the race, the tortoise has reached a second position; when he reaches this second position, the tortoise is at a third position, and so on. Zeno concluded that Achilles could "never" reach the tortoise, and thus that movement does not exist. Zeno divided the race into infinitely many sub-races, each requiring a finite amount of time, so that the total time for Achilles to catch the tortoise is given by a series. The resolution of the paradox is that, although the series has an infinite number of terms, it has a finite sum, which gives the time necessary for Achilles to catch up with the tortoise.
+In modern terminology, any (ordered) infinite sequence formula_1 of terms (that is, numbers, functions, or anything that can be added) defines a series, which is the operation of adding the one after the other. To emphasize that there are an infinite number of terms, a series may be called an infinite series. Such a series is represented (or denoted) by an expression like
+or, using the summation sign,
+The infinite sequence of additions implied by a series cannot be effectively carried on (at least in a finite amount of time). However, if the set to which the terms and their finite sums belong has a notion of limit, it is sometimes possible to assign a value to a series, called the sum of the series. This value is the limit as tends to infinity (if the limit exists) of the finite sums of the first terms of the series, which are called the th partial sums of the series. That is,
+When this limit exists, one says that the series is convergent or summable, or that the sequence formula_1 is summable. In this case, the limit is called the sum of the series. Otherwise, the series is said to be divergent.
+The notation formula_6 denotes both the series—that is the implicit process of adding the terms one after the other indefinitely—and, if the series is convergent, the sum of the series—the result of the process. This is a generalization of the similar convention of denoting by formula_7 both the addition—the process of adding—and its result—the "sum" of and .
+Generally, the terms of a series come from a ring, often the field formula_8 of the real numbers or the field formula_9 of the complex numbers. In this case, the set of all series is itself a ring (and even an associative algebra), in which the addition consists of adding the series term by term, and the multiplication is the Cauchy product.
+Basic properties.
+An infinite series or simply a series is an infinite sum, represented by an infinite expression of the form
+where formula_11 is any ordered sequence of terms, such as numbers, functions, or anything else that can be added (an abelian group). This is an expression that is obtained from the list of terms formula_12 by laying them side by side, and conjoining them with the symbol "+". A series may also be represented by using summation notation, such as
+If an abelian group "A" of terms has a concept of limit (e.g., if it is a metric space), then some series, the convergent series, can be interpreted as having a value in "A", called the "sum of the series". This includes the common cases from calculus, in which the group is the field of real numbers or the field of complex numbers. Given a series formula_14, its "k"th partial sum is
+By definition, the series formula_16 "converges" to the limit (or simply "sums" to ), if the sequence of its partial sums has a limit . In this case, one usually writes
+A series is said to be "convergent" if it converges to some limit, or "divergent" when it does not. The value of this limit, if it exists, is then the value of the series.
+Convergent series.
+A series is said to converge or to "be convergent" when the sequence of partial sums has a finite limit. If the limit of is infinite or does not exist, the series is said to diverge. When the limit of partial sums exists, it is called the value (or sum) of the series
+An easy way that an infinite series can converge is if all the "a""n" are zero for "n" sufficiently large. Such a series can be identified with a finite sum, so it is only infinite in a trivial sense.
+Working out the properties of the series that converge, even if infinitely many terms are non-zero, is the essence of the study of series. Consider the example
+It is possible to "visualize" its convergence on the real number line: we can imagine a line of length 2, with successive segments marked off of lengths 1, , , etc. There is always room to mark the next segment, because the amount of line remaining is always the same as the last segment marked: when we have marked off , we still have a piece of length unmarked, so we can certainly mark the next . This argument does not prove that the sum is "equal" to 2 (although it is), but it does prove that it is "at most" 2. In other words, the series has an upper bound. Given that the series converges, proving that it is equal to 2 requires only elementary algebra. If the series is denoted , it can be seen that
+Therefore,
+The idiom can be extended to other, equivalent notions of series. For instance, a recurring decimal, as in
+encodes the series
+Since these series always converge to real numbers (because of what is called the completeness property of the real numbers), to talk about the series in this way is the same as to talk about the numbers for which they stand. In particular, the decimal expansion 0.111... can be identified with . This leads to an argument that , which only relies on the fact that the limit laws for series preserve the arithmetic operations; for more detail on this argument, see 0.999...
+Calculus and partial summation as an operation on sequences.
+Partial summation takes as input a sequence, ("a""n"), and gives as output another sequence, ("S""N"). It is thus a unary operation on sequences. Further, this function is linear, and thus is a linear operator on the vector space of sequences, denoted Σ. The inverse operator is the finite difference operator, denoted Δ. These behave as discrete analogues of integration and differentiation, only for series (functions of a natural number) instead of functions of a real variable. For example, the sequence (1, 1, 1, ...) has series (1, 2, 3, 4, ...) as its partial summation, which is analogous to the fact that formula_35
+In computer science, it is known as prefix sum.
+Properties of series.
+Series are classified not only by whether they converge or diverge, but also by the properties of the terms an (absolute or conditional convergence); type of convergence of the series (pointwise, uniform); the class of the term an (whether it is a real number, arithmetic progression, trigonometric function); etc.
+Non-negative terms.
+When "an" is a non-negative real number for every "n", the sequence "SN" of partial sums is non-decreasing. It follows that a series ∑"an" with non-negative terms converges if and only if the sequence "SN" of partial sums is bounded.
+For example, the series
+is convergent, because the inequality
+and a telescopic sum argument implies that the partial sums are bounded by 2. The exact value of the original series is the Basel problem.
+Absolute convergence.
+A series
+"converges absolutely" if the series of absolute values
+converges. This is sufficient to guarantee not only that the original series converges to a limit, but also that any reordering of it converges to the same limit.
+Conditional convergence.
+A series of real or complex numbers is said to be conditionally convergent (or semi-convergent) if it is convergent but not absolutely convergent. A famous example is the alternating series
+which is convergent (and its sum is equal to formula_41), but the series formed by taking the absolute value of each term is the divergent harmonic series. The Riemann series theorem says that any conditionally convergent series can be reordered to make a divergent series, and moreover, if the formula_42 are real and formula_43 is any real number, that one can find a reordering so that the reordered series converges with sum equal to formula_43.
+Abel's test is an important tool for handling semi-convergent series. If a series has the form
+where the partial sums formula_46 are bounded, formula_47 has bounded variation, and formula_48 exists:
+then the series formula_50 is convergent. This applies to the point-wise convergence of many trigonometric series, as in
+with formula_52. Abel's method consists in writing formula_53, and in performing a transformation similar to integration by parts (called summation by parts), that relates the given series formula_50 to the absolutely convergent series
+Evaluation of truncation errors.
+The evaluation of truncation errors is an important procedure in numerical analysis (especially validated numerics and computer-assisted proof).
+Alternating series.
+When conditions of the alternating series test are satisfied by formula_56, there is an exact error evaluation. Set formula_57 to be the partial sum formula_58 of the given alternating series formula_43. Then the next inequality holds:
+Taylor series.
+Taylor's theorem is a statement that includes the evaluation of the error term when the Taylor series is truncated.
+Hypergeometric series.
+By using the ratio, we can obtain the evaluation of the error term when the hypergeometric series is truncated.
+Matrix exponential.
+For the matrix exponential:
+the following error evaluation holds (scaling and squaring method):
+Convergence tests.
+There exist many tests that can be used to determine whether particular series converge or diverge.
+Series of functions.
+A series of real- or complex-valued functions
+converges pointwise on a set "E", if the series converges for each "x" in "E" as an ordinary series of real or complex numbers. Equivalently, the partial sums
+converge to "ƒ"("x") as "N" → ∞ for each "x" ∈ "E".
+A stronger notion of convergence of a series of functions is the uniform convergence. A series converges uniformly if it converges pointwise to the function "ƒ"("x"), and the error in approximating the limit by the "N"th partial sum,
+can be made minimal "independently" of "x" by choosing a sufficiently large "N".
+Uniform convergence is desirable for a series because many properties of the terms of the series are then retained by the limit. For example, if a series of continuous functions converges uniformly, then the limit function is also continuous. Similarly, if the "ƒ""n" are integrable on a closed and bounded interval "I" and converge uniformly, then the series is also integrable on "I" and can be integrated term-by-term. Tests for uniform convergence include the Weierstrass' M-test, Abel's uniform convergence test, Dini's test, and the Cauchy criterion.
+More sophisticated types of convergence of a series of functions can also be defined. In measure theory, for instance, a series of functions converges almost everywhere if it converges pointwise except on a certain set of measure zero. Other modes of convergence depend on a different metric space structure on the space of functions under consideration. For instance, a series of functions converges in mean on a set "E" to a limit function "ƒ" provided
+as "N" → ∞.
+Power series.
+A power series is a series of the form
+The Taylor series at a point "c" of a function is a power series that, in many cases, converges to the function in a neighborhood of "c". For example, the series
+is the Taylor series of formula_113 at the origin and converges to it for every "x".
+Unless it converges only at "x"="c", such a series converges on a certain open disc of convergence centered at the point "c" in the complex plane, and may also converge at some of the points of the boundary of the disc. The radius of this disc is known as the radius of convergence, and can in principle be determined from the asymptotics of the coefficients "a""n". The convergence is uniform on closed and bounded (that is, compact) subsets of the interior of the disc of convergence: to wit, it is uniformly convergent on compact sets.
+Historically, mathematicians such as Leonhard Euler operated liberally with infinite series, even if they were not convergent. When calculus was put on a sound and correct foundation in the nineteenth century, rigorous proofs of the convergence of series were always required.
+Formal power series.
+While many uses of power series refer to their sums, it is also possible to treat power series as "formal sums", meaning that no addition operations are actually performed, and the symbol "+" is an abstract symbol of conjunction which is not necessarily interpreted as corresponding to addition. In this setting, the sequence of coefficients itself is of interest, rather than the convergence of the series. Formal power series are used in combinatorics to describe and study sequences that are otherwise difficult to handle, for example, using the method of generating functions. The Hilbert–Poincaré series is a formal power series used to study graded algebras.
+Even if the limit of the power series is not considered, if the terms support appropriate structure then it is possible to define operations such as addition, multiplication, derivative, antiderivative for power series "formally", treating the symbol "+" as if it corresponded to addition. In the most common setting, the terms come from a commutative ring, so that the formal power series can be added term-by-term and multiplied via the Cauchy product. In this case the algebra of formal power series is the total algebra of the monoid of natural numbers over the underlying term ring. If the underlying term ring is a differential algebra, then the algebra of formal power series is also a differential algebra, with differentiation performed term-by-term.
+Laurent series.
+Laurent series generalize power series by admitting terms into the series with negative as well as positive exponents. A Laurent series is thus any series of the form
+If such a series converges, then in general it does so in an annulus rather than a disc, and possibly some boundary points. The series converges uniformly on compact subsets of the interior of the annulus of convergence.
+Dirichlet series.
+A Dirichlet series is one of the form
+where "s" is a complex number. For example, if all "a""n" are equal to 1, then the Dirichlet series is the Riemann zeta function
+Like the zeta function, Dirichlet series in general play an important role in analytic number theory. Generally a Dirichlet series converges if the real part of "s" is greater than a number called the abscissa of convergence. In many cases, a Dirichlet series can be extended to an analytic function outside the domain of convergence by analytic continuation. For example, the Dirichlet series for the zeta function converges absolutely when Re("s") &gt; 1, but the zeta function can be extended to a holomorphic function defined on formula_117  with a simple pole at 1.
+This series can be directly generalized to general Dirichlet series.
+Trigonometric series.
+A series of functions in which the terms are trigonometric functions is called a trigonometric series:
+The most important example of a trigonometric series is the Fourier series of a function.
+History of the theory of infinite series.
+Development of infinite series.
+Greek mathematician Archimedes produced the first known summation of an infinite series with a
+method that is still used in the area of calculus today. He used the method of exhaustion to calculate the area under the arc of a parabola with the summation of an infinite series, and gave a remarkably accurate approximation of π.
+Mathematicians from Kerala, India studied infinite series around 1350 CE.
+In the 17th century, James Gregory worked in the new decimal system on infinite series and published several Maclaurin series. In 1715, a general method for constructing the Taylor series for all functions for which they exist was provided by Brook Taylor. Leonhard Euler in the 18th century, developed the theory of hypergeometric series and q-series.
+Convergence criteria.
+The investigation of the validity of infinite series is considered to begin with Gauss in the 19th century. Euler had already considered the hypergeometric series
+on which Gauss published a memoir in 1812. It established simpler criteria of convergence, and the questions of remainders and the range of convergence.
+Cauchy (1821) insisted on strict tests of convergence; he showed that if two series are convergent their product is not necessarily so, and with him begins the discovery of effective criteria. The terms "convergence" and "divergence" had been introduced long before by Gregory (1668). Leonhard Euler and Gauss had given various criteria, and Colin Maclaurin had anticipated some of Cauchy's discoveries. Cauchy advanced the theory of power series by his expansion of a complex function in such a form.
+Abel (1826) in his memoir on the binomial series
+corrected certain of Cauchy's conclusions, and gave a completely scientific summation of the series for complex values of formula_121 and formula_122. He showed the necessity of considering the subject of continuity in questions of convergence.
+Cauchy's methods led to special rather than general criteria, and
+the same may be said of Raabe (1832), who made the first elaborate investigation of the subject, of De Morgan (from 1842), whose
+logarithmic test DuBois-Reymond (1873) and Pringsheim (1889) have
+shown to fail within a certain region; of Bertrand (1842), Bonnet
+(1843), Malmsten (1846, 1847, the latter without integration); Stokes (1847), Paucker (1852), Chebyshev (1852), and Arndt
+(1853).
+General criteria began with Kummer (1835), and have been studied by Eisenstein (1847), Weierstrass in his various
+contributions to the theory of functions, Dini (1867),
+DuBois-Reymond (1873), and many others. Pringsheim's memoirs (1889) present the most complete general theory.
+Uniform convergence.
+The theory of uniform convergence was treated by Cauchy (1821), his limitations being pointed out by Abel, but the first to attack it
+successfully were Seidel and Stokes (1847–48). Cauchy took up the
+problem again (1853), acknowledging Abel's criticism, and reaching
+the same conclusions which Stokes had already found. Thomae used the
+doctrine (1866), but there was great delay in recognizing the importance of distinguishing between uniform and non-uniform
+convergence, in spite of the demands of the theory of functions.
+Semi-convergence.
+A series is said to be semi-convergent (or conditionally convergent) if it is convergent but not absolutely convergent.
+Semi-convergent series were studied by Poisson (1823), who also gave a general form for the remainder of the Maclaurin formula. The most important solution of the problem is due, however, to Jacobi (1834), who attacked the question of the remainder from a different standpoint and reached a different formula. This expression was also worked out, and another one given, by Malmsten (1847). Schlömilch ("Zeitschrift", Vol.I, p. 192, 1856) also improved Jacobi's remainder, and showed the relation between the remainder and Bernoulli's function
+Genocchi (1852) has further contributed to the theory.
+Among the early writers was Wronski, whose "loi suprême" (1815) was hardly recognized until Cayley (1873) brought it into
+prominence.
+Fourier series.
+Fourier series were being investigated
+as the result of physical considerations at the same time that
+Gauss, Abel, and Cauchy were working out the theory of infinite
+series. Series for the expansion of sines and cosines, of multiple
+arcs in powers of the sine and cosine of the arc had been treated by
+Jacob Bernoulli (1702) and his brother Johann Bernoulli (1701) and still
+earlier by Vieta. Euler and Lagrange simplified the subject,
+as did Poinsot, Schröter, Glaisher, and Kummer.
+Fourier (1807) set for himself a different problem, to
+expand a given function of "x" in terms of the sines or cosines of
+multiples of "x", a problem which he embodied in his "Théorie analytique de la chaleur" (1822). Euler had already given the formulas for determining the coefficients in the series;
+Fourier was the first to assert and attempt to prove the general
+theorem. Poisson (1820–23) also attacked the problem from a
+different standpoint. Fourier did not, however, settle the question
+of convergence of his series, a matter left for Cauchy (1826) to
+attempt and for Dirichlet (1829) to handle in a thoroughly
+scientific manner (see convergence of Fourier series). Dirichlet's treatment ("Crelle", 1829), of trigonometric series was the subject of criticism and improvement by
+Riemann (1854), Heine, Lipschitz, Schläfli, and
+du Bois-Reymond. Among other prominent contributors to the theory of
+trigonometric and Fourier series were Dini, Hermite, Halphen,
+Krause, Byerly and Appell.
+Generalizations.
+Asymptotic series.
+Asymptotic series, otherwise asymptotic expansions, are infinite series whose partial sums become good approximations in the limit of some point of the domain. In general they do not converge, but they are useful as sequences of approximations, each of which provides a value close to the desired answer for a finite number of terms. The difference is that an asymptotic series cannot be made to produce an answer as exact as desired, the way that convergent series can. In fact, after a certain number of terms, a typical asymptotic series reaches its best approximation; if more terms are included, most such series will produce worse answers.
+Divergent series.
+Under many circumstances, it is desirable to assign a limit to a series which fails to converge in the usual sense. A summability method is such an assignment of a limit to a subset of the set of divergent series which properly extends the classical notion of convergence. Summability methods include Cesàro summation, ("C","k") summation, Abel summation, and Borel summation, in increasing order of generality (and hence applicable to increasingly divergent series).
+A variety of general results concerning possible summability methods are known. The Silverman–Toeplitz theorem characterizes "matrix summability methods", which are methods for summing a divergent series by applying an infinite matrix to the vector of coefficients. The most general method for summing a divergent series is non-constructive, and concerns Banach limits.
+Summations over arbitrary index sets.
+Definitions may be given for sums over an arbitrary index set . There are two main differences with the usual notion of series: first, there is no specific order given on the set ; second, this set may be uncountable. The notion of convergence needs to be strengthened, because the concept of conditional convergence depends on the ordering of the index set.
+If formula_124 is a function from an index set to a set , then the "series" associated to formula_125 is the formal sum of the elements formula_126 over the index elements formula_127 denoted by the
+When the index set is the natural numbers formula_129, the function formula_130 is a sequence denoted by formula_131. A series indexed on the natural numbers is an ordered formal sum and so we rewrite formula_132 as formula_133 in order to emphasize the ordering induced by the natural numbers. Thus, we obtain the common notation for a series indexed by the natural numbers
+Families of non-negative numbers.
+When summing a family {"a""i"}, "i" ∈ "I", of non-negative numbers, one may define
+When the supremum is finite, the set of "i" ∈ "I" such that "ai" &gt; 0 is countable. Indeed, for every "n" ≥ 1, the set formula_136 is finite, because
+If "I"  is countably infinite and enumerated as "I" = {"i"0, "i"1, …} then the above defined sum satisfies
+provided the value ∞ is allowed for the sum of the series.
+Any sum over non-negative reals can be understood as the integral of a non-negative function with respect to the counting measure, which accounts for the many similarities between the two constructions.
+Abelian topological groups.
+Let "a" : "I" → "X", where "I"  is any set and "X"  is an abelian Hausdorff topological group. Let "F"  be the collection of all finite subsets of "I", with "F" viewed as a directed set, ordered under inclusion with union as join. Define the sum "S"  of the family "a" as the limit
+if it exists and say that the family "a" is unconditionally summable. Saying that the sum "S"  is the limit of finite partial sums means that for every neighborhood "V"  of 0 in "X", there is a finite subset "A"0 of "I" such that
+Because "F"  is not totally ordered, this is not a limit of a sequence of partial sums, but rather of a net.
+For every "W", neighborhood of 0 in "X", there is a smaller neighborhood "V"  such that "V" − "V" ⊂ "W". It follows that the finite partial sums of an unconditionally summable family "ai", "i" ∈ "I", form a "Cauchy net", that is, for every "W", neighborhood of 0 in "X", there is a finite subset "A"0 of "I"  such that
+When "X"  is complete, a family "a" is unconditionally summable in "X"  if and only if the finite sums satisfy the latter Cauchy net condition. When "X"  is complete and "ai", "i" ∈ "I", is unconditionally summable in "X", then for every subset "J" ⊂ "I", the corresponding subfamily "aj", "j" ∈ "J", is also unconditionally summable in "X".
+When the sum of a family of non-negative numbers, in the extended sense defined before, is finite, then it coincides with the sum in the topological group "X" = R.
+If a family "a" in "X"  is unconditionally summable, then for every "W", neighborhood of 0 in "X", there is a finite subset "A"0 of "I"  such that "a""i" ∈ "W"  for every "i" not in "A"0. If "X"  is first-countable, it follows that the set of "i" ∈ "I"  such that "ai" ≠ 0 is countable. This need not be true in a general abelian topological group (see examples below).
+Unconditionally convergent series.
+Suppose that "I" = N. If a family "a""n", "n" ∈ N, is unconditionally summable in an abelian Hausdorff topological group "X", then the series in the usual sense converges and has the same sum,
+By nature, the definition of unconditional summability is insensitive to the order of the summation. When ∑"a""n" is unconditionally summable, then the series remains convergent after any permutation "σ" of the set N of indices, with the same sum,
+Conversely, if every permutation of a series ∑"a""n" converges, then the series is unconditionally convergent. When "X"  is complete, then unconditional convergence is also equivalent to the fact that all subseries are convergent; if "X"  is a Banach space, this is equivalent to say that for every sequence of signs "ε""n" = ±1, the series
+converges in "X".
+Series in topological vector spaces.
+If "X" is a topological vector space (TVS) and formula_145 is a (possibly uncountable) family in "X" then this family is summable if the limit formula_146 of the net formula_147 converges in "X", where formula_148 is the directed set of all finite subsets of "A" directed by inclusion formula_149 and formula_150.
+It is called absolutely summable if in addition, for every continuous seminorm "p" on "X", the family formula_151 is summable.
+If "X" is a normable space and if formula_145 is an absolutely summable family in "X", then necessarily all but a countable collection of formula_153's are 0. Hence, in normed spaces, it is usually only ever necessary to consider series with countably many terms.
+Summable families play an important role in the theory of nuclear spaces.
+Series in Banach and semi-normed spaces.
+The notion of series can be easily extended to the case of a seminormed space. 
+If "x""n" is a sequence of elements of a normed space "X" and if "x" is in "X", then the series ∑"x""n" converges to "x"  in  "X" if the sequence of partial sums of the series formula_154 converges to "x" in "X"; to wit,
+as "N" → ∞.
+More generally, convergence of series can be defined in any abelian Hausdorff topological group. 
+Specifically, in this case, ∑"x""n" converges to "x" if the sequence of partial sums converges to "x".
+If ("X", |·|)  is a semi-normed space, then the notion of absolute convergence becomes: 
+A series formula_156 of vectors in "X"  converges absolutely if
+in which case all but at most countably many of the values formula_158 are necessarily zero.
+If a countable series of vectors in a Banach space converges absolutely then it converges unconditionally, but the converse only holds in finite-dimensional Banach spaces (theorem of ).
+Well-ordered sums.
+Conditionally convergent series can be considered if "I" is a well-ordered set, for example, an ordinal number "α"0. One may define by transfinite recursion:
+and for a limit ordinal "α",
+if this limit exists. If all limits exist up to "α"0, then the series converges.
+

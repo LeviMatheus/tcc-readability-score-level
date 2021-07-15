@@ -1,0 +1,13 @@
+The decimal (base ten or occasionally denary) numeral system has ten as its base. It is the most widely used numeral system, perhaps because humans have four fingers and a thumb on each hand, giving a total of ten digits over both hands.
+Decimal notation.
+Decimal notation is the writing of numbers in the base-ten numeral system, which uses various symbols (called digits) for no more than ten distinct values (0, 1, 2, 3, 4, 5, 6, 7, 8 and 9) to represent any numbers, no matter how large. These digits are often used with a decimal separator which indicates the start of a fractional part, and with one of the sign symbols + (positive) or − (negative) in front of the numerals to indicate sign.
+There are only two truly positional decimal systems in ancient civilization, the Chinese counting rods system and Hindu-Arabic numeric system, both required no more
+than ten symbols. Other numeric systems require more symbols.
+Other rational numbers.
+Any rational number which cannot be expressed as a decimal fraction has a unique infinite decimal expansion ending with recurring decimals.
+History.
+There follows a chronological list of recorded decimal writers.
+Natural languages.
+A straightforward decimal system, in which 11 is expressed as "ten-one" and 23 as "two-ten-three", is found in Chinese languages except Wu, and in Vietnamese with a few irregularities. Japanese, Korean, and Thai have imported the Chinese decimal system. Many other languages with a decimal system have special words for teens and decades.
+Incan languages such as Quechua and Aymara have an almost straightforward decimal system, in which 11 is expressed as "ten with one" and 23 as "two-ten with three".
+Some psychologists suggest irregularities of numerals in a language may hinder children's counting ability.

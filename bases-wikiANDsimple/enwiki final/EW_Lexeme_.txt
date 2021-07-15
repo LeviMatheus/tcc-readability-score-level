@@ -1,0 +1,11 @@
+
+A lexeme () is a unit of lexical meaning that underlies a set of words that are related through inflection. It is a basic abstract unit of meaning, a unit of morphological analysis in linguistics that roughly corresponds to a set of forms taken by a single root word. For example, in English, "run", "runs", "ran" and "running" are forms of the same lexeme, which can be represented as RUN.
+One form, the lemma (or citation form), is chosen by convention as the canonical form of a lexeme. The lemma is the form used in dictionaries as an entry's headword. Other forms of a lexeme are often listed later in the entry if they are uncommon or irregularly inflected.
+Description.
+The notion of the lexeme is central to morphology, the basis for defining other concepts in that field. For example, the difference between inflection and derivation can be stated in terms of lexemes:
+A lexeme belongs to a particular syntactic category, has a certain meaning (semantic value) and, in inflecting languages, has a corresponding inflectional paradigm. That is, a lexeme in many languages will have many different forms. For example, the lexeme RUN has a present third person singular form "runs", a present non-third-person singular form "run" (which also functions as the past participle and non-finite form), a past form "ran", and a present participle "running". (It does not include "runner, runners, runnable" etc.) The use of the forms of a lexeme is governed by rules of grammar. In the case of English verbs such as RUN, they include subject-verb agreement and compound tense rules, which determine the form of a verb that can be used in a given sentence.
+In many formal theories of language, lexemes have subcategorization frames to account for the number and types of complements. They occur within sentences and other syntactic structures.
+Decomposition.
+A language's lexemes are often composed of smaller units with individual meaning called morphemes, according to root morpheme + derivational morphemes + suffix (not necessarily in that order), where:
+The compound root morpheme + derivational morphemes is often called the stem. The decomposition stem + desinence can then be used to study inflection.
+

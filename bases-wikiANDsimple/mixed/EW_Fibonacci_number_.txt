@@ -1,0 +1,281 @@
+
+In mathematics, the Fibonacci numbers, commonly denoted , form a sequence, called the Fibonacci sequence, such that each number is the sum of the two preceding ones, starting from 0 and 1. That is, 
+formula_1
+and
+formula_2
+for .
+The beginning of the sequence is thus:
+formula_3
+Under some older definitions, the value formula_4 is omitted, so that the sequence starts with formula_5 and the recurrence formula_6 is valid for . In his original definition, Fibonacci started the sequence with formula_7
+Fibonacci numbers are strongly related to the golden ratio: Binet's formula expresses the th Fibonacci number in terms of and the golden ratio, and implies that the ratio of two consecutive Fibonacci numbers tends to the golden ratio as increases.
+Fibonacci numbers are named after the Italian mathematician Leonardo of Pisa, later known as Fibonacci. In his 1202 book "Liber Abaci", Fibonacci introduced the sequence to Western European mathematics, although the sequence had been described earlier in Indian mathematics, as early as 200 BC in work by Pingala on enumerating possible patterns of Sanskrit poetry formed from syllables of two lengths. 
+Fibonacci numbers appear unexpectedly often in mathematics, so much so that there is an entire journal dedicated to their study, the "Fibonacci Quarterly". Applications of Fibonacci numbers include computer algorithms such as the Fibonacci search technique and the Fibonacci heap data structure, and graphs called Fibonacci cubes used for interconnecting parallel and distributed systems.
+They also appear in biological settings, such as branching in trees, the arrangement of leaves on a stem, the fruit sprouts of a pineapple, the flowering of an artichoke, an uncurling fern, and the arrangement of a pine cone's bracts.
+Fibonacci numbers are also closely related to Lucas numbers formula_8, in that the Fibonacci and Lucas numbers form a complementary pair of Lucas sequences: formula_9 and formula_10.
+History.
+The Fibonacci sequence appears in Indian mathematics in connection with Sanskrit prosody, as pointed out by Parmanand Singh in 1986. In the Sanskrit poetic tradition, there was interest in enumerating all patterns of long (L) syllables of 2 units duration, juxtaposed with short (S) syllables of 1 unit duration. Counting the different patterns of successive L and S with a given total duration results in the Fibonacci numbers: the number of patterns of duration units is .
+Knowledge of the Fibonacci sequence was expressed as early as Pingala ( 450 BC–200 BC). Singh cites Pingala's cryptic formula "misrau cha" ("the two are mixed") and scholars who interpret it in context as saying that the number of patterns for beats () is obtained by adding one [S] to the cases and one [L] to the cases.
+Bharata Muni also expresses knowledge of the sequence in the "Natya Shastra" (c. 100 BC–c. 350 AD).
+However, the clearest exposition of the sequence arises in the work of Virahanka (c. 700 AD), whose own work is lost, but is available in a quotation by Gopala (c. 1135):
+Variations of two earlier meters [is the variation]... For example, for [a meter of length] four, variations of meters of two [and] three being mixed, five happens. [works out examples 8, 13, 21]... In this way, the process should be followed in all "mātrā-vṛttas" [prosodic combinations].
+Hemachandra (c. 1150) is credited with knowledge of the sequence as well, writing that "the sum of the last and the one before the last is the number ... of the next mātrā-vṛtta."
+Outside India, the Fibonacci sequence first appears in the book "Liber Abaci" (1202) by Fibonacci where it is used to calculate the growth of rabbit populations. Fibonacci considers the growth of an idealized (biologically unrealistic) rabbit population, assuming that: a newly born breeding pair of rabbits are put in a field; each breeding pair mates at the age of one month, and at the end of their second month they always produce another pair of rabbits; and rabbits never die, but continue breeding forever. Fibonacci posed the puzzle: how many pairs will there be in one year?
+At the end of the th month, the number of pairs of rabbits is equal to the number of mature pairs (that is, the number of pairs in month ) plus the number of pairs alive last month (month ). The number in the th month is the th Fibonacci number.
+The name "Fibonacci sequence" was first used by the 19th-century number theorist Édouard Lucas.
+Sequence properties.
+The first 21 Fibonacci numbers are:
+The sequence can also be extended to negative index using the re-arranged recurrence relation
+formula_11
+ which yields the sequence of "negafibonacci" numbers satisfying
+formula_12
+Thus the bidirectional sequence is
+Relation to the golden ratio.
+Closed-form expression.
+Like every sequence defined by a linear recurrence with constant coefficients, the Fibonacci numbers have a closed form expression. It has become known as Binet's formula, named after French mathematician Jacques Philippe Marie Binet, though it was already known by Abraham de Moivre and Daniel Bernoulli:
+formula_13
+where
+formula_14
+is the golden ratio (), and
+formula_15
+Since formula_16, this formula can also be written as
+formula_17
+To see this, note that and are both solutions of the equations
+formula_18
+so the powers of and satisfy the Fibonacci recursion. In other words,
+formula_19
+and
+formula_20
+It follows that for any values and , the sequence defined by
+formula_21
+satisfies the same recurrence
+formula_22
+If and are chosen so that and then the resulting sequence must be the Fibonacci sequence. This is the same as requiring and satisfy the system of equations:
+formula_23
+which has solution
+formula_24
+producing the required formula.
+Taking the starting values and to be arbitrary constants, a more general solution is:
+formula_25
+where
+formula_26
+formula_27
+Computation by rounding.
+Since
+formula_28
+for all , the number is the closest integer to formula_29. Therefore, it can be found by rounding, using the nearest integer function:
+formula_30
+In fact, the rounding error is very small, being less than 0.1 for , and less than 0.01 for .
+Fibonacci numbers can also be computed by truncation, in terms of the floor function:
+formula_31
+As the floor function is monotonic, the latter formula can be inverted for finding the index of the largest Fibonacci number that is not greater than a real number :
+formula_32
+where formula_33
+Limit of consecutive quotients.
+Johannes Kepler observed that the ratio of consecutive Fibonacci numbers converges. He wrote that "as 5 is to 8 so is 8 to 13, practically, and as 8 is to 13, so is 13 to 21 almost", and concluded that these ratios approach the golden ratio formula_34
+formula_35
+This convergence holds regardless of the starting values, excluding 0 and 0, or any pair in the conjugate golden ratio, formula_36 This can be verified using Binet's formula. For example, the initial values 3 and 2 generate the sequence 3, 2, 5, 7, 12, 19, 31, 50, 81, 131, 212, 343, 555, ... The ratio of consecutive terms in this sequence shows the same convergence towards the golden ratio.
+Decomposition of powers.
+Since the golden ratio satisfies the equation
+formula_37
+this expression can be used to decompose higher powers formula_38 as a linear function of lower powers, which in turn can be decomposed all the way down to a linear combination of formula_39 and 1. The resulting recurrence relationships yield Fibonacci numbers as the linear coefficients:
+formula_40
+This equation can be proved by induction on "n".
+This expression is also true for "n" &lt; 1 if the Fibonacci sequence "Fn" is extended to negative integers using the Fibonacci rule formula_41
+Matrix form.
+A 2-dimensional system of linear difference equations that describes the Fibonacci sequence is
+formula_42
+alternatively denoted
+formula_43
+which yields formula_44. The eigenvalues of the matrix are formula_45 and formula_46 corresponding to the respective eigenvectors 
+formula_47 
+and
+formula_48
+As the initial value is
+formula_49 
+it follows that the th term is
+formula_50
+From this, the th element in the Fibonacci series
+may be read off directly as a closed-form expression:
+formula_51
+Equivalently, the same computation may performed by diagonalization of through use of its eigendecomposition:
+formula_52
+where formula_53 and formula_54
+The closed-form expression for the th element in the Fibonacci series is therefore given by
+formula_55
+which again yields
+formula_56
+The matrix has a determinant of −1, and thus it is a 2×2 unimodular matrix.
+This property can be understood in terms of the continued fraction representation for the golden ratio:
+formula_57
+The Fibonacci numbers occur as the ratio of successive convergents of the continued fraction for , and the matrix formed from successive convergents of any continued fraction has a determinant of +1 or −1. The matrix representation gives the following closed-form expression for the Fibonacci numbers:
+formula_58
+Taking the determinant of both sides of this equation yields Cassini's identity,
+formula_59
+Moreover, since for any square matrix , the following identities can be derived (they are obtained from two different coefficients of the matrix product, and one may easily deduce the second one from the first one by changing into ),
+formula_60
+In particular, with ,
+formula_61
+These last two identities provide a way to compute Fibonacci numbers recursively in arithmetic operations and in time , where is the time for the multiplication of two numbers of digits. This matches the time for computing the th Fibonacci number from the closed-form matrix formula, but with fewer redundant steps if one avoids recomputing an already computed Fibonacci number (recursion with memoization).
+Identification.
+The question may arise whether a positive integer "x" is a Fibonacci number. This is true if and only if at least one of formula_62 or formula_63 is a perfect square. This is because Binet's formula above can be rearranged to give
+formula_64
+which allows one to find the position in the sequence of a given Fibonacci number.
+This formula must return an integer for all "n", so the radical expression must be an integer (otherwise the logarithm does not even return a rational number).
+Combinatorial identities.
+Most identities involving Fibonacci numbers can be proved using combinatorial arguments using the fact that "F""n" can be interpreted as the number of sequences of 1s and 2s that sum to "n" − 1. This can be taken as the definition of "F""n", with the convention that "F"0 = 0, meaning no sum adds up to −1, and that "F"1 = 1, meaning the empty sum "adds up" to 0. Here, the order of the summand matters. For example, 1 + 2 and 2 + 1 are considered two different sums.
+For example, the recurrence relation
+or in words, the "n"th Fibonacci number is the sum of the previous two Fibonacci numbers, may be shown by dividing the "F""n" sums of 1s and 2s that add to "n" − 1 into two non-overlapping groups. One group contains those sums whose first term is 1 and the other those sums whose first term is 2. In the first group the remaining terms add to "n" − 2, so it has "F""n"-1 sums, and in the second group the remaining terms add to "n" − 3, so there are "F""n"−2 sums. So there are a total of "F""n"−1 + "F""n"−2 sums altogether, showing this is equal to "F""n".
+Similarly, it may be shown that the sum of the first Fibonacci numbers up to the "n"th is equal to the ("n" + 2)-nd Fibonacci number minus 1. In symbols:
+formula_66
+This is done by dividing the sums adding to "n" + 1 in a different way, this time by the location of the first 2. Specifically, the first group consists of those sums that start with 2, the second group those that start 1 + 2, the third 1 + 1 + 2, and so on, until the last group, which consists of the single sum where only 1's are used. The number of sums in the first group is "F"("n"), "F"("n" − 1) in the second group, and so on, with 1 sum in the last group. So the total number of sums is "F"("n") + "F"("n" − 1) + ... + "F"(1) + 1 and therefore this quantity is equal to "F"("n" + 2).
+A similar argument, grouping the sums by the position of the first 1 rather than the first 2, gives two more identities:
+formula_67
+and
+formula_68
+In words, the sum of the first Fibonacci numbers with odd index up to "F"2"n"−1 is the (2"n")th Fibonacci number, and the sum of the first Fibonacci numbers with even index up to "F"2"n" is the (2"n" + 1)th Fibonacci number minus 1.
+A different trick may be used to prove
+formula_69
+or in words, the sum of the squares of the first Fibonacci numbers up to "F""n" is the product of the "n"th and ("n" + 1)th Fibonacci numbers. In this case Fibonacci rectangle of size "F""n" by "F"("n" + 1) can be decomposed into squares of size "F""n", "F""n"−1, and so on to "F"1 = 1, from which the identity follows by comparing areas.
+Symbolic method.
+The sequence formula_70 is also considered using the symbolic method. More precisely, this sequence corresponds to a specifiable combinatorial class. The specification of this sequence is formula_71. Indeed, as stated above, the formula_72-th Fibonacci number equals the number of combinatorial compositions (ordered partitions) of formula_73 using terms 1 and 2.
+It follows that the ordinary generating function of the Fibonacci sequence, i.e. formula_74, is the complex function formula_75.
+Other identities.
+Numerous other identities can be derived using various methods. Some of the most noteworthy are:
+Cassini's and Catalan's identities.
+Cassini's identity states that
+formula_76
+Catalan's identity is a generalization:
+formula_77
+d'Ocagne's identity.
+formula_78
+formula_79
+where "L""n" is the "n"'th Lucas number. The last is an identity for doubling "n"; other identities of this type are
+formula_80
+by Cassini's identity.
+formula_81
+formula_82
+formula_83
+These can be found experimentally using lattice reduction, and are useful in setting up the special number field sieve to factorize a Fibonacci number.
+More generally,
+formula_84
+or alternatively
+formula_85
+Putting in this formula, one gets again the formulas of the end of above section Matrix form.
+Power series.
+The generating function of the Fibonacci sequence is the power series
+formula_86
+This series is convergent for formula_87 and its sum has a simple closed-form:
+formula_88
+This can be proved by using the Fibonacci recurrence to expand each coefficient in the infinite sum:
+formula_89
+Solving the equation
+formula_90
+for "s"("x") results in the above closed form.
+Setting , the closed form of the series becomes
+formula_91
+In particular, if is an integer greater than 1, then this series converges. Further setting yields
+formula_92
+for all positive integers .
+Some math puzzle-books present as curious the particular value that comes from , which is formula_93 Similarly, gives
+formula_94
+Reciprocal sums.
+Infinite sums over reciprocal Fibonacci numbers can sometimes be evaluated in terms of theta functions. For example, we can write the sum of every odd-indexed reciprocal Fibonacci number as
+formula_95
+and the sum of squared reciprocal Fibonacci numbers as
+formula_96
+If we add 1 to each Fibonacci number in the first sum, there is also the closed form
+formula_97
+and there is a "nested" sum of squared Fibonacci numbers giving the reciprocal of the golden ratio,
+formula_98
+No closed formula for the reciprocal Fibonacci constant
+formula_99
+is known, but the number has been proved irrational by Richard André-Jeannin.
+The Millin series gives the identity
+formula_100
+which follows from the closed form for its partial sums as "N" tends to infinity:
+formula_101
+Primes and divisibility.
+Divisibility properties.
+Every third number of the sequence is even and more generally, every "k"th number of the sequence is a multiple of "Fk". Thus the Fibonacci sequence is an example of a divisibility sequence. In fact, the Fibonacci sequence satisfies the stronger divisibility property
+formula_102
+Any three consecutive Fibonacci numbers are pairwise coprime, which means that, for every "n",
+Every prime number "p" divides a Fibonacci number that can be determined by the value of "p" modulo 5. If "p" is congruent to 1 or 4 (mod 5), then "p" divides "F""p" − 1, and if "p" is congruent to 2 or 3 (mod 5), then, "p" divides "F""p" + 1. The remaining case is that "p" = 5, and in this case "p" divides "F"p.
+formula_103
+These cases can be combined into a single, non-piecewise formula, using the Legendre symbol:
+formula_104
+Primality testing.
+The above formula can be used as a primality test in the sense that if
+formula_105
+where the Legendre symbol has been replaced by the Jacobi symbol, then this is evidence that "n" is a prime, and if it fails to hold, then "n" is definitely not a prime. If "n" is composite and satisfies the formula, then "n" is a "Fibonacci pseudoprime". When "m" is largesay a 500-bit numberthen we can calculate "F""m" (mod "n") efficiently using the matrix form. Thus
+formula_106
+Here the matrix power "A""m" is calculated using modular exponentiation, which can be adapted to matrices.
+Fibonacci primes.
+A "Fibonacci prime" is a Fibonacci number that is prime. The first few are:
+Fibonacci primes with thousands of digits have been found, but it is not known whether there are infinitely many.
+"F""kn" is divisible by "F""n", so, apart from "F"4 = 3, any Fibonacci prime must have a prime index. As there are arbitrarily long runs of composite numbers, there are therefore also arbitrarily long runs of composite Fibonacci numbers.
+No Fibonacci number greater than "F"6 = 8 is one greater or one less than a prime number.
+The only nontrivial square Fibonacci number is 144. Attila Pethő proved in 2001 that there is only a finite number of perfect power Fibonacci numbers. In 2006, Y. Bugeaud, M. Mignotte, and S. Siksek proved that 8 and 144 are the only such non-trivial perfect powers.
+1, 3, 21, 55 are the only triangular Fibonacci numbers, which was conjectured by Vern Hoggatt and proved by Luo Ming.
+No Fibonacci number can be a perfect number. More generally, no Fibonacci number other than 1 can be multiply perfect, and no ratio of two Fibonacci numbers can be perfect.
+Prime divisors.
+With the exceptions of 1, 8 and 144 ("F"1 = "F"2, "F"6 and "F"12) every Fibonacci number has a prime factor that is not a factor of any smaller Fibonacci number (Carmichael's theorem). As a result, 8 and 144 ("F"6 and "F"12) are the only Fibonacci numbers that are the product of other Fibonacci numbers .
+The divisibility of Fibonacci numbers by a prime "p" is related to the Legendre symbol formula_107 which is evaluated as follows:
+formula_108
+If "p" is a prime number then
+formula_109
+For example,
+formula_110
+It is not known whether there exists a prime "p" such that
+formula_111
+Such primes (if there are any) would be called Wall–Sun–Sun primes.
+Also, if "p" ≠ 5 is an odd prime number then:
+formula_112
+Example 1. "p" = 7, in this case "p" ≡ 3 (mod 4) and we have:
+formula_113
+formula_114
+formula_115
+Example 2. "p" = 11, in this case "p" ≡ 3 (mod 4) and we have:
+formula_116
+formula_117
+formula_118
+Example 3. "p" = 13, in this case "p" ≡ 1 (mod 4) and we have:
+formula_119
+formula_120
+formula_121
+Example 4. "p" = 29, in this case "p" ≡ 1 (mod 4) and we have:
+formula_122
+formula_123
+formula_124
+For odd "n", all odd prime divisors of "F""n" are congruent to 1 modulo 4, implying that all odd divisors of "F""n" (as the products of odd prime divisors) are congruent to 1 modulo 4.
+For example,
+formula_125
+All known factors of Fibonacci numbers "F"("i") for all "i" &lt; 50000 are collected at the relevant repositories.
+Periodicity modulo "n".
+If the members of the Fibonacci sequence are taken mod "n", the resulting sequence is periodic with period at most "6n". The lengths of the periods for various "n" form the so-called Pisano periods . Determining a general formula for the Pisano periods is an open problem, which includes as a subproblem a special instance of the problem of finding the multiplicative order of a modular integer or of an element in a finite field. However, for any particular "n", the Pisano period may be found as an instance of cycle detection.
+Magnitude.
+Since "Fn" is asymptotic to formula_126, the number of digits in "F""n" is asymptotic to formula_127. As a consequence, for every integer "d" &gt; 1 there are either 4 or 5 Fibonacci numbers with "d" decimal digits.
+More generally, in the base "b" representation, the number of digits in "F""n" is asymptotic to formula_128
+Generalizations.
+The Fibonacci sequence is one of the simplest and earliest known sequences defined by a recurrence relation, and specifically by a linear difference equation. All these sequences may be viewed as generalizations of the Fibonacci sequence. In particular, Binet's formula may be generalized to any sequence that is a solution of a homogeneous linear difference equation with constant coefficients.
+Some specific examples that are close, in some sense, from Fibonacci sequence include:
+Applications.
+The Fibonacci numbers occur in the sums of "shallow" diagonals in Pascal's triangle (see binomial coefficient):
+Mathematics.
+formula_129
+These numbers also give the solution to certain enumerative problems, the most common of which is that of counting the number of ways of writing a given number as an ordered sum of 1s and 2s (called compositions); there are ways to do this. For example, there are ways one can climb a staircase of 5 steps, taking one or two steps at a time:
+The figure shows that 8 can be decomposed into 5 (the number of ways to climb 4 steps, followed by a single-step) plus 3 (the number of ways to climb 3 steps, followed by a double-step). The same reasoning is applied recursively until a single step, of which there is only one way to climb.
+The Fibonacci numbers can be found in different ways among the set of binary strings, or equivalently, among the subsets of a given set.
+Nature.
+Fibonacci sequences appear in biological settings, such as branching in trees, arrangement of leaves on a stem, the fruitlets of a pineapple, the flowering of artichoke, an uncurling fern and the arrangement of a pine cone, and the family tree of honeybees. Kepler pointed out the presence of the Fibonacci sequence in nature, using it to explain the (golden ratio-related) pentagonal form of some flowers. Field daisies most often have petals in counts of Fibonacci numbers. In 1754, Charles Bonnet discovered that the spiral phyllotaxis of plants were frequently expressed in Fibonacci number series.
+Przemysław Prusinkiewicz advanced the idea that real instances can in part be understood as the expression of certain algebraic constraints on free groups, specifically as certain Lindenmayer grammars.
+A model for the pattern of florets in the head of a sunflower was proposed by in 1979. This has the form
+formula_131
+where is the index number of the floret and is a constant scaling factor; the florets thus lie on Fermat's spiral. The divergence angle, approximately 137.51°, is the golden angle, dividing the circle in the golden ratio. Because this ratio is irrational, no floret has a neighbor at exactly the same angle from the center, so the florets pack efficiently. Because the rational approximations to the golden ratio are of the form , the nearest neighbors of floret number are those at for some index , which depends on , the distance from the center. Sunflowers and similar flowers most commonly have spirals of florets in clockwise and counter-clockwise directions in the amount of adjacent Fibonacci numbers, typically counted by the outermost range of radii.
+Fibonacci numbers also appear in the pedigrees of idealized honeybees, according to the following rules:
+Thus, a male bee always has one parent, and a female bee has two. If one traces the pedigree of any male bee (1 bee), he has 1 parent (1 bee), 2 grandparents, 3 great-grandparents, 5 great-great-grandparents, and so on. This sequence of numbers of parents is the Fibonacci sequence. The number of ancestors at each level, , is the number of female ancestors, which is , plus the number of male ancestors, which is . This is under the unrealistic assumption that the ancestors at each level are otherwise unrelated.
+It has been noticed that the number of possible ancestors on the human X chromosome inheritance line at a given ancestral generation also follows the Fibonacci sequence. A male individual has an X chromosome, which he received from his mother, and a Y chromosome, which he received from his father. The male counts as the "origin" of his own X chromosome (formula_132), and at his parents' generation, his X chromosome came from a single parent (formula_133). The male's mother received one X chromosome from her mother (the son's maternal grandmother), and one from her father (the son's maternal grandfather), so two grandparents contributed to the male descendant's X chromosome (formula_134). The maternal grandfather received his X chromosome from his mother, and the maternal grandmother received X chromosomes from both of her parents, so three great-grandparents contributed to the male descendant's X chromosome (formula_135). Five great-great-grandparents contributed to the male descendant's X chromosome (formula_136), etc. (This assumes that all ancestors of a given descendant are independent, but if any genealogy is traced far enough back in time, ancestors begin to appear on multiple lines of the genealogy, until eventually a population founder appears on all lines of the genealogy.)
+The pathways of tubulins on intracellular microtubules arrange in patterns of 3, 5, 8 and 13.
+References.
+Footnotes
+Citations
+

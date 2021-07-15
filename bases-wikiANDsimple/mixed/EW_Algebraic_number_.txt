@@ -1,0 +1,19 @@
+
+An algebraic number is any complex number (including real numbers) that is a root of a non-zero polynomial (that is, a value which causes the polynomial to equal 0) in one variable with rational coefficients (or equivalently, by clearing denominators, with integer coefficients).
+All integers and rational numbers are algebraic, as are all roots of integers. Real and complex numbers that are not algebraic, such as and , are called transcendental numbers.
+The set of complex numbers is uncountable, but the set of algebraic numbers is countable and has measure zero in the Lebesgue measure as a subset of the complex numbers. In that sense, almost all complex numbers are transcendental.
+Field.
+The sum, difference, product and quotient (if the denominator is nonzero) of two algebraic numbers is again algebraic, as can be demonstrated by using the resultant, and algebraic numbers thus form a field (sometimes denoted by formula_4, but that usually denotes the adele ring). Every root of a polynomial equation whose coefficients are "algebraic numbers" is again algebraic. That can be rephrased by saying that the field of algebraic numbers is algebraically closed. In fact, it is the smallest algebraically-closed field containing the rationals and so it is called the algebraic closure of the rationals.
+The set of real algebraic numbers itself forms a field.
+Related fields.
+Numbers defined by radicals.
+All numbers that can be obtained from the integers using a finite number of complex additions, subtractions, multiplications, divisions, and taking th roots where is a positive integer (radical expressions), are algebraic. The converse, however, is not true: there are algebraic numbers that cannot be obtained in this manner. These numbers are roots of polynomials of degree 5 or higher, a result of Galois theory (see Quintic equations and the Abel–Ruffini theorem). For example, the equation:
+has a unique real root which is given by:
+where
+is the generalized hypergeometric function.
+Closed-form number.
+Algebraic numbers are all numbers that can be defined explicitly or implicitly in terms of polynomials, starting from the rational numbers. One may generalize this to "closed-form numbers", which may be defined in various ways. Most broadly, all numbers that can be defined explicitly or implicitly in terms of polynomials, exponentials, and logarithms are called "elementary numbers", and these include the algebraic numbers, plus some transcendental numbers. Most narrowly, one may consider numbers "explicitly" defined in terms of polynomials, exponentials, and logarithms – this does not include all algebraic numbers, but does include some simple transcendental numbers such as or ln 2.
+Algebraic integers.
+An "algebraic integer" is an algebraic number that is a root of a polynomial with integer coefficients with leading coefficient 1 (a monic polynomial). Examples of algebraic integers are formula_8 formula_9 and formula_10 Therefore, the algebraic integers constitute a proper superset of the integers, as the latter are the roots of monic polynomials for all In this sense, algebraic integers are to algebraic numbers what integers are to rational numbers.
+The sum, difference and product of algebraic integers are again algebraic integers, which means that the algebraic integers form a ring. The name "algebraic integer" comes from the fact that the only rational numbers that are algebraic integers are the integers, and because the algebraic integers in any number field are in many ways analogous to the integers. If is a number field, its ring of integers is the subring of algebraic integers in , and is frequently denoted as . These are the prototypical examples of Dedekind domains.
+

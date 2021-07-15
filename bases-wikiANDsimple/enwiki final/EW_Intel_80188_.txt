@@ -1,0 +1,10 @@
+
+The Intel 80188 microprocessor was a variant of the Intel 80186. The 80188 had an 8-bit external data bus instead of the 16-bit bus of the 80186; this made it less expensive to connect to peripherals. The 16-bit registers and the one megabyte address range were unchanged, however. It had a throughput of 1 million instructions per second.
+Description.
+Features and performance.
+The 80188 series was generally intended for embedded systems, as microcontrollers with external memory. Therefore, to reduce the number of chips required, it included features such as clock generator, interrupt controller, timers, wait state generator, DMA channels, and external chip select lines.
+While the N80188 was compatible with the 8087 numerics co-processor, the 80C188 was not. It didn't have the ESC control codes integrated.
+The initial clock rate of the 80188 was 6 MHz, but due to more hardware available for the microcode to use, especially for address calculation, many individual instructions ran faster than on an 8086 at the same clock frequency. For instance, the common "register+immediate" addressing mode was significantly faster than on the 8086, especially when a memory location was both (one of the) operand(s) and the destination. Multiply and divide also showed great improvement, being several times as fast as on the original 8086 and multi-bit shifts were done almost four times as quickly as in the 8086.
+End of life.
+Along with hundreds of other processor models, Intel discontinued the 80188 processor 30 March 2006, after a life of about 24 years.
+

@@ -1,0 +1,61 @@
+
+In computer science, the Earley parser is an algorithm for parsing strings that belong to a given context-free language, though (depending on the variant) it may suffer problems with certain nullable grammars. The algorithm, named after its inventor, Jay Earley, is a chart parser that uses dynamic programming; it is mainly used for parsing in computational linguistics. It was first introduced in his dissertation in 1968 (and later appeared in an abbreviated, more legible, form in a journal).
+Earley parsers are appealing because they can parse all context-free languages, unlike LR parsers and LL parsers, which are more typically used in compilers but which can only handle restricted classes of languages. The Earley parser executes in cubic time in the general case formula_1, where "n" is the length of the parsed string, quadratic time for unambiguous grammars formula_2, and linear time for all deterministic context-free grammars. It performs particularly well when the rules are written left-recursively.
+Earley recogniser.
+The following algorithm describes the Earley recogniser. The recogniser can be easily modified to create a parse tree as it recognises, and in that way can be turned into a parser.
+The algorithm.
+In the following descriptions, α, β, and γ represent any string of terminals/nonterminals (including the empty string), X and Y represent single nonterminals, and "a" represents a terminal symbol.
+Earley's algorithm is a top-down dynamic programming algorithm. In the following, we use Earley's dot notation: given a production X → αβ, the notation X → α • β represents a condition in which α has already been parsed and β is expected.
+Input position 0 is the position prior to input. Input position "n" is the position after accepting the "n"th token. (Informally, input positions can be thought of as locations at token boundaries.) For every input position, the parser generates a "state set". Each state is a tuple (X → α • β, "i"), consisting of
+The state set at input position "k" is called S("k"). The parser is seeded with S(0) consisting of only the top-level rule. The parser then repeatedly executes three operations: "prediction", "scanning", and "completion".
+Duplicate states are not added to the state set, only new ones. These three operations are repeated until no new states can be added to the set. The set is generally implemented as a queue of states to process, with the operation to be performed depending on what kind of state it is.
+The algorithm accepts if (X → γ •, 0) ends up in S("n"), where (X → γ) is the top level-rule and "n" the input length, otherwise it rejects.
+Pseudocode.
+Adapted from Speech and Language Processing by Daniel Jurafsky and James H. Martin, 
+DECLARE ARRAY S;
+function INIT(words)
+ S ← CREATE-ARRAY(LENGTH(words) + 1)
+ for k ← from 0 to LENGTH(words) do
+ S[k] ← EMPTY-ORDERED-SET
+function EARLEY-PARSE(words, grammar)
+ INIT(words)
+ ADD-TO-SET((γ → •S, 0), S[0])
+ for k ← from 0 to LENGTH(words) do
+ for each state in S[k] do // S[k] can expand during this loop
+ if not FINISHED(state) then
+ if NEXT-ELEMENT-OF(state) is a nonterminal then
+ PREDICTOR(state, k, grammar) // non-terminal
+ else do
+ SCANNER(state, k, words) // terminal
+ else do
+ COMPLETER(state, k)
+ end
+ end
+ return chart
+procedure PREDICTOR((A → α•Bβ, j), k, grammar)
+ for each (B → γ) in GRAMMAR-RULES-FOR(B, grammar) do
+ ADD-TO-SET((B → •γ, k), S[k])
+ end
+procedure SCANNER((A → α•aβ, j), k, words)
+ if a ⊂ PARTS-OF-SPEECH(words[k]) then
+ ADD-TO-SET((A → αa•β, j), S[k+1])
+ end
+procedure COMPLETER((B → γ•, x), k)
+ for each (A → α•Bβ, j) in S[x] do
+ ADD-TO-SET((A → αB•β, j), S[k])
+ end
+Example.
+Consider the following simple grammar for arithmetic expressions:
+&lt;P&gt; ::= &lt;S&gt; # the start rule
+&lt;S&gt; ::= &lt;S&gt; "+" &lt;M&gt; | &lt;M&gt;
+&lt;M&gt; ::= &lt;M&gt; "*" &lt;T&gt; | &lt;T&gt;
+&lt;T&gt; ::= "1" | "2" | "3" | "4"
+With the input:
+ 2 + 3 * 4
+This is the sequence of state sets:
+The state (P → S •, 0) represents a completed parse. This state also appears in S(3) and S(1), which are complete sentences.
+Constructing the parse forest.
+Earley's dissertation briefly describes an algorithm for constructing parse trees by adding a set of pointers from each non-terminal in an Earley item back to the items that caused it to be recognized. But Tomita noticed that this does not take into account the relations between symbols, so if we consider the grammar S → SS | b and the string bbb, it only notes that each S can match one or two b's, and thus produces spurious derivations for bb and bbbb as well as the two correct derivations for bbb.
+Another method is to build the parse forest as you go, augmenting each Earley item with a pointer to a shared packed parse forest (SPPF) node labelled with a triple (s, i, j) where s is a symbol or an LR(0) item (production rule with dot), and i and j give the section of the input string derived by this node. A node's contents are either a pair of child pointers giving a single derivation, or a list of "packed" nodes each containing a pair of pointers and representing one derivation. SPPF nodes are unique (there is only one with a given label), but may contain more than one derivation for ambiguous parses. So even if an operation does not add an Earley item (because it already exists), it may still add a derivation to the item's parse forest.
+SPPF nodes are never labeled with a completed LR(0) item: instead they are labelled with the symbol that is produced so that all derivations are combined under one node regardless of which alternative production they come from.
+

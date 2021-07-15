@@ -1,0 +1,53 @@
+
+In mathematics, a transcendental number is a number that is not algebraic—that is, not the root of a non-zero polynomial of finite degree with rational coefficients. The best known transcendental numbers are and .
+Though only a few classes of transcendental numbers are known, in part because it can be extremely difficult to show that a given number is transcendental, transcendental numbers are not rare. Indeed, almost all real and complex numbers are transcendental, since the algebraic numbers compose a countable set, while the set of real numbers and the set of complex numbers are both uncountable sets, and therefore larger than any countable set. All transcendental real numbers (also known as real transcendental numbers or transcendental irrational numbers) are irrational numbers, since all rational numbers are algebraic. The converse is not true: not all irrational numbers are transcendental. Hence, the set of real numbers consists of non-overlapping rational, algebraic non-rational and transcendental real numbers. For example, the square root of 2 is an irrational number, but it is not a transcendental number as it is a root of the polynomial equation . The golden ratio (denoted formula_1 or formula_2) is another irrational number that is not transcendental, as it is a root of the polynomial equation .
+History.
+The name "transcendental" comes from the Latin "transcendĕre" 'to climb over or beyond, surmount', and was first used for the mathematical concept in Leibniz's 1682 paper in which he proved that is not an algebraic function of . Euler, in the 18th century, was probably the first person to define transcendental "numbers" in the modern sense.
+Johann Heinrich Lambert conjectured that and were both transcendental numbers in his 1768 paper proving the number is irrational, and proposed a tentative sketch of a proof of 's transcendence.
+Joseph Liouville first proved the existence of transcendental numbers in 1844, and in 1851 gave the first decimal examples such as the Liouville constant 
+in which the th digit after the decimal point is if is equal to ( factorial) for some and otherwise. In other words, the th digit of this number is 1 only if is one of the numbers , etc. Liouville showed that this number belongs to a class of transcendental numbers that can be more closely approximated by rational numbers than can any irrational algebraic number, and this class of numbers are called Liouville numbers, named in his honour. Liouville showed that all Liouville numbers are transcendental.
+The first number to be proven transcendental without having been specifically constructed for the purpose of proving transcendental numbers' existence was , by Charles Hermite in 1873.
+In 1874, Georg Cantor proved that the algebraic numbers are countable and the real numbers are uncountable. He also gave a new method for constructing transcendental numbers. Although this was already implied by his proof of the countability of the algebraic numbers, Cantor also published a construction that proves there are as many transcendental numbers as there are real numbers. Cantor's work established the ubiquity of transcendental numbers.
+In 1882, Ferdinand von Lindemann published the first complete proof of the transcendence of . He first proved that is transcendental if is a non-zero algebraic number. Then, since is algebraic (see Euler's identity), must be transcendental. But since is algebraic, therefore must be transcendental. This approach was generalized by Karl Weierstrass to what is now known as the Lindemann–Weierstrass theorem. The transcendence of allowed the proof of the impossibility of several ancient geometric constructions involving compass and straightedge, including the most famous one, squaring the circle.
+In 1900, David Hilbert posed an influential question about transcendental numbers, Hilbert's seventh problem: If is an algebraic number that is not zero or one, and is an irrational algebraic number, is necessarily transcendental? The affirmative answer was provided in 1934 by the Gelfond–Schneider theorem. This work was extended by Alan Baker in the 1960s in his work on lower bounds for linear forms in any number of logarithms (of algebraic numbers).
+Properties.
+The set of transcendental numbers is uncountably infinite. Since the polynomials with rational coefficients are countable, and since each such polynomial has a finite number of zeroes, the algebraic numbers must also be countable. However, Cantor's diagonal argument proves that the real numbers (and therefore also the complex numbers) are uncountable. Since the real numbers are the union of algebraic and transcendental numbers, the latter cannot both be countable. This makes the transcendental numbers uncountable.
+No rational number is transcendental and all real transcendental numbers are irrational. The irrational numbers contain all the real transcendental numbers and a subset of the algebraic numbers, including the quadratic irrationals and other forms of algebraic irrationals.
+Any non-constant algebraic function of a single variable yields a transcendental value when applied to a transcendental argument. For example, from knowing that is transcendental, it can be immediately deduced that numbers such as , and are transcendental as well.
+However, an algebraic function of several variables may yield an algebraic number when applied to transcendental numbers if these numbers are not algebraically independent. For example, and are both transcendental, but is obviously not. It is unknown whether , for example, is transcendental, though at least one of and must be transcendental. More generally, for any two transcendental numbers and , at least one of and must be transcendental. To see this, consider the polynomial . If and were both algebraic, then this would be a polynomial with algebraic coefficients. Because algebraic numbers form an algebraically closed field, this would imply that the roots of the polynomial, and , must be algebraic. But this is a contradiction, and thus it must be the case that at least one of the coefficients is transcendental.
+The non-computable numbers are a strict subset of the transcendental numbers.
+All Liouville numbers are transcendental, but not vice versa. Any Liouville number must have unbounded partial quotients in its continued fraction expansion. Using a counting argument one can show that there exist transcendental numbers which have bounded partial quotients and hence are not Liouville numbers.
+Using the explicit continued fraction expansion of , one can show that is not a Liouville number (although the partial quotients in its continued fraction expansion are unbounded). Kurt Mahler showed in 1953 that is also not a Liouville number. It is conjectured that all infinite continued fractions with bounded terms that are not eventually periodic are transcendental (eventually periodic continued fractions correspond to quadratic irrationals).
+Numbers proven to be transcendental.
+Numbers proven to be transcendental:
+Possible transcendental numbers.
+Numbers which have yet to be proven to be either transcendental or algebraic:
+Conjectures:
+Sketch of a proof that is transcendental.
+The first proof that the base of the natural logarithms, is transcendental dates from 1873. We will now follow the strategy of David Hilbert (1862–1943) who gave a simplification of the original proof of Charles Hermite. The idea is the following:
+Assume, for purpose of finding a contradiction, that is algebraic. Then there exists a finite set of integer coefficients "c"0, "c"1, ..., "cn" satisfying the equation:
+Now for a positive integer "k", we define the following polynomial:
+and multiply both sides of the above equation by
+to arrive at the equation:
+By splitting respective domains of integration, this equation can be written in the form
+where
+Lemma 1. For an appropriate choice of "k", formula_13 is a non-zero integer.
+Proof. Each term in "P" is an integer times a sum of factorials, which results from the relation
+which is valid for any positive integer "j" (consider the Gamma function).
+It is non-zero because for every "a" satisfying 0&lt; "a" ≤ "n", the integrand in
+is "e−x" times a sum of terms whose lowest power of "x" is "k"+1 after substituting "x" for "x"+"a" in the integral. Then this becomes a sum of integrals of the form
+with "k"+1 ≤ "j", and it is therefore an integer divisible by ("k"+1)!. After dividing by "k!", we get zero modulo ("k"+1). However, we can write:
+and thus
+So when dividing each integral in "P" by "k!", the initial one is not divisible by "k"+1, but all the others are, as long as "k"+1 is prime and larger than "n" and |"c"0|. It follows that formula_13 itself is not divisible by the prime "k"+1 and therefore cannot be zero.
+Lemma 2. formula_20 for sufficiently large formula_21.
+ Proof. Note that
+where formula_23 and formula_24 are continuous functions of formula_25 for all formula_25, so are bounded on the interval formula_27. That is, there are constants formula_28 such that
+So each of those integrals composing formula_30 is bounded, the worst case being
+It is now possible to bound the sum formula_30 as well:
+where formula_34 is a constant not depending on formula_21. It follows that
+finishing the proof of this lemma.
+Choosing a value of formula_21 satisfying both lemmas leads to a non-zero integer (formula_38) added to a vanishingly small quantity (formula_39) being equal to zero, is an impossibility. It follows that the original assumption, that can satisfy a polynomial equation with integer coefficients, is also impossible; that is, is transcendental.
+The transcendence of.
+A similar strategy, different from Lindemann's original approach, can be used to show that the number is transcendental. Besides the gamma-function and some estimates as in the proof for , facts about symmetric polynomials play a vital role in the proof.
+For detailed information concerning the proofs of the transcendence of and , see the references and external links.
+

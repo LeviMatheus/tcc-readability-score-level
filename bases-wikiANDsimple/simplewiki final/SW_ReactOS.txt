@@ -1,0 +1,1 @@
+ReactOS is a project to develop an operating system that is compatible with software for Microsoft Windows 2000 and its successors. Although the project currently is in its first stage of development, many Windows programs already work well.

@@ -1,0 +1,2 @@
+A software licence (or license) is a kind licence that is used to restrict how a piece of software is used. The licence explains what the maker of the software lets the person who bought the software do with it. This includes if it is allowed to be copied, sold to other people, or if there is a limited time when it can be used.
+One kind of software licence, the end user licence agreement, or "EULA", gives very specific permissions, while restricting most of what could be done with the software.

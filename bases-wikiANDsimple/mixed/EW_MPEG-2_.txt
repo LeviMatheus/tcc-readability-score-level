@@ -1,0 +1,65 @@
+
+MPEG-2 (a.k.a. H.222/H.262 as was defined by the ITU) is a standard for "the generic coding of moving pictures and associated audio information". It describes a combination of lossy video compression and lossy audio data compression methods, which permit storage and transmission of movies using currently available storage media and transmission bandwidth. While MPEG-2 is not as efficient as newer standards such as H.264/AVC and H.265/HEVC, backwards compatibility with existing hardware and software means it is still widely used, for example in over-the-air digital television broadcasting and in the DVD-Video standard.
+Main characteristics.
+MPEG-2 is widely used as the format of digital television signals that are broadcast by terrestrial (over-the-air), cable, and direct broadcast satellite TV systems. It also specifies the format of movies and other programs that are distributed on DVD and similar discs. TV stations, TV receivers, DVD players, and other equipment are often designed to this standard. MPEG-2 was the second of several standards developed by the Moving Pictures Expert Group (MPEG) and is an international standard (ISO/IEC 13818). Parts 1 and 2 of MPEG-2 were developed in a collaboration with ITU-T, and they have a respective catalog number in the ITU-T Recommendation Series.
+While MPEG-2 is the core of most digital television and DVD formats, it does not completely specify them. Regional institutions can adapt it to their needs by restricting and augmenting aspects of the standard. See Video profiles and levels.
+Systems.
+MPEG-2 includes a Systems section, part 1, that defines two distinct, but related, container formats. One is the "transport stream", a data packet format designed to transmit one data packet in four ATM data packets for streaming digital video and audio over fixed or mobile transmission mediums, where the beginning and the end of the stream may not be identified, such as radio frequency, cable and linear recording mediums, examples of which include ATSC/DVB/ISDB/SBTVD broadcasting, and HDV recording on tape. The other is the "program stream", an extended version of the container format with less overhead than "transport stream". "Program stream" is designed for random access storage mediums such as hard disk drives, optical discs and flash memory.
+"Transport stream" file formats include M2TS, which is used on Blu-ray discs, AVCHD on re-writable DVDs and HDV on compact flash cards. "Program stream" files include VOB on DVDs and Enhanced VOB on the short lived HD DVD. The standard MPEG-2 "transport stream" contains packets of 188 bytes. M2TS prepends each packet with 4 bytes containing a 2-bit copy permission indicator and 30-bit timestamp.
+MPEG-2 Systems is formally known as ISO/IEC 13818-1 and as ITU-T Rec. H.222.0. ISO authorized the "SMPTE Registration Authority, LLC" as the registration authority for MPEG-2 format identifiers. The registration descriptor of MPEG-2 transport is provided by ISO/IEC 13818-1 in order to enable users of the standard to unambiguously carry data when its format is not necessarily a recognized international standard. This provision will permit the MPEG-2 transport standard to carry all types of data while providing for a method of unambiguous identification of the characteristics of the underlying private data.
+Video.
+The Video section, part 2 of MPEG-2, is similar to the previous MPEG-1 standard, but also provides support for interlaced video, the format used by analog broadcast TV systems. MPEG-2 video is not optimized for low bit-rates, especially less than 1 Mbit/s at standard definition resolutions. All standards-compliant MPEG-2 Video decoders are fully capable of playing back MPEG-1 Video streams conforming to the Constrained Parameters Bitstream syntax. MPEG-2/Video is formally known as ISO/IEC 13818-2 and as ITU-T Rec. H.262.
+With some enhancements, MPEG-2 Video and Systems are also used in some HDTV transmission systems, and is the standard format for over-the-air ATSC digital television.
+Audio.
+MPEG-2 introduces new audio encoding methods compared to MPEG-1:
+MPEG-2 Part 3.
+The MPEG-2 Audio section, defined in Part 3 (ISO/IEC 13818-3) of the standard, enhances MPEG-1's audio by allowing the coding of audio programs with more than two channels, up to 5.1 multichannel. This method is backwards-compatible (also known as MPEG-2 BC), allowing MPEG-1 audio decoders to decode the two main stereo components of the presentation. MPEG-2 part 3 also defined additional bit rates and sample rates for MPEG-1 Audio Layer I, II and III.
+MPEG-2 BC (backward compatible with MPEG-1 audio formats)
+MPEG-2 Part 7.
+Part 7 (ISO/IEC 13818-7) of the MPEG-2 standard specifies a rather different, non-backwards-compatible audio format (also known as MPEG-2 NBC). Part 7 is referred to as MPEG-2 AAC. AAC is more efficient than the previous MPEG audio standards, and is in some ways less complicated than its predecessor, MPEG-1 Audio, Layer 3, in that it does not have the hybrid filter bank. It supports from 1 to 48 channels at sampling rates of 8 to 96 kHz, with multichannel, multilingual, and multiprogram capabilities. Advanced Audio is also defined in Part 3 of the MPEG-4 standard.
+MPEG-2 NBC (Non-Backward Compatible)
+ISO/IEC 13818.
+MPEG-2 standards are published as parts of ISO/IEC 13818. Each part covers a certain aspect of the whole specification.
+History.
+MPEG-2 evolved out of the shortcomings of MPEG-1.
+MPEG-1's known weaknesses:
+Sakae Okubo of NTT was the ITU-T coordinator for developing the H.262/MPEG-2 Part 2 video coding standard and the requirements chairman in MPEG for the MPEG-2 set of standards. The majority of patents underlying MPEG-2 technology are owned by three companies: Sony (311 patents), Thomson (198 patents) and Mitsubishi Electric (119 patents). Hyundai Electronics (now SK Hynix) developed the first MPEG-2 SAVI (System/Audio/Video) decoder in 1995.
+Filename extensions.
+.mpg, .mpeg, .m2v, .mp2, .mp3 are some of a number of filename extensions used for MPEG-1 or MPEG-2 audio and video file formats.
+Applications.
+DVD-Video.
+The DVD-Video standard uses MPEG-2 video, but imposes some restrictions:
+HDV.
+HDV is a format for recording and playback of high-definition MPEG-2 video on a DV cassette tape.
+MOD and TOD.
+MOD and TOD are recording formats for use in consumer digital file-based camcorders.
+XDCAM.
+XDCAM is a professional file-based video recording format.
+DVB.
+Application-specific restrictions on MPEG-2 video in the DVB standard:
+Allowed resolutions for SDTV:
+For HDTV:
+ATSC.
+The ATSC A/53 standard used in the United States, uses MPEG-2 video at the Main Profile @ High Level (MP@HL), with additional restrictions such as the maximum bitrate of 19.39 Mbit/s for broadcast television and 38.8 Mbit/s for cable television, 4:2:0 chroma subsampling format, and mandatory colorimetry information.
+ATSC allows the following video resolutions, aspect ratios, and frame/field rates:
+ATSC standard A/63 defines additional resolutions and aspect rates for 50 Hz (PAL) signal.
+The ATSC specification and MPEG-2 allow the use of progressive frames, even within an interlaced video sequence. For example, a station that transmits 1080i60 video sequence can use a coding method where those 60 fields are coded with 24 progressive frames and metadata instructs the decoder to interlace them and perform 3:2 pulldown before display. This allows broadcasters to switch between 60 Hz interlaced (news, soap operas) and 24 Hz progressive (prime-time) content without ending the MPEG-2 sequence and introducing several seconds of delay as the TV switches formats. This is the reason why 1080p30 and 1080p24 sequences allowed by the ATSC specification are not used in practice.
+The 1080-line formats are encoded with 1920 × 1088 pixel luma matrices and 960 × 540 chroma matrices, but the last 8 lines are discarded by the MPEG-2 decoding and display process.
+ATSC A/72 is the newest revision of ATSC standards for digital television, which allows the use of H.264/AVC video coding format and 1080p60 signal.
+MPEG-2 audio was a contender for the ATSC standard during the DTV "Grand Alliance" shootout, but lost out to Dolby AC-3.
+ISDB-T.
+Technical features of MPEG-2 in ATSC are also valid for ISDB-T, except that in the main TS has aggregated a second program for mobile devices compressed in MPEG-4 H.264 AVC for video and AAC-LC for audio, mainly known as 1seg.
+Blu-ray.
+MPEG-2 is one of the three supported video coding formats supported by Blu-ray Disc. Early Blu-ray releases typically used MPEG-2 video, but recent releases are almost always in H.264 or occasionally VC-1. Only MPEG-2 video (MPEG-2 part 2) is supported, Blu-ray does not support MPEG-2 audio (parts 3 and 7). Additionally, the container format used on Blu-ray discs is an MPEG-2 transport stream, regardless of which audio and video codecs are used.
+Patent pool.
+As of February 14 2020, only Malaysia still has active patents covering MPEG-2. Patents in the rest of the world have expired, with the last US patent expiring February 23, 2018.
+MPEG LA, a private patent licensing organization, has acquired rights from over 20 corporations and one university to license a patent pool of approximately 640 worldwide patents, which it claims are the "essential" to use of MPEG-2 technology. The patent holders include Sony, Mitsubishi Electric, Fujitsu, Panasonic, Scientific Atlanta, Columbia University, Philips, General Instrument, Canon, Hitachi, JVC Kenwood, LG Electronics, NTT, Samsung, Sanyo, Sharp and Toshiba. Where Software patentability is upheld and patents have not expired, the use of MPEG-2 requires the payment of licensing fees to the patent holders. Other patents are licensed by Audio MPEG, Inc. The development of the standard itself took less time than the patent negotiations. Patent pooling between essential and peripheral patent holders in the MPEG-2 pool was the subject of a study by the University of Wisconsin.
+According to the MPEG-2 licensing agreement any use of MPEG-2 technology in countries with active patents is subject to royalties. MPEG-2 encoders and decoders are subject to $0.35 per unit. Also, any packaged medium (DVDs/Data Streams) is subject to licence fees according to length of recording/broadcast. The royalties were previously priced higher but were lowered at several points, most recently on January 1 2018. 
+An earlier criticism of the MPEG-2 patent pool was that even though the number of patents will decreased from 1,048 to 416 by June 2013 the license fee had not decreased with the expiration rate of MPEG-2 patents.
+Patent holders.
+The following organizations have held patents for MPEG-2, as listed at MPEG LA.
+&lt;section begin="MPEG-2 patents"/&gt;
+ &lt;section end="MPEG-2 patents"/&gt;
+Patents (U.S. only).
+The last United States patent expired on .
+

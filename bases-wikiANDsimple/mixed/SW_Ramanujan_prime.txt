@@ -1,0 +1,5 @@
+In mathematics, a Ramanujan prime is a prime number that satisfies a result proven by Srinivasa Ramanujan. It relates to the prime counting function.
+Origins and definition.
+In 1919, Ramanujan published a new proof of Bertrand's postulate (which had already been proven by Pafnuty Chebyshev).
+where formula_2"(x)" is the prime counting function. The prime counting function is the number of primes less than or equal to "x".
+Ramanujan primes are the integers "Rn" that are the smallest to satisfy the condition

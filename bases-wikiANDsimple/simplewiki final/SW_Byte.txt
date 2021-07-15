@@ -1,0 +1,1 @@
+A byte is a unit of measurement. One byte is eight bits. It is used when talking about the size of computer, or other electronic data (information). "Byte" is most often written as "B". Sometimes "b" is used for byte.

@@ -1,0 +1,4 @@
+Distillation is a chemical engineering unit operation where two liquids are separated from each other. You do this by simply heating the liquids until they boil. The liquids will have different vapour pressures, and so one of them will evaporate before the other does. The vapour is then led into a condenser, which takes off its heat and condenses it back to liquid. A fractionating column can be used to improve the separation. Distillation is a mass transfer unit operation.
+The vapourized and condensed component is called "distillate" and the other component as "bottom product"
+This has been used for a long time, to distill alcohol, and produced distilled beverages. Distillation is a commonly used operation in oil industry, where it is used to produce various fuels and raw materials from crude oil.
+Illegally distilled alcoholic drink is called "moonshine".

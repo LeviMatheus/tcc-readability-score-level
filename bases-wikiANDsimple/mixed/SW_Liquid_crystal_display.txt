@@ -1,0 +1,6 @@
+Liquid crystal display is a type of monitor based on the liquid crystal technology. The technology is not new, as it was firstly invented at the end of the 19th century, but it was extensively developed during the last three decades of the last century.
+Overview.
+The researches on liquid crystals began at the end of the 19th century but the first publication on this topic was made in 1904 by Otto Lehman and after this first publication there followed a series of other related articles, which described the same topic.
+LCD displays use two pieces of glass, which contain a solution of liquid crystals between them. When an electric current passes through the solution the crystals align in such a way that light cannot come through them.
+LCD displays have matrixes, which build up a colored picture. There are two types of matrixes: "active" and "passive". A passive matrix uses a simpler concept, which can be met at electronic wrist watches and pocket calculators. An active matrix, on the other hand, uses the technology, known as thin film transistor (TFT). Images produced by displays using this concept are as sharp as the images from the older CRT displays. They are, on the other hand, more expensive, but are extensively used in producing LCD computer monitors and TV panels.
+Reflective: often referred to as day light viewable, can be viewed in direct sunlight.

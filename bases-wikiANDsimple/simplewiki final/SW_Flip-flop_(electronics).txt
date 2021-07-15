@@ -1,0 +1,2 @@
+A flip-flop is a special kind of electronic switch. It's a logic element, and can hold one bit of binary memory (either on or off, 1 or 0..). More of these allow the storage of large amounts of information.
+Flip flop is a kind of multivibrator.

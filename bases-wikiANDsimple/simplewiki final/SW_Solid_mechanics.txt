@@ -1,0 +1,1 @@
+Solid mechanics is the branch of mechanics, physics, and mathematics that concerns itself with how solid matter under external actions works (such as external forces, temperature changes, applied displacements, etc.). It is part of a larger study known as continuum mechanics. One of the most common practical applications of solid mechanics is the Euler-Bernoulli beam equation.

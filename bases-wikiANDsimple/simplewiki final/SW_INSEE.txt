@@ -1,0 +1,3 @@
+INSEE (French: "Institut National de la Statistique et des Études Économiques") is the French national institute dor Statistics and Economic sutdies. The INSEE was created in 1946. It replaced the National Statistics Service (SNS) which was created under the "Vichy government" during World War II.
+INSEE Code.
+INSEE codes (or COG) are given to Communes in France. They consist of 8 digits (numbers) but there is a simple version with 5 digits. The first two digits (3 for Overseas France) are the number of the department. The other 2 (or 3) numbers are the number of the commune. The INSEE code is not the same as the postcode.

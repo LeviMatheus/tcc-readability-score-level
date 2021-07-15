@@ -1,0 +1,3 @@
+
+A blind transmission, in telecommunications, is a transmission made without obtaining a receipt, or acknowledgment of reception, from the intended receiving station. Blind transmissions may occur or be necessary when security constraints, such as radio silence, are imposed, when technical difficulties with a sender's receiver or receiver's transmitter occur, or when lack of time precludes the delay caused by waiting for receipts.
+

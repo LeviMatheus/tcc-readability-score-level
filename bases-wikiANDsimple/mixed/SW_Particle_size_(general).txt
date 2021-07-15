@@ -1,0 +1,5 @@
+The term particle size is used to compare dimensions of different small material objects.
+Larger objects are usually called stone, rock, a piece of something, etc. The term "particle" indicates small size, usually less than centimeter. Particle might be either solid, or liquid, or even gas. Liquid particles are called "droplets". Gaseous particles are "bubbles". All of them can be characterised in terms of size.
+But a typical material object is likely to be irregular in shape. This causes ambiguity in definition of "particle size". Existing definitions are based on replacent of a given particle with imaginary sphere that has one of the properties identical with the particle.
+See also.
+Particle size (grain size)

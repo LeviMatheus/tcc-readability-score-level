@@ -1,0 +1,36 @@
+
+Alpha (uppercase , lowercase ; , "álpha", "álfa") is the first letter of the Greek alphabet. In the system of Greek numerals, it has a value of 1.
+It is derived from the Phoenician letter aleph - an ox.
+Letters that arose from alpha include the Latin A and the Cyrillic letter А.
+In English, the noun "alpha" is used as a synonym for "beginning", or "first" (in a series), reflecting its Greek roots.
+Uses.
+Greek.
+In Ancient Greek, alpha was pronounced and could be either phonemically long ([aː]) or short ([a]). Where there is ambiguity, long and short alpha are sometimes written with a macron and breve today: Ᾱᾱ, Ᾰᾰ.
+In Modern Greek, vowel length has been lost, and all instances of alpha simply represent .
+In the polytonic orthography of Greek, alpha, like other vowel letters, can occur with several diacritic marks: any of three accent symbols (), and either of two breathing marks (), as well as combinations of these. It can also combine with the iota subscript ().
+Greek grammar.
+In the Attic–Ionic dialect of Ancient Greek, long alpha fronted to (eta). In Ionic, the shift took place in all positions. In Attic, the shift did not take place after epsilon, iota, and rho (ε, ι, ρ; "e", "i", "r"). In Doric and Aeolic, long alpha is preserved in all positions.
+Privative a is the Ancient Greek prefix ἀ- or ἀν- "a-", "an-", added to words to negate them. It originates from the Proto-Indo-European *"" (syllabic nasal) and is cognate with English "un-".
+Copulative a is the Greek prefix ἁ- or ἀ- "ha-", "a-". It comes from Proto-Indo-European *"".
+Mathematics and science.
+The letter alpha represents various concepts in physics and chemistry, including alpha radiation, angular acceleration, alpha particles, alpha carbon and strength of electromagnetic interaction (as Fine-structure constant). Alpha also stands for thermal expansion coefficient of a compound in physical chemistry. It is also commonly used in mathematics in algebraic solutions representing quantities such as angles. Furthermore, in mathematics, the letter alpha is used to denote the area underneath a normal curve in statistics to denote significance level when proving null and alternative hypotheses. In ethology, it is used to name the dominant individual in a group of animals. In aerodynamics, the letter is used as a symbol for the angle of attack of an aircraft and the word "alpha" is used as a synonym for this property.
+The proportionality operator "∝" (in Unicode: U+221D) is sometimes mistaken for alpha.
+The uppercase letter alpha is not generally used as a symbol because it tends to be rendered identically to the uppercase Latin A.
+International Phonetic Alphabet.
+In the International Phonetic Alphabet, the letter ɑ, which looks similar to the lower-case alpha, represents the open back unrounded vowel.
+History and symbolism.
+Origin.
+The Phoenician alphabet was adopted for Greek in the early 8th century BC, perhaps in Euboea. 
+The majority of the letters of the Phoenician alphabet were adopted into Greek with much the same sounds as they had had in Phoenician, but "ʼāleph", the Phoenician letter representing the glottal stop ,
+was adopted as representing the vowel ; similarly, "hē" and "ʽayin" are Phoenician consonants that became Greek vowels, epsilon and omicron , respectively.
+Plutarch.
+Plutarch, in "Moralia", presents a discussion on why the letter alpha stands first in the alphabet. Ammonius asks Plutarch what he, being a Boeotian, has to say for Cadmus, the Phoenician who reputedly settled in Thebes and introduced the alphabet to Greece, placing "alpha" first because it is the Phoenician name for ox—which, unlike Hesiod, the Phoenicians considered not the second or third, but the first of all necessities. "Nothing at all," Plutarch replied. He then added that he would rather be assisted by Lamprias, his own grandfather, than by Dionysus' grandfather, i.e. Cadmus. For Lamprias had said that the first articulate sound made is "alpha", because it is very plain and simple—the air coming off the mouth does not require any motion of the tongue—and therefore this is the first sound that children make.
+According to Plutarch's natural order of attribution of the vowels to the planets, alpha was connected with the Moon.
+Alpha and Omega.
+As the first letter of the alphabet, Alpha as a Greek numeral came to represent the number 1.
+Therefore, Alpha, both as a symbol and term, is used to refer to the "first", or "primary", or "principal" (most significant) occurrence or status of a thing.
+The New Testament has God declaring himself to be the "Alpha and Omega, the beginning and the end, the first and the last." (Revelation 22:13, KJV, and see also 1:8).
+Consequently, the term "alpha" has also come to be used to denote "primary" position in social hierarchy, examples being "alpha males" or pack leaders.
+Computer encodings.
+For accented Greek characters, see Greek diacritics: Computer encoding.
+

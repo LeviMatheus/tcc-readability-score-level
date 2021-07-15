@@ -1,0 +1,2 @@
+An anagram is a puzzle where the player has to rearrange all the letters in a word to make a new word.
+An example would be "The Morse Code" and "Here Comes Dots".

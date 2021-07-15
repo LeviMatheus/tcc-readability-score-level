@@ -1,0 +1,3 @@
+Gdebi is a computer program that can install .deb packages. It is available with a graphical interface, but also has a command line option.
+Technology.
+Gdebi can install local.deb packages with automatic dependency resolution (it automatically downloads and installs the required packages).

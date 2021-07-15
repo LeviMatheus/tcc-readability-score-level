@@ -1,0 +1,3 @@
+Self-replication is any process by which a thing might make a copy of itself. Biological cells, in suitable environments, reproduce by cell division. During cell division, DNA is replicated and can be transmitted to offspring during reproduction.
+Biological viruses can reproduce, but only by commandeering the reproductive machinery of cells through a process of infection. Computer viruses reproduce using the hardware and software already present on computers.
+Memes reproduce using the human mind and culture as their reproductive machinery.

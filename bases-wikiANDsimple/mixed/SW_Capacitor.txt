@@ -1,0 +1,4 @@
+A capacitor (also called condenser, which is the older term) is an electronic device that stores electric energy. It is similar to a battery, but is smaller, lightweight and charges up much quicker. It is used in many electronic devices today.
+There are different types of capacitors:Electrolytic, Polyester, MKT, Ceramic, Greencap and Film.
+The type used depends on the application. Capacitors come in many sizes. They can be as small as an ant or as large as a soft drink can.
+All capacitors have two connections, or leads. While most can be swapped around, some must be used the correct way, or they can violently explode.

@@ -1,0 +1,2 @@
+A Modem is a piece of computer hardware. It is used to send data from one personal computer to another personal computer. A modem both sends and receives data. The term modem stands for modulator - demodulator.
+Pieces of data are sent from one modem to another modem at a set speed or rate. This rate is called the baud rate.

@@ -1,0 +1,49 @@
+
+The Internet Control Message Protocol (ICMP) is a supporting protocol in the Internet protocol suite. It is used by network devices, including routers, to send error messages and operational information indicating success or failure when communicating with another IP address, for example, an error is indicated when a requested service is not available or that a host or router could not be reached. ICMP differs from transport protocols such as TCP and UDP in that it is not typically used to exchange data between systems, nor is it regularly employed by end-user network applications (with the exception of some diagnostic tools like ping and traceroute).
+ICMP for IPv4 is defined in RFC 792. A separate ICMPv6, defined by RFC 4443, is used with IPv6.
+Technical details.
+ICMP is part of the Internet protocol suite as defined in RFC 792. ICMP messages are typically used for diagnostic or control purposes or generated in response to errors in IP operations (as specified in RFC 1122). ICMP errors are directed to the source IP address of the originating packet. 
+For example, every device (such as an intermediate router) forwarding an IP datagram first decrements the time to live (TTL) field in the IP header by one. If the resulting TTL is 0, the packet is discarded and an ICMP time exceeded in transit message is sent to the datagram's source address.
+Many commonly used network utilities are based on ICMP messages. The traceroute command can be implemented by transmitting IP datagrams with specially set IP TTL header fields, and looking for ICMP time exceeded in transit and Destination unreachable messages generated in response. The related ping utility is implemented using the ICMP "echo request" and "echo reply" messages.
+ICMP uses the basic support of IP as if it were a higher-level protocol, however, ICMP is actually an integral part of IP. Although ICMP messages are contained within standard IP packets, ICMP messages are usually processed as a special case, distinguished from normal IP processing. In many cases, it is necessary to inspect the contents of the ICMP message and deliver the appropriate error message to the application responsible for transmitting the IP packet that prompted the ICMP message to be sent.
+ICMP is a network-layer protocol. There is no TCP or UDP port number associated with ICMP packets as these numbers are associated with the transport layer above.
+Datagram structure.
+The ICMP packet is encapsulated in an IPv4 packet. The packet consists of header and data sections.
+Header.
+The ICMP header starts after the IPv4 header and is identified by IP protocol number '1'. All ICMP packets have an 8-byte header and variable-sized data section. The first 4 bytes of the header have fixed format, while the last 4 bytes depend on the type/code of that ICMP packet.
+Data.
+ICMP error messages contain a data section that includes a copy of the entire IPv4 header, plus at least the first eight bytes of data from the IPv4 packet that caused the error message. The maximum length of ICMP error messages is 576 bytes. This data is used by the host to match the message to the appropriate process. If a higher level protocol uses port numbers, they are assumed to be in the first eight bytes of the original datagram's data.
+The variable size of the ICMP packet data section has been exploited. In the "Ping of death", large or fragmented ICMP packets are used for denial-of-service attacks. ICMP data can also be used to create covert channels for communication. These channels are known as ICMP tunnels.
+Control messages.
+Control messages are identified by the value in the "type" field. The "code" field gives additional context information for the message. Some control messages have been deprecated since the protocol was first introduced.
+Source quench.
+"Source Quench" requests that the sender decrease the rate of messages sent to a router or host. This message may be generated if a router or host does not have sufficient buffer space to process the request, or may occur if the router or host buffer is approaching its limit.
+Data is sent at a very high speed from a host or from several hosts at the same time to a particular router on a network. Although a router has buffering capabilities, the buffering is limited to within a specified range. The router cannot queue any more data than the capacity of the limited buffering space. Thus if the queue gets filled up, incoming data is discarded until the queue is no longer full. But as no acknowledgement mechanism is present in the network layer, the client does not know whether the data has reached the destination successfully. Hence some remedial measures should be taken by the network layer to avoid these kind of situations. These measures are referred to as source quench. In a source quench mechanism, the router sees that the incoming data rate is much faster than the outgoing data rate, and sends an ICMP message to the clients, informing them that they should slow down their data transfer speeds or wait for a certain amount of time before attempting to send more data. When a client receives this message, it will automatically slow down the outgoing data rate or wait for a sufficient amount of time, which enables the router to empty the queue. Thus the source quench ICMP message acts as flow control in the network layer.
+Since research suggested that "ICMP Source Quench [was] an ineffective (and unfair) antidote for congestion", routers' creation of source quench messages was deprecated in 1995 by RFC 1812. Furthermore, forwarding of and any kind of reaction to (flow control actions) source quench messages was deprecated from 2012 by RFC 6633.
+Where:
+Redirect.
+"Redirect" requests data packets be sent on an alternative route. ICMP Redirect is a mechanism for routers to convey routing information to hosts. The message informs a host to update its routing information (to send packets on an alternative route). If a host tries to send data through a router (R1) and R1 sends the data on another router (R2) and a direct path from the host to R2 is available (that is, the host and R2 are on the same Ethernet segment), then R1 will send a redirect message to inform the host that the best route for the destination is via R2. The host should then change their route information and send packets for the destination directly to R2. The router will still send the original datagram to the intended destination. However, if the datagram contains routing information, this message will not be sent even if a better route is available. RFC 1122 states that redirects should only be sent by gateways and should not be sent by Internet hosts.
+Where:
+Time exceeded.
+"Time Exceeded" is generated by a gateway to inform the source of a discarded datagram due to the time to live field reaching zero. A time exceeded message may also be sent by a host if it fails to reassemble a fragmented datagram within its time limit.
+Time exceeded messages are used by the traceroute utility to identify gateways on the path between two hosts.
+Where:
+Timestamp.
+"Timestamp" is used for time synchronization. The originating timestamp is set to the time (in milliseconds since midnight) the sender last touched the packet. The receive and transmit timestamps are not used.
+Where:
+Timestamp reply.
+"Timestamp Reply" replies to a "Timestamp" message. It consists of the originating timestamp sent by the sender of the "Timestamp" as well as a receive timestamp indicating when the "Timestamp" was received and a transmit timestamp indicating when the "Timestamp reply" was sent.
+Where:
+The use of Timestamp and Timestamp Reply messages to synchronize the clocks of Internet nodes has largely been replaced by the UDP-based Network Time Protocol and the Precision Time Protocol.
+Address mask request.
+"Address mask request" is normally sent by a host to a router in order to obtain an appropriate subnet mask.
+Recipients should reply to this message with an "Address mask reply" message.
+Where:
+ICMP Address Mask Request may be used as a part of reconnaissance attack to gather information on the target network, therefore ICMP Address Mask Reply is disabled by default on Cisco IOS.
+Address mask reply.
+"Address mask reply" is used to reply to an address mask request message with an appropriate subnet mask.
+Where:
+Destination unreachable.
+"Destination unreachable" is generated by the host or its inbound gateway to inform the client that the destination is unreachable for some reason. Reasons for this message may include: the physical connection to the host does not exist (distance is infinite); the indicated protocol or port is not active; the data must be fragmented but the 'don't fragment' flag is on. Unreachable TCP ports notably respond with TCP RST rather than a "destination unreachable" type 3 as might be expected. "Destination unreachable" is never reported for IP Multicast transmissions. 
+Where:
+

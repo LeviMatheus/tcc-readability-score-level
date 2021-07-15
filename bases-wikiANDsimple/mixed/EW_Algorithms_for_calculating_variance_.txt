@@ -1,0 +1,238 @@
+
+Algorithms for calculating variance play a major role in computational statistics. A key difficulty in the design of good algorithms for this problem is that formulas for the variance may involve sums of squares, which can lead to numerical instability as well as to arithmetic overflow when dealing with large values.
+Naïve algorithm.
+A formula for calculating the variance of an entire population of size "N" is:
+Using Bessel's correction to calculate an unbiased estimate of the population variance from a finite sample of "n" observations, the formula is:
+Therefore, a naïve algorithm to calculate the estimated variance is given by the following:
+This algorithm can easily be adapted to compute the variance of a finite population: simply divide by "N" instead of "n" − 1 on the last line.
+Because and can be very similar numbers, cancellation can lead to the precision of the result to be much less than the inherent precision of the floating-point arithmetic used to perform the computation. Thus this algorithm should not be used in practice, and several alternate, numerically stable, algorithms have been proposed. This is particularly bad if the standard deviation is small relative to the mean. However, the algorithm can be improved by adopting the method of the assumed mean.
+Computing shifted data.
+The variance is invariant with respect to changes in a location parameter, a property which can be used to avoid the catastrophic cancellation in this formula.
+with formula_4 any constant, which leads to the new formula
+the closer formula_4 is to the mean value the more accurate the result will be, but just choosing a value inside the
+samples range will guarantee the desired stability. If the values formula_7 are small then there are no problems with the sum of its squares, on the contrary, if they are large it necessarily means that the variance is large as well. In any case the second term in the formula is always smaller than the first one therefore no cancellation may occur.
+If just the first sample is taken as formula_4 the algorithm can be written in Python programming language as
+def shifted_data_variance(data):
+ if len(data) &lt; 2:
+ return 0.0
+ K = data[0]
+ n = Ex = Ex2 = 0.0
+ for x in data:
+ n = n + 1
+ Ex += x - K
+ Ex2 += (x - K) * (x - K)
+ variance = (Ex2 - (Ex * Ex) / n) / (n - 1)
+ # use n instead of (n-1) if want to compute the exact variance of the given data
+ # use (n-1) if data are samples of a larger population
+ return variance
+This formula also facilitates the incremental computation that can be expressed as
+K = n = Ex = Ex2 = 0.0
+def add_variable(x):
+ global K, n, Ex, Ex2
+ if n == 0:
+ K = x
+ n += 1
+ Ex += x - K
+ Ex2 += (x - K) * (x - K)
+def remove_variable(x):
+ global K, n, Ex, Ex2
+ n -= 1
+ Ex -= x - K
+ Ex2 -= (x - K) * (x - K)
+def get_mean():
+ global K, n, Ex
+ return K + Ex / n
+def get_variance():
+ global n, Ex, Ex2
+ return (Ex2 - (Ex * Ex) / n) / (n - 1)
+Two-pass algorithm.
+An alternative approach, using a different formula for the variance, first computes the sample mean,
+and then computes the sum of the squares of the differences from the mean,
+where "s" is the standard deviation. This is given by the following code:
+def two_pass_variance(data):
+ n = sum1 = sum2 = 0
+ for x in data:
+ n += 1
+ sum1 += x
+ mean = sum1 / n
+ for x in data:
+ sum2 += (x - mean) * (x - mean)
+ variance = sum2 / (n - 1)
+ return variance
+This algorithm is numerically stable if "n" is small. However, the results of both of these simple algorithms ("naïve" and "two-pass") can depend inordinately on the ordering of the data and can give poor results for very large data sets due to repeated roundoff error in the accumulation of the sums. Techniques such as compensated summation can be used to combat this error to a degree.
+Welford's online algorithm.
+It is often useful to be able to compute the variance in a single pass, inspecting each value formula_11 only once; for example, when the data is being collected without enough storage to keep all the values, or when costs of memory access dominate those of computation. For such an online algorithm, a recurrence relation is required between quantities from which the required statistics can be calculated in a numerically stable fashion.
+The following formulas can be used to update the mean and (estimated) variance of the sequence, for an additional element "x""n". Here, "n" denotes the sample mean of the first "n" samples ("x"1, ..., "xn"), "s" their sample variance, and "σ" their population variance.
+These formulas suffer from numerical instability, as they repeatedly subtract a small number from a big number which scales with "n". A better quantity for updating is the sum of squares of differences from the current mean, formula_15, here denoted formula_16:
+This algorithm was found by Welford, and it has been thoroughly analyzed. It is also common to denote formula_18 and formula_19.
+An example Python implementation for Welford's algorithm is given below.
+def update(existingAggregate, newValue):
+ (count, mean, M2) = existingAggregate
+ count += 1
+ delta = newValue - mean
+ mean += delta / count
+ delta2 = newValue - mean
+ M2 += delta * delta2
+ return (count, mean, M2)
+def finalize(existingAggregate):
+ (count, mean, M2) = existingAggregate
+ if count &lt; 2:
+ return float("nan")
+ else:
+ (mean, variance, sampleVariance) = (mean, M2 / count, M2 / (count - 1))
+ return (mean, variance, sampleVariance)
+This algorithm is much less prone to loss of precision due to catastrophic cancellation, but might not be as efficient because of the division operation inside the loop. For a particularly robust two-pass algorithm for computing the variance, one can first compute and subtract an estimate of the mean, and then use this algorithm on the residuals.
+The parallel algorithm below illustrates how to merge multiple sets of statistics calculated online.
+Weighted incremental algorithm.
+The algorithm can be extended to handle unequal sample weights, replacing the simple counter "n" with the sum of weights seen so far. West (1979) suggests this incremental algorithm:
+def weighted_incremental_variance(data_weight_pairs):
+ w_sum = w_sum2 = mean = S = 0
+ for x, w in data_weight_pairs: # Alternatively "for x, w in zip(data, weights):"
+ w_sum = w_sum + w
+ w_sum2 = w_sum2 + w * w
+ mean_old = mean
+ mean = mean_old + (w / w_sum) * (x - mean_old)
+ S = S + w * (x - mean_old) * (x - mean)
+ population_variance = S / w_sum
+ # Bessel's correction for weighted samples
+ # Frequency weights
+ sample_frequency_variance = S / (w_sum - 1)
+ # Reliability weights
+ sample_reliability_variance = S / (w_sum - w_sum2 / w_sum)
+Parallel algorithm.
+Chan et al. note that Welford's online algorithm detailed above is a special case of an algorithm that works for combining arbitrary sets formula_20 and formula_21:
+This may be useful when, for example, multiple processing units may be assigned to discrete parts of the input.
+Chan's method for estimating the mean is numerically unstable when formula_23 and both are large, because the numerical error in formula_24 is not scaled down in the way that it is in the formula_25 case. In such cases, prefer formula_26.
+def parallel_variance(n_a, avg_a, M2_a, n_b, avg_b, M2_b):
+ n = n_a + n_b
+ delta = avg_b - avg_a
+ M2 = M2_a + M2_b + delta ** 2 * n_a * n_b / n
+ var_ab = M2 / (n - 1)
+ return var_ab
+This can be generalized to allow parallelization with AVX, with GPUs, and computer clusters, and to covariance.
+Example.
+Assume that all floating point operations use standard IEEE 754 double-precision arithmetic. Consider the sample (4, 7, 13, 16) from an infinite population. Based on this sample, the estimated population mean is 10, and the unbiased estimate of population variance is 30. Both the naïve algorithm and two-pass algorithm compute these values correctly.
+Next consider the sample (, , , ), which gives rise to the same estimated variance as the first sample. The two-pass algorithm computes this variance estimate correctly, but the naïve algorithm returns 29.333333333333332 instead of 30.
+While this loss of precision may be tolerable and viewed as a minor flaw of the naïve algorithm, further increasing the offset makes the error catastrophic. Consider the sample (, , , ). Again the estimated population variance of 30 is computed correctly by the two-pass algorithm, but the naïve algorithm now computes it as −170.66666666666666. This is a serious problem with naïve algorithm and is due to catastrophic cancellation in the subtraction of two similar numbers at the final stage of the algorithm.
+Higher-order statistics.
+Terriberry extends Chan's formulae to calculating the third and fourth central moments, needed for example when estimating skewness and kurtosis:
+Here the formula_28 are again the sums of powers of differences from the mean formula_29, giving
+For the incremental case (i.e., formula_31), this simplifies to:
+By preserving the value formula_33, only one division operation is needed and the higher-order statistics can thus be calculated for little incremental cost.
+An example of the online algorithm for kurtosis implemented as described is:
+def online_kurtosis(data):
+ n = mean = M2 = M3 = M4 = 0
+ for x in data:
+ n1 = n
+ n = n + 1
+ delta = x - mean
+ delta_n = delta / n
+ delta_n2 = delta_n * delta_n
+ term1 = delta * delta_n * n1
+ mean = mean + delta_n
+ M4 = M4 + term1 * delta_n2 * (n*n - 3*n + 3) + 6 * delta_n2 * M2 - 4 * delta_n * M3
+ M3 = M3 + term1 * delta_n * (n - 2) - 3 * delta_n * M2
+ M2 = M2 + term1
+ # Note, you may also calculate variance using M2, and skewness using M3
+ # Caution: If all the inputs are the same, M2 will be 0, resulting in a division by 0.
+ kurtosis = (n * M4) / (M2 * M2) - 3
+ return kurtosis
+Pébaÿ
+further extends these results to arbitrary-order central moments, for the incremental and the pairwise cases, and subsequently Pébaÿ et al.
+for weighted and compound moments. One can also find there similar formulas for covariance.
+Choi and Sweetman
+offer two alternative methods to compute the skewness and kurtosis, each of which can save substantial computer memory requirements and CPU time in certain applications. The first approach is to compute the statistical moments by separating the data into bins and then computing the moments from the geometry of the resulting histogram, which effectively becomes a one-pass algorithm for higher moments. One benefit is that the statistical moment calculations can be carried out to arbitrary accuracy such that the computations can be tuned to the precision of, e.g., the data storage format or the original measurement hardware. A relative histogram of a random variable can be constructed in the conventional way: the range of potential values is
+divided into bins and the number of occurrences within each bin are counted and plotted such that the area of each rectangle equals the portion of the sample values within that bin:
+where formula_35 and formula_36 represent the frequency and the relative frequency at bin formula_37 and formula_38 is the total area of the histogram. After this normalization, the formula_39 raw moments and central moments of formula_40 can be calculated from the relative histogram:
+where the superscript formula_43 indicates the moments are calculated from the histogram. For constant bin width formula_44 these two expressions can be simplified using formula_45:
+The second approach from Choi and Sweetman is an analytical methodology to combine statistical moments from individual segments of a time-history such that the resulting overall moments are those of the complete time-history. This methodology could be used for parallel computation of statistical moments with subsequent combination of those moments, or for combination of statistical moments computed at sequential times.
+If formula_48 sets of statistical moments are known:
+formula_49 for formula_50, then each formula_51 can
+be expressed in terms of the equivalent formula_39 raw moments:
+where formula_54 is generally taken to be the duration of the formula_55 time-history, or the number of points if formula_56 is constant.
+The benefit of expressing the statistical moments in terms of formula_57 is that the formula_48 sets can be combined by addition, and there is no upper limit on the value of formula_48.
+where the subscript formula_61 represents the concatenated time-history or combined formula_57. These combined values of formula_57 can then be inversely transformed into raw moments representing the complete concatenated time-history
+Known relationships between the raw moments (formula_65) and the central moments (formula_66)
+are then used to compute the central moments of the concatenated time-history. Finally, the statistical moments of the concatenated history are computed from the central moments:
+Covariance.
+Very similar algorithms can be used to compute the covariance. 
+Naïve algorithm.
+The naïve algorithm is:
+For the algorithm above, one could use the following Python code:
+def naive_covariance(data1, data2):
+ n = len(data1)
+ sum12 = 0
+ sum1 = sum(data1)
+ sum2 = sum(data2)
+ for i1, i2 in zip(data1, data2):
+ sum12 += i1 * i2
+ covariance = (sum12 - sum1 * sum2 / n) / n
+ return covariance
+With estimate of the mean.
+As for the variance, the covariance of two random variables is also shift-invariant, so given any two constant values formula_69 and formula_70 it can be written:
+and again choosing a value inside the range of values will stabilize the formula against catastrophic cancellation as well as make it more robust against big sums. Taking the first value of each data set, the algorithm can be written as:
+def shifted_data_covariance(data_x, data_y):
+ n = len(data_x)
+ if n &lt; 2:
+ return 0
+ kx = data_x[0]
+ ky = data_y[0]
+ Ex = Ey = Exy = 0
+ for ix, iy in zip(data_x, data_y):
+ Ex += ix - kx
+ Ey += iy - ky
+ Exy += (ix - kx) * (iy - ky)
+ return (Exy - Ex * Ey / n) / n
+Two-pass.
+The two-pass algorithm first computes the sample means, and then the covariance:
+The two-pass algorithm may be written as:
+def two_pass_covariance(data1, data2):
+ n = len(data1)
+ mean1 = sum(data1) / n
+ mean2 = sum(data2) / n
+ covariance = 0
+ for i1, i2 in zip(data1, data2):
+ a = i1 - mean1
+ b = i2 - mean2
+ covariance += a * b / n
+ return covariance
+A slightly more accurate compensated version performs the full naive algorithm on the residuals. The final sums formula_75 and formula_76 "should" be zero, but the second pass compensates for any small error.
+Online.
+A stable one-pass algorithm exists, similar to the online algorithm for computing the variance, that computes co-moment formula_77:
+The apparent asymmetry in that last equation is due to the fact that formula_79, so both update terms are equal to formula_80. Even greater accuracy can be achieved by first computing the means, then using the stable one-pass algorithm on the residuals.
+Thus the covariance can be computed as
+def online_covariance(data1, data2):
+ meanx = meany = C = n = 0
+ for x, y in zip(data1, data2):
+ n += 1
+ dx = x - meanx
+ meanx += dx / n
+ meany += (y - meany) / n
+ C += dx * (y - meany)
+ population_covar = C / n
+ # Bessel's correction for sample variance
+ sample_covar = C / (n - 1)
+A small modification can also be made to compute the weighted covariance:
+def online_weighted_covariance(data1, data2, data3):
+ meanx = meany = 0
+ wsum = wsum2 = 0
+ C = 0
+ for x, y, w in zip(data1, data2, data3):
+ wsum += w
+ wsum2 += w * w
+ dx = x - meanx
+ meanx += (w / wsum) * dx
+ meany += (w / wsum) * (y - meany)
+ C += w * dx * (y - meany)
+ population_covar = C / wsum
+ # Bessel's correction for sample variance
+ # Frequency weights
+ sample_frequency_covar = C / (wsum - 1)
+ # Reliability weights
+ sample_reliability_covar = C / (wsum - wsum2 / wsum)
+Likewise, there is a formula for combining the covariances of two sets that can be used to parallelize the computation:
+Weighted batched version.
+A version of the weighted online algorithm that does batched updated also exists: let
+formula_83 denote the weights, and write
+The covariance can then be computed as
+

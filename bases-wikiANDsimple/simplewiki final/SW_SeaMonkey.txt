@@ -1,0 +1,7 @@
+SeaMonkey is a free Internet application, which uses the Gecko rendering engine. It works on many operating systems. It is very useful, and includes an e-mail client, a calendar, a HTML editor, an IRC client, and a web browser. It is made by the SeaMonkey Council, formerly by Mozilla Foundation.
+History.
+On March 10, 2005 the Mozilla Foundation said, they will not develop the Mozilla Application suite, because Firefox and Thunderbird are more popular and because of that are important for them. The SeaMonkey Council continued developing it instead, but they had to rename it to SeaMonkey. The newest version of its main release version is 1.0.7, and beta version is 1.5 alpha.
+Features.
+The web browser of SeaMonkey contains a lot of features used in new web browsers like tabbed browsing, pop-up window blocking, e-Mail and newsgroups, web editing software.
+In the 1.5a Version, it also contains Calendar feature, security login, live bookmarks, RSS and ATOM news feed reading.
+And after downloading extensions, you can manage these by using its extension manager.

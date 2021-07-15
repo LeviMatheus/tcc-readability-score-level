@@ -1,0 +1,5 @@
+The Zip drive is a data storage device. The company Iomega published it in late 1994.
+Originally it only supported 100 MB disks, but later versions began to support 250 MB and 750 MB disks. Now capacities have reached 1GB and 2GB disks.
+Higher capacity Zip disks must be used in a drive with at least the same capacity ability. Generally, higher capacity drives also handle all lower capacity media. However, it is slower to write data on a 100 MB disk with a 250 MB Zip drive than with a 100 MB Zip drive.
+Zip drives can transmit data to the computer in various ways. Internal drives have been made with IDE and SCSI interfaces. External drives can use SCSI, parallel port or USB interface.
+Zip disks are thicker than 3.5" (9 cm) floppy disks. Nevertheless, zip disks are quite similar in appearance to regular floppy disks. This means the Zip drive slot is large enough to accept such a floppy disk.

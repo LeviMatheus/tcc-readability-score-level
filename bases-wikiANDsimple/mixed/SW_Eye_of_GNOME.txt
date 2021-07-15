@@ -1,0 +1,1 @@
+Eye of GNOME is the official image viewer for the GNOME desktop environment. Unlike some other image viewers, Eye of GNOME will only view images. It does, however, provide basic effects for improved viewing, such as zooming, fullscreen, rotation, and transparent image background control.

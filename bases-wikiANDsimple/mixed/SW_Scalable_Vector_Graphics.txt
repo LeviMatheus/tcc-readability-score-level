@@ -1,0 +1,10 @@
+Scalable Vector Graphics (SVG) is a computer language to describe two dimensional images. It's based on XML and created by the World Wide Web Consortium (W3C). The language allows to describe pictures by their elements. So you can zoom in and it stays clear without big pixels.
+History.
+The W3C published SVG in September 2001. Most browsers can show these graphics but Internet Explorer cannot. It needs a plugin to show them.
+The normal Filename extension is ".svg" and the MIME-Type is codice_1.
+Structure.
+SVG uses Extensible Markup Language (XML). So it has an definition of the document type.
+codice_2
+Difference between bitmap and vector images.
+This image shows the difference between bitmap and vector
+images. The vector image can be scaled forever, while the bitmap can't.

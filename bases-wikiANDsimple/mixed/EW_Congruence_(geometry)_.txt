@@ -1,0 +1,47 @@
+
+In geometry, two figures or objects are congruent if they have the same shape and size, or if one has the same shape and size as the mirror image of the other.
+More formally, two sets of points are called congruent if, and only if, one can be transformed into the other by an isometry, i.e., a combination of rigid motions, namely a translation, a rotation, and a reflection. This means that either object can be repositioned and reflected (but not resized) so as to coincide precisely with the other object. So two distinct plane figures on a piece of paper are congruent if we can cut them out and then match them up completely. Turning the paper over is permitted.
+In elementary geometry the word "congruent" is often used as follows. The word "equal" is often used in place of "congruent" for these objects.
+In this sense, "two plane figures are congruent" implies that their corresponding characteristics are "congruent" or "equal" including not just their corresponding sides and angles, but also their corresponding diagonals, perimeters, and areas.
+The related concept of similarity applies if the objects have the same shape but do not necessarily have the same size. (Most definitions consider congruence to be a form of similarity, although a minority require that the objects have different sizes in order to qualify as similar.)
+Determining congruence of polygons.
+For two polygons to be congruent, they must have an equal number of sides (and hence an equal number—the same number—of vertices). Two polygons with "n" sides are congruent if and only if they each have numerically identical sequences (even if clockwise for one polygon and counterclockwise for the other) side-angle-side-angle-... for "n" sides and "n" angles.
+Congruence of polygons can be established graphically as follows:
+If at any time the step cannot be completed, the polygons are not congruent.
+Congruence of triangles.
+Two triangles are congruent if their corresponding sides are equal in length, and their corresponding angles are equal in measure.
+If triangle ABC is congruent to triangle DEF, the relationship can be written mathematically as:
+In many cases it is sufficient to establish the equality of three corresponding parts and use one of the following results to deduce the congruence of the two triangles.
+Determining congruence.
+Sufficient evidence for congruence between two triangles in Euclidean space can be shown through the following comparisons:
+The ASA Postulate was contributed by Thales of Miletus (Greek). In most systems of axioms, the three criteria – SAS, SSS and ASA – are established as theorems. In the School Mathematics Study Group system SAS is taken as one (#15) of 22 postulates.
+Side-side-angle.
+The SSA condition (side-side-angle) which specifies two sides and a non-included angle (also known as ASS, or angle-side-side) does not by itself prove congruence. In order to show congruence, additional information is required such as the measure of the corresponding angles and in some cases the lengths of the two pairs of corresponding sides. There are a few possible cases:
+If two triangles satisfy the SSA condition and the length of the side opposite the angle is greater than or equal to the length of the adjacent side (SSA, or long side-short side-angle), then the two triangles are congruent. The opposite side is sometimes longer when the corresponding angles are acute, but it is "always" longer when the corresponding angles are right or obtuse. Where the angle is a right angle, also known as the Hypotenuse-Leg (HL) postulate or the Right-angle-Hypotenuse-Side (RHS) condition, the third side can be calculated using the Pythagorean Theorem thus allowing the SSS postulate to be applied.
+If two triangles satisfy the SSA condition and the corresponding angles are acute and the length of the side opposite the angle is equal to the length of the adjacent side multiplied by the sine of the angle, then the two triangles are congruent.
+If two triangles satisfy the SSA condition and the corresponding angles are acute and the length of the side opposite the angle is greater than the length of the adjacent side multiplied by the sine of the angle (but less than the length of the adjacent side), then the two triangles cannot be shown to be congruent. This is the ambiguous case and two different triangles can be formed from the given information, but further information distinguishing them can lead to a proof of congruence.
+Angle-angle-angle.
+In Euclidean geometry, AAA (Angle-Angle-Angle) (or just AA, since in Euclidean geometry the angles of a triangle add up to 180°) does not provide information regarding the size of the two triangles and hence proves only similarity and not congruence in Euclidean space.
+However, in spherical geometry and hyperbolic geometry (where the sum of the angles of a triangle varies with size) AAA is sufficient for congruence on a given curvature of surface.
+CPCTC.
+This acronym stands for "Corresponding Parts of Congruent Triangles are Congruent" an abbreviated version of the definition of congruent triangles.
+In more detail, it is a succinct way to say that if triangles and are congruent, that is,
+with corresponding pairs of angles at vertices and ; and ; and and , and with corresponding pairs of sides and ; and ; and and , then the following statements are true:
+The statement is often used as a justification in elementary geometry proofs when a conclusion of the congruence of parts of two triangles is needed after the congruence of the triangles has been established. For example, if two triangles have been shown to be congruent by the "SSS" criteria and a statement that corresponding angles are congruent is needed in a proof, then CPCTC may be used as a justification of this statement.
+A related theorem is CPCFC, in which "triangles" is replaced with "figures" so that the theorem applies to any pair of polygons or polyhedrons that are congruent.
+Definition of congruence in analytic geometry.
+In a Euclidean system, congruence is fundamental; it is the counterpart of equality for numbers. In analytic geometry, congruence may be defined intuitively thus: two mappings of figures onto one Cartesian coordinate system are congruent if and only if, for "any" two points in the first mapping, the Euclidean distance between them is equal to the Euclidean distance between the corresponding points in the second mapping.
+A more formal definition states that two subsets "A" and "B" of Euclidean space R"n" are called congruent if there exists an isometry "f" : R"n" → R"n" (an element of the Euclidean group "E"("n")) with "f"("A") = "B". Congruence is an equivalence relation.
+Congruent conic sections.
+Two conic sections are congruent if their eccentricities and one other distinct parameter characterizing them are equal. Their eccentricities establish their shapes, equality of which is sufficient to establish similarity, and the second parameter then establishes size. Since two circles, parabolas, or rectangular hyperbolas always have the same eccentricity (specifically 0 in the case of circles, 1 in the case of parabolas, and formula_9 in the case of rectangular hyperbolas), two circles, parabolas, or rectangular hyperbolas need to have only one other common parameter value, establishing their size, for them to be congruent.
+Congruent polyhedra.
+For two polyhedra with the same combinatorial type (that is, the same 
+number "E" of edges, the same number of faces, and the same number of sides on corresponding faces), there exists a set of "E" measurements that can establish whether or not the polyhedra are congruent.
+The number is tight, meaning that less than "E" measurements are not enough if the polyhedra are generic among their combinatorial type. But less measurements can work for special cases. For example, cubes have 12 edges, but 9 measurements are enough to decide if a polyhedron of that combinatorial type is congruent to a given regular cube.
+Congruent triangles on a sphere.
+As with plane triangles, on a sphere two triangles sharing the same sequence of angle-side-angle (ASA) are necessarily congruent (that is, they have three identical sides and three identical angles). This can be seen as follows: One can situate one of the vertices with a given angle at the south pole and run the side with given length up the prime meridian. Knowing both angles at either end of the segment of fixed length ensures that the other two sides emanate with a uniquely determined trajectory, and thus will meet each other at a uniquely determined point; thus ASA is valid.
+The congruence theorems side-angle-side (SAS) and side-side-side (SSS) also hold on a sphere; in addition, if two spherical triangles have an identical angle-angle-angle (AAA) sequence, they are congruent (unlike for plane triangles).
+The plane-triangle congruence theorem angle-angle-side (AAS) does not hold for spherical triangles. As in plane geometry, side-side-angle (SSA) does not imply congruence.
+Notation.
+A symbol commonly used for congruence is an equals symbol with a tilde above it, ≅, corresponding to the Unicode character 'approximately equal to' (U+2245). In the UK, the three-bar equal sign "≡" (U+2261) is sometimes used.
+

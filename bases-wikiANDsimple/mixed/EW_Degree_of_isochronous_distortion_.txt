@@ -1,0 +1,4 @@
+
+The degree of isochronous distortion, in data transmission, is the ratio of the absolute value of the maximum measured difference between the actual and the theoretical intervals separating any two significant instants of modulation (or demodulation), to the unit interval. These instants are not necessarily consecutive. This value is usually expressed as a percentage.
+The result of the measurement should be qualified by an indication if the period, usually limited, of the observation. For a prolonged modulation (or demodulation), it will be appropriate to consider the probability that an assigned value of the degree of distortion will be exceeded.
+

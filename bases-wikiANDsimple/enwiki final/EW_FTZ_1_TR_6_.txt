@@ -1,0 +1,6 @@
+
+FTZ 1 TR 6 (or 1 TR 6) is the standard for the obsolete German national digital signalling protocol (D channel protocol) used for the ISDN. It has been superseded by DSS1 but is still in use on some lines and private exchanges.
+1 TR 6 did not support multiple subscriber numbers but featured an "Endgeräteauswahlziffer" ("EAZ", German "user device selection digit"). ISDN subscribers would get a sequence of 10 subsequent subscriber numbers, the last digit of which being the EAZ. The EAZ "0" was used for "global calls" to all connected devices.
+1 TR 6 also offered "semipermanent connections", which were (comparatively cheap) leased lines that could be temporarily disabled to use the B channel for other purposes.
+It is said that the "TR" simply stands for "technische Richtlinie" (technical guidelines).
+

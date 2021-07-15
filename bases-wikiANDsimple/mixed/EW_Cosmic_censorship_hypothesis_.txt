@@ -1,0 +1,26 @@
+
+The weak and the strong cosmic censorship hypotheses are two mathematical conjectures about the structure of gravitational singularities arising in general relativity.
+Singularities that arise in the solutions of Einstein's equations are typically hidden within event horizons, and therefore cannot be observed from the rest of spacetime. Singularities that are not so hidden are called "naked". The weak cosmic censorship hypothesis was conceived by Roger Penrose in 1969 and posits that no naked singularities exist in the universe.
+Basics.
+Since the physical behavior of singularities is unknown, if singularities can be observed from the rest of spacetime, causality may break down, and physics may lose its predictive power. The issue cannot be avoided, since according to the Penrose–Hawking singularity theorems, singularities are inevitable in physically reasonable situations. Still, in the absence of naked singularities, the universe, as described by the general theory of relativity, is deterministic: it is possible to predict the entire evolution of the universe (possibly excluding some finite regions of space hidden inside event horizons of singularities), knowing only its condition at a certain moment of time (more precisely, everywhere on a spacelike three-dimensional hypersurface, called the Cauchy surface). Failure of the cosmic censorship hypothesis leads to the failure of determinism, because it is yet impossible to predict the behavior of spacetime in the causal future of a singularity. Cosmic censorship is not merely a problem of formal interest; some form of it is assumed whenever black hole event horizons are mentioned.
+The hypothesis was first formulated by Roger Penrose in 1969, and it is not stated in a completely formal way. In a sense it is more of a research program proposal: part of the research is to find a proper formal statement that is physically reasonable, falsifiable, and that is sufficiently general to be interesting. Because the statement is not a strictly formal one, there is sufficient latitude for (at least) two independent formulations, a weak form, and a strong form.
+Weak and strong cosmic censorship hypothesis.
+The weak and the strong cosmic censorship hypotheses are two conjectures concerned with the global geometry of spacetimes.
+The weak cosmic censorship hypothesis asserts there can be no singularity visible from future null infinity. In other words, singularities need to be hidden from an observer at infinity by the event horizon of a black hole. Mathematically, the conjecture states that, for generic initial data, the maximal Cauchy development possesses a complete future null infinity.
+The strong cosmic censorship hypothesis asserts that, generically, general relativity is a deterministic theory, in the same sense that classical mechanics is a deterministic theory. In other words, the classical fate of all observers should be predictable from the initial data. Mathematically, the conjecture states that the maximal Cauchy development of generic compact or asymptotically flat initial data is locally inextendible as a regular Lorentzian manifold. This version was disproven in 2018 by Mihalis Dafermos and Jonathan Luk for the Cauchy horizon of a charged, rotating black hole.
+The two conjectures are mathematically independent, as there exist spacetimes for which weak cosmic censorship is valid but strong cosmic censorship is violated and, conversely, there exist spacetimes for which weak cosmic censorship is violated but strong cosmic censorship is valid.
+Example.
+The Kerr metric, corresponding to a black hole of mass formula_1 and angular momentum formula_2, can be used to derive the effective potential for particle orbits restricted to the equator (as defined by rotation). This potential looks like:
+formula_3
+where formula_4 is the coordinate radius, formula_5 and formula_6 are the test-particle's conserved energy and angular momentum respectively (constructed from the Killing vectors).
+To preserve "cosmic censorship", the black hole is restricted to the case of formula_7. For there to exist an event horizon around the singularity, the requirement formula_7 must be satisfied. This amounts to the angular momentum of the black hole being constrained to below a critical value, outside of which the horizon would disappear. 
+The following thought experiment is reproduced from Hartle's "Gravity":
+Problems with the concept.
+There are a number of difficulties in formalizing the hypothesis:
+In 1991, John Preskill and Kip Thorne bet against Stephen Hawking that the hypothesis was false. Hawking conceded the bet in 1997, due to the discovery of the special situations just mentioned, which he characterized as "technicalities". Hawking later reformulated the bet to exclude those technicalities. The revised bet is still open (although Hawking died in 2018), the prize being "clothing to cover the winner's nakedness".
+Counter-example.
+An exact solution to the scalar-Einstein equations formula_11 which forms a counterexample to many formulations of the 
+cosmic censorship hypothesis was found by Mark D. Roberts in 1985:
+formula_12
+where formula_13 is a constant.
+

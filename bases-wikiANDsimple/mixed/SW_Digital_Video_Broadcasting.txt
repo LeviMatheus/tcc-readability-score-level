@@ -1,0 +1,4 @@
+Digital Video Broadcasting (often shortened to DVB) is a series of standards for sending digital content, like Television using digital technology.
+Because the data stream can be compressed, this allows to have more TV channels per frequency range than when analogue channels are used.
+There are different standards, some of them are
+Digital Audio Broadcasting is something similar for audio.

@@ -1,0 +1,16 @@
+
+Data compression ratio, also known as compression power, is a measurement of the relative reduction in size of data representation produced by a data compression algorithm. It is typically expressed as the division of uncompressed size by compressed size.
+Definition.
+Data compression ratio is defined as the ratio between the "uncompressed size" and "compressed size":
+Thus, a representation that compresses a file's storage size from 10 MB to 2 MB has a compression ratio of 10/2 = 5, often notated as an explicit ratio, 5:1 (read "five" to "one"), or as an implicit ratio, 5/1. This formulation applies equally for compression, where the uncompressed size is that of the original; and for decompression, where the uncompressed size is that of the reproduction. 
+Sometimes the "space saving" is given instead, which is defined as the reduction in size relative to the uncompressed size: 
+Thus, a representation that compresses the storage size of a file from 10MB to 2MB yields a space saving of 1 - 2/10 = 0.8, often notated as a percentage, 80%.
+For signals of indefinite size, such as streaming audio and video, the compression ratio is defined in terms of uncompressed and compressed data rates instead of data sizes: 
+and instead of space saving, one speaks of data-rate saving, which is defined as the data-rate reduction relative to the uncompressed data rate: 
+For example, uncompressed songs in CD format have a data rate of 16 bits/channel x 2 channels x 44.1 kHz ≅ 1.4 Mbit/s, whereas AAC files on an iPod are typically compressed to 128 kbit/s, yielding a compression ratio of 10.9, for a data-rate saving of 0.91, or 91%. 
+When the uncompressed data rate is known, the compression ratio can be inferred from the compressed data rate.
+Lossless vs. Lossy.
+Lossless compression of digitized data such as video, digitized film, and audio preserves all the information, but it does not generally achieve compression ratio much better than 2:1 because of the intrinsic entropy of the data. Compression algorithms which provide higher ratios either incur very large overheads or work only for specific data sequences (e.g. compressing a file with mostly zeros). In contrast, lossy compression (e.g. JPEG for images, or MP3 and Opus for audio) can achieve much higher compression ratios at the cost of a decrease in quality, such as Bluetooth audio streaming, as visual or audio compression artifacts from loss of important information are introduced. A compression ratio of at least 50:1 is needed to get 1080i video into a 20 Mbit/s MPEG transport stream.
+Uses.
+The data compression ratio can serve as a measure of the complexity of a data set or signal. In particular it is used to approximate the algorithmic complexity. It is also used to see how much of a file is able to be compressed without increasing its original size.
+

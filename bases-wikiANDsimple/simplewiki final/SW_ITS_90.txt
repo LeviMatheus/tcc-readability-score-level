@@ -1,0 +1,10 @@
+The ITS 90 is the international temperature scale, published in the year 1990. It mainly is a set of fixed temperatures and instructions how to realise a practical temperature scale, being as close to the thermodynamical temperature scale as current knowledge allows.
+History.
+The first international temperature scale was established in 1927. An improved version came in 1948. In 1968 the IPTS 68 was issued. Note the letter P, which stands for practical. In 1975 the very low side of the scale (below 1 Kelvin) was added. Since 1990 the ITS 90 is in use.
+How it works.
+A list of fixed temperatures is given. This list has been produced by national laboratories from all over the world. It has been approved by the B.I.P.M. (Bureau Internationale des Poids et Mesure) in Paris. Temperatures between the fixed points can be measured, using a platinum resistance thermometer (up to 660 °C). This thermometer, however, has to be calibrated first. This is being done at a number of fixed temperatures, covering the desired range. Procedures and formulae for defining an interpolating thermometer are given as well.
+An example.
+Say we need a calibrated thermometer in the range from room temperature to 400 °C. A triple point of water is to be realised for 0.01 °C. For 231.928 °C there is the freezing point of tin. At 419.527 °C it is the freezing point of zinc, which serves the goal.
+After having measured the electrical resistance of this thermometer at the given temperatures, the data is being fed into a prescribed formula, giving the deviation coefficients for the range from 0 to 420 °C. So, from now on we have a thermometer with which we can perform accurate measurements according to the ITS 90.
+This type of calibration is called primary calibration. With the thermometer we just calibrated we can perform a secondary calibration. Then another thermometer is to be calibrated against ours. This derived calibration, of course, is a little less accurate, but can take place at any suitable temperature within the range, since our thermometer interpolates between the fixed temperatures.
+--Jay2U (talk) 18:22, 11 September 2008 (UTC)

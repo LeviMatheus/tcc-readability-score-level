@@ -1,0 +1,20 @@
+Mozilla Firefox is a free open source web browser for the computer, which uses the Gecko rendering engine. It is made by the Mozilla Foundation. It works on many operating systems. The makers tried to make it very modular, easy to use, and safe.
+Version 3.0.
+The name for Firefox 3.0 while it was being made was "Gran Paradiso". "Gran Paradiso", like other Firefox development names, is an actual place; in this case the second-highest mountain group in the Graian Alps.
+In 2006, the development team asked people who use Firefox to submit feature ideas that they wanted to be in Firefox 3.
+NetApplications says that the use of Firefox 3 has been going up very fast to a usage share of 2.23% in May 2008. They think that this increase means that Firefox 3 is stable and that users are using it as their main browser.
+Guinness World Record.
+The date for the launch of Firefox 3 was June 17, 2008, named "Download Day 2008." Firefox was aiming to set the record for most Firefox downloads in 24 hours. As of June 18, 2008, more than 6.88 million people have downloaded Firefox 3.
+Many people tried to go the Mozilla website on June 17 making it unavailable for at least a few hours. The site was not updated for the download of Firefox 3 until 12:00 PDT. "Download Day" ended at 11:16 AM PDT June 18. Firefox 3 has been downloaded 28,340,281 different times.
+Extensions.
+Extensions let a user add new things to the browser or change how it does something. They are created by other users. Because extensions are able to access all parts of the computer that Firefox can, extensions that can harm a computer could be made. However,the extension can only change system settings if you have administrator privileges.
+Themes.
+Firefox also has themes or skinning which change the way the browser looks to the user. Some themes that can make Firefox look like other browsers, such as Internet Explorer and Netscape.
+These are the default themes in Firefox.
+Tabs.
+Tabbed browsing is a feature used in the browser where many webpages can be opened in one window, with labeled tabs on top to select the webpage. To make a new empty tab, type control-T.
+Searching.
+There is a search box in Firefox that can be seen in the top right corner of the window. When someone using Mozilla Firefox types something in the search box and presses enter, the browser will search the Internet using a search engine like Google or Yahoo!.
+There are "search suggestions" in Firefox 2. When words are typed in the search box, suggested words will appear. For example, if "wiki" is typed, the browser will suggest "Wikipedia".
+Spell checking.
+Firefox can use spell checking, if a word is typed badly into a text box, like the one where someone changes a Wikipedia page, the program will underline the word that is spelled wrong with a red line. If you scroll over that word and right click, Mozilla Firefox will list words which use the right spelling. For example: the wrong word "chekc" will have "check" as a suggestion.

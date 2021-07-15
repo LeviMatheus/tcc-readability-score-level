@@ -1,0 +1,5 @@
+KWord is a free word processor, a part of the KOffice project and of the K Desktop Environment.
+The text-layout scheme in KWord is based on frames, making it look like Adobe FrameMaker. These can be placed anywhere on the page, and can include text, graphics and embedded objects. Each new page is a new frame, but the text is able to flow through KWord’s ability to link frames together. The use of frames means that complex graphical layouts can be achieved easily in KWord.
+History.
+KWord was created as part of the KOffice project in 1998 using some ideas from FrameMaker such as the frames approach. The first author said that the application and its code were not the best since it was his first object-oriented application.
+In 2000 the KWord application was created in a way that made it very hard to fix problems and nobody was working on the problems anymore. There had not been any official release of the application in all this time. In the same year a new maintainer started working on the application and over the duration of 2000 and the beginning of 2001 they worked to fix any problems in the code of the application.

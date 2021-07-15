@@ -1,0 +1,72 @@
+
+In signal processing, a digital filter is a system that performs mathematical operations on a sampled, discrete-time signal to reduce or enhance certain aspects of that signal. This is in contrast to the other major type of electronic filter, the analog filter, which is typically an electronic circuit operating on continuous-time analog signals.
+A digital filter system usually consists of an analog-to-digital converter (ADC) to sample the input signal, followed by a microprocessor and some peripheral components such as memory to store data and filter coefficients etc. Program Instructions (software) running on the microprocessor implement the digital filter by performing the necessary mathematical operations on the numbers received from the ADC. In some high performance applications, an FPGA or ASIC is used instead of a general purpose microprocessor, or a specialized digital signal processor (DSP) with specific paralleled architecture for expediting operations such as filtering.
+Digital filters may be more expensive than an equivalent analog filter due to their increased complexity, but they make practical many designs that are impractical or impossible as analog filters. Digital filters can often be made very high order, and are often finite impulse response filters, which allows for linear phase response. When used in the context of real-time analog systems, digital filters sometimes have problematic latency (the difference in time between the input and the response) due to the associated analog-to-digital and digital-to-analog conversions and anti-aliasing filters, or due to other delays in their implementation.
+Digital filters are commonplace and an essential element of everyday electronics such as radios, cellphones, and AV receivers.
+Characterization.
+A digital filter is characterized by its transfer function, or equivalently, its difference equation. Mathematical analysis of the transfer function can describe how it will respond to any input. As such, designing a filter consists of developing specifications appropriate to the problem (for example, a second-order low pass filter with a specific cut-off frequency), and then producing a transfer function which meets the specifications.
+The transfer function for a linear, time-invariant, digital filter can be expressed as a transfer function in the "Z"-domain; if it is causal, then it has the form:
+where the order of the filter is the greater of "N" or "M".
+See "Z"-transform's LCCD equation for further discussion of this transfer function.
+This is the form for a recursive filter, which typically leads to an infinite impulse response (IIR) behaviour, but if the denominator is made equal to unity, i.e. no feedback, then this becomes a finite impulse response (FIR) filter.
+Analysis techniques.
+A variety of mathematical techniques may be employed to analyze the behaviour of a given digital filter. Many of these analysis techniques may also be employed in designs, and often form the basis of a filter specification.
+Typically, one characterizes filters by calculating how they will respond to a simple input such as an impulse. One can then extend this information to compute the filter's response to more complex signals.
+Impulse response.
+The impulse response, often denoted formula_2 or formula_3, is a measurement of how a filter will respond to the Kronecker delta function. For example, given a difference equation, one would set formula_4 and formula_5 for formula_6 and evaluate. The impulse response is a characterization of the filter's behaviour. Digital filters are typically considered in two categories: infinite impulse response (IIR) and finite impulse response (FIR).
+In the case of linear time-invariant FIR filters, the impulse response is exactly equal to the sequence of filter coefficients, and thus:
+IIR filters on the other hand are recursive, with the output depending on both current and previous inputs as well as previous outputs. The general form of an IIR filter is thus:
+Plotting the impulse response reveals how a filter responds to a sudden, momentary disturbance.
+An IIR filter is always recursive. While it is possible for a recursive filter to have a finite impulse response, a non-recursive filter always has a finite impulse response. An example is the moving average (MA) filter, which can be implemented both recursively and non recursively.
+Difference equation.
+In discrete-time systems, the digital filter is often implemented by converting the transfer function to a linear constant-coefficient difference equation (LCCD) via the Z-transform. The discrete frequency-domain transfer function is written as the ratio of two polynomials. For example:
+This is expanded:
+and to make the corresponding filter causal, the numerator and denominator are divided by the highest order of formula_11:
+The coefficients of the denominator, formula_13, are the 'feed-backward' coefficients and the coefficients of the numerator are the 'feed-forward' coefficients, formula_14. The resultant linear difference equation is:
+or, for the example above:
+rearranging terms:
+then by taking the inverse "z"-transform:
+and finally, by solving for formula_19:
+This equation shows how to compute the next output sample, formula_19, in terms of the past outputs, formula_22, the present input, formula_23, and the past inputs, formula_24. Applying the filter to an input in this form is equivalent to a Direct Form I or II (see below) realization, depending on the exact order of evaluation.
+In plain terms, for example, as used by a computer programmer implementing the above equation in code, it can be described as follows:
+formula_25 = the output, or filtered value&lt;br&gt;
+formula_26 = the input, or incoming raw value&lt;br&gt;
+formula_27 = the sample number, iteration number, or time period number
+and therefore:
+formula_19 = the current filtered (output) value&lt;br&gt;
+formula_29 = the last filtered (output) value&lt;br&gt;
+formula_30 = the 2nd-to-last filtered (output) value&lt;br&gt;
+formula_23 = the current raw input value&lt;br&gt;
+formula_32 = the last raw input value&lt;br&gt;
+formula_33 = the 2nd-to-last raw input value
+Filter design.
+Although filters are easily understood and calculated, the practical challenges of their design and implementation are significant and are the subject of much advanced research.
+There are two categories of digital filter: the recursive filter and the nonrecursive filter. These are often referred to as infinite impulse response (IIR) filters and finite impulse response (FIR) filters, respectively.
+Filter realization.
+After a filter is designed, it must be "realized" by developing a signal flow diagram that describes the filter in terms of operations on sample sequences.
+A given transfer function may be realized in many ways. Consider how a simple expression such as formula_34 could be evaluated – one could also compute the equivalent formula_35. In the same way, all realizations may be seen as "factorizations" of the same transfer function, but different realizations will have different numerical properties. Specifically, some realizations are more efficient in terms of the number of operations or storage elements required for their implementation, and others provide advantages such as improved numerical stability and reduced round-off error. Some structures are better for fixed-point arithmetic and others may be better for floating-point arithmetic.
+Direct form I.
+A straightforward approach for IIR filter realization is direct form I, where the difference equation is evaluated directly. This form is practical for small filters, but may be inefficient and impractical (numerically unstable) for complex designs. In general, this form requires 2N delay elements (for both input and output signals) for a filter of order N.
+Direct form II.
+The alternate direct form II only needs "N" delay units, where "N" is the order of the filter – potentially half as much as direct form I. This structure is obtained by reversing the order of the numerator and denominator sections of Direct Form I, since they are in fact two linear systems, and the commutativity property applies. Then, one will notice that there are two columns of delays (formula_36) that tap off the center net, and these can be combined since they are redundant, yielding the implementation as shown below.
+The disadvantage is that direct form II increases the possibility of arithmetic overflow for filters of high "Q" or resonance. It has been shown that as "Q" increases, the round-off noise of both direct form topologies increases without bounds. This is because, conceptually, the signal is first passed through an all-pole filter (which normally boosts gain at the resonant frequencies) before the result of that is saturated, then passed through an all-zero filter (which often attenuates much of what the all-pole half amplifies).
+Cascaded second-order sections.
+A common strategy is to realize a higher-order (greater than 2) digital filter as a cascaded series of second-order "biquadratric" (or "biquad") sections (see digital biquad filter). The advantage of this strategy is that the coefficient range is limited. Cascading direct form II sections results in "N" delay elements for filters of order "N". Cascading direct form I sections results in "N" + 2 delay elements, since the delay elements of the input of any section (except the first section) are redundant with the delay elements of the output of the preceding section.
+Other forms.
+Other forms include:
+Comparison of analog and digital filters.
+Digital filters are not subject to the component non-linearities that greatly complicate the design of analog filters. Analog filters consist of imperfect electronic components, whose values are specified to a limit tolerance (e.g. resistor values often have a tolerance of ±5%) and which may also change with temperature and drift with time. As the order of an analog filter increases, and thus its component count, the effect of variable component errors is greatly magnified. In digital filters, the coefficient values are stored in computer memory, making them far more stable and predictable.
+Because the coefficients of digital filters are definite, they can be used to achieve much more complex and selective designs – specifically with digital filters, one can achieve a lower passband ripple, faster transition, and higher stopband attenuation than is practical with analog filters. Even if the design could be achieved using analog filters, the engineering cost of designing an equivalent digital filter would likely be much lower. Furthermore, one can readily modify the coefficients of a digital filter to make an adaptive filter or a user-controllable parametric filter. While these techniques are possible in an analog filter, they are again considerably more difficult.
+Digital filters can be used in the design of finite impulse response filters. Equivalent analog filters are often more complicated, as these require delay elements.
+Digital filters rely less on analog circuitry, potentially allowing for a better signal-to-noise ratio. A digital filter will introduce noise to a signal during analog low pass filtering, analog to digital conversion, digital to analog conversion and may introduce digital noise due to quantization. With analog filters, every component is a source of thermal noise (such as Johnson noise), so as the filter complexity grows, so does the noise.
+However, digital filters do introduce a higher fundamental latency to the system. In an analog filter, latency is often negligible; strictly speaking it is the time for an electrical signal to propagate through the filter circuit. In digital systems, latency is introduced by delay elements in the digital signal path, and by analog-to-digital and digital-to-analog converters that enable the system to process analog signals.
+In very simple cases, it is more cost effective to use an analog filter. Introducing a digital filter requires considerable overhead circuitry, as previously discussed, including two low pass analog filters.
+Another argument for analog filters is low power consumption. Analog filters require substantially less power and are therefore the only solution when power requirements are tight.
+When making an electrical circuit on a PCB it is generally easier to use a digital solution, because the processing units are highly optimized over the years. Making the same circuit with analog components would take up a lot more space when using discrete components. Two alternatives are FPAAs and ASICs, but they are expensive for low quantities.
+Types of digital filters.
+There are various ways to characterize filters; for example:
+A filter can be represented by a block diagram, which can then be used to derive a sample processing algorithm to implement the filter with hardware instructions. A filter may also be described as a difference equation, a collection of zeros and poles or an impulse response or step response.
+Some digital filters are based on the fast Fourier transform, a mathematical algorithm that quickly extracts the frequency spectrum of a signal, allowing the spectrum to be manipulated (such as to create very high order band-pass filters) before converting the modified spectrum back into a time-series signal with an inverse FFT operation. These filters give O(n log n) computational costs whereas conventional digital filters tend to be O(n2).
+Another form of a digital filter is that of a state-space model. A well used state-space filter is the Kalman filter published by Rudolf Kalman in 1960.
+Traditional linear filters are usually based on attenuation. Alternatively nonlinear filters can be designed, including energy transfer filters, which allow the user to move energy in a designed way so that unwanted noise or effects can be moved to new frequency bands either lower or higher in frequency, spread over a range of frequencies, split, or focused. Energy transfer filters complement traditional filter designs and introduce many more degrees of freedom in filter design. Digital energy transfer filters are relatively easy to design and to implement and exploit nonlinear dynamics.
+

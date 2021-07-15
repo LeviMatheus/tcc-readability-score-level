@@ -1,0 +1,93 @@
+
+In mathematics, an inverse function (or anti-function) is a function that "reverses" another function: if the function applied to an input gives a result of , then applying its inverse function to gives the result , i.e., if and only if . The inverse function of is also denoted as formula_1.
+As an example, consider the real-valued function of a real variable given by . Thinking of this as a step-by-step procedure (namely, take a number , multiply it by 5, then subtract 7 from the result), to reverse this and get back from some output value, say , we would undo each step in reverse order. In this case, it means to add 7 to , and then divide the result by 5. In functional notation, this inverse function would be given by,
+With we have that and .
+Not all functions have inverse functions. Those that do are called "invertible". For a function to have an inverse, it must have the property that for every in , there is exactly one in such that . This property ensures that a function exists with the necessary relationship with .
+Definitions.
+Let be a function whose domain is the set , and whose codomain is the set . Then is "invertible" if there exists a function with domain and codomain , with the property:
+If is invertible, then the function is unique, which means that there is exactly one function satisfying this property. Moreover it also follows that the ranges of and equal their respective codomains.
+The function is called "the" inverse of , and is usually denoted as , a notation introduced by John Frederick William Herschel in 1813.
+Stated otherwise, a function, considered as a binary relation, has an inverse if and only if the converse relation is a function on the codomain , in which case the converse relation is the inverse function.
+Not all functions have an inverse. For a function to have an inverse, each element must correspond to no more than one ; a function with this property is called one-to-one or an injection. If is to be a function on , then each element must correspond to some . Functions with this property are called surjections. This property is satisfied by definition if is the image of , but may not hold in a more general context. To be invertible, a function must be both an injection and a surjection. Such functions are called bijections. The inverse of an injection that is not a bijection (that is, not a surjection), is only a partial function on , which means that for some , is undefined. If a function is invertible, then both it and its inverse function are bijections.
+Another convention is used in the definition of functions, referred to as the "set-theoretic" or "graph" definition using ordered pairs, which makes the codomain and image of the function the same. Under this convention, all functions are surjective, so bijectivity and injectivity are the same. Authors using this convention may use the phrasing that a function is invertible if and only if it is an injection. The two conventions need not cause confusion, as long as it is remembered that in this alternate convention, the codomain of a function is always taken to be the image of the function.
+Example: Squaring and square root functions.
+The function given by is not injective, since each possible result "y" (except 0) corresponds to two different starting points in – one positive and one negative, and so this function is not invertible. With this type of function, it is impossible to deduce a (unique) input from its output. Such a function is called non-injective or, in some applications, information-losing.
+If the domain of the function is restricted to the nonnegative reals, that is, the function is redefined to be with the same "rule" as before, then the function is bijective and so, invertible. The inverse function here is called the "(positive) square root function".
+Inverses and composition.
+If is an invertible function with domain and codomain , then
+Using the composition of functions, we can rewrite this statement as follows:
+where is the identity function on the set ; that is, the function that leaves its argument unchanged. In category theory, this statement is used as the definition of an inverse morphism.
+Considering function composition helps to understand the notation . Repeatedly composing a function with itself is called iteration. If is applied times, starting with the value , then this is written as ; so , etc. Since , composing and yields , "undoing" the effect of one application of .
+Notation.
+While the notation might be misunderstood, certainly denotes the multiplicative inverse of and has nothing to do with the inverse function of .
+In keeping with the general notation, some English authors use expressions like to denote the inverse of the sine function applied to (actually a partial inverse; see below). Other authors feel that this may be confused with the notation for the multiplicative inverse of , which can be denoted as . To avoid any confusion, an inverse trigonometric function is often indicated by the prefix "arc" (for Latin ). For instance, the inverse of the sine function is typically called the arcsine function, written as . Similarly, the inverse of a hyperbolic function is indicated by the prefix "ar" (for Latin ). For instance, the inverse of the hyperbolic sine function is typically written as . Other inverse special functions are sometimes prefixed with the prefix "inv", if the ambiguity of the notation should be avoided.
+Properties.
+Since a function is a special type of binary relation, many of the properties of an inverse function correspond to properties of converse relations.
+Uniqueness.
+If an inverse function exists for a given function , then it is unique. This follows since the inverse function must be the converse relation, which is completely determined by .
+Symmetry.
+There is a symmetry between a function and its inverse. Specifically, if is an invertible function with domain and codomain , then its inverse has domain and image , and the inverse of is the original function . In symbols, for functions and ,
+This statement is a consequence of the implication that for to be invertible it must be bijective. The involutory nature of the inverse can be concisely expressed by 
+The inverse of a composition of functions is given by 
+Notice that the order of and have been reversed; to undo followed by , we must first undo , and then undo .
+For example, let and let . Then the composition is the function that first multiplies by three and then adds five,
+To reverse this process, we must first subtract five, and then divide by three,
+This is the composition
+Self-inverses.
+If is a set, then the identity function on is its own inverse:
+More generally, a function is equal to its own inverse, if and only if the composition is equal to . Such a function is called an involution.
+Inverses in calculus.
+Single-variable calculus is primarily concerned with functions that map real numbers to real numbers. Such functions are often defined through formulas, such as:
+A surjective function from the real numbers to the real numbers possesses an inverse, as long as it is one-to-one. That is, the graph of has, for each possible value, only one corresponding value, and thus passes the horizontal line test.
+The following table shows several standard functions and their inverses:
+Formula for the inverse.
+One approach to finding a formula for , if it exists, is to solve the equation for . For example, if is the function
+then we must solve the equation for :
+Thus the inverse function is given by the formula
+Sometimes, the inverse of a function cannot be expressed by a formula with a finite number of terms. For example, if is the function
+then is a bijection, and therefore possesses an inverse function . The formula for this inverse has an infinite number of terms:
+Graph of the inverse.
+If is invertible, then the graph of the function
+is the same as the graph of the equation
+This is identical to the equation that defines the graph of , except that the roles of and have been reversed. Thus the graph of can be obtained from the graph of by switching the positions of the and axes. This is equivalent to reflecting the graph across the line
+Inverses and derivatives.
+A continuous function is invertible on its range (image) if and only if it is either strictly increasing or decreasing (with no local maxima or minima). For example, the function
+is invertible, since the derivative
+ is always positive.
+If the function is differentiable on an interval and for each , then the inverse is differentiable on . If , the derivative of the inverse is given by the inverse function theorem,
+Using Leibniz's notation the formula above can be written as
+This result follows from the chain rule (see the article on inverse functions and differentiation).
+The inverse function theorem can be generalized to functions of several variables. Specifically, a differentiable multivariable function is invertible in a neighborhood of a point as long as the Jacobian matrix of at is invertible. In this case, the Jacobian of at is the matrix inverse of the Jacobian of at .
+Generalizations.
+Partial inverses.
+Even if a function is not one-to-one, it may be possible to define a partial inverse of by restricting the domain. For example, the function
+is not one-to-one, since . However, the function becomes one-to-one if we restrict to the domain , in which case
+(If we instead restrict to the domain , then the inverse is the negative of the square root of .) Alternatively, there is no need to restrict the domain if we are content with the inverse being a multivalued function:
+Sometimes, this multivalued inverse is called the full inverse of , and the portions (such as and −) are called "branches". The most important branch of a multivalued function (e.g. the positive square root) is called the "principal branch", and its value at is called the "principal value" of .
+For a continuous function on the real line, one branch is required between each pair of local extrema. For example, the inverse of a cubic function with a local maximum and a local minimum has three branches (see the adjacent picture).
+These considerations are particularly important for defining the inverses of trigonometric functions. For example, the sine function is not one-to-one, since
+for every real (and more generally for every integer ). However, the sine is one-to-one on the interval
+, and the corresponding partial inverse is called the arcsine. This is considered the principal branch of the inverse sine, so the principal value of the inverse sine is always between − and . The following table describes the principal branch of each inverse trigonometric function:
+Left and right inverses.
+Left and right inverses are not necessarily the same. If is a left inverse for , then may or may not be a right inverse for ; and if is a right inverse for , then is not necessarily a left inverse for . For example, let denote the squaring map, such that for all in , and let denote the square root map, such that for all . Then for all in ; that is, is a right inverse to . However, is not a left inverse to , since, e.g., .
+Left inverses.
+If , a left inverse for (or "retraction" of ) is a function such that composing with from the left gives the identity function:
+That is, the function satisfies the rule
+Thus, must equal the inverse of on the image of , but may take any values for elements of not in the image.
+A function is injective if and only if it has a left inverse or is the empty function.
+In classical mathematics, every injective function with a nonempty domain necessarily has a left inverse; however, this may fail in constructive mathematics. For instance, a left inverse of the inclusion of the two-element set in the reals violates indecomposability by giving a retraction of the real line to the set .
+Right inverses.
+A right inverse for (or "section" of ) is a function such that
+That is, the function satisfies the rule
+Thus, may be any of the elements of that map to under .
+A function has a right inverse if and only if it is surjective (though constructing such an inverse in general requires the axiom of choice).
+Two-sided inverses.
+An inverse that is both a left and right inverse (a two-sided inverse), if it exists, must be unique. In fact, if a function has a left inverse and a right inverse, they are both the same two-sided inverse, so it can be called the inverse.
+A function has a two-sided inverse if and only if it is bijective.
+Preimages.
+If is any function (not necessarily invertible), the preimage (or inverse image) of an element , is the set of all elements of that map to :
+The preimage of can be thought of as the image of under the (multivalued) full inverse of the function .
+Similarly, if is any subset of , the preimage of , denoted formula_56, is the set of all elements of that map to :
+For example, take a function , where . This function is not invertible for reasons discussed in . Yet preimages may be defined for subsets of the codomain:
+The preimage of a single element – a singleton set – is sometimes called the "fiber" of . When is the set of real numbers, it is common to refer to as a "level set".
+

@@ -1,0 +1,8 @@
+Playing cards is the name for the 54 cards used in a lot of games like poker, bridge, blackjack, and solitaire.
+There are 52 basic cards in a deck. These cards have a suit and a number (called the value or rank). There are 4 suits and 13 ranks in each suit. There are also two Jokers that do not have a suit or a rank.
+Suits.
+spades (♠), hearts (♥), diamonds (♦), clubs (♣).
+Values.
+2, 3, 4, 5, 6, 7, 8, 9, 10, Jack (J), Queen (Q), King (K), Ace (A). In most games the ace is the highest value, but in some games it is the lowest.
+Jacks, Queens, and Kings are called Face Cards because the cards have pictures of their names. The King of Hearts is also called the 'Suicide King' because he is sometimes pictured holding a knife in his head. Originally the king had an axe, and over the years, the head of the axe was dropped from the picture. What was left looks like to be a sword, thus making the king the look like he is stabbing himself in the head. The '2' cards are sometimes called deuces.
+For a lot of games, the Jokers are removed from the deck, making the total number of cards in the deck 52.

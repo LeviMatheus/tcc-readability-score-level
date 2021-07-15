@@ -1,0 +1,15 @@
+A battery is a device that can store electricity. Some are rechargeable, and some are not. They store direct current (DC) electricity.
+A battery really means two or more wet or dry cells connected in series for more voltage, or in parallel for more current, although people often call a cell a battery. AA, AAA, C, and D batteries all have 1.5 volts. The voltage of a cell depends on the chemicals used while the amount of power or current it can supply also depends on how large the cell is; a bigger cell of a given type can supply more amps, or for a longer time.
+The chemical reactions that occur in a battery are exothermic reactions and, thus, produce heat. For example, if you leave your laptop on for a long time, and then touch the battery, it will be warm or hot. However, the batteries used in laptops are called Lithium batteries and they do have a fire hazard (A few years ago, dell laptops that that were powered by lithium batteries began to catch fire, though this event was rare.).
+Batteries come in lots of different shapes and sizes and voltages. It is possible, but not easy, to run wires to use an odd size battery for an odd purpose.
+Batteries are always more costly/expensive than mains electricity. But mains electricity is not suitable for things that are mobile.
+Bicycles have tail-lights that can be operated by batteries, and sometimes by a little generator powered by the wheels.
+Hand and foot generators can be used to replace batteries, but they can be tiresome.
+Wind-up generators are now available to power small clockwork radios, clockwork torches, etc.
+Since clockwork clocks have been around for hundreds of years, and batteries for two hundred, it is amazing that no-one thought of a clockwork torch until recently.
+Rechargeable batteries are recharged by reversing the chemical reaction that occurs within the battery. Although, a rechargeable battery can only be recharged a given amount of time (recharge life). Even iPods, with built in batteries, cannot be recharged forever. Moreover, each time you recharge a battery, its ability to hold a charge is degraded a bit. Never attempt to recharge a non-rechargeable battery, the battery acids inside will most likely leak out.
+History.
+The very first batteries were invented in the middle east around 1000 B.C.
+The first battery was invented in 1800 by Alessandro Volta. Nowadays, his battery is called the voltaic pile.
+Later batteries were bottles with a fluid and some metal rods in them. People had to be careful not to turn these batteries upside-down so the fluid would spill.
+In modern batteries, the fluid is "soaked up" in a kind of paste. And everything is put in a completely tight case: Because of this case, nothing can spill out of the battery.

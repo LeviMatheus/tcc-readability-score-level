@@ -1,0 +1,48 @@
+
+In mathematics, generalized means (or power mean, or Hölder mean) are a family of functions for aggregating sets of numbers, that include as special cases the Pythagorean means (arithmetic, geometric, and harmonic means).
+Definition.
+If "p" is a non-zero real number, and formula_1 are positive real numbers, then the generalized mean or power mean with exponent "p" of these positive real numbers is:
+(See "p"-norm). For we set it equal to the geometric mean (which is the limit of means with exponents approaching zero, as proved below):
+Furthermore, for a sequence of positive weights "w""i" with sum formula_4 we define the weighted power mean as:
+The unweighted means correspond to setting all .
+Special cases.
+A few particular values of formula_6 yield special cases with their own names:
+Properties.
+Let formula_1 be a sequence of positive real numbers, then the following properties hold:
+Generalized mean inequality.
+In general, 
+and the two means are equal if and only if "x"1 = "x"2 = ... = "xn".
+The inequality is true for real values of "p" and "q", as well as positive and negative infinity values.
+It follows from the fact that, for all real "p",
+which can be proved using Jensen's inequality.
+In particular, for "p" in {−1, 0, 1}, the generalized mean inequality implies the Pythagorean means inequality as well as the inequality of arithmetic and geometric means.
+Proof of power means inequality.
+We will prove weighted power means inequality, for the purpose of the proof we will assume the following without loss of generality:
+Proof for unweighted power means is easily obtained by substituting "wi" = 1/"n".
+Equivalence of inequalities between means of opposite signs.
+Suppose an average between power means with exponents "p" and "q" holds:
+applying this, then:
+We raise both sides to the power of −1 (strictly decreasing function in positive reals):
+We get the inequality for means with exponents −"p" and −"q", and we can use the same reasoning backwards, thus proving the inequalities to be equivalent, which will be used in some of the later proofs.
+Geometric mean.
+For any "q" &gt; 0 and non-negative weights summing to 1, the following inequality holds:
+The proof follows from Jensen's inequality, making use of the fact the logarithm is concave:
+By applying the exponential function to both sides and observing that as a strictly increasing function it preserves the sign of the inequality, we get
+Taking "q"th powers of the "x""i", we are done for the inequality with positive "q"; the case for negatives is identical.
+Inequality between any two power means.
+We are to prove that for any "p" &lt; "q" the following inequality holds:
+if "p" is negative, and "q" is positive, the inequality is equivalent to the one proved above:
+The proof for positive "p" and "q" is as follows: Define the following function: "f" : R+ → R+ formula_25. "f" is a power function, so it does have a second derivative:
+which is strictly positive within the domain of "f", since "q" &gt; "p", so we know "f" is convex.
+Using this, and the Jensen's inequality we get:
+after raising both side to the power of 1/"q" (an increasing function, since 1/"q" is positive) we get the inequality which was to be proven:
+Using the previously shown equivalence we can prove the inequality for negative "p" and "q" by replacing them with −"q" and −"p", respectively.
+Generalized "f"-mean.
+The power mean could be generalized further to the generalized "f"-mean:
+This covers the geometric mean without using a limit with "f"("x") = "log"("x"). The power mean is obtained for "f"("x") = "xp".
+Applications.
+Signal processing.
+A power mean serves a non-linear moving average which is shifted towards small signal values for small "p" and emphasizes big signal values for big "p". Given an efficient implementation of a moving arithmetic mean called codice_1 one can implement a moving power mean according to the following Haskell code.
+ powerSmooth :: Floating a =&gt; ([a] -&gt; [a]) -&gt; a -&gt; [a] -&gt; [a]
+ powerSmooth smooth p = map (** recip p) . smooth . map (**p)
+

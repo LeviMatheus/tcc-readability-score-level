@@ -1,0 +1,62 @@
+
+In geometry, a polygon () is a plane figure that is described by a finite number of straight line segments connected to form a closed polygonal chain or "polygonal circuit". The solid plane region, the bounding circuit, or the two together, may be called a polygon.
+The segments of a polygonal circuit are called its "edges" or "sides", and the points where two edges meet are the polygon's "vertices" (singular: vertex) or "corners". The interior of a solid polygon is sometimes called its "body". An "n"-gon is a polygon with "n" sides; for example, a triangle is a 3-gon.
+A simple polygon is one which does not intersect itself. Mathematicians are often concerned only with the bounding polygonal chains of simple polygons and they often define a polygon accordingly. A polygonal boundary may be allowed to cross over itself, creating star polygons and other self-intersecting polygons.
+A polygon is a 2-dimensional example of the more general polytope in any number of dimensions. There are many more generalizations of polygons defined for different purposes.
+Etymology.
+The word "polygon" derives from the Greek adjective πολύς ("polús") 'much', 'many' and γωνία ("gōnía") 'corner' or 'angle'. It has been suggested that γόνυ ("gónu") 'knee' may be the origin of "gon".
+Classification.
+Number of sides.
+Polygons are primarily classified by the number of sides. See the table below.
+Convexity and non-convexity.
+Polygons may be characterized by their convexity or type of non-convexity:
+Properties and formulas.
+Euclidean geometry is assumed throughout.
+Angles.
+Any polygon has as many corners as it has sides. Each corner has several angles. The two most important ones are:
+Area.
+In this section, the vertices of the polygon under consideration are taken to be formula_6 in order. For convenience in some formulas, the notation will also be used.
+If the polygon is non-self-intersecting (that is, simple), the signed area is
+or, using determinants
+where formula_9 is the squared distance between formula_10 and formula_11
+The signed area depends on the ordering of the vertices and of the orientation of the plane. Commonly, the positive orientation is defined by the (counterclockwise) rotation that maps the positive -axis to the positive -axis. If the vertices are ordered counterclockwise (that is, according to positive orientation), the signed area is positive; otherwise, it is negative. In either case, the area formula is correct in absolute value. This is commonly called the shoelace formula or Surveyor's formula.
+The area "A" of a simple polygon can also be computed if the lengths of the sides, "a"1, "a"2, ..., "an" and the exterior angles, "θ"1, "θ"2, ..., "θn" are known, from:
+The formula was described by Lopshits in 1963.
+If the polygon can be drawn on an equally spaced grid such that all its vertices are grid points, Pick's theorem gives a simple formula for the polygon's area based on the numbers of interior and boundary grid points: the former number plus one-half the latter number, minus 1.
+In every polygon with perimeter "p" and area "A ", the isoperimetric inequality formula_13 holds.
+For any two simple polygons of equal area, the Bolyai–Gerwien theorem asserts that the first can be cut into polygonal pieces which can be reassembled to form the second polygon.
+The lengths of the sides of a polygon do not in general determine its area. However, if the polygon is cyclic then the sides "do" determine the area. Of all "n"-gons with given side lengths, the one with the largest area is cyclic. Of all "n"-gons with a given perimeter, the one with the largest area is regular (and therefore cyclic).
+Regular polygons.
+Many specialized formulas apply to the areas of regular polygons.
+The area of a regular polygon is given in terms of the radius "r" of its inscribed circle and its perimeter "p" by 
+This radius is also termed its apothem and is often represented as "a".
+The area of a regular "n"-gon in terms of the radius "R" of its circumscribed circle can be expressed trigonometrically as:
+The area of a regular "n"-gon inscribed in a unit-radius circle, with side "s" and interior angle formula_16 can also be expressed trigonometrically as:
+Self-intersecting.
+The area of a self-intersecting polygon can be defined in two different ways, giving different answers:
+Centroid.
+Using the same convention for vertex coordinates as in the previous section, the coordinates of the centroid of a solid simple polygon are 
+In these formulas, the signed value of area formula_20 must be used.
+For triangles (), the centroids of the vertices and of the solid shape are the same, but, in general, this is not true for . The centroid of the vertex set of a polygon with vertices has the coordinates
+Generalizations.
+The idea of a polygon has been generalized in various ways. Some of the more important include:
+Naming.
+The word "polygon" comes from Late Latin "polygōnum" (a noun), from Greek πολύγωνον ("polygōnon/polugōnon"), noun use of neuter of πολύγωνος ("polygōnos/polugōnos", the masculine adjective), meaning "many-angled". Individual polygons are named (and sometimes classified) according to the number of sides, combining a Greek-derived numerical prefix with the suffix "-gon", e.g. "pentagon", "dodecagon". The triangle, quadrilateral and nonagon are exceptions.
+Beyond decagons (10-sided) and dodecagons (12-sided), mathematicians generally use numerical notation, for example 17-gon and 257-gon.
+Exceptions exist for side counts that are more easily expressed in verbal form (e.g. 20 and 30), or are used by non-mathematicians. Some special polygons also have their own names; for example the regular star pentagon is also known as the pentagram.
+Constructing higher names.
+To construct the name of a polygon with more than 20 and less than 100 edges, combine the prefixes as follows. The "kai" term applies to 13-gons and higher and was used by Kepler, and advocated by John H. Conway for clarity to concatenated prefix numbers in the naming of quasiregular polyhedra.
+History.
+Polygons have been known since ancient times. The regular polygons were known to the ancient Greeks, with the pentagram, a non-convex regular polygon (star polygon), appearing as early as the 7th century B.C. on a krater by Aristophanes, found at Caere and now in the Capitoline Museum.
+The first known systematic study of non-convex polygons in general was made by Thomas Bradwardine in the 14th century.
+In 1952, Geoffrey Colin Shephard generalized the idea of polygons to the complex plane, where each real dimension is accompanied by an imaginary one, to create complex polygons.
+In nature.
+Polygons appear in rock formations, most commonly as the flat facets of crystals, where the angles between the sides depend on the type of mineral from which the crystal is made.
+Regular hexagons can occur when the cooling of lava forms areas of tightly packed columns of basalt, which may be seen at the Giant's Causeway in Northern Ireland, or at the Devil's Postpile in California.
+In biology, the surface of the wax honeycomb made by bees is an array of hexagons, and the sides and base of each cell are also polygons.
+Computer graphics.
+In computer graphics, a polygon is a primitive used in modelling and rendering. They are defined in a database, containing arrays of vertices (the coordinates of the geometrical vertices, as well as other attributes of the polygon, such as color, shading and texture), connectivity information, and materials.
+Any surface is modelled as a tessellation called polygon mesh. If a square mesh has points (vertices) per side, there are "n" squared squares in the mesh, or 2"n" squared triangles since there are two triangles in a square. There are vertices per triangle. Where "n" is large, this approaches one half. Or, each vertex inside the square mesh connects four edges (lines).
+The imaging system calls up the structure of polygons needed for the scene to be created from the database. This is transferred to active memory and finally, to the display system (screen, TV monitors etc.) so that the scene can be viewed. During this process, the imaging system renders polygons in correct perspective ready for transmission of the processed data to the display system. Although polygons are two-dimensional, through the system computer they are placed in a visual scene in the correct three-dimensional orientation.
+In computer graphics and computational geometry, it is often necessary to determine whether a given point "P" = ("x"0,"y"0) lies inside a simple polygon given by a sequence of line segments. This is called the point in polygon test.
+

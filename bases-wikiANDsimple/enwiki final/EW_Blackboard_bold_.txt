@@ -1,0 +1,22 @@
+
+Blackboard bold is a typeface style that is often used for certain symbols in mathematical texts, in which certain lines of the symbol (usually vertical or near-vertical lines) are doubled. The symbols usually denote number sets. One way of producing blackboard bold is to double-strike a character with a small offset on a typewriter. Thus they are also referred to as double struck.
+In typography, such a font with characters that are not solid is called an "inline", "shaded", or "tooled" font.
+History.
+Origin.
+In some texts, these symbols are simply shown in bold type. Blackboard bold in fact originated from the attempt to write bold letters on blackboards in a way that clearly differentiated them from non-bold letters (by using the edge rather than the point of a chalk). It then made its way back into print form as a separate style from ordinary bold, possibly starting with the original 1965 edition of Gunning and Rossi's textbook on complex analysis.
+Use in textbooks.
+In the 1960s and 1970s, blackboard bold spread quickly in classrooms and is now widely used in the English- and French-speaking worlds. In textbooks, however, the situation is not so clear cut. Many mathematicians adopted blackboard bold, but many others still prefer to use bold.
+Well-known books where the blackboard bold style is used include Lindsay Childs' "A Concrete Introduction to Higher Algebra", which is widely used as a text for undergraduate courses in the US, John Stillwell's "Elements of Number Theory", and Edward Barbeau's "University of Toronto Mathematics Competition (2001-2015)", which is often used to prepare for mathematics competitions.
+Jean-Pierre Serre used double-struck letters when he wrote bold on the blackboard, whereas his published works (like his well-known "Cohomologie galoisienne") have consistently used ordinary bold for the same symbols.
+Donald Knuth also preferred boldface to blackboard bold and so did not include blackboard bold in the Computer Modern fonts that he created for the TeX mathematical typesetting system.
+Serge Lang also used boldface instead of blackboard bold in his highly influential "Algebra".
+The "Chicago Manual of Style" evolved over this issue. In 1993, for the 14th edition, it advised that "blackboard bold should be confined to the classroom" (13.14). In 2003, for the 15th edition, it stated that "open-faced (blackboard) symbols are reserved for familiar systems of numbers" (14.12).
+Encoding.
+TeX, the standard typesetting system for mathematical texts, does not contain direct support for blackboard bold symbols, but the add-on AMS Fonts package (codice_1) by the American Mathematical Society provides this facility for uppercase letters (e.g., formula_1 is written as codice_2). The codice_3 package loads codice_1.
+In Unicode, a few of the more common blackboard bold characters (ℂ, ℍ, ℕ, ℙ, ℚ, ℝ, and ℤ) are encoded in the Basic Multilingual Plane (BMP) in the "Letterlike Symbols (2100–214F)" area, named DOUBLE-STRUCK CAPITAL C etc. The rest, however, are encoded outside the BMP, in "Mathematical Alphanumeric Symbols (1D400–1D7FF)", specifically from codice_5 to codice_6 (uppercase, excluding those encoded in the BMP), codice_7 to codice_8 (lowercase) and codice_9 to codice_10 (digits).
+Usage.
+The following table shows all available Unicode blackboard bold characters.
+The first column shows the letter as typically rendered by the ubiquitous LaTeX markup system. The second column shows the Unicode code point. The third column shows the Unicode symbol itself (which will only display correctly on browsers that support Unicode and have access to a suitable font). The fourth column describes some typical usage in mathematical texts. Some of the symbols (particularly formula_2 and formula_3 are nearly universal in their interpretation, while others are more varied in use. 
+In addition, a blackboard-bold μ"n" (not found in Unicode) is sometimes used by number theorists and algebraic geometers to designate the group scheme of "n"th roots of unity.
+LaTeX notes:
+

@@ -1,0 +1,12 @@
+
+SIGGRAPH (Special Interest Group on Computer Graphics and Interactive Techniques) is an annual conference on computer graphics (CG) organized by the ACM SIGGRAPH, starting in 1974. The main conference is held in North America; SIGGRAPH Asia, a second conference held annually, has been held since 2008 in countries throughout Asia.
+Overview.
+The conference incorporates both academic presentations as well as an industry trade show. Other events at the conference include educational courses and panel discussions on recent topics in computer graphics and interactive techniques.
+SIGGRAPH Proceedings.
+The SIGGRAPH conference proceedings, which are published in the ACM Transactions on Graphics, has one of the highest impact factors among academic publications in the field of computer graphics. The paper acceptance rate for SIGGRAPH has historically been between 17% and 29%, with the average accept rate between 2015 and 2019 of 27%. The submitted papers are peer-reviewed under a process that was historically single-blind, but was changed in 2018 to double-blind. The papers accepted for presentation at SIGGRAPH are printed since 2003 in a special issue of the "ACM Transactions on Graphics" journal.
+Prior to 1992, SIGGRAPH papers were printed as part of the "Computer Graphics" publication; between 1993 and 2001, there was a dedicated "SIGGRAPH Conference Proceedings" series of publications.
+Awards programs.
+SIGGRAPH has several awards programs to recognize contributions to computer graphics. The most prestigious is the Steven Anson Coons Award for Outstanding Creative Contributions to Computer Graphics. It has been awarded every two years since 1983 to recognize an individual's lifetime achievement in computer graphics.
+Conference.
+The SIGGRAPH conference experienced significant growth starting in the 1970s, peaking around the turn of the century. A second conference, SIGGRAPH Asia, started in 2008.
+

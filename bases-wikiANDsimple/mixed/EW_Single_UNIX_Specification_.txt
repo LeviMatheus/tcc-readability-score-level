@@ -1,0 +1,79 @@
+
+The Single UNIX Specification (SUS) is the collective name of a family of standards for computer operating systems, compliance with which is required to qualify for using the "UNIX" trademark. The core specifications of the SUS are developed and maintained by the Austin Group, which is a joint working group of IEEE, ISO JTC 1 SC22 and The Open Group. If an operating system is submitted to The Open Group for certification, and passes conformance tests, then it is deemed to be compliant with a UNIX standard such as UNIX 98 or UNIX 03.
+Very few BSD and Linux-based operating systems are submitted for compliance with the Single UNIX Specification, although system developers generally aim for compliance with POSIX standards, which form the core of the Single UNIX Specification.
+History.
+1980s: Motivation.
+The SUS emerged from a mid-1980s project to standardize operating system interfaces for software designed for variants of the Unix operating system. The need for standardization arose because enterprises using computers wanted to be able to develop programs that could be used on the computer systems of different manufacturers without reimplementing the programs. Unix was selected as the basis for a standard system interface partly because it was manufacturer-neutral.
+1988: POSIX.
+In 1988, these standards became IEEE 1003 (also registered as ISO/IEC 9945), or POSIX, which loosely stands for Portable Operating System Interface.
+1990s: Spec 1170.
+In the early 1990s, a separate effort known as the Common API Specification or Spec 1170 was initiated by several major vendors, who formed the COSE alliance in the wake of the Unix wars. This specification became more popular because it was available at no cost, whereas the IEEE charged a substantial fee for access to the POSIX specification. Management over these specifications was assigned to X/Open who also received the Unix trademark from Novell in 1993. Unix International (UI) merged into Open Software Foundation (OSF) in 1994 only to merge with X/Open to form The Open Group in 1996.
+1994: Single UNIX Specification.
+This was a repackaging of the X/Open Portability Guide (XPG), Issue 4, Version 2.
+1995 Edition.
+In 1995, the Open Group released the Single UNIX Specification Version 1, 1995 Edition.
+This specification consisted of:
+and was at the core of the UNIX 95 brand.
+1997: Single UNIX Specification version 2.
+In 1997, the Open Group released the Single UNIX Specification Version 2.
+This specification consisted of:
+and was at the core of the UNIX 98 brand.
+2001: Single UNIX Specification version 3, POSIX:2001.
+Beginning in 1998, a joint working group known as the Austin Group began to develop the combined standard that would be known as the Single UNIX Specification Version 3 and as POSIX:2001 (formally: IEEE Std 1003.1-2001). It was released on January 30, 2002.
+This standard consisted of:
+and is at the core of the UNIX 03 brand.
+2004: POSIX:2004.
+In 2004, a new edition of the POSIX:2001 standard was released, incorporating two technical corrigenda. It is called POSIX:2004 (formally: IEEE Std 1003.1-2004).
+2008: Single UNIX Specification version 4, POSIX:2008.
+In December 2008, the Austin Group published a new major revision, known as POSIX:2008 (formally: IEEE Std 1003.1-2008). This is the core of the Single UNIX Specification, Version 4 (SUSv4).
+This standard consists of:
+2013 Edition.
+The Technical Corrigendum 1 is mostly targeting internationalization and it introduces a role-based access model. It was published in 2012 for the Unix Base specification and it is registered as the 2013 Edition of POSIX 2008. A trademark "UNIX V7" (not to be confused with V7 UNIX, the version of Research Unix from 1979) has been created to mark compliance with SUS Version 4.
+2016 Edition.
+The Technical Corrigendum 2 has been published in September 2016, leading into "IEEE Std 1003.1-2008, 2016 Edition" and "Single UNIX Specification, Version 4, 2016 Edition".
+2018 Edition.
+In January 2018 an "administrative rollup" edition, susv4-2018, was released. It incorporates Single UNIX Specification version 4 TC1 and TC2, and is technically identical to the 2016 edition.
+Specification.
+SUSv3 totals some 3700 pages, which are divided into four main parts:
+The standard user command line and scripting interface is the POSIX shell, an extension of the Bourne Shell based on an early version of the Korn Shell. Other user-level programs, services and utilities include awk, echo, ed, vi, and hundreds of others. Required program-level services include basic I/O (file, terminal, and network) services. A test suite accompanies the standard. It is called PCTS or the POSIX Certification Test Suite.
+Additionally, SUS includes CURSES (XCURSES) specification, which specifies 372 functions and 3 header files. All in all, SUSv3 specifies 1742 interfaces.
+Note that a system need not include source code derived in any way from AT&amp;T Unix to meet the specification. For instance, IBM OS/390, now z/OS, qualifies as a "Unix" despite having no code in common.
+Marks for compliant systems.
+There are five official marks for conforming systems:
+Compliance.
+Currently registered UNIX systems.
+AIX.
+AIX version 7, at either 7.1 TL5 (or later) or 7.2 TL2 (or later) are registered as UNIX 03 compliant. AIX version 7, at 7.2 TL5 (or later) are registered as UNIX V7 compliant.
+FTX.
+DNCP Series running FTX Release 3 is registered as UNIX 93 compliant.
+EulerOS.
+EulerOS 2.0 for the x86-64 architecture is registered as UNIX 03 compliant. The UNIX 03 conformance statement shows that the standard C compiler is from the GNU Compiler Collection (gcc), and that the system is a Linux distribution of the Red Hat family.
+HP-UX.
+HP-UX 11i V3 Release B.11.31 is registered as UNIX 03 compliant. Previous releases are registered as UNIX 95.
+HP-UX 11i features also provide partial conformance to the UNIX 98 specification.
+macOS.
+Apple macOS (formerly known as Mac OS X or OS X) is registered as UNIX 03 compliant. The first version registered was Mac OS X 10.5 Leopard, certified on October 26, 2007 (on x86 systems). All newer versions of macOS, up to macOS 11 Big Sur, have been registered, with macOS 11 registered on both x86-64 and ARM64 systems.
+Xinuos.
+UnixWare 7.1.3 and later is registered as UNIX 95 compliant.
+SCO OpenServer 5 and 6 are registered as UNIX 93 compliant.
+z/OS.
+IBM z/OS 1.2 and higher is registered as UNIX 95 compliant.
+z/OS 1.9, released on September 28, 2007, and subsequent releases "better align" with UNIX 03.
+Previously registered UNIX systems.
+Solaris.
+Solaris 11.4 was previously registered as UNIX v7 compliant in 2018. Solaris 11 and Solaris 10 was registered as UNIX 03 compliant on 32-bit and 64-bit x86 (X86-64) and SPARC systems. Solaris 8 and 9 was registered as UNIX 98 compliant on 32-bit x86 and SPARC systems; 64-bit x86 systems were not supported.
+Solaris 2.5.1 was also registered as UNIX 95 compliant on the PReP PowerPC platform in 1996, but the product was withdrawn before more than a few dozen copies had been sold.
+Reliant UNIX.
+The last Reliant UNIX versions were registered as UNIX 95 compliant (XPG4 hard branding).
+Inspur K-UX.
+Inspur K-UX 2.0 and 3.0 for the x86-64 architecture were certified as UNIX 03 compliant. The UNIX 03 conformance statement for Inspur K-UX 2.0 and 3.0 shows that the standard C compiler is from the GNU Compiler Collection (gcc), and that the system is a Linux distribution of the Red Hat family.
+Tru64 UNIX.
+Tru64 UNIX V5.1A and later were registered as UNIX 98 compliant.
+Other.
+Other operating systems previously registered as UNIX 95 or UNIX 93 compliant:
+Non-registered Unix-like systems.
+Developers and vendors of Unix-like operating systems such as Linux, FreeBSD, and MINIX, typically do not certify their distributions and do not install full POSIX utilities by default. Sometimes, SUS compliance can be improved by installing additional packages, but very few Linux systems can be configured to be completely conformant.
+Darwin, the open source subset of macOS, has behavior that can be set to comply with UNIX 03.
+FreeBSD previously had a "C99 and POSIX Conformance Project" which aimed for compliance with a subset of the Single UNIX Specification, and documentation where there were differences.
+For Linux, the Linux Standard Base was formed in 2001 as an attempt to standardize the internal structures of Linux-based systems for increased compatibility. It is based on the POSIX specifications, the Single UNIX Specification, and other open standards, and also extends them in several areas; but there are some conflicts between the LSB and The POSIX standards. However, although these standards are commonly accepted, few Linux distributions actually go through certification as LSB compliant.
+

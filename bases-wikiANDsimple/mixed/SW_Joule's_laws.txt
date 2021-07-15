@@ -1,0 +1,3 @@
+Joule's laws are two laws about heat produced by an electric current and the energy dependence of a gas to pressure, volume, and temperature.
+Where "Q" is the amount of heat, "I" is the electric current flowing through a conductor "R"."t" is the amount of time this happens for.
+Joule's second law says that the internal energy of a gas does not change if volume and pressure change, but does change if temperature changes.

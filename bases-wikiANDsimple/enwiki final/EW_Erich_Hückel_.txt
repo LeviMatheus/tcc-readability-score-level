@@ -1,0 +1,21 @@
+
+Erich Armand Arthur Joseph Hückel (August 9, 1896, Berlin – February 16, 1980, Marburg) was a German physicist and physical chemist. He is known for two major contributions:
+Hückel was born in the Charlottenburg suburb of Berlin. He studied physics and mathematics from 1914 to 1921 at the University of Göttingen.
+On receiving his doctorate, he became an assistant at Göttingen, but soon became an assistant to Peter Debye at Zürich. It was there that he and Debye developed their theory (the Debye–Hückel theory, in 1923) of electrolytic solutions, elucidating the behavior of strong electrolytes by considering interionic forces, in order to account for their electrical conductivity and their thermodynamic activity coefficients.
+After spending 1928 and 1929 in England and Denmark, working briefly with Niels Bohr, Hückel joined the faculty of the Technische Hochschule in Stuttgart. In 1935, he moved to Phillips University in Marburg, where he finally was named Full Professor a year before his retirement 1961. He was a member of the International Academy of Quantum Molecular Science.
+Theories of unsaturated organic molecules.
+Hückel is most famous for developing the Hückel method of approximate molecular orbital (MO) calculations on π electron systems, a simplified quantum-mechanical method to deal with planar unsaturated organic molecules. In 1930 he proposed a σ/π separation theory to explain the restricted rotation of alkenes (compounds containing a C=C double bond). This model extended a 1929 interpretation of the bonding in triplet oxygen by Lennard-Jones. According to Hückel, only the ethene σ bond is axially symmetric about the C-C axis, but the π bond is not; this restricts rotation. In 1931 he generalized his analysis by formulating both valence bond (VB) and molecular orbital (MO) descriptions of benzene and other cycloconjugated hydrocarbons. Although undeniably a cornerstone of organic chemistry, Hückel's concepts were undeservedly unrecognized for two decades. His lack of communication skills contributed. The famous Hückel 4n+2 rule for determining whether ring molecules composed of C=C bonds would show aromatic properties was first stated clearly by Doering in a 1951 article on tropolone. Tropolone had been recognised as an aromatic molecule by Dewar in 1945.
+In 1936, Hückel developed the theory of π-conjugated biradicals (non-Kekulé molecules). The first example, known as the Schlenk-Brauns hydrocarbon, had been discovered in the same year. The credit for explaining such biradicals is usually given to Christopher Longuet-Higgins in 1950.
+In 1937 Hückel refined his MO theory of pi electrons in unsaturated organic molecules. This is still used occasionally as an approximation, though the more precise PPP Pariser–Parr–Pople method succeeded it in 1953. "Extended Hückel MO theory" (EHT) applies to both sigma and pi electrons, and has its origins in work by William Lipscomb and Roald Hoffmann for nonplanar molecules in 1962.
+Poem about Schrödinger.
+According to Felix Bloch, Erich Hückel "incited and helped" the students at the University of Zurich to write poems about their great professors. The poem about Erwin Schrödinger went like this:
+Gar Manches rechnet Erwin schon
+Mit seiner Wellenfunktion.
+Nur wissen möcht' man gerne wohl
+Was man sich dabei vorstell'n soll.
+It was freely translated by Felix Bloch:
+Erwin with his psi can do
+Calculations quite a few.
+But one thing has not been seen:
+Just what does psi really mean?
+

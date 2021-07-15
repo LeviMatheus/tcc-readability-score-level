@@ -1,0 +1,32 @@
+
+In economics, the Lorenz curve is a graphical representation of the distribution of income or of wealth. It was developed by Max O. Lorenz in 1905 for representing inequality of the wealth distribution.
+The curve is a graph showing the proportion of overall income or wealth assumed by the bottom "x"% of the people, although this is not rigorously true for a finite population (see below). It is often used to represent income distribution, where it shows for the bottom "x"% of households, what percentage ("y"%) of the total income they have. The percentage of households is plotted on the "x"-axis, the percentage of income on the "y"-axis. It can also be used to show distribution of assets. In such use, many economists consider it to be a measure of social inequality.
+The concept is useful in describing inequality among the size of individuals in ecology and in studies of biodiversity, where the cumulative proportion of species is plotted against the cumulative proportion of individuals. It is also useful in business modeling: e.g., in consumer finance, to measure the actual percentage "y"% of delinquencies attributable to the "x"% of people with worst risk scores.
+Explanation.
+ Data from 2005.
+Points on the Lorenz curve represent statements such as, "the bottom 20% of all households have 10% of the total income."
+A perfectly equal income distribution would be one in which every person has the same income. In this case, the bottom "N"% of society would always have "N"% of the income. This can be depicted by the straight line "y" = "x"; called the "line of perfect equality."
+By contrast, a perfectly unequal distribution would be one in which one person has all the income and everyone else has none. In that case, the curve would be at "y" = 0% for all "x" &lt; 100%, and "y" = 100% when "x" = 100%. This curve is called the "line of perfect inequality."
+The Gini coefficient is the ratio of the area between the line of perfect equality and the observed Lorenz curve to the area between the line of perfect equality and the line of perfect inequality. The higher the coefficient, the more unequal the distribution is. In the diagram on the right, this is given by the ratio "A"/("A+B"), where "A" and "B" are the areas of regions as marked in the diagram.
+Definition and calculation.
+The Lorenz curve is a probability plot (a P–P plot) comparing the distribution of a variable against a hypothetical uniform distribution of that variable. It can usually be represented by a function "L"("F"), where "F", the cumulative portion of the population, is represented by the horizontal axis, and "L", the cumulative portion of the total wealth or income, is represented by the vertical axis.
+For a discrete distribution of Y given by values "y"1...,"y""n" in non-decreasing order ( "y""i" ≤ "y""i"+1) and their probabilities formula_1 the Lorenz curve is the continuous piecewise linear function connecting the points ( "F""i", "L""i" ), "i" = 0 to "n", where "F"0 = 0, "L"0 = 0, and for "i" = 1 to "n":
+When all "y""i" are equally probable with probabilities 1/"n" this simplifies to 
+For a continuous distribution with the probability density function "f" and the cumulative distribution function "F", the Lorenz curve "L" is given by:
+where formula_9 denotes the average. The Lorenz curve "L(F)" may then be plotted as a function parametric in x: "L(x)" vs. "F(x)". In other contexts, the quantity computed here is known as the length biased (or size biased) distribution; it also has an important role in renewal theory.
+Alternatively, for a cumulative distribution function "F"("x") with inverse "x"("F"), the Lorenz curve "L"("F") is directly given by:
+The inverse "x"("F") may not exist because the cumulative distribution function has intervals of constant values. However, the previous formula can still apply by generalizing the definition of "x"("F"):
+For an example of a Lorenz curve, see Pareto distribution.
+Properties.
+A Lorenz curve always starts at (0,0) and ends at (1,1).
+The Lorenz curve is not defined if the mean of the probability distribution is zero or infinite.
+The Lorenz curve for a probability distribution is a continuous function. However, Lorenz curves representing discontinuous functions can be constructed as the limit of Lorenz curves of probability distributions, the line of perfect inequality being an example.
+The information in a Lorenz curve may be summarized by the Gini coefficient and the Lorenz asymmetry coefficient.
+The Lorenz curve cannot rise above the line of perfect equality.
+If the variable being measured cannot take negative values, the Lorenz curve:
+Note however that a Lorenz curve for net worth would start out by going negative due to the fact that some people have a negative net worth because of debt.
+The Lorenz curve is invariant under positive scaling. If X is a random variable, for any positive number "c" the random variable "c" X has the same Lorenz curve as X.
+The Lorenz curve is flipped twice, once about F = 0.5 and once about "L" = 0.5, by negation. If X is a random variable with Lorenz curve "L"X("F"), then −X has the Lorenz curve:
+The Lorenz curve is changed by translations so that the equality gap "F" − "L"("F") changes in proportion to the ratio of the original and translated means. If X is a random variable with a Lorenz curve "L" X ("F") and mean "μ" X , then for any constant "c" ≠ −"μ" X , X + "c" has a Lorenz curve defined by:
+For a cumulative distribution function "F"("x") with mean "μ" and (generalized) inverse "x"("F"), then for any "F" with 0 &lt; "F" &lt; 1 :
+

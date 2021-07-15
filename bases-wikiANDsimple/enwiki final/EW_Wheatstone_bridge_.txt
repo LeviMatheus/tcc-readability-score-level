@@ -1,0 +1,27 @@
+
+A Wheatstone bridge is an electrical circuit used to measure an unknown electrical resistance by balancing two legs of a bridge circuit, one leg of which includes the unknown component. The primary benefit of the circuit is its ability to provide extremely accurate measurements (in contrast with something like a simple voltage divider). Its operation is similar to the original potentiometer.
+The Wheatstone bridge was invented by Samuel Hunter Christie (sometimes spelled "Christy") in 1833 and improved and popularized by Sir Charles Wheatstone in 1843. One of the Wheatstone bridge's initial uses was for soils analysis and comparison.
+Operation.
+In the figure, is the fixed, yet unknown, resistance to be measured.
+ and are resistors of known resistance and the resistance of is adjustable. The resistance is adjusted until the bridge is "balanced" and no current flows through the galvanometer . At this point, the potential difference between the two midpoints (B and D) will be zero. Therefore the ratio of the two resistances in the known leg is equal to the ratio of the two resistances in the unknown leg . If the bridge is unbalanced, the direction of the current indicates whether is too high or too low.
+At the point of balance,
+Detecting zero current with a galvanometer can be done to extremely high precision. Therefore, if and are known to high precision, then can be measured to high precision. Very small changes in disrupt the balance and are readily detected.
+Alternatively, if and are known, but is not adjustable, the voltage difference across or current flow through the meter can be used to calculate the value of using Kirchhoff's circuit laws. This setup is frequently used in strain gauge and resistance thermometer measurements, as it is usually faster to read a voltage level off a meter than to adjust a resistance to zero the voltage.
+Derivation.
+Quick derivation at balance.
+At the point of balance, both the voltage and the current between the two midpoints (B and D) are zero. Therefore, formula_2, formula_3, formula_4, and:
+formula_5
+Full derivation using Kirchhoff's circuit laws.
+First, Kirchhoff's first law is used to find the currents in junctions B and D:
+Then, Kirchhoff's second law is used for finding the voltage in the loops ABDA and BCDB:
+When the bridge is balanced, then , so the second set of equations can be rewritten as:
+Then, equation (1) is divided by equation (2) and the resulting equation is rearranged, giving:
+Due to: and being proportional from Kirchhoff's First Law in the above equation cancel out of the above equation. The desired value of is now known to be given as:
+On the other hand, if the resistance of the galvanometer is high enough that is negligible, it is possible to compute from the three other resistor values and the supply voltage (), or the supply voltage from all four resistor values. To do so, one has to work out the voltage from each potential divider and subtract one from the other. The equations for this are:
+where is the voltage of node D relative to node B.
+Significance.
+The Wheatstone bridge illustrates the concept of a difference measurement, which can be extremely accurate. Variations on the Wheatstone bridge can be used to measure capacitance, inductance, impedance and other quantities, such as the amount of combustible gases in a sample, with an explosimeter. The Kelvin bridge was specially adapted from the Wheatstone bridge for measuring very low resistances. In many cases, the significance of measuring the unknown resistance is related to measuring the impact of some physical phenomenon (such as force, temperature, pressure, etc.) which thereby allows the use of Wheatstone bridge in measuring those elements indirectly.
+The concept was extended to alternating current measurements by James Clerk Maxwell in 1865 and further improved as Blumlein bridge by Alan Blumlein around 1926.
+Modifications of the fundamental bridge.
+The Wheatstone bridge is the fundamental bridge, but there are other modifications that can be made to measure various kinds of resistances when the fundamental Wheatstone bridge is not suitable. Some of the modifications are:
+

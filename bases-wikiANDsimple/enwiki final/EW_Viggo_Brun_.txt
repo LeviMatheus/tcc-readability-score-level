@@ -1,0 +1,11 @@
+
+Viggo Brun (13 October 1885 – 15 August 1978) was a Norwegian professor, mathematician and number theorist. 
+Contributions.
+In 1915, he introduced a new method, based on Legendre's version of the sieve of Eratosthenes, now known as the "Brun sieve", which addresses additive problems such as Goldbach's conjecture and the twin prime conjecture. He used it to prove that there exist infinitely many integers "n" such that "n" and "n"+2 have at most nine prime factors, and that all large even integers are the sum of two numbers with at most nine prime factors.
+He also showed that the sum of the reciprocals of twin primes converges to a finite value, now called Brun's constant: by contrast, the sum of the reciprocals of all primes is divergent. He developed a multi-dimensional continued fraction algorithm in 1919–1920 and applied this to problems in musical theory. He also served as praeses of the Royal Norwegian Society of Sciences and Letters in 1946.
+Biography.
+Brun was born at Lier in Buskerud, Norway. He studied at the University of Oslo and began research at the University of Göttingen in 1910. In 1923, Brun became a professor at the Technical University in Trondheim and in 1946 a professor at the University of Oslo.
+He retired in 1955 at the age of 70 and died in 1978 (at 93 years-old) at Drøbak in Akershus, Norway.
+External links.
+ 
+

@@ -1,0 +1,8 @@
+The Michelson interferometer is the tool used for optical interferometry.
+Background.
+It was invented by Albert Abraham Michelson, famous for proving the inexistence of aether in the Michelson-Morley experiment.
+How it works.
+There are two mirrors in the interferometer, one fixed and the other is movable through a micrometer.
+There is also a beam splitter that separates the laser or light beam and a screen that shows the interference pattern.
+A wide laser or light beam is first shot at the beam splitter. Reflection takes place as the beam hits the beam splitter, part of it reflects towards mirror 1 while the rest towards mirror 2. The two beams again reflect off mirror 1 and 2 and travel back to the beam splitter, the two beams that goes through the beam splitter will combine and form an interference pattern at the screen.
+The interference pattern will appear as bands and each band represents 2 path length difference or 1 wavelength, that is because the crest of wave 1 has caught up with the crest of wave 2 (or the other way around), causing a constructive interference. If given the change in distance of the movable mirror and number of bands on the screen, we can easily calculate the wavelength of the light source.

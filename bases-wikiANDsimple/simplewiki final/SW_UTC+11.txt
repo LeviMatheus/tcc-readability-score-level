@@ -1,0 +1,2 @@
+UTC+11 means a time zone that is 11 hours ahead of Coordinated Universal Time or UTC. UTC is the standard time zone of the world. Time zones are often named by how many hours they are different from UTC time. For example, UTC -5 (United States east coast) is 5 hours behind UTC.
+In Australia, Australian Eastern Standard Time (AEST) is normally UTC+10, but with Daylight saving time it becomes UTC+11.

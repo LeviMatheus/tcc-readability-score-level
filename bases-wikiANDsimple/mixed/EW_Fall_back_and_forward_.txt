@@ -1,0 +1,7 @@
+
+Fall back is a feature of a modem protocol in data communication whereby two communicating modems which experience data corruption (due to line noise, for example) can renegotiate with each other to use a lower-speed connection. Fall forward is a corresponding feature whereby two modems which have "fallen back" to a lower speed can later return to the higher speed if the connection improves.
+A common feature modems was the concept of fallback, allowing them to talk to less-capable modems. During the call initiation the modem would play a series of signals into the line and wait for the remote modem to "answer" them. They would start at high speeds and progressively get slower and slower until they heard an answer. Thus, two USR modems would be able to connect at 9600 bit/s, but, when a user with a 2400-bit/s modem called in, the USR would "fall back" to the common 2400-bit/s speed. This would also happen if a V.32 modem and a HST modem were connected. Because they used a different standard at 9600 bit/s, they would fall back to their highest commonly supported standard at 2400 bit/s. The same applies to V.32bis and 14400 bit/s HST modem, which would still be able to communicate with each other at only 2400 bit/s.
+A modem that can fall back in order to communicate with an older, slower modem is an example of backward compatibility, while one that can fall back in order to communicate when the line becomes noisy is an example of graceful degradation.
+Attribution.
+"Article based on fall back and fall forward at FOLDOC, used with ."
+

@@ -1,0 +1,33 @@
+
+In geometry, an n"-gonal antiprism or n"-antiprism is a polyhedron composed of two parallel direct copies (not mirror images) of an "n"-sided polygon, connected by an alternating band of 2"n" triangles.
+Antiprisms are a subclass of prismatoids, and are a (degenerate) type of snub polyhedron. 
+Antiprisms are similar to prisms, except that the bases are twisted relatively to each other, and that the side faces (connecting the bases) are 2"n" triangles, rather than "n" quadrilaterals.
+Right antiprism.
+For an antiprism with regular "n"-gon bases, one usually considers the case where these two copies are twisted by an angle of degrees.
+The axis of a regular polygon is the line perpendicular to the polygon plane and lying in the polygon centre.
+For an antiprism with congruent regular n-gon bases, twisted by an angle of degrees, more regularity is obtained if the bases have the same axis: are coaxial; i.e. (for non-coplanar bases): if the line connecting the base centers is perpendicular to the base planes. Then, the antiprism is called a right antiprism, and its 2"n" side faces are isosceles triangles.
+Uniform antiprism.
+A uniform antiprism has two congruent regular n-gon base faces, and 2"n" equilateral triangles as side faces.
+Uniform antiprisms form an infinite class of vertex-transitive polyhedra, as do uniform prisms. For , we have the regular tetrahedron as a "digonal antiprism" (degenerate antiprism); for , the regular octahedron as a "triangular antiprism" (non-degenerate antiprism).
+The dual polyhedra of the antiprisms are the trapezohedra.
+The existence of antiprisms was discussed and their name was coined by Johannes Kepler, though it is possible that they were previously known to Archimedes, as they satisfy the same conditions on faces and on vertices as the Archimedean solids.
+Cartesian coordinates.
+Cartesian coordinates for the vertices of a right antiprism (i.e. with regular "n"-gon bases and isosceles side faces) are
+with "k" ranging from 0 to 2"n" – 1;
+if the triangles are equilateral, then
+Volume and surface area.
+Let "a" be the edge-length of a uniform antiprism; then the volume is
+and the surface area is
+Related polyhedra.
+There are an infinite set of truncated antiprisms, including a lower-symmetry form of the truncated octahedron (truncated triangular antiprism). These can be alternated to create snub antiprisms, two of which are Johnson solids, and the "snub triangular antiprism" is a lower symmetry form of the icosahedron.
+Symmetry.
+The symmetry group of a right "n"-antiprism (i.e. with regular bases and isosceles side faces) is D"n"d of order 4"n", except in the cases of:
+The symmetry group contains inversion if and only if "n" is odd. 
+The rotation group is D"n" of order 2"n", except in the cases of:
+Star antiprism.
+Uniform star antiprisms are named by their star polygon bases, {"p"/"q"}, and exist in prograde and in retrograde (crossed) solutions. Crossed forms have intersecting vertex figures, and are denoted by "inverted" fractions: "p"/("p" – "q") instead of "p"/"q"; example: 5/3 instead of 5/2.
+A right star antiprism has two congruent coaxial regular convex or star polygon base faces, and 2"n" isosceles triangle side faces.
+Any star antiprism with "regular" convex or star polygon bases can be made a "right" star antiprism (by translating and/or twisting one of its bases, if necessary).
+In the retrograde forms but not in the prograde forms, the triangles joining the convex or star bases intersect the axis of rotational symmetry. Thus:
+Also, star antiprism compounds with regular star "p"/"q"-gon bases can be constructed if "p" and "q" have common factors. Example: a star 10/4-antiprism is the compound of two star 5/2-antiprisms.
+

@@ -1,0 +1,3 @@
+PuTTY is a terminal emulator application which can act as a client for the SSH, Telnet, rlogin, and raw TCP computing protocols. The word "PuTTY" has no meaning, though 'tty' is sometimes used to refer to the Unix terminals, as an acronym for 'teletype'.
+PuTTY was originally written for Microsoft Windows, but it has been ported to various other operating systems including some Unix-like platforms. Mac OS and Mac OS X are still being ported, while unofficial ports have been ported it to the Symbian and Windows Mobile operating systems.
+PuTTY is currently beta software. Licensed under the MIT License, and it is free and open source software.

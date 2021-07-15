@@ -1,0 +1,26 @@
+
+A nuclear electric rocket (more properly nuclear electric propulsion) is a type of spacecraft propulsion system where thermal energy from a nuclear reactor is converted to electrical energy, which is used to drive an ion thruster or other electrical spacecraft propulsion technology. The nuclear electric rocket terminology is slightly inconsistent, as technically the "rocket" part of the propulsion system is totally non-nuclear and could also be driven by solar panels. This is in contrast with a nuclear thermal rocket, which directly uses reactor heat to add energy to a working fluid, which is then expelled out of a rocket nozzle.
+Conceptual overview.
+The key elements to NEP are:
+History.
+NASA.
+In 2001, the Safe affordable fission engine was under development, with a tested 30 kW nuclear heat source intended to lead to the development of a 400 kW thermal reactor with Brayton cycle gas turbines to produce electric power. Waste heat rejection was intended to be accomplished using low-mass heat pipe technology. Safety was intended to be assured by a rugged design.
+Project Prometheus was an early 2000s NASA study on nuclear electric spacecraft.
+Kilopower is the latest NASA reactor development program, but is intended for surface use only.
+Russia.
+see TEM (nuclear propulsion)
+The TEM project started in 2009 with the goal of powering a Mars engine.
+March 2016 - First batch of nuclear fuel received
+October 2018 - Russia stated it had completed initial tests of the water droplet radiator system, according to state news agency RIA Novosti.
+Concepts.
+Pebble bed reactor combined with gas turbine.
+A pebble bed reactor using high mass-flow gaseous nitrogen coolant near normal atmospheric pressures is a possible heat source. Power generation could be accomplished with gas turbine technology, which is well developed. Nuclear fuel would be highly enriched uranium encapsulated in low-boron graphite balls probably 5–10 cm in diameter. The graphite would also moderate the neutrons of the nuclear reaction.
+This style of reactor can be designed to be inherently safe. As it heats, the graphite expands, separating the fuel and reducing the reactor's criticality. This property can simplify the operating controls to a single valve throttling the turbine. When closed, the reactor heats, but produces less power. When open, the reactor cools, but becomes more critical and produces more power.
+The graphite encapsulation simplifies refueling and waste handling. Graphite is mechanically strong, and resists high temperatures. This reduces the risk of an unplanned release of radioactive elements, including fission products. Since this style of reactor produces high power without heavy castings to contain high pressures, it is well suited to power spacecraft.
+Novel electric propulsion concepts.
+A variety of electric propulsion technologies have been proposed for use with high power nuclear electrical generation systems, including VASIMR, DS4G, and pulsed inductive thruster (PIT). PIT and VASIMR are unique in their ability to trade between power usage, specific impulse (a measure of efficiency, see specific impulse) and thrust in-flight. PIT has the additional advantage of not needing conditioned power.
+Electrical generation.
+A number of heat-to-electricity schemes have been proposed. In the near term, Rankine cycle, Brayton cycle, and Stirling cycle generators go through an intermediate mechanical phase, with attendant energy losses. More exotic technologies have also been proposed: thermoelectric (including graphene-based thermal power conversion), pyroelectric, thermophotovoltaic, thermionic and magnetohydrodynamic type thermoelectric materials.
+Other types of nuclear power concepts in space.
+Radioisotope thermoelectric generators, radioisotope heater units, radioisotope piezoelectric generators, and the radioisotope rocket all use the heat from a static radioactive source (usually Plutonium-238) for a low level of electric or direct propulsion power. Other concepts include the nuclear thermal rocket, the fission fragment rocket, nuclear pulse propulsion, and the possibility of a fusion rocket, assuming that nuclear fusion technology is developed at some point in the near future.
+

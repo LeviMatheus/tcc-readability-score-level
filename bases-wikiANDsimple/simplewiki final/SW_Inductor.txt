@@ -1,0 +1,7 @@
+An inductor is an electrical device used in electrical circuits because of magnetic charge.
+An inductor is usually made from a coil of conducting material, like copper wire, that is then wrapped around a core made from either air or a magnetic metal. If you use a more magnetic material as the core, you can get the magnetic field around the inductor to be pushed in towards the inductor, giving it better inductance. Small inductors can also be put onto integrated circuits using the same ways that are used to make transistors. Aluminum is usually used as the conducting material in this case.
+How inductors work.
+While a capacitor doesn't like changes in voltage, an inductor doesn't like changes in current.
+How inductors are used.
+Inductors are used often in analog circuits. Two or more inductors that have coupled magnetic flux make a transformer. Transformers are used in every power grid around the world. Inductors are also used in electrical transmission systems, where they are used to lower the amount of voltage an electrical device gives off or lower the fault current.
+Because inductors are heavier than other electrical components, people have been using them in electrical equipment less often.

@@ -1,0 +1,47 @@
+
+In topology and related branches of mathematics, a Hausdorff space, separated space or T2 space is a topological space where for any two distinct points there exist neighbourhoods of each which are disjoint from each other. Of the many separation axioms that can be imposed on a topological space, the "Hausdorff condition" (T2) is the most frequently used and discussed. It implies the uniqueness of limits of sequences, nets, and filters.
+Hausdorff spaces are named after Felix Hausdorff, one of the founders of topology. Hausdorff's original definition of a topological space (in 1914) included the Hausdorff condition as an axiom.
+Definitions.
+Points formula_1 and formula_2 in a topological space formula_3 can be "separated by neighbourhoods" if there exists a neighbourhood formula_4 of formula_1 and a neighbourhood formula_6 of formula_2 such that formula_4 and formula_6 are disjoint (formula_10).
+formula_3 is a Hausdorff space if all distinct points in formula_3 are pairwise neighbourhood-separable. This condition is the third separation axiom (after formula_13), which is why Hausdorff spaces are also called formula_14 spaces. The name "separated space" is also used.
+A related, but weaker, notion is that of a preregular space. formula_3 is a preregular space if any two topologically distinguishable points can be separated by disjoint neighbourhoods. Preregular spaces are also called "formula_16 spaces".
+The relationship between these two conditions is as follows. A topological space is Hausdorff if and only if it is both preregular (i.e. topologically distinguishable points are separated by neighbourhoods) and Kolmogorov (i.e. distinct points are topologically distinguishable). A topological space is preregular if and only if its Kolmogorov quotient is Hausdorff.
+Equivalences.
+For a topological space "formula_3", the following are equivalent:
+Examples and non-examples.
+Almost all spaces encountered in analysis are Hausdorff; most importantly, the real numbers (under the standard metric topology on real numbers) are a Hausdorff space. More generally, all metric spaces are Hausdorff. In fact, many spaces of use in analysis, such as topological groups and topological manifolds, have the Hausdorff condition explicitly stated in their definitions.
+A simple example of a topology that is T1 but is not Hausdorff is the cofinite topology defined on an infinite set.
+Pseudometric spaces typically are not Hausdorff, but they are preregular, and their use in analysis is usually only in the construction of Hausdorff gauge spaces. Indeed, when analysts run across a non-Hausdorff space, it is still probably at least preregular, and then they simply replace it with its Kolmogorov quotient, which is Hausdorff.
+In contrast, non-preregular spaces are encountered much more frequently in abstract algebra and algebraic geometry, in particular as the Zariski topology on an algebraic variety or the spectrum of a ring. They also arise in the model theory of intuitionistic logic: every complete Heyting algebra is the algebra of open sets of some topological space, but this space need not be preregular, much less Hausdorff, and in fact usually is neither. The related concept of Scott domain also consists of non-preregular spaces.
+While the existence of unique limits for convergent nets and filters implies that a space is Hausdorff, there are non-Hausdorff T1 spaces in which every convergent sequence has a unique limit.
+Properties.
+Subspaces and products of Hausdorff spaces are Hausdorff, but quotient spaces of Hausdorff spaces need not be Hausdorff. In fact, "every" topological space can be realized as the quotient of some Hausdorff space.
+Hausdorff spaces are T1, meaning that all singletons are closed. Similarly, preregular spaces are R0. Every Hausdorff space is a Sober space although the converse is in general not true. 
+Another nice property of Hausdorff spaces is that compact sets are always closed. For non-Hausdorff spaces, it can be that all compact sets are closed sets (for example, the cocountable topology on an uncountable set) or not (for example, the cofinite topology on an infinite set and the Sierpiński space). 
+The definition of a Hausdorff space says that points can be separated by neighborhoods. It turns out that this implies something which is seemingly stronger: in a Hausdorff space every pair of disjoint compact sets can also be separated by neighborhoods, in other words there is a neighborhood of one set and a neighborhood of the other, such that the two neighborhoods are disjoint. This is an example of the general rule that compact sets often behave like points.
+Compactness conditions together with preregularity often imply stronger separation axioms. For example, any locally compact preregular space is completely regular. Compact preregular spaces are normal, meaning that they satisfy Urysohn's lemma and the Tietze extension theorem and have partitions of unity subordinate to locally finite open covers. The Hausdorff versions of these statements are: every locally compact Hausdorff space is Tychonoff, and every compact Hausdorff space is normal Hausdorff.
+The following results are some technical properties regarding maps (continuous and otherwise) to and from Hausdorff spaces.
+Let "formula_26" be a continuous function and suppose formula_27 is Hausdorff. Then the graph of "formula_28", formula_29, is a closed subset of "formula_30".
+Let "formula_26" be a function and let formula_32 be its kernel regarded as a subspace of "formula_25".
+If "formula_43" are continuous maps and "formula_27" is Hausdorff then the equalizer formula_45 is closed in "formula_3". It follows that if "formula_27" is Hausdorff and "formula_28" and "formula_49" agree on a dense subset of "formula_3" then "formula_51". In other words, continuous functions into Hausdorff spaces are determined by their values on dense subsets.
+Let "formula_26" be a closed surjection such that "formula_53" is compact for all "formula_54". Then if "formula_3" is Hausdorff so is "formula_27".
+Let "formula_26" be a quotient map with "formula_3" a compact Hausdorff space. Then the following are equivalent:
+Preregularity versus regularity.
+All regular spaces are preregular, as are all Hausdorff spaces. There are many results for topological spaces that hold for both regular and Hausdorff spaces.
+Most of the time, these results hold for all preregular spaces; they were listed for regular and Hausdorff spaces separately because the idea of preregular spaces came later.
+On the other hand, those results that are truly about regularity generally do not also apply to nonregular Hausdorff spaces.
+There are many situations where another condition of topological spaces (such as paracompactness or local compactness) will imply regularity if preregularity is satisfied.
+Such conditions often come in two versions: a regular version and a Hausdorff version.
+Although Hausdorff spaces are not, in general, regular, a Hausdorff space that is also (say) locally compact will be regular, because any Hausdorff space is preregular.
+Thus from a certain point of view, it is really preregularity, rather than regularity, that matters in these situations.
+However, definitions are usually still phrased in terms of regularity, since this condition is better known than preregularity.
+See History of the separation axioms for more on this issue.
+Variants.
+The terms "Hausdorff", "separated", and "preregular" can also be applied to such variants on topological spaces as uniform spaces, Cauchy spaces, and convergence spaces.
+The characteristic that unites the concept in all of these examples is that limits of nets and filters (when they exist) are unique (for separated spaces) or unique up to topological indistinguishability (for preregular spaces).
+As it turns out, uniform spaces, and more generally Cauchy spaces, are always preregular, so the Hausdorff condition in these cases reduces to the T0 condition.
+These are also the spaces in which completeness makes sense, and Hausdorffness is a natural companion to completeness in these cases.
+Specifically, a space is complete if and only if every Cauchy net has at "least" one limit, while a space is Hausdorff if and only if every Cauchy net has at "most" one limit (since only Cauchy nets can have limits in the first place).
+Algebra of functions.
+The algebra of continuous (real or complex) functions on a compact Hausdorff space is a commutative C*-algebra, and conversely by the Banach–Stone theorem one can recover the topology of the space from the algebraic properties of its algebra of continuous functions. This leads to noncommutative geometry, where one considers noncommutative C*-algebras as representing algebras of functions on a noncommutative space.
+

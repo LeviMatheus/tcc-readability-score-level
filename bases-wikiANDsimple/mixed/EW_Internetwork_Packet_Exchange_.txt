@@ -1,0 +1,28 @@
+
+Internetwork Packet Exchange (IPX) is the network layer protocol in the IPX/SPX protocol suite. IPX is derived from Xerox Network Systems' IDP. It may act as a transport layer protocol as well.
+The IPX/SPX protocol suite was very popular through the late 1980s into the mid-1990s because it was used by the Novell NetWare network operating system. Because of Novell NetWare popularity, the IPX became a prominent internetworking protocol.
+A big advantage of IPX was a small memory footprint of the IPX driver, which was vital for DOS and Windows up to the version Windows 95 because of limited size of the conventional memory. Another IPX advantage is an easy configuration of the client computers. However, IPX does not scale well for large networks such as the Internet, and as such, IPX usage decreased as the boom of the Internet made TCP/IP nearly universal. Computers and networks can run multiple network protocols, so almost all IPX sites will be running TCP/IP as well to allow Internet connectivity. It is also possible to run later Novell products without IPX, with the beginning of full support for both IPX and TCP/IP by NetWare version 5 in late 1998.
+Description.
+A big advantage of IPX protocol is its little or no need for configuration. In the time when protocols for dynamic host configuration did not exist and the BOOTP protocol for centralized assigning of addresses was not common, the IPX network could be configured almost automatically. A client computer uses the MAC address of its network card as the node address and learns what it needs to know about the network topology from the servers or routers – routes are propagated by Routing Information Protocol, services by Service Advertising Protocol.
+A small IPX network administrator had to care only
+IPX packet structure.
+Each IPX packet begins with a header with the following structure:
+The Packet Type values are:
+IPX addressing.
+An IPX address has the following structure:
+Network number.
+The network number allows to address (and communicate with) the IPX nodes which do not belong to the same network or "cabling system". The cabling system is a network in which a data link layer protocol can be used for communication. To allow communication between different networks, they must be connected with IPX routers. A set of interconnected networks is called an internetwork. Any Novell NetWare server may serve as an IPX router. Novell also supplied stand-alone routers. Multiprotocol routers of other vendors often support IPX routing. Using different frame formats in one cabling system is possible, but it works similarly as if separate cabling systems were used (i.e. different network numbers must be used for different frame formats even in the same cabling system and a router must be used to allow communication between nodes using different frame formats in the same cabling system).
+Node number.
+The node number is used to address an individual computer (or more exactly, a network interface) in the network. Client stations use its network interface card MAC address as the node number.
+The value FF:FF:FF:FF:FF:FF may be used as a node number in a destination address to broadcast a packet to "all nodes in the current network".
+Socket number.
+The socket number serves to select a process or application in the destination node.
+The presence of a socket number in the IPX address allows the IPX to act as a transport layer protocol, comparable with the User Datagram Protocol (UDP) in the Internet protocol suite.
+Comparison with IP.
+The IPX network number is conceptually identical to the network part of the IP address (the parts with netmask bits set to 1); the node number has the same meaning as the bits of IP address with netmask bits set to 0. The difference is that the boundary between network and node part of address in IP is variable, while in IPX it is fixed. As the node address is usually identical to the MAC address of the network adapter, the Address Resolution Protocol is not needed in IPX.
+For routing, the entries in the IPX routing table are similar to IP routing tables; routing is done by network address, and for each network address a network:node of the next router is specified in a similar fashion an IP address/netmask is specified in IP routing tables.
+There are three routing protocols available for IPX networks. In early IPX networks, a version of Routing Information Protocol (RIP) was the only available protocol to exchange routing information. Unlike RIP for IP, it uses delay time as the main metric, retaining the hop count as a secondary metric. Since NetWare 3, the NetWare Link Services Protocol (NLSP) based on IS-IS is available, which is more suitable for larger networks. Cisco routers implement an IPX version of EIGRP protocol as well.
+Frame formats.
+IPX can be transmitted over Ethernet using one of the following 4 frame formats or encapsulation types:
+In non-Ethernet networks only 802.2 and SNAP frame types are available.
+

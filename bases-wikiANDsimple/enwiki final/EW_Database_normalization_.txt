@@ -1,0 +1,78 @@
+
+Database normalization is the process of structuring a database, usually a relational database, in accordance with a series of so-called normal forms in order to reduce data redundancy and improve data integrity. It was first proposed by Edgar F. Codd as part of his relational model.
+Normalization entails organizing the columns (attributes) and tables (relations) of a database to ensure that their dependencies are properly enforced by database integrity constraints. It is accomplished by applying some formal rules either by a process of "synthesis" (creating a new database design) or "decomposition" (improving an existing database design).
+Objectives.
+A basic objective of the first normal form defined by Codd in 1970 was to permit data to be queried and manipulated using a "universal data sub-language" grounded in first-order logic. (SQL is an example of such a data sub-language, albeit one that Codd regarded as seriously flawed.)
+The objectives of normalisation beyond 1NF (first normal form) were stated as follows by Codd:
+When an attempt is made to modify (update, insert into, or delete from) a relation, the following undesirable side-effects may arise in relations that have not been sufficiently normalized:
+Minimize redesign when extending the database structure.
+A fully normalized database allows its structure to be extended to accommodate new types of data without changing existing structure too much. As a result, applications interacting with the database are minimally affected.
+Normalized relations, and the relationship between one normalized relation and another, mirror real-world concepts and their interrelationships.
+Example.
+Querying and manipulating the data within a data structure that is not normalized, such as the following non-1NF representation of customers' credit card transactions, involves more complexity than is really necessary:
+&lt;br&gt;
+To each customer corresponds a 'repeating group' of transactions. The automated evaluation of any query relating to customers' transactions, therefore, would broadly involve two stages:
+For example, in order to find out the monetary sum of all transactions that occurred in October 2003 for all customers, the system would have to know that it must first unpack the "Transactions" group of each customer, then sum the "Amounts" of all transactions thus obtained where the "Date" of the transaction falls in October 2003.
+One of Codd's important insights was that structural complexity can be reduced. Reduced structural complexity gives users, applications, and DBMSs more power and flexibility to formulate and evaluate the queries. A more normalized equivalent of the structure above might look like this:
+In the modified structure, the primary key is {Cust. ID} in the first relation, {Cust. ID, Tr. ID} in the second relation.
+Now each row represents an individual credit card transaction, and the DBMS can obtain the answer of interest, simply by finding all rows with a Date falling in October, and summing their Amounts. The data structure places all of the values on an equal footing, exposing each to the DBMS directly, so each can potentially participate directly in queries; whereas in the previous situation some values were embedded in lower-level structures that had to be handled specially. Accordingly, the normalized design lends itself to general-purpose query processing, whereas the unnormalized design does not. The normalized version also allows the user to change the customer name in one place and guards against errors that arise if the customer name is misspelled on some records (see "update anomaly" above).
+Normal forms.
+Codd introduced the concept of normalization and what is now known as the first normal form (1NF) in 1970. Codd went on to define the second normal form (2NF) and third normal form (3NF) in 1971, and Codd and Raymond F. Boyce defined the Boyce–Codd normal form (BCNF) in 1974.
+Informally, a relational database relation is often described as "normalized" if it meets third normal form. Most 3NF relations are free of insertion, updation, and deletion anomalies.
+The normal forms (from least normalized to most normalized) are:
+Example of a step by step normalization.
+Normalization is a database design technique, which is used to design a relational database table up to higher normal form. The process is progressive, and a higher level of database normalization cannot be achieved unless the previous levels have been satisfied. 
+That means that, having data in unnormalized form (the least normalized) and aiming to achieve the highest level of normalization, the first step would be to ensure compliance to first normal form, the second step would be to ensure second normal form is satisfied, and so forth in order mentioned above, until the data conform to sixth normal form.
+However, it is worth noting that normal forms beyond 4NF are mainly of academic interest, as the problems they exist to solve rarely appear in practice. 
+"Please note that the data in the following example were intentionally designed to contradict most of the normal forms. In real life, it's quite possible to be able to skip some of the normalization steps because the table doesn't contain anything contradicting the given normal form. It also commonly occurs that fixing a violation of one normal form also fixes a violation of a higher normal form in the process. Also one table has been chosen for normalization at each step, meaning that at the end of this example process, there might still be some tables not satisfying the highest normal form." 
+Initial data.
+Let a database table exist with the following structure:
+We assume in this example that each book has only one author.
+Satisfying 1NF.
+To satisfy 1NF, the values in each column of a table must be atomic. In the initial table, Subject contains a set of subject values, meaning it does not comply.
+One way to achieve the 1NF would be to separate the duplicities into multiple columns using repeating groups Subject:
+Although now the table formally complies to the 1NF (is atomic), the problem with this solution is obvious - if a book has more than three subjects, it cannot be added to the database without altering its structure.
+To solve the problem in a more elegant way, it is necessary to identify entities represented in the table and separate them into their own respective tables. In this case, it would result in Book, Subject and Publisher tables:
+Simply separating the initial data into multiple tables would break the connection between the data. That means the relationships between the newly introduced tables need to be determined. Notice that the "Publisher ID" column in the Book's table is a foreign key realizing many-to-one relation between a book and a publisher.
+A book can fit many subjects, as well as a subject may correspond to many books. That means also a many-to-many relationship needs to be defined, achieved by creating a link table:
+Instead of one table in unnormalized form, there are now 4 tables conforming to the 1NF.
+Satisfying 2NF.
+The Book table has one candidate key (which is therefore the primary key), the composite key {Title, Format}. Consider the following table fragment: 
+All of the attributes that are not part of the candidate key depend on "Title", but only "Price" also depends on "Format". To conform to 2NF and remove duplicities, every non candidate-key attribute must depend on the whole candidate key, not just part of it.
+To normalize this table, make {Title} a (simple) candidate key (the primary key) so that every non candidate-key attribute depends on the whole candidate key, and remove "Price" into a separate table so that its dependency on "Format" can be preserved:
+Now, the Book table conforms to 2NF.
+Satisfying 3NF.
+The Book table still has a transitive functional dependency ({Author Nationality} is dependent on {Author}, which is dependent on {Title}). A similar violation exists for genre ({Genre Name} is dependent on {Genre ID}, which is dependent on {Title}). Hence, the Book table is not in 3NF. To make it in 3NF, let's use the following table structure, thereby eliminating the transitive functional dependencies by placing {Author Nationality} and {Genre Name} in their own respective tables:
+Satisfying EKNF.
+The elementary key normal form (EKNF) falls strictly between 3NF and BCNF and is not much discussed in the literature. It is intended "“to capture the salient qualities of both 3NF and BCNF”" while avoiding the problems of both (namely, that 3NF is “too forgiving” and BCNF is “prone to computational complexity”). Since it is rarely mentioned in literature, it is not included in this example.
+Satisfying 4NF.
+Assume the database is owned by a book retailer franchise that has several franchisees that own shops in different locations. And therefore the retailer decided to add a table that contains data about availability of the books at different locations:
+As this table structure consists of a compound primary key, it doesn't contain any non-key attributes and it's already in BCNF (and therefore also satisfies all the previous normal forms). However, if we assume that all available books are offered in each area, we might notice that the Title is not unambiguously bound to a certain Location and therefore the table doesn't satisfy 4NF.
+That means that, to satisfy the fourth normal form, this table needs to be decomposed as well: 
+Now, every record is unambiguously identified by a superkey, therefore 4NF is satisfied.
+Satisfying ETNF.
+Suppose the franchisees can also order books from different suppliers. Let the relation also be subject to the following constraint:
+This table is in 4NF, but the Supplier ID is equal to the join of its projections: . No component of that join dependency is a superkey (the sole superkey being the entire heading), so the table does not satisfy the ETNF and can be further decomposed: 
+The decomposition produces ETNF compliance.
+Satisfying 5NF.
+To spot a table not satisfying the 5NF, it is usually necessary to examine the data thoroughly. Suppose the table from 4NF example with a little modification in data and let's examine if it satisfies 5NF:
+If we decompose this table, we lower redundancies and get the following two tables:
+What happens if we try to join these tables? The query would return the following data:
+Apparently, the JOIN returns three more rows than it should - let's try to add another table to clarify the relation. We end up with three separate tables:
+What will the JOIN return now? It actually is not possible to join these three tables. That means it wasn't possible to decompose the Franchisee - Book Location without data loss, therefore the table already satisfies 5NF.
+C.J. Date has argued that only a database in 5NF is truly "normalized".
+Satisfying DKNF.
+Let's have a look at the Book table from previous examples and see if it satisfies the Domain-key normal form:
+Logically, Thickness is determined by number of pages. That means it depends on Pages which is not a key. Let's set an example convention saying a book up to 350 pages is considered "slim" and a book over 350 pages is considered "thick". 
+This convention is technically a constraint but it is neither a domain constraint nor a key constraint; therefore we cannot rely on domain constraints and key constraints to keep the data integrity. 
+In other words - nothing prevents us from putting, for example, "Thick" for a book with only 50 pages - and this makes the table violate DKNF.
+To solve this, we can create a table holding enumeration that defines the Thickness and remove that column from the original table:
+That way, the domain integrity violation has been eliminated, and the table is in DKNF.
+Satisfying 6NF.
+A simple and intuitive definition of the sixth normal form is that "a table is in 6NF when the row contains the Primary Key, and at most one other attribute".
+That means, for example, the Publisher table designed while creating the 1NF 
+needs to be further decomposed into two tables:
+The obvious drawback of 6NF is the proliferation of tables required to represent the information on a single entity. If a table in 5NF has one primary key column and N attributes, representing the same information in 6NF will require N tables; multi-field updates to a single conceptual record will require updates to multiple tables; and inserts and deletes will similarly require operations across multiple tables. For this reason, in databases intended to serve Online Transaction Processing needs, 6NF should not be used.
+However, in data warehouses, which do not permit interactive updates and which are specialized for fast query on large data volumes, certain DBMSs use an internal 6NF representation - known as a Columnar data store. In situations where the number of unique values of a column is far less than the number of rows in the table, column-oriented storage allow significant savings in space through data compression. Columnar storage also allows fast execution of range queries (e.g., show all records where a particular column is between X and Y, or less than X.) 
+In all these cases, however, the database designer does not have to perform 6NF normalization manually by creating separate tables. Some DBMSs that are specialized for warehousing, such as Sybase IQ, use columnar storage by default, but the designer still sees only a single multi-column table. Other DBMSs, such as Microsoft SQL Server 2012 and later, let you specify a "columnstore index" for a particular table.
+

@@ -1,0 +1,275 @@
+
+In mathematics, an ellipse is a plane curve surrounding two focal points, such that for all points on the curve, the sum of the two distances to the focal points is a constant. As such, it generalizes a circle, which is the special type of ellipse in which the two focal points are the same. The elongation of an ellipse is measured by its eccentricity formula_1, a number ranging from formula_2 (the limiting case of a circle) to formula_3 (the limiting case of infinite elongation, no longer an ellipse but a parabola).
+An ellipse has a simple algebraic solution for its area, but only approximations for its perimeter, for which integration is required to obtain an exact solution.
+Analytically, the equation of a standard ellipse centered at the origin with width formula_4 and height formula_5 is:
+Assuming formula_7, the foci are formula_8 for formula_9. The standard parametric equation is:
+Ellipses are the closed type of conic section: a plane curve tracing the intersection of a cone with a plane (see figure). Ellipses have many similarities with the other two forms of conic sections, parabolas and hyperbolas, both of which are open and unbounded. An angled cross section of a cylinder is also an ellipse.
+An ellipse may also be defined in terms of one focal point and a line outside the ellipse called the directrix: for all points on the ellipse, the ratio between the distance to the focus and the distance to the directrix is a constant. This constant ratio is the above-mentioned eccentricity:
+Ellipses are common in physics, astronomy and engineering. For example, the orbit of each planet in the solar system is approximately an ellipse with the Sun at one focus point (more precisely, the focus is the barycenter of the Sunplanet pair). The same is true for moons orbiting planets and all other systems of two astronomical bodies. The shapes of planets and stars are often well described by ellipsoids. A circle viewed from a side angle looks like an ellipse: that is, the ellipse is the image of a circle under parallel or perspective projection. The ellipse is also the simplest Lissajous figure formed when the horizontal and vertical motions are sinusoids with the same frequency: a similar effect leads to elliptical polarization of light in optics.
+The name, (, "omission"), was given by Apollonius of Perga in his "Conics".
+Definition as locus of points.
+An ellipse can be defined geometrically as a set or locus of points in the Euclidean plane:
+The midpoint formula_18 of the line segment joining the foci is called the "center" of the ellipse. The line through the foci is called the "major axis", and the line perpendicular to it through the center is the "minor axis". The major axis intersects the ellipse at two "vertices" formula_19, which have distance formula_20 to the center. The distance formula_21 of the foci to the center is called the "focal distance" or linear eccentricity. The quotient formula_22 is the "eccentricity".
+The case formula_23 yields a circle and is included as a special type of ellipse.
+The equation formula_24 can be viewed in a different way (see figure):
+formula_25 is called the "circular directrix" (related to focus formula_26) of the ellipse. This property should not be confused with the definition of an ellipse using a directrix line below.
+Using Dandelin spheres, one can prove that any plane section of a cone with a plane is an ellipse, assuming the plane does not contain the apex and has slope less than that of the lines on the cone.
+In Cartesian coordinates.
+Standard equation.
+The standard form of an ellipse in Cartesian coordinates assumes that the origin is the center of the ellipse, the "x"-axis is the major axis, and:
+For an arbitrary point formula_36 the distance to the focus formula_37 is
+formula_38 and to the other focus formula_39. Hence the point formula_40 is on the ellipse whenever:
+Removing the radicals by suitable squarings and using formula_42 produces the standard equation of the ellipse:
+or, solved for "y:"
+The width and height parameters formula_45 are called the semi-major and semi-minor axes. The top and bottom points formula_46 are the "co-vertices". The distances from a point formula_40 on the ellipse to the left and right foci are formula_48 and formula_49.
+It follows from the equation that the ellipse is "symmetric" with respect to the coordinate axes and hence with respect to the origin.
+Parameters.
+Principal axes.
+Throughout this article, the semi-major and semi-minor axes are denoted formula_20 and formula_51, respectively, i.e. formula_52
+In principle, the canonical ellipse equation formula_53 may have formula_54 (and hence the ellipse would be taller than it is wide). This form can be converted to the standard form by transposing the variable names formula_55 and formula_56 and the parameter names formula_20 and formula_58
+Linear eccentricity.
+This is the distance from the center to a focus: formula_59.
+Eccentricity.
+The eccentricity can be expressed as:
+assuming formula_61 An ellipse with equal axes (formula_62) has zero eccentricity, and is a circle.
+Semi-latus rectum.
+The length of the chord through one focus, perpendicular to the major axis, is called the "latus rectum". One half of it is the "semi-latus rectum" formula_63. A calculation shows:
+The semi-latus rectum formula_63 is equal to the radius of curvature at the vertices (see section curvature).
+Tangent.
+An arbitrary line formula_66 intersects an ellipse at formula_67, formula_68, or formula_69 points, respectively called an "exterior line", "tangent" and "secant". Through any point of an ellipse there is a unique tangent. The tangent at a point formula_70 of the ellipse formula_71 has the coordinate equation:
+A vector parametric equation of the tangent is:
+Proof:
+Let formula_70 be a point on an ellipse and formula_76 be the equation of any line formula_66 containing formula_70. Inserting the line's equation into the ellipse equation and respecting formula_79 yields:
+Using (1) one finds that formula_92 is a tangent vector at point formula_70, which proves the vector equation.
+If formula_94 and formula_95 are two points of the ellipse such that formula_96, then the points lie on two "conjugate diameters" (see below). (If formula_62, the ellipse is a circle and "conjugate" means "orthogonal".)
+Shifted ellipse.
+If the standard ellipse is shifted to have center formula_98, its equation is
+The axes are still parallel to the x- and y-axes.
+General ellipse.
+In analytic geometry, the ellipse is defined as a quadric: the set of points formula_100 of the Cartesian plane that, in non-degenerate cases, satisfy the implicit equation
+provided formula_102
+To distinguish the degenerate cases from the non-degenerate case, let "∆" be the determinant
+Then the ellipse is a non-degenerate real ellipse if and only if "C∆" &lt; 0. If "C∆" &gt; 0, we have an imaginary ellipse, and if "∆" = 0, we have a point ellipse.
+The general equation's coefficients can be obtained from known semi-major axis formula_20, semi-minor axis formula_51, center coordinates formula_98, and rotation angle formula_107 (the angle from the positive horizontal axis to the ellipse's major axis) using the formulae:
+These expressions can be derived from the canonical equation formula_71 by an affine transformation of the coordinates formula_40:
+Conversely, the canonical form parameters can be obtained from the general form coefficients by the equations:
+Parametric representation.
+Standard parametric representation.
+Using trigonometric functions, a parametric representation of the standard ellipse formula_113 is:
+The parameter "t" (called the "eccentric anomaly" in astronomy) is not the angle of formula_115 with the "x"-axis, but has a geometric meaning due to Philippe de La Hire (see "Drawing ellipses" below).
+Rational representation.
+With the substitution formula_116 and trigonometric formulae one obtains
+and the "rational" parametric equation of an ellipse
+which covers any point of the ellipse formula_71 except the left vertex formula_120.
+For formula_121 this formula represents the right upper quarter of the ellipse moving counter-clockwise with increasing formula_122 The left vertex is the limit formula_123
+Rational representations of conic sections are commonly used in computer-aided design (see Bezier curve).
+Tangent slope as parameter.
+A parametric representation, which uses the slope formula_124 of the tangent at a point of the ellipse
+can be obtained from the derivative of the standard representation formula_125:
+With help of trigonometric formulae
+one obtains:
+Replacing formula_128 and formula_129 of the standard representation yields:
+Here formula_124 is the slope of the tangent at the corresponding ellipse point, formula_132 is the upper and formula_133 the lower half of the ellipse. The verticesformula_134, having vertical tangents, are not covered by the representation.
+The equation of the tangent at point formula_135 has the form formula_136. The still unknown formula_137 can be determined by inserting the coordinates of the corresponding ellipse point formula_135:
+This description of the tangents of an ellipse is an essential tool for the determination of the orthoptic of an ellipse. The orthoptic article contains another proof, without differential calculus and trigonometric formulae.
+General ellipse.
+Another definition of an ellipse uses affine transformations:
+An affine transformation of the Euclidean plane has the form formula_141, where formula_142 is a regular matrix (with non-zero determinant) and formula_143 is an arbitrary vector. If formula_144 are the column vectors of the matrix formula_142, the unit circle formula_146, formula_147, is mapped onto the ellipse:
+Here formula_143 is the center and formula_150 are the directions of two conjugate diameters, in general not perpendicular.
+The four vertices of the ellipse are formula_151, for a parameter formula_152 defined by:
+(If formula_154, then formula_155.) This is derived as follows. The tangent vector at point formula_156 is:
+At a vertex parameter formula_152, the tangent is perpendicular to the major/minor axes, so:
+Expanding and applying the identities formula_160 gives the equation for formula_161
+From Apollonios theorem (see below) one obtains:&lt;br&gt;
+The area of an ellipse formula_162 is
+With the abbreviations
+formula_164 the statements of Apollonios's theorem can be written as:
+Solving this nonlinear system for formula_166 yields the semiaxes:
+Solving the parametric representation for formula_169 by Cramer's rule and using formula_170, one obtains the implicit representation
+Conversely: If the equation
+of an ellipse centered at the origin is given, then the two vectors 
+point to two conjugate points and the tools developed above are applicable.
+"Example": For the ellipse with equation formula_175 the vectors are 
+For formula_177 one obtains a parametric representation of the standard ellipse rotated by angle formula_107:
+The definition of an ellipse in this section gives a parametric representation of an arbitrary ellipse, even in space, if one allows formula_181 to be vectors in space.
+Polar forms.
+Polar form relative to center.
+In polar coordinates, with the origin at the center of the ellipse and with the angular coordinate formula_107 measured from the major axis, the ellipse's equation is
+Polar form relative to focus.
+If instead we use polar coordinates with the origin at one focus, with the angular coordinate formula_184 still measured from the major axis, the ellipse's equation is
+where the sign in the denominator is negative if the reference direction formula_184 points towards the center (as illustrated on the right), and positive if that direction points away from the center.
+In the slightly more general case of an ellipse with one focus at the origin and the other focus at angular coordinate formula_187, the polar form is
+The angle formula_107 in these formulas is called the true anomaly of the point. The numerator of these formulas is the semi-latus rectum formula_190.
+Eccentricity and the directrix property.
+Each of the two lines parallel to the minor axis, and at a distance of formula_191 from it, is called a "directrix" of the ellipse (see diagram).
+The proof for the pair formula_194 follows from the fact that formula_195 and formula_196 satisfy the equation
+The second case is proven analogously.
+The converse is also true and can be used to define an ellipse (in a manner similar to the definition of a parabola):
+The choice formula_2, which is the eccentricity of a circle, is not allowed in this context. One may consider the directrix of a circle to be the line at infinity.
+Let formula_208, and assume formula_209 is a point on the curve.
+The directrix formula_199 has equation formula_211. With formula_212, the relation formula_213 produces the equations
+The substitution formula_216 yields
+This is the equation of an "ellipse" (formula_218), or a "parabola" (formula_3), or a "hyperbola" (formula_207). All of these non-degenerate conics have, in common, the origin as a vertex (see diagram).
+If formula_218, introduce new parameters formula_222 so that formula_223, and then the equation above becomes
+which is the equation of an ellipse with center formula_225, the "x"-axis as major axis, and
+the major/minor semi axis formula_222.
+Because of formula_227 point formula_228 of directrix formula_229 (see diagram) and focus formula_30 are inverse with respect to the circle inversion at circle formula_231 (in diagram green). Hence formula_228 can be constructed as shown in the diagram. Directrix formula_229 is the perpendicular to the main axis at point formula_228. 
+If the focus is formula_235 and the directrix formula_236, one obtains the equation
+Focus-to-focus reflection property.
+An ellipse possesses the following property:
+Because the tangent is perpendicular to the normal, the statement is true for the tangent and the supplementary angle of the angle between the lines to the foci (see diagram), too.
+Let formula_241 be the point on the line formula_242 with the distance formula_4 to the focus formula_26, formula_20 is the semi-major axis of the ellipse. Let line formula_246 be the bisector of the supplementary angle to the angle between the lines formula_240. In order to prove that formula_246 is the tangent line at point formula_14, one checks that any point formula_250 on line formula_246 which is different from formula_14 cannot be on the ellipse. Hence formula_246 has only point formula_14 in common with the ellipse and is, therefore, the tangent at point formula_14.
+From the diagram and the triangle inequality one recognizes that formula_256 holds, which means: formula_257 . The equality formula_258 is true from the Angle bisector theorem because formula_259 and formula_260 . But if formula_250 is a point of the ellipse, the sum should be formula_4.
+The rays from one focus are reflected by the ellipse to the second focus. This property has optical and acoustic applications similar to the reflective property of a parabola (see whispering gallery).
+Conjugate diameters.
+Definition of conjugate diameters.
+A circle has the following property:
+An affine transformation preserves parallelism and midpoints of line segments, so this property is true for any ellipse. (Note that the parallel chords and the diameter are no longer orthogonal.)
+Two diameters formula_263 of an ellipse are "conjugate" if the midpoints of chords parallel to formula_264 lie on formula_265
+From the diagram one finds:
+Conjugate diameters in an ellipse generalize orthogonal diameters in a circle.
+In the parametric equation for a general ellipse given above,
+any pair of points formula_271 belong to a diameter, and the pair formula_272 belong to its conjugate diameter.
+Theorem of Apollonios on conjugate diameters.
+For an ellipse with semi-axes formula_222 the following is true:
+Let the ellipse be in the canonical form with parametric equation
+The two points formula_287 are on conjugate diameters (see previous section). From trigonometric formulae one obtains formula_288 and
+The area of the triangle generated by formula_290 is
+and from the diagram it can be seen that the area of the parallelogram is 8 times that of formula_292. Hence
+Orthogonal tangents.
+For the ellipse formula_294 the intersection points of "orthogonal" tangents lie on the circle formula_295.
+This circle is called "orthoptic" or director circle of the ellipse (not to be confused with the circular directrix defined above).
+Drawing ellipses.
+Ellipses appear in descriptive geometry as images (parallel or central projection) of circles. There exist various tools to draw an ellipse. Computers provide the fastest and most accurate method for drawing an ellipse. However, technical tools ("ellipsographs") to draw an ellipse without a computer exist. The principle of ellipsographs were known to Greek mathematicians such as Archimedes and Proklos.
+If there is no ellipsograph available, one can draw an ellipse using an approximation by the four osculating circles at the vertices.
+For any method described below, knowledge of the axes and the semi-axes is necessary (or equivalently: the foci and the semi-major axis).
+If this presumption is not fulfilled one has to know at least two conjugate diameters. With help of Rytz's construction the axes and semi-axes can be retrieved.
+de La Hire's point construction.
+The following construction of single points of an ellipse is due to de La Hire. It is based on the standard parametric representation formula_296 of an ellipse:
+Pins-and-string method.
+The characterization of an ellipse as the locus of points so that sum of the distances to the foci is constant leads to a method of drawing one using two drawing pins, a length of string, and a pencil. In this method, pins are pushed into the paper at two points, which become the ellipse's foci. A string is tied at each end to the two pins; its length after tying is formula_4. The tip of the pencil then traces an ellipse if it is moved while keeping the string taut. Using two pegs and a rope, gardeners use this procedure to outline an elliptical flower bed—thus it is called the "gardener's ellipse".
+A similar method for drawing with a "closed" string is due to the Irish bishop Charles Graves.
+Paper strip methods.
+The two following methods rely on the parametric representation (see section "parametric representation", above):
+This representation can be modeled technically by two simple methods. In both cases center, the axes and semi axes formula_304 have to be known.
+The first method starts with
+The point, where the semi axes meet is marked by formula_14. If the strip slides with both ends on the axes of the desired ellipse, then point formula_14 traces the ellipse. For the proof one shows that point formula_14 has the parametric representation formula_296, where parameter formula_310 is the angle of the slope of the paper strip.
+A technical realization of the motion of the paper strip can be achieved by a Tusi couple (see animation). The device is able to draw any ellipse with a "fixed" sum formula_305, which is the radius of the large circle. This restriction may be a disadvantage in real life. More flexible is the second paper strip method.
+A variation of the paper strip method 1 uses the observation that the midpoint formula_312 of the paper strip is moving on the circle with center formula_313 (of the ellipse) and radius formula_314. Hence, the paperstrip can be cut at point formula_312 into halves, connected again by a joint at formula_312 and the sliding end formula_317 fixed at the center formula_313 (see diagram). After this operation the movement of the unchanged half of the paperstrip is unchanged. This variation requires only one sliding shoe.
+The second method starts with
+One marks the point, which divides the strip into two substrips of length formula_51 and formula_321. The strip is positioned onto the axes as described in the diagram. Then the free end of the strip traces an ellipse, while the strip is moved. For the proof, one recognizes that the tracing point can be described parametrically by formula_296, where parameter formula_310 is the angle of slope of the paper strip.
+This method is the base for several "ellipsographs" (see section below).
+Similar to the variation of the paper strip method 1 a "variation of the paper strip method 2" can be established (see diagram) by cutting the part between the axes into halves.
+Most ellipsograph drafting instruments are based on the second paperstrip method.
+Approximation by osculating circles.
+From "Metric properties" below, one obtains:
+The diagram shows an easy way to find the centers of curvature formula_328 at vertex formula_329 and co-vertex formula_330, respectively:
+The centers for the remaining vertices are found by symmetry.
+With help of a French curve one draws a curve, which has smooth contact to the osculating circles.
+Steiner generation.
+The following method to construct single points of an ellipse relies on the Steiner generation of a conic section:
+For the generation of points of the ellipse formula_71 one uses the pencils at the vertices formula_324. Let formula_344 be an upper co-vertex of the ellipse and formula_345.
+formula_14 is the center of the rectangle formula_347. The side formula_348 of the rectangle is divided into n equal spaced line segments and this division is projected parallel with the diagonal formula_349 as direction onto the line segment formula_350 and assign the division as shown in the diagram. The parallel projection together with the reverse of the orientation is part of the projective mapping between the pencils at formula_329 and formula_352 needed. The intersection points of any two related lines formula_353 and formula_354 are points of the uniquely defined ellipse. With help of the points formula_355 the points of the second quarter of the ellipse can be determined. Analogously one obtains the points of the lower half of the ellipse.
+Steiner generation can also be defined for hyperbolas and parabolas. It is sometimes called a "parallelogram method" because one can use other points rather than the vertices, which starts with a parallelogram instead of a rectangle.
+As hypotrochoid.
+The ellipse is a special case of the hypotrochoid when formula_356, as shown in the adjacent image. The special case of a moving circle with radius formula_357 inside a circle with radius formula_356 is called a Tusi couple.
+Inscribed angles and three-point form.
+Circles.
+A circle with equation formula_359 is uniquely determined by three points formula_360 not on a line. A simple way to determine the parameters formula_361 uses the "inscribed angle theorem" for circles:
+Usually one measures inscribed angles by a degree or radian "θ," but here the following measurement is more convenient:
+Inscribed angle theorem for circles.
+For four points formula_362 no three of them on a line, we have the following (see diagram):
+At first the measure is available only for chords not parallel to the y-axis, but the final formula works for any chord.
+Three-point form of circle equation.
+For example, for formula_373 the three-point equation is:
+Using vectors, dot products and determinants this formula can be arranged more clearly, letting formula_376:
+The center of the circle formula_98 satisfies:
+The radius is the distance between any of the three points and the center.
+Ellipses.
+This section, we consider the family of ellipses defined by equations formula_381 with a "fixed" eccentricity formula_1. It is convenient to use the parameter:
+and to write the ellipse equation as:
+where "q" is fixed and formula_385 vary over the real numbers. (Such ellipses have their axes parallel to the coordinate axes: if formula_386, the major axis is parallel to the "x"-axis; if formula_387, it is parallel to the "y"-axis.)
+Like a circle, such an ellipse is determined by three points not on a line.
+For this family of ellipses, one introduces the following q-analog angle measure, which is "not" a function of the usual angle measure "θ":
+Inscribed angle theorem for ellipses.
+At first the measure is available only for chords which are not parallel to the y-axis. But the final formula works for any chord. The proof follows from a straightforward calculation. For the direction of proof given that the points are on an ellipse, one can assume that the center of the ellipse is the origin.
+Three-point form of ellipse equation.
+For example, for formula_397 and formula_398 one obtains the three-point form
+Analogously to the circle case, the equation can be written more clearly using vectors:
+where formula_402 is the modified dot product formula_403
+Pole-polar relation.
+Any ellipse can be described in a suitable coordinate system by an equation formula_71. The equation of the tangent at a point formula_405 of the ellipse is formula_406 If one allows point formula_405 to be an arbitrary point different from the origin, then
+This relation between points and lines is a bijection.
+The inverse function maps
+Such a relation between points and lines generated by a conic is called "pole-polar relation" or "polarity". The pole is the point; the polar the line.
+By calculation one can confirm the following properties of the pole-polar relation of the ellipse:
+Pole-polar relations exist for hyperbolas and parabolas as well.
+Metric properties.
+All metric properties given below refer to an ellipse with equation
+except for the section on the area enclosed by a tilted ellipse, where the generalized form of Eq.() will be given.
+Area.
+The area formula_424 enclosed by an ellipse is:
+where formula_20 and formula_51 are the lengths of the semi-major and semi-minor axes, respectively. The area formula formula_427 is intuitive: start with a circle of radius formula_51 (so its area is formula_429) and stretch it by a factor formula_430 to make an ellipse. This scales the area by the same factor: formula_431 It is also easy to rigorously prove the area formula using integration as follows. Equation () can be rewritten as formula_432 For formula_433 this curve is the top half of the ellipse. So twice the integral of formula_434 over the interval formula_435 will be the area of the ellipse:
+The second integral is the area of a circle of radius formula_437 that is, formula_438 So
+An ellipse defined implicitly by formula_440 has area formula_441
+The area can also be expressed in terms of eccentricity and the length of the semi-major axis as formula_442 (obtained by solving for flattening, then computing the semi-minor axis).
+So far we have dealt with "erect" ellipses, whose major and minor axes are parallel to the formula_55 and formula_444 axes. However, some applications require "tilted" ellipses. In charged-particle beam optics, for instance, the enclosed area of an erect or tilted ellipse is an important property of the beam, its "emittance". In this case a simple formula still applies, namely
+where formula_445, formula_446 are intercepts and formula_447, formula_448 are maximum values. It follows directly from Appolonio's theorem.
+Circumference.
+The circumference formula_18 of an ellipse is:
+where again formula_20 is the length of the semi-major axis, formula_452 is the eccentricity, and the function formula_453 is the complete elliptic integral of the second kind,
+which is in general not an elementary function.
+The circumference of the ellipse may be evaluated in terms of formula_455 using Gauss's arithmetic-geometric mean; this is a quadratically converging iterative method.
+The exact infinite series is:
+where formula_457 is the double factorial (extended to negative odd integers by the recurrence relation formula_458, for formula_459). This series converges, but by expanding in terms of formula_460 James Ivory and Bessel derived an expression that converges much more rapidly:
+Srinivasa Ramanujan gives two close approximations for the circumference in §16 of "Modular Equations and Approximations to formula_339"; they are
+and
+The errors in these approximations, which were obtained empirically, are of order formula_465 and formula_466 respectively.
+Arc length.
+More generally, the arc length of a portion of the circumference, as a function of the angle subtended (or -coordinates of any two points on the upper half of the ellipse), is given by an incomplete elliptic integral. The upper half of an ellipse is parameterized by
+Then the arc length formula_468 from formula_469 to formula_470 is:
+This is equivalent to
+where formula_473 is the incomplete elliptic integral of the second kind with parameter formula_474
+The inverse function, the angle subtended as a function of the arc length, is given by a certain elliptic function.
+Some lower and upper bounds on the circumference of the canonical ellipse formula_475 with formula_476 are
+Here the upper bound formula_478 is the circumference of a circumscribed concentric circle passing through the endpoints of the ellipse's major axis, and the lower bound formula_479 is the perimeter of an inscribed rhombus with vertices at the endpoints of the major and the minor axes.
+Curvature.
+The curvature is given by formula_480
+radius of curvature at point formula_36:
+Radius of curvature at the two "vertices" formula_483 and the centers of curvature:
+Radius of curvature at the two "co-vertices" formula_485 and the centers of curvature:
+In triangle geometry.
+Ellipses appear in triangle geometry as
+As plane sections of quadrics.
+Ellipses appear as plane sections of the following quadrics:
+Applications.
+Physics.
+Elliptical reflectors and acoustics.
+If the water's surface is disturbed at one focus of an elliptical water tank, the circular waves of that disturbance, after reflecting off the walls, converge simultaneously to a single point: the "second focus". This is a consequence of the total travel length being the same along any wall-bouncing path between the two foci.
+Similarly, if a light source is placed at one focus of an elliptic mirror, all light rays on the plane of the ellipse are reflected to the second focus. Since no other smooth curve has such a property, it can be used as an alternative definition of an ellipse. (In the special case of a circle with a source at its center all light would be reflected back to the center.) If the ellipse is rotated along its major axis to produce an ellipsoidal mirror (specifically, a prolate spheroid), this property holds for all rays out of the source. Alternatively, a cylindrical mirror with elliptical cross-section can be used to focus light from a linear fluorescent lamp along a line of the paper; such mirrors are used in some document scanners.
+Sound waves are reflected in a similar way, so in a large elliptical room a person standing at one focus can hear a person standing at the other focus remarkably well. The effect is even more evident under a vaulted roof shaped as a section of a prolate spheroid. Such a room is called a "whisper chamber". The same effect can be demonstrated with two reflectors shaped like the end caps of such a spheroid, placed facing each other at the proper distance. Examples are the National Statuary Hall at the United States Capitol (where John Quincy Adams is said to have used this property for eavesdropping on political matters); the Mormon Tabernacle at Temple Square in Salt Lake City, Utah; at an exhibit on sound at the Museum of Science and Industry in Chicago; in front of the University of Illinois at Urbana–Champaign Foellinger Auditorium; and also at a side chamber of the Palace of Charles V, in the Alhambra.
+Planetary orbits.
+In the 17th century, Johannes Kepler discovered that the orbits along which the planets travel around the Sun are ellipses with the Sun [approximately] at one focus, in his first law of planetary motion. Later, Isaac Newton explained this as a corollary of his law of universal gravitation.
+More generally, in the gravitational two-body problem, if the two bodies are bound to each other (that is, the total energy is negative), their orbits are similar ellipses with the common barycenter being one of the foci of each ellipse. The other focus of either ellipse has no known physical significance. The orbit of either body in the reference frame of the other is also an ellipse, with the other body at the same focus.
+Keplerian elliptical orbits are the result of any radially directed attraction force whose strength is inversely proportional to the square of the distance. Thus, in principle, the motion of two oppositely charged particles in empty space would also be an ellipse. (However, this conclusion ignores losses due to electromagnetic radiation and quantum effects, which become significant when the particles are moving at high speed.)
+For elliptical orbits, useful relations involving the eccentricity formula_1 are:
+where
+Also, in terms of formula_489 and formula_490, the semi-major axis formula_20 is their arithmetic mean, the semi-minor axis formula_51 is their geometric mean, and the semi-latus rectum formula_63 is their harmonic mean. In other words,
+Harmonic oscillators.
+The general solution for a harmonic oscillator in two or more dimensions is also an ellipse. Such is the case, for instance, of a long pendulum that is free to move in two dimensions; of a mass attached to a fixed point by a perfectly elastic spring; or of any object that moves under influence of an attractive force that is directly proportional to its distance from a fixed attractor. Unlike Keplerian orbits, however, these "harmonic orbits" have the center of attraction at the geometric center of the ellipse, and have fairly simple equations of motion.
+Phase visualization.
+In electronics, the relative phase of two sinusoidal signals can be compared by feeding them to the vertical and horizontal inputs of an oscilloscope. If the Lissajous figure display is an ellipse, rather than a straight line, the two signals are out of phase.
+Elliptical gears.
+Two non-circular gears with the same elliptical outline, each pivoting around one focus and positioned at the proper angle, turn smoothly while maintaining contact at all times. Alternatively, they can be connected by a link chain or timing belt, or in the case of a bicycle the main chainring may be elliptical, or an ovoid similar to an ellipse in form. Such elliptical gears may be used in mechanical equipment to produce variable angular speed or torque from a constant rotation of the driving axle, or in the case of a bicycle to allow a varying crank rotation speed with inversely varying mechanical advantage.
+Elliptical bicycle gears make it easier for the chain to slide off the cog when changing gears.
+An example gear application would be a device that winds thread onto a conical bobbin on a spinning machine. The bobbin would need to wind faster when the thread is near the apex than when it is near the base.
+Statistics and finance.
+In statistics, a bivariate random vector formula_498 is jointly elliptically distributed if its iso-density contours—loci of equal values of the density function—are ellipses. The concept extends to an arbitrary number of elements of the random vector, in which case in general the iso-density contours are ellipsoids. A special case is the multivariate normal distribution. The elliptical distributions are important in finance because if rates of return on assets are jointly elliptically distributed then all portfolios can be characterized completely by their mean and variance—that is, any two portfolios with identical mean and variance of portfolio return have identical distributions of portfolio return.
+Computer graphics.
+Drawing an ellipse as a graphics primitive is common in standard display libraries, such as the MacIntosh QuickDraw API, and Direct2D on Windows. Jack Bresenham at IBM is most famous for the invention of 2D drawing primitives, including line and circle drawing, using only fast integer operations such as addition and branch on carry bit. M. L. V. Pitteway extended Bresenham's algorithm for lines to conics in 1967. Another efficient generalization to draw ellipses was invented in 1984 by Jerry Van Aken.
+In 1970 Danny Cohen presented at the "Computer Graphics 1970" conference in England a linear algorithm for drawing ellipses and circles. In 1971, L. B. Smith published similar algorithms for all conic sections and proved them to have good properties. These algorithms need only a few multiplications and additions to calculate each vector.
+It is beneficial to use a parametric formulation in computer graphics because the density of points is greatest where there is the most curvature. Thus, the change in slope between each successive point is small, reducing the apparent "jaggedness" of the approximation.
+Composite Bézier curves may also be used to draw an ellipse to sufficient accuracy, since any ellipse may be construed as an affine transformation of a circle. The spline methods used to draw a circle may be used to draw an ellipse, since the constituent Bézier curves behave appropriately under such transformations.
+Optimization theory.
+It is sometimes useful to find the minimum bounding ellipse on a set of points. The ellipsoid method is quite useful for solving this problem.
+

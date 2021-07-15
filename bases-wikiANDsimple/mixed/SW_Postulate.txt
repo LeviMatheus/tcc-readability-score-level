@@ -1,0 +1,6 @@
+A postulate (also sometimes called an axiom) is a statement that is agreed by everyone to be obvious and correct. This is useful for creating proofs in mathematics and science, and postulates are often the basic
+truth of a much larger theory or law.
+Postulates themselves can't be proven, but since they are usually obviously correct this isn't a problem. Here is a good example of a postulate (given by Euclid in his studies about geometry).
+This is obviously true, because if you connect any two points, you create a line. Using this postulate and four others like it, Euclid brought a new understanding of geometry to the world, and many people think they are some of the most influencial works in geometry even now.
+There are also a few characteristics that all postulates should have.
+Postulates are sometimes proved to be wrong after they have been known for a long time, but this is usually because something new has been discovered, and the original creator couldn't have known any better.

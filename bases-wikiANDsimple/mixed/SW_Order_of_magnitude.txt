@@ -1,0 +1,3 @@
+If one says things have the same order of magnitude one means a value that is rather near to the other value that is compared with it.
+But if one would compare the surface of an orange with that of the earth, one would say the surface of the earth is many "orders of magnitude" larger than that of the orange.
+Orders of magnitude are generally used to make very approximate comparisons. If two numbers differ by one order of magnitude, one is about ten times larger than the other. If they differ by two orders of magnitude, they differ by a factor of about 100. Two numbers of the same order of magnitude have roughly the same scale: the larger value is less than ten times the smaller value.

@@ -1,0 +1,11 @@
+A line is the path of one point moving. A line has length but no width. A line is a type of geometric figure.
+A line is made up of an endless number of points.
+Straight and Curved Lines.
+A line can be straight or curved. The word "line" usually means a "straight line". A straight line is the shortest distance between two points. A straight line is the direction of a point moving in a direction that does not change.
+A "curved line" is sometimes called a curve.
+For example, the edge of a circle is not straight. The edge of a circle bends in a curve.
+Naming Lines.
+Lines can get their names from any two points on the line. For example, if a line has a point named "A" on the line and a point named "B" on the line, then the line can be called either "AB" or "BA".
+Sometimes, lines are also named with just one letter; for example, line "A".
+Two Lines.
+"Compare:" point, plane

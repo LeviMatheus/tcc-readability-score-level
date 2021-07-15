@@ -1,0 +1,83 @@
+
+In the mathematical subfield of numerical analysis, a B-spline or basis spline is a spline function that has minimal support with respect to a given degree, smoothness, and domain partition. Any spline function of given degree can be expressed as a linear combination of B-splines of that degree. Cardinal B-splines have knots that are equidistant from each other. B-splines can be used for curve-fitting and numerical differentiation of experimental data.
+In computer-aided design and computer graphics, spline functions are constructed as linear combinations of B-splines with a set of control points.
+Introduction.
+The term "B-spline" was coined by Isaac Jacob Schoenberg and is short for basis spline. 
+A spline function of order formula_1 is a piecewise polynomial function of degree formula_2 in a variable formula_3. The places where the pieces meet are known as knots. The key property of spline functions is that they and their derivatives may be continuous, depending on the multiplicities of the knots.
+B-splines of order formula_4 are basis functions for spline functions of the same order defined over the same knots, meaning that all possible spline functions can be built from a linear combination of B-splines, and there is only one unique combination for each spline function.
+Definition.
+A spline of order formula_4 is a piecewise polynomial function of degree formula_6 in a variable formula_7. The values of formula_7 where the pieces of polynomial meet are known as knots, denoted formula_9 and sorted into nondecreasing order. When the knots are distinct, the first formula_10 derivatives of the polynomial pieces are continuous across each knot. When formula_11 knots are coincident, then only the first formula_12 derivatives of the spline are continuous across that knot.
+For a given sequence of knots, there is, up to a scaling factor, a unique spline formula_13 satisfying
+If we add the additional constraint that formula_15 for all formula_7 between the first and last knot, then the scaling factor of formula_13 becomes fixed. The resulting formula_13 spline functions are called B-splines.
+Alternatively, B-splines can be defined by construction by means of the Cox–de Boor recursion formula. Given a knot sequence formula_19, then the B-splines of order 1 are defined by
+These satisfy formula_21 for all formula_7 because for any formula_7 exactly one of the formula_24, and all the others are zero.
+The higher order B-splines are defined by recursion
+where 
+Properties.
+B-spline function is a combination of flexible bands that passes through the number of points that are called control points and creates smooth curves. These functions enable the creation and management of complex shapes and surfaces using a number of points. B-spline function and Bézier functions are applied extensively in shape optimization methods.
+A B-spline of order formula_4 is a piecewise polynomial function of degree formula_6 in a variable formula_7. It is defined over formula_30 locations formula_31, called knots or breakpoints, which must be in non-descending order formula_32. The B-spline contributes only in the range between the first and last of these knots and is zero elsewhere. If each knot is separated by the same distance formula_33 (where formula_34) from its predecessor, the knot vector and the corresponding B-splines are called 'uniform' (see cardinal B-spline below).
+For each finite knot interval where it is non-zero, a B-spline is a polynomial of degree formula_2. A B-spline is a continuous function at the knots. When all knots belonging to the B-spline are distinct, its derivatives are also continuous up to the derivative of degree formula_10. If the knots are coincident at a given value of formula_7, the continuity of derivative order is reduced by 1 for each additional coincident knot. B-splines may share a subset of their knots, but two B-splines defined over exactly the same knots are identical. In other words, a B-spline is uniquely defined by its knots.
+One distinguishes internal knots and end points. Internal knots cover the formula_7-domain one is interested in. Since a single B-spline already extends over formula_30 knots, it follows that the internal knots need to be extended with formula_6 end points on each side, to give full support to the first and last B-spline which affect the internal knot intervals. The values of the endpoints do not matter, usually the first or last internal knot is just repeated.
+The usefulness of B-splines lies in the fact that any spline function of order formula_4 on a given set of knots can be expressed as a linear combination of B-splines:
+B-splines play the role of basis functions for the spline function space, hence the name. This property follows from the fact that all pieces have the same continuity properties, within their individual range of support, at the knots.
+Expressions for the polynomial pieces can be derived by means of the Cox–de Boor recursion formula
+That is, formula_45 is piecewise constant one or zero indicating which knot span "x" is in (zero if knot span "j" is repeated). The recursion equation is in two parts: 
+ramps from zero to one as "x" goes from formula_47 to formula_48 and
+ramps from one to zero as "x" goes from formula_50 to formula_51. The corresponding "B"s are zero outside those respective ranges. For example, formula_52 is a triangular function that is zero below formula_53, ramps to one at formula_54 and back to zero at and beyond formula_55. However, because B-spline basis functions have local support, B-splines are typically computed by algorithms that do not need to evaluate basis functions where they are zero, such as de Boor's algorithm.
+This relation leads directly to the FORTRAN-coded algorithm BSPLV which generates values of the B-splines of order "n" at "x". The following scheme illustrates how each piece of order "n" is a linear combination of the pieces of B-splines of order "n"-1 to its left.
+Application of the recursion formula with the knots at formula_57 gives the pieces of the uniform B-spline of order 3 
+These pieces are shown in the diagram. The continuity property of a quadratic spline function and its first derivative at the internal knots are illustrated, as follows
+The second derivative of a B-spline of degree 2 is discontinuous at the knots:
+Faster variants of the de Boor algorithm have been proposed but they suffer from comparatively lower stability.
+Cardinal B-spline.
+A cardinal B-spline has a constant separation, "h", between knots. The cardinal B-splines for a given order "n" are just shifted copies of each other. They can be obtained from the simpler definition.
+The "placeholder" notation is used to indicate that the "n"th divided difference of the function formula_65 of the two variables "t" and "x" is to be taken by fixing "x" and considering formula_66 as a function of "t" alone.
+A cardinal B-spline has uniformly spaced knots, therefore interpolation between the knots equals convolution with a smoothing kernel.
+Example, if we want to interpolate three values in between B-spline nodes (formula_67), we can write the signal as:
+formula_68
+Convolution of the signal formula_69 with a rectangle function formula_70 gives first order interpolated b-spline values. Second-order B-spline interpolation is convolution with a rectangle function twice formula_71, by iterative filtering with a rectangle function higher order interpolation is obtained.
+Fast b-spline interpolation on a uniform sample domain can be done by iterative mean-filtering. Alternatively, a rectangle function equals Sinc in Fourier domain. Therefore, cubic spline interpolation equals multiplying the signal in Fourier domain with Sinc^4.
+See Irwin–Hall distribution#Special cases for algebraic expressions for the cardinal B-splines of degree 1–4.
+P-spline.
+The term P-spline stands for "penalized B-spline". It refers to using the B-spline representation where the coefficients are determined partly by the data to be fitted, and partly by an additional penalty function that aims to impose smoothness to avoid overfitting.
+Two- and multidimensional P-spline approximations of data can use the Face-splitting product of matrices to the minimization of calculation operations.
+Derivative expressions.
+The derivative of a B-spline of degree "k" is simply a function of B-splines of degree "k"-1.
+This implies that
+which shows that there is a simple relationship between the derivative of a spline function and the B-splines of degree one less.
+Moments of univariate B-splines.
+Univariate B-splines, i.e. B-splines where the knot positions lie in a single dimension, can be used to represent 1-d probability density functions formula_74. An example is a weighted sum of formula_75 B-spline basis functions of order formula_4, which each are area-normalized to unity (i.e. not directly evaluated using the standard de-Boor algorithm)
+and with normalization constant constraint formula_78.
+The k-th raw moment formula_79 of a normalized B-spline formula_80 can be written as Carlson's Dirichlet average formula_81, which in turn can be solved exactly via a contour integral and an iterative sum as
+with
+and formula_84. Here, formula_85 represents a vector with the formula_86 knot positions and formula_87 a vector with the respective knot multiplicities. One can therefore calculate any moment of a probability density function formula_74 represented by a sum of B-spline basis functions exactly, without resorting to numerical techniques.
+Relationship to piecewise/composite Bézier.
+A Bézier curve is also a polynomial curve definable using a recursion from lower degree curves of the same class and encoded in terms of control points, but a key difference is that all terms in the recursion for a Bézier curve segment have the same domain of definition (usually formula_89) whereas the supports of the two terms in the B-spline recursion are different (the outermost subintervals are not common). This means a Bézier curve of degree formula_4 given by formula_91 control points consists of about formula_92 mostly independent segments, whereas the B-spline with the same parameters smoothly transitions from subinterval to subinterval. To get something comparable from a Bézier curve, one would need to impose a smoothness condition on transitions between segments, resulting in some manner of Bézier spline (for which many control points would be determined by the smoothness requirement).
+A piecewise/composite Bézier curve is a series of Bézier curves joined with at least C0 continuity (the last point of one curve coincides with the starting point of the next curve). Depending on the application, additional smoothness requirements (such as C1 or C2 continuity) may be added. C1 continuous curves have identical tangents at the breakpoint (where the two curves meet). C2 continuous curves have identical curvature at the breakpoint.
+To gain C2 continuity the Bézier curve loses local control, because to enforce C2 continuity the control points are dependent on each other. If a single control point moves, the whole spline needs to be re-evaluated. B-splines have both C2 continuity and local control, but they lose the interpolation property of a piecewise Bézier.
+Curve fitting.
+Usually in curve fitting, a set of data points is fitted with a curve defined by some mathematical function. For example, common types of curve fitting use a polynomial or a set of exponential functions. When there is no theoretical basis for choosing a fitting function, the curve may be fitted with a spline function composed of a sum of B-splines, using the method of least squares. Thus, the objective function for least squares minimization is, for a spline function of degree "k",
+"W(x)" is a weight and "y(x)" is the datum value at "x". The coefficients formula_94 are the parameters to be determined. The knot values may be fixed or they too may be treated as parameters.
+The main difficulty in applying this process is in determining the number of knots to use and where they should be placed. de Boor suggests various strategies to address this problem. For instance, the spacing between knots is decreased in proportion to the curvature (2nd. derivative) of the data. A few applications have been published. For instance, the use of B-splines for fitting single Lorentzian and Gaussian curves has been investigated. Optimal spline functions of degrees 3-7 inclusive, based on symmetric arrangements of 5, 6, and 7 knots, have been computed and the method was applied for smoothing and differentiation of spectroscopic curves. In a comparable study, the two-dimensional version of the Savitzky-Golay filtering and the spline method produced better results than moving average or Chebyshev filtering.
+Computer-aided design and computer graphics.
+In computer-aided design and computer graphics applications, a spline curve is sometimes represented as formula_95, a parametric curve of some real parameter formula_96. In this case the curve formula_95 can be treated as two or three separate coordinate functions formula_98, or formula_99. The coordinate functions formula_100, formula_101 and formula_102 are each spline functions, with a common set of knot values formula_103.
+Because a B-splines form basis functions, each of the coordinate functions can be expressed as a linear sum of B-splines, so we have
+The weights formula_105, formula_106 and formula_107 can be combined to form points formula_108 in 3-d space. These points formula_109 are commonly known as control points.
+Working in reverse, a sequence of control points, knot values, and order of the B-spline define a parametric curve. This representation of a curve by control points has several useful properties:
+A less desirable feature is that the parametric curve does not interpolate the control points. Usually the curve does not pass through the control points.
+NURBS.
+In computer aided design, computer aided manufacturing, and computer graphics, a powerful extension of B-splines is non-uniform rational B-splines (NURBS). NURBS are essentially B-splines in homogeneous coordinates. Like B-splines, they are defined by their order, and a knot vector, and a set of control points, but unlike simple B-splines, the control points each have a weight. When the weight is equal to 1, a NURBS is simply a B-spline and as such NURBS generalizes both B-splines and Bézier curves and surfaces, the primary difference being the weighting of the control points which makes NURBS curves "rational".
+By evaluating a NURBS at various values of the parameters, the curve can be traced through space; likewise, by evaluating a NURBS surface at various values of the two parameters, the surface can be represented in Cartesian space.
+Like B-splines, NURBS control points determine the shape of the curve. Each point of the curve is computed by taking a weighted sum of a number of control points. The weight of each point varies according to the governing parameter. For a curve of degree "d", the influence of any control point is only nonzero in "d"+1 intervals (knot spans) of the parameter space. Within those intervals, the weight changes according to a polynomial function (basis functions) of degree "d". At the boundaries of the intervals, the basis functions go smoothly to zero, the smoothness being determined by the degree of the polynomial.
+The knot vector is a sequence of parameter values that determines where and how the control points affect the NURBS curve. The number of knots is always equal to the number of control points plus curve degree plus one. Each time the parameter value enters a new knot span, a new control point becomes active, while an old control point is discarded.
+A NURBS curve takes the following form:
+Here the notation is as follows. "u" is the independent variable (instead of "x"), "k" is the number of control points, "N" is a B-spline (used instead of "B"), "n" is the polynomial degree, "P" is a control point and "w" is a weight. The denominator is a normalizing factor that evaluates to one if all weights are one.
+It is customary to write this as
+in which the functions
+are known as the rational basis functions.
+A NURBS surface is obtained as the tensor product of two NURBS curves, thus using two independent parameters "u" and "v" (with indices "i" and "j" respectively):
+with
+as rational basis functions.
+References.
+Works cited
+

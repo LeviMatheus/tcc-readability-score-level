@@ -1,0 +1,2 @@
+OpenDocument Format (ODF) is a computer file format for word processors, presentation software and other computer programs.
+For example, OpenOffice.org is a program that uses ODF to save text, slideshows and spreadsheets.

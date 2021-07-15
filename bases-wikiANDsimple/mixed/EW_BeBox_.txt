@@ -1,0 +1,10 @@
+
+The BeBox is a dual CPU personal computer, briefly sold by Be Inc. to run the company's own operating system, BeOS. It has PowerPC CPUs, its I/O board has a custom "GeekPort", and the front bezel has "Blinkenlights".
+The BeBox made its debut in October 1995 (BeBox Dual603-66). The processors were upgraded to 133 MHz in August 1996 (BeBox Dual603e-133). Production was halted in January 1997, following the port of BeOS to the Macintosh, in order for the company to concentrate on software. Be sold around 1000 66 MHz BeBoxes and 800 133 MHz BeBoxes.
+BeBox creator Jean-Louis Gassée did not see the BeBox as a general consumer device, warning that "Before we let you use the BeBox, we believe you must have some aptitude toward programming the standard language is C++."
+CPU configuration.
+Initial prototypes are equipped with two AT&amp;T Hobbit processors and three AT&amp;T 9308S DSPs.
+Production models use two 66 MHz PowerPC 603 processors or two 133 MHz PowerPC 603e processors to power the BeBox. Prototypes having dual 200 MHz CPUs or four CPUs exist, but were never publicly available.
+"Blinkenlights".
+Two yellow/green vertical LED arrays, dubbed the "blinkenlights", are built into the front bezel to illustrate the CPU load. The bottommost LED on the right side indicates hard disk activity.
+

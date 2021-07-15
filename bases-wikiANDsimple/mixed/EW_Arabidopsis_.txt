@@ -1,0 +1,19 @@
+
+Arabidopsis (rockcress) is a genus in the family Brassicaceae. They are small flowering plants related to cabbage and mustard. This genus is of great interest since it contains thale cress ("Arabidopsis thaliana"), one of the model organisms used for studying plant biology and the first plant to have its entire genome sequenced. Changes in thale cress are easily observed, making it a very useful model.
+Status.
+Currently, the genus "Arabidopsis" has nine species and a further eight subspecies recognised. This delimitation is quite recent and is based on morphological and molecular phylogenies by O'Kane and Al-Shehbaz and others.
+Their findings confirm the species formerly included in "Arabidopsis" made it polyphyletic. The most recent reclassification moves two species previously placed in "Cardaminopsis" and "Hylandra" and three species of "Arabis" into "Arabidopsis", but excludes 50 that have been moved into the new genera "Beringia, Crucihimalaya, Ianhedgea, Olimarabidopsis", and "Pseudoarabidopsis".
+All of the species in "Arabidopsis" are indigenous to Europe, while two of the species have broad ranges also extending into North America and Asia.
+In the last two decades, "Arabidopsis thaliana" has gained much interest from the scientific community as a model organism for research on numerous aspects of plant biology. The Arabidopsis Information Resource (TAIR) is a curated online information source for "Arabidopsis thaliana" genetic and molecular biology research, and The Arabidopsis Book is an online compilation of invited chapters on "Arabidopsis thaliana" biology. In Europe, the model organism resource centre for "Arabidopsis thaliana" germplasm, bioinformatics and molecular biology resources (including GeneChips) is the Nottingham Arabidopsis Stock Centre – NASC whilst in North America germplasm services are provided by the Arabidopsis Biological Resource Center, (ABRC) based at the Ohio State University. The ordering system for ABRC was incorporated into The Arabidopsis Information Resource (TAIR) database in June 2001 whilst NASC has always (since 1991) hosted its own ordering system and genome browser.
+In 1982, the crew of the Soviet Salyut 7 space station grew some Arabidopsis, thus becoming the first plants to flower and produce seeds in space. They had a life span of 40 days. "Arabidopsis thaliana" seeds were taken to the Moon on the Chang'e 4 lander in 2019, as part of a student experiment.
+"Arabidopsis" is quite similar to the "Boechera" genus.
+List of species and subspecies.
+Reclassified species.
+The following species previously placed in "Arabidopsis" are not currently considered part of the genus.
+Cytogenetics.
+Cytogenetic analysis has shown the haploid chromosome number (n) is variable and varies across species in the genus:
+"A. thaliana" is n=5 and the DNA sequencing of this species was completed in 2001. "A. lyrata" has n=8 but some subspecies or populations are tetraploid. Various subspecies "A. arenosa" have n=8 but can be either 2n (diploid) or 4n (tetraploid).
+"A. suecica" is n=13 (5+8) and is an amphidiploid species originated through hybridization between "A. thaliana" and diploid "A. arenosa".
+"A. neglecta" is n=8, as are the various subspecies of "A. halleri".
+As of 2005, "A. cebennensis", "A. croatica" and "A. pedemontana" have not been investigated cytologically.
+

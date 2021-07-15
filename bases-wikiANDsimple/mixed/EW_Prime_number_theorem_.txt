@@ -1,0 +1,115 @@
+
+In number theory, the prime number theorem (PNT) describes the asymptotic distribution of the prime numbers among the positive integers. It formalizes the intuitive idea that primes become less common as they become larger by precisely quantifying the rate at which this occurs. The theorem was proved independently by Jacques Hadamard and Charles Jean de la Vallée Poussin in 1896 using ideas introduced by Bernhard Riemann (in particular, the Riemann zeta function).
+The first such distribution found is , where is the prime-counting function (the number of primes less than or equal to "N") and is the natural logarithm of . This means that for large enough , the probability that a random integer not greater than is prime is very close to . Consequently, a random integer with at most digits (for large enough ) is about half as likely to be prime as a random integer with at most digits. For example, among the positive integers of at most 1000 digits, about one in 2300 is prime (), whereas among positive integers of at most 2000 digits, about one in 4600 is prime (). In other words, the average gap between consecutive prime numbers among the first integers is roughly .
+Statement.
+Let be the prime-counting function that gives the number of primes less than or equal to , for any real number . For example, because there are four prime numbers (2, 3, 5 and 7) less than or equal to 10. The prime number theorem then states that is a good approximation to (where log here means the natural logarithm), in the sense that the limit of the "quotient" of the two functions and as increases without bound is 1:
+known as the asymptotic law of distribution of prime numbers. Using asymptotic notation this result can be restated as
+This notation (and the theorem) does "not" say anything about the limit of the "difference" of the two functions as increases without bound. Instead, the theorem states that approximates in the sense that the relative error of this approximation approaches 0 as increases without bound.
+The prime number theorem is equivalent to the statement that the th prime number satisfies
+the asymptotic notation meaning, again, that the relative error of this approximation approaches 0 as increases without bound. For example, the th prime number is , and ()log() rounds to , a relative error of about 6.4%.
+As outlined below, the prime number theorem is also equivalent to
+where and are the first and the second Chebyshev functions respectively.
+History of the proof of the asymptotic law of prime numbers.
+Based on the tables by Anton Felkel and Jurij Vega, Adrien-Marie Legendre conjectured in 1797 or 1798 that is approximated by the function , where and are unspecified constants. In the second edition of his book on number theory (1808) he then made a more precise conjecture, with and . Carl Friedrich Gauss considered the same question at age 15 or 16 "in the year 1792 or 1793", according to his own recollection in 1849. In 1838 Peter Gustav Lejeune Dirichlet came up with his own approximating function, the logarithmic integral (under the slightly different form of a series, which he communicated to Gauss). Both Legendre's and Dirichlet's formulas imply the same conjectured asymptotic equivalence of and stated above, although it turned out that Dirichlet's approximation is considerably better if one considers the differences instead of quotients.
+In two papers from 1848 and 1850, the Russian mathematician Pafnuty Chebyshev attempted to prove the asymptotic law of distribution of prime numbers. His work is notable for the use of the zeta function , for real values of the argument "", as in works of Leonhard Euler, as early as 1737. Chebyshev's papers predated Riemann's celebrated memoir of 1859, and he succeeded in proving a slightly weaker form of the asymptotic law, namely, that if the limit as goes to infinity of exists at all, then it is necessarily equal to one. He was able to prove unconditionally that this ratio is bounded above and below by two explicitly given constants near 1, for all sufficiently large . Although Chebyshev's paper did not prove the Prime Number Theorem, his estimates for were strong enough for him to prove Bertrand's postulate that there exists a prime number between and for any integer .
+An important paper concerning the distribution of prime numbers was Riemann's 1859 memoir "On the Number of Primes Less Than a Given Magnitude", the only paper he ever wrote on the subject. Riemann introduced new ideas into the subject, chiefly that the distribution of prime numbers is intimately connected with the zeros of the analytically extended Riemann zeta function of a complex variable. In particular, it is in this paper that the idea to apply methods of complex analysis to the study of the real function originates. Extending Riemann's ideas, two proofs of the asymptotic law of the distribution of prime numbers were found independently by Jacques Hadamard and Charles Jean de la Vallée Poussin and appeared in the same year (1896). Both proofs used methods from complex analysis, establishing as a main step of the proof that the Riemann zeta function is nonzero for all complex values of the variable that have the form with .
+During the 20th century, the theorem of Hadamard and de la Vallée Poussin also became known as the Prime Number Theorem. Several different proofs of it were found, including the "elementary" proofs of Atle Selberg and Paul Erdős (1949). Hadamard's and de la Vallée Poussin's original proofs are long and elaborate; later proofs introduced various simplifications through the use of Tauberian theorems but remained difficult to digest. A short proof was discovered in 1980 by the American mathematician Donald J. Newman. Newman's proof is arguably the simplest known proof of the theorem, although it is non-elementary in the sense that it uses Cauchy's integral theorem from complex analysis.
+Proof sketch.
+Here is a sketch of the proof referred to in one of Terence Tao's lectures. Like most proofs of the PNT, it starts out by reformulating the problem in terms of a less intuitive, but better-behaved, prime-counting function. The idea is to count the primes (or a related set such as the set of prime powers) with "weights" to arrive at a function with smoother asymptotic behavior. The most common such generalized counting function is the Chebyshev function , defined by
+This is sometimes written as
+where is the von Mangoldt function, namely
+It is now relatively easy to check that the PNT is equivalent to the claim that
+Indeed, this follows from the easy estimates
+and (using big notation) for any ,
+The next step is to find a useful representation for . Let be the Riemann zeta function. It can be shown that is related to the von Mangoldt function , and hence to , via the relation
+A delicate analysis of this equation and related properties of the zeta function, using the Mellin transform and Perron's formula, shows that for non-integer the equation
+holds, where the sum is over all zeros (trivial and nontrivial) of the zeta function. This striking formula is one of the so-called explicit formulas of number theory, and is already suggestive of the result we wish to prove, since the term (claimed to be the correct asymptotic order of ) appears on the right-hand side, followed by (presumably) lower-order asymptotic terms.
+The next step in the proof involves a study of the zeros of the zeta function. The trivial zeros −2, −4, −6, −8, ... can be handled separately:
+which vanishes for a large . The nontrivial zeros, namely those on the critical strip , can potentially be of an asymptotic order comparable to the main term if , so we need to show that all zeros have real part strictly less than 1.
+Non-vanishing on.
+To do this, we take for granted that is meromorphic in the half-plane , and is analytic there except for a simple pole at , and that there is a product formula
+for . This product formula follows from the existence of unique prime factorization of integers, and shows that is never zero in this region, so that its logarithm is defined there and
+Write ; then
+Now observe the identity
+so that
+for all . Suppose now that . Certainly is not zero, since has a simple pole at . Suppose that and let tend to 1 from above. Since formula_19 has a simple pole at and stays analytic, the left hand side in the previous inequality tends to 0, a contradiction.
+Finally, we can conclude that the PNT is heuristically true. To rigorously complete the proof there are still serious technicalities to overcome, due to the fact that the summation over zeta zeros in the explicit formula for does not converge absolutely but only conditionally and in a "principal value" sense. There are several ways around this problem but many of them require rather delicate complex-analytic estimates. Edwards's book provides the details. Another method is to use Ikehara's Tauberian theorem, though this theorem is itself quite hard to prove. D. J. Newman observed that the full strength of Ikehara's theorem is not needed for the prime number theorem, and one can get away with a special case that is much easier to prove.
+Newman's proof of the prime number theorem.
+D. J. Newman gives a quick proof of the prime number theorem (PNT). The proof is "non-elementary" by virtue of relying on complex analysis, but the critical estimate uses only elementary techniques from a first course in the subject: Cauchy's integral formula, Cauchy's integral theorem and estimates of complex integrals. Here is a brief sketch of this proof:
+The first and second Chebyshev function are respectively
+The second series is obtained by dropping the terms with formula_21 from the first one. PNT is equivalent to either formula_22 or formula_23 .
+The sums for formula_24 and formula_25 are partial sums of the coefficients of the Dirichlet series 
+where formula_27 is the Riemann zeta function. As with the partial sums, the second series is obtained by dropping the terms with formula_21 from the first one. The Dirichlet series formed by terms with formula_21 is dominated by the Dirichlet series for formula_30 for any positive formula_31 , so the logarithmic derivative of formula_27 and formula_33 differ by a function holomorphic in formula_34 , and therefore have the same singularities on the line formula_35 .
+Integration by parts gives for formula_36 ,
+All analytic proofs of the Prime Number Theorem use the fact that formula_27 has no zeroes on the line formula_39 . One further piece of information needed in Newman's proof is that formula_40 is bounded. This can be easily proved using elementary methods. 
+Newman's method proves PNT by showing the integral 
+converges, and therefore the integrand goes to zero as formula_42 . In general, the convergence of the improper integral does not imply that the integrand goes to zero, since it may oscillate, but since formula_25 is increasing, it is easy to show in this case. 
+For formula_44 let 
+then
+which is holomorphic on the line formula_47 . The convergence of the integral formula_48 is proved by showing that formula_49. This involves change of order of limits since it can be written 
+and therefore classified as a Tauberian theorem.
+The difference formula_51 is expressed using Cauchy's integral formula and then estimates are applied to the integral. Fix formula_52 and formula_53 such that formula_54 is holomorphic in the region where 
+formula_55 
+and let formula_56 be its boundary. Since 0 is in the interior, Cauchy's integral formula gives
+To get a rough estimate on the integrand, let formula_58 be an upper bound for formula_59 , then for formula_44 
+This bound is not good enough to prove the result, but Newman introduces the factor 
+into the integrand for formula_51 . Since the Newman factor formula_64 is entire and formula_65 , the left side remains unchanged. Now the estimate above for formula_66 and estimates on formula_64 combine to give 
+where formula_69 is the semicircle formula_70 . 
+Let formula_71 be the contour formula_72 . The function formula_73 is entire, so by Cauchy's integral theorem, the contour formula_71 can be modified to a semicircle of radius formula_75 in the left half-plane without changing the integral of formula_76 , and the same argument gives the absolute value of this integral as formula_77 . Finally, letting formula_78 , the integral of formula_79 over the contour formula_80 goes to zero since formula_64 goes to zero on the contour. Combining the three estimates, get
+This holds for any formula_75 so formula_49, and PNT follows.
+Prime-counting function in terms of the logarithmic integral.
+In a handwritten note on a reprint of his 1838 paper "", which he mailed to Gauss, Dirichlet conjectured (under a slightly different form appealing to a series rather than an integral) that an even better approximation to is given by the offset logarithmic integral function , defined by
+Indeed, this integral is strongly suggestive of the notion that the "density" of primes around should be . This function is related to the logarithm by the asymptotic expansion
+So, the prime number theorem can also be written as . In fact, in another paper in 1899 de la Vallée Poussin proved that
+for some positive constant , where is the big notation. This has been improved to
+In 2016, Trudgian proved an explicit upper bound for the difference between formula_90 and formula_91:
+for formula_93.
+The connection between the Riemann zeta function and is one reason the Riemann hypothesis has considerable importance in number theory: if established, it would yield a far better estimate of the error involved in the prime number theorem than is available today. More specifically, Helge von Koch showed in 1901 that if the Riemann hypothesis is true, the error term in the above relation can be improved to
+(this last estimate is in fact equivalent to the Riemann hypothesis). The constant involved in the big notation was estimated in 1976 by Lowell Schoenfeld: assuming the Riemann hypothesis,
+for all . He also derived a similar bound for the Chebyshev prime-counting function :
+for all . This latter bound has been shown to express a variance to mean power law (when regarded as a random function over the integers) and -noise and to also correspond to the Tweedie compound Poisson distribution. (The Tweedie distributions represent a family of scale invariant distributions that serve as foci of convergence for a generalization of the central limit theorem.)
+The logarithmic integral is larger than for "small" values of . This is because it is (in some sense) counting not primes, but prime powers, where a power of a prime is counted as of a prime. This suggests that should usually be larger than by roughly , and in particular should always be larger than . However, in 1914, J. E. Littlewood proved that formula_97 changes sign infinitely often.
+ The first value of where exceeds is probably around ; see the article on Skewes' number for more details. (On the other hand, the offset logarithmic integral is smaller than already for ; indeed, , while .)
+Elementary proofs.
+In the first half of the twentieth century, some mathematicians (notably G. H. Hardy) believed that there exists a hierarchy of proof methods in mathematics depending on what sorts of numbers (integers, reals, complex) a proof requires, and that the prime number theorem (PNT) is a "deep" theorem by virtue of requiring complex analysis. This belief was somewhat shaken by a proof of the PNT based on Wiener's tauberian theorem, though this could be set aside if Wiener's theorem were deemed to have a "depth" equivalent to that of complex variable methods.
+In March 1948, Atle Selberg established, by "elementary" means, the asymptotic formula
+where
+for primes . By July of that year, Selberg and Paul Erdős had each obtained elementary proofs of the PNT, both using Selberg's asymptotic formula as a starting point. These proofs effectively laid to rest the notion that the PNT was "deep" in that sense, and showed that technically "elementary" methods were more powerful than had been believed to be the case. On the history of the elementary proofs of the PNT, including the Erdős–Selberg priority dispute, see an article by Dorian Goldfeld.
+There is some debate about the significance of Erdős and Selberg's result. There is no rigorous and widely accepted definition of the notion of elementary proof in number theory, so it is not clear exactly in what sense their proof is "elementary". Although it does not use complex analysis, it is in fact much more technical than the standard proof of PNT. One possible definition of an "elementary" proof is "one that can be carried out in first order Peano arithmetic." There are number-theoretic statements (for example, the Paris–Harrington theorem) provable using second order but not first order methods, but such theorems are rare to date. Erdős and Selberg's proof can certainly be formalized in Peano arithmetic, and in 1994, Charalambos Cornaros and Costas Dimitracopoulos proved that their proof can be formalized in a very weak fragment of PA, namely . However, this does not address the question of whether or not the standard proof of PNT can be formalized in PA.
+Computer verifications.
+In 2005, Avigad "et al." employed the Isabelle theorem prover to devise a computer-verified variant of the Erdős–Selberg proof of the PNT. This was the first machine-verified proof of the PNT. Avigad chose to formalize the Erdős–Selberg proof rather than an analytic one because while Isabelle's library at the time could implement the notions of limit, derivative, and transcendental function, it had almost no theory of integration to speak of.
+In 2009, John Harrison employed HOL Light to formalize a proof employing complex analysis. By developing the necessary analytic machinery, including the Cauchy integral formula, Harrison was able to formalize "a direct, modern and elegant proof instead of the more involved 'elementary' Erdős–Selberg argument".
+Prime number theorem for arithmetic progressions.
+Let denote the number of primes in the arithmetic progression less than . Dirichlet and Legendre conjectured, and de la Vallée Poussin proved, that, if and are coprime, then
+where is Euler's totient function. In other words, the primes are distributed evenly among the residue classes modulo with 1. This is stronger than Dirichlet's theorem on arithmetic progressions (which only states that there is an infinity of primes in each class) and can be proved using similar methods used by Newman for his proof of the prime number theorem.
+The Siegel–Walfisz theorem gives a good estimate for the distribution of primes in residue classes.
+Prime number race.
+Although we have in particular
+empirically the primes congruent to 3 are more numerous and are nearly always ahead in this "prime number race"; the first reversal occurs at . However Littlewood showed in 1914 that there are infinitely many sign changes for the function
+so the lead in the race switches back and forth infinitely many times. The phenomenon that is ahead most of the time is called Chebyshev's bias. The prime number race generalizes to other moduli and is the subject of much research; Pál Turán asked whether it is always the case that and change places when and are coprime to . Granville and Martin give a thorough exposition and survey.
+Non-asymptotic bounds on the prime-counting function.
+The prime number theorem is an "asymptotic" result. It gives an ineffective bound on as a direct consequence of the definition of the limit: for all , there is an such that for all ,
+However, better bounds on are known, for instance Pierre Dusart's
+The first inequality holds for all and the second one for .
+A weaker but sometimes useful bound for is
+In Pierre Dusart's thesis there are stronger versions of this type of inequality that are valid for larger . Later in 2010, Dusart proved:
+The proof by de la Vallée Poussin implies the following. For every , there is an such that for all ,
+Approximations for the ""th prime number.
+As a consequence of the prime number theorem, one gets an asymptotic expression for the th prime number, denoted by :
+A better approximation is
+Again considering the th prime number , this gives an estimate of ; the first 5 digits match and relative error is about 0.00005%.
+Rosser's theorem states that 
+This can be improved by the following pair of bounds:
+Table of , , and.
+The table compares exact values of to the two approximations and . The last column, , is the average prime gap below .
+The value for was originally computed assuming the Riemann hypothesis; it has since been verified unconditionally.
+Analogue for irreducible polynomials over a finite field.
+There is an analogue of the prime number theorem that describes the "distribution" of irreducible polynomials over a finite field; the form it takes is strikingly similar to the case of the classical prime number theorem.
+To state it precisely, let be the finite field with elements, for some fixed , and let be the number of monic "irreducible" polynomials over whose degree is equal to . That is, we are looking at polynomials with coefficients chosen from , which cannot be written as products of polynomials of smaller degree. In this setting, these polynomials play the role of the prime numbers, since all other monic polynomials are built up of products of them. One can then prove that
+If we make the substitution , then the right hand side is just
+which makes the analogy clearer. Since there are precisely monic polynomials of degree (including the reducible ones), this can be rephrased as follows: if a monic polynomial of degree is selected randomly, then the probability of it being irreducible is about .
+One can even prove an analogue of the Riemann hypothesis, namely that
+The proofs of these statements are far simpler than in the classical case. It involves a short, combinatorial argument, summarised as follows: every element of the degree extension of is a root of some irreducible polynomial whose degree divides ; by counting these roots in two different ways one establishes that
+where the sum is over all divisors of . Möbius inversion then yields
+where is the Möbius function. (This formula was known to Gauss.) The main term occurs for , and it is not difficult to bound the remaining terms. The "Riemann hypothesis" statement depends on the fact that the largest proper divisor of can be no larger than .
+

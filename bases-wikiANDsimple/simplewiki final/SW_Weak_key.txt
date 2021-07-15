@@ -1,0 +1,2 @@
+In cryptography, a weak key is a key which when used with a specific cipher, makes the cipher behave in some undesirable way, and simplifies breaking (cracking) the ciphertext.
+Weak keys usually represent a very small fraction of the overall key space, which means that if someone generates a random key to encrypt a message, it is a rare condition that weak keys will cause a security problem. However, it is considered a good design for a cipher to have no weak keys ("quality chiper"). A cipher with no weak keys is said to have a "flat", or "linear", key space.

@@ -1,0 +1,45 @@
+
+Chondrichthyes (; from 'cartilage', 'fish') is a class that contains the cartilaginous fishes that have skeletons primarily composed of cartilage. They can be contrasted with the Osteichthyes or "bony fishes", which have skeletons primarily composed of bone tissue. Chondrichthyes are jawed vertebrates with paired fins, paired nares, scales, and a heart with its chambers in series. The class is divided into two subclasses: Elasmobranchii (sharks, rays, skates, and sawfish) and Holocephali (chimaeras, sometimes called ghost sharks, which are sometimes separated into their own class).
+Within the infraphylum Gnathostomata, cartilaginous fishes are distinct from all other jawed vertebrates.
+Anatomy.
+Skeleton.
+The skeleton is cartilaginous. The notochord is gradually replaced by a vertebral column during development, except in Holocephali, where the notochord stays intact. In some deepwater sharks, the column is reduced.
+As they do not have bone marrow, red blood cells are produced in the spleen and the epigonal organ (special tissue around the gonads, which is also thought to play a role in the immune system). They are also produced in the Leydig's organ, which is only found in certain cartilaginous fishes. The subclass Holocephali, which is a very specialized group, lacks both the Leydig's and epigonal organs.
+Appendages.
+Apart from electric rays, which have a thick and flabby body, with soft, loose skin, chondrichthyans have tough skin covered with dermal teeth (again, Holocephali is an exception, as the teeth are lost in adults, only kept on the clasping organ seen on the caudal ventral surface of the male), also called placoid scales (or "dermal denticles"), making it feel like sandpaper. In most species, all dermal denticles are oriented in one direction, making the skin feel very smooth if rubbed in one direction and very rough if rubbed in the other.
+Originally, the pectoral and pelvic girdles, which do not contain any dermal elements, did not connect. In later forms, each pair of fins became ventrally connected in the middle when scapulocoracoid and puboischiadic bars evolved. In rays, the pectoral fins are connected to the head and are very flexible.
+One of the primary characteristics present in most sharks is the heterocercal tail, which aids in locomotion.
+Body covering.
+Chondrichthyans have tooth-like scales called dermal denticles or placoid scales. Denticles usually provide protection, and in most cases, streamlining. Mucous glands exist in some species, as well.
+It is assumed that their oral teeth evolved from dermal denticles that migrated into the mouth, but it could be the other way around, as the teleost bony fish "Denticeps clupeoides" has most of its head covered by dermal teeth (as does, probably, "Atherion elymus", another bony fish). This is most likely a secondary evolved characteristic, which means there is not necessarily a connection between the teeth and the original dermal scales.
+The old placoderms did not have teeth at all, but had sharp bony plates in their mouth. Thus, it is unknown whether the dermal or oral teeth evolved first. It has even been suggested that the original bony plates of "all" vertebrates are now gone and that the present scales are just modified teeth, even if both the teeth and body armor had a common origin a long time ago. However, there is currently no evidence of this.
+Respiratory system.
+All chondrichthyans breathe through five to seven pairs of gills, depending on the species. In general, pelagic species must keep swimming to keep oxygenated water moving through their gills, whilst demersal species can actively pump water in through their spiracles and out through their gills. However, this is only a general rule and many species differ.
+A spiracle is a small hole found behind each eye. These can be tiny and circular, such as found on the nurse shark ("Ginglymostoma cirratum"), to extended and slit-like, such as found on the wobbegongs (Orectolobidae). Many larger, pelagic species, such as the mackerel sharks (Lamnidae) and the thresher sharks (Alopiidae), no longer possess them.
+Nervous system.
+In chondrichthyans, the nervous system is composed of a small brain, 8-10 pairs of cranial nerves, and a spinal chord with spinal nerves. They have several sensory organs which provide information to be processed. Ampullae of Lorenzini are a network of small jelly filled pores called electroreceptors which help the fish sense electric fields in water. This aids in finding prey, navigation, and sensing temperature. The Lateral line system has modified epithelial cells located externally which sense motion, vibration, and pressure in the water around them. Most species have large well-developed eyes. Also, they have very powerful nostrils and olfactory organs. Their inner ears consist of 3 large semicircular canals which aid in balance and orientation. Their sound detecting apparatus has limited range and is typically more powerful at lower frequencies. Some species have electric organs which can be used for defense and predation. They have relatively simple brains with the forebrain not greatly enlarged. The structure and formation of myelin in their nervous systems are nearly identical to that of tetrapods, which has led evolutionary biologists to believe that Chondrichthyes were a cornerstone group in the evolutionary timeline of myelin development.
+Immune system.
+Like all other jawed vertebrates, members of Chondrichthyes have an adaptive immune system.
+Reproduction.
+Fertilization is internal. Development is usually live birth (ovoviviparous species) but can be through eggs (oviparous). Some rare species are viviparous. There is no parental care after birth; however, some chondrichthyans do guard their eggs.
+Capture-induced premature birth and abortion (collectively called capture-induced parturition) occurs frequently in sharks/rays when fished. Capture-induced parturition is often mistaken for natural birth by recreational fishers and is rarely considered in commercial fisheries management despite being shown to occur in at least 12% of live bearing sharks and rays (88 species to date).
+Classification.
+The class Chondrichthyes has two subclasses: the subclass Elasmobranchii (sharks, rays, skates, and sawfish) and the subclass Holocephali (chimaeras). To see the full list of the species, click here.
+Evolution.
+Cartilaginous fish are considered to have evolved from acanthodians. Originally assumed to be closely related to bony fish or a polyphyletic assemblage leading to both groups, the discovery of "Entelognathus" and several examinations of acanthodian characteristics indicate that bony fish evolved directly from placoderm like ancestors, while acanthodians represent a paraphyletic assemblage leading to Chondrichthyes. Some characteristics previously thought to be exclusive to acanthodians are also present in basal cartilaginous fish. In particular, new phylogenetic studies find cartilaginous fish to be well nested among acanthodians, with "Doliodus" and "Tamiobatis" being the closest relatives to Chondrichthyes. Recent studies vindicate this, as "Doliodus" had a mosaic of chondrichthyian and acanthodiian traits.
+Dating back to the Middle and Late Ordovician Period, many isolated scales, made of dentine and bone, have a structure and growth form that is chondrichthyan-like. They may be the remains of stem-chondrichthyans, but their classification remains uncertain.
+The earliest unequivocal fossils of cartilaginous fishes first appeared in the fossil record by about 430 million years ago, during the middle Wenlock Epoch of the Silurian period. The radiation of elasmobranches in the chart on the right is divided into the taxa: "Cladoselache", Eugeneodontiformes, Symmoriida, Xenacanthiformes, Ctenacanthiformes, Hybodontiformes, Galeomorphi, Squaliformes and Batoidea.
+By the start of the Early Devonian, 419 million years ago, jawed fishes had divided into three distinct groups: the now extinct placoderms (a paraphyletic assemblage of ancient armoured fishes), the bony fishes, and the clade that includes spiny sharks and early cartilaginous fish. The modern bony fishes, class Osteichthyes, appeared in the late Silurian or early Devonian, about 416 million years ago. The first abundant genus of shark, "Cladoselache", appeared in the oceans during the Devonian Period. The first Cartilaginous fishes evolved from "Doliodus"-like spiny shark ancestors.
+A Bayesian analysis of molecular data suggests that the Holocephali and Elasmoblanchii diverged in the Silurian () and that the sharks and rays/skates split in the Carboniferous ().
+Taxonomy.
+ Subphylum Vertebrata
+ └─Infraphylum Gnathostomata
+ ├─Placodermi — "extinct" (armored gnathostomes)
+ └Eugnathostomata (true jawed vertebrates)
+ ├─Acanthodii (stem cartilaginous fish)
+ └─Chondrichthyes (true cartilaginous fish)
+ ├─Holocephali (chimaeras + several extinct clades)
+ └Elasmobranchii (shark and rays)
+ ├─Selachii (true sharks)
+ └─Batoidea (rays and relatives)
+

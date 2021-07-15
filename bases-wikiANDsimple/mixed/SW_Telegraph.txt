@@ -1,0 +1,2 @@
+Telegraphy (from the Greek words "tele (τηλε)" = far and "graphein (γραφειν)" = write) is the long-distance transmission of written messages without physical transport of letters.
+Telegraph sends electric pulses in a special code, composed from short and large marks. Usually Amateur radio operator use Morse code, when signal is to low.

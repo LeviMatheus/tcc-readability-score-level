@@ -1,0 +1,10 @@
+
+Harald Tveit Alvestrand (born 29 June 1959) is a Norwegian computer scientist. He was chair of the Internet Engineering Task Force (IETF) from 2001 until 2005, succeeding Fred Baker. Within the IETF, Alvestrand was earlier the chair of the Areas for Applications from 1995 until 1997, and of Operations and Management in 1998.
+Biography.
+Alvestrand was born in Namsos, Norway, received his education from Bergen Cathedral School and the Norwegian Institute of Technology, and has worked for Norsk Data, UNINETT, EDB Maxware, Cisco Systems, and Google.
+He is an author of several important Request for Comments (RFCs), many in the general area of Internationalization and localization, most notable the documents required for interoperability between SMTP and X.400. Since the start of the use of OIDs he has run a front end to the hierarchy of assignments according to X.208.
+At the end of 2007 Alvestrand was selected for the ICANN Board, where he remained until December 2010. In 2001 he became a member of the Unicode Board of Directors. He was a co-chair of the IETF EAI and USEFOR WGs.
+Harald Alvestrand was the executive director of the Linux Counter organization. He was a member of the Norid Board, and the RFC Independent Submissions Editorial Board. he lived in Trondheim, Norway, and has been working for Google since 2006.
+External links.
+ 
+

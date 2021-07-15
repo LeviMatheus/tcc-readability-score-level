@@ -1,0 +1,3 @@
+GNU Parted is a free computer program for creating, destroying, resizing, checking, and copying partitions, and the file systems on them. This is useful for creating space for new operating systems, reorganising hard disk usage, copying data between hard disks, and disk imaging. It was written by Andrew Clausen and Lennert Buytenhek.
+Graphical frontends.
+GParted is a graphical program using the parted libraries. It is adapted for GTK+. It is often included as utility on many live CD distributions to make partitioning easier.

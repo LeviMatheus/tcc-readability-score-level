@@ -1,0 +1,1 @@
+DSLinux is a port of the Linux operating system to the Nintendo DS platform. It requires only a device capable of writing to a DS Game Cart.

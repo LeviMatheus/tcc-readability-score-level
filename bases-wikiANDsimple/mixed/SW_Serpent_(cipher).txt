@@ -1,0 +1,8 @@
+Serpent is a symmetric key block cipher which was the second finalist in the Advanced Encryption Standard (AES) contest after Rijndael. Serpent was designed by Ross Anderson, Eli Biham, and Lars Knudsen.
+Serpent has a block size of 128 bits and supports a key size of 128, 192 or 256 bits. The cipher is a 32-round substitution-permutation network operating on a block of four 32-bit words. Each round applies one of eight 4-bit to 4-bit S-boxes 32 times in parallel. Serpent was designed so that all operations can be executed in parallel, using 32 1-bit slices. This maximizes parallelism, but also allows use of the extensive cryptanalysis work performed on DES.
+Serpent was widely viewed as a more traditional approach to security than the other AES finalists choosing a larger security margin: the designers estimated 16 rounds to be sufficient against known types of attack, but specified 32 rounds as insurance against future progress in cryptanalysis.
+The Serpent cipher has not been patented. It is completely placed in the public domain and can be freely used by anyone.
+Rijndael vs. Serpent.
+The 32 rounds make Serpent more secure than Rijndael; however, Rijndael with 10 rounds is faster and easier to implement for small Block ciphers and on embedded system. For that reason, Rijndael was selected as the winner in the AES competition.
+Security.
+The XSL attack, if effective and would weaken Serpent (though not as much as it would weaken Rijndael, which became AES). However, many cryptanalysts believe that if implementations considered to overcome the XSL attack, the XSL attack would be more difficult than a brute force attack.

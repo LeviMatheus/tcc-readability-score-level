@@ -1,0 +1,19 @@
+
+A monomer ( ; "mono-", "one" + "-mer", "part") is a molecule that can react together with other monomer molecules to form a larger polymer chain or three-dimensional network in a process called polymerization.
+Classification.
+Monomers can be classified in many ways. They can be subdivided into two broad classes, depending on the kind of the polymer that they form. Monomers that participate in condensation polymerization have a different stoichiometry than monomers that participate in addition polymerization: 
+Other classifications include:
+The polymerization of one kind of monomer gives a homopolymer. Many polymers are copolymers, meaning that they are derived from two different monomers. In the case of condensation polymerizations, the ratio of comonomers is usually 1:1. For example, the formation of many nylons requires equal amounts of a dicarboxylic acid and diamine. In the case of addition polymerizations, the comonomer content is often only a few percent. For example, small amounts of 1-octene monomer are copolymerized with ethylene to give specialized polyethylene.
+Biopolymers.
+The term "monomeric protein" may also be used to describe one of the proteins making up a multiprotein complex. 
+Natural monomers.
+Some of the main biopolymers are listed below:
+Amino acids.
+For "proteins", the monomers are amino acids. Polymerization occurs at ribosomes. Usually about 20 types of amino acid monomers are used to produce proteins. Hence proteins are not homopolymers.
+Nucleotides.
+For polynucleic acids (DNA/RNA), the monomers are nucleotides, each of which is made of a pentose sugar, a nitrogenous base and a phosphate group. Nucleotide monomers are found in the cell nucleus. Four types of nucleotide monomers are precursors to DNA and four different nucleotide monomers are precursors to RNA.
+Glucose and related sugars.
+For carbohydrates, the monomers are monosaccharides. The most abundant natural monomer is glucose, which is linked by glycosidic bonds into the polymers cellulose, starch, and glycogen.
+Isoprene.
+Isoprene is a natural monomer that polymerizes to form natural rubber, most often "cis-"1,4-polyisoprene, but also "trans-"1,4-polymer. Synthetic rubbers are often based on butadiene, which is structurally related to isoprene.
+

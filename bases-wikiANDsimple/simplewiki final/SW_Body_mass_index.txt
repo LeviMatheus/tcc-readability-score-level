@@ -1,0 +1,11 @@
+Body mass index is a special measure that allows to see if a person is of an appropriate weight for their height. It is also called the Quetelet Index, after its creator Adolphe Quetelet, who invented the measure between 1830 and 1850. Body mass index is often abbreviated to BMI. BMI is used by governments today even though it came about 150 years ago.
+Calculation.
+BMI is worked out by dividing a person's body weight by the square of their height, and is almost always expressed in the unit kg / m2, which is therefore often left out. The BMI value can be calculated with the following formula.
+Overweight or not?
+The BMI can be used to determine if a person is overweight. The figures below are not to be used for small children who are growing.
+Variations.
+The above should only be taken as a guide. Different countries and different doctors may apply different values. In 1998, the US National Institutes of Health brought US definitions into line with WHO guidelines. They decreased the normal/overweight cut-off from BMI 27.8 to BMI 25. About 30 million Americans who were fine before, are now seen as overweight. The World Health Organization uses the term "pre-obese" where the USA uses "overweight".
+For Asian body types the WHO recommends to use BMI 23, instead of 25. Further studies need to be done, to determine more precise values.
+For Asians, the new cut-off BMI index for obesity is 27.5 compared with the traditional WHO figure of 30. An Asian adult with a BMI of 23 or greater is now considered overweight and the ideal normal range is 18.5-22.9.
+Image:Body mass index chart.svg|right|300px|thumb|A graph of body mass index is shown above. The dashed lines represent subdivisions within a major class. For instance the “Underweight” classification is further divided into “severe,” “moderate,” and “mild” subclasses."Based on World Health Organization data
+Body mass index (BMI) or Quetelet Index is a statistical measure of the weight of a person scaled according to height. It was invented between the 1830s and 1850s by the Adolphe Quetelet.

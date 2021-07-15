@@ -1,0 +1,3 @@
+Chatroom Bots (or IRC Bots) are computer programs. They are used on Internet Relay Chat (IRC) to help control and protect chat rooms. They can do many of the things that a human user can do such as gather data, kick users out of the channel, ban users, or even send stats to other programs and websites.
+IRC Bots/Chatroom bots are used in many things now, from sending RuneScape statistics, to keeping track of users who abuse the networks.
+Popular IRC bots: Eggdrop, psotnic, Winbot, EnergyMech, Infobot, blootbot, Supybot, Pircbot, and.

@@ -1,0 +1,10 @@
+A hull is the body of a ship or boat. It is a central concept in floating vessels as it provides the buoyancy that keeps the vessel from sinking.
+Terms.
+Bow is the frontmost part of the hull
+Stern is the rear-most part of the hull
+Portside is the left side of the boat when facing the Bow
+Starboard is the right side of the boat when facing the Bow
+Waterline is an imaginary line circumscribing the hull that matches the surface of the water when the hull is not moving.
+Midships is the midpoint of the LWL (see below).
+It is half-way from the forwardmost point on the waterline to the rear-most point on the waterline.
+Baseline an imaginary reference line used to measure vertical distances from. It is usually located at the bottom of the hull.

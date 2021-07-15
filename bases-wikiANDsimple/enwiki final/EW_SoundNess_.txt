@@ -1,0 +1,28 @@
+
+
+
+In logic, more precisely in deductive reasoning, an argument is sound if it is both valid in form and its premises are true. Soundness also has a related meaning in mathematical logic, wherein logical systems are sound if and only if every formula that can be proved in the system is logically valid with respect to the semantics of the system.
+Definition.
+In deductive reasoning, a sound argument is an argument that is both valid, and all of whose premises are true (and as a consequence its conclusion is true as well). An argument is valid if, assuming its premises are true, the conclusion "must" be true. An example of a sound argument is the following well-known syllogism:
+Because of the logical necessity of the conclusion, this argument is valid; and because the argument is valid and its premises are true, the argument is sound. 
+However, an argument can be valid without being sound. For example:
+This argument is valid because, assuming the premises are true, the conclusion must be true. However, the first premise is false. Not all birds can fly (penguins, ostriches, kiwis etc.) For an argument to be sound, the argument must be valid "and" its premises must be true.
+Use in mathematical logic.
+Logical systems.
+In mathematical logic, a logical system has the soundness property if and only if every formula that can be proved in the system is logically valid with respect to the semantics of the system.
+In most cases, this comes down to its rules having the property of "preserving truth". The converse of soundness is known as completeness. 
+A logical system with syntactic entailment formula_1 and semantic entailment formula_2 is sound if for any sequence formula_3 of sentences in its language, if formula_4, then formula_5. In other words, a system is sound when all of its theorems are tautologies.
+Soundness is among the most fundamental properties of mathematical logic. The soundness property provides the initial reason for counting a logical system as desirable. The completeness property means that every validity (truth) is provable. Together they imply that all and only validities are provable.
+Most proofs of soundness are trivial. For example, in an axiomatic system, proof of soundness amounts to verifying the validity of the axioms and that the rules of inference preserve validity (or the weaker property, truth). If the system allows Hilbert-style deduction, it requires only verifying the validity of the axioms and one rule of inference, namely modus ponens. (and sometimes substitution)
+Soundness properties come in two main varieties: weak and strong soundness, of which the former is a restricted form of the latter.
+Soundness.
+Soundness of a deductive system is the property that any sentence that is provable in that deductive system is also true on all interpretations or structures of the semantic theory for the language upon which that theory is based. In symbols, where "S" is the deductive system, "L" the language together with its semantic theory, and "P" a sentence of "L": if ⊢"S" "P", then also ⊨"L" "P".
+Strong soundness.
+Strong soundness of a deductive system is the property that any sentence "P" of the language upon which the deductive system is based that is derivable from a set Γ of sentences of that language is also a logical consequence of that set, in the sense that any model that makes all members of Γ true will also make "P" true. In symbols where Γ is a set of sentences of "L": if Γ ⊢"S" "P", then also Γ ⊨"L" "P". Notice that in the statement of strong soundness, when Γ is empty, we have the statement of weak soundness.
+Arithmetic soundness.
+If "T" is a theory whose objects of discourse can be interpreted as natural numbers, we say "T" is "arithmetically sound" if all theorems of "T" are actually true about the standard mathematical integers. For further information, see ω-consistent theory.
+Relation to completeness.
+The converse of the soundness property is the semantic completeness property. A deductive system with a semantic theory is strongly complete if every sentence "P" that is a semantic consequence of a set of sentences Γ can be derived in the deduction system from that set. In symbols: whenever , then also . Completeness of first-order logic was first explicitly established by Gödel, though some of the main results were contained in earlier work of Skolem.
+Informally, a soundness theorem for a deductive system expresses that all provable sentences are true. Completeness states that all true sentences are provable.
+Gödel's first incompleteness theorem shows that for languages sufficient for doing a certain amount of arithmetic, there can be no consistent and effective deductive system that is complete with respect to the intended interpretation of the symbolism of that language. Thus, not all sound deductive systems are complete in this special sense of completeness, in which the class of models (up to isomorphism) is restricted to the intended one. The original completeness proof applies to "all" classical models, not some special proper subclass of intended ones.
+

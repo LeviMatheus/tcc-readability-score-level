@@ -1,0 +1,12 @@
+
+ is a Japanese mathematician who was awarded the Fields Medal in 1970 for his contributions to algebraic geometry.
+Career.
+Hironaka entered Kyoto University in 1949. After completing his undergraduate studies at Kyoto University, he received his Ph.D. in 1960 from Harvard while under the direction of Oscar Zariski.
+Hironaka held teaching positions at Brandeis University from 1960-1963, Columbia University in 1964, and Kyoto University from 1975 to 1988. He was a professor of mathematics at Harvard University from 1968 until becoming "emeritus" in 1992 and was a president of Yamaguchi University from 1996 to 2002.
+Research.
+In 1964, Hironaka proved that singularities of algebraic varieties admit resolutions in characteristic zero. This means that any algebraic variety can be replaced by (more precisely is birationally equivalent to) a similar variety which has no singularities. He also introduced Hironaka's example showing that a deformation of Kähler manifolds need not be Kähler. In 2017 he posted to his personal webpage a manuscript that claims to prove the existence of a resolution of singularities in positive characteristic.
+Awards.
+Hironaka was awarded the Fields Medal in 1970.
+Personal life.
+Hironaka has been active in raising funds for causes such as mathematical education. His wife Wakako Hironaka is a politician. His daughter, Eriko Hironaka, is also a mathematician and focuses on low-dimensional topology and geometric topology.
+

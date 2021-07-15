@@ -1,0 +1,43 @@
+
+A communications system or communication system is a collection of individual telecommunications networks, transmission systems, relay stations, tributary stations, and terminal equipment usually capable of interconnection and interoperation to form an integrated whole. The components of a communications system serve a common purpose, are technically compatible, use common procedures, respond to controls, and operate in union.
+Telecommunications is a method of communication (e.g., for sports broadcasting, mass media, journalism, etc.). Communication is the act of conveying intended meanings from one entity or group to another through the use of mutually understood signs and semiotic rules
+Types.
+By media.
+An optical communication system is any form of telecommunication that uses light as the transmission medium. Equipment consists of a transmitter, which encodes a "message" into an optical "signal", a "communication channel", which carries the signal to its destination, and a receiver, which reproduces the message from the received optical signal. Fiber-optic communication systems transmit information from one place to another by sending light through an optical fiber. The light forms a carrier signal that is modulated to carry information.
+A radio communication system is composed of several communications subsystems that give exterior communications capabilities. A radio communication system comprises a transmitting conductor in which electrical oscillations or currents are produced and which is arranged to cause such currents or oscillations to be propagated through the free space medium from one point to another remote therefrom and a receiving conductor at such distant point adapted to be excited by the oscillations or currents propagated from the transmitter.
+Power line communication systems operate by impressing a modulated carrier signal on power wires. Different types of powerline communications use different frequency bands, depending on the signal transmission characteristics of the power wiring used. Since the power wiring system was originally intended for transmission of AC power, the power wire circuits have only a limited ability to carry higher frequencies. The propagation problem is a limiting factor for each type of power line communications.
+By technology.
+A duplex communication system is a system composed of two connected parties or devices which can communicate with one another in both directions. The term "duplex" is used when describing communication between two parties or devices. Duplex systems are employed in nearly all communications networks, either to allow for a communication "two-way street" between two connected parties or to provide a "reverse path" for the monitoring and remote adjustment of equipment in the field.
+An Antenna is basically a small length of a qwert conductor that is used to radiate or receive electromagnetic waves.
+It acts as a conversion device. At the transmitting end it converts high frequency current into electromagnetic waves. At the receiving end it transforms electromagnetic waves into electrical signals that is fed into the input of the receiver. several types of antenna are used in communication.
+Examples of communications subsystems include the Defense Communications System (DCS).
+By application area.
+A tactical communications system is a communications system that 
+(a) is used within, or in direct support of tactical forces
+(b) is designed to meet the requirements of changing tactical situations and varying environmental conditions, 
+(c) provides securable communications, such as voice, data, and video, among mobile users to facilitate command and control within, and in support of, tactical forces, and 
+(d) usually requires extremely short installation times, usually on the order of hours, in order to meet the requirements of frequent relocation.
+An Emergency communication system is any system (typically computer based) that is organized for the primary purpose of supporting the two way communication of emergency messages between both individuals and groups of individuals. These systems are commonly designed to integrate the cross-communication of messages between are variety of communication technologies.
+An Automatic call distributor (ACD) is a communication system that automatically queues, assigns and connects callers to handlers. This is used often in customer service (such as for product or service complaints), ordering by telephone (such as in a ticket office), or coordination services (such as in air traffic control).
+A Voice Communication Control System (VCCS) is essentially an ACD with characteristics that make it more adapted to use in critical situations (no waiting for dialtone, or lengthy recorded announcements, radio and telephone lines equally easily connected to, individual lines immediately accessible etc..)
+Key components.
+Sources.
+Sources can be classified as electric or non-electric; they are the origins of a message or input signal. Examples of sources include but are not limited to the following:
+Input transducers (sensors).
+Sensors, like microphones and cameras, capture non-electric sources, like sound and light (respectively), and convert them into electrical signals. These types of sensors are called input transducers in modern analog and digital communication systems. Without input transducers there would not be an effective way to transport non-electric sources or signals over great distances, i.e. humans would have to rely solely on our eyes and ears to see and hear things despite the distances.
+Other examples of input transducers include:
+Transmitter.
+Once the source signal has been converted into an electric signal, the transmitter will modify this signal for efficient transmission. In order to do this, the signal must pass through an electronic circuit containing the following components:
+After the signal has been amplified, it is ready for transmission. At the end of the circuit is an antenna, the point at which the signal is released as electromagnetic waves (or electromagnetic radiation).
+Communication channel.
+A communication channel is simply referring to the medium by which a signal travels. There are two types of media by which electrical signals travel, i.e. guided and unguided. Guided media refers to any medium that can be directed from transmitter to receiver by means of connecting cables. In optical fiber communication, the medium is an optical (glass-like) fiber. Other guided media might include coaxial cables, telephone wire, twisted-pairs, etc... The other type of media, unguided media, refers to any communication channel that creates space between the transmitter and receiver. For radio or RF communication, the medium is air. Air is the only thing between the transmitter and receiver for RF communication while in other cases, like sonar, the medium is usually water because sound waves travel efficiently through certain liquid media. Both types of media are considered unguided because there are no connecting cables between the transmitter and receiver. Communication channels include almost everything from the vacuum of space to solid pieces of metal; however, some mediums are preferred more than others. That is because differing sources travel through subjective mediums with fluctuating efficiencies.
+Receiver.
+Once the signal has passed through the communication channel, it must be effectively captured by a receiver. The goal of the receiver is to capture and reconstruct the signal before it passed through the transmitter (i.e. the A/D converter, modulator and encoder). This is done by passing the "received" signal through another circuit containing the following components:
+Most likely the signal will have lost some of its energy after having passed through the communication channel or medium. The signal can be boosted by passing it through a signal amplifier.
+When the analog signal converted into digital signal.
+Output transducer.
+The output transducer simply converts the electric signal (created by the input transducer) back into its original form. Examples of output transducers include but are not limited to the following:
+Other.
+Some common pairs of input and output transducers include:
+Again, input transducers convert non-electric signals like voice into electric signals that can be transmitted over great distances very quickly. Output transducers convert the electric signal back into sound or picture, etc... There are many different types of transducers and the combinations are limitless.
+

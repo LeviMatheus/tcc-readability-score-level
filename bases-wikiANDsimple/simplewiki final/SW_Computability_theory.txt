@@ -1,0 +1,4 @@
+Computability theory is part of computer science. Scientists want to know what can be computed, and what can not.
+There is a model of a computer that is used for this. It is called the Turing machine. A Turing machine basically is a special typewriter with an endless ribbon. The machine is named after the mathematician Alan Turing.
+A problem is "computable" if it can be expressed in such a way that a Turing machine can solve it.
+One of the best known examples is the Halting problem. The task is to write a program which says for all programs whether they will finally stop. This is impossible to decide. Mathematicians say the problem is undecidable.

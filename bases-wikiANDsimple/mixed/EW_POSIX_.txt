@@ -1,0 +1,39 @@
+
+The Portable Operating System Interface (POSIX) is a family of standards specified by the IEEE Computer Society for maintaining compatibility between operating systems. POSIX defines the application programming interface (API), along with command line shells and utility interfaces, for software compatibility with variants of Unix and other operating systems.
+Name.
+Originally, the name "POSIX" referred to IEEE Std 1003.1-1988, released in 1988. The family of POSIX standards is formally designated as IEEE 1003 and the ISO/IEC standard number is ISO/IEC 9945.
+The standards emerged from a project that began around 1985. Richard Stallman suggested the name "POSIX" to the IEEE instead of former "IEEE-IX". The committee found it more easily pronounceable and memorable, and thus adopted it.
+Overview.
+Unix was selected as the basis for a standard system interface partly because it was "manufacturer-neutral". However, several major versions of Unix existed—so there was a need to develop a common-denominator system. The POSIX specifications for Unix-like operating systems originally consisted of a single document for the core programming interface, but eventually grew to 19 separate documents (POSIX.1, POSIX.2, etc). The standardized user command line and scripting interface were based on the UNIX System V shell. Many user-level programs, services, and utilities (including awk, echo, ed) were also standardized, along with required program-level services (including basic I/O: file, terminal, and network). POSIX also defines a standard threading library API which is supported by most modern operating systems. In 2008, most parts of POSIX were combined into a single standard "(IEEE Std 1003.1-2008", also known as "POSIX.1-2008)."
+, POSIX documentation is divided into two parts:
+The development of the POSIX standard takes place in the Austin Group (a joint working group among the IEEE, The Open Group, and the ISO/IEC JTC 1).
+Versions.
+Parts before 1997.
+Before 1997, POSIX comprised several standards:
+Versions after 1997.
+After 1997, the Austin Group developed the POSIX revisions. The specifications are known under the name Single UNIX Specification, before they become a POSIX standard when formally approved by the ISO.
+POSIX.1-2001 (with two TCs).
+"POSIX.1-2001" (or IEEE Std 1003.1-2001) equates to the "Single UNIX Specification version 3."
+This standard consisted of:
+IEEE Std 1003.1-2004 involved a minor update of POSIX.1-2001. It incorporated two minor updates or errata referred to as "Technical Corrigenda" (TCs). Its contents are available on the web.
+POSIX.1-2008 (with two TCs).
+"Base Specifications, Issue 7" (or "IEEE Std 1003.1-2008", 2016 Edition) is similar to the current 2017 version (as of 22 July 2018).
+This standard consists of:
+POSIX.1-2017.
+IEEE Std 1003.1-2017 (Revision of IEEE Std 1003.1-2008) - IEEE Standard for Information Technology—Portable Operating System Interface (POSIX(R)) Base Specifications, Issue 7 is available from either The Open Group or IEEE and is, as of 22 July 2018, the current standard. It is technically identical to POSIX.1-2008 with Technical Corrigenda 1 and 2 applied. A free online copy may still be available.
+Controversies.
+512- vs 1024-byte blocks.
+POSIX mandates 512-byte default block sizes for the df and du utilities, reflecting the typical size of blocks on disks. When Richard Stallman and the GNU team were implementing POSIX for the GNU operating system, they objected to this on the grounds that most people think in terms of 1024 byte (or 1 KiB) blocks. The environment variable was introduced to allow the user to force the standards-compliant behaviour. The variable name was later changed to . This variable is now also used for a number of other behaviour quirks.
+POSIX-oriented operating systems.
+Depending upon the degree of compliance with the standards, one can classify operating systems as fully or partly POSIX compatible. Certified products can be found at the IEEE's website.
+POSIX-certified.
+Some versions of the following operating systems have been certified to conform to one or more of the various POSIX standards. This means that they passed the automated conformance tests.
+Mostly POSIX-compliant.
+The following, while not officially certified as POSIX compatible, comply in large part:
+POSIX for OS/2.
+Mostly POSIX compliant environments for OS/2:
+POSIX for DOS.
+Partially POSIX compliant environments for DOS include:
+Compliant via compatibility layer.
+The following are not officially certified as POSIX compatible, but they conform in large part to the standards by implementing POSIX support via some sort of compatibility feature (usually translation libraries, or a layer atop the kernel). Without these features, they are usually non-compliant.
+

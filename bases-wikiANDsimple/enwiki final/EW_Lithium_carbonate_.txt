@@ -1,0 +1,47 @@
+
+Lithium carbonate is an inorganic compound, the lithium salt of carbonate with the formula . This white salt is widely used in the processing of metal oxides, and as a drug for the treatment of mood disorders.
+For the treatment of bipolar disorder, it is on the World Health Organization's List of Essential Medicines, the most important medications needed in a basic health system.
+Uses.
+Lithium carbonate is an important industrial chemical. Its main use is as a precursor for compounds used in lithium-ion batteries. Glasses derived from lithium carbonate are useful in ovenware. Lithium carbonate is a common ingredient in both low-fire and high-fire ceramic glaze. It forms low-melting fluxes with silica and other materials. Its alkaline properties are conducive to changing the state of metal oxide colorants in glaze particularly red iron oxide (). Cement sets more rapidly when prepared with lithium carbonate, and is useful for tile adhesives. When added to aluminium trifluoride, it forms LiF which gives a superior electrolyte for the processing of aluminium. 
+Rechargeable batteries.
+The main use of lithium carbonate (and lithium hydroxide) is as a precursor to lithium compounds used in lithium-ion batteries. In practice two components of the battery are made with lithium compounds: the cathode and the electrolyte. 
+The electrolyte is a solution of lithium hexafluorophosphate, while the cathode uses one of several lithiated structures, the most popular of which are lithium cobalt oxide and lithium iron phosphate.
+Lithium carbonate may be converted into lithium hydroxide before conversion to the compounds above.
+Medical uses.
+In 1843, lithium carbonate was used as a new solvent for stones in the bladder. In 1859, some doctors recommended a therapy with lithium salts for a number of ailments, including gout, urinary calculi, rheumatism, mania, depression, and headache. In 1948, John Cade discovered the anti-manic effects of lithium ions. This finding led lithium, specifically lithium carbonate, to be used to treat mania associated with bipolar disorder.
+Lithium carbonate is used as a psychiatric medication to treat mania, the elevated phase of bipolar disorder. Lithium ions interfere with ion transport processes (see “sodium pump”) that relay and amplify messages carried to the cells of the brain. Mania is associated with irregular increases in protein kinase C (PKC) activity within the brain. Lithium carbonate and sodium valproate, another drug traditionally used to treat the disorder, act in the brain by inhibiting PKC's activity and help to produce other compounds that also inhibit the PKC. Lithium carbonate's mood-controlling properties are not fully understood.
+Adverse reactions.
+Taking lithium salts has risks and side effects. Extended use of lithium to treat various mental disorders has been known to lead to acquired nephrogenic diabetes insipidus. Lithium intoxication can affect the central nervous system and renal system and can be lethal.
+Red pyrotechnic colorant.
+Lithium carbonate is used to impart a red color to fireworks.
+Properties and reactions.
+Unlike sodium carbonate, which forms at least three hydrates, lithium carbonate exists only in the anhydrous form. Its solubility in water is low relative to other lithium salts. The isolation of lithium from aqueous extracts of lithium ores capitalizes on this poor solubility. Its apparent solubility increases 10-fold under a mild pressure of carbon dioxide; this effect is due to the formation of the metastable bicarbonate, which is more soluble:
+The extraction of lithium carbonate at high pressures of and its precipitation upon depressurizing is the basis of the Quebec process.
+Lithium carbonate can also be purified by exploiting its diminished solubility in hot water. Thus, heating a saturated aqueous solution causes crystallization of .
+Lithium carbonate, and other carbonates of group 1, do not decarboxylate readily. decomposes at temperatures around 1300 °C.
+Production.
+Lithium is extracted from primarily two sources: spodumene in pegmatite deposits, and lithium salts in underground brine pools. About 30,000 tons were produced in 1989. 
+From underground brine reservoirs.
+As an example, in the Salar de Atacama in the Atacama desert of Northern Chile, SQM produces lithium carbonate and hydroxide from brine.
+The process involves pumping up lithium rich brine from below the ground into shallow pans for evaporation. The brine contains many different dissolved ions, and as the concentration increases, salts precipitate out of solution and sink. The remaining liquid (the supernatant) is used for the next step. The exact sequence of pans may vary depending on the concentration of ions in a particular source of brine.
+In the first pan, halite (sodium chloride or common salt) crystallises. This has insufficient economic value and is discarded. The supernatant, with ever increasing concentration of dissolved solids, is transferred successively to the sylvinite (sodium potassium chloride) pan, the carnalite (potassium magnesium chloride) pan and finally a pan designed to maximise the concentration of lithium chloride. The process takes about 15 months. The concentrate (30-35% lithium chloride solution) is trucked to Salar del Carmen. There, boron and magnesium are removed (typically residual boron is removed by solvent extraction and/or ion exchange and magnesium by raising the pH above 10 with sodium hydroxide) then in the final step, by addition of sodium carbonate, the desired lithium carbonate is precipitated out, separated, and processed.
+Some of the by-products from the evaporation process may also have economic value.
+There is considerable focus on the use of water in this water poor region. SQM commissioned a life-cycle analysis which concluded that water consumption for SQM's lithium hydroxide and carbonate is significantly lower than the average consumption in production from the main ore-based process, using spodumene. A more general LCA suggests the opposite for extraction from reservoirs as a whole.
+The majority of brine based production is in the "lithium triangle" in South America.
+From 'geothermal' brine.
+Another potential source of lithium is the leachates of geothermal wells, which are carried to the surface. Recovery of lithium has been demonstrated in the field; the lithium is separated by simple precipitation and filtration. The process and environmental costs are primarily those of the already-operating well; net environmental impacts may thus be positive.
+The brine of United Downs Deep Geothermal Power Project near Redruth is claimed by Cornish Lithium to be valuable due to its high lithium concentration (220 mg/l) with low magnesium (&lt;5mg/l) and total dissolved solids content of &lt;29g/l and a flow rate of 40l/s.
+From ore.
+α-spodumene is roasted at 1100°C for 1h to make β-spodumene, then roasted at 250°C for 10 minutes with sulphuric acid.
+As of 2020, Australia was the world's largest producer of lithium intermediates, all based on spodumene
+In recent years many mining companies have begun exploration of lithium projects throughout North America, South America and Australia to identify economic deposits that can potentially bring new supplies of lithium carbonate online to meet the growing demand for the product.
+From clay.
+Tesla Motors announced a revolutionary process to extract lithium from clay in Nevada using only salt and no acid. This was met with scepticism.
+From end of life batteries.
+A few small companies are actively recycling spent batteries, mostly focussing on recovering copper and cobalt. Some do recover lithium also.
+Other.
+In April 2017 MGX Minerals reported it had received independent confirmation of its rapid lithium extraction process to recover lithium and other valuable minerals from oil and gas wastewater brine.
+Electrodialysis has been proposed to extract lithium from seawater, but it is not commercially viable.
+Natural occurrence.
+Natural lithium carbonate is known as zabuyelite. This mineral is connected with deposits of some salt lakes and some pegmatites.
+

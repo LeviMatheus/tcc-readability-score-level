@@ -1,0 +1,1 @@
+A web browser is a computer program that lets people find and read web pages on the Internet. Browsers read documents that are written in HTML (HyperText Markup Language) to display images and text with clickable links. They use rules such as HTTP (HyperText Transfer Protocol) to transfer data with the World Wide Web.

@@ -1,0 +1,7 @@
+
+For an electromagnetic wave, the coherence time is the time over which a propagating wave (especially a laser or maser beam) may be considered coherent, meaning that its phase is, on average, predictable.
+In long-distance transmission systems, the coherence time may be reduced by propagation factors such as dispersion, scattering, and diffraction.
+The coherence time, usually designated "τ", is calculated by dividing the coherence length by the phase velocity of light in a medium; approximately given by
+where "λ" is the central wavelength of the source, "Δν" and "Δλ" is the spectral width of the source in units of frequency and wavelength respectively, and "c" is the speed of light in vacuum.
+A single mode fiber laser has a linewidth of a few kHz, corresponding to a coherence time of a few hundred microseconds. Hydrogen masers have linewidth around 1 Hz, corresponding to a coherence time of about one second. Their coherence length approximately corresponds to the distance from the Earth to the Moon.
+

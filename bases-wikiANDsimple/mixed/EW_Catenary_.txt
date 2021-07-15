@@ -1,0 +1,141 @@
+
+In physics and geometry, a catenary (, ) is the curve that an idealized hanging chain or cable assumes under its own weight when supported only at its ends.
+The catenary curve has a U-like shape, superficially similar in appearance to a parabolic arch, but it is not a parabola.
+The curve appears in the design of certain types of arches and as a cross section of the catenoid—the shape assumed by a soap film bounded by two parallel circular rings.
+The catenary is also called the alysoid, chainette, or, particularly in the materials sciences, funicular. Rope statics describes catenaries in a classic statics problem involving a hanging rope.
+Mathematically, the catenary curve is the graph of the hyperbolic cosine function. The surface of revolution of the catenary curve, the catenoid, is a minimal surface, specifically a minimal surface of revolution. A hanging chain will assume a shape of least potential energy which is a catenary. Galileo Galilei in 1638 discussed the catenary in the book "Two New Sciences" recognizing that it was different from a parabola. The mathematical properties of the catenary curve were studied by Robert Hooke in the 1670s, and its equation was derived by Leibniz, Huygens and Johann Bernoulli in 1691.
+Catenaries and related curves are used in architecture and engineering (e.g., in the design of bridges and arches so that forces do not result in bending moments). In the offshore oil and gas industry, "catenary" refers to a steel catenary riser, a pipeline suspended between a production platform and the seabed that adopts an approximate catenary shape. In the rail industry it refers to the overhead wiring that transfers power to trains. (This often supports a lighter contact wire, in which case it does not follow a true catenary curve.)
+In optics and electromagnetics, the hyperbolic cosine and sine functions are basic solutions to Maxwell's equations. The symmetric modes consisting of two evanescent waves would form a catenary shape.
+History.
+The word "catenary" is derived from the Latin word "catēna", which means "chain". The English word "catenary" is usually attributed to Thomas Jefferson,
+who wrote in a letter to Thomas Paine on the construction of an arch for a bridge:
+It is often said that Galileo thought the curve of a hanging chain was parabolic. In his "Two New Sciences" (1638), Galileo says that a hanging cord is an approximate parabola, and he correctly observes that this approximation improves as the curvature gets smaller and is almost exact when the elevation is less than 45°. That the curve followed by a chain is not a parabola was proven by Joachim Jungius (1587–1657); this result was published posthumously in 1669.
+The application of the catenary to the construction of arches is attributed to Robert Hooke, whose "true mathematical and mechanical form" in the context of the rebuilding of St Paul's Cathedral alluded to a catenary. Some much older arches approximate catenaries, an example of which is the Arch of Taq-i Kisra in Ctesiphon.
+In 1671, Hooke announced to the Royal Society that he had solved the problem of the optimal shape of an arch, and in 1675 published an encrypted solution as a Latin anagram in an appendix to his "Description of Helioscopes," where he wrote that he had found "a true mathematical and mechanical form of all manner of Arches for Building." He did not publish the solution to this anagram in his lifetime, but in 1705 his executor provided it as "ut pendet continuum flexile, sic stabit contiguum rigidum inversum", meaning "As hangs a flexible cable so, inverted, stand the touching pieces of an arch."
+In 1691, Gottfried Leibniz, Christiaan Huygens, and Johann Bernoulli derived the equation in response to a challenge by Jakob Bernoulli; their solutions were published in the "Acta Eruditorum" for June 1691. David Gregory wrote a treatise on the catenary in 1697 in which he provided an incorrect derivation of the correct differential equation.
+Euler proved in 1744 that the catenary is the curve which, when rotated about the -axis, gives the surface of minimum surface area (the catenoid) for the given bounding circles. Nicolas Fuss gave equations describing the equilibrium of a chain under any force in 1796.
+Inverted catenary arch.
+Catenary arches are often used in the construction of kilns. To create the desired curve, the shape of a hanging chain of the desired dimensions is transferred to a form which is then used as a guide for the placement of bricks or other building material.
+The Gateway Arch in St. Louis, Missouri, United States is sometimes said to be an (inverted) catenary, but this is incorrect. It is close to a more general curve called a flattened catenary, with equation , which is a catenary if . While a catenary is the ideal shape for a freestanding arch of constant thickness, the Gateway Arch is narrower near the top. According to the U.S. National Historic Landmark nomination for the arch, it is a "weighted catenary" instead. Its shape corresponds to the shape that a weighted chain, having lighter links in the middle, would form.
+Catenary bridges.
+In free-hanging chains, the force exerted is uniform with respect to length of the chain, and so the chain follows the catenary curve. The same is true of a simple suspension bridge or "catenary bridge," where the roadway follows the cable.
+A stressed ribbon bridge is a more sophisticated structure with the same catenary shape.
+However, in a suspension bridge with a suspended roadway, the chains or cables support the weight of the bridge, and so do not hang freely. In most cases the roadway is flat, so when the weight of the cable is negligible compared with the weight being supported, the force exerted is uniform with respect to horizontal distance, and the result is a parabola, as discussed below (although the term "catenary" is often still used, in an informal sense). If the cable is heavy then the resulting curve is between a catenary and a parabola.
+Anchoring of marine objects.
+The catenary produced by gravity provides an advantage to heavy anchor rodes. An anchor rode (or anchor line) usually consists of chain or cable or both. Anchor rodes are used by ships, oil rigs, docks, floating wind turbines, and other marine equipment which must be anchored to the seabed.
+When the rope is slack, the catenary curve presents a lower angle of pull on the anchor or mooring device than would be the case if it were nearly straight. This enhances the performance of the anchor and raises the level of force it will resist before dragging. To maintain the catenary shape in the presence of wind, a heavy chain is needed, so that only larger ships in deeper water can rely on this effect. Smaller boats also rely on catenary to maintain maximum holding power.
+Mathematical description.
+Equation.
+The equation of a catenary in Cartesian coordinates has the form
+where is the hyperbolic cosine function, and where is measured from the lowest point. All catenary curves are similar to each other; changing the parameter is equivalent to a uniform scaling of the curve.
+The Whewell equation for the catenary is
+Differentiating gives
+and eliminating gives the Cesàro equation
+The radius of curvature is then
+which is the length of the line normal to the curve between it and the -axis.
+Relation to other curves.
+When a parabola is rolled along a straight line, the roulette curve traced by its focus is a catenary. The envelope of the directrix of the parabola is also a catenary. The involute from the vertex, that is the roulette formed traced by a point starting at the vertex when a line is rolled on a catenary, is the tractrix.
+Another roulette, formed by rolling a line on a catenary, is another line. This implies that square wheels can roll perfectly smoothly on a road made of a series of bumps in the shape of an inverted catenary curve. The wheels can be any regular polygon except a triangle, but the catenary must have parameters corresponding to the shape and dimensions of the wheels.
+Geometrical properties.
+Over any horizontal interval, the ratio of the area under the catenary to its length equals , independent of the interval selected. The catenary is the only plane curve other than a horizontal line with this property. Also, the geometric centroid of the area under a stretch of catenary is the midpoint of the perpendicular segment connecting the centroid of the curve itself and the -axis.
+Science.
+A moving charge in a uniform electric field travels along a catenary (which tends to a parabola if the charge velocity is much less than the speed of light ).
+The surface of revolution with fixed radii at either end that has minimum surface area is a catenary revolved about the -axis.
+Analysis.
+Model of chains and arches.
+In the mathematical model the chain (or cord, cable, rope, string, etc.) is idealized by assuming that it is so thin that it can be regarded as a curve and that it is so flexible any force of tension exerted by the chain is parallel to the chain. The analysis of the curve for an optimal arch is similar except that the forces of tension become forces of compression and everything is inverted.
+An underlying principle is that the chain may be considered a rigid body once it has attained equilibrium. Equations which define the shape of the curve and the tension of the chain at each point may be derived by a careful inspection of the various forces acting on a segment using the fact that these forces must be in balance if the chain is in static equilibrium.
+Let the path followed by the chain be given parametrically by where represents arc length and is the position vector. This is the natural parameterization and has the property that
+where is a unit tangent vector.
+A differential equation for the curve may be derived as follows. Let be the lowest point on the chain, called the vertex of the catenary. The slope of the curve is zero at C since it is a minimum point. Assume is to the right of since the other case is implied by symmetry. The forces acting on the section of the chain from to are the tension of the chain at , the tension of the chain at , and the weight of the chain. The tension at is tangent to the curve at and is therefore horizontal without any vertical component and it pulls the section to the left so it may be written where is the magnitude of the force. The tension at is parallel to the curve at and pulls the section to the right. The tension at can be split into two components so it may be written , where is the magnitude of the force and is the angle between the curve at and the -axis (see tangential angle). Finally, the weight of the chain is represented by where is the mass per unit length, is the acceleration of gravity and is the length of the segment of chain between and .
+The chain is in equilibrium so the sum of three forces is , therefore
+and
+and dividing these gives
+It is convenient to write
+which is the length of chain whose weight on Earth is equal in magnitude to the tension at . Then
+is an equation defining the curve.
+The horizontal component of the tension, is constant and the vertical component of the tension, is proportional to the length of chain between and the vertex.
+Derivation of equations for the curve.
+The differential equation given above can be solved to produce equations for the curve.
+From
+the formula for arc length gives
+Then
+and
+The second of these equations can be integrated to give
+and by shifting the position of the -axis, can be taken to be 0. Then
+The -axis thus chosen is called the "directrix" of the catenary.
+It follows that the magnitude of the tension at a point is , which is proportional to the distance between the point and the directrix.
+The integral of the expression for can be found using standard techniques, giving
+and, again, by shifting the position of the -axis, can be taken to be 0. Then
+The -axis thus chosen passes through the vertex and is called the axis of the catenary.
+These results can be used to eliminate giving
+Alternative derivation.
+The differential equation can be solved using a different approach. From
+it follows that
+and
+Integrating gives,
+and
+As before, the and -axes can be shifted so and can be taken to be 0. Then
+and taking the reciprocal of both sides
+Adding and subtracting the last two equations then gives the solution
+and
+Determining parameters.
+In general the parameter is the position of the axis. The equation can be determined in this case as follows:
+Relabel if necessary so that is to the left of and let be the horizontal and be the vertical distance from to . Translate the axes so that the vertex of the catenary lies on the -axis and its height is adjusted so the catenary satisfies the standard equation of the curve
+and let the coordinates of and be and respectively. The curve passes through these points, so the difference of height is
+and the length of the curve from to is
+When is expanded using these expressions the result is
+so
+This is a transcendental equation in and must be solved numerically. It can be shown with the methods of calculus that there is at most one solution with and so there is at most one position of equilibrium.
+However, if both ends of the curve ( and ) are at the same level (), it can be shown that
+where L is the total length of the curve between and and is the sag (vertical distance between , and the vertex of the curve).
+It can also be shown that
+and
+where H is the horizontal distance between and which are located at the same level ().
+The horizontal traction force at and is , where is the mass per unit length of the chain or cable.
+Generalizations with vertical force.
+Nonuniform chains.
+If the density of the chain is variable then the analysis above can be adapted to produce equations for the curve given the density, or given the curve to find the density.
+Let denote the weight per unit length of the chain, then the weight of the chain has magnitude
+where the limits of integration are and . Balancing forces as in the uniform chain produces
+and
+and therefore
+Differentiation then gives
+In terms of and the radius of curvature this becomes
+Suspension bridge curve.
+A similar analysis can be done to find the curve followed by the cable supporting a suspension bridge with a horizontal roadway. If the weight of the roadway per unit length is and the weight of the cable and the wire supporting the bridge is negligible in comparison, then the weight on the cable (see the figure in Catenary#Model of chains and arches) from to is where is the horizontal distance between and . Proceeding as before gives the differential equation
+This is solved by simple integration to get
+and so the cable follows a parabola. If the weight of the cable and supporting wires is not negligible then the analysis is more complex.
+Catenary of equal strength.
+In a catenary of equal strength, the cable is strengthened according to the magnitude of the tension at each point, so its resistance to breaking is constant along its length. Assuming that the strength of the cable is proportional to its density per unit length, the weight, , per unit length of the chain can be written , where is constant, and the analysis for nonuniform chains can be applied.
+In this case the equations for tension are
+Combining gives
+and by differentiation
+where is the radius of curvature.
+The solution to this is
+In this case, the curve has vertical asymptotes and this limits the span to . Other relations are
+The curve was studied 1826 by Davies Gilbert and, apparently independently, by Gaspard-Gustave Coriolis in 1836.
+Recently, it was shown that this type of catenary could act as a building block of electromagnetic metasurface and was known as "catenary of equal phase gradient".
+Elastic catenary.
+In an elastic catenary, the chain is replaced by a spring which can stretch in response to tension. The spring is assumed to stretch in accordance with Hooke's Law. Specifically, if is the natural length of a section of spring, then the length of the spring with tension applied has length
+where is a constant equal to , where is the stiffness of the spring. In the catenary the value of is variable, but ratio remains valid at a local level, so
+The curve followed by an elastic spring can now be derived following a similar method as for the inelastic spring.
+The equations for tension of the spring are
+and
+from which
+where is the natural length of the segment from to and is the mass per unit length of the spring with no tension and is the acceleration of gravity. Write
+so
+Then 
+from which
+Integrating gives the parametric equations
+Again, the and -axes can be shifted so and can be taken to be 0. So
+are parametric equations for the curve. At the rigid limit where is large, the shape of the curve reduces to that of a non-elastic chain.
+Other generalizations.
+Chain under a general force.
+With no assumptions being made regarding the force acting on the chain, the following analysis can be made.
+First, let be the force of tension as a function of . The chain is flexible so it can only exert a force parallel to itself. Since tension is defined as the force that the chain exerts on itself, must be parallel to the chain. In other words,
+where is the magnitude of and is the unit tangent vector.
+Second, let be the external force per unit length acting on a small segment of a chain as a function of . The forces acting on the segment of the chain between and are the force of tension at one end of the segment, the nearly opposite force at the other end, and the external force acting on the segment which is approximately . These forces must balance so
+Divide by and take the limit as to obtain
+These equations can be used as the starting point in the analysis of a flexible chain acting under any external force. In the case of the standard catenary, where the chain has mass per unit length and is the acceleration of gravity.
+

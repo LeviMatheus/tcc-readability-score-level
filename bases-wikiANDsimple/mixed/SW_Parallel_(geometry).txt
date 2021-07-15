@@ -1,0 +1,1 @@
+Notice that even if these two line segments were extended to infinity, there would never be a point of intersection between the two of them.

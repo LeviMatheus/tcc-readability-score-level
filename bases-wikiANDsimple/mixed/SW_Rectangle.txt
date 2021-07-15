@@ -1,0 +1,3 @@
+A rectangle is a shape with four sides and four corners. The corners are all right angles. It follows that the lengths of the pairs of sides opposite each other must be equal.
+Tables, boxes, books, and paper look like rectangles.
+A rectangle with all four sides equal is called a square.

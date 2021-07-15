@@ -1,0 +1,99 @@
+
+In mathematics, modular arithmetic is a system of arithmetic for integers, where numbers "wrap around" when reaching a certain value, called the modulus. The modern approach to modular arithmetic was developed by Carl Friedrich Gauss in his book "Disquisitiones Arithmeticae", published in 1801.
+A familiar use of modular arithmetic is in the 12-hour clock, in which the day is divided into two 12-hour periods. If the time is 7:00 now, then 8 hours later it will be 3:00. Simple addition would result in , but clocks "wrap around" every 12 hours. Because the hour number starts over after it reaches 12, this is arithmetic "modulo" 12. In terms of the definition below, 15 is "congruent" to 3 modulo 12, so "15:00" on a 24-hour clock is displayed "3:00" on a 12-hour clock.
+Congruence.
+Given an integer , called a modulus, two integers are said to be congruent modulo , if is a divisor of their difference (i.e., if there is an integer such that ).
+Congruence modulo is a congruence relation, meaning that it is an equivalence relation that is compatible with the operations of addition, subtraction, and multiplication. Congruence modulo is denoted:
+The parentheses mean that applies to the entire equation, not just to the right-hand side (here ). This notation is not to be confused with the notation (without parentheses), which refers to the modulo operation. Indeed, denotes the unique integer such that and formula_2 (i.e., the remainder of formula_3 when divided by formula_4).
+The congruence relation may be rewritten as
+explicitly showing its relationship with Euclidean division. However, the here need not be the remainder of the division of by Instead, what the statement asserts is that and have the same remainder when divided by . That is,
+where is the common remainder. Subtracting these two expressions, we recover the previous relation:
+by setting 
+Examples.
+In modulus 12, one can assert that:
+because , which is a multiple of 12. Another way to express this is to say that both 38 and 14 have the same remainder 2, when divided by 12.
+The definition of congruence also applies to negative values. For example:
+Properties.
+The congruence relation satisfies all the conditions of an equivalence relation:
+If and or if then:
+If , then it is generally false that . However, the following is true:
+For cancellation of common terms, we have the following rules:
+The modular multiplicative inverse is defined by the following rules:
+The multiplicative inverse may be efficiently computed by solving Bézout's equation formula_11 for formula_12—using the Extended Euclidean algorithm.
+In particular, if is a prime number, then is coprime with for every such that ; thus a multiplicative inverse exists for all that is not congruent to zero modulo .
+Some of the more advanced properties of congruence relations are the following:
+Congruence classes.
+Like any congruence relation, congruence modulo is an equivalence relation, and the equivalence class of the integer , denoted by , is the set . This set, consisting of all the integers congruent to  modulo , is called the congruence class, residue class, or simply residue of the integer modulo . When the modulus is known from the context, that residue may also be denoted .
+Residue systems.
+Each residue class modulo may be represented by any one of its members, although we usually represent each residue class by the smallest nonnegative integer which belongs to that class (since this is the proper remainder which results from division). Any two members of different residue classes modulo are incongruent modulo . Furthermore, every integer belongs to one and only one residue class modulo .
+The set of integers is called the least residue system modulo . Any set of integers, no two of which are congruent modulo , is called a complete residue system modulo .
+The least residue system is a complete residue system, and a complete residue system is simply a set containing precisely one representative of each residue class modulo . For example. the least residue system modulo 4 is {0, 1, 2, 3}. Some other complete residue systems modulo 4 include:
+Some sets which are "not" complete residue systems modulo 4 are:
+Reduced residue systems.
+Given the Euler's totient function , any set of integers that are relatively prime to and mutually incongruent under modulus is called a reduced residue system modulo . The set {5,15} from above, for example, is an instance of a reduced residue system modulo 4.
+Integers modulo "n".
+The set of all congruence classes of the integers for a modulus is called the ring of integers modulo , and is denoted formula_14, formula_15, or formula_16. The notation formula_16 is, however, not recommended because it can be confused with the set of -adic integers. The ring formula_18 is fundamental to various branches of mathematics (see below).
+The set is defined for "n" &gt; 0 as:
+We define addition, subtraction, and multiplication on formula_18 by the following rules:
+The verification that this is a proper definition uses the properties given before.
+In this way, formula_18 becomes a commutative ring. For example, in the ring formula_27, we have
+as in the arithmetic for the 24-hour clock.
+We use the notation formula_18 because this is the quotient ring of formula_21 by the ideal formula_31, a set containing all integers divisible by , where formula_32 is the singleton set . Thus formula_18 is a field when formula_31 is a maximal ideal (i.e., when is prime).
+This can also be constructed from the group formula_35 under the addition operation alone. The residue class is the group coset of in the quotient group formula_18, a cyclic group.
+Rather than excluding the special case , it is more useful to include formula_37 (which, as mentioned before, is isomorphic to the ring formula_21 of integers). In fact, this inclusion is useful when discussing the characteristic of a ring.
+The ring of integers modulo is a finite field if and only if is prime (this ensures that every nonzero element has a multiplicative inverse). If formula_39 is a prime power with "k" &gt; 1, there exists a unique (up to isomorphism) finite field formula_40 with elements, but this is "not" formula_41, which fails to be a field because it has zero-divisors.
+The multiplicative subgroup of integers modulo "n" is denoted by formula_42. This consists of formula_43 (where "a" is coprime to "n"), which are precisely the classes possessing a multiplicative inverse. This forms a commutative group under multiplication, with order formula_44.
+Applications.
+In theoretical mathematics, modular arithmetic is one of the foundations of number theory, touching on almost every aspect of its study, and it is also used extensively in group theory, ring theory, knot theory, and abstract algebra. In applied mathematics, it is used in computer algebra, cryptography, computer science, chemistry and the visual and musical arts.
+A very practical application is to calculate checksums within serial number identifiers. For example, International Standard Book Number (ISBN) uses modulo 11 (for 10 digit ISBN) or modulo 10 (for 13 digit ISBN) arithmetic for error detection. Likewise, International Bank Account Numbers (IBANs), for example, make use of modulo 97 arithmetic to spot user input errors in bank account numbers. In chemistry, the last digit of the CAS registry number (a unique identifying number for each chemical compound) is a check digit, which is calculated by taking the last digit of the first two parts of the CAS registry number times 1, the previous digit times 2, the previous digit times 3 etc., adding all these up and computing the sum modulo 10.
+In cryptography, modular arithmetic directly underpins public key systems such as RSA and Diffie–Hellman, and provides finite fields which underlie elliptic curves, and is used in a variety of symmetric key algorithms including Advanced Encryption Standard (AES), International Data Encryption Algorithm (IDEA), and RC4. RSA and Diffie–Hellman use modular exponentiation.
+In computer algebra, modular arithmetic is commonly used to limit the size of integer coefficients in intermediate calculations and data. It is used in polynomial factorization, a problem for which all known efficient algorithms use modular arithmetic. It is used by the most efficient implementations of polynomial greatest common divisor, exact linear algebra and Gröbner basis algorithms over the integers and the rational numbers. As posted on Fidonet in the 1980s and archived at Rosetta Code, modular arithmetic was used to disprove Euler's sum of powers conjecture on a Sinclair QL microcomputer using just one-fourth of the integer precision used by a CDC 6600 supercomputer to disprove it two decades earlier via a brute force search.
+In computer science, modular arithmetic is often applied in bitwise operations and other operations involving fixed-width, cyclic data structures. The modulo operation, as implemented in many programming languages and calculators, is an application of modular arithmetic that is often used in this context. The logical operator XOR sums 2 bits, modulo 2.
+In music, arithmetic modulo 12 is used in the consideration of the system of twelve-tone equal temperament, where octave and enharmonic equivalency occurs (that is, pitches in a 1∶2 or 2∶1 ratio are equivalent, and C-sharp is considered the same as D-flat).
+The method of casting out nines offers a quick check of decimal arithmetic computations performed by hand. It is based on modular arithmetic modulo 9, and specifically on the crucial property that 10 ≡ 1 (mod 9).
+Arithmetic modulo 7 is used in algorithms that determine the day of the week for a given date. In particular, Zeller's congruence and the Doomsday algorithm make heavy use of modulo-7 arithmetic.
+More generally, modular arithmetic also has application in disciplines such as law (e.g., apportionment), economics (e.g., game theory) and other areas of the social sciences, where proportional division and allocation of resources plays a central part of the analysis.
+Computational complexity.
+Since modular arithmetic has such a wide range of applications, it is important to know how hard it is to solve a system of congruences. A linear system of congruences can be solved in polynomial time with a form of Gaussian elimination, for details see linear congruence theorem. Algorithms, such as Montgomery reduction, also exist to allow simple arithmetic operations, such as multiplication and exponentiation modulo , to be performed efficiently on large numbers.
+Some operations, like finding a discrete logarithm or a quadratic congruence appear to be as hard as integer factorization and thus are a starting point for cryptographic algorithms and encryption. These problems might be NP-intermediate.
+Solving a system of non-linear modular arithmetic equations is NP-complete.
+Example implementations.
+Below are three reasonably fast C functions, two for performing modular multiplication and one for modular exponentiation on unsigned integers not larger than 63 bits, without overflow of the transient operations.
+An algorithmic way to compute formula_45:
+uint64_t mul_mod(uint64_t a, uint64_t b, uint64_t m)
+ if (!((a | b) &amp; (0xFFFFFFFFULL « 32)))
+ return a * b % m;
+ uint64_t d = 0, mp2 = m » 1;
+ int i;
+ if (a &gt;= m) a %= m;
+ if (b &gt;= m) b %= m;
+ for (i = 0; i &lt; 64; ++i)
+ d = (d &gt; mp2) ? (d « 1) - m : d « 1;
+ if (a &amp; 0x8000000000000000ULL)
+ d += b;
+ if (d &gt;= m) d -= m;
+ a «= 1;
+ return d;
+On computer architectures where an extended precision format with at least 64 bits of mantissa is available (such as the long double type of most x86 C compilers), the following routine is , by employing the trick that, by hardware, floating-point multiplication results in the most significant bits of the product kept, while integer multiplication results in the least significant bits kept:
+uint64_t mul_mod(uint64_t a, uint64_t b, uint64_t m)
+ long double x;
+ uint64_t c;
+ int64_t r;
+ if (a &gt;= m) a %= m;
+ if (b &gt;= m) b %= m;
+ x = a;
+ c = x * b / m;
+ r = (int64_t)(a * b - c * m) % (int64_t)m;
+ return r &lt; 0 ? r + m : r;
+Below is a C function for performing modular exponentiation, that uses the function implemented above.
+An algorithmic way to compute formula_46:
+uint64_t pow_mod(uint64_t a, uint64_t b, uint64_t m)
+ uint64_t r = m==1?0:1;
+ while (b &gt; 0) {
+ if (b &amp; 1)
+ r = mul_mod(r, a, m);
+ b = b » 1;
+ a = mul_mod(a, a, m);
+ return r;
+However, for all above routines to work, must not exceed 63 bits.
+

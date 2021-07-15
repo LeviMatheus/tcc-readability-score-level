@@ -1,0 +1,1 @@
+A Spreadsheet is a computer program. It shows a large sheet (like a sheet of paper) that has many cells. Data can be put into the cells. The data can later be analysed to produce picture diagrams (like pie-charts for business reports).

@@ -1,0 +1,3 @@
+Translation is the second process of protein biosynthesis (part of the overall process of gene expression). Translation occurs in the cytoplasm where the ribosomes are located.
+Ribosomes are made of a small and large subunit which surrounds the mRNA. In translation, messenger RNA (mRNA) is decoded to produce a specific polypeptide according to the rules specified by the genetic code. This is the process that converts an mRNA sequence into a chain of amino acids that form a protein. Before translation there must be transcription.
+Translation proceeds in four phases: activation, initiation, elongation and termination (all describe the growth of the amino acid chain, or polypeptide that is the product of translation).

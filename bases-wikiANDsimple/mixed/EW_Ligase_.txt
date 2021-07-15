@@ -1,0 +1,14 @@
+
+In biochemistry, a ligase is an enzyme that can catalyze the joining (ligation) of two large molecules by forming a new chemical bond. This is typically via hydrolysis of a small pendant chemical group on one of the larger molecules or the enzyme catalyzing the linking together of two compounds, e.g., enzymes that catalyze joining of C-O, C-S, C-N, etc. In general, a ligase catalyzes the following reaction:
+or sometimes
+where the lowercase letters can signify the small, dependent groups. Ligase can join two complementary fragments of nucleic acid and repair single stranded breaks that arise in double stranded DNA during replication.
+Nomenclature.
+The common names of ligases often include the word "ligase", such as DNA ligase, an enzyme commonly used in molecular biology laboratories to join together DNA fragments. Other common names for ligases include the word "synthetase", because they are used to synthesize new molecules.
+Biochemical nomenclature has sometimes distinguished synthetases from synthases and sometimes treated the words as synonyms. Under one definition, synthases "do not" use energy from nucleoside triphosphates (such as ATP, GTP, CTP, TTP, and UTP), whereas synthetases "do" use nucleoside triphosphates. It is also said that a synthase is a lyase (a lyase is an enzyme that catalyzes the breaking of various chemical bonds by means other than hydrolysis and oxidation, often forming a new double bond or a new ring structure) and does not require any energy, whereas a synthetase is a ligase (a ligase is an enzyme that binds two chemicals or compounds) and thus requires energy. However, the Joint Commission on Biochemical Nomenclature (JCBN) dictates that "synthase" can be used with any enzyme that catalyses synthesis (whether or not it uses nucleoside triphosphates), whereas "synthetase" is to be used synonymously.
+Classification.
+Ligases are classified as EC 6 in the EC number classification of enzymes. Ligases can be further classified into six subclasses:
+Membrane-associated ligases.
+Some ligases associate with biological membranes as peripheral membrane proteins or anchored through a single transmembrane helix, for example certain ubiquitin ligase related proteins.
+Etymology and pronunciation.
+The word "ligase" uses combining forms of "lig-" (from the Latin verb "ligāre", "to bind" or "to tie together") + "-ase" (denoting an enzyme), yielding "binding enzyme".
+

@@ -1,0 +1,1 @@
+MediaWiki is the name of the software that runs all of the Wikimedia projects. MediaWiki was released in 2003. The software is licensed under the GPL. This means it is free content, or open source.

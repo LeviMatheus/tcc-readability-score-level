@@ -1,0 +1,1 @@
+Iff (if and only if) means that two statements are "biconditional". For example, the sentence "Two rational numbers are equal IF AND ONLY IF ad = bc." is a biconditional statement, containing IF AND ONLY IF, or IFF.

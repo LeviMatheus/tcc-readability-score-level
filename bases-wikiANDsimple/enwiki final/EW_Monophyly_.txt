@@ -1,0 +1,13 @@
+
+In cladistics for a group of organisms, monophyly is the condition of being a clade—that is, a group of taxa composed only of a common ancestor (or more precisely an ancestral population) and all of its lineal descendants. Monophyletic groups are typically characterised by shared derived characteristics (synapomorphies), which distinguish organisms in the clade from other organisms. An equivalent term is holophyly.
+The word "mono-phyly" means "one-tribe" in Greek.
+Monophyly is contrasted with paraphyly and polyphyly as shown in the second diagram. A "paraphyletic group" consists of all of the descendants of a common ancestor minus one or more monophyletic groups. A "polyphyletic group" is characterized by convergent features or habits of scientific interest (for example, night-active primates, fruit trees, aquatic insects). The features by which a polyphyletic group is differentiated from others are not inherited from a common ancestor.
+These definitions have taken some time to be accepted. When the cladistics school of thought became mainstream in the 1960s, several alternative definitions were in use. Indeed, taxonomists sometimes used terms without defining them, leading to confusion in the early literature, a confusion which persists.
+The first diagram shows a phylogenetic tree with two monophyletic groups. The several groups and subgroups are particularly situated as branches of the tree to indicate ordered lineal relationships between all the organisms shown. Further, any group may (or may not) be considered a taxon by modern systematics, depending upon the selection of its members in relation to their common ancestor(s); see second and third diagrams.
+Etymology.
+The term "monophyly", or "monophyletic", derives from the two Ancient Greek words (), meaning "alone, only, unique", and (), meaning "genus, species", and refers to the fact that a monophyletic group includes organisms (e.g., genera, species) consisting of all the descendants of a "unique" common ancestor.
+Conversely, the term "polyphyly", or "polyphyletic", builds on the ancient Greek prefix (), meaning "many, a lot of", and refers to the fact that a polyphyletic group includes organisms arising from "multiple" ancestral sources.
+By comparison, the term "paraphyly", or "paraphyletic", uses the ancient Greek prefix (), meaning "beside, near", and refers to the situation in which one or several monophyletic subgroups are "left apart" from all other descendants of a unique common ancestor. That is, a paraphyletic group is "nearly" monophyletic, hence the prefix "".
+Definitions.
+On the broadest scale, definitions fall into two groups.
+

@@ -1,0 +1,1 @@
+Morse code is a type of character encoding that transmits telegraphic information using rhythm. Morse code uses dots and lines to represent the alphabet letters, numbers, punctuation and special characters of a given message.

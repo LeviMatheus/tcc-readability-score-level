@@ -1,0 +1,3 @@
+An assembly language is a low-level programming language, meaning that it is looks more like binary, for programming computers.
+hello_message db 'Hello, World!',0dh,0ah,'$'
+mov dx,offset hello_message

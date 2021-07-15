@@ -1,0 +1,84 @@
+
+Autocorrelation, also known as serial correlation, is the correlation of a signal with a delayed copy of itself as a function of delay. Informally, it is the similarity between observations as a function of the time lag between them. The analysis of autocorrelation is a mathematical tool for finding repeating patterns, such as the presence of a periodic signal obscured by noise, or identifying the missing fundamental frequency in a signal implied by its harmonic frequencies. It is often used in signal processing for analyzing functions or series of values, such as time domain signals.
+Different fields of study define autocorrelation differently, and not all of these definitions are equivalent. In some fields, the term is used interchangeably with autocovariance.
+Unit root processes, trend-stationary processes, autoregressive processes, and moving average processes are specific forms of processes with autocorrelation.
+Auto-correlation of stochastic processes.
+In statistics, the autocorrelation of a real or complex random process is the Pearson correlation between values of the process at different times, as a function of the two times or of the time lag. Let formula_1 be a random process, and formula_2 be any point in time (formula_2 may be an integer for a discrete-time process or a real number for a continuous-time process). Then formula_4 is the value (or realization) produced by a given run of the process at time formula_2. Suppose that the process has mean formula_6 and variance formula_7 at time formula_2, for each formula_2. Then the definition of the auto-correlation function between times formula_10 and formula_11 is
+where formula_12 is the expected value operator and the bar represents complex conjugation. Note that the expectation may not be well defined.
+Subtracting the mean before multiplication yields the auto-covariance function between times formula_10 and formula_11:
+Note that this expression is not well-defined for all-time series or processes, because the mean may not exist, or the variance may be zero (for a constant process) or infinite (for processes with distribution lacking well-behaved moments, such as certain types of power law).
+Definition for wide-sense stationary stochastic process.
+If formula_1 is a wide-sense stationary process then the mean formula_16 and the variance formula_17 are time-independent, and further the autocovariance function depends only on the lag between formula_10 and formula_11: the autocovariance depends only on the time-distance between the pair of values but not on their position in time. This further implies that the autocovariance and auto-correlation can be expressed as a function of the time-lag, and that this would be an even function of the lag formula_20. This gives the more familiar forms for the auto-correlation function
+and the auto-covariance function:
+Normalization.
+It is common practice in some disciplines (e.g. statistics and time series analysis) to normalize the autocovariance function to get a time-dependent Pearson correlation coefficient. However, in other disciplines (e.g. engineering) the normalization is usually dropped and the terms "autocorrelation" and "autocovariance" are used interchangeably.
+The definition of the auto-correlation coefficient of a stochastic process is
+If the function formula_22 is well-defined, its value must lie in the range formula_23, with 1 indicating perfect correlation and −1 indicating perfect anti-correlation.
+For a weak-sense stationarity, wide-sense stationarity (WSS) process, the definition is
+where
+The normalization is important both because the interpretation of the autocorrelation as a correlation provides a scale-free measure of the strength of statistical dependence, and because the normalization has an effect on the statistical properties of the estimated autocorrelations.
+Properties.
+Symmetry property.
+The fact that the auto-correlation function formula_26 is an even function can be stated as
+Respectively for a WSS process:
+Maximum at zero.
+For a WSS process:
+Notice that formula_30 is always real.
+Cauchy–Schwarz inequality.
+The Cauchy–Schwarz inequality, inequality for stochastic processes:
+Autocorrelation of white noise.
+The autocorrelation of a continuous-time white noise signal will have a strong peak (represented by a Dirac delta function) at formula_32 and will be exactly 0 for all other formula_33.
+Wiener–Khinchin theorem.
+The Wiener–Khinchin theorem relates the autocorrelation function formula_26 to the power spectral density formula_35 via the Fourier transform:
+For real-valued functions, the symmetric autocorrelation function has a real symmetric transform, so the Wiener–Khinchin theorem can be re-expressed in terms of real cosines only:
+Auto-correlation of random vectors.
+The (potentially time-dependent) auto-correlation matrix (also called second moment) of a (potentially time-dependent) random vector formula_40 is an formula_41 matrix containing as elements the autocorrelations of all pairs of elements of the random vector formula_42. The autocorrelation matrix is used in various digital signal processing algorithms.
+For a random vector formula_40 containing random elements whose expected value and variance exist, the auto-correlation matrix is defined by
+where formula_44 denotes transposition and has dimensions formula_41.
+Written component-wise:
+If formula_47 is a complex random vector, the autocorrelation matrix is instead defined by
+Here formula_49 denotes Hermitian transposition.
+For example, if formula_50 is a random vector, then formula_51 is a formula_52 matrix whose formula_53-th entry is formula_54.
+Auto-correlation of deterministic signals.
+In signal processing, the above definition is often used without the normalization, that is, without subtracting the mean and dividing by the variance. When the autocorrelation function is normalized by mean and variance, it is sometimes referred to as the autocorrelation coefficient or autocovariance function.
+Auto-correlation of continuous-time signal.
+Given a signal formula_59, the continuous autocorrelation formula_60 is most often defined as the continuous cross-correlation integral of formula_59 with itself, at lag formula_33.
+where formula_63 represents the complex conjugate of formula_59. Note that the parameter formula_2 in the integral is a dummy variable and is only necessary to calculate the integral. It has no specific meaning.
+Auto-correlation of discrete-time signal.
+The discrete autocorrelation formula_66 at lag formula_67 for a discrete-time signal formula_68 is
+The above definitions work for signals that are square integrable, or square summable, that is, of finite energy. Signals that "last forever" are treated instead as random processes, in which case different definitions are needed, based on expected values. For wide-sense-stationary random processes, the autocorrelations are defined as
+For processes that are not stationary, these will also be functions of formula_2, or formula_72.
+For processes that are also ergodic, the expectation can be replaced by the limit of a time average. The autocorrelation of an ergodic process is sometimes defined as or equated to
+These definitions have the advantage that they give sensible well-defined single-parameter results for periodic functions, even when those functions are not the output of stationary ergodic processes.
+Alternatively, signals that "last forever" can be treated by a short-time autocorrelation function analysis, using finite time integrals. (See short-time Fourier transform for a related process.)
+Definition for periodic signals.
+If formula_75 is a continuous periodic functions of period formula_76, the integration from formula_77 to formula_78 is replaced by integration over any interval formula_79 of length formula_76:
+which is equivalent to
+Properties.
+In the following, we will describe properties of one-dimensional autocorrelations only, since most properties are easily transferred from the one-dimensional case to the multi-dimensional cases. These properties hold for wide-sense stationary processes.
+Multi-dimensional autocorrelation.
+Multi-dimensional autocorrelation is defined similarly. For example, in three dimensions the autocorrelation of a square-summable discrete signal would be
+When mean values are subtracted from signals before computing an autocorrelation function, the resulting function is usually called an auto-covariance function.
+Efficient computation.
+For data expressed as a discrete sequence, it is frequently necessary to compute the autocorrelation with high computational efficiency. A brute force method based on the signal processing definition formula_98 can be used when the signal size is small. For example, to calculate the autocorrelation of the real signal sequence formula_99 (i.e. formula_100, and formula_101 for all other values of ) by hand, we first recognize that the definition just given is the same as the "usual" multiplication, but with right shifts, where each vertical addition gives the autocorrelation for particular lag values:
+Thus the required autocorrelation sequence is formula_103, where formula_104 formula_105 and formula_106 the autocorrelation for other lag values being zero. In this calculation we do not perform the carry-over operation during addition as is usual in normal multiplication. Note that we can halve the number of operations required by exploiting the inherent symmetry of the autocorrelation. If the signal happens to be periodic, i.e. formula_107 then we get a circular autocorrelation (similar to circular convolution) where the left and right tails of the previous autocorrelation sequence will overlap and give formula_108 which has the same period as the signal sequence formula_109 The procedure can be regarded as an application of the convolution property of z-transform of a discrete signal.
+While the brute force algorithm is order , several efficient algorithms exist which can compute the autocorrelation in order . For example, the Wiener–Khinchin theorem allows computing the autocorrelation from the raw data with two fast Fourier transforms (FFT):
+where IFFT denotes the inverse fast Fourier transform. The asterisk denotes complex conjugate.
+Alternatively, a multiple correlation can be performed by using brute force calculation for low values, and then progressively binning the data with a logarithmic density to compute higher values, resulting in the same efficiency, but with lower memory requirements.
+Estimation.
+For a discrete process with known mean and variance for which we observe formula_72 observations formula_112, an estimate of the autocorrelation may be obtained as
+for any positive integer formula_114. When the true mean formula_16 and variance formula_17 are known, this estimate is unbiased. If the true mean and variance of the process are not known there are several possibilities:
+The advantage of estimates of the last type is that the set of estimated autocorrelations, as a function of formula_123, then form a function which is a valid autocorrelation in the sense that it is possible to define a theoretical process having exactly that autocorrelation. Other estimates can suffer from the problem that, if they are used to calculate the variance of a linear combination of the formula_124's, the variance calculated may turn out to be negative.
+Regression analysis.
+In regression analysis using time series data, autocorrelation in a variable of interest is typically modeled either with an autoregressive model (AR), a moving average model (MA), their combination as an autoregressive-moving-average model (ARMA), or an extension of the latter called an autoregressive integrated moving average model (ARIMA). With multiple interrelated data series, vector autoregression (VAR) or its extensions are used.
+In ordinary least squares (OLS), the adequacy of a model specification can be checked in part by establishing whether there is autocorrelation of the regression residuals. 
+Problematic autocorrelation of the errors, which themselves are unobserved, can generally be detected because it produces autocorrelation in the observable residuals. (Errors are also known as "error terms" in econometrics.) Autocorrelation of the errors violates the ordinary least squares assumption that the error terms are uncorrelated, meaning that the Gauss Markov theorem does not apply, and that OLS estimators are no longer the Best Linear Unbiased Estimators (BLUE). While it does not bias the OLS coefficient estimates, the standard errors tend to be underestimated (and the t-scores overestimated) when the autocorrelations of the errors at low lags are positive.
+The traditional test for the presence of first-order autocorrelation is the Durbin–Watson statistic or, if the explanatory variables include a lagged dependent variable, Durbin's h statistic. The Durbin-Watson can be linearly mapped however to the Pearson correlation between values and their lags. A more flexible test, covering autocorrelation of higher orders and applicable whether or not the regressors include lags of the dependent variable, is the Breusch–Godfrey test. This involves an auxiliary regression, wherein the residuals obtained from estimating the model of interest are regressed on (a) the original regressors and (b) "k" lags of the residuals, where 'k' is the order of the test. The simplest version of the test statistic from this auxiliary regression is "TR"2, where "T" is the sample size and "R"2 is the coefficient of determination. Under the null hypothesis of no autocorrelation, this statistic is
+asymptotically distributed as formula_125 with "k" degrees of freedom.
+Responses to nonzero autocorrelation include generalized least squares and the Newey–West HAC estimator (Heteroskedasticity and Autocorrelation Consistent).
+In the estimation of a moving average model (MA), the autocorrelation function is used to determine the appropriate number of lagged error terms to be included. This is based on the fact that for an MA process of order "q", we have formula_126, for formula_127, and formula_128, for formula_129.
+Serial dependence.
+Serial dependence is closely linked to the notion of autocorrelation, but represents a distinct concept (see Correlation and dependence). In particular, it is possible to have serial dependence but no (linear) correlation. In some fields however, the two terms are used as synonyms.
+A time series of a random variable has serial dependence if the value at some time formula_2 in the series is statistically dependent on the value at another time formula_131. A series is serially independent if there is no dependence between any pair.
+If a time series formula_1 is stationary, then statistical dependence between the pair formula_133 would imply that there is statistical dependence between all pairs of values at the same lag formula_134.
+

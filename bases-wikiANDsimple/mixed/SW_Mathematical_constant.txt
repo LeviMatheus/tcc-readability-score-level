@@ -1,0 +1,2 @@
+A mathematical constant is a number, which has a special meaning for calculations. For example, the constant π (spoken as "pi") means the ratio of the length of a circle's circumference to its diameter. This value is always the same for any circle.
+In contrast to physical constants, mathematical constants do not come from physical measurements.

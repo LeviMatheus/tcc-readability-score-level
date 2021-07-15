@@ -1,0 +1,4 @@
+W-PuTTY-CD holds PuTTY communications protocol in a Microsoft Windows DLL file.
+Applications using W-PuTTY-CD act as clients for the SSH, Telnet, rlogin, and raw TCP computing protocols and automatically get securely communications with other computers.
+WPuTTYCD or WPuTTYCD.DLL, is the project name, while the hyphens("-") are used to show that the communication part of the PuTTY program is inside the DLL.
+W-PuTTY-CD is currently beta software. Licensed under the MIT License, and it is free and open source software.

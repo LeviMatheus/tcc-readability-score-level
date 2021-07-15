@@ -1,0 +1,52 @@
+
+In probability theory and statistics, skewness is a measure of the asymmetry of the probability distribution of a real-valued random variable about its mean. The skewness value can be positive, zero, negative, or undefined.
+For a unimodal distribution, negative skew commonly indicates that the "tail" is on the left side of the distribution, and positive skew indicates that the tail is on the right. In cases where one tail is long but the other tail is fat, skewness does not obey a simple rule. For example, a zero value means that the tails on both sides of the mean balance out overall; this is the case for a symmetric distribution, but can also be true for an asymmetric distribution where one tail is long and thin, and the other is short but fat.
+Introduction.
+Consider the two distributions in the figure just below. Within each graph, the values on the right side of the distribution taper differently from the values on the left side. These tapering sides are called "tails", and they provide a visual means to determine which of the two kinds of skewness a distribution has:
+Skewness in a data series may sometimes be observed not only graphically but by simple inspection of the values. For instance, consider the numeric sequence (49, 50, 51), whose values are evenly distributed around a central value of 50. We can transform this sequence into a negatively skewed distribution by adding a value far below the mean, which is probably a negative outlier, e.g. (40, 49, 50, 51). Therefore, the mean of the sequence becomes 47.5, and the median is 49.5. Based on the formula of nonparametric skew, defined as formula_1 the skew is negative. Similarly, we can make the sequence positively skewed by adding a value far above the mean, which is probably a positive outlier, e.g. (49, 50, 51, 60), where the mean is 52.5, and the median is 50.5.
+As mentioned earlier, a unimodal distribution with zero value of skewness does not imply that this distribution is symmetric necessarily. However, a symmetric unimodal or multimodal distribution always has zero skewness.
+Relationship of mean and median.
+The skewness is not directly related to the relationship between the mean and median: a distribution with negative skew can have its mean greater than or less than the median, and likewise for positive skew.
+In the older notion of nonparametric skew, defined as formula_1 where formula_3 is the mean, formula_4 is the median, and formula_5 is the standard deviation, the skewness is defined in terms of this relationship: positive/right nonparametric skew means the mean is greater than (to the right of) the median, while negative/left nonparametric skew means the mean is less than (to the left of) the median. However, the modern definition of skewness and the traditional nonparametric definition do not always have the same sign: while they agree for some families of distributions, they differ in some of the cases, and conflating them is misleading.
+If the distribution is symmetric, then the mean is equal to the median, and the distribution has zero skewness. If the distribution is both symmetric and unimodal, then the mean = median = mode. This is the case of a coin toss or the series 1,2,3,4... Note, however, that the converse is not true in general, i.e. zero skewness (defined below) does not imply that the mean is equal to the median.
+A 2005 journal article points out:Many textbooks teach a rule of thumb stating that the mean is right of the median under right skew, and left of the median under left skew. This rule fails with surprising frequency. It can fail in multimodal distributions, or in distributions where one tail is long but the other is heavy. Most commonly, though, the rule fails in discrete distributions where the areas to the left and right of the median are not equal. Such distributions not only contradict the textbook relationship between mean, median, and skew, they also contradict the textbook interpretation of the median.
+For example, in the distribution of adult residents across US households, the skew is to the right. However, since the majority of cases is less than or equal to the mode, which is also the median, the mean sits in the heavier left tail. As a result, the rule of thumb that the mean is right of the median under right skew failed.
+Definition.
+Pearson's moment coefficient of skewness.
+The skewness of a random variable "X" is the third standardized moment formula_6, defined as:
+where "μ" is the mean, "σ" is the standard deviation, E is the expectation operator, "μ"3 is the third central moment, and "κ""t" are the "t"-th cumulants. It is sometimes referred to as Pearson's moment coefficient of skewness, or simply the moment coefficient of skewness, but should not be confused with Pearson's other skewness statistics (see below). The last equality expresses skewness in terms of the ratio of the third cumulant "κ"3 to the 1.5th power of the second cumulant "κ"2. This is analogous to the definition of kurtosis as the fourth cumulant normalized by the square of the second cumulant. 
+The skewness is also sometimes denoted Skew["X"].
+If "σ" is finite, "μ" is finite too and skewness can be expressed in terms of the non-central moment E["X"3] by expanding the previous formula,
+Examples.
+Skewness can be infinite, as when
+where the third cumulants are infinite, or as when
+where the third cumulant is undefined.
+Examples of distributions with finite skewness include the following.
+Sample skewness.
+For a sample of "n" values, two natural method of moments estimators of the population skewness are
+and
+where formula_13 is the sample mean, "s" is the sample standard deviation, "m"2 is the (biased) sample second central moment, and "m"3 is the sample third central moment.
+Another common definition of the "sample skewness" is
+where formula_15 is the unique symmetric unbiased estimator of the third cumulant and formula_16 is the symmetric unbiased estimator of the second cumulant (i.e. the sample variance). This adjusted Fisher–Pearson standardized moment coefficient formula_17 is the version found in Excel and several statistical packages including Minitab, SAS and SPSS.
+Under the assumption that the underlying random variable formula_18 is normally distributed, it can be shown that all three ratios formula_19, formula_20 and formula_21 are unbiased and consistent estimators of the population skewness formula_22, with formula_23, i.e., their distributions converge to a normal distribution with mean 0 and variance 6 (Fisher, 1930). The variance of the sample skewness is thus approximately formula_24 for sufficiently large samples. More precisely, in a random sample of size "n" from a normal distribution,
+In normal samples, formula_19 has the smaller variance of the three estimators, with
+For non-normal distributions, formula_19, formula_20 and formula_21 are generally biased estimators of the population skewness formula_31; their expected values can even have the opposite sign from the true skewness. For instance, a mixed distribution consisting of very thin Gaussians centred at −99, 0.5, and 2 with weights 0.01, 0.66, and 0.33 has a skewness formula_31 of about −9.77, but in a sample of 3 formula_21 has an expected value of about 0.32, since usually all three samples are in the positive-valued part of the distribution, which is skewed the other way.
+Applications.
+Skewness is a descriptive statistic that can be used in conjunction with the histogram and the normal quantile plot to characterize the data or distribution.
+Skewness indicates the direction and relative magnitude of a distribution's deviation from the normal distribution.
+With pronounced skewness, standard statistical inference procedures such as a confidence interval for a mean will be not only incorrect, in the sense that the true coverage level will differ from the nominal (e.g., 95%) level, but they will also result in unequal error probabilities on each side.
+Skewness can be used to obtain approximate probabilities and quantiles of distributions (such as value at risk in finance) via the Cornish-Fisher expansion.
+Many models assume normal distribution; i.e., data are symmetric about the mean. The normal distribution has a skewness of zero. But in reality, data points may not be perfectly symmetric. So, an understanding of the skewness of the dataset indicates whether deviations from the mean are going to be positive or negative.
+D'Agostino's K-squared test is a goodness-of-fit normality test based on sample skewness and sample kurtosis.
+Other measures of skewness.
+Other measures of skewness have been used, including simpler calculations suggested by Karl Pearson (not to be confused with Pearson's moment coefficient of skewness, see above). These other measures are:
+Pearson's first skewness coefficient (mode skewness).
+The Pearson mode skewness, or first skewness coefficient, is defined as
+Pearson's second skewness coefficient (median skewness).
+The Pearson median skewness, or second skewness coefficient, is defined as
+Which is a simple multiple of the nonparametric skew.
+Worth noticing that, since skewness is not related to an order relationship between mode, mean and median, the sign of these coefficients does not give information about the type of skewness (left/right).
+Quantile-based measures.
+Bowley's measure of skewness (from 1901), also called Yule's coefficient (from 1912) is defined as: 
+The numerator is difference between the average of the upper and lower quartiles (a measure of location) and the median (another measure of location), while the denominator is the semi-interquartile range &lt;math&gt;({Q}_{3}}-
+

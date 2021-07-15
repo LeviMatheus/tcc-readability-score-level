@@ -1,0 +1,5 @@
+The waveform is the shape of a wave as it travels. There are many different waveforms. They are usually a shape which is repeated over and over (a "periodic waveform"). A common waveform is the sine wave. It is normally not possible to see a waveform without some device.
+Root mean square.
+The amplitude of the sine wave keeps changing from -339.4 V to +339.4 V.
+Root mean square is important. It lets us work out many useful things, like power and heating in a wire.
+This table has information about working out the rms for some waveforms.

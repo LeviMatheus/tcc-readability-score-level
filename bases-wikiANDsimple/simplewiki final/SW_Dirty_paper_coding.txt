@@ -1,0 +1,20 @@
+In telecommunications, dirty paper coding (DPC) is a good way to send digital data through a channel that is subject to some interference that is known to the sender. The sender does precoding of the data so as to cancel the effect of the interference.
+When Costa asked his question, the Shannon–Hartley theorem (and the more general noisy-channel coding theorem) was well known.
+The Shannon–Hartley theorem tells us that, all else being equal, a paper sent along a path that picks up less dirt can reliably deliver more information than another paper sent along a path that picks up more dirt.
+People have also thought up many ways of dealing with such dirt added after the message is written -- see error detection and correction for details.
+Most people expected that the same thing would happen when dirt is added to the paper before the message was written -- the more dirt, the less information can be reliably sent.
+In 1983, Costa showed the surprising result that we can send just as much information on such a dirty piece of paper as we can when writing on a clean sheet of paper, and gave a way to get that capacity.
+A dirty paper code is a way for the writer to adapt his message to the dirt already on the paper.
+The writer and the reader agree ahead of time on which dirty paper code they will use for the messages.
+History.
+People have thought up several dirty paper codes, including Costa precoding (1983), Tomlinson-Harashima precoding (1971) and the vector perturbation technique of Hochwald et al. (2005).
+A similar problem called "writing on dirty tape (WDT)" is more complicated.
+As of 2005, the capacity computation problem and the capacity-achieving
+problem for writing on dirty tape are unsolved
+"Writing on wet paper" is a related problem in steganography
+wireless networks.
+In a wireless network, often a transmitter has many different messages, and each one needs to be sent to a different person.
+The sum-rate capacity of a system that transmits all the messages at the same time -- and uses dirty-paper codes to reduce the interference between messages -- can be many times the sum-rate capacity of a similar system that only sends one message at a time (TDMA)..
+Any one receiver is only concerned with the messages for that receiver -- all the other messages the transmitter is simultaneously sending to everyone else are -- to that receiver -- irrelevant noise that only interferes with the desired message.
+The "dirty paper" story can be seen as a parable for wireless communication.
+Recently, there has been interest in DPC as a possible solution to optimize the efficiency of wireless networks, in particular multiuser MIMO networks and into an interference aware coding technique for dynamic wireless networks.

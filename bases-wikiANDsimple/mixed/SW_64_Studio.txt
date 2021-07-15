@@ -1,0 +1,9 @@
+64 Studio is a free Linux distribution based on Debian made for creative users on x86-64 and legacy 32-bit hardware architectures. It is made to serve as an all-in-one solution for audio and video recording, editing, and other forms of media production.
+Since 64 Studio is distributed with a free software license, anyone with a 64-bit computer can install it on their computer (in place of or alongside the well-known Windows operating system). An alternative installer is available for systems with 32-bit processors.
+Differences with Debian.
+The major differences between this distribution and basic Debian is a custom kernel with realtime patches applied, some pre-configuration and a custom package selection designed to meet the needs of creative desktop users. Other packages may also be modified to some extent, as are the basic GNOME desktop themes.
+Releases.
+The project released the first beta of 64 Studio, version 0.9.0 code-named 'Toe Rag', on the August 1, 2006. The release was named in honour of the all-analogue Toe Rag Studios in London, England.
+After eighteen months of development, the project made its first stable release available for free download on 2006-11-29. It is named Olympic in recognition of the work of Glyn Johns and Eddie Kramer at
+Olympic Studios in London.
+The second stable release, version 2.0 codename 'Electric', was announced on 27th July 2007. This latest release is named after Electrical Audio, the studio founded by sound engineer Steve Albini in Chicago, USA.

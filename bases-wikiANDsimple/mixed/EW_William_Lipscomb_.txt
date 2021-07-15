@@ -1,0 +1,143 @@
+
+William Nunn Lipscomb Jr. (December 9, 1919April 14, 2011) was a Nobel Prize-winning American inorganic and organic chemist working in nuclear magnetic resonance, theoretical chemistry, boron chemistry, and biochemistry.
+Biography.
+Overview.
+Lipscomb was born in Cleveland, Ohio. His family moved to Lexington, Kentucky in 1920, and he lived there until he received his Bachelor of Science degree in Chemistry at the University of Kentucky in 1941. He went on to earn his Doctor of Philosophy degree in Chemistry from the California Institute of Technology (Caltech) in 1946. 
+From 1946 to 1959 he taught at the University of Minnesota. From 1959 to 1990 he was a professor of chemistry at Harvard University, where he was a professor emeritus since 1990.
+Lipscomb was married to the former Mary Adele Sargent from 1944 to 1983. They had three children, one of whom lived only a few hours.
+He married Jean Evans in 1983. They had one adopted daughter. 
+Lipscomb resided in Cambridge, Massachusetts until his death in 2011 from pneumonia.
+Early years.
+"My early home environment ... stressed personal responsibility and self reliance. Independence was encouraged especially in the early years when my mother taught music and when my father's medical practice occupied most of his time."
+In grade school Lipscomb collected animals, insects, pets, rocks, and minerals.
+Interest in astronomy led him to visitor nights at the Observatory of the University of Kentucky, where Prof. H. H. Downing gave him a copy of Baker's "Astronomy."
+Lipscomb credits gaining many intuitive physics concepts from this book and from his conversations with Downing, who became Lipscomb's lifelong friend.
+The young Lipscomb participated in other projects, such as Morse-coded messages over wires and crystal radio sets, with five nearby friends who became physicists, physicians, and an engineer.
+At age of 12, Lipscomb was given a small Gilbert chemistry set. He expanded it by ordering apparatus and chemicals from suppliers and by using his father's privilege as a physician to purchase chemicals at the local drugstore at a discount. Lipscomb made his own fireworks and entertained visitors with color changes, odors, and explosions. His mother questioned his home chemistry hobby only once, when he attempted to isolate a large amount of urea from urine.
+Lipscomb credits perusing the large medical texts in his physician father's library and the influence of Linus Pauling years later to his undertaking biochemical studies in his later years. Had Lipscomb become a physician like his father, he would have been the fourth physician in a row along the Lipscomb male line.
+The source for this subsection, except as noted, is Lipscomb's autobiographical sketch.
+Education.
+Lipscomb's high-school chemistry teacher, Frederick Jones, gave Lipscomb his college books on organic, analytical, and general chemistry, and asked only that Lipscomb take the examinations.
+During the class lectures, Lipscomb in the back of the classroom did research that he thought was original (but he later found was not): the preparation of hydrogen from sodium formate (or sodium oxalate) and sodium hydroxide.
+He took care to include gas analyses and to search for probable side reactions.
+Lipscomb later had a high-school physics course and took first prize in the state contest on that subject. He also became very interested in special relativity.
+In college at the University of Kentucky Lipscomb had a music scholarship.
+He pursued independent study there, reading Dushman' s "Elements of Quantum Mechanics", the University of Pittsburgh Physics Staff's "An Outline of Atomic Physics", and Pauling's "The Nature of the Chemical Bond and the Structure of Molecules and Crystals."
+Prof. Robert H. Baker suggested that Lipscomb research the direct preparation of derivatives of alcohols from dilute aqueous solution without first separating the alcohol and water, which led to Lipscomb's first publication.
+For graduate school Lipscomb chose Caltech, which offered him a teaching assistantship in Physics at $20/month. He turned down more money from Northwestern University, which offered a research assistantship at $150/month. Columbia University rejected Lipscomb's application in a letter written by Nobel prizewinner Prof. Harold Urey.
+At Caltech Lipscomb intended to study theoretical quantum mechanics with Prof. W. V. Houston in the Physics Department, but after one semester switched to the Chemistry Department under the
+influence of Prof. Linus Pauling. World War II work divided Lipscomb's time in graduate school beyond his other thesis work, as he partly analyzed smoke particle size, but mostly worked with nitroglycerin–nitrocellulose propellants, which involved handling vials of pure nitroglycerin on many occasions.
+Brief audio clips by Lipscomb about his war work may be found from the External Links section at the bottom of this page, past the References.
+The source for this subsection, except as noted, is Lipscomb's autobiographical sketch.
+Later years.
+The Colonel is how Lipscomb's students referred to him, directly addressing him as Colonel. "His first doctoral student, Murray Vernon King, pinned the label on him, and it was quickly adopted by other students, who wanted to use an appellation that showed informal respect. ... Lipscomb's Kentucky origins as the rationale for the designation."
+Some years later in 1973 Lipscomb was made a member of the Honorable Order of Kentucky Colonels.
+Lipscomb, along with several other Nobel laureates, was a regular presenter at the annual Ig Nobel Awards Ceremony, last doing so on September 30, 2010.
+Scientific studies.
+Lipscomb worked in three main areas, nuclear magnetic resonance and the chemical shift, boron chemistry and the nature of the chemical bond, and large biochemical molecules. These areas overlap in time and share some scientific techniques.
+In at least the first two of these areas Lipscomb gave himself a big challenge likely to fail,
+and then plotted a course of intermediate goals.
+Nuclear magnetic resonance and the chemical shift.
+In this area Lipscomb proposed that:
+"... progress in structure determination, for new polyborane species and for substituted boranes and carboranes, would be greatly accelerated if the [boron-11] nuclear magnetic resonance spectra, rather than X-ray diffraction, could be used."
+This goal was partially achieved, although X-ray diffraction is still necessary to determine many such atomic structures. The diagram at right shows a typical nuclear magnetic resonance (NMR) spectrum of a borane molecule.
+Lipscomb investigated, "... the carboranes, C2B10H12, and the sites of electrophilic attack on these compounds using nuclear magnetic resonance (NMR) spectroscopy. This work led to [Lipscomb's publication of a comprehensive] theory of chemical shifts. The calculations provided the first accurate values for the constants that describe the behavior of several types of molecules in magnetic or electric fields."
+Much of this work is summarized in a book by Gareth Eaton and William Lipscomb, "NMR Studies of Boron Hydrides and Related Compounds", one of Lipscomb's two books.
+Boron chemistry and the nature of the chemical bond.
+In this area Lipscomb originally intended a more ambitious project: "My original intention in the late 1940s was to spend a few years understanding the boranes, and then to discover a systematic valence description of the vast numbers of electron deficient intermetallic compounds. I have made little progress toward this latter objective. Instead, the field of boron chemistry has grown enormously, and a systematic understanding of some of its complexities has now begun."
+Examples of these intermetallic compounds are KHg13 and Cu5Zn7. Of perhaps 24,000 of such compounds the structures of only 4,000 are known (in 2005) and we cannot predict structures for the others, because we do not sufficiently understand the nature of the chemical bond.
+This study was not successful, in part because the calculation time required for intermetallic compounds was out of reach in the 1960s, but intermediate goals involving boron bonding were achieved, sufficient to be awarded a Nobel Prize.
+The three-center two-electron bond is illustrated in diborane (diagrams at right).
+In an ordinary covalent bond a pair of electrons bonds two atoms together, one at either end of the bond, the diboare B-H bonds for example at the left and right in the illustrations.
+In three-center two-electron bond a pair of electrons bonds three atoms (a boron atom at either end and a hydrogen atom in the middle), the diborane B-H-B bonds for example at the top and bottom of the illustrations.
+Lipscomb's group did not propose or discover the three-center two-electron bond,
+nor did they develop formulas that give the proposed mechanism.
+In 1943, Longuet-Higgins, while still an undergraduate at Oxford, was the first to explain
+the structure and bonding of the boron hydrides. The paper reporting the work, written with his tutor R. P. Bell,
+ also reviews the history of the subject beginning with the work of Dilthey.
+ Shortly after, in 1947 and 1948, experimental spectroscopic work was performed by Price
+that confirmed Longuet-Higgins' structure for diborane. The structure was re-confirmed by electron diffraction measurement in 1951 by K. Hedberg and V. Schomaker, with the confirmation of the structure shown in the schemes on this page. Lipscomb and his graduate students further determined the molecular structure of boranes (compounds of boron and hydrogen) using X-ray crystallography in the 1950s and developed theories to explain their bonds. Later he applied the same methods to related problems, including the structure of carboranes (compounds of carbon, boron, and hydrogen). Longuet-Higgins
+and Roberts
+discussed the electronic structure of an icosahedron of boron atoms and of the borides MB6. The mechanism of the three-center two-electron bond was also discussed in a later paper by Longuet-Higgins, and an essentially equivalent mechanism was proposed by Eberhardt, Crawford, and Lipscomb.
+Lipscomb's group also achieved an understanding of it through electron orbital calculations using formulas by Edmiston and Ruedenberg and by Boys.
+The Eberhardt, Crawford, and Lipscomb paper discussed above also devised the "styx number" method to catalog certain kinds of boron-hydride bonding configurations.
+Wandering atoms was a puzzle solved by Lipscomb in one of his few papers with no co-authors.
+Compounds of boron and hydrogen tend to form closed cage structures.
+Sometimes the atoms at the vertices of these cages move substantial distances with respect to each other.
+The diamond-square-diamond mechanism (diagram at left) was suggested by Lipscomb to explain this rearrangement of vertices.
+Following along in the diagram at left for example in the faces shaded in blue,
+a pair of triangular faces has a left-right diamond shape.
+First, the bond common to these adjacent triangles breaks, forming a square,
+and then the square collapses back to an up-down diamond shape
+by bonding the atoms that were not bonded before.
+Other researchers have discovered more about these rearrangements.
+The B10H16 structure (diagram at right) determined by Grimes, Wang, Lewin, and Lipscomb found a bond directly between two boron atoms without terminal hydrogens, a feature not previously seen in other boron hydrides.
+Lipscomb's group developed calculation methods, both empirical and from quantum mechanical theory.
+Calculations by these methods produced accurate Hartree–Fock self-consistent field (SCF) molecular orbitals and were used to study boranes and carboranes.
+The ethane barrier to rotation (diagram at left) was first calculated accurately by Pitzer and Lipscomb using the Hartree–Fock (SCF) method.
+Lipscomb's calculations continued to a detailed examination of partial bonding through "... theoretical studies of multicentered chemical bonds including both delocalized and localized molecular orbitals."
+This included "... proposed molecular orbital descriptions in which the bonding electrons are delocalized over the whole molecule."
+"Lipscomb and his coworkers developed the idea of transferability of atomic properties, by which approximate theories for complex molecules are developed from more exact calculations for simpler but chemically related molecules..."
+Subsequent Nobel Prize winner Roald Hoffmann was a doctoral student
+in Lipscomb's laboratory.
+Under Lipscomb's direction the Extended Hückel method of molecular orbital calculation was developed by Lawrence Lohr and by Roald Hoffmann. This method was later extended by Hoffman.
+In Lipscomb's laboratory this method was reconciled with self-consistent field (SCF) theory by Newton and by Boer.
+Noted boron chemist M. Frederick Hawthorne conducted early and continuing research with Lipscomb.
+Much of this work is summarized in a book by Lipscomb, "Boron Hydrides", one of Lipscomb's two books.
+The 1976 Nobel Prize in Chemistry was awarded to Lipscomb "for his studies on the structure of boranes illuminating problems of chemical bonding".
+In a way this continued work on the nature of the chemical bond by his doctoral advisor at the California Institute of Technology, Linus Pauling, who was awarded the 1954 Nobel Prize in Chemistry "for his research into the nature of the chemical bond and its application to the elucidation of the structure of complex substances."
+The source for about half of this section is Lipscomb's Nobel Lecture.
+Large biological molecule structure and function.
+Lipscomb's later research focused on the atomic structure of proteins, particularly how enzymes work.
+His group used x-ray diffraction to solve the three-dimensional structure of these proteins to atomic resolution, and then to analyze the atomic detail of how the molecules work.
+The images below are of Lipscomb's structures from the Protein Data Bank displayed in simplified form with atomic detail suppressed. Proteins are chains of amino acids, and the continuous ribbon shows the trace of the chain with, for example, several amino acids for each turn of a helix.
+Carboxypeptidase A (left) was the first protein structure from Lipscomb's group. Carboxypeptidase A is a digestive enzyme, a protein that digests other proteins. It is made in the pancreas and transported in inactive form to the intestines where it is activated. Carboxypeptidase A digests by chopping off certain amino acids one-by-one from one end of a protein.
+The size of this structure was ambitious. Carboxypeptidase A was a much larger molecule than anything solved previously.
+Aspartate carbamoyltransferase. (right) was the second protein structure from Lipscomb's group.
+For a copy of DNA to be made, a duplicate set of its nucleotides is required. Aspartate carbamoyltransferase performs a step in building the pyrimidine nucleotides (cytosine and thymidine). Aspartate carbamoyltransferase also ensures that just the right amount of pyrimidine nucleotides is available, as activator and inhibitor molecules attach to aspartate carbamoyltransferase to speed it up and to slow it down.
+Aspartate carbamoyltransferase is a complex of twelve molecules.
+Six large catalytic molecules in the interior do the work, and six small regulatory molecules on the outside control how fast the catalytic units work.
+The size of this structure was ambitious. Aspartate carbamoyltransferase was a much larger molecule than anything solved previously.
+Leucine aminopeptidase, (left) a little like carboxypeptidase A, chops off certain amino acids one-by-one from one end of a protein or peptide.
+HaeIII methyltransferase (right)
+binds to DNA where it methylates (adds a methy group to)
+it.
+Human interferon beta (left)
+is released by lymphocytes in response to pathogens to trigger the immune system.
+Chorismate mutase (right)
+catalyzes (speeds up) the production of the amino acids phenylalanine and tyrosine.
+Fructose-1,6-bisphosphatase (left)
+and its inhibitor MB06322 (CS-917)
+were studied by Lipscomb's group in a collaboration, which included Metabasis Therapeutics, Inc., acquired by Ligand Pharmaceuticals in 2010, exploring the possibility of finding a treatment for type 2 diabetes, as the MB06322 inhibitor slows the production of sugar by fructose-1,6-bisphosphatase.
+Lipscomb's group also contributed to an understanding of
+concanavalin A (low resolution structure),
+glucagon, and
+carbonic anhydrase (theoretical studies).
+Subsequent Nobel Prize winner Thomas A. Steitz
+was a doctoral student in Lipscomb's laboratory.
+Under Lipscomb's direction, after the training task of determining the structure of the small molecule methyl ethylene phosphate, Steitz made contributions to determining the atomic structures of carboxypeptidase A
+and aspartate carbamoyltransferase.
+Steitz was awarded the 2009 Nobel Prize in Chemistry for determining the even larger structure of the large 50S ribosomal subunit, leading to an understanding of possible medical treatments.
+Subsequent Nobel Prize winner Ada Yonath, who shared the 2009 Nobel Prize in Chemistry with Thomas A. Steitz and Venkatraman Ramakrishnan, spent some time in Lipscomb's lab where both she and Steitz were inspired to pursue later their own very large structures. This was while she was a postdoctoral student at MIT in 1970.
+Other results.
+The mineral lipscombite (picture at right) was named after Professor Lipscomb by the mineralogist John Gruner who first made it artificially.
+Low-temperature x-ray diffraction was pioneered in Lipscomb's laboratory at about the same time as parallel work in Isadore Fankuchen's laboratory at the then Polytechnic Institute of Brooklyn.
+Lipscomb began by studying compounds of nitrogen, oxygen, fluorine, and other substances that are solid only below liquid nitrogen temperatures, but other advantages eventually made low-temperatures a normal procedure.
+Keeping the crystal cold during data collection produces a less-blurry 3-D electron-density map because the atoms have less thermal motion. Crystals may yield good data in the x-ray beam longer because x-ray damage may be reduced during data collection and because the solvent may evaporate more slowly, which for example may be important for large biochemical molecules whose crystals often have a high percentage of water.
+Other important compounds were studied by Lipscomb and his students.
+Among these are
+hydrazine,
+nitric oxide,
+metal-dithiolene complexes,
+methyl ethylene phosphate,
+mercury amides,
+(NO)2,
+crystalline hydrogen fluoride,
+Roussin's black salt,
+(PCF3)5,
+complexes of cyclo-octatetraene with iron tricarbonyl,
+and leurocristine (Vincristine), which is used in several cancer therapies.
+Positions, awards and honors.
+Five books and published symposia are dedicated to Lipscomb.
+A complete list of Lipscomb's awards and honors is in his Curriculum Vitae.
+

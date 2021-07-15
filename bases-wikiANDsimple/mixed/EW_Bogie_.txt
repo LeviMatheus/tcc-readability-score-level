@@ -1,0 +1,58 @@
+
+A bogie ( ) (in some senses called a truck in North American English) is a chassis or framework that carries a wheelset, attached to a vehicle—a modular subassembly of wheels and axles. Bogies take various forms in various modes of transport. A bogie may remain normally attached (as on many railroad cars and semi-trailers) or be quickly detachable (as the dolly in a road train or in railway bogie exchange); it may contain a suspension within it (as most rail and trucking bogies do), or be solid and in turn be suspended (as most bogies of tracked vehicles are); it may be mounted on a swivel, as traditionally on a railway carriage or locomotive, additionally jointed and sprung (as in the landing gear of an airliner), or held in place by other means (centreless bogies).
+While "bogie" is the preferred spelling and first-listed variant in various dictionaries, bogey and bogy are also used.
+Railway.
+A "bogie" in the UK, or a "railroad truck", "wheel truck", or simply "truck" in North America, is a structure underneath a railway vehicle (wagon, coach or locomotive) to which axles (and, hence, wheels) are attached through bearings. In Indian English, "bogie" may also refer to an entire railway carriage. In South Africa, the term "bogie" is often alternatively used to refer to a freight or goods wagon (shortened from "bogie wagon").
+The first standard gauge British railway to build coaches with bogies, instead of rigidly mounted axles, was the Midland Railway in 1874.
+Purpose.
+Bogies serve a number of purposes:
+Usually, two bogies are fitted to each carriage, wagon or locomotive, one at each end. Another configuration is often used in articulated vehicles, which places the bogies (often Jacobs bogies) under the connection between the carriages or wagons.
+Most bogies have two axles, but some cars designed for heavy loads have more axles per bogie. Heavy-duty cars may have more than two bogies using span bolsters to equalize the load and connect the bogies to the cars.
+Usually, the train floor is at a level above the bogies, but the floor of the car may be lower between bogies, such as for a bilevel rail car to increase interior space while staying within height restrictions, or in easy-access, stepless-entry, low-floor trains.
+Components.
+Key components of a bogie include:
+The connections of the bogie with the rail vehicle allow a certain degree of rotational movement around a vertical axis pivot (bolster), with side bearers preventing excessive movement. More modern, bolsterless bogie designs omit these features, instead taking advantage of the sideways movement of the suspension to permit rotational movement.
+Examples.
+Commonwealth bogie.
+The Commonwealth bogie was manufactured by the English Steel Corporation under licence from the Commonwealth Steel Company in Illinois, United States. Fitted with SKF or Timken bearings, it was introduced in the late 1950s for all BR Mark 1 vehicles. It was a heavy, cast-steel design weighing about , with sealed roller bearings on the axle ends, avoiding the need to maintain axle box oil levels.
+The leaf springs were replaced by coil springs (one per wheel) running vertically rather than horizontally. The advanced design gave a better ride quality than the BR1, being rated for .
+The side frame of the bogie was usually of bar construction, with simple horn guides attached, allowing the axle boxes vertical movements between them. The axle boxes had a cast-steel equaliser beam or bar resting on them. The bar had two steel coil springs placed on it and the bogie frame rested on the springs. The effect was to allow the bar to act as a compensating lever between the two axles and to use both springs to soften shocks from either axle. The bogie had a conventional bolster suspension with swing links carrying a spring plank.
+B4 bogie.
+The B4 bogie was introduced in 1963. It was a fabricated steel design versus cast iron and was lighter than the Commonwealth, weighing in at . It also had a speed rating of .
+Axle to spring connection was again fitted with roller bearings. However, now two coil springs rather than one were fitted per wheel.
+Only a very small number of Mark 1 stock was fitted with the B4 bogie from new, it being used on the Mark 1 only to replace worn BR1 bogies. The British Rail Mark 2 coach, however, carried the B4 bogies from new. A heavier-duty version, the B5, was standard on Southern Region Mk1-based EMUs from the 1960s onwards. Some Mark 1 catering cars had mixed bogies—a B5 under the kitchen end, and a B4 under the seating end. Some of the B4-fitted Mark 2s, as well as many B4-fitted Mark 1 BGs were allowed to run at with extra maintenance, particularly of the wheel profile, and more frequent inspection.
+BT10 bogie.
+The BT10 bogie was introduced on the British Rail Mark 3 coach in the 1970s. Each wheel is separately connected to the bogie by a swing-arm axle.
+There is dual suspension:
+Locomotives.
+Diesel and electric.
+Modern diesel and electric locomotives are mounted on bogies. Those commonly used in the North America include Type A, Blomberg, HT-C and Flexicoil trucks.
+Steam.
+On a steam locomotive, the leading and trailing wheels may be mounted on bogies like pony trucks or Bissel bogies. Articulated locomotives (e.g. Fairlie, Garratt or Mallet locomotives) have power bogies similar to those on diesel and electric locomotives.
+Rollbock.
+A rollbock is a specialized type of bogie that is inserted under the wheels of a rail wagon/car, usually to convert for another track gauge. Transporter wagons carry the same concept to the level of a flatcar specialized to take other cars as its load.
+Archbar bogies.
+In archbar or diamond frame bogies, the side frames are fabricated rather than cast.
+Tramway.
+Modern.
+Tram bogies are much simpler in design because of their axle load, and the tighter curves found on tramways mean tram bogies almost never have more than two axles. Furthermore, some tramways have steeper gradients and vertical, as well as horizontal, curves, which means tram bogies often need to pivot on the horizontal axis, as well.
+Some articulated trams have bogies located under articulations, a setup referred to as a Jacobs bogie. Often, low-floor trams are fitted with nonpivoting bogies and many tramway enthusiasts see this as a retrograde step, as it leads to more wear of both track and wheels and also significantly reduces the speed at which a tram can round a curve.
+Historic.
+In the past, many different types of bogie (truck) have been used under tramcars (e.g. Brill, Peckham, maximum traction). A maximum traction truck has one driving axle with large wheels and one nondriving axle with smaller wheels. The bogie pivot is located off-centre, so more than half the weight rests on the driving axle.
+Hybrid systems.
+The retractable stadium roof on Toronto's Rogers Centre used modified off-the-shelf train bogies on a circular rail. The system was chosen for its proven reliability.
+Rubber-tyred metro trains use a specialised version of railway bogies. Special flanged steel wheels are behind the rubber-tired running wheels, with additional horizontal guide wheels in front of and behind the running wheels, as well. The unusually large flanges on the steel wheels guide the bogie through standard railroad switches, and in addition keep the train from derailing in case the tires deflate.
+Variable gauge axles.
+To overcome breaks of gauge some bogies are being fitted with variable gauge axles (VGA) so that they can operate on two different gauges. These include the SUW 2000 system from ZNTK Poznań.
+Cleminson system.
+The Cleminson system is not a true bogie, but serves a similar purpose. It was based on a patent of 1883 by James Cleminson, and was once popular on narrow-gauge rolling stock, e.g. on the Isle of Man and Manx Northern Railways. The vehicle would have three axles and the outer two could pivot to adapt to curvature of the track. The pivoting was controlled by levers attached to the third (centre) axle, which could slide sideways.
+Tracked vehicles.
+Some tanks and other tracked vehicles have bogies as external suspension components (see armoured fighting vehicle suspension). This type of bogie usually has two or more road wheels and some type of sprung suspension to smooth the ride across rough terrain. Bogie suspensions keep much of their components on the outside of the vehicle, saving internal space. Although vulnerable to antitank fire, they can often be repaired or replaced in the field.
+Articulated bogie.
+An articulated bogie is any one of a number of bogie designs that allow railway equipment to safely turn sharp corners, while reducing or eliminating the "screeching" normally associated with metal wheels rounding a bend in the rails. There are a number of such designs, and the term is also applied to train sets that incorporate articulation in the vehicle, as opposed to the bogies themselves.
+If one considers a single bogie "up close", it resembles a small rail car with axles at either end. The same effect that causes the bogies to rub against the rails at longer radius causes each of the pairs of wheels to rub on the rails and cause the screeching. Articulated bogies add a second pivot point between the two axles (wheelsets) to allow them to rotate to the correct angle even in these cases.
+Articulated lorries (tractor-trailers).
+In trucking, a bogie is the subassembly of axles and wheels that supports a semi-trailer, whether permanently attached to the frame (as on a single trailer) or making up the dolly that can be hitched and unhitched as needed when hitching up a second or third semi-trailer (as when pulling doubles or triples).
+Radial steering truck.
+Radial steering trucks, also known as radial bogies, allow the individual axles to align with curves in addition to the bogie frame as a whole pivoting. For non-radial bogies, the more axles in the assembly, the more difficulty it has negotiating curves, due to wheel flange to rail friction. For radial bogies, the wheel sets actively "steer" through curves, thus reducing wear at the wheel flange to rail interface and improving adhesion. This has been implemented both by EMD and GE. The EMD version, designated HTCR, was made standard equipment for the SD70 series, first sold in 1993. However, the HTCR in actual operation had mixed results and relatively high purchase and maintenance costs. Thus EMD introduced the HTSC truck in 2003, which basically is the HTCR stripped of radial components. GE introduced their version in 1995 as a buyer option for the AC4400CW and later Evolution Series locomotives. However it also met with limited acceptance due to relatively high purchase and maintenance costs, and customers have generally chosen GE Hi-Ad standard trucks for newer and rebuilt locomotives.
+

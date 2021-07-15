@@ -1,0 +1,2 @@
+A point is a position in space. Imagine touching a piece of paper with a sharp pencil or pen, without making any sideways movement. We know where the point is, but it has no size to speak of.
+In geometry a point has no size, but has a position. This means it has no volume, area or length. We usually represent a point by a small cross 'X' or by a small dot (a small, round shape). In geometry, points are always labelled by capital letters (A,B,C...X,Y,Z).

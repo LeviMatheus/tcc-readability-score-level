@@ -1,0 +1,3 @@
+This list of the nearest stars to Earth is ordered by increasing distance.
+Note on nearest star systems: light year distances taken from parallax data determined by the Research Consortium on Nearby Stars (or Recons).
+The sources for their determination were the Yale Parallax Catalog [Y], Hipparcos [H], Soderhjelm 1999 [S], Tinney 1996 [T].

@@ -1,0 +1,16 @@
+
+In astronomy, the plutinos are a dynamical group of trans-Neptunian objects that orbit in 2:3 mean-motion resonance with Neptune. This means that for every two orbits a plutino makes, Neptune orbits three times. The dwarf planet Pluto is the largest member as well as the namesake of this group. Plutinos are named after mythological creatures associated with the underworld.
+Plutinos form the inner part of the Kuiper belt and represent about a quarter of the known Kuiper belt objects. They are also the most populous known class of resonant trans-Neptunian objects "(also see adjunct box with hierarchical listing)". Aside from Pluto itself, the first plutino, (385185) 1993 RO, was discovered on September 16, 1993.
+Orbits.
+Origin.
+It is thought that the objects that are currently in mean orbital resonances with Neptune initially followed a variety of independent heliocentric paths. As Neptune migrated outward early in the Solar System's history (see origins of the Kuiper belt), the bodies it approached would have been scattered; during this process, some of them would have been captured into resonances. The 3:2 resonance is a low-order resonance and is thus the strongest and most stable among all resonances. This is the primary reason it has a larger population than the other Neptunian resonances encountered in the Kuiper Belt. The cloud of low-inclination bodies beyond 40 AU is the cubewano family, while bodies with higher eccentricities (0.05 to 0.34) and semimajor axes close to the 3:2 Neptune resonance are primarily plutinos.
+Orbital characteristics.
+While the majority of plutinos have relatively low orbital inclinations, a significant fraction of these objects follow orbits similar to that of Pluto, with inclinations in the 10–25° range and eccentricities around 0.2–0.25; such orbits result in many of these objects having perihelia close to or even inside Neptune's orbit, while simultaneously having aphelia that bring them close to the main Kuiper belt's outer edge (where objects in a 1:2 resonance with Neptune, the Twotinos, are found).
+The orbital periods of plutinos cluster around 247.3 years (1.5 × Neptune's orbital period), varying by at most a few years from this value.
+Unusual plutinos include:
+See also the comparison with the distribution of the cubewanos.
+Long-term stability.
+Pluto's influence on the other plutinos has historically been neglected due to its relatively small mass. However, the resonance width (the range of semi-axes compatible with the resonance) is very narrow and only a few times larger than Pluto's Hill sphere (gravitational influence). Consequently, depending on the original eccentricity, some plutinos will eventually be driven out of the resonance by interactions with Pluto. Numerical simulations suggest that the orbits of plutinos with an eccentricity 10%–30% smaller or larger than that of Pluto are not stable over Ga timescales.
+Brightest objects.
+The plutinos brighter than HV=6 include:
+

@@ -1,0 +1,6 @@
+
+In telecommunications, a facility is defined by Federal Standard 1037C as:
+In Canada.
+Telecommunications facility, is same as Airport Facility. A location where a Incumbent Local Exchange Carriers (ILECs) have their Hardware to process Telecom services.
+Under Canadian federal and Québécois provincial law, a telecommunications facility, for the purposes of determining whether GST applies, is defined by §123(1) of the GST Act to be "any facility, apparatus, or other thing (including any wire, cable, radio, optical, or other electromagnetic system, or any similar technical system or any part thereof) that is used or is capable of being used for telecommunications". This is a very broad definition that includes a wide range of things from satellites and earth stations, to telephones and fax machines. The consequence of its application is that even a simple LAN connector jack can be considered to be a telecommunications facility in Canada, for tax purposes.
+

@@ -1,0 +1,2 @@
+Ogg is a free, open standard container format for multimedia, like music and video, run by the Xiph.Org Foundation. The Ogg format is unrestricted by software patents and is designed to provide for efficient internet streaming and for editing of high quality digital multimedia.
+Recently a big library on the internet, the Internet Archive, announced that they are going to convert 100,000s of videos and other multimedia to play the ogg format as well as other formats like the proprietary Adobe Flash flv format.

@@ -1,0 +1,47 @@
+
+1 (one, also called unit, and unity) is a number and a numerical digit used to represent that number in numerals. It represents a single entity, the unit of counting or measurement. For example, a line segment of "unit length" is a line segment of length 1. In conventions of sign where zero is considered neither positive nor negative, 1 is the first and smallest positive integer. It is also sometimes considered the first of the infinite sequence of natural numbers, followed by 2, although by other definitions 1 is the second natural number, following 0.
+The fundamental mathematical property of 1 is to be a multiplicative identity, meaning that any number multiplied by 1 returns that number. Most if not all properties of 1 can be deduced from this. In advanced mathematics, a multiplicative identity is often denoted 1, even if it is not a number. 1 is by convention not considered a prime number; although universal today, this was a matter of some controversy until the mid-20th century.
+Etymology.
+The word "one" can be used as a noun, an adjective and a pronoun.
+It comes from the English word "an", which comes from the Proto-Germanic root . The Proto-Germanic root comes from the Proto-Indo-European root "*oi-no-".
+Compare the Proto-Germanic root to Old Frisian "an", Gothic "ains", Danish "en", Dutch "een", German "eins" and Old Norse "einn".
+Compare the Proto-Indo-European root "*oi-no-" (which means "one, single") to Greek "oinos" (which means "ace" on dice), Latin "unus" (one), Old Persian , Old Church Slavonic "-inu" and "ino-", Lithuanian "vienas", Old Irish "oin" and Breton "un" (one).
+As a number.
+One, sometimes referred to as unity, is the first non-zero natural number. It is thus the integer after zero.
+Any number multiplied by one remains that number, as one is the identity for multiplication. As a result, 1 is its own factorial, its own square and square root, its own cube and cube root, and so on. One is also the result of the empty product, as any number multiplied by one is itself. It is also the only natural number that is neither composite nor prime with respect to division, but is instead considered a unit (meaning of ring theory).
+As a digit.
+The glyph used today in the Western world to represent the number 1, a vertical line, often with a serif at the top and sometimes a short horizontal line at the bottom, traces its roots back to the Brahmic script of ancient India, where it was a simple vertical line. It was transmitted to Europe via Arabic during the Middle Ages.
+In some countries, the serif at the top is sometimes extended into a long upstroke, sometimes as long as the vertical line, which can lead to confusion with the glyph for seven in other countries. Whereas the digit 1 is written with a long upstroke, the digit 7 has a horizontal stroke through the vertical line.
+While the shape of the character for the digit 1 has an ascender in most modern typefaces, in typefaces with text figures, the glyph usually is of x-height, as, for example, in .
+Many older typewriters do not have a separate symbol for "1", and use the lowercase letter "l" instead. It is possible to find cases when the uppercase "J" is used, while it may be for decorative purposes.
+Mathematics.
+Definitions.
+Mathematically, 1 is:
+Formalizations of the natural numbers have their own representations of 1. In the Peano axioms, 1 is the successor of 0. In "Principia Mathematica", it is defined as the set of all singletons (sets with one element), and in the Von Neumann cardinal assignment of natural numbers, it is defined as the set {0}.
+In a multiplicative group or monoid, the identity element is sometimes denoted 1, but "e" (from the German "Einheit", "unity") is also traditional. However, 1 is especially common for the multiplicative identity of a ring, i.e., when an addition and 0 are also present. When such a ring has characteristic "n" not equal to 0, the element called 1 has the property that (where this 0 is the additive identity of the ring). Important examples are finite fields.
+By definition, 1 is the magnitude, absolute value, or norm of a unit complex number, unit vector, and a unit matrix (more usually called an identity matrix). Note that the term "unit matrix" is sometimes used to mean something quite different.
+By definition, 1 is the probability of an event that is absolutely or almost certain to occur.
+In category theory, 1 is sometimes used to denote the terminal object of a category.
+In number theory, 1 is the value of Legendre's constant, which was introduced in 1808 by Adrien-Marie Legendre in expressing the asymptotic behavior of the prime-counting function. Legendre's constant was originally conjectured to be approximately 1.08366, but was proven to equal exactly 1 in 1899.
+Properties.
+Tallying is often referred to as "base 1", since only one mark – the tally itself – is needed. This is more formally referred to as a unary numeral system. Unlike base 2 or base 10, this is not a positional notation.
+Since the base 1 exponential function (1"x") always equals 1, its inverse does not exist (which would be called the logarithm base 1 if it did exist).
+There are two ways to write the real number 1 as a recurring decimal: as 1.000..., and as 0.999... 1 is the first figurate number of every kind, such as triangular number, pentagonal number and centered hexagonal number, to name just a few.
+In many mathematical and engineering problems, numeric values are typically "normalized" to fall within the unit interval from 0 to 1, where 1 usually represents the maximum possible value in the range of parameters. Likewise, vectors are often normalized into unit vectors (i.e., vectors of magnitude one), because these often have more desirable properties. Functions, too, are often normalized by the condition that they have integral one, maximum value one, or square integral one, depending on the application.
+Because of the multiplicative identity, if "f"("x") is a multiplicative function, then "f"(1) must be equal to 1.
+It is also the first and second number in the Fibonacci sequence (0 being the zeroth) and is the first number in many other mathematical sequences.
+The definition of a field requires that 1 must not be equal to 0. Thus, there are no fields of characteristic 1. Nevertheless, abstract algebra can consider the field with one element, which is not a singleton and is not a set at all.
+1 is the most common leading digit in many sets of data, a consequence of Benford's law.
+1 is the only known Tamagawa number for a simply connected algebraic group over a number field.
+The generating function that has all coefficients 1 is given by
+formula_1
+This power series converges and has finite value if and only if formula_2.
+Primality.
+1 is by convention neither a prime number nor a composite number, but a unit (meaning of ring theory) like −1 and, in the Gaussian integers, "i" and −"i". 
+The fundamental theorem of arithmetic guarantees unique factorization over the integers only up to units. For example, , but if units are included, is also equal to, say, among infinitely many similar "factorizations".
+1 appears to meet the naïve definition of a prime number, being evenly divisible only by 1 and itself (also 1). As such, some mathematicians considered it a prime number as late as the middle of the 20th century, but mathematical consensus has generally and since then universally been to exclude it for a variety of reasons (such as complicating the fundamental theorem of arithmetic and other theorems related to prime numbers). 
+1 is the only positive integer divisible by exactly one positive integer, whereas prime numbers are divisible by exactly two positive integers, composite numbers are divisible by more than two positive integers, and zero is divisible by all positive integers.
+In philosophy.
+In the philosophy of Plotinus (and that of other neoplatonists), The One is the ultimate reality and source of all existence. Philo of Alexandria (20 BC – AD 50) regarded the number one as God's number, and the basis for all numbers ("De Allegoriis Legum," ii.12 [i.66]).
+The Neopythagorean philosopher Nicomachus of Gerasa affirmed that one is not a number, but the source of number. He also believed the number two is the embodiement of the origin of otherness. His number theory was recovered by Boethius in his Latin translation of the Nichomachus' treatise "Introduction to Arithmetic".
+

@@ -1,0 +1,1 @@
+The scanning electron microscope (SEM) is a type of electron microscope that images the sample surface by scanning it with a high-energy beam of electrons in a raster scan pattern. The electrons interact with the atoms that make up the sample producing signals that contain information about the sample.

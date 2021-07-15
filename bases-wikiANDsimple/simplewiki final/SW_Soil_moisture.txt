@@ -1,0 +1,3 @@
+Soil moisture is the amount of water present in the soil.
+The amount of void space within a soil depends on the distribution of particle sizes, and is quantified by soil porosity.
+Soil moisture is more generally considered within the context of hydrology, where it represents the immediate store of infiltrating rainfall, before it either evapotranspires or contributes to groundwater recharge.

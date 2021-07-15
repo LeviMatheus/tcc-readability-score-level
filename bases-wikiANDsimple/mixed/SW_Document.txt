@@ -1,0 +1,4 @@
+A document ("noun") is a piece of information that one can use for communicating something. In most of the cases it is a paper, that contains information in the form of ink marks. But nowadays documents can be digital as well.
+To document ("verb") means to produce an object by collecting and representing information.
+Document life cycle management technology.
+Technology to manage documents has developed with documents themselves. Of particular importances are practices concerning the preservation, archival, destruction and management of documents. These together are called the "document life cycle"

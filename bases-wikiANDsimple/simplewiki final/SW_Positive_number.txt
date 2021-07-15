@@ -1,0 +1,3 @@
+A positive number is a number that is bigger than zero.
+A positive number either has a "+" symbol in front of the symbol for the number, or no "−" symbol in front of the symbol for the number. For example, "+3" is a positive number. Also "2" is a positive number.
+Positive numbers are right of zero on a number line.

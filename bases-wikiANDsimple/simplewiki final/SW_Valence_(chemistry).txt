@@ -1,0 +1,3 @@
+In Chemistry, Valence (which is sometimes called valency) is the number of chemical bonds the atoms of a certain element can form.
+For a long time, people though that this number was a fixed property of the element in question. Carbon always has four bonds, oxygen always has two, and hydrogen always has one. The problem was seen only later. Phosphorous sometimes behaves as if it had three bonds, a valence of three. At other times though, it seems to have five bonds.
+IUPAC saw this problem, and proposed oxydation numbers. This means there is one number per chemical element. The problem of this approach is that it leaves aside most chemical properties of the elements in question.

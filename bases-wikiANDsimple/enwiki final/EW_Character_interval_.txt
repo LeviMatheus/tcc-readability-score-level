@@ -1,0 +1,4 @@
+
+Character interval: In a communications system, the total number of unit intervals required to transmit any given character, including synchronizing, information, error checking, or control characters, but not including signals that are not associated with individual characters. 
+An example of a time interval that is excluded when determining character interval is any time added between the end of a stop signal and the beginning of the next start signal to accommodate changing transmission conditions, such as a change in data signaling rate or buffering requirements. This added time is defined as a part of the intercharacter interval.
+

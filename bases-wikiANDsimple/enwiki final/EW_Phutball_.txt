@@ -1,0 +1,25 @@
+
+Phutball (short for Philosopher's Football) is a two-player abstract strategy board game described in Elwyn Berlekamp, John Horton Conway, and Richard K. Guy's "Winning Ways for your Mathematical Plays".
+Rules.
+Phutball is played on the intersections of a 19×15 grid using one white stone and as many black stones as needed.
+In this article the two players are named Ohs (O) and Eks (X).
+The board is labeled A through P (omitting I) from left to right and 1 to 19 from bottom to top from Ohs' perspective. 
+Rows 0 and 20 represent "off the board" beyond rows 1 and 19 respectively.
+As specialized phutball boards are hard to come by, the game is usually played on a 19×19 Go board, with a white stone representing the football and black stones representing the men.
+The objective is to score goals by using the men (the black stones) to move the football (the white stone) onto or over the opponent's goal line (rows 1 or 19). Ohs tries to move the football to rows 19 or 20 and Eks to rows 1 or 0. 
+At the start of the game the football is placed on the central point, unless one player gives the other a handicap, in which case the ball starts nearer one player's goal.
+Players alternate making moves. 
+A move is either to add a man to any vacant point on the board or to move the ball. 
+There is no difference between men played by Ohs and those played by Eks.
+The football is moved by a series of jumps over adjacent men. 
+Each jump is to the first vacant point in a straight line horizontally, vertically, or diagonally over one or more men. 
+The jumped men are then removed from the board (before any subsequent jump occurs). 
+This process repeats for as long as there remain men available to be jumped and the player desires. Jumping is optional: there is no requirement to jump. 
+In contrast to checkers, multiple men in a row are jumped and removed as a group.
+The diagram on the right illustrates a jump. 
+If the football ends the move on or over the opponent's goal line then a goal has been scored. 
+If the football passes through a goal line, but ends up elsewhere due to further jumps, the game continues.
+Computational complexity.
+The game is sufficiently complex that checking whether there is a win in one (on an m×n board) is NP-complete. From the starting position, it is not known whether any player has a winning strategy or both players have a drawing strategy, but there exists other configurations from which both players have drawing strategies.
+Given an arbitrary board position, with initially a white stone placed in the center, determining whether the current player has a winning strategy is PSPACE-hard.
+

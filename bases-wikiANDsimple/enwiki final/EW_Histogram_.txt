@@ -1,0 +1,58 @@
+
+A histogram is an approximate representation of the distribution of numerical data. It was first introduced by Karl Pearson. To construct a histogram, the first step is to "bin" (or "bucket") the range of values—that is, divide the entire range of values into a series of intervals—and then count how many values fall into each interval. The bins are usually specified as consecutive, non-overlapping intervals of a variable. The bins (intervals) must be adjacent and are often (but not required to be) of equal size.
+If the bins are of equal size, a rectangle is erected over the bin with height proportional to the frequency—the number of cases in each bin. A histogram may also be normalized to display "relative" frequencies. It then shows the proportion of cases that fall into each of several categories, with the sum of the heights equaling 1.
+However, bins need not be of equal width; in that case, the erected rectangle is defined to have its "area" proportional to the frequency of cases in the bin. The vertical axis is then not the frequency but "frequency density"—the number of cases per unit of the variable on the horizontal axis. Examples of variable bin width are displayed on Census bureau data below.
+As the adjacent bins leave no gaps, the rectangles of a histogram touch each other to indicate that the original variable is continuous.
+Histograms give a rough sense of the density of the underlying distribution of the data, and often for density estimation: estimating the probability density function of the underlying variable. The total area of a histogram used for probability density is always normalized to 1. If the length of the intervals on the "x"-axis are all 1, then a histogram is identical to a relative frequency plot.
+A histogram can be thought of as a simplistic kernel density estimation, which uses a kernel to smooth frequencies over the bins. This yields a smoother probability density function, which will in general more accurately reflect distribution of the underlying variable. The density estimate could be plotted as an alternative to the histogram, and is usually drawn as a curve rather than a set of boxes. Histograms are nevertheless preferred in applications, when their statistical properties need to be modeled. The correlated variation of a kernel density estimate is very difficult to describe mathematically, while it is simple for a histogram where each bin varies independently.
+An alternative to kernel density estimation is the average shifted histogram,
+which is fast to compute and gives a smooth curve estimate of the density without using kernels.
+The histogram is one of the seven basic tools of quality control.
+Histograms are sometimes confused with bar charts. A histogram is used for continuous data, where the bins represent ranges of data, while a bar chart is a plot of categorical variables. Some authors recommend that bar charts have gaps between the rectangles to clarify the distinction.
+Examples.
+This is the data for the histogram to the right, using 500 items:
+The words used to describe the patterns in a histogram are: "symmetric", "skewed left" or "right", "unimodal", "bimodal" or "multimodal".
+It is a good idea to plot the data using several different bin widths to learn more about it. Here is an example on tips given in a restaurant.
+The U.S. Census Bureau found that there were 124 million people who work outside of their homes. Using their data on the time occupied by travel to work, the table below shows the absolute number of people who responded with travel times "at least 30 but less than 35 minutes" is higher than the numbers for the categories above and below it. This is likely due to people rounding their reported journey time. The problem of reporting values as somewhat arbitrarily rounded numbers is a common phenomenon when collecting data from people.
+This histogram shows the number of cases per unit interval as the height of each block, so that the area of each block is equal to the number of people in the survey who fall into its category. The area under the curve represents the total number of cases (124 million). This type of histogram shows absolute numbers, with Q in thousands.
+This histogram differs from the first only in the vertical scale. The area of each block is the fraction of the total that each category represents, and the total area of all the bars is equal to 1 (the fraction meaning "all"). The curve displayed is a simple density estimate. This version shows proportions, and is also known as a unit area histogram.
+In other words, a histogram represents a frequency distribution by means of rectangles whose widths represent class intervals and whose areas are proportional to the corresponding frequencies: the height of each is the average frequency density for the interval. The intervals are placed together in order to show that the data represented by the histogram, while exclusive, is also contiguous. (E.g., in a histogram it is possible to have two connecting intervals of 10.5–20.5 and 20.5–33.5, but not two connecting intervals of 10.5–20.5 and 22.5–32.5. Empty intervals are represented as empty and not skipped.)
+Mathematical definition.
+In a more general mathematical sense, a histogram is a function "m""i" that counts the number of observations that fall into each of the disjoint categories (known as "bins"), whereas the graph of a histogram is merely one way to represent a histogram. Thus, if we let "n" be the total number of observations and "k" be the total number of bins, the histogram "m""i" meets the following conditions:
+Cumulative histogram.
+A cumulative histogram is a mapping that counts the cumulative number of observations in all of the bins up to the specified bin. That is, the cumulative histogram "M""i" of a histogram "m""j" is defined as:
+Number of bins and width.
+There is no "best" number of bins, and different bin sizes can reveal different features of the data. Grouping data is at least as old as Graunt's work in the 17th century, but no systematic guidelines were given until Sturges' work in 1926.
+Using wider bins where the density of the underlying data points is low reduces noise due to sampling randomness; using narrower bins where the density is high (so the signal drowns the noise) gives greater precision to the density estimation. Thus varying the bin-width within a histogram can be beneficial. Nonetheless, equal-width bins are widely used.
+Some theoreticians have attempted to determine an optimal number of bins, but these methods generally make strong assumptions about the shape of the distribution. Depending on the actual data distribution and the goals of the analysis, different bin widths may be appropriate, so experimentation is usually needed to determine an appropriate width. There are, however, various useful guidelines and rules of thumb.
+The number of bins "k" can be assigned directly or can be calculated from a suggested bin width "h" as:
+The braces indicate the ceiling function.
+Square-root choice.
+which takes the square root of the number of data points in the sample (used by Excel histograms and many other) and rounds to the next integer.
+Sturges' formula.
+Sturges' formula is derived from a binomial distribution and implicitly assumes an approximately normal distribution.
+It implicitly bases the bin sizes on the range of the data and can perform poorly if "n" &lt; 30, because the number of bins will be small—less than seven—and unlikely to show trends in the data well. It may also perform poorly if the data are not normally distributed.
+Rice Rule.
+The Rice Rule is presented as a simple alternative to Sturges' rule.
+Doane's formula.
+Doane's formula is a modification of Sturges' formula which attempts to improve its performance with non-normal data.
+where formula_8 is the estimated 3rd-moment-skewness of the distribution and
+Scott's normal reference rule.
+where formula_11 is the sample standard deviation. Scott's normal reference rule is optimal for random samples of normally distributed data, in the sense that it minimizes the integrated mean squared error of the density estimate.
+Freedman–Diaconis' choice.
+The Freedman–Diaconis rule is:
+which is based on the interquartile range, denoted by IQR. It replaces 3.5σ of Scott's rule with 2 IQR, which is less sensitive than the standard deviation to outliers in data.
+Minimizing cross-validation estimated squared error.
+This approach of minimizing integrated mean squared error from Scott's rule can be generalized beyond normal distributions, by using leave-one out cross validation:
+Here, formula_14 is the number of datapoints in the "k"th bin, and choosing the value of "h" that minimizes "J" will minimize integrated mean squared error.
+Shimazaki and Shinomoto's choice.
+The choice is based on minimization of an estimated "L"2 risk function
+where formula_16 and formula_17 are mean and biased variance of a histogram with bin-width formula_18, formula_19 and formula_20.
+Variable bin widths.
+Rather than choosing evenly spaced bins, for some applications it is preferable to vary the bin width. This avoids bins with low counts. A common case is to choose "equiprobable bins", where the number of samples in each bin is expected to be approximately equal. The bins may be chosen according to some known distribution or may be chosen based on the data so that each bin has formula_21 samples. When plotting the histogram, the "frequency density" is used for the dependent axis. While all bins have approximately equal area, the heights of the histogram approximate the density distribution.
+For equiprobable bins, the following rule for the number of bins is suggested:
+This choice of bins is motivated by maximizing the power of a Pearson chi-squared test testing whether the bins do contain equal numbers of samples. More specifically, for a given confidence interval formula_23 it is recommended to choose between 1/2 and 1 times the following equation:
+Where formula_25 is the probit function. Following this rule for formula_26 would give between formula_27 and formula_28; the coefficient of 2 is chosen as an easy-to-remember value from this broad optimum.
+Remark.
+A good reason why the number of bins should be proportional to formula_29 is the following: suppose that the data are obtained as formula_30 independent realizations of a bounded probability distribution with smooth density. Then the histogram remains equally "rugged" as formula_30 tends to infinity. If formula_32 is the "width" of the distribution (e. g., the standard deviation or the inter-quartile range), then the number of units in a bin (the frequency) is of order formula_33 and the "relative" standard error is of order formula_34. Comparing to the next bin, the relative change of the frequency is of order formula_35 provided that the derivative of the density is non-zero. These two are of the same order if formula_36 is of order formula_37, so that formula_38 is of order formula_29. This simple cubic root choice can also be applied to bins with non-constant width.
+

@@ -1,0 +1,145 @@
+
+In probability theory, the central limit theorem (CLT) establishes that, in many situations, when independent random variables are added, their properly normalized sum tends toward a normal distribution (informally a "bell curve") even if the original variables themselves are not normally distributed. The theorem is a key concept in probability theory because it implies that probabilistic and statistical methods that work for normal distributions can be applicable to many problems involving other types of distributions. This theorem has seen many changes during the formal development of probability theory. Previous versions of the theorem date back to 1810, but in its modern general form, this fundamental result in probability theory was precisely stated as late as 1920, thereby serving as a bridge between classical and modern probability theory.
+If formula_1 are formula_2 random samples drawn from a population with overall mean formula_3 and finite variance and if formula_4 is the sample mean, then the limiting form of the distribution, is a standard normal distribution.
+For example, suppose that a sample is obtained containing many observations, each observation being randomly generated in a way that does not depend on the values of the other observations, and that the arithmetic mean of the observed values is computed. If this procedure is performed many times, the central limit theorem says that the probability distribution of the average will closely approximate a normal distribution. A simple example of this is that if one flips a coin many times, the probability of getting a given number of heads will approach a normal distribution, with the mean equal to half the total number of flips. At the limit of an infinite number of flips, it will equal a normal distribution.
+The central limit theorem has several variants. In its common form, the random variables must be identically distributed. In variants, convergence of the mean to the normal distribution also occurs for non-identical distributions or for non-independent observations, if they comply with certain conditions.
+The earliest version of this theorem, that the normal distribution may be used as an approximation to the binomial distribution, is the de Moivre–Laplace theorem.
+Independent sequences.
+Classical CLT.
+Let formula_5 be a random sample of size formula_2 — that is, a sequence of independent and identically distributed (i.i.d.) random variables drawn from a distribution of expected value given by formula_3 and finite variance given by Suppose we are interested in the sample average
+of these random variables. By the law of large numbers, the sample averages converge almost surely (and therefore also converge in probability) to the expected value formula_3 as The classical central limit theorem describes the size and the distributional form of the stochastic fluctuations around the deterministic number formula_3 during this convergence. More precisely, it states that as formula_2 gets larger, the distribution of the difference between the sample average formula_4 and its limit when multiplied by the factor formula_13 approximates the normal distribution with mean 0 and variance For large enough , the distribution of formula_4 is close to the normal distribution with mean formula_3 and variance The usefulness of the theorem is that the distribution of formula_16 approaches normality regardless of the shape of the distribution of the individual Formally, the theorem can be stated as follows:
+Lindeberg–Lévy CLT. Suppose formula_5 is a sequence of i.i.d. random variables with formula_18 and Then as formula_2 approaches infinity, the random variables formula_16 converge in distribution to a normal 
+In the case convergence in distribution means that the cumulative distribution functions of formula_16 converge pointwise to the cdf of the formula_23 distribution: for every real 
+where formula_25 is the standard normal cdf evaluated The convergence is uniform in formula_26 in the sense that
+where formula_28 denotes the least upper bound (or supremum) of the set.
+Lyapunov CLT.
+The theorem is named after Russian mathematician Aleksandr Lyapunov. In this variant of the central limit theorem the random variables formula_29 have to be independent, but not necessarily identically distributed. The theorem also requires that random variables formula_30 have moments of some order and that the rate of growth of these moments is limited by the Lyapunov condition given below.
+Lyapunov CLT. Suppose formula_5 is a sequence of independent random variables, each with finite expected value formula_32 and variance Define
+If for some "Lyapunov’s condition"
+is satisfied, then a sum of formula_35 converges in distribution to a standard normal random variable, as formula_2 goes to infinity:
+In practice it is usually easiest to check Lyapunov's condition for 
+If a sequence of random variables satisfies Lyapunov's condition, then it also satisfies Lindeberg's condition. The converse implication, however, does not hold.
+Lindeberg CLT.
+In the same setting and with the same notation as above, the Lyapunov condition can be replaced with the following weaker one (from Lindeberg in 1920).
+Suppose that for every formula_38
+where formula_40 is the indicator function. Then the distribution of the standardized sums
+converges towards the standard normal distribution 
+Multidimensional CLT.
+Proofs that use characteristic functions can be extended to cases where each individual formula_42 is a random vector in with mean vector formula_43 and covariance matrix formula_44 (among the components of the vector), and these random vectors are independent and identically distributed. Summation of these vectors is being done component-wise. The multidimensional central limit theorem states that when scaled, sums converge to a multivariate normal distribution.
+Let
+be the -vector. The bold in formula_42 means that it is a random vector, not a random (univariate) variable. Then the sum of the random vectors will be
+and the average is
+and therefore
+The multivariate central limit theorem states that
+where the covariance matrix formula_51 is equal to
+The rate of convergence is given by the following Berry–Esseen type result:
+Theorem. Let formula_53 be independent formula_54-valued random vectors, each having mean zero. Write formula_55 and assume formula_56 is invertible. Let formula_57 be a formula_58-dimensional Gaussian with the same mean and same covariance matrix as formula_59. Then for all convex sets 
+where formula_61 is a universal constant, and formula_62 denotes the Euclidean norm on 
+It is unknown whether the factor formula_63 is necessary.
+Generalized theorem.
+The central limit theorem states that the sum of a number of independent and identically distributed random variables with finite variances will tend to a normal distribution as the number of variables grows. A generalization due to Gnedenko and Kolmogorov states that the sum of a number of random variables with a power-law tail (Paretian tail) distributions decreasing as formula_64 where formula_65 (and therefore having infinite variance) will tend to a stable distribution formula_66 as the number of summands grows. If formula_67 then the sum converges to a stable distribution with stability parameter equal to 2, i.e. a Gaussian distribution.
+Dependent processes.
+CLT under weak dependence.
+A useful generalization of a sequence of independent, identically distributed random variables is a mixing random process in discrete time; "mixing" means, roughly, that random variables temporally far apart from one another are nearly independent. Several kinds of mixing are used in ergodic theory and probability theory. See especially strong mixing (also called α-mixing) defined by formula_68 where formula_69 is so-called strong mixing coefficient.
+A simplified formulation of the central limit theorem under strong mixing is:
+Theorem. Suppose that formula_5 is stationary and formula_71-mixing with formula_72 and that formula_73 and Denote then the limit
+exists, and if formula_75 then formula_76 converges in distribution to formula_77.
+In fact,
+where the series converges absolutely.
+The assumption formula_75 cannot be omitted, since the asymptotic normality fails for formula_80 where formula_81 are another stationary sequence.
+There is a stronger version of the theorem: the assumption formula_82 is replaced with and the assumption formula_72 is replaced with
+Existence of such formula_85 ensures the conclusion. For encyclopedic treatment of limit theorems under mixing conditions see .
+Martingale difference CLT.
+Theorem. Let a martingale formula_86 satisfy
+then formula_89 converges in distribution to formula_90 as formula_91.
+"Caution:" The restricted expectation formula_92 should not be confused with the conditional expectation 
+Remarks.
+Proof of classical CLT.
+The central limit theorem has a proof using characteristic functions. It is similar to the proof of the (weak) law of large numbers.
+Assume formula_5 are independent and identically distributed random variables, each with mean formula_3 and finite variance The sum formula_95 has mean formula_96 and variance Consider the random variable
+where in the last step we defined the new random variables each with zero mean and unit variance The characteristic function of formula_98 is given by
+where in the last step we used the fact that all of the formula_100 are identically distributed. The characteristic function of formula_101 is, by Taylor's theorem,
+where formula_103 is "little notation" for some function of formula_104 that goes to zero more rapidly than By the limit of the exponential function the characteristic function of formula_105 equals
+All of the higher order terms vanish in the limit The right hand side equals the characteristic function of a standard normal distribution formula_90, which implies through Lévy's continuity theorem that the distribution of formula_98 will approach formula_109 as Therefore, the sample average
+is such that 
+converges to the normal distribution from which the central limit theorem follows.
+Convergence to the limit.
+The central limit theorem gives only an asymptotic distribution. As an approximation for a finite number of observations, it provides a reasonable approximation only when close to the peak of the normal distribution; it requires a very large number of observations to stretch into the tails.
+The convergence in the central limit theorem is uniform because the limiting cumulative distribution function is continuous. If the third central moment formula_112 exists and is finite, then the speed of convergence is at least on the order of formula_113 (see Berry–Esseen theorem). Stein's method can be used not only to prove the central limit theorem, but also to provide bounds on the rates of convergence for selected metrics.
+The convergence to the normal distribution is monotonic, in the sense that the entropy of formula_98 increases monotonically to that of the normal distribution.
+The central limit theorem applies in particular to sums of independent and identically distributed discrete random variables. A sum of discrete random variables is still a discrete random variable, so that we are confronted with a sequence of discrete random variables whose cumulative probability distribution function converges towards a cumulative probability distribution function corresponding to a continuous variable (namely that of the normal distribution). This means that if we build a histogram of the realizations of the sum of independent identical discrete variables, the curve that joins the centers of the upper faces of the rectangles forming the histogram converges toward a Gaussian curve as approaches infinity, this relation is known as de Moivre–Laplace theorem. The binomial distribution article details such an application of the central limit theorem in the simple case of a discrete variable taking only two possible values.
+Relation to the law of large numbers.
+The law of large numbers as well as the central limit theorem are partial solutions to a general problem: "What is the limiting behavior of as approaches infinity?" In mathematical analysis, asymptotic series are one of the most popular tools employed to approach such questions.
+Suppose we have an asymptotic expansion of formula_115:
+Dividing both parts by and taking the limit will produce , the coefficient of the highest-order term in the expansion, which represents the rate at which changes in its leading term.
+Informally, one can say: " grows approximately as ". Taking the difference between and its approximation and then dividing by the next term in the expansion, we arrive at a more refined statement about :
+Here one can say that the difference between the function and its approximation grows approximately as . The idea is that dividing the function by appropriate normalizing functions, and looking at the limiting behavior of the result, can tell us much about the limiting behavior of the original function itself.
+Informally, something along these lines happens when the sum, , of independent identically distributed random variables, , is studied in classical probability theory. If each has finite mean , then by the law of large numbers, . If in addition each has finite variance , then by the central limit theorem,
+where is distributed as . This provides values of the first two constants in the informal expansion
+In the case where the do not have finite mean or variance, convergence of the shifted and rescaled sum can also occur with different centering and scaling factors:
+or informally
+Distributions which can arise in this way are called "stable". Clearly, the normal distribution is stable, but there are also other stable distributions, such as the Cauchy distribution, for which the mean or variance are not defined. The scaling factor may be proportional to , for any ; it may also be multiplied by a slowly varying function of .
+The law of the iterated logarithm specifies what is happening "in between" the law of large numbers and the central limit theorem. Specifically it says that the normalizing function , intermediate in size between of the law of large numbers and of the central limit theorem, provides a non-trivial limiting behavior.
+Alternative statements of the theorem.
+Density functions.
+The density of the sum of two or more independent variables is the convolution of their densities (if these densities exist). Thus the central limit theorem can be interpreted as a statement about the properties of density functions under convolution: the convolution of a number of density functions tends to the normal density as the number of density functions increases without bound. These theorems require stronger hypotheses than the forms of the central limit theorem given above. Theorems of this type are often called local limit theorems. See Petrov for a particular local limit theorem for sums of independent and identically distributed random variables.
+Characteristic functions.
+Since the characteristic function of a convolution is the product of the characteristic functions of the densities involved, the central limit theorem has yet another restatement: the product of the characteristic functions of a number of density functions becomes close to the characteristic function of the normal density as the number of density functions increases without bound, under the conditions stated above. Specifically, an appropriate scaling factor needs to be applied to the argument of the characteristic function.
+An equivalent statement can be made about Fourier transforms, since the characteristic function is essentially a Fourier transform.
+Calculating the variance.
+Let be the sum of random variables. Many central limit theorems provide conditions such that converges in distribution to (the normal distribution with mean 0, variance 1) as . In some cases, it is possible to find a constant and function such that converges in distribution to as .
+Lemma. Suppose formula_123 is a sequence of real-valued and strictly stationary random variables with formula_124 for all and Construct
+Extensions.
+Products of positive random variables.
+The logarithm of a product is simply the sum of the logarithms of the factors. Therefore, when the logarithm of a product of random variables that take only positive values approaches a normal distribution, the product itself approaches a log-normal distribution. Many physical quantities (especially mass or length, which are a matter of scale and cannot be negative) are the products of different random factors, so they follow a log-normal distribution. This multiplicative version of the central limit theorem is sometimes called Gibrat's law.
+Whereas the central limit theorem for sums of random variables requires the condition of finite variance, the corresponding theorem for products requires the corresponding condition that the density function be square-integrable.
+Beyond the classical framework.
+Asymptotic normality, that is, convergence to the normal distribution after appropriate shift and rescaling, is a phenomenon much more general than the classical framework treated above, namely, sums of independent random variables (or vectors). New frameworks are revealed from time to time; no single unifying framework is available for now.
+Convex body.
+Theorem. There exists a sequence for which the following holds. Let , and let random variables have a log-concave joint density such that for all , and for all . Then the distribution of
+is -close to in the total variation distance.
+These two -close distributions have densities (in fact, log-concave densities), thus, the total variance distance between them is the integral of the absolute value of the difference between the densities. Convergence in total variation is stronger than weak convergence.
+An important example of a log-concave density is a function constant inside a given convex body and vanishing outside; it corresponds to the uniform distribution on the convex body, which explains the term "central limit theorem for convex bodies".
+Another example: where and . If then factorizes into which means are independent. In general, however, they are dependent.
+The condition ensures that are of zero mean and uncorrelated; still, they need not be independent, nor even pairwise independent. By the way, pairwise independence cannot replace independence in the classical central limit theorem.
+Here is a Berry–Esseen type result.
+Theorem. Let satisfy the assumptions of the previous theorem, then 
+for all ; here is a universal (absolute) constant. Moreover, for every such that ,
+The distribution of need not be approximately normal (in fact, it can be uniform). However, the distribution of is close to (in the total variation distance) for most vectors according to the uniform distribution on the sphere .
+Lacunary trigonometric series.
+Theorem (Salem–Zygmund): Let be a random variable distributed uniformly on , and , where
+Then
+converges in distribution to .
+Gaussian polytopes.
+Theorem: Let be independent random points on the plane each having the two-dimensional standard normal distribution. Let be the convex hull of these points, and the area of Then
+converges in distribution to as tends to infinity.
+The same also holds in all dimensions greater than 2.
+The polytope is called a Gaussian random polytope.
+A similar result holds for the number of vertices (of the Gaussian polytope), the number of edges, and in fact, faces of all dimensions.
+Linear functions of orthogonal matrices.
+A linear function of a matrix is a linear combination of its elements (with given coefficients), where is the matrix of the coefficients; see Trace (linear algebra)#Inner product.
+A random orthogonal matrix is said to be distributed uniformly, if its distribution is the normalized Haar measure on the orthogonal group ; see Rotation matrix#Uniform random rotation matrices.
+Theorem. Let be a random orthogonal matrix distributed uniformly, and a fixed matrix such that , and let . Then the distribution of is close to in the total variation metric up to .
+Subsequences.
+Theorem. Let random variables be such that weakly in and weakly in . Then there exist integers such that
+converges in distribution to as tends to infinity.
+Random walk on a crystal lattice.
+The central limit theorem may be established for the simple random walk on a crystal lattice (an infinite-fold abelian covering graph over a finite graph), and is used for design of crystal structures.
+Applications and examples.
+Simple example.
+A simple example of the central limit theorem is rolling many identical, unbiased dice. The distribution of the sum (or average) of the rolled numbers will be well approximated by a normal distribution. Since real-world quantities are often the balanced sum of many unobserved random events, the central limit theorem also provides a partial explanation for the prevalence of the normal probability distribution. It also justifies the approximation of large-sample statistics to the normal distribution in controlled experiments.
+Real applications.
+Published literature contains a number of useful and interesting examples and applications relating to the central limit theorem. One source states the following examples:
+From another viewpoint, the central limit theorem explains the common appearance of the "bell curve" in density estimates applied to real world data. In cases like electronic noise, examination grades, and so on, we can often regard a single measured value as the weighted average of many small effects. Using generalisations of the central limit theorem, we can then see that this would often (though not always) produce a final distribution that is approximately normal.
+In general, the more a measurement is like the sum of independent variables with equal influence on the result, the more normality it exhibits. This justifies the common use of this distribution to stand in for the effects of unobserved variables in models like the linear model.
+Regression.
+Regression analysis and in particular ordinary least squares specifies that a dependent variable depends according to some function upon one or more independent variables, with an additive error term. Various types of statistical inference on the regression assume that the error term is normally distributed. This assumption can be justified by assuming that the error term is actually the sum of many independent error terms; even if the individual error terms are not normally distributed, by the central limit theorem their sum can be well approximated by a normal distribution.
+Other illustrations.
+Given its importance to statistics, a number of papers and computer packages are available that demonstrate the convergence involved in the central limit theorem.
+History.
+Dutch mathematician Henk Tijms writes:
+Sir Francis Galton described the Central Limit Theorem in this way:
+The actual term "central limit theorem" (in German: "zentraler Grenzwertsatz") was first used by George Pólya in 1920 in the title of a paper. Pólya referred to the theorem as "central" due to its importance in probability theory. According to Le Cam, the French school of probability interprets the word "central" in the sense that "it describes the behaviour of the centre of the distribution as opposed to its tails". The abstract of the paper "On the central limit theorem of calculus of probability and the problem of moments" by Pólya in 1920 translates as follows.
+A thorough account of the theorem's history, detailing Laplace's foundational work, as well as Cauchy's, Bessel's and Poisson's contributions, is provided by Hald. Two historical accounts, one covering the development from Laplace to Cauchy, the second the contributions by von Mises, Pólya, Lindeberg, Lévy, and Cramér during the 1920s, are given by Hans Fischer. Le Cam describes a period around 1935. Bernstein presents a historical discussion focusing on the work of Pafnuty Chebyshev and his students Andrey Markov and Aleksandr Lyapunov that led to the first proofs of the CLT in a general setting.
+A curious footnote to the history of the Central Limit Theorem is that a proof of a result similar to the 1922 Lindeberg CLT was the subject of Alan Turing's 1934 Fellowship Dissertation for King's College at the University of Cambridge. Only after submitting the work did Turing learn it had already been proved. Consequently, Turing's dissertation was not published.
+

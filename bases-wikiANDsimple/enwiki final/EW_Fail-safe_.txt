@@ -1,0 +1,19 @@
+
+In engineering, a fail-safe is a design feature or practice that in the event of a specific type of failure, inherently responds in a way that will cause minimal or no harm to other equipment, to the environment or to people. Unlike inherent safety to a particular hazard, a system being "fail-safe" does not mean that failure is impossible or improbable, but rather that the system's design prevents or mitigates unsafe consequences of the system's failure. That is, if and when a "fail-safe" system fails, it remains at least as safe as it was before the failure. Since many types of failure are possible, failure mode and effects analysis is used to examine failure situations and recommend safety design and procedures.
+Some systems can never be made fail-safe, as continuous availability is needed. Redundancy, fault tolerance, or contingency plans are used for these situations (e.g. multiple independently controlled and fuel-fed engines).
+Examples.
+Mechanical or physical.
+Examples include:
+Electrical or electronic.
+Examples include:
+Procedural safety.
+As well as physical devices and systems fail-safe procedures can be created so that if a procedure is not carried out or carried out incorrectly no dangerous action results. 
+For example:
+Other terminology.
+Fail-safe (foolproof) devices are also known as "poka-yoke" devices. "Poka-yoke", a Japanese term, was coined by Shigeo Shingo, a quality expert. "Safe to fail" refers to civil engineering designs such as the Room for the River project in Netherlands and the Thames Estuary 2100 Plan which incorporate flexible adaptation strategies or climate change adaptation which provide for, and limit, damage, should severe events such as 500-year floods occur.
+Fail safe and fail secure.
+"Fail-safe" and "fail-secure" are distinct concepts. "Fail-safe" means that a device will not endanger lives or property when it fails. "Fail-secure," also called "fail-closed," means that access or data will not fall into the wrong hands in a security failure. Sometimes the approaches suggest opposite solutions. For example, if a building catches fire, fail-safe systems would unlock doors to ensure quick escape and allow firefighters inside, while fail-secure would lock doors to prevent unauthorized access to the building.
+The opposite of "fail-closed" is called "fail-open".
+Fail active operational.
+Fail active operational can be installed on systems that have a high degree of redundancy so that a single failure of any part of the system can be tolerated (fail active operational) and a second failure can be detected – at which point the system will turn itself off (uncouple, fail passive). One way of accomplishing this is to have three identical systems installed, and a control logic which detects discrepancies. An example for this are many aircraft systems, among them inertial navigation systems and pitot tubes.
+

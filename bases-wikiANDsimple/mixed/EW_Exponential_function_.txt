@@ -1,0 +1,92 @@
+
+In mathematics, an exponential function is a function of the form
+where is a positive real number, and the argument occurs as an exponent. For real numbers and , a function of the form formula_1 is also an exponential function, since it can be rewritten as 
+As functions of a real variable, exponential functions are uniquely characterized by the fact that the growth rate of such a function (that is, its derivative) is directly proportional to the value of the function. The constant of proportionality of this relationship is the natural logarithm of the base :
+For , the function formula_3 is increasing (as depicted for and ), because formula_4 makes the derivative always positive; while for , the function is decreasing (as depicted for ); and for the function is constant.
+The constant is the unique base for which the constant of proportionality is 1, so that the function is its own derivative:
+This function, also denoted as , is called the "natural exponential function", or simply "the exponential function". Since any exponential function can be written in terms of the natural exponential as formula_5, it is computationally and conceptually convenient to reduce the study of exponential functions to this particular one. The natural exponential is hence denoted by
+The former notation is commonly used for simpler exponents, while the latter is preferred when the exponent is a complicated expression. The graph of formula_6 is upward-sloping, and increases faster as increases. The graph always lies above the -axis, but becomes arbitrarily close to it for large negative ; thus, the -axis is a horizontal asymptote. The equation formula_7 means that the slope of the tangent to the graph at each point is equal to its -coordinate at that point. Its inverse function is the natural logarithm, denoted formula_8 formula_9 or formula_10 because of this, some old texts refer to the exponential function as the antilogarithm.
+The exponential function satisfies the fundamental multiplicative identity (which can be extended to complex-valued exponents as well):
+It can be shown that every continuous, nonzero solution of the functional equation formula_11 is an exponential function, formula_12 with formula_13 The multiplicative identity, along with the definition formula_14, shows that formula_15 for positive integers , relating the exponential function to the elementary notion of exponentiation.
+The argument of the exponential function can be any real or complex number, or even an entirely different kind of mathematical object (e.g., matrix).
+The ubiquitous occurrence of the exponential function in pure and applied mathematics has led mathematician W. Rudin to opine that the exponential function is "the most important function in mathematics". In applied settings, exponential functions model a relationship in which a constant change in the independent variable gives the same proportional change (i.e., percentage increase or decrease) in the dependent variable. This occurs widely in the natural and social sciences, as in a self-reproducing population, a fund accruing compound interest, or a growing body of manufacturing expertise. Thus, the exponential function also appears in a variety of contexts within physics, chemistry, engineering, mathematical biology, and economics. 
+Formal definition.
+The real exponential function formula_16 can be characterized in a variety of equivalent ways. It is commonly defined by the following power series:
+Since the radius of convergence of this power series is infinite, this definition is, in fact, applicable to all complex numbers (see for the extension of formula_18 to the complex plane). The constant can then be defined as formula_19
+The term-by-term differentiation of this power series reveals that formula_20 for all real , leading to another common characterization of formula_18 as the unique solution of the differential equation
+satisfying the initial condition formula_23
+Based on this characterization, the chain rule shows that its inverse function, the natural logarithm, satisfies formula_24 for formula_25 or formula_26 This relationship leads to a less common definition of the real exponential function formula_18 as the solution formula_28 to the equation
+By way of the binomial theorem and the power series definition, the exponential function can also be defined as the following limit:
+Overview.
+The exponential function arises whenever a quantity grows or decays at a rate proportional to its current value. One such situation is continuously compounded interest, and in fact it was this observation that led Jacob Bernoulli in 1683 to the number
+now known as . Later, in 1697, Johann Bernoulli studied the calculus of the exponential function.
+If a principal amount of 1 earns interest at an annual rate of compounded monthly, then the interest earned each month is times the current value, so each month the total value is multiplied by , and the value at the end of the year is . If instead interest is compounded daily, this becomes . Letting the number of time intervals per year grow without bound leads to the limit definition of the exponential function,
+first given by Leonhard Euler.
+This is one of a number of characterizations of the exponential function; others involve series or differential equations.
+From any of these definitions it can be shown that the exponential function obeys the basic exponentiation identity,
+which justifies the notation for .
+The derivative (rate of change) of the exponential function is the exponential function itself. More generally, a function with a rate of change "proportional" to the function itself (rather than equal to it) is expressible in terms of the exponential function. This function property leads to exponential growth or exponential decay.
+The exponential function extends to an entire function on the complex plane. Euler's formula relates its values at purely imaginary arguments to trigonometric functions. The exponential function also has analogues for which the argument is a matrix, or even an element of a Banach algebra or a Lie algebra.
+Derivatives and differential equations.
+The importance of the exponential function in mathematics and the sciences stems mainly from its property as the unique function which is equal to its derivative and is equal to 1 when . That is,
+Functions of the form for constant are the only functions that are equal to their derivative (by the Picard–Lindelöf theorem). Other ways of saying the same thing include:
+If a variable's growth or decay rate is proportional to its size—as is the case in unlimited population growth (see Malthusian catastrophe), continuously compounded interest, or radioactive decay—then the variable can be written as a constant times an exponential function of time. Explicitly for any real constant , a function satisfies if and only if for some constant . The constant "k" is called the decay constant, disintegration constant, rate constant, or transformation constant.
+Furthermore, for any differentiable function , we find, by the chain rule:
+Continued fractions for.
+A continued fraction for can be obtained via an identity of Euler:
+The following generalized continued fraction for converges more quickly:
+or, by applying the substitution :
+with a special case for :
+This formula also converges, though more slowly, for . For example:
+Complex plane.
+As in the real case, the exponential function can be defined on the complex plane in several equivalent forms. The most common definition of the complex exponential function parallels the power series definition for real arguments, where the real variable is replaced by a complex one:
+Alternatively, the complex exponential function may defined by modelling the limit definition for real arguments, but with the real variable replaced by a complex one:
+For the power series definition, term-wise multiplication of two copies of this power series in the Cauchy sense, permitted by Mertens' theorem, shows that the defining multiplicative property of exponential functions continues to hold for all complex arguments:
+The definition of the complex exponential function in turn leads to the appropriate definitions extending the trigonometric functions to complex arguments.
+In particular, when ( real), the series definition yields the expansion
+In this expansion, the rearrangement of the terms into real and imaginary parts is justified by the absolute convergence of the series. The real and imaginary parts of the above expression in fact correspond to the series expansions of and , respectively.
+This correspondence provides motivation for cosine and sine for all complex arguments in terms of formula_45 and the equivalent power series:
+The functions , , and so defined have infinite radii of convergence by the ratio test and are therefore entire functions (i.e., holomorphic on formula_47). The range of the exponential function is formula_48, while the ranges of the complex sine and cosine functions are both formula_47 in its entirety, in accord with Picard's theorem, which asserts that the range of a nonconstant entire function is either all of formula_47, or formula_47 excluding one lacunary value.
+These definitions for the exponential and trigonometric functions lead trivially to Euler's formula:
+We could alternatively define the complex exponential function based on this relationship. If , where and are both real, then we could define its exponential as
+where , , and on the right-hand side of the definition sign are to be interpreted as functions of a real variable, previously defined by other means.
+For formula_54, the relationship formula_55 holds, so that formula_56 for real formula_57 and formula_58 maps the real line (mod ) to the unit circle in the complex plane. Moreover, going from formula_59 to formula_60, the curve defined by formula_61 traces a segment of the unit circle of length
+starting from in the complex plane and going counterclockwise. Based on these observations and the fact that the measure of an angle in radians is the arc length on the unit circle subtended by the angle, it is easy to see that, restricted to real arguments, the sine and cosine functions as defined above coincide with the sine and cosine functions as introduced in elementary mathematics via geometric notions.
+The complex exponential function is periodic with period and formula_63 holds for all formula_64.
+When its domain is extended from the real line to the complex plane, the exponential function retains the following properties:
+Extending the natural logarithm to complex arguments yields the complex logarithm , which is a multivalued function.
+We can then define a more general exponentiation:
+for all complex numbers and . This is also a multivalued function, even when is real. This distinction is problematic, as the multivalued functions and are easily confused with their single-valued equivalents when substituting a real number for . The rule about multiplying exponents for the case of positive real numbers must be modified in a multivalued context:
+See failure of power and logarithm identities for more about problems with combining powers.
+The exponential function maps any line in the complex plane to a logarithmic spiral in the complex plane with the center at the origin. Two special cases exist: when the original line is parallel to the real axis, the resulting spiral never closes in on itself; when the original line is parallel to the imaginary axis, the resulting spiral is a circle of some radius.
+Considering the complex exponential function as a function involving four real variables:
+the graph of the exponential function is a two-dimensional surface curving through four dimensions.
+Starting with a color-coded portion of the domain, the following are depictions of the graph as variously projected into two or three dimensions.
+The second image shows how the domain complex plane is mapped into the range complex plane:
+The third and fourth images show how the graph in the second image extends into one of the other two dimensions not shown in the second image.
+The third image shows the graph extended along the real axis. It shows the graph is a surface of revolution about the axis of the graph of the real exponential function, producing a horn or funnel shape.
+The fourth image shows the graph extended along the imaginary axis. It shows that the graph's surface for positive and negative values doesn't really meet along the negative real axis, but instead forms a spiral surface about the axis. Because its values have been extended to , this image also better depicts the periodicity in the imaginary value.
+Computation of where both and are complex.
+Complex exponentiation can be defined by converting to polar coordinates and using the identity :
+However, when is not an integer, this function is multivalued, because is not unique (see failure of power and logarithm identities).
+Matrices and Banach algebras.
+The power series definition of the exponential function makes sense for square matrices (for which the function is called the matrix exponential) and more generally in any unital Banach algebra . In this setting, , and is invertible with inverse for any in . If , then , but this identity can fail for noncommuting and .
+Some alternative definitions lead to the same function. For instance, can be defined as
+Or can be defined as , where is the solution to the differential equation , with initial condition ; it follows that for every in 
+Lie algebras.
+Given a Lie group and its associated Lie algebra formula_70, the exponential map is a map formula_70 satisfying similar properties. In fact, since is the Lie algebra of the Lie group of all positive real numbers under multiplication, the ordinary exponential function for real arguments is a special case of the Lie algebra situation. Similarly, since the Lie group of invertible matrices has as Lie algebra , the space of all matrices, the exponential function for square matrices is a special case of the Lie algebra exponential map.
+The identity can fail for Lie algebra elements and that do not commute; the Baker–Campbell–Hausdorff formula supplies the necessary correction terms.
+Transcendency.
+The function is not in (i.e., is not the quotient of two polynomials with complex coefficients).
+For distinct complex numbers }, the set } is linearly independent over .
+The function is transcendental over .
+Computation.
+When computing (an approximation of) the exponential function near the argument , the result will be close to 1, and computing the value of the difference formula_72 with floating-point arithmetic may lead to the loss of (possibly all) significant figures, producing a large calculation error, possibly even a meaningless result.
+Following a proposal by William Kahan, it may thus be useful to have a dedicated routine, often called codice_1, for computing directly, bypassing computation of . For example, if the exponential is computed by using its Taylor series
+one may use the Taylor series of formula_74
+This was first implemented in 1979 in the Hewlett-Packard HP-41C calculator, and provided by several calculators, operating systems (for example Berkeley UNIX 4.3BSD), computer algebra systems, and programming languages (for example C99).
+In addition to base , the IEEE 754-2008 standard defines similar exponential functions near 0 for base 2 and 10: formula_76 and formula_77.
+A similar approach has been used for the logarithm (see lnp1).
+An identity in terms of the hyperbolic tangent,
+gives a high-precision value for small values of on systems that do not implement .
+

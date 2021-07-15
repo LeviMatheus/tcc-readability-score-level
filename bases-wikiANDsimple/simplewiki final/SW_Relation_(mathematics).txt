@@ -1,0 +1,6 @@
+In mathematics, a relation is used to describe certain properties of things. That way, certain things may be connected in some way; this is called a relation. It is clear, that things are either related, or they are not, there is no in-between.
+An example for such a relation might be a function. Functions associate keys with values.
+Other well-known relations are the Equivalence relation and the Order relation. That way, sets of things can be ordered: Take the first element of a set, it is either equal to the element looked for, or there is an order relation that can be used to classify it. That way, the whole set can be classified (compared to some arbitrarily chosen element).
+Relations can be transitive. One example of a transitive relation is "smaller-than". If X "is smaller than" Y, and Y is "smaller than" Z, then X "is smaller than" Z
+Relations can be symmetric. One example of a symmetric relation is "is equal to".
+Relations can be reflexive. A relfexive relation is "smaller than or equal".

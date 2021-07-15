@@ -1,0 +1,9 @@
+A plane is a perfectly flat surface extending in all directions. Try to imagine the ceiling of a room, only extended into all directions infinitely. A plane has two dimensions: length and width. All planes are flat surfaces. If a surface is not flat, it is called a "curved surface".
+In geometry, a plane is made up of an infinite number of lines (or points). It has no thickness.
+A "plane figure" is part of a plane. It is named by the capital letters (e.g. A, B, C...X, Y, Z) that are put at its corners.
+More mathematical.
+In mathematics, a plane is a fundamental two-dimensional object. Intuitively, it looks like a flat infinite sheet of paper. There are several definitions of the plane. They are equivalent in the sense of Euclidean geometry, but they can be extended in different ways to define objects in other areas of mathematics. The only 2 dimensional figure in our 3 dimensional world is a shadow.
+In some areas of mathematics, such as plane geometry or 2D computer graphics, the whole space in which the work is carried out is a single plane. In such situations, the definite article is used: the plane. Many fundamental tasks in geometry, trigonometry, and graphing are performed in the two dimensional space, or in other words, in the plane.
+Euclidean geometry.
+A plane is a surface such that, given any three distinct points on the surface, the surface also contains all of the straight lines that pass through any two of them.
+One can introduce a Cartesian coordinate system on a given plane in order to label every point on it with a unique ordered pair, which is composed of two numbers and is the coordinate of the point.

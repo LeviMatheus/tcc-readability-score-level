@@ -1,0 +1,4 @@
+In some cases, the URL may also contain
+The URL of this page is http://simple.wikipedia.org/w/index.php?title=Uniform_Resource_Locator
+Extensions.
+Today, there are many other URL extensions. These are usually either a top level domain or interest grouping. Each country has its own top level domain, for example.ca for Canada. Interest group domains would include.tv (television) and.xxx (pornography). These are not used as often as the original extensions.

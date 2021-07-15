@@ -1,0 +1,6 @@
+
+Crystalline materials (mainly metals and alloys, but also stoichiometric salts and other materials) are made up of solid regions of ordered matter (atoms placed in one of a number of ordered formations called Bravais lattices). These regions are known as crystals. A perfect crystal is a crystal that contains no point, line, or planar defects. There are a wide variety of crystallographic defects.
+The hypothetical concept of a perfect crystal is important in the basic formulation of the third law of thermodynamics.
+In crystallography, the phrase 'perfect crystal' can be used to mean "no linear or planar imperfections", as it is difficult to measure small quantities of point imperfections in an otherwise defect-free crystal.
+Imperfections are created by various thermodynamic processes.
+

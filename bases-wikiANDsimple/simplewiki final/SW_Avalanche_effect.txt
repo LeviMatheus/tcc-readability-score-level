@@ -1,0 +1,10 @@
+In cryptography, the avalanche effect refers to an attractive property of block ciphers and cryptographic hash functions algorithms.
+Both of above features allow small changes to propagate rapidly through iterations of the algorithm, in such a way that every bit of the output should depend on every bit of the input before the algorithm terminates.
+The term "avalanche effect" was first used by Horst Feistel (Feistel 1973), although the concept was identified by "Shannon's property of confusion".
+If a block cipher or cryptographic hash function does not exhibit the avalanche effect to a significant degree, then it has poor randomization, and thus a cryptanalyst can make forecasts about the input, if given only the output. This may be sufficient to partially or completely break (crack) the algorithm.
+One of the primary design objectives in constructing a "quality" cipher or cryptographic hash function is to build a good avalanche effect. This is why most block ciphers are product ciphers. It is also why hash functions have large data blocks.
+Strict avalanche criterion.
+The Strict Avalanche Criterion (SAC) is a property of boolean functions of importance to cryptography. A function is said to satisfy the strict avalanche criterion if, whenever a single input bit is complemented, each of the output bits should change with a probability of one half.
+The SAC was built on the concepts of completeness and avalanche and introduced by Webster and Tavares in 1985.
+Bit independence criterion.
+The Bit independence criterion (BIC) states that output bits "j" & "k" should change independently when any single input bit "i" is inverted, for all "i", "j" and "k".

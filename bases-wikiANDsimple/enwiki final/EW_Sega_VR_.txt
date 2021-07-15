@@ -1,0 +1,14 @@
+
+The Sega VR is a virtual reality headset developed by Sega in the early 1990s. Versions were planned for arcades, Genesis, and Saturn. Only the arcade version was released, and the home console versions were canceled.
+Features.
+The Sega VR's design was based on an IDEO virtual reality head-mounted display containing LCD screens in the visor and stereo headphones. Inertial sensors in the headset allow the system to track and react to the movements of the user's head.
+Development.
+Sega, flush with funds from the success of its Mega Drive/Genesis, announced the peripheral in 1991. It was later seen in early 1993, at the Winter Consumer Electronics Show (CES), where "Electronic Gaming Monthly" noted it was an adaptation of a similar headset that Sega was already using for arcades. The magazine stated that a Mega Drive/Genesis version was planned for release in late 1993 at and would be released with four launch games, including a port of arcade game "Virtua Racing". Sega later announced its release schedule for early 1994, according to "Electronic Games".
+Because of development difficulties, the Sega VR headset remained only a prototype and was never released to the general public. Then-CEO Tom Kalinske stated that the system would not be released due to it inducing motion sickness and severe headaches in users. It was last seen at the 1993 Summer CES, where it was demonstrated by Alan Hunter. It vanished from release schedules in 1994. Four games were apparently developed for the system, each using 16 MB cartridges that were to be bundled with the headset.
+The company claimed to have terminated the project because the virtual reality effect was too realistic, so users might move while wearing the headset and injure themselves. The limited processing power of the system makes this claim unlikely, although there were reports of testers developing headaches and motion sickness. Mark Pesce, who worked on the Sega VR project, says SRI International, a research institute, warned Sega of the "hazards of prolonged use".
+Games.
+Only five original games were known to be in development.
+Sega announced a port of Sega AM2's hit 1992 arcade game "Virtua Racing" as a launch game for the device.
+Legacy.
+Sega went on to other VR projects for use in arcades and a similar peripheral was reported but never seen for the Saturn. In 1994, Sega VR technology was utilized for the Sega VR-1 motion simulator arcade attraction, which was available at SegaWorld arcades. It is able to track head movement and features 3D polygon graphics in stereoscopic 3D. A scaled-down version, "Dennoo Senki Net Merc", was demonstrated at Japan's 1995 AOU (Amusement Operators Union) show, using the Sega Model 1 arcade system board to produce the 3D graphics. However, the game's flat-shaded graphics were compared unfavorably to the Sega Model 2's textured-filtered graphics.
+

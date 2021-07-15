@@ -1,0 +1,4 @@
+Gibraltar Firewall is a Linux distribution based on Debian. Gibraltar is used to secure local area networks as a firewall software. The current version is 2.5, published on 2007-09-10.
+Dr. Rene Mayrhofer made Gibraltar Firewall in 1999. Since January 2003, the company eSYS Information Systems is responsible for the development of Gibraltar.
+Gibraltar Linux is based on free Software, which was enhanced by a web based administration tool. For running the firewall, no hard disk is needed, because Gibraltar is able to start up and run directly off CDROM. Configuration data can be stored on floppy disk or USB sticks.
+Since version 2.4, Gibraltar is also available in combination with several hardware platforms. On this appliances, Gibraltar boots up from compact flash.

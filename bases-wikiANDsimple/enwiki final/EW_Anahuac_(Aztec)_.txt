@@ -1,0 +1,19 @@
+
+ &lt;ns&gt;0&lt;/ns&gt;
+ &lt;id&gt;39442&lt;/id&gt;
+ &lt;revision&gt;
+ &lt;id&gt;1018909940&lt;/id&gt;
+ &lt;parentid&gt;1018909695&lt;/parentid&gt;
+ &lt;timestamp&gt;2021-04-20T15:14:04Z&lt;/timestamp&gt;
+ &lt;contributor&gt;
+ &lt;username&gt;Anne McDermott&lt;/username&gt;
+ &lt;id&gt;7622424&lt;/id&gt;
+ &lt;/contributor&gt;
+ &lt;comment&gt;/* Boundaries */&lt;/comment&gt;
+ &lt;model&gt;wikitext&lt;/model&gt;
+ &lt;format&gt;text/x-wiki&lt;/format&gt;
+Anahuac, 2.5 kilometres (1.5 mi) above sea level between 19° and 20° north latitude and 98°45’ to 99°20’ west longitude, is the ancient core of Mexico. Anahuac is a Nahuatl name which means "close to water." It can be broken down like this: "A(tl)" + "nahuac". "Atl" means "water" and "nahuac", which is a relational word that can be affixed to a noun, means "close to." Anahuac is sometimes used interchangeably with "Valley of Mexico", but Anahuac properly designates the south-central part of the valley, where well-developed prehispanic culture traits had created distinctive landscapes now hidden by the urban sprawl of Mexico City. In the sense of modern geomorphological terminology, "Valley of Mexico" is misnamed. It is a closed basin of internal drainage, not a valley, in the technical sense.
+Boundaries.
+According to the "Encyclopædia Britannica" Eleventh Edition, Anáhuac ("sic") is "limited by the traditional and vaguely defined boundaries of an ancient American empire or confederation of that name previous to the Spanish conquest."
+One of the possible etymologies proposed for the name "Nicaragua" is that it is derived from any of the following Nahuatl words: "nic-anahuac", which meant "Anahuac reached this far", or "the Nahuas came this far", or "those who come from Anahuac came this far"; "nican-nahua", which meant "here are the Nahuas"; or "nic-atl-nahuac", which meant "here by the water" or "surrounded by water".. The first two explanations would have a bearing on the above issue of the borders.
+

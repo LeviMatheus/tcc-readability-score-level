@@ -1,0 +1,119 @@
+
+In computer programming, a p-code machine (portable code machine) is a virtual machine designed to execute "p-code" (the assembly language or machine code of a hypothetical central processing unit (CPU)). This term is applied both generically to all such machines (such as the Java virtual machine (JVM) and MATLAB precompiled code), and to specific implementations, the most famous being the p-Machine of the Pascal-P system, particularly the UCSD Pascal implementation, among whose developers, the "p" in "p-code" was construed to mean "pseudo" more often than "portable", thus "pseudo-code" meaning instructions for a pseudo-machine.
+Although the concept was first implemented circa 1966 (as O-code for the Basic Combined Programming Language (BCPL) and P code for the language Euler), the term p-code first appeared in the early 1970s. Two early compilers generating p-code were the Pascal-P compiler in 1973, by Kesav V. Nori, Urs Ammann, Kathleen Jensen, Hans-Heinrich Nägeli, and Christian Jacobi, and the Pascal-S compiler in 1975, by Niklaus Wirth.
+Programs that have been translated to p-code can either be interpreted by a software program that emulates the behavior of the hypothetical CPU, or translated into the machine code of the CPU on which the program is to run and then executed. If there is sufficient commercial interest, a hardware implementation of the CPU specification may be built (e.g., the Pascal MicroEngine or a version of a Java processor).
+Benefits and weaknesses of implementing p-code.
+Compared to direct translation into native machine code, a two-stage approach involving translation into p-code and execution by interpreting or just-in-time compilation (JIT) offers several advantages.
+One of the significant disadvantages of p-code is execution speed, which can sometimes be remedied via JIT compiling. P-code is often also easier to reverse-engineer than native code.
+In the early 1980s, at least two operating systems achieved machine independence through extensive use of p-code. The Business Operating System (BOS) was a cross-platform operating system designed to run p-code programs exclusively. The UCSD p-System, developed at The University of California, San Diego, was a self-compiling and self-hosting operating system based on p-code optimized for generation by the Pascal language.
+In the 1990s, translation into p-code became a popular strategy for implementations of languages such as Python, Microsoft P-Code in Visual Basic, and Java bytecode in Java.
+The language Go uses a generic, portable assembly as a form of p-code, implemented by Ken Thompson as an extension of the work on Plan 9 from Bell Labs. Unlike Common Language Runtime (CLR) bytecode or JVM bytecode, there is no stable specification, and the Go build tools do not emit a bytecode format to be used at a later time. The Go assembler uses the generic assembly language as an intermediate representation, and Go executables are machine-specific statically linked binaries.
+UCSD p-Machine.
+Architecture.
+Like many other p-code machines, the UCSD p-Machine is a stack machine, which means that most instructions take their operands from a stack, and place results back on the stack. Thus, the codice_1 instruction replaces the two topmost elements of the stack with their sum. A few instructions take an immediate argument. Like Pascal, the p-code is strongly typed, supporting boolean (b), character (c), integer (i), real (r), set (s), and pointer (a) data types natively.
+Some simple instructions:
+ Insn. Stack Stack Description
+ before after
+ adi i1 i2 i1+i2 add two integers
+ adr r1 r2 r1+r2 add two reals
+ dvi i1 i2 i1/i2 integer division
+ inn i1 s1 b1 set membership; b1 = whether i1 is a member of s1
+ ldci i1 i1 load integer constant
+ mov a1 a2 move
+ not b1 ~b1 boolean negation
+Environment.
+Unlike other stack-based environments (such as Forth and the Java virtual machine) but very similar to a real target CPU, the p-System has only one stack shared by procedure stack frames (providing return address, etc.) and the arguments to local instructions. Three of the machine's registers point into the stack (which grows upwards):
+Also present is a constant area, and, below that, the heap growing down towards the stack. The NP (the new pointer) register points to the top (lowest used address) of the heap. When EP gets greater than NP, the machine's memory is exhausted.
+The fifth register, PC, points at the current instruction in the code area.
+Calling conventions.
+Stack frames look like this:
+ EP -&gt;
+ local stack
+ SP -&gt; ...
+ locals
+ parameters
+ return address (previous PC)
+ previous EP
+ dynamic link (previous MP)
+ static link (MP of surrounding procedure)
+ MP -&gt; function return value
+The procedure calling sequence works as follows: The call is introduced with
+ mst n
+where codice_2 specifies the difference in nesting levels (remember that Pascal supports nested procedures). This instruction will "mark" the stack, i.e. reserve the first five cells of the above stack frame, and initialise previous EP, dynamic, and static link. The caller then computes and pushes any parameters for the procedure, and then issues
+ cup n, p
+to call a user procedure (codice_2 being the number of parameters, codice_4 the procedure's address). This will save the PC in the return address cell, and set the procedure's address as the new PC.
+User procedures begin with the two instructions
+ ent 1, i
+ ent 2, j
+The first sets SP to MP + codice_5, the second sets EP to SP + codice_6. So codice_5 essentially specifies the space reserved for locals (plus the number of parameters plus 5), and codice_6 gives the number of entries needed locally for the stack. Memory exhaustion is checked at this point.
+Returning to the caller is accomplished via
+ retC
+with codice_9 giving the return type (i, r, c, b, a as above, and p for no return value). The return value has to be stored in the appropriate cell previously. On all types except p, returning will leave this value on the stack.
+Instead of calling a user procedure (cup), standard procedure codice_10 can be called with
+ csp q
+These standard procedures are Pascal procedures like codice_11 (codice_12), codice_13 (codice_14), etc. Peculiarly codice_15 is a p-Code instruction instead.
+Example machine.
+Niklaus Wirth specified a simple p-code machine in the 1976 book "Algorithms + Data Structures = Programs". The machine had 3 registers - a program counter "p", a base register "b", and a top-of-stack register "t". There were 8 instructions:
+This is the code for the machine, written in Pascal:
+const
+type 
+ fct=(lit,opr,lod,sto,cal,int,jmp,jpc);
+ instruction=packed record 
+ f:fct;
+ l:0..levmax;
+ a:0..amax;
+ end;
+var
+ code: array [0..cxmax] of instruction;
+procedure interpret;
+ const stacksize = 500;
+ var
+ function base(l: integer): integer;
+ var b1: integer;
+ begin
+ while l &gt; 0 do begin
+ b1 := s[b1];
+ l := l - 1
+ end;
+ base := b1
+ end {base};
+begin
+ writeln(' start pl/0');
+ t := 0; b := 1; p := 0;
+ s[1] := 0; s[2] := 0; s[3] := 0;
+ repeat
+ i := code[p]; p := p + 1;
+ with i do
+ case f of
+ lit: begin t := t + 1; s[t] := a end;
+ opr: 
+ 0: 
+ t := b - 1; p := s[t + 3]; b := s[t + 2];
+ end;
+ 1: s[t] := -s[t];
+ 2: begin t := t - 1; s[t] := s[t] + s[t + 1] end;
+ 3: begin t := t - 1; s[t] := s[t] - s[t + 1] end;
+ 4: begin t := t - 1; s[t] := s[t] * s[t + 1] end;
+ 5: begin t := t - 1; s[t] := s[t] div s[t + 1] end;
+ 6: s[t] := ord(odd(s[t]));
+ 8: begin t := t - 1; s[t] := ord(s[t] = s[t + 1]) end;
+ 9: begin t := t - 1; s[t] := ord(s[t] &lt;&gt; s[t + 1]) end;
+ 10: begin t := t - 1; s[t] := ord(s[t] &lt; s[t + 1]) end;
+ 11: begin t := t - 1; s[t] := ord(s[t] &gt;= s[t + 1]) end;
+ 12: begin t := t - 1; s[t] := ord(s[t] &gt; s[t + 1]) end;
+ 13: begin t := t - 1; s[t] := ord(s[t] &lt;= s[t + 1]) end;
+ end;
+ lod: begin t := t + 1; s[t] := s[base(l) + a] end;
+ sto: begin s[base(l)+a] := s[t]; writeln(s[t]); t := t - 1 end;
+ cal: 
+ s[t + 1] := base(l); s[t + 2] := b; s[t + 3] := p;
+ b := t + 1; p := a
+ end;
+ int: t := t + a;
+ jmp: p := a;
+ jpc: begin if s[t] = 0 then p := a; t := t - 1 end
+ until p = 0;
+ writeln(' end pl/0');
+end {interpret};
+This machine was used to run Wirth's PL/0, a Pascal subset compiler used to teach compiler development.
+

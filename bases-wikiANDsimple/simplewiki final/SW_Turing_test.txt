@@ -1,0 +1,5 @@
+The Turing test is a test to see if a computer can trick a person into believing that the computer is a person too. Alan Turing thought that if a human couldn't tell the difference between another human and the computer, then that computer must be as intelligent as a human.
+Test setup.
+A person has a telegraph, and is connected to two communication partners. One of the two correspondents is a machine. The person can ask anything, with the telegraph. If the person cannot tell which of the two is the machine more than 50% of the time, then the machine is said to be "intelligent" (or smart).
+Later on, people narrowed down the test. A human is unlikely to know everything. Therefore, both the human and the machine would be specialists in some field of knowledge. So would the person asking.
+As of 2006, no computer has passed the Turing test as such.

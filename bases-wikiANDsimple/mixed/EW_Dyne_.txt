@@ -1,0 +1,10 @@
+
+The dyne (symbol dyn, from ) is a derived unit of force specified in the centimetre–gram–second (CGS) system of units, a predecessor of the modern SI.
+History.
+The name dyne was first proposed as a CGS unit of force in 1873 by a Committee of the British Association for the Advancement of Science.
+Definition.
+The dyne is defined as "the force required to accelerate a mass of one gram at a rate of one centimetre per second squared". An equivalent definition of the dyne is "that force which, acting for one second, will produce a change of velocity of one centimetre per second in a mass of one gram".
+One dyne is equal to 10 micronewtons, 10−5 N or to 10 nsn (nanosthenes) in the old metre–tonne–second system of units. 
+Use.
+The dyne per centimetre is a unit traditionally used to measure surface tension. For example, the surface tension of distilled water is 71.99 dyn/cm at 25 °C (77 °F). (In SI units this is or .) 
+

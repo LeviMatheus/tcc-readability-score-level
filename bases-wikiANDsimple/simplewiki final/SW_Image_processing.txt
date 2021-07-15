@@ -1,0 +1,6 @@
+In electrical engineering and computer science, Image processing is any form of processing for which the input is an image, such as photographs or frames of video. The output of image processing can be either an image or a set of characteristics or parameters related to the image.
+It also means "Analyzing and manipulating images with a computer".
+First, import images with an optical devices like a scanner or a camera or directly through digital processing.
+Second, manipulate or analyze the images in some way. This step can include image improvement and data summary, or the images are analyzed to find rules that aren't seen by the human eyes. For example, meteorologists use this processing to analyze satellite photographs.
+Last, output the result of image processing. The result might be the image changed by some way or it might be a report based on analysis or result of the images.
+Image processing usually means "digital" image processing, but optical and analog image processing are also included in image processing.

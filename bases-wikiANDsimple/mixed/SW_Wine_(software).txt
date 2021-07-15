@@ -1,0 +1,2 @@
+Wine is a piece of software which lets Unix-like computer operating systems on the x86 architecture to execute programs written for Microsoft Windows. Wine also provides a software library known as "Winelib" which developers can compile Windows applications against to help port them to Unix-like systems.
+The Wine developers released version 1.0 of Wine, after 15 years of development, on June 17 2008. Released under terms of the GNU Lesser General Public License (LGPL), Wine is free software.

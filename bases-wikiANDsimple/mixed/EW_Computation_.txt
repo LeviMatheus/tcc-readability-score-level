@@ -1,0 +1,19 @@
+
+Computation is any type of calculation that includes both arithmetical and non-arithmetical steps and which follows a well-defined model (e.g. an algorithm).
+Mechanical or electronic devices (or, historically, people) that perform computations are known as "computers". An especially well-known discipline of the study of computation is computer science.
+Physical phenomenon.
+Computation can be seen as a purely physical phenomenon occurring inside a closed physical system called a computer.
+Examples of such physical systems include digital computers, mechanical computers, quantum computers, DNA computers, molecular computers, microfluidics-based computers, analog computers, or wetware computers.
+This point of view has been adopted by the physics of computation, a branch of theoretical physics, as well as the field of natural computing.
+An even more radical point of view, pancomputationalism, is the postulate of digital physics that argues that the evolution of the universe is itself a computation.
+The mapping account.
+The classic account of computation is found throughout the works of Hilary Putnam and others. Peter Godfrey-Smith has dubbed this the "simple mapping account." Gualtiero Piccinini's summary of this account states that a physical system can be said to perform a specific computation when there is a mapping between the state of that system to the computation such that the “microphysical states [of the system] mirror the state transitions between the computational states.”
+The semantic account.
+Philosophers such as Jerry Fodor have suggested various accounts of computation with the restriction that semantic content be a necessary condition for computation (that is, what differentiates an arbitrary physical system from a computing system is that the operands of the computation represent something). This notion attempts to prevent the logical abstraction of the mapping account of pancomputationalism, the idea that everything can be said to be computing everything.
+The mechanistic account.
+Gualtiero Piccinini proposes an account of computation based in mechanical philosophy. It states that physical computing systems are types of mechanisms that, by design, perform physical computation, or “the manipulation (by a functional mechanism) of a medium-independent vehicle according to a rule.” Medium-independence requires that the property is able to be instantiated by multiple realizers and multiple mechanisms and that the inputs and outputs of the mechanism also be multiply realizable. In short, medium-independence allows for the use of physical variables with traits other than voltage (as in typical digital computers); this is imperative in considering other types of computation, such as that occurs in the brain or in a quantum computer. A rule, in this sense, provides a mapping among inputs, outputs, and internal states of the physical computing system. 
+Mathematical models.
+In the theory of computation, a diversity of mathematical models of computers has been developed.
+Typical mathematical models of computers are the following:
+Giunti calls the models studied by computation theory "computational systems," and he argues that all of them are mathematical dynamical systems with discrete time and discrete state space. He maintains that a computational system is a complex object which consists of three parts. First, a mathematical dynamical system formula_1 with discrete time and discrete state space; second, a computational setup formula_2, which is made up of a theoretical part formula_3, and a real part formula_4; third, an interpretation formula_5, which links the dynamical system formula_1 with the setup formula_7.
+

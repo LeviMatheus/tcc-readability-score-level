@@ -1,0 +1,1 @@
+Write Once Read Many (times) or WORM is a classification of computer storage media. It is used to describe media that can only be written once. After they are written, they can only be read.

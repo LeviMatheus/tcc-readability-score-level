@@ -1,0 +1,16 @@
+
+A bolt or quarrel is a dart-like projectile used by crossbows. The name "quarrel" is derived from the French word "carré", meaning square, referring to their typically square heads. Although their lengths vary, bolts are typically shorter and heavier than traditional arrows used by bows.
+Parts.
+Point.
+The point, also called the "head" or the "tip", is the pointed and weighted front end of the bolt, which is sharp and hard so that it can penetrate the target.
+Shaft.
+The shaft is the main body of the bolt to which other parts of the bolt are attached. It is normally made of carbon fiber or aluminium alloy (or sometimes both aluminum and carbon are used), and are very lightweight for its strength. Shafts come with varying degrees of stiffness — referred to as the "spine" of the bolt. The more resistant to bending an arrow is, the more "spine" it is said to have, and a crossbow with higher draw weight ideally needs to be paired with a heavier bolt point and higher spine specifications. The weight of a shaft is usually in grains, and product descriptions may provide the total weight in grains, or in grains per inch (GPI), for which the total weight of shaft can be calculated by multiplying the GPI value with length of shaft in inches.
+Fletching.
+Fletchings, also referred to as "vanes", are fins located at the rear end of the shaft just before the nock. The fletching is typically made from soft light materials such as feathers, plastic or silicone rubber. They stabilize the trajectory of the bolt via three different means: resisting pitching and yawing of the shaft by acting like a stabilizer fin (fin-stabilization); reducing deviation from the longitudinal axis by creating a back-pulling center of pressure behind the bolt's center of mass (drag-stabilization); and in some particular cases, creating a rotation around the longitudinal axis (spin-stabilization) by having the fletchings mounted at a slight angle of attack.
+There is no rule or formula for determining the length of fletching needed — generally the longer the shaft is, the longer the fletching need to be, and vice versa.
+Nock.
+A nock is a small notched piece that is attached to the rear end of the shaft, for engaging and receiving the propulsive push from the string during shooting. Nocks are made of either plastic or aluminum.
+Size and weight.
+There is not any hard and fast rule of bolt sizing. Generally, the bolts are of 15 to 22 inches long but the standard length is 20 inches. Experts recommend longer bolts but they have certain disadvantages as well.
+The weight of the bolt can have a serious effect on the range of the bolt. The bolt's total weight includes the bolt's weight, nock, insert, vanes, and broadhead or field point. Almost all bolt manufacturers will list how many grains each shaft weighs or how many grains are in each inch of the shaft. A more massive bolt, e.g. at least 400 grains, will have better downrange energy and offer better penetration but will travel more slowly and thus drop more due to gravity during its flight. A lighter bolt will fly quicker and give the shooter a longer range, but might not have the desired penetration.
+

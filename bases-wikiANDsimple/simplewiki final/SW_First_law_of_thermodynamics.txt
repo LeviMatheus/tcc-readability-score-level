@@ -1,0 +1,6 @@
+The first law of thermodynamics says that heat transfer is a form of energy transfer and that energy does not vanish (law of conservation of energy).
+History.
+James Prescott Joule was the first person who found out by experiments that heat and work are convertible.
+The first explicit statement of the first law of thermodynamics was given by "Rudolf Clausius" in 1850: "There is a state function E, called `energy', whose differential equals the work exchanged with the surroundings during an adiabatic process."
+Thermodynamics and Engineering.
+Because of this ambiguity, it is vitally important in any discussion involving the first law to explicitly establish the sign convention in use.

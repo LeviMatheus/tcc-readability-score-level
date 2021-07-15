@@ -1,0 +1,6 @@
+A Magneto-optical drive is a disk drive for computers. It can read and write data to magneto-optical disks. The technology was made at the end of the 1980s. Both 5.25" and 3.5" media exist. The disks look like CD-ROMs, but with they are protected with a plastic cover. The MiniDisc is a Magneto-optical disk. The other disks look similar but have a bigger physical size.
+How it works.
+The operating system sees (and uses) the disk like a normal hard-drive. 3.5" disks can hold between 128 megabytes (MB) and 2.3 gigabytes (GB) of data. 5.25" disks hold between 650 MB and 16.7 GB.
+Resistance.
+All disks have a physical write protection switch (like 3.5" floppy disks). They are pretty resistant to data change, can support temperatures up to about 100 °C, and do not care much about light.
+DVD-RAM disks are very similar in appearance, they are optical though.

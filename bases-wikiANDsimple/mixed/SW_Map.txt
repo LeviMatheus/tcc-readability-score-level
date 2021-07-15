@@ -1,0 +1,5 @@
+A map is usually a picture of the Earth or part of the Earth. A map is different from an aerial photograph because it includes interpretation.
+The word "map" can also be used to talk about a chart or drawing that shows relationships between ideas, people, events, or anything else you can think about. This is why web developers call a list of web pages on a web site a site map.
+Professional map makers are called cartographers.
+Many maps today are made using GIS computer systems. These are database systems that organized by things on a map instead of named records.
+If a map is on a piece of paper or a computer screen, it has to be projected. This is because the Earth is round and paper and screens are flat. There are a lot of ways that use mathematics to make projections. The only kind of map of the Earth that is not projected is one drawn on a sphere. This is called a globe.

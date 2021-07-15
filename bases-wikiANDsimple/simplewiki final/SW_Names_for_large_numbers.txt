@@ -1,0 +1,8 @@
+Naming very large numbers is relatively easy. There are two main ways of naming a number: scientific notation and naming by grouping. For example, the number 500 000 000 000 000 000 000 can be called 5 x 1020 in scientific notation since there are 20 zeros behind the 5. If the number is named by grouping, it is five hundred quintillion (American) or 500 trillion (European)
+When large numbers have many different decimals in them, such as 642 500 000 000, naming them with scientific notation is about the same, but with one difference. Still counting the number of numbers after the first number (in this case, after the 6 there are 11 numbers) you need to include the ones that are not zero in the formula, but after a decimal point. So 642 500 000 000 will be 6.425 x 1011. When naming by grouping, each group of three numbers is listed with the name of the group. With the same number, it would be said to be 642 billion, 500 million (US) or 642 milliard, 500 million (Eur).
+Forms of numbering.
+The American way or "Short form" for naming large numbers is different to the European way or "Long form" of naming large numbers. This is mainly because of American finance. Short form numbering is based on thousands and Long form is based on millions. Because of this, in short form a billion is one thousand millions (109) while in Long form it is one million millions (1012). The change in the United States to short form numbering happened in 1974. Today, Short form is most commonly used in most English speaking countries.
+Names for large numbers.
+There is also the number Googol, which is a 1 with one hundred zeros behind it, and the number Googolplex, which is a 1 with a "Googol" of zeros behind it.
+Trivia.
+c also dogs, frog leggs, and muffin pan or muffin

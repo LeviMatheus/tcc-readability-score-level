@@ -1,0 +1,26 @@
+BBC Weather is the BBC's department in charge of preparing and broadcasting weather forecasts and is now part of BBC News. The Broadcast Meteorologists are employed by the Met Office. The current longest serving presenter of BBC weather is Michael Fish, who appeared for 30 years between 1974 and 2004.
+Early history.
+The first BBC weather forecast was a shipping forecast read on the radio for the Met Office on 14 November, 1922. The first daily weather forecast was broadcast 26 March, 1923.
+In 1936, the BBC experimented with the world's first weather maps, on television. They started using these in 1949 after World War II. The map filled the whole TV screen, and an off-screen narrator would comment on the next day's weather.
+Advancement of technology.
+On 11 January 1954, George Cowling was the first weather forecaster to stand in front of a weather map. To do this, the maps were drawn by hand in the London Weather Centre and were taken across London. The forecasts were presented by the same person who had made them, and weren't always right.
+In 1962, a fax machine and an electronic computer were bought by the Met Office. This gave better and quicker forecasting.
+Satellite photography was available from 1964, but was of a poor quality and was given on paper, with the coastline etched in felt-tip pen. This didn't change until 1973 when a new computer was bought. This made forecasts twice as accurate as earlier ones.
+Graphical technology.
+As computational capability improved, so did graphics technology. Early hand-drawn maps gave way to magnetic symbols, which in turn gave way to bluescreen (CSO) computer-generated imagery technology, each of which allowed the presenter greater control over the information displayed.
+Early magnetic symbols tended to adhere poorly to the maps, and occasional spelling errors (such as the presenter writing 'GOF' instead of 'FOG') marred some broadcasts, but allowed the presenter to show how weather would change over time. The symbols were designed to be 'self-explicit', allowing the viewer to understand the map without a key or legend.
+These were phased out in 1985 for computer graphics, although the basic design of symbols was kept the same. These forecasts were widely-acclaimed for their simplicity, winning an award from the Royal Television Society.
+Great Storm of 1987 Controversy.
+Possibly the most famous of the forecasters is the now retired Michael Fish. Famous for his informal manner and eccentric dress sense (he once wore a blue and green blazer emblazoned with all the weather symbols), he was a viewer favourite despite an unfortunate comment before The Great Storm of 1987.
+During a weather forecast some hours before the storm, Michael Fish started his forecast with the now infamous line "Earlier on today, apparently, a woman rang the BBC and said she heard there was a hurricane on the way. Well, if you're watching, don't worry, there isn't". Although he was actually referring to a Florida hurricane (Floyd), and went on to forecast stormy conditions over the South of England, the statement has gone down in popular culture as one of the worst mistakes made so publicly.
+2000-05 graphics.
+On 2 October 2000 BBC Weather underwent a more significant change. Whilst there was not much change to the existing weather symbols new symbols giving information Pollen and Sun levels were introduced. A new more detailed map of Britain was used based on satellite data.
+Today.
+16 May 2005 saw the end of the weather symbols on television after 29 years and 9 months on air. They were replaced by a controversial format as the forecast underwent another redesign, with the flat map replaced by a 3D globe, and weather conditions shown by coloured areas. Cloud cover is indicated by the brightness of the map, while rain and snow are indicated by animated blue and white areas respectively.
+The graphics are provided by Weatherscape XT, which was developed by the commercial arm of the New Zealand Metservice.
+The move polarised opinion; some saw it as more accurate and modern, while others disliked the brown colour chosen for the landmass and the presumed high cost of the graphics. Poor angling of the map, in order to show the curvature of the Earth, led to Scotland appearing little larger than Devon, and Shetland being almost invisible while exaggerating London and the South East. This led to many Scottish commentators claiming the BBC was guilty of a London bias. As a result, the map was realigned, and the moving tour of the UK was lengthened.
+The new look won a prestigious Silver Award at the Awards in 2006. Criticism has been ongoing however, with some viewers complaining about the colour scheme, and of a lack of detail beyond 36 hours.
+There have been continuous developments since May 2005. In 2006, a rippling effect was introduced to define seas and oceans.
+Online forecasts.
+The provides outlook weather forecasts for UK and international locations using animated symbols and a format similar in design to that used for the televised broadcasts.
+The website also runs frequent special features about seasonal sports, white Christmas, nature and meteorological science. It also has world weather, UK outlook and weather news. A new beta weather site is currently being developed, to fit in with the rest of the BBC site style.

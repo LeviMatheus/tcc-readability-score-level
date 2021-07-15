@@ -1,0 +1,1 @@
+A piping and instrument diagram (P&ID) is a simplified representation of a process including the required funcional equipment and instrumentation to make the process work. Typically, this document is the basis of design for plant engineering.

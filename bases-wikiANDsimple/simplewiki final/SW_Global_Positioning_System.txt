@@ -1,0 +1,5 @@
+Global Positioning System, also known as GPS, is a system of satellites in space which are circling the Earth.
+It is one of three different satellite systems to help people find out where they are. This system sends and receives microwave signals to a receiver on Earth (called a GPS receiver) and tells the person holding the receiver where they are on Earth, whether they are moving or not (like traveling in a ship or auto), how fast they are moving, and what direction they are going.
+The system has more than 24 satellites circling the Earth, all of them working together to tell people where they are.
+The system was created by the Department of Defense of the United States (U.S.). In the beginning, it was only used by the U.S. military, but in 1983 President Ronald Reagan made an order to allow anyone to use the system.
+GPS is commonly used in cars, cell phones, and GPS receivers.

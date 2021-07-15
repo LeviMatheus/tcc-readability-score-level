@@ -1,0 +1,12 @@
+
+The Z notation is a formal specification language used for describing and modelling computing systems. It is targeted at the clear specification of computer programs and computer-based systems in general.
+History.
+In 1974, Jean-Raymond Abrial published "Data Semantics". He used a notation that would later be taught in the University of Grenoble until the end of the 1980s. While at EDF (Électricité de France), Abrial wrote internal notes on Z. The Z notation is used in the 1980 book "Méthodes de programmation".
+Z was originally proposed by Abrial in 1977 with the help of Steve Schuman and Bertrand Meyer. It was developed further at the Programming Research Group at Oxford University, where Abrial worked in the early 1980s, having arrived at Oxford in September 1979.
+Abrial has said that Z is so named "Because it is the ultimate language!" although the name "Zermelo" is also associated with the Z notation through its use of Zermelo–Fraenkel set theory.
+Usage and notation.
+Z is based on the standard mathematical notation used in axiomatic set theory, lambda calculus, and first-order predicate logic. All expressions in Z notation are typed, thereby avoiding some of the paradoxes of naive set theory. Z contains a standardized catalogue (called the "mathematical toolkit") of commonly used mathematical functions and predicates, defined using Z itself.
+Because Z notation (just like the APL language, long before it) uses many non-ASCII symbols, the specification includes suggestions for rendering the Z notation symbols in ASCII and in LaTeX. There are also Unicode encodings for all standard Z symbols.
+Standards.
+ISO completed a Z standardization effort in 2002. This standard and a technical corrigendum are available from ISO free:
+

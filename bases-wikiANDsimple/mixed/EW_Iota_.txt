@@ -1,0 +1,12 @@
+
+Iota (uppercase Ι, lowercase ι; ) is the ninth letter of the Greek alphabet. It was derived from the Phoenician letter Yodh. Letters that arose from this letter include the Latin I and J, the Cyrillic І (І, і), Yi (Ї, ї), and Je (Ј, ј), and iotated letters (e.g. Yu (Ю, ю)).
+In the system of Greek numerals, iota has a value of 9.
+Iota represents the sound . In early forms of ancient Greek, it occurred in both long and short versions, but this distinction was lost in Koine Greek.
+Iota participated as the second element in falling diphthongs, with both long and short vowels as the first element. Where the first element was long, the iota was lost in pronunciation at an early date, and was written in polytonic orthography as iota subscript, in other words as a very small ι under the main vowel. Examples include ᾼ ᾳ ῌ ῃ ῼ ῳ. The former diphthongs became digraphs for simple vowels in Koine Greek.
+The word is used in a common English phrase, "not one iota", meaning "not the slightest amount". This refers to iota, the smallest letter, or possibly yodh, י, the smallest letter in the Hebrew alphabet.
+The word 'jot' (or "iot") derives from iota.
+The German, Portuguese, and Spanish name for the letter J (Jot / jota) is derived from iota.
+Character encodings.
+Mathematical Iota.
+These characters are used only as mathematical symbols. Stylized Greek text should be encoded using the normal Greek letters, with markup and formatting to indicate text style.
+

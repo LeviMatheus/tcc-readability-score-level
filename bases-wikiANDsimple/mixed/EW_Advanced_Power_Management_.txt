@@ -1,0 +1,26 @@
+
+Advanced power management (APM) is an API developed by Intel and Microsoft and released in 1992 which enables an operating system running an IBM-compatible personal computer to work with the BIOS (part of the computer's firmware) to achieve power management.
+Revision 1.2 was the last version of the APM specification, released in 1996. ACPI is the successor to APM. Microsoft dropped support for APM in Windows Vista. The Linux kernel still mostly supports APM, though support for APM CPU idle was dropped in version 3.0.
+Overview.
+APM uses a layered approach to manage devices. APM-aware applications (which include device drivers) talk to an OS-specific APM driver. This driver communicates to the APM-aware BIOS, which controls the hardware. There is the ability to opt out of APM control on a device-by-device basis, which can be used if a driver wants to communicate directly with a hardware device.
+Communication occurs both ways; power management events are sent from the BIOS to the APM driver, and the APM driver sends information and requests to the BIOS via function calls. In this way the APM driver is an intermediary between the BIOS and the operating system.
+Power management happens in two ways; through the above-mentioned function calls from the APM driver to the BIOS requesting power state changes, and automatically based on device activity.
+In APM 1.0 and APM 1.1, power management is almost fully controlled by the BIOS. In APM 1.2, the operating system can control PM time (e.g. turn off monitor timeout).
+Power management events.
+There are 12 power events (such as standby, suspend and resume requests, and low battery notifications), plus OEM-defined events, that can be sent from the APM BIOS to the operating system. The APM driver regularly polls for event change notifications.
+Power Management Events:
+Power management functions:
+APM functions.
+There are 21 APM function calls defined that the APM driver can use to query power management statuses, or request power state transitions. Example function calls include letting the BIOS know about current CPU usage (the BIOS may respond to such a call by placing the CPU in a low-power state, or returning it to its full-power state), retrieving the current power state of a device, or requesting a power state change.
+Power states.
+The APM specification defines system power states and device power states.
+System power states.
+APM defines five power states for the computer system:
+Device power states.
+APM also defines power states that APM-aware hardware can implement. There is no requirement that an APM-aware device implement all states.
+The four states are:
+CPU.
+The CPU core (defined in APM as the CPU clock, cache, system bus and system timers) is treated specially in APM, as it is the last device to be powered down, and the first device to be powered back up. The CPU core is always controlled through the APM BIOS (there is no option to control it through a driver). Drivers can use APM function calls to notify the BIOS about CPU usage, but it is up to the BIOS to act on this information; a driver cannot directly tell the CPU to go into a power saving state.
+In ATA drives.
+The ATA specification defines APM provisions for hard drives via the subcommand , which specifies a trade-off between spin-down frequency and always-on performance. Unlike the BIOS-side APM, the ATA APM has never been deprecated.
+

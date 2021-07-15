@@ -1,0 +1,10 @@
+
+The term data access arrangement (DAA) has the following meanings: 
+Data access arrangements are an integral part of all modems built for the public telephone network. In view of mixed voice and data access, DAAs are more generally referred to as direct access arrangements.
+Requirement for DAAs.
+While DAA now describes an integral component of a device that connects to the telephone network, during the 60s and 70s it described a separate device mandated by the Bell System, connected between the telephone line and non-Bell equipment, typically a modem.
+Following the Carterfone decision, which required Bell to allow customers to attach any non-harmful equipment to their network, Bell mandated that subscribers use DAAs - purchased exclusively from Western Electric - to ensure the network was protected. These devices were not required for Bell-provided equipment, only equipment made by independent manufacturers.
+At the time, some subscribers believed that the DAA was a scheme by AT&amp;T to penalize and discourage use of non-Bell modems and recover lost profits from hardware sales, and the FCC began investigations into the legality of the practice. Subscribers also became frustrated when Bell failed to deliver DAAs in a timely fashion after the ruling, leading to the use of unauthorized third-party DAAs.
+There were two main varieties of DAA described by AT&amp;T: manual and automatic. A manual DAA required a call to be initiated (or answered) as normal, at which point it could then be connected to the third-party device, while an automatic DAA allowed an attached device to be connected without human intervention, important for receiving modem use.
+In 1975 the FCC implemented Part 68 of the FCC Rules, which granted permission for direct connection of any equipment to the telephone network given compliance with specific electrical requirements. This technically eliminated the need for DAAs, although the first modem that didn't require a separate DAA was not marketed until 1977.
+

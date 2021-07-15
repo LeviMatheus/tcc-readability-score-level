@@ -1,0 +1,1 @@
+A relational database is a database where the data it contains can be expressed with mathematical relations. Often these are called "tables". Relations are sets of data (tuples). The databases most commonly used today follow this model.

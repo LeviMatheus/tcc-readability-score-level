@@ -1,0 +1,14 @@
+Kurt Gödel (April 28, 1906 Brno, then Austria-Hungary, now Czech Republic – January 14, 1978 Princeton, New Jersey) was a logician, mathematician, and philosopher of mathematics.
+Impact.
+Some people believe, Gödel was one of the most significant logicians of all time. Gödel's work has had a big impact on scientific and philosophical thinking in the 20th century. Many people, such as Bertrand Russell, A. N. Whitehead, and David Hilbert, tried to use logic and set theory at that time. They wanted to understand the foundations of mathematics.
+Fame.
+Gödel is best known for his two incompleteness theorems. The theorems were published in 1931. He was 25 years of age, and had just finished his doctorate at the University of Vienna one year earlier.
+The more famous of the two theorems says that if there are consistent axiomatic systems that are powerful enough to describe themselves, there will be true propositions in those systems that can not be proved within the system itself.
+Proof.
+To prove this theorem, Gödel developed a technique now known as Gödel numbering, which codes formal expressions as natural numbers.
+He also showed that the continuum hypothesis cannot be disproved from the accepted axioms of set theory, if those axioms are consistent. He made important contributions to proof theory. He did this by clarifying the connections between classical logic, intuitionistic logic, and modal logic.
+Later life.
+Later in his life, Gödel probably suffered from Paranoia. He thought that some people would come and poison him in his food. So when his maid was no longer able to prepare his food, he stopped eating food. He probably died of starvation.
+His theory in simple words.
+To put his theories in simple terms: What he discovered was that some theorems in mathematics may be true, but they cannot be proved to be true.
+Therefore, we found a contradiction. "This sentence is false" is a proposition that is called undecidable. We cannot say if it is true or false.

@@ -1,0 +1,3 @@
+Wi-Fi Protected Access (also known as WPA and WPA2) is the name for a number of standards to use encryption on a Wireless LAN. The standards were created because researchers had found several weaknesses in Wired Equivalent Privacy. Wired Equivalent Privacy, or "WEP" was the standard that came before it. The protocol "WPA2" implements most of the standard IEEE 802.11i.
+Products that have the label "WPA" were designed to work with most cards, even those that came out before there was WPA. This is not true for access points though.
+Products with the "WPA2" implement all of the standard. This is more secure, but it may not work with some older cards.

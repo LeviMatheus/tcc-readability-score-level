@@ -1,0 +1,6 @@
+An orbit is the path - or route - that a planet or another thing makes when it goes around another planet, a star, or a moon.
+So the Earth goes in an orbit around the Sun, and a satellite can move in an orbit around the Earth. "To orbit" can also be a verb: "The Earth orbits the Sun".
+When people first began to think about orbits, they thought that all orbits had to be perfect circles, and they thought that the circle was a "perfect" shape.
+When people began to study the motions of planets carefully, they saw that the planets were not moving in perfect circles. Some of the planets have orbits that are almost perfect circles, and others have orbits that are longer and less like a perfect circle.
+Johannes Kepler (lived 1571-1630) found that the orbits of the planets in our solar system are not really circles, but are really ellipses (a shape like an egg or a "flattened circle"). He wrote mathematical "laws of planetary motion", which gave a good idea of the movements of the planets.
+Isaac Newton (lived 1642-1727) used his new ideas about gravity to show why Kepler's laws worked the way they did.

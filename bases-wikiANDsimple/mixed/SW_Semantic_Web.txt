@@ -1,0 +1,5 @@
+The Semantic Web is a project of the W3C in which uses metadata to let computers understand the information on the internet. This would make computers able to do more of the work involved in finding, sharing and combining information on the internet.
+The Semantic Web is an idea of the inventor of the World Wide Web, Tim Berners Lee. He wants to make the web more intuitive about how to meet a user's needs. The semantics of information and services is defined in Web Ontology Language and RDF Schemas. These are used to give a formal description of concepts, terms, and relationships within a given area of knowledge.
+Markup.
+The World Wide Web is based on HTML documents. The semantic web involves using Resource description Framework (RDF) that has data that computers use. The layout used in HTML will be stored separately such as in a CSS file. RDF and OWL can either supplement or replace the content of web documents (XHTML).
+In this way a machine can use the knowledge itself. By using the information in ways similar to human reasoning it can create more meaningful results.

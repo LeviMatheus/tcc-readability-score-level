@@ -1,0 +1,9 @@
+
+In propositional logic, biconditional introduction is a valid rule of inference. It allows for one to infer a biconditional from two conditional statements. The rule makes it possible to introduce a biconditional statement into a logical proof. If formula_1 is true, and if formula_2 is true, then one may infer that formula_3 is true. For example, from the statements "if I'm breathing, then I'm alive" and "if I'm alive, then I'm breathing", it can be inferred that "I'm breathing if and only if I'm alive". Biconditional introduction is the converse of biconditional elimination. The rule can be stated formally as:
+where the rule is that wherever instances of "formula_1" and "formula_2" appear on lines of a proof, "formula_3" can validly be placed on a subsequent line.
+Formal notation.
+The "biconditional introduction" rule may be written in sequent notation:
+where formula_9 is a metalogical symbol meaning that formula_3 is a syntactic consequence when formula_1 and formula_2 are both in a proof;
+or as the statement of a truth-functional tautology or theorem of propositional logic:
+where formula_14, and formula_15 are propositions expressed in some formal system.
+

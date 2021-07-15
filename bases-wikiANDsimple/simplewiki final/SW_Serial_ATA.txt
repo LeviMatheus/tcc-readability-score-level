@@ -1,0 +1,6 @@
+Serial ATA (or SATA) is a way of connecting a hard drive to a computer.
+It is a replacement for what is now called PATA. PATA used to be called ATA or IDE, before SATA was introduced.
+SATA's most important difference from PATA is that it uses a thinner cable to connect the hard drive to the computer.
+PATA is still used more often than SATA, but it is being replaced in newer computers. Most computers made since 2005 already have SATA interfaces. The P in PATA stands for "parallel", and is seen in the many wires running in the same direction, in the ribbon cable it uses to connect the hard drive.
+There are many differences between Serial ATA and Parallel ATA. In theory, SATA is faster than PATA. However, the top speeds (150MB/s, 300 MB/s) that companies advertise don't happen very often. Other benefits are the much easier handling of the new cable type. Some drives can also be connected and disconnected while the computer is running. This is called hot swapping. Finally, some drives support a technology called "Native Command Queueing". This means that the drive can rearrange the order of what it's told to do so that it gets done faster.
+The two also have different connections and different motherboard types.

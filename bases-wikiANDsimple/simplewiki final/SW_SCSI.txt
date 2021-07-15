@@ -1,0 +1,13 @@
+SCSI is a set of standards for physically connecting and transferring data between computers and peripheral devices, such as a CD or DVD drive.
+Physical Structure.
+SCSI is realized by a bus slot on the motherboard. Just to put a card called host adapter to the motherboard. From this card is a managed data cable. This cable connects individual SCSI peripherals. Each of this peripherals has its own sequencer which is functional independent. Operation on data cable (bus SCSI) is controlled by the host adapter. There is also a possibility to install internal or external components. Transferring data on the SCSI bus is managed by the host adapter. The CPU is not loaded by transferring data.
+Advantages.
+Each peripheral has its own sequencer and host adapter. They can be used for communication with devices by a defined "computer" language. They could also cooperate with arbitrary peripherals of SCSI. At present there are hard disks, optical drives, tape adapter units, ZIP drives, scanners and printers using SCSI.
+SCSI is not restricted by conditions (for example: by data capacity). One of the main advantages of SCSI is a possibility to daisy-chain devices. There is some device on the bus SCSI which controls this.
+For example, hard disk defines “head's of operations” etc. At the same moment the other device could send data to other devices, (scanner). Operations of other device are not cancelled with origin connection. After transferring data to scanner device could continues with transferring data to hard disk. SCSI is faster because of this fact even maximal speed of transferring is not so different to EIDE.
+Configured rules.
+Each peripheral of SCSI has to be identified. That is the reason why every peripheral must have a unique ID. This number is set by bond or shunt located on the case of components. In terms of a bus is enumerate from 0, hostname has as a rule ID 7. There cannot be two devices on the same bus with the same ID.
+Buses have to be finished with resistances, in terminology called terminators. On the last devices is necessary to install terminators.
+Host adapter has to be in connection with to assign system resources (addresses I/O, IRQ, DMA, reserved memory).
+Progression.
+SCSI has also long progression. That is the reason why there are many kind of SCSI in the present. They are just different from data width (8 or 16 bites) and work’s frequency (from 5 MHz to 40 MHz). On 8bites SCSI bus could be connected to 8 devices (used 50pin’s connector); on 16bites SCSI bus could be connected to 16 devices (used 16pin’s connector). However one of these devices has to have sequencer SCSI.

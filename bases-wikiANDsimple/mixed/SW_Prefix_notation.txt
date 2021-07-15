@@ -1,0 +1,4 @@
+Prefix notation is a mathematical notation. It is a way to write down equations and other mathematical formulae. Prefix notation is also known as "Polish notation". The notation was invented by Jan Łukasiewicz in 1920. He wanted to simplify writing logic equations.
+When prefix notation is used, no grouping elements (like parenthesis) are needed.
+With prefix notation, the function is noted before the arguments it operates on.
+Some CASIO calculators use prefix notation. Some languiages who were influenced by lambda calculus, like LISP use prefix notation.

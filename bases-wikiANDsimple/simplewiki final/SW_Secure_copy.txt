@@ -1,0 +1,1 @@
+Secure Copy or SCP is a method of securely transferring computer files between a local and a remote host or between two remote hosts, using the SSH protocol.

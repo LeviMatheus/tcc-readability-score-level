@@ -1,0 +1,2 @@
+Solaris is an operating system created by Sun Microsystems in the early 1990s to run on their workstations (but it can be used on most modern PCs) and is still developed today. It used to be called SunOS until it was renamed to Solaris in 1992.
+It is mostly used in advanced servers like the ones that run the Internet, and for programming in languages like Java, having advanced features for programmers.

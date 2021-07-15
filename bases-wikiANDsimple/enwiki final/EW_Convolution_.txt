@@ -1,0 +1,141 @@
+
+In mathematics (in particular, functional analysis), convolution is a mathematical operation on two functions ( and ) that produces a third function (formula_1) that expresses how the shape of one is modified by the other. The term "convolution" refers to both the result function and to the process of computing it. It is defined as the integral of the product of the two functions after one is reversed and shifted. The integral is evaluated for all values of shift, producing the convolution function.
+Some features of convolution are similar to cross-correlation: for real-valued functions, of a continuous or discrete variable, it differs from cross-correlation (formula_2) only in that either or is reflected about the y-axis; thus it is a cross-correlation of and , or and .  For complex-valued functions, the cross-correlation operator is the adjoint of the convolution operator.
+Convolution has applications that include probability, statistics, acoustics, spectroscopy, signal processing and image processing, engineering, physics, computer vision and differential equations.
+The convolution can be defined for functions on Euclidean space and other groups. For example, periodic functions, such as the discrete-time Fourier transform, can be defined on a circle and convolved by periodic convolution. (See row 18 at .) A "discrete convolution" can be defined for functions on the set of integers.
+Generalizations of convolution have applications in the field of numerical analysis and numerical linear algebra, and in the design and implementation of finite impulse response filters in signal processing.
+Computing the inverse of the convolution operation is known as deconvolution.
+Definition.
+The convolution of and is written , denoting the operator with the symbol . It is defined as the integral of the product of the two functions after one is reversed and shifted. As such, it is a particular kind of integral transform:
+An equivalent definition is (see commutativity):
+While the symbol is used above, it need not represent the time domain. But in that context, the convolution formula can be described as a weighted average of the function at the moment where the weighting is given by simply shifted by amount . As changes, the weighting function emphasizes different parts of the input function.
+For functions , supported on only (i.e., zero for negative arguments), the integration limits can be truncated, resulting in:
+For the multi-dimensional formulation of convolution, see "domain of definition" (below).
+Notation.
+A common engineering notational convention is:
+which has to be interpreted carefully to avoid confusion. For instance, is equivalent to , but is in fact equivalent to .
+Derivations.
+Convolution describes the output (in terms of the input) of an important class of operations known as "linear time-invariant" (LTI). See LTI system theory for a derivation of convolution as the result of LTI constraints. In terms of the Fourier transforms of the input and output of an LTI operation, no new frequency components are created. The existing ones are only modified (amplitude and/or phase). In other words, the output transform is the pointwise product of the input transform with a third transform (known as a transfer function). See Convolution theorem for a derivation of that property of convolution. Conversely, convolution can be derived as the inverse Fourier transform of the pointwise product of two Fourier transforms.
+Historical developments.
+One of the earliest uses of the convolution integral appeared in D'Alembert's derivation of Taylor's theorem in "Recherches sur différents points importants du système du monde," published in 1754.
+Also, an expression of the type:
+is used by Sylvestre François Lacroix on page 505 of his book entitled "Treatise on differences and series", which is the last of 3 volumes of the encyclopedic series: "Traité du calcul différentiel et du calcul intégral", Chez Courcier, Paris, 1797–1800. Soon thereafter, convolution operations appear in the works of Pierre Simon Laplace, Jean-Baptiste Joseph Fourier, Siméon Denis Poisson, and others. The term itself did not come into wide use until the 1950s or 60s. Prior to that it was sometimes known as "Faltung" (which means "folding" in German), "composition product", "superposition integral", and "Carson's integral".
+Yet it appears as early as 1903, though the definition is rather unfamiliar in older uses.
+The operation:
+is a particular case of composition products considered by the Italian mathematician Vito Volterra in 1913.
+Circular convolution.
+When a function is periodic, with period , then for functions, , such that exists, the convolution is also periodic and identical to:
+where is an arbitrary choice. The summation is called a periodic summation of the function .
+When is a periodic summation of another function, , then is known as a "circular" or "cyclic" convolution of and .
+And if the periodic summation above is replaced by , the operation is called a "periodic" convolution of and .
+Discrete convolution.
+For complex-valued functions defined on the set Z of integers, the "discrete convolution" of and is given by:
+or equivalently (see commutativity) by:
+The convolution of two finite sequences is defined by extending the sequences to finitely supported functions on the set of integers. When the sequences are the coefficients of two polynomials, then the coefficients of the ordinary product of the two polynomials are the convolution of the original two sequences. This is known as the Cauchy product of the coefficients of the sequences.
+Thus when has finite support in the set formula_12 (representing, for instance, a finite impulse response), a finite summation may be used:
+Circular discrete convolution.
+When a function is periodic, with period , then for functions, , such that exists, the convolution is also periodic and identical to:
+The summation on is called a periodic summation of the function .
+If is a periodic summation of another function, , then is known as a circular convolution of and .
+When the non-zero durations of both and are limited to the interval ,  reduces to these common forms:
+] \triangleq (f *_{_N} g)[n]
+The notation () for "cyclic convolution" denotes convolution over the cyclic group of integers modulo.
+Circular convolution arises most often in the context of fast convolution with a fast Fourier transform (FFT) algorithm.
+Fast convolution algorithms.
+In many situations, discrete convolutions can be converted to circular convolutions so that fast transforms with a convolution property can be used to implement the computation. For example, convolution of digit sequences is the kernel operation in multiplication of multi-digit numbers, which can therefore be efficiently implemented with transform techniques (; ).
+ requires arithmetic operations per output value and operations for outputs. That can be significantly reduced with any of several fast algorithms. Digital signal processing and other applications typically use fast convolution algorithms to reduce the cost of the convolution to O( log ) complexity.
+The most common fast convolution algorithms use fast Fourier transform (FFT) algorithms via the circular convolution theorem. Specifically, the circular convolution of two finite-length sequences is found by taking an FFT of each sequence, multiplying pointwise, and then performing an inverse FFT. Convolutions of the type defined above are then efficiently implemented using that technique in conjunction with zero-extension and/or discarding portions of the output. Other fast convolution algorithms, such as the Schönhage–Strassen algorithm or the Mersenne transform, use fast Fourier transforms in other rings.
+If one sequence is much longer than the other, zero-extension of the shorter sequence and fast circular convolution is not the most computationally efficient method available. Instead, decomposing the longer sequence into blocks and convolving each block allows for faster algorithms such as the Overlap–save method and Overlap–add method. A hybrid convolution method that combines block and FIR algorithms allows for a zero input-output latency that is useful for real-time convolution computations.
+Domain of definition.
+The convolution of two complex-valued functions on is itself a complex-valued function on , defined by:
+and is well-defined only if and decay sufficiently rapidly at infinity in order for the integral to exist. Conditions for the existence of the convolution may be tricky, since a blow-up in at infinity can be easily offset by sufficiently rapid decay in . The question of existence thus may involve different conditions on and :
+Compactly supported functions.
+If and are compactly supported continuous functions, then their convolution exists, and is also compactly supported and continuous . More generally, if either function (say ) is compactly supported and the other is locally integrable, then the convolution is well-defined and continuous.
+Convolution of and is also well defined when both functions are locally square integrable on and supported on an interval of the form (or both supported on ).
+Integrable functions.
+The convolution of and exists if and are both Lebesgue integrable functions in (), and in this case is also integrable . This is a consequence of Tonelli's theorem. This is also true for functions in , under the discrete convolution, or more generally for the convolution on any group.
+Likewise, if ()  and  ()  where ,  then  (),  and
+In the particular case , this shows that is a Banach algebra under the convolution (and equality of the two sides holds if and are non-negative almost everywhere).
+More generally, Young's inequality implies that the convolution is a continuous bilinear map between suitable spaces. Specifically, if satisfy:
+then
+so that the convolution is a continuous bilinear mapping from to .
+The Young inequality for convolution is also true in other contexts (circle group, convolution on ). The preceding inequality is not sharp on the real line: when , there exists a constant such that:
+The optimal value of was discovered in 1975 and independently in 1976, see Brascamp–Lieb inequality.
+A stronger estimate is true provided :
+where formula_21 is the weak norm. Convolution also defines a bilinear continuous map formula_22 for formula_23, owing to the weak Young inequality:
+Functions of rapid decay.
+In addition to compactly supported functions and integrable functions, functions that have sufficiently rapid decay at infinity can also be convolved. An important feature of the convolution is that if "f" and "g" both decay rapidly, then "f"∗"g" also decays rapidly. In particular, if "f" and "g" are rapidly decreasing functions, then so is the convolution "f"∗"g". Combined with the fact that convolution commutes with differentiation (see #Properties), it follows that the class of Schwartz functions is closed under convolution .
+Distributions.
+Under some circumstances, it is possible to define the convolution of a function with a distribution, or of two distributions. If "f" is a compactly supported function and "g" is a distribution, then "f"∗"g" is a smooth function defined by a distributional formula analogous to
+More generally, it is possible to extend the definition of the convolution in a unique way so that the associative law
+remains valid in the case where "f" is a distribution, and "g" a compactly supported distribution .
+Measures.
+The convolution of any two Borel measures "μ" and "ν" of bounded variation is the measure formula_27 defined by 
+In particular,
+where formula_30 is a measurable set and formula_31 is the indicator function of formula_32.
+This agrees with the convolution defined above when μ and ν are regarded as distributions, as well as the convolution of L1 functions when μ and ν are absolutely continuous with respect to the Lebesgue measure.
+The convolution of measures also satisfies the following version of Young's inequality
+where the norm is the total variation of a measure. Because the space of measures of bounded variation is a Banach space, convolution of measures can be treated with standard methods of functional analysis that may not apply for the convolution of distributions.
+Properties.
+Algebraic properties.
+The convolution defines a product on the linear space of integrable functions. This product satisfies the following algebraic properties, which formally mean that the space of integrable functions with the product given by convolution is a commutative associative algebra without identity . Other linear spaces of functions, such as the space of continuous functions of compact support, are closed under the convolution, and so also form commutative associative algebras.
+Proof: By definition
+Changing the variable of integration to formula_36 the result follows.
+Proof: This follows from using Fubini's theorem (i.e., double integrals can be evaluated as
+iterated integrals in either order).
+Proof: This follows from linearity of the integral.
+for any real (or complex) number formula_40.
+No algebra of functions possesses an identity for the convolution. The lack of identity is typically not a major inconvenience, since most collections of functions on which the convolution is performed can be convolved with a delta distribution (a unitary impulse, centered at zero) or, at the very least (as is the case of "L"1) admit approximations to the identity. The linear space of compactly supported distributions does, however, admit an identity under the convolution. Specifically,
+where "δ" is the delta distribution.
+Some distributions "S" have an inverse element "S"−1 for the convolution which then must satisfy
+from which an explicit formula for "S"−1 may be obtained.
+The set of invertible distributions forms an abelian group under the convolution.
+Proof:
+Integration.
+If "f" and "g" are integrable functions, then the integral of their convolution on the whole space is simply obtained as the product of their integrals:
+This follows from Fubini's theorem. The same result holds if "f" and "g" are only assumed to be nonnegative measurable functions, by Tonelli's theorem.
+Differentiation.
+In the one-variable case,
+where "d"/"dx" is the derivative. More generally, in the case of functions of several variables, an analogous formula holds with the partial derivative:
+A particular consequence of this is that the convolution can be viewed as a "smoothing" operation: the convolution of "f" and "g" is differentiable as many times as "f" and "g" are in total.
+These identities hold under the precise condition that "f" and "g" are absolutely integrable and at least one of them has an absolutely integrable (L1) weak derivative, as a consequence of Young's convolution inequality. For instance, when "f" is continuously differentiable with compact support, and "g" is an arbitrary locally integrable function,
+These identities also hold much more broadly in the sense of tempered distributions if one of "f" or "g" is a 
+rapidly decreasing tempered distribution, a 
+compactly supported tempered distribution or a Schwartz function and the other is a tempered distribution. On the other hand, two positive integrable and infinitely differentiable functions may have a nowhere continuous convolution.
+In the discrete case, the difference operator "D" "f"("n") = "f"("n" + 1) − "f"("n") satisfies an analogous relationship:
+Convolution theorem.
+The convolution theorem states that
+where formula_55 denotes the Fourier transform of formula_56, and formula_57 is a constant that depends on the specific normalization of the Fourier transform. Versions of this theorem also hold for the Laplace transform, two-sided Laplace transform, Z-transform and Mellin transform.
+See also the less trivial Titchmarsh convolution theorem.
+On the other hand, if formula_58 is the Fourier transform matrix, then
+formula_59, 
+where formula_60 is face-splitting product, formula_61 denotes Kronecker product, formula_62 denotes Hadamard product (this result is an evolving of count sketch properties ).
+Translational equivariance.
+The convolution commutes with translations, meaning that
+where τ"x"f is the translation of the function "f" by "x" defined by
+If "f" is a Schwartz function, then "τxf" is the convolution with a translated Dirac delta function "τ""x""f" = "f" ∗ "τ""x" "δ". So translation invariance of the convolution of Schwartz functions is a consequence of the associativity of convolution.
+Furthermore, under certain conditions, convolution is the most general translation invariant operation. Informally speaking, the following holds
+Thus some translation invariant operations can be represented as convolution. Convolutions play an important role in the study of time-invariant systems, and especially LTI system theory. The representing function "g""S" is the impulse response of the transformation "S".
+A more precise version of the theorem quoted above requires specifying the class of functions on which the convolution is defined, and also requires assuming in addition that "S" must be a continuous linear operator with respect to the appropriate topology. It is known, for instance, that every continuous translation invariant continuous linear operator on "L"1 is the convolution with a finite Borel measure. More generally, every continuous translation invariant continuous linear operator on "L""p" for 1 ≤ "p" &lt; ∞ is the convolution with a tempered distribution whose Fourier transform is bounded. To wit, they are all given by bounded Fourier multipliers.
+Convolutions on groups.
+If "G" is a suitable group endowed with a measure λ, and if "f" and "g" are real or complex valued integrable functions on "G", then we can define their convolution by
+It is not commutative in general. In typical cases of interest "G" is a locally compact Hausdorff topological group and λ is a (left-) Haar measure. In that case, unless "G" is unimodular, the convolution defined in this way is not the same as formula_66. The preference of one over the other is made so that convolution with a fixed function "g" commutes with left translation in the group:
+Furthermore, the convention is also required for consistency with the definition of the convolution of measures given below. However, with a right instead of a left Haar measure, the latter integral is preferred over the former.
+On locally compact abelian groups, a version of the convolution theorem holds: the Fourier transform of a convolution is the pointwise product of the Fourier transforms. The circle group T with the Lebesgue measure is an immediate example. For a fixed "g" in "L"1(T), we have the following familiar operator acting on the Hilbert space "L"2(T):
+The operator "T" is compact. A direct calculation shows that its adjoint "T* " is convolution with
+By the commutativity property cited above, "T" is normal: "T"* "T" = "TT"* . Also, "T" commutes with the translation operators. Consider the family "S" of operators consisting of all such convolutions and the translation operators. Then "S" is a commuting family of normal operators. According to spectral theory, there exists an orthonormal basis {"hk"} that simultaneously diagonalizes "S". This characterizes convolutions on the circle. Specifically, we have
+which are precisely the characters of T. Each convolution is a compact multiplication operator in this basis. This can be viewed as a version of the convolution theorem discussed above.
+A discrete example is a finite cyclic group of order "n". Convolution operators are here represented by circulant matrices, and can be diagonalized by the discrete Fourier transform.
+A similar result holds for compact groups (not necessarily abelian): the matrix coefficients of finite-dimensional unitary representations form an orthonormal basis in "L"2 by the Peter–Weyl theorem, and an analog of the convolution theorem continues to hold, along with many other aspects of harmonic analysis that depend on the Fourier transform.
+Convolution of measures.
+Let "G" be a (multiplicatively written) topological group.
+If μ and ν are finite Borel measures on "G", then their convolution "μ"∗"ν" is defined as the pushforward measure of the group action and can be written as
+for each measurable subset "E" of "G". The convolution is also a finite measure, whose total variation satisfies
+In the case when "G" is locally compact with (left-)Haar measure λ, and μ and ν are absolutely continuous with respect to a λ, so that each has a density function, then the convolution μ∗ν is also absolutely continuous, and its density function is just the convolution of the two separate density functions.
+If μ and ν are probability measures on the topological group then the convolution "μ"∗"ν" is the probability distribution of the sum "X" + "Y" of two independent random variables "X" and "Y" whose respective distributions are μ and ν.
+Bialgebras.
+Let ("X", Δ, ∇, "ε", "η") be a bialgebra with comultiplication Δ, multiplication ∇, unit η, and counit "ε". The convolution is a product defined on the endomorphism algebra End("X") as follows. Let "φ", "ψ" ∈ End("X"), that is, "φ","ψ" : "X" → "X" are functions that respect all algebraic structure of "X", then the convolution "φ"∗"ψ" is defined as the composition
+The convolution appears notably in the definition of Hopf algebras . A bialgebra is a Hopf algebra if and only if it has an antipode: an endomorphism "S" such that
+Applications.
+Convolution and related operations are found in many applications in science, engineering and mathematics.
+

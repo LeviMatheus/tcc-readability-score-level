@@ -1,0 +1,5 @@
+In optics, transparency is the property of allowing light to pass through something.
+An object that is transparent can be seen through, i.e. what is on the other side of the object can be seen through it. The image you can see through a transparent object is similar to the image you can see without it. It may be changed if the transparent object behaves like a lens. This could change the size of the image or change its shape.
+If some light can be seen through an object but some of the detail of the image is lost, it is a translucent material. The opposite of transparency is opacity.
+Translucency.
+Examples of translucent materials are frosted glass, paper, and some types of amber.

@@ -1,0 +1,3 @@
+An improper rotation can be understood as an inversion followed by a proper rotation.
+Equivalently it is the combination of a rotation and an inversion in a point on the axis. Therefore it is also called a rotoinversion or rotary inversion.
+A simple example of an improper rotation in 3D (but not in 2D) is a coordinate inversion: x goes to −x, y to −y and z to −z. Under this transformation, a and b go to −a and −b (by the definition of a vector), but p clearly does not change. (It follows that any improper rotation multiplies p by −1 compared to the rotation's effect on a true vector.)

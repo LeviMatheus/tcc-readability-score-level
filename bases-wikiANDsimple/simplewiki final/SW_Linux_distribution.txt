@@ -1,0 +1,12 @@
+Linux distributions are made of the Linux kernel and a collection of applications. The operating system will be made up of the Linux kernel and, usually, a set of libraries and utilities from the GNU project, with graphics that come from the X Window System. Distributions that are made to be small may not contain X, but use small window systems like busybox, uclibc or dietlibc. There are more than three hundred Linux distributions. Most of those are in still in development, being improved and changed constantly.
+History.
+Before the first Linux distributions, a Linux user needed to be a Unix expert, knowing what libraries and executables that were needed to get the system to boot and run.
+Linux distributions started to form after the Linux kernel was starting to be used by people outside the original Linux programmers. They were more interested in creating the operating system than making it user-friendly.
+SLS was not well-maintained, so Patrick Volkerding created a distribution based on SLS, which he called "Slackware"; released July 16, 1993. This is the oldest being developed.
+People who used computers wanted to use Linux distributions as replacements to Microsoft Windows operating systems on the PC, Mac OS on the Apple Macintosh and proprietary versions of Unix.
+Package management.
+Distributions are normally split into packages. Each package has a certain application or service. Examples of packages include a collection of fonts, or a web browser.
+The package is usually given as compiled code, with installation and removal of packages done by a package management system].
+Linux distributions usually contain much more software than Microsoft Windows or Mac OS X.
+Tools for choosing a Linux distribution.
+There are tools available to help people make the decision easier.

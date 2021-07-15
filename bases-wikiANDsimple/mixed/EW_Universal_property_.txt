@@ -1,0 +1,72 @@
+
+In category theory, a branch of mathematics, a universal property is an important property which is satisfied by a universal morphism (see Formal Definition). 
+Universal morphisms can also be thought of more abstractly as initial or terminal objects of a comma category (see Connection with Comma Categories). Universal properties occur almost everywhere in mathematics, and hence the precise category theoretic concept helps point out similarities between different branches of mathematics, some of which may even seem unrelated. 
+Universal properties may be used in other areas of mathematics implicitly, but the abstract and more precise definition of it can be studied in category theory.
+This article gives a general treatment of universal properties. To understand the concept, it is useful to study several examples first, of which there are many: all free objects, direct product and direct sum, free group, free lattice, Grothendieck group, Dedekind–MacNeille completion, product topology, Stone–Čech compactification, tensor product, inverse limit and direct limit, kernel and cokernel, pullback, pushout and equalizer.
+Motivation.
+Before giving a formal definition of universal properties, we offer some motivation for studying such constructions.
+Formal definition.
+To understand the definition of a universal construction, it is important to look at examples. Universal constructions were not defined out of thin air, but were rather defined after mathematicians began noticing a pattern in many mathematical constructions (see Examples below). Hence, the definition may not make sense to one at first, but will become clear when one reconciles it with concrete examples.
+Let formula_1 be a functor between categories formula_2 and formula_3. In what follows, let formula_4 be an object of formula_3, while formula_6 and formula_7 are objects of formula_2. 
+Thus, the functor formula_9 maps formula_6, formula_7 and formula_12 in formula_2 to formula_14, formula_15 and formula_16 in formula_3.
+A universal morphism from formula_4 to formula_9 is a unique pair formula_20 in formula_3 which has the following property, commonly referred to as a universal property. For any morphism of the form 
+formula_22 in formula_3, there exists a "unique" morphism formula_24 in formula_2 such that the following diagram commutes:
+We can dualize this categorical concept. A universal morphism from formula_9 to formula_4 is a unique pair formula_28 that satisfies the following universal property. For any morphism of the form formula_29 in formula_3, there exists a "unique" morphism formula_31 in formula_2 such that the following diagram commutes:
+Note that in each definition, the arrows are reversed. Both definitions are necessary to describe universal constructions which appear in mathematics; but they also arise due to the inherent duality present in category theory.
+In either case, we say that the pair formula_33 which behaves as above satisfies a universal property. 
+As a side note, some authors present the second diagram as follows.
+Of course, the diagrams are the same; choosing which way to write it is a matter of taste. They simply differ by a rotation of 180°. However, the original diagram is preferable, because it illustrates the duality between the two definitions, as it is clear the arrows are being reversed in each case.
+Connection with Comma Categories.
+Universal morphisms can be described more concisely as initial and terminal objects in a comma category. 
+Let formula_1 be a functor and formula_4 an object of formula_3. Then recall that the comma category formula_37 is the category where 
+Now suppose that the object formula_20 in formula_37 is initial. Then
+for every object formula_47, there exists a unique morphism formula_24 such that the following diagram commutes. 
+Note that the equality here simply means the diagrams are the same. Also note that the diagram on the right side of the equality is the exact same as the one offered in defining a universal morphism from formula_4 to formula_9. Therefore, we see that a universal morphism from formula_4 to formula_9 is equivalent to an initial object in the comma category formula_37.
+Conversely, recall that the comma category formula_54 is the category where 
+Suppose formula_62 is a terminal object in formula_54. Then for every object formula_64, 
+there exists a unique morphism formula_65 such that the following diagrams commute. 
+The diagram on the right side of the equality is the same diagram pictured when defining a universal morphism from formula_9 to formula_4. Hence, a universal morphism from formula_9 to formula_4 corresponds with a terminal object in the comma category 
+formula_54.
+Examples.
+Below are a few examples, to highlight the general idea. The reader can construct numerous other examples by consulting the articles mentioned in the introduction.
+Tensor algebras.
+Let formula_2 be the category of vector spaces formula_72-Vect over a field formula_72 and let formula_3 be the category of algebras formula_72-Alg over formula_72 (assumed to be unital and associative). Let
+be the forgetful functor which assigns to each algebra its underlying vector space.
+Given any vector space formula_80 over formula_72 we can construct the tensor algebra formula_82. The tensor algebra is characterized by the fact:
+This statement is an initial property of the tensor algebra since it expresses the fact that the pair formula_87, where formula_88 is the inclusion map, is a universal morphism from the vector space formula_80 to the functor formula_77.
+Since this construction works for any vector space formula_80, we conclude that formula_92 is a functor from formula_72-Vect to formula_72-Alg. This means that formula_92 is "left adjoint" to the forgetful functor formula_77 (see the section below on relation to adjoint functors).
+Products.
+A categorical product can be characterized by a universal construction. For concreteness, one may consider the Cartesian product in Set, the direct product in Grp, or the product topology in Top, where products exist.
+Let formula_4 and formula_98 be objects of a category formula_3 with finite products. The product of formula_4 and formula_98 is an object formula_4 × formula_98 together with two morphisms
+such that for any other object formula_108 of formula_3 and morphisms formula_110 and formula_111 there exists a unique morphism formula_112 such that formula_113 and formula_114.
+To understand this characterization as a universal property, take the category formula_2 to be the product category formula_116 and define the diagonal functor
+by formula_118 and formula_119. Then formula_120 is a universal morphism from formula_121 to the object formula_122 of formula_116: if formula_124 is any morphism from formula_125 to formula_122, then it must equal
+a morphism formula_127 from formula_128
+to formula_129 followed by formula_130.
+Limits and colimits.
+Categorical products are a particular kind of limit in category theory. One can generalize the above example to arbitrary limits and colimits.
+Let formula_131 and formula_2 be categories with formula_131 a small index category and let formula_134 be the corresponding functor category. The "diagonal functor"
+is the functor that maps each object formula_136 in formula_2 to the constant functor formula_138 to formula_136 (i.e. formula_140 for each formula_4 in formula_131).
+Given a functor formula_143 (thought of as an object in formula_134), the "limit" of formula_9, if it exists, is nothing but a universal morphism from formula_121 to formula_9. Dually, the "colimit" of formula_9 is a universal morphism from formula_9 to formula_121.
+Properties.
+Existence and uniqueness.
+Defining a quantity does not guarantee its existence. Given a functor formula_1 and an object formula_4 of formula_2, 
+there may or may not exist a universal morphism from formula_4 to formula_9. If, however, a universal morphism formula_33 does exist, then it is essentially unique. 
+Specifically, it is unique up to a "unique" isomorphism: if formula_157 is another pair, then there exists a unique isomorphism 
+formula_158 such that formula_159.
+This is easily seen by substituting formula_160 in the definition of a universal morphism.
+It is the pair formula_33 which is essentially unique in this fashion. The object formula_6 itself is only unique up to isomorphism. Indeed, if formula_33 is a universal morphism and formula_158 is any isomorphism then the pair formula_157, where formula_159 is also a universal morphism.
+Equivalent formulations.
+The definition of a universal morphism can be rephrased in a variety of ways. Let formula_1 be a functor and let formula_4 be an object of formula_3. Then the following statements are equivalent:
+The dual statements are also equivalent:
+Relation to adjoint functors.
+Suppose formula_184 is a universal morphism from formula_185 to formula_9 and formula_187 is a universal morphism from formula_188 to formula_9. 
+By the universal property of universal morphisms, given any morphism formula_190 there exists a unique morphism formula_191 such that the following diagram commutes:
+If "every" object formula_192 of formula_3 admits a universal morphism to formula_9, then the assignment formula_195 and formula_196 defines a functor formula_197. The maps formula_198 then define a natural transformation from formula_199 (the identity functor on formula_2) to formula_201. The functors formula_202 are then a pair of adjoint functors, with formula_203 left-adjoint to formula_9 and formula_9 right-adjoint to formula_203.
+Similar statements apply to the dual situation of terminal morphisms from formula_9. If such morphisms exist for every formula_4 in formula_2 one obtains a functor formula_210 which is right-adjoint to formula_9 (so formula_9 is left-adjoint to formula_203).
+Indeed, all pairs of adjoint functors arise from universal constructions in this manner. Let formula_9 and formula_203 be a pair of adjoint functors with unit formula_216 and co-unit formula_217 
+(see the article on adjoint functors for the definitions). Then we have a universal morphism for each object in formula_2 and formula_3:
+Universal constructions are more general than adjoint functor pairs: a universal construction is like an optimization problem; it gives rise to an adjoint pair if and only if this problem has a solution for every object of formula_2 (equivalently, every object of formula_3).
+History.
+Universal properties of various topological constructions were presented by Pierre Samuel in 1948. They were later used extensively by Bourbaki. The closely related concept of adjoint functors was introduced independently by Daniel Kan in 1958.
+

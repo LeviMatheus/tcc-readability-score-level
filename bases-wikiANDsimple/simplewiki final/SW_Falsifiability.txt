@@ -1,0 +1,5 @@
+Scientists make hypotheses and theories about their fields of study. At the start, they believe their hypothesis or theory is true. Falsifiability (or refutability) means that an example can be found through an experiment or an observation where the hypothesis is wrong.
+Put another way, if a scientist comes up with a rule or law (such as gravity), they have to also be able to imagine a way to show that it is wrong.
+Karl Popper had the opinion that only theories that are falsifiable are scientific.
+Example.
+Crow is a generic term for a bit over 40 different kinds of birds. It would be possible to make a theory "All crows are white". Suppose now, that someone observes a crow on a tree, and they note the crow is black. The sentence "All crows are while" can also be written as "There are no crows that are non-white". If someone observes a black crow, he could say "There are black crows" (alternatively: "There is at least one crow that is black"). This is a contradiction to "All crows are white", and falsifies the theory.

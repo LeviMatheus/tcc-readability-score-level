@@ -1,0 +1,85 @@
+SecurDisc is a hard- and software based
+security technology for CD’s/DVD’s, which was developed by Hitachi-LG
+Data Storage and Nero AG. SecurDisc provides a full
+range of powerful security features to protect data stored on optical media
+against copying, unauthorized access and it helps to recover data in the event
+of disc failure. SecurDisc also helps to ensure the
+integrity and reliability of data stored on CDs and DVDs over long periods of
+SecurDisc’s security features.
+SecurDisc has five security features: data reliability, password protection,
+data integrity check, digital signature and copy protection
+Data reliability.
+SecurDisc significantly increases the chances for
+restoring files on failed, for example scratched discs.
+Normally, when data is recorded to
+optical media, for example CD’s/DVD’s, the discs rarely consume their maximum capacity.
+Therefore often a large amount of space remains unused.
+SecurDisc uses this remaining free space in
+order to store information about the data written on the disc. In the
+event of disc failure, these additional information are used by SecurDisc to rescue the data on the damaged parts of
+Password protection.
+SecurDisc protects confidential data by using
+AES-128 encryption. Nobody can access the protected data without the
+password set by the original author of the data disc.
+When a user wants to access the
+password-protected data on the disc, he is asked for the password by a password
+prompt. Then, the password is passed through a secure channel to the drive.
+After that, the password is checked by the drive. If it is the correct one, the
+drive grants access to the data, stored on the disc. SecurDisc is a hardware-software based solution, and is
+therefore more difficult to hack and more secure then software-only solutions.
+secured by the strong AES-128 encryption and additionally
+by secret values stored in the firmware of the drive. This combination provides for
+Data integrity check.
+SecurDisc uses a data integrity check in
+order to warn the user in the case of the risk of loss of data due to disc
+decay. So the user notices that his data on the disc are not save anymore and has
+enough time to back it up to another disc. For this data integrity check SecurDisc uses its checksum feature.
+Digital Signature.
+sign an entire disc using a trusted signing key. Therefore another user can
+verify the authenticity of the data using the signature verification key
+distributed by the author of the disc. A private key is used for the digital
+signature, and the recipient verifies it using the corresponding public key, which is the signature verification key. So both users can be sure that it is the
+the original disc from the author.
+Copy Protection.
+sensitive data against unwanted data replication.
+The data can be read, but neither be copied nor edited.
+encrypts the files and stores the
+keys, which are necessary for decrypting and thus for accessing the data on a
+However, at the moment this is possible for PDF’s only.
+Special equipment needed for SecurDisc.
+In order to use the features
+enable disc drive, any common writable CD/DVD and a few programs are required.
+Writing a SecurDisc.
+data disc, you need a SecurDisc drive, Nero Express
+and any common writable CD/DVD. The required private-public key pair for the
+Digital Signature can be also created by Nero Express, if someone does not
+have such a key pair already.
+Accessing a data disc with SecurDisc copy-protection.
+PDF’s can be protected), a SecureDisc drive
+and SecurDisc viewer is needed as well.
+Accessing a non SecurDisc copy-protected SecurDisc data disc.
+For accessing a non SecurDisc copy-protected SecurDisc
+data disc, you need InCD Reader and any common disc
+Accessing a non SecurDisc copy-protected SecurDisc data disc without using special programs.
+can be accessed without InCD Reader, but then no
+single feature of SecurDisc can be used, i.e. the SecurDisc performs like a normal, common data disc without
+data reliability, password protection, data integrity check and digital
+Using SecurDisc.
+SecurDisc can be used for business as well as for personal matters.
+Business partners can use SecurDisc for securing confidential data with the SecurDisc password protection feature.
+Furthermore SecurDisc is a possible solution for data privacy problems.
+Also SecurDisc can be used by personal users for e.g. permanent data storage on optical media i.e. CD's/DVD's.
+Using SecurDisc for business matters.
+Business partners can use SecurDisc for securing confidential data with the SecurDisc password protection feature.
+Therefore they only need to burn data to CDs/DVDs using Nero Express
+and a SecurDisc drive, and activate the password
+needs just the password and the InCD Reader to access
+They can also use the digital
+signature feature to be sure that the discs they exchange are authentic and
+have not been altered accidentally or even maliciously.
+Using SecurDisc for personal matters.
+SecurDisc can be used by personal users for permanent data storage on CD's/DVD's.
+Hobby photographers (as well as professional photographers) can use a SecurDisc-enable drive to record their data to optical media
+in order to preserve the quality and readability of their photos. This is
+managed by the data integrity feature built into SecurDisc,
+which protects the images against disc decay, which can harm the readability of

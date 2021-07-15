@@ -1,0 +1,84 @@
+
+The natural logarithm of a number is its logarithm to the base of the mathematical constant , where is an irrational and transcendental number approximately equal to . The natural logarithm of is generally written as , , or sometimes, if the base is implicit, simply . Parentheses are sometimes added for clarity, giving , , or . This is done particularly when the argument to the logarithm is not a single symbol, so as to prevent ambiguity.
+The natural logarithm of is the power to which would have to be raised to equal . For example, is , because . The natural logarithm of itself, , is , because , while the natural logarithm of is , since .
+The natural logarithm can be defined for any positive real number as the area under the curve from to (with the area being negative when ). The simplicity of this definition, which is matched in many other formulas involving the natural logarithm, leads to the term "natural". The definition of the natural logarithm can then be extended to give logarithm values for negative numbers and for all non-zero complex numbers, although this leads to a multi-valued function: see Complex logarithm for more.
+The natural logarithm function, if considered as a real-valued function of a real variable, is the inverse function of the exponential function, leading to the identities:
+Like all logarithms, the natural logarithm maps multiplication of positive numbers into addition:
+Logarithms can be defined for any positive base other than 1, not only . However, logarithms in other bases differ only by a constant multiplier from the natural logarithm, and can be defined in terms of the latter. For instance, the base-2 logarithm (also called the binary logarithm) is equal to the natural logarithm divided by , the natural logarithm of 2.
+Logarithms are useful for solving equations in which the unknown appears as the exponent of some other quantity. For example, logarithms are used to solve for the half-life, decay constant, or unknown time in exponential decay problems. They are important in many branches of mathematics and scientific disciplines, and are used in finance to solve problems involving compound interest.
+History.
+The concept of the natural logarithm was worked out by Gregoire de Saint-Vincent and Alphonse Antonio de Sarasa before 1649. Their work involved quadrature of the hyperbola with equation , by determination of the area of hyperbolic sectors. Their solution generated the requisite "hyperbolic logarithm" function, which had the properties now associated with the natural logarithm.
+An early mention of the natural logarithm was by Nicholas Mercator in his work "Logarithmotechnia", published in 1668, although the mathematics teacher John Speidell had already compiled a table of what in fact were effectively natural logarithms in 1619. It has been said that Speidell's logarithms were to the base , but this is not entirely true due to complications with the values being expressed as integers.
+Notational conventions.
+The notations and both refer unambiguously to the natural logarithm of , and without an explicit base may also refer to the natural logarithm. This usage is common in mathematics, along with some scientific contexts as well as in many programming languages. In some other contexts such as chemistry, however, can be used to denote the common (base 10) logarithm. It may also refer to the binary (base 2) logarithm in the context of computer science, particularly in the context of time complexity.
+Definitions.
+The natural logarithm can be defined in several equivalent ways. The natural logarithm of a positive, real number may be defined as the area under the graph of the hyperbola with equation between and . This is the integral
+If is less than , then this area is considered to be negative.
+This function is a logarithm because it satisfies the fundamental multiplicative property of a logarithm:
+This can be demonstrated by splitting the integral that defines into two parts, and then making the variable substitution (so ) in the second part, as follows:
+In elementary terms, this is simply scaling by in the horizontal direction and by in the vertical direction. Area does not change under this transformation, but the region between and is reconfigured. Because the function is equal to the function , the resulting area is precisely .
+The number can then be defined to be the unique real number such that . Alternatively, if the exponential function, denoted or , has been defined first, say by using an infinite series, then the natural logarithm may be defined as its inverse function. In other words, is that function such that . Since the range of the exponential function is all positive real numbers, and since the exponential function is strictly increasing, this is well-defined for all positive .
+Properties.
+The statement is true for formula_15, and we now show that formula_16 for all formula_17, which completes the proof by the fundamental theorem of calculus. Hence, we want to show that
+(Note that we have not yet proved that this statement is true.) If this is true, then by multiplying the middle statement by the positive quantity formula_19 and subtracting formula_20 we would obtain
+This statement is trivially true for formula_23 since the left hand side is negative or zero. For formula_24 it is still true since both factors on the left are less than 1 (recall that formula_25). Thus this last statement is true and by repeating our steps in reverse order we find that formula_16 for all formula_17. This completes the proof.
+An alternate proof is to observe that formula_28 under the given conditions. This can be proved, e.g., by the norm inequalities. Taking logarithms and using formula_29 completes the proof.
+Derivative.
+The derivative of the natural logarithm as a real-valued function on the positive reals is given by
+How to establish this derivative of the natural logarithm depends on how it is defined firsthand. If the natural logarithm is defined as the integral
+then the derivative immediately follows from the first part of the fundamental theorem of calculus.
+On the other hand, if the natural logarithm is defined as the inverse of the (natural) exponential function, then the derivative (for "x" &gt; 0) can be found by using the properties of the logarithm and a definition of the exponential function. From the definition of the number formula_32 the exponential function can be defined as formula_33, where formula_34 The derivative can then be found from first principles.
+Also, we have:
+so, unlike its inverse function formula_37, a constant in the function doesn't alter the differential.
+Series.
+If formula_38 then
+This is the Taylor series for ln "x" around 1. A change of variables yields the Mercator series:
+valid for |"x"| ≤ 1 and "x" ≠ −1.
+Leonhard Euler, disregarding formula_41, nevertheless applied this series to "x" = −1, in order to show that the harmonic series equals the (natural) logarithm of 1/(1 − 1), that is, the logarithm of infinity. Nowadays, more formally, one can prove that the harmonic series truncated at "N" is close to the logarithm of "N", when "N" is large, with the difference converging to the Euler–Mascheroni constant.
+At right is a picture of ln(1 + "x") and some of its Taylor polynomials around 0. These approximations converge to the function only in the region −1 &lt; "x" ≤ 1; outside of this region the higher-degree Taylor polynomials evolve to "worse" approximations for the function.
+A useful special case for positive integers "n", taking formula_42, is:
+If formula_44 then
+Now, taking formula_46 for positive integers "n", we get:
+If formula_48 then
+Since
+we arrive at
+Using the substitution formula_46 again for positive integers "n", we get: 
+This is, by far, the fastest converging of the series described here.
+The natural logarithm in integration.
+The natural logarithm allows simple integration of functions of the form "g"("x") = "f" '("x")/"f"("x"): an antiderivative of "g"("x") is given by ln(|"f"("x")|). This is the case because of the chain rule and the following fact:
+In other words,
+and
+Here is an example in the case of "g"("x") = tan("x"):
+Letting "f"("x") = cos("x"):
+where "C" is an arbitrary constant of integration.
+The natural logarithm can be integrated using integration by parts:
+Let:
+then:
+Numerical value.
+For ln("x") where "x" &gt; 1, the closer the value of "x" is to 1, the faster the rate of convergence. The identities associated with the logarithm can be leveraged to exploit this:
+Such techniques were used before calculators, by referring to numerical tables and performing manipulations such as those above.
+Natural logarithm of 10.
+The natural logarithm of 10, which has the decimal expansion 2.30258509..., plays a role for example in the computation of natural logarithms of numbers represented in scientific notation, as a mantissa multiplied by a power of 10:
+This means that one can effectively calculate the logarithms of numbers with very large or very small magnitude using the logarithms of a relatively small set of decimals in the range .
+High precision.
+To compute the natural logarithm with many digits of precision, the Taylor series approach is not efficient since the convergence is slow. Especially if is near 1, a good alternative is to use Halley's method or Newton's method to invert the exponential function, because the series of the exponential function converges more quickly. For finding the value of to give using Halley's method, or equivalently to give using Newton's method, the iteration simplifies to
+which has cubic convergence to .
+Another alternative for extremely high precision calculation is the formula
+where denotes the arithmetic-geometric mean of 1 and , and
+with chosen so that bits of precision is attained. (For most purposes, the value of 8 for m is sufficient.) In fact, if this method is used, Newton inversion of the natural logarithm may conversely be used to calculate the exponential function efficiently. (The constants ln 2 and π can be pre-computed to the desired precision using any of several known quickly converging series.)
+Based on a proposal by William Kahan and first implemented in the Hewlett-Packard HP-41C calculator in 1979 (referred to under "LN1" in the display, only), some calculators, operating systems (for example Berkeley UNIX 4.3BSD), computer algebra systems and programming languages (for example C99) provide a special natural logarithm plus 1 function, alternatively named LNP1, or log1p to give more accurate results for logarithms close to zero by passing arguments "x", also close to zero, to a function log1p("x"), which returns the value ln(1+"x"), instead of passing a value "y" close to 1 to a function returning ln("y"). The function log1p avoids in the floating point arithmetic a near cancelling of the absolute term 1 with the second term from the Taylor expansion of the ln, thereby allowing for a high accuracy for both the argument and the result near zero.
+In addition to base the IEEE 754-2008 standard defines similar logarithmic functions near 1 for binary and decimal logarithms: and .
+Similar inverse functions named "expm1", "expm" or "exp1m" exist as well, all with the meaning of .
+An identity in terms of the inverse hyperbolic tangent,
+gives a high precision value for small values of on systems that do not implement .
+Computational complexity.
+The computational complexity of computing the natural logarithm (using the arithmetic-geometric mean) is O("M"("n") ln "n"). Here "n" is the number of digits of precision at which the natural logarithm is to be evaluated and "M"("n") is the computational complexity of multiplying two "n"-digit numbers.
+Continued fractions.
+While no simple continued fractions are available, several generalized continued fractions are, including:
+These continued fractions—particularly the last—converge rapidly for values close to 1. However, the natural logarithms of much larger numbers can easily be computed, by repeatedly adding those of smaller numbers, with similarly rapid convergence.
+For example, since 2 = 1.253 × 1.024, the natural logarithm of 2 can be computed as:
+Furthermore, since 10 = 1.2510 × 1.0243, even the natural logarithm of 10 can be computed similarly as:
+Complex logarithms.
+The exponential function can be extended to a function which gives a complex number as for any arbitrary complex number ; simply use the infinite series with complex. This exponential function can be inverted to form a complex logarithm that exhibits most of the properties of the ordinary logarithm. There are two difficulties involved: no has ; and it turns out that . Since the multiplicative property still works for the complex exponential function, , for all complex and integers .
+So the logarithm cannot be defined for the whole complex plane, and even then it is multi-valued—any complex logarithm can be changed into an "equivalent" logarithm by adding any integer multiple of at will. The complex logarithm can only be single-valued on the cut plane. For example, or or , etc.; and although can be defined as , or or , and so on.
+

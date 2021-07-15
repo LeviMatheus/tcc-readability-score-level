@@ -1,0 +1,2 @@
+A Monte Carlo algorithm is an algorithm for computers. It is used to simulate the behaviour of other systems. It is not an exact method, but a heuristical one. Usually it uses randomness and statistics to get a result.
+It is a computation process that utilizes random numbers to derive an outcome(s). Instead of having fixed inputs, probability distributions are assigned to some or all of the inputs. This will generate a probability distribution for the output after the simulation is run.

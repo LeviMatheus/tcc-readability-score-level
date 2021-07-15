@@ -1,0 +1,3 @@
+Flamsteed designations assign stars with specific names using numbers.
+How this works.
+The stars are assigned according to their right ascension, which is the position from a certain vertical (but imaginary line) drawn around the celestial sphere.

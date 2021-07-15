@@ -1,0 +1,3 @@
+In physics and mathematics, a pseudovector (or axial vector) is a quantity that transforms like a vector under a proper rotation, but gains an additional sign flip under an improper rotation (a transformation that can be expressed as an inversion followed by a proper rotation).
+Physical examples.
+Physical examples of pseudovectors include the magnetic field, torque, vorticity, and the angular momentum.

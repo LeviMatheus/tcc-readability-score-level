@@ -1,0 +1,29 @@
+
+In statistics, the range of a set of data is the difference between the largest and smallest values. It can give you a rough idea of how the outcome of the data set will be before you look at it actually 
+Difference here is specific, the range of a set of data is the result of subtracting the smallest value from largest value.
+However, in descriptive statistics, this concept of range has a more complex meaning. The range is the size of the smallest interval (statistics) which contains all the data and provides an indication of statistical dispersion. It is measured in the same units as the data. Since it only depends on two of the observations, it is most useful in representing the dispersion of small data sets. Range happens to be the lowest and the hightest numbers subtracted
+For continuous IID random variables.
+For "n" independent and identically distributed continuous random variables "X"1, "X"2, ..., "X""n" with cumulative distribution function G("x") and probability density function g("x"). Let T denote the range of a sample of size "n" from a population with distribution function "G"("x").
+Distribution.
+The range has cumulative distribution function
+Gumbel notes that the "beauty of this formula is completely marred by the facts that, in general, we cannot express "G"("x" + "t") by "G"("x"), and that the numerical integration is lengthy and tiresome."
+If the distribution of each "X""i" is limited to the right (or left) then the asymptotic distribution of the range is equal to the asymptotic distribution of the largest (smallest) value. For more general distributions the asymptotic distribution can be expressed as a Bessel function.
+Moments.
+The mean range is given by
+where "x"("G") is the inverse function. In the case where each of the "X""i" has a standard normal distribution, the mean range is given by
+For continuous non-IID random variables.
+For "n" nonidentically distributed independent continuous random variables "X"1, "X"2, ..., "X""n" with cumulative distribution functions "G"1("x"), "G"2("x"), ..., "G""n"("x") and probability density functions "g"1("x"), "g"2("x"), ..., "g""n"("x"), the range has cumulative distribution function 
+For discrete IID random variables.
+For "n" independent and identically distributed discrete random variables "X"1, "X"2, ..., "X""n" with cumulative distribution function "G"("x") and probability mass function "g"("x") the range of the "X""i" is the range of a sample of size "n" from a population with distribution function "G"("x"). We can assume without loss of generality that the support of each "X""i" is {1,2,3...,"N"} where "N" is a positive integer or infinity.
+Distribution.
+The range has probability mass function
+Example.
+If we suppose that "g"("x") = 1/"N", the discrete uniform distribution for all "x", then we find
+Derivation.
+The probability of having a specific range value, "t", can be determined by adding the probabilities of having two samples differing by "t", and every other sample having a value between the two extremes.
+The probability of one sample having a value of "x" is formula_7. The probability of another having a value "t" greater than "x" is:
+The probability of all other values lying between these two extremes is:
+Combining the three together yields:
+Related quantities.
+The range is a simple function of the sample maximum and minimum and these are specific examples of order statistics. In particular, the range is a linear function of order statistics, which brings it into the scope of L-estimation.
+

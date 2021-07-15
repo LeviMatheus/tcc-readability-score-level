@@ -1,0 +1,29 @@
+
+A pitot ( ) tube, also known as pitot probe, is a flow measurement device used to measure fluid flow velocity. The pitot tube was invented by the French engineer Henri Pitot in the early 18th century and was modified to its modern form in the mid-19th century by French scientist Henry Darcy. It is widely used to determine the airspeed of an aircraft, water speed of a boat, and to measure liquid, air and gas flow velocities in certain industrial applications.
+Theory of operation.
+The basic pitot tube consists of a tube pointing directly into the fluid flow. As this tube contains fluid, a pressure can be measured; the moving fluid is brought to rest (stagnates) as there is no outlet to allow flow to continue. This pressure is the stagnation pressure of the fluid, also known as the total pressure or (particularly in aviation) the pitot pressure.
+The measured stagnation pressure cannot itself be used to determine the fluid flow velocity (airspeed in aviation). However, Bernoulli's equation states:
+Which can also be written
+Solving that for flow velocity gives
+where
+NOTE: The above equation applies only to fluids that can be treated as incompressible. Liquids are treated as incompressible under almost all conditions. Gases under certain conditions can be approximated as incompressible. See Compressibility.
+The dynamic pressure, then, is the difference between the stagnation pressure and the static pressure. The dynamic pressure is then determined using a diaphragm inside an enclosed container. If the air on one side of the diaphragm is at the static pressure, and the other at the stagnation pressure, then the deflection of the diaphragm is proportional to the dynamic pressure.
+In aircraft, the static pressure is generally measured using the static ports on the side of the fuselage. The dynamic pressure measured can be used to determine the indicated airspeed of the aircraft. The diaphragm arrangement described above is typically contained within the airspeed indicator, which converts the dynamic pressure to an airspeed reading by means of mechanical levers.
+Instead of separate pitot and static ports, a pitot-static tube (also called a Prandtl tube) may be employed, which has a second tube coaxial with the pitot tube with holes on the sides, outside the direct airflow, to measure the static pressure.
+If a liquid column manometer is used to measure the pressure difference formula_7, 
+where
+Therefore,
+Aircraft and accidents.
+A pitot-static system is a system of pressure-sensitive instruments that is most often used in aviation to determine an aircraft's airspeed, Mach number, altitude, and altitude trend. A pitot-static system generally consists of a pitot tube, a static port, and the pitot-static instruments. Errors in pitot-static system readings can be extremely dangerous as the information obtained from the pitot static system, such as airspeed, is potentially safety-critical.
+Several commercial airline incidents and accidents have been traced to a failure of the pitot-static system. Examples include Austral Líneas Aéreas Flight 2553, Northwest Airlines Flight 6231, Birgenair Flight 301 and one of the two X-31s. The French air safety authority BEA said that pitot tube icing was a contributing factor in the crash of Air France Flight 447 into the Atlantic Ocean. In 2008 Air Caraïbes reported two incidents of pitot tube icing malfunctions on its A330s.
+Birgenair Flight 301 had a fatal pitot tube failure which investigators suspected was due to insects creating a nest inside the pitot tube; the prime suspect is the black and yellow mud dauber wasp.
+Aeroperú Flight 603 had a fatal pitot-static system failure due to the cleaning crew leaving the static port blocked with tape.
+Industry applications.
+In industry, the flow velocities being measured are often those flowing in ducts and tubing where measurements by an anemometer would be difficult to obtain. In these kinds of measurements, the most practical instrument to use is the pitot tube. The pitot tube can be inserted through a small hole in the duct with the pitot connected to a U-tube water gauge or some other differential pressure gauge for determining the flow velocity inside the ducted wind tunnel. One use of this technique is to determine the volume of air that is being delivered to a conditioned space.
+The fluid flow rate in a duct can then be estimated from:
+In aviation, airspeed is typically measured in knots.
+In weather stations with high wind speeds, the pitot tube is modified to create a special type of anemometer called pitot tube static anemometer.
+References.
+Notes
+Bibliography
+

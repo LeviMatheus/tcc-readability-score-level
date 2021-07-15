@@ -1,0 +1,18 @@
+
+The OpenGL Utility Toolkit (GLUT) is a library of utilities for OpenGL programs, which primarily perform system-level I/O with the host operating system. Functions performed include window definition, window control, and monitoring of keyboard and mouse input. Routines for drawing a number of geometric primitives (both in solid and wireframe mode) are also provided, including cubes, spheres, and the Utah teapot. GLUT also has some limited support for creating pop-up menus.
+GLUT was written by Mark J. Kilgard, author of "OpenGL Programming for the X Window System" and "The Cg Tutorial: The Definitive Guide to Programmable Real-Time Graphics", while he was working for Silicon Graphics Inc.
+The two aims of GLUT are to allow the creation of rather portable code between operating systems (GLUT is cross-platform) and to make learning OpenGL easier. Getting started with OpenGL programming while using GLUT often takes only a few lines of code and does not require knowledge of operating system–specific windowing APIs.
+All GLUT functions start with the codice_1 prefix (for example, codice_2 marks the current window as needing to be redrawn).
+Implementations.
+The original GLUT library by Mark Kilgard supports the X Window System (GLX) and was ported to Microsoft Windows (WGL) by Nate Robins. Additionally, macOS ships with a GLUT framework that supports its own NSGL/CGL.
+Kilgard's GLUT library is no longer maintained, and its license did not permit the redistribution of modified versions of the library. This spurred the need for free software or open source reimplementations of the API from scratch. The first such library was FreeGLUT, which aims to be a reasonably close reproduction, though introducing a small number of new functions to deal with GLUT's limitations. OpenGLUT, a fork of FreeGLUT, adds a number of new features to the original API, but work on it ceased in May 2005.
+Mark Kilgard has a GitHub repository for GLUT. The glut.h header file contains the following license:
+ /* Copyright (c) Mark J. Kilgard, 1994, 1995, 1996, 1998, 2000, 2006, 2010. */
+ /* This program is freely distributable without licensing fees and is
+ provided without guarantee or warrantee expressed or implied. This
+ program is -not- in the public domain. */
+Limitations.
+Some of GLUT's original design decisions made it hard for programmers to perform desired tasks. This led many to create non-canon patches and extensions to GLUT. Some free software or open source reimplementations also include fixes.
+Some of the more notable limitations of the original GLUT library include:
+Since it is no longer maintained (essentially replaced by the open source FreeGLUT) the above design issues are still not resolved in the original GLUT.
+

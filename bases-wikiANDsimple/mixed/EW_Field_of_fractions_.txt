@@ -1,0 +1,30 @@
+
+In abstract algebra, the field of fractions of an integral domain is the smallest field in which it can be embedded.
+The elements of the field of fractions of the integral domain formula_1 are equivalence classes (see the construction below) written as
+with
+The field of fractions of formula_1 is sometimes denoted by formula_8 or formula_9.
+Mathematicians refer to this construction as the field of fractions, fraction field, field of quotients, or quotient field. All four are in common usage. The expression "quotient field" may sometimes run the risk of confusion with the quotient of a ring by an ideal, which is a quite different concept.
+Construction.
+Let formula_1 be any integral domain.
+For formula_17 with formula_18, the fraction
+denotes the equivalence class of pairs
+where formula_20 is equivalent to formula_22 if and only if formula_23.
+The field of fractions formula_8 is defined as the set of all such fractions formula_19.
+The sum of formula_19 and formula_29 is defined as
+and the product of formula_19 and formula_29 is defined as
+(one checks that these are well defined).
+The embedding of formula_1 in formula_8 maps each formula_36 in formula_1 to the fraction formula_38 for any nonzero formula_39 (the equivalence class is independent of the choice formula_40). This is modeled on the identity formula_41.
+The field of fractions of formula_1 is characterized by the following universal property:
+There is a categorical interpretation of this construction. Let formula_48 be the category of integral domains and injective ring maps. The functor from formula_48 to the category of fields which takes every integral domain to its fraction field and every homomorphism to the induced map on fields (which exists by the universal property) is the left adjoint of the inclusion functor from the category of fields to formula_48. Thus the category of fields (which is a full subcategory) is a reflective subcategory of formula_48.
+A multiplicative identity is not required for the role of the integral domain; this construction can be applied to any nonzero commutative rng formula_1 with no nonzero zero divisors. The embedding is given by formula_53 for any nonzero formula_54.
+Generalizations.
+Localization.
+For any commutative ring formula_1 and any multiplicative set formula_56 in formula_1, the localization formula_58 is the commutative ring consisting of fractions
+with formula_60 and formula_61, where now formula_62 is equivalent to formula_63 if and only if there exists formula_64 such that formula_65.
+Two special cases of this are notable:
+Note that it is permitted for formula_56 to contain 0, but in that case formula_58 will be the trivial ring.
+Semifield of fractions.
+The semifield of fractions of a commutative semiring with no zero divisors is the smallest semifield in which it can be embedded.
+The elements of the semifield of fractions of the commutative semiring formula_1 are equivalence classes written as
+with formula_3 and formula_4 in formula_1.
+

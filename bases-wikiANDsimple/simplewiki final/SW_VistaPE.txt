@@ -1,0 +1,2 @@
+VistaPE is a is a project (set of scripts) for WinBuilder to create a Live CD based on the kernel of Windows Vista.
+VistaPE uses technology and is similar to WinPE 2.0 (from Microsoft), but has a graphical interface, more support for devices and functions, and can run almost any Windows program.

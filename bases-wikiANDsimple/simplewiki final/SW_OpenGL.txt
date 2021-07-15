@@ -1,0 +1,2 @@
+"OpenGL" is a graphics API and it helps a computer's 3D graphics perform better and faster on a video card rather than the CPU alone.
+OpenGL is often compared to Direct3D which does the same thing OpenGL does but it only operates on Windows and it requires installation of newer versions. Programming for Direct3D is different in some ways as well.

@@ -1,0 +1,72 @@
+
+In mathematics, a square-free integer (or squarefree integer) is an integer which is divisible by no perfect square other than 1. That is, its prime factorization has exactly one factor for each prime that appears in it. For example, is square-free, but is not, because 18 is divisible by . The smallest positive square-free numbers are
+Square-free factorization.
+Every positive integer can be factored in a unique way as
+formula_2where the formula_3 different from one are square-free integers that are pairwise coprime.
+This is called the "square-free factorization" of .
+Let
+be the prime factorization of , where the are distinct prime numbers. Then the factors of the square-free factorization are defined as 
+An integer is square-free if and only if formula_6 for all . An integer greater than one is the th power of another integer if and only if is a divisor of all such that formula_7
+The use of the square-free factorization of integers is limited by the fact that its computation is as difficult as the computation of the prime factorization. More precisely every known algorithm for computing a square-free factorization computes also the prime factorization. This is a notable difference with the case of polynomials for which the same definitions can be given, but, in this case, the square-free factorization is not only easier to compute than the complete factorization, but it is the first step of all standard factorization algorithms.
+Square-free factors of integers.
+The radical of an integer is its largest square-free factor, that is formula_8 with notation of the preceding section. An integer is square-free if and only if it is equal to its radical.
+Every positive integer can be represented in a unique way as the product of a powerful number (that is an integer such that is divisible by the square of every prime factor) and a square-free integer, which are coprime. In this factorization, the square-free factor is formula_9 and the powerful number is formula_10
+The "square-free part" of is formula_9 which is the largest square-free divisor of that is coprime with . The square-free part of an integer may be smaller than the largest square-free divisor, which is formula_12
+Any arbitrary positive integer can be represented in a unique way as the product of a square and a square-free integer:
+In this factorization, is the largest divisor of such that is a divisor of .
+In summary, there are three square-free factors that are naturally associated to every integer: the square-free part, the above factor , and the largest square-free factor. Each is a factor of the next one. All are easily deduced from the prime factorization or the square-free factorization: if
+are the prime factorization and the square-free factorization of , where formula_15 are distinct prime numbers, then the square-free part is
+The square-free factor such the quotient is a square is 
+and the largest square-free factor is 
+For example, if formula_19 one has formula_20 The square-free part is , the square-free factor such that the quotient is a square is , and the largest square-free factor is .
+No algorithm is known for computing any of these square-free factors which is faster than computing the complete prime factorization. In particular, there is no known polynomial-time algorithm for computing the square-free part of an integer, or even for determining whether an integer is square-free. In contrast, polynomial-time algorithms are known for primality testing. This is a major difference between the arithmetic of the integers, and the arithmetic of the univariate polynomials, as polynomial-time algorithms are known for square-free factorization of polynomials (in short, the largest square-free factor of a polynomial is its quotient by the greatest common divisor of the polynomial and its formal derivative).
+Equivalent characterizations.
+A positive integer "n" is square-free if and only if in the prime factorization of "n", no prime factor occurs with an exponent larger than one. Another way of stating the same is that for every prime factor "p" of "n", the prime "p" does not evenly divide "n" / "p". Also "n" is square-free if and only if in every factorization "n" = "ab", the factors "a" and "b" are coprime. An immediate result of this definition is that all prime numbers are square-free.
+A positive integer "n" is square-free if and only if all abelian groups of order "n" are isomorphic, which is the case if and only if any such group is cyclic. This follows from the classification of finitely generated abelian groups.
+A integer "n" is square-free if and only if the factor ring Z / "nZ (see modular arithmetic) is a product of fields. This follows from the Chinese remainder theorem and the fact that a ring of the form Z / "kZ is a field if and only if "k" is a prime.
+For every positive integer "n", the set of all positive divisors of "n" becomes a partially ordered set if we use divisibility as the order relation. This partially ordered set is always a distributive lattice. It is a Boolean algebra if and only if "n" is square-free.
+A positive integer "n" is square-free if and only if "μ"("n") ≠ 0, where "μ" denotes the Möbius function.
+Dirichlet series.
+The absolute value of the Möbius function is the indicator function for the square-free integers – that is, is equal to 1 if is square-free, and 0 if it is not. The Dirichlet series of this indicator function is
+where is the Riemann zeta function. This follows from the Euler product
+where the products are taken over the prime numbers.
+Distribution.
+Let "Q"("x") denote the number of square-free integers between 1 and "x" ( shifting index by 1). For large "n", 3/4 of the positive integers less than "n" are not divisible by 4, 8/9 of these numbers are not divisible by 9, and so on. Because these ratios satisfy the multiplicative property (this follows from Chinese remainder theorem), we obtain the approximation:
+This argument can be made rigorous for getting the estimate (using big O notation)
+"Sketch of a proof:" the above characterization gives
+observing that the last summand is zero for formula_26, it results that
+By exploiting the largest known zero-free region of the Riemann zeta function Arnold Walfisz improved the approximation to
+for some positive constant .
+Under the Riemann hypothesis, the error term can be reduced to
+Recently (2015) the error term has been further reduced to
+The asymptotic/natural density of square-free numbers is therefore
+Therefore over 3/5 of the integers are square-free.
+Likewise, if "Q"("x","n") denotes the number of "n"-free integers (e.g. 3-free integers being cube-free integers) between 1 and "x", one can show
+Since a multiple of 4 must have a square factor 4=22, it cannot occur that four consecutive integers are all square-free. On the other hand, there exist infinitely many integers "n" for which 4"n" +1, 4"n" +2, 4"n" +3 are all square-free. Otherwise, observing that 4"n" and at least one of 4"n" +1, 4"n" +2, 4"n" +3 among four could be non-square-free for sufficiently large "n", half of all positive integers minus finitely many must be non-square-free and therefore
+contrary to the above asymptotic estimate for formula_34.
+There exist sequences of consecutive non-square-free integers of arbitrary length. Indeed, if "n" satisfies a simultaneous congruence
+for distinct primes formula_36, then each formula_37 is divisible by "pi "2. On the other hand, the above-mentioned estimate formula_38 implies that, for some constant "c", there always exists a square-free integer between "x" and formula_39 for positive "x". Moreover, an elementary argument allows us to replace formula_39 by formula_41 The ABC conjecture would allow formula_42.
+Table of formula_43 and formula_44.
+The table shows how formula_45 and formula_46 compare at powers of 10.
+formula_47 , also denoted as formula_48.
+formula_49 changes its sign infinitely often as formula_50 tends to infinity.
+The absolute value of formula_49 is astonishingly small compared with formula_50.
+Encoding as binary numbers.
+If we represent a square-free number as the infinite product
+then we may take those formula_54 and use them as bits in a binary number with the encoding
+The square-free number 42 has factorization 2 × 3 × 7, or as an infinite product 21 · 31  · 50 · 71 · 110 · 130 ··· Thus the number 42 may be encoded as the binary sequence ...001011 or 11 decimal. (The binary digits are reversed from the ordering in the infinite product.)
+Since the prime factorization of every number is unique, so also is every binary encoding of the square-free integers.
+The converse is also true. Since every positive integer has a unique binary representation it is possible to reverse this encoding so that they may be decoded into a unique square-free integer.
+Again, for example, if we begin with the number 42, this time as simply a positive integer, we have its binary representation 101010. This decodes to 20 · 31 · 50 · 71 · 110 · 131 = 3 × 7 × 13 = 273.
+Thus binary encoding of squarefree numbers describes a bijection between the nonnegative integers and the set of positive squarefree integers.
+Erdős squarefree conjecture.
+The central binomial coefficient
+is never squarefree for "n" &gt; 4. This was proven in 1985 for all sufficiently large integers by András Sárközy, and for all integers &gt; 4 in 1996 by Olivier Ramaré and Andrew Granville.
+Squarefree core.
+The multiplicative function formula_57 is defined
+to map positive integers "n" to "t"-free numbers by reducing the
+exponents in the prime power representation modulo "t":
+The value set of formula_59, in particular, are the
+square-free integers. Their Dirichlet generating functions are
+OEIS representatives are ("t"=2), ("t"=3) and ("t"=4).
+

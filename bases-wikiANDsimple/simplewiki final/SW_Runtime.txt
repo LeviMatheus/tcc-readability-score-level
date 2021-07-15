@@ -1,0 +1,6 @@
+In computer science, runtime or run time describes the operation of a computer program, the duration of its execution, from beginning to termination.
+The term runtime can also refer to a virtual machine to manage a program written in a computer language while it is running.
+Run time is sometimes used to mean runtime library, a library of basic code that is used by a particular compiler but when used in this fashion, runtime library is more accurate.
+A runtime environment is a virtual machine state which provides software services for processes or programs while a computer is running.
+Runtime activities include loading and linking of the classes needed to execute a program, optional machine code generation and dynamic optimization of the program, and actual program execution.
+For example, a program written in Java calls for services from the Java Runtime Environment by issuing commands from which the expected result is returned by the Java Runtime. By providing these services, the Java Runtime Environment is considered the runtime environment of the program. Both the program and the Java Runtime Environment request services from the operating system. The operating system kernel provides services for itself and all processes and software running under its control. The Operating System may be considered as providing a runtime environment for itself.

@@ -1,0 +1,12 @@
+
+Joyce Kathleen Reynolds (March 8, 1952 – December 28, 2015) was an American computer scientist who played a significant role in developing protocols underlying the Internet. She authored or co-authored many RFCs, most notably those introducing and specifying the Telnet, FTP, and POP protocols.
+Career.
+Reynolds held bachelor's and master's degrees in social sciences from the University of Southern California.
+From 1983 until 1998, she worked with Jon Postel to develop early functions of the Internet Assigned Numbers Authority, such as the global allocation of IP addresses, Autonomous System (AS) number allocation, and management of the root zone of the Domain Name System (DNS). After Postel's death in 1998, Reynolds helped supervise the transition of the IANA functions to the Internet Corporation for Assigned Names and Numbers. She worked with ICANN in this role until 2001, while remaining an employee of ISI.
+From 1987 to 2006, she served on the editorial team of the Request for Comments series, co-leading the RFC Editor function at the ISI from 1998 until 2006.
+As Area Director of the User Services area, she was a member of the Internet Engineering Steering Group of the IETF from 1990 to March 1998.
+Recognition.
+With Bob Braden, she received the 2006 Postel Award in recognition of her services to the Internet. She is mentioned, along with a brief biography, in RFC 1336, "Who's Who in the Internet" (1992). Upon her death, former IETF Chairman Brian Carpenter suggested that "What would Joyce have said?" should be a guiding question for the organization.
+Death.
+She died on December 28, 2015, due to complications from cancer.
+

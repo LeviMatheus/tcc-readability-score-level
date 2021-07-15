@@ -1,0 +1,1 @@
+A Primality test is a method (or algorithm) to find out if a certain number is a prime number. Cryptography uses prime numbers, and needs to test if a certain number is prime.

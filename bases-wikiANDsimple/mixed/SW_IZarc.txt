@@ -1,0 +1,11 @@
+IZArc is a file archiver for Microsoft Windows developed by Bulgarian programmer Ivan Zahariev. The program is freeware, but not open source. IZarc can open the most commonly used archive formats, like zip, rar, gzip, tar.gz, bzip2, and 7z, and others many less common formats (48 in total). IZarc has an integration in Windows Explorer and has an Virus Scan feature. IZarc can also do CD image conversions.
+Formats.
+IZArc (as of version 3.81) can support and open the following file formats: 7-Zip, A, ACE, ARC, ARJ, B64, BH,
+BIN, BZ2, BZA, C2D, CAB, CDI, CPIO, DEB, ENC, GCA, GZ, GZA, HA, IMG, ISO, IZE, JAR, LHA, LIB, LZH, MBF, MDF,
+MIM, NRG, PAK, PDI, PK3, RAR, RPM, TAR, TAZ, TBZ, TGZ, TZ, UUE, WAR, XXE, YZ1, Z, ZIP, ZOO.
+Problems.
+Many IZArc users had problem with "7-Zip" format in the encryption and parameter modification. IZArc does not support ISO editing and doesn't support Unicode.
+Portable version.
+IZArc is also available as a portable application called IZArc2Go. It includes all features and functions of the permanently installed version, except explorer "shell-menu" and the ability to associate file types with it.
+Awards.
+It has been awarded by several well-known download sites, such as FileTransit, SnapFiles, SoftNews, Softpedia, WebAttack, because is a software user friendly and can open many formats.

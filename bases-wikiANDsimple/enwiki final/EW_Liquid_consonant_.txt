@@ -1,0 +1,23 @@
+
+In phonetics, liquids are a class of consonants consisting of voiced lateral approximants like together with rhotics like .
+Etymology.
+The grammarian Dionysius Thrax used the Greek word ὑγρός ("hygrós", "moist") to describe the sonorant consonants () of classical Greek. Most commentators assume that this referred to their "slippery" effect on meter in classical Greek verse when they occur as the second member of a consonant cluster. This word was calqued into Latin as , whence it has been retained in the Western European phonetic tradition.
+Phonological properties.
+Liquids as a class often behave in a similar way in the phonotactics of a language: for example, they often have the greatest freedom in occurring in consonant clusters.
+Metathesis.
+Liquids are the consonants most prone to metathesis: 
+Dissimilation.
+Liquids are also prone to dissimilation when they occur in sequence.
+Sequence l..l &gt; r..l.
+This example of a relatively old case of phonetic dissimilation has been artificially undone in the spelling of English "colonel", whose standard pronunciation is (with the r sound) in North-American English, or in RP. It was formerly spelt "coronel" and is a borrowing from Middle French "coronnel", which arose as a result of dissimilation from Italian "colonnello".
+Nucleus slot.
+Liquids are also the consonants most prone to occupying the nucleus slot in a syllable (the slot usually assigned to vowels). Thus Czech and other Slavic languages allow their liquid consonants and to be the center of their syllables – as witnessed by the classic tonguetwister "push (your) finger through (your) throat".
+Areal distribution.
+Languages differ in the number and nature of their liquid consonants.
+Many languages, such as Japanese, Korean, or Polynesian languages (see below), have a single liquid phoneme that has both lateral and rhotic allophones.
+English has two liquid phonemes, one lateral, and one rhotic, , exemplified in the words led" and red".
+Many other European languages have one lateral and one rhotic phoneme. Some, such as Greek, Italian and Serbo-Croatian, have more than two liquid phonemes. All three languages have the set , with two laterals and one rhotic. Similarly, the Iberian languages contrast four liquid phonemes. , , , and a fourth phoneme that is an alveolar trill in all but some varieties of Portuguese, where it is a uvular trill or fricative (also, the majority of Spanish speakers lack and use the central instead). Some European languages, for example Russian and Irish, contrast a palatalized lateral–rhotic pair with an unpalatalized (or velarized) set (e.g. in Russian).
+Elsewhere in the world, two liquids of the types mentioned above remains the most common attribute of a language's consonant inventory except in North America and Australia. In North America, a majority of languages do not have rhotics at all and there is a wide variety of lateral sounds though most are obstruent laterals rather than liquids. Most indigenous Australian languages are very rich in liquids, with some having as many as seven distinct liquids. They typically include dental, alveolar, retroflex and palatal laterals, and as many as three rhotics.
+On the other side, there are many indigenous languages in the Amazon Basin and eastern North America, as well as a few in Asia and Africa, with no liquids.
+Polynesian languages typically have only one liquid, which may be either a lateral or a rhotic. Non-Polynesian Oceanic languages usually have both and , occasionally more (e.g. Araki has , , ) or less (e.g. Mwotlap has only ). Hiw is unusual in having a prestopped velar lateral as its only liquid.
+

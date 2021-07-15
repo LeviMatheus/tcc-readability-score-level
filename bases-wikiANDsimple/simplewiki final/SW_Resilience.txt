@@ -1,0 +1,18 @@
+Resilience generally means the ability to recover from some shock or disturbance.
+Psychology.
+Resilience is a term used in psychology to describe the capacity of people to cope with stress and catastrophe. It is also used to indicate a characteristic of resistance to future negative events. This psychological meaning of resilience is often contrasted with "risk factors".
+Materials.
+In physics and engineering, resilience is defined as the capacity of a material to absorb energy when it is deformed elastically and then, upon unloading to have this energy recovered. In other words, it is the maximum energy per volume that can be elastically stored. It is represented by the area under the curve in the elastic region in the Stress-Strain diagram.
+Modulus of Resilience, formula_1, can be calculated using the following formula: formula_2, where formula_3 is yield stress, E is Young's modulus, and formula_4 is strain.
+An example of a biomaterial which has a high resilience is articular cartilage, the substance lining the ends of bones in articulating joints such as the knee and hip.
+Ecology.
+In ecology, resilience has been defined in two competing fashions that emphasize two different aspects of stability.
+One definition is the rate at which a system returns to a single steady or cyclic state following a perturbation. This definition of resilience assumes that behavior of a system remains within the stable domain that contains this steady state.
+When a system can reorganize, that is shift from one stability domain to another, a more relevant measure of ecosystem dynamics is ecological resilience. It is a measure of the amount of change or disruption that is required to transform a system from being maintained by one set of mutually reinforcing processes and structures to a different set of processes and structures.
+The second definition emphasizes conditions far from any steady-states, where instabilities can flip a system into another regime of behavior - i.e. to another stability domain. In this case resilience is measured by the magnitude of disturbance that can be absorbed before the system changes its structure by changing the variables and processes that control behavior. This type of resilience has been defined as ecological resilience.
+Economic and business.
+Economic resilence is the ability of a local economy to retain function, employment and prosperity in the face of the perturbation caused by the shock of the loss of a particular type of local industry or employer.
+Industrial and organisational safety.
+Within the broad domain of industrial safety, the term resilience has come into use to emphasise that safety must be proactive as well as reactive. Whereas conventional risk management approaches emphasise calculation of failure probabilities, resilience engineering looks for ways to strengthen the ability of organisations to create processes that are robust yet flexible.
+Network.
+Resilience is the ability of the network to provide and maintain an acceptable level of service in the face of various faults and challenges to normal operation.

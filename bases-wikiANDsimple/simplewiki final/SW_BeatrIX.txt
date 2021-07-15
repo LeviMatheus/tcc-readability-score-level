@@ -1,0 +1,4 @@
+BeatrIX is a GNU/Linux,live CD based Linux distribution started by Steven Watsky, it was designed to look very simple, in order to be as easy to use as possible to new users. A new BeatrIX desktop has just four icons (e-mail, instant messaging, word processing and web browser). Hence, anyone who has some computer experience will be able to use BeatrIX.
+BeatrIX is a small operating system, taking up only 200MB. The liveCD fits into 80 mm discs that can store up to 184 MB of data.
+BeatrIX uses Linux 2.6.7 and GNOME 2.8 as its GUI desktop. It comes equipped with productivity tools such as OpenOffice.org 1.1.2, Mozilla Firefox (version 1.0) web browser, Gaim (version 1.0), etc.
+BeatrIX has been discontinued since 2005. Another distro called BeaFanatIX is using the code of BeatrIX and continuing development.

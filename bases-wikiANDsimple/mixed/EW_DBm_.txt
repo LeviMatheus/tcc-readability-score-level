@@ -1,0 +1,18 @@
+
+dBm or dBmW (decibel-milliwatts) is a unit of level used to indicate that a power level is expressed in decibels (dB) with reference to one milliwatt (mW). It is used in radio, microwave and fiber-optical communication networks as a convenient measure of absolute power because of its capability to express both very large and very small values in a short form compared to dBW, which is referenced to one watt (1000 mW).
+Since it is referenced to the watt, it is an absolute unit, used when measuring absolute power. By comparison, the decibel (dB) is a dimensionless unit, used for quantifying the ratio between two values, such as signal-to-noise ratio.
+The dBm is also dimensionless, but since it compares to a fixed reference value, the dBm rating is an absolute one. 
+The dBm is not a part of the International System of Units and therefore is discouraged from use in documents or systems that adhere to SI units (the corresponding SI unit is the watt). However, the unit decibel (dB), without the 'm' suffix, is accepted for use alongside SI units.
+In audio and telephony, dBm is typically referenced relative to a 600-ohm impedance, while in radio-frequency work dBm is typically referenced relative to a 50-ohm impedance.
+Unit conversions.
+A power level of 0 dBm corresponds to a power of 1 milliwatt. A 10 dB increase in level is equivalent to a 10-fold increase in power. Therefore, a 20 dB increase in level is equivalent to a 100-fold increase in power. A 3 dB increase in level is approximately equivalent to doubling the power, which means that a level of 3 dBm corresponds roughly to a power of 2 mW. Similarly, for each 3 dB decrease in level, the power is reduced by about one half, making −3 dBm correspond to a power of about 0.5 mW.
+To express an arbitrary power "P" in mW as "x" in dBm, or vice versa, the following equivalent expressions may be used:
+Alternatively, using 1 W as the reference value instead of 1 mW
+Below is a table summarizing useful cases:
+The signal intensity (power per unit area) can be converted to received signal power by multiplying by the square of the wavelength and dividing by 4π (see Free-space path loss).
+In United States Department of Defense practice, unweighted measurement is normally understood, applicable to a certain bandwidth, which must be stated or implied.
+In European practice, psophometric weighting may be, as indicated by context, equivalent to dBm0p, which is preferred.
+In audio, 0 dBm often corresponds to approximately 0.775 volts, since 0.775 V dissipates 1 mW in a 600 Ω load. The corresponding voltage level is 0 dBu, without the 600 Ω restriction. Conversely, for RF situations with a 50 Ω load, 0 dBm corresponds to approximately 0.224 volts, since 0.224 V dissipates 1 mW in a 50 Ω load.
+Expression in dBm is typically used for optical and electrical power measurements, not for other types of power (such as thermal). A listing by power levels in watts is available that includes a variety of examples not necessarily related to electrical or optical power.
+The dBm was first proposed as an industry standard in the paper "A New Standard Volume Indicator and Reference Level".
+

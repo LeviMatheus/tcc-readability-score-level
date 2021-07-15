@@ -1,0 +1,14 @@
+Coulomb's law is a function developed in the 1780s by physicist Charles Augustin de Coulomb. It explains how strong the force will be between two electrostatic charges. Electrostatic means electric charges without any motion.
+Direction.
+Let's think two electric charges exist in an empty space. If two charges are opposite, (+) and (-) charges for example, they will attract each other. And if two charges are both the same, both (+) or both (-) for example, they will push each other. This is similar to how magnetics act, as N and S attract each other, and as N and N, S and S push each other.
+This is because electric charges make an electric field, such as magnetics make a magnetic field. When both electric charges make their own field, as two field will exist in one space at the same time, and they will make force to each other. The force they make to each other is called Coulomb's force or Electrostatic force. Coulomb's law explains how big the force will be.
+Scale.
+Coulomb's law explains the scale between two electric charges.
+The scale of electrostatic force follows the function below.
+Coulomb's law explains that the force scale F is relative to ratio of formula_2,formula_3.
+formula_4 and formula_5 are scale of each electric charges. formula_6 is distance between two electric charges. And formula_7 has a certain value. It does not change relative to formula_4, formula_5 or formula_6.While formula_11 remains constant, when multiples of formula_4 and formula_5 become bigger, the electrostatic force will also get bigger. When the distance formula_6 become bigger, the electrostatic force will become smaller to ratio of formula_3.
+The exact size of formula_7 is
+formula_17
+formula_18N m2 C−2 (or m F−1). This constant is called as Coulomb's Force Constant or Electrostatic Force Constant.
+Inverse-square law.
+The relation between the force F and the distance formula_6 follows the Inverse-square Law. Inverse-square law means means that when the distance formula_6 grow bigger, electrostatic force will become smaller to ratio of formula_3. Gravitation, Electromagnetic radiation, Sound Intensity also follows this law.

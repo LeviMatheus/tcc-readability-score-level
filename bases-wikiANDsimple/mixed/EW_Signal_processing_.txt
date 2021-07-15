@@ -1,0 +1,26 @@
+
+Signal processing is an electrical engineering subfield that focuses on analysing, modifying, and synthesizing signals such as sound, images, and scientific measurements. Signal processing techniques can be used to improve transmission, storage efficiency and subjective quality and to also emphasize or detect components of interest in a measured signal.
+History.
+According to Alan V. Oppenheim and Ronald W. Schafer, the principles of signal processing can be found in the classical numerical analysis techniques of the 17th century. They further state that the digital refinement of these techniques can be found in the digital control systems of the 1940s and 1950s.
+In 1948, Claude Shannon wrote the influential paper "A Mathematical Theory of Communication" which was published in the Bell System Technical Journal. The paper laid the groundwork for later development of information communication systems and the processing of signals for transmission.
+Signal processing matured and flourished in the 1960s and 1970s, and digital signal processing became widely used with specialized digital signal processor chips in the 1980s.
+Categories.
+Analog.
+Analog signal processing is for signals that have not been digitized, as in most 20th-century radio, telephone, radar, and television systems. This involves linear electronic circuits as well as nonlinear ones. The former are, for instance, passive filters, active filters, additive mixers, integrators, and delay lines. Nonlinear circuits include compandors, multipliers (frequency mixers, voltage-controlled amplifiers), voltage-controlled filters, voltage-controlled oscillators, and phase-locked loops.
+Continuous time.
+Continuous-time signal processing is for signals that vary with the change of continuous domain (without considering some individual interrupted points).
+The methods of signal processing include time domain, frequency domain, and complex frequency domain. This technology mainly discusses the modeling of linear time-invariant continuous system, integral of the system's zero-state response, setting up system function and the continuous time filtering of deterministic signals
+Discrete time.
+Discrete-time signal processing is for sampled signals, defined only at discrete points in time, and as such are quantized in time, but not in magnitude.
+"Analog discrete-time signal processing" is a technology based on electronic devices such as sample and hold circuits, analog time-division multiplexers, analog delay lines and analog feedback shift registers. This technology was a predecessor of digital signal processing (see below), and is still used in advanced processing of gigahertz signals.
+The concept of discrete-time signal processing also refers to a theoretical discipline that establishes a mathematical basis for digital signal processing, without taking quantization error into consideration.
+Digital.
+Digital signal processing is the processing of digitized discrete-time sampled signals. Processing is done by general-purpose computers or by digital circuits such as ASICs, field-programmable gate arrays or specialized digital signal processors (DSP chips). Typical arithmetical operations include fixed-point and floating-point, real-valued and complex-valued, multiplication and addition. Other typical operations supported by the hardware are circular buffers and lookup tables. Examples of algorithms are the fast Fourier transform (FFT), finite impulse response (FIR) filter, Infinite impulse response (IIR) filter, and adaptive filters such as the Wiener and Kalman filters.
+Nonlinear.
+Nonlinear signal processing involves the analysis and processing of signals produced from nonlinear systems and can be in the time, frequency, or spatio-temporal domains. Nonlinear systems can produce highly complex behaviors including bifurcations, chaos, harmonics, and subharmonics which cannot be produced or analyzed using linear methods. 
+Polynomial signal processing is a type of non-linear signal processing, where polynomial systems may be interpreted as conceptually straight forward extensions of linear systems to the non-linear case.
+Statistical.
+Statistical signal processing is an approach which treats signals as stochastic processes, utilizing their statistical properties to perform signal processing tasks. Statistical techniques are widely used in signal processing applications. For example, one can model the probability distribution of noise incurred when photographing an image, and construct techniques based on this model to reduce the noise in the resulting image.
+Application fields.
+In communication systems, signal processing may occur at:
+

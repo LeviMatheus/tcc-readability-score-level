@@ -1,0 +1,14 @@
+Prussian blue, also known as Berlin blue, is a dark blue colour which is artificially made.
+It is one of the first pigments made synthetically. It was discovered by accident in 1704 by two chemists in Berlin.
+The dark blue uniforms of the Prussian army were dyed this colour.
+Colour.
+A colour can be represented by hex triplet is a six-digit, three-byte hexadecimal number used in HTML, CSS, and other computing applications. The hex triplet to represent Prussian blue is 003153.
+When using the RGB color model where red, green, and blue light are added together, Prussian blue has the RGB code of 0, 49, 83
+Use as a medicine.
+Prussian blue is a medicine which is sometimes prescribed by doctors to help remove certain radioactive materials from people’s bodies. It has been used this way since the 1960s.
+Potential use in computer storage.
+Prussian blue is a chemical compound. One of the chemical elements in this compound is iron.
+Researchers have experimented replacing some of the iron atoms in Prussian blue with cobalt. When the Prussian blue compound is lit with a red light at -150 C, the compound shifts from being non-magnetic (off) to magnetic (on). The magnetic shift does not change back except if deliberately reversed (or undone) with heat.
+This magnetism is due to the transfer of an electron from the cobalt to the iron, with light providing the energy, while the electron moves back when heat is applied, the researchers said.
+This magnetic property means the compound can be used in computer storage. Because the compound can be turned "on" and "off" in a controlled way, it can remember binary information. Binary information is used for computer storage.
+This way of using the compound is till being developed.

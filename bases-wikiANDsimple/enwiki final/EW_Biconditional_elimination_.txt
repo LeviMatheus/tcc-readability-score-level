@@ -1,0 +1,11 @@
+
+Biconditional elimination is the name of two valid rules of inference of propositional logic. It allows for one to infer a conditional from a biconditional. If formula_1 is true, then one may infer that formula_2 is true, and also that formula_3 is true. For example, if it's true that I'm breathing if and only if I'm alive, then it's true that if I'm breathing, I'm alive; likewise, it's true that if I'm alive, I'm breathing. The rules can be stated formally as:
+and
+where the rule is that wherever an instance of "formula_1" appears on a line of a proof, either "formula_2" or "formula_3" can be placed on a subsequent line;
+Formal notation.
+The "biconditional elimination" rule may be written in sequent notation:
+and
+where formula_11 is a metalogical symbol meaning that formula_2, in the first case, and formula_3 in the other are syntactic consequences of formula_1 in some logical system;
+or as the statement of a truth-functional tautology or theorem of propositional logic:
+where formula_17, and formula_18 are propositions expressed in some formal system.
+

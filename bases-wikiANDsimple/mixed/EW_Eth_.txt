@@ -1,0 +1,32 @@
+
+Eth (, uppercase: Ð, lowercase: ð; also spelled edh or eð) known as ðæt in Old English, is a letter used in Old English, Middle English, Icelandic, Faroese (in which it is called "edd"), and Elfdalian. 
+It was also used in Scandinavia during the Middle Ages, but was subsequently replaced with "dh", and later "d". 
+It is often transliterated as "d". 
+The lowercase version has been adopted to represent a voiced dental fricative in the International Phonetic Alphabet.
+Old English.
+In Old English, "ð" (called "") was used interchangeably with "þ" to represent the Old English dental fricative phoneme or its allophone , which exist in modern English phonology as the voiced and voiceless dental fricatives both now spelled "th".
+Unlike the runic letter þ, ð is a modified Roman letter. Neither ð nor þ were found in the earliest records of Old English. A study of Mercian royal diplomas found that ð (along with đ) began to emerge in the early 8th century, with ð becoming strongly preferred by the 780s. Another source indicates that the letter is "derived from Irish writing". 
+Under King Ælfred the Great, þ grew greatly in popularity and started to overtake ð. Þ completely overtook ð by Middle English, and þ died out by Early Modern English, mostly due to the rise of the printing press, and was replaced by the digraph "th". 
+Lower case version.
+The lowercase (minuscule) version has retained the curved shape of a medieval scribe's "d", which "d" itself in general has not.
+Icelandic.
+In Icelandic, "ð", called "eð", represents a voiced dental fricative , which is the same as the "th" in English "that", but it never appears as the first letter of a word. At the end of words as well as within words when it's followed by a voiceless consonant, "ð" is devoiced to , such . The "ð" in the name of the letter is devoiced in the Nominative and Accusative cases . In the Icelandic alphabet, "ð" follows "d".
+Faroese.
+In Faroese, "ð" is not assigned to any particular phoneme and appears mostly for etymological reasons, but it indicates most glides. When "ð" appears before "r", it is in a few words pronounced . In the Faroese alphabet, "ð" follows "d".
+In Olav Jakobsen Høyem's version of based on , "ð" was always silent, and was introduced for etymological reasons.
+Welsh.
+"Ð" has also been used by some in written Welsh to represent , which is normally represented as "dd".
+Khmer.
+"Ð" used in Khmer romanization, e.g. "preðh riðciðnaacak kampucið" (Kingdom of Cambodia).
+Phonetic transcription.
+ is used in phonetic transcription.
+ is used in the Uralic Phonetic Alphabet.
+Computer input.
+The Faroese and Icelandic keyboard layouts have a dedicated button for eth.
+On Microsoft Windows, eth can be typed using the alt code +() for lowercase or +() for uppercase, or by typing using the US International keyboard layout.
+On macOS, eth can be typed by activating the ABC Extended keyboard layout and typing .
+Using the compose key ("multi key") which is popular on Linux, eth can be typed by typing for lowercase or for capital letters.
+On Chrome OS with 'extended keyboard' Chrome extension, will result in ð being displayed; will result in Ð.
+Modern uses.
+This operator gives rise to spin-weighted spherical harmonics.
+

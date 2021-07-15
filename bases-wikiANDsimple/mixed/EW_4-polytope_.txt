@@ -1,0 +1,31 @@
+
+In geometry, a 4-polytope (sometimes also called a polychoron, polycell, or polyhedroid) is a four-dimensional polytope. It is a connected and closed figure, composed of lower-dimensional polytopal elements: vertices, edges, faces (polygons), and cells (polyhedra). Each face is shared by exactly two cells.
+The two-dimensional analogue of a 4-polytope is a polygon, and the three-dimensional analogue is a polyhedron.
+Topologically 4-polytopes are closely related to the uniform honeycombs, such as the cubic honeycomb, which tessellate 3-space; similarly the 3D cube is related to the infinite 2D square tiling. Convex 4-polytopes can be "cut and unfolded" as nets in 3-space.
+Definition.
+A 4-polytope is a closed four-dimensional figure. It comprises vertices (corner points), edges, faces and cells. A cell is the three-dimensional analogue of a face, and is therefore a polyhedron. Each face must join exactly two cells, analogous to the way in which each edge of a polyhedron joins just two faces. Like any polytope, the elements of a 4-polytope cannot be subdivided into two or more sets which are also 4-polytopes, i.e. it is not a compound.
+The most familiar 4-polytope is the tesseract or hypercube, the 4D analogue of the cube.
+Visualisation.
+4-polytopes cannot be seen in three-dimensional space due to their extra dimension. Several techniques are used to help visualise them.
+Orthogonal projections can be used to show various symmetry orientations of a 4-polytope. They can be drawn in 2D as vertex-edge graphs, and can be shown in 3D with solid faces as visible projective envelopes.
+Just as a 3D shape can be projected onto a flat sheet, so a 4-D shape can be projected onto 3-space or even onto a flat sheet. One common projection is a Schlegel diagram which uses stereographic projection of points on the surface of a 3-sphere into three dimensions, connected by straight edges, faces, and cells drawn in 3-space.
+Just as a slice through a polyhedron reveals a cut surface, so a slice through a 4-polytope reveals a cut "hypersurface" in three dimensions. A sequence of such sections can be used to build up an understanding of the overall shape. The extra dimension can be equated with time to produce a smooth animation of these cross sections.
+A net of a 4-polytope is composed of polyhedral cells that are connected by their faces and all occupy the same three-dimensional space, just as the polygon faces of a net of a polyhedron are connected by their edges and all occupy the same plane.
+Topological characteristics.
+The topology of any given 4-polytope is defined by its Betti numbers and torsion coefficients.
+The value of the Euler characteristic used to characterise polyhedra does not generalize usefully to higher dimensions, and is zero for all 4-polytopes, whatever their underlying topology. This inadequacy of the Euler characteristic to reliably distinguish between different topologies in higher dimensions led to the discovery of the more sophisticated Betti numbers.
+Similarly, the notion of orientability of a polyhedron is insufficient to characterise the surface twistings of toroidal 4-polytopes, and this led to the use of torsion coefficients.
+Classification.
+Criteria.
+Like all polytopes, 4-polytopes may be classified based on properties like "convexity" and "symmetry".
+Classes.
+The following lists the various categories of 4-polytopes classified according to the criteria above:
+Uniform 4-polytope (vertex-transitive):
+Other convex 4-polytopes:
+Infinite uniform 4-polytopes of Euclidean 3-space (uniform tessellations of convex uniform cells)
+Infinite uniform 4-polytopes of hyperbolic 3-space (uniform tessellations of convex uniform cells)
+Dual uniform 4-polytope (cell-transitive):
+Others:
+Abstract regular 4-polytopes:
+These categories include only the 4-polytopes that exhibit a high degree of symmetry. Many other 4-polytopes are possible, but they have not been studied as extensively as the ones included in these categories.
+

@@ -1,0 +1,6 @@
+
+In start-stop teletypewriter operation, end distortion refers to the shifting of the end of all marking pulses, except the stop pulse, from their proper positions in relation to the beginning of the next start pulse. 
+Shifting of the end of the stop pulse is a deviation in character time and rate rather than an end distortion. 
+Spacing end distortion is the termination of marking pulses before the proper time. Marking end distortion is the continuation of marking pulses past the proper time. 
+The magnitude of the distortion is expressed as a percentage of an ideal pulse length.
+

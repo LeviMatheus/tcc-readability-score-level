@@ -1,0 +1,1 @@
+The Binomial distribution is a probability distribution. It has discrete values. It counts the number of successes in yes/no-type experiments. There are two parameters, the number of times an experiment is done ("n") and the probability of a success ("p")

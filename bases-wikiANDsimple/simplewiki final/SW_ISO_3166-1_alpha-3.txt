@@ -1,0 +1,6 @@
+ISO 3166-1 alpha-3 codes are three-letter country codes in the ISO 3166-1 standard to represent countries and dependent territories. They are published by the International Organization for Standardization (ISO) as part of its ISO 3166 standard. They were first included as part of the ISO 3166 standard in its first edition in 1974.
+They are used in ISO/IEC 7501-1 for machine-readable passports.
+User-assigned code elements===.
+The following alpha-3 codes can be user-assigned: from AAA to AAZ, from QMA to QZZ, from XAA to XZZ, and from ZZA to ZZZ. These code elements are at the disposal of users who need to add further names of countries, territories or other geographical entities to their in-house application of ISO 3166-1, and the ISO 3166/MA will never use them in the updating process of the standard.
+Reserved code elements===.
+Reserved code elements are codes which, while not ISO 3166-1 codes, are in use for some applications in conjunction with the ISO 3166 codes. The ISO 3166/MA therefore reserves them, so that they are not used for new official ISO 3166 codes, thereby creating conflicts between the standard and those applications.

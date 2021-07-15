@@ -1,0 +1,23 @@
+
+In electrodynamics, elliptical polarization is the polarization of electromagnetic radiation such that the tip of the electric field vector describes an ellipse in any fixed plane intersecting, and normal to, the direction of propagation. An elliptically polarized wave may be resolved into two linearly polarized waves in phase quadrature, with their polarization planes at right angles to each other. Since the electric field can rotate clockwise or counterclockwise as it propagates, elliptically polarized waves exhibit chirality.
+Other forms of polarization, such as circular and linear polarization, can be considered to be special cases of elliptical polarization.
+Mathematical description.
+The classical sinusoidal plane wave solution of the electromagnetic wave equation for the electric and magnetic fields is (Gaussian units)
+for the magnetic field, where k is the wavenumber,
+is the angular frequency of the wave propagating in the +z direction, and formula_4 is the speed of light.
+Here formula_5 is the amplitude of the field and
+is the normalized Jones vector. This is the most complete representation of polarized electromagnetic radiation and corresponds in general to elliptical polarization.
+Polarization ellipse.
+At a fixed point in space (or for fixed z), the electric vector formula_7 traces out an ellipse in the x-y plane. The semi-major and semi-minor axes of the ellipse have lengths A and B, respectively, that are given by
+and 
+where formula_10.
+The orientation of the ellipse is given by the angle formula_11 the semi-major axis makes with the x-axis. This angle can be calculated from
+If formula_13, the wave is linearly polarized. The ellipse collapses to a straight line formula_14) oriented at an angle formula_15. This is the case of superposition of two simple harmonic motions (in phase), one in the x direction with an amplitude formula_16, and the other in the y direction with an amplitude formula_17. When formula_18 increases from zero, i.e., assumes positive values, the line evolves into an ellipse that is being traced out in the counterclockwise direction (looking in the direction of the propagating wave); this then corresponds to "left-handed elliptical polarization"; the semi-major axis is now oriented at an angle formula_19. Similarly, if formula_18 becomes negative from zero, the line evolves into an ellipse that is being traced out in the clockwise direction; this corresponds to "right-handed elliptical polarization".
+If formula_21 and formula_22, formula_23, i.e., the wave is circularly polarized. When formula_24, the wave is left-circularly polarized, and when formula_25, the wave is right-circularly polarized.
+Parameterization.
+ Any fixed polarization can be described in terms of the shape and orientation of the polarization ellipse, which is defined by two parameters: axial ratio AR and tilt angle formula_26. The axial ratio is the ratio of the lengths of the major and minor axes of the ellipse, and is always greater than or equal to one.
+Alternatively, polarization can be represented as a point on the surface of the Poincaré sphere, with formula_27 as the longitude and formula_28 as the latitude, where formula_29. The sign used in the argument of the formula_30 depends on the handedness of the polarization. Positive indicates left hand polarization, while negative indicates right hand polarization, as defined by IEEE.
+For the special case of circular polarization, the axial ratio equals 1 (or 0 dB) and the tilt angle is undefined. For the special case of linear polarization, the axial ratio is infinite.
+In nature.
+The reflected light from some beetles (e.g. "Cetonia aurata") is elliptical polarized.
+

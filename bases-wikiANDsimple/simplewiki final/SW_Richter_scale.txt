@@ -1,0 +1,3 @@
+The Richter magnitude scale is a scale of numbers used to tell the size of Californian earthquakes. Charles Richter developed the Richter Scale in 1935.
+Earthquakes that are 4.5 or higher on the Richter scale can be measured by tools all over the world.
+The scale is logarithmic, with a base of 10. This means that an earthquake which scores 3.0 on the scale is ten times as powerful that one that scores 2.0.

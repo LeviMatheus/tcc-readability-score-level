@@ -1,0 +1,22 @@
+
+The carat (ct) is a unit of mass equal to or 0.00643 troy oz, and is used for measuring gemstones and pearls.
+The current definition, sometimes known as the metric carat, was adopted in 1907 at the Fourth General Conference on Weights and Measures, and soon afterwards in many countries around the world. The carat is divisible into 100 "points" of 2 mg. Other subdivisions, and slightly different mass values, have been used in the past in different locations.
+In terms of diamonds, a paragon is a flawless stone of at least 100 carats (20 g).
+The ANSI X.12 EDI standard abbreviation for the carat is CD.
+Etymology.
+First attested in English in the mid-15th century, the word "carat" comes from Italian "carato", which comes from Arabic "qīrāṭ" قيراط, in turn borrowed from Greek "kerátion" κεράτιον 'carob seed', a diminutive of "keras" 'horn'. It was a unit of weight, equal to 1/1728 (1/12) of a pound (see Mina (unit)).
+History.
+Carob seeds have been used throughout history to measure jewelry, because it was believed that there was little variance in their mass distribution. However, this was a factual inaccuracy, as their mass varies about as much as seeds of other species.
+In the past, each country had its own carat. It was often used for weighing gold. Beginning in the 1570s, it was used to measure weights of diamonds.
+Standardization.
+An 'international carat' of 205 milligrams was proposed in 1871 by the Syndical Chamber of Jewellers, etc., in Paris, and accepted in 1877 by the Syndical Chamber of Diamond Merchants in Paris. A metric carat of 200 milligrams – exactly one-fifth of a gram – had often been suggested in various countries, and was finally proposed by the International Committee of Weights and Measures, and unanimously accepted at the fourth sexennial General Conference of the Metric Convention held in Paris in October 1907. It was soon made compulsory by law in France, but uptake of the new carat was slower in England, where its use was allowed by the Weights and Measures (Metric System) Act of 1897.
+Historical definitions.
+UK Board of Trade.
+In the United Kingdom the original Board of Trade carat was exactly grains (~3.170 grains = ~205 mg); in 1888, the Board of Trade carat was changed to exactly grains (~3.168 grains = ~205 mg). Despite its being a non-metric unit, a number of metric countries have used this unit for its limited range of application.
+The Board of Trade carat was divisible into four "diamond grains", but measurements were typically made in multiples of carat.
+Refiners' carats.
+There were also two varieties of "refiners' carats" once used in the United Kingdom — the pound carat and the ounce carat. The pound troy was divisible into 24 "pound carats" of 240 grains troy each; the pound carat was divisible into four "pound grains" of 60 grains troy each; and the pound grain was divisible into four "pound quarters" of 15 grains troy each. Likewise, the ounce troy was divisible into 24 "ounce carats" of 20 grains troy each; the ounce carat was divisible into four "ounce grains" of 5 grains troy each; and the ounce grain was divisible into four "ounce quarters" of grains troy each.
+Greco-Roman.
+The "solidus" was also a Roman weight unit. There is literary evidence that the weight of 72 coins of the type called "solidus" was exactly 1 Roman pound, and that the weight of 1 "solidus" was 24 "siliquae". The weight of a Roman pound is generally believed to have been 327.45 g or possibly up to 5 g less. Therefore, the metric equivalent of 1 "siliqua" was approximately 189 mg. The Greeks had a similar unit of the same value.
+Gold fineness in carats comes from carats and grains of gold in a solidus of coin. The conversion rates 1 solidus = 24 carats, 1 carat = 4 grains still stand. Woolhouse's "Measures, Weights and Moneys of all Nations" gives gold fineness in carats of 4 grains, and silver in pounds of 12 troy ounces of 20 pennyweight each.
+

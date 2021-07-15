@@ -1,0 +1,88 @@
+
+Bash is a Unix shell and command language written by Brian Fox for the GNU Project as a free software replacement for the Bourne shell. First released in 1989, it has been used as the default login shell for most Linux distributions. A version is also available for Windows 10 via the Windows Subsystem for Linux. It is also the default user shell in Solaris 11. Bash was also the default shell in all versions of Apple macOS prior to the 2019 release of macOS Catalina, which changed the default shell to zsh, although Bash currently remains available as an alternative shell.
+Bash is a command processor that typically runs in a text window where the user types commands that cause actions. Bash can also read and execute commands from a file, called a shell script. Like most Unix shells, it supports filename globbing (wildcard matching), piping, here documents, command substitution, variables, and control structures for condition-testing and iteration. The keywords, syntax, dynamically scoped variables and other basic features of the language are all copied from sh. Other features, e.g., history, are copied from csh and ksh. Bash is a POSIX-compliant shell, but with a number of extensions.
+The shell's name is an acronym for "Bourne Again Shell", a pun on the name of the Bourne shell that it replaces and the notion of being "born again".
+A security hole in Bash dating from version 1.03 (August 1989), dubbed Shellshock, was discovered in early September 2014 and quickly led to a range of attacks across the Internet. Patches to fix the bugs were made available soon after the bugs were identified.
+History.
+Brian Fox began coding Bash on January 10, 1988, after Richard Stallman became dissatisfied with the lack of progress being made by a prior developer. Stallman and the Free Software Foundation (FSF) considered a free shell that could run existing shell scripts so strategic to a completely free system built from BSD and GNU code that this was one of the few projects they funded themselves, with Fox undertaking the work as an employee of FSF. Fox released Bash as a beta, version .99, on June 8, 1989, and remained the primary maintainer until sometime between mid-1992 and mid-1994, when he was laid off from FSF and his responsibility was transitioned to another early contributor, Chet Ramey.
+Since then, Bash has become by far the most popular shell among users of Linux, becoming the default interactive shell on that operating system's various distributions (although Almquist shell may be the default scripting shell) and on Apple's macOS releases before Catalina in October 2019. Bash has also been ported to Microsoft Windows and distributed with Cygwin and MinGW, to DOS by the DJGPP project, to Novell NetWare, to OpenVMS by the GNV project, to ArcaOS, and to Android via various terminal emulation applications.
+In September 2014, Stéphane Chazelas, a Unix/Linux specialist, discovered a security bug in the program. The bug, first disclosed on September 24, was named Shellshock and assigned the numbers . The bug was regarded as severe, since CGI scripts using Bash could be vulnerable, enabling arbitrary code execution. The bug was related to how Bash passes function definitions to subshells through environment variables.
+Features.
+The Bash command syntax is a superset of the Bourne shell command syntax. Bash supports brace expansion, command line completion (Programmable Completion), basic debugging and signal handling (using codice_1) since bash 2.05a among other features. Bash can execute the vast majority of Bourne shell scripts without modification, with the exception of Bourne shell scripts stumbling into fringe syntax behavior interpreted differently in Bash or attempting to run a system command matching a newer Bash builtin, etc. Bash command syntax includes ideas drawn from the KornShell (ksh) and the C shell (csh) such as command line editing, command history (codice_2 command), the directory stack, the codice_3 and codice_4 variables, and POSIX command substitution syntax codice_5.
+When a user presses the tab key within an interactive command-shell, Bash automatically uses command line completion, since beta version 2.04, to match partly typed program names, filenames and variable names. The Bash command-line completion system is very flexible and customizable, and is often packaged with functions that complete arguments and filenames for specific programs and tasks.
+Bash's syntax has many extensions lacking in the Bourne shell. Bash can perform integer calculations ("arithmetic evaluation") without spawning external processes. It uses the codice_6 command and the codice_7 variable syntax for this purpose. Its syntax simplifies I/O redirection. For example, it can redirect standard output (stdout) and standard error (stderr) at the same time using the codice_8 operator. This is simpler to type than the Bourne shell equivalent 'codice_9'. Bash supports process substitution using the codice_10 and codice_11syntax, which substitutes the output of (or input to) a command where a filename is normally used. (This is implemented through "/proc/fd/" unnamed pipes on systems that support that, or via temporary named pipes where necessary).
+When using the 'function' keyword, Bash function declarations are not compatible with Bourne/Korn/POSIX scripts (the KornShell has the same problem when using 'function'), but Bash accepts the same function declaration syntax as the Bourne and Korn shells, and is POSIX-conformant. Because of these and other differences, Bash shell scripts are rarely runnable under the Bourne or Korn shell interpreters unless deliberately written with that compatibility in mind, which is becoming less common as Linux becomes more widespread. But in POSIX mode, Bash conforms with POSIX more closely.
+Bash supports here documents. Since version 2.05b Bash can redirect standard input (stdin) from a "here string" using the codice_12 operator.
+Bash 3.0 supports in-process regular expression matching using a syntax reminiscent of Perl.
+In February 2009, Bash 4.0 introduced support for associative arrays.
+Associative array indices are strings, in a manner similar to AWK or Tcl. They can be used to emulate multidimensional arrays. Bash 4 also switches its license to GPLv3; some users suspect this licensing change is why MacOS continues to use older versions. Apple finally stopped using Bash in their operating systems with the release of MacOS Catalina in 2019.
+Brace expansion.
+Brace expansion, also called alternation, is a feature copied from the C shell. It generates a set of alternative combinations. Generated results need not exist as files. The results of each expanded string are not sorted and left to right order is preserved:
+$ echo a{p,c,d,b}e
+ape ace ade abe
+ad ae af bd be bf cd ce cf
+Users should not use brace expansions in portable shell scripts, because the Bourne shell does not produce the same output.
+$ # A traditional shell does not produce the same output
+$ /bin/sh -c 'echo a{p,c,d,b}e'
+a{p,c,d,b}e
+When brace expansion is combined with wildcards, the braces are expanded first, and then the resulting wildcards are substituted normally. Hence, a listing of JPEG and PNG images in the current directory could be obtained using:
+ls *.{jpg,jpeg,png} # expands to *.jpg *.jpeg *.png - after which,
+ # the wildcards are processed
+echo *.{png,jp{e,}g} # echo just show the expansions -
+ # and braces in braces are possible.
+In addition to alternation, brace expansion can be used for sequential ranges between two integers or characters separated by double dots. Newer versions of Bash allow a third integer to specify the increment.
+1 2 3 4 5 6 7 8 9 10
+$ echo file{1..4}.txt
+file1.txt file2.txt file3.txt file4.txt
+a b c d e
+1 4 7 10
+a d g j
+When brace expansion is combined with variable expansion the variable expansion is performed "after" the brace expansion, which in some cases may necessitate the use of the codice_13 built-in, thus:
+$ start=1; end=10
+$ echo {$start..$end} # fails to expand due to the evaluation order
+$ eval echo {$start..$end} # variable expansion occurs then resulting string is evaluated
+1 2 3 4 5 6 7 8 9 10
+Startup scripts.
+When Bash starts, it executes the commands in a variety of dot files. Unlike Bash shell scripts, dot files do not typically have execute permission enabled nor an interpreter directive like codice_14.
+Legacy-compatible Bash startup example.
+The skeleton codice_15 below is compatible with the Bourne shell and gives semantics similar to csh for the codice_16 and codice_17. The codice_18 is a short-circuit evaluation that tests if "filename" exists and is readable, skipping the part after the codice_19 if it is not.
+[ -r ~/.profile ] &amp;&amp; . ~/.profile # set up environment, once, Bourne-sh syntax only
+if [ -n "$PS1" ] ; then # are we interactive?
+ [ -r ~/.bashrc ] &amp;&amp; . ~/.bashrc # tty/prompt/function setup for interactive shells
+ [ -r ~/.bash_login ] &amp;&amp; . ~/.bash_login # any at-login tasks for login shell only
+fi # End of "if" block
+Operating system issues in Bash startup.
+Some versions of Unix and Linux contain Bash system startup scripts, generally under the codice_20 directories. Bash calls these as part of its standard initialization, but other startup files can read them in a different order than the documented Bash startup sequence. The default content of the root user's files may also have issues, as well as the skeleton files the system provides to new user accounts upon setup. The startup scripts that launch the X window system may also do surprising things with the user's Bash startup scripts in an attempt to set up user-environment variables before launching the window manager. These issues can often be addressed using a codice_21 or codice_22 file to read the codice_23 — which provides the environment variables that Bash shell windows spawned from the window manager need, such as xterm or Gnome Terminal.
+Portability.
+Invoking Bash with the codice_24 option or stating codice_25 in a script causes Bash to conform very closely to the POSIX 1003.2 standard. Bash shell scripts intended for portability should take into account at least the POSIX shell standard. Some bash features not found in POSIX are:
+If a piece of code uses such a feature, it is called a "bashism" – a problem for portable use. Debian's and Vidar Holen's can be used to make sure that a script does not contain these parts. The list varies depending on the actual target shell: Debian's policy allows some extensions in their scripts (as they are in ), while a script intending to support pre-POSIX Bourne shells, like autoconf's , are even more limited in the features they can use.
+Keyboard shortcuts.
+Bash uses readline to provide keyboard shortcuts for command line editing using the default (Emacs) key bindings. Vi-bindings can be enabled by running codice_26.
+Process management.
+The Bash shell has two modes of execution for commands: batch, and concurrent mode.
+To execute commands in batch (i.e., in sequence) they must be separated by the character ";", or on separate lines:
+command1; command2
+in this example, when command1 is finished, command2 is executed.
+A background execution of command1 can occur using (symbol &amp;) at the end of an execution command, and process will be executed in background returning immediately control to the shell and allowing continued execution of commands.
+command1 &amp;
+Or to have a concurrent execution of two command1 and command2, they must be executed in the Bash shell in the following way:
+command1 &amp; command2
+In this case command1 is executed in the background "&amp;" symbol, returning immediately control to the shell that executes command2 in the foreground.
+A process can be stopped and control returned to bash by typing while the process is running in the foreground.
+A list of all processes, both in the background and stopped, can be achieved by running codice_27:
+$ jobs
+[1]- Running command1 &amp;
+[2]+ Stopped command2
+In the output, the number in brackets refers to the job id. The plus sign signifies the default process for codice_28 and codice_29. The text "Running" and "Stopped" refer to the Process state. The last string is the command that started the process.
+The state of a process can be changed using various commands. The codice_29 command brings a process to the foreground, while codice_28 sets a stopped process running in the background. codice_28 and codice_29 can take a job id as their first argument, to specify the process to act on. Without one, they use the default process, identified by a plus sign in the output of codice_27. The codice_35 command can be used to end a process prematurely, by sending it a signal. The job id must be specified after a percent sign:
+kill %1
+Conditional execution.
+Bash supplies "conditional execution" command separators that make execution of a command contingent on the exit code set by a precedent command. For example:
+cd "$SOMEWHERE" &amp;&amp; ./do_something || echo "An error occurred" &gt;&amp;2
+Where "./do_something" is only executed if the "cd" (change directory) command was "successful" (returned an exit status of zero) and the "echo" command would only be executed if either the "cd" or the "./do_something" command return an "error" (non-zero exit status).
+For all commands the exit status is stored in the special variable codice_36. Bash also supports and forms of conditional command evaluation.
+Bug reporting.
+An external command called "bashbug" reports Bash shell bugs. When the command is invoked, it brings up the user's default editor with a form to fill in. The form is mailed to the Bash maintainers (or optionally to other email addresses).
+Programmable completion.
+Bash programmable completion, codice_37 and codice_38 commands have been available since the beta version of 2.04 in 2000. These facilities allow complex intelligent completion, such as offering to tab-complete available program options and then, after the user selects an option that requires a filename as its next input, only auto-completing file paths (and not other options) for the next token.
+

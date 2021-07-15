@@ -1,0 +1,13 @@
+An equality in mathematical sense is only true under more particular conditions. For this, the symbol ≡ is sometimes used. (However, this can lead to misunderstandings since the same symbol can also be used for a congruence relation.)
+Identity relation.
+A common example of the first meaning is the trigonometric identity
+which is true for all real values of formula_5 (since the real numbers formula_6 are the domain of sin and cos), as opposed to
+which is true only for values of formula_5 in a subset of the domain.
+Identity element.
+The concepts of "additive identity" and "multiplicative identity" are central to the Peano axioms.
+The number 0 is the "additive identity" for integers, real numbers, and complex numbers. For the real numbers, for all formula_9
+Similarly, The number 1 is the "multiplicative identity" for integers, real numbers, and complex numbers. For the real numbers, for all formula_9
+Identity function.
+A common example of an identity function is the identity permutation, which sends each element of the set formula_17 to itself.
+Comparison.
+These meanings are not mutually exclusive; for instance, the identity permutation is the identity element in the set of permutations of formula_17 under composition.

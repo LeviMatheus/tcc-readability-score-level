@@ -1,0 +1,14 @@
+In music theory the Circle of fifths shows how the different keys are related to one another. It can be easily understood together with a piano keyboard.
+Structure.
+On a piano there are white and black notes (confusingly these are also called “keys”). The white notes are named by the letters A to G of the alphabet. After G comes another A and so on. The black notes go in threes and twos. This makes it easy to see the pattern of white notes. Where there are two black notes together, for example, the white note between them is D. The black notes do not have names of their own. They are named after the white notes next to them. The black note just above (i.e. to the right) of a G is a G sharp. The black note just below (i.e. to the left) of the G is G flat. This means that each black note has two possible names (e.g. G flat or F sharp).
+Method.
+Playing each note in turn, whether a white or a black note, will give a chromatic scale (e.g. C, C sharp, D, E flat, E, F, F sharp, G, A flat, A, B flat, B, C). Each step is called a “semitone” or “half tone”. A “tone” or “whole tone” therefore is a jump of two semitones (C to D, or C sharp to E flat, or E to F sharp).
+By playing on white notes from C to the next C we get a major scale. Some of the steps are tones and some are semitones. The semitones come between E and F and between B and C, i.e. between the 3rd and 4th and between the 7th and 8th note of the scale. All major scales have this pattern (tone, tone, semitone, tone, tone, tone, semitone).
+Examples.
+Each time we went to a sharper key we took the note which was the 5th note of the previous scale (G, with one sharp, was the 5th note of C major. D, with two sharps, was the 5th note of G, etc).
+In a diagram this can be shown as a circle which is called the “Circle of Fifths”. As we get sharper and sharper we go clockwise round the circle.
+Flats.
+The flats work in exactly the opposite way. Instead of going up to the fifth note (e.g. C,D,E,F,G) we can go down a fifth (C,B,A,G,F). F is the scale which has one flat. As we get flatter and flatter we go counter-clockwise round the circle until all seven notes are flattened.
+It can be seen that three of the scales each have two possible names: B major (with 5 sharps) can also be thought of as C flat major (with seven flats), F sharp major (with 6 sharps) can also be thought of as G flat major (with 6 flats), and C sharp major (with 7 sharps) can also be thought of as D flat major (with 5 flats).
+Minors.
+Relative minors (the minor scale with the same key signature) can also be worked out by going round three steps of the circle (C major is the relative major of A minor, i.e. it shares the same key signature: nothing). On a keyboard the relative minor can be worked out by going down three semitones (from C go down to B, Bflat, A).

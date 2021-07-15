@@ -1,0 +1,1 @@
+The thread switching latency is the time needed by the operating system to switch the CPU to run another thread. In some operating systems running on some hardware, switching between threads belonging to the same process is much faster than switching to a thread from different process (because threads from different process requires more complicated process context switch).

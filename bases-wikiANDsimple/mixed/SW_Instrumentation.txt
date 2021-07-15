@@ -1,0 +1,7 @@
+Instrumentation is one of the science that studies measurement and control.
+Measurement and control are studied to make the maximum efficiency and maximum safety of the work place.
+Instrumentation includes finding the most appropriate measurement method, designing and producing of the machine, getting the required information and result of what has been measured by the calculation and take appropriate measures for that result.
+Instrumentation means a lot more than measurement. For example, setting up the sulphur dioxide(SO2) density measuring machine and getting the reading is measurement. But, how to use this machine, which machine is to set up, how many places to set up, what to calculate with the reading, in what situation it should sent the sign for alarm are problems handled by the instrumentation.
+An instrument is a tool used to measure and manage the variables in a process.
+Examples of instruments are valves, transmitters, flame detectors and analyzers. Valve is a device that helps with the flow of materials (like gases, fluidized solids, slurries, or liquids). Transmitter is a electronic device or tool which sends or receives a signal through electromagnetic radiation. Flame detector is a device which detects the flame by analyzing the color.
+Instrumentation is also studying about the control. Control is like how valve is managing the amount of contents flowing through it and break controlling over the speed. Control can change the parameter of the field or the variable.

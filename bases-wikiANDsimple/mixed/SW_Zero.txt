@@ -1,0 +1,31 @@
+Zero is a special number. If there are zero things, there are not any things. There are none.
+Example.
+John has zero hats. John does not have a hat.
+Symbol.
+The symbol for the number zero is "0".
+Arithmetic with Zero.
+Let "n" be any number except zero. Then,
+0 ÷ "n" = 0. (0/"n" = 0)
+History of zero.
+The idea of zero was first thought about in Babylon, India and in Central America at different times. Some places and countries did not know about a zero, which may have made it harder for those people to do mathematics.
+Over hundreds of years the idea of zero was passed from country to country. From India and Babylon to other places, like Greece, Persia and the Arab parts of the world. The Europeans learned about zero from the Arabs.
+The place of zero as a number.
+Zero is not used as a place number (ordinal number). This means that it is not used like 1, 2, or 3 to indicate the order, or place, of something, like 1st, 2nd, or 3rd.
+0 ÷ 0 = "not a number."
+In time, zero means "now". For example, a person is counting down the time to the start of something, such as a foot race or when a rocket takes off. The count is: "three, two, one, zero (or "go")". Zero is the exact time of the start of the race or when the rocket takes off into the sky.
+merged bit.
+0 (zero) is both a number and a numerical digit used to represent that number in numerals. As a number, zero means "nothing" — an absence of other values. It plays a central role in mathematics as the additive identity of the integers, real numbers, and many other algebraic structures. As a digit, zero is used as a placeholder in place value systems. Historically, it was the last digit to come into use. In the English language, zero may also be called null or nil when a number, o/oh when a numeral, and nought/naught in either context.
+0 as a number.
+0 is the integer that precedes the positive 1, and follows −1. In most (if not all) numerical systems, 0 was identified before the idea of 'negative integers' was accepted. It means "courageous one" in hieroglyphics.
+Zero is a number which quantifies a count or an amount of null size; that is, if the number of your brothers is zero, that means the same thing as having no brothers, and if something has a weight of zero, it has no weight. If the difference between the number of pieces in two piles is zero, it means the two piles have an equal number of pieces. Before counting starts, the result can be assumed to be zero; that is the number of items counted before you count the first item and counting the first item brings the result to one. And if there are no items to be counted, zero remains the final result.
+While mathematicians all accept zero as a number, some non-mathematicians would say that zero is not a number, arguing that one cannot have zero of something. Others hold that if one has a bank balance of zero, one has a specific quantity of money in that account, namely none. It is that latter view which is accepted by mathematicians and most others.
+Almost all historians omit the year zero from the proleptic Gregorian and Julian calendars, but astronomers include it in these same calendars. However, the phrase Year Zero may be used to describe any event considered so significant that it virtually starts a new time reckoning.
+0 as a numeral.
+The modern numeral 0 is normally written as a circle or (rounded) rectangle. In old-style fonts with text figures, 0 is usually the same height as a lowercase x.
+On the seven-segment displays of calculators, watches, etc., 0 is usually written with six line segments, though on some historical calculator models it was written with four line segments. This variant glyph has not caught on.
+It is important to distinguish the "number" zero (as in the "zero brothers" example above) from the "numeral" or "digit" zero, used in numeral systems using positional notation. Successive positions of digits have higher values, so the digit zero is used to skip a position and give appropriate value to the preceding and following digits. A zero digit is not always necessary in a positional number system: bijective numeration provides a possible counterexample.
+Distinguishing zero from O.
+The oval-shaped zero and circular letter O together came into use on modern character displays. The zero with a dot in the centre seems to have originated as an option on IBM 3270 controllers (this has the problem that it looks like the Greek letter Theta). The slashed zero, looking identical to the letter O other than the slash, is used in old-style ASCII graphic sets descended from the default typewheel on the venerable ASR-33 Teletype. This format causes problems because of its similarity to the symbol formula_2, representing the empty set, as well as for certain Scandinavian languages which use Ø as a letter.
+The convention which has the letter O with a slash and the zero without was used at IBM and a few other early mainframe makers; this is even more problematic for Scandinavians because it means two of their letters collide. Some Burroughs/Unisys equipment displays a zero with a "reversed" slash. And yet another convention common on early line printers left zero unornamented but added a tail or hook to the letter-O so that it resembled an inverted Q or cursive capital letter-O.
+The typeface used on some European number plates for cars distinguish the two symbols by making the zero rather egg-shaped and the O more circular, but most of all by slitting open the zero on the upper right side, so the circle is not closed any more (as in). The typeface chosen is called "fälschungserschwerende Schrift" (abbr.: "FE Schrift"), meaning "script which is harder to falsify". Note that those used in the United Kingdom do not differentiate between the two as there can never be any ambiguity if the design is correctly spaced.
+In paper writing one may not distinguish the 0 and O at all, or may add a slash across it in order to show the difference, although this sometimes causes ambiguity in regard to the symbol for the null set.

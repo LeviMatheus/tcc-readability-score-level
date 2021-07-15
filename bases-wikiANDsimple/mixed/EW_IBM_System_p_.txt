@@ -1,0 +1,30 @@
+
+The IBM System p was a high-end line of RISC (POWER)/UNIX-based servers. Successor of RS/6000 line, predecessor of IBM Power Systems server series.
+History.
+The previous RS/6000 line was originally a line of workstations and servers. The first System p server line was named as "e"Server pSeries in 2000 as part of e-Server branding initiative.
+In 2004, with the advent of the POWER5 processor, the server family was rebranded the "e"Server p5.
+In 2005, following IBM's move to streamline its server and storage brands, worldwide, and incorporating the "System" brand, with the Systems Agenda, the family was renamed again as System p5. The System p5 now encompasses the IBM OpenPower product line.
+In 2007, After the introduction of POWER6 processor models, the last renaming under the System p brand dropped the p (numbered) designation.
+In April 2008, IBM announced a rebranding of the System p and its unification with the mid-range System i platform. The resulting product line is called IBM Power Systems.
+Hardware and software.
+Processors.
+Whereas previous RS/6000 line used a mix of early POWER and PowerPC processors, when pSeries came along this had evolved into RS64-III and POWER3 across the board—POWER3 for its excellent floating-point performance and RS64 for its scalability, throughput, and integer performance.
+IBM developed the POWER4 processor to replace both POWER3 and the RS64 line in 2001. After that the differences between throughput and number crunching-optimized systems no longer existed. Since then System p machines evolved to use the POWER5 but also the PowerPC 970 for the low-end and blade systems.
+The last System p systems used the POWER6 processor, such as the POWER6-based System p 570 and the JS22 blade. In addition IBM introduced during the SuperComputing 2007 (SC07) conference in Reno a new POWER6-based System p 575 with 32 POWER6 cores at 4.7 GHz and up to 256 GB of RAM with water cooling.
+Features.
+All IBM System p5 and IBM "e"Server p5 machines support DLPAR (Dynamic Logical Partitioning) with Virtual I/O and Micro-partitioning.
+System p generally uses the AIX operating system and, more recently, 64-bit versions of the Linux operating system.
+Models.
+Main line.
+eServer pSeries.
+The IBM p690 was, at the time of its release in late 2001, the flagship of IBM's high end Unix servers during the POWER4 era of processors. It was built to run IBM AIX Unix, although it is possible to run a version of Linux minus some POWER4 specific features. 
+It can support up to 32 (1.5, 1.7 or 1.9 GHz) POWER4+ processors and 1 TB of RAM, with weighs well over 1000 kg. It was used in a supercomputer at Forschungszentrum Jülich in 2004, and was discontinued in late 2005.
+eServer p5.
+Released in 2004.
+System p.
+System p was rebranded to Power Systems in 2008.
+OpenPower.
+OpenPower was the name of a range of servers in the System p line from IBM. They featured IBM's POWER5 CPUs and run only 64-bit versions of Linux. IBM's own UNIX variant, AIX is not supported since the OpenPower servers are not licensed for this operating system.
+There were two models available, with a variety of configurations.
+Before 2005, OpenPower belonged to the eServer product line but were eventually rolled into the IBM's Power Systems product portfolio.
+

@@ -1,0 +1,9 @@
+
+In chemistry, the empirical formula of a chemical compound is the simplest positive integer ratio of atoms present in a compound. A simple example of this concept is that the empirical formula of sulfur monoxide, or SO, would simply be SO, as is the empirical formula of disulfur dioxide, S2O2. Thus, sulfur monoxide and disulfur dioxide, both compounds of sulphur and oxygen, have the same empirical formula. However, their molecular formulas, which express the number of atoms in each molecule of a chemical compound, are not the same.
+An empirical formula makes no mention of the arrangement or number of atoms. It is standard for many ionic compounds, like calcium chloride (CaCl2), and for macromolecules, such as silicon dioxide (SiO2).
+The molecular formula, on the other hand, shows the number of each type of atom in a molecule. The structural formula shows the arrangement of the molecule. It is also possible for different types of compounds to have equal empirical formulas.
+Samples are analyzed in specific elemental analysis tests to determine what percent of a particular element the sample is composed of.
+Calculation example.
+A chemical analysis of a sample of methyl acetate provides the following elemental data: 48.64% carbon (C), 8.16% hydrogen (H), and 43.20% oxygen (O). For the purposes of determining empirical formulas assume that we have 100 grams of the compound. If this is the case, the percentages will be equal to the mass of each element in grams.
+Thus, the empirical formula of methyl acetate is . This formula also happens to be methyl acetate's molecular formula.
+

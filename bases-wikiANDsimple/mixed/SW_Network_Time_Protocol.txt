@@ -1,0 +1,2 @@
+The Network Time Protocol (NTP) is a protocol for distributing the Coordinated Universal Time (UTC) by synchronizing the clocks of computer systems over IP networks.
+NTP is one of the oldest Internet Protocols still in use (since before 1985) and uses UDP port 123.

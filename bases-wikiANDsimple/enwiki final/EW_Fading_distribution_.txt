@@ -1,0 +1,6 @@
+
+ is the probability distribution of the value of signal fading, relative to a specified reference level.
+In the case of phase interference fading, the time distribution of the instantaneous field strength usually approximates a Rayleigh distribution when several signal components of equal amplitude are present. 
+The field strength is usually measured in volts per meter. 
+The fading distribution may also be measured in terms of power level, where the unit of measure is usually watts per square meter and the expression is in decibels.
+

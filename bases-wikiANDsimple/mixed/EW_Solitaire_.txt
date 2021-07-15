@@ -1,0 +1,7 @@
+
+Solitaire is any tabletop game which one can play by oneself, usually with cards, but also with dominoes. The term "solitaire" is also used for single-player games of concentration and skill using a set layout tiles, pegs or stones. These games include peg solitaire and mahjong solitaire. The game is most often played by one person, but can incorporate others.
+History.
+The origins of Card Solitaire or Patience are unclear, but the earliest records appear in the late 1700s across northern Europe and Scandinavia. The term "Patiencespiel" appears in "Das neue Königliche L’Hombre-Spiel", a German book published in 1798. Books were also reported to appear in Sweden and Russia in the early 1800s. There are additional references to Patience in French literature. In the United States, the first card solitaire book, "Patience: A series of thirty games with cards", was published by Ednah Cheney in 1870.
+The card game that many people identify with Solitaire is Klondike Solitaire, which is the most played solitaire game. Although it was originally played with a physical deck of cards, it was especially popularized by Microsoft Solitaire, a digital implementation that was included with the Windows operating system from 1990 onwards. 
+Forks of "PySol" are platform-independent, open-source implementations of hundreds of solitaire games. Many other software implementations of solitaire exist, and it is still frequently played on computers, mobile devices, and online as a recreational game.
+

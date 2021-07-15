@@ -1,0 +1,2 @@
+Network attached storage (or NAS) is a solution from computing. It means that storage (like a number of hard disks) is put on a computer network. Different users can then access this using different protocols. Today, boxes that already can do this are available rather cheaply. Also, such boxes can be built easily using a small or old computer with an operating system like Linux.
+The different clients can then access the data using different protocols, like SMB or NFS. NAS is easier to do than a Storage area network.

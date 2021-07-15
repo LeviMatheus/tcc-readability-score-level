@@ -1,0 +1,10 @@
+Principle.
+Waves are composed of frequency, amplitude and wave form. It is equal to voices. High frequency wave has high pitched tone. Also wave that has big amplitude has loud sound. By using microphone, voices are converted to electronic signals. And transmit tower transmit the electrocic signals to air. The electronic signal is catched by a receiving set. By using a speaker, the electronic signal is changed to voice. When the signal is transmitted, telecaster amplify and alter the signals. By altering, the signal is changed to high frequency wave. So we can't hear radio signals.
+by using radio signal, we can communicate with other people in a long distance. because radio signal has high speed (340m/s) and,because of high frequency, radio signal don't damp easily.
+when modulate voice to radio signal, there are two way. the amplitude modulation (AM) and frequency modulation (FM).
+Amplitude modulation (AM) don't change frequency. It change amplitude like a voice's wave form. The using circuit is simple and the length that radio signal can reach is long. but it has a weak point. the radio wave can easily damaged by another waves.
+frequency modulation (FM) means, frequency is changed like voice's wave form. it is contrast to Amplitude modulation (AM). Amplitude modulation's (AM) weak point would be a strong point of frequency modulation (FM). also Amplitude modulation's (AM) strong point would be a weak point of frequency modulation (FM).
+Where it used.
+The radio signals are used to radio, Television, cell phone.
+radio, international broad casting, aeronautical radio and vision of television use amplitude modulation (AM) to deliver.
+in contrast voice of television and stereo broad casting use frequency modulation (FM) to deliver

@@ -1,0 +1,17 @@
+
+The Ostwald process is a chemical process used for making nitric acid (HNO3). Wilhelm Ostwald developed the process, and he patented it in 1902. The Ostwald process is a mainstay of the modern chemical industry, and it provides the main raw material for the most common type of fertilizer production. Historically and practically, the Ostwald process is closely associated with the Haber process, which provides the requisite raw material, ammonia (NH3).
+Description.
+Stage 1.
+Ammonia is converted to nitric acid in 2 stages. It is oxidized by heating with oxygen in the presence of a catalyst such as platinum with 10% rhodium, platinum metal on fused silica wool, copper or nickel, to form nitric oxide (nitrogen(II) oxide) and water (as steam). This reaction is strongly exothermic, making it a useful heat source once initiated:
+Stage 2.
+Stage two encompasses two reactions and is carried out in an absorption apparatus containing water. Initially nitric oxide is oxidized again to yield nitrogen dioxide (nitrogen(IV) oxide). This gas is then readily absorbed by the water, yielding the desired product (nitric acid, albeit in a dilute form), while reducing a portion of it back to nitric oxide:
+The NO is recycled, and the acid is concentrated to the required strength by distillation.
+And, if the last step is carried out in air:
+Typical conditions for the first stage, which contribute to an overall yield of about 98%, are:
+A complication that needs to be taken into consideration involves a side-reaction in the first step that reverts the nitric oxide back to nitrogen:
+This is a secondary reaction that is minimised by reducing the time the gas mixtures are in contact with the catalyst.
+Overall reaction.
+The overall reaction is the sum of the first equation, 3 times the second equation, and 2 times the last equation; all divided by 2:
+Alternatively, if the last step is carried out in air, the overall reaction is the sum of equation 1, 2 times the equation 2, and equation 4; all divided by 2.
+Without considering the state of water,
+

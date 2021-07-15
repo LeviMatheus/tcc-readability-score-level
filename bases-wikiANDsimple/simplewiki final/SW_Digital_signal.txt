@@ -1,0 +1,13 @@
+Digital signal can mean to different things: "discrete-time signals" that are digitized, or to the waveform signals in a digital system.
+Discrete-time signals.
+Digital signals are digital representations of "discrete-time signals", which often produced by changing an analog signal.
+An analog signal is a datum that changes over time (for instance the temperature at a given place; the depth of a certain point in a pond; or the amplitude of the voltage at some node in a circuit). A discrete-time signal is a sampled version of an analog signal: the value of the datum is noted at fixed intervals (for example, every microsecond) rather than continuously.
+In short, a digital signal is a quantized discrete-time signal; a discrete-time signal is a sampled analog signal.
+In the digital revolution, the usage of digital signals has increased significantly.
+Many modern media devices, especially the ones that connect with computers use digital signals to represent signals that were traditionally represented as analog signals; cell phones, music and video players, personal video recorders, and digital cameras are examples.
+In most applications, digital signals are represented as binary numbers, so their precision of quantization is measured in bits.
+Waveforms in digital systems.
+In computer architecture and other digital systems, a waveform that switches between two voltage levels representing the two states of a Boolean value (0 and 1) is referred to as a digital signal, even though it is an analog voltage waveform, since it is interpreted in terms of only two levels.
+The clock signal is a special digital signal that is used to synchronize digital circuits.
+The image shown can be considered the waveform of a clock signal.
+Logic changes are triggered either by the rising edge or the falling edge.

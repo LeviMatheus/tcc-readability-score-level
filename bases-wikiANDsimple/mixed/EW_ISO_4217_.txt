@@ -1,0 +1,47 @@
+
+ISO 4217 is a standard published by International Organization for Standardization (ISO) that defines alpha codes and numeric codes for the representation of currencies and provides information about the relationships between individual currencies and their minor units. This data is published in three tables:
+The first edition of ISO 4217 was published in 1978. The tables, history and ongoing discussion are maintained by SIX Interbank Clearing on behalf of ISO and the Swiss Association for Standardization.
+The ISO 4217 code list is used in banking and business globally. In many countries the ISO 4217 alpha codes for the more common currencies are so well known publicly that exchange rates published in newspapers or posted in banks use only these to delineate the currencies, instead of translated currency names or ambiguous currency symbols. ISO 4217 alpha codes are used on airline tickets and international train tickets to remove any ambiguity about the price.
+Alpha codes.
+National currencies.
+In the case of national currencies, the first two letters of the alpha code are the two letters of the ISO 3166-1 alpha-2 country code and the third is usually the initial of the currency itself. So Japan's currency code is JPY—JP for Japan and Y for yen. This eliminates the problem caused by the names "dollar, franc, peso" and "pound" being used in dozens of countries, each having significantly differing values.
+In some cases, the third letter of the alpha code is not the initial letter of the currency name. There are two possible reasons for this to happen:
+X currencies.
+In addition to codes for most active national currencies ISO 4217 provides codes for "supranational" currencies, procedural purposes, and several things which are "similar to" currencies:
+The use of an initial letter "X" for these purposes is facilitated by the ISO 3166 rule that no official country code beginning with X will ever be assigned. 
+The inclusion of EU (denoting the European Union) in the ISO 3166-1 reserved codes list allows the euro to be coded as EUR rather than assigned a code beginning with X, even though it is a supranational currency.
+Numeric codes.
+ISO 4217 also assigns a three-digit numeric code to each currency, much like the three-digit numeric code assigned to each country by ISO 3166. The numeric code assigned to a currency by ISO 4217 is usually the same as the numeric code assigned to the corresponding country by ISO 3166-1. For example, USD (United States dollar) has numeric code 840 which is also the numeric code for the US (United States).
+Minor units of currency.
+The 2008 (7th) edition of ISO 4217 says the following about minor units of currency:
+Examples for the ratios of 100:1 and 1 000:1 include the United States dollar and the Bahraini dinar, for which the column headed “Minor unit” shows “2” and “3”, respectively. , two currencies have non-decimal ratios, the Mauritanian ouguiya and the Malagasy ariary; in both cases the ratio is 5:1. For these, the “Minor unit” column shows the number “2”. Some currencies do not have any minor currency unit at all. These show the number “0”, as with currencies whose minor units are unused due to negligible value.
+Position of ISO 4217 code in amounts.
+The ISO standard does not regulate either the spacing, prefixing or suffixing in usage of currency codes. According however to the European Union's Publication Office, in English, Irish, Latvian and Maltese texts, the ISO 4217 code is to be followed by a hard space and the amount:
+In Bulgarian, Croatian, Czech, Danish, Dutch, Estonian, Finnish, French, German, Greek, Hungarian, Italian, Lithuanian, Polish, Portuguese, Romanian, Slovak, Slovene, Spanish and Swedish the order is reversed; the amount is followed by a hard space and the ISO 4217 code:
+Note that, as illustrated, the order is determined not by the currency, but by the native language of the document context.
+History.
+In 1973, the ISO Technical Committee 68 decided to develop codes for the representation of currencies and funds for use in any application of trade, commerce or banking. At the 17th session (February 1978), the related UN/ECE Group of Experts agreed that the three-letter alphabetic codes for International Standard ISO 4217, "Codes for the representation of currencies and funds", would be suitable for use in international trade.
+Over time, new currencies are created and old currencies are discontinued. Such changes usually originate from the formation of new countries, treaties between countries on shared currencies or monetary unions, or redenomination from an existing currency due to excessive inflation. As a result, the list of codes must be updated from time to time. The ISO 4217 maintenance agency (MA), SIX Interbank Clearing, is responsible for maintaining the list of codes.
+Active codes.
+The following is a list of active codes of official ISO 4217 currency names .
+In the standard the values are called "alphabetic code", "numeric code", "minor unit", and "entity".
+USD/USS/USN, three currency codes belonging to the US.
+The US dollar has two codes assigned: USD and USN (next day). The USS (same day) code is not in use any longer, and was removed from the list of active ISO 4217 codes in March 2014.
+According to UN/CEFACT recommendation 9, paragraphs 8–9 ECE/TRADE/203, 1996, available online:
+Future codes.
+As of August 2018, there are no new codes planned to be added to the standard.
+Non ISO 4217 currencies.
+Currencies without ISO 4217 currency codes.
+A number of active currencies do not have an ISO 4217 code, because they may be: (1) a minor currency pegged at par (1:1) to a larger currency, even if independently regulated, (2) a currency only used for commemorative banknotes or coins, or (3) a currency of an unrecognized or partially recognized state. These currencies include:
+See for a list of all currently pegged currencies.
+Unofficial currency codes.
+Despite having no official recognition in ISO 4217, the following non-ISO codes are sometimes used locally or commercially.
+The following non-ISO codes were used in the past.
+Unofficial codes for minor units of currency.
+Minor units of currency (also known as currency subdivisions or currency subunits) are often used for pricing and trading stocks and other assets, such as energy, but are not assigned codes by ISO 4217. Two conventions for representing minor units are in widespread use:
+A third convention is similar to the second one but uses an upper-case letter, e.g. ZAC for the South African Cent. This convention is not in widespread use as it would result in clashes, e.g. between GBP for Pound Sterling and GBP for Penny Sterling.
+Unofficial codes for cryptocurrencies.
+Recently, cryptocurrencies have unofficially used ISO-like codes on various cryptocurrency exchanges, for instance LTC for Litecoin, NMC for Namecoin and XRP for the XRP Ledger. SIX Interbank Clearing (a Maintenance Agency of ISO) is currently studying the impact and role of cryptocurrencies and other independent currencies on ISO 4217.
+Historical currency codes.
+A number of currencies had official ISO 4217 currency codes and currency names until their replacement by another currency. The table below shows the ISO currency codes of former currencies and their common names (which do not always match the ISO 4217 names).
+

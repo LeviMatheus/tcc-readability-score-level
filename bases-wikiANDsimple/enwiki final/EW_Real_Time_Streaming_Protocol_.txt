@@ -1,0 +1,17 @@
+
+The Real Time Streaming Protocol (RTSP) is a network control protocol designed for use in entertainment and communications systems to control streaming media servers. The protocol is used for establishing and controlling media sessions between endpoints. Clients of media servers issue commands such as "play", "record" and "pause", to facilitate real-time control of the media streaming from the server to a client (Video On Demand) or from a client to the server (Voice Recording).
+History.
+RTSP was developed by RealNetworks, Netscape and Columbia University The first draft submitted to IETF in October 1996 by Netscape and Progressive Networks, after which Henning Schulzrinne from Columbia University submitted "RTSP'" ("RTSP prime") in December 1996. The two drafts were merged for standardization by the Multiparty Multimedia Session Control Working Group (MMUSIC WG) of the Internet Engineering Task Force (IETF) and further drafts were published by the working group. The Proposed Standard for RTSP was published as RFC 2326 in 1998. RTSP 2.0 published as RFC 7826 in 2016 as a replacement of RTSP 1.0. RTSP 2.0 is based on RTSP 1.0 but is not backwards compatible other than in the basic version negotiation mechanism, and remains a "Proposed Standard".
+RTP.
+The transmission of streaming data itself is not a task of RTSP. Most RTSP servers use the Real-time Transport Protocol (RTP) in conjunction with Real-time Control Protocol (RTCP) for media stream delivery. However, some vendors implement proprietary transport protocols. The RTSP server software from RealNetworks, for example, also used RealNetworks' proprietary Real Data Transport (RDT).
+Protocol directives.
+While similar in some ways to HTTP, RTSP defines control sequences useful in controlling multimedia playback. While HTTP is stateless, RTSP has state; an identifier is used when needed to track concurrent sessions. Like HTTP, RTSP uses TCP to maintain an end-to-end connection and, while most RTSP control messages are sent by the client to the server, some commands travel in the other direction (i.e. from server to client).
+Presented here are the basic RTSP requests. Some typical HTTP requests, like the OPTIONS request, are also available. The default transport layer port number is 554 for both TCP and UDP, the latter being rarely used for the control requests.
+ANNOUNCE.
+The ANNOUNCE method serves two purposes:
+Rate adaptation.
+RTSP using RTP and RTCP allows for the implementation of rate adaptation.
+Implementations.
+Server.
+Many CCTV / Security cameras, often called IP Cameras, support RTSP streaming too, especially these with ONVIF profiles G, S, T.
+

@@ -1,0 +1,5 @@
+DCPIP (its full name is "2,6-dichlorophenolindophenol") is a blue chemical used as a dye as when it is in its oxidized state it is blue.
+Information.
+Once reduced (by addition of electrons) it becomes colourless. This reaction can be reversed, and the colourless DCPIP will turn blue again, when it is oxidized.
+Purpose.
+DCPIP is often used to measure the electron transport chain in plants. It has a higher redox potential (electron affinity) than the Fe-S complex in cytochrome b and will therefore "steal" electrons from it. This means that cytochrome c does not receive them. The process cuts off the electron supply of photosystem I. A common way to illustrate this change is by the addition of vitamin C solution. This reduces the 'jelly' by transforming it to a colourless mass. This experiment can be carried out to illustrate the affect of changing cell sizes on SA/V (surface area:volume ratio). This is known as Titration.

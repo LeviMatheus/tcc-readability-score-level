@@ -1,0 +1,14 @@
+
+lint, or a linter, is a static code analysis tool used to flag programming errors, bugs, stylistic errors and suspicious constructs. The term originates from a Unix utility that examined C language source code.
+History.
+Stephen C. Johnson, a computer scientist at Bell Labs, came up with lint in 1978 while debugging the yacc grammar he was writing for C and dealing with portability issues stemming from porting Unix to a 32-bit machine. The term "lint" was derived from the name of the tiny bits of fiber and fluff shed by clothing, as the command should act like a dryer machine lint trap, detecting small errors with big effects. In 1979, lint was used outside of Bell Labs for the first time in the seventh version (V7) of the Unix operating system.
+Over the years, different versions of lint were developed for many C and C++ compilers and while modern-day compilers have lint-like functions, lint-like tools have also advanced their capabilities. For example, Gimpel's PC-Lint, used to analyze C++ source code, is still being sold even though it was introduced in 1985.
+Overview.
+The analysis performed by lint-like tools can also be performed by an optimizing compiler, which aims to generate faster code. In his original 1978 paper, Johnson addressed this issue, concluding that "the general notion of having two programs is a good one" because they concentrated on different things, thereby allowing the programmer to "concentrate at one stage of the programming process solely on the algorithms, data structures, and correctness of the program, and then later retrofit, with the aid of lint, the desirable properties of universality and portability".
+Even though modern compilers have evolved to include many of lint's historical functions, lint-like tools have also evolved to detect an even wider variety of suspicious constructs. These include "warnings about syntax errors, uses of undeclared variables, calls to deprecated functions, spacing and formatting conventions, misuse of scope, implicit fallthrough in switch statements, missing license headers, [and]...dangerous language features".
+Lint-like tools are especially useful for dynamically typed languages like JavaScript and Python. Because the compilers of such languages typically do not enforce as many and as strict rules prior to execution, linter tools can also be used as simple debuggers for finding common errors (e.g. syntactic discrepancies) as well as hard-to-find errors such as heisenbugs (drawing attention to suspicious code as "possible errors"). Lint-like tools generally perform static analysis of source code.
+Lint-like tools have also been developed for other aspects of language, including grammar and style guides.
+Specialization.
+Fortran.
+Fortran compilers using space-squeezing techniques (e.g. IBM 1130) made it impossible for the compiler to see the problem with lines like:
+

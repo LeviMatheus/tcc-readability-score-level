@@ -1,0 +1,16 @@
+
+Nuon is a technology developed by VM Labs that adds features to a DVD player. In addition to viewing DVDs, one can play 3D video games and use enhanced DVD navigational tools such as zoom and smooth scanning of DVD playback. One could also play CDs while the Nuon graphics processor generates synchronized graphics on the screen. There were plans to provide Internet access capability in the next generation of Nuon-equipped DVD players.
+History.
+Nuon started off as "Project X," and was featured in "Electronic Gaming Monthly"s 1999 Video Game Buyer's Guide. One of the Nuon's main software developers was Jeff Minter, who created a version of "Tempest" titled "Tempest 3000" for the system and the built-in VLM-2 audio visualizer. When it was first announced, the Nuon's creators envisioned it as a competitor for the upcoming video game consoles from the leading manufacturers. However, the Nuon platform was primarily marketed as an expanded DVD format. A large majority of Nuon players that were sold in fact resembled typical consumer DVD players with the only noticeable difference being a Nuon logo. Nuon players offered a number of features that were not available on other DVD players when playing standard DVD-formatted titles. These included very smooth forward and reverse functionality and the ability to smoothly zoom in and out of sections of the video image. In addition, Nuon provided a software platform to DVD authors to provide interactive software like features to their titles.
+In North America, Nuon was used in the Samsung DVD-N501 and DVD-N2000 models; they also released several models in other parts of the world: DVD-N504 (Europe), DVD N505 (Europe), and DVD-N591 (Korea). Toshiba released the SD-2300 DVD player, and there are two RCA models, the DRC300N and DRC480N. The Nuon was also used in Motorola's Streamaster 5000 "Digital DNA" set-top box.
+Nuon was created by VM Labs, whose assets were sold to Genesis Microchip in April 2002. By November 2004, there were no Nuon-enabled DVD players shipping and no new Nuon software titles released or in development.
+Peripherals and accessories.
+Peripherals for Nuon-enhanced DVD players included the following:
+Released movies.
+Only four DVD releases utilized Nuon technology. All of them were released by 20th Century Fox Home Entertainment:
+Released games.
+Only eight games were officially released for the Nuon:
+Homebrew development.
+During late 2001, VM Labs released a homebrew SDK which allowed people to be able to program apps/games for their Nuon system. Only the Samsung DVD-N501/DVDN504/DVDN505 and RCA DRC300N/DRC480N can load homebrew games.
+Some homebrew titles have been created for or ported to Nuon. They are not commercially available and require the user to burn the material to a Nuon-compatible CD-R.
+

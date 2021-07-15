@@ -1,0 +1,2 @@
+Diagonal is a kind of straight line. A diagonal line does not go straight up, down, or across.
+In mathematics, "diagonal" has different meanings. For example, in geometry a diagonal is any line that goes between the corners of a polygon. So a square has two diagonals, and a five-sided shape has five diagonals.

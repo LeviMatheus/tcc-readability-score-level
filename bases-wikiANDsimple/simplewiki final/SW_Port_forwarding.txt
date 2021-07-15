@@ -1,0 +1,2 @@
+Port forwarding, also referred to as port mapping, is a method of forwarding a network port from one network node to another. This technique can allow an external user to reach a port on a private IP address (inside a LAN) from the outside using a NAT-enabled router.
+Port forwarding allows remote computers (e.g. public machines on the Internet) to connect to a specific computer within a private LAN.

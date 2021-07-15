@@ -1,0 +1,18 @@
+
+In optics and lens design, the Abbe number, also known as the V-number or constringence of a transparent material, is an approximate measure of the material's dispersion (change of refractive index versus wavelength), with high values of "V" indicating low dispersion. It is named after Ernst Abbe (1840–1905), the German physicist who defined it. The term V-number should not be confused with the normalized frequency in fibers.
+The Abbe number, "VD", of a material is defined as
+where "n"C, "n"D and "n"F are the refractive indices of the material at the wavelengths of the Fraunhofer C, D1, and F spectral lines (656.3 nm, 589.3 nm, and 486.1 nm respectively). This formulation only applies to the visible spectrum. Outside this range requires the use of different spectral lines. For non-visible spectral lines the term V-number is more commonly used. The more general formulation defined as,
+where "n"short, "n"center and "n"long are the refractive indices of the material at three different wavelengths. The shortest wavelength index is "n"short and the longest is "n"long.
+Abbe numbers are used to classify glass and other optical materials in terms of their chromaticity. For example, the higher dispersion flint glasses have "V" &lt; 55 whereas the lower dispersion crown glasses have larger Abbe numbers. Values of "V" range from below 25 for very dense flint glasses, around 34 for polycarbonate plastics, up to 65 for common crown glasses, and 75 to 85 for some fluorite and phosphate crown glasses. 
+Abbe numbers are used in the design of achromatic lenses, as their "reciprocal" is proportional to dispersion (slope of refractive index versus wavelength) in the wavelength region where the human eye is most sensitive (see graph). For different wavelength regions, or for higher precision in characterizing a system's chromaticity (such as in the design of apochromats), the full dispersion relation (refractive index as a function of wavelength) is used.
+Abbe diagram.
+An Abbe diagram, also called 'the glass veil', is produced by plotting the Abbe number "V"d of a material versus its refractive index "n"d. Glasses can then be categorised and selected according to their positions on the diagram. This can be a letter-number code, as used in the Schott Glass catalogue, or a 6-digit glass code.
+Glasses' Abbe numbers, along with their mean refractive indices, are used in the calculation of the required refractive powers of the elements of achromatic lenses in order to cancel chromatic aberration to first order. Note that these two parameters which enter into the equations for design of achromatic doublets are exactly what is plotted on an Abbe diagram.
+Due to the difficulty and inconvenience in producing sodium and hydrogen lines, alternate definitions of the Abbe number are often substituted (ISO 7944). Rather than the standard definition, above, using the refractive index variation between the F and C hydrogen lines, an alternative measure using the subscript "e"
+takes the difference between the refractive indices of the blue and red cadmium lines at 480.0 nm and 643.8 nm (with "ne" referring to the wavelength of the mercury e-line, 546.073 nm). Other definitions can similarly be employed; the following table lists standard wavelengths at which n is commonly determined, including the standard subscripts employed.
+Derivation.
+Starting from the Lensmaker's equation for a thin lens 
+The change of refractive power "P" between the two wavelengths "λ"short and "λ"long is given by
+This is expressed in terms of the power "P"c at "λ"center by multiplying and dividing by formula_6
+The relative change is inversely proportional to "V"
+

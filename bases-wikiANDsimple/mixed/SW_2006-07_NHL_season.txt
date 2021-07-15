@@ -1,0 +1,11 @@
+=Final standings=.
+"Red-shaded team won the Presidents' Trophy and home-ice advantage throughout the playoffs."
+"Orange-shaded team clinched the other conference."
+"Yellow-shaded teams clinched the other four divisions."
+"Green-shaded teams clinched the remaining ten playoff berths."
+Numbers in parentheses indicate ranking in conference. Division leaders are automatically ranked 1–3. These three, plus the next five teams in the conference standings, earn playoff berths at the end of the season.
+"Note: W = Wins, L = Losses, OTL = Overtime Losses, GF = Goals For, GA = Goals Against, Pts = Points"
+Scoring leaders.
+"Note: GP = Games played; G = Goals; A = Assists; Pts = Points; +/– = Plus/Minus; PIM = Penalty Minutes"
+Leading goaltenders.
+"Note: GP = Games Played; TOI = Time On Ice (minutes); W = Wins; L = Losses; OT = Overtime/Shootout Losses; GA = Goals Against; SO = Shutouts; Sv% = Save Percentage; GAA = Goals Against Average"

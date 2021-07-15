@@ -1,0 +1,24 @@
+
+In abstract algebra, a normal subgroup (also known as an invariant subgroup or self-conjugate subgroup) is a subgroup that is invariant under conjugation by members of the group of which it is a part. In other words, a subgroup of the group is normal in if and only if for all and . The usual notation for this relation is formula_1.
+Normal subgroups are important because they (and only they) can be used to construct quotient groups of the given group. Furthermore, the normal subgroups of are precisely the kernels of group homomorphisms with domain , which means that they can be used to internally classify those homomorphisms.
+Évariste Galois was the first to realize the importance of the existence of normal subgroups.
+Definitions.
+A subgroup of a group is called a normal subgroup of if it is invariant under conjugation; that is, the conjugation of an element of by an element of is always in . The usual notation for this relation is formula_1.
+Equivalent conditions.
+For any subgroup of , the following conditions are equivalent to being a normal subgroup of . Therefore, any one of them may be taken as the definition:
+Examples.
+For any group , the trivial subgroup consisting of just the identity element of is always a normal subgroup of . Likewise, itself is always a normal subgroup of . (If these are the only normal subgroups, then is said to be simple.) Other named normal subgroups of an arbitrary group include the center of the group (the set of elements that commute with all other elements) and the commutator subgroup formula_6. More generally, since conjugation is an isomorphism, any characteristic subgroup is a normal subgroup.
+If is an abelian group then every subgroup of is normal, because formula_7 A group that is not abelian but for which every subgroup is normal is called a Hamiltonian group.
+A concrete example of a normal subgroup is the subgroup formula_8 of the symmetric group formula_9, consisting of the identity and both three-cycles. In particular, one can check that every coset of formula_10 is either equal to formula_10 itself or is equal to formula_12. On the other hand, the subgroup formula_13 is not normal in formula_9 since formula_15.
+In the Rubik's Cube group, the subgroups consisting of operations which only affect the orientations of either the corner pieces or the edge pieces are normal.
+The translation group is a normal subgroup of the Euclidean group in any dimension. This means: applying a rigid transformation, followed by a translation and then the inverse rigid transformation, has the same effect as a single translation. By contrast, the subgroup of all rotations about the origin is "not" a normal subgroup of the Euclidean group, as long as the dimension is at least 2: first translating, then rotating about the origin, and then translating back will typically not fix the origin and will therefore not have the same effect as a single rotation about the origin.
+Properties.
+Lattice of normal subgroups.
+Given two normal subgroups, and , of , their intersection formula_20and their product formula_21 are also normal subgroups of . 
+The normal subgroups of form a lattice under subset inclusion with least element, , and greatest element, . The meet of two normal subgroups, and , in this lattice is their intersection and the join is their product.
+The lattice is complete and modular.
+Normal subgroups, quotient groups and homomorphisms.
+If is a normal subgroup, we can define a multiplication on cosets as follows:formula_22This relation defines a mapping formula_23. To show that this mapping is well-defined, one needs to prove that the choice of representative elements formula_24 does not affect the result. To this end, consider some other representative elements formula_25. Then there are formula_26 such that formula_27. It follows that formula_28where we also used the fact that formula_10 is a "normal" subgroup, and therefore there is formula_30 such that formula_31. This proves that this product is a well-defined mapping between cosets.
+With this operation, the set of cosets is itself a group, called the quotient group and denoted with . There is a natural homomorphism, , given by . This homomorphism maps formula_10 into the identity element of , which is the coset , that is, formula_33.
+In general, a group homomorphism, sends subgroups of to subgroups of . Also, the preimage of any subgroup of is a subgroup of . We call the preimage of the trivial group in the kernel of the homomorphism and denote it by . As it turns out, the kernel is always normal and the image of , , is always isomorphic to (the first isomorphism theorem). In fact, this correspondence is a bijection between the set of all quotient groups of , , and the set of all homomorphic images of (up to isomorphism). It is also easy to see that the kernel of the quotient map, , is itself, so the normal subgroups are precisely the kernels of homomorphisms with domain .
+

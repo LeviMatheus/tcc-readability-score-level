@@ -1,0 +1,28 @@
+An instruction pipeline is a technique used in the design of modern microprocessors, microcontrollers and CPUs to increase their instruction throughput (the number of instructions that can be executed in a unit of time).
+The main idea is to divide (termed "split") the processing of a CPU instruction, as defined by the instruction microcode, into a series of independent steps of micro-operations (also called "microinstructions", "micro-op" or "µop"), with storage at the end of each step. This allows the CPUs control logic to handle instructions at the processing rate of the slowest step, which is much faster than the time needed to process the instruction as a single step.
+The term pipeline refers to the fact that each step is carrying a single microinstruction (like a drop of water), and each step is linked to another step (analogy; similar to water pipes).
+Processors with pipelining consist internally of stages (modules) which can semi-independently work on separate microinstructions. Each stage is linked by flip flops to the next stange (like a "chain") so that the stage's output is an input to another stage until the job of processing instructions is done. Such organization of processor internal modules reduces the instruction's overall processing time.
+A non-pipeline architecture is not as efficient because some CPU modules are idle while another module is active during the instruction cycle. Pipelining does not completely remove idle time in a pipelined CPU, but making CPU modules work in parallel increases instruction throughput.
+An instruction pipeline is said to be "fully pipelined" if it can accept a new instruction every clock cycle. A pipeline that is not fully pipelined has wait cycles that delay the progress of the pipeline.
+Generic pipeline.
+The top gray box is the list of instructions waiting to be executed; the bottom gray box is the list of instructions that have been completed; and the middle white box is the pipeline.
+Bubble.
+When a "hiccup" (interruption) in execution occurs, a "bubble" is created in the pipeline in which nothing useful happens. In cycle 2, the fetching of the purple instruction is delayed and the decoding stage in cycle 3 now contains a bubble. Everything behind the purple instruction is delayed as well but everything in front of the purple instruction continues with execution.
+Clearly, when compared to the execution above, the bubble yields a total execution time of 8 clock ticks instead of 7.
+Bubbles are like stalls (delays), in which nothing useful will happen for the fetch, decode, execute and writeback. It can is like a NOP (short for No OPeration) code.
+Example 1.
+The locations 'R1' and 'R2' are registers in the CPU. The values stored in memory locations labeled 'A' and 'B' are loaded (copied) into these registers, then added, and the result is stored in a memory location labeled 'C'.
+In this example the pipeline is three stages long- load, execute, and store. Each of the steps are called pipeline stages.
+On a non-pipelined processor, only one stage can be working at a time so the entire instruction has to complete before the next instruction can begin. On a pipelined processor, all of the stages can be working at once on different instructions. So when this instruction is at the execute stage, a second instruction will be at the decode stage and a 3rd instruction will be at the fetch stage.
+Example 2.
+LOAD #40, A; load 40 in A
+MOVE A, B; copy A in B
+ADD #20, B; add 20 to B
+STORE B, 0x300; store B into memory cell 0x300
+The LOAD instruction is fetched from memory.
+The LOAD instruction is executed, while the MOVE instruction is fetched from memory.
+The LOAD instruction is in the Store stage, where its result (the number 40) will be stored in the register A.
+In the meantime, the MOVE instruction is being executed.
+Since it must move the contents of A into B, it must wait for the ending of the LOAD instruction.
+The STORE instruction is loaded, while the MOVE instruction is finishing off and the ADD is calculating.
+And so on. Note that, sometimes, an instruction will depend on the result of another one (like our MOVE example). When more than one instruction references a particular location for an operand, either reading it (as an input) or writing it (as an output), executing those instructions in an order different from the original program order can lead to the hazards situation (mentioned above).

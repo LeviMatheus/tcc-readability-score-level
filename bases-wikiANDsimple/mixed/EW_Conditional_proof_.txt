@@ -1,0 +1,9 @@
+
+A conditional proof is a proof that takes the form of asserting a conditional, and proving that the antecedent of the conditional necessarily leads to the consequent. 
+Overview.
+The assumed antecedent of a conditional proof is called the conditional proof assumption (CPA). Thus, the goal of a conditional proof is to demonstrate that if the CPA were true, then the desired conclusion necessarily follows. The validity of a conditional proof does not require that the CPA be actually true, only that "if it were true" it would lead to the consequent.
+Conditional proofs are of great importance in mathematics. Conditional proofs exist linking several otherwise unproven conjectures, so that a proof of one conjecture may immediately imply the validity of several others. It can be much easier to show a proposition's truth to follow from another proposition than to prove it independently.
+A famous network of conditional proofs is the NP-complete class of complexity theory. There is a large number of interesting tasks, and while it is not known if a polynomial-time solution exists for any of them, it is known that if such a solution exists for any of them, one exists for all of them. Similarly, the Riemann hypothesis has many consequences already proven.
+Symbolic logic.
+As an example of a conditional proof in symbolic logic, suppose we want to prove A → C (if A, then C) from the first two premises below:
+

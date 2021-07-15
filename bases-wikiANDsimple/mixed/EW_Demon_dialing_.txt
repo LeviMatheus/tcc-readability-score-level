@@ -1,0 +1,8 @@
+
+In the computer hacking scene of the 1980s, demon dialing was a technique by which a computer was used to repeatedly dial a number (usually to a crowded modem pool) in an attempt to gain access immediately after another user had hung up. The expansion of accessible internet service provider connectivity since that time has rendered the practice more or less obsolete.
+A similar technique was sometimes used to get the first call for prizes in radio "call-in" shows, thus leading to the adoption of random "fifth caller," "seventeenth caller" etc. by radio stations to circumvent this practice.
+The term "demon dialing" derives from the Demon Dialer product from Zoom Telephonics, Inc., a telephone device produced in the 1980s which repeatedly dialed busy telephone numbers under control of an extension phone.
+"Demon dialing" was popularized by the movie "WarGames", which demonstrates the hacking technique (the technique eventually evolves into a technique called "phreaking"). After giving the program an area code and 3 digit prefix, the program then serially dialed every phone number in that prefix in order, recording which phone numbers were answered by a computer modem. Soon after, most likely because it was popularized by the movie, serial dialing was outlawed. Hackers got around this by simply randomizing the order the program dialed all the numbers. Later the terms "demon dialing" and "war dialing" became synonymous.
+Similar technologies.
+Automatic redial is essentially exactly the same thing, but for modems, and included in most telecommunications programs that use modems, including all variants of Dial-up networking ever included in the Windows operating system.
+

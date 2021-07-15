@@ -1,0 +1,1 @@
+WordPress is a piece of software used inside blogs. It is open source, licensed under the GPL, and written in PHP.

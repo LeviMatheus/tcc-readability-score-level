@@ -1,0 +1,28 @@
+
+HP-UX (from "Hewlett Packard Unix") is Hewlett Packard Enterprise's proprietary implementation of the Unix operating system, based on Unix System V (initially System III) and first released in 1984. Recent versions support the HP 9000 series of computer systems, based on the PA-RISC instruction set architecture, and HPE Integrity Servers, based on Intel's Itanium architecture.
+Earlier versions of HP-UX supported the HP Integral PC and HP 9000 Series 200, 300, and 400 computer systems based on the Motorola 68000 series of processors, as well as the HP 9000 Series 500 computers based on HP's proprietary FOCUS architecture.
+HP-UX was the first Unix to offer access control lists for file access permissions as an alternative to the standard Unix permissions system. HP-UX was also among the first Unix systems to include a built-in logical volume manager. HP has had a long partnership with Veritas Software, and uses VxFS as the primary file system.
+It is one of four commercial operating systems that have versions certified to The Open Group's UNIX 03 standard. (The others are macOS, AIX and Huawei's EulerOS.)
+Characteristics.
+HP-UX 11i offers a common shared disks for its clustered file system. HP Serviceguard is the cluster solution for HP-UX. HP Global Workload Management adjusts workloads to optimize performance, and integrates with Instant Capacity on Demand so installed resources can be paid for in 30-minute increments as needed for peak workload demands.
+HP-UX offers operating system-level virtualization features such as hardware partitions, isolated OS virtual partitions on cell-based servers, and HP Integrity Virtual Machines (HPVM) on all Integrity servers. HPVM supports guests running on HP-UX 11i v3 hosts – guests can run Linux, Windows, OpenVMS 8.4 or HP-UX. HP supports online VM guest migration, where encryption can secure the guest contents during migration.
+HP-UX 11i v3 scales as follows (on a SuperDome 2 with 32 Intel Itanium 9560 processors):
+Security.
+The 11i v2 release introduced kernel-based intrusion detection, strong random number generation, stack buffer overflow protection, security partitioning, role-based access management, and various open-source security tools.
+HP classifies the operating system's security features into three categories: data, system and identity:
+Context dependent files.
+Release 6.x (together with 3.x) introduced the context dependent files (CDF) feature, a method of allowing a fileserver to serve different configurations and binaries (and even architectures) to different client machines in a heterogeneous environment. A directory containing such files had its suid bit set and was made hidden from both ordinary and root processes under normal use. Such a scheme was sometimes exploited by intruders to hide malicious programs or data. CDFs and the CDF filesystem were dropped with release 10.0.
+Supported hardware platforms.
+HP-UX operating systems supports a variety of PA-RISC systems. The 11.0 added support for Integrity-based servers for the transition from PA-RISC to Itanium. HP-UX 11i v1.5 is the first version that supported Itanium. On the introduction of HP-UX 11i v2 the operating system supported both of these architectures.
+BL series.
+HP-UX 11i supports HPE Integrity Servers of HP BL server blade family. These servers use the Intel Itanium architecture.
+CX series.
+HP-UX 11i v2 and 11i v3 support HP's CX series servers. CX stands for carrier grade and is used mainly for telco industry with -48V DC support and is NEBS certified. Both of these systems contain Itanium Mad6M processors and are discontinued.
+RX series.
+HP-UX supports HP's RX series of servers.
+Release history.
+Prior to the release of HP-UX version 11.11, HP used a decimal version numbering scheme with the first number giving the major release and the number following the decimal showing the minor release. With 11.11, HP made a marketing decision to name their releases 11"i" followed by a v("decimal-number") for the version. The "i" was intended to indicate the OS is Internet-enabled, but the effective result was a dual version-numbering scheme.
+HP-UX 11i operating environments.
+HP bundles HP-UX 11i with programs in packages they call Operating Environments (OEs).
+The following lists the currently available HP-UX 11i v3 OEs:
+

@@ -1,0 +1,8 @@
+
+The kilobit is a multiple of the unit bit for digital information or computer storage. The prefix "kilo-" (symbol k) is defined in the International System of Units (SI) as a multiplier of 103 (1 thousand), and therefore,
+The kilobit has the unit symbol kbit or kb.
+Using the common byte size of 8 bits, 1 kbit is equal to 125 bytes.
+The kilobit is commonly used in the expression of data rates of digital communication circuits as kilobits per second (kbit/s or kb/s), or abbreviated as "kbps", as in, for example, "a 56 kbps PSTN circuit", or "a 512 kbit/s broadband Internet connection".
+The unit symbol kb (lowercase 'b') is typographically similar to the international standard unit symbol for the kilobyte, i.e. kB (upper case 'B'). The International Electrotechnical Commission (IEC) recommends the symbol bit instead of b. The prefix "kilo-" is often used in fields of computer science and information technology with a meaning of multiplication by 1024 instead of 1000, contrary to international standards, in conjunction with the base unit byte and bit, in which case it is to be written as "Ki-", with a capital letter K, e.g., 1 Kibit = 1024 bits. The decimal SI definition, 1 kbit/s = 1000 bit/s, is used uniformly in the context of telecommunication transmission speeds.
+The kilobit is closely related to the much less used kibibit, a unit multiple derived from the binary prefix "kibi-" (symbol Ki) of the same order of magnitude, which is equal to = 1024 bits, or approximately 2% larger than the kilobit. Despite the definitions of these new prefixes, meant for binary-based quantities of storage by international standards organizations, memory semiconductor chips are still marketed using the metric prefix names to designate binary multiples.
+

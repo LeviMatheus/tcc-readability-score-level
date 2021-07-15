@@ -1,0 +1,1 @@
+An ancestor is a parent, a parent's parent ("grandparent"), a parent's parent's parent (or "great grandparent"), and so on. It is usually used to mean a creator of a generation which lives on.

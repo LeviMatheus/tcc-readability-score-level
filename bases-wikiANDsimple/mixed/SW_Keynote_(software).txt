@@ -1,0 +1,3 @@
+Keynote is a presentation software application made by Apple for its Mac OS X operating system.
+History.
+Keynote was a software program that Steve Jobs, the chief executive officer of Apple used for his own presentations. It was eventually sold publicly as Keynote 1.0 competing against existing presentation software, especially Microsoft PowerPoint. Unlike PowerPoint, Keynote has full support for almost all image types, and the interface and design are much more graphic-oriented. Since Keynote makes use of Mac OS X's built-in graphics technologies, it can produce such slides very easily.

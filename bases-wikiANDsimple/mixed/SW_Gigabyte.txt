@@ -1,0 +1,3 @@
+A gigabyte (GB or "gig") is a unit of measurement in computers and similar electronic devices. At first it meant exactly 1 billion bytes, usually referring to the number of bytes in a computer hard drive. Its meaning gradually changed over time, so that today it is often used to mean 1,073,741,824 (230) bytes, especially when referring to the random access memory (RAM) of a modern computer. Now some people say a gigabyte should only be used to mean exactly 1 billion bytes, and that gibibyte is a better name for 1,073,741,824 bytes. In everyday use, most people still use "gigabyte" to mean 1,073,741,824 bytes when talking about computer memory.
+Uses.
+This measurement is often used when measuring the capacity of computer memory, hard drives, or other storage devices.

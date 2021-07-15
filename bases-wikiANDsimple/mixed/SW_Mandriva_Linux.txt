@@ -1,0 +1,8 @@
+Mandriva (formerly named Mandrake Linux) is a Linux distribution.
+Brief history.
+Mandriva was first made public by a French software company MandrakeSoft. And its first release was built with a Red Hat Linux 5.1 in 1998. MandrakeSoft named this Linux operating system "Linux Mandrake" at first, then changed into Mandrake Linux, and now a formal name is Mandriva for MandrakeSoft agreed to make a new company together with a Brazilian software company Conectiva.
+Releases.
+Mandriva Linux is suitable for servers, workstations and Desktop uses. There is a free release version (based upon GPL license and downloadable). At the same time, MandrivaSoft sells her products with support (in box with support and documentation).
+Mandriva Linux is optimized (will perform better) for i586 architecture of Intel CPU.
+See Also.
+List of Linux distributions

@@ -1,0 +1,1 @@
+A Sequence is when several things are put together. The order in which those things can be derermined, and has a meaning as well. (Blue, Red, Yellow) is not the same as (Yellow, Blue, Red). Sequences can be finite or not. An example of a sequence that is not finite is the sequence of all odd numbers, bigger than 0.

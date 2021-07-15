@@ -1,0 +1,15 @@
+Electromagnetic induction is where a current is produced in a conductor through a changing magnetic flux.
+Magnetic flux.
+Magnetic flux is the strength of the magnetic field going through an area. It is the product of the magnetic field (B), the area (A) that it is going through and the angle (a) between the line 90 degrees to the area and the magnetic field lines. Magnetic flux
+is represented by the symbol formula_1, therefore we can say that formula_1 = BAcos(a) and the resulting unit will be formula_3, where T is the unit for magnetic field and formula_4 is the unit for area.
+The changing magnetic flux generates an electromotive force (EMF). This force then pushes free electrons in a certain way, which in turn creates a current.
+Faraday's Law.
+Michael Faraday found that an electromotive force is generated when there is a change in magnetic flux in a conductor.
+formula_5
+formula_6 is the electromotive force, measured in volts;
+formula_7 is the change in magnetic flux, measured in webers;
+formula_8 is the change in time, measured in seconds.
+formula_9
+N is the number of loops in the solenoid.
+Lenz's Law.
+The negative sign in both equation above is a result of Lenz's law, named after Heinrich Lenz. His law states that the electromotive force (EMF) produces a current that opposes the motion of the changing magnetic flux.

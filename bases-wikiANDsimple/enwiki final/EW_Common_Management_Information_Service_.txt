@@ -1,0 +1,9 @@
+
+The Common Management Information Service (CMIS) is the service interface specified in ITU-T Recommendation X.710, ISO/IEC International Standard 9595 that is employed by OSI network elements for network management. It defines the service interface that is implemented by the Common Management Information Protocol (CMIP) as specified in ITU-T Recommendation X.711, ISO/IEC International Standard 9596-1. CMIS is part of the Open Systems Interconnection (OSI) body of international network standards.
+Note the term CMIP is sometimes used erroneously when CMIS is intended. CMIS/CMIP is most often used in telecommunication applications, in other areas SNMP has become more popular.
+Services.
+The following services are made available by the Common Management Information Service Element (CMISE) to allow management of network elements:
+Management association services.
+To transfer management information between open systems using CMIS/CMIP, peer connections, "i.e.," associations, must be established. This requires the establishment of an Application layer association, a Session layer connection, a Transport layer connection, and, depending on supporting communications technology, Network layer and Link layer connections.
+CMIS initially defined management association services but it was later decided these services could be provided by ACSE and these services were removed. Below is a list of these services which were subsequently removed from ISO 9595:
+

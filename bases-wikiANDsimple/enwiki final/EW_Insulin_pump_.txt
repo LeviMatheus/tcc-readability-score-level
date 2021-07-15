@@ -1,0 +1,46 @@
+
+An insulin pump is a medical device used for the administration of insulin in the treatment of diabetes mellitus, also known as continuous subcutaneous insulin therapy.
+The device configuration may vary depending on design. A traditional pump includes:
+Other configurations are possible. More recent models may include disposable or semi-disposable designs for the pumping mechanism and may eliminate tubing from the infusion set.
+An insulin pump is an alternative to multiple daily injections of insulin by insulin syringes or an insulin pen and allows for flexible insulin therapy when used in conjunction with blood glucose monitoring and carbohydrate counting.
+Medical uses.
+Insulin pumps are used to deliver insulin on a continuous basis to a person with type I diabetes. 
+Disadvantages.
+Insulin pumps, cartridges, and infusion sets may be far more expensive than syringes used for insulin injection with several insulin pumps costing more than $6,000; necessary supplies can cost over $300. Another disadvantage of insulin pump use is a higher risk of developing diabetic ketoacidosis if the pump malfunctions. This can happen if the pump battery is discharged, if the insulin is inactivated by heat exposure, if the insulin reservoir runs empty, the tubing becomes loose and insulin leaks rather than being injected, or if the cannula becomes bent or kinked in the body, preventing delivery. Therefore, pump users typically monitor their blood sugars more frequently to evaluate the effectiveness of insulin delivery.
+Accessibility.
+Use of insulin pumps is increasing because of:
+History.
+In 1974 the first insulin pump was created and was named the Biostator. The first pump was so large that it was worn as a backpack. It also had the capability of monitoring the blood glucose levels so this also doubles as the first continuous glucose monitor. Today insulin pumps are so small that they can fit in a pocket or a purse.
+In 1984 an Infusaid implantable infusion device was used to treat a 22-year-old diabetic female successfully.
+The insulin pump was first endorsed in the United Kingdom in 2003, by the National Institute for Health and Care Excellence (NICE).
+Developments.
+New insulin pumps are becoming "smart" as new features are added to their design. These simplify the tasks involved in delivering an insulin bolus.
+MiniMed 670G is a type of insulin pump and sensor system created by Medtronic. It was approved by the US FDA in September 2016 and was the first approved hybrid closed loop system which senses a diabetic person's basal insulin requirement and automatically adjusts its delivery to the body.
+Dosing.
+An insulin pump allows the replacement of slow-acting insulin for basal needs with a continuous infusion of rapid-acting insulin.
+The insulin pump delivers a single type of rapid-acting insulin in two ways:
+Bolus shape.
+An insulin pump user can influence the profile of the rapid-acting insulin by shaping the bolus. Users can experiment with bolus shapes to determine what is best for any given food, which means that they can improve control of blood sugar by adapting the bolus shape to their needs.
+A standard bolus is an infusion of insulin pumped completely at the onset of the bolus. It's the most similar to an injection. By pumping with a "spike" shape, the expected action is the fastest possible bolus for that type of insulin. The standard bolus is most appropriate when eating high carb low protein low fat meals because it will return blood sugar to normal levels quickly.
+An extended bolus is a slow infusion of insulin spread out over time. By pumping with a "square wave" shape, the bolus avoids a high initial dose of insulin that may enter the blood and cause low blood sugar before digestion can facilitate sugar entering the blood. The extended bolus also extends the action of insulin well beyond that of the insulin alone. The extended bolus is appropriate when covering high fat high protein meals such as steak, which will be raising blood sugar for many hours past the onset of the bolus. The extended bolus is also useful for those with slow digestion (such as with gastroparesis or coeliac disease).
+A combination bolus/multiwave bolus is the combination of a standard bolus spike with an extended bolus square wave. This shape provides a large dose of insulin up front, and then also extends the tail of the insulin action. The combination bolus is appropriate for high carb high fat meals such as pizza, pasta with heavy cream sauce, and chocolate cake.
+A super bolus is a method of increasing the spike of the standard bolus. Since the action of the bolus insulin in the blood stream will extend for several hours, the basal insulin could be stopped or reduced during this time. This facilitates the "borrowing" of the basal insulin and including it into the bolus spike to deliver the same total insulin with faster action than can be achieved with spike and basal rate together. The super bolus is useful for certain foods (like sugary breakfast cereals) which cause a large post-prandial peak of blood sugar. It attacks the blood sugar peak with the fastest delivery of insulin that can be practically achieved by pumping.
+Bolus timing.
+Since the pump user is responsible to manually start a bolus, this provides an opportunity for the user to pre-bolus to improve upon the insulin pump's capability to prevent post-prandial hyperglycemia. A pre-bolus is simply a bolus of insulin given before it is actually needed to cover carbohydrates eaten.
+There are two situations where a pre-bolus is helpful:
+Similarly, a low blood sugar level or a low glycemic food might be best treated with a bolus "after" a meal is begun. The blood sugar level, the type of food eaten, and a person's individual response to food and insulin affect the ideal time to bolus with the pump.
+Basal rate patterns.
+The pattern for delivering basal insulin throughout the day can also be customized with a pattern to suit the pump user.
+Basal rate determination.
+Basal insulin requirements will vary between individuals and periods of the day. The basal rate for a particular time period is determined by fasting while periodically evaluating the blood sugar level. Neither food nor bolus insulin must be taken for 4 hours before or during the evaluation period. If the blood sugar level changes dramatically during evaluation, then the basal rate can be adjusted to increase or decrease insulin delivery to keep the blood sugar level approximately steady.
+For instance, to determine an individual's morning basal requirement, they must skip breakfast. On waking, they would test their blood glucose level periodically until lunch. Changes in blood glucose level are compensated with adjustments in the morning basal rate. The process is repeated over several days, varying the fasting period, until a 24-hour basal profile has been built up which keeps fasting blood sugar levels relatively steady. Once the basal rate is matched to the fasting basal insulin need, the pump user will then gain the flexibility to skip or postpone meals such as sleeping late on the weekends or working overtime on a weekday.
+Many factors can change insulin requirements and require an adjustment to the basal rate:
+A pump user should be educated by their diabetes care professional about basal rate determination before beginning pump therapy.
+Temporary basal rates.
+Since the basal insulin is provided as a rapid-acting insulin, the basal insulin can be immediately increased or decreased as needed with a temporary basal rate. Examples when this is helpful include:
+Society and culture.
+Security.
+In August 2011, an IBM researcher, Jay Radcliffe, demonstrated a security flaw in insulin pumps. Radcliffe was able to hack the wireless interface used to control the pump remotely. Pump manufacturer Medtronic later said security research by McAfee uncovered a flaw in its pumps that could be exploited.
+Animas Corporation
+In 2017, Animas Corporation announced the decision to discontinue both the manufacturing and sale of both their Animas Vibe and OneTouch Ping insulin pumps. The company partnered with Medtronic to ensure that Animas customers were able to stay on pump therapy and receive both the supplies and support they need.
+

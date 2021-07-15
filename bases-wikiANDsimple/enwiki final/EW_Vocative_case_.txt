@@ -1,0 +1,142 @@
+
+In grammar, the vocative case (abbreviated ) is a grammatical case which is used for a noun that identifies a person (animal, object, etc.) being addressed, or occasionally for the determiners of that noun. A vocative expression is an expression of direct address by which the identity of the party spoken to is set forth expressly within a sentence. For example, in the sentence "I don't know, John," "John" is a vocative expression that indicates the party being addressed, as opposed to the sentence "I don't know John" in which "John" is the direct object of the verb "know".
+Historically, the vocative case was an element of the Indo-European case system and existed in Latin, Sanskrit and Classical Greek. Many modern Indo-European languages (English, Spanish, etc.) have lost the vocative case, but others retain it, including the Baltic languages, some Celtic languages and most Slavic languages. Some linguists, such as Albert Thumb, argue that the vocative form is not a case but a special form of nouns not belonging to any case, as vocative expressions are not related syntactically to other words in sentences.
+Indo-European languages.
+Comparison.
+Distinct vocative forms are assumed to have existed in all early Indo-European languages and survive in some. Here is, for example, the Indo-European word for "wolf" in various languages:
+The elements separated with hyphens denote the stem, the so-called thematic vowel of the case and the actual suffix. In Latin, for example, the nominative case is "lupus and the vocative case is "lupe", but the accusative case is "lupum. The asterisks before the Proto-Indo-European words means that they are theoretical reconstructions and are not attested in a written source. The symbol ◌̩ (vertical line below) indicates a consonant serving as a vowel (it should appear directly below the "l" or "r" in these examples but may appear after them on some systems from issues of font display). All final consonants were lost in Proto-Slavic, so both the nominative and vocative Old Church Slavonic forms do not have true endings, only reflexes of the old thematic vowels.
+The vocative ending changes the stem consonant in Old Church Slavonic because of the so-called First Palatalization. Most modern Slavic languages that retain the vocative case have altered the ending to avoid the change: Bulgarian "вълко" occurs far more frequently than "вълче".
+Baltic languages.
+Lithuanian.
+The vocative is distinct in singular and identical to the nominative in the plural, for all inflected nouns. Nouns with a nominative singular ending in "-a" have a vocative singular usually identically written but distinct in accentuation.
+In Lithuanian, the form that a given noun takes depends on its declension class and, sometimes, on its gender. There have been several changes in history, the last being the "-ai" ending formed between the 18th and 19th centuries. The older forms are listed under "other forms".
+Some nouns of the e- and a- stems declensions (both proper ones and not) are stressed differently: "aikštė": "aikšte!" ("square"); "tauta": "tauta!". In addition, nouns of e-stems have an ablaut of long vowel ė in nominative and short vowel e in vocative. In pronunciation, ė is close-mid vowel , and e is open-mid vowel .
+The vocative of diminutive nouns with the suffix "-(i)ukas" most frequently has no ending: "broliùk" "brother!", etc. A less frequent alternative is the ending "-ai", which is also slightly dialectal: "broliùkai", etc.
+Colloquially, some personal names with a masculine "-(i)(j)o" stem and diminutives with the suffixes "-elis, -ėlis" have an alternative vocative singular form characterized by a zero ending (i.e. the stem alone acts as the voc. sg.): "Adõm" "Adam!" in addition to "Adõmai", "Mýkol" "Michael!" in addition to "Mýkolai", "vaikẽl" "kid!" in addition to "vaikẽli", etc.
+Celtic languages.
+Goidelic languages.
+Irish.
+The vocative case in Irish operates in a similar fashion to Scottish Gaelic. The principal marker is the vocative particle "a", which causes lenition of the initial letter.
+In the singular there is no special form, except for first declension nouns. These are masculine nouns that end in a broad (non-palatal) consonant, which is made slender (palatal) to build the singular vocative (as well as the singular genitive and plural nominative). Adjectives are also lenited. In many cases this means that (in the singular) masculine vocative expressions resemble the genitive and feminine vocative expressions resemble the nominative.
+The vocative plural is usually the same as the nominative plural except, again, for first declension nouns. In the standard language first declension nouns show the vocative plural by adding "-a". In the spoken dialects the vocative plural is often has the same form as the nominative plural (as with the nouns of other declensions) or the dative plural (e.g. a fhearaibh! = Men!)
+Scottish Gaelic.
+The vocative case in Scottish Gaelic follows the same basic pattern as Irish. The vocative case causes lenition of the initial consonant of nouns. Lenition changes the initial sound of the word (or name).
+In addition, masculine nouns are slenderized if possible (that is, in writing, an 'i' is inserted before the final consonant) This also changes the pronunciation of the word.
+Also, the particle "a" is placed before the noun unless it begins with a vowel (or f followed immediately by a vowel, which becomes silent when lenited). Examples of the use of the vocative personal names (as in Irish):
+The name "Hamish" is just the English spelling of "Sheumais" (the vocative of "Seumas" and pronounced "Hamish"), and thus is actually a Gaelic vocative. Likewise, the name "Vairi" is an English spelling of "Mhàiri," the vocative for Màiri.
+Manx.
+The basic pattern is similar to Irish and Scottish. The vocative is confined to personal names, in which it is common. Foreign names (not of Manx origin) are not used in the vocative. The vocative case causes lenition of the initial consonant of names. It can be used with the particle "y".
+The name "Voirrey" is actually the Manx vocative of "Moirrey" (Mary).
+Brythonic languages.
+Welsh.
+Welsh lacks case declension but marks vocative constructions by lenition of the initial consonant of the word, with no obligatory particle. Despite its use being less common, it is still used in formal address: the common phrase "foneddigion a boneddigesau" means "gentlemen and ladies", with the initial consonant of "boneddigion" undergoing a soft mutation; the same is true of "gyfeillion" ("[dear] friends") in which "cyfeillion" has been lenited. It is often used to draw attention to at public notices orally and written – teachers will say "Blant" (mutation of "children") and signage such as one right show mutation of "myfyrwyr" (students) to draw attention to the importance of the notice.
+Germanic languages.
+English.
+The vocative case in English is not generally used in regular communication. Vocative case in English is marked by the particle "O" preceding the noun; this is often used in English translations of languages that do have the vocative case. It is often seen in the King James Version of the Bible: "O ye of little faith" (in Matthew 8:26). While it is not strictly archaic, it is sometimes used to "archaeise" speech; it is often seen as very formal, and sees use in rhetoric and poetry. Another example is the recurrent use of the phrase "O (my) Best Beloved" by Rudyard Kipling in his "Just So Stories". The use of O may be considered a form of clitic and should not be confused with the interjection "oh". However, as the Oxford English Dictionary points out, "O" and "oh" were originally used interchangeably. With the advent of "oh" as a written interjection, however, "O" is the preferred modern spelling in vocative phrases.
+Modern English commonly uses the objective case for vocative expressions but sets them off from the rest of the sentences with pauses as interjections, rendered in writing as commas. Two common examples of vocative expressions in English are the phrases "Mr. President" and "Madam Chairwoman".
+Some traditional texts use "Jesu", the Latin vocative form of "Jesus". One of the best-known examples is "Jesu, Joy of Man's Desiring".
+See also Apostrophe (figure of speech).
+German dialects.
+In some German dialects, like the Ripuarian dialect of Cologne, it is common to use the (gender-appropriate) article before a person's name. In the vocative phrase then the article is, as in Venetian, omitted. Thus, the determiner precedes nouns in all cases except the vocative. Any noun not preceded by an article or other determiner is in the vocative case. It is most often used to address someone or some group of living beings, usually in conjunction with an imperative construct. It can also be used to address dead matter as if the matter could react or to tell something astonishing or just happening such as "Your nose is dripping."
+Colognian examples:
+Icelandic.
+The vocative case generally does not appear in Icelandic, but a few words retain an archaic vocative declension from Latin, such as the word "Jesús", which is "Jesú" in the vocative. That comes from Latin, as the Latin for Jesus in the nominative is "Jesus" and its vocative is "Jesu". 
+That is also the case in traditional English (without the accent) (see above):
+The native words "sonur" ("son") and "vinur" ("friend") also sometimes appear in the shortened forms "son" and "vin" in vocative phrases. Additionally, adjectives in vocative phrases are always weakly declined, but elsewhere with proper nouns, they would usually be declined strongly:
+Norwegian.
+Nouns in Norwegian are not inflected for the vocative case, but adjectives qualifying those nouns are; adjectival adjuncts modifying vocative nouns are inflected for the definite singular (see: Norwegian language#Adjectives). This phenomenon can be more easily observed with adjectives that inflect for plural and definite differently, e.g. liten being "lille" when definite, but "små" when plural, an instance of suppletion.
+In several Norwegian dialects, north of an isogloss running from Oslo to Bergen, names in argument position are associated with proprial articles, e.g. gendered pronouns such as "han" ('he') or "hun" ('she'), which either precede or follow the noun in question. This is not the case when in vocative constructions.
+Greek.
+In Ancient Greek, the vocative case is usually identical to the nominative case, with the exception of masculine second-declension nouns (ending in -ος) and third-declension nouns.
+Second-declension masculine nouns have a regular vocative ending in -ε. Third-declension nouns with one syllable ending in -ς have a vocative that is identical to the nominative (νύξ, night); otherwise, the stem (with necessary alterations, such as dropping final consonants) serves as the vocative (nom. πόλις, voc. πόλι; nom. σῶμα, gen. σώματος, voc. σῶμα). Irregular vocatives exist as well, such as nom. Σωκράτης, voc. Σώκρατες.
+In Modern Greek, second-declension masculine nouns still have a vocative ending in -ε; some others also have a more formally used Vocative form for higher ranking people, like διευθυντά (principal!) or διοικητά (general!). However, the accusative case is often used as a vocative in informal speech for a limited number of nouns, and always used for certain modern Greek person names: "Έλα εδώ, Χρήστο" "Come here, Christos" instead of "...Χρήστε". Other nominal declensions use the same form in the vocative as the accusative in formal or informal speech, with the exception of learned "Katharevousa" forms that are inherited from Ancient Greek Ἕλλην (Demotic Έλληνας, "Greek man"), which have the same nominative and vocative forms instead.
+Iranian languages.
+Kurdish.
+Kurdish has a vocative case. For instance, in the dialect of Kurmanji, it is created by adding the suffix "-o" at the end of masculine words and the "-ê" suffix at the end of feminine ones. In the Jafi dialect of Sorani it is created by adding the suffix of "-i" at the end of names.
+Instead of the vocative case, forms of address may be created by using the grammatical particles "lê" (feminine) and "lo" (masculine):
+Indo-Aryan languages.
+Hindi-Urdu.
+In Hindi-Urdu (Hindustani), the vocative case has same from as the nominative case for all singular nouns except for the singular masculine nouns that terminate in the vowel आ /a:/ (ā) and for all nouns in their plural forms the vocative case is always distinct from the nominative case. Adjectives in "Hindi-Urdu" also have a vocative case form. In the absence of a noun argument, some adjectives decline like masculine nouns that do not end in आ /a:/ (ā).
+Sanskrit.
+In Sanskrit, the vocative (सम्बोधन विभक्ति "sambodhana vibhakti") has the same form as the nominative except in the singular. In vowel-stem nouns, if there is a "–ḥ" in the nominative, it is omitted and the stem vowel may be altered: "–ā" and "–ĭ" become "–e", "–ŭ" becomes "–o", "–ī" and "–ū" become short and "–ṛ" becomes "–ar". Consonant-stem nouns have no ending in the vocative:
+The vocative form is the same as the nominative except in the masculine and feminine singular.
+Slavic languages.
+Bulgarian.
+Unlike other Slavic languages except Macedonian, Bulgarian has lost case marking for nouns. However, Bulgarian preserves vocative forms. Traditional male names usually have a vocative ending.
+More-recent names and foreign names may have a vocative form but it is rarely used ("Ричарде", instead of simply "Ричард" Richard, sounds unusual to native speakers).
+Vocative phrases like "господин министре" (Mr. Minister) have been almost completely replaced by nominative forms, especially in official writing. Proper nouns usually also have vocative forms, but they are used less frequently. Here are some proper nouns that are frequently used in vocative:
+Vocative case forms also normally exist for female given names:
+Except for forms that end in -"е", they are considered rude and are normally avoided. For female kinship terms, the vocative is always used:
+Czech.
+In Czech, the vocative ("vokativ", or "5. pád" – "the fifth case") usually differs from the nominative in masculine and feminine nouns in the singular.
+In older common Czech (19th century), vocative form was sometimes replaced by nominative form in case of female names ("Lojzka, dej pokoj!") and in case of male nouns past a title ("pane učitel!", "pane továrník!", "pane Novák!"). This phenomenon was caused mainly by the German influence, and almost disappeared from the modern Czech. It can be felt as rude, discourteous or uncultivated, or as familiar, and is associated also with Slovakian influence (from the Czechoslovak Army) or Russian. In informal speech, it is common (but grammatically incorrect) to use the male surname (see also Czech name) in the nominative to address men: "pane Novák!" instead of "pane Nováku!" (Female surnames are adjectives, and their nominative and vocative have the same form: see Czech declension.) Using the vocative is strongly recommended in official and written styles.
+Polish.
+In Polish, the vocative ("wołacz") is formed with feminine nouns usually taking -o except those that end in -sia, -cia, -nia, and -dzia, which take -u, and those that end in -ść, which take -i. Masculine nouns generally follow the complex pattern of the locative case, with the exception of a handful of words such as ("God"), ("father") and ("boy"). Neuter nouns and all plural nouns have the same form in the nominative and the vocative:
+The latter form of the vocative of "człowiek" (human) is now considered poetical.
+The nominative is increasingly used instead of the vocative to address people with their proper names. In other contexts the vocative remains prevalent. It is used:
+The vocative is also often employed in affectionate and endearing contexts such as "Kocham Cię, Krzysiu!" ("I love you, Chris!") or "Tęsknię za Tobą, moja Żono" ("I miss you, my wife."). In addition, the vocative form sometimes takes the place of the nominative in informal conversations: "Józiu przyszedł" instead of "Józio przyszedł" ("Joey's arrived"). When referring to someone by their first name, the nominative commonly takes the place of the vocative as well: "Ania, chodź tu!" instead of "Aniu, chodź tu!" ("Anne, come here!").
+Russian.
+Historic vocative.
+The historic Slavic vocative has been lost in Russian and is now used only in archaic expressions. Several of them, mostly of religious origin, are common in colloquial Russian: "Боже!" ("Bože", vocative of "Бог" "Bog", "God") and "Боже мой!" ("Bože moj", "My God!"), and "Господи!" ("Gospodi", vocative of "Господь" "Gospodj", "Lord"), which can also be expressed as "Господи Иисусе!" ("Gospodi Iisuse!", "Iisuse" vocative of "Иисус" "Iisus", "Jesus"). The vocative is also used in prayers: "Отче наш!" ("Otče naš", "Our Father!"). Such expressions are used to express strong emotions (much like English "O my God!"), and are often combined ("Господи, Боже мой"). More examples of the historic vocative can be found in other Biblical quotes that are sometimes used as proverbs: "Врачу, исцелися сам" ("Vraču, iscelisia sam", "Physician, heal thyself", nom. "врач", "vrač"). Vocative forms are also used in modern Church Slavonic. The patriarch and bishops of the Russian Orthodox Church are addressed as "владыко" ("vladyko", hegemon, nom. "владыка", "vladyka"). In the latter case, the vocative is often also incorrectly used for the nominative to refer to bishops and patriarchs.
+New vocative.
+In modern colloquial Russian, given names and a small family of terms often take a special "shortened" form that some linguists consider to be a re-emerging vocative case. It is used only for given names and nouns that end in "-a" and "-я", which are sometimes dropped in the vocative form: "Лен, где ты?" ("Lena, where are you?"). It is basically equivalent to "Лена, где ты?" but suggests a positive personal and emotional bond between the speaker and the person being addressed. Names that end in "-я" then acquire a soft sign: "Оль!" = "Оля!" ("Olga!"). In addition to given names, the form is often used with words like "мама" (mom) and "папа" (dad), which would be respectively shortened to "мам" and "пап". The plural form is used with words such as "ребят", "девчат" (nom: "ребята", "девчата" guys, gals).
+Such usage differs from the historic vocative, which would be "Лено" and is not related.
+Serbo-Croatian.
+The vocative is widely used in Serbo-Croatian. It is surrounded by commas in a sentence as it is part of an unordered sentence array. According to "Hrvatska gramatika", vocative singular masculine is sometimes used instead of nominative for the subject or predicate in oral epic poetry. When translating direct speech to indirect speech, vocative has to become a different case, usually nominative or accusative.
+Nouns "tȅtka", "ûjna" and "strîna" have vocative equal to nominative when referring to a family member, and the suffix -"o" in vocative otherwise. Proper masculine nouns ending in -"a" always have vocative equal to nominative. General masculine nouns and polysyllabic feminine proper names ending in -"a" can have either. General nouns ending in -"ica" can have in vocative either -"ice" or -"ico". Proper nouns ending in -"ica" always have -"ice" in vocative.
+The everyday use of vocative endings for personal proper names varies among native speakers. People in the Zagreb area often use nominative forms as vocative, while others are more likely to apply traditional vocative forms.
+Some examples of the vocative case are:
+For the proper name "Marija", the traditional vocative is more common in religious contexts:
+Slovak.
+Until the end of the 1980s, the existence of a distinct vocative case in Slovak was recognised and taught at schools. Today, the case is no longer considered to exist except for a few archaic examples of the original vocative remaining in religious, literary or ironic contexts:
+In everyday use, the Czech vocative is sometimes retrofitted to certain words:
+Another stamp of vernacular vocative is emerging, presumably under the influence of Hungarian for certain family members or proper names:
+Ukrainian.
+Ukrainian has retained the vocative case mostly as it was in Proto-Slavic:
+There are some exceptions:
+It is used even for loanwords and foreign names:
+It is obligatory for all native names:
+It is used for patronymics:
+Latin.
+In Latin, the form of the vocative case of a noun is often the same as the nominative. Exceptions include singular second-declension nouns that end in "-us" in the nominative case. An example would be the famous line from Shakespeare, "Et tu, Brute?" (commonly translated as "And you, Brutus?"): "Brute is the vocative case and "Brutus would be the nominative.
+Nouns that end in "-ius" end with "-ī" instead of the expected "-ie". Thus, "Julius" becomes "Julī" and "filius" becomes "filī". The shortening does not shift the accent so the vocative of "Vergilius" is "Vergilī", with accent on the second syllable even though it is short. Nouns that end in "-aius" and "-eius" have vocatives that end in "-aī" or "-eī" even though the "i" in the nominative is consonantal.
+First-declension and second-declension adjectives also have distinct vocative forms in the masculine singular if the nominative ends in "-us", with the ending "-e". Adjectives that end in "-ius" have vocatives in "-ie" so the vocative of "eximius" is "eximie".
+Nouns and adjectives that end in "-eus" do not follow the rules above. "Meus" forms the vocative irregularly as "mī" or "meus", while Christian "Deus" does not have a distinct vocative and retains the form "Deus". "My God!" in Latin is thus "mī Deus!", but Jerome's Vulgate consistently used "Deus meus" as a vocative. Classical Latin did not use a vocative of "deus" either (in reference to pagan gods, the Romans used the suppletive form "dive").
+Romance languages.
+West Iberian languages.
+Portuguese drops the article to form the vocative. The vocative is always between commas and, like in many other languages, a particle "Ó" is commonly used:
+In Extremaduran and Fala, some post-tonical vowels open in vocative forms of nouns, a new development that is unrelated to the Latin vocative case.
+Catalan.
+Catalan drops the article to form the vocative.
+French.
+Like English, French sometimes uses (or historically used) a particle "Ô" to mark vocative phrases rather than by change to the form of the noun. A famous example is the title and first line of the Canadian national anthem, "O Canada" (French title: "Ô Canada"), a vocative phrase addressing Canada.
+Romanian.
+The vocative case in Romanian is partly inherited, occasionally causing other morphophonemic changes (see also the article on Romanian nouns):
+Since there is no "-o" vocative in Latin, it must have been borrowed from Slavic: compare the corresponding Bulgarian forms "сестро" ("sestro"), "откачалко" ("otkachalko"), "Елено" ("Eleno").
+In formal speech, the vocative often simply copies the nominative/accusative form even when it does have its own form. That is because the vocative is often perceived as very direct and so can seem rude.
+Venetian.
+Venetian has lost all case endings, like most other Romance languages. However, with feminine proper names the role of the vocative is played by the absence of the determiner: the personal article "ła / l' "usually precedes feminine names in other situations, even in predicates. Masculine names and other nouns lack articles and so rely on prosody to mark forms of address:
+Predicative constructions:
+Arabic.
+Properly speaking, Arabic has only three cases: nominative, accusative and genitive. However, a meaning similar to that conveyed by the vocative case in other languages is indicated by the use of the particle "yā" () placed before a noun inflected in the nominative case (or accusative if the noun is in construct form). In English translations, it is often translated literally as "O" instead of being omitted. A longer form used in Classical Arabic is ' (masculine), ' (feminine), sometimes combined with "yā". The particle "yā" was also used in old Castilian language, because of Arabic influence via Mozarabic immigrations.
+Mandarin.
+Mandarin uses and needs no special inflected forms for address. However, special forms and morphemes (that are not inflections) exist for addressing.
+Mandarin has several particles that can be attached to the word of address to mark certain special vocative forces, where appropriate. A common one is "a", attached to the end of the address word. For example, "rìjì" "diary" becomes "rìjì'a".
+Certain specialized vocative morphemes also exist, albeit with limited applicabilities. For instance, the Beijing dialect of Mandarin Chinese, to express strong feelings (especially negative ones) to someone, a neutral tone suffix "-ei" may be attached to certain address words. It is most commonly applied to the word ("sūnzi", "grandson"), to form "sūnzei", meaning approximately "Hey you nasty one!". Another example is ("xiǎozi", lit. "kid; young one"), resulting in "xiǎozei" "Hey kiddo!".
+Georgian.
+In Georgian, the vocative case is used to address the second-person singular and plural. For word roots that end with a consonant, the vocative case suffix is -"o", and for the words that end with a vowel, it is -"v" like in Old Georgian, but for some words, it is considered archaic. For example, "kats-" is the root for the word "man". If one addresses someone with the word, it becomes "katso".
+Adjectives are also declined in the vocative case. Just like nouns, consonant final stem adjectives take the suffix -"o" in the vocative case, and the vowel final stems are not changed:
+In the second phrase, both the adjective and the noun are declined. The personal pronouns are also used in the vocative case. "Shen" "you" (singular) and "tkven" "you" (plural) in the vocative case become "she!" and "tkve", without the -"n". Therefore, one could, for instance, say, with the declension of all of the elements:
+"She lamazo kalo!" "you beautiful woman!"
+Korean.
+The vocative case in Korean is commonly used with first names in casual situations by using the vocative case marker(호격 조사) 아 ("a") if the name ends in a consonant and 야 ("ya") if the name ends with a vowel:
+미진이 집에 가? ("Mijini jibe ga?") (Is Mijin going home?)
+미진아, 집에 가? ("Mijina, jibe ga?") (Mijin, are you going home?)
+동배 뭐 해? ("Dongbae mwo hae?") (What is Dongbae doing?)
+동배야, 뭐 해? ("Dongbaeya, mwo hae?") (Dongbae, what are you doing?)
+In formal Korean, the marker 여 ("yeo") or 이여 ("iyeo") is used, the latter if the root ends with a consonant. Thus, a quotation of William S. Clark would be translated as follows:
+소년이여, 야망을 가져라. ("sonyeoniyeo, yamangeul gajyeora.") (Boys, be ambitious.)
+The honorific infix 시 ("si") is inserted in between the 이 ("i") and 여 ("yeo").
+신이시여, 부디 저들을 용서하소서. ("sinisiyeo, budi jeodeureul yongseohasoseo.") (Oh god, please forgive them.)
+In Middle Korean, there were three honorific classes of the vocative case:
+

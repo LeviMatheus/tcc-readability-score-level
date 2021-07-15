@@ -1,0 +1,47 @@
+
+In digital transmission, the number of bit errors is the number of received bits of a data stream over a communication channel that have been altered due to noise, interference, distortion or bit synchronization errors.
+The bit error rate (BER) is the number of bit errors per unit time. The bit error ratio (also BER) is the number of bit errors divided by the total number of transferred bits during a studied time interval. Bit error ratio is a unitless performance measure, often expressed as a percentage.
+The bit error probability "pe" is the expectation value of the bit error ratio. The bit error ratio can be considered as an approximate estimate of the bit error probability. This estimate is accurate for a long time interval and a high number of bit errors.
+Example.
+As an example, assume this transmitted bit sequence:
+0 1 1 0 0 0 1 0 1 1 
+and the following received bit sequence:
+0 0 1 0 1 0 1 0 0 1,
+The number of bit errors (the underlined bits) is, in this case, 3. The BER is 3 incorrect bits divided by 10 transferred bits, resulting in a BER of 0.3 or 30%.
+Packet error ratio.
+The packet error ratio (PER) is the number of incorrectly received data packets divided by the total number of received packets. A packet is declared incorrect if at least one bit is erroneous. The expectation value of the PER is denoted packet error probability "pp", which for a data packet length of "N" bits can be expressed as
+assuming that the bit errors are independent of each other. For small bit error probabilities and large data packets, this is approximately
+Similar measurements can be carried out for the transmission of frames, blocks, or symbols.
+Factors affecting the BER.
+In a communication system, the receiver side BER may be affected by transmission channel noise, interference, distortion, bit synchronization problems, attenuation, wireless multipath fading, etc.
+The BER may be improved by choosing a strong signal strength (unless this causes cross-talk and more bit errors), by choosing a slow and robust modulation scheme or line coding scheme, and by applying channel coding schemes such as redundant forward error correction codes.
+The "transmission BER" is the number of detected bits that are incorrect before error correction, divided by the total number of transferred bits (including redundant error codes). The "information BER", approximately equal to the decoding error probability, is the number of decoded bits that remain incorrect after the error correction, divided by the total number of decoded bits (the useful information). Normally the transmission BER is larger than the information BER. The information BER is affected by the strength of the forward error correction code.
+Analysis of the BER.
+The BER may be evaluated using stochastic (Monte Carlo) computer simulations. If a simple transmission channel model and data source model is assumed, the BER may also be calculated analytically. An example of such a data source model is the Bernoulli source.
+Examples of simple channel models used in information theory are:
+A worst-case scenario is a completely random channel, where noise totally dominates over the useful signal. This results in a transmission BER of 50% (provided that a Bernoulli binary data source and a binary symmetrical channel are assumed, see below).
+In a noisy channel, the BER is often expressed as a function of the normalized carrier-to-noise ratio measure denoted Eb/N0, (energy per bit to noise power spectral density ratio), or Es/N0 (energy per modulation symbol to noise spectral density).
+For example, in the case of QPSK modulation and AWGN channel, the BER as function of the Eb/N0 is given by:
+formula_3.
+People usually plot the BER curves to describe the performance of a digital communication system. In optical communication, BER(dB) vs. Received Power(dBm) is usually used; while in wireless communication, BER(dB) vs. SNR(dB) is used.
+Measuring the bit error ratio helps people choose the appropriate forward error correction codes. Since most such codes correct only bit-flips, but not bit-insertions or bit-deletions, the Hamming distance metric is the appropriate way to measure the number of bit errors. Many FEC coders also continuously measure the current BER.
+A more general way of measuring the number of bit errors is the Levenshtein distance.
+The Levenshtein distance measurement is more appropriate for measuring raw channel performance before frame synchronization, and when using error correction codes designed to correct bit-insertions and bit-deletions, such as Marker Codes and Watermark Codes.
+Mathematical draft.
+The BER is the likelihood of a bit misinterpretation due to electrical noise formula_4. Considering a bipolar NRZ transmission, we have
+formula_5 for a "1" and formula_6 for a "0". Each of formula_7 and formula_8 has a period of formula_9.
+Knowing that the noise has a bilateral spectral density formula_10,
+formula_7 is formula_12
+and formula_8 is formula_14.
+Returning to BER, we have the likelihood of a bit misinterpretation formula_15.
+formula_16 and formula_17
+where formula_18 is the threshold of decision, set to 0 when formula_19.
+We can use the average energy of the signal formula_20 to find the final expression :
+formula_21
+Bit error rate test.
+BERT or bit error rate test is a testing method for digital communication circuits that uses predetermined stress patterns consisting of a sequence of logical ones and zeros generated by a test pattern generator.
+A BERT typically consists of a test pattern generator and a receiver that can be set to the same pattern. They can be used in pairs, with one at either end of a transmission link, or singularly at one end with a loopback at the remote end. BERTs are typically stand-alone specialised instruments, but can be personal computer–based. In use, the number of errors, if any, are counted and presented as a ratio such as 1 in 1,000,000, or 1 in 1e06.
+Bit error rate tester.
+A bit error rate tester (BERT), also known as a "bit error ratio tester" or "bit error rate test solution" (BERTs) is electronic test equipment used to test the quality of signal transmission of single components or complete systems.
+The main building blocks of a BERT are:
+

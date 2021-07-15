@@ -1,0 +1,8 @@
+Xfce () is a free software desktop environment for Unix and other Unix-like platforms, such as Linux, Solaris and BSD. It is made to be fast and quick, while still looking nice and easy to use.
+The current version, 4.4, is modular and reusable. It is based on the GTK+ 2 toolkit (as is GNOME). It uses the Xfwm window manager, described below. Its configuration is entirely mouse-driven, and the configuration files are hidden from the casual user.
+History.
+Olivier Fourdan started the project in 1996. The name "Xfce" originally stood for "XForms Common Environment", but after that Xfce has been rewritten twice and no longer uses that toolkit. The name survived, but it is no longer capitalized as "XFce", but rather as "Xfce".
+Xfwm.
+Starting with version 4.2, the window manager of Xfce, Xfwm, integrates its own "compositing manager". Other compositing managers exist, but have been very unstable, and Xfce was the first to put its own compositing manager into the window manager. At its beginning, many users called it the most stable one available, though at the time, in late 2004, xcompmgr was the only other compositing manager available.
+Prevalence.
+While not as common in Linux distributions as the KDE and GNOME desktop environments, there are still some distributions where Xfce is the default desktop environment, and most support it as an optional part.

@@ -1,0 +1,21 @@
+
+In combinatorics, an expander graph is a sparse graph that has strong connectivity properties, quantified using vertex, edge or spectral expansion. Expander constructions have spawned research in pure and applied mathematics, with several applications to complexity theory, design of robust computer networks, and the theory of error-correcting codes.
+Definitions.
+Intuitively, an expander graph is a finite, undirected multigraph in which every subset of the vertices that is not "too large" has a "large" boundary. Different formalisations of these notions give rise to different notions of expanders: "edge expanders", "vertex expanders", and "spectral expanders", as defined below.
+A disconnected graph is not an expander, since the boundary of a connected component is empty. Every connected graph is an expander; however, different connected graphs have different expansion parameters. The complete graph has the best expansion property, but it has largest possible degree. Informally, a graph is a good expander if it has low degree and high expansion parameters.
+Edge expansion.
+The "edge expansion" (also "isoperimetric number" or Cheeger constant) "h"("G") of a graph "G" on "n" vertices is defined as
+where formula_2
+In the equation, the minimum is over all nonempty sets "S" of at most "n"/2 vertices and ∂"S" is the "edge boundary" of "S", i.e., the set of edges with exactly one endpoint in "S".
+Vertex expansion.
+The "vertex isoperimetric number" formula_3 (also "vertex expansion" or "magnification") of a graph "G" is defined as
+where formula_5 is the "outer boundary" of "S", i.e., the set of vertices in formula_6 with at least one neighbor in "S". In a variant of this definition (called "unique neighbor expansion") formula_5 is replaced by the set of vertices in "V" with "exactly" one neighbor in "S".
+The "vertex isoperimetric number" formula_8 of a graph "G" is defined as
+where formula_10 is the "inner boundary" of "S", i.e., the set of vertices in "S" with at least one neighbor in formula_6.
+Spectral expansion.
+When "G" is "d"-regular, a linear algebraic definition of expansion is possible based on the eigenvalues of the adjacency matrix "A" = "A"("G") of "G", where formula_12 is the number of edges between vertices "i" and "j". Because "A" is symmetric, the spectral theorem implies that "A" has "n" real-valued eigenvalues formula_13. It is known that all these eigenvalues are in [−"d", "d"].
+Because "G" is regular, the uniform distribution formula_14 with formula_15 for all "i" = 1, ..., "n" is the stationary distribution of "G". That is, we have "Au" = "du", and "u" is an eigenvector of "A" with eigenvalue λ1 = "d", where "d" is the degree of the vertices of "G". The "spectral gap" of "G" is defined to be "d" − λ2, and it measures the spectral expansion of the graph "G".
+It is known that λ"n" = −"d" if and only if "G" is bipartite. In many contexts, for example in the expander mixing lemma, a bound on λ2 is not enough, but indeed it is necessary to bound the absolute value of "all" the eigenvalues away from "d":
+Expander walk sampling.
+The Chernoff bound states that, when sampling many independent samples from a random variables in the range [−1, 1], with high probability the average of our samples is close to the expectation of the random variable. The expander walk sampling lemma, due to and , states that this also holds true when sampling from a walk on an expander graph. This is particularly useful in the theory of derandomization, since sampling according to an expander walk uses many fewer random bits than sampling independently.
+

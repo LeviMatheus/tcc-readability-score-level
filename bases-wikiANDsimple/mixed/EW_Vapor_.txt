@@ -1,0 +1,15 @@
+
+In physics, a vapor (American English) or vapour (British English and Canadian English; see spelling differences) is a substance in the gas phase at a temperature lower than its critical temperature, which means that the vapor can be condensed to a liquid by increasing the pressure on it without reducing the temperature. A vapor is different from an aerosol. An aerosol is a suspension of tiny particles of liquid, solid, or both within a gas.
+For example, water has a critical temperature of , which is the highest temperature at which liquid water can exist. In the atmosphere at ordinary temperatures, therefore, gaseous water (known as water vapor) will condense into a liquid if its partial pressure is increased sufficiently.
+A vapor may co-exist with a liquid (or a solid). When this is true, the two phases will be in equilibrium, and the gas-partial pressure will be equal to the equilibrium vapor pressure of the liquid (or solid).
+Properties.
+"Vapor" refers to a gas phase at a temperature where the same substance can also exist in the liquid or solid state, below the critical temperature of the substance. (For example, water has a critical temperature of 374 °C (647 K), which is the highest temperature at which liquid water can exist.) If the vapor is in contact with a liquid or solid phase, the two phases will be in a state of equilibrium. The term "gas" refers to a compressible fluid phase. Fixed gases are gases for which no liquid or solid can form at the temperature of the gas, such as air at typical ambient temperatures. A liquid or solid does not have to boil to release a vapor.
+Vapor is responsible for the familiar processes of cloud formation and condensation. It is commonly employed to carry out the physical processes of distillation and headspace extraction from a liquid sample prior to gas chromatography.
+The constituent molecules of a vapor possess vibrational, rotational, and translational motion. These motions are considered in the kinetic theory of gases.
+Vapor pressure.
+The vapor pressure is the equilibrium pressure from a liquid or a solid at a specific temperature. The equilibrium vapor pressure of a liquid or solid is not affected by the amount of contact with the liquid or solid interface.
+The normal boiling point of a liquid is the temperature at which the vapor pressure is equal to normal atmospheric pressure.
+For two-phase systems (e.g., two liquid phases), the vapor pressure of the individual phases are equal. In the absence of stronger inter-species attractions between like-like or like-unlike molecules, the vapor pressure follows Raoult's law, which states that the partial pressure of each component is the product of the vapor pressure of the pure component and its mole fraction in the mixture. The total vapor pressure is the sum of the component partial pressures.
+Measuring vapor.
+Since it is in the gas phase, the amount of vapor present is quantified by the partial pressure of the gas. Also, vapors obey the barometric formula in a gravitational field, just as conventional atmospheric gases do.
+

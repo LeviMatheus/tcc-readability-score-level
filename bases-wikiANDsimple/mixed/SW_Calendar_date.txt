@@ -1,0 +1,3 @@
+A Calendar date is a way to refer to a certain day in a calendar. With the calendar date and the calendar, the exact day can be identified. With a different calendar, the same calendar date may refer to a different day. This can be seen easiest when comparing the Julian calendar with the Gregorian calendar.
+Calendar dates are important to refer to events (most holidays are fixed with reference to a particular event or calendar date.) One example may be Easter. In the Middle Ages, it has been fixed that Easter is to be the first Sunday that is (on or after) the 14th day after the spring equinox.
+Most calendar systems have a date format that has three parts, the day of a certain month, the month and the year. Sometimes the week is added.

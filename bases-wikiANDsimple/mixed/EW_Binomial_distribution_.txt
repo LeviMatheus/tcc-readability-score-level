@@ -1,0 +1,124 @@
+
+&lt;/math&gt;
+ | kurtosis = formula_1
+ | entropy = formula_2 in shannons. For nats, use the natural log in the log.
+ | mgf = formula_3
+ | char = formula_4
+ | pgf = formula_5
+ | fisher = formula_6(for fixed formula_7)
+In probability theory and statistics, the binomial distribution with parameters "n" and "p" is the discrete probability distribution of the number of successes in a sequence of "n" independent experiments, each asking a yes–no question, and each with its own Boolean-valued outcome: "success" (with probability "p") or "failure" (with probability "q" = 1 − "p"). A single success/failure experiment is also called a Bernoulli trial or Bernoulli experiment, and a sequence of outcomes is called a Bernoulli process; for a single trial, i.e., "n" = 1, the binomial distribution is a Bernoulli distribution. The binomial distribution is the basis for the popular binomial test of statistical significance.
+The binomial distribution is frequently used to model the number of successes in a sample of size "n" drawn with replacement from a population of size "N". If the sampling is carried out without replacement, the draws are not independent and so the resulting distribution is a hypergeometric distribution, not a binomial one. However, for "N" much larger than "n", the binomial distribution remains a good approximation, and is widely used.
+Definitions.
+Probability mass function.
+In general, if the random variable "X" follows the binomial distribution with parameters "n" ∈ ℕ and "p" ∈ [0,1], we write "X" ~ B("n", "p"). The probability of getting exactly "k" successes in "n" independent Bernoulli trials is given by the probability mass function:
+for "k" = 0, 1, 2, ..., "n", where
+is the binomial coefficient, hence the name of the distribution. The formula can be understood as follows: "k" successes occur with probability "p""k" and "n" − "k" failures occur with probability (1 − "p")"n" − "k". However, the "k" successes can occur anywhere among the "n" trials, and there are formula_10 different ways of distributing "k" successes in a sequence of "n" trials.
+In creating reference tables for binomial distribution probability, usually the table is filled in up to "n"/2 values. This is because for "k" &gt; "n"/2, the probability can be calculated by its complement as
+Looking at the expression "f"("k", "n", "p") as a function of "k", there is a "k" value that maximizes it. This "k" value can be found by calculating
+and comparing it to 1. There is always an integer "M" that satisfies
+"f"("k", "n", "p") is monotone increasing for "k" &lt; "M" and monotone decreasing for "k" &gt; "M", with the exception of the case where ("n" + 1)"p" is an integer. In this case, there are two values for which "f" is maximal: ("n" + 1)"p" and ("n" + 1)"p" − 1. "M" is the "most probable" outcome (that is, the most likely, although this can still be unlikely overall) of the Bernoulli trials and is called the mode.
+Example.
+Suppose a biased coin comes up heads with probability 0.3 when tossed. The probability of seeing exactly 4 heads in 6 tosses is
+Cumulative distribution function.
+The cumulative distribution function can be expressed as:
+where formula_16 is the "floor" under "k", i.e. the greatest integer less than or equal to "k".
+It can also be represented in terms of the regularized incomplete beta function, as follows:
+which is equivalent to the cumulative distribution function of the -distribution:
+Some closed-form bounds for the cumulative distribution function are given below.
+Properties.
+Expected value and variance.
+If "X" ~ "B"("n", "p"), that is, "X" is a binomially distributed random variable, n being the total number of experiments and p the probability of each experiment yielding a successful result, then the expected value of "X" is:
+This follows from the linearity of the expected value along with fact that is the sum of identical Bernoulli random variables, each with expected value . In other words, if formula_20 are identical (and independent) Bernoulli random variables with parameter , then formula_21 and
+The variance is:
+This similarly follows from the fact that the variance of a sum of independent random variables is the sum of the variances.
+Higher moments.
+The first 6 central moments, defined as formula_24, are given by 
+The non-central moments satisfy
+and in general
+where formula_28 is the formula_29th falling power of formula_30.
+A simple bound
+ follows by bounding the Binomial moments via the higher Poisson moments: 
+Mode.
+Usually the mode of a binomial "B"("n", "p") distribution is equal to formula_32, where formula_33 is the floor function. However, when ("n" + 1)"p" is an integer and "p" is neither 0 nor 1, then the distribution has two modes: ("n" + 1)"p" and ("n" + 1)"p" − 1. When "p" is equal to 0 or 1, the mode will be 0 and "n" correspondingly. These cases can be summarized as follows:
+Proof: Let
+For formula_36 only formula_37 has a nonzero value with formula_38. For formula_39 we find formula_40 and formula_41 for formula_42. This proves that the mode is 0 for formula_36 and formula_7 for formula_39.
+Let formula_46. We find
+From this follows
+So when formula_49 is an integer, then formula_49 and formula_51 is a mode. In the case that formula_52, then only formula_53 is a mode.
+Median.
+In general, there is no single formula to find the median for a binomial distribution, and it may even be non-unique. However several special results have been established:
+Tail bounds.
+For "k" ≤ "np", upper bounds can be derived for the lower tail of the cumulative distribution function formula_54, the probability that there are at most "k" successes. Since formula_55, these bounds can also be seen as bounds for the upper tail of the cumulative distribution function for "k" ≥ "np".
+Hoeffding's inequality yields the simple bound
+which is however not very tight. In particular, for "p" = 1, we have that "F"("k";"n","p") = 0 (for fixed "k", "n" with "k" &lt; "n"), but Hoeffding's bound evaluates to a positive constant.
+A sharper bound can be obtained from the Chernoff bound:
+where "D"("a" || "p") is the relative entropy (or Kullback-Leibler divergence) between an "a"-coin and a "p"-coin (i.e. between the Bernoulli("a") and Bernoulli("p") distribution):
+Asymptotically, this bound is reasonably tight; see for details.
+One can also obtain "lower" bounds on the tail formula_59, known as anti-concentration bounds. By approximating the binomial coefficient with Stirling's formula it can be shown that
+which implies the simpler but looser bound
+For "p" = 1/2 and "k" ≥ 3"n"/8 for even "n", it is possible to make the denominator constant:
+Statistical Inference.
+Estimation of parameters.
+When "n" is known, the parameter "p" can be estimated using the proportion of successes: formula_63 This estimator is found using maximum likelihood estimator and also the method of moments. This estimator is unbiased and uniformly with minimum variance, proven using Lehmann–Scheffé theorem, since it is based on a minimal sufficient and complete statistic (i.e.: "x"). It is also consistent both in probability and in MSE.
+A closed form Bayes estimator for "p" also exists when using the Beta distribution as a conjugate prior distribution. When using a general formula_64 as a prior, the posterior mean estimator is: formula_65. The Bayes estimator is asymptotically efficient and as the sample size approaches infinity ("n" → ∞), it approaches the MLE solution. The Bayes estimator is biased (how much depends on the priors), admissible and consistent in probability.
+For the special case of using the standard uniform distribution as a non-informative prior (formula_66), the posterior mean estimator becomes formula_67 (a posterior mode should just lead to the standard estimator). This method is called the rule of succession, which was introduced in the 18th century by Pierre-Simon Laplace.
+When estimating "p" with very rare events and a small "n" (e.g.: if x=0), then using the standard estimator leads to formula_68 which sometimes is unrealistic and undesirable. In such cases there are various alternative estimators. One way is to use the Bayes estimator, leading to: formula_69). Another method is to use the upper bound of the confidence interval obtained using the rule of three: formula_70)
+Confidence intervals.
+Even for quite large values of "n", the actual distribution of the mean is significantly nonnormal. Because of this problem several methods to estimate confidence intervals have been proposed.
+In the equations for confidence intervals below, the variables have the following meaning:
+Wilson (score) method.
+The notation in the formula below differs from the previous formulas in two respects:
+Comparison.
+The exact (Clopper–Pearson) method is the most conservative.
+The Wald method, although commonly recommended in textbooks, is the most biased.
+Related distributions.
+Sums of binomials.
+If "X" ~ B("n", "p") and "Y" ~ B("m", "p") are independent binomial variables with the same probability "p", then "X" + "Y" is again a binomial variable; its distribution is "Z=X+Y" ~ B("n+m", "p"):
+However, if "X" and "Y" do not have the same probability "p", then the variance of the sum will be smaller than the variance of a binomial variable distributed as formula_93
+Ratio of two binomial distributions.
+This result was first derived by Katz and coauthors in 1978.
+Let "X" ~ B("n","p"1) and "Y" ~ B("m","p"2) be independent. Let "T" = ("X"/"n")/("Y"/"m").
+Then log("T") is approximately normally distributed with mean log("p"1/"p"2) and variance ((1/"p"1) − 1)/"n" + ((1/"p"2) − 1)/"m".
+Conditional binomials.
+If "X" ~ B("n", "p") and "Y" | "X" ~ B("X", "q") (the conditional distribution of "Y", given "X"), then "Y" is a simple binomial random variable with distribution "Y" ~ B("n", "pq").
+For example, imagine throwing "n" balls to a basket "UX" and taking the balls that hit and throwing them to another basket "UY". If "p" is the probability to hit "UX" then "X" ~ B("n", "p") is the number of balls that hit "UX". If "q" is the probability to hit "UY" then the number of balls that hit "UY" is "Y" ~ B("X", "q") and therefore "Y" ~ B("n", "pq").
+Since formula_94 and formula_95, by the law of total probability,
+Since formula_97 the equation above can be expressed as
+Factoring formula_99 and pulling all the terms that don't depend on formula_100 out of the sum now yields
+After substituting formula_102 in the expression above, we get
+Notice that the sum (in the parentheses) above equals formula_104 by the binomial theorem. Substituting this in finally yields
+and thus formula_106 as desired.
+Bernoulli distribution.
+The Bernoulli distribution is a special case of the binomial distribution, where "n" = 1. Symbolically, "X" ~ B(1, "p") has the same meaning as "X" ~ Bernoulli("p"). Conversely, any binomial distribution, B("n", "p"), is the distribution of the sum of "n" Bernoulli trials, Bernoulli("p"), each with the same probability "p".
+Poisson binomial distribution.
+The binomial distribution is a special case of the Poisson binomial distribution, or general binomial distribution, which is the distribution of a sum of "n" independent non-identical Bernoulli trials B("pi").
+Normal approximation.
+If "n" is large enough, then the skew of the distribution is not too great. In this case a reasonable approximation to B("n", "p") is given by the normal distribution
+and this basic approximation can be improved in a simple way by using a suitable continuity correction.
+The basic approximation generally improves as "n" increases (at least 20) and is better when "p" is not near to 0 or 1. Various rules of thumb may be used to decide whether "n" is large enough, and "p" is far enough from the extremes of zero or one:
+The rule formula_111 is totally equivalent to request that
+Moving terms around yields:
+Since formula_114 and formula_115, to obtain the desired conditions:
+Notice that these conditions automatically imply that formula_117. On the other hand, apply again the square root and divide by 3,
+Subtracting the second set of inequalities from the first one yields:
+and so, the desired first rule is satisfied,
+Assume that both values formula_121 and formula_122 are greater than 9. Since formula_125, we easily have that 
+We only have to divide now by the respective factors formula_127 and formula_128, to deduce the alternative form of the 3-standard-deviation rule:
+The following is an example of applying a continuity correction. Suppose one wishes to calculate Pr("X" ≤ 8) for a binomial random variable "X". If "Y" has a distribution given by the normal approximation, then Pr("X" ≤ 8) is approximated by Pr("Y" ≤ 8.5). The addition of 0.5 is the continuity correction; the uncorrected normal approximation gives considerably less accurate results.
+This approximation, known as de Moivre–Laplace theorem, is a huge time-saver when undertaking calculations by hand (exact calculations with large "n" are very onerous); historically, it was the first use of the normal distribution, introduced in Abraham de Moivre's book "The Doctrine of Chances" in 1738. Nowadays, it can be seen as a consequence of the central limit theorem since B("n", "p") is a sum of "n" independent, identically distributed Bernoulli variables with parameter "p". This fact is the basis of a hypothesis test, a "proportion z-test", for the value of "p" using "x/n", the sample proportion and estimator of "p", in a common test statistic.
+For example, suppose one randomly samples "n" people out of a large population and ask them whether they agree with a certain statement. The proportion of people who agree will of course depend on the sample. If groups of "n" people were sampled repeatedly and truly randomly, the proportions would follow an approximate normal distribution with mean equal to the true proportion "p" of agreement in the population and with standard deviation formula_130
+Poisson approximation.
+The binomial distribution converges towards the Poisson distribution as the number of trials goes to infinity while the product "np" remains fixed or at least "p" tends to zero. Therefore, the Poisson distribution with parameter "λ" = "np" can be used as an approximation to B("n", "p") of the binomial distribution if "n" is sufficiently large and "p" is sufficiently small. According to two rules of thumb, this approximation is good if "n" ≥ 20 and "p" ≤ 0.05, or if "n" ≥ 100 and "np" ≤ 10.
+Concerning the accuracy of Poisson approximation, see Novak, ch. 4, and references therein.
+Beta distribution.
+The binomial distribution and beta distribution are different views of the same model of repeated Bernoulli trials. The binomial distribution is the PMF of successes given independent events each with a probability of success. 
+Mathematically, when and , the beta distribution and the binomial distribution are related by a factor of :
+Beta distributions also provide a family of prior probability distributions for binomial distributions in Bayesian inference: 
+Given a uniform prior, the posterior distribution for the probability of success given independent events with observed successes is a beta distribution.
+Computational methods.
+Generating binomial random variates.
+Methods for random number generation where the marginal distribution is a binomial distribution are well-established.
+One way to generate random samples from a binomial distribution is to use an inversion algorithm. To do so, one must calculate the probability that for all values from through . (These probabilities should sum to a value close to one, in order to encompass the entire sample space.) Then by using a pseudorandom number generator to generate samples uniformly between 0 and 1, one can transform the calculated samples into discrete numbers by using the probabilities calculated in the first step.
+History.
+This distribution was derived by Jacob Bernoulli. He considered the case where "p" = "r"/("r" + "s") where "p" is the probability of success and "r" and "s" are positive integers. Blaise Pascal had earlier considered the case where "p" = 1/2.
+

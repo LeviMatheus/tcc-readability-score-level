@@ -1,0 +1,1 @@
+A hexagon is a polygon with 6 sides and 6 corners (vertices). Like regular triangles and squares, hexagons fit together without gaps. They are therefore often used in tiling floors (which is known as tesselation). They are also quite common in nature. The honeycombs in beehives are hexagons, for example

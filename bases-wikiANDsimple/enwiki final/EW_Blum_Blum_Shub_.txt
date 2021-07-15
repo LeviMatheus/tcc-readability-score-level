@@ -1,0 +1,63 @@
+
+Blum Blum Shub (B.B.S.) is a pseudorandom number generator proposed in 1986 by Lenore Blum, Manuel Blum and Michael Shub that is derived from Michael O. Rabin's one-way function.
+Blum Blum Shub takes the form
+where "M" = "pq" is the product of two large primes "p" and "q". At each step of the algorithm, some output is derived from "x""n"+1; the output is commonly either the bit parity of "x""n"+1 or one or more of the least significant bits of "x""n"+1".
+The seed "x"0 should be an integer that is co-prime to "M" (i.e. "p" and "q" are not factors of "x"0) and not 1 or 0.
+The two primes, "p" and "q", should both be congruent to 3 (mod 4) (this guarantees that each quadratic residue has one square root which is also a quadratic residue), and should be safe primes with a small gcd(("p-3")"/2", ("q-3")"/2") (this makes the cycle length large).
+An interesting characteristic of the Blum Blum Shub generator is the possibility to calculate any "x""i" value directly (via Euler's theorem):
+where formula_3 is the Carmichael function. (Here we have formula_4).
+Security.
+There is a proof reducing its security to the computational difficulty of factoring. When the primes are chosen appropriately, and "O"(log log "M") lower-order bits of each "xn" are output, then in the limit as "M" grows large, distinguishing the output bits from random should be at least as difficult as solving the quadratic residuosity problem modulo "M".
+Example.
+Let formula_5, formula_6 and formula_7 (where formula_8 is the seed). We can expect to get a large cycle length for those small numbers, because formula_9.
+The generator starts to evaluate formula_10 by using formula_11 and creates the sequence formula_10, formula_13, formula_14, formula_15 formula_16 = 9, 81, 236, 36, 31, 202. The following table shows the output (in bits) for the different bit selection methods used to determine the output.
+The following Common Lisp implementation provides a simple demonstration of the generator, in particular regarding the three bit selection methods. It is important to note that the requirements imposed upon the parameters "p", "q" and "s" (seed) are not checked.
+ "Returns the number of 1-valued bits in the integer-encoded BITS."
+ (declare (type (integer 0 *) bits))
+ (the (integer 0 *) (logcount bits)))
+ "Returns the even parity bit of the integer-encoded BITS."
+ (declare (type (integer 0 *) bits))
+ (the bit (mod (get-number-of-1-bits bits) 2)))
+ "Returns the least significant bit of the integer-encoded BITS."
+ (declare (type (integer 0 *) bits))
+ (the bit (ldb (byte 1 0) bits)))
+ "Returns a function of no arguments which represents a simple
+ Blum-Blum-Shub pseudorandom number generator, configured to use the
+ generator parameters P, Q, and S (seed), and returning three values:
+ (1) the even parity bit of the number,
+ (2) the least significant bit of the number,
+ (3) the number x[n+1].
+ Please note that the parameters P, Q, and S are not checked in
+ accordance to the conditions described in the article."
+ (declare (type (integer 0 *) p q s))
+ (let ((M (* p q)) ;; M = p * q
+ (x[n] s)) ;; x0 = seed
+ (declare (type (integer 0 *) M x[n]))
+ #'(lambda ()
+ ;; x[n+1] = x[n]^2 mod M
+ (let ((x[n+1] (mod (* x[n] x[n]) M)))
+ (declare (type (integer 0 *) x[n+1]))
+ ;; Compute the random bit(s) based on x[n+1].
+ (let ((even-parity-bit (get-even-parity-bit x[n+1]))
+ (least-significant-bit (get-least-significant-bit x[n+1])))
+ (declare (type bit even-parity-bit))
+ (declare (type bit least-significant-bit))
+ ;; Update the state such that x[n+1] becomes the new x[n].
+ (setf x[n] x[n+1])
+ (values x[n+1]
+ even-parity-bit
+ least-significant-bit))))))
+ (declare (type (function () (values (integer 0 *) bit bit)) bbs))
+ (format T "~&amp;Keys: E = even parity, L = least significant")
+ (format T "~2%")
+ (format T "~&amp;x[n+1] | E | L")
+ (format T "~&amp;--------------")
+ (loop repeat 6 do
+ (multiple-value-bind (x[n+1] even-parity-bit least-significant-bit)
+ (funcall bbs)
+ (declare (type (integer 0 *) x[n+1]))
+ (declare (type bit even-parity-bit))
+ (declare (type bit least-significant-bit))
+ (format T "~&amp;~6d | ~d | ~d"
+ x[n+1] even-parity-bit least-significant-bit))))
+

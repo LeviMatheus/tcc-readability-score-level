@@ -1,0 +1,313 @@
+
+In mathematics, the inverse limit (also called the projective limit) is a construction that allows one to "glue together" several related objects, the precise manner of the gluing process being specified by morphisms between the objects. Inverse limits can be defined in any category, and they are a special case of the concept of a limit in category theory.
+Formal definition.
+Inverse systems.
+An inverse limit is intimately tied to an associated a tuple called an inverse system. 
+Inverse limits depend on the category in which they are taken. 
+In many concrete categories such as the category of topological spaces or the category of groups, a part of any inverse limit consists of an inverse limit in the category Set, where the canonical inverse limit in Set provides an explicit example. 
+An in a category formula_1 over formula_2 is a tuple
+where formula_4 may be written as formula_5 that has all of the following properties:
+and almost always, inverse systems are also required to satisfy the following additional condition (which this article will always require):
+The tuple formula_6 may also be written as formula_7 as formula_8 as formula_9 if formula_10 is understood, or even as formula_11 if formula_2 is understood. 
+If the connecting morphisms are understood or if there is no need to assign them symbols (e.g. as in the statements of some theorems) then the connecting morphisms will often be omitted (i.e. not written); for this reason it is common to see statements such as "let formula_13 be an inverse system." 
+The term "" is sometimes used as a synonym for "inverse system" although some author use the term "projective system" to refer to a specific type of inverse system. In particular, some authors use ' to refer to inverse systems directed by the natural numbers formula_14, a surjective/epimorphic inverse system, and/or an inverse system whose connecting morphisms are all projections (assuming that morphisms called "projections" are defined in the category formula_15 as they are in the category of topological vector spaces for example). For example, a in the category of smooth manifolds (whose morphisms are smooth maps) is often defined as an inverse system in the category of smooth manifolds that is indexed by the natural numbers formula_16 and all of whose bonding maps are surjective smooth submersions. Regardless of how "projective system" is defined, a ' means an inverse limit of a projective system. 
+Relationship with direct systems.
+For the inverse system formula_17 and for any indices formula_18 this article denotes the connecting morphism formula_19 by formula_20 However, some authors may instead denote this same morphism by formula_21 (with the positions of formula_22 and formula_23 swapped) while others may denote it by formula_24 or formula_25 
+While the notation used to denote an inverse system's morphisms may vary, what does not vary is that in an inverse system, the index of the codomain is always smaller than (i.e. less than or equal to) the index of the domain (while for direct systems, it is the opposite). Focusing on this invariant of the connecting morphisms instead of the specific index convention/notation used by a particular author may help when switching from reading one author's work to another's.
+Given a preordered set formula_26 its ' or ' is the preordered set formula_27 where by definition, 
+which is also denoted by formula_29 
+Explicitly, for all formula_30 declare that formula_31 holds if and only if formula_32 holds.
+A tuple 
+is an inverse system if and only if its ' or ', which is the tuple 
+is a direct system (not to be confused with a ). This characterization may be used to define direct systems in terms of inverse systems, or to define inverse systems in terms of direct systems. 
+To illustrate how inverse systems differ from direct systems, the reason why formula_35 is a direct system whenever formula_17 is an inverse system is now explained in detail. One of the most prominent features distinguishing a direct system from an inverse system is that in an inverse system like formula_37 if formula_32 then the morphisms are of the form formula_39 where the index of the connecting morphism's codomain formula_40 is (i.e. less than or equal to) with respect to formula_41 than the index of its domain formula_42 whereas in a direct system, the codomain of a morphism would instead have a index, which is true of formula_39 with respect to formula_44 (because formula_32 implies formula_46 which says exactly that formula_22 is larger than formula_23 with respect to formula_44); however, this latter condition is in general true of formula_50 with respect to formula_51 which is why in general, inverse systems like formula_17 are not also direct systems. 
+Similarly, by its very definition, the is satisfied by formula_35 if and only if formula_54 holds for all indices satisfying formula_55 (or equivalently formula_56), which can also be expressed by stating that the composition: 
+where as before, the index of the codomain is larger (with respect to formula_44) than the index of the domain. 
+But this compatibility conditions of direct systems applied to the tuple formula_35 (i.e. the equality formula_54 for formula_55) is exactly the same as the compatibility conditions of inverse systems applied to the tuple formula_17 (i.e. the equality formula_54 for formula_56).
+Cone into an inverse system.
+A collection of morphisms formula_65 from an object formula_66 in formula_1 is said to be ' or ' with the system formula_68 if for every index formula_69 the morphism formula_70 has prototype formula_71 and if also for all indices formula_18 the following is satisfied:
+which happens if and only if the following diagram commutes:
+If this is the case then the pair formula_74 is called a ' from formula_66 into the system formula_76 the object formula_66 is called the ' of the cone formula_78 and each formula_70 is called the (') ' or (). 
+Examples of cones.
+In the category formula_80 of sets, the is the pair formula_81 which has the empty set formula_82 as its vertex and all of whose morphisms are the empty map, which is also denoted by formula_83 
+The empty cone is a cone into every inverse system in category formula_80 and for certain inverse systems, the empty cone might even be the cone going into it. This is true, for example, if any formula_40 is the empty set. 
+If formula_17 is an inverse system in formula_80 then cones into it can be characterized in terms of fibers (which are inverse images of singleton sets) as follows: if formula_88 are maps, each of which has prototype formula_89 then formula_74 is a cone into formula_17 if and only if for all indices formula_18 the map formula_70 is constant on each fiber of formula_94 and for every formula_95 if the fiber formula_96 is not empty then formula_70's value on it must be formula_98
+Suppose that formula_99 is an inverse system and formula_100 is a non-empty subset. 
+If formula_101 is a cone into formula_17 then formula_103 is called this cone's (or ) and it is guaranteed to be a cone into the subsystem formula_104 which was defined above. 
+Similarly, any cone into formula_17 that restricts to a given cone formula_103 is called an (or ). 
+Given a cone formula_103 into the subsystem formula_108 to construct an extension to formula_17 assume that formula_110 is a cofinal subset of formula_111 which means that for every formula_112 there is some formula_113 such that formula_114 
+If formula_2 is a directed set then the cone formula_103 can be extended to a unique cone formula_101 in formula_76 where for each formula_119 the morphism formula_71 is formula_121 for any/every formula_113 that satisfies formula_32 (see this footnote for a proof that these maps are well-defined).
+If formula_2 is a directed set then an extension of a cone from a cofinal subsystem is not guaranteed to exist, as the following example demonstrates. 
+Let formula_125 be distinct objects, let 
+and partially order formula_129 by declaring that formula_32 if and only if formula_131 or formula_132 
+Let formula_133 be the identity morphism for every formula_119 and let formula_135 and formula_136 be the natural projections; that is, 
+This defines an inverse system formula_140. Let formula_141 which is a cofinal subset of formula_111 let formula_143 be a singleton set, and define formula_144 and formula_145 by 
+Then formula_148 is a cone into the subsystem formula_149 but there does not exist any formula_150 such that formula_151 is a cone into formula_17 because the compatibility conditions would simultaneously require formula_153 and formula_154
+Inverse limit of an inverse system.
+An inverse limit can be defined abstractly in an arbitrary category as a cone that possesses a certain universal property. 
+Throughout, let formula_68 be an inverse system of objects and morphisms in a category formula_1 (same definition as above). 
+An ' or ' formula_68 is a cone formula_158 into formula_17 (so formula_160 must consist of morphisms of the form formula_161 and these morphisms must satisfy formula_162 for all formula_18 meaning that this diagram: 
+must commute) for which the following condition holds: 
+If this is the case then for all indices formula_32, the above diagrams can be combined to produce the following commutative diagram: 
+Said more succinctly and without indices, an formula_17 is a cone formula_158 into formula_17 such that for any cone formula_74 into this system, there exists a unique morphism formula_166 that satisfies formula_183 
+This can be expressed by writing 
+where if the system's connecting morphisms and indexing set formula_2 are understood then this may be written more simply as formula_186 or formula_187 
+However, despite the equals sign formula_188 being used, limits are in general unique although they are unique up to isomorphism. 
+In the category Set, it is sufficient (and necessary) to check the universal property for all cones formula_74 whose vertex formula_66 is a singleton set (where such a cone into formula_17 exists if and only if the vertex of formula_17's limit is not the empty set; if the limit is empty, then the only cone into formula_17 is the empty cone). In the category of groups, this is true if the object formula_66 is instead formula_195 
+Each morphism formula_161 of a limit formula_158 is called the (the word "onto" is purposefully not used). Despite the name "projection", it should not be assumed that these maps are epimorphisms (e.g. surjections) because in general, this may be true (examples of this may even be found in the category of sets). 
+An inverse system in a category formula_1 admits an alternative description in terms of functors. Specifically, any partially ordered set formula_129 can be considered as a small category where the morphisms consist of arrows formula_200 if and only if formula_114 An inverse system is then just a contravariant functor formula_202 and the inverse limit functor formula_203 is a covariant functor. 
+Basic properties of limits of cones.
+Suppose formula_158 is a limit of formula_17 in some category. 
+If formula_206 is any morphism and if formula_207 then formula_208 is a cone into formula_17 whose limit into formula_158 is the original morphism formula_173; in symbols, formula_212 for every morphism formula_213 
+In particular, this shows that morphism into (the vertex of) a limit arises as the limit of cone. 
+Every limit cone formula_158 thus establishes a one-to-one correspondence between morphisms into formula_215 and cones into formula_216 
+The limit of a cone formula_74 into formula_158 is the identity morphism formula_219 if and only if formula_220 and formula_221 (that is, formula_222 for every index formula_22). 
+In particular, the limit of the cone formula_158 into itself (that is, into formula_158) is the identity morphism formula_226; in symbols, formula_227 
+Suppose formula_158 is a limit of formula_17 in Set. If given formula_230 then formula_231 if and only if formula_232 for every index formula_112; 
+this characterization remains true if the index formula_22 instead varies over some cofinal subset formula_110 of formula_129 (even if formula_2 is not a directed set).
+Uniqueness and isomorphisms of limits.
+In some categories, there are certain inverse systems for which an inverse limit does not exist. 
+However, if an inverse limit does exist then it is unique up to isomorphism in a strong sense: any two limits of an inverse system differ from each other by at most a isomorphism that commutes with the projection morphisms, as is now described in detail. 
+Assume throughout that formula_158 is a limit of formula_216 
+If formula_240 is an isomorphism from some object formula_241 and if formula_242 then the cone formula_243 is also an inverse limit of formula_17 in this category and moreover, as mentioned above, the limit of the cone formula_243 into formula_158 is formula_247 
+Conversely, assuming now that formula_248 is any limit of formula_76 then the limit of the cone formula_248 into formula_251 which is denoted by formula_252 is necessarily an isomorphism that satisfies formula_253 (that is, formula_254 for every index formula_22) and consequently, formula_256. 
+Furthermore, if formula_257 denotes the limit of the cone formula_158 into formula_248 then in addition to satisfying formula_260 this morphism also satisfies formula_261 and formula_262 
+This also shows that an arbitrary given cone formula_248 into formula_17 is (also) an inverse limit of this system if and only if there exists an isomorphism formula_265 such that formula_266 (or said differently, such that formula_267 is to the original limit formula_158); moreover, this isomorphism formula_269 will necessarily be unique.
+Subsystems and isomorphisms.
+Suppose that formula_270 is a directed inverse system and that formula_100 is a cofinal subset of the directed set formula_272 
+If formula_158 is a limit of formula_17 then this cone's restriction formula_275 to formula_110 is a limit of the subsystem formula_277 
+Conversely, if formula_278 is a limit of the subsystem formula_279 then this cone's unique extension to formula_129 will be a limit of the original system formula_216 
+Specifically, for each formula_282 the morphism formula_161 was defined by formula_284 where formula_113 is any index satisfying formula_286; however, if formula_2 is not a directed set then there might not even exist a cone into formula_17 that extends formula_289 
+Using the method just described, it is thus possible to pass between a limit of a directed system formula_17 and a limit of a cofinal subsystem by doing nothing more than removing or adding (uniquely defined) projections formula_291 from/to the limit cone; in particular, the cone's vertex does not need to be changed. 
+It is now demonstrated how the vertex formula_215 of a limit formula_293 of a partially ordered inverse system formula_270 in a category formula_295 is also the vertex of a limit of a totally ordered inverse system in formula_296 if the limits of the subsystems formula_297 that are defined below all exist (which happens, in particular, if inverse limits always exist in formula_295). 
+Partially order by set inclusion formula_299 the set formula_300 of all non-empty ideals in formula_111 which by definition are non-empty subsets formula_302 with the property that whenever formula_112 satisfies formula_32 for some formula_305 then necessarily formula_306 
+Let formula_307 be a totally ordered subset of formula_308 such that formula_309 (in particular, the possibility formula_310 is allowed although formula_311 might alternatively (and more usefully) consist entirely of proper ideals) and for all formula_312 assume that formula_313 is a limit in formula_295 of the formula_315-indexed subsystem formula_316 
+For all formula_317 with formula_318 each of formula_319 and formula_320 is a cone into formula_297 so denote these cones' respective limits into formula_322 by formula_323 and formula_324 
+Then formula_325 is a totally ordered inverse system and it has formula_326 as an inverse limit in formula_327 
+Note in particular that the vertex formula_215 of this new limit cone is the same as that of the original limit formula_329 
+For example of this construction in the category of sets, suppose that formula_330 is partially ordered by declaring formula_331 if and only if formula_332 and let formula_333 and formula_334 be the identity map for every index formula_335 Then the vertex of a limit of the inverse system formula_336 is the space of real sequences formula_337 Let formula_311 consist of all subsets of formula_14 the form formula_340 (as formula_22 ranges over formula_14) so that formula_343 is order isomorphic to the usual total order formula_344 
+Then formula_345 is also the limit of the inverse system formula_346 where every formula_347 is the canonical projection formula_348 (as described in an example below).
+Interpretations of limits.
+For every time formula_349 let formula_350 denote some state space at time formula_351 where for ease of discussion, it will be assumed that time is measured in seconds. 
+If formula_352 is some state at time formula_351 then let formula_354 denote its subsequent state at time formula_355 so that this assignment defines a function formula_356 
+Assume that when formula_357 then formula_358 is the identity map, which can be interpreted as: there is no change in state if there is no change in time. 
+Given times formula_359 assume also that formula_360; this can interpreted as: the state that results after waiting formula_361 seconds is the same state that results from waiting formula_362 seconds followed immediately by waiting another formula_363 seconds. 
+In other words, this assumes that the future state of formula_364 depends on the current state formula_364 and not on some combination of both the current state formula_364 and other state(s) from times formula_367 
+With respect to the natural order formula_10 on formula_369 the index of the codomain of formula_370 is formula_371-greater than (or equal to) the index of the domain, so the tuple
+might be expected to form a direct system (and not an inverse system), and indeed the two assumptions made above guarantee this (because those assumptions are the required direct system compatibility conditions). 
+Similarly, by inspecting the order of the indices of the domain and codomain of formula_373 with respect to formula_374 the transpose of the above system, which is the tuple 
+might be expected to form an inverse system (and not a direct system), and indeed the assumptions made above are precisely what guarantee this (because they are precisely the inverse system compatibility conditions). 
+Now pick some arbitrary time formula_376 to interpret as being "now" or "the current time", where for concreteness it will be assumed that formula_377 
+Because formula_378 is a directed set and formula_379 is a cofinal subset of formula_380 the direct limit of the direct system formula_381 is, up to a unique isomorphism, the same as the direct limit of the subsystem formula_382 which results from restricting the indexing set of formula_381 from formula_384 to formula_385 
+Similarly, because formula_386 is a directed set and formula_387 is a cofinal subset of formula_388 the inverse limit of formula_17 is, up to a unique isomorphism, the same as the inverse limit of the subsystem formula_390 
+In words, this means that: 
+The inverse limit of this (sub)system, say formula_393 can be interpreted as all the set of all possible "" or − because this particular system is indexed by time − "() " that "go back eternally", where some given thread/timeline formula_394 is said to "" some given state formula_352 at time formula_396 if and only if formula_397 
+Inspecting the definition of the canonical inverse limit (defined below) makes this interpretation clearer. 
+It may also help to use formula_398 as the indexing set instead of the continua formula_387 or formula_400; doing this is also technically sound.
+The meaning and importance of the words "infinite" and "eternally" are now clarified. 
+If formula_401 is some state at time formula_402 and if there exists time formula_403 such that formula_404 then the compatibility conditions make it impossible for there to exist an "infinite thread/timeline" formula_394 passing through the state formula_406; this is true even if there exist some time formula_407 between formula_396 and formula_409 (i.e. formula_410) such that formula_411 because this just means that there is a "finite timeline" passing through formula_412 which does not make a thread. 
+Importantly, knowing that formula_413 for every real formula_414 is sufficient to guarantee the existence of a thread formula_394 passing through formula_406 (that is, satisfying formula_417);;
+additional information or assumptions are needed to guarantee this.
+In contrast, by definition of the canonical direct limit, given some state formula_418 the states in the set formula_419 (consisting of the current state formula_406 and all of its future states) are identified together as one under a canonical equivalence relation (that is described in the article on direct limits). Note that this aforementioned set is a subset of the equivalence class containing formula_406 (which will be denoted by formula_422) but it might be a proper subset of formula_422; however, these two sets will be equal to each other if, for instance, all of the maps formula_370 are injective for all real formula_425 
+Regardless of whether this set equality holds, every state formula_401 is associated with element formula_422 in this system's direct limit (where formula_428). 
+In this system's inverse limit however, there is might not exist any thread passing through formula_406 (although this is a possibility). 
+In fact, depending on the connecting morphisms formula_430 there might exist thread passing through formula_412 there might exist only finitely many, or there might even exist infinitely many. 
+See also this footnote for a related, but more accessible, interpretation.
+Existence of limits.
+For the majority of the most commonly studied concrete categories whose objects consist of sets with additional structure and whose morphisms are certain types of functions (such as the categories of topological spaces, groups, manifolds, etc.), the proofs of the existence of limits in these categories often involves the consideration of the system's limit in the category Set as an important step. Often, a limit in such a category is formed by adding the appropriate additional structure to this system's limit in Set. For example, to form a limit of a system in Top, the vertex formula_215 of the system's limit formula_158 in Set is endowed the weak topology induced by formula_434 Limits in the category Set are consequently very important for dealing with limits in many other categories. 
+That limits always exist in the category of sets is demonstrated with the definition of the canonical limit below. Different limit cones may have different advantages and disadvantages, so although the canonical limit may always be used, other limits are frequently used instead because they might, for example, be much easier to work with (examples are given below). In addition, different limit cones may be used simultaneously in order to utilize their individual advantages, although this often requires knowledge of the unique isomorphisms described above. 
+In many category involving topological spaces, such as categories of manifolds or topological groups, if a limit of a system does exist in this category then the limit's underlying topological space will usually be a limit of the system in Top. 
+Consequently, although limits always exist in categories such as Set, Top, and Grp, they may sometimes fail to exist in other categories, such as most categories of manifolds for instance (see this footnote for additional details). 
+The canonical limit.
+The ' (') of the inverse system formula_435 in the category Set is the cone formula_158 into formula_17 consisting of the following subset formula_215 of the Cartesian product of the formula_40's:
+together with the associated projections formula_160 that are defined to be the restrictions to formula_215 of the Cartesian product's . Explicitly, for every index formula_69 the map 
+is the restriction to formula_215 of the natural projection 
+which picks out the formula_447 component of the Cartesian product; that is formula_448 The canonical limit, which is the cone formula_158 into formula_17 consisting of formula_215 and the maps formula_452 satisfies the universal property of limits described above and so is an inverse limit of formula_17 in the category Set. 
+This definition of the canonical limit thus proves that inverse limits always exist in Set. 
+Importantly, however, it is possible for the canonical limit formula_215 to be the empty set even if all formula_40 are non-empty (the limit being the empty set does mean that the limit does not exist in Set). And moreover, it is possible for a projection formula_161 to be surjective (that is, to not be an epimorphism in Set); this is possible even if formula_215 is not empty. 
+If formula_74 is a cone into formula_17 then for any subset formula_460 
+The inverse limit of any inverse system of non-empty finite sets is non-empty. This is a generalization of Kőnig's lemma in graph theory and may be proved with Tychonoff's theorem, viewing the finite sets as compact discrete spaces, and then applying the finite intersection property characterization of compactness. 
+The existence of limits in the category Set can be used to help prove the existence of limits in other concrete categories. 
+Existence of limits in other categories.
+In the category of topological spaces, formula_158 becomes a limit in this category when formula_215 is endowed with the initial topology, also known as the weak topology or the , induced on it by the projections formula_464 
+Consequently, inverse limits always exist the category of topological spaces. 
+If every formula_40 is endowed with a uniformity formula_466 and if every formula_39 is uniformly continuous then formula_158 becomes a limit of formula_17 in the category of uniform spaces (where morphisms are uniformly continuous maps) if formula_215 is endowed with the relative uniformity induced on formula_215 by the product uniformity on formula_472 
+In the category of groups, formula_215 is necessarily a subgroup of the product group formula_474 and the projections formula_160 will necessarily be group homomorphisms. 
+These observations, together with the fact that formula_158 is a limit in the category of sets, readily imply that inverse limits always exist in the category of groups. 
+The subset formula_215 is not empty because it contains the identity element of formula_472 
+If formula_158 is any limit of formula_17 in the category of groups and if formula_481 then because formula_482 there exists some element in formula_483 which will be denoted by formula_484 such that formula_485 
+This same construction of canonical limits may be carried out in the categories of semigroups, rings, modules (over a fixed ring), algebras (over a fixed ring), etc., where the morphisms are homomorphisms of the corresponding algebraic structure. The construction of these canonical limits thus proves that inverse limit always exist in these categories. 
+For example, an inverse system of rings and ring homomorphisms will be a ring together with ring homomorphisms.
+Limits in Set and Top.
+Throughout, formula_158 will be a limit of a partially ordered inverse system formula_17 in the category of sets and formula_74 will be a cone into formula_17 whose limit into formula_158 will be denoted by formula_491 
+If formula_100 is non-empty and formula_493 for every formula_494 then 
+so that in particular, formula_496 for every formula_112 and every subset formula_498 
+To non-trivially relate a subset formula_499 with its images under formula_500 and the formula_70s, the set 
+is necessarily a subset of formula_503 
+For any given index formula_119 the map formula_71 is injective if and only if this is true of formula_506 for every index formula_507 in which case the limit map formula_166 will necessarily also be injective, 
+and 
+If formula_513 for some index formula_119 then formula_515 is the identity morphism formula_516 on formula_66 if and only if formula_518 for every index formula_519 
+Assume that formula_17 is an inverse system in the category formula_521 of topological spaces and that formula_158 is a limit formula_17 in formula_524 
+Then the topology on formula_215 is equal to the or the , induced on it by the projections formula_526 which by definition is the weakest topology on formula_215 making every formula_161 continuous. 
+A subbase for this topology consists of all subsets of the form formula_529 as formula_530 ranges over the open subsets of formula_40 and formula_22 ranges over formula_129; if formula_2 is a directed set then these subbasic open subsets actually form a for the limit topology (rather than merely just a subbasis). 
+The system formula_17 is said to be a if every formula_40 is endowed with a uniformity formula_466 that is consistent with formula_40's given topology (that is, the topology that formula_466 induces on formula_40 is equal to formula_40's given topology) and if every formula_39 is uniformly continuous. 
+A uniform system is nothing more than an inverse system in the category of uniform spaces, where morphisms are uniformly continuous maps. 
+In this case, formula_158 becomes an inverse limit of formula_17 in the category of uniform spaces if formula_215 is endowed with the weakest uniformity formula_546 making every formula_547 uniformly continuous. 
+The topology induced on formula_215 by the uniformity formula_546 is equal to the weak topology on formula_215 induced by the formula_464 
+If in addition every formula_40 is metrizable with formula_553 as a metric and if the indexing set is formula_16 then formula_215 is also metrizable and a metric compatible with its topology is given by the Fréchet combination 
+for all formula_557
+Examples of limits.
+Given any object formula_66 in any category formula_1 and given a preordered set formula_26 the limit of the constant system formula_561 is the cone formula_562 If formula_66 is a set then the vertex of the canonical limit of this constant system consists of all elements formula_564 of the product formula_565 that are constant; that is, all formula_566 for which there exists some formula_567 such that formula_568 for formula_569
+Suppose formula_68 is an inverse system in some category and formula_2 is a partially ordered set with a greatest element formula_572 which means that formula_573 for every formula_569 
+Then formula_575 is a limit of formula_17 in this category. 
+Moreover, if formula_158 is any limit of formula_17 then its formula_579 projection formula_580 is necessarily an isomorphism. 
+Pullbacks as limits.
+A of any two given morphisms formula_581 and formula_582 having the same codomain object formula_66 is an inverse limit of the following inverse system:
+where the set formula_585 of three distinct indices is partially ordered by declaring that for any formula_30 formula_32 if and only if formula_131 or formula_589; this makes formula_66 the least element of formula_26 where this partially ordered set is not (upward) directed. 
+In terms of the notation this article has been using, for every formula_592 the formula_22th object is formula_594 and the connecting morphism formula_595 is (as usual) the identity map; the only remaining connecting morphisms are formula_596 and formula_597 because formula_598 and formula_599 
+A limit of this inverse system is a cone formula_600 into formula_601 where by the definition of a limit, these morphisms satisfy 
+and thus also 
+The vertex is typically denoted by formula_605 and the morphism formula_606 is usually not mentioned because whenever it is needed, it can be reconstructed from the morphisms 
+via either of the compatibility conditions formula_602 or formula_610 
+The universal property of limits that formula_611 satisfies can be restated as: 
+This unique morphism formula_615 is the limit of the cone formula_619 into formula_620 where formula_621 is defined by formula_622
+Products as limits.
+Let formula_623 be a family of sets indexed by formula_624 
+For formula_30 declare that formula_32 if and only if formula_627 
+This makes formula_2 a partially ordered set but it is a directed set if and only if formula_129 is a singleton set. 
+For every formula_119 let formula_631 be the identity map and let formula_632 denote the canonical projection onto the formula_447 coordinate. 
+Then formula_634 is an inverse system in the category Set and formula_635 is a limit of in this category, where formula_636 
+If the formula_13 are topological spaces then formula_638 is an inverse system in the category formula_521 of topological spaces and moreover, endowing formula_640 with the product topology (which is equal to the weak topology on formula_640 induced by the projections formula_642) makes formula_635 a limit of this system in formula_524 
+Let formula_645 be any non-empty set (for example, formula_400) and for every natural number formula_647 let formula_648 denote the canonical projection defined by formula_649 
+As described above, these maps induce a canonical inverse system 
+where formula_651 is the map formula_652 
+This system formula_653 has formula_654 as a limit in Set, where formula_655 is the canonical projection defined by formula_656 (the symbols formula_657 were used above to help define the canonical limit's projections and by using formula_658 each symbol will continue to denote the map formula_659 that picks out component − its formula_22th component − and ignores all others; in particular, for this system, formula_661 if formula_662). In contrast to this limit, if formula_645 has at least two distinct elements then the vertex of this system's canonical limit (defined above) is a subset of formula_664 even though this product formula_665 can be canonically identified with formula_666 via 
+The elements of the canonical limit are those that are of the form formula_668 So for instance, if formula_669 are distinct then under this canonical identification, formula_670 belongs to formula_666 but not to the canonical limit (because formula_672). Because it is simpler than the canonical limit, the limit formula_654 is typically preferred over the canonical limit for this particular system. 
+If formula_674 then formula_666 consists of all possible sequences of formula_409's and formula_677's, and so associating every formula_678 with the binary number formula_679 defines a surjective function formula_680 (explicitly, this function is defined by formula_681). 
+In particular, despite every formula_682 being a set, the vertex of this system's inverse limit is an uncountable set. 
+For every formula_683 define a map formula_684 by 
+and for every formula_688 
+where only the first two coordinates are out of their usual order. 
+Then formula_690 is also a limit of formula_653 in Set and it has the same vertex as the previous limit formula_654; the only difference is in the projection morphisms. 
+To see that this difference in the projection morphisms is important, set formula_693 let formula_694 denote any singleton set, and for every formula_683 let formula_696 be defined by formula_697 which makes formula_74 a cone into formula_699 
+The limit of the cone formula_74 into formula_654 is the map formula_702 defined by formula_703 whereas the limit of formula_74 into formula_690 is the map formula_702 defined by formula_707 where only the first two coordinates are out of their natural order. 
+Moreover, the limit of the cone formula_654 into formula_690 is the isomorphism of sets (i.e. a bijection) formula_710 defined by formula_711 This map formula_710 also happens to be the limit of the cone formula_690 into formula_714
+Pro-finite groups and algebraic examples.
+Pro-finite groups are defined as inverse limits of (discrete) finite groups.
+The ring of formula_715-adic integers is the inverse limit of the rings formula_716 (see modular arithmetic) with the index set being the natural numbers with the usual order, and the morphisms being "take remainder". That is, one considers sequences of integers formula_717 such that each element of the sequence "projects" down to the previous ones, namely, that formula_718 whenever formula_719 The natural topology on the formula_715-adic integers is the one implied here, namely the product topology with cylinder sets as the open sets.
+The set of infinite strings is the inverse limit of the set of finite strings, and is thus endowed with the limit topology. As the original spaces are discrete, the limit space is totally disconnected. This is one way of realizing the formula_715-adic numbers and the Cantor set (as infinite strings).
+The formula_715-adic solenoid is the inverse limit of the compact Hausdorff groups formula_723 with the index set being the natural numbers with the usual order, and the morphisms being "take remainder". That is, one considers sequences of real numbers formula_717 such that each element of the sequence "projects" down to the previous ones, namely, that formula_718 whenever formula_719
+The ring formula_727 of formal power series over a commutative ring formula_728 can be thought of as the inverse limit of the rings formula_729 indexed by the natural numbers as usually ordered, with the morphisms from formula_730 to formula_731 given by the natural projection.
+Intersections as limits.
+Let formula_732 be a non-empty family of sets and define 
+This example will turn formula_732 into an inverse system and then later, also into a direct system. 
+Given any sets formula_22 and formula_23 such that formula_738 let 
+denote the inclusion map (defined by formula_740). 
+Let formula_741 and for every formula_119 let formula_594 so that formula_744 
+Thus formula_732 is the systems' indexing set, and the systems' objects are the elements of formula_746 
+The superset inclusion relation formula_747 and the subset inclusion relation formula_299 each define a partial order on the set formula_749 
+For example, formula_750 is a partially ordered set because if formula_747 is denoted by formula_10 (that is, if we define formula_32 if and only if formula_754 so that sets are considered "greater" while sets are considered "lesser") then formula_10 is an antisymmetric preorder on formula_749 
+The index of the codomain of formula_739 with respect to formula_747 is than or equal to the index of its domain (because formula_738 which is formula_32 if the notation above is used). 
+So with respect to the partial order formula_761 these inclusions maps might be expected to form an inverse system (and not a direct system), and indeed the tuple
+does form a partially ordered inverse system because if formula_763 are indices then formula_764 
+If formula_750 is a directed set and if formula_766 then formula_767 is an inverse limit of formula_768 in the category Set. 
+The indexing set formula_750 has a greatest element if and only if formula_770 in which case formula_771 is this (unique) greatest element. 
+Consider now formula_772 which is the transpose of formula_773 
+The index of the codomain of formula_739 with respect to formula_299 is than or equal to the index of its domain (because formula_776). 
+So with respect to the partial order formula_772 these inclusions maps might be expected to form a direct system (and not an inverse system), and indeed this is the case because as mentioned above, the transpose 
+of the inverse system formula_768 is necessarily a direct system. 
+If formula_780 is a directed set and if formula_781 then formula_782 is a direct limit in the category Set of the direct system formula_783 
+The indexing set formula_780 has a greatest element if and only if formula_785 in which case formula_786 is this (unique) greatest element. 
+This example demonstrates why in general, intersections are considered to be "inverse limit constructions" while unions (which are the "dual" of intersections) are considered to be "direct limit constructions." This duality extends further. For instance, Cartesian products (which are products in the category of sets) are generally considered to be inverse limit constructions while disjoint unions (which are coproducts in the category of sets and are the "dual" to products) are considered direct limit constructions. 
+Returning to inverse limits, when formula_750 is a directed set, which will now be assumed, then constructing a limit of formula_768 that is easier to work with than the canonical limit becomes more technically challenging. One issue with the canonical limit of this system is that it may be difficult to determine its basic properties, such as for instance, whether or not the its vertex is the empty set. 
+Indeed, it is even possible for this limit to be a Cartesian product of sets. 
+One special case is now considered. 
+For all formula_119 let formula_790 and let formula_791 
+If there exists some formula_112 such that formula_793 is the empty set then the limit of formula_768 in Set is necessarily the empty cone. 
+Let formula_795 be a convex open subset of formula_400 and fix formula_797 
+Let formula_798 be the algebra of continuous formula_400-valued functions on formula_800 and let formula_801 for all formula_802 
+For each integer formula_803 define the bonding map formula_804 by 
+where by formula_806 it is meant the continuous function formula_807 defined on formula_795 (if formula_809 then formula_810 is an empty list). 
+For formula_811 the map formula_812 is defined in the usual way (e.g. formula_813 etc.). 
+Each formula_814 is an injective map (a fact that can be verified by using Taylor's theorem, for example) so that the same is true of every bonding map formula_815 Consequently, the intersection of the images formula_816 is a limit of this inverse system (where this limit's projection formula_817 into formula_818 is the restriction to formula_215 of the inverse of the bijection formula_820). 
+This limit is now shown to be the set of smooth functions on formula_821 Suppose formula_822 
+Then formula_823 if and only if formula_824 for some real formula_825 and some formula_826 which by Taylor's theorem happens if and only if formula_827 is continuously differentiable (i.e. formula_828). 
+By induction, formula_829 if and only if 
+for some real formula_831 and some formula_832 which by Taylor's theorem is true if and only if formula_833 (in this case, formula_834 is the formula_447 derivative of formula_827 at formula_315). 
+Thus the limit of the above system is formula_838 
+Note that this construction of the smooth functions on formula_795 does use (or even need) the definition of a derivative (Taylor's theorem was only used to the resulting limit as the set of smooth functions on formula_795 and possibly also to prove that the bonding maps were injective; it was not used in the definition of the inverse system nor in the definition of the limit formula_841). 
+This construction can be generalized to define smooth functions on a convex open subset of formula_842 where formula_843
+Inverse system morphisms.
+Throughout, formula_844 and formula_845 will be inverse systems in some category formula_846 
+An ' (') is a pair formula_847 consisting of
+with the property that for all formula_317 satisfying formula_849 
+That is, the following diagram must commute:
+This situation may be summarized by writing that formula_851 is a morphism (of inverse systems). 
+If formula_852 is another inverse system and formula_853 is an inverse system morphism (so formula_854 is order-preserving and formula_855 is a morphism for all formula_856) then the 
+is defined to be the inverse system morphism 
+consisting of the order morphism formula_859 and the formula_728-indexed morphisms formula_861 By endowing inverse system morphisms with this definition of composition, the class of all inverse systems in a given category formula_1 becomes a category. 
+Limit of an inverse system morphism.
+Assume that formula_158 is an inverse limit of formula_17 and that formula_248 is an inverse limit of formula_866 
+The formula_158 (or ) formula_868 is the cone 
+from formula_215 into formula_871 where the family formula_872 may be denoted by formula_873 
+The formula_874 is defined to be the limit of the canonical cone formula_875 
+This limit is a morphism formula_876 which may also be denoted by formula_877 formula_878 formula_879 or formula_880 
+This limit morphism formula_881 is the unique morphism satisfying
+in which case the following diagram will commute for all indices formula_317 satisfying formula_885:
+It is in general true that for given inverse systems, every morphism between inverse limits arises as the limit of an inverse system morphism. 
+Specifically, in the category of sets, formula_886 (together with the canonical projections formula_887) is a limit of the surjective inverse system formula_888 and there exists an isomorphism formula_889 such that formula_827 is equal to the limit of inverse system morphism of the form formula_891 
+When the space of all real sequences formula_886 is endowed with the usual product topology then this map formula_889 is even a homeomorphism. 
+Moreover, when formula_345 is considered as a topological vector space (TVS) then both formula_827 and formula_896 are continuously differentiable with respect to the Fréchet derivative and for each, its Fréchet derivative at any point of its domain is an isomorphism of TVSs. 
+Each coordinate of formula_827 is smooth and the same is true of each coordinate of formula_898
+Equivalence transformations.
+Two inverse systems over the same category are said to be (in the given category) if there exists an equivalence transformation between them. 
+Two inverse system morphisms formula_899 and formula_900 are said to form an ' (') if 
+and also 
+In this case, the following diagrams will commute for all formula_32 in formula_129 and all formula_885 in formula_311:
+ and 
+from which it follows that in particular, the following diagram will also commute. 
+Equivalent systems have isomorphic limits.
+Examples of inverse system morphisms and their limits.
+Suppose that formula_17 is an inverse system indexed by formula_2 that has a limit formula_911 
+If formula_912 is the identity morphism formula_913 and if for every formula_119 formula_915 is also the identity morphism, then formula_916 is an inverse system morphism whose limit from formula_158 and into formula_158 is the identity morphism formula_919 
+Let formula_645 be a subset of an additive group that contains the additive identity formula_921 is closed under addition, and has the property that if formula_922 is non-zero then its additive inverse formula_923 does belong to formula_645 (alternatively, formula_669 with formula_926 implies formula_927). For example, formula_645 could be formula_929 or formula_930 or formula_931 or even the complex plane's upper half formula_932. 
+For all natural numbers formula_933 let formula_934 and let formula_935 denote the canonical projection defined by formula_936 so that as described in an example above, these maps form an inverse system 
+that has formula_938 as a limit in the category Set, where formula_939 is the canonical projection defined by formula_940. 
+For every formula_683 let formula_942 and let formula_943 be the map defined by
+where in particular, formula_945 
+Let 
+be the canonical inverse system that these maps induce (as defined above) and let formula_158 be the canonical limit of formula_638 in Set. 
+Elements of the canonical limit's vertex formula_215 are exactly those elements of formula_950 that are of the form formula_951 where for all integers formula_952 both formula_953 and formula_954 belong to formula_645 and formula_956 
+Intuitively, elements of formula_215 can be identified with infinite lists of equations of the form: 
+where all formula_953 and formula_954 belong to formula_961 (This interpretation often generalizes and may help to explain why the limits of some inverse systems are empty: nothing satisfies that system's infinite list of requirements.) 
+For example, the sequence of all formula_409s formula_963 belongs to formula_964 
+And given any formula_965 and any formula_966 the sequence formula_967 (where formula_968 is added to every formula_954) will also belong to formula_964 
+Let formula_971 be defined by formula_972 For every formula_973 let formula_974 be the canonical projection as defined above. 
+Then formula_975 is an inverse system morphism because the following diagram commutes for all formula_976:
+Let formula_977 denote the limit of formula_847 into formula_979 
+If formula_965 is as described above, then this element's image under formula_981 is formula_982; thus formula_981 "forgets" every formula_954 but remembers every formula_985 
+Observe, in particular, that the map formula_877 both the systems formula_987 and formula_76 and their limits formula_938 and formula_158 are dependent on any topology. 
+Assume now that formula_991 
+Then formula_977 is neither injective nor surjective. 
+And despite formula_993 being completely independent of any topology, it is readily verified that an element formula_994 belongs to formula_981's image formula_996 if and only if the series formula_997 converges in formula_400 with its usual Euclidean topology. 
+In this way, inverse limits in the category Set of can be used to completely characterize those non-negative real sequences that are absolutely convergent in formula_400 (with its usual topology). However, because formula_993 is not injective, it is not possible to use formula_981 to (non-arbitrarily) assign a distinguished "sum" to such a convergent series (that is, to each element in formula_996); to do that, it necessary to pick a topology on formula_400 (such as the Euclidean topology, for example).
+Derived functors of the inverse limit.
+For an abelian category formula_15 the inverse limit functor
+is left exact. If formula_129 is ordered (not simply partially ordered) and countable, and formula_1 is the category Ab of abelian groups, the Mittag-Leffler condition is a condition on the transition morphisms formula_50 that ensures the exactness of formula_1009 Specifically, Eilenberg constructed a functor
+(pronounced "lim one") such that if formula_1011 formula_1012 and formula_1013 are three inverse systems of abelian groups, and
+is a short exact sequence of inverse systems, then
+is an exact sequence in Ab.
+Mittag-Leffler condition.
+If the ranges of the morphisms of an inverse system of abelian groups formula_1016 are , that is, for every formula_1017 there exists formula_1018 such that for all formula_1019 :formula_1020 one says that the system satisfies the Mittag-Leffler condition.
+The name "Mittag-Leffler" for this condition was given by Bourbaki in their chapter on uniform structures for a similar result about inverse limits of complete Hausdorff uniform spaces. Mittag-Leffler used a similar argument in the proof of Mittag-Leffler's theorem.
+The following situations are examples where the Mittag-Leffler condition is satisfied: 
+An examplepg 83 where formula_1022 is non-zero is obtained by taking formula_129 to be the non-negative integers, letting formula_1024 formula_1025 and formula_1026 Then
+where formula_1028 denotes the p-adic integers.
+Further results.
+More generally, if formula_1 is an arbitrary abelian category that has enough injectives, then so does formula_1030 and the right derived functors of the inverse limit functor can thus be defined. The formula_1031 right derived functor is denoted
+In the case where formula_1 satisfies Grothendieck's axiom (AB4*), Jan-Erik Roos generalized the functor lim1 on Ab"I" to series of functors limn such that
+It was thought for almost 40 years that Roos had proved (in "Sur les foncteurs dérivés de lim. Applications") that formula_1035 for formula_1016 an inverse system with surjective transition morphisms and formula_129 the set of non-negative integers (such inverse systems are often called "Mittag-Leffler sequences"). However, in 2002, Amnon Neeman and Pierre Deligne constructed an example of such a system in a category satisfying (AB4) (in addition to (AB4*)) with formula_1038 Roos has since shown (in "Derived functors of inverse limits revisited") that his result is correct if formula_1 has a set of generators (in addition to satisfying (AB3) and (AB4*)).
+Barry Mitchell has shown (in "The cohomological dimension of a directed set") that if formula_129 has cardinality formula_1041 (the formula_1042th infinite cardinal), then formula_1043 is zero for all formula_1044 This applies to the formula_129-indexed diagrams in the category of formula_728-modules, with formula_728 a commutative ring; it is not necessarily true in an arbitrary abelian category (see Roos' "Derived functors of inverse limits revisited" for examples of abelian categories in which formula_1048 on diagrams indexed by a countable set, is nonzero for formula_1049).
+Related concepts and generalizations.
+The categorical dual of an inverse limit is a direct limit (or inductive limit). More general concepts are the limits and colimits of category theory. The terminology is somewhat confusing: inverse limits are a class of limits, while direct limits are a class of colimits.
+

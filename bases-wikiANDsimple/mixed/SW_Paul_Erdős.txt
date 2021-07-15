@@ -1,0 +1,4 @@
+Paul Erdős, also Pál Erdős, in English Paul Erdos or Paul Erdös (March 26, 1913 – September 20, 1996), was a famous Hungarian-born mathematician. He worked with hundreds of mathematicians on problems in combinatorics, graph theory, number theory, classical analysis, approximation theory, set theory, and probability theory.
+Erdős number.
+Because he was so prolific, friends created Erdős number. Erdős has a number of 0 (for being himself), and his direct collaborators were given the number 1. Their collaborators were given a number of 2, an so on.
+The Erdős number was most likely first defined by Casper Goffman, a mathematician whose Erdős number is 1.

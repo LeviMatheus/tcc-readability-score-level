@@ -1,0 +1,2 @@
+A yottabyte (YB) is a unit of measurement for computers of the future. Yottabytes hold 1000 zettabytes (ZB) or a trillion trillion (1,000,000,000,000,000,000,000,000) bytes.
+In 2008, there are no computer large enough to hold even one yottabyte of data.

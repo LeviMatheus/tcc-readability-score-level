@@ -1,0 +1,6 @@
+
+In telecommunication, communications-electronics (C-E) is the specialized field concerned with the use of electronic devices and systems for the acquisition or acceptance, processing, storage, display, analysis, protection, disposition, and transfer of information. 
+C-E includes the wide range of responsibilities and actions relating to:
+Electronic Communications Equipment.
+Communication electronics radio equipment has been a rapidly growing industry for more than a century. Homeland Security in the USA is one of the reasons for the fast growth. Since the invention of the “solid state” transistor in the 1950s and the TTL (transistor-transistor logic) that led to the development of the IC (integrated circuit) in the 1960s the growth in the field of electronics has been phenomenal. As now witnessed in the “radio communications” field. The latest trend is to send conventional LMR (land-mobile-radio) signals over the Internet (Internet Protocol) this is called RoIP (Radio over Internet Protocol), which is just like VoIP (Voice over Internet Protocol) but uses the radio. By sending signals over the Internet it allows radios to be connected together all over the world. Hence: the “Communications Revolution”.
+

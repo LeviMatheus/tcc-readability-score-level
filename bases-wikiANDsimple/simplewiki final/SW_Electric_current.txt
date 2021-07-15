@@ -1,0 +1,10 @@
+The SI unit of electric current is ampere (A). This is equal to one coulomb of charge in one second.
+Current can be found in wires, batteries, and lightning.
+Conventional current.
+Conventional current is the flow of positive charge. Conventional current is positive charge flow. (Conventional means it is by agreement only; physicists agree to call the flow of positive charge, 'conventional current'). (It is also by convention that they agree to call one charge e. g. the electron 'negative' and another charge e. g. the proton 'positive'). (The application of the positive sign to one and not to the other is a matter of arbitrary convention which means that the solution of the problem rests by agreement on a random choice). It is a movement of positive charges in one direction, and a movement in the opposite direction of electrons. It goes from the positive to negative side of the starting position. But this is (apparently) wrong because positive charges do not move in solid metals (except by convention).
+It is really electron flow happening in a circuit made of solid metals.
+Electron flow.
+Electron flow is a stream of negative charges moving in the opposite direction of conventional current, from negative to positive.
+A cathode ray is an example of electron flow. It is a stream of electrons in a vacuum tube.
+Current in circuits.
+When current is flowing in a wire circuit, it accelerates when there is no resistance in the circuit. Resistors are used to increase resistance in the circuit so it slows down the current. The relationship between resistance, current, and voltage (another part of the circuit) is shown by Ohm's law.

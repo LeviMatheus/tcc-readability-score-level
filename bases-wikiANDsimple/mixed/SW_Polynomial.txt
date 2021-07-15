@@ -1,0 +1,10 @@
+When you see letters mixed with numbers and arithmetic, like "x"2+2"x"-7, there is a good chance that it is a polynomial. Mathematicians, scientists, and engineers use polynomials to solve problems. Polynomials are taught in algebra, which is a gateway course to all technical subjects.
+In algebra, when you see letters, numbers, and arithmetic, the understanding is that the letters stand either for numbers you do not know (and may want to find) or for numbers that change during the course of the problem, variables, such as time. If the only arithmetic is addition, subtraction, multiplication, and whole number exponents, then a mixture of letters, numbers, and arithmetic is called a polynomial. If harder operations are used, such as division or square roots, then the what you have is an "algebraic expression". A polynomial is a easy to use algebraic expression.
+Polynomials are often used to form polynomial equations, such as "x"2+2"x"-7 = 0, or polynomial functions, such as "f"("x") = "x"2+2"x"-7.
+Talking about polynomials.
+The most important thing to remember about a polynomial is "multiplication is understood". That means, for example, that 2"x" means two times "x", or twice "x". If "x" is 7, the 2"x" is 14.
+If a polynomial has only one term, it is called a "monomial". 5"x"3 is a monomial. The multiplier out in front is called a "coefficient", the letter is called an "unknown" or a "variable", and the raised number after the "x" is called an exponent. On a calculator, and on some computers, instead of putting an exponent above and to the right of the "x" the symbol ^ is used, so that the monomial above could be written 5"x"^3.
+A polynomial with exactly two terms is called a "binomial".
+A term with no letters in it is called a "constant term".
+A term with one letter but no exponent is called a "first degree term" or a "linear term".
+A term with one letter which has exponent 2 is called a "second degree term" or "quadratic term". A "quadratic equation" is an equation in which the largest exponent on any term is 2.

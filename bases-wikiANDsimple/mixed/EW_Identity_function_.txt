@@ -1,0 +1,11 @@
+
+In mathematics, an identity function, also called an identity relation or identity map or identity transformation, is a function that always returns the same value that was used as its argument. That is, for being identity, the equality holds for all .
+Definition.
+Formally, if is a set, the identity function on is defined to be that function with domain and codomain which satisfies
+In other words, the function value in (that is, the codomain) is always the same input element of (now considered as the domain). The identity function on is clearly an injective function as well as a surjective function, so it is also bijective.
+The identity function on is often denoted by .
+In set theory, where a function is defined as a particular kind of binary relation, the identity function is given by the identity relation, or "diagonal" of .
+Algebraic properties.
+If is any function, then we have (where "∘" denotes function composition). In particular, is the identity element of the monoid of all functions from to .
+Since the identity element of a monoid is unique, one can alternately define the identity function on to be this identity element. Such a definition generalizes to the concept of an identity morphism in category theory, where the endomorphisms of need not be functions.
+

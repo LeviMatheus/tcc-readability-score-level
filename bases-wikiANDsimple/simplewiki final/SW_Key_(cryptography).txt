@@ -1,0 +1,2 @@
+In cryptography, a key (or cryptographic key'") is a piece of information that allows control over the encryption or decryption process.
+There are two basic types of cryptographic algorithms.

@@ -1,0 +1,12 @@
+
+The megabyte is a multiple of the unit byte for digital information. Its recommended unit symbol is MB. The unit prefix "mega" is a multiplier of (106) in the International System of Units (SI). Therefore, one megabyte is one million bytes of information. This definition has been incorporated into the International System of Quantities.
+However, in the computer and information technology fields, two other definitions are used that arose for historical reasons of convenience. A common usage has been to designate one megabyte as (220 B), a measurement that conveniently expresses the binary multiples inherent in digital computer memory architectures. However, most standards bodies have deprecated this usage in favor of a set of binary prefixes, in which this quantity is designated by the unit mebibyte (MiB). In one context, the megabyte has been used to mean 1000×1024 () bytes.
+Definitions.
+The megabyte is commonly used to measure either 10002 bytes or 10242 bytes. The interpretation of using base 1024 originated as a compromise technical jargon for the byte multiples that needed to be expressed by the powers of 2 but lacked a convenient name. As 1024 (210) approximates 1000 (103), roughly corresponding to the SI prefix kilo-, it was a convenient term to denote the binary multiple. In 1998 the International Electrotechnical Commission (IEC) proposed standards for binary prefixes requiring the use of megabyte to strictly denote 10002 bytes and mebibyte to denote 10242 bytes. By the end of 2009, the IEC Standard had been adopted by the IEEE, EU, ISO and NIST. Nevertheless, the term megabyte continues to be widely used with different meanings:
+In this convention, one thousand megabytes (1000 MB) is equal to one gigabyte (1 GB), where 1 GB is one billion bytes.
+In this convention, one thousand and twenty-four megabytes (1024 MB) is equal to one gigabyte (1 GB), where 1 GB is 10243 bytes (i.e., 1 GiB).
+Randomly addressable semiconductor memory doubles in size for each address lane added to an integrated circuit package, which favors counts that are powers of two. The capacity of a disk drive is the product of the sector size, number of sectors per track, number of tracks per side, and the number of disk platters in the drive. Changes in any of these factors would not usually double the size.
+Examples of use.
+Depending on compression methods and file format, a megabyte of data can roughly be:
+The human genome consists of DNA representing 800MB of data. The parts that differentiate one person from another can be compressed to 4MB.
+

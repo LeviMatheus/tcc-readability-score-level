@@ -1,0 +1,39 @@
+
+A heterocyclic compound or ring structure is a cyclic compound that has atoms of at least two different elements as members of its ring(s). Heterocyclic chemistry is the branch of organic chemistry dealing with the synthesis, properties, and applications of these heterocycles.
+Examples of heterocyclic compounds include all of the nucleic acids, the majority of drugs, most biomass (cellulose and related materials), and many natural and synthetic dyes. More than half of known compounds are heterocycles. 59% of US FDA-approved drugs contain nitrogen heterocycles.
+Classification.
+The study of heterocyclic chemistry focuses especially on unsaturated derivatives, and the preponderance of work and applications involves unstrained 5- and 6-membered rings. Included are pyridine, thiophene, pyrrole, and furan. Another large class of heterocycles refers to those fused to benzene rings. For example, the fused benzene derivatives of pyridine, thiophene, pyrrole, and furan are quinoline, benzothiophene, indole, and benzofuran, respectively. The fusion of two benzene rings gives rise to a third large family of compounds. Analogs of the previously mentioned heterocycles for this third family of compounds are acridine, dibenzothiophene, carbazole, and dibenzofuran, respectively. 
+Heterocyclic compounds can be usefully classified based on their electronic structure. The saturated heterocycles behave like the acyclic derivatives. Thus, piperidine and tetrahydrofuran are conventional amines and ethers, with modified steric profiles. Therefore, the study of heterocyclic chemistry focuses on unsaturated rings.
+Inorganic rings.
+Some heterocycles contain no carbon. Examples are borazine (B3N3 ring), hexachlorophosphazenes (P3N3 rings), and S4N4. In comparison with organic heterocycles, which have numerous commercial applications, inorganic ring systems are mainly of theoretical interest. IUPAC recommends the Hantzsch-Widman nomenclature for naming heterocyclic compounds.
+3-membered rings.
+Although subject to ring strain, 3-membered heterocyclic rings are well characterized.
+5-membered rings.
+Five-membered rings with "two" heteroatoms.
+The 5-membered ring compounds containing "two" heteroatoms, at least one of which is nitrogen, are collectively called the azoles. Thiazoles and isothiazoles contain a sulfur and a nitrogen atom in the ring. Dithiolanes have two sulfur atoms.
+Five-membered rings with at least "three" heteroatoms.
+A large group of 5-membered ring compounds with "three" or more heteroatoms also exists. One example is the class of dithiazoles, which contain two sulfur atoms and one nitrogen atoms.
+6-membered rings.
+Six-membered rings with "four" heteroatoms.
+Carborazine is a six-membered ring with two nitrogen heteroatoms and two boron heteroatom.
+Six-membered rings with six heteroatoms.
+The hypothetical compound with six nitrogen heteroatoms would be hexazine.
+Borazine is a six-membered ring with three nitrogen heteroatoms and three boron heteroatoms.
+7-membered rings.
+In a 7-membered ring, the heteroatom must be able to provide an empty π-orbital (e.g. boron) for "normal" aromatic stabilization to be available; otherwise, homoaromaticity may be possible. Compounds with one heteroatom include:
+Those with two heteroatoms include:
+8-membered rings.
+Borazocine is an eight-membered ring with four nitrogen heteroatoms and four boron heteroatoms.
+Fused/condensed rings.
+Heterocyclic rings systems that are formally derived by fusion with other rings, either carbocyclic or heterocyclic, have a variety of common and systematic names. For example, with the benzo-fused unsaturated nitrogen heterocycles, pyrrole provides indole or isoindole depending on the orientation. The pyridine analog is quinoline or isoquinoline. For azepine, benzazepine is the preferred name. Likewise, the compounds with two benzene rings fused to the central heterocycle are carbazole, acridine, and dibenzoazepine. Thienothiophene are the fusion of two thiophene rings. Phosphaphenalenes are a tricyclic phosphorus-containing heterocyclic system derived from the carbocycle phenalene.
+History of heterocyclic chemistry.
+The history of heterocyclic chemistry began in the 1800s, in step with the development of organic chemistry. Some noteworthy developments:
+1818: Brugnatelli isolates alloxan from uric acid
+1832: Dobereiner produces furfural (a furan) by treating starch with sulfuric acid
+1834: Runge obtains pyrrole ("fiery oil") by dry distillation of bones
+1906: Friedlander synthesizes indigo dye, allowing synthetic chemistry to displace a large agricultural industry
+1936: Treibs isolates chlorophyl derivatives from crude oil, explaining the biological origin of petroleum.
+1951: Chargaff's rules are described, highlighting the role of heterocyclic compounds (purines and pyrimidines) in the genetic code.
+Uses.
+Heterocyclic compounds are pervasive in many areas of life sciences and technology. Many drugs are heterocyclic compounds.
+

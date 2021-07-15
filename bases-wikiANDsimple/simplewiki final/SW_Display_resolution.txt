@@ -1,0 +1,2 @@
+Resolution is what can qualify a monitor in computer science. It is the number of pixels displayed on a given surface.
+For example: a "640 by 480 display", which has 640 pixels from side to side and 480 from top to bottom (as in a VGA display), and therefore has a total number of 640 × 480 = 307,200 pixels or 0.3 megapixels, is what is meant by 640×480 display resolution.

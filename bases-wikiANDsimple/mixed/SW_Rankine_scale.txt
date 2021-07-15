@@ -1,0 +1,3 @@
+The Rankine scale is a thermodynamic (absolute) temperature scale. It is based around absolute zero. Rankine is similar to the Kelvin scale in that it starts at absolute zero and 0°R is the same as 0°K but is different as a change of 1°R is the same as a change of 1°F (Fahrenheit) and not 1°C (Celsius).
+The Kelvin and Rankine temperature scales are defined so that absolute zero is 0 kelvins (K) or 0 degrees Rankine (°R). The Celsius and Fahrenheit scales are defined so that absolute zero is −273.15 °C or −459.67 °F.
+The Rankine scale was originally used in the United States.

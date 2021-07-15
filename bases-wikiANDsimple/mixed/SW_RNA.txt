@@ -1,0 +1,9 @@
+RNA is an acronym for ribonucleic acid, a nucleic acid. RNA is transcribed from DNA by an enzyme called RNA polymerase and further processed by other enzymes.
+RNA translates genes into proteins, transferring amino acids from the nucleus to the ribosome to form proteins, and also translating the transcript into proteins. This process is called translation.
+The first three bases are also found in DNA, but Uracil replaces Thymine as a complement to Adenine.
+RNA also contains ribose as opposed to deoxyribose found in DNA.
+RNA is the carrier of genetic material in different types of viruses such as AIDS virus i.e. HIV (HUMAN IMMUNO DEFICIENCY VIRUS) and in that case called a retrovirus.
+mRNA.
+mRNA, or "Messenger" RNA is the complement strand of DNA. A single strand of DNA is a blueprint for mRNA which is transcribed from that DNA strand. DNA cannot leave the nucleus because of it's size, but mRNA can. Once transcribed, the mRNA leaves the nucleus and is attached to tRNA which attached to the Ribosomes.
+tRNA.
+tRNA, or "Transfer" RNA is the complement (opposite) strand to mRNA and attaches to Ribosomes to be translated into a polypeptide (protein) chain. Each tRNA codon, group of three nitrogenous bases, codes for a specific amino acid which all bind together to form a protein. For example, codons UUU or UUC code for the amino acid Phenylalanine.

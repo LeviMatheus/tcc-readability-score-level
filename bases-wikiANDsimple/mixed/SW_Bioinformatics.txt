@@ -1,0 +1,8 @@
+Bioinformatics is the study of big amounts of biological information. Mostly focusing on molecules like DNA. It is done mostly with the help of computers.
+The process.
+Anything a cell could possibly want is stored in its DNA. When a cell wants to build a protein, it finds the appropriate piece of DNA, unravels it, and uses it to make the protein.
+Proteins are made from "amino acids". There are twenty amino acids in each protein molecule. Proteins are the 'machinery' of a cell. They can perform many functions like transportation, structural support, movement and metabolism.
+The principle of bioinformatics is that everything making up these molecules can be studied by studying the DNA in it and therefore find out more about how it work.
+Computers in bioinformatics.
+Chemists have developed ways for understanding the shape and behavior of small molecules, using mathematical analysis. They might use computers (or even just a pencil and paper) to study these molecules.
+Biochemists today are trying to answer these questions about every single cell in the body.

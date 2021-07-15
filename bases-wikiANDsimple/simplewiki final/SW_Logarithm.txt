@@ -1,0 +1,11 @@
+Logarithms or logs are a part of mathematics. They are related to exponential functions, and useful in multiplying or dividing large numbers.
+Relationship with exponential functions.
+A logarithm tells what exponent (or power) is needed to make a certain number, so logarithms are the inverse (opposite) of exponentiation
+Just as an exponential function has three parts, a logarithm has three parts. The three parts of a logarithm are a base, an argument and an answer.
+In this function, the power is 3, the answer is 8.
+In this logarithm, the base is 2, the argument is 8 and the answer is 3.
+Uses.
+Logarithms can make multiplication and division of large numbers easy because adding logarithms is the same as multiplying, and subtracting logarithms is the same as dividing.
+Before calculators became cheap and common, people used logarithm tables in books to multiply and divide. The same information in a logarithm table was available on a slide rule, a tool with logarithms written on it.
+Natural logarithms.
+Logarithms to base "e" are called natural logarithms. The number e is nearly 2.71828, and is also called the Eulerian constant after the mathematician Leonhard Euler.

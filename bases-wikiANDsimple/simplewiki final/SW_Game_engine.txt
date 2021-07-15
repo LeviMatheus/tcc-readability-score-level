@@ -1,0 +1,1 @@
+A game engine is used to power video games. It is the core software item of a video game or other objects with real-time graphics.

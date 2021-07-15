@@ -1,0 +1,8 @@
+Exponentiation (power) is something which is done on numbers. It is repeated multiplication. People write exponentiation with upper index. This looks like this: formula_1. Sometimes it is not possible. Then people write powers using ^ sign: 2^3 means formula_2.
+The number formula_3 is called base, and the number formula_4 is called exponent. For example, in formula_2, 2 is the base and 3 is the exponent.
+To calculate formula_2 a person must multiply 3 times the number 2. So formula_7. The result is formula_8. What the equation says can be also said this way: 2 raised to the power of 3 equals 8.
+If the exponent is equal to 2, then the power is called square because the area of a square is calculated using formula_12. So
+If the exponent is equal to 3, then the power is called cube because the volume of a cube is calculated using formula_15. So
+If the exponent is equal to -1 then the person must calculate the inverse of the base. So
+If the exponent is equal to formula_20 then the result of exponentiation is the square root of the base. So formula_21
+It is possible to calculate exponentiation of matrices. The matrix must be square. For example: formula_36.

@@ -1,0 +1,1 @@
+Concatenation is a simple concept from computer science. It is a way of making a new word (or String), by putting together two other Strings. Given the words "foo" and "bar", the two new words "foobar" and "barfoo" can be made that way.

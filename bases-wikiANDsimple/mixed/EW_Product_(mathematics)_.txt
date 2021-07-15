@@ -1,0 +1,96 @@
+
+In mathematics, a product is the result of multiplication, or an expression that identifies factors to be multiplied. For example, 30 is the product of 6 and 5 (the result of multiplication), and formula_1 is the product of formula_2 and formula_3 (indicating that the two factors should be multiplied together).
+The order in which real or complex numbers are multiplied has no bearing on the product; this is known as the commutative law of multiplication. When matrices or members of various other associative algebras are multiplied, the product usually depends on the order of the factors. Matrix multiplication, for example, is non-commutative, and so is multiplication in other algebras in general as well.
+There are many different kinds of products in mathematics: besides being able to multiply just numbers, polynomials or matrices, one can also define products on many different algebraic structures.
+Product of two numbers.
+Product of two natural numbers.
+Placing several stones into a rectangular pattern with formula_4 rows and formula_5 columns gives
+stones.
+Product of two integers.
+Integers allow positive and negative numbers. Their product is determined by the product of their positive amounts, combined with the sign derived from the following rule: 
+In words, we have:
+Product of two fractions.
+Two fractions can be multiplied by multiplying their numerators and denominators:
+Product of two real numbers.
+For a rigorous definition of the product of two real numbers see Construction of the real numbers.
+Product of two complex numbers.
+Two complex numbers can be multiplied by the distributive law and the fact that formula_9, as follows:
+Geometric meaning of complex multiplication.
+Complex numbers can be written in polar coordinates:
+Furthermore,
+from which one obtains
+The geometric meaning is that the magnitudes are multiplied and the arguments are added.
+Product of two quaternions.
+The product of two quaternions can be found in the article on quaternions. Note, in this case, that formula_14 and formula_15 are in general different.
+Product of a sequence.
+The product operator for the product of a sequence is denoted by the capital Greek letter pi ∏ (in analogy to the use of the capital Sigma ∑ as summation symbol). For example, the expression formula_16is another way of writing formula_17.
+The product of a sequence consisting of only one number is just that number itself; the product of no factors at all is known as the empty product, and is equal to 1.
+Commutative rings.
+Commutative rings have a product operation.
+Residue classes of integers.
+Residue classes in the rings formula_18 can be added:
+and multiplied:
+Convolution.
+Two functions from the reals to itself can be multiplied in another way, called the convolution.
+If
+then the integral
+is well defined and is called the convolution.
+Under the Fourier transform, convolution becomes point-wise function multiplication.
+Polynomial rings.
+The product of two polynomials is given by the following:
+with
+Products in linear algebra.
+There are many different kinds of products in linear algebra. Some of these have confusingly similar names (outer product, exterior product) with very different meanings, while others have very different names (outer product, tensor product, Kronecker product) and yet convey essentially the same idea. A brief overview of these is given in the following sections.
+Scalar multiplication.
+By the very definition of a vector space, one can form the product of any scalar with any vector, giving a map formula_25.
+Scalar product.
+A scalar product is a bi-linear map:
+with the following conditions, that formula_27 for all formula_28.
+From the scalar product, one can define a norm by letting formula_29.
+The scalar product also allows one to define an angle between two vectors:
+In formula_31-dimensional Euclidean space, the standard scalar product (called the dot product) is given by:
+Cross product in 3-dimensional space.
+The cross product of two vectors in 3-dimensions is a vector perpendicular to the two factors, with length equal to the area of the parallelogram spanned by the two factors.
+The cross product can also be expressed as the formal determinant:
+Composition of linear mappings.
+A linear mapping can be defined as a function "f" between two vector spaces "V" and "W" with underlying field F, satisfying
+If one only considers finite dimensional vector spaces, then
+in which bV and bW denote the bases of "V" and "W", and "vi" denotes the component of v on bV"i", and Einstein summation convention is applied.
+Now we consider the composition of two linear mappings between finite dimensional vector spaces. Let the linear mapping "f" map "V" to "W", and let the linear mapping "g" map "W" to "U". Then one can get
+Or in matrix form:
+in which the "i"-row, "j"-column element of F, denoted by "Fij", is "fji", and "Gij=gji".
+The composition of more than two linear mappings can be similarly represented by a chain of matrix multiplication.
+Product of two matrices.
+Given two matrices
+their product is given by
+Composition of linear functions as matrix product.
+There is a relationship between the composition of linear functions and the product of two matrices. To see this, let r = dim(U), s = dim(V) and t = dim(W) be the (finite) dimensions of vector spaces U, V and W. Let 
+formula_41 be a basis of U, 
+formula_42 be a basis of V and 
+formula_43 be a basis of W. In terms of this basis, let
+formula_44
+be the matrix representing f : U → V and 
+formula_45 
+be the matrix representing g : V → W. Then
+is the matrix representing formula_47.
+In other words: the matrix product is the description in coordinates of the composition of linear functions.
+Tensor product of vector spaces.
+Given two finite dimensional vector spaces "V" and "W", the tensor product of them can be defined as a (2,0)-tensor satisfying:
+where "V*" and "W*" denote the dual spaces of "V" and "W".
+For infinite-dimensional vector spaces, one also has the:
+The tensor product, outer product and Kronecker product all convey the same general idea. The differences between these are that the Kronecker product is just a tensor product of matrices, with respect to a previously-fixed basis, whereas the tensor product is usually given in its intrinsic definition. The outer product is simply the Kronecker product, limited to vectors (instead of matrices).
+The class of all objects with a tensor product.
+In general, whenever one has two mathematical objects that can be combined in a way that behaves like a linear algebra tensor product, then this can be most generally understood as the internal product of a monoidal category. That is, the monoidal category captures precisely the meaning of a tensor product; it captures exactly the notion of why it is that tensor products behave the way they do. More precisely, a monoidal category is the class of all things (of a given type) that have a tensor product.
+Other products in linear algebra.
+Other kinds of products in linear algebra include:
+Cartesian product.
+In set theory, a Cartesian product is a mathematical operation which returns a set (or product set) from multiple sets. That is, for sets "A" and "B", the Cartesian product is the set of all ordered pairs —where and .
+The class of all things (of a given type) that have Cartesian products is called a Cartesian category. Many of these are Cartesian closed categories. Sets are an example of such objects.
+Empty product.
+The empty product on numbers and most algebraic structures has the value of 1 (the identity element of multiplication), just like the empty sum has the value of 0 (the identity element of addition). However, the concept of the empty product is more general, and requires special treatment in logic, set theory, computer programming and category theory.
+Products over other algebraic structures.
+Products over other kinds of algebraic structures include:
+A few of the above products are examples of the general notion of an internal product in a monoidal category; the rest are describable by the general notion of a product in category theory.
+Products in category theory.
+All of the previous examples are special cases or examples of the general notion of a product. For the general treatment of the concept of a product, see product (category theory), which describes how to combine two objects of some kind to create an object, possibly of a different kind. But also, in category theory, one has:
+

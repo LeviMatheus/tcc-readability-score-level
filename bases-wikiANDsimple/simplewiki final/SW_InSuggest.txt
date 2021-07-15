@@ -1,0 +1,3 @@
+inSuggest is a World Wide Web service, which gives suggestions based on users' taste and interest.
+inSuggest has two different alternatives, Image inSuggest and Web inSuggest
+It is a Web 2.0 service. When users make their searches better, they are also making inSuggest.

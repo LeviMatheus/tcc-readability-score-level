@@ -1,0 +1,2 @@
+Pangrams are sentences that have one or more of every letter in an alphabet. They are used to show every letter in a font, or to test a keyboard or typewriter.
+The most common example in English is "The quick brown fox jumps over the lazy dog."

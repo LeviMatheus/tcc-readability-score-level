@@ -1,0 +1,5 @@
+The Dutch physicist Hendrik Antoon Lorentz formulated it. Lorentz's law defines force that acts on moving charged particles in an electricmagnetic field. Force consists of magnetic force and electric force.
+If the charge is positive, the direction of the electric force equal to direction of electric field.
+The direction of the magnetic force is given by the right hand rule.
+If charged particle move with velocity v in an electic field E and a magnetic field B
+Using this law, J.J. Thomson measured mass-to-charge ratio.

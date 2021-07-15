@@ -1,0 +1,4 @@
+A microprogram is a small program that is usually put onto a computer chip. It has instructions on how to do simple things.
+Coffee makers and toasters of today have chips with microprograms on them.
+Microprogramming is the lowest-level instructions that directly control a microprocessor
+Microprogramming: The concept of microprogramming was developed by Maurice Wilkes in 1951, using diode matrices for the memory element. A micro program consist of a sequence of micro-instructions in a microprogramming.

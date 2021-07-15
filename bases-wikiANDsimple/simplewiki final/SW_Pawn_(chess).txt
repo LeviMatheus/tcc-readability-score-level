@@ -1,0 +1,11 @@
+The pawn (♙♟) is the most weak piece in the game of chess, standing for infantry, or armed peasants or pikemen. Each player starts the game with eight pawns, one on each square of the second rank (or row) from the view of the player. In algebraic chess notation the white pawns start on a2, b2, c2..., h2, while the black pawns start on a7, b7, c7..., h7.
+Moving.
+Pawns move differently than other pieces. Unlike all the other pieces, pawns can not move backwards. Most of the time, a pawn moves by going up a single square, but the first time each pawn is moved from its starting place, it can go forward two squares. Pawns may not use the first two-square move to jump over a square with another piece on it or to capture. Any piece in front of a pawn, white or black, stops its moving. In the picture at right, the pawn on c4 may move to c5, while the pawn on e2 may move to either e3 or e4.
+Capturing.
+Not like other pieces, the pawn does not capture in the same way as it moves. A pawn captures diagonally, one square forward and to the left or right. In the picture to the left, the white pawn can capture either the black rook or the black knight.
+An even more strange move is the "en passant" capture.
+This happens when a pawn uses its first-move option to go forward two squares instead of one and passes over a square that is attacked by an enemy pawn.
+That enemy pawn, which would have been able to capture the moving pawn if it moved forward only one square can capture the moving pawn "in passing" "as if" it had moved forward only one square. The capturing pawn moves into the empty square over which the moving pawn moved, and the moving pawn is removed from the board.
+In the diagram at right, the black pawn has just moved c7 to c5, so the white pawn can capture it by moving from d5 to c6. The option to capture "en passant" can only be used on the move right after the double-square pawn advance, or the chance is lost. The "en passant" move was added in the late thirteenth century to make up for the then newly added two-square first move rule.
+History.
+The most basic piece in the game, the pawn was started in the oldest version of chess, Chaturanga. It is present in all other important types of chess around the world. The ability to move two spaces and to have an "en passant" capture were only started in 15th century Europe.

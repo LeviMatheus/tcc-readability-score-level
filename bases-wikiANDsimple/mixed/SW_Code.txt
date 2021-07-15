@@ -1,0 +1,5 @@
+Computers use codes, by changing letters into 1's and 0's. This is called an ASCII code.
+Some people write codes as a kind of game. They think it is fun to make codes, and fun to break codes. Breaking a code means taking it apart to understand how it works, and then you can understand messages that are written in that code.
+In the United States, there is an organization called the NSA. Their job is to break other people's codes, and to make codes that the United States government can use, which are hard to break.
+The algorithm (code) for making a message secret is called the encryption algorithm. To change a secret message back a decryption algorithm is needed.
+When you change the message back you most likely use a cypher (commonly spelled as cipher). The word Cypher is also in French as "cifre" and Latin as "cifra," from the Arabic word "sifr" (zero).

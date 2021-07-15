@@ -1,0 +1,5 @@
+
+Collective routing is routing in which a switching center automatically delivers messages to a specified list of destinations.
+Collective routing avoids the need to list each single address in the message heading.
+Major relay stations usually transmit messages bearing collective-routing indicators to tributary, minor, and other major relay stations.
+

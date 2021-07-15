@@ -1,0 +1,1 @@
+Rectification is the process of converting alternating current (AC) to direct current (DC). This is usually done with diodes or premade systems with micro diodes.

@@ -1,0 +1,1 @@
+FreeDOS is a free and open-source operating system. It is made to work just like MS-DOS. Almost all programs that will run on MS-DOS will run on FreeDOS too. It was created because Microsoft didn't want to make MS-DOS anymore. FreeDOS can be installed with a floppy or with a CD.

@@ -1,0 +1,2 @@
+In cryptography, a key distribution center (KDC) is part of a cryptosystem intended to minimize the risks of exchanging keys and shared secrets.
+KDCs often operate in systems when some users may have permission to use certain resources at some times but not at any times.

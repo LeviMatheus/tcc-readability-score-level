@@ -1,0 +1,2 @@
+TinyIRC is a console based Internet Relay Chat client for GNU based systems.
+There is also an unrelated package of the same name for Microsoft Windows and Mac OSX that you can use to chat on. It is famous for claiming to be the smallest client ever made. However, the aforementioned TinyIRC for GNU based systems is less than half the size. It is shareware, meaning that you get to use it for 30 days, then have to pay money to continue using it.

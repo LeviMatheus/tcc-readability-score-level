@@ -1,0 +1,1 @@
+AbulÉdu is a French Linux distribution made for classrooms. It is based on Debian and it includes the Linux Terminal Server Project and a large number of educational applications.

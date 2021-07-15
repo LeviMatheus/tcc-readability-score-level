@@ -1,0 +1,1 @@
+Machine code, also called machine language, are 1s and 0s which are put into a microprocessor or CPU to tell it what to do. Different combinations of 1s and 0s tell the microprocessor to do different things.

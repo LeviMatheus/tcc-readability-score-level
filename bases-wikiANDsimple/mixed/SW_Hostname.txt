@@ -1,0 +1,2 @@
+A hostname (also known as, a sitename) is the unique name by which a network device (which may be a computer, file server, network storage device, fax machine, copier, cable modem, etc.) is defined and known on a network. The hostname is used to identify a particular host in various electronic communication networks such as the World Wide Web, e-mail or Usenet.
+On the Internet, the terms "hostname" and "domain name" are often misused interchangeably, but there are subtle technical differences between them.

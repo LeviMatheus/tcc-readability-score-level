@@ -1,0 +1,1 @@
+A General-purpose programming language (GPL) is a way to tell a computer what to do that makes a user's job easy and quick without much confusion. GPLs can be used for many different things. An example can be BASIC, invented by John Kemeny and Thomas Kurtz in 1963.

@@ -1,0 +1,2 @@
+In computing, optimization is the process of modifying a system to make some features of it work more efficiently or use fewer resources. For instance, a computer program may be optimized so that it runs faster, or to run with less memory requirements or other resources (see Space-time tradeoff), or to consumes less power.
+The "Optimized system" may be a single computer program, a collection of computers or even an entire network such as the Internet.

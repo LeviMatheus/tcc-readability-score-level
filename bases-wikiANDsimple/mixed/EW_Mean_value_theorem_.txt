@@ -1,0 +1,103 @@
+
+In mathematics, the mean value theorem states, roughly, that for a given planar arc between two endpoints, there is at least one point at which the tangent to the arc is parallel to the secant through its endpoints. It is one of the most important results in real analysis. This theorem is used to prove statements about a function on an interval starting from local hypotheses about derivatives at points of the interval.
+More precisely, the theorem states that if formula_1 is a continuous function on the closed interval formula_2 and differentiable on the open interval formula_3, then there exists a point formula_4 in formula_3 such that the tangent at formula_4 is parallel to the secant line through the endpoints formula_7 and formula_8, that is,
+History.
+A special case of this theorem was first described by Parameshvara (1370–1460), from the Kerala School of Astronomy and Mathematics in India, in his commentaries on Govindasvāmi and Bhāskara II. A restricted form of the theorem was proved by Michel Rolle in 1691; the result was what is now known as Rolle's theorem, and was proved only for polynomials, without the techniques of calculus. The mean value theorem in its modern form was stated and proved by Augustin Louis Cauchy in 1823. Many variations of this theorem have been proved since then.
+Formal statement.
+Let formula_9 be a continuous function on the closed interval formula_2, and differentiable on the open interval formula_3, where &lt;math&gt;a. Then there exists some formula_4 in formula_3 such that
+The mean value theorem is a generalization of Rolle's theorem, which assumes formula_15, so that the right-hand side above is zero.
+The mean value theorem is still valid in a slightly more general setting. One only needs to assume that formula_9 is continuous on formula_2, and that for every formula_18 in formula_3 the limit
+exists as a finite number or equals formula_21 or formula_22. If finite, that limit equals formula_23. An example where this version of the theorem applies is given by the real-valued cube root function mapping formula_24, whose derivative tends to infinity at the origin.
+Note that the theorem, as stated, is false if a differentiable function is complex-valued instead of real-valued. For example, define formula_25 for all real formula_18. Then
+while formula_28 for any real formula_18.
+These formal statements are also known as Lagrange's Mean Value Theorem.
+Proof.
+The expression formula_30 gives the slope of the line joining the points formula_7 and formula_8, which is a chord of the graph of formula_1, while formula_23 gives the slope of the tangent to the curve at the point formula_35. Thus the mean value theorem says that given any chord of a smooth curve, we can find a point on the curve lying between the end-points of the chord such that the tangent of the curve at that point is parallel to the chord. The following proof illustrates this idea.
+Define formula_36, where formula_37 is a constant. Since formula_1 is continuous on formula_2 and differentiable on formula_3, the same is true for formula_41. We now want to choose formula_37 so that formula_41 satisfies the conditions of Rolle's theorem. Namely
+By Rolle's theorem, since formula_41 is differentiable and formula_46, there is some formula_4 in formula_3 for which formula_49 , and it follows from the equality formula_36 that,
+Implications.
+Theorem 1: Assume that "f" is a continuous, real-valued function, defined on an arbitrary interval "I" of the real line. If the derivative of "f" at every interior point of the interval "I" exists and is zero, then "f" is constant in the interior..
+Proof: Assume the derivative of "f" at every interior point of the interval "I" exists and is zero. Let ("a", "b") be an arbitrary open interval in "I". By the mean value theorem, there exists a point "c" in ("a","b") such that
+This implies that . Thus, "f" is constant on the interior of "I" and thus is constant on "I" by continuity. (See below for a multivariable version of this result.)
+Remarks: 
+Theorem 2: If "f'"("x") = "g"'("x") for all "x" in an interval ("a", "b") of the domain of these functions, then "f - g" is constant or "f = g + c" where "c" is a constant on ("a", "b")..
+Proof: Let "F = f − g", then "F' = f' − g' =" 0 on the interval ("a", "b"), so the above theorem 1 tells that "F = f − g" is a constant "c" or "f = g + c".
+Theorem 3: If "F" is an antiderivative of "f" on an interval "I", then the most general antiderivative of "f" on "I" is "F(x) + c" where "c" is an constant..
+Proof: It is directly derived from the above theorem 2.
+Cauchy's mean value theorem.
+Cauchy's mean value theorem, also known as the extended mean value theorem, is a generalization of the mean value theorem. It states: if the functions formula_1 and formula_41 are both continuous on the closed interval formula_2 and differentiable on the open interval formula_3, then there exists some formula_57, such that
+Of course, if formula_59 and formula_60, this is equivalent to:
+Geometrically, this means that there is some tangent to the graph of the curve
+which is parallel to the line defined by the points formula_63 and formula_64. However, Cauchy's theorem does not claim the existence of such a tangent in all cases where formula_63 and formula_64 are distinct points, since it might be satisfied only for some value formula_4 with formula_68, in other words a value for which the mentioned curve is stationary; in such points no tangent to the curve is likely to be defined at all. An example of this situation is the curve given by
+which on the interval formula_70 goes from the point formula_71 to formula_72, yet never has a horizontal tangent; however it has a stationary point (in fact a cusp) at formula_73.
+Cauchy's mean value theorem can be used to prove L'Hôpital's rule. The mean value theorem is the special case of Cauchy's mean value theorem when formula_74.
+Proof of Cauchy's mean value theorem.
+The proof of Cauchy's mean value theorem is based on the same idea as the proof of the mean value theorem.
+Generalization for determinants.
+Assume that formula_75 and formula_76 are differentiable functions on formula_3 that are continuous on formula_2. Define
+There exists formula_80 such that formula_81.
+Notice that
+and if we place formula_83, we get Cauchy's mean value theorem. If we place formula_83 and formula_85 we get Lagrange's mean value theorem.
+The proof of the generalization is quite simple: each of formula_86 and formula_87 are determinants with two identical rows, hence formula_88. The Rolle's theorem implies that there exists formula_89 such that formula_90.
+Mean value theorem in several variables.
+The mean value theorem generalizes to real functions of multiple variables. The trick is to use parametrization to create a real function of one variable, and then apply the one-variable theorem.
+Let formula_91 be an open convex subset of formula_92, and let formula_93 be a differentiable function. Fix points formula_94 , and define formula_95. Since formula_41 is a differentiable function in one variable, the mean value theorem gives:
+for some formula_4 between 0 and 1. But since formula_99 and formula_100, computing formula_101 explicitly we have:
+where formula_103 denotes a gradient and formula_104 a dot product. Note that this is an exact analog of the theorem in one variable (in the case formula_105 this "is" the theorem in one variable). By the Cauchy–Schwarz inequality, the equation gives the estimate:
+In particular, when the partial derivatives of formula_1 are bounded, formula_1 is Lipschitz continuous (and therefore uniformly continuous).
+As an application of the above, we prove that formula_1 is constant if formula_91 is open and connected and every partial derivative of formula_1 is 0. Pick some point formula_112, and let formula_113. We want to show formula_114 for every formula_115. For that, let formula_116. Then "E" is closed and nonempty. It is open too: for every formula_117 ,
+for every formula_119 in some neighborhood of formula_18. (Here, it is crucial that formula_18 and formula_119 are sufficiently close to each other.) Since formula_91 is connected, we conclude formula_124.
+The above arguments are made in a coordinate-free manner; hence, they generalize to the case when formula_91 is a subset of a Banach space.
+Mean value theorem for vector-valued functions.
+There is no exact analog of the mean value theorem for vector-valued functions.
+In "Principles of Mathematical Analysis," Rudin gives an inequality which can be applied to many of the same situations to which the mean value theorem is applicable in the one dimensional case:
+Theorem. "For a continuous vector-valued function formula_126 differentiable on formula_3, there exists formula_128 such that formula_129."
+Jean Dieudonné in his classic treatise "Foundations of Modern Analysis" discards the mean value theorem and replaces it by mean inequality as the proof is not constructive and one cannot find the mean value and in applications one only needs mean inequality. Serge Lang in "Analysis I "uses the mean value theorem, in integral form, as an instant reflex but this use requires the continuity of the derivative. If one uses the Henstock–Kurzweil integral one can have the mean value theorem in integral form without the additional assumption that derivative should be continuous as every derivative is Henstock–Kurzweil integrable. The problem is roughly speaking the following: If "f" : "U" → R"m" is a differentiable function (where "U" ⊂ R"n" is open) and if "x" + "th", "x, h" ∈ R"n", "t" ∈ [0, 1] is the line segment in question (lying inside "U"), then one can apply the above parametrization procedure to each of the component functions "fi" ("i" = 1, …, "m") of "f" (in the above notation set "y" = "x" + "h"). In doing so one finds points "x" + "tih" on the line segment satisfying
+But generally there will not be a "single" point "x" + "t*h" on the line segment satisfying
+for all "i" "simultaneously". For example, define:
+Then formula_133, but formula_134 and formula_135 are never simultaneously zero as formula_18 ranges over formula_137.
+However a certain type of generalization of the mean value theorem to vector-valued functions is obtained as follows: Let "f" be a continuously differentiable real-valued function defined on an open interval "I", and let "x" as well as "x" + "h" be points of "I". The mean value theorem in one variable tells us that there exists some "t*" between 0 and 1 such that
+On the other hand, we have, by the fundamental theorem of calculus followed by a change of variables,
+Thus, the value "f′"("x" + "t*h") at the particular point "t*" has been replaced by the mean value
+This last version can be generalized to vector valued functions:
+Proof. Let "f"1, …, "fm" denote the components of "f" and define:
+Then we have
+The claim follows since "Df" is the matrix consisting of the components formula_144.
+Proof. Let "u" in R"m" denote the value of the integral
+Now we have (using the Cauchy–Schwarz inequality):
+Now cancelling the norm of "u" from both ends gives us the desired inequality.
+Proof. From Lemma 1 and 2 it follows that
+Mean value theorems for definite integrals.
+First mean value theorem for definite integrals.
+Let "f" : ["a", "b"] → R be a continuous function. Then there exists "c" in ["a", "b"] such that
+Since the mean value of "f" on ["a", "b"] is defined as
+we can interpret the conclusion as "f" achieves its mean value at some "c" in ("a", "b").
+In general, if "f" : ["a", "b"] → R is continuous and "g" is an integrable function that does not change sign on ["a", "b"], then there exists "c" in ("a", "b") such that
+Proof of the first mean value theorem for definite integrals.
+Suppose "f" : ["a", "b"] → R is continuous and "g" is a nonnegative integrable function on ["a", "b"]. By the extreme value theorem, there exists "m" and "M" such that for each "x" in ["a", "b"], formula_153 and formula_154. Since "g" is nonnegative,
+Now let
+If formula_157, we're done since
+means
+so for any "c" in ("a", "b"),
+If "I" ≠ 0, then
+By the intermediate value theorem, "f" attains every value of the interval ["m", "M"], so for some "c" in ["a", "b"]
+that is,
+Finally, if "g" is negative on ["a", "b"], then
+and we still get the same result as above.
+QED
+Second mean value theorem for definite integrals.
+There are various slightly different theorems called the second mean value theorem for definite integrals. A commonly found version is as follows:
+Here formula_166 stands for formula_167, the existence of which follows from the conditions. Note that it is essential that the interval ("a", "b"] contains "b". A variant not having this requirement is:
+Mean value theorem for integration fails for vector-valued functions.
+If the function formula_91 returns a multi-dimensional vector, then the MVT for integration is not true, even if the domain of formula_91 is also multi-dimensional.
+For example, consider the following 2-dimensional function defined on an formula_171-dimensional cube:
+Then, by symmetry it is easy to see that the mean value of formula_91 over its domain is (0,0):
+However, there is no point in which formula_175, because formula_176 everywhere.
+A probabilistic analogue of the mean value theorem.
+Let "X" and "Y" be non-negative random variables such that E["X"] &lt; E["Y"] &lt; ∞ and formula_177 (i.e. "X" is smaller than "Y" in the usual stochastic order). Then there exists an absolutely continuous non-negative random variable "Z" having probability density function
+Let "g" be a measurable and differentiable function such that E["g"("X")], E["g"("Y")] &lt; ∞, and let its derivative "g′" be measurable and Riemann-integrable on the interval ["x", "y"] for all "y" ≥ "x" ≥ 0. Then, E["g′"("Z")] is finite and
+Generalization in complex analysis.
+As noted above, the theorem does not hold for differentiable complex-valued functions. Instead, a generalization of the theorem is stated such:
+Let "f" : Ω → C be a holomorphic function on the open convex set Ω, and let "a" and "b" be distinct points in Ω. Then there exist points "u", "v" on "Lab" (the line segment from "a" to "b") such that
+Where Re() is the real part and Im() is the imaginary part of a complex-valued function.
+

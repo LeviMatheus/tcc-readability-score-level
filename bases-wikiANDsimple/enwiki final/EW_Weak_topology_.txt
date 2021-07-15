@@ -1,0 +1,71 @@
+
+In mathematics, weak topology is an alternative term for certain initial topologies, often on topological vector spaces or spaces of linear operators, for instance on a Hilbert space. The term is most commonly used for the initial topology of a topological vector space (such as a normed vector space) with respect to its continuous dual. The remainder of this article will deal with this case, which is one of the concepts of functional analysis.
+One may call subsets of a topological vector space weakly closed (respectively, weakly compact, etc.) if they are closed (respectively, compact, etc.) with respect to the weak topology. Likewise, functions are sometimes called weakly continuous (respectively, weakly differentiable, weakly analytic, etc.) if they are continuous (respectively, differentiable, analytic, etc.) with respect to the weak topology.
+History.
+Starting in the early 1900s, David Hilbert and Marcel Riesz made extensive use of weak convergence. The early pioneers of functional analysis did not elevate norm convergence above weak convergence and oftentimes viewed weak convergence as preferable. In 1929, Banach introduced weak convergence for normed spaces and also introduced the analogous weak-* convergence. The weak topology is also called "topologie faible" and "schwache Topologie".
+The weak and strong topologies.
+Let be a topological field, namely a field with a topology such that addition, multiplication, and division are continuous. In most applications will be either the field of complex numbers or the field of real numbers with the familiar topologies.
+Weak topology with respect to a pairing.
+Both the weak topology and the weak* topology are special cases of a more general construction for pairings, which we now describe. 
+The benefit of this more general construction is that any definition or result proved for it applies to "both" the weak topology and the weak* topology, thereby making redundant the need for many definitions, theorem statements, and proofs. This is also the reason why the weak* topology is also frequently referred to as the "weak topology"; because it is just an instance of the weak topology in the setting of this more general construction.
+Suppose is a pairing of vector spaces over a topological field (i.e. and are vector spaces over and is a bilinear map).
+The weak topology on is now automatically defined as described in the article Dual system. However, for clarity, we now repeat it.
+If the field has an absolute value , then the weak topology on is induced by the family of seminorms, , defined by
+for all and . This shows that weak topologies are locally convex.
+Canonical duality.
+We now consider the special case where is a vector subspace of the algebraic dual space of (i.e. a vector space of linear functionals on ).
+There is a pairing, denoted by formula_1 or formula_2, called the canonical pairing whose bilinear map formula_3 is the canonical evaluation map, defined by formula_4 for all formula_5 and formula_6. Note in particular that formula_7 is just another way of denoting formula_8 i.e. formula_9.
+In this case, the weak topology on (resp. the weak topology on ), denoted by (resp. by ) is the weak topology on (resp. on ) with respect to the canonical pairing .
+The topology is the initial topology of with respect to .
+If is a vector space of linear functionals on , then the continuous dual of with respect to the topology is precisely equal to .
+The weak and weak* topologies.
+Let be a topological vector space (TVS) over , that is, is a vector space equipped with a topology so that vector addition and scalar multiplication are continuous. We call the topology that starts with the original, starting, or given topology (the reader is cautioned against using the terms "initial topology" and "strong topology" to refer to the original topology since these already have well-known meanings, so using them may cause confusion). We may define a possibly different topology on using the topological or continuous dual space formula_10, which consists of all linear functionals from into the base field that are continuous with respect to the given topology.
+Recall that formula_11 is the canonical evaluation map defined by formula_4 for all formula_5 and formula_14, where in particular, formula_15.
+We give alternative definitions below.
+Weak topology induced by the continuous dual space.
+Alternatively, the weak topology on a TVS is the initial topology with respect to the family formula_10. In other words, it is the coarsest topology on X such that each element of formula_10 remains a continuous function.
+A subbase for the weak topology is the collection of sets of the form formula_27 where formula_28 and is an open subset of the base field . In other words, a subset of is open in the weak topology if and only if it can be written as a union of (possibly infinitely many) sets, each of which is an intersection of finitely many sets of the form formula_27.
+From this point of view, the weak topology is the coarsest polar topology; see weak topology (polar topology) for details.
+Weak convergence.
+The weak topology is characterized by the following condition: a net formula_30 in converges in the weak topology to the element of if and only if formula_31 converges to formula_32 in or for all formula_28.
+In particular, if formula_34 is a sequence in , then formula_34 converges weakly to if
+as for all formula_37. In this case, it is customary to write
+or, sometimes,
+Other properties.
+If is equipped with the weak topology, then addition and scalar multiplication remain continuous operations, and is a locally convex topological vector space.
+If is a normed space, then the dual space formula_10 is itself a normed vector space by using the norm
+This norm gives rise to a topology, called the strong topology, on formula_10. This is the topology of uniform convergence. The uniform and strong topologies are generally different for other spaces of linear maps; see below.
+Weak-* topology.
+The weak* topology is an important example of a polar topology.
+A space can be embedded into its double dual "X**" by
+Thus formula_44 is an injective linear mapping, though not necessarily surjective (spaces for which "this" canonical embedding is surjective are called reflexive). The weak-* topology on formula_10 is the weak topology induced by the image of formula_46. In other words, it is the coarsest topology such that the maps "Tx", defined by formula_47 from formula_10 to the base field or remain continuous.
+A net formula_49 in formula_10 is convergent to formula_51 in the weak-* topology if it converges pointwise:
+for all formula_5. In particular, a sequence of formula_54 converges to formula_51 provided that
+for all . In this case, one writes
+as .
+Weak-* convergence is sometimes called the simple convergence or the pointwise convergence. Indeed, it coincides with the pointwise convergence of linear functionals.
+Properties.
+If is a separable (i.e. has a countable dense subset) locally convex space and "H" is a norm-bounded subset of its continuous dual space, then "H" endowed with the weak* (subspace) topology is a metrizable topological space. If is a separable metrizable locally convex space then the weak* topology on the continuous dual space of is separable.
+By definition, the weak* topology is weaker than the weak topology on formula_10. An important fact about the weak* topology is the Banach–Alaoglu theorem: if is normed, then the closed unit ball in formula_10 is weak*-compact (more generally, the polar in formula_10 of a neighborhood of 0 in is weak*-compact). Moreover, the closed unit ball in a normed space is compact in the weak topology if and only if is reflexive.
+In more generality, let be locally compact valued field (e.g., the reals, the complex numbers, or any of the p-adic number systems). Let be a normed topological vector space over , compatible with the absolute value in . Then in formula_10, the topological dual space of continuous -valued linear functionals on , all norm-closed balls are compact in the weak-* topology.
+If is a normed space, then a subset of the continuous dual is weak* compact if and only if it is weak* closed and norm-bounded. This implies, in particular, the when is an infinite-dimensional normed space then the closed unit ball at the origin in the dual space of does not contain any weak* neighborhood of 0.
+If is a normed space, then is separable if and only if the weak-* topology on the closed unit ball of formula_10 is metrizable, in which case the weak* topology is metrizable on norm-bounded subsets of formula_10. If a normed space has a dual space that is separable (with respect to the dual-norm topology) then is necessarily separable. If is a Banach space, the weak-* topology is not metrizable on all of formula_10 unless is finite-dimensional.
+Examples.
+Hilbert spaces.
+Consider, for example, the difference between strong and weak convergence of functions in the Hilbert space . Strong convergence of a sequence formula_65 to an element means that
+as . Here the notion of convergence corresponds to the norm on .
+In contrast weak convergence only demands that
+for all functions (or, more typically, all "f" in a dense subset of such as a space of test functions, if the sequence {"ψ""k"} is bounded). For given test functions, the relevant notion of convergence only corresponds to the topology used in .
+For example, in the Hilbert space , the sequence of functions
+form an orthonormal basis. In particular, the (strong) limit of formula_69 as does not exist. On the other hand, by the Riemann–Lebesgue lemma, the weak limit exists and is zero.
+Distributions.
+One normally obtains spaces of distributions by forming the strong dual of a space of test functions (such as the compactly supported smooth functions on ). In an alternative construction of such spaces, one can take the weak dual of a space of test functions inside a Hilbert space such as . Thus one is led to consider the idea of a rigged Hilbert space.
+Weak topology induced by the algebraic dual.
+Suppose that is a vector space and "X"# is the algebraic dual space of (i.e. the vector space of all linear functionals on ). If is endowed with the weak topology induced by "X"# then the continuous dual space of is , every bounded subset of is contained in a finite-dimensional vector subspace of , every vector subspace of is closed and has a topological complement.
+Operator topologies.
+If and are topological vector spaces, the space of continuous linear operators may carry a variety of different possible topologies. The naming of such topologies depends on the kind of topology one is using on the target space to define operator convergence . There are, in general, a vast array of possible operator topologies on , whose naming is not entirely intuitive.
+For example, the strong operator topology on is the topology of "pointwise convergence". For instance, if is a normed space, then this topology is defined by the seminorms indexed by :
+More generally, if a family of seminorms "Q" defines the topology on , then the seminorms on defining the strong topology are given by
+indexed by and .
+In particular, see the weak operator topology and weak* operator topology.
+

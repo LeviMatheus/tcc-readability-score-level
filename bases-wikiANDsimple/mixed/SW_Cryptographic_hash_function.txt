@@ -1,0 +1,8 @@
+A cryptographic hash function is a transformation that takes an input (or 'message') and returns a fixed-size string, which is called the hash value (sometimes called a message digest, a digital fingerprint, a digest or a checksum).
+Functions with these properties are used as hash functions for a variety of purposes, not only in cryptography. Practical applications include message integrity checks, digital signatures, authentication, and various information security applications.
+A hash function takes a string of any length as input and produces a fixed length string which acts as a kind of "signature" for the data provided. In this way, a person knowing the "hash value" is unable to know the original message, but only the person who knows the original message can prove the "hash value" is created from that message.
+An attacker who can find any of the above computations can use them to substitute an authorized message with an unauthorized one.
+Ideally, it should be impossible to find two different messages whose digests ("hash values") are similar; nor would one want an attacker to be able to learn anything useful about a message given only its digest. Of course the attacker learns at least one piece of information, the digest itself, by which the attacker can recognise if the same message occurred (repeated) again.
+In various standards and applications, the two most commonly used hash functions are MD5 and SHA-1.
+In 2005, security defects were identified showing that a possible mathematical weakness might exist, like attacks, and recommending a stronger hash function.
+In 2007 the National Institute of Standards and Technology announced a contest to design a hash function which will be given the name SHA-3 and be the subject of a FIPS standard.

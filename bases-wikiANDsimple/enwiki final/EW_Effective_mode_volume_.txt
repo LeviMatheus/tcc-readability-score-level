@@ -1,0 +1,3 @@
+
+For an optical fiber, the effective mode volume is the square of the product of the diameter of the near-field pattern and the sine of the radiation angle of the far-field pattern. The diameter of the near-field radiation pattern is defined here as the full width at half maximum and the radiation angle at half maximum radiant intensity. Effective mode volume is proportional to the breadth of the relative distribution of power amongst the modes in a multimode fiber. It is not truly a spatial volume but rather an "optical volume" equal to the product of area and solid angle. The power divided by the effective mode volume is proportional to the radiance of the light emitted by the fiber.
+

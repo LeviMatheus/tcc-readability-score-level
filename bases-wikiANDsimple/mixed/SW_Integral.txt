@@ -1,0 +1,6 @@
+An integral helps to find out how much space is under a graph of something. Integrals undo derivatives. A derivative helps to find what the steepness is of a graph.
+This is the symbol for integration: formula_1
+Integrals and derivatives are part of a branch of mathematics called calculus.
+Integration helps when trying to multiply units into a problem. For example, if a problem with rate (formula_2) needs an answer with just distance, one solution is to integrate with respect to time. This means multiplying in time (to cancel the time in formula_2). This is done by adding small slices of the rate graph together. The slices are close to zero in width, but adding them forever makes them add up to a whole. This is called a Riemann Sum.
+Adding these slices together gives the equation that the first equation is the derivative of. Integrals are kind of like adding machines.
+Another time integration is helpful is when finding the volume of a solid. It can add two-dimensional (without width) slices of the solid together forever until there is a width. This means the object now has three dimensions: the original two and a width. This gives the volume of the three-dimensional object described.

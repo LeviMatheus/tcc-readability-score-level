@@ -1,0 +1,46 @@
+
+In mathematical analysis, the intermediate value theorem states that if "f" is a continuous function whose domain contains the interval ["a", "b"], then it takes on any given value between "f"("a") and "f"("b") at some point within the interval.
+This has two important corollaries: 
+Motivation.
+This captures an intuitive property of continuous functions over the real numbers: given "f" continuous on [1, 2] with the known values "f"(1) = 3 and "f"(2) = 5, then the graph of "y" = "f"("x") must pass through the horizontal line "y" = 4 while "x" moves from 1 to 2. It represents the idea that the graph of a continuous function on a closed interval can be drawn without lifting a pencil from the paper.
+Theorem.
+The intermediate value theorem states the following:
+Consider an interval formula_1 of real numbers formula_2 and a continuous function formula_3. Then
+Remark: "Version II" states that the set of function values has no gap. For any two function values formula_11, even if they are outside the interval between formula_5 and formula_6, all points in the interval formula_14 are also function values,
+A subset of the real numbers with no internal gap is an interval. "Version I" is naturally contained in "Version II".
+Relation to completeness.
+The theorem depends on, and is equivalent to, the completeness of the real numbers. The intermediate value theorem does not apply to the rational numbers ℚ because gaps exist between rational numbers; irrational numbers fill those gaps. For example, the function formula_16 for formula_17 satisfies formula_18 and formula_19. However, there is no rational number formula_20 such that formula_21, because formula_22 is an irrational number.
+Proof.
+The theorem may be proven as a consequence of the completeness property of the real numbers as follows:
+We shall prove the first case, formula_23 be the set of all formula_24 such that formula_25. Then formula_26 is non-empty since formula_27 is an element of formula_26, and formula_26 is bounded above by formula_30. Hence, by completeness, the supremum formula_31 exists. That is, formula_32 is the smallest number that is greater than or equal to every member of formula_26. We claim that formula_8.
+Fix some formula_35. Since formula_36 is continuous, there is a formula_37 such that formula_38 whenever formula_39. This means that
+for all formula_41. By the properties of the supremum, there exists some formula_42 that is contained in formula_26, and so
+Picking formula_45, we know that formula_46 because formula_32 is the supremum of formula_26. This means that
+Both inequalities
+are valid for all formula_35, from which we deduce formula_8 as the only possible value, as stated.
+Remark: The intermediate value theorem can also be proved using the methods of non-standard analysis, which places "intuitive" arguments involving infinitesimals on a rigorous footing.
+History.
+The theorem was first proved by Bernard Bolzano in 1817. Bolzano used the following formulation of the theorem:
+Let formula_53 be continuous functions on the interval between formula_54 and formula_55 such that formula_56 and formula_57. Then there is an formula_20 between formula_54 and formula_55 such that formula_61.
+The equivalence between this formulation and the modern one can be shown by setting formula_62 to the appropriate constant function. Augustin-Louis Cauchy provided the modern formulation and a proof in 1821. Both were inspired by the goal of formalizing the analysis of functions and the work of Joseph-Louis Lagrange. The idea that continuous functions possess the intermediate value property has an earlier origin. Simon Stevin proved the intermediate value theorem for polynomials (using a cubic as an example) by providing an algorithm for constructing the decimal expansion of the solution. The algorithm iteratively subdivides the interval into 10 parts, producing an additional decimal digit at each step of the iteration. Before the formal definition of continuity was given, the intermediate value property was given as part of the definition of a continuous function. Proponents include Louis Arbogast, who assumed the functions to have no jumps, satisfy the intermediate value property and have increments whose sizes corresponded to the sizes of the increments of the variable.
+Earlier authors held the result to be intuitively obvious and requiring no proof. The insight of Bolzano and Cauchy was to define a general notion of continuity (in terms of infinitesimals in Cauchy's case and using real inequalities in Bolzano's case), and to provide a proof based on such definitions.
+Generalizations.
+The intermediate value theorem is closely linked to the topological notion of connectedness and follows from the basic properties of connected sets in metric spaces and connected subsets of ℝ in particular:
+In fact, connectedness is a topological property and (*) generalizes to topological spaces: "If formula_63 and formula_64 are topological spaces, formula_72 is a continuous map, and formula_63 is a connected space, then formula_74 is connected." The preservation of connectedness under continuous maps can be thought of as a generalization of the intermediate value theorem, a property of real valued functions of a real variable, to continuous functions in general spaces.
+Recall the first version of the intermediate value theorem, stated previously:
+Intermediate value theorem. "(Version I). Consider a closed interval formula_75 in the real numbers formula_2 and a continuous function formula_77. Then, if formula_78 is a real number such that formula_79, there exists formula_80 such that formula_81."
+The intermediate value theorem is an immediate consequence of these two properties of connectedness:
+Proof: By (**), formula_75 is a connected set. It follows from (*) that the image, formula_9, is also connected. For convenience, assume that formula_84. Then once more invoking (**), formula_85, or formula_8 for some formula_87. Since formula_88, formula_89 must actually hold, and the desired conclusion follows. The same argument applies if formula_90, so we are done.formula_91
+The intermediate value theorem generalizes in a natural way: Suppose that "X" is a connected topological space and ("Y", &lt;) is a totally ordered set equipped with the order topology, and let "f" : "X" → "Y" be a continuous map. If "a" and "b" are two points in "X" and "u" is a point in "Y" lying between "f"("a") and "f"("b") with respect to &lt;, then there exists "c" in "X" such that "f"("c") = "u". The original theorem is recovered by noting that ℝ is connected and that its natural topology is the order topology.
+The Brouwer fixed-point theorem is a related theorem that, in one dimension, gives a special case of the intermediate value theorem.
+Converse is false.
+A Darboux function is a real-valued function "f" that has the "intermediate value property," i.e., that satisfies the conclusion of the intermediate value theorem: for any two values "a" and "b" in the domain of "f", and any "y" between "f"("a") and "f"("b"), there is some "c" between "a" and "b" with "f"("c") = "y". The intermediate value theorem says that every continuous function is a Darboux function. However, not every Darboux function is continuous; i.e., the converse of the intermediate value theorem is false.
+As an example, take the function "f" : [0, ∞) → [−1, 1] defined by "f"("x") = sin(1/"x") for "x" &gt; 0 and "f"(0) = 0. This function is not continuous at "x" = 0 because the limit of "f"("x") as "x" tends to 0 does not exist; yet the function has the intermediate value property. Another, more complicated example is given by the Conway base 13 function.
+In fact, Darboux's theorem states that all functions that result from the differentiation of some other function on some interval have the intermediate value property (even though they need not be continuous).
+Historically, this intermediate value property has been suggested as a definition for continuity of real-valued functions; this definition was not adopted.
+Practical applications.
+A similar result is the Borsuk–Ulam theorem, which says that a continuous map from the formula_92-sphere to Euclidean formula_92-space will always map some pair of antipodal points to the same place.
+"Proof for 1-dimensional case:" Take formula_36 to be any continuous function on a circle. Draw a line through the center of the circle, intersecting it at two opposite points formula_95 and formula_96. Define formula_97 to be formula_98. If the line is rotated 180 degrees, the value −"d" will be obtained instead. Due to the intermediate value theorem there must be some intermediate rotation angle for which "d" = 0, and as a consequence "f"("A") = "f"("B") at this angle.
+In general, for any continuous function whose domain is some closed convex formula_92-dimensional shape and any point inside the shape (not necessarily its center), there exist two antipodal points with respect to the given point whose functional value is the same.
+The theorem also underpins the explanation of why rotating a wobbly table will bring it to stability (subject to certain easily met constraints).
+

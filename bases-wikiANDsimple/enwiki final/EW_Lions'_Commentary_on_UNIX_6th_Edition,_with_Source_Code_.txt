@@ -1,0 +1,39 @@
+
+Lions' "Commentary" on UNIX 6th Edition,
+1976, by John Lions, with source code,
+ contained analytical commentary on the source code of the 6th Edition Unix computer operating system "resident nucleus" (ie kernel) software, plus copy formatted and indexed by Lions, of said source code obtained from the authors at AT&amp;T Bell Labs, commonly referred to as the Lions Book.
+Itself an exemplar of the early success of UNIX as portable code for a publishing platform, Lion's work was typeset "using" UNIX tools, on systems running code ported "at the University", similar to that which it documented, see "page vi". 
+It was commonly held to be the most copied book in computer science. Despite its age, "the Lions Book" is still considered an excellent commentary on simple, high quality code.
+Lions' work was most recently reprinted in 1996 by Peer-To-Peer Communications, and has been circulated, recreated or reconstructed variously in a number of media by other parties, eg see webpage of Greg Lehey.
+Synopsis.
+"UNIX Operating System Source Code Level Six" is the kernel source code, lightly edited by Lions to better separate the functionality — system initialization and process management, interrupts and system calls, basic I/O, file systems and pipes and character devices. All procedures and symbols are listed alphabetically with a cross reference.
+The code as presented will run on a PDP-11/40 with RK-05 disk drive, LP-11 line printer interface, PCL-11 paper tape writer and KL-11 terminal interface, or a suitable PDP-11 emulator, such as SIMH.
+"A Commentary on the UNIX Operating System" starts with notes on UNIX and other useful documentation (the UNIX manual pages, DEC hardware manuals and so on), a section on the architecture of the PDP-11 and a chapter on how to read C programs. The source commentary follows, divided into the same sections as the code. The book ends with suggested exercises for the student.
+As Lions explains, this commentary supplements the comments in the source. It is possible to understand the code without the extra commentary, and the reader is advised to do so and only read the notes as needed. The commentary also remarks on how the code might be improved.
+History.
+The source code and commentary were printed in book form in 1977, after first being assembled in May 1976, as a set of lecture notes for Lions's computer science courses (6.602B and 6.657G, mentioned in the introduction of the book) at the University of New South Wales.
+UNSW had actually obtained UNIX source code in 1975, in response to a 1974 query to Dennis Ritchie at Bell. Bell Labs was a subsidiary of AT&amp;T, under restrictions owing to its monopolistic nature as a national telecommunications infrastructure provider, and not permitted to conduct business in any other field, and so was not at liberty to profit from sale of software, however UNIX was being provided under license by another AT&amp;T subsidiary, Western Electric at least by 1977.
+The UNIX User's group, USENIX's newsletter, "UNIX News", of March 1977, announced the availability of the book to UNIX licensees. Note that the newsletter's own strongly worded circulation restriction notice, could only ever have applied within the framework of existing licenses to the licensees with agreements held with the mentioned organisations, not to non-licensees, as a matter of civil contract -- the newsletter displays no evidence of governmental authority of the type which might allow general suppression of circulation, such as national security Top Secret classification.)
+Difficulty in keeping pace with the book's popularity, meant that by 1978 it was available only from AT&amp;T Bell Labs.
+For many years, the Lions book was the only UNIX kernel documentation available outside Bell Labs. Although the license of 6th Edition allowed classroom use of the source code, the license of 7th Edition specifically excluded such use, so subsequent to this, the book, based on the more liberally licensed version, spread widely through copy machine reproductions, made arguably under various excuses, including (but not limited to!) generous educational licensing terms afforded the publishing institution by the source code owner, as well as various copyright exemptions protecting discussion of mathematical work, though in the shadow of increasing political pressure to erode such rights, as technological means to 'self-copy' -- and even self-publish -- works became cheaper, more efficient, and more prolific. UNIX "itself", was one of these, having been a successful innovation financed at Bell in order to facilitate publishing of technical manuals in-house.
+When AT&amp;T announced UNIX Version 7 at USENIX in June 1979, the academic/research license no longer automatically permitted classroom use.
+However, thousands of computer science students around the world spread photocopies. As they were not being taught it in class, they would sometimes meet after hours to discuss the book. Many pioneers of UNIX and open source had a treasured multiple-generation photocopy.
+Other follow-on effects of the license change included Andrew S. Tanenbaum creating Minix. As Tanenbaum wrote in "Operating Systems" (1987):
+Various UNIX people, particularly Peter H. Salus, Dennis Ritchie and Berny Goodheart, lobbied Unix's various owners (AT&amp;T, Novell, the Santa Cruz Operation) for many years to allow the book to be published officially. In 1996, the Santa Cruz Operation finally authorised the release of the twenty-year-old 6th Edition source code (along with the source code of other versions of "Ancient UNIX"), and the full code plus the 1977 version of the commentary was published by Peer-To-Peer Communications (). The reissue includes commentary from Michael Tilson (SCO), Peter Salus, Dennis Ritchie, Ken Thompson, Peter Collinson, Greg Rose, Mike O'Dell, Berny Goodheart and Peter Reintjes.
+"You are not expected to understand this".
+The infamous program comment "You are not expected to understand this" occurs on line 2238 of the source code ("Lions' Commentary", p. 22) at the end of a comment explaining the process exchange mechanism. It refers to line 325 of the file slp.c. The source code reads:
+ /*
+ * If the new process paused because it was
+ * swapped out, set the stack level to the last call
+ * to savu(u_ssav). This means that the return
+ * which is executed immediately after the call to aretu
+ * actually returns from the last routine which did
+ * the savu.
+ * You are not expected to understand this.
+ if(rp-&gt;p_flag&amp;SSWAP) {
+ rp-&gt;p_flag =&amp; ~SSWAP;
+ aretu(u.u_ssav);
+A major reason why this piece of code was hard to understand was that it depended on a quirk of the way the C-compiler for the PDP-11 saved registers in procedure calls. This code failed when ported to other machines and had to be redesigned in Version 7 UNIX. Dennis Ritchie later explained the meaning of this remark:
+See also.
+xv6, a modern reimplementation of Sixth Edition UNIX in ANSI C for multiprocessor x86 and RISC-V systems.
+

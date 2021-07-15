@@ -1,0 +1,2 @@
+Modular arithmetic (sometimes also called Modulo arithmetic) is a way of arithmetic calculation with integers. Numbers "wrap around" once they reach a certain value (called "modulus").
+A well-known example is the clock. Analog clocks go from 0 to 11, then they wrap, and again go from 0 to 11. This is an arithmetic modulo 12.

@@ -1,0 +1,3 @@
+Intel Core 2 is a group of microprocessors created to replace Intel's previous Core brand. The group includes the single-core "Core 2 Solo", dual-core (2 cores) "Core 2 Duo", and quad-core (4 cores) "Core 2 Quad" microprocessors. Microprocessors with the name "Extreme" following the brand name, such as Core 2 Extreme, are higher in cost, and perform better than the others. The Extreme versions also come in dual-core and quad-core versions.
+Processor Cores.
+The processors with names ending in "XE" are the "Extreme" versions.

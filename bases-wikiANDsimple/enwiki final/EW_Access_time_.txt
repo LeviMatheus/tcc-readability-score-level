@@ -1,0 +1,3 @@
+
+Access time is the time delay or latency between a request to an electronic system, and the access being completed or the requested data returned
+

@@ -1,0 +1,5 @@
+The C programming language is a computer programming language that works close to the hardware. It was developed in the 1970s by Ken Thompson and Dennis Ritchie to be used with the UNIX operating system. It is a procedural language, which means that you can divide your program into sub-programs and use these from within the main program.
+Because the ideas behind C are kept close to the basic architecture of the computer, the compiler can generate instructions for the computer, that will run very fast. This makes C a good language for writing operating systems, and a lot of them, like Linux and UNIX are mostly made up of C.
+Another good thing about C is that it is available for many different platforms. This means, that there are many different compilers to make a C program run on many different processors and operating systems. This is why C is called a "portable" language, because programs written in it can be "ported" to many different platforms.
+Example code.
+The following piece of text is an example for source code written in C. When compiled and executed, it will print "Hello world!" on the computer screen and then exit.

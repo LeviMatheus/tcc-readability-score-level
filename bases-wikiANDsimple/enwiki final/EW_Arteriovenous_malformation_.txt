@@ -1,0 +1,34 @@
+
+Arteriovenous malformation is an abnormal connection between arteries and veins, bypassing the capillary system. This vascular anomaly is widely known because of its occurrence in the central nervous system (usually cerebral AVM), but can appear in any location. Although many AVMs are asymptomatic, they can cause intense pain or bleeding or lead to other serious medical problems.
+AVMs are usually congenital and belong to the RASopathies.
+The genetic transmission patterns of AVMs are incomplete, but there are known genetic mutations (for instance in the epithelial line, tumor suppressor PTEN gene) which can lead to an increased occurrence throughout the body.
+Signs and symptoms.
+Symptoms of AVM vary according to the location of the malformation. Roughly 88% of people with an AVM are asymptomatic; often the malformation is discovered as part of an autopsy or during treatment of an unrelated disorder (called in medicine an "incidental finding"); in rare cases, its expansion or a micro-bleed from an AVM in the brain can cause epilepsy, neurological deficit, or pain.
+The most general symptoms of a cerebral AVM include headaches and epileptic seizures, with more specific symptoms occurring that normally depend on the location of the malformation and the individual. Such possible symptoms include:
+Cerebral AVMs may present themselves in a number of different ways:
+Pulmonary arteriovenous malformations.
+Pulmonary arteriovenous malformations are abnormal communications between the veins and arteries of the pulmonary circulation, leading to a right-to-left blood shunt.
+They have no symptoms in up to 29% of all cases, however they can give rise to serious complications including hemorrhage, and infection. They are most commonly associated with hereditary hemorrhagic telangiectasia.
+Genetics.
+Can occur due to autosomal dominant diseases, such as hereditary hemorrhagic telangiectasia.
+Pathophysiology.
+Arteries and veins are part of the vascular system. Arteries carry blood away from the heart to the lungs or the rest of the body, where the blood passes through capillaries, and veins return the blood to the heart. An AVM interferes with this process by forming a direct connection of the arteries and veins. AVMs can cause intense pain and lead to serious medical problems. Although AVMs are often associated with the brain and spinal cord, they can develop in any part of the body.
+Normally, the arteries in the vascular system carry oxygen-rich blood, except in the case of the pulmonary artery. Structurally, arteries divide and sub-divide repeatedly, eventually forming a sponge-like capillary bed. Blood moves through the capillaries, giving up oxygen and taking up waste products, including , from the surrounding cells. Capillaries in turn successively join together to form veins that carry blood away. The heart acts to pump blood through arteries and uptake the venous blood.
+As an AVM lacks the dampening effect of capillaries on the blood flow, the AVM can get progressively larger over time as the amount of blood flowing through it increases, forcing the heart to work harder to keep up with the extra blood flow. It also causes the surrounding area to be deprived of the functions of the capillaries—removal of and delivery of nutrients to the cells. The resulting tangle of blood vessels, often called a "nidus" (Latin for "nest"), has no capillaries. It can be extremely fragile and prone to bleeding because of the abnormally direct connections between high-pressure arteries and low-pressure veins. The resultant sign, audible via stethoscope, is a rhythmic, whooshing sound caused by excessively rapid blood flow through the arteries and veins. It has been given the term "bruit", French for noise. On some occasions, a patient with a brain AVM may become aware of the noise, which can compromise hearing and interfere with sleep in addition to causing psychological distress.
+Diagnosis.
+AVMs are diagnosed primarily by the following imaging methods:
+AVMs can occur in various parts of the body:
+AVMs may occur in isolation or as a part of another disease (for example, Von Hippel-Lindau disease or hereditary hemorrhagic telangiectasia).
+AVMs have been shown to be associated with aortic stenosis.
+Bleeding from an AVM can be relatively mild or devastating. It can cause severe and less often fatal strokes. If a cerebral AVM is detected before a stroke occurs, usually the arteries feeding blood into the nidus can be closed off to avert the danger. However, interventional therapy may also be relatively risky. 
+Treatment.
+Treatment for brain AVMs can be symptomatic, and patients should be followed by a neurologist for any seizures, headaches, or focal neurologic deficits. AVM-specific treatment may also involve endovascular embolization, neurosurgery or radiosurgery.
+Embolization, that is, cutting off the blood supply to the AVM with coils, particles, acrylates, or polymers introduced by a radiographically guided catheter, may be used in addition to neurosurgery or radiosurgery, but is rarely successful in isolation except in smaller AVMs. Gamma knife may also be used.
+Treatment of lung AVMs is typically performed with endovascular embolization alone, which is considered the standard of care. 
+Epidemiology.
+The estimated detection rate of AVM in the US general population is 1.4/100,000 per year. This is approximately one fifth to one seventh the incidence of intracranial aneurysms. An estimated 300,000 Americans have AVMs, of whom 12% (approximately 36,000) will exhibit symptoms of greatly varying severity.
+History.
+Luschka (1820–1875) and Virchow (1821–1902) first described arteriovenous malformations in the mid-1800s. Olivecrona (1891–1980) performed the first surgical excision of an intracranial AVM in 1932.
+Research.
+Despite many years of research, the central question of whether to treat AVMs has not been answered. All treatments, whether involving surgery, radiation, or drugs, have risks and side-effects. Therefore, it might be better in some cases to avoid treatment altogether and simply accept a small risk of coming to harm from the AVM itself. This question is currently being addressed in clinical trials.
+

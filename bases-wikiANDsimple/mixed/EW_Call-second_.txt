@@ -1,0 +1,8 @@
+
+In telecommunication, a call-second is a unit used to measure communications traffic density, equivalent to one call with a duration of one second. 
+Traffic is measured independent of users. For example, one user making two 75-second calls is equivalent to two users each making one 75-second call, as each case produces 150 call-seconds of traffic. 
+A CCS (centacall-second) is often used to describe 100 call-seconds, so 3600 call-seconds = 36 CCS = 1 call-hour. 
+In a communication network, a trunk (link) can carry numerous concurrent calls by means of multiplexing. Hence a particular number of call-seconds can be carried in infinitely many ways as calls are established and cleared over time. For example, one call-hour could be one call for an hour or two (possibly concurrent) calls for half an hour each. Call-seconds give a measure of the average number of concurrent calls.
+Offered load is defined as the traffic density per unit time, measured in erlangs. An erlang is defined as one call-hour per hour, or 3,600 call-seconds per hour.
+Hence, if one CCS is measured over a one-hour period, the offered load is 1/36 erlangs.
+

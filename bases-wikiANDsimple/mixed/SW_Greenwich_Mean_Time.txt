@@ -1,0 +1,2 @@
+Greenwich Mean Time is an internationally standard time format. It is the main time zone in several countries, including the United Kingdom and Portugal.
+It is similar to UTC, however there are some small differences between the two.

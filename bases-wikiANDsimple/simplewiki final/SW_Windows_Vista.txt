@@ -1,0 +1,12 @@
+Windows Vista is the newest version of Microsoft Windows after Windows XP from Microsoft. When Microsoft was making it, it was called Longhorn. On July 28 2005, Microsoft gave out its real name, Windows Vista.
+Microsoft has worked on Vista for more than five years so there are many things that are new to Windows. It has new features like a thumbnail tab view, so it is possible to see what a program is doing. It includes many small programs which are called gadgets such as a calendar which the user can put events on, and the computer will alert the user when those events are near. The canlendar is simular to the bonzi buddy program. Some versions of Windows Vista have windows with title bars you can see through, in a new addition called Aero. It has new things to prevent computer virus attacks and other problems that have been common with Windows. Windows vista is the first operating system for Microsoft to re-word things to make it a lot more simple.
+Microsoft have said that windows vista can run older programs but there had been some compatibilty issues and a lot of companies had made a newer version of the program so that windows vista is supported.
+Vista Editions and System Requirements.
+There are 2 special versions called Home Starter Edition, and Enterprise Edition. Home Starter is basically the same as XP Starter, and is for low budget countries. Vista needs at least 512 MB of RAM to run on all computers. Some new parts of Vista need 1 GB of RAM to work.
+To run windows vista you need at least all the specs on the vista basic side for vista to work but to get the best performance, the computer needs the requirements on the vista premium side.
+Service Packs.
+Microsoft releases service packs to update software and fix problems.
+Service pack 1.
+Service pack 1 was released in April 2007 and there were some fixes including the wait when pressing CTRL+ALT+DELETE to log in.
+Service Pack 2.
+Service pack 2 is currently in developement but a pre-release version of service pack 2 is avalible to download at the Microsoft website. Windows vista with service pack 2 is to be released on April 2009.

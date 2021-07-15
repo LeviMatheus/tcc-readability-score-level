@@ -1,0 +1,99 @@
+
+A circle is a shape consisting of all points in a plane that are at a given distance from a given point, the centre; equivalently it is the curve traced out by a point that moves in a plane so that its distance from a given point is constant. The distance between any point of the circle and the centre is called the radius. This article is about circles in Euclidean geometry, and, in particular, the Euclidean plane, except where otherwise noted.
+Specifically, a circle is a simple closed curve that divides the plane into two regions: an interior and an exterior. In everyday use, the term "circle" may be used interchangeably to refer to either the boundary of the figure, or to the whole figure including its interior; in strict technical usage, the circle is only the boundary and the whole figure is called a disc.
+A circle may also be defined as a special kind of ellipse in which the two foci are coincident and the eccentricity is 0, or the two-dimensional shape enclosing the most area per unit perimeter squared, using calculus of variations.
+Topological definition.
+In the field of topology, a circle isn't limited to the geometric concept, but to all of its homeomorphisms. Two topological circles are equivalent if one can be transformed into the other via a deformation of R3 upon itself (known as an ambient isotopy).
+Terminology.
+All of the specified regions may be considered as "open", that is, not containing their boundaries, or as "closed", including their respective boundaries.
+History.
+The word "circle" derives from the Greek κίρκος/κύκλος ("kirkos/kuklos"), itself a metathesis of the Homeric Greek κρίκος ("krikos"), meaning "hoop" or "ring". The origins of the words "circus" and "circuit" are closely related.
+The circle has been known since before the beginning of recorded history. Natural circles would have been observed, such as the Moon, Sun, and a short plant stalk blowing in the wind on sand, which forms a circle shape in the sand. The circle is the basis for the wheel, which, with related inventions such as gears, makes much of modern machinery possible. In mathematics, the study of the circle has helped inspire the development of geometry, astronomy and calculus.
+Early science, particularly geometry and astrology and astronomy, was connected to the divine for most medieval scholars, and many believed that there was something intrinsically "divine" or "perfect" that could be found in circles.
+Some highlights in the history of the circle are:
+Analytic results.
+Circumference.
+The ratio of a circle's circumference to its diameter is (pi), an irrational constant approximately equal to 3.141592654. Thus the circumference "C" is related to the radius "r" and diameter "d" by:
+Area enclosed.
+As proved by Archimedes, in his Measurement of a Circle, the area enclosed by a circle is equal to that of a triangle whose base has the length of the circle's circumference and whose height equals the circle's radius, which comes to multiplied by the radius squared:
+Equivalently, denoting diameter by "d",
+that is, approximately 79% of the circumscribing square (whose side is of length "d").
+The circle is the plane curve enclosing the maximum area for a given arc length. This relates the circle to a problem in the calculus of variations, namely the isoperimetric inequality.
+Equations.
+Cartesian coordinates.
+In an "x"–"y" Cartesian coordinate system, the circle with centre coordinates ("a", "b") and radius "r" is the set of all points ("x", "y") such that
+This equation, known as the "equation of the circle", follows from the Pythagorean theorem applied to any point on the circle: as shown in the adjacent diagram, the radius is the hypotenuse of a right-angled triangle whose other sides are of length |"x" − "a"| and |"y" − "b"|. If the circle is centred at the origin (0, 0), then the equation simplifies to
+The equation can be written in parametric form using the trigonometric functions sine and cosine as
+where "t" is a parametric variable in the range 0 to 2, interpreted geometrically as the angle that the ray from ("a", "b") to ("x", "y") makes with the positive "x" axis.
+An alternative parametrisation of the circle is
+In this parameterisation, the ratio of "t" to "r" can be interpreted geometrically as the stereographic projection of the line passing through the centre parallel to the "x" axis (see Tangent half-angle substitution). However, this parameterisation works only if "t" is made to range not only through all reals but also to a point at infinity; otherwise, the leftmost point of the circle would be omitted.
+The equation of the circle determined by three points formula_10 not on a line is obtained by a conversion of the "3-point form of a circle equation":
+In homogeneous coordinates, each conic section with the equation of a circle has the form
+It can be proven that a conic section is a circle exactly when it contains (when extended to the complex projective plane) the points "I"(1: "i": 0) and "J"(1: −"i": 0). These points are called the circular points at infinity.
+Polar coordinates.
+In polar coordinates, the equation of a circle is
+where "a" is the radius of the circle, formula_14 are the polar coordinates of a generic point on the circle, and formula_15 are the polar coordinates of the centre of the circle (i.e., "r"0 is the distance from the origin to the centre of the circle, and "φ" is the anticlockwise angle from the positive "x" axis to the line connecting the origin to the centre of the circle). For a circle centred on the origin, i.e. , this reduces to simply . When , or when the origin lies on the circle, the equation becomes
+In the general case, the equation can be solved for "r", giving
+Note that without the ± sign, the equation would in some cases describe only half a circle.
+Complex plane.
+In the complex plane, a circle with a centre at "c" and radius "r" has the equation
+In parametric form, this can be written as
+The slightly generalised equation
+for real "p", "q" and complex "g" is sometimes called a generalised circle. This becomes the above equation for a circle with formula_21, since formula_22. Not all generalised circles are actually circles: a generalised circle is either a (true) circle or a line.
+Tangent lines.
+The tangent line through a point "P" on the circle is perpendicular to the diameter passing through "P". If and the circle has centre ("a", "b") and radius "r", then the tangent line is perpendicular to the line from ("a", "b") to ("x"1, "y"1), so it has the form . Evaluating at ("x"1, "y"1) determines the value of "c", and the result is that the equation of the tangent is
+or
+If , then the slope of this line is
+This can also be found using implicit differentiation.
+When the centre of the circle is at the origin, then the equation of the tangent line becomes
+and its slope is
+Properties.
+Inscribed angles.
+An inscribed angle (examples are the blue and green angles in the figure) is exactly half the corresponding central angle (red). Hence, all inscribed angles that subtend the same arc (pink) are equal. Angles inscribed on the arc (brown) are supplementary. In particular, every inscribed angle that subtends a diameter is a right angle (since the central angle is 180°).
+Sagitta.
+The sagitta (also known as the versine) is a line segment drawn perpendicular to a chord, between the midpoint of that chord and the arc of the circle.
+Given the length "y" of a chord and the length "x" of the sagitta, the Pythagorean theorem can be used to calculate the radius of the unique circle that will fit around the two lines:
+Another proof of this result, which relies only on two chord properties given above, is as follows. Given a chord of length "y" and with sagitta of length "x", since the sagitta intersects the midpoint of the chord, we know that it is a part of a diameter of the circle. Since the diameter is twice the radius, the "missing" part of the diameter is () in length. Using the fact that one part of one chord times the other part is equal to the same product taken along a chord intersecting the first chord, we find that (. Solving for "r", we find the required result.
+Compass and straightedge constructions.
+There are many compass-and-straightedge constructions resulting in circles.
+The simplest and most basic is the construction given the centre of the circle and a point on the circle. Place the fixed leg of the compass on the centre point, the movable leg on the point on the circle and rotate the compass.
+Circle of Apollonius.
+Apollonius of Perga showed that a circle may also be defined as the set of points in a plane having a constant "ratio" (other than 1) of distances to two fixed foci, "A" and "B". (The set of points where the distances are equal is the perpendicular bisector of segment "AB", a line.) That circle is sometimes said to be drawn "about" two points.
+The proof is in two parts. First, one must prove that, given two foci "A" and "B" and a ratio of distances, any point "P" satisfying the ratio of distances must fall on a particular circle. Let "C" be another point, also satisfying the ratio and lying on segment "AB". By the angle bisector theorem the line segment "PC" will bisect the interior angle "APB", since the segments are similar:
+Analogously, a line segment "PD" through some point "D" on "AB" extended bisects the corresponding exterior angle "BPQ" where "Q" is on "AP" extended. Since the interior and exterior angles sum to 180 degrees, the angle "CPD" is exactly 90 degrees, i.e., a right angle. The set of points "P" such that angle "CPD" is a right angle forms a circle, of which "CD" is a diameter.
+Second, see for a proof that every point on the indicated circle satisfies the given ratio.
+Cross-ratios.
+A closely related property of circles involves the geometry of the cross-ratio of points in the complex plane. If "A", "B", and "C" are as above, then the circle of Apollonius for these three points is the collection of points "P" for which the absolute value of the cross-ratio is equal to one:
+Stated another way, "P" is a point on the circle of Apollonius if and only if the cross-ratio is on the unit circle in the complex plane.
+Generalised circles.
+If "C" is the midpoint of the segment "AB", then the collection of points "P" satisfying the Apollonius condition
+is not a circle, but rather a line.
+Thus, if "A", "B", and "C" are given distinct points in the plane, then the locus of points "P" satisfying the above equation is called a "generalised circle." It may either be a true circle or a line. In this sense a line is a generalised circle of infinite radius.
+Inscription in or circumscription about other figures.
+In every triangle a unique circle, called the incircle, can be inscribed such that it is tangent to each of the three sides of the triangle.
+About every triangle a unique circle, called the circumcircle, can be circumscribed such that it goes through each of the triangle's three vertices.
+A tangential polygon, such as a tangential quadrilateral, is any convex polygon within which a circle can be inscribed that is tangent to each side of the polygon. Every regular polygon and every triangle is a tangential polygon.
+A cyclic polygon is any convex polygon about which a circle can be circumscribed, passing through each vertex. A well-studied example is the cyclic quadrilateral. Every regular polygon and every triangle is a cyclic polygon. A polygon that is both cyclic and tangential is called a bicentric polygon.
+A hypocycloid is a curve that is inscribed in a given circle by tracing a fixed point on a smaller circle that rolls within and tangent to the given circle.
+Limiting case of other figures.
+The circle can be viewed as a limiting case of each of various other figures:
+In other "p"-norms.
+Defining a circle as the set of points with a fixed distance from a point, different shapes can be considered circles under different definitions of distance. In "p"-norm, distance is determined by
+In Euclidean geometry, "p" = 2, giving the familiar
+In taxicab geometry, "p" = 1. Taxicab circles are squares with sides oriented at a 45° angle to the coordinate axes. While each side would have length formula_38 using a Euclidean metric, where "r" is the circle's radius, its length in taxicab geometry is 2"r". Thus, a circle's circumference is 8"r". Thus, the value of a geometric analog to formula_39 is 4 in this geometry. The formula for the unit circle in taxicab geometry is formula_40 in Cartesian coordinates and
+in polar coordinates.
+A circle of radius 1 (using this distance) is the von Neumann neighborhood of its center.
+A circle of radius "r" for the Chebyshev distance (L∞ metric) on a plane is also a square with side length 2"r" parallel to the coordinate axes, so planar Chebyshev distance can be viewed as equivalent by rotation and scaling to planar taxicab distance. However, this equivalence between L1 and L∞ metrics does not generalize to higher dimensions.
+Locus of constant sum.
+Consider a finite set of formula_42 points in the plane. The locus of points such that the sum of the squares of the distances to the given points is constant is a circle, whose center is at the centroid of the given points.
+A generalization for higher powers of distances is obtained if under formula_42 points the vertices of the regular polygon formula_44 are taken. The locus of points such that the sum of the formula_45-th power of distances formula_46 to the vertices of a given regular polygon with circumradius formula_47 is constant is a circle, if
+whose center is the centroid of the formula_44.
+In the case of the equilateral triangle, the loci of the constant sums of the second and fourth powers are circles, whereas for the square, the loci are circles for the constant sums of the second, fourth, and sixth powers. For the regular pentagon the constant sum of the eighth powers of the distances will be added and so forth.
+Squaring the circle.
+Squaring the circle is the problem, proposed by ancient geometers, of constructing a square with the same area as a given circle by using only a finite number of steps with compass and straightedge.
+In 1882, the task was proven to be impossible, as a consequence of the Lindemann–Weierstrass theorem, which proves that pi () is a transcendental number, rather than an algebraic irrational number; that is, it is not the root of any polynomial with rational coefficients. Despite of the impossibility, this topic continues to be of interest for pseudomath enthusiasts.
+Significance in art and symbolism.
+From the time of the earliest known civilisations – such as the Assyrians and ancient Egyptians, those in the Indus Valley and along the Yellow River in China, and the Western civilisations of ancient Greece and Rome during classical Antiquity – the circle has been used directly or indirectly in visual art to convey the artist’s message and to express certain ideas.
+However, differences in worldview (beliefs and culture) had a great impact on artists’ perceptions. While some emphasised the circle’s perimeter to demonstrate their democratic manifestation, others focused on its centre to symbolise the concept of cosmic unity. In mystical doctrines, the circle mainly symbolises the infinite and cyclical nature of existence, but in religious traditions it represents heavenly bodies and divine spirits.
+The circle signifies many sacred and spiritual concepts, including unity, infinity, wholeness, the universe, divinity, balance, stability and perfection, among others. Such concepts have been conveyed in cultures worldwide through the use of symbols, for example, a compass, a halo, the vesica piscis and its derivatives (fish, eye, aureole, mandorla, etc.), the ouroboros, the Dharma wheel, a rainbow, mandalas, rose windows and so forth. 
+

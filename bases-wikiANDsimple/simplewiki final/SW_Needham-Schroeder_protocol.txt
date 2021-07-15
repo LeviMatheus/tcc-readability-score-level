@@ -1,0 +1,1 @@
+The term Needham-Schroeder protocol can refer to one of two communication protocols intended for use over an insecure network, both protocols designed by Roger Needham and Michael Schroeder.

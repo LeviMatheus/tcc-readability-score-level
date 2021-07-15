@@ -1,0 +1,2 @@
+A projection in geometry is something like a shadow, that an object casts onto another object. When a three-dimensional sphere is projected onto a plane, its projection will either be a circle or an ellipse.
+In higher mathematics, projections are changes of one thing into something else. They may also be applications of functions.

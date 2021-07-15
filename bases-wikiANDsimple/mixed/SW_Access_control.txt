@@ -1,0 +1,1 @@
+Access control is the ability to allow or deny the use of a certain object by a certain person or entity. Access control machine can be used in managing physical objects (such as a movie theater, to which only people with tickets are allowed in) or digital objects (for example, a private text document on a computer, which only certain users should be able to read).

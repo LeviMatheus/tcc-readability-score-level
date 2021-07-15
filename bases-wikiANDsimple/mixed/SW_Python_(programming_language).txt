@@ -1,0 +1,5 @@
+Python is a programming language that was made to look good and be easy to read. It was created by the programmer named Guido van Rossum. Python was created in the year 1991. The language is named after the TV show Monty Python and a lot of the examples include jokes from the show.
+Python is an interpreted language. An interpreted language allows the programmer to give the source code to the computer and the computer runs the code right away. This means if the programmer needs to change the code they can see the result of any changes quickly. This makes Python a good programming language for beginners.
+Python is a high-level programming language. A high level language has advanced features which allow the programmer to write instructions without having to worry about how the computer is going to carry them out. This makes writing programs easier and takes less time.
+Example.
+This is a small example Python program, which defines a function called codice_1, which shows the sentence "I don't like Spam!" to the computer's standard output.

@@ -1,0 +1,89 @@
+
+In mathematics, logic, and computer science, a type system is a formal system in which every term has a "type" which defines its meaning and the operations that may be performed on it. Type theory is the academic study of type systems.
+Some type theories serve as alternatives to set theory as a foundation of mathematics. Two well-known such theories are Alonzo Church's typed λ-calculus and Per Martin-Löf's intuitionistic type theory.
+Type theory was created to avoid paradoxes in previous foundations such as naive set theory, formal logics and rewrite systems.
+Type theory is closely related to, and in some cases overlaps with, computational type systems, which are a programming language feature used to reduce bugs.
+History.
+Between 1902 and 1908 Bertrand Russell proposed various "theories of type" in response to his discovery that Gottlob Frege's version of naive set theory was afflicted with Russell's paradox. By 1908 Russell arrived at a "ramified" theory of types together with an "axiom of reducibility" both of which featured prominently in Whitehead and Russell's "Principia Mathematica" published between 1910 and 1913. They attempted to resolve Russell's paradox by first creating a hierarchy of types, then assigning each concrete mathematical (and possibly other) entity to a type. Entities of a given type are built exclusively from entities of those types that are lower in their hierarchy, thus preventing an entity from being assigned to itself.
+In the 1920s, Leon Chwistek and Frank P. Ramsey proposed an unramified type theory, now known as the "theory of simple types" or simple type theory, which collapsed the hierarchy of the types in the earlier ramified theory and as such did not require the axiom of reducibility.
+The common usage of "type theory" is when those types are used with a term rewrite system. The most famous early example is Alonzo Church's simply typed lambda calculus. Church's theory of types helped the formal system avoid the Kleene–Rosser paradox that afflicted the original untyped lambda calculus. Church demonstrated that it could serve as a foundation of mathematics and it was referred to as a higher-order logic.
+Some other type theories include Per Martin-Löf's intuitionistic type theory, which has been the foundation used in some areas of constructive mathematics. Thierry Coquand's calculus of constructions and its derivatives are the foundation used by Coq, Lean, and others. The field is an area of active research, as demonstrated by homotopy type theory.
+Basic concepts.
+The contemporary presentation of type systems in the context of type theory has been made systematic by a conceptual framework introduced by Henk Barendregt.
+Type, term, value.
+In a system of type theory, a "term" is opposed to a "type". For example, , , and formula_1 are all separate terms with the type for natural numbers. Traditionally, the term is followed by a colon and its type, such as - this means that the number is of type . Beyond this opposition and syntax, little can be said about types in this generality, but often, they are interpreted as some kind of collection (not necessarily sets) of the "values" that the term might evaluate to. It is usual to denote terms by and types by . How terms and types are shaped depends on the particular type system and is made precise by some syntax and additional restrictions of well-formedness.
+Typing environment, type assignment, type judgement.
+Typing usually takes place in some "context" or "environment" denoted by the symbol formula_2. Often, an environment is a list of pairs formula_3. This pair is sometimes called an "assignment". The context completes the above opposition. Together they form a "judgement" denoted formula_4.
+Rewriting rules, conversion, reduction.
+Type theories have explicit computation and it is encoded in rules for "rewriting" terms. These are called "conversion rules" or, if the rule only works in one direction, a "reduction rule". For example, formula_5 and formula_6 are syntactically different terms, but the former reduces to the latter. This reduction is written formula_7. These rules also establish corresponding equivalences between the terms, written formula_8.
+The term formula_9 reduces to formula_10. Since formula_10 cannot be reduced further, it is called a "normal form". Various systems of typed lambda calculus including the simply typed lambda calculus, Jean-Yves Girard's System F, and Thierry Coquand's calculus of constructions are "strongly normalizing". In such systems, a successful type check implies a termination proof of the term.
+Type rules.
+Based on the judgements and equivalences type inference rules can be used to describe how a type system assigns a type to a syntactic constructions (terms), much like in natural deduction. To be meaningful, conversion and type rules are usually closely related as in e.g. by a subject reduction property, which might establish a part of the soundness of a type system.
+Decision problems.
+A type system is naturally associated with the decision problems of type checking, typability, and type inhabitation.
+Type checking.
+The decision problem of "type checking" (abbreviated by formula_12) is: 
+Decidability of type checking means that type safety of any given program text (source code) can be verified.
+Typability.
+The decision problem of "typability" (abbreviated by formula_19) is: 
+A variant of typability is "typability wrt. a type environment" (abbreviated by formula_26), for which a type environment is part of the input.
+If the given term does not contain external references (such as free term variables), then typability coincides with typability wrt. the empty type environment.
+Typability is closely related to type inference. Whereas typability (as a decision problem) addresses the existence of a type for a given term, type inference (as a computation problem) requires an actual type to be computed.
+Type inhabitation.
+The decision problem of "type inhabitation" (abbreviated by formula_27) is: 
+Girard's paradox shows that type inhabitation is strongly related to the consistency of a type system with Curry–Howard correspondence. To be sound, such a system must have uninhabited types.
+The opposition of terms and types can also be views as one of "implementation" and "specification". By program synthesis (the computational counterpart of) type inhabitation (see below) can be used to construct (all or parts of) programs from specification given in form of type information.
+Interpretations of type theory.
+Type theory is closely linked to many fields of active research. Most particular, the Curry–Howard correspondence provides a deep isomorphism between intuitionistic logic, typed lambda calculus and cartesian closed categories.
+Intuitionistic logic.
+Beside the view of types as collection of values of a term, type theory offers a second interpretation of the opposition of term and types. Types can be seen as propositions and terms as proofs. In this way of reading a typing, a function type formula_33 is viewed as an implication, i.e. as the proposition, that formula_34 follows from formula_35.
+Category theory.
+The internal language of the cartesian closed category is the simply typed lambda calculus. This view can be extend to other typed lambda calculi.
+Certain Cartesian closed categories, the topoi, have been proposed as a general setting for mathematics, instead of traditional set theory.
+Difference from set theory.
+There are many different set theories and many different systems of type theory, so what follows are generalizations.
+Optional features.
+Dependent types.
+A dependent type is a type that depends on a term or another type. Thus, the type returned by a function may depend on the argument to the function.
+For example, a list of formula_36s of length 4 may be a different type than a list of formula_36s of length 5. In a type theory with dependent types, it is possible to define a function that takes a parameter "n" and returns a list containing "n" zeros. Calling the function with 4 would produce a term with a different type than if the function was called with 5.
+Another example is the type consisting of the proofs that the argument term has a certain property, such as the term of formula_36 type, e.g., a given natural number, is prime. See Curry-Howard Correspondence.
+Dependent types play a central role in intuitionistic type theory and in the design of functional programming languages like Idris, ATS, Agda and Epigram.
+Equality types.
+Many systems of type theory have a type that represents equality of types and of terms. This type is different from convertibility, and is often denoted propositional equality.
+In intuitionistic type theory, the equality type (also called the identity type) is known as formula_39 for identity. There is a type formula_40 when formula_41 is a type and formula_42 and formula_43 are both terms of type formula_41. A term of type formula_40 is interpreted as meaning that formula_42 is equal to formula_43.
+In practice, it is possible to build a type formula_48 but there will not exist a term of that type. In intuitionistic type theory, new terms of equality start with reflexivity. If formula_10 is a term of type formula_36, then there exists a term of type formula_51. More complicated equalities can be created by creating a reflexive term and then doing a reduction on one side. So if formula_52 is a term of type formula_36, then there is a term of type formula_54 and, by reduction, generate a term of type formula_55. Thus, in this system, the equality type denotes that two values of the same type are convertible by reductions.
+Having a type for equality is important because it can be manipulated inside the system. There is usually no judgement to say two terms are "not" equal; instead, as in the Brouwer–Heyting–Kolmogorov interpretation, we map formula_56 to formula_57, where formula_58 is the bottom type having no values. There exists a term with type but not one of type formula_59.
+Homotopy type theory differs from intuitionistic type theory mostly by its handling of the equality type.
+Inductive types.
+A system of type theory requires some basic terms and types to operate on. Some systems build them out of functions using Church encoding. Other systems have inductive types: a set of base types and a set of type constructors that generate types with well-behaved properties. For example, certain recursive functions called on inductive types are guaranteed to terminate.
+Coinductive types are infinite data types created by giving a function that generates the next element(s). See Coinduction and Corecursion.
+Induction-induction is a feature for declaring an inductive type and a family of types which depends on the inductive type.
+Induction recursion allows a wider range of well-behaved types, allowing the type and recursive functions operating on it to be defined at the same time.
+Universe types.
+Types were created to prevent paradoxes, such as Russell's paradox. However, the motives that lead to those paradoxes—being able to say things about all types—still exist. So, many type theories have a "universe type", which contains all "other" types (and not itself).
+In systems where you might want to say something about universe types, there is a hierarchy of universe types, each containing the one below it in the hierarchy. The hierarchy is defined as being infinite, but statements must only refer to a finite number of universe levels.
+Type universes are particularly tricky in type theory. The initial proposal of intuitionistic type theory suffered from Girard's paradox.
+Computational component.
+Many systems of type theory, such as the simply-typed lambda calculus, intuitionistic type theory, and the calculus of constructions, are also programming languages. That is, they are said to have a "computational component". The computation is the reduction of terms of the language using rewriting rules.
+A system of type theory that has a well-behaved computational component also has a simple connection to constructive mathematics through the BHK interpretation.
+Non-constructive mathematics in these systems is possible by adding operators on continuations such as call with current continuation. However, these operators tend to break desirable properties such as canonicity and parametricity.
+Practical impact.
+Programming languages.
+There is extensive overlap and interaction between the fields of type theory and type systems. Type systems are a programming language feature designed to identify bugs. Any static program analysis, such as the type checking algorithms in the semantic analysis phase of compiler, has a connection to type theory.
+A prime example is Agda, a programming language which uses UTT (Luo's Unified Theory of dependent Types) for its type system. The programming language ML was developed for manipulating type theories (see LCF) and its own type system was heavily influenced by them.
+Mathematical foundations.
+The first computer proof assistant, called Automath, used type theory to encode mathematics on a computer. Martin-Löf specifically developed intuitionistic type theory to encode "all" mathematics to serve as a new foundation for mathematics. There is ongoing research into mathematical foundations using homotopy type theory.
+Mathematicians working in category theory already had difficulty working with the widely accepted foundation of Zermelo–Fraenkel set theory. This led to proposals such as Lawvere's Elementary Theory of the Category of Sets (ETCS). Homotopy type theory continues in this line using type theory. Researchers are exploring connections between dependent types (especially the identity type) and algebraic topology (specifically homotopy).
+Proof assistants.
+Much of the current research into type theory is driven by proof checkers, interactive proof assistants, and automated theorem provers. Most of these systems use a type theory as the mathematical foundation for encoding proofs, which is not surprising, given the close connection between type theory and programming languages:
+Many type theories are supported by LEGO and Isabelle. Isabelle also supports foundations besides type theories, such as ZFC. Mizar is an example of a proof system that only supports set theory.
+Linguistics.
+Type theory is also widely used in formal theories of semantics of natural languages, especially Montague grammar and its descendants. In particular, categorial grammars and pregroup grammars extensively use type constructors to define the types ("noun", "verb", etc.) of words.
+The most common construction takes the basic types formula_14 and formula_61 for individuals and truth-values, respectively, and defines the set of types recursively as follows:
+A complex type formula_64 is the type of functions from entities of type formula_42 to entities of type formula_43. Thus one has types like formula_68 which are interpreted as elements of the set of functions from entities to truth-values, i.e. indicator functions of sets of entities. An expression of type formula_69 is a function from sets of entities to truth-values, i.e. a (indicator function of a) set of sets. This latter type is standardly taken to be the type of natural language quantifiers, like " everybody" or " nobody" (Montague 1973, Barwise and Cooper 1981).
+Social sciences.
+Gregory Bateson introduced a theory of logical types into the social sciences; his notions of double bind and logical levels are based on Russell's theory of types.
+Relation to category theory.
+Although the initial motivation for category theory was far removed from foundationalism, the two fields turned out to have deep connections. As John Lane Bell writes: "In fact categories can "themselves" be viewed as type theories of a certain kind; this fact alone indicates that type theory is much more closely related to category theory than it is to set theory." In brief, a category can be viewed as a type theory by regarding its objects as types (or sorts), i.e. "Roughly speaking, a category may be thought of as a type theory shorn of its syntax." A number of significant results follow in this way:
+The interplay, known as categorical logic, has been a subject of active research since then; see the monograph of Jacobs (1999) for instance.
+

@@ -1,0 +1,1 @@
+A Hamming code is a code. Hamming codes are used for telecommunications. With hamming codes it is possible to correct one-bit errors, and to detect (but not correct) two-bit errors. Hamming codes are named after Richard Hamming who discovered them.

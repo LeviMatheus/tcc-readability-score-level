@@ -1,0 +1,23 @@
+
+Philip R. Zimmermann (born 1954) is an American computer scientist and cryptographer. He is the creator of Pretty Good Privacy (PGP), the most widely used email encryption software in the world. He is also known for his work in VoIP encryption protocols, notably ZRTP and Zfone. Zimmermann is co-founder and Chief Scientist of the global encrypted communications firm Silent Circle.
+Background.
+He was born in Camden, New Jersey. Zimmermann received a B.S. degree in computer science from Florida Atlantic University in Boca Raton, Florida in 1978. In the 1980s, Zimmermann worked in Boulder, Colorado as a software engineer on the Nuclear Weapons Freeze Campaign as a military policy analyst.
+PGP.
+In 1991, he wrote the popular Pretty Good Privacy (PGP) program, and made it available (together with its source code) through public FTP for download, the first widely available program implementing public-key cryptography. Shortly thereafter, it became available overseas via the Internet, though Zimmermann has said he had no part in its distribution outside the United States.
+The very first version of PGP included an encryption algorithm, BassOmatic, developed by Zimmermann.
+Arms Export Control Act investigation.
+After a report from RSA Security, who were in a licensing dispute with regard to the use of the RSA algorithm in PGP, the United States Customs Service started a criminal investigation of Zimmermann, for allegedly violating the Arms Export Control Act. The United States Government had long regarded cryptographic software as a munition, and thus subject to arms trafficking export controls. At that time, PGP was considered to be impermissible ("high-strength") for export from the United States. The maximum strength allowed for legal export has since been raised and now allows PGP to be exported. The investigation lasted three years, but was finally dropped without filing charges after MIT Press published the source code of PGP. 
+In 1995, Zimmermann published the book "PGP Source Code and Internals" as a way to bypass limitations on exporting digital code. Zimmermann's introduction says the book contains "all of the C source code to a software package called PGP" and that the unusual publication in book form of the complete source code for a computer program was a direct response to the U.S. government's criminal investigation of Zimmermann for violations of U.S. export restrictions as a result of the international spread of PGP's use.
+After the government dropped its case without indictment in early 1996, Zimmermann founded PGP Inc. and released an updated version of PGP and some additional related products. That company was acquired by Network Associates (NAI) in December 1997, and Zimmermann stayed on for three years as a Senior Fellow. NAI decided to drop the product line and in 2002, PGP was acquired from NAI by a new company called PGP Corporation. Zimmermann served as a special advisor and consultant to that firm until Symantec acquired PGP Corporation in 2010. Zimmermann is also a fellow at the Stanford Law School's Center for Internet and Society. He was a principal designer of the cryptographic key agreement protocol (the "association model") for the Wireless USB standard.
+Silent Circle.
+Along with Mike Janke and Jon Callas, in 2012 he co-founded Silent Circle, a secure hardware and subscription based software security company.
+Dark Mail Alliance.
+In October 2013, Zimmermann, along with other key employees from Silent Circle, teamed up with Lavabit founder Ladar Levison to create the Dark Mail Alliance. The goal of the organization is to work on a new protocol to replace PGP that will encrypt email metadata, among other things that PGP is not capable of.
+Okuna.
+Zimmermann is also involved in the social network Okuna, formerly Openbook, which aims to be an ethical and privacy-friendly alternative to existing social networks, especially Facebook. He sees today's established social media platforms as a threat to democracy and privacy, because of their profit-oriented revenue models that "are all about exploiting our personal information" and "[deepen] the political divides in our culture", and Okuna as the solution to these problems.
+Zimmermann's Law.
+In 2013, an article on "Zimmermann's Law" quoted Phil Zimmermann as saying "The natural flow of technology tends to move in the direction of making surveillance easier", and "the ability of computers to track us doubles every eighteen months", in reference to Moore's law.
+Awards and other recognition.
+Zimmermann has received numerous technical and humanitarian awards for his pioneering work in cryptography:
+Simon Singh's "The Code Book" devotes an entire chapter to Zimmermann and PGP.
+

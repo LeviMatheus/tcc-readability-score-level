@@ -1,0 +1,105 @@
+
+A diesel multiple unit or DMU is a multiple-unit train powered by on-board diesel engines. A DMU requires no separate locomotive, as the engines are incorporated into one or more of the carriages. Diesel-powered single-unit railcars are also generally classed as DMUs. Diesel-powered units may be further classified by their transmission type: diesel–mechanical "DMMU", diesel–hydraulic "DHMU", or diesel–electric "DEMU".
+Design.
+The diesel engine may be located above the frame in an engine bay or under the floor. Driving controls can be at both ends, on one end, or in a separate car.
+Types by transmission.
+DMUs are usually classified by the method of transmitting motive power to their wheels.
+Diesel–mechanical.
+In a diesel–mechanical multiple unit (DMMU), the rotating energy of the engine is transmitted via a gearbox and driveshaft directly to the wheels of the train, like a car. The transmissions can be shifted manually by the driver, as in the great majority of first-generation British Rail DMUs, but in most applications, gears are changed automatically.
+Diesel–hydraulic.
+In a diesel–hydraulic multiple unit (DHMU), a hydraulic torque converter, a type of fluid coupling, acts as the transmission medium for the motive power of the diesel engine to turn the wheels. Some units feature a hybrid mix of hydraulic and mechanical transmissions, usually reverting to the latter at higher operating speeds as this decreases engine RPM and noise.
+Diesel–electric.
+In a diesel–electric multiple unit (DEMU), a diesel engine drives an electrical generator or an alternator which produces electrical energy. The generated current is then fed to electric traction motors on the wheels or bogies in the same way as a conventional diesel–electric locomotive.
+On some DEMUs, such as the Bombardier Voyager, each car is entirely self-contained and has its own engine, generator and electric motors. In other designs, such as the British Rail Class 207 or the Stadler GTW and Stadler Flirt DMU, some cars within the consist may be entirely unpowered or only feature electric motors, obtaining electric current from other cars in the consist which have a generator and engine.
+With diesel–electric transmission, some DMU can be no other than an EMU without pantograph, which "is substituted" by one or more on-board diesel generators; this kind of DEMU can be potentially upgraded to electro-diesel multiple unit "EDMU", becoming a bi-mode multiple units train (BMU), just adding one or two pantographs (with opportune converters, if necessary) and related modifications on the electric system.
+Advantages and disadvantages.
+A train composed of DMU cars scales well, as it allows extra passenger capacity to be added at the same time as motive power. It also permits passenger capacity to be matched to demand, and for trains to be split and joined en route. It is not necessary to match the power available to the size and weight of the train, as each unit is capable of moving itself. As units are added, the power available to move the train increases by the necessary amount. DMUs may have better acceleration capabilities, with more power-driven axles, making them more suitable for routes with frequent closely spaced stops, as compared with conventional locomotive and unpowered carriage setups.
+Distribution of the propulsion among the cars also results in a system that is less vulnerable to single-point-of-failure outages. Many classes of DMU are capable of operating with faulty units still in the consist. Because of the self-contained nature of diesel engines, there is no need to run overhead electric lines or electrified track, which can result in lower system construction costs.
+Such advantages must be weighed against the underfloor noise and vibration that may be an issue with this type of train.
+Generally diesel traction has several downsides compared to electric traction, namely higher fuel costs, more noise and exhaust as well as worse acceleration and top speed performance. The power to weight ratio also tends to be worse.
+DMUs have further disadvantages compared to diesel locomotives in that they cannot be swapped out when approaching or passing onto an electrified line, necessitating either passengers to change trains or Diesel operation on electrified lines. Similarly the lost investment once electrification reduces the demand for diesel rolling stock is higher than with locomotive hauled trains where only the locomotive has to be replaced. Finally, incremental maintenance costs for DMUs are significantly higher than with electric (EMUs), because of the added fueling, lubrication, replacement and maintenance of engine parts and systems in every car.
+Around the world.
+Europe.
+Belgium.
+NMBS/SNCB uses its NMBS/SNCB Class 41 DMUs on the few remaining unelectrified lines. As electrification progresses, the DMUs become less and less important.
+Croatia.
+Diesel multiple units cover large number of passenger lines in Croatia which are operated by the national passenger service operator HŽ Putnički Prijevoz. On Croatian Railways, DMU's have important role since they cover local, regional and distant lines all across the country. The country's two largest towns, Zagreb and Split, are connected with an inter-city service that is provided by DMU tilting trains "RegioSwinger" (Croatian series 7123) since 2004. Those trains may also cover other lines in the country depending on need and availability.
+Luxury DMU series 7021, built in France, started to operate for Yugoslav Railways in 1972 and after 1991 stil remained in service of Croatian Railways until 2005. Units 7121 and 7122 (which came as a replacement for 7221 units), together with the newest series 7022 and 7023 built in 2010s Croatia, cover many of the country's local and regional services on unelectrified or partly electrified lines.
+Czech Republic.
+Diesel multiple units also cover large number of passenger lines in the Czech Republic which are operated by the national operator Czech Railways. They have important role since they cover local, regional and distant lines all across the country. Those trains may also cover other lines in the country depending on need and availability too.
+Plus, the DMUs were manufactured for foreign carriers. The tables of cars and units are divided into vehicles operated until 1987, when the ČSD used the series designations proposed by Vojtěch Kryšpín, and vehicles created after this date, which no longer have Kryšpín's designations (with some exceptions). In addition, these new cars are the new vehicles are already different in both countries.
+Estonia.
+Elron has since 2015 a Stadler Flirt fleet, with 20 trains DEMU version.
+Germany.
+Germany has employed DMUs for both commuter and express services for many decades. The SVT 877 "Fliegender Hamburger" DMU, introduced in 1933, made the run from Berlin to Hamburg in an astonishing 138 minutes, and its derivative SVT 137 broke the land speed record in 1936. After World War 2, the VT 11.5 DMU was the flagship of the glamourous Trans Europ Express.
+Since 1968, DB has designated DMUs with class numbers beginning in 6. While DB and regional transport authorities generally prefer electric power for commuter rail, many local and rural lines remain un-electrified, and DMUs are invaluable in providing services to those areas. DMUs in service as of 2021 include the Adtranz Class 612 tilting train ("Regio Swinger"), the Alstom Coradia LINT (Classes 620-623, 640 and 648), the Siemens Desiro (Class 642) and the Bombardier Talent (Class 643/644). From 2001-2016 there was even a DMU version of DB's high-speed Intercity Express, the Class 605 ICE TD.
+Ireland.
+In the Republic of Ireland the Córas Iompair Éireann (CIÉ), which controlled the republic's railways between 1945 and 1986, introduced DMUs in the mid-1950s and they were the first diesel trains on many main lines.
+Romania.
+DMUs are used mostly on shorter and less frequently travelled routes in remote and often poorer areas like Banat and Bukovina. The national railway company CFR uses Malaxa class 77 and 78 DMUs locally built between the 1920s and 50s and refurbished in the 70s. It also uses a smaller number of other newer DMUs. Main DMU in use is the Class 96 Siemens Desiro aka Săgeata Albastră (Blue Arrow).
+Slovakia.
+In the present, several types of DMUs operate in Slovakia. Was the most common type in Slovakia is a Class 812 ZSSK based on the ČD Class 810. These are used almost exclusively for hauling passenger trains on non-electrified regional lines and these trains often excel in low travel speeds. In the past, however, in Slovakia there were a number of express trains driven by motor coaches, which often overcame heavier trains driven by steam locomotives at cruising speed, and classic sets. A typical example can be, for example, the Slovenská strela motor express train led on the Bratislava-Prague route by a motor car of the same name, or the Tatran express from Bratislava to Košice. Representatives of high-speed motor wagons were, for example, motor wagons of the M262 or M286 series, which, however, lost their application in high-speed wagons due to the gradual electrification of main lines and were, like the current wagons currently used for passenger trains.
+United Kingdom.
+The first significant use of DMUs in the United Kingdom was by the Great Western Railway, which introduced its small but successful series of diesel–mechanical GWR railcars in 1934. The London &amp; North Eastern Railway and London, Midland &amp; Scottish Railway also experimented with DMUs in the 1930s, the LMS both on its own system, and on that of its Northern Irish subsidiary, but development was curtailed by World War II.
+After nationalisation, British Railways (BR) revived the concept in the early 1950s. At that time there was an urgent need to move away from expensive steam traction which led to many experimental designs using diesel propulsion and multiple units. The early DMUs proved successful, and under BR's 1955 Modernisation Plan the building of a large fleet was authorised. These BR "First Generation" DMUs were built between 1956 and 1963.
+BR required that contracts for the design and manufacture of new locomotives and rolling stock be split between numerous private firms as well as BR's own workshops, while different BR Regions laid down different specifications. The result was a multitude of different types, one of which was:
+In 1960, British Railways introduced its Blue Pullman high-speed DEMUs.
+These were few in number and relatively short-lived, but they paved the way for the very successful InterCity 125 or High Speed Train (HST) units, which were built between 1975 and 1982 to take over most principal express services on non-electrified routes.
+These trains run with a streamlined power car at each end and (typically) 7 to 9 intermediate trailer cars. Although originally classified as DEMUs, the trailer cars are very similar to loco-hauled stock, and the power cars were later reclassified as locomotives under Class 43. They remain in widespread use.
+By the early 1980s, many of the surviving First Generation units were reaching the end of their design life, leading to spiralling maintenance costs, poor reliability and a poor public image for the railway. A stopgap solution was to convert some services back to locomotive haulage, as spare locomotives and hauled coaching stock were available, but this also increased operating costs. Commencing in the mid '80s, British Rail embarked upon its so called "Sprinterisation" programme, to replace most of the first generation DMUs and many locomotive-hauled trains with three new families of DMU:
+Following the impact of the privatisation of British Rail in the late 1990s, several other diesel–hydraulic DMU families have been introduced:
+In 2018 the first bi and tri-mode electro-diesel multiple units were introduced:
+North America.
+Canada.
+Canada generally follows similar buffer strength requirements to the US, but new services are evaluated on a case-by-case basis. As a result, several types of lightweight DMUs have been used:
+Costa Rica.
+Costa Rica has purchased several Apolo 2400 series DMU railcars from the former narrow gauge operator in Spain, which are run in commuter service.
+United States.
+A type of diesel multiple units in the U.S. was the Budd Rail Diesel Car (RDC). The RDC was a single passenger car with two diesel engines and two sets of controls.
+In the United States only FRA-compliant DMU systems are permitted on freight rail corridors. This is due to the Federal Railway Administration setting higher coupling strength requirements than European regulators, effectively prohibiting the use of lighter weight European-style inter-city rail DMUs on U.S. main line railways without timesharing with freight operations or special waivers from the FRA. This has greatly restricted the development of DMUs within the U.S. as no other country requires the much heavier FRA compliant vehicles, and no export market for them exists.
+Operations using FRA-compliant vehicles:
+Operations using non FRA-compliant vehicles:
+Proposed operations:
+Asia/Australasia.
+Australia.
+DMUs were first introduced to Australia in the late mid-20th century for use on quiet branch lines that could not justify a locomotive hauled service. Today, DMUs are widely used throughout Australia's southern states:
+In Queensland, heritage DMUs are used on the "Savannahlander" and "Gulflander" tourist trains.
+Bangladesh.
+Chinese manufactured (CNR Tangshan) DEMU was introduced in Bangladesh from 25 May 2013. DEMU is the country's first-ever commuter train service starting its journey on the Chittagong–Fouzdarhat line. These DEMUs also operate on the Chittagong Circular Railway and on the Bangladesh Railway's service between Dhaka and Narayanganj.
+India.
+DMUs (DEMUs) are widely used in India. DEMUs in India are used in both the 8 coach format and the 4 coach format. These trains replaced many (up to 10 car) trains with a WDM-2 or WDM-3A locomotive in the middle. These old trains had the loco controls duplicated in the Driving Trailer coach and all the actuation information reaching the locomotive through thin communication lines. This was called 'push-pull train'. The longest running such push-pull service operated between Diva - Bhiwandi Road and Vasai Road and was recently converted into an MEMU train service in 2018.
+India's first and largest DMU shed at Jalandhar, Punjab, holds more than 90 units placed in service all over Punjab.
+First generation DMU:
+Rated power was 700 HP and had 3 or 6 coaches, made first by ICF. 
+Transmission was Voith-hydraulic. 
+Max speed 100 km/h.
+Second generation DMU:
+Rated power is 1400 HP and have 8 coaches. 
+Max speed is 105 km/h. 
+Transmission is DC electric. 
+Made at HCF and RCF.
+Third generation DMU:
+Rated power is 1600 HP and have 10 coaches. 
+Max speed is 110 km/h. 
+Transmission is AC electric. 
+Made at ICF.
+Indonesia.
+State-owned company PT.INKA builds several type of DMU, some of which operate in urban and suburban areas:
+Japan.
+In Japan, where gasoline-driven railbuses (on small private lines) and railmotors (Kihani 5000 of the national railways) had been built since the 1920s, the first two streamlined DMUs came in service in 1937, class Kiha 43000 (キハ43000系).
+The service of several hundreds (in sum even thousands) of diesel railcars and DMUs started in 1950s following the improvement of fuel supply that was critical during World War II.
+Malaysia.
+The Keretapi Tanah Melayu (KTM) has a total of 13 DMU class 61 ordered from CRRC for the West Coast Line and are assembled locally at CRRCs Batu Gajah factory from 2016 to 2020. The first scheduled service is expected from 1 September along the Gemas-Johor Bahru route, replacing old non-automotive stock.
+Philippines.
+The Philippine National Railways (PNR) was one of the first adopters of diesel multiple unit trains in Asia. Initially built as gasoline-powered railmotors, the locally-assembled Manila Railroad RMC class of 1929 was the first to be powered by diesel traction. Some units were also converted to streamliner units by 1932 for first-class services on the South Main Line between Manila and Legazpi, Albay. Since then, generations of DMUs were used chiefly for short-distance commuter services by the PNR in the island of Luzon.
+Even without active inter-city rail services in the present-day, DMUs are still used on the PNR Metro Commuter Line in Metro Manila and the Bicol Commuter service in the Bicol Region. Three generations of DMUs are in use: second-hand DMUs handed over by JR East such as the KiHa 35, 52 and 59 series originally built in the 1960s and acquired in the early 2010s, the Rotem DMUs of 2009 built by Korean manufacturer Hyundai Rotem, and the 8000 and 8100 classes built by Indonesian firm PT INKA.
+From 2022 onwards, the PNR will purchase standard gauge DMUs for its upcoming inter-city rail network in Luzon and Mindanao. This is compared to the 3 ft 6 in gauge of the rolling stock that is currently in active service. This move should allow access to better technology and increase line speeds.
+South Korea.
+Korail operates many DMUs. The DHC (Diesel Hydraulic Car), which made its debut for the 1988 Seoul Olympics, can reach speeds up to and serves Saemaul-ho trains.
+Sri Lanka.
+DMUs were first introduced to Sri Lanka in 1940. The aim of this was connecting minor railway stations and stops on the main line where most express trains don't have a halt.
+Taiwan.
+The DMUs are now usually used on the Taiwan Railway Administration Hualien–Taitung Line, North-Link Line, South-Link Line. DMUs in Taiwan are classified as Class DR.
+Manufacturers.
+DMU manufacturers include:
+

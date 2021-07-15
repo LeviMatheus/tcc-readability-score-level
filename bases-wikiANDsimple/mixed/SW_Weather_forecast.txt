@@ -1,0 +1,1 @@
+A weather forecast is a prediction on what the weather will be like in the future. You can predict the weather by taking measurements such as air pressure and cloud cover. A forecast gets less trustworthy as the time it forecasts gets further away.

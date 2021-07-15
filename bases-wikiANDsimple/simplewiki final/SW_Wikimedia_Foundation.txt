@@ -1,0 +1,4 @@
+The Wikimedia Foundation is a non-profit foundation in the United States that coordinates many projects using the wiki idea, and the MediaWiki software. These projects include Wikipedia, Wiktionary, Wikiquote, Wikisource, Wikinews, Wikibooks, Wikiversity, Wikimedia Commons, and Meta-Wiki.
+There are many other wikis to do with the foundation, but these are not very important. They include the Wikimedia Foundation wiki, the MediaWiki wiki, the Test Wikipedia, the Wikimedia Incubator, Bugzilla, and the Wikimania wiki.
+The foundation's creation was officially announced by Wikipedia co-founder Jimmy Wales, who was running Wikipedia within his company Bomis, on June 20, 2003.
+The foundation gets most of its funds from, as it is nonprofit. It also looks for grants. Some companies have helped Wikimedia by giving free computer hardware, and by hosting servers. Since people can write the wikis, Wikimedia projects are free to use.

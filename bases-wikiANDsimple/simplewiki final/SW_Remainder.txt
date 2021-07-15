@@ -1,0 +1,11 @@
+In arithmetic, the result of the division of two integers usually cannot be expressed with an integer quotient, unless a remainder —an amount "left over"— is also accepted.
+The remainder for natural numbers.
+If "a" and "d" are natural numbers, with "d" non-zero, it can be proved that there exist unique integers "q" and "r", such that "a" = "qd" + "r" and 0 ≤ "r" < "d". The number "q" is called the "quotient", while "r" is called the "remainder".
+The case of general integers.
+If "a" and "d" are integers, with "d" non-zero, then a remainder is an integer "r" such that "a" = "qd" + "r" for some integer "q", and with 0 ≤ |"r"| < |"d"|.
+When defined this way, there are two possible remainders. For example, the division of −42 by −5 can be expressed as either
+So the remainder is then either 3 or −2.
+This ambiguity in the value of the remainder is not very serious; in the case above, the negative remainder is obtained from the positive one just by subtracting 5, which is "d". This holds in general. When dividing by "d", if the positive remainder is "r"1, and the negative one is "r"2, then
+The remainder for real numbers.
+When "a" and "d" are real numbers, with "d" non-zero, "a" can be divided by "d" without remainder, with the quotient being another real number. If the quotient is constrained to being an integer however, the concept of remainder is still necessary. It can be proved that there exists a unique integer quotient "q" and a unique real remainder "r" such that "a"="qd"+"r" with 0≤"r" < |"d"|. As in the case of division of integers, the remainder could be required to be negative, that is, -|"d"| < "r" ≤ 0.
+Extending the definition of remainder for real numbers as described above is not of theoretical importance in mathematics; however, many programming languages implement this definition — see modulo operation.

@@ -1,0 +1,6 @@
+A Postal code is a series of numbers or letters and numbers used by a post office to help identify where a letter or parcel should be sent.
+The code can be read by machines, this speeds up sorting mail.
+In the United Kingdom the first part of the post code has one or two letters and one or two numbers. This identifies the post town and an area in the post town. The second part is used to identify an even smaller area, down to just one street or a few house in a long street.
+The post town is the main town in an area. Sometimes this is a lot bigger than the real town. Ipswich, for example is the post town for most of east Suffolk.
+In Europe most postal codes are all numbers. Often the one or two letter country code is put in front of the code to make sure that towns and cities are not mixed up, or for international post.
+In France the first two numbers of the postal code relate to the department. Codes for Monaco start with 98 as if it was part of France, but has the letters "MC" instead of "F" for international mail.

@@ -1,0 +1,69 @@
+
+In mathematics, in the area of abstract algebra known as Galois theory, the Galois group of a certain type of field extension is a specific group associated with the field extension. The study of field extensions and their relationship to the polynomials that give rise to them via Galois groups is called Galois theory, so named in honor of Évariste Galois who first discovered them.
+For a more elementary discussion of Galois groups in terms of permutation groups, see the article on Galois theory.
+Definition.
+Suppose that formula_1 is an extension of the field formula_2 (written as formula_3 and read ""E" over "F" "). An automorphism of formula_3 is defined to be an automorphism of formula_1 that fixes formula_2 pointwise. In other words, an automorphism of formula_3 is an isomorphism formula_8 such that formula_9 for each formula_10. The set of all automorphisms of formula_3 forms a group with the operation of function composition. This group is sometimes denoted by formula_12
+If formula_3 is a Galois extension, then formula_14 is called the Galois group of formula_3, and is usually denoted by formula_16.
+If formula_3 is not a Galois extension, then the Galois group of formula_3 is sometimes defined as formula_19, where formula_20 is the Galois closure of formula_1.
+Galois group of a polynomial.
+Another definition of the Galois group comes from the Galois group of a polynomial formula_22. If there is a field formula_23 such that formula_24 factors as a product of linear polynomials
+over the field formula_20, then the Galois group of the polynomial formula_24 is defined as the Galois group of formula_23 where formula_20 is minimal among all such fields.
+Structure of Galois groups.
+Fundamental theorem of Galois theory.
+One of the important structure theorems from Galois theory comes from the fundamental theorem of Galois theory. This states that given a finite Galois extension formula_30, there is a bijection between the set of subfields formula_31 and the subgroups formula_32 Then, formula_1 is given by the set of invariants of formula_20 under the action of formula_35, so
+Moreover, if formula_35 is a normal subgroup then formula_38. And conversely, if formula_39 is a normal field extension, then the associated subgroup in formula_40 is a normal group.
+Lattice structure.
+Suppose formula_41 are Galois extensions of formula_42 with Galois groups formula_43 The field formula_44 with Galois group formula_45 has an injection formula_46 which is an isomorphism whenever formula_47.
+Inducting.
+As a corollary, this can be inducted finitely many times. Given Galois extensions formula_48 where formula_49 then there is an isomorphism of the corresponding Galois groups:
+Examples.
+In the following examples formula_2 is a field, and formula_52 are the fields of complex, real, and rational numbers, respectively. The notation indicates the field extension obtained by adjoining an element to the field .
+Computational tools.
+Cardinality of the Galois group and the degree of the field extension.
+One of the basic propositions required for completely determining the Galois groups of a finite field extension is the following: Given a polynomial formula_53, let formula_3 be its splitting field extension. Then the order of the Galois group is equal to the degree of the field extension; that is,
+Eisenstein's criterion.
+A useful tool for determining the Galois group of a polynomial comes from Eisenstein's criterion. If a polynomial formula_22 factors into irreducible polynomials formula_57 the Galois group of formula_24 can be determined using the Galois groups of each formula_59 since the Galois group of formula_24 contains each of the Galois groups of the formula_61
+Trivial group.
+formula_62 is the trivial group that has a single element, namely the identity automorphism.
+Another example of a Galois group which is trivial is formula_63 Indeed, it can be shown that any automorphism of formula_64 must preserve the ordering of the real numbers and hence must be the identity.
+Consider the field formula_65 The group formula_66 contains only the identity automorphism. This is because formula_20 is not a normal extension, since the other two cube roots of formula_68,
+are missing from the extension—in other words is not a splitting field.
+Finite abelian groups.
+The Galois group formula_71 has two elements, the identity automorphism and the complex conjugation automorphism.
+Quadratic extensions.
+The degree two field extension formula_72 has the Galois group formula_73 with two elements, the identity automorphism and the automorphism formula_74 which exchanges and −. This example generalizes for a prime number formula_75
+Product of quadratic extensions.
+Using the lattice structure of Galois groups, for non-equal prime numbers formula_76 the Galois group of formula_77 is
+Cyclotomic extensions.
+Another useful class of examples comes from the splitting fields of cyclotomic polynomials. These are polynomials formula_79 defined as
+whose degree is formula_81, Euler's totient function at formula_82. Then, the splitting field over formula_83 is formula_84 and has automorphisms formula_85 sending formula_86 for formula_87 relatively prime to formula_82. Since the degree of the field is equal to the degree of the polynomial, these automorphisms generate the Galois group. If formula_89 then
+If formula_82 is a prime formula_92, then a corollary of this is 
+In fact, any finite abelian group can be found as the Galois group of some subfield of a cyclotomic field extension by the Kronecker–Weber theorem.
+Finite fields.
+Another useful class of examples of Galois groups with finite abelian groups comes from finite fields. If is a prime power, and if formula_94 and formula_95 denote the Galois fields of order formula_96 and formula_97 respectively, then formula_16 is cyclic of order and generated by the Frobenius homomorphism.
+Degree 4 examples.
+The field extension formula_99 is an example of a degree formula_100 field extension. This has two automorphisms formula_101 where formula_102 and formula_103 Since these two generators define a group of order formula_100, the Klein four-group, they determine the entire Galois group.
+Another example is given from the splitting field formula_105 of the polynomial
+Note because formula_107 the roots of formula_108 are formula_109 There are automorphisms 
+generating a group of order formula_100. Since formula_112 generates this group, the Galois group is isomorphic to formula_113.
+Finite non-abelian groups.
+Consider now formula_114 where formula_115 is a primitive cube root of unity. The group formula_116 is isomorphic to , the dihedral group of order 6, and is in fact the splitting field of formula_117 over formula_118
+Quaternion group.
+The Quaternion group can be found as the Galois group of a field extension of formula_83. For example, the field extension
+has the prescribed Galois group.
+Symmetric group of prime order.
+If formula_24 is an irreducible polynomial of prime degree formula_122 with rational coefficients and exactly two non-real roots, then the Galois group of formula_24 is the full symmetric group formula_124
+For example, formula_125 is irreducible from Eisenstein's criterion. Plotting the graph of formula_24 with graphing software or paper shows it has three real roots, hence two complex roots, showing its Galois group is formula_127.
+Comparing Galois groups of field extensions of global fields.
+Given a global field extension formula_30 (such as formula_129) the and formula_130 an equivalence class of valuations on formula_20 (such as the formula_122-adic valuation), and formula_133 on formula_42 such that their completions give a Galois field extensionformula_135of local fields. Then, there is an induced action of the Galois groupformula_136on the set of equivalence classes of valuations such that the completions of the fields are compatible. This means if formula_137 then there is an induced isomorphic of local fieldsformula_138Since we have taken the hypothesis that formula_130 lies over formula_133 (i.e. there is a Galois field extension formula_135), the field morphism formula_142 is in fact an isomorphism of formula_143-algebras. If we take the isotropy subgroup of formula_144 for the valuation class formula_130formula_146then there's a surjection of the global Galois group to the local Galois group such that there's and isomorphism between the local Galois group and the isotropy subgroup. Diagrammatically, this meansformula_147where the vertical arrows are isomorphisms. This gives a technique for constructing Galois groups of local fields using global Galois groups.
+Infinite groups.
+A basic example of a field extension with an infinite group of automorphisms, is formula_148 since it contains every algebraic field extension formula_105. For example, the field extensions formula_150 for a square-free element formula_151 each have a unique degree formula_68 automorphism, inducing an automorphism in formula_153
+One of the most studied classes of examples of infinite Galois groups come from the Absolute Galois group, which are profinite groups. These are infinite groups defined as the inverse limit of Galois groups all finite Galois extensions formula_3 for a fixed field. The inverse limit is denoted
+where formula_156 is the separable closure of a field. Note this group is a Topological group. Some basic examples include formula_157 and
+Another readily computable example comes from the field extension formula_159 containing the square root of every positive prime. It has Galois group
+which can be deduced from the profinite limit
+and using the computation of the Galois groups.
+Properties.
+The significance of an extension being Galois is that it obeys the fundamental theorem of Galois theory: the closed (with respect to the Krull topology) subgroups of the Galois group correspond to the intermediate fields of the field extension.
+If formula_3 is a Galois extension, then formula_16 can be given a topology, called the Krull topology, that makes it into a profinite group.
+

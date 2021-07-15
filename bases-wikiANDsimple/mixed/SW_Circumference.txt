@@ -1,0 +1,1 @@
+In geometry, circumference is the distance around a closed curve; for example, a circle. It is a special kind of perimeter.(c=PI x diameter)

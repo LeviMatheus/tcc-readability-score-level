@@ -1,0 +1,34 @@
+
+In telecommunication, an automatic callback is a computer telephony calling feature that permits a user, when encountering a busy condition or other condition where the called individual is unavailable, to instruct the system to retain the called number and to establish the call when there is an available line or when the called number is no longer busy. Automatic callback may be implemented in the terminal, in the telephone exchange, or shared between them. Automatic callback is not the same as camp-on.
+Using callback on popular business telephone systems.
+Comdial Digitech, DSU, Impact 
+Place an intercom call and press CAMP. Your phone will disconnect from the attempted call. When the phone you rang is available, your phone will ring with five ring bursts. Press intercom to ring the other phone. 
+To use with calls made in the voice-announce mode, press intercom before the camp button.
+To cancel, press intercom and dial "#6".
+Comdial ExecuTech System 2000
+Make an intercom call. At the busy signal, dial "*6". Hang up. When the desired extension becomes idle, the calling telephone receives five tone bursts. To answer callback rings, lift the handset. The called telephone will ring.
+To cancel auto call back before it rings, press "ITCM", dial "#6" and hang up. 
+Comdial Digital Impression
+When you reach a station that is busy or does not answer, press CAMP. When the phone you wish to reach becomes idle, your phone will ring with five short tones. Press ITCM to cause the other phone to ring. 
+To cancel the callback, press ITCM and dial "#6".
+If the extension you call in voice announce mode is not answered, press ITCM before pressing CAMP.
+Database Systems Corp. PACER Phone System
+Custom callback is integrated into the CRM application that signals the phone system to redial a number on a particular date and time. Call is automatically assigned to the original agent or assigned to a hunt group associated with a particular campaign.
+Executone Encore CX
+Press CALLBK when you hear the busy tone. Answer the callback by lifting the handset or pressing MON. 
+Inter-Tel Eclipse IDS Integrated Operator Terminal
+Press the Call Back key at the busy signal. Press the RLS key. When your line is free and the extension you called is idle, your extension will ring. When the calls rings back to you, press the RLS key.
+Inter-Tel Eclipse2
+Associate Display and Basic Digital Phone
+Press "6" at the busy signal and hang up. Your phone will ring when the extension if available. Press "6" again to cancel before you get your callback.
+Isoetec Digital Systems
+Display/Data Phone
+Press "Cb." Soft key at the busy signal. Replace the handset or press "HF". Wait for the double tone. When the extension is no longer busy, it will automatically call you back.
+Isoetec IDS M Series Telephones
+When you hear the busy signal, press the "CALL BACK" key. Hang up. When you are signaled, lift the handset or press the "HF" key. Press the blinking "CALL BACK" key. 
+PCS Digital Telephone 
+Press "cbck" at the busy signal. When a station is available, pick up the handset.
+To cancel, press "del".
+Vodavi StarPlus Phone System
+Press the pre-programmed CALL BACK button. Hang up. When the busy station becomes available, you will be signaled. 
+

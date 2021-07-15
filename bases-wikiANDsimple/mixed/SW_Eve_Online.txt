@@ -1,0 +1,2 @@
+EVE Online is a 2003 Space simulator science fiction MMORPG computer game. It was made by CCP Games. The game is very similar to the 1980s game ELITE. Players in EVE earn money called "InterStella Kredits" (ISK) to buy new spacecraft, skills or equipment. Several ways to earn ISK include mining, exploration, doing missions, trading, piracy, and bounty hunting (hunting criminals for money).
+EVE is hosted on 1 server cluster. Unlike most MMORPG games, it is not split up based upon geographical location or how busy the servers are.

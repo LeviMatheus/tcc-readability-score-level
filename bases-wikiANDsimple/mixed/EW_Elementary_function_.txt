@@ -1,0 +1,23 @@
+
+In mathematics, an elementary function is a function of a single variable (typically real or complex) that is defined as taking sums, products, and compositions of finitely many polynomial, rational, trigonometric, hyperbolic, and exponential functions, including possibly their inverse functions (e.g., arcsin, log, or "x"1/"n").
+Elementary functions were introduced by Joseph Liouville in a series of papers from 1833 to 1841. An algebraic treatment of elementary functions was started by Joseph Fels Ritt in the 1930s.
+Examples.
+Basic examples.
+Elementary functions of a single variable include:
+Certain elementary functions of a single complex variable , such as formula_11 and formula_12, may be multivalued.
+Composite examples.
+Examples of elementary functions include:
+The last function is equal to formula_15, the inverse cosine, in the entire complex plane.
+All monomials, polynomials and rational functions are elementary. Also, the absolute value function, for real formula_16, is also elementary as it can be expressed as the composition of a power and root of formula_16: formula_18.
+Non-elementary functions.
+An example of a function that is "not" elementary is the error function
+a fact that may not be immediately obvious, but can be proven using the Risch algorithm.
+Closure.
+It follows directly from the definition that the set of elementary functions is closed under arithmetic operations and composition. The elementary functions are closed under differentiation. They are not closed under limits and infinite sums. Importantly, the elementary functions are closed under integration, as shown by Liouville's theorem, see Nonelementary integral. The Liouvillian functions are defined as the elementary functions and, recursively, the integrals of the Liouvillian functions.
+Differential algebra.
+The mathematical definition of an elementary function, or a function in elementary form, is considered in the context of differential algebra. A differential algebra is an algebra with the extra operation of derivation (algebraic version of differentiation). Using the derivation operation new equations can be written and their solutions used in extensions of the algebra. By starting with the field of rational functions, two special types of transcendental extensions (the logarithm and the exponential) can be added to the field building a tower containing elementary functions.
+A differential field "F" is a field "F"0 (rational functions over the rationals Q for example) together with a derivation map "u" → ∂"u". (Here ∂"u" is a new function. Sometimes the notation "u"′ is used.) The derivation captures the properties of differentiation, so that for any two elements of the base field, the derivation is linear
+and satisfies the Leibniz product rule
+An element "h" is a constant if "∂h = 0". If the base field is over the rationals, care must be taken when extending the field to add the needed transcendental constants.
+A function "u" of a differential extension "F"["u"] of a differential field "F" is an elementary function over "F" if the function "u"
+

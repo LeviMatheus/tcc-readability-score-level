@@ -1,0 +1,17 @@
+
+Brian Wilson Kernighan (; born 1942) is a Canadian computer scientist.
+He worked at Bell Labs and contributed to the development of Unix alongside Unix creators Ken Thompson and Dennis Ritchie. Kernighan's name became widely known through co-authorship of the first book on the C programming language ("The C Programming Language") with Dennis Ritchie. Kernighan affirmed that he had no part in the design of the C language ("it's entirely Dennis Ritchie's work"). He authored many Unix programs, including ditroff. Kernighan is coauthor of the AWK and AMPL programming languages. The "K" of K&amp;R C and the "K" in AWK both stand for "Kernighan". 
+In collaboration with Shen Lin he devised well-known heuristics for two NP-complete optimization problems: graph partitioning and the travelling salesman problem. In a display of authorial equity, the former is usually called the Kernighan–Lin algorithm, while the latter is known as the Lin–Kernighan heuristic.
+Kernighan has been a Professor of Computer Science at Princeton University since 2000 and is the Director of Undergraduate Studies in the Department of Computer Science. In 2015, he co-authored the book "The Go Programming Language".
+Early life and education.
+Kernighan was born in Toronto. He attended the University of Toronto between 1960 and 1964, earning his Bachelor's degree in engineering physics. He received his Ph.D. in electrical engineering from Princeton University in 1969, completing a doctoral dissertation titled "Some graph partitioning problems related to program segmentation" under the supervision of Peter G. Weiner.
+Career and research.
+Kernighan has held a professorship in the Department of Computer Science at Princeton since 2000. Each fall he teaches a course called "Computers in Our World", which introduces the fundamentals of computing to non-majors. 
+Kernighan was the software editor for Prentice Hall International. His "Software Tools" series spread the essence of "C/Unix thinking" with makeovers for BASIC, FORTRAN, and Pascal, and most notably his "Ratfor" (rational FORTRAN) was put in the public domain.
+He has said that if stranded on an island with only one programming language it would have to be C.
+Kernighan coined the term Unix and helped popularize Thompson's Unix philosophy. Kernighan is also known as a coiner of the expression "What You See Is All You Get" (WYSIAYG), which is a sarcastic variant of the original "What You See Is What You Get" (WYSIWYG). Kernighan's term is used to indicate that WYSIWYG systems might throw away information in a document that could be useful in other contexts.
+Kernighan's original 1978 implementation of Hello, World! was sold at The Algorithm Auction, the world's first auction of computer algorithms.
+In 1996, Kernighan taught CS50 which is the Harvard University introductory course in Computer Science.
+Kernighan was elected as a member of the National Academy of Engineering in 2002 and a member of the American Academy of Arts and Sciences in 2019.
+Other achievements during his career include:
+

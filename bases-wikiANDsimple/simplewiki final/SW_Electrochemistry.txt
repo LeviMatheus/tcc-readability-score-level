@@ -1,0 +1,2 @@
+Electrochemistry is a kind of chemistry that studies chemical reactions that use or make electricity: Reactions like this happen at "electrodes" which are made from something that conducts electricity, and put in an "electrolyte". An electrolyte is a solution that has ions in it.
+Electrochemistry was "invented" at the same time as the voltaic pile; the first kind of electric battery.

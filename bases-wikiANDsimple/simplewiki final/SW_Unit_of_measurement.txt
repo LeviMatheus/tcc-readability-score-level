@@ -1,0 +1,23 @@
+Measurement is a process to attach a numerical value to an observation. This is done to be able to compare or order two or more such observations. Units of Measurement provide standards to compare against. That way, the metre is the standard unit to measure length. Until it was redefined in 1982, it was defined as the distance between two markers on a certain rod. Now it is defined as the distance light travels in a certain time, in vacuum.
+Saying something has a length of 2 metres therefore means that its exactly twice as long as that rod used to define the metre, or that light takes twice the time defined for a metre to travel that distance.
+This also makes it easy to say that something that is 3 metres long is longer than something else, that is only 2 metres long.
+Today, most units of measure fall into one of two systems. The older, imperial system uses the foot as a mesure of length, the pound as a mesure for weight and the second as a measure for time. There are other units as well. Most of the time 12 or 16 of the smaller unit make the bigger unit. This is difficult to rememver, so there is another system that uses 10 of the smaller unit to make the bigger one. It is known as the "SI system" or "metric system. Is uses the metre for length, the kilogram for weight, and the second for time.
+Number and Unit of measure.
+The property of the thing being measured is given as a number of units of measure. The number only has sense when the unit of measurement is also given.
+For example, The Eiffel Tower in Paris, France is 300 meters tall. That is, the distance from the top to the bottom of the Eiffel Tower is 300 meters. The property of the Eiffel Tower being measured is a distance. The number measured is 300. This number does not make sense without the unit of measure. The unit of measure is the meter.
+Measurement Standards.
+Standards are used in measurements. That is, the unit of measurement used to measure a property is the same everywhere and does not change. This makes measurement easier and comparisons between measurements easier.
+Size of Units of Measurement.
+There are units of measurement of different sizes. There are small units of measurement to measure small things. There are big units of measurement to measure big things.
+Science, medicine and engineering use smaller units of measurement to measure small things with less error. It is easier to measure large things using larger units of measurement. Large measurements like the width of a galaxy and small measurements like the mass of an atom use special units of measurement.
+Systems of Units of Measurement.
+There are many different standards and units used all over the world.
+Metric System.
+The metric system is a system of measurement used in most of the world. It is also called the International System of Units, or SI.
+Imperial Units.
+Imperial units were used in countries that were part of the British Empire, however they can be different in different countries. For example the fluid ounce in Britain is smaller than the fluid ounce in the US, but the US gallon is smaller than the British gallon. The imperial units are now used mainly in the United States. While many countries have officially adopted SI, older system of units are still used. In the United States, the metric system has been legal for trade since 1866 but other measurements such as the gallon, inch, and the pound are still widely used.
+The ounces for weight and volume are different. Even when measuring water, the number of ounces of weight is not the same as the number of fluid ounces.
+Time.
+The unit of time is the second. The minute (60 seconds) and hour (60 minutes or 3600 seconds) are larger units. A day is usually said to be 24 hours, but is actually a small bit longer. This difference is corrected at the end of every year. A week (7 days) and month are also standard units.
+Money.
+A unit of measurement that applies to money is called a unit of account. This is normally a currency issued by a country. For instance, the United States use dollars. Each dollar is 100 cents. The United Kingdom uses pounds. Each pound is 100 pennies or pence. Other countries in Europe use the Euro which is 100 cent for the Euro they are not called "cents")

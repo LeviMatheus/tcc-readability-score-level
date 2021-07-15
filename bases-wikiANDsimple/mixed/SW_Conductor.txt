@@ -1,0 +1,4 @@
+A conductor is a material which electricity can flow through. Most metals, like iron and copper, are conductors. These metals are used to make wires.
+Some materials are semi-conductors. This means that electricity "can" flow through them, but not very well.
+Some materials are resistors. This means that they make it very hard for electricity to flow through them.
+Some materials are insulators. This means that they stop electric current completely. Wires are covered with insulators like plastic to stop the electricity from leaving the wire.

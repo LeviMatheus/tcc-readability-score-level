@@ -1,0 +1,42 @@
+
+Protein tertiary structure is the three dimensional shape of a protein. The tertiary structure will have a single polypeptide chain "backbone" with one or more protein secondary structures, the protein domains. Amino acid side chains may interact and bond in a number of ways. The interactions and bonds of side chains within a particular protein determine its tertiary structure. The protein tertiary structure is defined by its atomic coordinates. These coordinates may refer either to a protein domain or to the entire tertiary structure. A number of tertiary structures may fold into a quaternary structure.
+History.
+The science of the tertiary structure of proteins has progressed from one of hypothesis to one of detailed definition. Although Emil Fischer had suggested proteins were made of polypeptide chains and amino acid side chains, it was Dorothy Maud Wrinch who incorporated geometry into the prediction of protein structures. Wrinch demonstrated this with the "Cyclol" model, the first prediction of the structure of a globular protein. Contemporary methods are able to determine, without prediction, tertiary structures to within 5 Å (0.5 nm) for small proteins (&lt;120 residues) and, under favorable conditions, confident secondary structure predictions.
+Determinants.
+Stability of native states.
+Thermostability.
+A protein folded into its native state or native conformation typically has a lower Gibbs free energy (a combination of enthalpy and entropy) than the unfolded conformation. A protein will tend towards low-energy conformations, which will determine the protein's fold in the cellular environment. Because many similar conformations will have similar energies, protein structures are dynamic, fluctuating between a large these similar structures. 
+Globular proteins have a core of hydrophobic amino acid residues and a surface region of water-exposed, charged, hydrophilic residues. This arrangement may stabilise interactions within the tertiary structure. For example, in secreted proteins, which are not bathed in cytoplasm, disulfide bonds between cysteine residues help to maintain the tertiary structure. There is a commonality of stable tertiary structures seen in proteins of diverse function and diverse evolution. For example, the TIM barrel, named for the enzyme triosephosphateisomerase, is a common tertiary structure as is the highly stable, dimeric, coiled coil structure. Hence, proteins may be classified by the structures they hold. Databases of proteins which use such a classification include "SCOP" and "CATH".
+Kinetic traps.
+Folding kinetics may trap a protein in a high-energy conformation, i.e. a high-energy intermediate conformation blocks access to the lowest-energy conformation. The high-energy conformation may contribute to the function of the protein. For example, the influenza hemagglutinin protein is a single polypeptide chain which when activated, is proteolytically cleaved to form two polypeptide chains. The two chains are held in a high-energy conformation. When the local pH drops, the protein undergoes an energetically favorable conformational rearrangement that enables it to penetrate the host cell membrane.
+Metastability.
+Some tertiary protein structures may exist in long-lived states that are not the expected most stable state. For example, many serpins (serine protease inhibitors) show this metastability. They undergo a conformational change when a loop of the protein is cut by a protease.
+Chaperone proteins.
+It is commonly assumed that the native state of a protein is also the most thermodynamically stable and that a protein will reach its native state, given its chemical kinetics, before it is translated. Protein chaperones within the cytoplasm of a cell assist a newly synthesised polypeptide to attain its native state. Some chaperone proteins are highly specific in their function, for example, protein disulfide isomerase; others are general in their function and may assist most globular proteins, for example, the prokaryotic GroEL/GroES system of proteins and the homologous eukaryotic heat shock proteins (the Hsp60/Hsp10 system).
+Cytoplasmic environment.
+Prediction of protein tertiary structure relies on knowing the protein's primary structure and comparing the possible predicted tertiary structure with known tertiary structures in protein data banks. This only takes into account the cytoplasmic environment present at the time of protein synthesis to the extent that a similar cytoplasmic environment may also have influenced the structure of the proteins recorded in the protein data bank.
+Ligand binding.
+The structure of a protein, for example an enzyme, may change upon binding of its natural ligands, for example a cofactor. In this case, the structure of the protein bound to the ligand is known as holo structure, of the unbound protein as apo structure.
+Determination.
+The knowledge of the tertiary structure of soluble globular proteins is more advanced than that of membrane proteins because the former are easier to study with available technology.
+X-ray crystallography.
+X-ray crystallography is the most common tool used to determine protein structure. It provides high resolution of the structure but it does not give information about protein's conformational flexibility.
+NMR.
+Protein NMR gives comparatively lower resolution of protein structure. It is limited to smaller proteins. However, it can provide information about conformational changes of a protein in solution.
+Cryogenic electron microscopy.
+Cryogenic electron microscopy (cryo-EM) can give information about both a protein's tertiary and quaternary structure. It is particularly well-suited to large proteins and symmetrical complexes of protein subunits.
+Dual polarisation interferometry.
+Dual polarisation interferometry provides complementary information about surface captured proteins. It assists in determining structure and conformation changes over time.
+Projects.
+Prediction algorithm.
+The Folding@home project at Stanford University is a distributed computing research effort which uses approximately 5 petaFLOPS (≈10 x86 petaFLOPS) of available computing. It aims to find an algorithm which will consistently predict protein tertiary and quaternary structures given the protein's amino acid sequence and its cellular conditions.
+A list of software for protein tertiary structure prediction can be found at
+List of protein structure prediction software.
+Protein aggregation diseases.
+Protein aggregation diseases such as Alzheimer's disease and Huntington's disease and prion diseases such as bovine spongiform encephalopathy can be better understood by constructing (and reconstructing) disease models. This is done by causing the disease in laboratory animals, for example, by administering a toxin, such as MPTP to cause Parkinson's disease, or through genetic manipulation.
+Protein structure prediction is a new way to create disease models, which may avoid the use of animals.
+Protein Tertiary Structure Retrieval Project (CoMOGrad).
+Matching patterns in tertiary structure of a given protein to huge number of known protein tertiary structures and retrieve most similar ones in ranked order is in the heart of many research areas like function prediction of novel proteins, study of evolution, disease diagnosis, drug discovery, antibody design etc. The CoMOGrad project at BUET is a research effort to device an extremely fast and much precise method for protein tertiary structure retrieval and develop online tool based on research outcome.
+External links.
+tertiary structure
+

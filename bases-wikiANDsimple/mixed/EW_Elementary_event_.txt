@@ -1,0 +1,8 @@
+
+In probability theory, an elementary event (also called an atomic event or sample point) is an event which contains only a single outcome in the sample space. Using set theory terminology, an elementary event is a singleton. Elementary events and their corresponding outcomes are often written interchangeably for simplicity, as such an event corresponds to precisely one outcome.
+The following are examples of elementary events:
+Probability of an elementary event.
+Elementary events may occur with probabilities that are between zero and one (inclusively). In a discrete probability distribution whose sample space is finite, each elementary event is assigned a particular probability. In contrast, in a continuous distribution, individual elementary events must all have a probability of zero because there are infinitely many of them— then non-zero probabilities can only be assigned to non-elementary events.
+Some "mixed" distributions contain both stretches of continuous elementary events and some discrete elementary events; the discrete elementary events in such distributions can be called atoms or atomic events and can have non-zero probabilities.
+Under the measure-theoretic definition of a probability space, the probability of an elementary event need not even be defined. In particular, the set of events on which probability is defined may be some σ-algebra on "S" and not necessarily the full power set.
+

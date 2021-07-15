@@ -1,0 +1,4 @@
+
+Kyoto Common Lisp (KCL) is an implementation of Common Lisp by Taichi Yuasa and Masami Hagiya, written in C to run under Unix-like operating systems. KCL is compiled to ANSI C. It conforms to Common Lisp as described in the 1984 first edition of Guy Steele's book Common Lisp the Language and is available under a licence agreement.
+KCL is notable in that it was implemented from scratch, outside of the standard committee, solely on the basis of the specification. It was one of the first Common Lisp implementations ever, and exposed a number of holes and mistakes in the specification that had gone unnoticed.
+

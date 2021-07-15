@@ -1,0 +1,15 @@
+
+Particle radiation is the radiation of energy by means of fast-moving subatomic particles. Particle radiation is referred to as a particle beam if the particles are all moving in the same direction, similar to a light beam.
+Due to the wave–particle duality, all moving particles also have wave character. Higher energy particles more easily exhibit particle characteristics, while lower energy particles more easily exhibit wave characteristics.
+Types and production.
+Particles can be electrically charged or uncharged:
+Particle radiation can be emitted by an unstable atomic nucleus (via radioactive decay), or it can be produced from some other kind of nuclear reaction. Many types of particles may be emitted:
+Mechanisms that produce particle radiation include:
+Charged particles (electrons, mesons, protons, alpha particles, heavier HZE ions, etc.) can be produced by particle accelerators. Ion irradiation is widely used in the semiconductor industry to introduce dopants into
+materials, a method known as ion implantation.
+Particle accelerators can also produce neutrino beams. Neutron beams are mostly produced by nuclear reactors. For the production of electromagnetic radiation, there are many methods, depending upon the wave length (see electromagnetic spectrum).
+Passage through matter.
+In radiation protection, radiation is often separated into two categories, "ionizing" and "non-ionizing", to denote the level of danger posed to humans. Ionization is the process of removing electrons from atoms, leaving two electrically charged particles (an electron and a positively charged ion) behind. The negatively charged electrons and positively charged ions created by ionizing radiation may cause damage in living tissue. Basically, a particle is ionizing if its energy is higher than the ionization energy of a typical substance, i.e., a few eV, and interacts with electrons significantly.
+According to the International Commission on Non-Ionizing Radiation Protection, electromagnetic radiations from ultraviolet to infrared, to radiofrequency (including microwave) radiation, static and time-varying electric and magnetic fields, and ultrasound belong to the non-ionizing radiations.
+The charged particles mentioned above all belong to the ionizing radiations. When passing through matter, they ionize and thus lose energy in many small steps. The distance to the point where the charged particle has lost all its energy is called the range of the particle. The range depends upon the type of particle, its initial energy, and the material it traverses. Similarly, the energy loss per unit path length, the 'stopping power', depends on the type and energy of the charged particle and upon the material. The stopping power and hence, the density of ionization, usually increases toward the end of range and reaches a maximum, the Bragg Peak, shortly before the energy drops to zero.
+

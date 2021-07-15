@@ -1,0 +1,4 @@
+In physiology, transduction is the conversion or change of a stimulus from one form to another.
+Transduction in the nervous system typically means synaptic events where an electrical signal is converted into a chemical one by the release of neurotransmitters.
+In sensory transduction a chemical or physical stimulus is transduced by sensory receptors into an electrical signal.
+For example, in the visual system, sensory cells called rod and cone cells in the retina change the physical energy of light signals into electrical impulses that travel to the brain. The light causes a change in a protein called rhodopsin. In this example, more light hitting the receptor results in the transduction of a signal into fewer electrical impulses.

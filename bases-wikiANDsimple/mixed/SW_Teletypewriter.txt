@@ -1,0 +1,2 @@
+Teletypewriter (TTY) is a tool to allows a deaf or hard of hearing invidiual make a phone call.
+A TTY is a special device that lets people who are deaf, hard of hearing, or speech-impaired use the telephone to communicate, by allowing them to type messages back and forth to one another instead of talking and listening.

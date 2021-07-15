@@ -1,0 +1,20 @@
+
+In number theory, the Legendre symbol is a multiplicative function with values 1, −1, 0 that is a quadratic character modulo an odd prime number "p": its value at a (nonzero) quadratic residue mod "p" is 1 and at a non-quadratic residue ("non-residue") is −1. Its value at zero is 0.
+The Legendre symbol was introduced by Adrien-Marie Legendre in 1798 in the course of his attempts at proving the law of quadratic reciprocity. Generalizations of the symbol include the Jacobi symbol and Dirichlet characters of higher order. The notational convenience of the Legendre symbol inspired introduction of several other "symbols" used in algebraic number theory, such as the Hilbert symbol and the Artin symbol.
+Definition.
+Let formula_1 be an odd prime number. An integer formula_2 is a quadratic residue modulo formula_1 if it is congruent to a perfect square modulo formula_1 and is a quadratic nonresidue modulo formula_1 otherwise. The Legendre symbol is a function of formula_2 and formula_1 defined as
+Legendre's original definition was by means of the explicit formula
+By Euler's criterion, which had been discovered earlier and was known to Legendre, these two definitions are equivalent. Thus Legendre's contribution lay in introducing a convenient "notation" that recorded quadratic residuosity of "a" mod "p". For the sake of comparison, Gauss used the notation "a"R"p", "a"N"p" according to whether "a" is a residue or a non-residue modulo "p". For typographical convenience, the Legendre symbol is sometimes written as ("a" | "p") or ("a"/"p"). The sequence ("a" | "p") for "a" equal to 0, 1, 2... is periodic with period "p" and is sometimes called the Legendre sequence, with {0,1,−1} values occasionally replaced by {1,0,1} or {0,1,0}. Each row in the following table can be seen to exhibit periodicity, just as described.
+Table of values.
+The following is a table of values of Legendre symbol formula_10 with "p" ≤ 127, "a" ≤ 30, "p" odd prime.
+Properties of the Legendre symbol.
+There are a number of useful properties of the Legendre symbol which, together with the law of quadratic reciprocity, can be used to compute it efficiently.
+Legendre symbol and quadratic reciprocity.
+Let "p" and "q" be distinct odd primes. Using the Legendre symbol, the quadratic reciprocity law can be stated concisely:
+Many proofs of quadratic reciprocity are based on Legendre's formula
+In addition, several alternative expressions for the Legendre symbol were devised in order to produce various proofs of the quadratic reciprocity law.
+Computational example.
+The above properties, including the law of quadratic reciprocity, can be used to evaluate any Legendre symbol. For example:
+Or using a more efficient computation:
+The article Jacobi symbol has more examples of Legendre symbol manipulation.
+

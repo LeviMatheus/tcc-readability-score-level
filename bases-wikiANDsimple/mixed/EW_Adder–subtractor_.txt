@@ -1,0 +1,15 @@
+
+In digital circuits, an adder–subtractor is a circuit that is capable of adding or subtracting numbers (in particular, binary). Below is a circuit that adds "or" subtracts depending on a control signal. It is also possible to construct a circuit that performs both addition and subtraction at the same time.
+Construction.
+Having an "n"-bit adder for "A" and "B", then . Then, assume the numbers are in two's complement. Then to perform , two's complement theory says to invert each bit of "A" with a NOT gate then add one. This yields , which is easy to do with a slightly modified adder.
+By preceding each "A" input bit on the adder with a 2-to-1 multiplexer where:
+that has control input "D" that is also connected to the initial carry, then the modified adder performs
+This works because when the "A" input to the adder is really and the carry in is 1. Adding "B" to and 1 yields the desired subtraction of .
+A way you can mark number "A" as positive or negative without using a multiplexer on each bit is to use an XOR gate to precede each bit instead. 
+This produces the same truth table for the bit arriving at the adder as the multiplexer solution does since the XOR gate output will be what the input bit is when and the inverted input bit when .
+Role in the arithmetic logic unit.
+Adders are a part of the core of an arithmetic logic unit (ALU). The control unit decides which operations an ALU should perform (based on the op code being executed) and sets the ALU operation. The "D" input to the adder–subtractor above would be one such control line from the control unit.
+The adder–subtractor above could easily be extended to include more functions. For example, a 2-to-1 multiplexer could be introduced on each "Bi" that would switch between zero and "Bi"; this could be used (in conjunction with ) to yield the two's complement of "A" since .
+A further step would be to change the 2-to-1 multiplex on "A" to a 4-to-1 with the third input being zero, then replicating this on "Bi" thus yielding the following output functions:
+By adding more logic in front of the adder, a single adder can be converted into much more than just an adder—an ALU.
+

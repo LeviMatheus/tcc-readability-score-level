@@ -1,0 +1,5 @@
+
+Simple End User Linux is an advocacy group that promotes Linux programs in education and science.
+SEUL also hosts numerous free software projects and efforts, such as the WorldForge Project's website. The SEUL/Edu project seeks to further the use of Linux and open-source software in schools, and was one of the groups which laid the groundwork for the SchoolForge project. The SEUL/Sci project (now dormant) focused on the use of Linux and Free Software in research.
+Other project of note connected to SEUL is Tor (anonymity network).
+

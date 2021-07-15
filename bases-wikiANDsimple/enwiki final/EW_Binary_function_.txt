@@ -1,0 +1,41 @@
+
+In mathematics, a binary function (also called bivariate function, or function of two variables) is a function that takes two inputs.
+Precisely stated, a function formula_1 is binary if there exists sets formula_2 such that
+where formula_4 is the Cartesian product of formula_5 and formula_6
+Alternative definitions.
+Set-theoretically, a binary function can be represented as a subset of the Cartesian product formula_7, where formula_8 belongs to the subset if and only if formula_9.
+Conversely, a subset formula_10 defines a binary function if and only if for any formula_11 and formula_12, there exists a unique formula_13 such that formula_8 belongs to formula_10.
+formula_16 is then defined to be this formula_17.
+Alternatively, a binary function may be interpreted as simply a function from formula_4 to formula_19.
+Even when thought of this way, however, one generally writes formula_16 instead of formula_21.
+Examples.
+Division of whole numbers can be thought of as a function. If formula_22 is the set of integers, formula_23 is the set of natural numbers (except for zero), and formula_24 is the set of rational numbers, then division is a binary function formula_25.
+Another example is that of inner products, or more generally functions of the form formula_26, where , are real-valued vectors of appropriate size and is a matrix. If is a positive definite matrix, this yields an inner product.
+Functions of two real variables.
+Functions whose domain is a subset of formula_27 are often also called functions of two variables even if their domain does not form a rectangle and thus the cartesian product of two sets.
+Restrictions to ordinary functions.
+In turn, one can also derive ordinary functions of one variable from a binary function.
+Given any element formula_11, there is a function formula_29, or formula_30, from formula_31 to formula_19, given by formula_33.
+Similarly, given any element formula_12, there is a function formula_35, or formula_36, from formula_5 to formula_19, given by formula_39. In computer science, this identification between a function from formula_4 to formula_19 and a function from formula_5 to formula_43, where formula_43 is the set of all functions from formula_31 to formula_19, is called "currying".
+Generalisations.
+The various concepts relating to functions can also be generalised to binary functions.
+For example, the division example above is "surjective" (or "onto") because every rational number may be expressed as a quotient of an integer and a natural number.
+This example is "injective" in each input separately, because the functions "f" "x" and "f" "y" are always injective.
+However, it's not injective in both variables simultaneously, because (for example) "f" (2,4) = "f" (1,2).
+One can also consider "partial" binary functions, which may be defined only for certain values of the inputs.
+For example, the division example above may also be interpreted as a partial binary function from Z and N to Q, where N is the set of all natural numbers, including zero.
+But this function is undefined when the second input is zero.
+A binary operation is a binary function where the sets "X", "Y", and "Z" are all equal; binary operations are often used to define algebraic structures.
+In linear algebra, a bilinear transformation is a binary function where the sets "X", "Y", and "Z" are all vector spaces and the derived functions "f" "x" and "f""y" are all linear transformations.
+A bilinear transformation, like any binary function, can be interpreted as a function from "X" × "Y" to "Z", but this function in general won't be linear.
+However, the bilinear transformation can also be interpreted as a single linear transformation from the tensor product formula_47 to "Z".
+Generalisations to ternary and other functions.
+The concept of binary function generalises to "ternary" (or "3-ary") "function", "quaternary" (or "4-ary") "function", or more generally to "n-ary function" for any natural number "n".
+A "0-ary function" to "Z" is simply given by an element of "Z".
+One can also define an "A-ary function" where "A" is any set; there is one input for each element of "A".
+Category theory.
+In category theory, "n"-ary functions generalise to "n"-ary morphisms in a multicategory.
+The interpretation of an "n"-ary morphism as an ordinary morphisms whose domain is some sort of product of the domains of the original "n"-ary morphism will work in a monoidal category.
+The construction of the derived morphisms of one variable will work in a closed monoidal category.
+The category of sets is closed monoidal, but so is the category of vector spaces, giving the notion of bilinear transformation above.
+

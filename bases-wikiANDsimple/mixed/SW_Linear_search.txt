@@ -1,0 +1,6 @@
+Linear search or sequential search is an algorithm to find an item in a list. It's a search algorithm.
+The algorithm in pseudo code.
+Start out with a list, L which may have the item in question.
+Linear search in Java.
+In the programming language Java, linear search looks like this. This method has two parameters: an array of integers and the item we're looking for (also an integer). It says the location in the array if it finds the item. If it doesn't find it, it says -1.
+public int getItem(int list, int item)

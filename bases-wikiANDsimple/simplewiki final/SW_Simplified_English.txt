@@ -1,0 +1,4 @@
+"Disambiguation: see also simple English"
+AECMA Simplified English is a controlled language (a language with words that can be used only in ways that the creator of the language agrees with?) developed for aerospace (air and space) industry (factory) maintenance manuals (help books). It offers a carefully limited and standardized subset (smaller chunk) of English.
+Simplified English has a dictionary of words and those words can only be used in certain ways. For example, the word "close" can be used in the phrase "Close the door" but not "do not go close to the landing gear".
+The language was developed for Aerospace engineers to write manuals (instruction books). AECMA is the acronym for the "European Association of Aerospace Manufacturers"

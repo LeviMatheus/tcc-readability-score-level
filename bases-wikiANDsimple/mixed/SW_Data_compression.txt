@@ -1,0 +1,3 @@
+Data compression is making data use less space on a data storage device. When we compress data, we make it smaller. Some reasons why data is compressed are: to make it download faster, to make it fit on floppy disks, and to make it easier to archive (keep). To make pictures and movies smaller, we often remove parts that the human eye cannot see. This is known as "lossy" compression and it is effective because of human limitations.
+There are many different ways to compress data. The most common way is known as "zipping" data. You can also "unzip" data to use it again.
+The output from "unzipping" a zip file are files identical to the original files, this is known as "lossless" compression.

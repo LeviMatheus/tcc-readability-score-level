@@ -1,0 +1,14 @@
+A color wheel is a circular chart that shows primary and secondary colors.
+The color wheel most commonly used today is called the "HSV color wheel" which means "hue, saturation, value". The HSV color wheel is described below. There are two versions: one in which red, green and blue are regarded as the primary colors (called the "electronic" or "computer" color wheel); and one in which magenta, yellow, and cyan are regarded as the primary colors (called the "printer's color wheel").
+The primary colors.
+The primary colors always appear on the color wheel. There are three primary colors on the printer's color wheel (the color wheel described here is the color wheel used for color printing). They are magenta (a bright pink), yellow and cyan (a light greenish blue).
+The primary colors can be mixed together to make secondary colors. A long time ago, people used to think that the primary colors were red, yellow and blue. Now we know they were wrong.
+The secondary colors.
+The secondary colors are on most color wheels. There are three secondary colors. They are green (made by mixing cyan and yellow), red (made by mixing yellow and magenta) and blue (made by mixing magenta and cyan). Secondary colors are made by mixing primary colors together. The secondary colors can be mixed with the primary colors to make tertiary colors.
+The tertiary colors.
+"(* Tertiary means third)" The tertiary colors are made by mixing a secondary and primary color together. The tertiary colors are orange, made by mixing red and yellow; chartreuse green ("yellow-green"), made by mixing green and yellow; spring green, made by mixing green and cyan; azure, made by mixing blue and cyan; violet, made by mixing blue and magenta; and rose, made by mixing red and magenta.
+In the electronic color wheel used for electronic devices such as televisions and computers, red, green, and blue are regarded as the "primary colors" and magenta, yellow, and cyan are regarded as the "secondary colors". The tertiary colors are the same for both the "printer's color wheel" and the "electronic color wheel".
+The 12 major colors of the color wheel.
+The 12 major colors of the color wheel, at 30 degree intervals on the "HSV color wheel" (shown above), are the following: red (0 degrees or 360 degrees), orange (30 degrees), yellow (60 degrees), chartreuse green (90 degrees), green (120 degrees), spring green (150 degrees), cyan (180 degrees), azure (210 degrees), blue (240 degrees), violet (270 degrees), magenta (300 degrees), and rose (330 degrees). This constitutes the complete set of primary, secondary, and tertiary color names.
+The 12 major color wheel colors color comparison chart.
+Note: Red is shown twice so it can be compared to both orange and rose.

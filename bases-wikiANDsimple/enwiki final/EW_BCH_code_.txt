@@ -1,0 +1,180 @@
+
+In coding theory, the BCH codes or Bose–Chaudhuri–Hocquenghem codes form a class of cyclic error-correcting codes that are constructed using polynomials over a finite field (also called "Galois field"). BCH codes were invented in 1959 by French mathematician Alexis Hocquenghem, and independently in 1960 by Raj Bose and D. K. Ray-Chaudhuri. The name "Bose–Chaudhuri–Hocquenghem" (and the acronym "BCH") arises from the initials of the inventors' surnames (mistakenly, in the case of Ray-Chaudhuri).
+One of the key features of BCH codes is that during code design, there is a precise control over the number of symbol errors correctable by the code. In particular, it is possible to design binary BCH codes that can correct multiple bit errors. Another advantage of BCH codes is the ease with which they can be decoded, namely, via an algebraic method known as syndrome decoding. This simplifies the design of the decoder for these codes, using small low-power electronic hardware.
+BCH codes are used in applications such as satellite communications, compact disc players, DVDs, disk drives, solid-state drives, quantum-resistant cryptography and two-dimensional bar codes.
+Definition and illustration.
+Primitive narrow-sense BCH codes.
+Given a prime number and prime power with positive integers and such that , a primitive narrow-sense BCH code over the finite field (or Galois field) with code length and distance at least is constructed by the following method.
+Let be a primitive element of .
+For any positive integer , let be the minimal polynomial with coefficients in of .
+The generator polynomial of the BCH code is defined as the least common multiple .
+It can be seen that is a polynomial with coefficients in and divides .
+Therefore, the polynomial code defined by is a cyclic code.
+Example.
+Let and (therefore ). We will consider different values of . For based on the polynomial with primitive root there are minimum polynomials with coefficients in satisfying
+The minimal polynomials of the fourteen powers of are
+The BCH code with formula_3 has generator polynomial
+It has minimal Hamming distance at least 3 and corrects up to one error. Since the generator polynomial is of degree 4, this code has 11 data bits and 4 checksum bits.
+The BCH code with formula_5 has generator polynomial
+It has minimal Hamming distance at least 5 and corrects up to two errors. Since the generator polynomial is of degree 8, this code has 7 data bits and 8 checksum bits.
+The BCH code with formula_7 has generator polynomial
+It has minimal Hamming distance at least 7 and corrects up to three errors. Since the generator polynomial is of degree 10, this code has 5 data bits and 10 checksum bits. (This particular generator polynomial has a real-world application, in the format patterns of the QR code.)
+The BCH code with formula_9 and higher has generator polynomial
+This code has minimal Hamming distance 15 and corrects 7 errors. It has 1 data bit and 14 checksum bits. In fact, this code has only two codewords: 000000000000000 and 111111111111111.
+General BCH codes.
+General BCH codes differ from primitive narrow-sense BCH codes in two respects.
+First, the requirement that formula_11 be a primitive element of formula_12 can be relaxed. By relaxing this requirement, the code length changes from formula_13 to formula_14 the order of the element formula_15
+Second, the consecutive roots of the generator polynomial may run from formula_16 instead of formula_17
+Definition. Fix a finite field formula_18 where formula_19 is a prime power. Choose positive integers formula_20 such that formula_21 formula_22 and formula_23 is the multiplicative order of formula_19 modulo formula_25
+As before, let formula_11 be a primitive formula_27th root of unity in formula_28 and let formula_29 be the minimal polynomial over formula_30 of formula_31 for all formula_32
+The generator polynomial of the BCH code is defined as the least common multiple formula_33
+Note: if formula_34 as in the simplified definition, then formula_35 is 1, and the order of formula_19 modulo formula_27 is formula_38
+Therefore, the simplified definition is indeed a special case of the general one.
+Special cases.
+The generator polynomial formula_41 of a BCH code has coefficients from formula_42
+In general, a cyclic code over formula_43 with formula_41 as the generator polynomial is called a BCH code over formula_45
+The BCH code over formula_12 and generator polynomial formula_41 with successive powers of formula_11 as roots is one type of Reed–Solomon code where the decoder (syndromes) alphabet is the same as the channel (data and generator polynomial) alphabet, all elements of formula_12 . The other type of Reed Solomon code is an which is not a BCH code.
+Properties.
+The generator polynomial of a BCH code has degree at most formula_50. Moreover, if formula_51 and formula_39, the generator polynomial has degree at most formula_53.
+Each minimal polynomial formula_29 has degree at most formula_23. Therefore, the least common multiple of formula_56 of them has degree at most formula_50. Moreover, if formula_58 then formula_59 for all formula_60. Therefore, formula_41 is the least common multiple of at most formula_62 minimal polynomials formula_29 for odd indices formula_64 each of degree at most formula_23.
+A BCH code has minimal Hamming distance at least formula_66.
+Suppose that formula_67 is a code word with fewer than formula_66 non-zero terms. Then
+Recall that formula_16 are roots of formula_71 hence of formula_67. This implies that formula_73 satisfy the following equations, for each formula_74:
+In matrix form, we have
+The determinant of this matrix equals
+The matrix formula_78 is seen to be a Vandermonde matrix, and its determinant is
+which is non-zero. It therefore follows that formula_80 hence formula_81
+A BCH code is cyclic.
+A polynomial code of length formula_27 is cyclic if and only if its generator polynomial divides formula_83 Since formula_41 is the minimal polynomial with roots formula_85 it suffices to check that each of formula_16 is a root of formula_83 This follows immediately from the fact that formula_11 is, by definition, an formula_27th root of unity.
+Encoding.
+Because any polynomial that is a multiple of the generator polynomial is a valid BCH codeword, BCH encoding is merely the process of finding some polynomial that has the generator as a factor.
+The BCH code itself is not prescriptive about the meaning of the coefficients of the polynomial; conceptually, a BCH decoding algorithm's sole concern is to find the valid codeword with the minimal Hamming distance to the received codeword. Therefore, the BCH code may be implemented either as a systematic code or not, depending on how the implementor chooses to embed the message in the encoded polynomial.
+Non-systematic encoding: The message as a factor.
+The most straightforward way to find a polynomial that is a multiple of the generator is to compute the product of some arbitrary polynomial and the generator. In this case, the arbitrary polynomial can be chosen using the symbols of the message as coefficients.
+As an example, consider the generator polynomial formula_91, chosen for use in the (31, 21) binary BCH code used by POCSAG and others. To encode the 21-bit message {101101110111101111101}, we first represent it as a polynomial over formula_92:
+Then, compute (also over formula_92):
+Thus, the transmitted codeword is {1100111010010111101011101110101}.
+The receiver can use these bits as coefficients in formula_96 and, after error-correction to ensure a valid codeword, can recompute formula_97
+Systematic encoding: The message as a prefix.
+A systematic code is one in which the message appears verbatim somewhere within the codeword. Therefore, systematic BCH encoding involves first embedding the message polynomial within the codeword polynomial, and then adjusting the coefficients of the remaining (non-message) terms to ensure that formula_96 is divisible by formula_41.
+This encoding method leverages the fact that subtracting the remainder from a dividend results in a multiple of the divisor. Hence, if we take our message polynomial formula_67 as before and multiply it by formula_101 (to "shift" the message out of the way of the remainder), we can then use Euclidean division of polynomials to yield:
+Here, we see that formula_103 is a valid codeword. As formula_104 is always of degree less than formula_105 (which is the degree of formula_41), we can safely subtract it from formula_107 without altering any of the message coefficients, hence we have our formula_96 as
+Over formula_92 (i.e. with binary BCH codes), this process is indistinguishable from appending a cyclic redundancy check, and if a systematic binary BCH code is used only for error-detection purposes, we see that BCH codes are just a generalization of the mathematics of cyclic redundancy checks.
+The advantage to the systematic coding is that the receiver can recover the original message by discarding everything after the first formula_111 coefficients, after performing error correction.
+Decoding.
+There are many algorithms for decoding BCH codes. The most common ones follow this general outline:
+During some of these steps, the decoding algorithm may determine that the received vector has too many errors and cannot be corrected. For example, if an appropriate value of "t" is not found, then the correction would fail. In a truncated (not primitive) code, an error location may be out of range. If the received vector has more errors than the code can correct, the decoder may unknowingly produce an apparently valid message that is not the one that was sent.
+Calculate the syndromes.
+The received vector formula_112 is the sum of the correct codeword formula_113 and an unknown error vector formula_114 The syndrome values are formed by considering formula_112 as a polynomial and evaluating it at formula_116 Thus the syndromes are
+for formula_118 to formula_119
+Since formula_120 are the zeros of formula_71 of which formula_122 is a multiple, formula_123 Examining the syndrome values thus isolates the error vector so one can begin to solve for it.
+If there is no error, formula_124 for all formula_125 If the syndromes are all zero, then the decoding is done.
+Calculate the error location polynomial.
+If there are nonzero syndromes, then there are errors. The decoder needs to figure out how many errors and the location of those errors.
+If there is a single error, write this as formula_126 where formula_60 is the location of the error and formula_128 is its magnitude. Then the first two syndromes are
+so together they allow us to calculate formula_128 and provide some information about formula_60 (completely determining it in the case of Reed–Solomon codes).
+If there are two or more errors,
+It is not immediately obvious how to begin solving the resulting syndromes for the unknowns formula_133 and formula_134
+The first step is finding, compatible with computed syndromes and with minimal possible formula_135 locator polynomial:
+Two popular algorithms for this task are:
+Peterson–Gorenstein–Zierler algorithm.
+Peterson's algorithm is the step 2 of the generalized BCH decoding procedure. Peterson's algorithm is used to calculate the error locator polynomial coefficients formula_137 of a polynomial
+Now the procedure of the Peterson–Gorenstein–Zierler algorithm. Expect we have at least 2"t" syndromes "s""c", …, "s""c"+2"t"−1. Let "v" = "t".
+Factor error locator polynomial.
+Now that you have the formula_139 polynomial, its roots can be found in the form formula_140 by brute force for example using the Chien search algorithm. The exponential
+powers of the primitive element formula_11 will yield the positions where errors occur in the received word; hence the name 'error locator' polynomial.
+The zeros of Λ("x") are "α"−"i"1, …, "α"−"i""v".
+Calculate error values.
+Once the error locations are known, the next step is to determine the error values at those locations. The error values are then used to correct the received values at those locations to recover the original codeword.
+For the case of binary BCH, (with all characters readable) this is trivial; just flip the bits for the received word at these positions, and we have the corrected code word. In the more general case, the error weights formula_142 can be determined by solving the linear system
+Forney algorithm.
+However, there is a more efficient method known as the Forney algorithm.
+Let
+And the error evaluator polynomial
+Finally:
+where
+Than if syndromes could be explained by an error word, which could be nonzero only on positions formula_149, then error values are
+For narrow-sense BCH codes, "c" = 1, so the expression simplifies to:
+Explanation of Forney algorithm computation.
+It is based on Lagrange interpolation and techniques of generating functions.
+Consider formula_152 and for the sake of simplicity suppose formula_153 for formula_154 and formula_155 for formula_156 Then
+We want to compute unknowns formula_159 and we could simplify the context by removing the formula_160 terms. This leads to the error evaluator polynomial
+Thanks to formula_162 we have
+Thanks to formula_164 (the Lagrange interpolation trick) the sum degenerates to only one summand for formula_165
+To get formula_133 we just should get rid of the product. We could compute the product directly from already computed roots formula_168 of formula_169 but we could use simpler form.
+As formal derivative
+we get again only one summand in
+So finally
+This formula is advantageous when one computes the formal derivative of formula_164 form
+yielding:
+where
+Decoding based on extended Euclidean algorithm.
+An alternate process of finding both the polynomial Λ and the error locator polynomial is based on Yasuo Sugiyama's adaptation of the Extended Euclidean algorithm. Correction of unreadable characters could be incorporated to the algorithm easily as well.
+Let formula_177 be positions of unreadable characters. One creates polynomial localising these positions formula_178
+Set values on unreadable positions to 0 and compute the syndromes.
+As we have already defined for the Forney formula let formula_179
+Let us run extended Euclidean algorithm for locating least common divisor of polynomials formula_180 and formula_181
+The goal is not to find the least common divisor, but a polynomial formula_104 of degree at most formula_183 and polynomials formula_184 such that formula_185
+Low degree of formula_104 guarantees, that formula_187 would satisfy extended (by formula_188) defining conditions for formula_189
+Defining formula_190 and using formula_191 on the place of formula_139 in the Fourney formula will give us error values.
+The main advantage of the algorithm is that it meanwhile computes formula_193 required in the Forney formula.
+Explanation of the decoding process.
+The goal is to find a codeword which differs from the received word minimally as possible on readable positions. When expressing the received word as a sum of nearest codeword and error word, we are trying to find error word with minimal number of non-zeros on readable positions. Syndrom formula_194 restricts error word by condition
+We could write these conditions separately or we could create polynomial
+and compare coefficients near powers formula_197 to formula_198
+Suppose there is unreadable letter on position formula_200 we could replace set of syndromes formula_201 by set of syndromes formula_202 defined by equation formula_203 Suppose for an error word all restrictions by original set formula_201 of syndromes hold,
+than
+New set of syndromes restricts error vector
+the same way the original set of syndromes restricted the error vector formula_207 Except the coordinate formula_200 where we have formula_209 an formula_210 is zero, if formula_211 For the goal of locating error positions we could change the set of syndromes in the similar way to reflect all unreadable characters. This shortens the set of syndromes by formula_212
+In polynomial formulation, the replacement of syndromes set formula_201 by syndromes set formula_202 leads to
+Therefore,
+After replacement of formula_217 by formula_180, one would require equation for coefficients near powers formula_219
+One could consider looking for error positions from the point of view of eliminating influence of given positions similarly as for unreadable characters. If we found formula_220 positions such that eliminating their influence leads to obtaining set of syndromes consisting of all zeros, than there exists error vector with errors only on these coordinates.
+If formula_139 denotes the polynomial eliminating the influence of these coordinates, we obtain
+In Euclidean algorithm, we try to correct at most formula_223 errors (on readable positions), because with bigger error count there could be more codewords in the same distance from the received word. Therefore, for formula_139 we are looking for, the equation must hold for coefficients near powers starting from
+In Forney formula, formula_139 could be multiplied by a scalar giving the same result.
+It could happen that the Euclidean algorithm finds formula_139 of degree higher than formula_223 having number of different roots equal to its degree, where the Fourney formula would be able to correct errors in all its roots, anyway correcting such many errors could be risky (especially with no other restrictions on received word). Usually after getting formula_139 of higher degree, we decide not to correct the errors. Correction could fail in the case formula_139 has roots with higher multiplicity or the number of roots is smaller than its degree. Fail could be detected as well by Forney formula returning error outside the transmitted alphabet.
+Correct the errors.
+Using the error values and error location, correct the errors and form a corrected code vector by subtracting error values at error locations.
+Decoding examples.
+Decoding of binary code without unreadable characters.
+Consider a BCH code in GF(24) with formula_231 and formula_232. (This is used in QR codes.) Let the message to be transmitted be [1 1 0 1 1], or in polynomial notation, formula_233
+The "checksum" symbols are calculated by dividing formula_234 by formula_41 and taking the remainder, resulting in formula_236 or [ 1 0 0 0 0 1 0 1 0 0 ]. These are appended to the message, so the transmitted codeword is [ 1 1 0 1 1 1 0 0 0 0 1 0 1 0 0 ].
+Now, imagine that there are two bit-errors in the transmission, so the received codeword is [ 1 0 1 1 1 0 0 0 1 0 1 0 0 ]. In polynomial notation:
+In order to correct the errors, first calculate the syndromes. Taking formula_238 we have formula_239 formula_240 formula_241 formula_242 formula_243 and formula_244
+Next, apply the Peterson procedure by row-reducing the following augmented matrix.
+Due to the zero row, is singular, which is no surprise since only two errors were introduced into the codeword.
+However, the upper-left corner of the matrix is identical to , which gives rise to the solution formula_246 formula_247
+The resulting error locator polynomial is formula_248 which has zeros at formula_249 and formula_250
+The exponents of formula_11 correspond to the error locations.
+There is no need to calculate the error values in this example, as the only possible value is 1.
+Decoding with unreadable characters.
+Suppose the same scenario, but the received word has two unreadable characters [ 1 0 ? 1 1 ? 0 0 1 0 1 0 0 ]. We replace the unreadable characters by zeros while creating the polynomial reflecting their positions formula_252 We compute the syndromes formula_253 and formula_254 (Using log notation which is independent on GF(24) isomorphisms. For computation checking we can use the same representation for addition as was used in previous example. Hexadecimal description of the powers of formula_11 are consecutively 1,2,4,8,3,6,C,B,5,A,7,E,F,D,9 with the addition based on bitwise xor.)
+Let us make syndrome polynomial
+compute
+Run the extended Euclidean algorithm:
+We have reached polynomial of degree at most 3, and as
+we get
+Therefore,
+Let formula_262 Don't worry that formula_263 Find by brute force a root of formula_189 The roots are formula_265 and formula_266 (after finding for example formula_267 we can divide formula_164 by corresponding monom formula_269 and the root of resulting monom could be found easily).
+Let
+Let us look for error values using formula
+where formula_168 are roots of formula_273 formula_274 We get
+Fact, that formula_276 should not be surprising.
+Corrected code is therefore [ 1 0 1 1 0 0 1 0 1 0 0].
+Decoding with unreadable characters with a small number of errors.
+Let us show the algorithm behaviour for the case with small number of errors. Let the received word is [ 1 0 ? 1 1 ? 0 0 0 1 0 1 0 0 ].
+Again, replace the unreadable characters by zeros while creating the polynomial reflecting their positions formula_277
+Compute the syndromes formula_278 and formula_279
+Create syndrome polynomial
+Let us run the extended Euclidean algorithm:
+We have reached polynomial of degree at most 3, and as
+we get
+Therefore,
+Let formula_285 Don't worry that formula_286 The root of formula_139 is formula_288
+Let 
+Let us look for error values using formula formula_290 where formula_168 are roots of polynomial formula_273
+We get
+The fact that formula_295 should not be surprising.
+Corrected code is therefore [ 1 0 1 1 0 0 0 1 0 1 0 0].
+

@@ -1,0 +1,5 @@
+Scientific notation, also known as standard form, is a notation for writing numbers that is often used by scientists and mathematicians to make it easier to write large and small numbers. A number that is written in scientific notation has several properties that make it very useful to local scientists.
+Variations.
+wherein exponent "b" is an integer, and the coefficient "a" any real number, called the significand or mantissa ("using "mantissa" may cause confusion as it can also refer to the fractional part of the common logarithm").
+Normalized notation.
+Written in the form, exponent "b" is chosen such that the absolute value of "a" remains at least one but less than ten formula_2. Normal mathematics convention dictates a minus sign to precede the first of the decimal digits of "a" for a negative number; that of "b" for a number with absolute value between 0 and 1, e.g. minus one half is. There is no need to represent zero in normalized form, the digit 0 is sufficient. The normalized form allows easy comparison of two numbers of the same sign in "a", as the exponent "b" gives the number's order of magnitude.

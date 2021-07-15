@@ -1,0 +1,7 @@
+Each country has its own film rating system to help parents determine which movies their children can watch. The systems usually use age to rate the movies.
+United Kingdom.
+The United Kingdom use the British Board of Film Classification film rating system.
+United States.
+The United States use the Motion Picture Association of America film rating system.
+Australia.
+Australia uses the Office of Film and Literature Classification.

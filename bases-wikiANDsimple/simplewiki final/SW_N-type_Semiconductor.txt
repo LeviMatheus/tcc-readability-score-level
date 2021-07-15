@@ -1,0 +1,6 @@
+N-Type Semiconductor is created by adding pentavalent impurities like Phosphorus (P), Arsenic (As), or Antimony (Sb). The purpose of doing so is to make more charge carriers, or electrons available in the material for conduction.
+Introduction.
+Semiconductor materials like Silicon and Germanium have for electrons in their outer shell (Valance shell). All the four electrons are used by the semiconductor atom in forming bonds with its neighboring atoms, leaving a low number of electrons available for conduction. Pentavalent elements are those elements which have five electrons in their outer shell. When pentavalent impurities like Phosphorus or Arsenic are added into semiconductor, four electrons form bonds with the surrounding silicon atoms leaving one electron free. The resulting material has a large number of free electrons.
+Since electrons are negative charge carriers, the resultant material is called N-type (or negetive type) semiconductor. The pentavalent impurity that is added is called 'Dopant' and the process of addition is called 'doping'.
+Manufacture.
+N-Type semiconductor is manufactured by doping 'intrinsic' or pure semiconductor material. The amount of impurity added is very small compared to the amount of semiconductor. Characteristics and nature of the resultant semiconductor can be controlled by controlling the quantity of 'dopant'.

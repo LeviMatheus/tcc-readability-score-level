@@ -1,0 +1,5 @@
+OpenOffice.org Base is the database module released with OpenOffice.org version 2.0. Currently it is based on the HSQLDB database engine written in Java.
+The HSQLDB developers have suggested only 76% of the target has been met in the 1.8.0 release, which is the version that was integrated (merged) with OOo 2.0. They have been asking for contributions to complete all the feature targets, since the inner database engine is an independent project with no outside funding.
+OpenOffice.org users, however, can choose to connect to an external full-featured SQL database such as MySQL, PostgreSQL and even Oracle through ODBC or JDBC drivers. OpenOffice.org Base can then act as a GUI frontend for SQL views, table design and query. In addition, OpenOffice.org has its own Form wizard to create dialog windows for form filling and updates.
+Starting with version 2.3, Base will offer report generation based on Pentaho software.
+Released under the terms of the GNU Lesser General Public Licence, Base is free software.

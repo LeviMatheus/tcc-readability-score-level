@@ -1,0 +1,1 @@
+A dosimeter is a tool. It can measure different levels of hazardous environments. Common dosimeters are those used for sound (They measure how loud a certain noise is) and radiation (they measure how much radiation there is in an environment).

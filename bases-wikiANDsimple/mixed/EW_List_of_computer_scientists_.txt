@@ -1,0 +1,4 @@
+
+This is a list of computer scientists, people who do work in computer science, in particular researchers and authors.
+Some persons notable as programmers are included here because they work in research as well as program. A few of these people pre-date the invention of the digital computer; they are now regarded as computer scientists because their work can be seen as leading to the invention of the computer. Others are mathematicians whose work falls within what would now be called theoretical computer science, such as complexity theory and algorithmic information theory.
+

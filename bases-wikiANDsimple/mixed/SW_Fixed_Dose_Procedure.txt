@@ -1,0 +1,2 @@
+The fixed-dose procedure (FDP) was proposed in 1984 to test a substance's acute oral toxicity using fewer animals with less suffering than the older LD50 test which was developed in 1927.
+FDP uses 10-20 animals to find the dose that produces toxicity signs but not death, and from there predicts the lethal dose. LD50 ("lethal dose 50%") uses 60-80 animals to find a dose that kills 50% of animals in a given time. FDP sometimes needs retesting using slightly higher or lower doses.

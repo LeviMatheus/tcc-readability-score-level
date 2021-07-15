@@ -1,0 +1,7 @@
+A microtiter plate (sometimes called a microplate) is a flat plate with lots of "wells" used as small test tubes.
+Structure.
+A microtiter plate is used mostly in laboratories and pharmacies. A microtiter plate could have 6, 24, 96, 384 or even sometimes 1536 wells arranged in rows. Some microplates, used in the industry, have been built with 3456 or sometimes 9600 wells for maximum efficiancy. Each well of a microplate can only hold very small amounts of liquid.
+History.
+The first microplate was made in 1951 by a Hungarian man called Dr. G. Takatsky, who made a microtiter plate with 6 rows of 12 wells (so 72 wells). Microtiter plates started being used in bulk in the late 1950's, a man called John Liner from USA had made a different, but better version. By 1990 more than 15 companies were making microtiter plates. People say that 125 million microplates were used in 2000 alone.
+In 1996, the Society for Biomolecular Screening (SBS) wanted to make the microplate have standards to live up to. And so in 2003, microplates had to have a certain diameter and depth.
+Instrument companies have made plate readers which can detect specific biological, chemical or physical changes in chemicals in these plates.

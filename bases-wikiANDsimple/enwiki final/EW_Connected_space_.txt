@@ -1,0 +1,50 @@
+
+In topology and related branches of mathematics, a connected space is a topological space that cannot be represented as the union of two or more disjoint non-empty open subsets. Connectedness is one of the principal topological properties that are used to distinguish topological spaces.
+A subset of a topological space "X" is a connected set if it is a connected space when viewed as a subspace of "X".
+Some related but stronger conditions are path connected, simply connected, and n-connected. Another related notion is locally connected, which neither implies nor follows from connectedness.
+Formal definition.
+A topological space "X" is said to be disconnected if it is the union of two disjoint non-empty open sets. Otherwise, "X" is said to be connected. A subset of a topological space is said to be connected if it is connected under its subspace topology. Some authors exclude the empty set (with its unique topology) as a connected space, but this article does not follow that practice.
+For a topological space "X" the following conditions are equivalent:
+Historically this modern formulation of the notion of connectedness (in terms of no partition of "X" into two separated sets) first appeared (independently) with N.J. Lennes, Frigyes Riesz, and Felix Hausdorff at the beginning of the 20th century. See for details.
+Connected components.
+The maximal connected subsets (ordered by inclusion) of a non-empty topological space are called the connected components of the space.
+The components of any topological space "X" form a partition of "X": they are disjoint, non-empty, and their union is the whole space.
+Every component is a closed subset of the original space. It follows that, in the case where their number is finite, each component is also an open subset. However, if their number is infinite, this might not be the case; for instance, the connected components of the set of the rational numbers are the one-point sets (singletons), which are not open.
+Let formula_3 be the connected component of "x" in a topological space "X", and formula_4 be the intersection of all clopen sets containing "x" (called quasi-component of "x".) Then formula_5 where the equality holds if "X" is compact Hausdorff or locally connected.
+Disconnected spaces.
+A space in which all components are one-point sets is called totally disconnected. Related to this property, a space "X" is called totally separated if, for any two distinct elements "x" and "y" of "X", there exist disjoint open sets "U" containing "x" and "V" containing "y" such that "X" is the union of "U" and "V". Clearly, any totally separated space is totally disconnected, but the converse does not hold. For example take two copies of the rational numbers Q, and identify them at every point except zero. The resulting space, with the quotient topology, is totally disconnected. However, by considering the two copies of zero, one sees that the space is not totally separated. In fact, it is not even Hausdorff, and the condition of being totally separated is strictly stronger than the condition of being Hausdorff.
+Examples.
+An example of a space that is not connected is a plane with an infinite line deleted from it. Other examples of disconnected spaces (that is, spaces which are not connected) include the plane with an annulus removed, as well as the union of two disjoint closed disks, where all examples of this paragraph bear the subspace topology induced by two-dimensional Euclidean space.
+Path connectedness.
+A path-connected space is a stronger notion of connectedness, requiring the structure of a path. A path from a point "x" to a point "y" in a topological space "X" is a continuous function "ƒ" from the unit interval [0,1] to "X" with "ƒ"(0) = "x" and "ƒ"(1) = "y". A path-component of "X" is an equivalence class of "X" under the equivalence relation which makes "x" equivalent to "y" if there is a path from "x" to "y". The space "X" is said to be path-connected (or pathwise connected or 0-connected) if there is exactly one path-component, i.e. if there is a path joining any two points in "X". Again, many authors exclude the empty space (note however that by this definition, the empty space is not path-connected because it has zero path-components; there is a unique equivalence relation on the empty set which has zero equivalence classes).
+Every path-connected space is connected. The converse is not always true: examples of connected spaces that are not path-connected include the extended long line "L"* and the .
+Subsets of the real line R are connected if and only if they are path-connected; these subsets are the intervals of R.
+Also, open subsets of R"n" or C"n" are connected if and only if they are path-connected.
+Additionally, connectedness and path-connectedness are the same for finite topological spaces.
+Arc connectedness.
+A space "X" is said to be ' or ' if any two distinct points can be joined by an ', which by definition is a path formula_23 that is also a topological embedding. Explicitly, a path formula_23 is called an ' if the surjective map formula_25 is a homeomorphism, where its image formula_26 is endowed with the subspace topology induced on it by formula_27
+Every Hausdorff space that is path-connected is also arc-connected. An example of a space which is path-connected but not arc-connected is provided by adding a second copy formula_28 of formula_29 to the nonnegative real numbers formula_30 One endows this set with a partial order by specifying that formula_31 for any positive number formula_32 but leaving formula_29 and formula_28 incomparable. One then endows this set with the order topology. That is, one takes the open intervals formula_35 and the half-open intervals formula_36 formula_37 as a base for the topology. The resulting space is a T1 space but not a Hausdorff space. The points formula_28 and formula_29 can be connected by a path but not by an arc in this space.
+Local connectedness.
+A topological space is said to be locally connected at a point "x" if every neighbourhood of "x" contains a connected open neighbourhood. It is locally connected if it has a base of connected sets. It can be shown that a space "X" is locally connected if and only if every component of every open set of "X" is open.
+Similarly, a topological space is said to be if it has a base of path-connected sets.
+An open subset of a locally path-connected space is connected if and only if it is path-connected.
+This generalizes the earlier statement about R"n" and C"n", each of which is locally path-connected. More generally, any topological manifold is locally path-connected.
+Locally connected does not imply connected, nor does locally path-connected imply path connected. A simple example of a locally connected (and locally path-connected) space that is not connected (or path-connected) is the union of two separated intervals in formula_18, such as formula_41.
+A classical example of a connected space that is not locally connected is the so called topologist's sine curve, defined as formula_42, with the Euclidean topology induced by inclusion in formula_43.
+Set operations.
+The intersection of connected sets is not necessarily connected.
+The union of connected sets is not necessarily connected, as can be seen by considering formula_44.
+Each ellipse is a connected set, but the union is not connected, since it can be partitioned to two disjoint open sets formula_45 and formula_46.
+This means that, if the union formula_47 is disconnected, then the collection formula_48 can be partitioned to two sub-collections, such that the unions of the sub-collections are disjoint and open in formula_47 (see picture). This implies that in several cases, a union of connected sets necessarily connected. In particular:
+The set difference of connected sets is not necessarily connected. However, if formula_57 and their difference formula_58 is disconnected (and thus can be written as a union of two open sets formula_59 and formula_60), then the union of formula_61 with each such component is connected (i.e. formula_62 is connected for all formula_63).
+By contradiction, suppose formula_64 is not connected. So it can be written as the union of two disjoint open sets, e.g. formula_65. Because formula_61 is connected, it must be entirely contained in one of these components, say formula_67, and thus formula_68 is contained in formula_59. Now we know that:
+The two sets in the last union are disjoint and open in formula_47, so there is a separation of formula_47, contradicting the fact that formula_47 is connected.
+Graphs.
+Graphs have path connected subsets, namely those subsets for which every pair of points has a path of edges joining them.
+But it is not always possible to find a topology on the set of points which induces the same connected sets. The 5-cycle graph (and any "n"-cycle with "n" &gt; 3 odd) is one such example.
+As a consequence, a notion of connectedness can be formulated independently of the topology on a space. To wit, there is a category of connective spaces consisting of sets with collections of connected subsets satisfying connectivity axioms; their morphisms are those functions which map connected sets to connected sets . Topological spaces and graphs are special cases of connective spaces; indeed, the finite connective spaces are precisely the finite graphs.
+However, every graph can be canonically made into a topological space, by treating vertices as points and edges as copies of the unit interval (see topological graph theory#Graphs as topological spaces). Then one can show that the graph is connected (in the graph theoretical sense) if and only if it is connected as a topological space.
+Stronger forms of connectedness.
+There are stronger forms of connectedness for topological spaces, for instance: 
+In general, note that any path connected space must be connected but there exist connected spaces that are not path connected. The deleted comb space furnishes such an example, as does the above-mentioned topologist's sine curve.
+

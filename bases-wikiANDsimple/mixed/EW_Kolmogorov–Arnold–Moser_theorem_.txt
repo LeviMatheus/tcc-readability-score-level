@@ -1,0 +1,19 @@
+
+The Kolmogorov–Arnold–Moser (KAM) theorem is a result in dynamical systems about the persistence of quasiperiodic motions under small perturbations. The theorem partly resolves the small-divisor problem that arises in the perturbation theory of classical mechanics.
+The problem is whether or not a small perturbation of a conservative dynamical system results in a lasting quasiperiodic orbit. The original breakthrough to this problem was given by Andrey Kolmogorov in 1954. This was rigorously proved and extended by Jürgen Moser in 1962 (for smooth twist maps) and Vladimir Arnold in 1963 (for analytic Hamiltonian systems), and the general result is known as the KAM theorem.
+Arnold originally thought that this theorem could apply to the motions of the solar system or other instances of the -body problem, but it turned out to work only for the three-body problem because of a degeneracy in his formulation of the problem for larger numbers of bodies. Later, Gabriella Pinzari showed how to eliminate this degeneracy by developing a rotation-invariant version of the theorem.
+Statement.
+Integrable Hamiltonian systems.
+The KAM theorem is usually stated in terms of trajectories in phase space of an integrable Hamiltonian system.
+The motion of an integrable system is confined to an invariant torus (a doughnut-shaped surface). Different initial conditions of the integrable Hamiltonian system will trace different invariant tori in phase space. Plotting the coordinates of an integrable system would show that they are quasiperiodic.
+Perturbations.
+The KAM theorem states that if the system is subjected to a weak nonlinear perturbation, some of the invariant tori are deformed and survive, while others are destroyed. Surviving tori meet the non-resonance condition, i.e., they have “sufficiently irrational” frequencies. This implies that the motion continues to be quasiperiodic, with the independent periods changed (as a consequence of the non-degeneracy condition). The KAM theorem quantifies the level of perturbation that can be applied for this to be true.
+Those KAM tori that are destroyed by perturbation become invariant Cantor sets, named "Cantori" by Ian C. Percival in 1979.
+The non-resonance and non-degeneracy conditions of the KAM theorem become increasingly difficult to satisfy for systems with more degrees of freedom. As the number of dimensions of the system increases, the volume occupied by the tori decreases.
+As the perturbation increases and the smooth curves disintegrate we move from KAM theory to Aubry–Mather theory which requires less stringent hypotheses and works with the Cantor-like sets.
+The existence of a KAM theorem for perturbations of quantum many-body integrable systems is still an open question, although it is believed that arbitrarily small perturbations will destroy integrability in the infinite size limit.
+Consequences.
+An important consequence of the KAM theorem is that for a large set of initial conditions the motion remains perpetually quasiperiodic.
+KAM theory.
+The methods introduced by Kolmogorov, Arnold, and Moser have developed into a large body of results related to quasiperiodic motions, now known as KAM theory. Notably, it has been extended to non-Hamiltonian systems (starting with Moser), to non-perturbative situations (as in the work of Michael Herman) and to systems with fast and slow frequencies (as in the work of Mikhail B. Sevryuk).
+

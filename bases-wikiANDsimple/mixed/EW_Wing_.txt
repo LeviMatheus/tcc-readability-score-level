@@ -1,0 +1,26 @@
+
+A wing is a type of fin that produces lift while moving through air or some other fluid. Accordingly, wings have streamlined cross-sections that are subject to aerodynamic forces and act as airfoils. A wing's aerodynamic efficiency is expressed as its lift-to-drag ratio. The lift a wing generates at a given speed and angle of attack can be one to two orders of magnitude greater than the total drag on the wing. A high lift-to-drag ratio requires a significantly smaller thrust to propel the wings through the air at sufficient lift.
+Lifting structures used in water include various foils, such as hydrofoils. Hydrodynamics is the governing science, rather than aerodynamics. Applications of underwater foils occur in hydroplanes, sailboats and submarines.
+Etymology and usage.
+For many centuries, the word "wing", from the Old Norse "vængr", referred mainly to the foremost limbs of birds (in addition to the architectural aisle). But in recent centuries the word's meaning has extended to include lift producing appendages of insects, bats, pterosaurs, boomerangs, some sail boats and aircraft, or the inverted airfoil on a race car that generates a downward force to increase traction.
+Aerodynamics.
+The design and analysis of the wings of aircraft is one of the principal applications of the science of aerodynamics, which is a branch of fluid mechanics. In principle, the properties of the airflow around any moving object can be found by solving the Navier-Stokes equations of fluid dynamics. However, except for simple geometries these equations are notoriously difficult to solve and simpler equations are used. 
+For a wing to produce "lift", it must be oriented at a suitable angle of attack. When this occurs, the wing deflects the airflow downwards as it passes the wing. Since the wing exerts a force on the air to change its direction, the air must also exert an equal and opposite force on the wing, resulting in different air pressures over the surface of the wing. 
+Cross-sectional shape.
+An "airfoil" (American English) or "aerofoil" (British English) is the shape of a wing, blade (of a propeller, rotor, or turbine), or sail (as seen in cross-section). Wings with an asymmetrical cross section are the norm in subsonic flight. Wings with a symmetrical cross section can also generate lift by using a positive angle of attack to deflect air downward. Symmetrical airfoils have higher stalling speeds than cambered airfoils of the same wing area but are used in aerobatic aircraft as they provide practical performance whether the aircraft is upright or inverted. Another example comes from sailboats, where the sail is a thin membrane with no path-length difference between one side and the other.
+For flight speeds near the speed of sound (transonic flight), airfoils with complex asymmetrical shapes are used to minimize the drastic increase in drag associated with airflow near the speed of sound. Such airfoils, called supercritical airfoils, are flat on top and curved on the bottom.
+Design features.
+Aircraft wings may feature some of the following:
+Aircraft wings may have various devices, such as flaps or slats that the pilot uses to modify the shape and surface area of the wing to change its operating characteristics in flight.
+Wings may have other minor independent surfaces.
+Applications and variants.
+Besides fixed-wing aircraft, applications for wing shapes include:
+In nature.
+In nature, wings have evolved in insects, pterosaurs, dinosaurs (birds), and mammals (bats) as a means of locomotion. Various species of penguins and other flighted or flightless water birds such as auks, cormorants, guillemots, shearwaters, eider and scoter ducks and diving petrels are avid swimmers, and use their wings to propel through water.
+Tensile structures.
+In 1948, Francis Rogallo invented a kite-like tensile wing supported by inflated or rigid struts, which ushered in new possibilities for aircraft. Near in time, Domina Jalbert invented flexible un-sparred ram-air airfoiled thick wings. These two new branches of wings have been since extensively studied and applied in new branches of aircraft, especially altering the personal recreational aviation landscape.
+See also.
+Natural world:
+Aviation:
+Sailing:
+

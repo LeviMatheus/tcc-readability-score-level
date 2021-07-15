@@ -1,0 +1,21 @@
+
+In organic chemistry, phenols, sometimes called phenolics, are a class of chemical compounds consisting of one or more hydroxyl groups (—OH) bonded directly to an aromatic hydrocarbon group. The simplest is phenol, . Phenolic compounds are classified as simple phenols or polyphenols based on the number of phenol units in the molecule.
+Phenols are both synthesized industrially and produced by plants and microorganisms.
+Properties.
+Acidity.
+Phenols are more acidic than typical alcohols. The acidity of the hydroxyl group in phenols is commonly intermediate between that of aliphatic alcohols and carboxylic acids (their pKa is usually between 10 and 12). Deprotonation of a phenol forms a corresponding negative phenolate ion or phenoxide ion, and the corresponding salts are called phenolates or phenoxides (aryloxides according to the IUPAC Gold Book). 
+Condensation with aldehydes and ketones.
+Phenols are susceptible to Electrophilic aromatic substitutions. Condensation with formaldehyde gives resinous materials, famously Bakelite. 
+Another industrial-scale electrophilic aromatic substitution is the production of bisphenol A, which is produced by the condensation with acetone.
+C-Alkylation with alkenes.
+Phenol is readily alkylated at the ortho positions using alkenes in the presence of a Lewis acid such as aluminium phenoxide:
+More than 100,000 tons of tert-butyl phenols are produced annually (year: 2000) in this way, using isobutylene (CH2=CMe2) as the alkylating agent. Especially important is 2,6-ditert-butylphenol, a versatile antioxidant.
+Other reactions.
+Phenols undergo esterification. Phenol esters are active esters, being prone to hydrolysis. Phenols are reactive species toward oxidation. Oxidative cleavage, for instance cleavage of 1,2-dihydroxybenzene to the monomethylester of 2,4 hexadienedioic acid with oxygen, copper chloride in pyridine Oxidative de-aromatization to quinones also known as the Teuber reaction. and oxone. In reaction depicted below 3,4,5-trimethylphenol reacts with singlet oxygen generated from oxone/sodium carbonate in an acetonitrile/water mixture to a para-peroxyquinole. This hydroperoxide is reduced to the quinole with sodium thiosulfate.
+Phenols are oxidized to hydroquinones in the Elbs persulfate oxidation.
+Reaction of naphtols and hydrazines and sodium bisulfite in the Bucherer carbazole synthesis
+Synthesis.
+Many phenols of commercial interest are prepared by elaboration of phenol or cresols. They are typically produced by the alkylation of benzene/toluene with propylene to form cumene then is added with to form phenol (Hock process). In addition to the reactions above, many other more specialized reactions produce phenols:
+Classification.
+There are various classification schemes. A commonly used scheme is based on the number of carbons and was devised by Jeffrey Harborne and Simmonds in 1964 and published in 1980:
+

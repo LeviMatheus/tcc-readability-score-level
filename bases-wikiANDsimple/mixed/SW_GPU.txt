@@ -1,0 +1,30 @@
+A Graphics Processing Unit (short: GPU) is a RISC processor whose task is the calculation of graphical output for monitors. It is mostly used in computers and video game systems. The GPU can be found on the motherboard or on separate video cards.
+2D and 3D (Acceleration).
+Today, there are generally two types of images a GPU has to calculate, which is also called rendering. Most applications like the operating system’s desktop (except e.g. Windows Vista’s Aero Desktop) or office applications the GPU has to render two dimensional (2D) pictures. Modern GPUs are so powerful that there is no difference in 2D performance between low-cost and expensive GPUs.
+The minor part of today’s applications use 3D pictures to simulate three-dimensionality. Examples for such applications are computer and video games or applications for design and technical construction (CAD). The 3D acceleration performance of GPUs differs greatly. Generally, more expensive GPUs can render faster than low-cost ones.
+Physics and AI.
+Today’s newest GPUs can handle more tasks than just picture calculation and output. Examples for this are calculation of Physics or Artificial Intelligence (AI). These tasks are generally combined under the term of GPU Computing.
+Past and present manufacturers.
+Today’s market leaders for GPUs are AMD (under the label of ATi), Intel and nVidia. There are some smaller manufacturers whose market share is rather small, e.g. Matrox and S3 Graphics. They are concentrating on niche products. Some of them have focused on research only instead of producing real products, e.g. PowerVR and XGI Technology Inc.
+There were several manufacturers who were bought by larger competitors, like 3Dfx and 3Dlabs, or stopped their efforts, as research costs are very high. Examples are Cyrix, Tseng Labs, Trident Microsystems and OAK Technologies.
+Other early pioneers, like Hercules, who were once one of the market leaders, concentrate to produce video boards based on GPUs from AMD or nVidia, nowadays.
+GPU Computing.
+The term GPU computing combines all tasks a GPU can calculate that go beyond simple calculation and output of pictures. It is also known under the term General Purpose Computation on Graphics Processing Unit. Tasks are calculation of physics, Artificial Intelligence or even acceleration of video and picture editing. One of the first applications to support GPU computing is Adobe’s Photoshop CS4.
+nVidia’s approach: CUDA.
+nVidia calls their attempt at GPU Computing CUDA. This is nVidia's interface for using their GPUs for general computing tasks. CUDA is based on the C programming language.
+ATi’s approach: Stream.
+ATi is calling their attempt Stream. There were some earlier attempts under a different name prior to Stream’s release with ATi’s graphics driver “Catalyst 8.12” in December 2008.
+S3 Graphic’s approach.
+S3 Graphics showed a first application for video editing which is accelerated by their latest GPUs. Yet, there is no information whether S3 Graphics will continue to increase their efforts in GPU computing.
+The latest milestone in GPU computing was AMD’s announcement of a Super-Computer based on GPUs at the CES in January 2009. It will be built of more than a thousand GPUs and will have a computing power of one petaflop.
+Multi-GPU systems.
+Multi-GPU Systems are computers which use more than one GPU. Generally this is used in high-end home computers to accelerate computer games, but there is also the ability to have one GPU rendering normal game scenes and one GPU calculating physics. This is currently supported by nVidia’s GPUs only and called PhysX. ATi and Intel are working to implement their own Physics engine, called Havok.
+History of Multi-GPU systems.
+The first attempts in Multi-GPU Systems were done by 3Dfx, which was bought by nVidia later. Their Voodoo video cards, which were 3D only accelerators, could be hooked up to a second Voodoo video card to gain more performance. This was called SLi. Theoretically the performance would double, practically it increased far less, depending on the video game, which is still a problem in today’s Multi-GPU Systems. Later, 3Dfx built more than one GPU on one video card. It’s latest video card, the Voodoo 6, was based on four GPUs, but it was never released. However there exist several engineering samples of the Voodoo 6, mostly owned by collectors.
+nVidia’s SLi.
+After nVidia bought 3Dfx Multi-GPU Systems were dead for several years until nVidia came up with this idea again in 2004. As nVidia had bought all technologies and market names from 3Dfx, too, they simply used the name SLi again. Today’s SLi works with up to three video cards, which is called 3-way-SLi. There were also attempts with four cards, but this failed due to limitations in the DirectX9 API. Today’s DirectX10 API however would support this.
+Despite the video cards, a SLi compatible motherboard is needed to build a SLi-System. Such motherboards have several PEG Slots (the successor to AGP, based on PCI-Express Technology) for more than one video card.
+nVidia offers various Multi-GPU video cards, where two GPUs are built on one video card. These are often called Dual-GPU video cards and do not need a SLi compatible motherboard.
+ATi’s CrossFireX.
+ATi’s Multi-GPU Technology is called CrossFire. It works quite the same way, though there are fewer limitations for video card combinations. CrossFire was renamed to CrossFire X in 2007 to represent the possibility to combine more than two cards. Today, it is possible to have a CrossFire X system based on four video cards or two Dual-GPU cards.
+Just like with SLi, there is the necessity for a CrossFire compatible motherboard in order to build a CrossFire System. One Dual-GPU video card from ATi does not necessarily need such a Crossfire compatible motherboard, however for two of theme, it is needed.

@@ -1,0 +1,11 @@
+
+In telecommunication, frame synchronization or framing is the process by which, while receiving a stream of framed data, incoming frame alignment signals (i.e., a distinctive bit sequences or syncwords) are identified (that is, distinguished from data bits), permitting the data bits within the frame to be extracted for decoding or retransmission.
+Framing.
+If the transmission is temporarily interrupted, or a bit slip event occurs, the receiver must re-synchronize.
+The transmitter and the receiver must agree ahead of time on which frame synchronization scheme they will use.
+Common frame synchronization schemes are:
+Frame synchronizer.
+In telemetry applications, a "frame synchronizer" is used to frame-align a serial pulse code-modulated (PCM) binary stream.
+The frame synchronizer immediately follows the bit synchronizer in most telemetry applications. Without frame synchronization, decommutation is impossible.
+The frame synchronization pattern is a known binary pattern which repeats at a regular interval within the PCM stream. The frame synchronizer recognizes this pattern and aligns the data into minor frames or sub-frames. Typically the frame sync pattern is followed by a counter (sub-frame ID) which dictates which minor or sub-frame in the series is being transmitted. This becomes increasingly important in the decommutation stage where all data is deciphered as to what attribute was sampled. Different commutations require a constant awareness of which section of the major frame is being decoded.
+

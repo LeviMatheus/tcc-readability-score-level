@@ -1,0 +1,3 @@
+
+In telecommunication, a disengagement originator is the user or execution unit that initiates a disengagement attempt. The disengagement originator may be the originating user, the destination user, or the communications system. The communications system may deliberately originate the disengagement because of preemption, or inadvertently due to system malfunction.
+

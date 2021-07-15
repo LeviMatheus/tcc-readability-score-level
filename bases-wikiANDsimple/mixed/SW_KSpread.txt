@@ -1,0 +1,3 @@
+KSpread is a free software spreadsheet program that is part of KOffice, an office suite for the KDE Desktop Environment.
+Among KSpread features are multiple sheets per document, assorted formatting possibilities, support for more than 100 built-in functions, templates, chart, spell-check, hyperlinks, data sorting and scripting with Python, Ruby and Javascript.
+KSpread native format is XML, compressed with ZIP. However, KSpread has the ability to import in several spreadsheet formats, including those from Microsoft Excel, Applix Spreadsheet, Quattro Pro, CSV and OpenOffice.org Calc.

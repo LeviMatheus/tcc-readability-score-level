@@ -1,0 +1,3 @@
+JavaScript is a scripting language for a computer. It is often run in a web browser applications that allow the use of dynamic content like message boxes popping up or a live clock. It is different from the programming language Java.
+Example.
+The JavaScript is enclosed by codice_1 tags, to tell that it is a script and not text.

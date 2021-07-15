@@ -1,0 +1,10 @@
+OpenOffice.org Calc is the spreadsheet part of the OpenOffice.org software package.
+Calc is similar to Microsoft Excel, with almost the same abilities. Calc is capable of opening and saving spreadsheets in Microsoft Excel's file format. It provides a number of features not present in Excel, including a system which automatically defines a series for graphing based on the layout of the user's data. Calc is also capable of writing spreadsheets directly as PDF files.
+The default file format for OpenOffice.org Calc version 2.x or 3.x can be set to either Microsoft Excel's native file format or the Open Document Format (ODF). Calc also supports a wide range of other file formats, for both opening and saving files.
+Just like the entire OpenOffice.org package, Calc can be used on many operating systems, including Mac OS X, Microsoft Windows, Linux, FreeBSD and Solaris. Available under the GNU Lesser General Public License, Calc is free software.
+Specifications.
+Calc can store a maximum of 65,536 rows with 1024 columns in each sheet, with a maximum of 256 sheets. There is a way to increase these limits, but it is only suitable for ODF and text-based formats, as there is a risk of data turning unusable for binary formats such as Microsoft Excel's file format.
+Version 2 of Calc was able to store a maximum of 65,536 rows with 256 columns in each sheet, with a maximum of 256 sheets.
+Prior to V2.0, the limit on the number of rows was 32,000.
+Missing features.
+In some cases, Calc lacks a GUI to access certain advanced features that other spreadsheet software have, such as statistical abilities like error bar support on graphs, and polynomial regression analysis, however, many of these calculations can still be performed by manually entering the functions. Another FOSS application called Gnumeric provides easier access to these statistical analysis features by showing them to users with a wizard.

@@ -1,0 +1,3 @@
+Two propositions (sentences affirming or denying something), called "major premise" and "minor premise", are followed by a conclusion.
+Example.
+Aristotle studied different syllogisms and identified valid syllogisms as syllogisms with conclusion true if both premises are true. The example above is valid syllogism.

@@ -1,0 +1,60 @@
+
+The International Organization for Standardization (ISO; ) is an international standard-setting body composed of representatives from various national standards organizations. 
+Founded on 23 February 1947, the organization promotes worldwide proprietary, industrial, and commercial standards. It is headquartered in Geneva, Switzerland and works in 165 countries. 
+It was one of the first organizations granted general consultative status with the United Nations Economic and Social Council.
+Overview.
+The International Organization for Standardization is an independent, non-governmental organization, the members of which are the standards organizations of the 165 member countries. It is the world's largest developer of voluntary international standards and it facilitates world trade by providing common standards among nations. More than twenty thousand standards have been set, covering everything from manufactured products and technology to food safety, agriculture, and healthcare.
+Use of the standards aids in the creation of products and services that are safe, reliable, and of good quality. The standards help businesses increase productivity while minimizing errors and waste. By enabling products from different markets to be directly compared, they facilitate companies in entering new markets and assist in the development of global trade on a fair basis. The standards also serve to safeguard consumers and the end-users of products and services, ensuring that certified products conform to the minimum standards set internationally.
+History.
+The organization began in the 1920s as the International Federation of the National Standardizing Associations (ISA). It was suspended in 1942 during World War II, but after the war ISA was approached by the recently formed United Nations Standards Coordinating Committee (UNSCC) with a proposal to form a new global standards body. In October 1946, ISA and UNSCC delegates from 25 countries met in London and agreed to join forces to create the new International Organization for Standardization. The new organization officially began operations in February 1947.
+Language use.
+The three official languages of the ISO are English, French, and Russian.
+Name and abbreviations.
+The name of the organization in French is ', and in Russian, ('). "ISO" is not an acronym. ISO gives this explanation of the name: "Because 'International Organization for Standardization' would have different acronyms in different languages (IOS in English, OIN in French), our founders decided to give it the short form "ISO". "ISO" is derived from the Greek word "" (, meaning "equal"). Whatever the country, whatever the language, the short form of our name is always "ISO"." During the founding meetings of the new organization, the Greek word explanation was not invoked, so this meaning may have been made coined later as a backronym.
+Both the name "ISO" and the ISO logo are registered trademarks and their use is restricted.
+Structure.
+ISO is a voluntary organization whose members are recognized authorities on standards, each one representing one country. Members meet annually at a General Assembly to discuss the strategic objectives of ISO. The organization is coordinated by a central secretariat based in Geneva.
+A council with a rotating membership of 20 member bodies provides guidance and governance, including setting the annual budget of the central secretariat.
+The technical management board is responsible for more than 250 technical committees, who develop the ISO standards.
+Joint technical committee with IEC for information technology standards.
+ISO has a joint technical committee (JTC) with the International Electrotechnical Commission (IEC) to develop standards relating to information technology (IT). Known as JTC 1 and entitled "Information technology", it was created in 1987 and its mission is "to develop worldwide Information and Communication Technology (ICT) standards for business and consumer applications".
+There was previously also a JTC 2 that was created in 2009 for a joint project to establish common terminology for "standardization in the field of energy efficiency and renewable energy sources". It was later disbanded.
+Membership.
+ISO has 165 national members.
+ISO has three membership categories,
+Participating members are called "P" members, as opposed to observing members, who are called "O" members.
+Financing.
+ISO is funded by a combination of:
+International Standards and other publications.
+International standards are the main products of ISO. It also publishes technical reports, technical specifications, publicly available specifications, technical corrigenda, and guides.
+International standards
+Technical reports
+For example:
+Technical and publicly available specifications
+For example:
+Technical corrigenda
+ISO guides
+For example:
+Document copyright.
+ISO documents have strict copyright restrictions and ISO charges for most copies. , a single copy of an ISO standard cost at least $120. It does not, however, charge for most draft copies of documents in electronic format. Although they are useful, care must be taken using these drafts as there is the possibility of substantial change before they become finalized as standards. Some standards by ISO and its official U.S. representative (and, via the U.S. National Committee, the International Electrotechnical Commission) are made freely available.
+Standardization process.
+A standard published by ISO/IEC is the last stage of a long process that commonly starts with the proposal of new work within a committee. Some abbreviations used for marking a standard with its status are:
+Abbreviations used for amendments are:
+Other abbreviations are:
+International Standards are developed by ISO technical committees (TC) and subcommittees (SC) by a process with six steps:
+The TC/SC may set up working groups (WG) of experts for the preparation of a working drafts. Subcommittees may have several working groups, which may have several Sub Groups (SG).
+It is possible to omit certain stages, if there is a document with a certain degree of maturity at the start of a standardization project, for example, a standard developed by another organization. ISO/IEC directives also allow the so-called "Fast-track procedure". In this procedure a document is submitted directly for approval as a draft International Standard (DIS) to the ISO member bodies or as a final draft International Standard (FDIS), if the document was developed by an international standardizing body recognized by the ISO Council.
+The first step—a proposal of work (New Proposal) is approved at the relevant subcommittee or technical committee (e.g., SC29 and JTC1 respectively in the case of Moving Picture Experts Group – ISO/IEC JTC1/SC29/WG11). A working group (WG) of experts is set up by the TC/SC for the preparation of a working draft. When the scope of a new work is sufficiently clarified, some of the working groups (e.g., MPEG) usually make open request for proposals—known as a "call for proposals". The first document that is produced, for example, for audio and video coding standards is called a verification model (VM) (previously also called a "simulation and test model"). When a sufficient confidence in the stability of the standard under development is reached, a working draft (WD) is produced. This is in the form of a standard, but is kept internal to working group for revision. When a working draft is sufficiently solid and the working group is satisfied that it has developed the best technical solution to the problem being addressed, it becomes a committee draft (CD). If it is required, it is then sent to the P-members of the TC/SC (national bodies) for ballot.
+The committee draft becomes final committee draft (FCD) if the number of positive votes exceeds the quorum. Successive committee drafts may be considered until consensus is reached on the technical content. When consensus is reached, the text is finalized for submission as a draft International Standard (DIS). Then the text is submitted to national bodies for voting and comment within a period of five months. It is approved for submission as a final draft International Standard (FDIS) if a two-thirds majority of the P-members of the TC/SC are in favour and if not more than one-quarter of the total number of votes cast are negative. ISO will then hold a ballot with National Bodies where no technical changes are allowed (yes/no ballot), within a period of two months. It is approved as an International Standard (IS) if a two-thirds majority of the P-members of the TC/SC is in favour and not more than one-quarter of the total number of votes cast are negative. After approval, only minor editorial changes are introduced into the final text. The final text is sent to the ISO central secretariat, which publishes it as the International Standard.
+International Workshop Agreements.
+International Workshop Agreements (IWAs) follow a slightly different process outside the usual committee system but overseen by the ISO, allowing "key industry players to negotiate in an open workshop environment" in order to shape the IWA standard.
+Products named after ISO.
+On occasion, the fact that many of the ISO-created standards are ubiquitous has led to common use of "ISO" to describe the product that conforms to a standard. Some examples of this are:
+Criticism.
+With the exception of a small number of isolated standards, normally ISO standards are not available free of charge, but for a purchase fee, which has been seen by some as unaffordable by small open source projects.
+The ISO/IEC JTC1 fast-track procedures ("Fast-track" as used by OOXML and "PAS" as used by OpenDocument) have garnered criticism in relation to the standardization of Office Open XML (ISO/IEC 29500). Martin Bryan, outgoing convenor of ISO/IEC JTC1/SC34 WG1, is quoted as saying:
+I would recommend my successor that it is perhaps time to pass WG1’s outstanding standards over to OASIS (Organization for the Advancement of Structured Information Standards), where they can get approval in less than a year and then do a PAS submission to ISO, which will get a lot more attention and be approved much faster than standards currently can be within WG1.
+The disparity of rules for PAS, Fast-Track and ISO committee generated standards is fast making ISO a laughing stock in IT circles. The days of open standards development are fast disappearing. Instead we are getting "standardization by corporation".
+The computer security entrepreneur and Ubuntu founder, Mark Shuttleworth, commented on the Standardization of Office Open XML process by saying: "I think it de-values the confidence people have in the standards setting process", and alleged that ISO did not carry out its responsibility. He also noted that Microsoft had intensely lobbied many countries that traditionally had not participated in ISO and stacked technical committees with Microsoft employees, solution providers, and resellers sympathetic to Office Open XML:
+When you have a process built on trust and when that trust is abused, ISO should halt the process... ISO is an engineering old boys club and these things are boring so you have to have a lot of passion … then suddenly you have an investment of a lot of money and lobbying and you get artificial results. The process is not set up to deal with intensive corporate lobbying and so you end up with something being a standard that is not clear.
+

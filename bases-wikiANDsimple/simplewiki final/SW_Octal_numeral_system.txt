@@ -1,0 +1,8 @@
+The octal numeral system is a base 8 numeral system. It uses the numerals 0 through 7. The system is similar to binary (base 2) and hexadecimal (base 16). Octal numerals are written using the letter "o" before the numeral, for example, o04 or o1242.
+At one time, the octal system was used mainly for work with computers. It provided an easier way to work with binary numbers. As computers changed from using 24 bit systems to 32 and 64 bit systems, hexadecimal replaced octal for most uses. Certain groups, for example, Native Americans using the Yuki language in California and the Pamean languages in Mexico also use octal numbering system. They do this because when they count, they use the spaces between their fingers instead of counting the actual fingers.
+Octal and binary.
+The octal numeral system uses a three bit binary coding. Each digit in an octal numeral is the same as three digits in a binary numeral. The grouping of the binary digits is done from right to left. The first three binary digits from the right are grouped into the last part of the octal numeral then the next three digits form the next to the last part of the numeral.
+Octal and decimal.
+In the Decimal system (base 10), each digit in Octal is equal to that digit multiplied by the exponent of 8 that is equal to its location minus one.
+Octal and hexadecimal.
+Octal is similar to hexadecimal because they are both easily converted to binary. Where Octal is equal to three digit binary, hexadecimal is equal to four digit binary. Where octal numerals start with the letter "o", hexadecimal numeral end with the letter "h". The easiest way to convert from one to the other is to convert to binary and then to the other system.

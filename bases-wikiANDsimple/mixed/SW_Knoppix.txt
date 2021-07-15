@@ -1,0 +1,3 @@
+Knoppix, or KNOPPIX, is a Linux distribution based on Debian designed to be started directly from a CD / DVD. Knoppix is one of the best-known LiveDistros. It was developed by Linux consultant Klaus Knopper. When starting a program it is loaded from the optical disc and decompressed into a RAM drive. The decompression is transparent and on-the-fly.
+See also.
+List of Linux distributions

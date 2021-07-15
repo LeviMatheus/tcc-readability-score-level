@@ -1,0 +1,1 @@
+CP/M was an Operating System for computers used in the 1970s and early 1980. Originally, it supported up to 64 kb of main memory. It was command-line based, and came before MS-DOS.

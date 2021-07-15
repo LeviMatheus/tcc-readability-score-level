@@ -1,0 +1,3 @@
+Perl is a programming language that was first made to change text files. The name "Perl" is formed from the initial letters of: "Practical Extraction and Report Language". The programming language has been changed many times do things in addition to changing text files. Sometimes perl code is written using many symbols besides letters and numbers, which can make those programs hard to read.
+A lot of web pages are written using Perl, but it can be used to do all kinds of things on computers. It is very good at searching through text looking for patterns.
+Perl was invented by Larry Wall, and he is working on a new version of it.

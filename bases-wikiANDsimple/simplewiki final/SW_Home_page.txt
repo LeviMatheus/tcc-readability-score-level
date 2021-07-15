@@ -1,0 +1,4 @@
+The home page of a web site is the document that a web server sends to another computer's web browser application when it has been contacted without a request for specific information. That is, when you enter only a domain name in the Address box without specifying a directory or a file, the "home page" is usually the first part of the web site you will be taken to. The Home Page is also called the Main Page.
+A properly written home page will tell a user about the information available in the web site, and how to view different parts of the web site.
+The home page of "simple.wikipedia.org" can be found at this link.
+Home Page was a popular computer application used for composing web pages.

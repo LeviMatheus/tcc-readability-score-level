@@ -1,0 +1,27 @@
+
+The terms foobar (), foo, bar, baz, and others are used as metasyntactic variables and placeholder names in computer programming or computer-related documentation. They have been used to name entities such as variables, functions, and commands whose exact identity is unimportant and serve only to demonstrate a concept.
+History and etymology.
+The etymology of foobar could be derived from the World War II-era military slang FUBAR, which was bowdlerised to "foobar". The word "foo" on its own was used earlier. Between about 1930 and 1952 it appeared in the comic "Smokey Stover" by Bill Holman, who stated that he used the word due to having seen it on the bottom of a jade Chinese figurine in San Francisco Chinatown, purportedly signifying "good luck". If true, this is related to the Chinese word "fu" ("", sometimes transliterated "foo", as in "foo dog"), which can mean "happiness" or "blessing".
+The first known use of the terms in print in a programming context appears in a 1965 edition of MIT's "Tech Engineering News". "Foobar" may have come about as a result of the pre-existing "Foo" being conjoined with "bar", an addition borrowed from the military's FUBAR. The use of "foo" in a programming context is generally credited to the Tech Model Railroad Club (TMRC) of MIT from circa 1960. In the complex model system, there were scram switches located at numerous places around the room that could be thrown if something undesirable was about to occur, such as a train going full-bore at an obstruction. Another feature of the system was a digital clock on the dispatch board. When someone hit a scram switch, the clock stopped and the display was replaced with the word "FOO"; at TMRC the scram switches are, therefore, called "Foo switches". Because of this, an entry in the 1959 "Dictionary of the TMRC Language" went something like this: "FOO: The first syllable of the misquoted sacred chant phrase 'foo mane padme hum.' Our first obligation is to keep the foo counters turning." One book describing the MIT train room describes two buttons by the door labeled "foo" and "bar". These were general purpose buttons and were often re-purposed for whatever fun idea the MIT hackers had at the time, hence the adoption of foo and bar as general-purpose variable names. An entry in the "Abridged Dictionary of the TMRC Language" states:
+The shift from the military expression FUBAR to foobar may also have been driven by the latter being a computer science pun. Since overbars designate repeating decimal numbers, the word foobar also signifies a number in hexadecimal, a base typically used in low-level programming. That number is 0.F00F00F00 ..., which equals the decimal fraction 256/273.
+The term "foobar" was propagated through computer science circles in the 1960s and early 1970s by system manuals from Digital Equipment Corporation. "Foobar" was also used as a variable name in the Fortran code of "Colossal Cave Adventure" (1977 Crowther and Woods version). The variable FOOBAR was used to contain the player's progress in saying the magic phrase "Fee Fie Foe Foo". Intel also used the term "foo" in their programming documentation in 1978.
+Example use in code.
+In this "Hello, World!" code sample in C, "foo" and "bar" are used to illustrate string substitution:
+int main() {
+ const char *foo = "Hello";
+ const char *bar = "World!";
+ fprintf(stdout, "%s %s\n", foo, bar);
+ return 0;
+In this Scheme code sample, "foobar" is used to illustrate the name of a function:
+(define foobar
+ (lambda (x)
+ (display x)))
+In this "Hello, World!" code sample in Python, "foo" and "bar" are used to illustrate the names of the strings printed to STDOUT.
+foo = "Hello"
+bar = "World"
+print(foo, bar)
+In this "Hello, World!" code sample in C#, "foo" and "bar" are used to illustrate the names of the strings.
+string foo = "Hello";
+string bar = "World";
+Console.WriteLine(foo + bar);
+

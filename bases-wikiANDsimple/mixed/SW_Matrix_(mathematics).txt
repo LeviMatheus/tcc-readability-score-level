@@ -1,0 +1,24 @@
+In mathematics, a matrix (plural matrices) is a rectangular table of numbers. There are rules for adding, subtracting and "multiplying" matrices together. These rules sometimes lead to not so common properties, for example, if A and B are two matrices, it is not always true that formula_1 equals formula_2.
+Many natural sciences use matrices quite a lot. In many universities, courses about matrices (usually called linear algebra) are taught very early, sometimes even in the first year of studies. Matrices are also widely used in computer science.
+Definitions and notations.
+The horizontal lines in a matrix are called rows and the vertical lines are called columns. A matrix with "m" rows and "n" columns is called an "m"-by-"n" matrix (or "m"×"n" matrix) and "m" and "n" are called its dimensions.
+The places in the matrix where the numbers are, are called "entry". The entry of a matrix "A" that lies in the row number "i" and column number "j" is called the "i,j" entry of "A". This is written as "A"["i,j"] or "a'ij".
+We write formula_3 to define an "m" × "n" matrix "A" with each entry in the matrix called "a'ij" for all 1 ≤ "i" ≤ "m" and 1 ≤ "j" ≤ "n".
+Example.
+is a 4×3 matrix. This matrix has m=4 rows, and n=3 columns.
+The element "A"[2,3] or "a"23 is 7.
+Addition.
+The two matrices have the same dimensions. Here formula_6 is true.
+Special matrices.
+There are some matrices that are special.
+Square matrix.
+A square matrix has the same number of rows as columns, so m=n.
+An example of a square matrix is
+This matrix has 3 rows and 3 columns: m=n=3.
+Identity matrix.
+is an identity matrix. There is exactly one identity matrix for each dimension.
+Inverse matrix.
+formula_13 is the inverse of
+formula_14.
+One column matrix.
+A matrix, that has many rows, but only one column, is called a column vector.

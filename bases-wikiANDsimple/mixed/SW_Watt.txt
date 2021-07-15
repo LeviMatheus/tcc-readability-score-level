@@ -1,0 +1,4 @@
+The watt (symbol: W) is the SI unit of power. It is named in honour of the physicist James Watt (1736–1819).
+Definition.
+The watt is the rate a source of energy expends or produces one joule during one second, so the same quantity may be referred to as a joule per second, with the symbol J/s. It can also be written as kg·m2·s−3.
+It is equivalent to one volt ampere (1 V·A) or 1/746 of a horsepower.

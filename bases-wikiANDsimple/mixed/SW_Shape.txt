@@ -1,0 +1,9 @@
+Shapes are geometric figures. In geometry two shapes are the same if one can be into the other by a number of movements, rotations and scaling.
+2D shapes.
+These are two dimensional shapes or flat plane geometry shapes. They can look like anything and can have any number of sides. The sides can be straight or curved. Triangles and squares are polygons.
+The sides of these shapes are lines.
+3D shapes.
+These are three dimensional shapes.
+The sides of these shapes are surfaces. Again, the sides can be straight or curved.
+Special shapes.
+Some of the shapes that can be made are special. Some of them resulted from generalizing ideas from mathematics. Some cannot be made in real space, others have properties that look unusual. Most of them are less common than the shapes above.

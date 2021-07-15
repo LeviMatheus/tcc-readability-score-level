@@ -1,0 +1,13 @@
+
+In telecommunications, a cutback technique is a destructive technique for determining certain optical fiber transmission characteristics, such as attenuation and bandwidth.
+Procedure.
+The measurement technique consists of:
+The cut should be made to retain 1 meter or more of the fiber, in order to establish equilibrium mode distribution conditions for the second measurement. In a multimode fiber, the lack of an equilibrium mode distribution could introduce errors in the measurement due to output coupling effects. In a single-mode fiber, measuring a shorter cutback fiber could result in significant transmission of cladding modes (light carried in the cladding rather than the core of the optical fiber), distorting the measurement. The errors introduced will result in conservative results ("i.e.", higher transmission losses and lower bandwidths) than would be realized under equilibrium conditions. 
+Benefits.
+The benefit of this technique is that it allows measurement of the fiber characteristics without introducing errors due to variation in the launch conditions. For example, the coupling efficiency of the light source is kept consistent between the initial and the cutback measurements.
+Several characteristics may be determined using the same test fiber. 
+Attenuation measurement.
+Since the attenuation is defined as proportional to the logarithm of the ratio between formula_1 and formula_2, where formula_3 is the power at point formula_4 and formula_5 respectively. Using the cutback technique, the power transmitted through a fiber of known length is measured and compared with the same measurement for the same fiber cut to a length of formula_6 approximately.
+Related techniques.
+A variation of the cutback technique is the substitution method, in which measurements are made on a full length of fiber, and then on a short length of fiber having the same characteristics (core size, numerical aperture), with the results from the short length being subtracted to give the results for the full length.
+

@@ -1,0 +1,4 @@
+Automatix was a computer program to install software on Ubuntu in a easy way.
+Automatix allowed the menu-driven installation of 56 different “capabilities”, including commercial closed source programs such as the Flash plugin, Acrobat Reader, multimedia codecs (DivX, MP3, Windows Media Audio) and fonts, and programming compilers.
+Alternatives.
+Recently a new project called, based on automatix, has been released, and is compatible with Ubuntu 8.04.

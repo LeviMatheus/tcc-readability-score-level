@@ -1,0 +1,3 @@
+
+KISS is an early low-level programming language on the IBM 650 business computer. It was listed in the "Communications of the ACM" 2(5):16 (May 1959).
+

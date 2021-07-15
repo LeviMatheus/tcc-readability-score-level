@@ -1,0 +1,6 @@
+An analog or analogue signal is any continuous signal.
+The difference from a digital signal is that also very small fluctuations in the signal are meaningful. When one speaks of analog one often means an electrical context, however mechanical, pneumatic, hydraulic, and other systems may also convey analog signals.
+An analog signal uses some property of the medium to convey the signal's information.
+Any information may be conveyed by an analog signal, often such a signal is a measured change in physical phenomena, such as sound, light, temperature, position, or pressure.
+For example, in sound recording, fluctuations in air pressure (that is to say, sound) strike the diaphragm of a microphone which causes corresponding fluctuations in a voltage or the current in an electric circuit. The voltage or the current is said to be an "analog" of the sound.
+See digital for a discussion of "digital vs. analog".

@@ -1,0 +1,13 @@
+
+The Free Software Definition written by Richard Stallman and published by the Free Software Foundation (FSF), defines free software as being software that ensures that the end users have freedom in using, studying, sharing and modifying that software. The term "free" is used in the sense of "free speech," not of "free of charge." The earliest-known publication of the definition was in the February 1986 edition of the now-discontinued "GNU's Bulletin" publication by the FSF. The canonical source for the document is in the philosophy section of the GNU Project website. , it is published there in 39 languages. The FSF publishes a list of licences which meet this definition.
+The Four Essential Freedoms of Free Software.
+The definition published by the FSF in February 1986 had two points:
+In 1996, when the gnu.org website was launched, "free software" was defined referring to "three levels of freedom" by adding an explicit mention of the freedom to study the software (which could be read in the two-point definition as being part of the freedom to change the program). Stallman later avoided the word "levels", saying that all of the freedoms are needed, so it is misleading to think in terms of levels.
+Finally, another freedom was added, to explicitly say that users should be able to run the program. The existing freedoms were already numbered one to three, but this freedom should come before the others, so it was added as "freedom zero".
+The modern definition defines free software by whether or not the recipient has the following four freedoms:
+Freedoms 1 and 3 require source code to be available because studying and modifying software without its source code is highly impractical.
+Later definitions.
+In July 1997, Bruce Perens published the Debian Free Software Guidelines. A definition based on the DFSG was also used by the Open Source Initiative (OSI) under the name "The Open Source Definition".
+Comparison with "The Open Source Definition".
+Despite the philosophical differences between the free-software movement and the open-source-software movement, the official definitions of free software by the FSF and of open-source software by the OSI basically refer to the same software licences, with a few minor exceptions. While stressing the philosophical differences, the Free Software Foundation comments:
+

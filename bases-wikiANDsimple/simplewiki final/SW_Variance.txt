@@ -1,0 +1,3 @@
+Probability theory and statistics talk about the variance. This is done in the context of random variables. Each random variable has an expected value. The variance was introduced to be able to talk about how the values are distributed (or grouped) around that expected value. The variance is therefore defined as the sum of the squares of the difference between the individual (observed) and the expected value. That means it is always positive.
+The Variance can be square rooted to get the Standard deviation.
+In accountancy, a variance refers to the difference between the budget for a cost, and the actual cost.

@@ -1,0 +1,3 @@
+Real-time strategy (RTS) is a genre of computer and video games. In real-time strategy games, every player has an army to attack the other player(s). Every player has a military base and people or vehicles (these are called units). The player also has money to create new units or to build new buildings. These buildings can allow the player to do things, such as creating units or to use new technology.
+The player that destroys the base and the units of the other player(s) wins.
+In real-time strategy games, everything the player does, happens right away: there's no time between doing something (like telling a unit to move) and seeing it happen. This is different in turn-based strategy where the players take turns to do things.

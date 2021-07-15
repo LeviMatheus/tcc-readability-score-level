@@ -1,0 +1,1 @@
+In statistics, the Mode is a number. Very often, samples of data are collected. These might be measurements of some kind. In this context, the Mode is the value that occurs most often. Unlike the Median and the Mean, the mode is not necessarily unique. There might be several different values that occur the same number of times.

@@ -1,0 +1,16 @@
+In mathematics there are 6 trigonometric functions: sine, cosine, tangent, cotangent, secant and cosecant. Secant and cosecant are rarely used.
+Definition.
+The trigonometric functions sometimes are also called circular functions. They are functions of an angle; they are important when studying triangles and modeling periodic phenomena, among many other applications. Trigonometric functions are commonly defined as ratios of two sides of a right triangle containing the angle, and can equivalently be defined as the lengths of various line segments from a unit circle or a circle that has the radius of one.
+Right triangle definitions.
+All triangles are taken to exist in the Euclidean plane so that the inside angles of each triangle sum to π radians (or 180°); therefore, for a right triangle the two non-right angles are between zero and π/2 radians. The reader should note that the following definitions, strictly speaking, only define the trigonometric functions for angles in this range. We extend them to the full set of real arguments by using the unit circle, or by requiring certain symmetries and that they be periodic functions.
+1) The sine of an angle is the ratio of the length of the opposite side to the length of the hypotenuse. In our case
+Note that this ratio does not depend on the particular right triangle chosen, as long as it contains the angle "A", since all those triangles are similar.
+The set of zeroes of sine (i.e., the values of formula_8 for which formula_9) is
+2) The cosine of an angle is the ratio of the length of the adjacent side to the length of the hypotenuse. In our case
+The set of zeroes of cosine is
+3) The tangent of an angle is the ratio of the length of the opposite side to the length of the adjacent side. In our case
+The set of zeroes of tangent is
+The same set of the sine function since
+The remaining three functions are best defined using the above three functions.
+Definitions by power series.
+and define tangent, cotangent, secant and cosecant using identities, see below.

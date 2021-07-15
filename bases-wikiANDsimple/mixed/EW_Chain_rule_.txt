@@ -1,0 +1,126 @@
+
+In calculus, the chain rule is a formula to compute the derivative of a composite function. That is, if and are differentiable functions, then the chain rule expresses the derivative of their composite — the function which maps to formula_1— in terms of the derivatives of and and the product of functions as follows:
+Alternatively, by letting (equiv., for all ), one can also write the chain rule in Lagrange's notation, as follows:
+The chain rule may also be rewritten in Leibniz's notation in the following way. If a variable depends on the variable , which itself depends on the variable (i.e., and are dependent variables), then , via the intermediate variable of , depends on as well. In which case, the chain rule states that:
+More precisely, to indicate the point each derivative is evaluated at, 
+The versions of the chain rule in the Lagrange and the Leibniz notation are equivalent, in the sense that if formula_5 and formula_6, so that formula_7, then
+and
+Intuitively, the chain rule states that knowing the instantaneous rate of change of "z" relative to "y" and that of "y" relative to "x" allows one to calculate the instantaneous rate of change of "z" relative to "x". As put by George F. Simmons: "if a car travels twice as fast as a bicycle and the bicycle is four times as fast as a walking man, then the car travels 2 × 4 = 8 times as fast as the man."
+In integration, the counterpart to the chain rule is the substitution rule.
+History.
+The chain rule seems to have first been used by Gottfried Wilhelm Leibniz. He used it to calculate the derivative of formula_10 as the composite of the square root function and the function formula_11. He first mentioned it in a 1676 memoir (with a sign error in the calculation). The common notation of chain rule is due to Leibniz. Guillaume de l'Hôpital used the chain rule implicitly in his "Analyse des infiniment petits". The chain rule does not appear in any of Leonhard Euler's analysis books, even though they were written over a hundred years after Leibniz's discovery.
+Statement.
+The simplest form of the chain rule is for real-valued functions of one real variable. It states that if ' is a function that is differentiable at a point ' (i.e. the derivative exists) and ' is a function that is differentiable at , then the composite function is differentiable at ', and the derivative is
+The rule is sometimes abbreviated as
+If and , then this abbreviated form is written in Leibniz notation as:
+The points where the derivatives are evaluated may also be stated explicitly:
+Carrying the same reasoning further, given "" functions formula_16 with the composite function formula_17, if each function formula_18 is differentiable at its immediate input, then the composite function is also differentiable by the repeated application of Chain Rule, where the derivative is (in Leibniz's notation):
+Applications.
+Absence of formulas.
+It may be possible to apply the chain rule even when there are no formulas for the functions which are being differentiated. This can happen when the derivatives are measured directly. Suppose that a car is driving up a tall mountain. The car's speedometer measures its speed directly. If the grade is known, then the rate of ascent can be calculated using trigonometry. Suppose that the car is ascending at . Standard models for the Earth's atmosphere imply that the temperature drops about per kilometer ascended (called the lapse rate). To find the temperature drop per hour, we can apply the chain rule. Let the function be the altitude of the car at time , and let the function be the temperature kilometers above sea level. and are not known exactly: For example, the altitude where the car starts is not known and the temperature on the mountain is not known. However, their derivatives are known: is , and is . The chain rule states that the derivative of the composite function is the product of the derivative of and the derivative of . This is .
+One of the reasons why this computation is possible is because is a constant function. A more accurate description of how the temperature near the car varies over time would require an accurate model of how the temperature varies at different altitudes. This model may not have a constant derivative. To compute the temperature change in such a model, it would be necessary to know and not just , because without knowing it is not possible to know where to evaluate .
+Composites of more than two functions.
+The chain rule can be applied to composites of more than two functions. To take the derivative of a composite of more than two functions, notice that the composite of , , and ' (in that order) is the composite of with . The chain rule states that to compute the derivative of , it is sufficient to compute the derivative of ' and the derivative of . The derivative of "" can be calculated directly, and the derivative of can be calculated by applying the chain rule again.
+For concreteness, consider the function
+This can be decomposed as the composite of three functions:
+Their derivatives are:
+The chain rule states that the derivative of their composite at the point is:
+In Leibniz notation, this is:
+or for short,
+The derivative function is therefore:
+Another way of computing this derivative is to view the composite function as the composite of and "h". Applying the chain rule in this manner would yield:
+This is the same as what was computed above. This should be expected because .
+Sometimes, it is necessary to differentiate an arbitrarily long composition of the form formula_28. In this case, define
+where formula_30 and formula_31 when formula_32. Then the chain rule takes the form
+or, in the Lagrange notation,
+Quotient rule.
+The chain rule can be used to derive some well-known differentiation rules. For example, the quotient rule is a consequence of the chain rule and the product rule. To see this, write the function as the product . First apply the product rule:
+To compute the derivative of , notice that it is the composite of with the reciprocal function, that is, the function that sends to . The derivative of the reciprocal function is formula_36. By applying the chain rule, the last expression becomes:
+which is the usual formula for the quotient rule.
+Derivatives of inverse functions.
+Suppose that has an inverse function. Call its inverse function so that we have . There is a formula for the derivative of in terms of the derivative of . To see this, note that ' and ' satisfy the formula
+And because the functions formula_39 and are equal, their derivatives must be equal. The derivative of " is the constant function with value 1, and the derivative of formula_39 is determined by the chain rule. Therefore, we have that:
+To express as a function of an independent variable ', we substitute formula_42 for ' wherever it appears. Then we can solve for .
+For example, consider the function . It has an inverse . Because , the above formula says that
+This formula is true whenever is differentiable and its inverse ' is also differentiable. This formula can fail when one of these conditions is not true. For example, consider . Its inverse is , which is not differentiable at zero. If we attempt to use the above formula to compute the derivative of ' at zero, then we must evaluate . Since and , we must evaluate 1/0, which is undefined. Therefore, the formula fails in this case. This is not surprising because " is not differentiable at zero.
+Higher derivatives.
+Faà di Bruno's formula generalizes the chain rule to higher derivatives. Assuming that and , then the first few derivatives are:
+Proofs.
+First proof.
+One proof of the chain rule begins with the definition of the derivative:
+Assume for the moment that formula_47 does not equal formula_48 for any near . Then the previous expression is equal to the product of two factors:
+If formula_50 oscillates near , then it might happen that no matter how close one gets to , there is always an even closer such that . For example, this happens near for the continuous function defined by for and otherwise. Whenever this happens, the above expression is undefined because it involves division by zero. To work around this, introduce a function formula_51 as follows:
+We will show that the difference quotient for is always equal to:
+Whenever is not equal to , this is clear because the factors of cancel. When equals , then the difference quotient for is zero because equals , and the above product is zero because it equals times zero. So the above product is always equal to the difference quotient, and to show that the derivative of at exists and to determine its value, we need only show that the limit as goes to of the above product exists and determine its value.
+To do this, recall that the limit of a product exists if the limits of its factors exist. When this happens, the limit of the product of these two factors will equal the product of the limits of the factors. The two factors are and . The latter is the difference quotient for at , and because is differentiable at by assumption, its limit as tends to exists and equals .
+As for , notice that is defined wherever ' is. Furthermore, ' is differentiable at by assumption, so is continuous at , by definition of the derivative. The function is continuous at because it is differentiable at , and therefore is continuous at . So its limit as ' goes to ' exists and equals , which is .
+This shows that the limits of both factors exist and that they equal and , respectively. Therefore, the derivative of at "a" exists and equals .
+Second proof.
+Another way of proving the chain rule is to measure the error in the linear approximation determined by the derivative. This proof has the advantage that it generalizes to several variables. It relies on the following equivalent definition of differentiability at a point: A function "g" is differentiable at "a" if there exists a real number "g"′("a") and a function "ε"("h") that tends to zero as "h" tends to zero, and furthermore
+Here the left-hand side represents the true difference between the value of "g" at "a" and at , whereas the right-hand side represents the approximation determined by the derivative plus an error term.
+In the situation of the chain rule, such a function "ε" exists because "g" is assumed to be differentiable at "a". Again by assumption, a similar function also exists for "f" at "g"("a"). Calling this function "η", we have
+The above definition imposes no constraints on "η"(0), even though it is assumed that "η"("k") tends to zero as "k" tends to zero. If we set , then "η" is continuous at 0.
+Proving the theorem requires studying the difference as "h" tends to zero. The first step is to substitute for using the definition of differentiability of "g" at "a":
+The next step is to use the definition of differentiability of "f" at "g"("a"). This requires a term of the form for some "k". In the above equation, the correct "k" varies with "h". Set and the right hand side becomes . Applying the definition of the derivative gives:
+To study the behavior of this expression as "h" tends to zero, expand "k""h". After regrouping the terms, the right-hand side becomes:
+Because "ε"("h") and "η"("k""h") tend to zero as "h" tends to zero, the first two bracketed terms tend to zero as "h" tends to zero. Applying the same theorem on products of limits as in the first proof, the third bracketed term also tends zero. Because the above expression is equal to the difference , by the definition of the derivative is differentiable at "a" and its derivative is 
+The role of "Q" in the first proof is played by "η" in this proof. They are related by the equation:
+The need to define "Q" at "g"("a") is analogous to the need to define "η" at zero.
+Third proof.
+Constantin Carathéodory's alternative definition of the differentiability of a function can be used to give an elegant proof of the chain rule.
+Under this definition, a function is differentiable at a point if and only if there is a function , continuous at and such that . There is at most one such function, and if is differentiable at then .
+Given the assumptions of the chain rule and the fact that differentiable functions and compositions of continuous functions are continuous, we have that there exist functions , continuous at , and , continuous at , and such that,
+and
+Therefore,
+but the function given by is continuous at , and we get, for this 
+A similar approach works for continuously differentiable (vector-)functions of many variables. This method of factoring also allows a unified approach to stronger forms of differentiability, when the derivative is required to be Lipschitz continuous, Hölder continuous, etc. Differentiation itself can be viewed as the polynomial remainder theorem (the little Bézout theorem, or factor theorem), generalized to an appropriate class of functions. 
+Proof via infinitesimals.
+If formula_64 and formula_65 then choosing infinitesimal formula_66 we compute the corresponding formula_67 and then the corresponding formula_68, so that
+and applying the standard part we obtain
+which is the chain rule.
+Multivariable case.
+The generalization of the chain rule to multi-variable functions is rather technical. However, it is simpler to write in the case of functions of the form 
+As this case occurs often in the study of functions of a single variable, it is worth describing it separately.
+Case of.
+For writing the chain rule for a function of the form 
+one needs the partial derivatives of with respect to its arguments. The usual notations for partial derivatives involve names for the arguments of the function. As these arguments are not named in the above formula, it is simpler and clearer to denote by 
+the derivative of with respect to its th argument, and by 
+the value of this derivative at .
+With this notation, the chain rule is
+Example: arithmetic operations.
+If the function is addition, that is, if 
+then formula_76 and formula_77. Thus, the chain rule gives 
+For multiplication
+the partials are formula_80 and formula_81. Thus, 
+The case of exponentiation
+is slightly more complicated, as 
+and, as formula_85
+It follows that 
+General rule.
+The simplest way for writing the chain rule in the general case is to use the total derivative, which is a linear transformation that captures all directional derivatives in a single formula. Consider differentiable functions and , and a point in . Let denote the total derivative of at and denote the total derivative of at . These two derivatives are linear transformations and , respectively, so they can be composed. The chain rule for total derivatives is that their composite is the total derivative of at :
+or for short,
+The higher-dimensional chain rule can be proved using a technique similar to the second proof given above.
+Because the total derivative is a linear transformation, the functions appearing in the formula can be rewritten as matrices. The matrix corresponding to a total derivative is called a Jacobian matrix, and the composite of two derivatives corresponds to the product of their Jacobian matrices. From this perspective the chain rule therefore says:
+or for short,
+That is, the Jacobian of a composite function is the product of the Jacobians of the composed functions (evaluated at the appropriate points).
+The higher-dimensional chain rule is a generalization of the one-dimensional chain rule. If "k", "m", and "n" are 1, so that and , then the Jacobian matrices of "f" and "g" are . Specifically, they are:
+The Jacobian of "f" ∘ "g" is the product of these matrices, so it is , as expected from the one-dimensional chain rule. In the language of linear transformations, "D""a"("g") is the function which scales a vector by a factor of "g"′("a") and "D""g"("a")("f") is the function which scales a vector by a factor of "f"′("g"("a")). The chain rule says that the composite of these two linear transformations is the linear transformation , and therefore it is the function that scales a vector by "f"′("g"("a"))⋅"g"′("a").
+Another way of writing the chain rule is used when "f" and "g" are expressed in terms of their components as and . In this case, the above rule for Jacobian matrices is usually written as:
+The chain rule for total derivatives implies a chain rule for partial derivatives. Recall that when the total derivative exists, the partial derivative in the "i"th coordinate direction is found by multiplying the Jacobian matrix by the "i"th basis vector. By doing this to the formula above, we find:
+Since the entries of the Jacobian matrix are partial derivatives, we may simplify the above formula to get:
+More conceptually, this rule expresses the fact that a change in the "x""i" direction may change all of "g"1 through "gm", and any of these changes may affect "f".
+In the special case where , so that "f" is a real-valued function, then this formula simplifies even further:
+This can be rewritten as a dot product. Recalling that , the partial derivative is also a vector, and the chain rule says that:
+Example.
+Given where and , determine the value of and using the chain rule.
+and
+Higher derivatives of multivariable functions.
+Faà di Bruno's formula for higher-order derivatives of single-variable functions generalizes to the multivariable case. If is a function of as above, then the second derivative of is:
+Further generalizations.
+All extensions of calculus have a chain rule. In most of these, the formula remains the same, though the meaning of that formula may be vastly different.
+One generalization is to manifolds. In this situation, the chain rule represents the fact that the derivative of is the composite of the derivative of "f" and the derivative of "g". This theorem is an immediate consequence of the higher dimensional chain rule given above, and it has exactly the same formula.
+The chain rule is also valid for Fréchet derivatives in Banach spaces. The same formula holds as before. This case and the previous one admit a simultaneous generalization to Banach manifolds.
+In differential algebra, the derivative is interpreted as a morphism of modules of Kähler differentials. A ring homomorphism of commutative rings determines a morphism of Kähler differentials which sends an element "dr" to "d"("f"("r")), the exterior differential of "f"("r"). The formula holds in this context as well.
+The common feature of these examples is that they are expressions of the idea that the derivative is part of a functor. A functor is an operation on spaces and functions between them. It associates to each space a new space and to each function between two spaces a new function between the corresponding new spaces. In each of the above cases, the functor sends each space to its tangent bundle and it sends each function to its derivative. For example, in the manifold case, the derivative sends a "C""r"-manifold to a "C""r"−1-manifold (its tangent bundle) and a "C""r"-function to its total derivative. There is one requirement for this to be a functor, namely that the derivative of a composite must be the composite of the derivatives. This is exactly the formula .
+There are also chain rules in stochastic calculus. One of these, Itō's lemma, expresses the composite of an Itō process (or more generally a semimartingale) "dX""t" with a twice-differentiable function "f". In Itō's lemma, the derivative of the composite function depends not only on "dX""t" and the derivative of "f" but also on the second derivative of "f". The dependence on the second derivative is a consequence of the non-zero quadratic variation of the stochastic process, which broadly speaking means that the process can move up and down in a very rough way. This variant of the chain rule is not an example of a functor because the two functions being composed are of different types.
+

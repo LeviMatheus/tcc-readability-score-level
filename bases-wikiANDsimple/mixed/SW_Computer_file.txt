@@ -1,0 +1,2 @@
+A computer file is a means to store information that belongs together. Computer files can be opened (read and written) by computer programs, usually they are stored on some kind of file system.
+The way the information is organized in a file is called the file format.

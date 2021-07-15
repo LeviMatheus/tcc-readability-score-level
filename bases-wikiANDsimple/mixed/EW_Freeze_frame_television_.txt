@@ -1,0 +1,4 @@
+
+Freeze frame television is television in which the frames of the video are transmitted as a sequence of still images at a rate far too slow to be perceived as continuous motion by human vision. The receiving device typically displays each frame until the next complete frame is available.
+For an image of specified quality, "e.g.", resolution and color depth, freeze-frame television has a lower bandwidth requirement than that of full-motion television. For this reason, NASA, which refers to this technique as "sequential still video", uses it on UHF when Ku band full-motion video signals are not available.
+

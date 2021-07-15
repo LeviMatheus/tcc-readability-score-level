@@ -1,0 +1,43 @@
+
+ANSI C, ISO C and Standard C are successive standards for the C programming language published by the American National Standards Institute (ANSI) and the International Organization for Standardization (ISO). Historically, the names referred specifically to the original and best-supported version of the standard (known as C89 or C90). Software developers writing in C are encouraged to conform to the standards, as doing so helps portability between compilers.
+History and outlook.
+The first standard for C was published by ANSI. Although this document was subsequently adopted by International Organization for Standardization (ISO) and subsequent revisions published by ISO have been adopted by ANSI, "ANSI C" is still used to refer to the standard. While some software developers use the term ISO C, others are standards-body neutral and use Standard C.
+Standardizing C.
+In 1983, the American National Standards Institute formed a committee, X3J11, to establish a standard specification of C. In 1985, the first Standard Draft was released, sometimes referred to as "C85". In 1986, another Draft Standard was released, sometimes referred to as "C86". The prerelease Standard C was published in 1988, and sometimes referred to as "C88".
+C89.
+The ANSI standard was completed in 1989 and ratified as ANSI X3.159-1989 "Programming Language C." This version of the language is often referred to as "ANSI C". Later on sometimes the label "C89" is used to distinguish it from C90 but using the same labeling method.
+C90.
+The same standard as C89 was ratified by the International Organization for Standardization as ISO/IEC 9899:1990, with only formatting changes, which is sometimes referred to as C90. Therefore, the terms "C89" and "C90" refer to essentially the same language.
+This standard has been withdrawn by both ANSI/INCITS and ISO/IEC.
+C95.
+In 1995, the ISO published an extension, called Amendment 1, for the ANSI-C standard. Its full name finally was "ISO/IEC 9899:1990/AMD1:1995" or nicknamed "C95". Aside from error correction there were further changes to the language capabilities, such as:
+In addition to the amendment, two technical corrigenda were published by ISO for C90:
+Preprocessor test for C95 compatibility.
+/* C95 compatible source code. */
+/* C89 compatible source code. */
+C99.
+In March 2000, ANSI adopted the ISO/IEC 9899:1999 standard. This standard is commonly referred to as C99. Some notable additions to the previous standard include:
+Three technical corrigenda were published by ISO for C99:
+This standard has been withdrawn by both ANSI/INCITS and ISO/IEC in favour of C11.
+C11.
+C11 was officially ratified and published on December 8, 2011. Notable features include improved Unicode support, type-generic expressions using the new codice_17 keyword, a cross-platform multi-threading API (codice_18), and atomic types support in both core language and the library (codice_19).
+One technical corrigendum has been published by ISO for C11:
+C17.
+, "C17" is the current standard for the C programming language.
+C17 addresses defects in C11 without introducing new language features.
+C2x.
+C2x is an informal name for the next (after C17) major C language standard revision. It is not expected to be voted on until 2021.
+Other related ISO publications.
+As part of the standardization process, ISO also publishes technical reports and specifications related to the C language:
+More technical specifications are in development and pending approval, including the fifth and final part of TS 18661, a software transactional memory specification, and parallel library extensions.
+Support from major compilers.
+ANSI C is now supported by almost all the widely used compilers. GCC and Clang are two major C compilers popular today, both are based on the C11 with updates including changes from later specifications such as C17 and C18. Any source code written "only" in standard C and without any hardware dependent assumptions is virtually guaranteed to compile correctly on any platform with a conforming C implementation. Without such precautions, most programs may compile only on a certain platform or with a particular compiler, due, for example, to the use of non-standard libraries, such as GUI libraries, or to the reliance on compiler- or platform-specific attributes such as the exact size of certain data types and byte endianness.
+Compliance detectability.
+To mitigate the differences between K&amp;R C and the ANSI C standard, the codice_20 ("standard c") macro can be used to split code into ANSI and K&amp;R sections.
+ #if defined(__STDC__) &amp;&amp; __STDC__
+ extern int getopt(int, char * const *, const char *);
+ #else
+ extern int getopt();
+ #endif
+In the above example, a prototype is used in a function declaration for ANSI compliant implementations, while an obsolescent non-prototype declaration is used otherwise. Those are still ANSI-compliant as of C99. Note how this code checks both definition and evaluation: this is because some implementations may set codice_20 to zero to indicate non-ANSI compliance.
+

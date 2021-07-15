@@ -1,0 +1,2 @@
+A tebibyte (TiB) is a unit of measurement in computers and similar electronic devices. Tebibytes hold 1024 gibibytes (GiB) or 1,099,511,627,776 bytes. Some people call this number of bytes a terabyte.
+1,024 tebibytes make one exbibyte.

@@ -1,0 +1,4 @@
+The hertz (symbol: Hz) is a unit to measure frequency. It tells how often something happens. A frequency of 1 hertz means that something happens once a second. The pitch of the note Middle C (the C in the middle of the piano) is 256 Hz.
+The unit is named after Heinrich Rudolf Hertz.
+Bigger units.
+1000 hertz equals 1 kilohertz. 1000 kilohertz equals 1 megahertz, 1000 megahertz equals 1 gigahertz and so on

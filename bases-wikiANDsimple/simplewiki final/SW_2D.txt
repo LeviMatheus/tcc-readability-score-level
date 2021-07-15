@@ -1,0 +1,3 @@
+2D or Two Dimensional uses two parameters: width and length. Two dimensional objects do not have depth. It's a mathematics tool, but it's also used in video games, and computer science in general.
+Throughout maths, it is used in geometry and other categories.
+In video games, it is used as a perspective, like in Grand Theft Auto 1 and 2.

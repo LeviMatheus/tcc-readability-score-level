@@ -1,0 +1,2 @@
+In solid mechanics, torsion is the twisting of an object that is result of an applied torque. In circular sections, the resultant shearing stress is perpendicular to the radius.
+"T" is the applied torque, "r" is the distance from the center of rotation, and "J" is the polar moment of inertia.

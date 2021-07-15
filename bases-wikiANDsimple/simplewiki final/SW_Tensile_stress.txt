@@ -1,0 +1,4 @@
+Tensile stress (or tension) is the stress state leading to expansion; that is, the length of a material tends to increase in the tensile direction. The volume of the material stays constant.
+Therefore in a uniaxial material the length increases in the tensile stress direction and the other two directions will decrease in size. In the uniaxial manner of tension, tensile stress is induced by pulling forces. Tensile stress is the opposite of compressive stress.
+Structural members in direct tension are ropes, soil anchors and nails, bolts, etc. Beams subjected to bending moments may include tensile stress as well as compressive stress and/or shear stress.
+Tensile stress may be increased until the reach of tensile strength, namely the "limit state" of stress.

@@ -1,0 +1,21 @@
+Green chemistry or "sustainable chemistry" is a branch of chemistry that can be used to look at the impact a chemical process has on the environment. Its main goal is to develop methods that help avoid dangerous chemical waste. Processes that allow to do this should not be worse than other similar processes that don't.
+Green chemistry is a mix of organic chemistry, inorganic chemistry, biochemistry and analytical chemistry.
+The 12 Principles of Green Chemistry.
+Create products without or with minimal wastes so that the wastes do not need to be taken care of afterwards.
+2. Design safer chemicals and products
+Design chemicals to have little or no toxicity, without affecting effectiveness.
+3. Design less hazardous chemical syntheses
+Design a way of synthesising products without it being toxic to humans or the environment.
+Use renewable raw materials, like plant materials, other than depleting ones. Eg. Fossil fuels
+5. Use catalysts, not stiochiometric reagents
+Use of catalysts because of their ability to be able to be reused and that they are less harmful than reagents.
+Chemical derivatives generate wastes that can be avoided.
+Make sure that a greater percentage of the atoms present in the reactants of a chemical reaction are used in the products that are also usable.
+8. Use safer solvents and reaction conditions
+Avoid using harsh solvents, but if that cannot be avoided, then use benign chemicals.
+Use the normal ambient temperature and pressure wherever possible.
+Design materials to breakdown into benign substances by bacterial or other environmentally sound ways.
+11. Analyse in real time to prevent pollution
+Monitor and control the formation of by-products during a reaction.
+12. Minimise the potential for accidents
+Design chemicals to minimise the potential for accidents.

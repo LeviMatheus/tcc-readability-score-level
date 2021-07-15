@@ -1,0 +1,3 @@
+Kinetic theory or "kinetic theory of gases" attempts to explain macroscopic properties of gases, such as pressure, temperature, or volume, by considering their molecular composition and motion. Essentially, the theory posits that pressure is due not to static repulsion between molecules, as was Isaac Newton's conjecture, but due to collisions between molecules moving about with a certain velocity. Kinetic theory is also known as "kinetic-molecular theory" or "collision theory".
+References.
+The Mathematical Theory of Non-uniform Gases: An Account of the Kinetic Theory of Viscosity, Thermal Conduction and Diffusion in Gases

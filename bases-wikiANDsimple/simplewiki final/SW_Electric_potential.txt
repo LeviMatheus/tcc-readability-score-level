@@ -1,0 +1,2 @@
+Difference in electric potential is also known as voltage or electric potential energy difference. The unit for electric potential is the volt, in memory of Alessandro Volta. Electric potential is like a push. Electrons are pushed through a wire by the voltage.
+A good analogy is water in a river. The water is like electrons flowing. When the river goes over a waterfall, the water drops and loses energy. When the electrons go through a circuit or wire they "drop" in voltage and lose energy.

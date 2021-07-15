@@ -1,0 +1,2 @@
+An executable is a computer program written by a programmer and compiled by a compiler (See programming). When it is run, it 'executes' (or does) the actions it was programmed to.
+An example of a compiler is the GNU C Compiler, or GCC for short. It reads in program text written in the computer programming language "C", and converts it into binary machine code, so computers can understand it.

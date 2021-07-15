@@ -1,0 +1,19 @@
+A hydrocarbon is a type of chemical compound. It is made of only hydrogen and carbon atoms.
+They can be found in crude oil and are separated by fractional distillation (which means they are separated into different groups)
+Hydrocarbon "Families".
+Hydrocarbons are grouped into "families" or "homologous series". There are five main families. The hydrocarbons in each family have a general formula and similar physical and chemical properties.
+Alkanes.
+Alkanes are the simplest hydrocarbons. Their general formula is CnH2n+2.
+Alkenes.
+Alkenes are similar to alkanes. The main difference between them is that alkenes have a carbon to carbon double bond. The general formula for the alkenes is CnH2n.
+Note that there is not "Methene". Methene is not possible as alkenes require a carbon-carbon double bond and methane only has one carbon atom.
+Alkynes.
+Alkynes have a carbon to carbon triple bond. CnH2n-2 is their general formula.
+"Methyne" does not exist because of methane's one carbon atom.
+Cycloalkanes.
+Cycloalkanes are isomers of alkenes. They have the same general formula (CnH2n), the only difference is that they do not have a carbon to carbon double bond.
+Note that the alkane Methane and the alkene Ethene do not have a cycloalkane because they can only form a straight line.
+Alkadiene.
+Alkadienes have two carbon to carbon double bonds. Their general formula is CnH2n-2. They are isomers of Alkynes.
+Aromatic Hydrocarbons.
+Aromatic hydrocarbons are aromatic organic molecules that form flat ring-shaped bonds. The most simplest of aromatic hydrocarbons are benzene and indole. They can have one ring, "heterocyclic", like benzene or 2 rings, "bicyclic" like napthalene (primary ingredient in mothballs) or many rings, "polycyclic" like anthracene (red dye colourant).

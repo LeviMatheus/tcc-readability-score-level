@@ -1,0 +1,23 @@
+
+The enthalpy of vaporization (symbol ), also known as the (latent) heat of vaporization or heat of evaporation, is the amount of energy (enthalpy) that must be added to a liquid substance to transform a quantity of that substance into a gas. The enthalpy of vaporization is a function of the pressure at which that transformation takes place.
+The enthalpy of vaporization is often quoted for the normal boiling temperature of the substance. Although tabulated values are usually corrected to 298 K, that correction is often smaller than the uncertainty in the measured value.
+The heat of vaporization is temperature-dependent, though a constant heat of vaporization can be assumed for small temperature ranges and for reduced temperature formula_1formula_2. The heat of vaporization diminishes with increasing temperature and it vanishes completely at a certain point called the critical temperature (formula_3). Above the critical temperature, the liquid and vapor phases are indistinguishable, and the substance is called a supercritical fluid.
+Units.
+Values are usually quoted in J/mol, or kJ/mol (molar enthalpy of vaporization), although kJ/kg, or J/g (specific heat of vaporization), and older units like kcal/mol, cal/g and Btu/lb are sometimes still used among others.
+Enthalpy of condensation.
+The enthalpy of condensation (or heat of condensation) is by definition equal to the enthalpy of vaporization with the opposite sign: enthalpy changes of vaporization are always positive (heat is absorbed by the substance), whereas enthalpy changes of condensation are always negative (heat is released by the substance).
+Thermodynamic background.
+The enthalpy of vaporization can be written as 
+It is equal to the increased internal energy of the vapor phase compared with the liquid phase, plus the work done against ambient pressure. The increase in the internal energy can be viewed as the energy required to overcome the intermolecular interactions in the liquid (or solid, in the case of sublimation). Hence helium has a particularly low enthalpy of vaporization, 0.0845 kJ/mol, as the van der Waals forces between helium atoms are particularly weak. On the other hand, the molecules in liquid water are held together by relatively strong hydrogen bonds, and its enthalpy of vaporization, 40.65 kJ/mol, is more than five times the energy required to heat the same quantity of water from 0 °C to 100 °C ("c"p = 75.3 J/K·mol). Care must be taken, however, when using enthalpies of vaporization to "measure" the strength of intermolecular forces, as these forces may persist to an extent in the gas phase (as is the case with hydrogen fluoride), and so the calculated value of the bond strength will be too low. This is particularly true of metals, which often form covalently bonded molecules in the gas phase: in these cases, the enthalpy of atomization must be used to obtain a true value of the bond energy.
+An alternative description is to view the enthalpy of condensation as the heat which must be released to the surroundings to compensate for the drop in entropy when a gas condenses to a liquid. As the liquid and gas are in equilibrium at the boiling point ("T"b), Δv"G" = 0, which leads to:
+As neither entropy nor enthalpy vary greatly with temperature, it is normal to use the tabulated standard values without any correction for the difference in temperature from 298 K. A correction must be made if the pressure is different from 100 kPa, as the entropy of a gas is proportional to its pressure (or, more precisely, to its fugacity): the entropies of liquids vary little with pressure, as the compressibility of a liquid is small.
+These two definitions are equivalent: the boiling point is the temperature at which the increased entropy of the gas phase overcomes the intermolecular forces. As a given quantity of matter always has a higher entropy in the gas phase than in a condensed phase (formula_6 is always positive), and from
+the Gibbs free energy change falls with increasing temperature: gases are favored at higher temperatures, as is observed in practice.
+Vaporization enthalpy of electrolyte solutions.
+Estimation of the enthalpy of vaporization of electrolyte solutions can be simply carried out using equations based on the chemical thermodynamic models, such as Pitzer model or TCPC model.
+Selected values.
+Elements.
+The vaporization of metals is a key step in metal vapor synthesis, which exploits the increased reactivity of metal atoms or small particles relative to the bulk elements.
+Other common substances.
+Enthalpies of vaporization of common substances, measured at their respective standard boiling points:
+

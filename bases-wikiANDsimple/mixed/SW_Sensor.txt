@@ -1,0 +1,15 @@
+ Definition .
+A sensor is a device that measures a physical quantity and converts it into a signal which can be read by an observer or by an instrument. For example, a mercury thermometer converts the measured temperature into expansion and contraction of a liquid which can be read on a calibrated glass tube.
+Types of sensors.
+There are a lot of different types of sensors. Sensors are used in everyday objects.
+Thermal sensors.
+A sensor that detects temperature. Thermal sensors are found in many laptops and computers in order to sound an alarm when a certain temperature has been exceeded.
+Electromagnetic sensors.
+An electronic device used to measure a physical quantity such as pressure or loudness and convert it into an electronic signal of some kind (e.g a voltage).
+Motion sensors.
+A motion sensor detects physical movement in a given area.
+The trend of sensors.
+Because of certain disadvantages of physical contact sensors, newer technology non-contact sensors have become prevalent in industry, performing well in many applications.
+The recent style of non-contact sensors shows that “Thin(g) is In”. Market trends show that form and size are important.
+Users are looking for smaller and more accurate sensors. New technologies for the sensing chips are breaking application barriers.
+For the future, the trend will be to continue to provide smaller, more affordable sensors that have the flexbility to fit even more applications in both industrial and commercial environments.

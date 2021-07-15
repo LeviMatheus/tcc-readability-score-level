@@ -1,0 +1,5 @@
+Slackware is a Linux distribution which is famous for being stable, fast and suitable for older computers.
+It does not offer any graphical tools for configuration; rather, the user must configure it on his or her own using the command line.
+The most recent version is Slackware 12.1.
+See Also.
+List of Linux distributions

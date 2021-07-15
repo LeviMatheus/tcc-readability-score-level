@@ -1,0 +1,26 @@
+The thermal efficiency (formula_1) is a dimensionless performance measure of a thermal device such as an internal combustion engine, a boiler, or a furnace, for example.
+The input, formula_2, to the device is heat, or the heat-content of a fuel that is consumed. The desired output is mechanical work, formula_3, or heat, formula_4, or possibly both. Because the input heat normally has a real financial cost, a memorable, generic definition of thermal efficiency is
+formula_5
+From the first and second law of thermodynamics, the output can't exceed what is input, so
+formula_6
+When expressed as a percentage, the thermal efficiency must be between 0% and 100%. Due to inefficiencies such as friction, heat loss, and other factors, thermal efficiencies are typically much less than 100%. For example, a typical gasoline automobile engine operates at around 25% thermal efficiency, and a large coal-fueled electrical generating plant peaks at about 36%. In a combined cycle plant thermal efficiencies are approaching 60%.
+Heat engines.
+When transforming thermal energy into mechanical energy, the thermal efficiency of a heat engine is the percentage of energy that is transformed into work. Thermal efficiency is defined as
+formula_7,
+or via the first law of thermodynamics to substitute waste heat rejection for the work produced,
+formula_8.
+For example, when 1000 joules of thermal energy is transformed into 300 joules of mechanical energy (with the remaining 700 joules dissipated as waste heat), the thermal efficiency is 30%.
+Energy conversion.
+For an energy conversion device like a boiler or furnace, the thermal efficiency is
+formula_9.
+So, for a boiler that produces 210 kW (or 700,000 BTU/h) output for each 300 kW (or 1,000,000 BTU/h) heat-equivalent input, its thermal efficiency is 210/300 = 0.70, or 70%. This means that the 30% of the energy is lost to the environment.
+An electric resistance heater has a thermal efficiency of at or very near 100%, so, for example, 1500W of heat are produced for 1500W of electrical input. When comparing heating units, such as a 100% efficient electric resistance heater to an 80% efficient natural gas-fueled furnace, an economic analysis is needed to determine the most cost-effective choice.
+Heat pumps and Refrigerators.
+Heat pumps, refrigerators, and air conditioners, for example, move heat, rather than convert it, so other measures are needed to describe their thermal performance. The common measures are the coefficient-of-performance (COP), energy-efficiency ratio (EER), and seasonal-energy-efficiency ratio (SEER).
+formula_10
+formula_11
+formula_12
+formula_13
+formula_14
+Energy efficiency.
+The 'thermal efficiency' is sometimes called the energy efficiency. In the United States, in everyday usage the SEER is the more common measure of energy efficiency for cooling devices, as well as for heat pumps when in their heating mode. For energy-conversion heating devices their peak steady-state thermal efficiency is often stated, e.g., 'this furnace is 90% efficient', but a more detailed measure of seasonal energy effectiveness is the Annual Fuel Utilization Efficiency (AFUE).

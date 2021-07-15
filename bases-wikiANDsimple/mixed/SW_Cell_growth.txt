@@ -1,0 +1,16 @@
+The term cell growth is used in two different ways in biology.
+When used in the context of reproduction of living cells the phrase "cell growth" is shorthand for the idea of "growth in cell populations by means of cell reproduction".
+During cell reproduction one cell (the "mother" cell) divides to produce two daughter cells.
+Cell populations.
+Cell populations go through a type of exponential growth called doubling. Thus, each generation of cells should be twice as numerous as the previous generation. But not all cells survive in each generation, as written by Richard Dawkins in 1997.
+Cell size.
+The relationship between cell size and cell division has been extensively studied in yeast. For some cells, there is a mechanism by which cell division does not begin until a cell has reached a certain size.
+Cell reproduction.
+Cell reproduction is asexual.
+The process of cell reproduction has three major parts. The first part of cell reproduction involves the replication of the parental cell's DNA. The second major issue is the separation of the duplicated DNA into two equally sized groups of chromosomes. The third major aspect of cell reproduction is the physical division of entire cells, usually called cytokinesis.
+Cell reproduction is more complex in eukaryotes than in other organisms. Prokaryotic cells such as bacterial cells reproduce by binary fission, a process that includes DNA replication, chromosome segregation, and cytokinesis. Eukaryotic cell reproduction either involves mitosis or a more complex process called meiosis. Mitosis and meiosis are sometimes called the two "nuclear division" processes.
+Comparison of the three types of cell reproduction.
+The DNA content of a cell is duplicated at the start of the cell reproduction process. Prior to DNA replication, the DNA content of a cell can be represented as the amount Z (the cell has Z chromosomes). After the DNA replication process, the amount of DNA in the cell is 2Z (multiplication: 2 x Z = 2Z). During Binary fission and mitosis the duplicated DNA content of the reproducing parental cell is separated into two equal halves that are destined to end up in the two daughter cells. The final part of the cell reproduction process is cell division, when daughter cells physically split apart from a parental cell. During meiosis, there are two cell division steps that together produce the four daughter cells.
+Immediately after DNA replication a human cell will have 46 "double chromosomes". In each double chromosome there are two copies of that chromosome's DNA molecule. During mitosis the double chromosomes are split to produce 92 "single chromosomes", half of which go into each daughter cell. During meiosis, there are two chromosome separation steps which assure that each of the four daughter cells gets one copy of each of the 23 types of chromosome.
+Sexual reproduction.
+Cell reproduction that uses mitosis can reproduce eukaryotic cells. Eukaryotes bother with the more complicated process of meiosis because sexual reproduction such as meiosis confers a selective advantage.

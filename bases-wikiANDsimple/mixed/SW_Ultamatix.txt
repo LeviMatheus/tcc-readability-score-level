@@ -1,0 +1,5 @@
+Ultamatix is a computer program to install other programs on Ubuntu and Debian-based distributions.
+History.
+Since the development of Automatix has ended, Ultamatix was developed to provide user an easy way to install software on their Ubuntu systems.
+Supported Software.
+Many software/features can be installed with Ultamatix, including programs such as the Flash plugin, Adobe Reader, multimedia codecs (including MP3, Windows Media Audio and video-DVD support), fonts, programming software (compilers) and games.

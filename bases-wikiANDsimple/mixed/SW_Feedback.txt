@@ -1,0 +1,14 @@
+Feedback is when the effect of a process (or things that come out of it) have a connection to its cause (or things that go in to it).
+Feedback loops.
+In many situations output affects subsequent input and hence forms what is called a "feedback loop". In some cases the output reinforces the input; this is typically called self-reinforcing, positive, runaway or amplifying. In other cases the output cancels some of the input; this is typically called a negative feedback loop.
+Example of positive feedback.
+Consider a sound system with input from a microphone and output to a loudspeaker. If the sound coming from the loudspeaker is picked up by the microphone, a loop is created. Within a fraction of a second, a very loud noise is created.
+This is an example of a positive feedback loop: the output reinforces the input.
+Example of negative feedback.
+Consider a water tank with an outlet and a float operated inlet valve. When water flows out it causes the float to sink, opening the inlet valve. When water flows in it causes the float to rise, closing the inlet valve.
+This is an example of a negative feedback loop: the output (float rising) acts to reduce the input.
+The runaway global warming hypothesis.
+Warm temperature caused a glacier to melt. As the glacier melts, areas that were at one time covered by snow and ice are now water or land. Because snow and ice reflect heat but water and land absorb heat, this causes the glacier to melt faster as more snow and ice is melted.
+There are actually many such feedback loops affecting the melting of glaciers, and other aspects of global temperature, some positive and some negative (some speeding up the warming, some slowing it down). It is possible to sum all of these, at least in principle, and some scientists believe the net result of current global processes is a positive -- i.e. runaway -- feedback loop.
+Cybernetics.
+American mathematician Norbert Wiener made feedback loops more well known in 1948 in his book "Cybernetics". Cybernetics is the study of feedback loops and their role in communication and control.

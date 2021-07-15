@@ -1,0 +1,21 @@
+
+In abstract algebra, the center of a group, , is the set of elements that commute with every element of . It is denoted , from German "Zentrum," meaning "center". In set-builder notation,
+The center is a normal subgroup, . As a subgroup, it is always characteristic, but is not necessarily fully characteristic. The quotient group, , is isomorphic to the inner automorphism group, .
+A group is abelian if and only if . At the other extreme, a group is said to be centerless if is trivial; i.e., consists only of the identity element.
+The elements of the center are sometimes called central.
+As a subgroup.
+The center of "G" is always a subgroup of . In particular:
+Furthermore, the center of is always a normal subgroup of . Since all elements of commute, it is closed under conjugation.
+Conjugacy classes and centralizers.
+By definition, the center is the set of elements for which the conjugacy class of each element is the element itself; i.e., }.
+The center is also the intersection of all the centralizers of each element of . As centralizers are subgroups, this again shows that the center is a subgroup.
+Conjugation.
+Consider the map, , from to the automorphism group of defined by , where is the automorphism of defined by 
+The function, is a group homomorphism, and its kernel is precisely the center of , and its image is called the inner automorphism group of , denoted . By the first isomorphism theorem we get,
+The cokernel of this map is the group of outer automorphisms, and these form the exact sequence
+Higher centers.
+Quotienting out by the center of a group yields a sequence of groups called the upper central series:
+The kernel of the map is the th center of (second center, third center, etc.) and is denoted . Concretely, the ()-st center are the terms that commute with all elements up to an element of the th center. Following this definition, one can define the 0th center of a group to be the identity subgroup. This can be continued to transfinite ordinals by transfinite induction; the union of all the higher centers is called the hypercenter.
+The ascending chain of subgroups
+stabilizes at "i" (equivalently, ) if and only if is centerless.
+

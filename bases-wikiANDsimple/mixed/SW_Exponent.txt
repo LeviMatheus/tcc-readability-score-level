@@ -1,0 +1,4 @@
+An exponent is the number of times another number is multiplied by itself in exponentiation.
+The exponent in formula_1 is 3. This can also be written as formula_2.
+The exponent in formula_3 is 5. This can also be written as formula_4.
+Exponents are used in algebra.

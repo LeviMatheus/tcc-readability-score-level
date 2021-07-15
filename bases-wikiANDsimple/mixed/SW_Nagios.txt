@@ -1,0 +1,4 @@
+Nagios () is a popular open source computer system and network monitoring application software. It watches hosts and services that you specify, alerting you when things go bad and again when they get better.
+Nagios, originally created under the name, was written and is currently maintained by Ethan Galstad, along with a group of developers actively maintaining both official and unofficial plugins.
+Nagios was originally designed to run under Linux, but also runs well on other Unix variants.
+Nagios is free software licensed under the terms of the GNU General Public License version 2 as published by the Free Software Foundation.

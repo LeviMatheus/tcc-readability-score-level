@@ -1,0 +1,17 @@
+
+No true Scotsman, or appeal to purity, is an informal fallacy in which one attempts to protect their universal generalization from a falsifying counterexample by excluding the counterexample improperly. Rather than abandoning the falsified universal generalization or providing evidence that would disqualify the falsifying counterexample, a slightly modified generalization is constructed ad-hoc to definitionally exclude the undesirable specific case and counterexamples like it by appeal to rhetoric. This rhetoric takes the form of emotionally charged but nonsubstantive purity platitudes such as "true, pure, genuine, authentic, real", etc.
+Philosophy professor Bradley Dowden explains the fallacy as an "ad hoc rescue" of a refuted generalization attempt. The following is a simplified rendition of the fallacy:
+&lt;poem style="margin-left: 2em;"&gt;
+Person A: "No Scotsman puts sugar on his porridge."
+Person B: "But my uncle Angus is a Scotsman and he puts sugar on his porridge."
+Person A: "But no "true" Scotsman puts sugar on his porridge."&lt;/poem&gt;
+Regular use.
+The No true Scotsman is committed when the arguer satisfies the following conditions: 
+An appeal to purity is commonly associated with protecting a preferred group. Scottish national pride may be at stake if someone regularly considered to be Scottish commits a heinous crime. To protect people of Scottish heritage from a possible accusation of guilt by association, one may use this fallacy to deny that the group is associated with this undesirable member or action. "No Scotsman would do something so undesirable"; i.e. the people who would do such a thing are tautologically (definitionally) excluded from being part of our group such that they cannot serve as a counter-example to the group's good nature. 
+Origin and literature.
+The description of the fallacy in this form is attributed to British philosopher Antony Flew, because the term originally appeared in Flew's 1971 book "An Introduction to Western Philosophy". In his 1975 book "Thinking About Thinking", he wrote:
+In his 1966 book "God &amp; Philosophy", Flew described the "No-true-Scotsman Move":
+The essayist David P. Goldman, writing under his pseudonym "Spengler," compared distinguishing between "mature" democracies, which never start wars, and "emerging democracies", which may start them, with the "no true Scotsman" fallacy. Spengler alleges that political scientists have attempted to save the "US academic dogma" that democracies never start wars against other democracies from counterexamples by declaring any democracy which does indeed start a war against another democracy to be flawed, thus maintaining that no democracy starts a war against a fellow democracy.
+Non-fallacious usage.
+Robert Anderson argues that the phrase "no true Scotsman" is not always fallacious: it depends on the syntactical context of the term "true" inserted into the phrase "no Scotsman".
+

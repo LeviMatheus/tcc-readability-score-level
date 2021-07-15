@@ -1,0 +1,5 @@
+
+The local presence of nuclear radiation arising from the radioactive decay of radionuclides.
+The unit of radioactivity from the System International of units (SI system) is the becquerel (Bq) defined as the radioactive decay or disintegration of one radionuclide per second.
+Radioactivity is a measure of the total, local rate of radionuclides decaying per unit time and is dependent upon the total number of atoms, decay constants, and all decay branching pathways for each radionuclide present. See sections under radioactive decay entitled, "units of radioactivity" and "radioactive decay rates." For the origin and levels of radioactivity seen in all earth-bound measurements arising from cosmic and terrestrial radionuclides see background radiation.
+

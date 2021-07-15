@@ -1,0 +1,5 @@
+The foot-pound force (symbol: ft·lbf), or simply foot-pound (symbol: ft·lb), is a unit of energy and also a unit of torque. By definition it is one foot times one pound-force.
+Unit of energy.
+As a unit of energy, one foot-pound is energy it takes to push with one pound-force for one a distance of foot.
+Unit of torque.
+As a unit of torque, one foot-pound is the torque created by one pound force acting at a perpendicular distance of one foot from a pivot point.

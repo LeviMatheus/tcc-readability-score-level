@@ -1,0 +1,37 @@
+
+The Art of Computer Programming (TAOCP) is a comprehensive monograph written by computer scientist Donald Knuth that covers many kinds of programming algorithms and their analysis.
+Knuth began the project, originally conceived as a single book with twelve chapters, in 1962. The first three volumes of what was then expected to be a seven-volume set were published in 1968, 1969, and 1973. Work began in earnest on Volume 4 in 1973, but was suspended in 1977 for work on typesetting. Writing of the final copy of Volume 4A began in longhand in 2001, and the first online pre-fascicle, 2A, appeared later in 2001. The first published installment of Volume 4 appeared in paperback as Fascicle 2 in 2005.
+The hardback Volume 4A, combining Volume 4, Fascicles 0–4, was published in 2011. Volume 4, Fascicle 6 ("Satisfiability") was released in December 2015; Volume 4, Fascicle 5 ("Mathematical Preliminaries Redux; Backtracking; Dancing Links") was released in November 2019.
+Fascicles 5 and 6 are expected to make up the first two-thirds of Volume 4B. Knuth has not announced any estimated date for release of Volume 4B, although his method used for Volume 4A is to release the hardback volume sometime after release of the paperback fascicles contained in it. Near-term publisher estimates put the release date at May or June 2019, which proved to be incorrect.
+History.
+After winning a Westinghouse Talent Search scholarship, Knuth enrolled at the Case Institute of Technology (now Case Western Reserve University), where his performance was so outstanding that the faculty voted to award him a master of science upon his completion of the baccalaureate degree. During his summer vacations, Knuth was hired by the Burroughs Corporation to write compilers, earning more in his summer months than full professors did for an entire year. Such exploits made Knuth a topic of discussion among the mathematics department, which included Richard S. Varga.
+In January 1962, when he was a graduate student in the mathematics department at Caltech, Knuth was approached by Addison-Wesley to write a book about compiler design, and he proposed a larger scope. He came up with a list of 12 chapter titles the same day. In the summer of 1962 he worked on a FORTRAN compiler for UNIVAC. During this time, he also came up with a mathematical analysis of linear probing, which convinced him to present the material with a quantitative approach. After receiving his PhD in June 1963, he began working on his manuscript, of which he finished his first draft in June 1965, at hand-written pages. He had assumed that about five hand-written pages would translate into one printed page, but his publisher said instead that about hand-written pages translated to one printed page. This meant he had approximately printed pages of material, which closely matches the size of the first three published volumes. The publisher was nervous about accepting such a project from a graduate student. At this point, Knuth received support from Richard S. Varga, who was the scientific adviser to the publisher. Varga was visiting Olga Taussky-Todd and John Todd at Caltech. With Varga's enthusiastic endorsement, the publisher accepted Knuth's expanded plans. In its expanded version, the book would be published in seven volumes, each with just one or two chapters. Due to the growth in the material, the plan for Volume 4 has since expanded to include Volumes 4A, 4B, 4C, 4D, and possibly more.
+In 1976, Knuth prepared a second edition of Volume 2, requiring it to be typeset again, but the style of type used in the first edition (called hot type) was no longer available. In 1977, he decided to spend some time creating something more suitable. Eight years later, he returned with TEX, which is currently used for all volumes.
+The offer of a so-called Knuth reward check worth "one hexadecimal dollar" (100HEX base 16 cents, in decimal, is $2.56) for any errors found, and the correction of these errors in subsequent printings, has contributed to the highly polished and still-authoritative nature of the work, long after its first publication. Another characteristic of the volumes is the variation in the difficulty of the exercises. Knuth even has a numerical difficulty scale for rating those exercises, varying from 0 to 50, where 0 is trivial, and 50 is an open question in contemporary research.
+Knuth's dedication reads:
+This series of books is affectionately dedicated&lt;br&gt;to the Type 650 computer once installed at&lt;br&gt;Case Institute of Technology,&lt;br&gt;with whom I have spent many pleasant evenings.
+Assembly language in the book.
+All examples in the books use a language called "MIX assembly language", which runs on the hypothetical MIX computer. Currently, the MIX computer is being replaced by the MMIX computer, which is a RISC version. Software such as GNU MDK exists to provide emulation of the MIX architecture. Knuth considers the use of assembly language necessary for the speed and memory usage of algorithms to be judged.
+Critical response.
+Knuth was awarded the 1974 Turing Award "for his major contributions to the analysis of algorithms […], and in particular for his contributions to the 'art of computer programming' through his well-known books in a continuous series by this title." "American Scientist" has included this work among "100 or so Books that shaped a Century of Science", referring to the twentieth century, and within the computer science community it is regarded as the first and still the best comprehensive treatment of its subject. Covers of the third edition of Volume 1 quote Bill Gates as saying, "If you think you're a really good programmer… read (Knuth's) "Art of Computer Programming"… You should definitely send me a résumé if you can read the whole thing." "The New York Times" referred to it as "the profession's defining treatise".
+Chapter outlines.
+Planned.
+Volume 5 – Syntactic Algorithms.
+", estimated for release in 2025"
+English editions.
+Current editions.
+These are the current editions in order by volume number:
+Previous editions.
+Complete volumes.
+These volumes were superseded by newer editions and are in order by date.
+Fascicles.
+Volume 4 fascicles 0–4 were revised and published as Volume 4A:
+Volume 4 fascicles 5–6 will become part of Volume 4B:
+Pre-fascicles.
+Volume 4 pre-fascicles 5A, 5B, and 5C were revised and published as fascicle 5.
+Volume 4 pre-fascicle 6A was revised and published as fascicle 6.
+References.
+Notes
+Citations
+Sources
+

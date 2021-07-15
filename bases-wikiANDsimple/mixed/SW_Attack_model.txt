@@ -1,0 +1,1 @@
+The ciphertext-only attack model is the weakest because it implies that the cryptanalyst has just the encoded message.

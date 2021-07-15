@@ -1,0 +1,29 @@
+
+Foonly Inc. was an American computer company formed by Dave Poole in 1976, that produced a series of "DEC PDP-10" compatible mainframe computers, named "Foonly F1" to "Foonly F5".
+The first and most famous Foonly machine, the "F1", was the computer used by Triple-I to create some of the computer-generated imagery in the 1982 film "Tron".
+History.
+At the beginning of the 1970s, the Stanford Artificial Intelligence Laboratory (SAIL) began to study the building of a new computer to replace their "DEC PDP-10 KA-10", by a far more powerful machine, with a funding of the DARPA. This project was named "Super-Foonly", and was developed by a team led by Phil Petit, Jack Holloway, and Dave Poole.
+In 1974, the DARPA cut the funding, and a large part of the team went to DEC to develop the "PDP-10 model KL10", based on the "Super-Foonly project".
+But Dave Poole, with Phil Petit and Jack Holloway, preferred to found the Foonly Company in 1976, to try to build a series of computers based on the "Super-Foonly project".
+During the early 1980s, after the releasing of their first and only F1, Foonly built and sold some F2, F4 and F5 low cost DEC PDP-10 compatible machines.
+In 1983, after the cancellation of the Jupiter project, Foonly tried to propose a new "Foonly F1", but it was eclipsed by the "SC Group" company and their "Mars project", and the company never quite recovered.
+Computers.
+The Foonly F1.
+The Foonly F1 was the first and most powerful Foonly computer, but also the only one being built of its kind. It was based on the "Super-Foonly project" designs, aimed to be the fastest DEC PDP-10 compatible, but using ECL gates rather than TTL, and without the extended instruction set.
+It was developed with the help of Triple-I, its first customer, and began operations in 1978.
+The computer consisted of 4 cabinets :
+It was able to reach 4.5 MIPS.
+The F1 is mostly famous to have been the computer behind some of the Computer-generated imagery of the Disney 1982 Tron movie, and also Looker (1981).
+After that, the computer was bought by the Canadian Omnibus Computer Graphics company, and was used on some movies, such as TV logos for CBC, CTV, and Global Television Network channels, opening titles for the show Hockey Night in Canada,
+ (1984), Flight of the Navigator (1986), Captain Power and the Soldiers of the Future TV series (1987), and Marilyn Monrobot.
+Other models.
+Unlike the F1, the other models (F2, F4, F4B, F5) were
+F2.
+Foonly described the F2 as "a powerful mainframe at a minicomputer price," "with an average execution speed about 25% of that of the DECSYSTEM-2060."
+Peripherals.
+Standard equipment:
+Software.
+The Foonly machines, which could run the TENEX operating system, came with a derivative thereof, FOONEX.
+Tymshare.
+Tymshare attempted marketing the Foonly line, using the name "Tymshare XX Series Computer Family" of which the "Tymshare System XXVI" was the main focus.
+

@@ -1,0 +1,3 @@
+Cumulative voting is a system for doing an election. There are a certain number of choices. Each voter has a certain number of points he or she can spread over the choices. That way it is possible to choose more than one option, and to weigh the choices.
+Cumulative voting is used to elect representatives in many companies. It is also used to elect some governments. Switzerland and Germany use it for some elections.
+It will lead to a proportional representation.

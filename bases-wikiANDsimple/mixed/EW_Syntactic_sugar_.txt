@@ -1,0 +1,23 @@
+
+In computer science, syntactic sugar is syntax within a programming language that is designed to make things easier to read or to express. It makes the language "sweeter" for human use: things can be expressed more clearly, more concisely, or in an alternative style that some may prefer.
+For example, many programming languages provide special syntax for referencing and updating array elements. Abstractly, an array reference is a procedure of two arguments: an array and a subscript vector, which could be expressed as codice_1. Instead, many languages provide syntax such as codice_2. Similarly an array element update is a procedure consisting of three arguments, for example codice_3, but many languages provide syntax such as codice_4.
+A construct in a language is syntactic sugar if it can be removed from the language without any effect on what the language can do: functionality and expressive power will remain the same.
+Language processors, including compilers and static analyzers, often expand sugared constructs into more fundamental constructs before processing, a process sometimes called "desugaring".
+Origins.
+The term "syntactic sugar" was coined by Peter J. Landin in 1964 to describe the surface syntax of a simple ALGOL-like programming language which was defined semantically in terms of the applicative expressions of lambda calculus, centered on lexically replacing λ with "where".
+Later programming languages, such as CLU, ML and Scheme, extended the term to refer to syntax within a language which could be defined in terms of a language core of essential constructs; the convenient, higher-level features could be "desugared" and decomposed into that subset. This is, in fact, the usual mathematical practice of building up from primitives.
+Building on Landin's distinction between essential language constructs and syntactic sugar, in 1991, Matthias Felleisen proposed a codification of "expressive power" to align with "widely held beliefs" in the literature. He defined "more expressive" to mean that without the language constructs in question, a program would have to be completely reorganized.
+Criticism.
+Some programmers feel that these syntax usability features are either unimportant or outright frivolous. Notably, special syntactic forms make a language less uniform and its specification more complex, and may cause problems as programs become large and complex. This view is particularly widespread in the Lisp community, as Lisp has very simple and regular syntax, and the surface syntax can easily be modified.
+For example, Alan Perlis once quipped in "Epigrams on Programming", in a reference to bracket-delimited languages, that "Syntactic sugar causes cancer of the semi-colons".
+Derivative terms.
+Syntactic salt.
+The metaphor has been extended by coining the term "syntactic salt", which indicates a feature designed to make it harder to write bad code. Specifically, syntactic salt is a hoop that programmers must jump through just to prove that they know what is going on, rather than to express a program action. For example, in Java and Pascal assigning a float value to a variable declared as an int without additional syntax explicitly stating that intention will result in a compile error, while C and C++ will automatically truncate any floats assigned to an int. However this is not syntax, but semantics.
+In C#, when hiding an inherited class member, a compiler warning is issued unless the codice_38 keyword is used to specify that the hiding is intentional. To avoid potential bugs owing to the similarity of the switch statement syntax with that of C or C++, C# requires a codice_39 for each non-empty codice_40 label of a codice_41 (unless codice_42, codice_43, or codice_44 is used) even though it does not allow implicit "fall-through". (Using codice_42 and specifying the subsequent label produces a C/C++-like "fall-through".)
+Syntactic salt may defeat its purpose by making the code unreadable and thus worsen its quality – in extreme cases, the essential part of the code may be shorter than the overhead introduced to satisfy language requirements.
+An alternative to syntactic salt is generating compiler warnings when there is high probability that the code is a result of a mistake – a practice common in modern C/C++ compilers.
+Syntactic saccharin.
+Other extensions are "syntactic saccharin" and "syntactic syrup", meaning gratuitous syntax that does not make programming any easier.
+Sugared types.
+Data types with core syntactic support are said to be "sugared types." Common examples include quote-delimited strings, curly braces for object and record types, and square brackets for Arrays.
+

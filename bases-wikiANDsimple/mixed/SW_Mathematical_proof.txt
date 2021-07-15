@@ -1,0 +1,10 @@
+A mathematical proof is a way to show that a math theorem is true. One must show that the theory is true in all cases.
+Examples.
+Prove that x = -b ± (√b² - 4ac) / 2a from ax²+bx+c=0
+The quadratic equation is now in a form in which completing the square can be done.
+To "complete the square" is to find some number "k" so that
+for another number "y". In order for these equations to be true,
+Adding this number to equation (1) makes
+The left side is now a perfect square because
+The right side can be written as a single fraction, with common denominator 4"a"2. This gives
+Taking the square root of both sides gives

@@ -1,0 +1,4 @@
+
+In telecommunication, a cord circuit is a switchboard circuit in which a plug-terminated cord is used to establish connections manually between user lines or between trunks and user lines. A number of cord circuits are furnished as part of the switchboard position equipment. The cords may be referred to as front cord and rear cord or trunk cord and station cord. In modern cordless switchboards, the cord-circuit function is switch operated and may be programmable.
+In early and middle 20th century telephone exchanges this task was done by a supervisory relay set known variously as junctor circuit or district junctor. Later designs made it a function of the trunk circuit or absorbed it into software.
+

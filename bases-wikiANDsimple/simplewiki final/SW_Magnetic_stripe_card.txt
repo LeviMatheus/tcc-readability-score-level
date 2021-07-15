@@ -1,0 +1,4 @@
+A Magnetic stripe card is a plastic card which has a magnetic stripe on it. Different kinds of information can be stored on the magnetic stripe. Such stripes are usually made of small particles of iron (or another metal). Information is stored by changing the magnetism of the particles.
+Today such cards are widely used for
+Different formats exist. They specify in what way the data is stored on the card.
+Similar cards, which can also do calculations themselves, are called Smart cards

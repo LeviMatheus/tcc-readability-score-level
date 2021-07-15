@@ -1,0 +1,6 @@
+Colorimeter is a device used for colorimetry. It measures the absorbance of different wavelengths of light in a solution. It is used to measure the concentration of a known solute.
+Different chemical substances absorb different wavelengths of light. When the concentration of the solute is more, it absorbs more light in a specific wavelength. This is known as Beer-Lambert law.
+Filters.
+Different filters are used to select the wavelength of light which the solution absorbs the most. This makes the colorimeter more accurate. Solutions are usually placed in glass or plastic couvettes. The usual wavelengths used are between 400 and 700 nanometers. If it is necessary to use ultraviolet light (below 400 nanometers) then the lamp and filters must be changed.
+Output.
+The output of the colorimeter may be shown in graphs or tables, by an analogue or digital meter. The data may be printed on paper, or stored in a computer. It either shows the amount of light which is absorbed by the solution, or the amount of light which has passed through the solution.

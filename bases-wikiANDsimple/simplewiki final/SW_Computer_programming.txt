@@ -1,0 +1,6 @@
+Computer programming is the process of making a program to run on a computer or console-based system. A computer program, or software, is written in one of many "programming languages".
+Compiler.
+A compiler is a program that turns a finished program script into a proper program that can be run. Some programs actually help make the script - these are called IDEs - Visual Basic and REALBasic are two examples.
+Executables.
+'Executables' are computer programs that run when a user clicks or double-clicks on them on a computer. They often end with '.exe', if the program is made for Windows.
+These are the finished product of a program. The IDE makes this program from the script that is given to it.

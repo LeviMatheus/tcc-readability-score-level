@@ -1,0 +1,47 @@
+
+Referential transparency and referential opacity are properties of parts of computer programs. An expression is called referentially transparent if it can be replaced with its corresponding value (and vice-versa) without changing the program's behavior. This requires that the expression be pure, that is to say the expression value must be the same for the same inputs and its evaluation must have no side effects. An expression that is not referentially transparent is called referentially opaque.
+In mathematics all function applications are referentially transparent, by the definition of what constitutes a mathematical function. However, this is not always the case in programming, where the terms procedure and method are used to avoid misleading connotations. In functional programming only referentially transparent functions are considered. Some programming languages provide means to guarantee referential transparency. Some functional programming languages enforce referential transparency for all functions.
+The importance of referential transparency is that it allows the programmer and the compiler to reason about program behavior as a rewrite system. This can help in proving correctness, simplifying an algorithm, assisting in modifying code without breaking it, or optimizing code by means of memoization, common subexpression elimination, lazy evaluation, or parallelization.
+History.
+The concept seems to have originated in Alfred North Whitehead and Bertrand Russell's "Principia Mathematica" (1910–13). It was adopted in analytical philosophy by Willard Van Orman Quine. In §30 of "Word and Object" (1960) Quine gives this definition:
+A mode of containment φ is referentially transparent if, whenever an occurrence of a singular term t is purely referential in a term or sentence ψ(t), it is purely referential also in the containing term or sentence φ(ψ(t)).
+The term appeared in its contemporary computer science usage, in the discussion of variables in programming languages, in Christopher Strachey's seminal set of lecture notes "Fundamental Concepts in Programming Languages" (1967). The lecture notes referenced Quine's "Word and Object" in the bibliography.
+Examples and counterexamples.
+If all functions involved in the expression are pure functions, then the expression is referentially transparent.
+Consider a function that returns the input from some source. In pseudocode, a call to this function might be codice_1 where codice_2 might identify a particular disk file, the keyboard, etc. Even with identical values of codice_2, the successive return values will be different. Therefore, function codice_4 is neither deterministic nor referentially transparent.
+A more subtle example is that of a function that has a free variable, i.e., depends on some input that is not explicitly passed as a parameter. This is then resolved according to name binding rules to a non-local variable, such as a global variable, a variable in the current execution environment (for dynamic binding), or a variable in a closure (for static binding). Since this variable can be altered without changing the values passed as parameter, the results of subsequent calls to the function may differ even if the parameters are identical. However, in pure functional programming, destructive assignment is not allowed, and thus if the free variable is statically bound to a value, the function is still referentially transparent, as neither the non-local variable nor its value can change, due to static binding and immutability, respectively.
+Arithmetic operations are referentially transparent: codice_5 can be replaced by codice_6, for instance. In fact, all functions in the mathematical sense are referentially transparent: codice_7 is transparent, since it will always give the same result for each particular codice_8.
+Reassignments are not transparent. For instance, the C expression codice_9 changes the value assigned to the variable codice_8. Assuming codice_8 initially has value codice_12, two consecutive evaluations of the expression yield, respectively, codice_13 and codice_14. Clearly, replacing codice_9 with either codice_13 or codice_14 gives a program with different meaning, and so the expression is not referentially transparent. However, calling a function such as "is" transparent, as it will not implicitly change the input codice_8 and thus has no such side effects.
+codice_19 is not transparent, as if you evaluate it and replace it by its value (say, codice_20), you don't get the same result as you will if you run it tomorrow. This is because it depends on a state (the date).
+In languages with no side-effects, like Haskell, we can substitute equals for equals: i.e. if codice_21 then codice_22. This is a property also known as indistinguishable identicals. Such properties need not hold in general for languages with side-effects. Even so it is important to limit such assertions to so-called judgmental equality, that is the equality of the terms as tested by the system, not including user-defined equivalence for types. For instance, if codice_23 and the type codice_24 has overridden the notion of equality, e.g. making all terms equal, then it is possible to have codice_21 and yet find codice_26. This is because systems like Haskell do not verify that functions defined on types with user-defined equivalence relations be well-defined with respect to that equivalence. Thus the referential transparency is limited to types without equivalence relations. Extending referential transparency to user-defined equivalence relations can be done for example with a Martin-Lof identity type, but requires a dependently typed system such as in Agda, Coq or Idris.
+Contrast to imperative programming.
+If the substitution of an expression with its value is valid only at a certain point in the execution of the program, then the expression is not referentially transparent. The definition and ordering of these sequence points are the theoretical foundation of imperative programming, and part of the semantics of an imperative programming language.
+However, because a referentially transparent expression can be evaluated at any time, it is not necessary to define sequence points nor any guarantee of the order of evaluation at all. Programming done without these considerations is called purely functional programming.
+One advantage of writing code in a referentially transparent style is that given an intelligent compiler, static code analysis is easier and better code-improving transformations are possible automatically. For example, when programming in C, there will be a performance penalty for including a call to an expensive function inside a loop, even if the function call could be moved outside of the loop without changing the results of the program. The programmer would be forced to perform manual code motion of the call, possibly at the expense of source code readability. However, if the compiler is able to determine that the function call is referentially transparent, it can perform this transformation automatically.
+The primary disadvantage of languages that enforce referential transparency is that they make the expression of operations that naturally fit a sequence-of-steps imperative programming style more awkward and less concise. Such languages often incorporate mechanisms to make these tasks easier while retaining the purely functional quality of the language, such as definite clause grammars and monads.
+Another example.
+As an example, let's use two functions, one which is referentially transparent, and the other which is referentially opaque:
+int g = 0;
+int rt(int x) {
+ return x + 1;
+int ro(int x) {
+ g++;
+ return x + g;
+The function codice_27 is referentially transparent, which means that if codice_21 then codice_29. For instance, codice_30. However, we cannot say any such thing for codice_31 because it uses a global variable that it modifies.
+The referential opacity of codice_31 makes reasoning about programs more difficult. For example, say we wish to reason about the following statement:
+int i = ro(x) + ro(y) * (ro(x) - ro(x));
+One may be tempted to simplify this statement to:
+int i = ro(x) + ro(y) * 0;
+int i = ro(x) + 0;
+int i = ro(x);
+However, this will not work for codice_31 because each occurrence of codice_34 evaluates to a different value. Remember that the return value of codice_31 is based on a global value that is not passed in and which gets modified on each call to codice_31. This means that mathematical identities such as no longer hold.
+Such mathematical identities "will" hold for referentially transparent functions such as codice_27.
+However, a more sophisticated analysis can be used to simplify the statement to:
+int tmp = g; int i = x + tmp + 1 + (y + tmp + 2) * (x + tmp + 3 - (x + tmp + 4)); g = g + 4;
+int tmp = g; int i = x + tmp + 1 + (y + tmp + 2) * (x + tmp + 3 - x - tmp - 4)); g = g + 4;
+int tmp = g; int i = x + tmp + 1 + (y + tmp + 2) * (-1); g = g + 4;
+int tmp = g; int i = x + tmp + 1 - y - tmp - 2; g = g + 4;
+int i = x - y - 1; g = g + 4;
+This takes more steps and requires a degree of insight into the code infeasible for compiler optimization.
+Therefore, referential transparency allows us to reason about our code which will lead to more robust programs, the possibility of finding bugs that we couldn't hope to find by testing, and the possibility of seeing opportunities for optimization.
+

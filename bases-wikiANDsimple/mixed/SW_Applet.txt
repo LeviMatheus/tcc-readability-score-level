@@ -1,0 +1,1 @@
+An applet is a type of program for computers. It is software. Very often, applets are written in Java. People run them in their Web browser. They are used to display a nice scrolling menu on a website, for example, the applet is also used to show some applications.

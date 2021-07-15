@@ -1,0 +1,45 @@
+
+In mathematics, the empty set is the unique set having no elements; its size or cardinality (count of elements in a set) is zero. Some axiomatic set theories ensure that the empty set exists by including an axiom of empty set, while in other theories, its existence can be deduced. Many possible properties of sets are vacuously true for the empty set.
+In some textbooks and popularizations, the empty set is referred to as the "null set". However, "null set" is a distinct notion within the context of measure theory, in which it describes a set of measure zero (which is not necessarily empty). The empty set may also be called the "void set".
+Notation.
+Common notations for the empty set include "{}", "formula_1", and "∅". The latter two symbols were introduced by the Bourbaki group (specifically André Weil) in 1939, inspired by the letter Ø in the Danish and Norwegian alphabets. In the past, "0" was occasionally used as a symbol for the empty set, but this is now considered to be an improper use of notation.
+The symbol ∅ is available at Unicode point U+2205. It can be coded in HTML as &amp;empty; and as &amp;#8709;. It can be coded in LaTeX as \varnothing. The symbol formula_1 is coded in LaTeX as \emptyset.
+When writing in languages such as Danish and Norwegian, where the empty set character may be confused with the alphabetic letter Ø (as when using the symbol in linguistics), the Unicode character U+29B0 REVERSED EMPTY SET ⦰ may be used instead.
+Properties.
+In standard axiomatic set theory, by the principle of extensionality, two sets are equal if they have the same elements. As a result, there can be only one set with no elements, hence the usage of "the empty set" rather than "an empty set".
+The following lists document of some of the most notable properties related to the empty set. For more on the mathematical symbols used therein, see "List of mathematical symbols".
+For any set "A":
+The empty set has the following properties:
+The connection between the empty set and zero goes further, however: in the standard set-theoretic definition of natural numbers, sets are used to model the natural numbers. In this context, zero is modelled by the empty set.
+For any property "P":
+Conversely, if for some property "P" and some set "V", the following two statements hold:
+then "V" = ∅.
+By the definition of subset, the empty set is a subset of any set "A". That is, "every" element "x" of formula_10 belongs to "A". Indeed, if it were not true that every element of formula_10 is in "A", then there would be at least one element of formula_10 that is not present in "A". Since there are "no" elements of formula_10 at all, there is no element of formula_10 that is not in "A". Any statement that begins "for every element of formula_10" is not making any substantive claim; it is a vacuous truth. This is often paraphrased as "everything is true of the elements of the empty set."
+Operations on the empty set.
+When speaking of the sum of the elements of a finite set, one is inevitably led to the convention that the sum of the elements of the empty set is zero. The reason for this is that zero is the identity element for addition. Similarly, the product of the elements of the empty set should be considered to be one (see empty product), since one is the identity element for multiplication.
+A derangement is a permutation of a set without fixed points. The empty set can be considered a derangement of itself, because it has only one permutation (formula_18), and it is vacuously true that no element (of the empty set) can be found that retains its original position.
+In other areas of mathematics.
+Extended real numbers.
+Since the empty set has no member when it is considered as a subset of any ordered set, every member of that set will be an upper bound and lower bound for the empty set. For example, when considered as a subset of the real numbers, with its usual ordering, represented by the real number line, every real number is both an upper and lower bound for the empty set. When considered as a subset of the extended reals formed by adding two "numbers" or "points" to the real numbers (namely negative infinity, denoted formula_19 which is defined to be less than every other extended real number, and positive infinity, denoted formula_20 which is defined to be greater than every other extended real number), we have that: 
+and
+That is, the least upper bound (sup or supremum) of the empty set is negative infinity, while the greatest lower bound (inf or infimum) is positive infinity. By analogy with the above, in the domain of the extended reals, negative infinity is the identity element for the maximum and supremum operators, while positive infinity is the identity element for the minimum and infimum operators.
+Topology.
+In any topological space "X", the empty set is open by definition, as is "X". Since the complement of an open set is closed and the empty set and "X" are complements of each other, the empty set is also closed, making it a clopen set. Moreover, the empty set is compact by the fact that every finite set is compact.
+The closure of the empty set is empty. This is known as "preservation of nullary unions."
+Category theory.
+If "A" is a set, then there exists precisely one function "f" from ∅ to "A", the empty function. As a result, the empty set is the unique initial object of the category of sets and functions.
+The empty set can be turned into a topological space, called the empty space, in just one way: by defining the empty set to be open. This empty topological space is the unique initial object in the category of topological spaces with continuous maps. In fact, it is a strict initial object: only the empty set has a function to the empty set.
+Set theory.
+In the von Neumann construction of the ordinals, 0 is defined as the empty set, and the successor of an ordinal is defined as formula_23. Thus, we have formula_24, formula_25, formula_26, and so on. The von Neumann construction, along with the axiom of infinity, which guarantees the existence of at least one infinite set, can be used to construct the set of natural numbers, formula_27, such that the Peano axioms of arithmetic are satisfied.
+Questioned existence.
+Axiomatic set theory.
+In Zermelo set theory, the existence of the empty set is assured by the axiom of empty set, and its uniqueness follows from the axiom of extensionality. However, the axiom of empty set can be shown redundant in at least two ways:
+Philosophical issues.
+While the empty set is a standard and widely accepted mathematical concept, it remains an ontological curiosity, whose meaning and usefulness are debated by philosophers and logicians.
+The empty set is not the same thing as "nothing"; rather, it is a set with nothing "inside" it and a set is always "something". This issue can be overcome by viewing a set as a bag—an empty bag undoubtedly still exists. Darling (2004) explains that the empty set is not nothing, but rather "the set of all triangles with four sides, the set of all numbers that are bigger than nine but smaller than eight, and the set of all opening moves in chess that involve a king."
+The popular syllogism
+is often used to demonstrate the philosophical relation between the concept of nothing and the empty set. Darling writes that the contrast can be seen by rewriting the statements "Nothing is better than eternal happiness" and "[A] ham sandwich is better than nothing" in a mathematical tone. According to Darling, the former is equivalent to "The set of all things that are better than eternal happiness is formula_10" and the latter to "The set {ham sandwich} is better than the set formula_10". The first compares elements of sets, while the second compares the sets themselves.
+Jonathan Lowe argues that while the empty set:
+it is also the case that:
+George Boolos argued that much of what has been heretofore obtained by set theory can just as easily be obtained by plural quantification over individuals, without reifying sets as singular entities having other entities as members.
+

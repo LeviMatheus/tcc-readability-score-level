@@ -1,0 +1,5 @@
+A syllable is the smallest (most small) sound set people can make when they speak. Usually each letter makes a sound ("phoneme") and a group of letters makes the block of sound (syllable). All words are made from at least one syllable.
+A syllable has one and only one vowel. Most syllables have consonants too. If a syllable ends with a consonant, it is called a closed syllable. If a syllable ends with a vowel, it is called an open syllable. Patterns of syllables can be shown with C and V (C for 'consonant', V for 'vowel'). Closed syllables are shown as "CVC", open syllables "CV". Some languages like English have many kinds of closed syllables. Some languages like Japanese have few kinds of closed syllables.
+There are many words in English that have only one syllable.
+There are many more words that have two or more syllables.
+Some languages do not use an alphabet with letters. Instead, each sign may stand for a syllable. For example: Japanese can be written using Kana.

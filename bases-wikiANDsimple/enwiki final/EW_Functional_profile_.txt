@@ -1,0 +1,3 @@
+
+In telecommunication, a functional profile is a standardization document that characterizes the requirements of a standard or group of standards, and specifies how the options and ambiguities in the standard(s) should be interpreted or implemented to (a) provide a particular information technology function, (b) provide for the development of uniform, recognized tests, and (c) promote interoperability among different network elements and terminal equipment that implement a specific profile.
+

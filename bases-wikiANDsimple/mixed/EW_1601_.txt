@@ -1,0 +1,6 @@
+
+1601 (MDCI) was a common year starting on Monday of the Gregorian calendar and a common year starting on Thursday of the Julian calendar. As of the start of 1601, the Gregorian calendar was 10 days ahead of the Julian calendar. This epoch is the beginning of the 400-year Gregorian leap-year cycle within which digital files first existed; the last year of any such cycle is the only leap year whose year number is divisible by 100.
+January 1 of this year (1601-01-01) is used as the base of file dates and of Active Directory Logon dates by Microsoft Windows. It is also the date from which ANSI dates are counted and were adopted by the American National Standards Institute for use with COBOL and other computer languages. All versions of the Microsoft Windows operating system from Windows 95 onward count units of one hundred nanoseconds from this epoch.
+Events.
+&lt;onlyinclude&gt;
+

@@ -1,0 +1,1 @@
+JeOS is a version of Ubuntu designed for virtual machines.

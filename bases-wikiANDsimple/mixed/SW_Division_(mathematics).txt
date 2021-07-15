@@ -1,0 +1,9 @@
+In mathematics division is an operation which is the opposite of multiplication.
+In the above expression, "a" is called the dividend, "b" the divisor and "c" the quotient.
+Division by zero (i.e. where the divisor is zero) is not defined.
+Notation.
+Division is most often shown by placing the "dividend" over the "divisor" with a horizontal line, also called a vinculum, between them. For example, "a" divided by "b" is written
+This is the usual way to specify division in most computer programming languages since it can easily be typed as a simple sequence of characters.
+Any of these forms can be used to display a fraction. A fraction is a division expression where both dividend and divisor are integers (although typically called the "numerator" and "denominator"). A fraction is an accepted way of writing numbers. It is not always expected that the result of the division is written in decimals.
+But in elementary arithmetic this form is used rather often. The obelus is also used alone to represent the division operation itself, as for instance as a label on a key of a calculator.
+In some non-English-speaking cultures, "a divided by b" is written "a": "b". However, in English usage the colon is restricted to expressing the related concept of ratios (then "a is to b").

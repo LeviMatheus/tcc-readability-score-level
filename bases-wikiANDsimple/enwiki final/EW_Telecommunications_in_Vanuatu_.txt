@@ -1,0 +1,30 @@
+
+This article is about the telecommunication systems in Vanuatu.
+Radio.
+Radio broadcast stations:
+AM 2, FM 4, shortwave 1 (2004)
+Radios:
+62,000 (1997)
+Television.
+Television broadcast stations:
+2 
+(2019) 1NOMO Tv Channel (Terrestrial &amp; web distributed, English &amp; Bislama content) 
+(1997) Television Blong Vanuatu (Terrestrial Distributed, Bislama &amp; french content) 
+Television Pay-TV (local) providers:
+3 (2011)
+Telsat Pacific (Terrestrial Distributed, English Content)
+CanalSat (Satellite Distributed, French Content)
+Servicom (Satellite Distributed, English Content)
+Televisions:
+2,000 (1997)
+Internet.
+Country code (Top level domain): .vu
+Currently managed by Telecom Vanuatu Limited as "VUNIC".
+Internet Service Providers (ISPs):
+Digicel Vanuatu Limited - Provides WIMAX (1Mbit/s - 20Mbit/s), 3G &amp; GPRS mobile internet services. Off-island connectivity is provided via submarine fibre optic cable. The minimum speed offered for fixed internet is 1Mbit/s on contended packages intended for residential use and prices start at 3,000 Vatu per month.
+Business packages are offered in speeds of 1Mbit/s to 20Mbit/s and can be tailored to individual requirements. Business internet packages can be either contended or dedicated bandwidth depending on requirements. WAN, IPLC &amp; other business data services are also offered. Digicel has the widest coverage of any operator in Vanuatu and is the only operator capable of providing fixed internet services in many outer island locations.
+Telecom Vanuatu Limited (TVL) - Provides WIMAX (256kb - 1Mb), ADSL (128kb - 1Mb), Wireless (limited to downtown Port Vila) and various fixed and leased line services. VSAT is available for rural Vanuatu. Prepaid and Postpaid options are available. TVL does not have data caps but does lock customers into a 12-month contract.
+Telsat Broadband Limited - Provides Carrier-Grade Wireless coverage to Port Vila and surrounds via their own independent network. Telsat also supplies and maintains VSAT systems for the other remote parts of Vanuatu. The minimum speed offered is 256kbit/s up to 2Mbit/s but can tailor plans to suit individual business requirements. Pre-Paid and Subscription options are available. Telsat Broadband has data caps in effect on all standard accounts but does not have lock-in contracts.
+Wantok Network Limited launched the first LTE network in Vanuatu in 2014. It provides wireless 4G internet in Port Vila and surrounding areas. The minimum speed offered is 1Mbit/s with plans starting from Vt2,300 per month with no lock-in contracts.
+Interchange Limited, has constructed the Interchange Cable Network which connects Port Vila, Vanuatu to Suva, Fiji via a fiber optic cable. The capacity of the cable is over 200 times Vanuatu's previous capacity, with the ability to upgrade the capacity in the future should more bandwidth be required. Interchange plans to construct two more cables, one will connect Port Vila to the Solomon Islands (with a spur to the Vanuatu island of Espiritu Santo). The other will connect Vanuatu to New Caledonia (with a spur to the Vanuatu island of Tanna).
+

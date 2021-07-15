@@ -1,0 +1,3 @@
+maemo (properly not capitalized) is a project that oversees the development of the Internet Tablet OS and the maemo application development platform. The maemo project is paid for by Nokia.
+maemo SDK.
+The maemo SDK is based around the Debian-oriented Scratchbox Cross Compilation Toolkit, which provides a sandbox environment in which development may take place. Scratchbox uses Qemu to emulate an ARMEL processor or sbrsh to remotely execute instructions. Scratchbox-compatible rootstraps are available for both x86 and ARMEL, so the majority of development and debugging takes place on x86, with final packaging being for ARMEL.

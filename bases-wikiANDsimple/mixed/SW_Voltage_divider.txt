@@ -1,0 +1,1 @@
+In electronics, a voltage divider is a tool which creates an output voltage which is proportional to an input voltage. Voltage deviders are also known as resistor divider and potential divider.

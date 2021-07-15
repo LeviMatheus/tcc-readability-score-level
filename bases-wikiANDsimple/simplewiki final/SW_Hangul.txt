@@ -1,0 +1,14 @@
+Hangul is the alphabet used with the Korean language.
+The letters do not look like English letters, they have very much their own look.
+Also they are combined into blocks, you could say they are written in zig-zag.
+Vowels.
+Vowels are letters like A, E, O and so on
+There are 21 letters for vowels in Hangul.
+Those with two small marks are pronounced with an extra "y" first.
+Consonants.
+Consonants are letters like B, G, L, M, N, S and so on.
+There are 14 simple consonants: ㄱㄴㄷㄹㅁㅂㅅㅇㅈㅊㅋㅌㅍㅎ
+They can be written two next to each other.
+Blocks.
+The consonants and vowels are combined into blocks of syllables. A syllable means one vowel and a few consonants, like "han" and "gul".
+The blocks look like these examples: 서울 한글 평양

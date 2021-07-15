@@ -1,0 +1,53 @@
+
+The OSGi Alliance, formerly known as the Open Services Gateway initiative, is an open standards organization founded in March 1999 that originally specified and continues to maintain the OSGi standard.
+The OSGi specification describes a modular system and a service platform for the Java programming language that implements a complete and dynamic component model, something that does not exist in standalone Java/VM environments. Applications or components, coming in the form of bundles for deployment, can be remotely installed, started, stopped, updated, and uninstalled without requiring a reboot; management of Java packages/classes is specified in great detail. Application life cycle management is implemented via APIs that allow for remote downloading of management policies. The service registry allows bundles to detect the addition of new services, or the removal of services, and adapt accordingly.
+The OSGi specifications have evolved beyond the original focus of service gateways, and are now used in applications ranging from mobile phones to the open-source Eclipse IDE. Other application areas include automobiles, industrial automation, building automation, PDAs, grid computing, entertainment, fleet management and application servers.
+In October 2020, the OSGi Alliance announced the transition of the standardization effort to the Eclipse Foundation, subsequent to which it would shut down.
+Specification process.
+The OSGi specification is developed by the members in an open process and made available to the public free of charge under the OSGi Specification License. The OSGi Alliance has a compliance program that is open to members only. As of November 2010, there are seven certified OSGi framework implementations. A separate page lists both certified and non-certified OSGi Specification Implementations, which include OSGi frameworks and other OSGi specifications.
+Architecture.
+OSGi is a Java framework for developing and deploying modular software programs and libraries. Each bundle is a tightly coupled, dynamically loadable collection of classes, jars, and configuration files that explicitly declare their external dependencies (if any).
+The framework is conceptually divided into the following areas:
+Bundles.
+A bundle is a group of Java classes and additional resources equipped with a detailed manifest codice_1 file on all its contents, as well as additional services needed to give the included group of Java classes more sophisticated behaviors, to the extent of deeming the entire aggregate a component.
+Below is an example of a typical codice_1 file with OSGi Headers:
+ Bundle-Name: Hello World
+ Bundle-SymbolicName: org.wikipedia.helloworld
+ Bundle-Description: A Hello World bundle
+ Bundle-ManifestVersion: 2
+ Bundle-Version: 1.0.0
+ Bundle-Activator: org.wikipedia.Activator
+ Export-Package: org.wikipedia.helloworld;version="1.0.0"
+ Import-Package: org.osgi.framework;version="1.3.0"
+The meaning of the contents in the example is as follows:
+Life-cycle.
+A Life Cycle layer adds bundles that can be dynamically installed, started, stopped, updated and uninstalled. Bundles rely on the module layer for class loading but add an API to manage the modules in run time. The life cycle layer introduces dynamics that are normally not part of an application. Extensive dependency mechanisms are used to assure the correct operation of the environment. Life cycle operations are fully protected with the security architecture.
+Below is an example of a typical Java class implementing the codice_3 interface:
+package org.wikipedia;
+import org.osgi.framework.BundleActivator;
+import org.osgi.framework.BundleContext;
+public class Activator implements BundleActivator {
+ private BundleContext context;
+ @Override
+ public void start(BundleContext context) throws Exception {
+ System.out.println("Starting: Hello World");
+ this.context = context;
+ @Override
+ public void stop(BundleContext context) throws Exception {
+ System.out.println("Stopping: Goodbye Cruel World");
+ this.context = null;
+Services.
+Standard services.
+The OSGi Alliance has specified many services. Services are specified by a Java interface. Bundles can implement this interface and register the service with the Service Registry. Clients of the service can find it in the registry, or react to it when it appears or disappears.
+The table below shows a description of OSGi System Services:
+The table below shows a description of OSGi Protocol Services:
+The table below shows a description of OSGi Miscellaneous Services:
+Organization.
+The OSGi Alliance was founded by Ericsson, IBM, Motorola, Sun Microsystems and others in March 1999. Before incorporating as a nonprofit corporation, it was called the Connected Alliance.
+Among its members are () more than 35 companies from quite different business areas, for example Adobe Systems, Deutsche Telekom, Hitachi, IBM, Liferay, Makewave, NEC, NTT, Oracle, Orange S.A., ProSyst, Salesforce.com, Siemens, Software AG and TIBCO Software.
+The Alliance has a board of directors that provides the organization's overall governance. OSGi officers have various roles and responsibilities in supporting the alliance. Technical work is conducted within Expert Groups (EGs) chartered by the board of directors, and non-technical work is conducted in various working groups and committees. The technical work conducted within Expert Groups include developing specifications, reference implementations, and compliance tests. These Expert Groups have produced five major releases of the OSGi specifications ().
+Dedicated Expert Groups exist for the enterprise, mobile, vehicle and the core platform areas.
+The Enterprise Expert Group (EEG) is the newest EG and is addressing Enterprise / Server-side applications.
+In November 2007 the Residential Expert Group (REG) started to work on specifications to remotely manage residential/home-gateways.
+In October 2003, Nokia, Motorola, IBM, ProSyst and other OSGi members formed a Mobile Expert Group (MEG) that will specify a MIDP-based service platform for the next generation of smart mobile phones, addressing some of the needs that CLDC cannot manage - other than CDC. MEG became part of OSGi as with R4.
+

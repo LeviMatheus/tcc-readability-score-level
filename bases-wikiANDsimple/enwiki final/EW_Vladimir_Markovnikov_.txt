@@ -1,0 +1,12 @@
+
+Vladimir Vasilyevich Markovnikov (), also spelled as Markownikoff, (December 22, 1838 – February 11, 1904), was a Russian chemist.
+Early life and education.
+Markovnikov studied economics at the University of Kazan; during his studies, under the Russian cameral system, he also studied chemistry.
+Career.
+After a conflict with that university, Markovnikov was appointed professor at the University of Odessa in 1871 and, two years later, at the University of Moscow, where he stayed the rest of his career. He was elected as a member to the American Philosophical Society in 1901.
+Work.
+Markovnikov is best known for Markovnikov's rule, elucidated in 1869 to describe addition reactions of H-X ('X' represents a halogen) to alkenes. According to this rule, the nucleophilic X- adds to the carbon atom with fewer hydrogen atoms, while the proton adds to the carbon atom with more hydrogen atoms bonded to it. Thus, hydrogen chloride (HCl) adds to propene, CH3-CH=CH2 to produce 2-chloropropane CH3CHClCH3 rather than the isomeric 1-chloropropane CH3CH2CH2Cl. The rule is useful in predicting the molecular structures of products of addition reactions. Why hydrogen bromide exhibited both Markovnikov as well as reversed-order, or anti-Markovnikov, addition, however, was not understood until Morris S. Kharasch offered an explanation in 1933. It is also called The Peroxide effect sometimes.
+Hughes has discussed the reasons for Markovnikov's lack of recognition during his lifetime. Although he published mostly in Russian which was not understood by most Western European chemists, the 1870 article in which he first stated his rule was written in German. However the rule was included in a 4-page addendum to a 26-page article on isomeric butyric acids, and based on very slight experimental evidence even by the standards of the time. Hughes concludes that the rule was an inspired guess, unjustified by the evidence of the time, but which turned out later to be correct (in most cases). A more recent assessement, based on a reading of Markovnikov's Magistr Khimii and Doktor Khimii dissertations, contradicts this view, and points out that Markovnikov's Rule arises logically from his dissertations.
+Markovnikov also contributed to organic chemistry by finding carbon rings with more than six carbon atoms, a ring with four carbon atoms in 1879, and a ring with seven in 1889.
+Markovnikov also showed that butyric and isobutyric acids have the same chemical formula (C4H8O2) but different structures; i.e., they are isomers.
+

@@ -1,0 +1,6 @@
+A real-time operating system (RTOS; commonly pronounced as "are-toss") is a multitasking operating system designed for real-time applications. Such applications include embedded systems, industrial robots, scientific research equipment and others.
+An RTOS simplifies the creation of a real-time applications, but does not guarantee the final result will be real-time; this requires good development of the software.
+Real-time operating systems use specialized scheduling algorithms in order to provide the real-time applications. An RTOS can respond more quickly and/or predictably to an event than other operating systems.
+The main features of an RTOS are minimal interrupt latency and a minimal thread switching latency.
+Examples.
+These are the best known, most widely used real-time operating systems. See List of real-time operating systems for a full list. Also, see List of operating systems for all types of operating systems.

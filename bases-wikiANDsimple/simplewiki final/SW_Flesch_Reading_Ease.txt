@@ -1,0 +1,9 @@
+The Flesch Reading Ease measures textual difficulty, which indicates how easy a text is to read.
+How it works.
+100: Very easy to read. Average sentence length is 12 words or fewer. No words of more than two syllables.
+65: Plain English. Average sentence length is 15 to 20 words. Average word has two syllables.
+30: Pretty difficult to read. Sentences will have mostly 25 words. Two syllables usually.
+0: Extremely difficult to read. Average sentence length is 37 words. Average word has more than two syllables.
+The higher the rating, the easier the text is to understand. By the very nature of technical subject matter, the Flesch score is
+usually relatively low for technical documentation. If the Flesch test is used regularly, one may develop a sense of what a
+reasonable score is for the type of documentation one is working on and aim to maximize this score. The approach to calculating

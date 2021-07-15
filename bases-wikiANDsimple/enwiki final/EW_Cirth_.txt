@@ -1,0 +1,60 @@
+
+The Cirth (, meaning "runes"; sg. certh ) is a semi‑artificial script, based on real‑life runic alphabets, invented by J. R. R. Tolkien for the constructed languages he devised and used in his works. "Cirth" is written with a capital letter when referring to the writing system; the letters themselves can be called "cirth".
+In the fictional history of Middle-earth, the original "Certhas" was created by the Sindar (or Grey Elves) for their language, Sindarin. Its extension and elaboration was known as the "Angerthas Daeron", as it was attributed to the Sinda Daeron, despite the fact that it was most probably arranged by the Noldor in order to represent the sounds of other languages like Quenya and Telerin.
+Although it was later largely replaced by the Tengwar, the Cirth was nonetheless adopted by the Dwarves to write down both their Khuzdul language ("Angerthas Moria") and the languages of Men ("Angerthas Erebor"). The Cirth was also adapted, in its oldest and simplest form, by various races including Men and even Orcs.
+External history.
+Concept and creation.
+Many letters have shapes also found in the historical runic alphabets, but their sound values are only similar in a few of the vowels. Rather, the system of assignment of sound values is much more systematic in the Cirth than in the historical runes (e.g., voiced variants of a voiceless sound are expressed by an additional stroke). A similar system has been proposed for a few historical runes but is in any case much more obscure.
+The division between the older Cirth of Daeron and their adaptation by Dwarves and Men has been interpreted as a parallel drawn by Tolkien to the development of the Fuþorc to the Younger Fuþark. The original Elvish Cirth "as supposed products of a superior culture" are focused on logical arrangement and a close connection between form and value whereas the adaptations by mortal races introduced irregularities. Similar to the Germanic tribes who had no written literature and used only simple runes before their conversion to Christianity, the Sindarin Elves of Beleriand with their Cirth were introduced to the more elaborate Tengwar of Fëanor when the Noldorin Elves returned to Middle-earth from the lands of the divine Valar.
+Internal history and Description.
+"Certhas".
+In the Appendix E to "The Return of the King", Tolkien writes that the Sindar of Beleriand first developed an alphabet for their language some time between the invention of the Tengwar by Fëanor (YT 1250) and the introduction thereof to Middle-earth by the Exiled Noldor at the beginning of the First Age.
+This alphabet was devised to represent only the sounds of their Sindarin language and its letters were mostly used for inscribing names or brief memorials on wood, stone or metal, hence their angular shapes and straight lines. In Sindarin these letters were named "cirth" (sing. "certh"), from the Elvish root "*kir-" meaning "to cleave, to cut". An abecedarium of "cirth", consisting of the runes listed in due order, was commonly known as Certhas (, meaning "rune-rows" in Sindarin and loosely translated as "runic alphabet").
+The oldest "cirth" were the following:
+The form of these letters was somewhat unsystematic, unlike later rearrangements and extensions that made them more featural. The "cirth" and were used for and , but varied as to which was which. Many of the runes consisted of a single vertical line (or "stem") with an appendage (or "branch") attached to one or both sides. If the attachment was made on one side only, it was usually to the right, but "the reverse was not infrequent" and didn't change the value of the letter. (For example, the variants or specifically mentioned for "h" or "s", also or for "t", etc.)
+"Angerthas Daeron".
+In Beleriand, before the end of the First Age, the "Certhas" was rearranged and further developed, partly under the influence of the Tengwar introduced by the Noldor. This reorganisation of the Cirth was commonly attributed to the Elf Daeron, minstrel and loremaster of King Thingol of Doriath. Thus, the new system became known as the Angerthas Daeron (where "angerthas" is from Sindarin + "certhas" , meaning "long rune-rows").
+In this arrangement, the assignment of values to each "certh" is systematic. The runes consisting of a stem and a branch attached to the right are used for voiceless stops, while other sounds are allocated according to the following principles:
+The "cirth" constructed in this way can therefore be arranged into series, each corresponding to a place of articulation:
+Other letters introduced in this system include: and for and , respectively; runes for long vowels, evidently originated by doubling and binding the "certh" of the corresponding short vowel (e.g., → two front vowels, probably stemming from ligatures of the corresponding back vowel with the -"certh" (i.e., → , and → some homorganic nasal + stop clusters (e.g., 
+Back to the fictional history, since the new and encompass sounds which do not occur in Sindarin but are present in Quenya, they were most probably introduced by the Exiled Noldor who spoke Quenya as a language of knowledge.
+By loan-translation, the Cirth became known in Quenya as "Certar" , while a single "certh" was called "certa" .
+After the Tengwar became the sole script used for writing, the "Angerthas Daeron" was essentially relegated to carved inscriptions. The Elves of the West, for the most part, abandoned the Cirth altogether, with the exception of the Noldor dwelling in the country of Eregion, who maintained it in use and made it known as Angerthas Eregion.
+ In this article, the runes of the "Angerthas" come with the same peculiar transliteration used by Tolkien in the Appendix E, which differs from the (Latin) spelling of both Quenya and Sindarin. The IPA transcription that follows is applicable to both languages, except where indicated otherwise.
+Notes:
+Angerthas Moria.
+According to Tolkien's "legendarium", the Dwarves first came to know the runes of the Noldor at the beginning of the Second Age. The Dwarves "introduced a number of unsystematic changes in value, as well as certain new cirth". They modified the previous system to suit the specific needs of their language, Khuzdul. The Dwarves spread their revised alphabet to Moria, where it came to be known as "Angerthas Moria", and developed both carved and pen-written forms of these runes.
+Many cirth here represent sounds not occurring in Khuzdul (at least in published words of Khuzdul: of course, our corpus is very limited to judge the necessity or not, of these sounds). Here they are marked with a black star (★).
+Notes on Angerthas Moria.
+In "Angerthas Moria" the cirth and were dropped. Thus and were adopted for and , although they were used for and in Elvish languages. Subsequently, this script used the certh for , which had the sound in the Elvish systems. Therefore, the certh (which was previously used for the sound , useless in Khuzdul) was adopted for the sound . A totally new introduction was the certh , used as an alternative, simplified and, maybe, weaker form of . Because of the visual relation of these two cirth, the certh was given the sound to relate better with that, in this script, had the sound .
+Angerthas Erebor.
+At the beginning of the Third Age the Dwarves were driven out of Moria, and some migrated to Erebor. As the Dwarves of Erebor would trade with the Men of the nearby towns of Dale and Lake-town, they needed a script to write in Westron (the "lingua franca" of Middle-earth, usually rendered in English by Tolkien in his works). The "Angerthas Moria" was adapted accordingly: some new cirth were added, while some were restored to their Elvish usage, thus creating the "Angerthas Erebor".
+While the "Angerthas Moria" was still used to write down Khuzdul, this new script was primarily used for Mannish languages. It is also the script used in the first and third page of the Book of Mazarbul.
+Angerthas Erebor also features combining diacritics:
+The "Angerthas Erebor" is used twice in "The Lord of the Rings" to write in English:
+The Book of Mazarbul shows some additional cirth used in "Angerthas Erebor": one for a double ligature, one for the definite article, and six for the representation of the same number of English diphthongs:
+Other runic scripts by Tolkien.
+The Cirth is not the only runic writing system used by Tolkien in his "legendarium". In fact, he devised a great number of runic alphabets, of which only a few others have been published. Some of these are included in the "Appendix on Runes" of "The Treason of Isengard" ("The History of Middle-earth", vol. VII), edited by Christopher Tolkien.
+Runes from "The Hobbit".
+According to Tolkien himself, those found in "The Hobbit" are a form of "English runes" used in lieu of the Dwarvish runes proper. They can be interpreted as an attempt made by Tolkien to adapt the Fuþorc (i.e., the Old English runic alphabet) to the Modern English language.
+These runes are basically the same found in Fuþorc, but their sound may change according to their position, just like the letters of the Latin script: the writing mode used by Tolkien is, in this case, mainly orthographic.
+This means that the system has one rune for each Latin letter, regardless of pronunciation. For example, the rune can sound in , in , in , and even in the digraph .
+A few sounds are instead written with the same rune, without considering the English spelling. For example, the sound is always written with the rune whether in English it is spelt as in , as in , or as in . The only two letters that are subject to this phonemic spelling are and .
+Finally, there are also some runes which stand for particular English digraphs and diphthongs.
+Here the runes used in "The Hobbit" are displayed along with their Fuþorc counterpart and corresponding English grapheme:
+Notes:
+Gondolinic Runes.
+Not all the runes mentioned in "The Hobbit" are Dwarf-runes. The swords found in the Trolls' cave bore runes that Gandalf allegedly could not read. In fact, the swords Glamdring and Orcrist (which were forged in the ancient kingdom of Gondolin) bore a type of letters known as Gondolinic runes. They seem to have been obsoleted and forgotten by the Third Age, and this is supported by Tolkien writing that only Elrond could still read the inscriptions of the swords.
+Tolkien devised this runic alphabet in a very early stage of his shaping of Middle-earth. Nevertheless, they are known to us from a slip of paper written by J.R.R. Tolkien, a photocopy of which Christopher Tolkien sent to Paul Nolan Hyde in February 1992. Hyde then published it, together with an extensive analysis, in the 1992 Summer issue of Mythlore, no. 69.
+The system provides sounds not found in any of the known Elven languages of the First Age, but perhaps it was designed for a variety of languages. However, the consonants seem to be, more or less, the same found in Welsh phonology, a theory supported by the fact that Tolkien was heavily influenced by Welsh when creating Elven languages.
+Encoding schemes.
+Unicode.
+Equivalents for some (but not all) cirth can be found in the Runic block of Unicode.
+Tolkien's mode of writing Modern English in Anglo-Saxon runes received explicit recognition with the introduction of his three additional runes to the Runic block with the release of Unicode 7.0, in June 2014. The three characters represent the English , and graphemes, as follows:
+A formal Unicode proposal to encode Cirth as a separate script was made in September 1997 by Michael Everson.
+No action was taken by the Unicode Technical Committee (UTC) but Cirth appears in the Roadmap to the SMP.
+ConScript Unicode Registry.
+Unicode Private Use Area layouts for Cirth are defined at the ConScript Unicode Registry (CSUR) and the Under-ConScript Unicode Registry (UCSUR).
+Two different layouts are defined by the CSUR/UCSUR:
+Without proper rendering support, you may see question marks, boxes, or other symbols below instead of Cirth.
+

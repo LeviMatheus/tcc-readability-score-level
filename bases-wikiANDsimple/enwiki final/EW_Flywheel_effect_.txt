@@ -1,0 +1,5 @@
+
+The flywheel effect is the continuation of oscillations in an oscillator circuit after the control stimulus has been removed. This is usually caused by interacting inductive and capacitive elements in the oscillator. Circuits undergoing such oscillations are said to be flywheeling.
+The flywheel effect may be desirable, such as in phase-locked loops used in synchronous systems, or undesirable, such as in voltage-controlled oscillators.
+Flywheel effect is used in Class C modulation where efficiency of modulation can be achieved as high as 90%.
+

@@ -1,0 +1,6 @@
+In geometry, the radius of a circle or sphere is the shortest connection between the center and the boundary. It is half of the diameter.
+The relationship between the radius formula_1 and the circumference formula_2 of a circle is
+formula_3
+The area formula_4 of a circle of radius
+formula_1 is
+formula_6

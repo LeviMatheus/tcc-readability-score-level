@@ -1,0 +1,4 @@
+The "Portable Document Format" (PDF) is a file format for storing documents on a computer. Adobe created it in 1993 to make it easier to exchange documents. PDF is often used to make documents print-ready. PDF documents can have stylised text and images in them.
+The document is stored in such a way that the content does not change the way it looks on different screens, computers and printers as can happen with other file formats.
+PDF is an open standard that was officially published on July 1, 2008 by the ISO.
+PDF reader software is required to read PDF documents. Examples are Adobe Acrobat and Foxit Reader.

@@ -1,0 +1,50 @@
+
+In engineering, a transfer function (also known as system function or network function) of an electronic or control system component is a mathematical function which theoretically models the device's output for each possible input. In its simplest form, this function is a two-dimensional graph of an independent scalar input versus the dependent scalar output, called a transfer curve or characteristic curve. Transfer functions for components are used to design and analyze systems assembled from components, particularly using the block diagram technique, in electronics and control theory.
+The dimensions and units of the transfer function model the output response of the device for a range of possible inputs. For example, the transfer function of a two-port electronic circuit like an amplifier might be a two-dimensional graph of the scalar voltage at the output as a function of the scalar voltage applied to the input; the transfer function of an electromechanical actuator might be the mechanical displacement of the movable arm as a function of electrical current applied to the device; the transfer function of a photodetector might be the output voltage as a function of the luminous intensity of incident light of a given wavelength.
+The term "transfer function" is also used in the frequency domain analysis of systems using transform methods such as the Laplace transform; here it means the amplitude of the output as a function of the frequency of the input signal. For example, the transfer function of an electronic filter is the voltage amplitude at the output as a function of the frequency of a constant amplitude sine wave applied to the input. For optical imaging devices, the optical transfer function is the Fourier transform of the point spread function (hence a function of spatial frequency).
+Linear time-invariant systems.
+Transfer functions are commonly used in the analysis of systems such as single-input single-output filters in the fields of signal processing, communication theory, and control theory. The term is often used exclusively to refer to linear time-invariant (LTI) systems. Most real systems have non-linear input/output characteristics, but many systems, when operated within nominal parameters (not "over-driven") have behavior close enough to linear that LTI system theory is an acceptable representation of the input/output behavior.
+The descriptions below are given in terms of a complex variable, formula_1, which bears a brief explanation. In many applications, it is sufficient to define formula_2 (thus formula_3), which reduces the Laplace transforms with complex arguments to Fourier transforms with real argument ω. The applications where this is common are ones where there is interest only in the steady-state response of an LTI system, not the fleeting turn-on and turn-off behaviors or stability issues. That is usually the case for signal processing and communication theory.
+Thus, for continuous-time input signal formula_4 and output formula_5, the transfer function formula_6 is the linear mapping of the Laplace transform of the input, formula_7, to the Laplace transform of the output formula_8:
+or
+In discrete-time systems, the relation between an input signal formula_4 and output formula_5 is dealt with using the z-transform, and then the transfer function is similarly written as formula_13 and this is often referred to as the pulse-transfer function.
+Direct derivation from differential equations.
+Consider a linear differential equation with constant coefficients
+where "u" and "r" are suitably smooth functions of "t", and "L" is the operator defined on the relevant function space, that transforms "u" into "r". That kind of equation can be used to constrain the output function "u" in terms of the "forcing" function "r". The transfer function can be used to define an operator formula_15 that serves as a right inverse of "L", meaning that formula_16.
+Solutions of the "homogeneous", constant-coefficient differential equation formula_17 can be found by trying formula_18. That substitution yields the characteristic polynomial
+The inhomogeneous case can be easily solved if the input function "r" is also of the form formula_20. In that case, by substituting formula_21 one finds that formula_22 if we define
+Taking that as the definition of the transfer function requires careful disambiguation between complex vs. real values, which is traditionally influenced by the interpretation of "abs(H(s))" as the gain and "-atan(H(s))" as the phase lag. Other definitions of the transfer function are used: for example formula_24
+Gain, transient behavior and stability.
+A general sinusoidal input to a system of frequency formula_25 may be written formula_26. The response of a system to a sinusoidal input beginning at time formula_27 will consist of the sum of the steady-state response and a transient response. The steady-state response is the output of the system in the limit of infinite time, and the transient response is the difference between the response and the steady state response (It corresponds to the homogeneous solution of the above differential equation.) The transfer function for an LTI system may be written as the product:
+where "sPi" are the "N" roots of the characteristic polynomial and will therefore be the poles of the transfer function. Consider the case of a transfer function with a single pole formula_29 where formula_30. The Laplace transform of a general sinusoid of unit amplitude will be formula_31. The Laplace transform of the output will be formula_32 and the temporal output will be the inverse Laplace transform of that function:
+The second term in the numerator is the transient response, and in the limit of infinite time it will diverge to infinity if "σP" is positive. In order for a system to be stable, its transfer function must have no poles whose real parts are positive. If the transfer function is strictly stable, the real parts of all poles will be negative, and the transient behavior will tend to zero in the limit of infinite time. The steady-state output will be:
+The frequency response (or "gain") "G" of the system is defined as the absolute value of the ratio of the output amplitude to the steady-state input amplitude:
+which is just the absolute value of the transfer function formula_36 evaluated at formula_37. This result can be shown to be valid for any number of transfer function poles.
+Signal processing.
+Let formula_38 be the input to a general linear time-invariant system, and formula_39 be the output, and the bilateral Laplace transform of formula_38 and formula_39 be
+Then the output is related to the input by the transfer function formula_36 as
+and the transfer function itself is therefore
+In particular, if a complex harmonic signal with a sinusoidal component with amplitude formula_46, angular frequency formula_47 and phase formula_48, where arg is the argument
+is input to a linear time-invariant system, then the corresponding component in the output is:
+Note that, in a linear time-invariant system, the input frequency formula_52 has not changed, only the amplitude and the phase angle of the sinusoid has been changed by the system. The frequency response formula_53 describes this change for every frequency formula_52 in terms of "gain":
+and "phase shift":
+The phase delay (i.e., the frequency-dependent amount of delay introduced to the sinusoid by the transfer function) is:
+The group delay (i.e., the frequency-dependent amount of delay introduced to the envelope of the sinusoid by the transfer function) is found by computing the derivative of the phase shift with respect to angular frequency formula_52,
+The transfer function can also be shown using the Fourier transform which is only a special case of the bilateral Laplace transform for the case where formula_60.
+Common transfer function families.
+While any LTI system can be described by some transfer function or another, there are certain "families" of special transfer functions that are commonly used.
+Some common transfer function families and their particular characteristics are:
+Control engineering.
+In control engineering and control theory the transfer function is derived using the Laplace transform.
+The transfer function was the primary tool used in classical control engineering. However, it has proven to be unwieldy for the analysis of multiple-input multiple-output (MIMO) systems, and has been largely supplanted by state space representations for such systems. In spite of this, a transfer matrix can always be obtained for any linear system, in order to analyze its dynamics and other properties: each element of a transfer matrix is a transfer function relating a particular input variable to an output variable.
+A useful representation bridging state space and transfer function methods was proposed by Howard H. Rosenbrock and is referred to as Rosenbrock system matrix.
+Optics.
+In optics, modulation transfer function indicates the capability of optical contrast transmission.
+For example, when observing a series of black-white-light fringes drawn with a specific spatial frequency, the image quality may decay. White fringes fade while black ones turn brighter.
+The modulation transfer function in a specific spatial frequency is defined by
+where modulation (M) is computed from the following image or light brightness:
+Imaging.
+In imaging, transfer functions are used to describe the relationship between the scene light, the image signal and the displayed light.
+Non-linear systems.
+Transfer functions do not properly exist for many non-linear systems. For example, they do not exist for relaxation oscillators; however, describing functions can sometimes be used to approximate such nonlinear time-invariant systems.
+

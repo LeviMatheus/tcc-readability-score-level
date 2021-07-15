@@ -1,0 +1,6 @@
+
+In telecommunication, the term fade margin (fading margin) has the following meanings:
+References.
+Attila Hilt, "Availability and Fade Margin Calculations for 5G Microwave and Millimeter-Wave Anyhaul Links", Applied Sciences, 2019, 9(23), 5240; https://doi.org/10.3390/app9235240.,
+Trevor Manning, "Microwave Radio Transmission Design Guide", 2nd edition; Artech House: London, UK, 2009.
+

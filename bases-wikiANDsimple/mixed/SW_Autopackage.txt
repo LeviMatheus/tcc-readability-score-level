@@ -1,0 +1,2 @@
+Autopackage is a free computer program aimed at making it simple to create other programs that can be installed on all Linux distributions.
+Currently, the only operating system to include Autopackage is

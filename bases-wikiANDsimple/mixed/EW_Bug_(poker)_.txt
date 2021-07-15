@@ -1,0 +1,6 @@
+
+A bug in poker is a limited form of wild card. One or both jokers are often added to the deck and played as bugs.
+In draw poker played for high and pai gow poker, the bug is considered to be an ace, unless it can be used as a missing card to complete a straight or a flush, in which case it becomes the highest card which can complete the hand.
+In California lowball, the bug is the lowest unpaired card in a hand. For example in 8-6-4-3 plus the bug, the bug becomes an ace; in A-2-3-5 plus the bug, the bug becomes a four.
+Holding the bug greatly increases the power of certain drawing hands. For example, playing for high, a natural four-straight such as Q-J-10-9 drawing one has nine outs to complete the hand, any king or eight or the bug. By contrast a four-straight including the bug can have as many as sixteen outs to complete the straight - Q-J-10-Joker can catch any ace, king, nine, or eight.
+

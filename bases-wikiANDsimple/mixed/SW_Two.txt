@@ -1,0 +1,25 @@
+2 (two) is a number, numeral, and glyph. It is the natural number after One and before Three.
+In mathematics.
+Two has many properties in mathematics. An integer is called "even" if it can be divided by 2. For integers written in a numeral system based on an even number, such as decimal and hexadecimal, it can be easily tested if it is a multiple of 2 by merely looking at the one's place digit. If it is even, then the whole number is even. In particular, when written in the decimal system, all multiples of 2 will end in 0, 2, 4, 6, or 8.
+Two is the smallest and the first prime number, and the only even one (for this reason it is sometimes humorously called "the oddest prime"). The next prime is three. Two and three are the only two consecutive prime numbers. 2 is the first Sophie Germain prime, the first factorial prime, the first Lucas prime, and the first Smarandache-Wellin prime. It is an Eisenstein prime with no imaginary part and real part of the form formula_2. It is also a Stern prime, a Pell number, and a Markov number, appearing in infinitely many solutions to the Markov Diophantine equation involving odd-indexed Pell numbers.
+It is the third Fibonacci number, and the third and fifth Perrin numbers.
+Even though it is a prime number, two is also a highly composite number, because it has more divisors than the number one. The next highly composite number is four.
+Vulgar fractions with 2 or 5 in the denominator do not yield infinite decimal expansions, as is the case with most primes, because 2 and 5 are factors of ten, the decimal base.
+Two is the base of the simplest system of numbers in which natural numbers can be written concisely, being the length of the number a logarithm of the value of the number (whereas in base 1 the length of the number is the value of the number itself); the binary system is used in computers.
+Two also has the unique property that 2+2 = 2·2 = 2²="2"↑↑2="2"↑↑↑2, and so on, no matter how high the operation is.
+Two is the only number x such that the sum of the reciprocals of the powers of x equals itself. In symbols: formula_3
+formula_4
+Powers of two are central to the concept of Mersenne primes, and important to computer science. Two is the first Mersenne prime exponent.
+Taking the square root of a number is such a common mathematical operation, that the spot on the root sign where the exponent would normally be written for cubic roots and other such roots, is left blank for square roots, as it is considered tacit.
+The square root of two was the first known irrational number.
+The smallest field has two elements.
+In the set-theoretical construction of the natural numbers, 2 is identified with the set formula_5. This latter set is important in category theory: it is a subobject classifier in the category of sets.
+Two is a primorial, as well as its own factorial. Two often occurs in numerical sequences, such as the Fibonacci number sequence, but not quite as often as one does. Two is also a Motzkin number, a Bell number, an all-Harshad number, a meandric number, a semi-meandric number, and an open meandric number.
+Two is the number of n-Queens Problem solutions for n = 4. With one exception, all known solutions to Znám's problem start with 2.
+for "a" not equal to zero
+formula_8
+Where formula_9 gives the nth d-dimensional simplex number. When d=2,
+formula_10
+The number of domino tilings of a 2×2 checkerboard is 2.
+For any polyhedron homeomorphic to a sphere, the Euler characteristic is formula_11
+As of 2008, there are only two known Wieferich primes.

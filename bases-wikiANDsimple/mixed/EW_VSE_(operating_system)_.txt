@@ -1,0 +1,22 @@
+
+z/VSE ("Virtual Storage Extended") is an operating system for IBM mainframe computers, the latest one in the DOS/360 lineage, which originated in 1965. Announced Feb. 1, 2005 by IBM as successor to VSE/ESA 2.7, then-new z/VSEwas named to reflect the new "System z" branding for IBM's mainframe product line.
+DOS/VSE was introduced in 1979 as a successor to DOS/VS; in turn, DOS/VSE was succeeded by VSE/SP version 1 in 1983, and VSE/SP version 2 in 1985.
+It is less common than prominent z/OS and is mostly used on smaller machines. In the late 1980s, there was a widespread perception among VSE customers that IBM was planning to discontinue VSE and migrate its customers to MVS instead, although IBM relented and agreed to continue to produce new versions of VSE.
+Overview.
+DOS/360 originally used 24-bit addressing. As the underlying hardware evolved, VSE/ESA acquired 31-bit addressing capability.
+IBM released z/VSE Version 4, which requires 64-bit z/Architecture hardware and can use 64-bit real mode addressing, in 2007. With z/VSE 5.1 (available since 2011) z/VSE introduced 64 bit virtual addressing and memory objects (chunks of virtual storage), that are allocated above 2 GB. The latest shipping release is z/VSE 6.2.0 - available since December 2017, which includes the new CICS Transaction Server for z/VSE 2.2.
+User interfaces.
+Job Control Language (JCL).
+A Job Control Language (JCL) that continues in the positional-parameter orientation of earlier DOS systems is z/VSE's batch processing primary user interface. There is also another, special interface for system console operators.
+Beyond batch.
+z/VSE, like z/OS systems, had traditionally provided 3270 terminal user interfaces. However, most z/VSE installations have at least begun to add Web browser access to z/VSE applications. z/VSE's TCP/IP is a separately priced option for historic reasons, and is available in two different versions from two vendors. Both vendors provide a full function TCP/IP stack with applications, such as telnet and FTP. One TCP/IP stack provides IPv4 communication only, the other IPv4 and IPv6 communication. In addition to the commercially available TCP/IP stacks for z/VSE, IBM also provides the Linux Fastpath method which uses IUCV socket or Hipersockets connections to communicate with a Linux guest, also running on the mainframe. 
+Using this method the z/VSE system is able to fully exploit the native Linux TCP/IP stack.
+IBM recommends that z/VSE customers run Linux on IBM Z alongside, on the same physical system, to provide another 64-bit application environment that can access and extend z/VSE applications and data via Hipersockets using a wide variety of middleware. CICS, one of the most popular enterprise transaction processing systems, is extremely popular among z/VSE users and now implements recent innovations such as Web services. DB2 is also available and popular.
+Device support.
+z/VSE can use ECKD as well as SCSI devices.
+Fibre Channel access to SCSI storage devices was initially available on z/VSE 3.1 on a limited basis (including on IBM's Enterprise Storage Server (ESS), IBM System Storage DS8000, DS6000 series), but the limitations disappeared with 4.2 (thus including IBM Storwize V7000, V5000, V3700 and V9000).
+Older z/VSE versions.
+The last VSE/ESA release - VSE/ESA 2.7 - is no longer supported since February 28, 2007.
+z/VSE 3.1 was the last release, that was compatible with 31-bit mainframes, as opposed to z/VSE Version 4, 5 and 6. z/VSE 3.1 was supported to 2009. z/VSE Version 4 is no longer supported since October 2014 (end of service for z/VSE 4.3).
+For VSE/ESA, DOS/VSE, VSE/SP, see History of IBM mainframe operating systems#DOS/VS
+

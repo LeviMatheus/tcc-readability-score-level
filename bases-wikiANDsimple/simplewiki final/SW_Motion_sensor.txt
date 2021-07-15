@@ -1,0 +1,1 @@
+A motion sensor is a sensor device. It is used for studying motions. It is connected to a data-logger. The data-logger is connected to a computer. The computer runs a data-logging program. Motion sensors have many uses including security.

@@ -1,0 +1,23 @@
+
+In formal language theory, a context-sensitive language is a language that can be defined by a context-sensitive grammar (and equivalently by a noncontracting grammar). Context-sensitive is one of the four types of grammars in the Chomsky hierarchy.
+Computational properties.
+Computationally, a context-sensitive language is equivalent to a linear bounded nondeterministic Turing machine, also called a linear bounded automaton. That is a non-deterministic Turing machine with a tape of only formula_1 cells, where formula_2 is the size of the input and formula_3 is a constant associated with the machine. This means that every formal language that can be decided by such a machine is a context-sensitive language, and every context-sensitive language can be decided by such a machine.
+This set of languages is also known as NLINSPACE or NSPACE("O"("n")), because they can be accepted using linear space on a non-deterministic Turing machine. The class LINSPACE (or DSPACE("O"("n"))) is defined the same, except using a deterministic Turing machine. Clearly LINSPACE is a subset of NLINSPACE, but it is not known whether LINSPACE=NLINSPACE.
+Examples.
+One of the simplest context-sensitive but not context-free languages is formula_4: the language of all strings consisting of occurrences of the symbol "a", then "b"'s, then "c"'s (abc, , , etc.). A superset of this language, called the Bach language, is defined as the set of all strings where "a", "b" and "c" (or any other set of three symbols) occurs equally often (, , etc.) and is also context-sensitive.
+ can be shown to be a context-sensitive language by constructing a linear bounded automaton which accepts . The language can easily be shown to be neither regular nor context free by applying the respective pumping lemmas for each of the language classes to .
+Similarly:
+formula_5 is another context-sensitive language; the corresponding context-sensitive grammar can be easily projected starting with two context-free grammars generating sentential forms in the formats
+formula_6
+and
+formula_7
+and then supplementing them with a permutation production like 
+formula_8, a new starting symbol and standard syntactic sugar.
+formula_9 is another context-sensitive language (the "3" in the name of this language is intended to mean a ternary alphabet); that is, the "product" operation defines a context-sensitive language (but the "sum" defines only a context-free language as the grammar formula_10 and formula_11 shows). Because of the commutative property of the product, the most intuitive grammar for formula_12 is ambiguous. This problem can be avoided considering a somehow more restrictive definition of the language, e.g. formula_13. This can be specialized to 
+formula_14 and, from this, to formula_15, formula_16, etc.
+formula_17 is a context-sensitive language. The corresponding context-sensitive grammar can be obtained as a generalization of the context-sensitive grammars for formula_18, formula_19, etc.
+formula_20 is a context-sensitive language.
+formula_21 is a context-sensitive language (the "2" in the name of this language is intended to mean a binary alphabet). This was proved by Hartmanis using pumping lemmas for regular and context-free languages over a binary alphabet and, after that, sketching a linear bounded multitape automaton accepting formula_22.
+formula_23 is a context-sensitive language (the "1" in the name of this language is intended to mean an unary alphabet). This was credited by A. Salomaa to Matti Soittola by means of a linear bounded automaton over an unary alphabet (pages 213-214, exercise 6.8) and also to Marti Penttonen by means of a context-sensitive grammar also over an unary alphabet (See: Formal Languages by A. Salomaa, page 14, Example 2.5).
+An example of recursive language that is not context-sensitive is any recursive language whose decision is an EXPSPACE-hard problem, say, the set of pairs of equivalent regular expressions with exponentiation.
+

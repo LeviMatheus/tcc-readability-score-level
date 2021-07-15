@@ -1,0 +1,1 @@
+EasyBCD is a free program developed by the non-profit NeoSmart Technologies used to configure and tweak the new Windows Vista Bootloader. EasyBCD can be used to set up dual-boots between Windows Vista and previous versions of Windows, along with Linux, BSD, and Mac OS X.

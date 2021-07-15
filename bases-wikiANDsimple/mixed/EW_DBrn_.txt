@@ -1,0 +1,6 @@
+
+The symbol dBrn or dB(rn) is an abbreviation for decibels above reference noise. 
+Weighted noise power in dB is referred to 1.0 picowatt. Thus, 0 dBrn = -90 dBm. Use of 144 line, 144-receiver, or C-message weighting, or flat weighting, can be indicated in parentheses.
+With C-message weighting, a one-milliwatt, 1000 Hz tone will read +90 dBrn, but the same power as white noise, randomly distributed over a 3 kHz band will read approximately +88.5 dBrn, because of the frequency weighting. 
+With 144 weightings, a one milliwatt, 1000 Hz white noise tone will also read +90 dBrn, but the same 3 kHz power will only read +82 dBrn, because of the different frequency weighting.
+

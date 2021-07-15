@@ -1,0 +1,16 @@
+
+Roland Octapad is a range of MIDI electronic drum percussion controllers produced by the Roland Corporation.
+Roland Pad-8.
+The first model, introduced in 1985, was the Pad-8. Originally to be called MPC-8 (MIDI Percussion Controller 8), but was renamed Pad-8 to avoid legal implications with MPC Electronics. It was an influential device at that time, allowing drummers and percussionists the opportunity to trigger virtually any MIDI sound source without the need of a full electronic drum set. 
+Features.
+The Pad 8 Consists of eight individual pads (divided in two rows of four pads) and six external pad trigger ports. The controlled had no internal sound source and limited memory for four user patches. A unique initialization procedure, when powered on, would load a "patch preset" and configure the Pad-8 to work with either the Roland's TR-909 or TR-707/TR-727. 
+The Pad 8 could only transmit on a single MIDI channel (channel 10 on power up), however each of the 14 pads is assigned a different MIDI-Note number. Both MIDI channel and note numbers could be edited to suite the device being controlled over MIDI.
+There is one parameter adjustable for each pad: MIDI Note. The remaining five parameters adjustable are global: MIDI Channel; Pad Sensitivity; Volume Curve; Minimum Velocity; and the Gate Time.
+Roland Pad-80.
+The second model, introduced in 1989, was the Pad-80 Octapad II. Again the Pad-80 was an eight pad MIDI controller that allowed for various types of MIDI sound sources. Improvements in this second model included the ability to play up to three notes per pad, and velocity switching, which allowed the user to stack or alternate between the assigned notes depending on how hard the pads were struck. This feature became useful for creating more realistic sounding drum parts, and in addition allowed drummers to play melodic instruments with greater ease. These new features were groundbreaking at the time, and are still utilized in Roland's electronic percussion today.
+The memory was increased, allowing up to 64 different patches internally and another 64 patches to be stored on a Roland M-256E memory card. Further improvements to the MIDI specification included the control of modulation, pitch bend and aftertouch using a foot pedal, along with full System Exclusive (SysEx) capability. The Pad-80 had a patch chain function that allowed a series of 32 patches to be arranged in any sequence, eight of these chains could be stored in memory.
+Roland SPD-8 (1990), SPD-11 (1993), and SPD-20 (1998).
+After the Pad-80, Roland continued to release SPD-8 with on-board sounds, as a standalone instrument in 1990, SPD-11 in 1993, which not only had more sounds but also built-in effects processing, and SPD-20 in 1998, which had more on-board sounds. These SPD Series products apart from the SPD-20 and 20x had not been named "Octapad" on the product panel.
+Octapad SPD-30 (2010).
+Roland continued the line in 2010 with the Octapad SPD-30 which includes on-board sounds and effects.
+

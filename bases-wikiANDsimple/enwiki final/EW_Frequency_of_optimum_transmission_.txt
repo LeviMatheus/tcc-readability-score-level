@@ -1,0 +1,5 @@
+
+Frequency of optimum transmission (FOT), in the transmission of radio waves via ionospheric reflection, is the highest effective (i.e. working) frequency that is predicted to be usable for a specified path and time for 90% of the days of the month. The FOT is normally just below the value of the maximum usable frequency (MUF). In the prediction of usable frequencies, the FOT is commonly taken as 15% below the monthly median value of the MUF for the specified time and path. 
+The FOT is usually the most effective frequency for ionospheric reflection of radio waves between two specified points on Earth. 
+Synonyms for this term include:
+

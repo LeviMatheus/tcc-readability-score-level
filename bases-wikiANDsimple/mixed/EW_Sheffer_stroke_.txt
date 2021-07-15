@@ -1,0 +1,17 @@
+
+In Boolean functions and propositional calculus, the Sheffer stroke denotes a logical operation that is equivalent to the negation of the conjunction operation, expressed in ordinary language as "not both". It is also called nand ("not and") or the alternative denial, since it says in effect that at least one of its operands is false. In digital electronics, it corresponds to the NAND gate. It is named after Henry M. Sheffer and written as ↑ or as | (but not as ||, often used to represent disjunction). In Bocheński notation it can be written as D"pq".
+Its dual is the NOR operator (also known as the Peirce arrow or Quine dagger). Like its dual, NAND can be used by itself, without any other logical operator, to constitute a logical formal system (making NAND functionally complete). This property makes the NAND gate crucial to modern digital electronics, including its use in computer processor design.
+Definition.
+The NAND operation is a logical operation on two logical values. It produces a value of true, if — and only if — at least one of the propositions is false.
+Truth table.
+The truth table of formula_1 (also written as formula_2
+are inference rules.
+Simplification.
+Since the only connective of this logic is |, the symbol | could be discarded altogether, leaving only the parentheses to group the letters. A pair of parentheses must always enclose a pair of "wff"s. Examples of theorems in this simplified notation are
+The notation can be simplified further, by letting
+for any "U". This simplification causes the need to change some rules:
+The result is a parenthetical version of the Peirce existential graphs.
+Another way to simplify the notation is to eliminate parentheses by using Polish Notation. For example, the earlier examples with only parentheses could be rewritten using only strokes as follows
+This follows the same rules as the parenthesis version, with the opening parenthesis replaced with a Sheffer stroke and the (redundant) closing parenthesis removed.
+Or one could omit both parentheses "and" strokes and allow the order of the arguments to determine the order of function application so that for example, applying the function from right to left (reverse Polish notation – any other unambiguous convention based on ordering would do)
+

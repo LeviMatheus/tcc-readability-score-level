@@ -1,0 +1,3 @@
+"Communication Theory of Secrecy Systems" is a paper published by Claude Shannon discussing cryptography from the viewpoint of information theory. It is one of the "foundational treatments" ("primitives") of modern cryptography. It is also a proof that all theoretically "unbreakable" ("un-crack-able") ciphers must have the same requirements as the one-time pad encryption algorithm.
+Shannon published an earlier version of this research in the classified report "A Mathematical Theory of Cryptography", Memorandum MM 45-110-02, Sept. 1, 1945, Bell Laboratories.
+In 1948, Shannon published his great paper "A Mathematical Theory of Communication" which is considered one of the founding works of the field of information theory.

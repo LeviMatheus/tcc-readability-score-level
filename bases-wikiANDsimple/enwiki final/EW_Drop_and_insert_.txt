@@ -1,0 +1,5 @@
+
+In a multichannel transmission system, drop and insert is a process that diverts ("drop") a portion of the multiplexed aggregate signal at an intermediate point, and introduces ("insert") a different signal for subsequent transmission in the same position.
+Drop and insert is practiced, for example, in time-division multiplexing (TDM) when a time slot or frequency band is replaced from another source. The diverted signal may be demodulated or reinserted into another transmission system in the same or another time slot or frequency band. The time slot or frequency band vacated by the diverted signal need not necessarily be reoccupied by another signal. Likewise, a previously unoccupied time slot or frequency band may be occupied by a signal inserted at the drop-and-insert point.
+Signals not of interest at the drop-and-insert point are not diverted.
+

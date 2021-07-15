@@ -1,0 +1,1 @@
+Emulators are things that make one kind of computer behave like a different one, so that it can use the same programs or do the same things. They are best for using old software and games on newer computers. They can be hardware that you add to the computer, or software that you use on it.

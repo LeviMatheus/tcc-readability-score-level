@@ -1,0 +1,4 @@
+A jet engine is any engine that creates force by releasing a high speed jet of a liquid or a gas.
+An example of a jet engine is a full balloon that is not held closed. It will release the air and push the balloon forward.
+Another example is a turbojet engine, which are used on airplanes. Turbojet engines have a fan at the front that takes in air, the engine burns some paraffin to make the air expand, and it blows a big wind out the back. On the way out, the hot air turns another fan (a gas turbine) which turns the rod that turns the fan at the front to make it go.
+Another example of a jet engine is a rocket engine.

@@ -1,0 +1,7 @@
+
+The Free On-line Dictionary of Computing (FOLDOC) is an online, searchable, encyclopedic dictionary of computing subjects.
+History.
+FOLDOC was founded in 1985 by Denis Howe and was hosted by Imperial College London. In May 2015, the site was updated to state that it was "no longer supported by Imperial College Department of Computing". Howe has served as the editor-in-chief since the dictionary's inception, with visitors to the website able to make suggestions for additions or corrections to articles.
+Open sourcing.
+The dictionary incorporates the text of other free resources, such as the Jargon File, as well as covering many other computing-related topics. Due to its availability under the GNU Free Documentation License, a copyleft license, it has in turn been incorporated in whole or part into other free content projects, such as Wikipedia.
+

@@ -1,0 +1,18 @@
+
+In physics, coherence length is the propagation distance over which a coherent wave (e.g. an electromagnetic wave) maintains a specified degree of coherence. Wave interference is strong when the paths taken by all of the interfering waves differ by less than the coherence length. A wave with a longer coherence length is closer to a perfect sinusoidal wave. Coherence length is important in holography and telecommunications engineering.
+This article focuses on the coherence of classical electromagnetic fields. In quantum mechanics, there is a mathematically analogous concept of the quantum coherence length of a wave function.
+Formulas.
+In radio-band systems, the coherence length is approximated by
+where formula_2 is the speed of light in a vacuum, formula_3 is the refractive index of the medium, and formula_4 is the bandwidth of the source or formula_5 is the signal wavelength and formula_6 is the width of the range of wavelengths in the signal.
+In optical communications, assuming that the source has a Gaussian emission spectrum, the coherence length formula_7 is given by 
+where formula_5 is the central wavelength of the source, formula_3 is the refractive index of the medium, and formula_11 is the (FWHM) spectral width of the source. If the source has a Gaussian spectrum with FWHM spectral width formula_11, then a path offset of ±formula_7 will reduce the fringe visibility to 50%.
+"Coherence length" is usually applied to the optical regime.
+The expression above is a frequently used approximation. Due to ambiguities in the definition of spectral width of a source, however, the following definition of coherence length has been suggested:
+The coherence length can be measured using a Michelson interferometer and is the optical path length difference of a self-interfering laser beam which corresponds to a formula_14 fringe visibility, where the fringe visibility is defined as
+where formula_16 is the fringe intensity.
+In long-distance transmission systems, the coherence length may be reduced by propagation factors such as dispersion, scattering, and diffraction.
+Lasers.
+Multimode helium–neon lasers have a typical coherence length of 20 cm, while the coherence length of single-mode lasers can exceed 100 m. Semiconductor lasers reach some 100 m, but small, inexpensive semiconductor lasers have shorter lengths, with one source claiming 20 cm. Singlemode fiber lasers with linewidths of a few kHz can have coherence lengths exceeding 100 km. Similar coherence lengths can be reached with optical frequency combs due to the narrow linewidth of each tooth. Non-zero visibility is present only for short intervals of pulses repeated after cavity length distances up to this long coherence length.
+Other light sources.
+Tolansky's 'An introduction to Interferometry' has a chapter on Sources which quotes a line width of around 0.052 Angstroms for each of the Sodium D lines in an uncooled low-pressure sodium lamp, corresponding to a coherence length of around 67 mm for each line by itself. Cooling the low pressure sodium discharge to liquid nitrogen temperatures increases the individual D line coherence length by a factor of 6. A very narrow-band interference filter would be required to isolate an individual D line.
+

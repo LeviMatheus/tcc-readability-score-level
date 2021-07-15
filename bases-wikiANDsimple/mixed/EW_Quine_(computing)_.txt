@@ -1,0 +1,167 @@
+
+A quine is a computer program which takes no input and produces a copy of its own source code as its only output. The standard terms for these programs in the computability theory and computer science literature are "self-replicating programs", "self-reproducing programs", and "self-copying programs".
+A quine is a fixed point of an execution environment, when the execution environment is viewed as a function transforming programs into their outputs. Quines are possible in any Turing-complete programming language, as a direct consequence of Kleene's recursion theorem. For amusement, programmers sometimes attempt to develop the shortest possible quine in any given programming language.
+The name "quine" was coined by Douglas Hofstadter, in his popular science book "Gödel, Escher, Bach", in honor of philosopher Willard Van Orman Quine (1908–2000), who made an extensive study of indirect self-reference, and in particular for the following paradox-producing expression, known as Quine's paradox:
+"Yields falsehood when preceded by its quotation" yields falsehood when preceded by its quotation.
+History.
+The idea of self-reproducing automata came from the dawn of computing, if not before. John von Neumann theorized about them in the 1940s. Later, Paul Bratley and Jean Millo's article "Computer Recreations: Self-Reproducing Automata" discussed them in 1972.
+Bratley first became interested in self-reproducing programs after seeing the first known such program written in Atlas Autocode at Edinburgh in the 1960s by the University of Edinburgh lecturer and researcher Hamish Dewar.
+The "download source" requirement of the Affero General Public License is based on the idea of a quine.
+Examples.
+Constructive quines.
+In general, the method used to create a quine in any programming language is to have, within the program, two pieces: (a) code used to do the actual printing and (b) data that represents the textual form of the code. The code functions by using the data to print the code (which makes sense since the data represents the textual form of the code), but it also uses the data, processed in a simple way, to print the textual representation of the data itself.
+Here are three small examples in Python3:
+a='a=%s%s%s;print(a%%(chr(39),a,chr(39)))';print(a%(chr(39),a,chr(39)))
+b='b={}{}{};print(b.format(chr(39),b,chr(39)))';print(b.format(chr(39),b,chr(39)))
+c='c=%r;print(c%%c)';print(c%c)
+In Python 3.8:
+exec(s:='print("exec(s:=%r)"%s)')
+The following Java code demonstrates the basic structure of a quine.
+public class Quine
+ public static void main(String[] args)
+ char q = 34; // Quotation mark character
+ String[] l = { // Array of source code
+ "public class Quine",
+ " public static void main(String[] args)",
+ " char q = 34; // Quotation mark character",
+ " String[] l = { // Array of source code",
+ " };",
+ " for(int i = 0; i &lt; 6; i++) // Print opening code",
+ " System.out.println(l[i]);",
+ " for(int i = 0; i &lt; l.length; i++) // Print string array",
+ " System.out.println(l[6] + q + l[i] + q + ',');",
+ " for(int i = 7; i &lt; l.length; i++) // Print this code",
+ " System.out.println(l[i]);",
+ "}",
+ for(int i = 0; i &lt; 6; i++) // Print opening code
+ System.out.println(l[i]);
+ for(int i = 0; i &lt; l.length; i++) // Print string array
+ System.out.println(l[6] + q + l[i] + q + ',');
+ for(int i = 7; i &lt; l.length; i++) // Print this code
+ System.out.println(l[i]);
+The source code contains a string array of itself, which is output twice, once inside quotation marks.
+This code was adapted from an original post from c2.com, where the author, Jason Wilson, posted it as a minimalistic version of a Quine, without Java comments.
+Thanks to new text blocks feature in Java 15 (or newer), a more readable and simpler version is possible:
+public class Quine {
+ public static void main(String[] args) {
+ String textBlockQuotes = new String(new char[]{'"', '"', '"'});
+ char newLine = 10;
+ String source = """
+public class Quine {
+ public static void main(String[] args) {
+ String textBlockQuotes = new String(new char[]{'"', '"', '"'});
+ char newLine = 10;
+ String source = %s;
+ System.out.println(source.formatted(textBlockQuotes + newLine + source + textBlockQuotes));
+ System.out.println(source.formatted(textBlockQuotes + newLine + source + textBlockQuotes));
+Eval quines.
+Some programming languages have the ability to evaluate a string as a program. Quines can take advantage of this feature. For example, this Ruby quine:
+eval s="print 'eval s=';p s"
+Lua can do:
+s="print(string.format('s=%c%s%c; loadstring(s)()',34,s,34))"; loadstring(s)()
+"Cheating" quines.
+Self-evaluation.
+In many functional languages, including Scheme and other Lisps, and interactive languages such as APL, numbers are self-evaluating. In TI-BASIC, if the last line of a program is value returning, the returned value is displayed on the screen. Therefore, in such languages a program containing a single digit results in a 1-byte quine. Since such code does not "construct" itself, this is often considered cheating.
+1
+In some languages, particularly scripting languages but also C, an empty source file is a fixed point of the language, being a valid program that produces no output. Such an empty program, submitted as "the world's smallest self reproducing program", once won the "worst abuse of the rules" prize in the International Obfuscated C Code Contest. The program was not actually compiled, but used codice_1 to copy the file into another file, which could be executed to print nothing.
+Other questionable techniques include making use of compiler messages; for example, in the GW-BASIC environment, entering "Syntax Error" will cause the interpreter to respond with "Syntax Error".
+Source code inspection.
+Quines, per definition, cannot receive "any" form of input, including reading a file, which means a quine is considered to be "cheating" if it looks at its own source code. The following shell script is not a quine:
+cat $0
+Ouroboros programs.
+The quine concept can be extended to multiple levels of recursion, originating "ouroboros programs", or quine-relays. This should not be confused with multiquines.
+Example.
+This Java program outputs the source for a C++ program that outputs the original Java code.
+using namespace std;
+int main(int argc, char* argv[])
+ char q = 34;
+ string l[] = {
+ "=============«««« C++ Code »»»»=============",
+ "#include &lt;iostream&gt;",
+ "#include &lt;string&gt;",
+ "using namespace std;",
+ "int main(int argc, char* argv[])",
+ " char q = 34;",
+ " string l[] = {",
+ " for(int i = 20; i &lt;= 25; i++)",
+ " cout « l[i] « endl;",
+ " for(int i = 0; i &lt;= 34; i++)",
+ " cout « l[0] + q + l[i] + q + ',' « endl;",
+ " for(int i = 26; i &lt;= 34; i++)",
+ " cout « l[i] « endl;",
+ " return 0;",
+ "=============«««« Java Code »»»»=============",
+ "public class Quine",
+ " public static void main(String[] args)",
+ " char q = 34;",
+ " String[] l = {",
+ " for(int i = 2; i &lt;= 9; i++)",
+ " System.out.println( l[i] );",
+ " for(int i = 0; i &lt; l.length; i++)",
+ " System.out.println(l[0] + q + l[i] + q + ',');",
+ " for(int i = 10; i &lt;= 18; i++)",
+ " System.out.println(l[i]);",
+ "}",
+ for(int i = 20; i &lt;= 25; i++)
+ cout « l[i] « endl;
+ for(int i = 0; i &lt;= 34; i++)
+ cout « l[0] + q + l[i] + q + ',' « endl;
+ for(int i = 26; i &lt;= 34; i++)
+ cout « l[i] « endl;
+ return 0;
+public class Quine
+ public static void main(String[] args)
+ char q = 34;
+ String[] l = {
+ "=============«««« C++ Code »»»»=============",
+ "#include &lt;iostream&gt;",
+ "#include &lt;string&gt;",
+ "using namespace std;",
+ "int main(int argc, char* argv[])",
+ " char q = 34;",
+ " string l[] = {",
+ " for(int i = 20; i &lt;= 25; i++)",
+ " cout « l[i] « endl;",
+ " for(int i = 0; i &lt;= 34; i++)",
+ " cout « l[0] + q + l[i] + q + ',' « endl;",
+ " for(int i = 26; i &lt;= 34; i++)",
+ " cout « l[i] « endl;",
+ " return 0;",
+ "=============«««« Java Code »»»»==========",
+ "public class Quine",
+ " public static void main( String[] args )",
+ " char q = 34;",
+ " String[] l = {",
+ " for(int i = 2; i &lt;= 9; i++)",
+ " System.out.println(l[i]);",
+ " for(int i = 0; i &lt; l.length; i++)",
+ " System.out.println( l[0] + q + l[i] + q + ',' );",
+ " for(int i = 10; i &lt;= 18; i++))",
+ " System.out.println(l[i]);",
+ "}",
+ for(int i = 2; i &lt;= 9; i++)
+ System.out.println(l[i]);
+ for(int i = 0; i &lt; l.length; i++)
+ System.out.println( l[0] + q + l[i] + q + ',' );
+ for(int i = 10; i &lt;= 18; i++)
+ System.out.println(l[i]);
+Such programs have been produced with various cycle lengths:
+Multiquines.
+David Madore, creator of Unlambda, describes multiquines as follows:
+"A multiquine is a set of r different programs (in r different languages – without this condition we could take them all equal to a single quine), each of which is able to print any of the r programs (including itself) according to the command line argument it is passed. (Note that cheating is not allowed: the command line arguments must not be too long – passing the full text of a program is considered cheating)."
+A multiquine consisting of 2 languages (or biquine) would be a program which:
+A biquine could then be seen as a set of two programs, both of which are able to print either of the two, depending on the command line argument supplied.
+Theoretically, there is no limit on the number of languages in a multiquine.
+A 5-part multiquine (or pentaquine) has been produced with Python, Perl, C, NewLISP, and F#
+and there is also a 25-language multiquine.
+Radiation-hardened.
+A radiation-hardened quine is a quine that can have any single character removed and still produces the original program with no missing character. Of necessity, such quines are much more convoluted than ordinary quines, as is seen by the following example in Ruby:
+eval='eval$q=%q(puts %q(10210/#{1 1 if 1==21}}/.i rescue##/
+1 1"[13,213].max_by{|s|s.size}#"##").gsub(/\d/){["=\47eval$q=%q(#$q)#\47##\47
+exit)#'##'
+instance_eval='eval$q=%q(puts %q(10210/#{1 1 if 1==21}}/.i rescue##/
+1 1"[13,213].max_by{|s|s.size}#"##").gsub(/\d/){["=\47eval$q=%q(#$q)#\47##\47
+exit)#'##'
+/#{eval eval if eval==instance_eval}}/.i rescue##/
+eval eval"[eval||=9,instance_eval||=9].max_by{|s|s.size}#"##"
+

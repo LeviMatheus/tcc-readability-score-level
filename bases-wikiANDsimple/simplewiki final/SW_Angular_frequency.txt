@@ -1,0 +1,3 @@
+In physics (specifically mechanics and electrical engineering), angular frequency ω (also referred to by the terms angular speed, radial frequency, and radian frequency) is a scalar measure of rotation rate.
+Angular frequency is the magnitude of the vector quantity "angular velocity". The term angular frequency vector formula_1 is sometimes used as a synonym for the vector quantity angular velocity.
+In SI units, angular frequency is measured in radians per second, with dimensions t−1 since radians are dimensionless.

@@ -1,0 +1,15 @@
+
+The MOS Technology 6510 is an 8-bit microprocessor designed by MOS Technology. It is a modified form of the very successful 6502. The 6510 was only widely used in the Commodore 64 (C64) home computer and its variants.
+The primary change from the 6502 was the addition of an 8-bit general purpose I/O port, although only six I/O pins were available in the most common version of the 6510. In addition, the address bus could be made tristate.
+Use.
+In the C64, the extra I/O pins of the processor were used to control the computer's memory map by bank switching, and for controlling three of the four signal lines of the Datasette tape recorder (the electric motor control, key-press sensing and write data lines; the read data line went to another I/O chip). It was possible, by writing the correct bit pattern to the processor at address $01, to completely expose almost the full 64 KB of RAM in the C64, leaving no ROM or I/O hardware exposed except for the processor I/O port itself and its data directional register.
+Variants.
+MOS 8500.
+In 1985, MOS produced the 8500, an HMOS version of the 6510. Other than the process modification, it is virtually identical to the NMOS version of the 6510. The 8500 was originally designed for use in the modernised C64, the C64C. However, in 1985, limited quantities of 8500s were found on older NMOS-based C64s. It finally made its official debut in 1987, appearing in a motherboard using the new 85xx HMOS chipset.
+MOS 7501/8501.
+The 7501/8501 variant of the 6510 was introduced in 1984. Compared to the 6510, this variant extends the number of I/O port pins from 6 to 8, but omits the pins for non-maskable interrupt and clock output. It was used in Commodore's C16, C116 and Plus/4 home computers, where its I/O port controlled not only the Datasette but also the CBM Bus interface. The main difference between 7501 and 8501 CPUs is that they were manufactured with slightly different processes: 7501 was manufactured with HMOS-1 and 8501 with HMOS-2.
+MOS 8502.
+The 2 MHz-capable 8502 variant was used in the Commodore 128. All these CPUs are opcode compatible (including undocumented opcodes).
+MOS 6510T.
+The Commodore 1551 disk drive used the 6510T, a version of the 6510 with eight I/O lines. The NMI and RDY signals are not available.
+

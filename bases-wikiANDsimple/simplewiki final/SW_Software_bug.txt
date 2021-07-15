@@ -1,0 +1,3 @@
+A software bug is a problem with the code in a computer program which makes it not work properly. They can cause inconvenience to the user may make their computer crash or freeze.
+Most bugs are caused by bad programming by the developer, but sometimes they can be caused by compiler problems. When bugs are found, people send bug reports to the developer to tell them about the bug and let them fix it.
+Sometimes, people say that their computer has a bug when something is wrong with it. The problem usually caused by a computer virus which has infected their computer and is making it slow or do different things.

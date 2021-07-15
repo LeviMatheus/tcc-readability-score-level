@@ -1,0 +1,20 @@
+OGame is a browser-based strategy game. The game was created in 2002 by Gameforge. OGame is able to go in different languages. It also has up to 39 uni (for short) or universes.
+Game play.
+Each player starts with one randomly given planet, with the starting name of "Homeworld" (which can be changed). Building from that one planet, he/she later has the option to keep on developing that planet or to expand his/her colony to include up to 9 planets. All construction, research, and missions are performed and launched from a planet or moon. While playing the player has a chance of building fleets and defenses for there planet.
+Alliances.
+An alliance is a group of people who have banded together and is mostly used for solidarity purposes. Alliances are created for players to protect each other from attacks, join together to raid other planets, or to promote free trade amongst members. Members of an alliance can use the ACS (Alliance Combat System), available in some universes.
+Resources.
+There are four resources used in OGame: metal, crystal, deuterium,and dark matter.
+Metal is mainly used for buildings, Ships, Defenses. To get this resources he/she has to upgrade or build a metal mine.
+Crystal is the second resource. Crystal is mostly used in research. Crystal is one of the hardest resource to obtain. It is gotten by building or upgrading a crystal mine.
+Deuterium is the rarest resource and can be obtained only from deuterium synthesizers. Deuterium is mainly used as fuel for a player's fleet to perform a mission, and for research.
+Purchased effects.
+All purchased effects are paid with dark matter. In order to get dark matter he/she has to buy it on OGame.
+Commander.
+The Commander gives the player improved functions. Features include a building order which gives the player the ability to order several buildings to be built without requiring the player to login and start a new build. The player also gets an “Empire View” that shows the player all details on every planet including ships, defenses, resources, and energy. Other bonus given by OGame Commander are message filters, shortcuts, an improved galaxy view and commands, and a gaming experience free of ads.
+Officers.
+On February 16, 2007, Officers were introduced to the game. It is worth nothing that Gameforge had earlier promised it's users it would never introduce pay-to-play options that provided direct benefits, and the change the caused a large scale of conflict in the community.
+Merchants.
+As of version 0.78 people can hire a merchant to trade one resource type for another. This is almost the same as trading except that there are no other players involved. The only limitation you have is the amount of free space in your storage silos and the amount of dark matter you have. You cannot trade when your silos are full, or when standing on a moon. It is wise to move away all the resources you want to keep, so that you can trade the maximum amount that your storage holds.
+Rules.
+OGame is monitored by Game Operators, Super Game Operators and Game Administrators each of whom have the rights to ban any player suspected of misconduct and violation of the rules. The rules can be different for each OGame universe. Players who have been banned are put into the pillory of their universe. The pillory shows the reason of banning and the administrator who made the decision. It also shows the unbanning of a player when they have clarified the fault. The planets and colonies of players that have received lifelong bans are subject to the one month account deletion due to inactivity.

@@ -1,0 +1,12 @@
+
+Giga ( or ) is a unit prefix in the metric system denoting a factor of a short-scale billion or long-scale milliard (109 or ). It has the symbol G.
+"Giga" is derived from the Greek word ("gígas"), meaning "giant." The "Oxford English Dictionary" reports the earliest written use of "giga" in this sense to be in the Reports of the IUPAC 14th Conference in 1947: "The following prefixes to abbreviations for the names of units should be used: G giga 109×."
+When referring to information units in computing, such as gigabyte, giga may sometimes mean (230); this causes ambiguity. Standards organizations discourage this and use giga- to refer to 109 in this context too. "Gigabit" is never (or very rarely) used with the binary interpretation of the prefix. The binary prefix "gibi" has been adopted for 230, while reserving "giga" exclusively for the metric definition.
+Pronunciation.
+In English, the prefix "giga" can be pronounced (a hard "g" as in "giggle"), or (a soft "g" as in "giant", which shares "giga" Ancient Greek root, but not pronunciation).
+This latter pronunciation was formalised within the United States in the 1960s and 1980s with the issue by the US National Bureau of Standards of pronunciation guides for the metric prefixes. A prominent example is found in the pronunciation of "gigawatts" in the 1985 film "Back to the Future".
+According to the American writer Kevin Self, a German committee member of the International Electrotechnical Commission proposed "giga" as a prefix for 109 in the 1920s, drawing on a verse (evidently "Anto-logie") by the German humorous poet Christian Morgenstern that appeared in the third (1908) edition of his (Gallows Songs). This suggests that a hard German was originally intended as the pronunciation. Self was unable to ascertain when the (soft "g") pronunciation came into occasional use, but claimed that as of 1995 it had returned to (hard "g").
+In 1998, a poll by the phonetician John C. Wells found that 84% of Britons preferred the pronunciation of "gigabyte" starting with (as in "gig"), 9% with (as in "jig"), 6% with ("guy"), and 1% with (as in "giant").
+Binary prefix.
+The notation can represent 1,073,741,824 (230) bytes or 1,000,000,000 bytes. Under the IEC 60027-2 A.2 and ISO/IEC 80000 standards, the correct notation of 230 is "gibi" (symbol Gi). So one gibibyte () is 1,073,741,824 bytes or . Despite international standards, the use of = 230 B is widespread. A laptop advertised as having has 8,589,934,592 bytes of memory: , or .
+

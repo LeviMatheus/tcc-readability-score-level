@@ -1,0 +1,1 @@
+In cryptography, a key-agreement protocol is a cryptographic protocol by which two or more parties can agree on a key in such a way that both have an effect on the results.

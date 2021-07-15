@@ -1,0 +1,1 @@
+A NOT gate (alos often called Inverter) is a logic gate. It takes one input signal. In logic, there are usually two states, 0 and 1. The gate therefore sends "1" as output, if it receves "0" as input. Alternatively it received "1" as input, and sends "0" as output

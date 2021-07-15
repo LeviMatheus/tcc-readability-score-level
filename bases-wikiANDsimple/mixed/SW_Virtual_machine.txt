@@ -1,0 +1,1 @@
+A virtual machine is a virtual appliance that exists through Virtualization. Virtual machines can be created through software known as virtualization software (such as VMware Workstation and VirtualBox). The hard disk becomes a file on the physical machine and the memory is either used through the host's memory or it is a file.

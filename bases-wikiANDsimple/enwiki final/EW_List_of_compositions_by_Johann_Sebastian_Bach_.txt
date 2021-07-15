@@ -1,0 +1,94 @@
+
+Johann Sebastian Bach's vocal music includes cantatas, motets, masses, Magnificats, Passions, oratorios, four-part chorales, songs and arias. His instrumental music includes concertos, suites, sonatas, fugues, and other works for organ, harpsichord, lute, violin, viola da gamba, cello, flute, chamber ensemble and orchestra.
+There are over 1000 known compositions by Bach. Nearly all of them are listed in the "" (BWV), which is the best known and most widely used catalogue of Bach's compositions.
+Listing Bach's compositions.
+Some of the early biographies of Johann Sebastian Bach contain lists of his compositions. For instance, his obituary contains a list of the instrumental compositions printed during the composer's lifetime, followed by an approximate list of his unpublished work. The , by Johann Nikolaus Forkel, follows the same approach: its ninth chapter first lists printed works (adding four-part chorales which had been published in the second half of the 18th century), followed by a rough overview of the unpublished ones. In the first half of the 19th century more works were published, so the next biographies (Schauer and Hilgenfeldt in 1850) had more elaborate appendices listing printed works, referring to these works by publisher, and the number or page number given to the works in these publications. So, for example, the Prelude and Fugue in E-flat major can be indicated as "C. F. Peters Vol. III No. 1", or any of the variants ("Griepenkerl and Roitzsch Vol. 3 p. 2", "Peters Book 242 p. 2", "P. S. V., Cah. 3 (242), No. 1", etc.)
+BG.
+In the second half of the 19th century the Bach-Gesellschaft (BG) published all of Bach's works in around 50 volumes, the so-called Bach Gesellschaft Ausgabe (BGA). This offered a unique identification of all of Bach's known works, a system that was quickly adopted, for instance by the biographers: Philipp Spitta used it complementarily to the Peters edition numbering for the BG volumes that had appeared when he was writing his Bach-biography in the second half of the 19th century (e.g. "B. G., III., p. 173" for the above-mentioned Prelude in E-flat major), and Terry used it in the third Appendix to his 20th-century translation of Forkel's biography.
+But there was still a lot of confusion: some authors preferred to list Bach's works according to Novello's editions, or Augener's, or Schirmer's... giving rise to various conversion tables at the end of books on Bach's compositions (e.g. Harvey Grace's in a 1922 book on Bach's organ compositions).
+NBG.
+In 1900 the BG published its last volume, and dissolved itself, as its primary goal, publishing all of Bach's known works, was accomplished. The BG was succeeded by the Neue Bachgesellschaft (NBG), with a new set of goals (Bach yearbook, Bach festivals, and a Bach museum). Occasionally however the NBG published newly discovered works, or variants not published in the BGA. For instance the 1740s version of "O Jesu Christ, meins Lebens Licht" was published in NBG XVII1 in 1916 (the 1730s version of the same piece, with a different orchestration, had been published in BG 24, pp. 185–192).
+BWV.
+In 1950 the "Bach-Werke-Verzeichnis" was published, allocating a unique number to every known composition by Bach. Wolfgang Schmieder, the editor of that catalogue, grouped the compositions by genre, largely following BG for the collation (e.g. BG cantata number = BWV number of the cantata):
+For instance, the Prelude and Fugue in E-flat major now became BWV 552, situated in the range of the works for organ. In contrast to other catalogues such as the Köchel catalogue for Mozart's compositions there is no attempt at chronological organization in the BWV numbering, for instance BWV 992 is an early composition by Bach. Exceptionally BWV numbers are also indicated as Schmieder (S) numbers (e.g. S. 225 = BWV 225).
+Another consequence of the ordering principles of the BWV was that it tore known collections apart, for instance Clavier-Übung III was partly in the organ compositions range (BWV 552 and 669–689), with the four duets listed among the keyboard compositions (BWV 802–805).
+BWV Anh..
+The Anhang (Anh.), i.e. Appendix, of the BWV listed works that were not suitable for the main catalogue, in three sections:
+Within each section of the Anhang the works are sorted by genre, following the same sequence of genres as the main catalogue.
+BWV2 and BWV2a.
+Schmieder published the BWV's second edition in 1990, with some modifications regarding authenticity discriminations, and more works added to the main catalogue and the Anhang. A strict numerical collation was abandoned to insert additions, or when for another reason compositions were regrouped. For example, BWV 11, formerly listed as a Cantata, was moved to the fourth chapter of the main catalogue as an Oratorio. Rather than renumbering a composition, an arrow indicated where the composition was inserted: "" meaning "BWV 11, inserted after BWV 249b" (4th chapter). Similarly, meant BWV 1083, inserted after BWV 243a (3rd chapter). Also authenticity discriminations, based on new research, could lead to such repositionings within the catalogue, e.g. "" became " indicating it was now considered a spurious work.
+In 1998 Alfred Dürr and Yoshitake Kobayashi published a small edition of the catalogue, based on the 1990 second edition. This edition, known as BWV2a, contained a few further updates and collation rearrangements.
+New additions (Nachträge) to BWV2/BWV2a included:
+A few exceptions to the principle that compositions weren't renumbered were when a composition from the Anhang could be recovered and/or authenticated as Bach's, so that it deserved a place in the main catalogue, in which case it was given a number above 1080. So, for example, BWV Anh. 205 (BWV2) → BWV 1121 (BWV2a, where it is in section 7 as a work for organ).
+Other renumberings and additional numbers involved alternative or earlier versions of basically the same composition, which were indicated by adding a lower case letter to the BWV number. Examples:
+Some versions were completely removed from the catalogue, e.g. BWV 655b and c.
+Slashes indicate movements: e.g. BWV 149/1 indicates the first movement of the Cantata BWV 149. Another example: the Agnus Dei of the Mass in B minor can be indicated as BWV 232/22 (22nd movement of the composition), or alternatively as BWV 232IV/4 (BWV 232, fourth movement of Part IV).
+21st-century additions.
+Numbers above BWV 1126 were added in the 21st century.
+Reconstructed versions.
+An upper case R added to a BWV number indicates a reconstructed version, that is a conjectured earlier version of a known composition. One of such reconstructions, the Concerto for oboe and violin, as published in NBA VII/7 (Supplement) p. 75, based on the double harpsichord concerto BWV 1060, is known as BWV 1060R.
+BWV3.
+As of mid-2018 the Bach digital website started to implement the new numbers of the 3rd edition of the Bach-Werke-Verzeichnis, which has been announced for publication in 2020. For example, the Leipzig version of the "Christ lag in Todes Banden" cantata used to be BWV 4 in previous versions of the catalogue, and, in BWV3, has become BWV 4.2.
+NBA.
+In the meantime, the New Bach Edition (Neue Bach-Ausgabe, abbreviated as NBA) was being published, offering a new system to refer to Bach's works, e.g. , which is Series IV, Volume 4, p. 2 (Prelude) and p. 105 (Fugue), for BWV 552.
+NBArev.
+Some years after the completion of the NBA in 2007 its publisher Bärenreiter joined with the Bach Archive again to publish revised editions of some of Bach's scores. These revised editions, aligning with the NBA editions (format, layout), but outside that group of publications, were published under the name Johann Sebastian Bach: New Edition of the Complete Works – Revised Edition (Johann Sebastian Bach: Neue Ausgabe sämtlicher Werke – Revidierte Edition), in short: New Bach Edition – Revised (Neue Bach-Ausgabe – Revidierte Edition), abbreviated as NBArev. Where the original NBA editions were exclusively in German, the volumes of the Revised series have their introductions both in German and English. Its first volume, NBArev 1, was a new edition of the Mass in B minor, appearing in 2010.
+BC.
+The Bach Compendium (BC), a catalogue covering Bach's vocal works was published in 1985. Occasionally works that have no BWV number can be identified by their BC number, e.g. BC C 8 for "Der Gerechte kömmt um" an arrangement attributed to Bach on stylistic grounds, however unmentioned in the BWV.
+BNB.
+Bachs Notenbibliothek (BNB) is a list of works Bach had at his disposition. Works of other composers which were arranged by Bach and/or which he (had) copied for performance usually have a BNB number.
+SBB.
+The Berlin State Library (Staatsbibliothek zu Berlin = SBB) holds an important collection of composition manuscripts relating to Bach. Some versions of works are best known by their principal manuscript in the SBB, for instance = , or according to the abbreviations used at the Bach-digital website .
+By opus number, and chronological lists.
+Apart from indicating his first published keyboard composition as Opus 1, Bach did not use opus numbers. Lists following publication chronologies are for example implied in the first list in Bach's obituary, and BG numbers (within the BGA sequence of publication) – overall lists covering all of Bach's compositions in order of first publication are however not a way Bach's compositions are usually presented.
+Listing Bach's works according to their time of composition cannot be done comprehensively: for many works the period in which they were composed is a very wide range. For Bach's larger vocal works (cantatas, Passions...) research has led to some more or less generally accepted chronologies, covering most of these works: a catalogue in this sense is Philippe (and Gérard) Zwang's list giving a chronological number to the cantatas BWV 1–215 and 248–249. This list was published in 1982 as "Guide pratique des cantates de Bach" in Paris, . A revised edition was published in 2005 ().
+Other composers.
+Various catalogues with works by other composers have intersections with collections of works associated with Bach:
+Works in Bach's catalogues and collections.
+There are over 1500 works that feature in a catalogue of works by Bach, like the "Bach-Werke-Verzeichnis", and/or in a collection of works associated with Bach (e.g. in one of the "Notebooks for Anna Magdalena Bach"). Of these around a thousand are original compositions by Bach, that is: more than a mere copy or transcription of an earlier work by himself or another composer.
+By genre.
+Cantatas (BWV 1–224).
+In the 1950 first edition of the BWV the cantatas were largely listed according to their BGA number:
+Additionally Anh. I of the first edition of the BWV started with a list of some 20 lost cantatas, while Anh. III of that edition listed a few cantata (movements) by other composers (Anh. 156–158).
+BWV2a added many more lost cantatas (BWV Anh. 190–199 and 209–212) and alternative versions to known works indicating (partially) lost cantatas or cantata versions, e.g. BWV 244a, the music of which was partially preserved in the "St Matthew Passion", BWV 244.
+Motets (BWV 225–231).
+There are over a dozen motets attributed to Bach, about half of which are authentic by all accounts:
+Liturgical works in Latin (BWV 232–243).
+Bach's involvement with Latin church music, as composer, arranger or copyist, includes:
+Passions and oratorios (BWV 244–249).
+Passions and oratorios composed or contributed to by Bach include:
+Four-part chorales (BWV 250–438).
+Bach's chorale settings (usually for SATB choir) are included in:
+Songs and arias (BWV 439–524).
+Songs and (separate) arias by Bach are included in several collections:
+Associated with the Songs and Arias group:
+Works for organ (BWV 525–771).
+Bach's organ compositions include:
+Works for keyboard (BWV 772–994).
+Bach's works for harpsichord, clavichord and other keyboard instruments include:
+Works for solo lute (BWV 995–1000).
+Bach's compositions for lute and/or lute-harpsichord (Lautenwerck) include:
+Chamber music (BWV 1001–1040).
+Bach wrote chamber music for solo violin, cello or flute, sonatas for harpsichord and an instrumental soloist, and Trio sonatas:
+Orchestral works (BWV 1041–1071).
+Bach wrote concertos and orchestral suites:
+Canons (BWV 1072–1078).
+Separate canons by Bach are listed in the 12th chapter of the BWV:
+Late contrapuntal works (BWV 1079–1080).
+The list of late contrapuntal works contains only two items:
+20th-century additions to the BWV catalogue and Anhang.
+Additions as published in BWV2a
+Additions to the Anhang (BWV Anh. 190–213).
+BWV Anh. 190–213 were added between the 1950 and 1990s editions of the catalogue
+21st-century additions to the BWV catalogue (BWV 1127 and higher).
+BWV numbers assigned after the publication of BWV2a:
+Derivative works.
+There is not much system in the way works derived from Bach's compositions are listed. The "R" addition to the BWV number is only well-established for the reconstructions included in NBA VII/7 (e.g. solo violin reconstructions of BWV 565 are not usually indicated as BWV 565R, neither is the system used for reconstructed vocal works). For some series of transcriptions and arrangements works catalogues of these transcribers/arrangers may hold sublists with works derived from compositions by Bach.
+Reconstructed concertos.
+Each reconstructed concerto is created after the harpsichord concerto for the presumed original instrument. Such reconstructions are commonly referred to as, for example, BWV 1052R (where the R stands for 'reconstructed'). Other reconstructions and completions of for instance BWV 1059 have been indicated as BWV 1059, or BWV 1059a.
+Adaptations.
+Transcriptions and arrangements in the catalogues of works by other composers include:
+References.
+For abbreviations used in the references see also Bibliography at 
+Bibliography
+

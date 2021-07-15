@@ -1,0 +1,8 @@
+The Static Random Access Memory (Static RAM) is a high speed memory. Static RAM is a type of RAM that gets its data without an external refresh. For as long as power is supplied to the circuit.
+SRAM has many differences to Dynamic RAM (DRAM). The first of all is duty to refresh memory many time per second to hold its data contents. The second one is that SRAMs are also used for specific applications within the PC, where their strengths outweigh their weaknesses compared to DRAM.
+Positive differences.
+SRAMs don't require external refresh circuitry or other work in order for them to keep their data intact, they are also faster than DRAM.
+Negative differences.
+A SRAM is more expensive than DRAM. SRAMs take up much more space than DRAMs. That is the reason why is SRAM more expensive then DRAM.
+Summary.
+SRAM is manufactured in a way rather similar to how processors are: highly-integrated transistor patterns photo-etched into silicon. Each SRAM bit is composed of between four and six transistors. Which is why SRAM takes up much more space compared to DRAM. To compare with DRAM. DRAM has only one transistor plus a capacitor. SRAM chip is comprised of thousands or millions of identical cells. That is much easier to make than a CPU, which is a large die with a non-repetitive structure. This is one reason why RAM chips cost much less than processors do. See this discussion of how processors are manufactured; this process is similar (but simplified somewhat) for making memory circuits.

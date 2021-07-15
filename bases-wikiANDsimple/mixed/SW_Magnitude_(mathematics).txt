@@ -1,0 +1,8 @@
+The magnitude of a mathematical object is its size: a property by which it can be larger or smaller than other objects of the same kind.
+In mathematical language one would say: It is an ordering of the class of objects to which it belongs.
+They had proven that the first two could not be the same, or even isomorphic systems of magnitude. They did not consider negative magnitudes to be meaningful, and "magnitude" is still chiefly used in contexts in which zero is either the lowest size or less than all possible sizes.
+Real numbers.
+This gives the number's distance from zero on the real number line. For example, the modulus of −5 is 5.
+Practical math.
+A magnitude is never negative. When comparing magnitudes, it is often helpful to use a logarithmic scale. Real-world examples include the loudness of a sound (decibel), the brightness of a star, or the Richter scale of earthquake intensity.
+To put it another way, often it is not meaningful to simply add and subtract magnitudes.

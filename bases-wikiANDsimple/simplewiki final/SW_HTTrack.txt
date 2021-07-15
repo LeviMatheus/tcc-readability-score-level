@@ -1,0 +1,1 @@
+HTTrack is a free and open source website copier and offline browser by Xavier Roche, licensed under the GNU General Public License. It allows you to download World Wide Web sites from the Internet to a computer.

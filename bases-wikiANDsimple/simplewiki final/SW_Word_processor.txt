@@ -1,0 +1,5 @@
+A word processor is a computer program (often a text editor) or a special computer intended to edit texts with colors and different font sizes and styles, or texts which will be printed.
+Most such programs now have helpful instruments (tools) to make good texts. Some of the important instruments have a spelling & grammar checker, word count (this also counts letters and lines). Moreover, with such programs one can make attractive documents, add pictures into documents, make web pages, graphs etc. Also, they show synonyms (similar words) of words and some can read out the text. Many word processors, similar to many new programs, have configurable printing facilities.
+Most people use Microsoft Word, which they buy in a shop or download illegally.
+Some people use OpenOffice.org Writer, which they download legally with OpenOffice.org; or KWord for KDE.
+There are also many other programs like that.

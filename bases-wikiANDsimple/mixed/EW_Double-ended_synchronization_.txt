@@ -1,0 +1,3 @@
+
+For two connected exchanges in a communications network, a double-ended synchronization (also called double-ended control) is a synchronization control scheme in which the phase error signals used to control the clock at one telephone exchange are derived by comparison with the phase of the incoming digital signal and the phase of the internal clocks at both exchanges.
+

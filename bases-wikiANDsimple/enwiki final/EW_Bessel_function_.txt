@@ -1,0 +1,148 @@
+
+Bessel functions, first defined by the mathematician Daniel Bernoulli and then generalized by Friedrich Bessel, are canonical solutions of Bessel's differential equation
+for an arbitrary complex number , the "order" of the Bessel function. Although and produce the same differential equation, it is conventional to define different Bessel functions for these two values in such a way that the Bessel functions are mostly smooth functions of .
+The most important cases are when is an integer or half-integer. Bessel functions for integer are also known as cylinder functions or the cylindrical harmonics because they appear in the solution to Laplace's equation in cylindrical coordinates. Spherical Bessel functions with half-integer are obtained when the Helmholtz equation is solved in spherical coordinates.
+Applications of Bessel functions.
+Bessel's equation arises when finding separable solutions to Laplace's equation and the Helmholtz equation in cylindrical or spherical coordinates. Bessel functions are therefore especially important for many problems of wave propagation and static potentials. In solving problems in cylindrical coordinate systems, one obtains Bessel functions of integer order (); in spherical problems, one obtains half-integer orders (). For example:
+Bessel functions also appear in other problems, such as signal processing (e.g., see FM synthesis, Kaiser window, or Bessel filter).
+Definitions.
+Because this is a second-order linear differential equation, there must be two linearly independent solutions. Depending upon the circumstances, however, various formulations of these solutions are convenient. Different variations are summarized in the table below and described in the following sections.
+Bessel functions of the second kind and the spherical Bessel functions of the second kind are sometimes denoted by and , respectively, rather than and .
+Bessel functions of the first kind:.
+Bessel functions of the first kind, denoted as , are solutions of Bessel's differential equation. For integer or positive , Bessel functions of the first kind are finite at the origin (); while for negative non-integer , Bessel functions of the first kind diverge as approaches zero. It is possible to define the function by its series expansion around , which can be found by applying the Frobenius method to Bessel's equation:
+where is the gamma function, a shifted generalization of the factorial function to non-integer values. The Bessel function of the first kind is an entire function if is an integer, otherwise it is a multivalued function with singularity at zero. The graphs of Bessel functions look roughly like oscillating sine or cosine functions that decay proportionally to formula_3 (see also their asymptotic forms below), although their roots are not generally periodic, except asymptotically for large . (The series indicates that is the derivative of , much like is the derivative of ; more generally, the derivative of can be expressed in terms of by the identities below.)
+For non-integer , the functions and are linearly independent, and are therefore the two solutions of the differential equation. On the other hand, for integer order , the following relationship is valid (the gamma function has simple poles at each of the non-positive integers):
+This means that the two solutions are no longer linearly independent. In this case, the second linearly independent solution is then found to be the Bessel function of the second kind, as discussed below.
+Bessel's integrals.
+Another definition of the Bessel function, for integer values of , is possible using an integral representation:
+This was the approach that Bessel used, and from this definition he derived several properties of the function. The definition may be extended to non-integer orders by one of Schläfli's integrals, for :
+Relation to hypergeometric series.
+The Bessel functions can be expressed in terms of the generalized hypergeometric series as
+This expression is related to the development of Bessel functions in terms of the Bessel–Clifford function.
+Relation to Laguerre polynomials.
+In terms of the Laguerre polynomials and arbitrarily chosen parameter , the Bessel function can be expressed as
+Bessel functions of the second kind:.
+The Bessel functions of the second kind, denoted by , occasionally denoted instead by , are solutions of the Bessel differential equation that have a singularity at the origin () and are multivalued. These are sometimes called Weber functions, as they were introduced by , and also Neumann functions after Carl Neumann.
+For non-integer , is related to by
+In the case of integer order , the function is defined by taking the limit as a non-integer tends to :
+If is a nonnegative integer, we have the series
+where formula_12 is the digamma function, the logarithmic derivative of the gamma function.
+There is also a corresponding integral formula (for ):
+ is necessary as the second linearly independent solution of the Bessel's equation when is an integer. But has more meaning than that. It can be considered as a "natural" partner of . See also the subsection on Hankel functions below.
+When is an integer, moreover, as was similarly the case for the functions of the first kind, the following relationship is valid:
+Both and are holomorphic functions of on the complex plane cut along the negative real axis. When is an integer, the Bessel functions are entire functions of . If is held fixed at a non-zero value, then the Bessel functions are entire functions of .
+The Bessel functions of the second kind when is an integer is an example of the second kind of solution in Fuchs's theorem.
+Hankel functions: ,.
+Another important formulation of the two linearly independent solutions to Bessel's equation are the Hankel functions of the first and second kind, and , defined as
+where is the imaginary unit. These linear combinations are also known as Bessel functions of the third kind; they are two linearly independent solutions of Bessel's differential equation. They are named after Hermann Hankel.
+These forms of linear combination satisfy numerous simple-looking properties, like asymptotic formulae or integral representations. Here, "simple" means an appearance of a factor of the form . For real formula_16 where formula_17, formula_18 are real-valued, the Bessel functions of the first and second kind are the real and imaginary parts, respectively, of the first Hankel function and the real and negative imaginary parts of the second Hankel function. Thus, the above formulae are analogs of Euler's formula, substituting , for formula_19 and formula_17, formula_18 for formula_22, formula_23, as explicitly shown in the asymptotic expansion.
+The Hankel functions are used to express outward- and inward-propagating cylindrical-wave solutions of the cylindrical wave equation, respectively (or vice versa, depending on the sign convention for the frequency).
+Using the previous relationships, they can be expressed as
+If is an integer, the limit has to be calculated. The following relationships are valid, whether is an integer or not:
+In particular, if with a nonnegative integer, the above relations imply directly that
+These are useful in developing the spherical Bessel functions (see below).
+The Hankel functions admit the following integral representations for :
+where the integration limits indicate integration along a contour that can be chosen as follows: from to 0 along the negative real axis, from 0 to along the imaginary axis, and from to along a contour parallel to the real axis.
+Modified Bessel functions: ,.
+The Bessel functions are valid even for complex arguments , and an important special case is that of a purely imaginary argument. In this case, the solutions to the Bessel equation are called the modified Bessel functions (or occasionally the hyperbolic Bessel functions) of the first and second kind and are defined as
+when is not an integer; when is an integer, then the limit is used. These are chosen to be real-valued for real and positive arguments . The series expansion for is thus similar to that for , but without the alternating factor.
+formula_29 can be expressed in terms of Hankel functions:
+We can express the first and second Bessel functions in terms of the modified Bessel functions (these are valid if ):
+ and are the two linearly independent solutions to the modified Bessel's equation:
+Unlike the ordinary Bessel functions, which are oscillating as functions of a real argument, and are exponentially growing and decaying functions respectively. Like the ordinary Bessel function , the function goes to zero at for and is finite at for . Analogously, diverges at with the singularity being of logarithmic type for , and otherwise.
+Two integral formulas for the modified Bessel functions are (for ):
+Bessel functions can be described as Fourier transforms of powers of quadratic functions. For example:
+It can be proven by showing equality to the above integral definition for . This is done by integrating a closed curve in the first quadrant of the complex plane.
+Modified Bessel functions and can be represented in terms of rapidly convergent integrals
+The modified Bessel function of the second kind has also been called by the following names (now rare):
+Spherical Bessel functions: ,.
+When solving the Helmholtz equation in spherical coordinates by separation of variables, the radial equation has the form
+The two linearly independent solutions to this equation are called the spherical Bessel functions and , and are related to the ordinary Bessel functions and by
+ is also denoted or ; some authors call these functions the spherical Neumann functions.
+The spherical Bessel functions can also be written as (Rayleigh's formulas)
+The zeroth spherical Bessel function is also known as the (unnormalized) sinc function. The first few spherical Bessel functions are:
+and
+Generating function.
+The spherical Bessel functions have the generating functions
+Differential relations.
+In the following, is any of , , , for 
+Spherical Hankel functions: ,.
+There are also spherical analogues of the Hankel functions:
+In fact, there are simple closed-form expressions for the Bessel functions of half-integer order in terms of the standard trigonometric functions, and therefore for the spherical Bessel functions. In particular, for non-negative integers :
+and is the complex-conjugate of this (for real ). It follows, for example, that and , and so on.
+The spherical Hankel functions appear in problems involving spherical wave propagation, for example in the multipole expansion of the electromagnetic field.
+Riccati–Bessel functions: , , ,.
+Riccati–Bessel functions only slightly differ from spherical Bessel functions:
+They satisfy the differential equation
+For example, this kind of differential equation appears in quantum mechanics while solving the radial component of the Schrödinger's equation with hypothetical cylindrical infinite potential barrier. This differential equation, and the Riccati–Bessel solutions, also arises in the problem of scattering of electromagnetic waves by a sphere, known as Mie scattering after the first published solution by Mie (1908). See e.g., Du (2004) for recent developments and references.
+Following Debye (1909), the notation , is sometimes used instead of , .
+Asymptotic forms.
+The Bessel functions have the following asymptotic forms. For small arguments , one obtains, when is not a negative integer:
+When is a negative integer, we have
+For the Bessel function of the second kind we have three cases:
+where is the Euler–Mascheroni constant (0.5772...).
+For large real arguments , one cannot write a true asymptotic form for Bessel functions of the first and second kind (unless is half-integer) because they have zeros all the way out to infinity, which would have to be matched exactly by any asymptotic expansion. However, for a given value of one can write an equation containing a term of order :
+(For the last terms in these formulas drop out completely; see the spherical Bessel functions above.) Even though these equations are true, better approximations may be available for complex . For example, when is near the negative real line is approximated better by
+than by
+The asymptotic forms for the Hankel functions are:
+These can be extended to other values of using equations relating and to and .
+It is interesting that although the Bessel function of the first kind is the average of the two Hankel functions, is not asymptotic to the average of these two asymptotic forms when is negative (because one or the other will not be correct there, depending on the used). But the asymptotic forms for the Hankel functions permit us to write asymptotic forms for the Bessel functions of first and second kinds for "complex" (non-real) so long as goes to infinity at a constant phase angle (using the square root having positive real part):
+For the modified Bessel functions, Hankel developed asymptotic (large argument) expansions as well:
+There is also the asymptotic form (for large real formula_56)
+formula_57.
+When , all the terms except the first vanish, and we have
+For small arguments , we have
+Full domain approximations with elementary functions.
+A very good approximation (error below formula_60 of the maximum value 1) of the Bessel function formula_61 for an arbitrary value of the argument may be obtained with the elementary functions by joining the trigonometric approximation working for smaller values of with the expression containing attenuated cosine function valid for large arguments with a usage of the smooth transition function formula_62 i.e.
+Properties.
+For integer order , is often defined via a Laurent series for a generating function:
+an approach used by P. A. Hansen in 1843. (This can be generalized to non-integer order by contour integration or other methods.) Another important relation for integer orders is the "Jacobi–Anger expansion":
+and
+which is used to expand a plane wave as a sum of cylindrical waves, or to find the Fourier series of a tone-modulated FM signal.
+More generally, a series
+is called Neumann expansion of . The coefficients for have the explicit form
+where is Neumann's polynomial.
+Selected functions admit the special representation
+with
+due to the orthogonality relation
+More generally, if has a branch-point near the origin of such a nature that
+then
+or
+where formula_75 is the Laplace transform of .
+Another way to define the Bessel functions is the Poisson representation formula and the Mehler-Sonine formula:
+where and .
+This formula is useful especially when working with Fourier transforms.
+Because Bessel's equation becomes Hermitian (self-adjoint) if it is divided by , the solutions must satisfy an orthogonality relationship for appropriate boundary conditions. In particular, it follows that:
+where , is the Kronecker delta, and is the th zero of . This orthogonality relation can then be used to extract the coefficients in the Fourier–Bessel series, where a function is expanded in the basis of the functions for fixed and varying .
+An analogous relationship for the spherical Bessel functions follows immediately:
+If one defines a boxcar function of that depends on a small parameter as:
+(where is the rectangle function) then the Hankel transform of it (of any given order ), , approaches as approaches zero, for any given . Conversely, the Hankel transform (of the same order) of is :
+which is zero everywhere except near 1. As approaches zero, the right-hand side approaches , where is the Dirac delta function. This admits the limit (in the distributional sense):
+A change of variables then yields the "closure equation":
+for . The Hankel transform can express a fairly arbitrary function as an integral of Bessel functions of different scales. For the spherical Bessel functions the orthogonality relation is:
+for .
+Another important property of Bessel's equations, which follows from Abel's identity, involves the Wronskian of the solutions:
+where and are any two solutions of Bessel's equation, and is a constant independent of (which depends on α and on the particular Bessel functions considered). In particular,
+and
+for .
+For , the even entire function of genus 1, , has only real zeros. Let
+be all its positive zeros, then
+Recurrence relations.
+The functions , , , and all satisfy the recurrence relations
+and
+where denotes , , , or . These two identities are often combined, e.g. added or subtracted, to yield various other relations. In this way, for example, one can compute Bessel functions of higher orders (or higher derivatives) given the values at lower orders (or lower derivatives). In particular, it follows that
+"Modified" Bessel functions follow similar relations:
+and
+and
+The recurrence relation reads
+where denotes or . These recurrence relations are useful for discrete diffusion problems.
+Multiplication theorem.
+The Bessel functions obey a multiplication theorem
+where and may be taken as arbitrary complex numbers. For , the above expression also holds if is replaced by . The analogous identities for modified Bessel functions and are
+and
+Zeros of the Bessel function.
+Bourget's hypothesis.
+Bessel himself originally proved that for nonnegative integers , the equation has an infinite number of solutions in . When the functions are plotted on the same graph, though, none of the zeros seem to coincide for different values of except for the zero at . This phenomenon is known as Bourget's hypothesis after the 19th-century French mathematician who studied Bessel functions. Specifically it states that for any integers and , the functions and have no common zeros other than the one at . The hypothesis was proved by Carl Ludwig Siegel in 1929.
+Numerical approaches.
+For numerical studies about the zeros of the Bessel function, see , and .
+

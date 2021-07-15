@@ -1,0 +1,3 @@
+Vorticity is a mathematical concept used in fluid dynamics. It can be related to the amount of "circulation" or "rotation" (or more strictly, the local angular rate of rotation) in a fluid.
+The average vorticity in a small region of fluid flow is equal to the circulation formula_1 around the boundary of the small region, divided by the area A of the small region.
+In the field of flow of a fluid, vorticity formula_5 is zero almost everywhere. It is only in special places, such as the boundary layer or the core of a vortex, that the vorticity is not zero.

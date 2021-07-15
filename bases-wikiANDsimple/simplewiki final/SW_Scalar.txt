@@ -1,0 +1,4 @@
+Scalars are simple numbers.They are used for measuring things. Many things can be measured, and the measure can be explained by only giving the number.
+Suppose we are measuring a rod. We could give the measured length as 2 metres or 3 cm etc. depending on the length of the rod under observation. Here only the figure 2 or 3 along with the unit of measure is enough to transmit information about the rod.
+i.e. mass is measured by scalars, distances are measured by scalars.
+The other family of measurement falls under the category of vectors.

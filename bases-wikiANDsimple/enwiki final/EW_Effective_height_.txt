@@ -1,0 +1,4 @@
+
+In telecommunication, the effective height, or effective length, of an antenna is the height of the antenna's center of radiation above the ground. It is defined as the ratio of the induced voltage to the incident field .
+In low-frequency applications involving loaded or nonloaded vertical antennas, the effective height is the moment of the current distribution in the vertical section, divided by the input current. For an antenna with a symmetrical current distribution, the center of radiation is the center of the distribution. For an antenna with asymmetrical current distribution, the center of radiation is the center of current moments when viewed from points near the direction of maximum radiation.
+

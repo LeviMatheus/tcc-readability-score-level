@@ -1,0 +1,9 @@
+
+Efficiency factor is a ratio of some measure of performance to an expected value.
+Data communication.
+In data communications, the factor is the ratio of the time to transmit a text automatically at a specified modulation rate to the time actually required to receive the same text at a specified maximum error rate. All of the communication facilities are assumed to be in the normal condition of adjustment and operation. The practical conditions of measurement should be specified, especially the duration of the measurement.
+Telegraph communications may have different temporal efficiency factors for the two directions of transmission.
+Industrial engineering.
+In industrial engineering, the efficiency factor is the relationship between the allowance time and the time taken, in the form of percentage.
+Efficiency factors are used in performance rating and remuneration calculation exercises. The efficiency factor is an extremely simple to use and readily comprehensible index, the prerequisite being exact time management for maintaining the allowed times.
+

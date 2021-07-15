@@ -1,0 +1,15 @@
+
+In statistics, a location parameter of a probability distribution is a scalar- or vector-valued parameter formula_1, which determines the "location" or shift of the distribution. In the literature of location parameter estimation, the probability distributions with such parameter are found to be formally defined in one of the following equivalent ways:
+A direct example of a location parameter is the parameter formula_6 of the normal distribution. To see this, note that the p.d.f. (probability density function) formula_7 of a normal distribution formula_8 can have the parameter formula_6 factored out and be written as: 
+thus fulfilling the first of the definitions given above.
+The above definition indicates, in the one-dimensional case, that if formula_1 is increased, the probability density or mass function shifts rigidly to the right, maintaining its exact shape.
+A location parameter can also be found in families having more than one parameter, such as location–scale families. In this case, the probability density function or probability mass function will be a special case of the more general form
+where formula_1 is the location parameter, "θ" represents additional parameters, and formula_14 is a function parametrized on the additional parameters.
+Additive noise.
+An alternative way of thinking of location families is through the concept of additive noise. If formula_1 is a constant and "W" is random noise with probability density formula_16 then formula_17 has probability density formula_18 and its distribution is therefore part of a location family.
+Proofs.
+For the continuous univariate case, consider a probability density function formula_19, where formula_20 is a vector of parameters. A location parameter formula_1 can be added by defining:
+it can be proved that formula_23 is a p.d.f. by verifying if it respects the two conditions formula_24 and formula_25. formula_23 integrates to 1 because:
+now making the variable change formula_28 and updating the integration interval accordingly yields:
+because formula_30 is a p.d.f. by hypothesis. formula_24 follows from formula_23 sharing the same image of formula_33, which is a p.d.f. so its image is contained in formula_34.
+

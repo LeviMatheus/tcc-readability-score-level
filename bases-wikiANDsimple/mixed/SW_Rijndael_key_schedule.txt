@@ -1,0 +1,1 @@
+AES (Rijndael) uses a key schedule to expand a short key into a number of separate round keys. This is known as the Rijndael key schedule.

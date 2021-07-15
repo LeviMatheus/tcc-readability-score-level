@@ -1,0 +1,29 @@
+
+Gamma (uppercase , lowercase ; "gámma") is the third letter of the Greek alphabet. In the system of Greek numerals it has a value of 3. In Ancient Greek, the letter gamma represented a voiced velar stop . In Modern Greek, this letter represents either a voiced velar fricative or a voiced palatal fricative.
+In the International Phonetic Alphabet and other modern Latin-alphabet based phonetic notations, it represents the voiced velar fricative.
+History.
+The Greek letter Gamma Γ is a grapheme derived from the Phoenician letter ("gīml") which was rotated from the right-to-left script of Canaanite to accommodate the Greek language’s writing system of left-to-right. The Canaanite grapheme represented the /g/ phoneme in the Canaanite language, and as such is cognate with "gimel" ג of the Hebrew alphabet. 
+Based on its name, the letter has been interpreted as an abstract representation of a camel's neck, but this has been criticized as contrived, and it is more likely that the letter is derived from an Egyptian hieroglyph representing a club or throwing stick.
+In Archaic Greece, the shape of gamma was closer to a classical lambda (Λ), while lambda retained the Phoenician L-shape ().
+Letters that arose from the Greek gamma include Etruscan (Old Italic) 𐌂, Roman C and G, Runic "kaunan" , Gothic "geuua" , the Coptic Ⲅ, and the Cyrillic letters Г and Ґ.
+Greek phoneme.
+The Ancient Greek /g/ phoneme was the voiced velar stop, continuing the reconstructed proto-Indo-European "*g", "*ǵ".
+The modern Greek phoneme represented by gamma is realized either as a voiced palatal fricative () before a front vowel (/e/, /i/), or as a voiced velar fricative in all other environments. Both in Ancient and in Modern Greek, before other velar consonants (κ, χ, ξ "k, kh, ks"), gamma represents a velar nasal . A double gamma γγ represents the sequence (phonetically varying ) or .
+Phonetic transcription.
+Lowercase Greek gamma is used in the Americanist phonetic notation and Uralic Phonetic Alphabet to indicate voiced consonants.
+The gamma was also added to the Latin alphabet, as Latin gamma, in the following forms: majuscule Ɣ, minuscule ɣ, and superscript modifier letter ˠ.
+In the International Phonetic Alphabet the minuscule letter is used to represent a voiced velar fricative and the superscript modifier letter is used to represent velarization. It is not to be confused with the character , which looks like a lowercase Latin gamma that lies above the baseline rather than crossing, and which represents the close-mid back unrounded vowel. In certain nonstandard variations of the IPA, the uppercase form is used.
+It is as a full-fledged majuscule and minuscule letter in the alphabets of some of languages of Africa such as Dagbani, Dinka, Kabye, and Ewe, and Berber languages using the Berber Latin alphabet.
+It is sometimes also used in the romanization of Pashto.
+Mathematics and science.
+Lowercase.
+The lowercase letter formula_1 is used as a symbol for:
+The lowercase Latin gamma ɣ can also be used in contexts (such as chemical or molecule nomenclature) where gamma must not be confused with the letter y, which can occur in some computer typefaces.
+Uppercase.
+The uppercase letter formula_3 is used as a symbol for:
+Encoding.
+HTML.
+The HTML entities for uppercase and lowercase gamma are codice_1 and codice_2.
+Unicode.
+These characters are used only as mathematical symbols. Stylized Greek text should be encoded using the normal Greek letters, with markup and formatting to indicate text style.
+

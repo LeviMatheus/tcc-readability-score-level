@@ -1,0 +1,3 @@
+OpenOffice.org Draw is a vector graphics editor and is part of the OpenOffice.org office suite. It has "connectors" between shapes, that are available in many types of line styles and allow people to build drawings such as flowchart. It also includes many features found in desktop publishing software.
+OpenOffice.org users can also install the Open Clip Art Library, which adds a lot of flags, logos, icons and banners for general presentation and drawing projects. Linux distributions Debian and Ubuntu also have ready-to-use "openclipart" packages for easy download and install from their online software repositories.
+Released under the terms of the GNU Lesser General Public Licence, Draw is free software.

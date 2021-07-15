@@ -1,0 +1,3 @@
+A cross section is what one gets if one cuts an object into slices.
+In geometry the correct definition of "cross section" is: the intersection of a body in 2-dimensional space with a line, or of a body in 3-dimensional space with a plane.
+A cross section, or section is also an orthographic projection of a 3-dimensional object from the position of a plane through the object. A floor plan is a section viewed from the top.

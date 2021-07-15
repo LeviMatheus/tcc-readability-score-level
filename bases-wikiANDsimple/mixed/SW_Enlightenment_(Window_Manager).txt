@@ -1,0 +1,4 @@
+Enlightenment(also known simply as E), is a free software/open source window manager for the X Window System which can be used alone or together with a desktop environment such as GNOME or KDE. Enlightenment is sometimes used as a replacement for a full desktop environment.
+History.
+The first version of Enlightenment was released by Raster (Carsten Haitzler) on 1996-10-30.
+Enlightenment has been under development for 10 years; its latest stable release is version 0.16.8.13. It always comes with a warning that it is in permanent "heavy development" and remains "not stable".

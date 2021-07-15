@@ -1,0 +1,35 @@
+
+In measure theory, a branch of mathematics, the Lebesgue measure, named after French mathematician Henri Lebesgue, is the standard way of assigning a measure to subsets of "n"-dimensional Euclidean space. For "n" = 1, 2, or 3, it coincides with the standard measure of length, area, or volume. In general, it is also called n"-dimensional volume, n"-volume, or simply volume. It is used throughout real analysis, in particular to define Lebesgue integration. Sets that can be assigned a Lebesgue measure are called Lebesgue-measurable; the measure of the Lebesgue-measurable set "A" is here denoted by "λ"("A").
+Henri Lebesgue described this measure in the year 1901, followed the next year by his description of the Lebesgue integral. Both were published as part of his dissertation in 1902.
+The Lebesgue measure is often denoted by "dx", but this should not be confused with the distinct notion of a volume form.
+Definition.
+For any interval formula_1 (or formula_2) in the set formula_3 of real numbers, let formula_4 denote its length. For any subset formula_5, the Lebesgue outer measure formula_6 is defined as an infimum
+Some sets formula_8 satisfy the Carathéodory criterion, which requires that for every formula_9,
+The set of all such formula_8 forms a "σ"-algebra. For any such formula_8, its Lebesgue measure is defined to be its Lebesgue outer measure: formula_13.
+A set formula_8 that does not satisfy the Carathéodory criterion is not Lebesgue-measurable. Non-measurable sets do exist; an example is the Vitali sets.
+Intuition.
+The first part of the definition states that the subset formula_8 of the real numbers is reduced to its outer measure by coverage by sets of open intervals. Each of these sets of intervals formula_16 covers formula_8 in the sense that when the intervals are combined together by union, they contain formula_8. The total length of any covering interval set can easily overestimate the measure of formula_19 because formula_8 is a subset of the union of the intervals, and so the intervals may include points which are not in formula_8. The Lebesgue outer measure emerges as the greatest lower bound (infimum) of the lengths from among all possible such sets. Intuitively, it is the total length of those interval sets which fit formula_8 most tightly and do not overlap.
+That characterizes the Lebesgue outer measure. Whether this outer measure translates to the Lebesgue measure proper depends on an additional condition. This condition is tested by taking subsets formula_23 of the real numbers using formula_8 as an instrument to split formula_23 into two partitions: the part of formula_23 which intersects with formula_8 and the remaining part of formula_23 which is not in formula_8: the set difference of formula_23 and formula_8. These partitions of formula_23 are subject to the outer measure. If for all possible such subsets formula_23 of the real numbers, the partitions of formula_23 cut apart by formula_8 have outer measures whose sum is the outer measure of formula_23, then the outer Lebesgue measure of formula_8 gives its Lebesgue measure. Intuitively, this condition means that the set formula_8 must not have some curious properties which causes a discrepancy in the measure of another set when formula_8 is used as a "mask" to "clip" that set, hinting at the existence of sets for which the Lebesgue outer measure does not give the Lebesgue measure. (Such sets are, in fact, not Lebesgue-measurable.)
+Properties.
+The Lebesgue measure on R"n" has the following properties:
+All the above may be succinctly summarized as follows (although the last two assertions are non-trivially linked to the following):
+The Lebesgue measure also has the property of being "σ"-finite.
+Null sets.
+A subset of R"n" is a "null set" if, for every ε &gt; 0, it can be covered with countably many products of "n" intervals whose total volume is at most ε. All countable sets are null sets.
+If a subset of R"n" has Hausdorff dimension less than "n" then it is a null set with respect to "n"-dimensional Lebesgue measure. Here Hausdorff dimension is relative to the Euclidean metric on R"n" (or any metric Lipschitz equivalent to it). On the other hand, a set may have topological dimension less than "n" and have positive "n"-dimensional Lebesgue measure. An example of this is the Smith–Volterra–Cantor set which has topological dimension 0 yet has positive 1-dimensional Lebesgue measure.
+In order to show that a given set "A" is Lebesgue-measurable, one usually tries to find a "nicer" set "B" which differs from "A" only by a null set (in the sense that the symmetric difference ("A" − "B") ∪ ("B" − "A") is a null set) and then show that "B" can be generated using countable unions and intersections from open or closed sets.
+Construction of the Lebesgue measure.
+The modern construction of the Lebesgue measure is an application of Carathéodory's extension theorem. It proceeds as follows.
+Fix . A box in R"n" is a set of the form
+where , and the product symbol here represents a Cartesian product. The volume of this box is defined to be
+For "any" subset "A" of R"n", we can define its outer measure "λ"*("A") by:
+We then define the set "A" to be Lebesgue-measurable if for every subset "S" of R"n",
+These Lebesgue-measurable sets form a "σ"-algebra, and the Lebesgue measure is defined by for any Lebesgue-measurable set "A".
+The existence of sets that are not Lebesgue-measurable is a consequence of the set-theoretical axiom of choice, which is independent from many of the conventional systems of axioms for set theory. The Vitali theorem, which follows from the axiom, states that there exist subsets of R that are not Lebesgue-measurable. Assuming the axiom of choice, non-measurable sets with many surprising properties have been demonstrated, such as those of the Banach–Tarski paradox.
+In 1970, Robert M. Solovay showed that the existence of sets that are not Lebesgue-measurable is not provable within the framework of Zermelo–Fraenkel set theory in the absence of the axiom of choice (see Solovay's model).
+Relation to other measures.
+The Borel measure agrees with the Lebesgue measure on those sets for which it is defined; however, there are many more Lebesgue-measurable sets than there are Borel measurable sets. The Borel measure is translation-invariant, but not complete.
+The Haar measure can be defined on any locally compact group and is a generalization of the Lebesgue measure (R"n" with addition is a locally compact group).
+The Hausdorff measure is a generalization of the Lebesgue measure that is useful for measuring the subsets of R"n" of lower dimensions than "n", like submanifolds, for example, surfaces or curves in R3 and fractal sets. The Hausdorff measure is not to be confused with the notion of Hausdorff dimension.
+It can be shown that there is no infinite-dimensional analogue of Lebesgue measure.
+

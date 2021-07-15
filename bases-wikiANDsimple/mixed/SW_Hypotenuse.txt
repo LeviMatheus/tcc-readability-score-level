@@ -1,0 +1,3 @@
+The hypotenuse is the side opposite the 90 degrees angle in a right triangle. It is always the longest side.
+In this triangle, if angle C is 90 degrees, then the opposite side, "c", is the hypotenuse.
+The length of the hypotenuse can be calculated if the other two sides are known, using Pythagoras' Theorem. In fact, the length of any side of a right triangle can be calculated if the other two sides are known, using this theorem.

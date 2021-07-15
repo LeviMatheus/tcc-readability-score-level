@@ -1,0 +1,7 @@
+The GNU Image Manipulation Program, or GIMP or "The GIMP", is a free software picture maker.
+It is often used for making logos, making photographs bigger or smaller, changing colours, making many pictures part of one picture, making pictures nicer to look at, and changing file formats.
+GIMP is often used as a free software rival for the most popular Adobe Photoshop, but it is made to be an Adobe Photoshop. The GIMPs mascot is a coyote named Wilber.
+The GIMP was started in 1995 by Spencer Kimball and Peter Mattis and is now taken care of by a group of volunteers as part of the GNU Project. The newest version of GIMP is v.2.6.4 and it was available since January 2009. The GIMPs license is the GNU General Public License, GIMP is free software.
+File types.
+GIMP can be used for opening and changing many types of file formats. GIMPs own file format is XCF, which is the name of the building where GIMP was written.
+Some file formats that GIMP can be used with are bitmap, JPEG, PNG, GIF and TIFF. GIMP can also read and write path information from SVG files and GIMP can read Adobe PDF files and the raw image formats used by digital cameras, but cannot write to these formats.

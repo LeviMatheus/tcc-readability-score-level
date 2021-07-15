@@ -1,0 +1,72 @@
+
+In mathematics, especially in the area of abstract algebra known as combinatorial group theory, the word problem for a finitely generated group "G" is the algorithmic problem of deciding whether two words in the generators represent the same element. More precisely, if "A" is a finite set of generators for "G" then the word problem is the membership problem for the formal language of all words in "A" and a formal set of inverses that map to the identity under the natural map from the free monoid with involution on "A" to the group "G". If "B" is another finite generating set for "G", then the word problem over the generating set "B" is equivalent to the word problem over the generating set "A". Thus one can speak unambiguously of the decidability of the word problem for the finitely generated group "G".
+The related but different uniform word problem for a class "K" of recursively presented groups is the algorithmic problem of deciding, given as input a presentation "P" for a group "G" in the class "K" and two words in the generators of "G", whether the words represent the same element of "G". Some authors require the class "K" to be definable by a recursively enumerable set of presentations.
+History.
+Throughout the history of the subject, computations in groups have been carried out using various normal forms. These usually implicitly solve the word problem for the groups in question. In 1911 Max Dehn proposed that the word problem was an important area of study in its own right, together with the conjugacy problem and the group isomorphism problem. In 1912 he gave an algorithm that solves both the word and conjugacy problem for the fundamental groups of closed orientable two-dimensional manifolds of genus greater than or equal to 2. Subsequent authors have greatly extended Dehn's algorithm and applied it to a wide range of group theoretic decision problems.
+It was shown by Pyotr Novikov in 1955 that there exists a finitely presented group "G" such that the word problem for "G" is undecidable. It follows immediately that the uniform word problem is also undecidable. A different proof was obtained by William Boone in 1958.
+The word problem was one of the first examples of an unsolvable problem to be found not in mathematical logic or the theory of algorithms, but in one of the central branches of classical mathematics, algebra. As a result of its unsolvability, several other problems in combinatorial group theory have been shown to be unsolvable as well.
+It is important to realize that the word problem is in fact solvable for many groups "G". For example, polycyclic groups have solvable word problems since the normal form of an arbitrary word in a polycyclic presentation is readily computable; other algorithms for groups may, in suitable circumstances, also solve the word problem, see the Todd–Coxeter algorithm and the Knuth–Bendix completion algorithm. On the other hand, the fact that a particular algorithm does not solve the word problem for a particular group does not show that the group has an unsolvable word problem. For instance Dehn's algorithm does not solve the word problem for the fundamental group of the torus. However this group is the direct product of two infinite cyclic groups and so has a solvable word problem.
+A more concrete description.
+In more concrete terms, the uniform word problem can be expressed as a rewriting question, for literal strings. For a presentation "P" of a group "G", "P" will specify a certain number of generators
+for "G". We need to introduce one letter for "x" and another (for convenience) for the group element represented by "x"−1. Call these letters (twice as many as the generators) the alphabet formula_1 for our problem. Then each element in "G" is represented in "some way" by a product
+of symbols from formula_1, of some length, multiplied in "G". The string of length 0 (null string) stands for the identity element "e" of "G". The crux of the whole problem is to be able to recognise "all" the ways "e" can be represented, given some relations.
+The effect of the "relations" in "G" is to make various such strings represent the same element of "G". In fact the relations provide a list of strings that can be either introduced where we want, or cancelled out whenever we see them, without changing the 'value', i.e. the group element that is the result of the multiplication.
+For a simple example, take the presentation {"a" | "a"3}. Writing "A" for the inverse of "a", we have possible strings combining any number of the symbols "a" and "A". Whenever we see "aaa", or "aA" or "Aa" we may strike these out. We should also remember to strike out "AAA"; this says that since the cube of "a" is the identity element of "G", so is the cube of the inverse of "a". Under these conditions the word problem becomes easy. First reduce strings to the empty string, "a", "aa", "A" or "AA". Then note that we may also multiply by "aaa", so we can convert "A" to "aa" and convert "AA" to "a". The result is that the word problem, here for the cyclic group of order three, is solvable.
+This is not, however, the typical case. For the example, we have a canonical form available that reduces any string to one of length at most three, by decreasing the length monotonically. In general, it is not true that one can get a canonical form for the elements, by stepwise cancellation. One may have to use relations to expand a string many-fold, in order eventually to find a cancellation that brings the length right down.
+The upshot is, in the worst case, that the relation between strings that says they are equal in "G" is an "Undecidable problem".
+Examples.
+The following groups have a solvable word problem:
+Examples with unsolvable word problems are also known:
+Partial solution of the word problem.
+The word problem for a recursively presented group can be partially solved in the following sense:
+More informally, there is an algorithm that halts if "u"="v", but does not do so otherwise.
+It follows that to solve the word problem for "P" it is sufficient to construct a recursive function g such that:
+However "u"="v" in "G" if and only if in "G". It follows that to solve the word problem for "P" it is sufficient to construct a recursive function "h" such that:
+Example.
+The following will be proved as an example of the use of this technique:
+"Proof:" Suppose "G" = ⟨"X"|"R"⟩ is a finitely presented, residually finite group.
+Let "S" be the group of all permutations of N, the natural numbers, that fixes all but finitely many numbers then:
+Given these facts, algorithm defined by the following pseudocode:
+ For every mapping of X into S
+ If every relator in R is satisfied in S
+ If w ≠ 1 in S
+ return 0
+ End if
+ End if
+ End for
+defines a recursive function "h" such that:
+This shows that "G" has solvable word problem.
+Unsolvability of the uniform word problem.
+The criterion given above, for the solvability of the word problem in a single group, can be extended by a straightforward argument. This gives the following criterion for the uniform solvability of the word problem for a class of finitely presented groups:
+In other words, the uniform word problem for the class of all finitely presented groups with solvable word problem is unsolvable. This has some interesting consequences. For instance, the Higman embedding theorem can be used to construct a group containing an isomorphic copy of every finitely presented group with solvable word problem. It seems natural to ask whether this group can have solvable word problem. But it is a consequence of the Boone-Rogers result that:
+Remark: Suppose "G" = ⟨"X"|"R"⟩ is a finitely presented group with solvable word problem and "H" is a finite subset of "G". Let "H"* = ⟨"H"⟩, be the group generated by "H". Then the word problem in "H"* is solvable: given two words "h, k" in the generators "H" of "H"*, write them as words in "X" and compare them using the solution to the word problem in "G". It is easy to think that this demonstrates a uniform solution of the word problem for the class "K" (say) of finitely generated groups that can be embedded in "G". If this were the case, the non-existence of a universal solvable word problem group would follow easily from Boone-Rogers. However, the solution just exhibited for the word problem for groups in "K" is not uniform. To see this, consider a group "J" = ⟨"Y"|"T"⟩ ∈ "K"; in order to use the above argument to solve the word problem in "J", it is first necessary to exhibit a mapping "e: Y → G" that extends to an embedding "e"*: "J" → "G". If there were a recursive function that mapped (finitely generated) presentations of groups in "K" to embeddings into "G", then a uniform solution of the word problem in "K" could indeed be constructed. But there is no reason, in general, to suppose that such a recursive function exists. However, it turns out that, using a more sophisticated argument, the word problem in "J" can be solved "without" using an embedding "e": "J" → "G". Instead an "enumeration of homomorphisms" is used, and since such an enumeration can be constructed uniformly, it results in a uniform solution to the word problem in "K".
+Proof that there is no universal solvable word problem group.
+Suppose "G" were a universal solvable word problem group. Given a finite presentation "P" = ⟨"X"|"R⟩" of a group "H", one can recursively enumerate all homomorphisms "h": "H" → "G" by first enumerating all mappings "h"†: "X" → "G". Not all of these mappings extend to homomorphisms, but, since "h"†("R") is finite, it is possible to distinguish between homomorphisms and non-homomorphisms, by using the solution to the word problem in "G". "Weeding out" non-homomorphisms gives the required recursive enumeration: "h"1, "h"2, ..., "hn", ... .
+If "H" has solvable word problem, then at least one of these homomorphisms must be an embedding. So given a word "w" in the generators of "H":
+Consider the algorithm described by the pseudocode:
+ Let "n" = 0
+ Let "repeatable" = TRUE
+ while ("repeatable")
+ increase "n" by 1
+ if (solution to word problem in "G" reveals "hn"("w") ≠ 1 in "G")
+ Let "repeatable" = FALSE
+ output 0.
+This describes a recursive function:
+The function "f" clearly depends on the presentation "P". Considering it to be a function of the two variables, a recursive function has been constructed that takes a finite presentation "P" for a group "H" and a word "w" in the generators of a group "G", such that whenever "G" has soluble word problem:
+But this uniformly solves the word problem for the class of all finitely presented groups with solvable word problem, contradicting Boone-Rogers. This contradiction proves "G" cannot exist.
+Algebraic structure and the word problem.
+There are a number of results that relate solvability of the word problem and algebraic structure. The most significant of these is the Boone-Higman theorem:
+It is widely believed that it should be possible to do the construction so that the simple group itself is finitely presented. If so one would expect it to be difficult to prove as the mapping from presentations to simple groups would have to be non-recursive.
+The following has been proved by Bernhard Neumann and Angus Macintyre:
+What is remarkable about this is that the algebraically closed groups are so wild that none of them has a recursive presentation.
+The oldest result relating algebraic structure to solvability of the word problem is Kuznetsov's theorem:
+To prove this let ⟨"X"|"R"⟩ be a recursive presentation for "S". Choose "a" ∈ S such that "a" ≠ 1 in "S".
+If "w" is a word on the generators "X" of "S", then let:
+There is a recursive function formula_15 such that:
+Write:
+Then because the construction of "f" was uniform, this is a recursive function of two variables.
+It follows that: is recursive. By construction:
+Since "S" is a simple group, its only quotient groups are itself and the trivial group. Since "a" ≠ 1 in "S", we see "a" = 1 in "Sw" if and only if "Sw" is trivial if and only if "w" ≠ 1 in "S". Therefore:
+The existence of such a function is sufficient to prove the word problem is solvable for "S".
+This proof does not prove the existence of a uniform algorithm for solving the word problem for this class of groups. The non-uniformity resides in choosing a non-trivial element of the simple group. There is no reason to suppose that there is a recursive function that maps a presentation of a simple groups to a non-trivial element of the group. However, in the case of a finitely presented group we know that not all the generators can be trivial (Any individual generator could be, of course). Using this fact it is possible to modify the proof to show:
+

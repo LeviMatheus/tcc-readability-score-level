@@ -1,0 +1,17 @@
+
+The kilobyte is a multiple of the unit byte for digital information.
+The International System of Units (SI) defines the prefix "kilo" as 1000 (103); per this definition, one kilobyte is 1000 bytes. The internationally recommended unit symbol for the kilobyte is kB.
+In some areas of information technology, particularly in reference to solid-state memory capacity, "kilobyte" instead typically refers to 1024 (210) bytes. This arises from the prevalence of sizes that are powers of two in modern digital memory architectures.
+Definitions and usage.
+Base 10 (1000 bytes).
+In the International System of Units (SI) the prefix "kilo" means 1000 (103); therefore, one kilobyte is 1000 bytes. The unit symbol is kB.
+This is the definition recommended by the International Electrotechnical Commission (IEC).
+This definition, and the related definitions of the prefixes mega (), giga (), etc., are most commonly used for data transfer rates
+in computer networks, internal bus, hard drive and flash media transfer speeds, and for the capacities of most storage media, particularly hard drives, flash-based storage, and DVDs. It is also consistent with the other uses of the SI prefixes in computing, such as CPU clock speeds or measures of performance.
+The IEC 80000-13 standard uses the term 'byte' to mean eight bits (1 B = 8 bit). Therefore, 1 kB = 8000 bit. One thousand kilobytes (1000 kB) is equal to one megabyte (1 MB), where 1 MB is one million bytes.
+Base 2 (1024 bytes).
+The term 'kilobyte' has traditionally been used to refer to 1024 bytes (210 B). The usage of the metric prefix "kilo" for binary multiples arose as a convenience, because 1024 is approximately 1000.
+The binary interpretation of metric prefixes is still prominently used by the Microsoft Windows operating system. Metric prefixes are also used for random-access memory capacity, such as main memory and CPU cache size, due to the prevalent binary addressing of memory.
+The binary meaning of the kilobyte for 1024 bytes typically uses the symbol KB, with an uppercase letter "K". The "B" is often omitted in informal use. For example, a processor with 65,536 bytes of cache memory might be said to have "64 K" of cache. In this convention, one thousand and twenty-four kilobytes (1024 KB) is equal to one megabyte (1 MB), where 1 MB is 10242 bytes.
+In December 1998, the IEC addressed such multiple usages and definitions by creating prefixes such as kibi, mebi, gibi, etc., to unambiguously denote powers of 1024. Thus the kibibyte, symbol KiB, represents 210  bytes = 1024 bytes. These prefixes are now part of the IEC 80000-13 standard. The IEC further specified that the kilobyte should only be used to refer to 1000 bytes. The International System of Units restricts the use of the SI prefixes strictly to powers of 10.
+

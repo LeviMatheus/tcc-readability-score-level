@@ -1,0 +1,2 @@
+Pascal is a programming language. It was created in 1970 by Niklaus Wirth, to help people learn how to make good programs.
+Now, there are many different dialects of the language, so a Pascal program written for one compiler can not easily be used with another one.

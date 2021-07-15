@@ -1,0 +1,7 @@
+Encryption is a method which allows information to be hidden so that it cannot be read without special knowledge or tools. Once this is done the information is encrypted. Decryption is a way to change an encrypted piece of information back into unencrypted form. This is called the decrypted form.
+Examples.
+A common kind of encryption for words is ROT13. In ROT13, letters of the alphabet are changed with each other using a simple pattern. For example, "A" changes to "N", "B" changes to "O", "C" changes to "P", and so on. Each letter is "rotated" by 13 spaces. Using the ROT13 cipher, the words "Simple English Wikipedia" becomes "Fvzcyr Ratyvfu Jvxvcrqvn". The ROT13 ciper is easy to decrypt. Because there are 26 letters, if a letter is rotated two times by 13 letters each time, the original letter will be obtained.
+Most kinds of encryption are more complex. Some are made only for text. Others are made for binary computer files like pictures and music. Today, the encryption system used the most is RSA. Any computer file can be encrypted with RSA.
+On the Internet.
+Encryption is used on the Internet. Web sites use encryption to protect private information. The encryption on the internet is called Secure Sockets Layer (SSL). It uses the RSA encryption system. The protocol for protected web browsing is called HTTPS.
+Mostly URL encryption contain MD5 Algorithem. There are various alogorithm are available on the internet/market depending upon the need.

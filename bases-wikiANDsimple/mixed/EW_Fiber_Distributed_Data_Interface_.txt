@@ -1,0 +1,26 @@
+
+Fiber Distributed Data Interface (FDDI) is a standard for data transmission in a local area network.
+It uses optical fiber as its standard underlying physical medium, although it was also later specified to use copper cable, in which case it may be called CDDI (Copper Distributed Data Interface), standardized as TP-PMD (Twisted-Pair Physical Medium-Dependent), also referred to as TP-DDI (Twisted-Pair Distributed Data Interface).
+FDDI was effectively made obsolete in local networks by Fast Ethernet which offered the same 100 Mbit/s speeds, but at a much lower cost and, since 1998, by Gigabit Ethernet due to its speed, and even lower cost, and ubiquity.
+Description.
+FDDI provides a 100 Mbit/s optical standard for data transmission in local area network that can extend in range up to . Although FDDI logical topology is a ring-based token network, it did not use the IEEE 802.5 Token Ring protocol as its basis; instead, its protocol was derived from the IEEE 802.4 token bus "timed token" protocol. In addition to covering large geographical areas, FDDI local area networks can support thousands of users. FDDI offers both a Dual-Attached Station (DAS), counter-rotating token ring topology and a Single-Attached Station (SAS), token bus passing ring topology.
+FDDI, as a product of American National Standards Institute X3T9.5 (now X3T12), conforms to the Open Systems Interconnection (OSI) model of functional layering using other protocols. The standards process started in the mid 1980s.
+FDDI-II, a version of FDDI described in 1989, added circuit-switched service capability to the network so that it could also handle voice and video signals. Work started to connect FDDI networks to synchronous optical networking (SONET) technology.
+A FDDI network contains two rings, one as a secondary backup in case the primary ring fails. The primary ring offers up to 100 Mbit/s capacity. When a network has no requirement for the secondary ring to do backup, it can also carry data, extending capacity to 200 Mbit/s. The single ring can extend the maximum distance; a dual ring can extend . FDDI had a larger maximum-frame size (4,352 bytes) than the standard Ethernet family, which only supports a maximum-frame size of 1,500 bytes, allowing better effective data rates in some cases.
+Topology.
+Designers normally constructed FDDI rings in a network topology such as a "dual ring of trees". A small number of devices, typically infrastructure devices such as routers and concentrators rather than host computers, were "dual-attached" to both rings. Host computers then connect as single-attached devices to the routers or concentrators. The dual ring in its most degenerate form simply collapses into a single device. Typically, a computer-room contained the whole dual ring, although some implementations deployed FDDI as a metropolitan area network.
+FDDI requires this network topology because the dual ring actually passes through each connected device and requires each such device to remain continuously operational.
+The standard actually allows for optical bypasses, but network engineers consider these unreliable and error-prone. Devices such as workstations and minicomputers that might not come under the control of the network managers are not suitable for connection to the dual ring.
+As an alternative to using a dual-attached connection, a workstation can obtain the same degree of resilience through a dual-homed connection made simultaneously to two separate devices in the same FDDI ring. One of the connections becomes active while the other one is automatically blocked. If the first connection fails, the backup link takes over with no perceptible delay.
+Frame format.
+Where PA is the preamble, SD is a start delimiter, FC is frame control, DA is the destination address, SA is the source address, PDU is the protocol data unit (or packet data unit), FCS is the frame check sequence using the same cyclic redundancy check as Token Ring and Ethernet, and ED/FS are the end delimiter and frame status.
+The Internet Engineering Task Force defined a standard for transmission of the Internet Protocol (which would be the protocol data unit in this case) over FDDI.
+It was first proposed in June 1989 and revised in 1990.
+Some aspects of the protocol were compatible with the IEEE 802.2 standard for logical link control. For example, the 48-bit MAC addresses that became popular with the Ethernet family. Thus other protocols such as the Address Resolution Protocol (ARP) could be common as well.
+Deployment.
+FDDI was considered an attractive campus backbone network technology in the early to mid 1990s since existing Ethernet networks only offered 10 Mbit/s data rates and Token Ring networks only offered 4 Mbit/s or 16 Mbit/s rates. Thus it was a relatively high-speed choice of that era.
+By 1994, vendors included Cisco Systems, National Semiconductor, Network Peripherals, SysKonnect (acquired by Marvell Technology Group), and 3Com.
+FDDI installations have largely been replaced by Ethernet deployments.
+Standards.
+FDDI standards included:
+

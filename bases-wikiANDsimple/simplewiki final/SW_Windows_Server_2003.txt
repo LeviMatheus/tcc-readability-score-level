@@ -1,0 +1,2 @@
+Windows Server 2003 is a server operating system produced by Microsoft. Introduced on April 24, 2003 as the next version to Windows 2000 Server, it is considered by Microsoft to be the cornerstone of their Windows Server System line of business server products.
+According to Microsoft, Windows Server 2003 is more scalable and delivers better performance than Windows 2000.

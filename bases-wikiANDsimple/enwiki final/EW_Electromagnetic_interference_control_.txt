@@ -1,0 +1,4 @@
+
+In telecommunication, electromagnetic interference control (EMI) is the control of radiated and conducted energy such that emissions that are unnecessary for system, subsystem, or equipment operation are reduced, minimized, or eliminated. 
+"Note:" Electromagnetic radiated and conducted emissions are controlled regardless of their origin within the system, subsystem, or equipment. Successful EMI control with effective susceptibility control leads to electromagnetic compatibility.
+

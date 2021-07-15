@@ -1,0 +1,20 @@
+A programming language is the language that a programmer uses to write a computer program.
+Characteristics.
+A programming language is not a spoken language. It is a way of describing what the programmer wants the computer to do. The programmer uses a programming language to tell the computer how to do calculations. Because programming languages are used for talking to the computer, the programmer needs to be very careful about how he tells the computer what to do. If he makes a mistake, the computer might not be able to tell him about it.
+Naming.
+A piece of a computer program is sometimes called a piece of code, or source code, and the actual writing of a piece of source code is called coding.
+Rules.
+Every programming language has rules about what it can and cannot do.
+Most languages that are used by many people, or that have been used for a long time, have official standards that tell programmers how to program in these languages. Some programming languages have two or more standards. This might happen because an old standard was replaced by a new standard; for example, the Perl 5 standard replaced the Perl 4 standard in 1993. Or it might happen because two people made two different standards at the same time; for example, there are a few different standards for the APL programming language.
+Design philosophies.
+Many programming languages have one special philosophy that tells the people who made the language how to make it all work together. Maybe the language uses data structures in a special way (for example, Lisp uses lists for many things), or maybe the language is written in a special way (for example, Perl uses many English words in its code).
+Interpretation.
+Programming languages can be "compiled" or "interpreted". Interpreted programming languages are languages where the programmer gives the source code to the computer, and the computer reads it and does what it says, right away. This is called "running" the program. Compiled programming languages are languages where a special computer program called a compiler reads the source code and generates a binary program written in machine language. The programmer can "run" that machine-language program on any computer any time he wants to. He does not need the compiler after he has compiled the program already.
+Example of Visual Basic.
+Input = InputBox("How old are you?")
+MsgBox "You cannot be less than zero!"
+MsgBox "You're " & Input & " years old."
+Example of Python.
+age = int(raw_input("How old are you? "))
+print "You cannot be less than zero!"
+print "You're %s years old." % age

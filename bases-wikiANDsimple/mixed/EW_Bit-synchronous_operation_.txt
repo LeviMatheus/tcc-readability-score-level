@@ -1,0 +1,5 @@
+
+Bit-synchronous operation is a type of digital communication in which the data circuit-terminating equipment (DCE), data terminal equipment (DTE), and transmitting circuits are all operated in bit synchronism with a clock signal.
+In bit-synchronous operation, clock timing is usually delivered at twice the modulation rate, and one bit is transmitted or received during each clock cycle.
+Bit-synchronous operation is sometimes erroneously referred to as digital synchronization.
+

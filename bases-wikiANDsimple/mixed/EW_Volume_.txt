@@ -1,0 +1,56 @@
+
+Volume is the quantity of three-dimensional space enclosed by a closed surface, for example, the space that a substance (solid, liquid, gas, or plasma) or shape occupies or contains. Volume is often quantified numerically using the SI derived unit, the cubic metre. The volume of a container is generally understood to be the capacity of the container; i.e., the amount of fluid (gas or liquid) that the container could hold, rather than the amount of space the container itself displaces.
+Three dimensional mathematical shapes are also assigned volumes. Volumes of some simple shapes, such as regular, straight-edged, and circular shapes can be easily calculated using arithmetic formulas. Volumes of complicated shapes can be calculated with integral calculus if a formula exists for the shape's boundary. One-dimensional figures (such as lines) and two-dimensional shapes (such as squares) are assigned zero volume in the three-dimensional space.
+The volume of a solid (whether regularly or irregularly shaped) can be determined by fluid displacement. Displacement of liquid can also be used to determine the volume of a gas. The combined volume of two substances is usually greater than the volume of just one of the substances. However, sometimes one substance dissolves in the other and in such cases the combined volume is not additive.
+In "differential geometry", volume is expressed by means of the volume form, and is an important global Riemannian invariant.
+In "thermodynamics", volume is a fundamental parameter, and is a conjugate variable to pressure.
+Units.
+Any unit of length gives a corresponding unit of volume: the volume of a cube whose sides have the given length. For example, a cubic centimetre (cm3) is the volume of a cube whose sides are one centimetre (1 cm) in length.
+In the International System of Units (SI), the standard unit of volume is the cubic metre (m3). The metric system also includes the litre (L) as a unit of volume, where one litre is the volume of a 10-centimetre cube. Thus
+so
+Small amounts of liquid are often measured in millilitres, where
+In the same way, large amounts can be measured in megalitres, where
+Various other traditional units of volume are also in use, including the cubic inch, the cubic foot, the cubic yard, the cubic mile, the teaspoon, the tablespoon, the fluid ounce, the fluid dram, the gill, the pint, the quart, the gallon, the minim, the barrel, the cord, the peck, the bushel, the hogshead, the acre-foot and the board foot.
+Related terms.
+"Capacity" is defined by the Oxford English Dictionary as "the measure applied to the content of a vessel, and to liquids, grain, or the like, which take the shape of that which holds them". (The word "capacity" has other unrelated meanings, as in e.g. capacity management.) Capacity is not identical in meaning to volume, though closely related; the capacity of a container is always the volume in its interior. Units of capacity are the SI litre and its derived units, and Imperial units such as gill, pint, gallon, and others. Units of volume are the cubes of units of length. In SI the units of volume and capacity are closely related: one litre is exactly 1 cubic decimetre, the capacity of a cube with a 10 cm side. In other systems the conversion is not trivial; the capacity of a vehicle's fuel tank is rarely stated in cubic feet, for example, but in gallons (an imperial gallon fills a volume with 0.1605 cu ft).
+The "density" of an object is defined as the ratio of the mass to the volume. The inverse of density is "specific volume" which is defined as volume divided by mass. Specific volume is a concept important in thermodynamics where the volume of a working fluid is often an important parameter of a system being studied.
+The volumetric flow rate in fluid dynamics is the volume of fluid which passes through a given surface per unit time (for example cubic meters per second [m3 s−1]).
+Volume in calculus.
+In calculus, a branch of mathematics, the volume of a region "D" in R3 is given by a triple integral of the constant function formula_1 over the region and is usually written as:
+In cylindrical coordinates, the volume integral is
+In spherical coordinates (using the convention for angles with formula_4 as the azimuth and formula_5 measured from the polar axis; see more on conventions), the volume integral is
+Volume formulas.
+Volume ratios for a cone, sphere and cylinder of the same radius and height.
+The above formulas can be used to show that the volumes of a cone, sphere and cylinder of the same radius and height are in the ratio 1 : 2 : 3, as follows.
+Let the radius be "r" and the height be "h" (which is 2"r" for the sphere), then the volume of the cone is
+the volume of the sphere is
+while the volume of the cylinder is
+The discovery of the 2 : 3 ratio of the volumes of the sphere and cylinder is credited to Archimedes.
+Volume formula derivations.
+Sphere.
+The volume of a sphere is the integral of an infinite number of infinitesimally small circular disks of thickness "dx". The calculation for the volume of a sphere with center 0 and radius "r" is as follows.
+The surface area of the circular disk is formula_10.
+The radius of the circular disks, defined such that the x-axis cuts perpendicularly through them, is
+or
+where y or z can be taken to represent the radius of a disk at a particular x value.
+Using y as the disk radius, the volume of the sphere can be calculated as
+Now
+Combining yields formula_15
+This formula can be derived more quickly using the formula for the sphere's surface area, which is formula_16. The volume of the sphere consists of layers of infinitesimally thin spherical shells, and the sphere volume is equal to
+Cone.
+The cone is a type of pyramidal shape. The fundamental equation for pyramids, one-third times base times altitude, applies to cones as well.
+However, using calculus, the volume of a cone is the integral of an infinite number of infinitesimally thin circular disks of thickness "dx". The calculation for the volume of a cone of height "h", whose base is centered at (0, 0, 0) with radius "r", is as follows.
+The radius of each circular disk is "r" if "x" = 0 and 0 if "x" = "h", and varying linearly in between—that is,
+The surface area of the circular disk is then
+The volume of the cone can then be calculated as
+and after extraction of the constants
+Integrating gives us
+Volume in differential geometry.
+In differential geometry, a branch of mathematics, a volume form on a differentiable manifold is a differential form of top degree (i.e., whose degree is equal to the dimension of the manifold) that is nowhere equal to zero. A manifold has a volume form if and only if it is orientable. An orientable manifold has infinitely many volume forms, since multiplying a volume form by a non-vanishing function yields another volume form. On non-orientable manifolds, one may instead define the weaker notion of a density. Integrating the volume form gives the volume of the manifold according to that form.
+An oriented pseudo-Riemannian manifold has a natural volume form. In local coordinates, it can be expressed as
+where the formula_24 are 1-forms that form a positively oriented basis for the cotangent bundle of the manifold, and formula_25 is the determinant of the matrix representation of the metric tensor on the manifold in terms of the same basis.
+Volume in thermodynamics.
+In thermodynamics, the volume of a system is an important extensive parameter for describing its thermodynamic state. The specific volume, an intensive property, is the system's volume per unit of mass. Volume is a function of state and is interdependent with other thermodynamic properties such as pressure and temperature. For example, volume is related to the pressure and temperature of an ideal gas by the ideal gas law.
+Volume computation.
+The task of numerically computing the volume of objects is studied in the field of computational geometry in computer science, investigating efficient algorithms to perform this computation, approximately or exactly, for various types of objects. For instance, the convex volume approximation technique shows how to approximate the volume of any convex body using a membership oracle.
+

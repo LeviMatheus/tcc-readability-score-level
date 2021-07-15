@@ -1,0 +1,24 @@
+In computer networks, a proxy server is a server which clients use to access other computers. A proxy server that passes information to its clients without changing it is usually called a gateway or sometimes "tunneling proxy".
+A client that connects to the proxy server requests some service, such as a file, connection, web page, or other resource, that is available on a "different" server. The proxy server then goes to the "other" server and requests what the client wants for them.
+A proxy server can change the information that it gives to the client, and if the same information is accessed many times or by many different clients it can use what is called a cache to make things faster. A cache is the term for information that has been accessed and saved for future use; if a proxy server has what the client is accessing in its cache, it will make it faster because it does not need to go an access the other server to provide what the client wants.
+Proxy servers get their name because they act like a proxy (a stand-in) of the server computer.
+A proxy server can be placed anywhere in the connection between the client and the server, which could include software on the client computer itself or on any computer between.
+Some proxy servers use Secure Sockets Layer (SSL) to secure the connection between the client and the remote server. This security layer helps to make sure that no other computers can read or understand what the client is asking from the server.
+Benefits of proxy servers.
+There are many benefits of using a proxy server. First, the client machine can exchange data with the remote server without making a direct connection. This way, the client's real internet address will not be known to the remote server. This is sometimes called "anonymizing" because it makes the client anonymous
+A second advantage is that when the proxy server is itself able to serve the request made by the client, it will not contact the remote server any more. So the load on the remote server will be reduced by using a proxy server. This type of proxy servers are called "caching servers".
+Big organizations (or even countries) sometimes use proxy servers to control access to the Internet. A large bank may use a proxy server that only allows connections to other websites relevant to banking. The proxy server might however block access to Websites offering free email or serving pornographic material. It might also block access to file sharing applications. Limiting access to specific content on the internet is also called "internet filtering".
+Caching proxy server.
+A caching proxy server can service requests from clients, without contacting the remote server; instead, it sends the data which it has stored from a previous request. This is called caching.
+Caching proxy servers reduce the work load of the remote server. However, they have their own problems, especially if they are not configured well. Some problems are described in.
+Web proxy.
+A web proxy is a proxy server that focuses on the traffic over the World Wide Web. It may be used to block offensive web content, or to control access of clients to online content. They may be used by schools, corporations or countries.
+Web proxies can also be used to track how different individuals have used internet access.
+Anonymizing proxy server.
+An anonymizing proxy server removes identifying information from the clients' requests, for the purpose of anonymity. They may also be used to break through filtered contents on the internet.
+Open proxy.
+A proxy server is called an "open proxy" if every one can connect to it and use it. Usually, open proxies are proxy servers which are badly configured. Open proxies may be abused easily; for example, a bad user may send a corrupting request to a remote server, but hide himself behind an open proxy, so the administrators of the remote server cannot stop him. Open proxies can also be used for spamming. For this reason, some websites do not allow connections to their web servers through known open proxies.
+Forced proxy.
+A "forced proxy" server is a proxy server which handles all of the traffic from the client to the internet. The client will not know that the proxy exists, but all of the information passes through the proxy server. They are sometimes called "transparent" proxy servers, because the user doesn't know a proxy server is between the client and remote server.
+Software.
+There is a lot of software which can be used for running a proxy server. Some software can only work as a proxy server, while other software can also work as a firewall or caching server. Squid and Microsoft Internet Security and Acceleration Server (ISA Server) are among the best known pieces of proxy server software. Some proxy software uses the SOCKS protocol. An example is the Java SOCKS Proxy Server.

@@ -1,0 +1,1 @@
+BitchX is an IRC client. The first public release was in 1996. The latest stable version is 1.1 and was updated in 2004. It is free of charge and was written in C.

@@ -1,0 +1,5 @@
+DNA repair means a collection of processes by which a cell identifies and corrects damage to the DNA molecules that encode its genome.
+DNA damage.
+In human cells, both normal metabolic activities and environmental factors such as UV light can cause DNA damage, resulting in as many as 1 million individual molecular lesions per cell per day. Many of these lesions cause structural damage to the DNA molecule and can alter or eliminate the cell's ability to transcribe the gene that the affected DNA encodes. Other lesions induce potentially harmful mutations in the cell's genome, which affect the survival of its daughter cells after it undergoes mitosis. Consequently, the DNA repair process must be constantly active so it can respond rapidly to any damage in the DNA structure.
+DNA repair.
+The rate of DNA repair is dependent on many factors, including the cell type, the age of the cell, and the extracellular environment.

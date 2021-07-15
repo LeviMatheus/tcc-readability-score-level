@@ -1,0 +1,14 @@
+Computer graphics are visual representations of data displayed on a monitor made on a computer. Computer graphics can be a series of images (most often called video) or a single image.
+Computer graphics are very useful. They are used for movie making, video game and computer program development, scientific modelling, and design for catalogs and other commercial things. Some people even make computer graphics as art.
+__NOTOC__
+Subsets of computer graphics.
+Computer graphics can be 2D or 3D. Each subset has its own use, but is created in a different way. Different computer programs have to be used to make different types of graphics.
+2D graphics.
+2D computer graphics are usually split into two categories: vector graphics and raster graphics.
+Vector graphics.
+Vector graphics use lines, shapes, and text to create a more complex image. If a vector graphic image is made very big on the monitor, it will still be as good as its regular size. This is one of the reasons vector graphics are liked so much. Vector graphics are made with programs like Adobe Illustrator, and were used for some older computer games. Today, they are often used for when computer graphics have to be printed out.
+Raster graphics.
+Raster graphics use pixels to make up a larger image. This does not mean the artist has to change a single pixel at a time - raster programs often have tools like paintbrushes, paint buckets, and erasers to make a picture. Programs used to make these include Adobe Photoshop and Corel Paint Shop Pro. These are often used as part of what the user sees when she uses a computer program.
+Sometimes people "do" use only pixels to make an image. This is called pixel art and it has a very unique style.
+3D graphics.
+3D graphics are graphics that look like objects because they are three-dimensional. This means the computer thinks it has a height, a length, and a depth, and displays them as this. Some programs used to make 3D graphics are Bryce, 3D Studio Max, Maya and Blender, and 3D graphics are used many times in movies and TV shows and video games.

@@ -1,0 +1,9 @@
+In mathematics, a divisor of an integer "n", also called a factor of "n", is an integer which evenly divides "n" without leaving a remainder.
+Finding one or more factors of a given number is called factorization.
+Explanation.
+For example, 7 is a divisor of 42 because 42/7 = 6. We also say 42 is divisible by 7 or 42 is a multiple of 7 or 7 divides 42 or 7 is a factor of 42 and we usually write 7 | 42. For example, the positive divisors of 42 are 1, 2, 3, 6, 7, 14, 21, 42.
+In general, we say "m"|"n" (read: "m" divides "n") for non-zero integers "m" and "n" iff there exists an integer "k" such that "n" = "km". Thus, divisors can be negative as well as positive, although often we restrict our attention to positive divisors. (For example, there are six divisors of four, 1, 2, 4, -1, -2, -4, but one would usually mention only the positive ones, 1, 2, and 4.)
+1 and −1 divide (are divisors of) every integer, every integer is a divisor of itself, and every integer is a divisor of 0, except by convention 0 itself (see also division by zero). Numbers divisible by 2 are called even and numbers not divisible by 2 are called odd.
+A divisor of "n" that is not 1, −1, "n" or −"n" is known as a non-trivial divisor; numbers with non-trivial divisors are known as composite numbers, while prime numbers have no non-trivial divisors.
+The name comes from the arithmetic operation of division: if "a"/"b" = "c" then "a" is the dividend, "b" the divisor, and "c" the quotient.
+There are properties which allow one to recognize certain divisors of a number from the number's digits.

@@ -1,0 +1,36 @@
+
+In algebra, the rational root theorem (or rational root test, rational zero theorem, rational zero test or theorem) states a constraint on rational solutions of a polynomial equation
+with integer coefficients formula_2 and formula_3. Solutions of the equation are also called roots or zeroes of the polynomial on the left side.
+The theorem states that each rational solution , written in lowest terms so that and are relatively prime, satisfies:
+The rational root theorem is a special case (for a single linear factor) of Gauss's lemma on the factorization of polynomials. The integral root theorem is the special case of the rational root theorem when the leading coefficient is .
+Application.
+The theorem is used to find all rational roots of a polynomial, if any. It gives a finite number of possible fractions which can be checked to see if they are roots. If a rational root is found, a linear polynomial can be factored out of the polynomial using polynomial long division, resulting in a polynomial of lower degree whose roots are also roots of the original polynomial.
+Cubic equation.
+The general cubic equation
+with integer coefficients has three solutions in the complex plane. If the rational root test finds no rational solutions, then the only way to express the solutions algebraically uses cube roots. But if the test finds a rational solution , then factoring out leaves a quadratic polynomial whose two roots, found with the quadratic formula, are the remaining two roots of the cubic, avoiding cube roots.
+Proofs.
+Elementary proof.
+Let formula_5 with formula_6 
+Suppose for some coprime :
+To clear denominators, multiply both sides by : 
+Shifting the term to the right side and factoring out on the left side produces:
+Thus, divides . But is coprime to and therefore to , so by Euclid's lemma must divide the remaining factor .
+On the other hand, shifting the term to the right side and factoring out on the left side produces:
+Reasoning as before, it follows that divides .
+Proof using Gauss' lemma.
+Should there be a nontrivial factor dividing all the coefficients of the polynomial, then one can divide by the greatest common divisor of the coefficients so as to obtain a primitive polynomial in the sense of Gauss's lemma; this does not alter the set of rational roots and only strengthens the divisibility conditions. That lemma says that if the polynomial factors in , then it also factors in as a product of primitive polynomials. Now any rational root corresponds to a factor of degree 1 in of the polynomial, and its primitive representative is then , assuming that and are coprime. But any multiple in of has leading term divisible by and constant term divisible by , which proves the statement. This argument shows that more generally, any irreducible factor of can be supposed to have integer coefficients, and leading and constant coefficients dividing the corresponding coefficients of .
+Examples.
+First.
+In the polynomial
+any rational root fully reduced would have to have a numerator that divides evenly into 1 and a denominator that divides evenly into 2. Hence the only possible rational roots are ±1/2 and ±1; since neither of these equates the polynomial to zero, it has no rational roots.
+Second.
+In the polynomial
+the only possible rational roots would have a numerator that divides 6 and a denominator that divides 1, limiting the possibilities to ±1, ±2, ±3, and ±6. Of these, 1, 2, and –3 equate the polynomial to zero, and hence are its rational roots. (In fact these are its only roots since a cubic has only three roots; in general, a polynomial could have some rational and some irrational roots.)
+Third.
+Every rational root of the polynomial
+must be among the numbers symbolically indicated by:
+These 8 root candidates can be tested by evaluating , for example using Horner's method. It turns out there is exactly one with . 
+This process may be made more efficient: if , it can be used to shorten the list of remaining candidates. For example, does not work, as . Substituting yields a polynomial in  with constant term , while the coefficient of remains the same as the coefficient of . Applying the rational root theorem thus yields the possible roots formula_15, so that 
+True roots must occur on both lists, so list of rational root candidates has shrunk to just and .
+If rational roots are found, Horner's method will also yield a polynomial of degree whose roots, together with the rational roots, are exactly the roots of the original polynomial. If none of the candidates is a solution, there can be no rational solution.
+

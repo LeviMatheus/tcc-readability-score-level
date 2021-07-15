@@ -1,0 +1,9 @@
+An acid is something that has a pH less than 7.0.
+Sometimes the abbreviation HA is used to mean an acid.
+The chemistry definition of an acid is: "a substance that donates a hydrogen ion (H+) to another substance, which is called a base. (Or give out hydrogen ions when dissolved in water.)"
+Properties of an Acid.
+Acids can burn the skin. The burn can be serious or minor depending on the kind of acid and how concentrated it is.
+Burns like this can cause serious damage quickly. Chemical burns like this need medical attention.
+Neutralisation.
+Acids and Bases can combine with each other and cancel each other's effects. This is called neutralisation.
+ACID is a concept used with Databases. It is an abbreviation. It stands for

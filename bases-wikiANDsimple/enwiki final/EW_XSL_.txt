@@ -1,0 +1,20 @@
+
+In computing, the term Extensible Stylesheet Language (XSL) is used to refer to a family of 
+languages used to transform and render XML documents.
+Historically, the W3C XSL Working Group produced a draft specification under the name "XSL," which eventually split into three parts:
+As a result, the term "XSL" is now used with a number of different meanings:
+This article is concerned with the various usages of the term "XSL": for details of the various languages embraced by the term, see the relevant article.
+History.
+XSL began as an attempt to bring the functionality of DSSSL, particularly in the area of print and high-end typesetting, to XML.
+In response to a submission from Arbortext, Inso, and Microsoft, a W3C working group on "XSL" started operating in December 1997, with Sharon Adler and Steve Zilles as co-chairs, with James Clark acting as editor (and unofficially as chief designer), and Chris Lilley as the W3C staff contact. The group released a first public Working Draft on 18 August 1998. XSLT and XPath became W3C Recommendations on 16 November 1999 and XSL-FO reached Recommendation status on 15 October 2001.
+The XSL family.
+XSL Transformations.
+XSL Transformations (XSLT) has many implementations available. Several web browsers, including Internet Explorer (using the MSXML engine), Opera (native engine) and Safari, all support transformation of XML to HTML (or other languages) through XSLT. Other notable implementations include Saxon and Xalan.
+Support in Firefox, Mozilla, and Netscape (all using the TransforMiiX engine) is incomplete. Support of disable-output-escaping does not work which is why HTML Fragments are not rendered properly. This bug is known since 2001 https://bugzilla.mozilla.org/show_bug.cgi?id=98168 .
+XSL Formatting Objects.
+Support for XSL Formatting Objects is available in a number of products:
+These products support output in a number of file formats, to varying degrees:
+XPath.
+XML Path Language (XPath), itself part of the XSL family, functions within XSLT as a means of navigating an XML document.
+Another W3C project, XQuery, aims to provide similar capabilities for querying XML documents using XPath.
+

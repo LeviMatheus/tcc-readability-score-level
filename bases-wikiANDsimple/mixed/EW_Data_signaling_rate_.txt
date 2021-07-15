@@ -1,0 +1,8 @@
+
+In telecommunication, data signaling rate (DSR), also known as gross bit rate, is the aggregate rate at which data pass a point in the transmission path of a data transmission system.
+Maximum rate.
+The "maximum user signaling rate", synonymous to gross bitrate or data signaling rate, is the maximum rate, in bits per second, at which binary information can be transferred in a given direction between users over the telecommunications system facilities dedicated to a particular information transfer transaction, under conditions of continuous transmission and no overhead information.
+For a single channel, the signaling rate is given by formula_2, where "SCSR" is the single-channel signaling rate in bits per second, "T" is the minimum time interval in seconds for which each level must be maintained, and n is the number of significant conditions of modulation of the channel.
+In the case where an individual end-to-end telecommunications service is provided by parallel channels, the parallel-channel signaling rate is given by formula_3, where "PCSR" is the total signaling rate for "m" channels, "m" is the number of parallel channels, "Ti" is the minimum interval between significant instants for the "I"-th channel, and "ni" is the number of significant conditions of modulation for the "I"-th channel.
+In the case where an end-to-end telecommunications service is provided by tandem channels, the end-to-end signaling rate is the lowest signaling rate among the component channels.
+

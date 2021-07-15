@@ -1,0 +1,2 @@
+Dreamlinux is a Brazilian Linux distribution based on Debian. It can boot as a live CD, from USB flash drive, or can be installed on a computer's internal hard drive.
+The distribution's GUI looks like Apple's Mac OS X, with a toolbar in the center made animated by downloading the "Engage" theme.

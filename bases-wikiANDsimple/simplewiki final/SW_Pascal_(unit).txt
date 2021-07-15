@@ -1,0 +1,2 @@
+The pascal (symbol: Pa) is the SI derived unit of pressure or stress. It is a measure of perpendicular force per unit area i.e. equal to one newton per square meter. In everyday life, the pascal is maybe best known from meteorological air-pressure reports, where it happens in the form of hectopascal
+(1 hPa = 100 Pa). In other cases, the kilopascal is more commonly used, for example on bicycle tire labels. One hectopascal corresponds to 0.1 and one kilopascal to about 1% of atmospheric pressure (near sea level).

@@ -1,0 +1,79 @@
+
+In linguistics, a numeral (or number word) in the broadest sense is a word or phrase that describes a numerical quantity. Some theories of grammar use the word "numeral" to refer to cardinal numbers that act as a determiner that specify the quantity of a noun, for example the "two" in "two hats". Some theories of grammar do not include determiners as a part of speech and consider "two" in this example to be an adjective. Some theories consider "numeral" to be a synonym for "number" and assign all numbers (including ordinal numbers like the compound word "seventy-fifth") to a part of speech called "numerals" Numerals in the broad sense can also be analyzed as a noun ("three is a small number"), as a pronoun ("the two went to town"), or for a small number of words as an adverb ("I rode the slide twice").
+Numerals can express relationships like quantity (cardinal numbers), sequence (ordinal numbers), frequency (once, twice), and part (fraction).
+Identifying numerals.
+Numerals may be attributive, as in "two dogs", or pronominal, as in "I saw two (of them)".
+Many words of different parts of speech indicate number or quantity. Such words are called quantifiers. Examples are words such as "every", "most", "least", "some", etc. Numerals are distinguished from other quantifiers by the fact that they designate a specific number. Examples are words such as "five, ten, fifty, one hundred, etc." They may or may not be treated as a distinct part of speech; this may vary, not only with the language, but with the choice of word. For example, "dozen" serves the function of a noun, "first" serves the function of an adjective, and "twice" serves the function of an adverb. In Old Church Slavonic, the cardinal numbers 5 to 10 were feminine nouns; when quantifying a noun, that noun was declined in the genitive plural like other nouns that followed a noun of quantity (one would say the equivalent of "five of people"). In English grammar, the classification "numeral" (viewed as a part of speech) is reserved for those words which have distinct grammatical behavior: when a numeral modifies a noun, it may replace the article: the/some dogs played in the park" → twelve dogs played in the park". (Note that *"dozen dogs played in the park" is not grammatical, so "dozen" is not a numeral in this sense.) English numerals indicate cardinal numbers. However, not all words for cardinal numbers are necessarily numerals. For example, "million" is grammatically a noun, and must be preceded by an article or numeral itself.
+Numerals may be simple, such as 'eleven', or compound, such as 'twenty-three'.
+In linguistics, however, numerals are classified according to purpose: examples are ordinal numbers ("first", "second", "third", etc.; from 'third' up, these are also used for fractions), multiplicative numbers ("once", "twice", and "thrice"), multipliers ("single", "double", and "triple"), and distributive numbers ("singly", "doubly", and "triply"). Georgian, Latin, and Romanian (see Romanian distributive numbers) have regular distributive numbers, such as Latin "singuli" "one-by-one", "bini" "in pairs, two-by-two", "terni" "three each", etc. In languages other than English, there may be other kinds of number words. For example, in Slavic languages there are collective numbers which describe sets, such as "pair" or "dozen" in English (see Russian numerals, Polish numerals).
+Some languages have a very limited set of numerals, and in some cases they arguably do not have any numerals at all, but instead use more generic quantifiers, such as 'pair' or 'many'. However, by now most such languages have borrowed the numeral system or part of the numeral system of a national or colonial language, though in a few cases (such as Guarani ), a numeral system has been invented internally rather than borrowed. Other languages had an indigenous system but borrowed a second set of numerals anyway. An example is Japanese, which uses either native or Chinese-derived numerals depending on what is being counted.
+In many languages, such as Chinese, numerals require the use of numeral classifiers. Many sign languages, such as ASL, incorporate numerals.
+Larger numerals.
+English has derived numerals for multiples of its base ("fifty, sixty," etc), and some languages have simplex numerals for these, or even for numbers between the multiples of its base. Balinese, for example, currently has a decimal system, with words for 10, 100, and 1000, but has additional simplex numerals for 25 (with a second word for 25 only found in a compound for 75), 35, 45, 50, 150, 175, 200 (with a second found in a compound for 1200), 400, 900, and 1600. In Hindustani, the numerals between 10 and 100 have developed to the extent that they need to be learned independently.
+In many languages, numerals up to the base are a distinct part of speech, while the words for powers of the base belong to one of the other word classes. In English, these higher words are hundred 102, thousand 103, million 106, and higher powers of a thousand (short scale) or of a million (long scale—see names of large numbers). These words cannot modify a noun without being preceded by an article or numeral (*"hundred dogs played in the park"), and so are nouns.
+In East Asia, the higher units are hundred, thousand, myriad 104, and powers of myriad. In India, they are hundred, thousand, lakh 105, crore 107, and so on. The Mesoamerican system, still used to some extent in Mayan languages, was based on powers of 20: "bak’" 400 (202), "pik" 8000 (203), "kalab" 160,000 (204), etc.
+Numerals of cardinal numbers.
+The cardinal numbers have numerals. In the following tables, [and] indicates that the word "and" is used in some dialects (such as British English), and omitted in other dialects (such as American English).
+This table demonstrates the standard English construction of some cardinal numbers. (See next table for names of larger cardinals.)
+English names for powers of 10.
+This table compares the English names of cardinal numbers according to various American, British, and Continental European conventions. See English numerals or names of large numbers for more information on naming numbers.
+There is no consistent and widely accepted way to extend cardinals beyond centillion (centilliard).
+Myriad, Octad, and -yllion systems.
+The following table details the myriad, octad, chinese myriad, Chinese long and -yllion names for powers of 10.
+There is also a Knuth-proposed system notation of numbers, named the -yllion system. In this system, a new word is invented for every "2n"-th power of ten. 
+Fractional numerals.
+This is a table of English names for non-negative rational numbers less than or equal to 1. It also lists alternative names, but there is no widespread convention for the names of extremely small positive numbers.
+Keep in mind that rational numbers like 0.12 can be represented in infinitely many ways, e.g. "zero-point-one-two" (0.12), "twelve percent" (12%), "three twenty-fifths" (), "nine seventy-fifths" (), "six fiftieths" (), "twelve hundredths" (), "twenty-four two-hundredths" (), etc.
+Other specific quantity terms.
+Various terms have arisen to describe commonly used measured quantities.
+Basis of counting system.
+Not all peoples count, at least not verbally. Specifically, there is not much need for counting among hunter-gatherers who do not engage in commerce. Many languages around the world have no numerals above two to four (if they're actually numerals at all, and not some other part of speech)—or at least did not before contact with the colonial societies—and speakers of these languages may have no tradition of using the numerals they did have for counting. Indeed, several languages from the Amazon have been independently reported to have no specific number words other than 'one'. These include Nadëb, pre-contact Mocoví and Pilagá, Culina and pre-contact Jarawara, Jabutí, Canela-Krahô, Botocudo (Krenák), Chiquitano, the Campa languages, Arabela, and Achuar. Some languages of Australia, such as Warlpiri, do not have words for quantities above two, as did many Khoisan languages at the time of European contact. Such languages do not have a word class of 'numeral'.
+Most languages with both numerals and counting use base 8, 10, 12, or 20. Base 10 appears to come from counting one's fingers, base 20 from the fingers and toes, base 8 from counting the spaces between the fingers (attested in California), and base 12 from counting the knuckles (3 each for the four fingers).
+No base.
+Many languages of Melanesia have (or once had) counting systems based on parts of the body which do not have a numeric base; there are (or were) no numerals, but rather nouns for relevant parts of the body—or simply pointing to the relevant spots—were used for quantities. For example, 1–4 may be the fingers, 5 'thumb', 6 'wrist', 7 'elbow', 8 'shoulder', etc., across the body and down the other arm, so that the opposite little finger represents a number between 17 (Torres Islands) to 23 (Eleman). For numbers beyond this, the torso, legs and toes may be used, or one might count back up the other arm and back down the first, depending on the people.
+2: binary.
+Binary systems are base 2, often using zeros and ones. With only two symbols binary is useful for logical systems like computers.
+3: ternary.
+Base 3 counting has practical usage in some analog logic, in baseball scoring and in self–similar mathematical structures.
+4: quaternary.
+Some Austronesian and Melanesian ethnic groups, some Sulawesi and some Papua New Guineans, count with the base number four, using the term "asu" and "aso", the word for dog, as the ubiquitous village dog has four legs. This is argued by anthropologists to be also based on early humans noting the human and animal shared body feature of two arms and two legs as well as its ease in simple arithmetic and counting. As an example of the system's ease a realistic scenario could include a farmer returning from the market with fifty "asu" heads of pig (200), less 30 "asu" (120) of pig bartered for 10 "asu" (40) of goats noting his new pig count total as twenty "asu": 80 pigs remaining. The system has a correlation to the dozen counting system and is still in common use in these areas as a natural and easy method of simple arithmetic.
+5: quinary.
+Quinary systems are based on the number 5. It is almost certain the quinary system developed from counting by fingers (five fingers per hand). An example are the Epi languages of Vanuatu, where 5 is "luna" 'hand', 10 "lua-luna" 'two hand', 15 "tolu-luna" 'three hand', etc. 11 is then "lua-luna tai" 'two-hand one', and 17 "tolu-luna lua" 'three-hand two'.
+5 is a common "auxiliary base", or "sub-base", where 6 is 'five and one', 7 'five and two', etc. Aztec was a vigesimal (base-20) system with sub-base 5.
+6: senary.
+The Morehead-Maro languages of Southern New Guinea are examples of the rare base 6 system with monomorphemic words running up to 66. Examples are Kanum and Kómnzo. The Sko languages on the North Coast of New Guinea follow a base-24 system with a sub-base of 6.
+7: septenary.
+Septenary systems are very rare, as few natural objects consistently have seven distinctive features. Traditionally, it occurs in week-related timing. It has been suggested that the Palikur language has a base-seven system, but this is dubious.
+8: octal.
+Octal counting systems are based on the number 8. Examples can be found in the Yuki language of California and in the Pamean languages of Mexico, because the Yuki and Pame keep count by using the four spaces between their fingers rather than the fingers themselves.
+9: nonary.
+It has been suggested that Nenets has a base-nine system.
+10: decimal.
+A majority of traditional number systems are decimal. This dates back at least to the ancient Egyptians, who used a wholly decimal system. Anthropologists hypothesize this may be due to humans having five digits per hand, ten in total. There are many regional variations including:
+12: duodecimal.
+Duodecimal systems are based on 12.
+These include:
+Duodecimal numeric systems have some practical advantages over decimal. It is much easier to divide the base digit twelve (which is a highly composite number) by many important divisors in market and trade settings, such as the numbers 2, 3, 4 and 6.
+Because of several measurements based on twelve, many Western languages have words for base-twelve units such as "dozen", "gross" and "great gross", which allow for rudimentary duodecimal nomenclature, such as "two gross six dozen" for 360. Ancient Romans used a decimal system for integers, but switched to duodecimal for fractions, and correspondingly Latin developed a rich vocabulary for duodecimal-based fractions (see Roman numerals). A notable fictional duodecimal system was that of J. R. R. Tolkien's Elvish languages, which used duodecimal as well as decimal.
+16: hexadecimal.
+Hexadecimal systems are based on 16.
+The traditional Chinese units of measurement were base-16. For example, one jīn (斤) in the old system equals sixteen taels. The suanpan (Chinese abacus) can be used to perform hexadecimal calculations such as additions and subtractions.
+South Asian monetary systems were base-16. One rupee in Pakistan and India was divided into 16 annay. A single anna was subdivided into four paisa or twelve pies (thus there were 64 paise or 192 pies in a rupee). The anna was demonetised as a currency unit when India decimalised its currency in 1957, followed by Pakistan in 1961.
+20: vigesimal.
+Vigesimal numbers use the number 20 as the base number for counting. Anthropologists are convinced the system originated from digit counting, as did bases five and ten, twenty being the number of human fingers and toes combined.
+The system is in widespread use across the world. Some include the classical Mesoamerican cultures, still in use today in the modern indigenous languages of their descendants, namely the Nahuatl and Mayan languages (see Maya numerals). A modern national language which uses a full vigesimal system is Dzongkha in Bhutan.
+Partial vigesimal systems are found in some European languages: Basque, Celtic languages, French (from Celtic), Danish, and Georgian. In these languages the systems are vigesimal up to 99, then decimal from 100 up. That is, 140 is 'one hundred two score', not *seven score, and there is no numeral for 400 (great score).
+The term "score" originates from tally sticks, and is perhaps a remnant of Celtic vigesimal counting. It was widely used to learn the pre-decimal British currency in this idiom: "a dozen pence and a score of bob", referring to the 20 shillings in a pound. For Americans the term is most known from the opening of the Gettysburg Address: "Four score and seven years ago our fathers...".
+24: quadrovigesimal.
+The Sko languages have a base-24 system with a sub-base of 6.
+32: duotrigesimal.
+Ngiti has base 32.
+60: sexagesimal.
+Ekari has a base-60 system. Sumeria had a base-60 system with a decimal sub-base (with alternating cycles of 10 and 6), which was the origin of the numbering of modern degrees, minutes, and seconds.
+80: octogesimal.
+Supyire is said to have a base-80 system; it counts in twenties (with 5 and 10 as sub-bases) up to 80, then by eighties up to 400, and then by 400s (great scores).
+799 [i.e. 400 + (4 x 80) + (3 x 20) + {10 + (5 + 4)}]’
+See also.
+Numerals in various languages.
+A database Numeral Systems of the World's Languages compiled by Eugene S.L. Chan of Hong Kong is hosted by the Max Planck Institute for Evolutionary Anthropology in Leipzig, Germany. The database currently contains data for about 4000 languages.
+

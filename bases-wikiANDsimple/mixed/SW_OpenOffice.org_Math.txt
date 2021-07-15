@@ -1,0 +1,2 @@
+OpenOffice.org Math is a tool for creating and editing mathematical formulas, similar to Microsoft Equation Editor and is part of the OpenOffice.org office suite. The created formulas can then be put into other OpenOffice.org documents, for example, those created by Writer. It allows multiple fonts and can export to PDF.
+Released under the terms of the GNU Lesser General Public Licence, Math is free software.

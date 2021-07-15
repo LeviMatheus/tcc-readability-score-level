@@ -1,0 +1,3 @@
+AAC is a file format for storing music or other sounds. It stands for Advanced Audio Coding or Advanced Audio Codec. It is used by Apple Inc. in the iPod and iTunes. AAC is one of the standard formats that comes from the MPEG organization, the same people who invented MP3.
+File names.
+An AAC file that has only music and information could have a name that ends with either.m4a or.mp4.

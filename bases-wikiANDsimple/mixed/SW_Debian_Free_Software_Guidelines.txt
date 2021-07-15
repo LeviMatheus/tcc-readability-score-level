@@ -1,0 +1,9 @@
+The Debian Free Software Guidelines (DFSG) is a set of guidelines (rules) that the Debian Project uses to decide whether a software license is a free software license, which is used to decide whether a piece of software can be included in Debian. The DFSG is part of the Debian Social Contract.
+History.
+The DFSG was first published together with the first version of the Debian Social Contract in July 1997. The primary authors were Bruce Perens and several other Debian developers at the time.
+Software.
+Most discussions about the DFSG happen on the "debian-legal" mailing list. When a Debian Developer first uploads a package to be included in Debian, the "ftpmaster" team checks the software licenses and decides whether they follow the DFSG's rules. The team sometimes discusses with the debian-legal list in difficult cases.
+Non-software content.
+The DFSG is focused on software, but in June 2004 the Debian project decided to use the same rules on software documentation, multimedia data and other content. The non-software content of Debian began to follow the DFSG more strictly in Debian 4.0 (released in April 2007) and following releases.
+GFDL.
+Much documentation written by the GNU Project, the Linux Documentation Project and others licensed under the GNU Free Documentation License contain invariant sections, which do not comply with the DFSG. This assertion is the end result of a long discussion and the General Resolution 2006-001

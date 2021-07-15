@@ -1,0 +1,36 @@
+In cryptography, a stream cipher is a symmetric key cipher where plaintext bits are combined with a pseudorandom cipher bit stream (keystream) using an exclusive-or (xor) operation. In a stream cipher the Plaintext digits are encrypted one at a time, and the transformation of successive digits varies during the encryption state. An alternative name is a state cipher, as the encryption of each digit is dependent on the current state. In practice, the digits are typically single bits or bytes.
+Stream ciphers represent a different approach to symmetric encryption from block ciphers. Block ciphers operate on large blocks of fixed length. Stream ciphers typically execute at a higher speed than block ciphers and have lower hardware requirements. However, stream ciphers can be susceptible to serious security problems if used incorrectly; for example, in particular, the same starting state must never be used twice.
+A stream cipher makes use of a much smaller and more convenient cryptographic keys, for example 128 bits keys. Based on this key, it generates a pseudorandom keystream which can be combined with the plaintext digits in a similar way to the one-time pad encryption algorithm. However, because the keystream is pseudorandom, and not truly random, the security associated with the one-time pad cannot be applied and it is quite possible for a stream cipher to be completely insecure.
+Synchronous stream ciphers.
+In a synchronous stream cipher a stream of pseudo-random digits is generated independently of the plaintext and ciphertext messages, and then combined with the plaintext (to encrypt) or with the ciphertext (to decrypt). In the most common form, binary digits(bits) are used, and the keystream is combined with the plaintext using the exclusive or operation (XOR). This is termed a binary additive stream cipher.
+In a synchronous stream cipher, the sender and receiver must be in synchronous for decryption to be successful. If digits are added or removed from the message during transmission, synchronisation is lost. To restore synchronisation, various offsets can be tried systematically to obtain the correct decryption. Another approach is to mark the ciphertext with markers at regular points in the output.
+If, however, a digit is corrupted in transmission, rather than added or lost, only a single digit in the plaintext is affected and the error does not propagate to other parts of the message. This property is useful when the transmission error rate is high; however, it makes it less likely that the error would be detected without further mechanisms. Moreover, because of this property, synchronous stream ciphers are very susceptible to active attacks — if an attacker can change a digit in the ciphertext, he might be able to make predictable changes to the corresponding plaintext bit; for example, flipping a bit in the ciphertext causes the same bit to be flipped(Toggled) in the plaintext.
+Self-synchronizing stream ciphers.
+Self-synchronizing stream ciphers is another technique that uses part of the previous "N" ciphertext digits to compute the keystream. Such schemes are known also as asynchronous stream ciphers or ciphertext autokey (CTAK). The idea of self-synchronization was patented in 1946, and has the advantage that the receiver will automatically synchronise with the keystream generator after receiving "N" ciphertext digits, making it easier to recover if digits are dropped or added to the message stream. Single-digit errors are limited in their effect, affecting only up to "N" plaintext digits. It is somewhat more difficult to perform active attacks on self-synchronising stream ciphers rather than synchronous counterparts.
+An example of a self-synchronising stream cipher is a block cipher in cipher-feedback mode (CFB).
+Linear feedback shift register-based stream ciphers.
+Binary stream ciphers are often constructed using linear feedback shift registers (LFSRs) because they can be easily implemented in hardware and can be quickly analysed mathematically. However, the use of LFSRs only is insufficient to provide good security. Various schemes have been designed to increase the security of LFSRs.
+Non-linear combining functions.
+Because LFSRs are inherently linear, one technique for removing the linearity is to feed the outputs of a group of parallel LFSRs into a non-linear Boolean function to form a "combination generator". Various properties of such a "combining function" are important for ensuring the security of the resultant scheme, for example, in order to avoid correlation attacks.
+Clock-controlled generators.
+Normally LFSRs are stepped regularly. One technique to introducting non-linearity is to have the LFSR clocked irregularly, controlled by the output of a second LFSR. Such generators include the stop-and-go generator, the alternating step generator and the shrinking generator.
+The stop-and-go generator (Beth and Piper, 1984) consists of two LFSRs. One LFSR is clocked if the output of a second is a "1", otherwise it repeats its previous output. This output is then (in some versions) combined with the output of a third LFSR clocked at a regular rate.
+This technique suffers from timing attacks on the second generator, since the speed of the output is variable in a manner that depends on the second generator's state. This can be improved by buffering the output.
+Filter generator.
+Another approach to improving the security of an LFSR is to pass the entire state of a single LFSR into a non-linear "filtering function".
+Other designs.
+Instead of a linear driving device, one may use a nonlinear update function. For example, Klimov and Shamir proposed triangular functions (T-Functions) with a single cycle on n bit words.
+Security.
+To be secure, the period of the keystream (the number of digits output before the stream repeats itself) needs to be large enough. If the sequence repeats, then the overlapping ciphertexts can be aligned against each other "in depth", and there are techniques which allow extraction of the plaintext form ciphertexts generated using these methods.
+Usage.
+Stream ciphers are often used in applications where plaintext comes in quantities of unknowable length as in secure wireless connections. If a block cipher were to be used in this type of application, the designer would need to choose either transmission efficiency or implementation complexity, since block ciphers cannot directly work on blocks shorter than their block size. For example, if a 128-bit block cipher received separate 32-bit bursts of plaintext, three quarters of the transmitted data need padding. Block ciphers must be used in ciphertext stealing or residual block termination mode to avoid padding, while stream ciphers eliminate this issue by operating on the smallest transmitted unit (usually bytes).
+Another advantage of stream ciphers in military cryptography is that the cipher stream can be generated by an encryption device that is subject to strict security measures then fed to other devices, e.g. a radio set, which will perform the xor operation as part of their function. The other device can be designed for used in less securely environments.
+Chameleon,
+FISH,
+Helix,
+ISAAC,
+Panama,
+Pike,
+SEAL,
+SOBER,
+WAKE.

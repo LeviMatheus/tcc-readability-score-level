@@ -1,0 +1,24 @@
+In mathematics, a rational number is a number that can be written as one whole number divided by another whole number. The short way of writing this in math language is "a"/"b" or formula_1, where "b" is not 0.
+Most of the numbers people see every day are rational.
+There are numbers which are not rational. For example: formula_2 (the square root of 2) is irrational(not rational). When people write a rational number in a decimal system, the digits must repeat sooner or later, for example formula_3.
+formula_4
+formula_5 (x multiplied by 100)
+So, since the decimal part (the part to the right of the decimal point) is the same as x, we can always subtract x from both sides to eliminate all the decimals to get,
+formula_6
+or formula_7
+We can then divide both sides by 99.
+That is, formula_8
+Since x = 0.070707, we can finally rewrite the previous equation to show that 0.070707 can be written as the ratio of two integers, 7 and 99.
+formula_9
+formula_10
+formula_11
+When people write an irrational number, the digits never repeat. An example of an irrational number is: formula_12.
+Every integer is a rational number, because it can be written as formula_13. For example formula_14.
+Formal construction.
+Mathematically we can define them as an ordered pair of integers formula_25, with formula_26 not equal to zero.
+This equivalence relation does not change the addition and multiplication defined above, and we may define Q to be the quotient set of ~, it is we identify two pairs ("a", "b") and ("c", "d") if they are equivalent in the above sense.
+We can also define a total order on Q by writing
+Properties.
+That many numbers are counted several times here, is not a big problem. We could also imagine leaving them out. The important thing is that we have now a long list of positive rational numbers; so the (positive) rational numbers are countable.
+For using this method for "all" rational numbers, add after each step the same but negative number.
+The rationals are a densely ordered set: between any two rationals, there sits another one, in fact infinitely many other ones.

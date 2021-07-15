@@ -1,0 +1,13 @@
+The Free Software Foundation (FSF) is a non-profit corporation founded by Richard Stallman on 4 October 1985 to support the free software movement, a copyleft-based movement which tries to promote the universal freedom to distribute and modify computer software without restriction. The FSF was started in the Commonwealth of Massachusetts, United States of America.
+From its founding (when it started) until the 1990s, FSF's funds were mostly used to employ software developers to write free software for the GNU Project. Since the mid-1990s, the FSF's employees and volunteers have mostly worked on legal and structural issues for the free software movement and the free software community.
+GPL enforcement.
+The FSF holds the copyrights on many important pieces of the GNU system, such as the GCC. As a copyright holder, it has the power to enforce the GNU General Public License (GPL) when copyright infringement occurs on that software. While other copyright holders of other software systems used the GPL as their license, FSF was the only organization to regularly assert its copyright interests on software licensed under the GPL until Harald Welte created gpl-violations.org in 2004.
+In late 2001, Bradley M. Kuhn (then Executive Director), with the help of Moglen, David Turner, and Peter T. Brown, turned these efforts into FSF's GPL Compliance Labs. From 2002-2004, high profile GPL enforcement cases, such as those against Linksys and OpenTV, became frequent. GPL enforcement and educational campaigns on GPL compliance was a major focus of the FSF's efforts during this period.
+SCO lawsuit.
+In March 2003, SCO filed suit against IBM alleging(saying) that
+IBM's contributions to some free software, including FSF's GNU,
+violated SCO's rights. While FSF was never a party to the lawsuit, FSF
+was subpoenaed on November 5, 2003. During 2003 and 2004, FSF put a lot of advocacy effort into
+responding to the lawsuit and removing its negative impact on the adoption and promotion of free software.
+High priority projects.
+The FSF maintains a list of "high priority projects" where the Foundation says that "there is a vital need to draw the free software community's attention". The FSF says these projects are"important because computer users are continually being seduced into using non-free software, because there is no adequate free replacement."

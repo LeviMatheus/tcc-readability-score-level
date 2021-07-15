@@ -1,0 +1,14 @@
+(also called "Number Place" or "Nanpure") is a puzzle that is very popular in Japan. It was created in Indianapolis in 1979 by Howard Garns and it appeared in Dell Magazines afterwards.
+Some magazines spell Sudoku as Su Doku.
+To play, a person needs a sudoku grid (with nine rows, nine columns, and nine boxes that are separated by the thicker, darker lines) and a pen or pencil. Using the pen or pencil, the person must fill in all the empty squares without using the same number twice in each column, row, or box.
+Many books have been created containing tips and strategies for completing sudoku puzzles. Books containing collections of puzzles have also been made, as well as internet Sudoku generators (computer programs that generate Sudoku puzzles).
+Variations.
+There are many Sudoku variations that have been created since the original Sudoku's release.
+Jigsaw Sudoku.
+Jigsaw Sudoku (also called Squiggly Sudoku or Odd Sudoku) is just like a regular Sudoku puzzle, except that instead of the lines being perfect, they are different. Like regular Sudoku puzzles, you have to complete the grid.
+Samurai Sudoku.
+Samurai Sudoku is a Sudoku variation that has 5 overlapping Sudoku grids formed like a big X. These puzzles are big and take a long time to complete. Like regular Sudoku puzzles, you have to complete all 5 grids in order to complete the puzzle.
+Mini Sudoku.
+Mini Sudoku is played on a 6x6 grid with 3x2 regions. The object is the same as in Sudoku, but the puzzle only uses the numbers 1 through 6.
+Logic 5.
+Logic 5 is another Sudoku variation that uses 5x5 grids instead of 3x3 grids, and are in use at the Sudoku World Championships.

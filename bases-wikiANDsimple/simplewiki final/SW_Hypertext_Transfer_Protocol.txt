@@ -1,0 +1,6 @@
+Hypertext Transfer Protocol (often abbreviated to HTTP) is a communications protocol. It is used to send and receive webpages and files on the internet. It was developed by Tim Berners-Lee and is now coordinated by the W3C. HTTP version 1.1 is the most common used version today, it is defined in RFC 2616.
+HTTP works by using a user agent to connect to a server. The user agent could be a web browser or spider. The server must be located using a URL or URI. This always contains http:// at the start. It normally connects to port 80 on a computer.
+A more secure version of HTTP is called "HTTPS". This contains https:// at the beginning of the URL. It encrypts all the information that is sent and received. This can stop malicious users such as hackers from stealing it. It is often used on payment websites.
+Request Message.
+The request line and headers must all end with <CR><LF> (that is, a carriage return followed by a line feed). The empty line must consist of only <CR><LF> and no other whitespace. In the HTTP/1.1 protocol, all headers except Host are optional.
+A request line containing only the path name is accepted by servers to maintain compatibility with HTTP clients before the HTTP/1.0 standard.

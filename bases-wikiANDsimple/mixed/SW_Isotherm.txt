@@ -1,0 +1,1 @@
+Isotherms are lines drawn around places with the same temperature range on isotherm maps. Each point on this line shows one temperature reading, or the average of many temperature readings.

@@ -1,0 +1,2 @@
+Barometer is a instrument used to measure air pressure. The "barometer" measures air pressure in units called hectopascals (hPa). Air pressure and differences in pressure are important ways to describe or measure weather. Therefore the barometer is important for meteorologists.
+There are various types of "barometers" such as the water barometer, aneroid barometer, and the mercury barometer. They were created by an Italian mathematician named Evangelista Torricelli in 1643.

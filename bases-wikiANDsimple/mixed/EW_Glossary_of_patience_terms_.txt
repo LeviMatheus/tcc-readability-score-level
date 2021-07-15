@@ -1,0 +1,12 @@
+
+There are a number of common features in many Patience games (or solitaire games as they are called in the US) such as "building down" and the "foundations" and "tableau". These are used to simplify the descriptions of new games.
+Layout.
+The layout describes the piles of cards in use during the game, and the restrictions on these piles. There are a number of different kinds of piles which have become standard across a number of games.
+Building.
+"Building" involves cards being placed in their final location, in stacks or cascades according to various rules. The building terms are usually combined in game explanations. For instance, a game may describe "building up in sequence by suit". The terms in this table are generally preceded by the word "building" (as in the previous sentence). "Packing" means ordering cards in sequence in an intermediate location, usually the tableau, until they can be placed on the foundations.
+Play.
+The terms above are useful for describing the rules of the game. The terms in this section tend to be more useful for describing things happening during the state of play. Most are derived from Lady Cadogan (see below).
+Additional terms.
+The following terms are used by Peter Arnold in his book "Card Games for One" () and may be terms exclusively used in British English in explaining solitaire games:
+The following terms are from the book "Illustrated Games of Patience" by Lady Cadogan (1874). This defines the long-forgotten term, talon (= "stock"), which is still in use in Germany and has been re-introduced by English authors like Parlett. Also note the term Marriage of cards.
+

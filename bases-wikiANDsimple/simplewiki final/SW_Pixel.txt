@@ -1,0 +1,5 @@
+A pixel (short for picture element) is a single point in a picture. On the monitor of a computer, a pixel is usually a square. Every pixel has a color and all the pixels together are the picture. The color of a pixel can be stored by using a combination of red, green and blue (RGB) but other combinations are also possible, such as cyan, magenta, yellow and black (CMYK).
+The word "pixel".
+The word "pixel" was first used in a paper by Frederic C. Billingsley in 1965. He did not create the word himself. He got it from Keith E. McFarland but Keith doesn't know where he got it from. Keith said that the word was in use in those days.
+The word "pixel" uses "pix" as a shorter word (an abbreviation) for "picture". The word pix was first used in 1932 in Variety, a magazine. It was an abbreviation for "pictures" or movies. By 1938 the word "pix" was also used for pictures that didn't move (still pictures).
+The word "picture element" is even older. For example, the German word "Bildpunkt" (which means "picture point") was used in a 1888 patent of Paul Gottlieb Nipkow.

@@ -1,0 +1,4 @@
+Hydraulic head is a specific measurement of water pressure or total energy per unit weight above a datum.
+It is usually measured as a water surface elevation, expressed in units of length, but represents the energy at the entrance (or bottom) of a piezometer. In an aquifer, it can be calculated from the depth to water in a piezometric well (a specialized water well), and given information of the piezometer's elevation and screen depth.
+Atmospheric pressure.
+Even though it is conventional to use gauge pressure in the calculation of hydraulic head, it is more correct to use total pressure (gauge pressure + atmospheric pressure), since this is truly what drives groundwater flow. Often detailed observations of barometric pressure are not available at each well through time, so this is often disregarded (contributing to large errors at locations where hydraulic gradients are low or the angle between wells is acute.)

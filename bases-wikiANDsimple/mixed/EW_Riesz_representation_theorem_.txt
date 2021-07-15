@@ -1,0 +1,81 @@
+
+Riesz representation theorem, sometimes called Riesz–Fréchet representation theorem, named after Frigyes Riesz and Maurice René Fréchet, establishes an important connection between a Hilbert space and its continuous dual space. If the underlying field is the real numbers, the two are isometrically isomorphic; if the underlying field is the complex numbers, the two are isometrically anti-isomorphic. The (anti-) isomorphism is a particular natural one as will be described next; a natural isomorphism.
+Preliminaries and notation.
+Let formula_1 be a Hilbert space over a field formula_2 where formula_3 is either the real numbers formula_4 or the complex numbers formula_5 If formula_6 (resp. if formula_7) then formula_1 is called a (resp. a ). Every real Hilbert space can be extended to be a dense subset of a unique (up to bijective isometry) complex Hilbert space, called its complexification, which is why Hilbert spaces are often automatically assumed to be complex. Real and complex Hilbert spaces have in common many, but by no means all, properties and results/theorems. 
+This article is intended for both mathematicians and physicists and will describe the theorem for both. 
+In both mathematics and physics, if a Hilbert space is assumed to be real (i.e. if formula_7) then this will usually be made clear. Often in mathematics, and especially in physics, unless indicated otherwise, "Hilbert space" is usually automatically assumed to mean "complex Hilbert space." Depending on the author, in mathematics, "Hilbert space" usually means either (1) a complex Hilbert space, or (2) a real complex Hilbert space. 
+Linear and antilinear maps.
+By definition, an (also called a ) formula_10 is a map between vector spaces that is :
+and (also called or ):
+In contrast, a map formula_10 is linear if it is additive and : 
+Every constant formula_20 map is always both linear and antilinear. If formula_7 then the definitions of linear maps and antilinear maps are completely identical. A linear map from a Hilbert space into a Banach space (or more generally, from any Banach space into any topological vector space) is continuous if and only if it is bounded; the same is true of antilinear maps. The inverse of any antilinear (resp. linear) bijection is again an antilinear (resp. linear) bijection. The composition of two linear maps is a map. 
+A on formula_1 is a function formula_23 whose codomain is the underlying scalar field formula_24 
+Denote by formula_25 (resp. by formula_26 the set of all continuous linear (resp. continuous antilinear) functionals on formula_27 which is called the (resp. the ) of formula_28 
+If formula_7 then linear functionals on formula_1 are the same as antilinear functionals and consequently, the same is true for such continuous maps: that is, formula_31 
+Given any functional formula_32 the is the functional denoted by 
+This assignment is most useful when formula_6 because if formula_7 then formula_37 and the assignment formula_38 reduces down to the identity map. 
+The assignment formula_38 defines an antilinear bijective correspondence from the set of 
+onto the set of 
+Mathematics vs. physics notations and definitions of inner product.
+The Hilbert space formula_1 has an associated inner product, which is a map formula_45 valued in 's underlying field formula_2 which is linear in one coordinate and antilinear in the other (as described in detail below). 
+If formula_1 is a complex Hilbert space (meaning, if formula_6), which is very often the case, then which coordinate is antilinear and which is linear becomes a important technicality. 
+However, if formula_7 then the inner product a symmetric map that is simultaneously linear in each coordinate (i.e. bilinear) and antilinear in each coordinate. Consequently, the question of which coordinate is linear and which is antilinear is irrelevant for real Hilbert spaces. 
+In mathematics, the inner product on a Hilbert space formula_1 is often denoted by formula_51 or formula_52 while in physics, the bra-ket notation formula_53 or formula_54 is typically used instead. In this article, these two notations will be related by the equality:
+The maps formula_51 and formula_53 are assumed to have the following two properties:
+In mathematics, the prevailing convention (i.e. the definition of an inner product) is that the inner product is coordinate and antilinear in the other coordinate. In physics, the convention/definition is unfortunately the , meaning that the inner product is coordinate and antilinear in the other coordinate. 
+This article will not chose one definition over the other. 
+Instead, the assumptions made above make it so that the mathematics notation formula_51 satisfies the mathematical convention/definition for the inner product (i.e. linear in the first coordinate and antilinear in the other), while the physics bra-ket notation formula_53 satisfies the physics convention/definition for the inner product (i.e. linear in the second coordinate and antilinear in the other). Consequently, the above two assumptions makes the notation used in each field consistent with that field's convention/definition for which coordinate is linear and which is antilinear.
+Canonical norm and inner product on the dual space and anti-dual space.
+If formula_61 then formula_62 is a non-negative real number and the map
+defines a canonical norm on formula_1 that makes formula_1 into a Banach space. 
+As with all Banach spaces, the (continuous) dual space formula_25 carries a canonical norm, called the , that is defined by
+The canonical norm on the (continuous) anti-dual space formula_69 denoted by formula_70 is defined by using this same equation: 
+This canonical norm on formula_25 satisfies the parallelogram law, which means that the polarization identity can be used to define a which this article will denote by the notions 
+where this inner product turns formula_25 into a Hilbert space. Moreover, the canonical norm induced by this inner product (i.e. the norm defined by formula_76) is consistent with the dual norm (i.e. as defined above by the supremum over the unit ball); explicitly, this means that the following holds for every 
+As will be described later, the Riesz representation theorem can be used to give an equivalent definition of the canonical norm and the canonical inner product on formula_78 
+The same equations that were used above can also be used to define a norm and inner product on formula_1's anti-dual space formula_80 
+The complex conjugate formula_81 of a functional formula_82 which was defined above, satisfies 
+for every formula_85 and every formula_86 
+This says exactly that the canonical antilinear bijection defined by
+as well as its inverse formula_89 are antilinear isometries and consequently also homeomorphisms. 
+If formula_7 then formula_91 and this canonical map formula_92 reduces down to the identity map.
+Riesz representation theorem.
+ \le | \varphi(g) |.&lt;/math&gt; Since formula_93 has unit norm, we have formula_94 ∎
+Observations:
+Constructions.
+Using the notation from the theorem above, we now provide ways of constructing formula_95 from formula_96 
+Canonical injection from a Hilbert space to its dual and anti-dual.
+For every formula_97 the inner product on formula_1 can be used to define two continuous (i.e. bounded) canonical maps:
+If formula_92 is the canonical linear bijective isometry formula_38 that was defined above, then the following equality holds:
+Adjoints and transposes.
+Let formula_102 be a continuous linear operator between Hilbert spaces formula_103 and formula_104 As before, let formula_105 and formula_106 
+Definition of the adjoint.
+For every formula_107 the scalar-valued map on formula_1 defined by 
+is a continuous linear functional on formula_1 and so by the Riesz representation theorem, there exists a unique vector in formula_27 denoted by formula_112 such that 
+The of formula_102 is the linear operator formula_116 defined by the condition: 
+The adjoint formula_116 is a continuous (i.e. bounded) linear operator.
+Adjoints are transposes.
+It is also possible to define the of formula_121 which is the map formula_122 defined by sending a continuous linear functionals formula_123 to 
+where formula_125 is always a continuous linear functional on formula_28 
+The adjoint formula_116 is actually just to the transpose formula_122 when the Riesz representation theorem is used to identify formula_129 with formula_130 and formula_1 with formula_78 To make this explicit, let formula_133 and formula_134 be the bijective antilinear isometries defined respectively by 
+so that by definition
+The relationship between the adjoint and transpose can be shown (see footnote for proof) to be:
+which can be rewritten as:
+The continuous linear operator formula_102 is thus self-adjoint (i.e. equal to its own adjoint) if and only if 
+Extending the bra-ket notation to bras and kets.
+Let formula_147 be a Hilbert space and as before, let formula_148 
+Let formula_149 be the bijective antilinear isometry defined by 
+so that by definition
+Given a vector formula_153 let formula_154 denote the continuous linear functional formula_155; that is, formula_156 The resulting of plugging some given formula_157 into the functional formula_154 is the scalar formula_159 where formula_160 is the notation that is used instead of formula_161 or formula_162 
+The assignment formula_163 is just the isometric antilinear isomorphism formula_164 so formula_165 holds for all formula_138 and all scalars formula_167
+Given a continuous linear functional formula_168 let formula_169 denote the vector formula_170; that is, formula_171 The defining condition of the vector formula_172 is the technically correct but unsightly equality
+which is why the notation formula_175 is used in place of formula_176 The defining condition becomes
+The assignment formula_179 is just the isometric antilinear isomorphism formula_180 so formula_181 holds for all formula_182 and all scalars formula_167
+For any given vector formula_174 the notation formula_185 is used to denote formula_93; that is, formula_187 The notation formula_160 and formula_189 is used in place of formula_190 and formula_191 respectively. As expected, formula_192 and formula_193 really is just the scalar formula_194
+Properties of induced antilinear map.
+The mapping formula_195 defined by formula_196 = formula_197 is an isometric antilinear isomorphism, meaning that:
+The inverse map of formula_198 can be described as follows. Given a non-zero element formula_215 of formula_216 the orthogonal complement of the kernel of formula_215 is a one-dimensional subspace of formula_28 Take a non-zero element formula_219 in that subspace, and set formula_220 Then formula_196 = formula_222
+Alternatively, the assignment formula_223 can be viewed as a bijective linear isometry formula_224 into the anti-dual space of formula_27 which is the complex conjugate vector space of the continuous dual space formula_226 
+Historically, the theorem is often attributed simultaneously to Riesz and Fréchet in 1907 (see references).
+In the mathematical treatment of quantum mechanics, the theorem can be seen as a justification for the popular bra–ket notation. The theorem says that, every bra formula_227 has a corresponding ket formula_228 and the latter is unique.
+

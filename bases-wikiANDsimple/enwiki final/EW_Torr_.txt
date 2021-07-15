@@ -1,0 +1,21 @@
+
+The torr (symbol: Torr) is a unit of pressure based on an absolute scale, defined as exactly of a standard atmosphere (). Thus one torr is exactly (≈ ).
+Historically, one torr was intended to be the same as one "millimeter of mercury", but subsequent redefinitions of the two units made them slightly different (by less than ). The torr is not part of the International System of Units (SI). It is often combined with the metric prefix milli to name one millitorr (mTorr) or 0.001 Torr.
+The unit was named after Evangelista Torricelli, an Italian physicist and mathematician who discovered the principle of the barometer in 1644.
+Nomenclature and common errors.
+The unit name "torr" is written in lower case, while its symbol ("Torr") is always written with upper-case initial; including in combinations with prefixes and other unit symbols, as in "mTorr" (millitorr) or "Torr⋅L/s" (torr-litres per second). The symbol (uppercase) should be used with prefix symbols (thus, mTorr and millitorr are correct, but mtorr and milliTorr are not).
+The torr is sometimes incorrectly denoted by the symbol "T", which is the SI symbol for the tesla, the unit measuring the strength of a magnetic field. Although frequently encountered, the alternative spelling "Tor" is incorrect.
+History.
+Torricelli attracted considerable attention when he demonstrated the first mercury barometer to the general public. He is credited with giving the first modern explanation of atmospheric pressure. Scientists at the time were familiar with small fluctuations in height that occurred in barometers. When these fluctuations were explained as a manifestation of changes in atmospheric pressure, the science of meteorology was born.
+Over time, 760 millimeters of mercury at 0 °C came to be regarded as the standard atmospheric pressure. In honour of Torricelli, the torr was defined as a unit of pressure equal to one millimeter of mercury at 0 °C. However, since the acceleration due to gravity – and thus the weight of a column of mercury – is a function of elevation and latitude (due to the rotation and non-sphericity of the Earth), this definition is imprecise and varies by location.
+In 1954, the definition of the "atmosphere" was revised by the (10th CGPM) to the currently accepted definition: one atmosphere is equal to . The torr was then redefined as of one atmosphere. This yields a precise definition that is unambiguous and independent of measurements of the density of mercury or the acceleration due to gravity on Earth.
+Manometric units of pressure.
+"Manometric units" are units such as "millimeters of mercury" or "centimeters of water" that depend on an assumed density of a fluid and an assumed acceleration due to gravity. The use of these units is discouraged. Nevertheless, manometric units are routinely used in medicine and physiology, and they continue to be used in areas as diverse as weather reporting and scuba diving.
+Conversion factors.
+The millimeter of mercury by definition is ( × × ), which is approximated with known accuracies of density of mercury and standard gravity.
+The torr is defined as of one standard atmosphere, while the atmosphere is defined as pascals. Therefore, 1 Torr is equal to  Pa. The decimal form of this fraction () is an infinitely long, periodically repeating decimal (repetend length: 18).
+The relationship between the torr and the millimeter of mercury is:
+The difference between one millimeter of mercury and one torr, as well as between one atmosphere (101.325 kPa) and 760 mmHg (), is less than one part in seven million (or less than ). This small difference is negligible for most applications outside metrology.
+Other units of pressure include:
+These four pressure units are used in different settings. For example, the bar is used in meteorology to report atmospheric pressures. The torr is used in high-vacuum physics and engineering.
+

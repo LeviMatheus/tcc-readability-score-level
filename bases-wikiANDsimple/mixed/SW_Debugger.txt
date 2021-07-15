@@ -1,0 +1,2 @@
+A debugger is a computer program that is used to test and "debug" other programs, mainly to solve programming bugs.
+The same features which makes a debugger useful for solving software bugs allows it to be used as a software cracking tool to crack copy protection and other software protection features.

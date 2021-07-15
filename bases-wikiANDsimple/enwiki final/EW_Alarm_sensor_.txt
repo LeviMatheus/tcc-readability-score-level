@@ -1,0 +1,8 @@
+
+In telecommunication, the term alarm sensor has the following meanings:
+1. In communications systems, a device that can sense an abnormal condition within the system and provide a signal indicating the presence or nature of the abnormality to either a local or remote alarm indicator, and (b) may detect events ranging from a simple contact opening or closure to a time-phased automatic shutdown and restart cycle.
+2. In a physical security system, an approved device used to indicate a change in the physical environment of a facility or a part thereof.
+3. In electronic security systems, a physical device or change/presence of any electronic signal/logic which causes trigger to electronic circuit to perform application specific operation. In electronic alarm systems the use of this trigger event done by such devices is to turn on the alarm or siren producing sound and/or perform a security calling through telephone lines.
+"Note:" Alarm sensors may also be redundant or chained, such as when one alarm sensor is used to protect the housing, cabling, or power protected by another alarm sensor.
+Source: from Federal Standard 1037C and from MIL-STD-188 and from TRISHAM Software Systems
+

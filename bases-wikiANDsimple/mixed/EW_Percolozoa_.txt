@@ -1,0 +1,18 @@
+
+The Percolozoa are a group of colourless, non-photosynthetic Excavata, including many that can transform between amoeboid, flagellate, and cyst stages.
+Characteristics.
+Most Percolozoa are found as bacterivores in soil, fresh water and occasionally in the ocean. The only member of this group that is infectious to humans is "Naegleria fowleri", the causative agent of the often fatal disease amoebic meningitis. The group is closely related to the Euglenozoa, and share with them the unusual characteristic of having mitochondria with discoid cristae. The presence of a ventral feeding groove in the flagellate stage, as well as other features, suggests that they are part of the Excavata group.
+The amoeboid stage is roughly cylindrical, typically around 20-40 μm in length. They are traditionally considered lobose amoebae, but are not related to the others, and unlike them, do not form true lobose pseudopods. Instead, they advance by eruptive waves, where hemispherical bulges appear from the front margin of the cell, which is clear. The flagellate stage is slightly smaller, with two or four anterior flagella anterior to the feeding groove.
+Usually, the amoeboid form is taken when food is plentiful, and the flagellate form is used for rapid locomotion. However, not all members are able to assume both forms. The genera "Percolomonas", "Lyromonas", and "Psalteriomonas" are known only as flagellates, while "Vahlkampfia", "Pseudovahlkampfia", and most acrasids do not have flagellate stages. As mentioned above, under unfavourable conditions, the acrasids aggregate to form sporangia. These are superficially similar to the sporangia of the dictyostelids, but the amoebae only aggregate as individuals or in small groups and do not die to form the stalk.
+Terminology and classification.
+These are collectively referred to as schizopyrenids, amoeboflagellates, or vahlkampfids. They also include the acrasids, a group of social amoebae that aggregate to form sporangia. The entire group is usually called the Heterolobosea, but this may be restricted to members with amoeboid stages.
+One Heterolobosea classification system is:
+"Pleurostomum flabellatum" has recently been added to Heterolobosea.
+Phylogeny.
+Based on the cladogram from Tolweb and updated with new data from Pánek &amp; Čepička 2012 and Pánek, Ptackova &amp; Čepička 2014.
+Taxonomy.
+Phylum Percolozoa 
+History.
+The Heterolobosea were first defined by Page and Blanton in 1985 as a class of amoebae, and so only included those forms with amoeboid stages. Cavalier-Smith created the phylum Percolozoa for the extended group, together with the enigmatic flagellate "Stephanopogon".
+Cavalier-Smith maintained the Heterolobosea as a class for amoeboid forms. He has defined Percolozoa as "Heterolobosea plus Percolatea classis nov."
+

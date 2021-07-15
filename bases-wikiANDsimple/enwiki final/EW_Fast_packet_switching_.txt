@@ -1,0 +1,3 @@
+
+In telecommunications, fast packet switching is a variant of packet switching that increases the throughput by eliminating overhead associated with flow control and error correction functions, which are either offloaded to upper layer networking protocols or removed altogether. ATM and Frame Relay are two major implementations of fast packet switching.
+

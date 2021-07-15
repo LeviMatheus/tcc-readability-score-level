@@ -1,0 +1,23 @@
+
+Multiple-image Network Graphics (MNG) is a graphics file format, published in 2001, for animated images. Its specification is publicly documented and there are free software reference implementations available.
+MNG is closely related to the PNG image format. When PNG development started in early 1995, developers decided not to incorporate support for animation, because the majority of the PNG developers felt that overloading a single file type with both still and animation features is a bad design, both for users (who have no simple way of determining to which class a given image file belongs) and for web servers (which should use a MIME type starting with image/ for stills and video/ for animations—GIF notwithstanding). However, work soon started on MNG as an animation-supporting version of PNG. Version 1.0 of the MNG specification was released on 31 January 2001.
+File support.
+Support.
+Gwenview has native MNG support. GIMP can export images as MNG files. Imagemagick can create a MNG file from a series of PNG files. With the MNG plugin, Irfanview can read a MNG file. If MPlayer is linked against libmng, it and all its graphical front-ends like Gnome MPlayer can display MNG files.
+Mozilla browsers and Netscape 6.0, 6.01 and 7.0 included native support for MNG until the code was removed in 2003 due to code size and little actual usage, causing complaints on the Mozilla development site. Mozilla later added support for APNG as a simpler alternative. Similarly, early versions of the Konqueror browser included MNG support but it was later dropped. MNG support was never included in Google Chrome, Internet Explorer, Opera, or Safari.
+Server support.
+Web servers generally don't come pre-configured to support MNG files.
+The MNG developers had hoped that MNG would replace GIF for animated images on the World Wide Web, just as PNG had done for still images. However, with the expiration of LZW patents and existence of alternative file formats such as Flash and SVG, combined with lack of MNG-supporting viewers and services, web usage was far less than expected.
+Technical details.
+The structure of MNG files is essentially the same as that of PNG files, differing only in the slightly different signature (codice_1 in hexadecimal, where codice_2 is ASCII for "MNG" – see Portable Network Graphics: File header) and the use of a much greater variety of chunks to support all the animation features that it provides. Images to be used in the animation are stored in the MNG file as encapsulated PNG or JNG images.
+Two versions of MNG of reduced complexity are also defined: MNG-LC (low complexity) and MNG-VLC (very low complexity). These allow applications to include some level of MNG support without having to implement the entire MNG specification, just as the SVG standard offers the "SVG Basic" and "SVG Tiny" subsets.
+MNG does not have a registered MIME media type, but codice_3 or codice_4 can be used.
+MNG animations may be included in HTML pages using the codice_5 or codice_6 tag.
+MNG can either be lossy or lossless, depending whether the frames are encoded in PNG (lossless) or JNG (lossy).
+Alternatives.
+The most common alternatives are Animated GIF and – up until its deprecation in 2021 – Adobe Flash, with the relative newcomer video alternative to GIF recently gaining momentum. Animated GIF images are restricted to 256 colors and are used in simple scenarios but are supported in all major web browsers.
+In web pages, it is possible to create pseudo-animations by writing JavaScript code that loads still PNG or JPEG images of each frame and displays them one by one for a specified time interval. Apart from requiring the user to have JavaScript support and choose not to disable it, this method can be CPU- and bandwidth-intensive for pages with more than one image, large images, or high framerates, and does not allow the animation to be saved in one image file or posted on image-based sites such as flickr or imageboards.
+Most web browsers support APNG, a non-standard extension to PNG for simple GIF-like animations. Another alternative is SVG images with embedded PNG or JPEG graphics, using SVG animation (if supported) or JavaScript to flip between images.
+Internet Explorer supports neither APNG nor SVG animation.
+Another approach uses CSS 3 features, notably CSS Animation, which now has some level of support in most major web browsers. CSS Sprites (providing several images as tiles in a single large image file) can be used as animations by varying which part of the large image is visible using CSS Animation or JavaScript.
+

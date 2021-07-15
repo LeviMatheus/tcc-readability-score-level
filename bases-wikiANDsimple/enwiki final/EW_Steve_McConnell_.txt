@@ -1,0 +1,8 @@
+
+Steven C. McConnell is an author of software engineering textbooks such as "Code Complete", "Rapid Development", and "Software Estimation". He is cited as an expert in software engineering and project management.
+Career.
+McConnell graduated with a bachelor's degree in philosophy, minoring in computer science, at Whitman College in Walla Walla, Washington, and a master's degree in software engineering from Seattle University. He then pursued a career in the desktop software industry, working at Microsoft, Boeing, the Russell Investment Group and several other Seattle area firms. At Microsoft, McConnell worked on TrueType as part of Windows 3.1. At Boeing, he worked on a Strategic Defense Initiative project.
+McConnell published his first book, "Code Complete", in 1993.
+From 1996 to 1998, he was the editor of the "Best Practices" column in the IEEE Software magazine. From 1998 to 2002, he served as the editor-in-chief of the magazine.
+"The New York Times" has quoted McConnell stating that there are "15 to 50 defects per 1,000 lines of code in delivered software" on average.
+

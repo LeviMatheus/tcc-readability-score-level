@@ -1,0 +1,9 @@
+Pierre de Fermat wrote about it in 1637 inside his copy of a book called "Arithmetica". He said "I have a proof of this theorem, but there is not enough space in this edge." (In Latin it was: "Cuius rei demonstrationem mirabilem sane detexi. Hanc marginis exiguitas non caperet.") However, no correct proof was found for 357 years.
+Mathematical context.
+Fermat's last theorem is a generalization of the Diophantine equation
+(This is linked to the Pythagorean theorem). The solutions are called Pythagorean triples. There are an infinite number of them (they go on forever). But Fermat's last theorem says that if we change the '2' into a bigger whole number, there are no solutions.
+Proof.
+The proof was made for "some" values of n (like "n"=3, "n"=4, "n"=5 and "n"=7). Fermat, Euler and other people did this.
+However, the full proof must show that the equation has no solution for all values of n (when n is a whole number bigger than 2). The proof was very difficult to find, and Fermat's Last Theorem needed a lot of time to be solved.
+An English man named Andrew Wiles found a solution in 1995. Richard Taylor helped him find the solution. Wiles did a lot of secret work. He wanted to be the first.
+After a few years of debate, people agreed that Andrew Wiles had solved the problem. Andrew Wiles used a lot of modern mathematics and even created new math when he made his solution. These mathematics were unknown when Fermat wrote his famous note, so Fermat could not have used them.

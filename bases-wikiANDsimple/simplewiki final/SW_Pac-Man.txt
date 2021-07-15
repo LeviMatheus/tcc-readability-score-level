@@ -1,0 +1,6 @@
+"Pac-Man" is an arcade video game that was made by Namco. It was released in 1980, and became popular with boys and girls.
+In Pac-Man, the player makes a Pac-Man,a yellow disc move around a maze. The goal is to eat every yellow pellet (circles) while not getting caught by the ghosts/monsters. For extra points, fruits that appear can also be eaten. When Pac-Man eats a white pellet, the ghosts turn blue and can be eaten. Even though the game has 256 stages, the last level can't be finished due to a problem with the creation of the game.
+The game is called Puck Man in Japan. The game was named Pac-Man in the United States. There were many sequels and remakes based on the game. Hanna-Barbera made a animated tv show airing on ABC in the early 1980's. The game was also part of Namco Museum games.
+Point value for fruit.
+The value is as follows: The cherries are 100 points, The strawberries are 300,(in Ms. Pac Man, a sequel to pac man it's 200 points), The oranges are 500 points, the apples are 700 points, the galboss/melon is 1,000 points,
+Galaxian Flagship is 2,000 points, the bell is 3,000 and the key is 5,000 points(The Galaxian,Bell,& Keys' value will help when the player has 1 or no extra lives because after a certain amount of points then one gets an additional life.)

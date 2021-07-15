@@ -1,0 +1,2 @@
+A web chat is a chat system to exchange information via the Web. People use a web browser to communicate with others. Apart from the browser you don't need anything else, which makes a web chat easy to use and ideal for people not very experienced with computers.
+Usually, you use software like Chatspace and Pichat. On the technical side web chats are often written with Java, Flash or Ajax.

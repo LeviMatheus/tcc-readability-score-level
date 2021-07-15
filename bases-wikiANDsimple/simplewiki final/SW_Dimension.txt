@@ -1,0 +1,12 @@
+A dimension is a measure of the size of something.
+For example, the three dimensions that give the size of an object in the world are
+Dimensions can be used to measure position too. The distance to a position from a starting place can be measured in the length, width and height directions. These distances are a measure of the position.
+Sometimes a fourth dimension, time, is used to show the position of an event in time and space.
+Other Dimensions.
+In modern science, people use other dimensions.
+Dimensions like temperature and weight can be used to show the position of something in less simple spaces.
+Dimensions in mathematics.
+Mathematicians also use dimensions. In mathematics, dimensions are more general. Dimensions in mathematics might not measure things in the world. The rules for doing arithmetic with dimensions in mathematics might be different than usual arithmetic rules.
+Dimensions and vectors.
+Vectors are used to show distances and directions. Vectors are often used in engineering and science, and sometimes in mathematics.
+A vector is a list of numbers. There is one number for each dimension. There are arithmetic rules for vectors.

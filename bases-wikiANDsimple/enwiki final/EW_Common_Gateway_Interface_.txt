@@ -1,0 +1,116 @@
+
+In computing, Common Gateway Interface (CGI) is an interface specification that enables web servers to execute an external program, typically to process user requests.
+Such programs are often written in a scripting language and are commonly referred to as "CGI scripts", but they may include compiled programs.
+A typical use case occurs when a Web user submits a Web form on a web page that uses CGI. The form's data is sent to the Web server within an HTTP request with a URL denoting a CGI script. The Web server then launches the CGI script in a new computer process, passing the form data to it. The output of the CGI script, usually in the form of HTML, is returned by the script to the Web server, and the server relays it back to the browser as its response to the browser's request.
+Developed in the early 1990s, CGI was the earliest common method available that allowed a Web page to be interactive. Although still in use, CGI is relatively inefficient compared to newer technologies and has largely been replaced by them.
+History.
+In 1993 the National Center for Supercomputing Applications (NCSA) team wrote the specification for calling command line executables on the www-talk mailing list. The other Web server developers adopted it, and it has been a standard for Web servers ever since. A work group chaired by Ken Coar started in November 1997 to get the NCSA definition of CGI more formally defined. This work resulted in RFC 3875, which specified CGI Version 1.1. Specifically mentioned in the RFC are the following contributors:
+Historically CGI scripts were often written using the C language. RFC 3875 "The Common Gateway Interface (CGI)" partially defines CGI using C, in saying that environment variables "are accessed by the C library routine getenv() or variable environ".
+The name CGI comes from the early days of the Web, where "Web masters" wanted to connect legacy information systems such as databases to their Web servers. The CGI program was executed by the server that provided a common "gateway" between the Web server and the legacy information system.
+Purpose of the CGI specification.
+Each Web server runs HTTP server software, which responds to requests from web browsers. Generally, the HTTP server has a directory (folder), which is designated as a document collection – files that can be sent to Web browsers connected to this server. For example, if the Web server has the domain name codice_1, and its document collection is stored at codice_2 in the local file system, then the Web server will respond to a request for codice_3 by sending to the browser the (pre-written) file codice_4.
+For pages constructed on the fly, the server software may defer requests to separate programs and relay the results to the requesting client (usually, a Web browser that displays the page to the end user). In the early days of the Web, such programs were usually small and written in a scripting language; hence, they were known as "scripts".
+Such programs usually require some additional information to be specified with the request. For instance, if Wikipedia were implemented as a script, one thing the script would need to know is whether the user is logged in and, if logged in, under which name. The content at the top of a Wikipedia page depends on this information.
+HTTP provides ways for browsers to pass such information to the Web server, e.g. as part of the URL. The server software must then pass this information through to the script somehow.
+Conversely, upon returning, the script must provide all the information required by HTTP for a response to the request: the HTTP status of the request, the document content (if available), the document type (e.g. HTML, PDF, or plain text), et cetera.
+Initially, different server software would use different ways to exchange this information with scripts. As a result, it wasn't possible to write scripts that would work unmodified for different server software, even though the information being exchanged was the same. Therefore, it was decided to specify a way for exchanging this information: CGI (the "Common Gateway Interface", as it defines a common way for server software to interface with scripts).
+Webpage generating programs invoked by server software that operate according to the CGI specification are known as "CGI scripts".
+This specification was quickly adopted and is still supported by all well-known server software, such as Apache, IIS, and (with an extension) node.js-based servers.
+An early use of CGI scripts was to process forms. In the beginning of HTML, HTML forms typically had an "action" attribute and a button designated as the "submit" button. When the submit button is pushed the URI specified in the "action" attribute would be sent to the server with the data from the form sent as a query string. If the "action" specifies a CGI script then the CGI script would be executed and it then produces an HTML page.
+Using CGI scripts.
+A Web server allows its owner to configure which URLs shall be handled by which CGI scripts.
+This is usually done by marking a new directory within the document collection as containing CGI scripts – its name is often codice_5. For example, codice_6 could be designated as a CGI directory on the Web server. When a Web browser requests a URL that points to a file within the CGI directory (e.g., codice_7), then, instead of simply sending that file (codice_8) to the Web browser, the HTTP server runs the specified script and passes the output of the script to the Web browser. That is, anything that the script sends to standard output is passed to the Web client instead of being shown on-screen in a terminal window.
+As remarked above, the CGI specification defines how additional information passed with the request is passed to the script.
+For instance, if a slash and additional directory name(s) are appended to the URL immediately after the name of the script (in this example, codice_9), then that path is stored in the codice_10 environment variable before the script is called. If parameters are sent to the script via an HTTP GET request (a question mark appended to the URL, followed by param=value pairs; in the example, codice_11), then those parameters are stored in the codice_12 environment variable before the script is called. If parameters are sent to the script via an HTTP POST request, they are passed to the script's standard input. The script can then read these environment variables or data from standard input and adapt to the Web browser's request.
+Example.
+The following Perl program shows all the environment variables passed by the Web server:
+=head1 DESCRIPTION
+printenv — a CGI program that just prints its environment
+=cut
+print "Content-Type: text/plain\n\n";
+for my $var ( sort keys %ENV ) {
+ printf "%s=\"%s\"\n", $var, $ENV{$var};
+If a Web browser issues a request for the environment variables at codice_13, a 64-bit Windows 7 Web server running cygwin returns the following information:
+ COMSPEC="C:\Windows\system32\cmd.exe"
+ DOCUMENT_ROOT="C:/Program Files (x86)/Apache Software Foundation/Apache2.4/htdocs"
+ GATEWAY_INTERFACE="CGI/1.1"
+ HOME="/home/SYSTEM"
+ HTTP_ACCEPT="text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
+ HTTP_ACCEPT_CHARSET="ISO-8859-1,utf-8;q=0.7,*;q=0.7"
+ HTTP_ACCEPT_ENCODING="gzip, deflate, br"
+ HTTP_ACCEPT_LANGUAGE="en-us,en;q=0.5"
+ HTTP_CONNECTION="keep-alive"
+ HTTP_HOST="example.com"
+ HTTP_USER_AGENT="Mozilla/5.0 (Windows NT 6.1; WOW64; rv:67.0) Gecko/20100101 Firefox/67.0"
+ PATH="/home/SYSTEM/bin:/bin:/cygdrive/c/progra~2/php:/cygdrive/c/windows/system32:..."
+ PATHEXT=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"
+ PATH_INFO="/foo/bar"
+ PATH_TRANSLATED="C:\Program Files (x86)\Apache Software Foundation\Apache2.4\htdocs\foo\bar"
+ QUERY_STRING="var1=value1&amp;var2=with%20percent%20encoding"
+ REMOTE_ADDR="127.0.0.1"
+ REMOTE_PORT="63555"
+ REQUEST_METHOD="GET"
+ REQUEST_URI="/cgi-bin/printenv.pl/foo/bar?var1=value1&amp;var2=with%20percent%20encoding"
+ SCRIPT_FILENAME="C:/Program Files (x86)/Apache Software Foundation/Apache2.4/cgi-bin/printenv.pl"
+ SCRIPT_NAME="/cgi-bin/printenv.pl"
+ SERVER_ADDR="127.0.0.1"
+ SERVER_ADMIN="(server admin's email address)"
+ SERVER_NAME="127.0.0.1"
+ SERVER_PORT="80"
+ SERVER_PROTOCOL="HTTP/1.1"
+ SERVER_SIGNATURE=""
+ SERVER_SOFTWARE="Apache/2.4.39 (Win32) PHP/7.3.7"
+ SYSTEMROOT="C:\Windows"
+ TERM="cygwin"
+ WINDIR="C:\Windows"
+Some, but not all, of these variables are defined by the CGI standard.
+Some, such as codice_10, codice_12, and the ones starting with codice_16, pass information along from the HTTP request.
+From the environment, it can be seen that the Web browser is Firefox running on a Windows 7 PC, the Web server is Apache running on a system that emulates Unix, and the CGI script is named codice_17.
+The program could then generate any content, write that to standard output, and the Web server will transmit it to the browser.
+The following are environment variables passed to CGI programs:
+The program returns the result to the Web server in the form of standard output, beginning with a header and a blank line.
+The header is encoded in the same way as an HTTP header and must include the MIME type of the document returned. The headers, supplemented by the Web server, are generally forwarded with the response back to the user.
+Here is a simple CGI program written in Python 3 along with the HTML that handles a simple addition problem.
+codice_42:
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+ &lt;body&gt;
+ &lt;form action="add.cgi" method="POST"&gt;
+ &lt;fieldset&gt;
+ &lt;legend&gt;Enter two numbers to add&lt;/legend&gt;
+ &lt;label&gt;First Number: &lt;input type="number" name="num1"&gt;&lt;/label&gt;&lt;br/&gt;
+ &lt;label&gt;Second Number: &lt;input type="number" name="num2"&gt;&lt;/label&gt;&lt;br/&gt;
+ &lt;/fieldset&gt;
+ &lt;button&gt;Add&lt;/button&gt;
+ &lt;/form&gt;
+ &lt;/body&gt;
+&lt;/html&gt;
+codice_43:
+import cgi, cgitb
+cgitb.enable()
+input_data = cgi.FieldStorage()
+print('Content-Type: text/html') # HTML is following
+print(") # Leave a blank line
+print('&lt;h1&gt;Addition Results&lt;/h1&gt;')
+try:
+ num1 = int(input_data["num1"].value)
+ num2 = int(input_data["num2"].value)
+except:
+ print('&lt;output&gt;Sorry, the script cannot turn your inputs into numbers (integers).&lt;/output&gt;')
+ raise SystemExit(1)
+print('&lt;output&gt;{0} + {1} = {2}&lt;/output&gt;'.format(num1, num2, num1 + num2))
+This Python 3 CGI program gets the inputs from the HTML and adds the two numbers together.
+Deployment.
+A Web server that supports CGI can be configured to interpret a URL that it serves as a reference to a CGI script. A common convention is to have a codice_44 directory at the base of the directory tree and treat all executable files within this directory (and no other, for security) as CGI scripts. Another popular convention is to use filename extensions; for instance, if CGI scripts are consistently given the extension codice_45, the Web server can be configured to interpret all such files as CGI scripts. While convenient, and required by many prepackaged scripts, it opens the server to attack if a remote user can upload executable code with the proper extension.
+In the case of HTTP PUT or POSTs, the user-submitted data are provided to the program via the standard input. The Web server creates a subset of the environment variables passed to it and adds details pertinent to the HTTP environment.
+Uses.
+CGI is often used to process input information from the user and produce the appropriate output. An example of a CGI program is one implementing a wiki. If the user agent requests the name of an entry, the Web server executes the CGI program. The CGI program retrieves the source of that entry's page (if one exists), transforms it into HTML, and prints the result. The Web server receives the output from the CGI program and transmits it to the user agent. Then if the user agent clicks the "Edit page" button, the CGI program populates an HTML codice_46 or other editing control with the page's contents. Finally if the user agent clicks the "Publish page" button, the CGI program transforms the updated HTML into the source of that entry's page and saves it.
+Security.
+CGI programs run, by default, in the security context of the Web server. When first introduced a number of example scripts were provided with the reference distributions of the NCSA, Apache and CERN Web servers to show how shell scripts or C programs could be coded to make use of the new CGI. One such example script was a CGI program called PHF that implemented a simple phone book.
+In common with a number of other scripts at the time, this script made use of a function: codice_47. The function was supposed to sanitize its argument, which came from user input and then pass the input to the Unix shell, to be run in the security context of the Web server. The script did not correctly sanitize all input and allowed new lines to be passed to the shell, which effectively allowed multiple commands to be run. The results of these commands were then displayed on the Web server. If the security context of the Web server allowed it, malicious commands could be executed by attackers.
+This was the first widespread example of a new type of Web based attack, where unsanitized data from Web users could lead to execution of code on a Web server. Because the example code was installed by default, attacks were widespread and led to a number of security advisories in early 1996.
+Alternatives.
+For each incoming HTTP request, a Web server creates a new CGI process for handling it and destroys the CGI process after the HTTP request has been handled. Creating and destroying a process can consume much more CPU and memory than the actual work of generating the output of the process, especially when the CGI program still needs to be interpreted by a virtual machine. For a high number of HTTP requests, the resulting workload can quickly overwhelm the Web server.
+The overhead involved in CGI process creation and destruction can be reduced by the following techniques:
+The optimal configuration for any Web application depends on application-specific details, amount of traffic, and complexity of the transaction; these tradeoffs need to be analyzed to determine the best implementation for a given task and time budget. Web frameworks offer an alternative to using CGI scripts to interact with user agents.
+

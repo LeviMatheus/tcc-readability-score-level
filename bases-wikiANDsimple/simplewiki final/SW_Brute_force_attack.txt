@@ -1,0 +1,4 @@
+In cryptanalysis, a brute force attack is a method of breaking a cryptographic system by trying a large number of possibilities using fast computers; for example, a large number of the possible keys in a key space in order to decrypt an encrypted message.
+The theoretical possibility of a brute force attack is recognized by the cryptographic system designers, they work to make the cryptographic system "computationally infeasible" to break using brute force attack. For that reason, one of the definitions of "breaking" a cryptographic scheme is to find a method faster than a brute force attack.
+The selection of an appropriate key length depends on how much it will be difficult to break it using a brute force attack. By obfuscating the data before encryption, brute force attacks are less effective and more difficult to determine.
+The brute force attack could be combined with a dictionary attack.

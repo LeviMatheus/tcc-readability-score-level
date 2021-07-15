@@ -1,0 +1,1 @@
+Something is modular when it consists of two or more pieces that are easy to replace. These are usually simple objects. They can be connected together to form more complex objects. For example, Lego pieces are modular. Complex objects may by themselves be modular and used to create even more complex objects by piecing them together.

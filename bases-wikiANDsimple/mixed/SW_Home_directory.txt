@@ -1,0 +1,9 @@
+In Computing, a home directory is a special directory (or location in the File system, Apple calls directories "folders"). Very often, there is one such home directory per user. Some users, which were created by the system and usually do not log in, do not have such a home directory.
+A home directory is used to store personal files of the respective user, including written document and settings for programs.
+Unix, Linux and the like.
+On Unix and Linux-like operating systems, the directory is usually called like the username. It is usually located in the "/home" hierarchy. A user "fred" would therefore his home directory in "/home/fred".
+It can be written as "~".
+Microsoft Windows.
+Since Windows 95 there is a directory called "My Documents". It was introduced together with "My Computer". It helps the users locate their files. Since Windows 2000 it is located in the user's profile directory "Documents and Settings\username". So a user "fred" will find his files in "Documents and Settings\fred\My Documents". In Windows Vista the directory has lost the "My", and is simply called "Documents". Other directories, which are similar, may exist. They are called "My Music", "My pictures" and "My videos".
+Mac OS X.
+In Mac OS X, the home directory is located in "/Users".

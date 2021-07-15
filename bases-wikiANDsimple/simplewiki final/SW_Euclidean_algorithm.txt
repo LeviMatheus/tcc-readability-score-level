@@ -1,0 +1,6 @@
+The Euclidean algorithm is an algorithm which can be used to find the greatest common divisor of two numbers. That is, we are looking for the biggest number we can find, that divides both numbers.
+What the algorithm looks like in words.
+Euclid solved the problem graphically. He said
+The algorithm in pseudocode.
+Start out with two numbers a, and b. Let m = a, and n= b
+Repeat, until there is r=0, then the wanted number is in m.

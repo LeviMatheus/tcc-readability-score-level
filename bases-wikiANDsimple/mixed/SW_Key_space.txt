@@ -1,0 +1,6 @@
+In cryptography, the key space of an algorithm refers to the set of all possible keys that can be used to initialize the cryptographic algorithm. For example, if an algorithm works using a key that is a string of 10 bits, then its key space is the set of all binary strings of length 10 bits; i.e. we have key space of size 210 = 1024.
+To avoid attackers from guessing the key using a brute-force attack, the key space is usually designed to be very large. Another needed attribute is that the key space designed to be "flat", having no or very few weak keys.
+Examples.
+The block cipher AES uses a key of up to 256 bits, resulting in a key space containing about 2256 which is over 1.1579 × 1077 keys. This makes it "computationally infeasible" to check each possible key by brute force.
+In the DES block cipher, a 56-bit key is used, resulting in a relatively small key space of size 256.
+The ROT13 cipher is only designed to prevent people from accidentally reading messages (e.g. movie plot details). As there is no key, the key space is therefore empty.

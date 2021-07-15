@@ -1,0 +1,12 @@
+Acceleration is a measure of how fast velocity changes. Acceleration is the change of velocity divided by the change of time. Acceleration is a vector, and therefore includes both a size and a direction.
+Finding acceleration.
+Sometimes the change in velocity formula_7 is written as Δformula_8. Sometimes the change in time formula_9 is written as Δt.
+Units of measurement.
+Acceleration has its own units of measurement. For example, if velocity is measured in meters per second, and if time is measured in seconds, then acceleration is measured in meters per second squared (m/s2).
+Other words.
+Acceleration can be positive or negative. Positive acceleration is called acceleration, or speeding up. Negative acceleration is called deceleration, or slowing down.
+Newton's second law of motion.
+There are rules for how things move. These rules are called "laws of motion". Isaac Newton is the scientist who made the main laws of motion.
+According to Newton's Second Law of Motion, acceleration formula_10 is connected to force formula_11, and mass formula_12.
+D'Alembert have also proven that "F-ma=0 That means whatever may be the force acting on a body same amount of deaccelerating force is acting in it.
+Acceleration is part of physics. Using calculus, acceleration is the derivative, or rate of change, of velocity. The force something needs to accelerate an object depends on the object's mass: the amount of "stuff" the object is made from.

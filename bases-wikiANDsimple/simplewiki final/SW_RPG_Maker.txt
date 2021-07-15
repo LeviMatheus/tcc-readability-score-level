@@ -1,0 +1,6 @@
+The RPG Maker is a software which can be used to develop RPG (Role Playing Game) games easily even for people that are not experienced in game design (making games). Until 2003 the program has been created by the japanese company ASCII. From then on Enterbrain continued the development. The RPG Maker has a Graphical User Interface (GUI) which makes operating very simple. The software contains many options to customize a game. Within every version is a Run Time Package (RTP). The RTP contains many different graphics and sounds, although self-created files can be imported into the program as long as they are in the correct format(size, type of file...).
+German.
+It is the most successful RPG Maker game that has ever been developed in Germany. Many local magazines (Screenfun, Gamestar) wrote about this game. At first Vampires Dawn has been made for the computer like all RPG Maker games. After that Marlex developed another game about vampires for mobile phones. Currently an independent company called Clockstone is working on a release of Vampires Dawn for the Nintendo DS.
+This is a demonstration of a high level of the technical power of the RPG Maker 2000. Lachsen is known to be one of the best coders in the German scene.
+French.
+This is a demonstration of a high level of the graphical power of the RPG Maker 2000.

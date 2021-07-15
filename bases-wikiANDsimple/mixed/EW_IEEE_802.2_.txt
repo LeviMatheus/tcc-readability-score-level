@@ -1,0 +1,31 @@
+
+IEEE 802.2 is the original name of the ISO/IEC 8802-2 standard which defines logical link control (LLC) as the upper portion of the data link layer of the OSI Model. The original standard developed by the Institute of Electrical and Electronics Engineers (IEEE) in collaboration with the American National Standards Institute (ANSI) was adopted by the International Organization for Standardization (ISO) in 1998, but it still remains an integral part of the family of IEEE 802 standards for local and metropolitan networks.
+LLC is a software component that provides a uniform interface to the user of the data link service, usually the network layer. LLC may offer three types of services:
+Conversely, the LLC uses the services of the media access control (MAC), which is dependent on the specific transmission medium (Ethernet, Token Ring, FDDI, 802.11, etc.). Using LLC is compulsory for all IEEE 802 networks with the exception of Ethernet. It is also used in Fiber Distributed Data Interface (FDDI) which is not part of the IEEE 802 family.
+The IEEE 802.2 sublayer adds some control information to the message created by the upper layer and passed to the LLC for transmission to another node on the same data link. The resulting packet is generally referred to as "LLC protocol data unit (PDU)" and the additional information added by the LLC sublayer is the "LLC HEADER". The LLC Header consist of "DSAP" ("Destination Service Access Point"), "SSAP" ("Source Service Access Point") and the "Control" field.
+The two 8-bit fields DSAP and SSAP allow multiplexing of various upper layer protocols above LLC. However, many protocols use the Subnetwork Access Protocol (SNAP) extension which allows using EtherType values to specify the protocol being transported atop IEEE 802.2. It also allows vendors to define their own protocol value spaces.
+The 8 or 16 bit HDLC-style Control field serves to distinguish communication mode, to specify a specific operation and to facilitate connection control and flow control (in connection mode) or acknowledgements (in acknowledged connectionless mode).
+Operational modes.
+IEEE 802.2 provides two connectionless and one connection-oriented operational modes:
+The use of multicasts and broadcasts reduce network traffic when the same information needs to be propagated to all stations of the network. However the Type 1 service provides no guarantees regarding the order of the received frames compared to the order in which they have been sent; the sender does not even get an acknowledgment that the frames have been received.
+Each device conforming the IEEE 802.2 standard must support service type 1. Each network node is assigned an LLC Class according to which service types it supports:
+LLC header.
+Any 802.2 LLC PDU has the following format:
+When Subnetwork Access Protocol (SNAP) extension is used, it is located at the start of the Information field:
+The 802.2 header includes two eight-bit address fields, called service access points (SAP) or collectively LSAP in the OSI terminology:
+LSAP values.
+Although the LSAP fields are 8 bits long, the low-order bit is reserved for special purposes, leaving only 128 values available for most purposes.
+The low-order bit of the DSAP indicates whether it contains an individual or a group address:
+The low-order bit of the SSAP indicates whether the packet is a command or response packet:
+The remaining 7 bits of the SSAP specify the LSAP (always an individual address) from which the packet was transmitted.
+LSAP numbers are globally assigned by the IEEE to uniquely identify well established international standards.
+The protocols or families of protocols which have assigned one or more SAPs may operate directly on top of 802.2 LLC. Other protocols may use the Subnetwork Access Protocol (SNAP) with IEEE 802.2 which is indicated by the hexadecimal value 0xAA (or 0xAB, if the source of a response) in SSAP and DSAP. The SNAP extension allows using EtherType values or private protocol ID spaces in all IEEE 802 networks. It can be used both in datagram and in connection-oriented network services.
+Ethernet (IEEE 802.3) networks are an exception; the IEEE 802.3x-1997 standard explicitly allowed using of the Ethernet II framing, where the 16-bit field after the MAC addresses does not carry the length of the frame followed by the IEEE 802.2 LLC header, but the EtherType value followed by the upper layer data. With this framing only datagram services are supported on the data link layer.
+IPv4, IPX, and 802.2 LLC.
+Although IPv4 has been assigned an LSAP value of 6 (0x06) and ARP has been assigned an LSAP value of 152 (0x98), IPv4 is almost never directly encapsulated in 802.2 LLC frames without SNAP headers. Instead, the Internet standard RFC 1042 is usually used for encapsulating IPv4 traffic in 802.2 LLC frames with SNAP headers on FDDI and on IEEE 802 networks other than Ethernet. Ethernet networks typically use Ethernet II framing with EtherType 0x800 for IP and 0x806 for ARP.
+The IPX protocol used by Novell NetWare networks supports an additional Ethernet frame type, 802.3 raw, ultimately supporting four frame types on Ethernet (802.3 raw, 802.2 LLC, 802.2 SNAP, and Ethernet II) and two frame types on FDDI and other (non-Ethernet) IEEE 802 networks (802.2 LLC and 802.2 SNAP).
+It is possible to use diverse framings on a single network. It is possible to do it even for the same upper layer protocol, but in such a case the nodes using unlike framings cannot directly communicate with each other.
+Control Field.
+Following the destination and source SAP fields is a control field. IEEE 802.2 was conceptually derived from HDLC, and has the same three types of PDUs:
+To carry data in the most-often used unacknowledged connectionless mode the U-format is used. It is identified by the value '11' in lower two bits of the single-byte control field.
+

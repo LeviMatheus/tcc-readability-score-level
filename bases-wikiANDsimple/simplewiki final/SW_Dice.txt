@@ -1,0 +1,3 @@
+Dice are objects used in games when something random needs to be done, such as moving a piece a random number of places on a board. Most dice are cubes that have the numbers 1, 2, 3, 4, 5 and 6 on the faces. Dice are sometimes made in other shapes than cubes, but the 6-sided die ("die" is the single of dice) is the most common. A die is usually rolled by the player’s hand.
+Some games are played with two dice but sometimes one. Some games that use dice are Monopoly, Yahtzee, Risk, and many more. Dice with different numbers of sides are called polyhedral dice.
+Weights can be put inside a dice to make it only land on a certain number once it is rolled.

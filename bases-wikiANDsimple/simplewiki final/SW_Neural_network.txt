@@ -1,0 +1,1 @@
+A Neural network is an artificial system (made of artificial neuron cells). It is modeled after the way the human brain works. Several computing cells work in parallel to produce a result. This is usually seen as one of the possible ways Artificial intelligence can work. Most neural network can tolerate if one or more of the processing cells fail.

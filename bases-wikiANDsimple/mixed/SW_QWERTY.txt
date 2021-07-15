@@ -1,0 +1,31 @@
+QWERTY refers to a certain typewriter or computer keyboard layout that is commonly used in some English-speaking countries. The term originates from the fact the first 6 letters of the top row of keys are Q,W,E,R,T,Y. The QWERTY design was patented by Christopher Sholes in 1874 and sold to E. Remington and Sons during the same year.
+History.
+The QWERTY layout was invented by Christopher Sholes, the inventor of the first modern typewriter. At first the letters on the typewriter were placed alphabetically. However, when the user of the typewriter learned to type quickly, the bars attached to letters became caught in one another, making the typist unstick the typebars with his hands. A business associate of Christopher named James Densmore gave the idea of splitting up the keys to speed up typing by preventing the typebars from striking the typewriter roller at the same time and sticking together. Some people say the QWERTY layout was created to slow down typing speed, while others say it worked by separating series of English letters.
+Accents.
+QWERTY was made for the English language, therefore it has no accent marks. People from other countries that used accent marks had problems. Depending on the operating system and the application being used, accents marks could be accessed. e.g., hold down the Alt key, press 1, 5, and 6, then release the Alt key to generate a character numbered 156 in some character set. Or the Control or Alt key can be used together with a letter. In some word processors, like Microsoft Word, characters with accent marks could be found under a category named "Special Characters" or something similar.
+International Variants.
+Depending on where the QWERTY keyboard was made, the keyboard may look different.
+Belgian and French.
+The keyboards made in Belgium and France switch the letters Q and W with the letters A and Z. They also move The letter M to the right of L. These types of keyboards are called AZERTY keyboards.
+Czech.
+Some of the keyboards in the Czech language use QWERTZ keyboards. They switch the Z and Y like the German version, but it uses "ů" to the right of L and ú next to P. The row that normally has numbers has the accents ě, š, č, ř, ž, ý, á, í, é. Instead, you use the shift key to make numbers.
+Scandinavia.
+Danish and Norwegian layouts switched Æ, Ø, and Å where Swedish and Finnish the letters Ä and Ö.
+Faroese.
+Faroese keyboards add Æ and Ø next to L, and Å and Ð next to P.
+German.
+German keyboards add an Ü to the right of P and Ö, Ä to the right of L, and switch the Z and Y keys both because Z is a much more common letter than Y in German.
+Icelandic.
+Icelandic layouts add Ð to the right of P, Æ to the right of L, Ö to the right of 0 in the top row and Þ to the rightmost place in the bottom row.
+Italian.
+Italian typewriter keyboards use a QZERTY layout where Z is swapped with W and M is at the right of "L". Computers use a QWERTY keyboard with è to the right of P and ò to the right of L.
+Lithuania.
+Lithuanian keyboards use a layout known as ĄŽERTY, where Ą appears in place of Q above A, Ž in place of W above S, with Q and W being available either on the far right side or by use of the Alt Gr key. Depending on the software used. Sometimes, Lithuanian symbols replace the numbers.
+Portuguese.
+Portuguese keyboards maintain the QWERTY layout but add the key Ç. after the L key.The Spanish version has the letter Ñ, the Ç.
+Romanian.
+Romanian keyboards have a QWERTZ layout, swapping Y with Z. ă and î are added to the right of the letter P, while ş and ţ are added to the right of the letter L. â replaces the backslash character. Changes are also made to the upper number keys, the numbers remain the same, but some of the symbols are shuffled. The most notable change is that hyphen (-) is swapped with slash (/).
+Spanish.
+Spanish keyboards add ñ and Ñ characters to the right of the L instead of the semicolon and colon.
+Turkish.
+Turkish layouts add Ğ and Ü to the right of P, Ş and İ to the right of L, Ö and Ç to the right of M.

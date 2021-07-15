@@ -1,0 +1,9 @@
+
+w3m is a free software/open source text-based web browser and terminal pager. It has support for tables, frames, SSL connections, color, and inline images on suitable terminals. Generally, it renders pages in a form as true to their original layout as possible.
+The name "w3m" stands for "", which is Japanese for "to see the WWW" where W3 is a numeronym of WWW.
+The original project appears to be inactive, while a currently maintained version exists and is packaged in various Linux distributions such as Debian and Fedora. This version is available from the repository of Debian developer Tatsuya Kinoshita.
+In Emacs.
+w3m is also used by the Emacs text editor via the "emacs-w3m.el" Emacs Lisp module.
+Forks.
+Two forks of w3m add support for multiple character-encodings and for other features not in the original:
+

@@ -1,0 +1,2 @@
+APTonCD is a tool that can create one or more ISOs, CDs or DVDs with all of the packages the user downloaded via APT-GET or APTITUDE, creating a removable repository that the user can use on other computers.
+APTonCD will also allow the user to automatically create media with all of the.deb packages located in one especific repository, so that the user can install them into other computers without the need for an internet conection.

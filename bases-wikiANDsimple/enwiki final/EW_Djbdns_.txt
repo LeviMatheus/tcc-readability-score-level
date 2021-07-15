@@ -1,0 +1,13 @@
+
+The djbdns software package is a DNS implementation. It was created by Daniel J. Bernstein in response to his frustrations with repeated security holes in the widely used BIND DNS software. As a challenge, Bernstein offered a $1000 prize for the first person to find a security hole in djbdns, which was awarded in March 2009 to Matthew Dempsky.
+, djbdns's tinydns component was the second most popular DNS server in terms of the number of domains for which it was the authoritative server, and third most popular in terms of the number of DNS hosts running it.
+djbdns has never been vulnerable to the widespread cache poisoning vulnerability reported in July 2008, but it has been discovered that it is vulnerable to a related attack.
+The source code has not been centrally managed since its release in 2001, and was released into the public domain in 2007. As of March 2009, there are a number of forks, one of which is dbndns (part of the Debian Project), and more than a dozen patches to modify the released version.
+While djbdns does not directly support DNSSEC, there are third party patches to add DNSSEC support to djbdns' authoritative-only tinydns component.
+Components.
+The djbdns software consists of servers, clients, and miscellaneous configuration tools.
+Design.
+In djbdns, different features and services are split off into separate programs. For example, zone transfers, zone file parsing, caching, and recursive resolving are implemented as separate programs. The result of these design decisions is a reduction in code size and complexity of the daemon program that provides the core function of answering lookup requests. Bernstein asserts that this is true to the spirit of the Unix operating system, and makes security verification much simpler.
+Copyright status.
+On December 28, 2007, Bernstein released djbdns into the public domain. Previously the package was distributed free of charge as license-free software. However this did not permit the distribution of modified versions of djbdns, which was one of the core principles of open-source software. Consequently, it was not included in those Linux distributions which required all components to be open-source.
+

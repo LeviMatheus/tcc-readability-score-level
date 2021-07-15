@@ -1,0 +1,18 @@
+Belote is a French 32 card trick-taking game. This game requires four players divided into two teams. There are many kinds of belote: "belote," "belote coinchée," and "belote avec annonce". All of them come from a Dutch game, played since 1600.
+Dealing.
+The dealer must not shuffled the deck,only the previous dealer, on the left, must cut the deck. He must deal the all deck in three time (3+2+3).
+Betting.
+Once the card are dealt, players start to bet on the number of point. To bet, the player need to tell the trump he wants, and bet at least 10 point higher than the previous player. The first player have to bet at least 80, half of all the point. If a player have King and queen from the trump color, the team get 20 bonus points.
+Even though there is only 4 color in the game, there is 6 kind of trump: Clubs ♣ Diamonds ♦ Hearts ♥ Spades ♠ "No trump" "All trumps".
+When a player chooses "no trump" or "all trump", he must choose a color. the points of this color will be count as trump, all the other will be count as No trump.
+Basic rules.
+Trump: J=20, 9=14, A=11 10=10, K=4, Q=3, 8=0, 7=0
+Non-trump: A=11, 10=10, K=4, Q=3, J=2, 9=0, 8=0, 7=0
+Tips.
+The basic strategy of this game is to count the trump cards. But it is also recommend to count all the other color, the deck is small, only 32 cards.
+Betting strategy.
+Betting is the only way to communicate with a team mate, that is why even if a hand is weak, betting will help a fellow teammate to bet or play.
+Defending strategy.
+A team will have to play a defending strategy if they have less trump than the other team. The only rules with a defensive game is to save every point. One should not expect more than one trick for each colors.
+Attacking strategy.
+The usual strategy for the attacking team is to try make the opponent lose their trumps, so they will not be able to cut the other trick. Once it is done they may start to think about trying to get the ace or 10 card. There is only one way to get an ace: to cut it. That is why whenever a team mate is about to take the current trick, someone should play the colour in which someone has one less card. To get a ten someone may play an ace at the second trick or cut it.

@@ -1,0 +1,37 @@
+
+ (pronounced as distinct letters, ) is a line editor for Unix and Unix-like operating systems. It was one of the first parts of the Unix operating system that was developed, in August 1969. It remains part of the POSIX and Open Group standards for Unix-based operating systems, alongside the more sophisticated full-screen editor vi.
+History and influence.
+The ed text editor was one of the first three key elements of the Unix operating system—assembler, editor, and shell—developed by Ken Thompson in August 1969 on a PDP-7 at AT&amp;T Bell Labs. Many features of ed came from the qed text editor developed at Thompson's alma mater University of California, Berkeley. Thompson was very familiar with qed, and had reimplemented it on the CTSS and Multics systems. Thompson's versions of qed were notable as the first to implement regular expressions. Regular expressions are also implemented in ed, though their implementation is considerably less general than that in qed.
+Dennis M. Ritchie produced what Doug McIlroy later described as the "definitive" ed, and aspects of ed went on to influence ex, which in turn spawned vi. The non-interactive Unix command grep was inspired by a common special use of qed and later ed, where the command g/re/p means globally search for the regular expression re and print the lines containing it. The Unix stream editor, sed implemented many of the scripting features of qed that were not supported by ed on Unix.
+Features.
+Features of ed include:
+(In)famous for its terseness, ed gives almost no visual feedback, and has been called (by Peter H. Salus) "the most user-hostile editor ever created", even when compared to the contemporary (and notoriously complex) TECO. For example, the message that ed will produce in case of error, or when it wants to make sure the user wishes to quit without saving, is "?". It does not report the current filename or line number, or even display the results of a change to the text, unless requested. Older versions (c. 1981) did not even ask for confirmation when a quit command was issued without the user saving changes. This terseness was appropriate in the early versions of Unix, when consoles were teletypes, modems were slow, and memory was precious. As computer technology improved and these constraints were loosened, editors with more visual feedback became the norm.
+In current practice, ed is rarely used interactively, but does find use in some shell scripts. For interactive use, ed was subsumed by the sam, vi and Emacs editors in the 1980s. ed can be found on virtually every version of Unix and Linux available, and as such is useful for people who have to work with multiple versions of Unix. On Unix-based operating systems, some utilities like SQL*Plus run ed as the editor if the EDITOR and VISUAL environment variables are not defined. If something goes wrong, ed is sometimes the only editor available. This is often the only time when it is used interactively.
+In addition, the version of ed provided by GNU has a few switches to enhance the feedback. Using provides a simple prompt and enables more useful feedback messages. The switch is defined in POSIX since XPG2 (1987).
+The ed commands are often imitated in other line-based editors. For example, EDLIN in early MS-DOS versions and 32-bit versions of Windows NT has a somewhat similar syntax, and text editors in many MUDs (LPMud and descendants, for example) use ed-like syntax. These editors, however, are typically more limited in function.
+Example.
+Here is an example transcript of an ed session. For clarity, commands and text typed by the user are in normal face, and output from ed is emphasized.
+ a
+ This is line number two.
+ 2i
+ .
+ ,l
+ ed is the standard Unix text editor.$
+ This is line number two.$
+ 3s/two/three/
+ ,l
+ ed is the standard Unix text editor.$
+ This is line number three.$
+ w text
+ 65
+ q
+The end result is a simple text file containing the following text:
+ ed is the standard Unix text editor.
+ This is line number three.
+Started with an empty file, the codice_1 command appends text (all ed commands are single letters). The command puts ed in "insert mode", inserting the characters that follow and is terminated by a single dot on a line. The two lines that are entered before the dot end up in the file buffer. The codice_2 command also goes into insert mode, and will insert the entered text (a single empty line in our case) before line two. All commands may be prefixed by a line number to operate on that line.
+In the line codice_3, the lowercase L stands for the list command. The command is prefixed by a range, in this case codice_4 which is a shortcut for codice_5. A range is two line numbers separated by a comma (codice_6 means the last line). In return, ed lists all lines, from first to last. These lines are ended with dollar signs, so that white space at the end of lines is clearly visible.
+Once the empty line is inserted in line 2, the line which reads "This is line number two." is now actually the third line. This error is corrected with codice_7, a substitution command. The codice_8 will apply it to the correct line; following the command is the text to be replaced, and then the replacement. Listing all lines with codice_3 the line is shown now to be correct.
+codice_10 writes the buffer to the file "text" making ed respond with "65", the number of characters written to the file. codice_11 will end an ed session.
+Cultural references.
+The GNU project has numerous jokes around ed hosted on its website. In addition, an error code called is defined in glibc: when asked to print out its description (errorstr), the library returns a single question mark. The documentation is simply "the experienced user will know what is wrong."
+

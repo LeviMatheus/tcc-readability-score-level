@@ -1,0 +1,4 @@
+The Moving Picture Experts Group, or MPEG for short, is a group of people that figure out ways to put music and video onto computers. Then they publish this information for people to use.
+MPEG invented a number of file formats for music and video.
+MP3 and AAC, which are two of MPEG's music formats, are very popular. The MPEG-4 video format, used in DVDs, is also very popular.
+Companies like Apple use MPEG formats in iTunes and the iPod. Many YouTube videos use the MPEG-4 format, which sometimes goes by the brand names DivX™ or Xvid.

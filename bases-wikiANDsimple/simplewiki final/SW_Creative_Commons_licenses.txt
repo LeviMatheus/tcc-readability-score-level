@@ -1,0 +1,4 @@
+The Creative Commons licenses relates to the name of copyright licenses released on December 16, 2002. It was released by "Creative Commons", a United States nonprofit corporation. Everybody can put their own creations under these licenses.
+It is possible to combine the license elements. For example a combination of the first and fourth is called "CC by-sa". This stands for "Creative Commons Attribution-ShareAlike". With this license other people must give credit to the original creator, and when they make something new with the work they have to give it the "CC by-sa" license.
+Critical Comments.
+The Free Software Foundation thinks that the Creative Commons system is confusing, because people often forget to tell which of the licenses they use. Instead they suggest to use the Free Art license.

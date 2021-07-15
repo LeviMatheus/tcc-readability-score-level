@@ -1,0 +1,5 @@
+
+In data communications, an automatic switching system is a switching system in which all the operations required to execute the three phases of Information transfer transactions are automatically executed in response to signals from a user end-instrument. 
+In an automatic switching system, the information-transfer transaction is performed without human intervention, except for initiation of the access phase and the disengagement phase by a user. 
+In telephony, it refers to a telephone exchange in which all the operations required to set up, supervise, and release connections required for telephone calls are automatically performed in response to signals from a calling device. This distinction lost importance as manual switching declined during the 20th century.
+

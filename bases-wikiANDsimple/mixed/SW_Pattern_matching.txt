@@ -1,0 +1,3 @@
+Pattern matching is a family of tools for finding similar objects in different sources. In image processing, the pattern matching is used for locating a small image (called model) in a bigger one (called target image).
+The simple way is to move the model in the target image and measure a similarity in each position. The position with highest value of the similarity will be accepted as result. The normalized correlation is used as a common metric for similarity.
+The common way for reduce an amount of calculations is using the image pyramid. When using the image pyramid, the search is started on the reduced target image, and results are improved in the next, more detailed one. This process is similar to the human vision.

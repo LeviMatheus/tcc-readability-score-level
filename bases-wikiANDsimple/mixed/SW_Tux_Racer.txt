@@ -1,0 +1,1 @@
+Tux Racer is a video game made by Sunspire Studios where the player moves Tux, the Linux Penguin. In the game, Tux goes down a hill on his belly and collects fish. There are many things that slow Tux down. There are also things that may be hard for Tux to get past.

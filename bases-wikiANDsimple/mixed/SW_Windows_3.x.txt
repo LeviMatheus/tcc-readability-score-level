@@ -1,0 +1,4 @@
+Windows 3.1x was a family of Microsoft Windows operating systems released from 1992 to 1994. The previous version of Windows before this one was Windows 3.0. This Windows could run in either Standard or 386 Enhanced memory modes. Both of the modes used a Graphical User Interface (or picture-based), and supported a mouse, but 386 Enhanced Mode was faster and was better at multitasking (or doing for things at once).
+Windows 3.1x also had many features from versions of Windows before it. These inculded a calcuator, a notepad, and more. It also brought in many new features, like the Program Manager (which is still in Windows XP today - Start>Run>progman.exe), and the icons and programs looked better.
+Windows 3.1x was made better in 1994, with Windows for Workgroups, that added networking support.
+It was the last Windows version to feature the program manager.

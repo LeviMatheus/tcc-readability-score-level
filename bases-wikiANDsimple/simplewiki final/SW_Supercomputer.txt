@@ -1,0 +1,11 @@
+Supercomputer is a super computer. It is a computer with great speed and memory. This kind of computer can do faster than any other computer at that generation. Supercomputer can do calculation job very fast, so it is used for weather forecast, code-breaking, genetic analysis, etc.
+Supercomputer has origin from commercial computer that could calculate pipeline's flow. It could indicate where the wrong part in the pipeline was. Engineers are now making supercomputer that can link millions microprocessor as if many brains are gathered to advanced ability.
+How does it work.
+Supercomputer is divided into shared memory, distributed memory and array. Supercomputer that has shared memory is developed by using a parallel handling and pipelining concept. Supercomputer that has distributed memory consist of many(about 100~10000) nod. CRAY series of CRAYRESERCH and VP 2400/40, NEC의 SX-3 of HUCIS is shared memory type. nCube 3, iPSC/860, AP 1000, NCR 3700, Paragon XP/S, CM-5 is distributed memory type.
+History.
+Array type computer ILIAC started at 1972 and since that, CF-11, CM-2, Mas Par MP-2(that has array type) is developed. Lately, array type supercomputer is begining to make a mark. And movements that use physically separated memory like one shared memory bring T3D, KSR1, and Tera Computer.
+Smallest supercomputer is created.
+China's first personal high-performance computer (PHPC100) makes debut in Tianjin. It is the China's smallest supercomputer, only twice the size of a normal desktop computer, but its computing speed is 40 times faster than a normal computer.
+The invention of the PHPC100, by the Dawning Information Industry Co. at Tianjin Base, signifies that supercomputers, previously a privilege in high-end research, are no longer exclusive to major fields such as defense-related scientific research.
+It perfectly suits the scientific computing, data analysis, graphic simulation and other powerful computing needs of university laboratories or scientific research institutions.
+At the same time, it solves problems common in traditional high-performance computer clusters, including power consumption, space occupancy and heat dissipation.

@@ -1,0 +1,12 @@
+The Julian day or Julian day number (JDN) is the number of days that have passed since the initial epoch defined as noon Universal Time (UT) Monday, January 1, 4713 BC in the Julian calendar. That noon-to-noon day is counted as Julian day 0. Thus the multiples of 7 are Mondays. Negative values can also be used, although those predate all recorded history.
+Now at the JDN is. The remainder of this value divided by 7 is, an integer expression for the day of the week with 0 representing Monday.
+The Julian date (JD) is a continuous count of days and fractions elapsed since the same initial epoch. Currently the JD is. The integral part (its floor) gives the Julian day number. The fractional part gives the time of day since noon UT as a decimal fraction of one day or fractional day, with 0.5 representing midnight UT. Typically, a 64-bit floating point (double precision) variable can represent an epoch expressed as a Julian date to about 1 millisecond precision.
+A Julian date of 2454115.05486 means that the date and Universal Time is Sunday 14 January 2007 at 13:18:59.9.
+0.1 = 2.4 hours or 144 minutes or 8640 seconds
+0.01 = 0.24 hours or 14.4 minutes or 864 seconds
+0.001 = 0.024 hours or 1.44 minutes or 86.4 seconds
+0.0001 = 0.0024 hours or 0.144 minutes or 8.64 seconds
+0.00001 = 0.00024 hours or 0.0144 minutes or 0.864 seconds.
+Almost 2.5 million Julian days have elapsed since the initial epoch. JDN 2,400,000 was November 16, 1858. JD 2,500,000.0 will occur on August 31, 2132 at noon UT.
+The Julian day number can be considered a very simple calendar, where its calendar date is just an integer. This is useful for reference, computations, and conversions. It allows the time between any two dates in history to be computed by simple subtraction.
+The Julian day system was introduced by astronomers to provide a single system of dates that could be used when working with different calendars and to unify different historical chronologies. Apart from the choice of the zero point and name, this Julian day and Julian date are not directly related to the Julian calendar, although it is possible to convert any date from one calendar to the other.

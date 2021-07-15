@@ -1,0 +1,23 @@
+
+In general relativity, a naked singularity is a hypothetical gravitational singularity without an event horizon. In a black hole, the singularity is completely enclosed by a boundary known as the event horizon, inside which the gravitational force of the singularity is so strong that light cannot escape. Hence, objects inside the event horizon—including the singularity itself—cannot be directly observed. A naked singularity, by contrast, would be observable from the outside.
+The theoretical existence of naked singularities is important because their existence would mean that it would be possible to observe the collapse of an object to "infinite density". It would also cause foundational problems for general relativity, because general relativity cannot make predictions about the evolution of space-time near a singularity. In generic black holes, this is not a problem, as an outside viewer cannot observe the space-time within the event horizon.
+Naked singularities have not been observed in nature. Astronomical observations of black holes indicate that their rate of rotation falls below the threshold to produce a naked singularity (spin parameter 1). GRS 1915+105 comes closest to the limit, with a spin parameter of 0.82-1.00.
+According to the cosmic censorship hypothesis, gravitational singularities may not be observable. If loop quantum gravity is correct, naked singularities may be possible in nature.
+Predicted formation.
+From concepts drawn from rotating black holes, it is shown that a singularity, spinning rapidly, can become a ring-shaped object. This results in two event horizons, as well as an ergosphere, which draw closer together as the spin of the singularity increases. When the outer and inner event horizons merge, they shrink toward the rotating singularity and eventually expose it to the rest of the universe.
+A singularity rotating fast enough might be created by the collapse of dust or by a supernova of a fast-spinning star. Studies of pulsars and some computer simulations (Choptuik, 1997) have been performed.
+Mathematician Demetrios Christodoulou, a winner of the Shaw Prize, has shown that contrary to what had been expected, singularities which are not hidden in a black hole also occur. However, he then showed that such "naked singularities" are unstable.
+Metrics.
+Disappearing event horizons exist in the Kerr metric, which is a spinning black hole in a vacuum. Specifically, if the angular momentum is high enough, the event horizons could disappear. Transforming the Kerr metric to Boyer–Lindquist coordinates, it can be shown that the formula_1 coordinate (which is not the radius) of the event horizon is
+formula_2,
+where formula_3, and formula_4. In this case, "event horizons disappear" means when the solutions are complex for formula_5, or formula_6. However, this corresponds to a case where formula_7 exceeds formula_8 (or in Planck units, , i.e. the spin exceeds what is normally viewed as the upper limit of its physically possible values.
+Disappearing event horizons can also be seen with the Reissner–Nordström geometry of a charged black hole. In this metric, it can be shown that the horizons occur at
+formula_9,
+where formula_3, and formula_11. Of the three possible cases for the relative values of formula_12 and formula_13, the case where formula_14 causes both formula_5 to be complex. This means the metric is regular for all positive values of formula_1, or in other words, the singularity has no event horizon. However, this corresponds to a case where formula_17 exceeds formula_18 (or in Planck units, , i.e. the charge exceeds what is normally viewed as the upper limit of its physically possible values.
+See Kerr–Newman metric for a spinning, charged ring singularity.
+Effects.
+A naked singularity could allow scientists to observe an infinitely dense material, which would under normal circumstances be impossible by the cosmic censorship hypothesis. Without an event horizon of any kind, some speculate that naked singularities could actually emit light.
+Cosmic censorship hypothesis.
+The cosmic censorship hypothesis says that a gravitational singularity would remain hidden by the event horizon. LIGO events, including GW150914, are consistent with these predictions. Although data anomalies would have resulted in the case of a singularity, the nature of those anomalies remains unknown.
+Some research has suggested that if loop quantum gravity is correct, then naked singularities could exist in nature, implying that the cosmic censorship hypothesis does not hold. Numerical calculations and some other arguments have also hinted at this possibility.
+

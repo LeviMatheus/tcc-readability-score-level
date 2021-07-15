@@ -1,0 +1,12 @@
+A test is a way of checking something to see if it is true or if it works. If something can be tested, it is testable.
+People.
+People are tested to see what they have learned. This is often called an assessment or examination. In education, a test item is a question, or set of questions on a test.
+People and animals can also be tested for illnesses. For example, a blood test can be used to check for disease.
+Science.
+In science, tests are called experiments. These are done to check for a presence of a substance, or to check the quality of the thing being tested.
+Software.
+In software engineering, a test is used to determine a characteristic of a software system. Software is tested before it is released. "Alpha" testing is where software developers check the software for bugs. Software can also be checked for quality and usability. "Beta" testing is done by groups of users.
+Vehicles.
+Cars and other vehicles are tested using a crash test. The car is put under severe conditions to see what will make it fail. Other machines can also be crash tested. Crash test dummies stand in for humans. They 'sit' in the car seat to see if a human in the crash would have been injured or killed. Crash tests cost a lot of money.
+Other.
+The River Test is a chalk stream in the south of England. The river is used a lot for trout fishing. The river starts near Overton, in Hampshire and ends at the sea at the head of Southampton Water.

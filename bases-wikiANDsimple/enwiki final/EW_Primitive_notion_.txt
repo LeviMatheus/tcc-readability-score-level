@@ -1,0 +1,9 @@
+
+In mathematics, logic, philosophy, and formal systems, a primitive notion is a concept that is not defined in terms of previously-defined concepts. It is often motivated informally, usually by an appeal to intuition and everyday experience. In an axiomatic theory, relations between primitive notions are restricted by axioms. Some authors refer to the latter as "defining" primitive notions by one or more axioms, but this can be misleading. Formal theories cannot dispense with primitive notions, under pain of infinite regress (per the regress problem).
+For example, in contemporary geometry, "point", "line", and "contains" are some primitive notions. Instead of attempting to define them, their interplay is ruled (in Hilbert's axiom system) by axioms like "For every two points there exists a line that contains them both".
+Details.
+Alfred Tarski explained the role of primitive notions as follows:
+An inevitable regress to primitive notions in the theory of knowledge was explained by Gilbert de B. Robinson:
+Examples.
+The necessity for primitive notions is illustrated in several axiomatic foundations in mathematics:
+

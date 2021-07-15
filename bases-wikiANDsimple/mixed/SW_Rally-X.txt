@@ -1,0 +1,3 @@
+Rally-X is a Arcade video game by Namco. The player moves a car around a maze. The player tries to collect 10 "flags".
+Flags.
+In Rally-X, there are two types of flags: regular flags and special flags. Special flags double the players points after collecting it. It will only work if the player does not lose a life. In New Rally-X, there is another flag called a lucky flag. It fills up the cars feul tank if it is empty. There is only one special flag or lucky flag.

@@ -1,0 +1,10 @@
+Photons (from Greek φως, meaning "light"), in many atomic models in physics, are particles which transmit light. In other words, light is carried over space by photons.
+Photons have a rest mass 0 (zero). They have mass because of Einstein's theory of relativity. At the speed of light photons do have certain mass.
+A photon is usually given the symbol γ (gamma),
+Properties.
+Photons are fundamental particles. Although they can be created and destroyed, their lifetime is infinite. As photons have energy, they are affected by gravity.
+In a vacuum, all photons move at the speed of light, c, which is equal to 299,792,458 meters (approximately 300,000 kilometers) per second.
+A photon has a given wavelength, which determines its color. Even beyond the visible range, wavelength is the only thing different between X-Ray photons, and warm infrared.
+The last usable property of a photon is its polarity. If you saw a giant photon coming straight at you, it could appear as a swath whipping vertically, horizontally, or somewhere in between. Polarized sunglasses stop photons swinging up and down from passing. This is how they reduce glare as light bouncing off of surfaces tend to fly that way.
+LCD screens also use polarity to control which light passes through. Even some animals can see light polarization.
+Finally, light has a spin to it. A photon's spin is a subtle feature, and requires expensive equipment to detect. Photon spin may become the ones and zeros of tomorrow's supercomputers.

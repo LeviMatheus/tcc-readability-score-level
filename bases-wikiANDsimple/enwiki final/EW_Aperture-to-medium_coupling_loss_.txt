@@ -1,0 +1,5 @@
+
+In telecommunication, aperture-to-medium coupling loss is the difference between the theoretical antenna gain of a very large antenna, such as the antennas in beyond-the-horizon microwave links, and the gain that can be realized in practice. 
+"Note 1:" Aperture-to-medium coupling loss is related to the ratio of the scatter angle to the antenna beamwidth. 
+"Note 2:" The "very large antennas" are referred to in wavelengths; thus, this loss can apply to line-of-sight systems also. 
+

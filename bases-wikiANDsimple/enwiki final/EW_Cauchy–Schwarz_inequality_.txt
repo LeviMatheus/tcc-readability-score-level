@@ -1,0 +1,69 @@
+
+In mathematics, the Cauchy–Schwarz inequality, also known as the Cauchy–Bunyakovsky–Schwarz inequality, is a useful inequality in many mathematical fields, such as linear algebra, analysis, probability theory, vector algebra and other areas. It is considered to be one of the most important inequalities in all of mathematics.
+The inequality for sums was published by , while the corresponding inequality for integrals was first proved by
+. The modern proof of the integral version was given by .
+Statement of the inequality.
+The Cauchy–Schwarz inequality states that for all vectors formula_1 and formula_2 of an inner product space it is true that
+where formula_3 is the inner product. Examples of inner products include the real and complex dot product; see the examples in inner product. Every inner product gives rise to a norm, called the or , where the norm of a vector formula_4 is denoted and defined by:
+so that this norm and the inner product are related by the defining condition formula_6 where formula_7 is always a non-negative real number (even if the inner product is complex-valued). 
+By taking the square root of both sides of the above inequality, the Cauchy–Schwarz inequality can be written in its more familiar form:
+Moreover, the two sides are equal if and only if formula_4 and formula_9 are linearly dependent.
+Special cases.
+Titu's lemma - Positive real numbers.
+Titu's lemma (named after Titu Andreescu, also known as T2 lemma, Engel's form, or Sedrakyan's inequality) states that for positive reals, one has
+It is a direct consequence of the Cauchy–Schwarz inequality, obtained upon substituting formula_11 and formula_12 This form is especially helpful when the inequality involves fractions where the numerator is a perfect square.
+ℝ2 - The plane.
+The real vector space formula_13 denotes the 2-dimensional plane. It is also the 2-dimensional Euclidean space where the inner product is the dot product. 
+If formula_14 and formula_15 then the Cauchy–Schwarz inequality becomes:
+where formula_17 is the angle between formula_1 and formula_2.
+The form above is perhaps the easiest in which to understand the inequality, since the square of the cosine can be at most 1, which occurs when the vectors are in the same or opposite directions. It can also be restated in terms of the vector coordinates formula_20 and formula_21 as
+where equality holds if and only if the vector formula_23 is in the same or opposite direction as the vector formula_24, or if one of them is the zero vector.
+ℝ"n" - "n"-dimensional Euclidean space.
+In Euclidean space formula_25 with the standard inner product, which is the dot product, the Cauchy–Schwarz inequality becomes:
+The Cauchy–Schwarz inequality can be proved using only ideas from elementary algebra in this case. 
+Consider the following quadratic polynomial in formula_27
+Since it is nonnegative, it has at most one real root for formula_29 hence its discriminant is less than or equal to zero. That is,
+which yields the Cauchy–Schwarz inequality.
+ℂ"n" - "n"-dimensional Complex space.
+If formula_31 with formula_32 and formula_33 (where formula_34 and formula_35) and if the inner product on the vector space formula_36 is the canonical complex inner product (defined by formula_37), then the inequality may be restated more explicitly as follows (where the bar notation is used for complex conjugation): 
+That is,
+L2.
+For the inner product space of square-integrable complex-valued functions, the following inequality:
+The Hölder inequality is a generalization of this.
+Proofs.
+There are many different proofs of the Cauchy–Schwarz inequality other than those given below. 
+When consulting other sources, there are often two sources of confusion. First, some authors define to be linear in the second argument rather than the first. 
+Second, some proofs are only valid when the field is formula_41 and not formula_42
+This section gives proofs of the following theorem:
+In all of the proofs given below, the proof in the trivial case where at least one of the vectors is zero (or equivalently, in the case where formula_43) is the same. It is presented immediately below only once to reduce repetition. It also includes the easy part of the proof the above ; that is, it proves that if formula_4 and formula_9 are linearly dependent then formula_46 
+By definition, formula_4 and formula_9 are linearly dependent if and only if one is a scalar multiple of the other. 
+If formula_49 where formula_50 is some scalar then 
+which shows that equality holds in the . 
+The case where formula_52 for some scalar formula_50 is very similar, with the main difference between the complex conjugation of 
+If at least one of formula_4 and formula_9 is the zero vector then formula_4 and formula_9 are necessarily linearly dependent (just scalar multiply the non-zero vector by the number formula_59 to get the zero vector; e.g. if formula_60 then let formula_61 so that formula_49), which proves the converse of this characterization in this special case; that is, this shows that if at least one of formula_4 and formula_9 is formula_65 then the holds. 
+If formula_66 which happens if and only if formula_67 then formula_43 and formula_69 so that in particular, the Cauchy-Schwarz inequality holds because both sides of it are formula_70 
+The proof in the case of formula_71 is identical. 
+Consequently, the Cauchy-Schwarz inequality only needs to be proven only for non-zero vectors and also only the non-trivial direction of the must be shown. 
+Applications.
+Analysis.
+In any inner product space, the triangle inequality is a consequence of the Cauchy–Schwarz inequality, as is now shown: 
+Taking square roots gives the triangle inequality:
+The Cauchy–Schwarz inequality is used to prove that the inner product is a continuous function with respect to the topology induced by the inner product itself.
+Geometry.
+The Cauchy–Schwarz inequality allows one to extend the notion of "angle between two vectors" to any real inner-product space by defining:
+The Cauchy–Schwarz inequality proves that this definition is sensible, by showing that the right-hand side lies in the interval and justifies the notion that (real) Hilbert spaces are simply generalizations of the Euclidean space. It can also be used to define an angle in complex inner-product spaces, by taking the absolute value or the real part of the right-hand side, as is done when extracting a metric from quantum fidelity.
+Probability theory.
+Let formula_75 and formula_76 be random variables, then the covariance inequality: is given by
+After defining an inner product on the set of random variables using the expectation of their product,
+the Cauchy–Schwarz inequality becomes
+To prove the covariance inequality using the Cauchy–Schwarz inequality, let formula_80 and formula_81 then
+where formula_83 denotes variance and formula_84 denotes covariance.
+Generalizations.
+Various generalizations of the Cauchy–Schwarz inequality exist. Hölder's inequality generalizes it to formula_85 norms. More generally, it can be interpreted as a special case of the definition of the norm of a linear operator on a Banach space (Namely, when the space is a Hilbert space). Further generalizations are in the context of operator theory, e.g. for operator-convex functions and operator algebras, where the domain and/or range are replaced by a C*-algebra or W*-algebra.
+An inner product can be used to define a positive linear functional. For example, given a Hilbert space formula_86 being a finite measure, the standard inner product gives rise to a positive functional formula_87 by formula_88 Conversely, every positive linear functional formula_87 on formula_90 can be used to define an inner product formula_91 where formula_92 is the pointwise complex conjugate of formula_93 In this language, the Cauchy–Schwarz inequality becomes
+which extends verbatim to positive functionals on C*-algebras:
+The next two theorems are further examples in operator algebra.
+This extends the fact formula_95 when formula_87 is a linear functional. The case when formula_97 is self-adjoint, i.e. formula_98 is sometimes known as Kadison's inequality.
+Another generalization is a refinement obtained by interpolating between both sides the Cauchy-Schwarz inequality: 
+This theorem can be deduced from Hölder's inequality. There are also non commutative versions for operators and tensor products of matrices.
+

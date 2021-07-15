@@ -1,0 +1,6 @@
+
+The Klerer–May System is a programming language developed in the mid-1960s, oriented to numerical scientific programming, whose most notable feature is its two-dimensional syntax based on traditional mathematical notation.
+For input and output, the Klerer–May system used a Friden Flexowriter modified to allow half-line motions for subscripts and superscripts. The character set included digits, upper-case letters, subsets of 14 lower-case Latin letters and 18 Greek letters, arithmetic operators (codice_1 codice_2 codice_3 codice_4 codice_5) and punctuation (codice_6 codice_7 codice_8 codice_9), and eight special line-drawing characters (resembling codice_10 codice_11 codice_12 codice_13 codice_14 codice_15 codice_16 codice_17) used to construct multi-line brackets and symbols for summation, products, roots, and for multi-line division or fractions.
+The system was intended to be forgiving of input mistakes, and easy to learn; its reference manual was only two pages.
+The system was developed by Melvin Klerer and Jack May at Columbia University's Hudson Laboratories in Dobbs Ferry, New York, for the Office of Naval Research, and ran on GE-200 series computers.
+

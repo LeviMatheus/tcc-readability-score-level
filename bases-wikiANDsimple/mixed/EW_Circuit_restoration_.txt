@@ -1,0 +1,4 @@
+
+In telecommunication, circuit restoration is the process by which a communications circuit is established between two users after disruption or loss of the original circuit. The loss may be widespread due to a natural disaster like an ice storm or hurricane, or local by being cut underground in construction or damaged in a thunderstorm or car accident.
+Circuit restoration is usually performed in accordance with planned procedures and priorities. Restoration may be effected automatically, such as by switching to a hot standby, or manually, such as by manual patching.
+

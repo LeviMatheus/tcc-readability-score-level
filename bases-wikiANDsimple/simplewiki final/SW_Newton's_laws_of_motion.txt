@@ -1,0 +1,18 @@
+Isaac Newton (1642-1727), the father of the dynamics, – the study of motion – developed three sets of laws that are believed to be true because the results agree with the laws he produced.
+First Law.
+If a body is at rest it remains at rest or if it is in motion it moves with uniform velocity until it is acted on by a resultant force. (Duncan, 1995)
+In other words, the first law says that an object that is not moving or moving in a constant speed in a straight line, will stay like that until something pushes it or blocks its path. As we all know, nothing in the visual world ever stays in constant speed, but the object itself is moving at constant speed, while a force is stopping it from moving at constant speed, friction.
+However, in space, an object can move in a constant speed as long as it does not get close to any other objects, and stays in open space. This is why rockets use less fuel in space than they do getting to it.
+Newton’s first law also brings in another new idea, the idea of inertia. The idea of inertia can be seen and felt in every day life. For example, when a person pulls on a cart the force of the cart pulls the person back.
+Second Law.
+The rate of change of momentum of a body is proportional to the resulting force and occurs in the direction of the force. (Duncan, 1995)
+In other words, force is equal to mass times acceleration.
+This law provides the definition and calculation of force through mass and acceleration.
+Newton's Third Law.
+If body A exerts a force on body B, then body B exerts an equal but opposite force on body A. (Duncan, 1995)
+This is also known as the “action and reaction effect” where forces only occur in pairs opposite to each other. For example, when a person pulls on a sled the force of the sled pulls the person back while the person pulls forward. This example also shows how the Third Law always involves two different bodies (in this case, the person and the sled).
+Another interesting thought is that a person in falling--for instance, a parachute jumper--is pulling the earth. Since the earth is pulling on the person, creating a force pulling the person downwards, the Third Law says the person must also be pulling on the earth by an equal amount but in the opposite direction.
+Sources.
+Duncan, Tom. "Advanced Physics for Hong Kong: Volume 1 Mechanics & Electricity". John Murray Ltd, 1995.
+See also.
+Classical mechanics

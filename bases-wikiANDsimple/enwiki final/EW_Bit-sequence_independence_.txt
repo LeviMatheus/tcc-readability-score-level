@@ -1,0 +1,5 @@
+
+In telecommunication, bit-sequence independence is a characteristic of some digital data transmission systems that impose no restrictions on, or modification of, the transmitted bit sequence.
+Bit-sequence-independent protocols are in contrast to protocols that reserve certain bit sequences for special meanings, such as the flag sequence, 01111110, for HDLC, SDLC, and ADCCP protocols.
+Bit-sequence-independence allows only line codes that have the same number of transitions per bit, otherwise, the line code is dependent on the bit sequence and, therefore, bit-sequence dependent.
+

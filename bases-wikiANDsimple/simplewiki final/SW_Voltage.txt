@@ -1,0 +1,6 @@
+Voltage is the change in electric potential (meaning potential energy per unit charge) between two positions.
+It is measured in volts. It was named after an Italian physicist Alessandro Volta who made the first chemical battery. Because it is similar in spelling with voltage, some scientists had made suggestions that it should be called "electric tension". Many other languages uses a word that means electric tension for voltage.
+Mathematical definition.
+Mathematically, the voltage is the amount of work needed to move a charge from one position to the other.
+Measuring tools.
+Some of the tools for measuring the voltage are the voltmeter, the potentiometer, and the oscilloscope. The voltmeter measures the current going through a fixed resistor, then the voltage can be found using Ohm's law. The potentiometer works by balancing the unknown voltage against the known voltage inside a ring created by two wires. The oscilloscope first increases voltage, then the oscilloscope uses the voltage to make the path of electrons bent. Then it uses the idea that the change in direction and the voltage are proportional to find the voltage.

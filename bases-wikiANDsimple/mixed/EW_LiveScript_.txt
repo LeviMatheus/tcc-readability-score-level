@@ -1,0 +1,24 @@
+
+LiveScript is a functional programming language that compiles to JavaScript. It was created by Jeremy Ashkenas—the creator of CoffeeScript—along with Satoshi Muramaki, George Zahariev, and many others. Not to be confused with JavaScript (for a brief period in the 1990s, "LiveScript" was the name of JavaScript).
+Syntax.
+LiveScript is an indirect descendant of CoffeeScript. The following hello world program is written in LiveScript, but is also compatible with Coffeescript:
+hello = -&gt;
+ console.log 'hello, world!'
+While calling a function can be done with empty parens, codice_1, LiveScript treats the exclamation mark as a single-character shorthand for function calls with zero arguments: codice_2
+LiveScript introduces a number of other incompatible idioms:
+Name mangling.
+At compile time, the LiveScript parser implicitly converts kebab case (dashed variables and function names) to camelcase.
+hello-world = -&gt;
+ console.log 'Hello, World!'
+With this definition, both the following calls are valid. However, calling using the same dashed syntax is recommended.
+hello-world!
+helloWorld!
+This does not preclude developers from using camelcase explicitly or using snakecase. Dashed naming is however, common in idiomatic LiveScript
+Pipes.
+Like a number of other functional programming languages such as F# and Elixir, LiveScript supports the pipe operator, codice_3 which passes the result of the expression on the left of the operator as an argument to the expression on the right of it. Note that in F# the argument passed is the last argument, while in Elixir it is the first.
+"hello!" |&gt; capitalize |&gt; console.log
+Operators as functions.
+When parenthesized, operators such as codice_4 or codice_5 can be included in pipelines or called as if they were functions.
+111 |&gt; (+) 222
+(+) 1 2
+

@@ -1,0 +1,15 @@
+
+The steradian (symbol: sr) or square radian is the SI unit of solid angle. It is used in three-dimensional geometry, and is analogous to the radian, which quantifies planar angles. Whereas an angle in radians, projected onto a circle, gives a "length" on the circumference, a solid angle in steradians, projected onto a sphere, gives an "area" on the surface. The name is derived from the Greek 'solid' + radian.
+The steradian, like the radian, is a dimensionless unit, the quotient of the area subtended and the square of its distance from the center. Both the numerator and denominator of this ratio have dimension length squared (i.e. , dimensionless). It is useful, however, to distinguish between dimensionless quantities of a different nature, so the symbol "sr" is used to indicate a solid angle. For example, radiant intensity can be measured in watts per steradian (W⋅sr−1). The steradian was formerly an SI supplementary unit, but this category was abolished in 1995 and the steradian is now considered an SI derived unit.
+Definition.
+A steradian can be defined as the solid angle subtended at the center of a unit sphere by a unit area on its surface. For a general sphere of radius , any portion of its surface with area subtends one steradian at its center.
+The solid angle is related to the area it cuts out of a sphere:
+Because the surface area of a sphere is , the definition implies that a sphere subtends steradians (≈ 12.56637 sr) at its center. By the same argument, the maximum solid angle that can be subtended at any point is .
+Other properties.
+If , it corresponds to the area of a spherical cap () (where stands for the "height" of the cap) and the relationship holds. Therefore, in this case, one steradian corresponds to the plane (i.e. radian) angle of the cross-section of a simple cone subtending the plane angle , with given by:
+This angle corresponds to the plane aperture angle of ≈ 1.144 rad or 65.54°.
+A steradian is also equal to the spherical area of a polygon having an angle excess of 1 radian, to of a complete sphere, or to ≈ 3282.80635 square degrees.
+The solid angle of a cone whose cross-section subtends the angle is:
+SI multiples.
+Millisteradians (msr) and microsteradians (μsr) are occasionally used to describe light and particle beams. Other multiples are rarely used.
+

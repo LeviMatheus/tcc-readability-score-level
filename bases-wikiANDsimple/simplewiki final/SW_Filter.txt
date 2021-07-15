@@ -1,0 +1,13 @@
+A filter is a device used to remove unwanted parts from something. For example, removing solid particles from a liquid. Filter can also mean the act of filtering: it can be used as a verb. The different branches of science and technology often mean a particular kind of device when "filter" is mentioned.
+In chemistry.
+The simplest filter is the kind called filter paper. Liquids can pass through the paper. Solid particles are stopped.
+More advanced filters are possible. Two that are often used to make water more pure are activated carbon and zeolites.
+In electrical science.
+The most usual thing meant by filter in electrical science is a wave filter. This is a filter which will let through some frequencies and stops all others. For instance, a filter can be used in a radio to select the station the listener wants to hear. The frequency of that station is passed, but all others are rejected.
+There are many other uses, including use in telephones and audio.
+There are digital filters which can be used to filter things besides frequencies. A common use is to improve the quality of pictures. For instance, there are filters which can make the edges of objects look more clear.
+In mechanics.
+Filters can be made from mechanical components. They will do very similar things to electric filters. Most especially, mechanical filters can be wave filters. That is, they can block some frequencies and pass others. Because of this, electric filters are sometimes made by first making a mechanical filter. The electric wave is turned into a mechanical movement, then passed through the filter, then turned back in to an electric wave. This kind of filter is often made from quartz crystals.
+A device which changes electrical signals into mechanical signals is called a transducer. A device which changes mechanical signals into electrical signals is also a transducer, but one of a different kind.
+In information technology.
+An internet filter removes certain kinds of information. For example, certain words can be blocked.

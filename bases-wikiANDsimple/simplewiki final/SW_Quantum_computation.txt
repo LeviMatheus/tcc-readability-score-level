@@ -1,0 +1,2 @@
+Quantum Computation is a way of computation that is very different from classical computation. Classical computation is the way in which computers have been built for a long time now. Quantum computation is newer, and very few quantum computers have been built. It uses a special type of physics, "quantum physics".
+One algorithm can have different complexity in quantum and classical computation.

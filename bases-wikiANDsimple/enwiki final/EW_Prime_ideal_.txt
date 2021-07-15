@@ -1,0 +1,18 @@
+
+ In algebra, a prime ideal is a subset of a ring that shares many important properties of a prime number in the ring of integers. The prime ideals for the integers are the sets that contain all the multiples of a given prime number, together with the zero ideal.
+Primitive ideals are prime, and prime ideals are both primary and semiprime.
+Prime ideals for commutative rings.
+An ideal of a commutative ring is prime if it has the following two properties:
+This generalizes the following property of prime numbers: if is a prime number and if divides a product of two integers, then divides or divides . We can therefore say
+Uses.
+One use of prime ideals occurs in algebraic geometry, where varieties are defined as the zero sets of ideals in polynomial rings. It turns out that the irreducible varieties correspond to prime ideals. In the modern abstract approach, one starts with an arbitrary commutative ring and turns the set of its prime ideals, also called its spectrum, into a topological space and can thus define generalizations of varieties called schemes, which find applications not only in geometry, but also in number theory.
+The introduction of prime ideals in algebraic number theory was a major step forward: it was realized that the important property of unique factorisation expressed in the fundamental theorem of arithmetic does not hold in every ring of algebraic integers, but a substitute was found when Richard Dedekind replaced elements by ideals and prime elements by prime ideals; see Dedekind domain.
+Prime ideals for noncommutative rings.
+The notion of a prime ideal can be generalized to noncommutative rings by using the commutative definition "ideal-wise". Wolfgang Krull advanced this idea in 1928. The following content can be found in texts such as Goodearl's and Lam's. If is a (possibly noncommutative) ring and is an ideal in other than itself, we say that is prime if for any two ideals and of :
+It can be shown that this definition is equivalent to the commutative one in commutative rings. It is readily verified that if an ideal of a noncommutative ring satisfies the commutative definition of prime, then it also satisfies the noncommutative version. An ideal satisfying the commutative definition of prime is sometimes called a completely prime ideal to distinguish it from other merely prime ideals in the ring. Completely prime ideals are prime ideals, but the converse is not true. For example, the zero ideal in the ring of matrices over a field is a prime ideal, but it is not completely prime.
+This is close to the historical point of view of ideals as ideal numbers, as for the ring formula_22 " is contained in " is another way of saying " divides ", and the unit ideal represents unity.
+Equivalent formulations of the ideal being prime include the following properties:
+Prime ideals in commutative rings are characterized by having multiplicatively closed complements in , and with slight modification, a similar characterization can be formulated for prime ideals in noncommutative rings. A nonempty subset is called an m-system if for any and in , there exists in such that is in . The following item can then be added to the list of equivalent conditions above:
+Connection to maximality.
+Prime ideals can frequently be produced as maximal elements of certain collections of ideals. For example:
+

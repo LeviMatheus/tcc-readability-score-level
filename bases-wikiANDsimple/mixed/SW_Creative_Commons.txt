@@ -1,0 +1,10 @@
+The Creative Commons is a non-profit organisation that tries to make creative work available for others to use and share.
+Aim.
+Their website allows copyright holders to give some of their rights to any other people. They still keep some other rights. They do this through licenses and contracts. Some of these make the work public domain or open content. They do this because copyright law can stop people sharing information.
+The project has different free licenses. A person who has copyright can choose which one they want to use when they publish their work. They also provide RDF/XML metadata. These say what the licenses are and make it easier to automatically sort out and find work that has these licenses. They also provide a 'Founder's Copyright' contract. This aims to give the same effects as the original US Copyright did.
+History.
+Creative Commons was officially started in 2001.
+Lawrence Lessig is the founder and chairman of Creative Commons. Lessig started it as a way of reaching the goals of his Supreme Court case, Eldred v. Ashcroft.
+Localisation.
+The "iCommons" (International Commons) is one of the Creative Commons projects. They improve the wording of the licenses and make them usable in other countries. The first ones dealt with US law only. As of February 4, 2004, Brazil, the People's Republic of China, Finland, France, Ireland, Italy, Japan, the Republic of China (Taiwan), and the United Kingdom have joined this project.
+Projects that use Creative Commons licenses include LOCA Records, Magnatune, Opsound, Opcopy, Wikitravel, iRATE radio and the fiction of Cory Doctorow.

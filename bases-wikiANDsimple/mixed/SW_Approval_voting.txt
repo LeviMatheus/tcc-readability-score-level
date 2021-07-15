@@ -1,0 +1,1 @@
+Approval voting is a voting system used for elections. In approval voting, each person can vote for any number of candidates he likes. The votes for each of the candidates are counted, and summed up. The candidate or candidates with most votes are chosen as the winners of the election.

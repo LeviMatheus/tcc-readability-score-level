@@ -1,0 +1,17 @@
+
+A googolplex is the number 10, or equivalently, 10. Written out in ordinary decimal notation, it is 1 followed by 10100 zeroes; that is, a 1 followed by a googol zeroes.
+History.
+In 1920, Edward Kasner's nine-year-old nephew, Milton Sirotta, coined the term "googol", which is 10, and then proposed the further term "googolplex" to be "one, followed by writing zeroes until you get tired". Kasner decided to adopt a more formal definition because "different people get tired at different times and it would never do to have Carnera a better mathematician than Dr. Einstein, simply because he had more endurance and could write for longer". It thus became standardized to 10(10100).
+Size.
+A typical book can be printed with 10 zeros (around 400 pages with 50 lines per page and 50 zeros per line). Therefore, it requires 10 such books to print all the zeros of a googolplex (that is, printing a googol zeros). If each book had a mass of 100 grams, all of them would have a total mass of 10 kilograms. In comparison, Earth's mass is 5.972 x 10 kilograms, the mass of the Milky Way Galaxy is estimated at 2.5 x 10 kilograms, and the mass of matter in the observable universe is estimated at 1.5 x 1053 kg.
+To put this in perspective, the mass of all such books required to write out a googolplex would be vastly greater than the masses of the Milky Way and the Andromeda galaxies combined (by a factor of roughly 2.0 x 10), and greater than the mass of the observable universe by a factor of roughly 7 x 1039.
+In pure mathematics.
+In pure mathematics, there are several notational methods for representing large numbers by which the magnitude of a googolplex could be represented, such as tetration, hyperoperation, Knuth's up-arrow notation, Steinhaus–Moser notation, or Conway chained arrow notation.
+In the physical universe.
+In the PBS science program "", , astronomer and television personality Carl Sagan estimated that writing a googolplex in full decimal form (i.e., "10,000,000,000...") would be physically impossible, since doing so would require more space than is available in the known universe. Sagan gave an example that if the entire volume of the observable universe is filled with fine dust particles roughly 1.5 micrometers in size (0.0015 millimeters), then the number of different combinations in which the particles could be arranged and numbered would be about one googolplex.
+Writing the number would take an immense amount of time: if a person can write two digits per second, then writing a googolplex would take about 1.51 years, which is about 1.1 times the accepted age of the universe.
+ is a high estimate of the elementary particles existing in the visible universe (not including dark matter), mostly photons and other massless force carriers.
+Mod "n".
+The residues (mod "n") of a googolplex, starting with mod 1, are:
+This sequence is the same as the sequence of residues (mod "n") of a googol up until the 17th position.
+

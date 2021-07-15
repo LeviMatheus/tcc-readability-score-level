@@ -1,0 +1,3 @@
+Amarok is a music player for the KDE desktop environment. Unlike most KDE programs, it has it's own schedule for releasing versions, so a new version of Amarok might not be released when a newer version of KDE comes out. Amarok's first stable version was released in 2003. They are now on version 1.4.10. A new version, known as Amarok 2.0, is being developed for KDE 4.0.
+Features.
+Amarok cannot play videos. However, it can play most sound and music files in a large range of formats, like MP3, Ogg Vorbis, and WMA. Amarok also includes an internet radio tuner, and supports submitting a listener's music preferences to Last.fm. It can sync music to most MP3 players, like the iPod or ZEN.

@@ -1,0 +1,3 @@
+In Cryptography, RSA is an algorithm for public-key cryptography. It was first described in 1977. It is named after Ron Rivest, Adi Shamir and Leonard Adleman. The same thing was already described earlier, though. Clifford Cocks, who worked for the British secret service, described it in 1973. The algorithm needs a lot of computing power. It was therefore not implemented in 1973, because computing power was expensive, then.
+Bases.
+The algorithm works because factoring of large numbers is a hard problem, and takes a long time. RSA generally uses length of the cryptographic keys of 1024 bits, or 2048 bits. Scientists believe that a sufficiently long key is still safe.

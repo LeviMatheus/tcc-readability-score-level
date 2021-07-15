@@ -1,0 +1,3 @@
+The Content Scrambling System (or Content Scramble System) is a system to encrypt and copy-protect DVDs. Such systems are generally called Digital Rights Management (or "DRM") systems. CSS uses symmetric cryptography. It was introduced in 1996; today, it is considered ineffective.
+In October 1999, Jon Lech Johansen and two other people (who remained anonymous) broke the system. Originally, CSS uses 40 bit cryptographic keys; because of different design problems, the effective key length is only about 16 bits. A 450 MHz processor, current at the time could brute force crack this in less than a minute.
+CSS requires special information in the lead-in (a special area) of the disc. Since the lead-in cannot be changed on recordable DVDs these cannot have CSS protection.

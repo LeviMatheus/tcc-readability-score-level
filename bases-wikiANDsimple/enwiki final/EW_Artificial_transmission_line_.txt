@@ -1,0 +1,4 @@
+
+In telecommunication, an artificial transmission line is a two-port electrical network that has the characteristic impedance, transmission time delay, phase shift, or other parameter(s) of a real transmission line. It can be used to simulate a real transmission line in one or more of these respects.
+Early artificial lines were used in telephony research and took the form of a cascade of lattice phase equalisers to provide the necessary delay. The lattice phase circuit was invented by Otto Zobel in the 1920s.
+

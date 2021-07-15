@@ -1,0 +1,1 @@
+In cryptography, key size or key length is the size (measured in bits or bytes) of the key used in a cryptographic algorithm (such as a cipher).

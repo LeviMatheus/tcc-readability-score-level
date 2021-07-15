@@ -1,0 +1,5 @@
+
+The ACM A. M. Turing Award is an annual prize given by the Association for Computing Machinery (ACM) for contributions "of lasting and major technical importance to the computer field". It is generally recognized as the highest distinction in computer science and is known as or often referred to as "Nobel Prize of Computing".
+The award is named after Alan Turing, who was a British mathematician and reader in mathematics at the University of Manchester. Turing is often credited as being the key founder of theoretical computer science and artificial intelligence. From 2007 to 2013, the award was accompanied by an additional prize of US$250,000, with financial support provided by Intel and Google. Since 2014, the award has been accompanied by a prize of US$1 million, with financial support provided by Google.
+The first recipient, in 1966, was Alan Perlis, of Carnegie Mellon University. The first female recipient was Frances E. Allen of IBM in 2006.
+

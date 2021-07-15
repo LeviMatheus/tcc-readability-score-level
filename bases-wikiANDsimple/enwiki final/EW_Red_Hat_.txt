@@ -1,0 +1,97 @@
+
+Red Hat, Inc. is an American multinational software company that provides open source software products to enterprises. Founded in 1993, Red Hat has its corporate headquarters in Raleigh, North Carolina, with other offices worldwide. It became a subsidiary of IBM on July 9, 2019.
+Red Hat has become associated to a large extent with its enterprise operating system Red Hat Enterprise Linux. With the acquisition of open-source enterprise middleware vendor JBoss, Red Hat also offers Red Hat Virtualization (RHV), an enterprise virtualization product. Red Hat provides storage, operating system platforms, middleware, applications, management products, and support, training, and consulting services.
+Red Hat creates, maintains, and contributes to many free software projects. It has acquired several proprietary software product codebases through corporate mergers and acquisitions and has released such software under open source licenses. , Red Hat is the second largest corporate contributor to the Linux kernel version 4.14 after Intel.
+On October 28, 2018, IBM announced its intent to acquire Red Hat for $34 billion. The acquisition closed on July 9, 2019. It now operates as an independent subsidiary.
+History.
+In 1993, Bob Young incorporated the ACC Corporation, a catalog business that sold Linux and Unix software accessories. In 1994, Marc Ewing created his own Linux distribution, which he named Red Hat Linux (associated with the time Ewing wore a red Cornell University lacrosse hat, given to him by his grandfather, while attending Carnegie Mellon University). Ewing released the software in October, and it became known as the Halloween release. Young bought Ewing's business in 1995, and the two merged to become Red Hat Software, with Young serving as chief executive officer (CEO).
+Red Hat went public on August 11, 1999, achieving the eighth-biggest first-day gain in the history of Wall Street. Matthew Szulik succeeded Bob Young as CEO in December of that year. Bob Young went on to found the online print on demand and self-publishing company, Lulu in 2002.
+On November 15, 1999, Red Hat acquired Cygnus Solutions. Cygnus provided commercial support for free software and housed maintainers of GNU software products such as the GNU Debugger and GNU Binutils. One of the founders of Cygnus, Michael Tiemann, became the chief technical officer of Red Hat and the vice president of open-source affairs. Later Red Hat acquired WireSpeed, C2Net and Hell's Kitchen Systems.
+In February 2000, "InfoWorld" awarded Red Hat its fourth consecutive "Operating System Product of the Year" award for Red Hat Linux 6.1. Red Hat acquired Planning Technologies, Inc. in 2001 and AOL's iPlanet directory and certificate-server software in 2004.
+Red Hat moved its headquarters from Durham to North Carolina State University's Centennial Campus in Raleigh, North Carolina in February 2002. In the following month Red Hat introduced Red Hat Linux Advanced Server, later renamed Red Hat Enterprise Linux (RHEL). Dell, IBM, HP and Oracle Corporation announced their support of the platform.
+In December 2005, "CIO Insight" magazine conducted its annual "Vendor Value Survey", in which Red Hat ranked #1 in value for the second year in a row. Red Hat stock became part of the NASDAQ-100 on December 19, 2005.
+Red Hat acquired open-source middleware provider JBoss on June 5, 2006, and JBoss became a division of Red Hat. On September 18, 2006, Red Hat released the Red Hat Application Stack, which integrated the JBoss technology and which was certified by other well-known software vendors. On December 12, 2006, Red Hat stock moved from trading on NASDAQ (RHAT) to the New York Stock Exchange (RHT). In 2007 Red Hat acquired MetaMatrix and made an agreement with Exadel to distribute its software.
+On March 15, 2007, Red Hat released Red Hat Enterprise Linux 5, and in June acquired Mobicents. On March 13, 2008, Red Hat acquired Amentra, a provider of systems integration services for service-oriented architecture, business process management, systems development and enterprise data services.
+On July 27, 2009, Red Hat replaced CIT Group in Standard and Poor's 500 stock index, a diversified index of 500 leading companies of the U.S. economy. This was reported as a major milestone for Linux.
+On December 15, 2009, it was reported that Red Hat will pay to settle a class action lawsuit related to the restatement of financial results from July 2004. The suit had been pending in U.S. District Court for the Eastern District of North Carolina. Red Hat reached the proposed settlement agreement and recorded a one-time charge of for the quarter that ended Nov. 30.
+On January 10, 2011, Red Hat announced that it would expand its headquarters in two phases, adding 540 employees to the Raleigh operation, and investing over . The state of North Carolina is offering up to in incentives. The second phase involves "expansion into new technologies such as software virtualization and technology cloud offerings".
+On August 25, 2011, Red Hat announced it would move about 600 employees from the N.C. State Centennial Campus to the Two Progress Plaza building. A ribbon cutting ceremony was held June 24, 2013, in the re-branded Red Hat Headquarters.
+In 2012, Red Hat became the first one-billion dollar open-source company, reaching in annual revenue during its fiscal year. Red Hat passed the $2 billion benchmark in 2015. the company's annual revenue was nearly $3 billion.
+On October 16, 2015, Red Hat announced its acquisition of IT automation startup Ansible, rumored for an estimated US$100 million.
+In June 2017, Red Hat announced Red Hat Hyperconverged Infrastructure (RHHI) 1.0 software product
+In May 2018, Red Hat acquired CoreOS.
+IBM subsidiary.
+On October 28, 2018, IBM announced its intent to acquire Red Hat for US$34 billion, in one of its largest-ever acquisitions. The company will operate out of IBM's Hybrid Cloud division.
+Six months later, on May 3, 2019, the US Department of Justice concluded its review of IBM's proposed Red Hat acquisition, and according to Steven J. Vaughan-Nichols "essentially approved the IBM/Red Hat deal". The acquisition was closed on July 9, 2019.
+Fedora Project.
+Red Hat sponsors the Fedora Project, a community-supported free software project that aims to promote the rapid progress of free and open-source software and content.
+The Fedora Project Board, which comprises community leaders and representatives of Red Hat, leads the project and steers the direction of the project and of Fedora, the Linux distribution it develops. Red Hat employees work with the code alongside community members, and many innovations within the Fedora Project make their way into new releases of Red Hat Enterprise Linux.
+Business model.
+Red Hat operates on a business model based on open-source software, development within a community, professional quality assurance, and subscription-based customer support. They produce open-source code so that more programmers can make adaptations and improvements.
+Red Hat sells subscriptions for the support, training, and integration services that help customers in using their open-source software products. Customers pay one set price for unlimited access to services such as Red Hat Network and up to 24/7 support.
+In September 2014, however, CEO Jim Whitehurst announced that Red Hat was "in the midst of a major shift from client-server to cloud-mobile".
+Rich Bynum, a member of Red Hat's legal team, attributes Linux's success and rapid development partially to open-source business models, including Red Hat's.
+Programs and projects.
+One Laptop per Child.
+Red Hat engineers worked with the One Laptop per Child initiative (a non-profit organization established by members of the MIT Media Lab) to design and produce an inexpensive laptop and try to provide every child in the world with access to open communication, open knowledge, and open learning. The XO-4 laptop, the machine of this project, runs a slimmed-down version of Fedora 17 as its operating system.
+KVM.
+Avi Kivity began the development of KVM in mid-2006 at Qumranet, a technology startup company that was acquired by Red Hat in 2008.
+GNOME.
+Red Hat is the largest contributor to the GNOME desktop environment. It has several employees working full-time on Evolution, the official personal information manager for GNOME.
+systemd.
+Init system and system/service manager for Linux systems.
+PulseAudio.
+Network-capable sound server program distributed via the freedesktop.org project.
+Dogtail.
+Dogtail, an open-source automated graphical user interface (GUI) test framework initially developed by Red Hat, consists of free software released under the GNU General Public License (GPL) and is written in Python. It allows developers to build and test their applications. Red Hat announced the release of Dogtail at the 2006 Red Hat Summit.
+MRG.
+Red Hat MRG is a clustering product intended for integrated high-performance computing (HPC). The acronym MRG stands for "Messaging Realtime Grid".
+Red Hat Enterprise MRG replaces the Red Hat Enterprise Linux RHEL, a Linux distribution developed by Red Hat, kernel in order to provide extra support for real-time computing, together with middleware support for message brokerage and scheduling workload to local or remote virtual machines, grid computing, and cloud computing.
+, Red Hat works with the Condor High-Throughput Computing System community and also provides support for the software.
+The Tuna performance-monitoring tool runs in the MRG environment.
+Opensource.com.
+Red Hat produces the online publication Opensource.com since January 20, 2010. The site highlights ways open-source principles apply in domains other than software development. The site tracks the application of open-source philosophy to business, education, government, law, health, and life.
+The company originally produced a newsletter called Under the Brim. Wide Open magazine first appeared in March 2004, as a means for Red Hat to share technical content with subscribers on a regular basis. The Under the Brim newsletter and Wide Open magazine merged in November 2004, to become "Red Hat Magazine". In January 2010, "Red Hat Magazine" became Opensource.com.
+Red Hat Exchange.
+In 2007, Red Hat announced that it had reached an agreement with some free software and open-source (FOSS) companies that allowed it to make a distribution portal called Red Hat Exchange, reselling FOSS software with the original branding intact. However, by 2010, Red Hat had abandoned the Exchange program to focus their efforts more on their Open Source Channel Alliance which began in April 2009.
+Red Hat Single Sign On.
+Red Hat Single Sign On is a software product to allow single sign-on with Identity Management and Access Management aimed at modern applications and services. There is an ongoing Open source project alongside Red Hat SSO, that is Keycloak. Keycloak is basically the community version from Red Hat SSO. Red Hat Single Sign On 7.3 is the latest version available.
+Red Hat Subscription Management.
+Red Hat Subscription Management (RHSM) combines content delivery with subscription management.
+CEPH Storage.
+Red Hat is the largest contributor to the CEPH Storage (SDS) project : Block, File &amp; Object Storage which runs on industry-standard x86 servers and Ethernet IP.
+Ceph aims primarily for completely distributed operation without a single point of failure, scalable to the exabyte level.
+Ceph replicates data and makes it fault-tolerant, using commodity hardware and requiring no specific hardware support. The Ceph’s system offers disaster recovery and data redundancy through techniques such as replication, erasure coding, snapshots and storage cloning. As a result of its design, the system is both self-healing and self-managing, aiming to minimize administration time and other costs.
+In this way, administrators have a single, consolidated system that avoids silos and collects the storage within a common management framework. Ceph consolidates several storage use cases and improves resource utilization. It also lets an organization deploy servers where needed.
+OpenShift.
+Red Hat operates OpenShift, a cloud computing platform as a service, supporting applications written in Node.js, PHP, Perl, Python, Ruby, JavaEE and more.
+On July 31, 2018, Red Hat announced the release of Istio 1.0, a microservices management program used in tandem with the Kubernetes platform. The software purports to provide "traffic management, service identity and security, policy enforcement and telemetry" services in order to streamline Kubernetes use under the various Fedora-based operating systems. Red Hat's Brian Redbeard Harring described Istio as "aiming to be a control plane, similar to the Kubernetes control plane, for configuring a series of proxy servers that get injected between application components". Also Red Hat is the second largest contributor to Kubernetes code itself, after Google.
+OpenStack.
+Red Hat markets a version of OpenStack which helps manage a data center in the manner of cloud computing.
+CloudForms.
+Red Hat CloudForms provides management of virtual machines, instances and containers based on VMware vSphere, Red Hat Virtualization, Microsoft Hyper-V, OpenStack, Amazon EC2, Google Cloud Platform, Microsoft Azure, and Red Hat OpenShift. CloudForms is based on the ManageIQ project that Red Hat open sourced. Code in ManageIQ is from the over acquisition of ManageIQ in 2012.
+LibreOffice.
+Red Hat contributes, with several software developers, to LibreOffice, a free and open-source office suite.
+Other FOSS projects.
+Red Hat has some employees working full-time on other free and open-source software projects that are not Red Hat products, such as two full-time employees working on the free software "radeon" (David Airlie and Jerome Glisse) and one full-time employee working on the free software "nouveau" graphic drivers. Another such project is AeroGear, an open-source project that brings security and development expertise to cross-platform enterprise mobile development.
+Red Hat also organises "Open Source Day" events where multiple partners show their open-source technologies.
+Xorg.
+One of the largest contributors.
+Utilities and tools.
+Subscribers have access to:
+Over and above Red Hat's major products and acquisitions, Red Hat programmers have produced software programming-tools and utilities to supplement standard Unix and Linux software. Some of these Red Hat "products" have found their way from specifically Red Hat operating environments via open-source channels to a wider community. Such utilities include:
+The Red Hat website lists the organization's major involvements in free and open-source software projects.
+Community projects under the aegis of Red Hat include:
+Subsidiaries.
+Red Hat Czech.
+Red Hat Czech s.r.o. is a research and development arm of Red Hat, based in Brno, Czech Republic. The subsidiary was formed in 2006 and has 1,180 employees (2019). Red Hat chose to enter the Czech Republic in 2006 over other locations due to the country's embrace of open-source. The subsidiary expanded in 2017 to a second location in the Brno Technology Park to accommodate an additional 350 employees.
+In 2016, Red Hat Czech reported revenue of CZK 1,002 million (FY 2016), and net income of CZK 123 million (FY 2016), with assets of CZK 420 million (FY 2016)|CZK 325 million (FY 2015).
+The group was named the "Most progressive employer of the year" in the Czech Republic in 2010, and the "Best Employer in the Czech Republic" for large scale companies in 2011 by Aon.
+Red Hat India.
+In 2000, Red Hat created the subsidiary Red Hat India to deliver Red Hat software, support, and services to Indian customers. Colin Tenwick, former vice president and general manager of Red Hat EMEA, said Red Hat India was opened "in response to the rapid adoption of Red Hat Linux in the subcontinent. Demand for open-source solutions from the Indian markets is rising and Red Hat wants to play a major role in this region." Red Hat India has worked with local companies to enable adoption of open-source technology in both government and education.
+In 2006, Red Hat India had a distribution network of more than 70 channel partners spanning 27 cities across India. Red Hat India's channel partners included MarkCraft Solutions, Ashtech Infotech Pvt Ltd., Efensys Technologies, Embee Software, Allied Digital Services, and Softcell Technologies. Distributors include Integra Micro Systems and Ingram Micro.
+Mergers and acquisitions.
+Red Hat's first major acquisition involved Delix Computer GmbH-Linux Div, the Linux-based operating-system division of Delix Computer, a German computer company, on July 30, 1999.
+Red Hat acquired Cygnus Solutions, a company that provided commercial support for free software, on January 11, 2000 – it was the company's largest acquisition, for . Michael Tiemann, co-founder of Cygnus, served as the chief technical officer of Red Hat after the acquisition. Red Hat made the most acquisitions in 2000 with five: Cygnus Solutions, Bluecurve, Wirespeed Communications, Hell's Kitchen Systems, and C2Net. On June 5, 2006, Red Hat acquired open-source middleware provider JBoss for and integrated it as its own division of Red Hat.
+On December 14, 1998, Red Hat made its first divestment, when Intel and Netscape acquired undisclosed minority stakes in the company. The next year, on March 9, 1999, Compaq, IBM, Dell and Novell each acquired undisclosed minority stakes in Red Hat.
+

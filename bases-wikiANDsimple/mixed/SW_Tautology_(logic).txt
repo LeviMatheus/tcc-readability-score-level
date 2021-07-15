@@ -1,0 +1,2 @@
+In propositional logic, a tautology (from the Greek word ταυτολογία) is a propositional formula that is true under any possible interpretation. For example, formulae in maths are tautological, because they always hold true for any values. The philosopher Ludwig Wittgenstein first applied the term to propositional logic in 1921.
+In other words, a tautology cannot be wrong.

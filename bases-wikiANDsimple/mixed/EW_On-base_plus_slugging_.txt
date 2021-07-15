@@ -1,0 +1,41 @@
+
+On-base plus slugging (OPS) is a sabermetric baseball statistic calculated as the sum of a player's on-base percentage and slugging percentage. The ability of a player both to get on base and to hit for power, two important offensive skills, are represented. An OPS of .900 or higher in Major League Baseball puts the player in the upper echelon of hitters. Typically, the league leader in OPS will score near, and sometimes above, the 1.000 mark.
+Equation.
+The basic equation is
+formula_1
+where OBP is on-base percentage and SLG is slugging average. These averages are defined.
+formula_2
+- the numerator "H + BB +HBP" effectively means "number of trips to first base at least"
+- the denominator "AB + BB + SF +HBP" effectively means "total plate appearances" (still doesn't include sacrifice bunts)
+- this is because though a batter makes a trip to the plate he is not given an "AB" when he walks (BB or HBP) or when he hits the ball into play and is called out but the action allows a run to score as in the SF scenario. As a result, the 4 counts (AB + BB + SF +HBP) are needed to calculate a batter's total trips to the plate.
+and
+formula_3
+where:
+In one equation, OPS can be represented as:
+formula_4
+History.
+On-base plus slugging was first popularized in 1984 by John Thorn and Pete Palmer's book, "The Hidden Game of Baseball". "The New York Times" then began carrying the leaders in this statistic in its weekly "By the Numbers" box, a feature that continued for four years. Baseball journalist Peter Gammons used and evangelized the statistic, and other writers and broadcasters picked it up. The popularity of OPS gradually spread, and by 2004 it began appearing on Topps baseball cards.
+OPS was formerly sometimes known as "production". For instance, "production" was included in early versions of Thorn's "Total Baseball" encyclopedia, and in the "Strat-O-Matic" computer baseball game. This term has fallen out of use.
+OPS gained popularity because of the availability of its components, OBP and SLG, and that team OPS correlates well with team runs scored.
+An OPS scale.
+Bill James, in his essay titled "The 96 Families of Hitters" uses seven different categories for classification by OPS:
+This effectively transforms OPS into a seven-point ordinal scale. Substituting quality labels such as "excellent" (A), "very good" (B), "good" (C), "average" (D), "fair" (E), "poor" (F) and "very poor" (G) for the A–G categories creates a subjective reference for OPS values.
+Leaders.
+The top ten Major League Baseball players in lifetime OPS, with at least 3,000 plate appearances through August 5, 2020 were:
+The top four were all left-handed batters. Jimmie Foxx has the highest career OPS for a right-handed batter.
+The top ten single-season performances in MLB are (all left-handed hitters):
+The highest single-season mark for a right-handed hitter was 1.2449 by Rogers Hornsby in , 13th on the all-time list. Since 1935, the highest single-season OPS for a right-hander is 1.2224 by Mark McGwire in , which was 16th all-time.
+Adjusted OPS (OPS+).
+OPS+, adjusted OPS, is a closely related statistic. OPS+ is OPS adjusted for the park and the league in which the player played, but not for fielding position. An OPS+ of 100 is defined to be the league average. An OPS+ of 150 or more is excellent and 125 very good, while an OPS+ of 75 or below is poor.
+The basic equation for OPS+ is
+formula_5
+where *lgOBP is the park adjusted OBP of the league (not counting pitchers hitting) and *lgSLG is the park adjusted SLG of the league.
+A common misconception is that OPS+ closely matches the ratio of a player's OPS to that of their league. In fact, due to the additive nature of the two components in OPS+, a player with an OBP and SLG both 50% better than league average in those metrics will have an OPS+ of 200 (twice the league average OPS+) while still having an OPS that is only 50% better than the average OPS of the league. It would be a better (although not exact) approximation to say that a player with an OPS+ of 150 produces 50% more "runs", in a given set of plate appearances, as a player with an OPS+ of 100 (though see clarification above, under "History").
+Leaders in OPS+.
+Through the end of the 2019 season, the career top twenty leaders in OPS+ (minimum 3,000 plate appearances) were:
+The only purely right-handed batters to appear on this list are Hornsby, Foxx, Trout, McGwire, Allen, Mays, and Thomas. Mantle is the only switch-hitter in the group.
+The highest single-season performances were:
+If Dunlap's and Barnes' seasons were to be eliminated from the list, two other Ruth seasons (1926 and 1927) would be on the list. This would also eliminate the only right-handed batter in the list, Barnes.
+Criticism.
+Despite its simple calculation, OPS is a controversial measurement. OPS weighs on-base percentage and slugging percentage equally. However, on-base percentage correlates better with scoring runs. Statistics such as wOBA build on this distinction using linear weights. Additionally, the components of OPS are not typically equal (league-average slugging percentages are usually 75–100 points higher than league-average on-base percentages). As a point of reference, the OPS for all of Major League Baseball in 2019 was .758.
+

@@ -1,0 +1,3 @@
+A reduced instruction set computing (acronym RISC pronounced "risk"), represents a CPU design method to simplify instructions which "do less" but provide higher performance by making instructions execute very fast.
+RISC was developed as an alternative to what is now known as CISC. However, there are CPU designs other than RISC and CISC. Some examples are VLIW, MISC, OISC, massive parallel processing, systolic array, reconfigurable computing, and dataflow architecture.
+Well known RISC processors include Alpha, ARC, ARM, AVR, MIPS, PA-RISC, PIC, Power Architecture (including PowerPC), SuperH, and SPARC.

@@ -1,0 +1,1 @@
+Copy-on-write is a means of optimisation in Computer Science. When several callers ask for the same resource, they can all be given a pointer to the same address. Only when they try to change the resource does a local copy need to be made. This happens without the caller noticing. It is done so that all the other callers do not see the change they did not do.

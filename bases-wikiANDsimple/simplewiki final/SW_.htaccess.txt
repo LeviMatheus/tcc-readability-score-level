@@ -1,0 +1,4 @@
+.htaccess is a type of computer file for the Internet..htaccess files can be used to create custom error pages, or to prevent visitors from directly linking pictures, also known as hot-linking to their own sites, costing the website owner money.
+.htaccess files can only work with website creators that allow mod rewrite.
+Preventing Direct or Hot-Linking.
+A.htaccess file is put onto the website, so that people will not be able to go onto the URL of the image (picture) (example: www.website.com/image.filetype). Owners can replace this picture, after they upload the file, with a message, or it can be made to redirect to an error page.

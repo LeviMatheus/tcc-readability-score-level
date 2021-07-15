@@ -1,0 +1,29 @@
+
+A genus–differentia definition is a type of intensional definition, and it is composed of two parts:
+For example, consider these two definitions:
+Those definitions can be expressed as one genus and two "differentiae":
+The use of genus and differentia in constructing definitions goes back at least as far as Aristotle (384–322 BCE).
+Differentiation and Abstraction.
+The process of producing new definitions by "extending" existing definitions is commonly known as differentiation (and also as derivation). The reverse process, by which just part of an existing definition is used itself as a new definition, is called abstraction; the new definition is called "an abstraction" and it is said to have been "abstracted away from" the existing definition.
+For instance, consider the following:
+A part of that definition may be singled out (using parentheses here):
+and with that part, an abstraction may be formed:
+Then, the definition of "a square" may be recast with that abstraction as its genus:
+Similarly, the definition of "a square" may be rearranged and another portion singled out:
+leading to the following abstraction:
+Then, the definition of "a square" may be recast with that abstraction as its genus:
+In fact, the definition of "a square" may be recast in terms of both of the abstractions, where one acts as the genus and the other acts as the differentia:
+Hence, abstraction is crucial in simplifying definitions.
+Multiplicity.
+When multiple definitions could serve equally well, then all such definitions apply simultaneously. Thus, "a square" is a member of both the genus "[a] rectangle" and the genus "[a] rhombus". In such a case, it is notationally convenient to consolidate the definitions into one definition that is expressed with multiple genera (and possibly no differentia, as in the following):
+or completely equivalently:
+More generally, a collection of formula_1 equivalent definitions (each of which is expressed with one unique genus) can be recast as one definition that is expressed with formula_2 genera. Thus, the following:
+could be recast as:
+Structure.
+A genus of a definition provides a means by which to specify an "is-a relationship":
+The non-genus portion of the differentia of a definition provides a means by which to specify a "has-a relationship":
+When a system of definitions is constructed with genera and differentiae, the definitions can be thought of as nodes forming a hierarchy or—more generally—a directed acyclic graph; a node that has no predecessor is "a most general definition"; each node along a directed path is "more differentiated (or "more derived) than any one of its predecessors, and a node with no successor is "a most differentiated" (or "a most derived") definition.
+When a definition, "S", is the tail of each of its successors (that is, "S" has at least one successor and each direct successor of "S" is a most differentiated definition), then "S" is often called "the species of each of its successors, and each direct successor of "S" is often called "an individual (or "an entity") of the species "S"; that is, the genus of an individual is synonymously called "the species" of that individual. Furthermore, the differentia of an individual is synonymously called "the identity" of that individual. For instance, consider the following definition:
+In this case:
+As in that example, the identity itself (or some part of it) is often used to refer to the entire individual, a phenomenon that is known in linguistics as a "pars pro toto synecdoche".
+

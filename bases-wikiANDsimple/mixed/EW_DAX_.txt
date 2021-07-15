@@ -1,0 +1,17 @@
+
+The DAX ("Deutscher Aktienindex" (German stock index)) is a blue chip stock market index consisting of the 30 major German companies trading on the Frankfurt Stock Exchange. Prices are taken from the Xetra trading venue. According to Deutsche Börse, the operator of Xetra, DAX measures the performance of the Prime Standard’s 30 largest German companies in terms of order book volume and market capitalization. It is the equivalent of the FTSE 100 and the Dow Jones Industrial Average, and because of its small selection it does not necessarily represent the vitality of the economy as a whole.
+The L-DAX Index is an indicator of the German benchmark DAX index's performance after the Xetra trading venue closes based on the floor trading at the Börse Frankfurt trading venue. The L-DAX Index basis is the "floor" trade ("Parketthandel") at the Frankfurt stock exchange; it is computed daily between 08:00 and 17:45 Hours CET. The L/E-DAX index (Late/Early DAX) is calculated from 17:45 to 20:00 CET and from 08:00 to 09:00 CET. The Eurex, a European electronic futures and options exchange based in Zürich, Switzerland with a subsidiary in Frankfurt, Germany, offers options (ODAX) and Futures (FDAX) on the DAX from 08:00 to 22:00 CET.
+The Base date for the DAX is 30 December 1987, and it was started from a base value of 1,000. The Xetra technology calculates the index every second since 1 January 2006.
+On Nov 24, 2020, Deutsche Börse announced an expansion of the DAX from 30 to 40 members and a tightening of rules in response to the Wirecard accounting scandal. The expansion will occur in the 3rd quarter of 2021.
+Versions.
+The DAX has two versions, called performance index and price index, depending on whether dividends are counted. The performance index, which measures total return, is the more commonly quoted, however the price index is more similar to commonly quoted indexes in other countries.
+Price history.
+On March 16, 2015, the performance index first closed above 12,000. On April 10, 2015, the price index first closed above its closing high from 2000.
+Annual returns.
+The following table shows the annual development of the DAX, calculated retroactively up to 1950.
+Components.
+Below is the list of companies which are a component of the DAX 30, as of September 21, 2020. The current stock prices and list of DAX companies are available from financial websites. The index weighting refers to the DAX performance index.
+&lt;/small&gt;
+Former DAX components.
+This table lists former DAX components and the companies which replaced them.
+

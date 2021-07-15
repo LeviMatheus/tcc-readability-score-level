@@ -1,0 +1,75 @@
+
+The Compiler Language With No Pronounceable Acronym (INTERCAL) is an esoteric programming language that was created as a parody by Don Woods and James M. Lyon, two Princeton University students, in 1972. It satirizes aspects of the various programming languages at the time, as well as the proliferation of proposed language constructs and notations in the 1960s.
+There are two maintained implementations of INTERCAL dialects: C-INTERCAL (created in 1990), maintained by Eric S. Raymond and Alex Smith, and CLC-INTERCAL, maintained by Claudio Calvelli. , both implementations were available in the Debian Software Archive.
+History.
+According to the original manual by the authors,
+The original Princeton implementation used punched cards and the EBCDIC character set. To allow INTERCAL to run on computers using ASCII, substitutions for two characters had to be made: codice_1 substituted for codice_2 as the "mingle" operator, "represent[ing] the increasing cost of software in relation to hardware", and codice_3 was substituted for codice_4 as the unary exclusive-or operator to "correctly express the average person's reaction on first encountering exclusive-or". In recent versions of C-INTERCAL, the older operators are supported as alternatives; INTERCAL programs may now be encoded in ASCII, Latin-1, or UTF-8.
+Version numbers.
+C-INTERCAL swaps the major and minor version numbers, compared to tradition. The HISTORY file shows releases starting at version 0.3 and having progressed to 0.31, but containing 1.26 between 0.26 and 0.27.
+CLC-INTERCAL version numbering scheme was traditional until version 0.06, when it changed to the scheme documented in the README file, which says:
+ * The term "version" has been replaced by "perversion" for correctness
+ * The perversion number consists of a floating-point number with
+ independent signs for the integer and fractional part. Negative
+ fractions indicate pre-escapes (so 1.-94 means "94 pre-escapes to
+ go before 1.00". Or you can just add the numbers together and get
+ 0.06, which is entirely a coincidence since 0.06 is not being
+ developed)
+ * The fractional part of a perversion number can be integer or floating
+ point, with a similar meaning for the parts. The current pre-escape is
+ 1.-94.-2 which means "2 pre-pre-escapes to go before pre-escape 1.-94".
+Details.
+INTERCAL was intended to be completely different from all other computer languages. Common operations in other languages have cryptic and redundant syntax in INTERCAL. From the INTERCAL Reference Manual:
+INTERCAL has many other features designed to make it even more aesthetically unpleasing to the programmer: it uses statements such as "READ OUT", "IGNORE", "FORGET", and modifiers such as "PLEASE". This last keyword provides two reasons for the program's rejection by the compiler: if "PLEASE" does not appear often enough, the program is considered insufficiently polite, and the error message says this; if too often, the program could be rejected as excessively polite. Although this feature existed in the original INTERCAL compiler, it was undocumented.
+Despite the language's intentionally obtuse and wordy syntax, INTERCAL is nevertheless Turing-complete: given enough memory, INTERCAL can solve any problem that a Universal Turing machine can solve. Most implementations of INTERCAL do this very slowly, however. A Sieve of Eratosthenes benchmark, computing all prime numbers less than 65536, was tested on a Sun SPARCstation 1 in 1992. In C, it took less than half a second; the same program in INTERCAL took over seventeen hours.
+Documentation.
+The INTERCAL Reference Manual contains many paradoxical, nonsensical, or otherwise humorous instructions:
+The manual also contains a "tonsil", as explained in this footnote: "4) Since all other reference manuals have appendices, it was decided that the INTERCAL manual should contain some other type of removable organ."
+The INTERCAL manual gives unusual names to all non-alphanumeric ASCII characters: single and double quotes are "sparks" and "rabbit ears" respectively. (The exception is the ampersand: as the Jargon File states, "what could be sillier?") The assignment operator, represented as an equals sign (INTERCAL's "half mesh") in many other programming languages, is in INTERCAL a left-arrow, codice_5, made up of an "angle" and a "worm", obviously read as "gets".
+Syntax.
+Input (using the codice_6 instruction) and output (using the codice_7 instruction) do not use the usual formats; in INTERCAL-72, WRITE IN inputs a number written out as digits in English (such as SIX FIVE FIVE THREE FIVE), and READ OUT outputs it in "butchered" Roman numerals. More recent versions have their own I/O systems.
+Comments can be achieved by using the inverted statement identifiers involving NOT or N'T; these cause lines to be initially ABSTAINed so that they have no effect. (A line can be ABSTAINed from even if it doesn't have valid syntax; syntax errors happen at runtime, and only then when the line is un-ABSTAINed.)
+Data structures.
+INTERCAL-72 (the original version of INTERCAL) had only four data types: the 16-bit integer (represented with a codice_8, called a "spot"), the 32-bit integer (codice_9, a "twospot"), the array of 16-bit integers (codice_10, a "tail"), and the array of 32-bit integers (codice_11, a "hybrid"). There are 65535 available variables of each type, numbered from codice_12 to codice_13 for 16-bit integers, for instance. However, each of these variables has its own stack on which it can be pushed and popped (STASHed and RETRIEVEd, in INTERCAL terminology), increasing the possible complexity of data structures. More modern versions of INTERCAL have by and large kept the same data structures, with appropriate modifications; TriINTERCAL, which modifies the radix with which numbers are represented, can use a 10-trit type rather than a 16-bit type, and CLC-INTERCAL implements many of its own data structures, such as "classes and lectures", by making the basic data types store more information rather than adding new types. Arrays are dimensioned by assigning to them as if they were a scalar variable. Constants can also be used, and are represented by a codice_14 ("mesh") followed by the constant itself, written as a decimal number; only integer constants from 0 to 65535 are supported.
+Operators.
+There are only five operators in INTERCAL-72. Implementations vary in which characters represent which operation, and many accept more than one character, so more than one possibility is given for many of the operators.
+Contrary to most other languages, AND, OR, and XOR are unary operators, which work on consecutive bits of their argument; the most significant bit of the result is the operator applied to the least significant and most significant bits of the input, the second-most-significant bit of the result is the operator applied to the most and second-most significant bits, the third-most-significant bit of the result is the operator applied to the second-most and third-most bits, and so on. The operator is placed between the punctuation mark specifying a variable name or constant and the number that specifies which variable it is, or just inside grouping marks (i.e. one character later than it would be in programming languages like C.) SELECT and INTERLEAVE (which is also known as MINGLE) are infix binary operators; SELECT takes the bits of its first operand that correspond to "1" bits of its second operand and removes the bits that correspond to "0" bits, shifting towards the least significant bit and padding with zeroes (so 51 (110011 in binary) SELECT 21 (10101 in binary) is 5 (101 in binary)); MINGLE alternates bits from its first and second operands (in such a way that the least significant bit of its second operand is the least significant bit of the result). There is no operator precedence; grouping marks must be used to disambiguate the precedence where it would otherwise be ambiguous (the grouping marks available are codice_15 ("spark"), which matches another spark, and codice_16 ("rabbit ears"), which matches another rabbit ears; the programmer is responsible for using these in such a way that they make the expression unambiguous).
+Control structures.
+INTERCAL statements all start with a "statement identifier"; in INTERCAL-72, this can be codice_17, codice_18, or codice_19, all of which mean the same to the program (but using one of these too heavily causes the program to be rejected, an undocumented feature in INTERCAL-72 that was mentioned in the C-INTERCAL manual), or an inverted form (with codice_20 or codice_21 appended to the identifier). Backtracking INTERCAL, a modern variant, also allows variants using codice_22 (possibly combined with PLEASE or DO) as a statement identifier, which introduces a choice-point. Before the identifier, an optional line number (an integer enclosed in parentheses) can be given; after the identifier, a percent chance of the line executing can be given in the format codice_23, which defaults to 100%.
+In INTERCAL-72, the main control structures are NEXT, RESUME, and FORGET. codice_24 branches to the line specified, remembering the next line that would be executed if it weren't for the NEXT on a call stack (other identifiers than DO can be used on any statement, DO is given as an example); codice_25 removes "expression" entries from the top of the call stack (this is useful to avoid the error that otherwise happens when there are more than 80 entries), and codice_26 removes "expression" entries from the call stack and jumps to the last line remembered.
+C-INTERCAL also provides the COME FROM instruction, written codice_27; CLC-INTERCAL and the most recent C-INTERCAL versions also provide computed COME FROM (codice_28 and NEXT FROM, which is like COME FROM but also saves a return address on the NEXT STACK.
+Alternative ways to affect program flow, originally available in INTERCAL-72, are to use the IGNORE and REMEMBER instructions on variables (which cause writes to the variable to be silently ignored and to take effect again, so that instructions can be disabled by causing them to have no effect), and the ABSTAIN and REINSTATE instructions on lines or on types of statement, causing the lines to have no effect or to have an effect again respectively.
+Hello, world.
+The traditional "Hello, world!" program demonstrates how different INTERCAL is from standard programming languages. In C, it could read as follows:
+int main(void) {
+ printf("Hello, world!\n");
+ return 0;
+The equivalent program in C-INTERCAL is longer and harder to read:
+DO ,1 &lt;- #13
+PLEASE DO ,1 SUB #1 &lt;- #238
+DO ,1 SUB #2 &lt;- #108
+DO ,1 SUB #3 &lt;- #112
+DO ,1 SUB #4 &lt;- #0
+DO ,1 SUB #5 &lt;- #64
+DO ,1 SUB #6 &lt;- #194
+DO ,1 SUB #7 &lt;- #48
+PLEASE DO ,1 SUB #8 &lt;- #22
+DO ,1 SUB #9 &lt;- #248
+DO ,1 SUB #10 &lt;- #168
+DO ,1 SUB #11 &lt;- #24
+DO ,1 SUB #12 &lt;- #16
+DO ,1 SUB #13 &lt;- #162
+PLEASE READ OUT ,1
+PLEASE GIVE UP
+Dialects.
+The original Woods–Lyon INTERCAL was very limited in its input/output capabilities: the only acceptable input were numbers with the digits spelled out, and the only output was an extended version of Roman numerals.
+The C-INTERCAL reimplementation, being available on the Internet, has made the language more popular with devotees of esoteric programming languages. The C-INTERCAL dialect has a few differences from original INTERCAL and introduced a few new features, such as a COME FROM statement and a means of doing text I/O based on the Turing Text Model.
+The authors of C-INTERCAL also created the TriINTERCAL variant, based on the Ternary numeral system and generalizing INTERCAL's set of operators.
+A more recent variant is Threaded Intercal, which extends the functionality of COME FROM to support multithreading.
+CLC-INTERCAL has a library called INTERNET for networking functionality including being an INTERCAL server, and also includes features such as Quantum Intercal, which enables multi-value calculations in a way purportedly ready for the first quantum computers.
+In early 2017 a .NET Implementation targeting the .NET Framework appeared on GitHub. This implementation supports the creation of standalone binary libraries and interop with other programming languages. 
+Impact and discussion.
+In the article "A Box, Darkly: Obfuscation, Weird Languages, and Code Aesthetics", INTERCAL is described under the heading "Abandon all sanity, ye who enter here: INTERCAL". The compiler and commenting strategy are among the "weird" features described:
+In "Technomasochism", Lev Bratishenko characterizes the INTERCAL compiler as a dominatrix:
+Popular culture.
+The Nitrome Enjoyment System, a fictional video game console created by British indie game developer Nitrome, has games which are programmed in INTERCAL.
+

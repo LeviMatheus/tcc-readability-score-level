@@ -1,0 +1,4 @@
+In mathematics, the former differential coefficient of a function "f"("x") is now called its derivative "df"("x")/"dx". It is the (not necessarily constant) multiplicative factor or "coefficient" of the differential "dx" in the differential "df"("x").
+The differential coefficient of "f" is a constant function only if "f" is a linear function.
+The term "differential coefficient" is out of use now.
+Early editions of Silvanus P. Thompson's "Calculus Made Easy" use the older term. In his 1998 update of this text, "Martin Gardner" puts "derivative" instead of "differential coefficient". He speaks of it only in context with Thompson's criticism of the term.

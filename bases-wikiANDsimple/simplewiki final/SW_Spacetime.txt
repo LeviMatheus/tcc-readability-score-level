@@ -1,0 +1,9 @@
+Spacetime is a model in physics that joins the three dimensional space and one dimensional time into the idea of space-time continuum. Combining these two ideas helped physicists to make many laws of physics easier to understand, and to explain how the universe works on the big level (e.g., stars) and small level (e.g., atoms).
+The actual number of dimensions in spacetime is not fixed, but usually spacetime means a four dimensional (three dimensions of space and one dimension of time) spacetime. Some other theories claim that there are more than four dimensions.
+Historical origin.
+Many people link spacetime with Albert Einstein who found special relativity. However, it was Einstein's teacher, Hermann Minkowski, who suggested this idea. He hoped this new idea would clarify the theory of special relativity.
+Spacetime in general relativity.
+In general relativity, spacetime is curved by the existence of matter, energy, and momentum, as said by the Einstein field equations.
+Many continuous space-time leads to strange physical understanding. For this reason, many mathematical physicists (physicists who use math to physical questions) study only seemingly real set of spacetime.
+Spacetime in quantum mechanics and disagreements.
+In general relativity, spacetime is thought as smooth and continuous. However in the theory of quantum mechanics, spacetime is not always continuous.

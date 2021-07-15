@@ -1,0 +1,7 @@
+
+A guided ray (also bound ray or trapped ray) is a ray of light in a multi-mode optical fiber, which is confined by the core.
+For step index fiber, light entering the fiber will be guided if it falls within the acceptance cone of the fiber, that is if it makes an angle with the fiber axis that is less than the acceptance angle,
+where
+The quantity formula_2 is the numerical aperture of the fiber. The quantity formula_3 is sometimes called the "total acceptance angle" of the fiber.
+This result can be derived from Snell's law by considering the critical angle. Light that enters the core with an angle below the acceptance angle strikes the core-cladding boundary at an angle above the critical angle, and experiences total internal reflection. This repeats on every bounce within the fiber core, and so the light is confined to the core. The confinement of light by the fiber can also be described in terms of bound modes or guided modes. This treatment is necessary when considering singlemode fiber, since the ray model does not accurately describe the propagation of light in this type of fiber.
+

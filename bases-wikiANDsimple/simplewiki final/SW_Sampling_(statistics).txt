@@ -1,0 +1,1 @@
+Sampling is a method used in statistics to choose data from a data source.It is a process of selecting a sample from a population.Sampling reduces the demand on resources like finance, manpower, duration and materials. There are two types of sampling Random or Probability sampling and non probability or non random sampling.

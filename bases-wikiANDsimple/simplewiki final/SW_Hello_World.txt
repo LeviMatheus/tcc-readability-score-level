@@ -1,0 +1,1 @@
+"Hello, World!" is usually a program made by computer programmers that are new to a programming language. It will simply put the text "Hello, World!" on the screen.

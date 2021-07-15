@@ -1,0 +1,3 @@
+Error detection and correction is the name for a number of technologies that are used to make sure that information or data is not corrupted, that it still makes sense.
+Detecting an error.
+There are different ways to make sure an error can be detected. This is done by adding more data or information to the data transmitted. Adding more data than needed is called redundancy.

@@ -1,0 +1,6 @@
+The Advanced Technology Attachment with Packet Interface (ATA/ATAPI) is a way to connect storage devices, such as Hard disks, solid-state drives, and CD-ROM drives inside personal computers.
+The standard is maintained by X3/INCITS committee.
+ATA/ATAPI is the result of a long history of development. ATA/ATAPI is an evolution of the AT Attachment Interface, which was itself evolved in several stages from Western Digital's original Integrated Drive Electronics interface. As a result, many near-synonyms for ATA/ATAPI and its previous incarnations exist, including abbreviations such as IDE which are still in common informal use. With the market introduction of Serial ATA in 2003, the original ATA was retroactively renamed Parallel ATA (PATA).
+Parallel ATA standards allow cable lengths up to only 18 inches (46 centimeters). Because of this length limit the technology normally appears as an internal computer storage interface.
+For many years ATA provided the most common and the least expensive interface for this application.
+As of 2007, it has largely been replaced by Serial ATA (SATA) in new systems.

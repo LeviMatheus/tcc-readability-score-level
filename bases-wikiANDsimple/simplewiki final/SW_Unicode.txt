@@ -1,0 +1,2 @@
+Unicode is a standard for computers to make them able to show text in different languages. Unicode standards are created by the Unicode Consortium. Their goal is to replace current character encoding standards with a single world-wide standard for all languages. There are almost 100,000 characters in the latest definition of Unicode.
+UTF8 is the most common of these. It is used for electronic mail, Java also uses a variant of it.

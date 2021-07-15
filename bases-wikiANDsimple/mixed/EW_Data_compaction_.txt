@@ -1,0 +1,7 @@
+
+In telecommunication, data compaction is the reduction of the number of data elements, bandwidth, cost, and time for the generation, transmission, and storage of data without loss of information by eliminating unnecessary redundancy, removing irrelevancy, or using special coding. 
+Examples of data compaction methods are the use of fixed-tolerance bands, variable-tolerance bands, slope-keypoints, sample changes, curve patterns, curve fitting, variable-precision coding, frequency analysis, and probability analysis. 
+Simply squeezing noncompacted data into a smaller space, for example by increasing packing density by transferring images from newsprint to microfilm or by transferring data on punched cards onto magnetic tape, is not data compaction.
+Everyday examples.
+The use of acronyms in texting is an everyday example. The number of bits required to transmit and store "WYSIWYG" (What You See Is What You Get) is reduced from its expanded equivalent (7 characters vs 28). The representation of Mersenne primes is another example. The largest known is over 17 million digits long but it is represented as "M"57885161 in a much more compacted form.
+

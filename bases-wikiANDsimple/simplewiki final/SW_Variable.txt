@@ -1,0 +1,4 @@
+A variable is a special type of amount or quantity which can change its value. They are often used in programming computers or in mathematical equations.
+A number such as 5 or 200 cannot change its value. For example, if a person stands 5 feet away from a building, the "distance" variable compared to the building does not change over time. 5 feet is called a "fixed amount", which is the opposite of a variable amount.
+But if a person walks away from the building, the distance variable compared to the building is increasing. So it does not have the same value and we can not use the same number for it, as it might be 1 foot now but 2 feet in a second's time. In mathematics, a variable is usually given a letter, such as "x" or "y".
+In computer science, a variable does not have to be a number—it may be a string (text) value, or a date, or an amount of money, or even an object such as a picture.

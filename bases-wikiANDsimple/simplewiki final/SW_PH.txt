@@ -1,0 +1,8 @@
+pH (Potential of Hydrogen) is a scale of acidity from 0 to 14. It tells how acidic or alkaline a substance is.
+The lower the pH, the more acidic is the solution. The higher the pH, the more alkaline is the solution. Substances which are not acidic or alkaline (neutral) usually have a pH of 7.
+Acids have a pH less than 7. Alkalis have a pH greater than 7.
+There are a lot of ways for finding the pH of some chemical. One way is by using a red or blue litmus paper. The pH paper is able to tell how strong the chemical is, whether it is a stronger acid or a stronger base.
+In fact, pH is a measure of the concentration of protons (H+) in a solution. S.P.L. Sørensen introduced this concept in 1909. The p stands for the German "potenz", meaning power or concentration, and the H for the hydrogen ion (H+).
+[H+] indicates the concentration of H+ ions (also written [H3O+], concentration of the equivalent hydronium ions), measured in moles per litre (also known as molarity).
+Most substances have a pH in the range 0 to 14, although extremely acidic or basic substances may have pH < 0, or pH > 14.
+Basic substances have, instead of Hydrogen ions, a concentration of Hydroxide ions (OH-).

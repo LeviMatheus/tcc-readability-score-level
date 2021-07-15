@@ -1,0 +1,159 @@
+
+Latin declension is the set of patterns according to which Latin words are declined, or have their endings altered to show grammatical case, number and gender. Nouns, pronouns, and adjectives are declined (verbs are conjugated), and a given pattern is called a declension. There are five declensions, which are numbered and grouped by ending and grammatical gender. Each noun follows one of the five declensions, but some irregular nouns have exceptions.
+Adjectives are of two kinds: those like 'good' use first-declension endings for the feminine, and second-declension for masculine and neuter. Other adjectives such as belong to the third declension. There are no fourth- or fifth-declension adjectives.
+Pronouns are also of two kinds, the personal pronouns such as 'I' and 'you ()', which have their own irregular declension, and the third-person pronouns such as 'this' and 'that' which can generally be used either as pronouns or adjectivally. These latter decline in a similar way to the first and second noun declensions, but there are differences; for example the genitive singular ends in "-īus" or "-ius" instead of "-ī" or "-ae".
+The cardinal numbers 'one', 'two', and 'three' also have their own declensions ("ūnus" has genitive "-īus" like a pronoun), and there are also numeral adjectives such as 'a pair, two each', which decline like ordinary adjectives.
+Grammatical cases.
+A complete Latin noun declension consists of up to seven grammatical cases: nominative, vocative, accusative, genitive, dative, ablative and locative. However, the locative is limited to few nouns: generally names of cities, small islands and a few other words.
+The case names are often abbreviated to the first three letters.
+Order of cases.
+The grammarian Aelius Donatus (4th century AD), whose work was used as standard throughout the Middle Ages, placed the cases in this order:
+This order was based on the order used by earlier Greek grammarians, with the addition of the ablative, which does not exist in Greek. The names of the cases also were mostly translated from the Greek terms, such as from the Greek .
+The traditional order was formerly used in England, for example in "The School and University Eton Latin Grammar" (1861). and it is also still used in Germany and most European countries. Gildersleeve and Lodge's "Latin Grammar" of 1895, also follows this order. More recent American grammars, such as Allen and Greenough's "New Latin Grammar" (1903) and Wheelock's Latin (first published in 1956), use this order but with the vocative at the end. 
+However, in Britain and countries influenced by Britain, the Latin cases are usually given in the following order: nominative, vocative, accusative, genitive, dative, ablative. This order was first introduced in Benjamin Hall Kennedy's "Latin Primer" (1866), with the aim of making tables of declensions easier to recite and memorise. It is also used in France and Belgium.
+Syncretism.
+Syncretism, where one form in a paradigm shares the ending of another form in the paradigm, is common in Latin. The following are the most notable patterns of syncretism:
+History of cases.
+Old Latin had essentially two patterns of endings. One pattern was shared by the first and second declensions, which derived from the Proto-Indo-European thematic declension. The other pattern was used by the third, fourth and fifth declensions, and derived from the athematic PIE declension.
+Nouns.
+There are two principal parts for Latin nouns: the nominative singular and the genitive singular. Each declension can be unequivocally identified by the ending of the genitive singular (-"ae", -"i", -"is", -"ūs", -"ei"). The stem of the noun can be identified by the form of the genitive singular as well.
+There are five declensions for Latin nouns:
+First declension ("a" stems).
+Nouns of this declension usually end in "-a" in the nominative singular and are mostly feminine, e.g. ('road') and ('water'). There is a small class of masculine exceptions generally referring to occupations, e.g. ('poet'), ('farmer') and ('sailor').
+The predominant letter in the ending forms of this declension is "a". The nominative singular form consists of the stem and the ending "-a", and the genitive singular form is the stem plus "-ae".
+The locative endings for the first declension are "-ae" (singular) and "-īs" (plural), similar to the genitive singular and ablative plural, as in ' 'in war' and ' 'at Athens'.
+First declension Greek nouns.
+The first declension also includes three types of Greek loanwords, derived from Ancient Greek's alpha declension. They are declined irregularly in the singular, but sometimes treated as native Latin nouns, e.g. nominative ('athlete') instead of the original "athlētēs. Archaic (Homeric) first declension Greek nouns and adjectives had been formed in exactly the same way as in Latin: "nephelēgeréta Zeus" ('Zeus the cloud-gatherer') had in classical Greek become "nephelēgerétēs.
+For full paradigm tables and more detailed information, see the Wiktionary appendix First declension.
+Second declension ("o" stems).
+The second declension is a large group of nouns consisting of mostly masculine nouns like ('horse') and ('boy') and neuter nouns like ('fort'). There are several small groups of feminine exceptions, including names of gemstones, plants, trees, and some towns and cities.
+In the nominative singular, most masculine nouns consist of the stem and the ending "-us", although some end in "-er", which is not necessarily attached to the complete stem. Neuter nouns generally have a nominative singular consisting of the stem and the ending "-um". However, every second-declension noun has the ending "-ī" attached as a suffix to the root of the noun in the genitive singular form. The predominant letter in the ending forms of this declension is "o".
+The locative endings for the second declension are "-ī" (singular) and "-īs" (plural); "at Corinth", "at Milan", and "at Philippi".
+Second-declension "-ius" and "-ium" nouns.
+Nouns ending in "-ius" and "-ium" have a genitive singular in "-ī" in earlier Latin, which was regularized to "-iī" in the later language. Masculine nouns in "-ius" have a vocative singular in "-ī" at all stages. These forms in "-ī" are stressed on the same syllable as the nominative singular, sometimes in violation of the usual Latin stress rule. For example, the genitive and vocative singular "Vergilī" (from ) is pronounced "Vergílī", with stress on the penult, even though it is short. In Old Latin, however, the vocative was declined regularly, using "-ie" instead, e.g. "fīlie" "[O] son", archaic vocative of "fīlius".
+There is no contraction of "-iī(s)" in plural forms and in the locative.
+In the older language, nouns ending with "-vus", "-quus" and "-vum" take "o" rather than "u" in the nominative and accusative singular. For example, ('slave') could be "servos", accusative "servom".
+Second-declension "-r" nouns.
+Some masculine nouns of the second declension end in "-er" or "-ir" in the nominative singular. The declension of these nouns is identical to that of the regular second declension, except for the lack of suffix in the nominative and vocative singular.
+Some (but not all) nouns in "-er" drop the "e" genitive and other cases. For example, ('father-in-law') keeps its "e". However, the noun ('(school)master') drops its "e" in the genitive singular. 
+For declension tables of second-declension nouns, see the .
+The vocative "puere" is found but only in Plautus. The genitive plural "virum" is found in poetry.
+Second-declension Greek nouns.
+The second declension contains two types of masculine Greek nouns and one form of neuter Greek noun. These nouns are irregular only in the singular, as are their first-declension counterparts. Greek nouns in the second declension are derived from the Omicron declension.
+Some Greek nouns may also be declined as normal Latin nouns. For example, can appear as "theātrum".
+Irregular forms.
+Deus.
+The inflection of ('god') is irregular. The vocative singular of "deus" is not attested in Classical Latin. In Ecclesiastical Latin the vocative of "Deus" ('God') is "Deus".
+In poetry, "-um" may substitute "-ōrum" as the genitive plural ending.
+Virus.
+The Latin word "vīrus" (the "ī" indicates a long "i") means "1. slimy liquid, slime; 2. poison, venom", denoting the venom of a snake. This Latin word is probably related to the Greek ("ios") meaning "venom" or "rust" and the Sanskrit word "" meaning "toxic, poison".
+Since "vīrus" in antiquity denoted something uncountable, it was a mass noun. Mass nouns pluralize only under special circumstances, hence the non-existence of plural forms in the texts.
+In Neo-Latin, a plural form is necessary in order to express the modern concept of ‘viruses’, which leads to the following declension:
+Third declension.
+The third declension is the largest group of nouns. The nominative singular of these nouns may end in "-a", "-e", "-ī", "-ō", "-y", "-c", "-l", "-n", "-r", "-s", "-t", or "-x". This group of nouns includes masculine, neuter, and feminine nouns.
+Consonant stems.
+The stem of a consonant-stem noun may be found from the genitive case by removing the ending "-is". For example, the stem of 'peace' is "pāc-," the stem of 'river' is "flūmin-", and the stem of 'flower' is "flōr-."
+Masculine, feminine and neuter nouns often have their own special nominative singular endings. For instance, many masculine nouns end in "-or" (, 'love'). Many feminine nouns end in "-īx" (, 'phoenix'), and many neuter nouns end in "-us" with an "r" stem in the oblique cases ( 'burden'; 'time').
+The locative endings for the third declension are "-ī" or "-e" (singular) and "-ibus" (plural), as in 'in the country' and 'at Tralles'.
+Third declension "i"-stem and mixed nouns.
+The third declension also has a set of nouns that are declined differently. They are called "i"-stems. "i"-stems are broken into two subcategories: pure and mixed. Pure "i"-stems are indicated by special neuter endings. Mixed "i"-stems are indicated by the double consonant rule. Stems indicated by the parisyllabic rule are usually mixed, occasionally pure.
+The mixed declension is distinguished from the consonant type only by having "-ium" in the genitive plural (and occasionally "-īs" in the accusative plural). The pure declension is characterized by having "-ī" in the ablative singular, "-ium" in the genitive plural, "-ia" in the nominative and accusative plural neuter, and "-im" in the accusative singular masculine and feminine (however, adjectives have "-em").
+The accusative plural ending "-īs" is found in early Latin up to Virgil, but from the early empire onwards it was replaced by "-ēs".
+The accusative singular ending "-im" is found only in a few words: always in 'cough', 'thirst', 'River Tiber'; usually in 'axe', 'tower'; occasionally in 'ship'. Most nouns, however, have accusative singular "-em".
+The ablative singular "-ī" is found in nouns which have "-im", and also, optionally, in some other nouns, e.g. or 'in the fire'.
+There are two mixed-declension neuter nouns: ('heart') and ('bone'). Also, the mixed declension is used in the plural-only adjective ('most').
+The rules for determining "i"-stems from non-"i"-stems and mixed "i"-stems are guidelines rather than rules: many words that might be expected to be "i"-stems according to the parisyllabic rule actually are not, such as ('dog') or ('youth'), which have genitive plural 'of dogs' and 'of young men'. Likewise, ('father'), ('mother'), ('brother'), and ('parent') violate the double-consonant rule. This fluidity even in Roman times resulted in much more uncertainty in Medieval Latin.
+Some nouns in "-tāt-", such as 'city, community' can have either consonant-stem or "i"-stem genitive plural: or 'of the cities'.
+Peculiarities.
+In the third declension, there are four irregular nouns.
+Fourth declension ("u" stems).
+The fourth declension is a group of nouns consisting of mostly masculine words such as ('wave') and ('port') with a few feminine exceptions, including ('hand'). The fourth declension also includes several neuter nouns including ('knee'). Each noun has the ending "-ūs" as a suffix attached to the root of the noun in the genitive singular form. The predominant letter in the ending forms of this declension is "u", but the declension is otherwise very similar to the third-declension "i" stems.
+In the dative and ablative plural, "-ibus" is sometimes replaced with "-ubus". This is so for only a few nouns, such as , ('limbs').
+The locative endings for the fourth declension are "-ī" (singular), and probably "-ū" (singular) as well; "at [the] senate", "at home".
+ ('house, dwelling, building, home, native place, family, household, race') is an irregular noun, mixing fourth and second declension nouns at the same time (especially in literature). However, in practice, it is generally declined as a regular "-us" stem fourth declension noun (except by the ablative singular and accusative plural, using "-ō" and "-ōs" instead).
+Fifth declension ("e" stems).
+The fifth declension is a small group of nouns consisting of mostly feminine nouns like ('affair, matter, thing') and "diēs, diēī" ('day'; but in names of days). Each noun has either the ending "-ēī" or "-eī" as a suffix attached to the root of the noun in the genitive singular form.
+Nouns ending in "-iēs" have long "ēī" in the dative and genitive, while nouns ending in a consonant + "-ēs" have short "eī" in these cases.
+The locative ending of the fifth declension was "-ē" (singular only), identical to the ablative singular, as in ('today').
+Pronouns.
+Personal pronouns.
+The first and second persons are irregular, and both pronouns are indeclinable for gender; and the third person reflexive pronoun sē, suī always refers back to the subject, regardless of whether the subject is singular or plural.
+The genitive forms , , , , are used as complements in certain grammatical constructions, whereas , are used with a partitive meaning ('[one] of us', '[one] of you'). To express possession, the possessive pronouns (essentially adjectives) , , , are used, declined in the first and second declensions to agree in number and case with the thing possessed, e.g. "pater meus" 'my father', "māter mea" 'my mother'. The vocative singular masculine of "meus" is "mī": "mī Attice" 'my dear Atticus'.
+Possessive pronouns' declensions.
+The possessive adjective "vester" has an archaic variant, "voster"; similar to "noster".
+Usually, to show the ablative of accompaniment, would be added to the ablative form. However, with personal pronouns (first and second person), the reflexive and the interrogative, "-cum" is added onto the end of the ablative form. That is: 'with me', 'with us', 'with you', , and (sometimes ).
+Pronouns have also an emphatic form bi using the suffix "-met" (, /, , ), used in all cases, except by the genitive plural forms.
+In accusative case, the forms "mēmē" and "tētē" exist as emphatic, but they are not widely used.
+ has a possessive adjective: , meaning 'his/her/its/their own':
+When 'his' or 'her' refers to someone else, not the subject, the genitive pronoun "eius" (as well as "eōrum" and "eārum") 'of him' is used instead of "suus":
+When one sentence is embedded inside another with a different subject, "sē" and "suus" can refer to either subject:
+For the third-person pronoun 'he', see below.
+Demonstrative pronouns and adjectives.
+Relative, demonstrative and indefinite pronouns are generally declined like first and second declension adjectives, with the following differences:
+These differences characterize the pronominal declension, and a few special adjectives ( 'whole', 'alone', 'one', 'no', 'another', 'another [of two]', etc.) are also declined according to this pattern.
+All demonstrative, relative, and indefinite pronouns in Latin can also be used adjectivally, with some small differences; for example in the interrogative pronoun, 'who?' and 'what?' are usually used for the pronominal form, and 'which?' for the adjectival form.
+Third person pronoun.
+The weak demonstrative pronoun , , 'that' also serves as the third person pronoun 'he, she, it':
+This pronoun is also often used adjectivally, e.g. "is homo" 'that man', "ea pecunia" 'that money'. It has no possessive adjective; the genitive is used instead: "pater eius" 'his/her father'; "pater eōrum" 'their father'.
+Declension of "īdem".
+The pronoun or pronominal adjective means 'the same'. It is derived from "is" with the suffix "-dem". However, some forms have been assimilated.
+Other demonstrative pronouns.
+Similar in declension is 'another'.
+Interrogative pronouns.
+The interrogative pronouns are used strictly for asking questions. They are distinct from the relative pronoun and the interrogative adjective (which is declined like the relative pronoun). Interrogative pronouns rarely occur in the plural. The plural interrogative pronouns are the same as the plural relative pronouns.
+Adjectives.
+First- and second-declension adjectives.
+First- and second-declension adjectives are inflected in the masculine, the feminine and the neuter; the masculine form typically ends in "-us" (although some end in "-er", see below), the feminine form ends in "-a", and the neuter form ends in "-um". Therefore, some adjectives are given like .
+Adjectives ending "-ius" use the vocative "-ie" ("ēbrie", "[O] drunk man", vocative of "ēbrius"), just as in Old Latin all "-ius" nouns did ("fīlie", "[O] son", archaic vocative of "fīlius").
+First- and second-declension "-r" adjectives.
+Some first- and second-declension adjectives' masculine forms end in "-er". As with second-declension "-r" nouns, some adjectives retain the "e" throughout inflection, and some omit it. omits its "e" while keeps it.
+First and second declension pronominal adjectives.
+Nine first and second declension pronominal adjectives are irregular in the genitive and the dative in all genders. They can be remembered by using the mnemonic acronym "ūnus nauta". They are:
+Third-declension adjectives.
+Third-declension adjectives are normally declined like third-declension "i"-stem nouns, except for the fact they usually have "-ī" rather than "-e" in the ablative singular (unlike "i"-stem nouns, in which only pure i-stems have "-ī"). Some adjectives, however, like the one-ending ('old, aged'), have "-e" in the ablative singular, "-um" in the genitive plural, and "-a" in the nominative and accusative neuter plural.
+Third-declension adjectives with one ending.
+These have a single nominative ending for all genders, although as usual the endings for the other cases vary. As with nouns, a genitive is given for the purpose of showing the inflection.
+Third-declension adjectives with two endings.
+Third-declension adjectives that have two endings have one form for the masculine and feminine, and a separate form for the neuter. The ending for the masculine and feminine is "-is", and the ending for the neuter is "-e". It is not necessary to give the genitive, as it is the same as the nominative masculine singular.
+Third-declension adjectives with three endings.
+Third-declension adjectives with three endings have three separate nominative forms for all three genders. Like third and second declension "-r" nouns, the masculine ends in "-er". The feminine ends in "-ris", and the neuter ends in "-re". The genitive is the same as the nominative feminine singular.
+Comparative and superlative forms of adjectives.
+As in English, adjectives have superlative and comparative forms. For regular first and second declension and third declension adjectives with one or two endings, the comparative is formed by adding "-ior" for the masculine and feminine, and "-ius" for the neuter to the stem. The genitives for both are formed by adding "-iōris". Therefore, they are declined in the third declension, but they are not declined as "i"-stems. Superlatives are formed by adding "-issimus, -issima, -issimum" to the stem and are thus declined like first and second declension adjectives.
+Comparatives and superlatives of "-er" adjectives.
+Adjectives (in the first and second as well as third declensions) that have masculine nominative singular forms ending in "-er" are slightly different. As with normal adjectives, the comparative is formed by adding "-ior" to the stem, but for the superlative, "-rimus" is added to the nominative masculine singular.
+Comparatives and superlatives of "-lis" adjectives.
+Some third declension adjectives with two endings in "-lis" in the masculine–feminine nominative singular have irregular superlative forms. The following are the only adjectives that do.
+Comparatives and superlatives of "-eus/-ius" adjectives.
+First and second declension adjectives that end in "-eus" or "-ius" are unusual in that they do not form the comparative and superlative by taking endings at all. Instead, ('more') and ('most'), the comparative and superlative degrees of ('much, greatly'), respectively, are used.
+Many adjectives in "-uus", except those in "-quus" or "-guus", also follow this rule.
+Irregular comparatives and superlatives.
+As in most languages, Latin has adjectives that have irregular comparatives and superlatives.
+Declension of numerals.
+There are several different kinds of numeral words in Latin: the two most common are cardinal numerals and ordinal numerals. There are also several more rare numerals, e.g., distributive numerals and adverbial numerals.
+Cardinal numerals.
+All cardinal numerals are indeclinable, except ('one'), ('two'), ('three'), plural hundreds ('two hundred'), ('three hundred') etc., and ('thousand'), which have cases and genders like adjectives. is declined like a first- and second-declension pronoun with "-īus" or "-ius" in the genitive, and "-ī" in the dative. is declined irregularly, is declined like a third-declension plural adjective, "-centī" ('hundred') numerals decline like first- and second-declension adjectives, and is invariable in the singular and declined like a third-declension "i"-stem neuter noun in the plural:
+The plural endings for "ūnus" are used with "plūrālia tantum" nouns, e. g. "ūna castra" (one [military] camp), "ūnae scālae" (one ladder).
+The word ('both'), is declined like "duo" except that its "o" is long. Both declensions derive from the Indo-European dual number, otherwise defunct in Latin, rather than the plural.
+The numeral ('one hundred') is indeclinable, but all the other hundred numerals are declinable.
+The word "mīlle" 'thousand' is a singular indeclinable adjective. However, its plural, "mīlia", is a plural third-declension "i"-stem neuter noun. To write the phrase "four thousand horses" in Latin, the genitive is used: "quattuor mīlia equōrum", literally, "four thousands of horses".
+The rest of the numbers are indeclinable whether used as adjectives or as nouns.
+For further information on the different sets of Latin numerals, see Latin numerals (linguistics).
+Adverbs and their comparatives and superlatives.
+Adverbs are not declined. However, adverbs must be formed if one wants to make an adjective into an adverb.
+Adverbs from first- and second-declension adjectives.
+First and second declension adjectives' adverbs are formed by adding "-ē" onto their stems.
+Adverbs from third declension adjectives.
+Typically, third declension adjectives' adverbs are formed by adding "-iter" to the stem. However, most third declension adjectives with one ending simply add "-er" to the stem.
+Comparative and superlative of adverbs.
+Adverbs' comparative forms are identical to the nominative neuter singular of the corresponding comparative adjective. Adverbs' superlative forms are simply formed by attaching the regular ending "-ē" to the corresponding superlative adjective. As with their corresponding adjectival forms, first and second declensions adjectives ending in "-eus" or "-ius" use and as opposed to distinct endings.
+Irregular adverbs and their comparative and superlative forms.
+As with adjectives, there are irregular adverbs with peculiar comparative and superlative forms.
+Peculiarities within declension.
+Irregularity in number.
+Some nouns are only used in the singular (singulare tantum) such as:
+Some nouns are only used in the plural (plurale tantum), or when plural have a singular meaning such as:
+Indeclinable nouns.
+Indeclinable nouns are nouns which only have one form in all cases (of the singular).
+Heterogeneous nouns.
+Heterogeneous nouns are nouns which vary in respect to gender.
+

@@ -1,0 +1,5 @@
+Fibonacci (around 1175 - 1250) was a famous Italian mathematician. His real name was Leonardo of Pisa or Leonardo Pisano. His nickname Fibonacci was taken from his father, whose name was Bonacci. Fibonacci means son of (a) Bonacci. His mother was Alessandra Larracocci. He was 9 when she died. He had a sister named Saminta. He is considered the "Father of Mathematics".
+Fibonacci number sequence.
+1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89...
+In this list, a person can find the next number by adding the last two numbers together.
+This series is also interesting because the ratio of two adjacent numbers in the series approaches the golden ratio, or Phi, as the numbers get bigger.

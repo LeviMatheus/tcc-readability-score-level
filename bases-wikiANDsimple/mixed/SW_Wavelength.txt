@@ -1,0 +1,7 @@
+A wavelength is the length of the shortest repeating part of a "sine wave". All waves can be formed by adding up sine waves. That is, every wave is a sum of sine waves.
+Examples of Waves.
+All of these waves are sums of sine waves.
+"Length" of a Sine Wave.
+The sine wave has a pattern that repeats. The length of this repeating piece of the sine wave is called the wavelength. The wavelength can be found by measuring the length or distance between one peak of a sine wave and the next peak. The wavelength can be found in many other ways too.
+There are other properties of waves and sine waves, such as their frequency, amplitude, phase, and speed.
+A symbol used for wavelength most often is the Greek letter "lambda" (λ).

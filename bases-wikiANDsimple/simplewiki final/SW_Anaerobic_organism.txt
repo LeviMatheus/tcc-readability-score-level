@@ -1,0 +1,4 @@
+An anaerobic organism is any living thing that does not need oxygen for growth.
+Microaerophiles are organisms that may use oxygen, but only at low concentrations (low micromolar range); their growth is inhibited by normal oxygen concentrations (approximately 200 micromolar). Nanaerobes are organisms that cannot grow in the presence of micromolar concentrations of oxygen, but can grow with and benefit from nanomolar concentrations of oxygen.
+Obligate anaerobes may use fermentation or anaerobic respiration. In the presence of oxygen, facultative anaerobes use aerobic respiration; without oxygen some of them ferment, some use anaerobic respiration. Aerotolerant organisms are strictly fermentative. Microaerophiles carry out aerobic respiration, and some of them can also do anaerobic respiration.
+Some anaerobic bacteria produce toxins (e.g., tetanus or botulinum toxins) that are highly dangerous to higher organisms, including humans.

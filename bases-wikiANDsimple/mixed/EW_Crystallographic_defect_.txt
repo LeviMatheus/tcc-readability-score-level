@@ -1,0 +1,24 @@
+
+Crystallographic defects are interruptions of regular patterns in crystalline solids. They are common because positions of atoms or molecules at repeating fixed distances determined by the unit cell parameters in crystals, which exhibit a periodic crystal structure, are usually imperfect.
+Point defects.
+Point defects are defects that occur only at or around a single lattice point. They are not extended in space in any dimension. Strict limits for how small a point defect is are generally not defined explicitly. However, these defects typically involve at most a few extra or missing atoms. Larger defects in an ordered structure are usually considered dislocation loops. For historical reasons, many point defects, especially in ionic crystals, are called "centers": for example a vacancy in many ionic solids is called a luminescence center, a color center, or F-center. These dislocations permit ionic transport through crystals leading to electrochemical reactions. These are frequently specified using Kröger–Vink notation.
+Line defects.
+Line defects can be described by gauge theories.
+Dislocations are linear defects, around which the atoms of the crystal lattice are misaligned.
+There are two basic types of dislocations, the "edge" dislocation and the "screw" dislocation. "Mixed" dislocations, combining aspects of both types, are also common.
+Edge dislocations are caused by the termination of a plane of atoms in the middle of a crystal. In such a case, the adjacent planes are not straight, but instead bend around the edge of the terminating plane so that the crystal structure is perfectly ordered on either side. The analogy with a stack of paper is apt: if a half a piece of paper is inserted in a stack of paper, the defect in the stack is only noticeable at the edge of the half sheet.
+The screw dislocation is more difficult to visualise, but basically comprises a structure in which a helical path is traced around the linear defect (dislocation line) by the atomic planes of atoms in the crystal lattice.
+The presence of dislocation results in lattice strain (distortion). The direction and magnitude of such distortion is expressed in terms of a Burgers vector (b). For an edge type, b is perpendicular to the dislocation line, whereas in the cases of the screw type it is parallel. In metallic materials, b is aligned with close-packed crystallographic directions and its magnitude is equivalent to one interatomic spacing.
+Dislocations can move if the atoms from one of the surrounding planes break their bonds and rebond with the atoms at the terminating edge.
+It is the presence of dislocations and their ability to readily move (and interact) under the influence of stresses induced by external loads that leads to the characteristic malleability of metallic materials.
+Dislocations can be observed using transmission electron microscopy, field ion microscopy and atom probe techniques.
+Deep-level transient spectroscopy has been used for studying the electrical activity of dislocations in semiconductors, mainly silicon.
+Disclinations are line defects corresponding to "adding" or "subtracting" an angle around a line. Basically, this means that if you track the crystal orientation around the line defect, you get a rotation. Usually, they were thought to play a role only in liquid crystals, but recent developments suggest that they might have a role also in solid materials, e.g. leading to the self-healing of cracks.
+Mathematical classification methods.
+A successful mathematical classification method for physical lattice defects, which works not only with the theory of dislocations and other defects in crystals but also, e.g., for disclinations in liquid crystals and for excitations in superfluid 3He, is the topological homotopy theory.
+Computer simulation methods.
+Density functional theory, classical molecular dynamics and kinetic Monte Carlo 
+simulations are widely used to study the properties of defects in solids with computer simulations. 
+Simulating jamming of hard spheres of different sizes and/or in containers with non-commeasurable sizes using the Lubachevsky–Stillinger algorithm
+can be an effective technique for demonstrating some types of crystallographic defects.
+

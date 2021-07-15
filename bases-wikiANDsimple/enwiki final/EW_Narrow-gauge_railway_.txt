@@ -1,0 +1,49 @@
+
+A narrow-gauge railway (narrow-gauge railroad in the US) is a railway with a track gauge narrower than standard . Most narrow-gauge railways are between and .
+Since narrow-gauge railways are usually built with tighter curves, smaller structure gauges, and lighter rails, they can be less costly to build, equip, and operate than standard- or broad-gauge railways (particularly in mountainous or difficult terrain). Lower-cost narrow-gauge railways are often used in mountainous terrain, where engineering savings can be substantial. Lower-cost narrow-gauge railways are often built to serve industries as well as sparsely populated communities where the traffic potential would not justify the cost of a standard- or broad-gauge line. Narrow-gauge railways have specialized use in mines and other environments where a small structure gauge necessitates a small loading gauge.
+In some countries, narrow gauge is the standard; Japan, Indonesia, Taiwan, New Zealand, South Africa, and the Australian states of Queensland, Western Australia and Tasmania have a gauge, and Malaysia and Thailand have metre-gauge railways. Narrow-gauge trams, particularly metre-gauge, are common in Europe. Non-industrial, narrow-gauge mountain railways are (or were) common in the Rocky Mountains of the United States and the Pacific Cordillera of Canada, Mexico, Switzerland, Bulgaria, the former Yugoslavia, Greece, and Costa Rica.
+Nomenclature.
+A narrow-gauge railway is one where the distance between the inside edges of the rails is less than . Historically, the term was sometimes used to refer to standard-gauge railways, to distinguish them from broad-gauge railways, but this use no longer applies.
+History.
+Early hand-worked lines.
+The earliest recorded railway appears in Georgius Agricola's 1556 "De re metallica", which shows a mine in Bohemia with a railway of about gauge. During the 16th century, railways were primarily restricted to hand-pushed, narrow-gauge lines in mines throughout Europe. In the 17th century, mine railways were extended to provide transportation above ground. These lines were industrial, connecting mines with nearby transportation points (usually canals or other waterways). These railways were usually built to the same narrow gauge as the mine railways from which they developed.
+Introduction of steam.
+The world's first steam locomotive, built in 1802 by Richard Trevithick for the Coalbrookdale Company, ran on a plateway. The first commercially successful steam locomotive was Matthew Murray's Salamanca built in 1812 for the Middleton Railway in Leeds. Salamanca was also the first rack-and-pinion locomotive. During the 1820s and 1830s, a number of industrial narrow-gauge railways in the United Kingdom used steam locomotives. In 1842, the first narrow-gauge steam locomotive outside the UK was built for the -gauge Antwerp-Ghent Railway in Belgium. The first use of steam locomotives on a public, passenger-carrying narrow-gauge railway was in 1865, when the Ffestiniog Railway introduced passenger service after receiving its first locomotives two years earlier.
+Industrial use.
+Many narrow-gauge railways were part of industrial enterprises and served primarily as industrial railways, rather than general carriers. Common uses for these industrial narrow-gauge railways included mining, logging, construction, tunnelling, quarrying, and conveying agricultural products. Extensive narrow-gauge networks were constructed in many parts of the world; 19th-century mountain logging operations often used narrow-gauge railways to transport logs from mill to market. Significant sugarcane railways still operate in Cuba, Fiji, Java, the Philippines, and Queensland, and narrow-gauge railway equipment remains in common use for building tunnels.
+Introduction of internal-combustion.
+In 1897, a manganese mine in the Lahn valley in Germany was using two benzine-fueled locomotives with single cylinder internal combustion engines on the 500mm gauge tracks of their mine railway; these locomotives were made by the Deutz Gas Engine Company ("Gasmotorenfabrik Deutz"), now Deutz AG. Another early use of internal combustion was to power a narrow-gauge locomotive was in 1902. F. C. Blake built a 7 hp petrol locomotive for the Richmond Main Sewerage Board sewage plant at Mortlake. This gauge locomotive was probably the third petrol-engined locomotive built.
+First World War and later.
+Extensive narrow-gauge rail systems served the front-line trenches of both sides in World War I. They were a short-lived military application, and after the war the surplus equipment created a small boom in European narrow-gauge railway building.
+Improvements.
+Heavy-duty tracks.
+The heavy-duty narrow-gauge railways in Queensland, South Africa, and New Zealand demonstrate that if track is built to a heavy-duty standard, performance almost as good as a standard-gauge line is possible.
+Two-hundred-car trains operate on the Sishen–Saldanha railway line in South Africa, and high-speed Tilt Trains run in Queensland. In South Africa and New Zealand, the loading gauge is similar to the restricted British loading gauge; in New Zealand, some British Rail Mark 2 carriages have been rebuilt with new bogies for use by Tranz Scenic (Wellington-Palmerston North service), Tranz Metro (Wellington-Masterton service), and Transdev Auckland (Auckland suburban services).
+Another example of a heavy-duty narrow-gauge line is Brazil's EFVM. gauge, it has over-100-pound rail () and a loading gauge almost as large as US non-excess-height lines. The line has a number of locomotives and 200-plus-car trains.
+Fastest trains.
+Narrow gauge's reduced stability means that its trains cannot run at speeds as high as on broader gauges. For example, if a curve with standard-gauge rail can allow speed up to , the same curve with narrow-gauge rail can only allow speed up to .
+In Japan and Queensland, recent permanent-way improvements have allowed trains on gauge tracks to exceed . Queensland Rail's Electric Tilt Train, the fastest train in Australia and the fastest gauge train in the world, set a record of . The speed record for narrow-gauge rail is , set in South Africa in 1978.
+A special gauge railcar was built for the Otavi Mining and Railway Company with a design speed of 137 km/h. 
+Curve radius is also important for high speeds: narrow-gauge railways allow sharper curves, but these limit a vehicle's safe speed.
+Gauges.
+Many narrow gauges, from gauge and gauge, are in present or former use. They fall into several broad categories:
+4 ft 6 in gauge.
+ track gauge (also known as Scotch gauge) was adopted by early 19th-century railways, primarily in the Lanarkshire area of Scotland. lines were also constructed, and both were eventually converted to standard gauge.
+3 ft 6 in gauge.
+ between the inside of the rail heads, its name and classification vary worldwide and it has about of track.
+Metre gauge and Italian metre gauge.
+As its name implies, metre gauge is a track gauge of . It has about of track.
+According to Italian law, track gauges in Italy were defined from the centre of each rail rather than the inside edges of the rails. This gauge, measured between the edges of the rails, is known as Italian metre gauge.
+3 ft, 900 mm, and Swedish three foot gauge.
+There were a number of large railroad systems in North America; notable examples include the Denver &amp; Rio Grande and Rio Grande Southern in Colorado and the South Pacific Coast and West Side Lumber Co of California. was also a common track gauge in South America, Ireland and on the Isle of Man. was a common gauge in Europe. Swedish three-foot-gauge railways () are unique to that country.
+2 ft 9 in gauge.
+A few railways and tramways were built to gauge, including Nankai Main Line (later converted to ), Ocean Pier Railway at Atlantic City, Seaton Tramway (converted from ) and Waiorongomai Tramway.
+800 mm, 2 ft 6 in, Bosnian and 750 mm gauge.
+ gauge railways are commonly used for rack railways. Imperial gauge railways were generally constructed in the former British colonies. Bosnian gauge and railways are predominantly found in Russia and Eastern Europe.
+Between 2 ft 1 in and 2 ft 5 in gauge.
+Gauges such as , and were used in parts of the UK, particularly for railways in Wales and the borders, with some industrial use in the coal industry. Some sugar cane lines in Cuba were . The rapid transit Line 15 of the São Paulo Metro uses a gauge.
+2 ft and 600 mm gauges.
+ gauge railways were generally constructed in the former British colonies. , and were used in Europe.
+Minimum gauge.
+Gauges below were rare. Arthur Percival Heywood developed gauge estate railways in Britain and Decauville produced a range of industrial railways running on and tracks, most commonly in restricted environments such as underground mine railways, parks and farms, in France. Several gauge railways were built in Britain to serve ammunition depots and other military facilities, particularly during World War I.
+

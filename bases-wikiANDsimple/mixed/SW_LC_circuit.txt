@@ -1,0 +1,26 @@
+LC circuit is an electronic circuit made up of an inductor and a capacitor.
+LC circuit's resonant frequency is equal to: formula_1
+The angular frequency ω has units of radians per second.
+LC circuits are used for creating signals at a particular frequency, or picking out a signal at a particular frequency from a more complex signal. An ideal LC circuit does not have resistance.
+At LC circuit energy saves in the capacitor's electric field.
+formula_2
+U is energy and q is electric charge.
+At LC circuit energy also save in the inductor's magnetic field.
+formula_3
+U is energy and i is electric current that flows in inductor.
+Let's analyze an LC circuit's vibration. Vibrating LC circuit's total energy is U.
+formula_4
+Because circuit's resistance is 0, there is no energy that transmits to heat energy, and U is maintained regularity.
+formula_5
+So LC circuit's vibration is shown like that
+formula_6
+First consider the Electrical impedance of the series LC circuit. The total impedance is given by the sum of the inductive and capacitive impedances
+formula_7
+By writing the inductive impedance as formula_8 and capacitive impedance as formula_9
+Resultingly the series connected circuit, when connected to a circuit in series, will act as a band-pass filter having zero impedance at the resonant frequency of the LC circuits.
+The same analysis may be applied to the parallel LC circuit. The total impedance is then given by
+formula_11
+and after substitution of formula_12 and formula_13 we have
+formula_14
+formula_15.
+Resultingly the parallel connected circuit will act as band-stop filter having infinite impedance at the resonant frequency of the LC circuit.

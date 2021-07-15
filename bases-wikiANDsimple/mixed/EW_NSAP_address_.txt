@@ -1,0 +1,12 @@
+
+A Network Service Access Point address (NSAP address), defined in ISO/IEC 8348, is an identifying label for a Service Access Point (SAP) used in OSI networking.
+These are roughly comparable to IP addresses used in the Internet Protocol; they can specify a piece of equipment connected to an Asynchronous Transfer Mode (ATM) network. A specific stream, analogous to a TCP/IP port or socket, is specified by using a Transport Service Access Point (TSAP). ATM can also use a Presentation (PSAP) and Session (SSAP) Access Point, but these may also be unspecified; this is up to the application.
+Allocation and scope.
+NSAP addresses are allocated by the International Organization for Standardization (ISO), through a system of delegated authorities, which are generally national standards organizations. One of the schemes to generate NSAPs uses E.164 which is the addressing format describing telephone numbers.
+NSAP addresses do not specify where a network terminal is located. Routing equipment must translate NSAP addresses to SNPAs (SubNetwork Point of Attachment) to route OSI packets; VCI (virtual circuit identifier) numbers are an example of a datalink layer SNPAs in ATM; when OSI packets are sent encapsulated in IP packets the IP address is considered an SNPA.
+Currently SDH/SONET networks are a major part of the network infrastructure and NSAPs are used extensively. They are usually assigned by the Network Management/NOC personnel and agreed upon within an organization to be unique (to that organization and based on geographical location using country code telephone prefixes) and are required before any operational connectivity is established at the commissioning stage.
+NSAP addresses are used in the following OSI-based network technologies: 
+NSAP-style addresses are used in the IS-IS routing protocol.
+NSEL.
+The NSEL (Network-Selector) is a field in the NSAP address that identifies the network layer service to which a packet should be sent. This part of the address for a router will always be 0x00. In the IS-IS routing protocol, the field is sometimes referred to as the SEL field.
+

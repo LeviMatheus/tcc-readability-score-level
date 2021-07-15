@@ -1,0 +1,2 @@
+Ghostzilla is a web browser for Microsoft Windows based on Mozilla. The browser runs inside the window space of another program e.g. in Microsoft Outlook, where the page is made to look like the things one would expect in an email, making people think the person was reading e-mail.
+Between May 2004 and January 2005, the project was taken off the website because the person who made it felt it was bad to use it. It was later put back, but with warnings about the potential to use it for the wrong reason. Since February 2007, the site has been closed and is no longer available.

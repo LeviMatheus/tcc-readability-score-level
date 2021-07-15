@@ -1,0 +1,16 @@
+
+Retroviral integrase (IN) is an enzyme produced by a retrovirus (such as HIV) that integrates—forms covalent links between—its genetic information into that of the host cell it infects. Retroviral INs are not to be confused with phage integrases (recombinases), such as λ phage integrase, as discussed in site-specific recombination.
+The macromolecular complex of an IN macromolecule bound to the ends of the viral DNA ends has been referred to as the "intasome"; IN is a key component in this and the retroviral pre-integration complex.
+Structure.
+All retroviral IN proteins contain three canonical domains, connected by flexible linkers:
+Crystal and NMR structures of the individual domains and 2-domain constructs of integrases from HIV-1, HIV-2, SIV, and Rous Sarcoma Virus (RSV) have been reported, with the first structures determined in 1994. Biochemical data and structural data suggest that retroviral IN functions as a tetramer (dimer-of-dimers), with all three domains being important for multimerisation and viral DNA binding. In addition, several host cellular proteins have been shown to interact with IN to facilitate the integration process: e.g., the host factor, human chromatin-associated protein LEDGF, tightly binds HIV IN and directs the HIV pre-integration complex towards highly expressed genes for integration.
+Human foamy virus (HFV), an agent harmless to humans, has an integrase similar to HIV IN and is therefore a model of HIV IN function; a 2010 crystal structure of the HFV integrase assembled on viral DNA ends has been determined.
+Function and mechanism.
+Integration occurs following production of the double-stranded linear viral DNA by the viral RNA/DNA-dependent DNA polymerase reverse transcriptase.
+The main function of IN is to insert the viral DNA into the host chromosomal DNA, a step that is essential for HIV replication. Integration is a "point of no return" for the cell, which becomes a permanent carrier of the viral genome (provirus). Integration is in part responsible for the persistence of retroviral infections. After integration, the viral gene expression and particle production may take place immediately or at some point in the future, the timing of which depends on the activity of the chromosomal locus hosting the provirus.
+Vis-a-vis mechanism, known retroviral INs catalyzes two reactions:
+Both reactions are catalysed in the same active site, and involve transesterification that does not involve a covalent protein-DNA intermediate (in contrast to Ser/Tyr recombinase-catalyzed reactions.
+In HIV.
+HIV integrase is a 32 kDa protein produced from the C-terminal portion of the Pol gene product, and is an attractive target for new anti-HIV drugs.
+In November 2005, data from a phase 2 study of an investigational HIV integrase inhibitor, MK-0518, demonstrated that the compound has potent antiviral activity. On October 12, 2007, the Food and Drug Administration (U.S.) approved the integrase inhibitor Raltegravir (MK-0518, brand name Isentress). The second integrase inhibitor, elvitegravir, was approved in the U.S. in August 2012.
+

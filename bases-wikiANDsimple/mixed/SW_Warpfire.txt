@@ -1,0 +1,24 @@
+Warpfire is a RPG. It a browser base game. It was created by Gameforge in 2007.
+Gameplay.
+You start off in a clop then do quests and kill monsters to level up. When you reach certain levels more and more things beome available, less monsters will attack you and the more fun the game is. Once you are done leveling you can go attack other players (PvP).
+Ships.
+- The "clop" is the first ship in the game it has space for one laser and one sheild generator. The speed it travels at is 320 it's armour is 800 and i can carry 1500 ammo.
+-The "moonblade" is the next ship it costs 16,000 credits and has two guns and two generators.The moon blade carries 2000 ammo has 1400 hit points and can carry one extra.
+-The "Styx" comes at a price of 5000 thorium it has space for 3 sheild genarators and laser guns it goes 320 has 2200 hitpoints and can carry two extras.
+-The "Draad" has 4 lasers 4 sheild generators, travels at 280 has 2000 health and carries 2 extras but the price is 30,000 credits.
+- The "Diablo" carries 5 lasers and genarators has 3900 health goes 260 and has 4000 ammo. It costs 14000 thorium and has 2 extras.
+-The "Seraphim" carries 5 sheild genarators laserguns has 4000 health goes 260 has 4000 ammo, has 2 extras and costs 60,000 credits.
+-The "Starlord" flys at the speed of 240 has 5500 hit points has 6 spaces for sheilds and lasers carries 4500 ammo and costs 120,000 credits.
+-The "ArchAngel" costs 19,000 thorium has 7 lasers and generator slots, goes 280 has 6000 health and carries 2 extras. It has an ammo capabiity of 5750.
+-The "Molot" goes 220 has 6000 hitpoints carries 5500 ammo carries 7 lasers and 8 generators, has space for 2 extras and its price tag is 190,000 credits.
+-the "Hornet" which is the best ship in the game so far, it has space for 8 lasers 9 generators goes 260 has 6200 hitpoints has 6750 ammo and costs a stunning 29,000 thorium
+Quests.
+More and more quests become available the farther you get in the game. Some people save their quests till late in the game and use them in the last levels.
+There are 4 kinds of quests: mining quests, where the player collects ores to complete the quotaMonster hunting quests where the player kills monters or npcs to complete the quota
+boss quests where the player tracts down and kills a boss monster
+and the last are plat quests where the player takes plates from the enemy to complete the quota
+PvP (Player vs. Player).
+In pvp a group or a single player goes and raids other systems taking plats and using the buffs to make themselves stronger and so able to destroy more oppontents to get honor points.
+Honor points show how many enemys you have destroyed.
+Platforms.
+Platforms are the area control platforms. They give buffs or benefits to make your ship fanster, stronger, able to mine faster, or strenghthen your sheild. Most players shorten the plats names or use nick names (SP for Speed Plat, MP for Mining Plat).

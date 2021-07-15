@@ -1,0 +1,4 @@
+Waste heat is the by-product heat of machines and technical processes for which no useful application is found.
+A fraction of input energy is always converted to heat by friction between machine parts and other dissipative processes such as liquid friction (see: viscosity).
+Mechanical drives can be designed to run smoothly, with little dissipation of energy to heat, machines for conversion of energy contained in fuels to mechanical work or electric energy necessarily produce large quantities of by-product heat (see: Second law of thermodynamics).
+Waste of the by-product heat is avoided if a cogeneration system is used. Limitations to the use of by-product heat arise due to difficulties in heat transport and heat storage.

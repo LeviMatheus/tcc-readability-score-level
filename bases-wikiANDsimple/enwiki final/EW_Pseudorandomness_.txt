@@ -1,0 +1,18 @@
+
+Pseudorandomness measures the extent to which a sequence of numbers, though produced by a completely deterministic and repeatable process, appear to be patternless. 
+The pattern's seeming randomness is the crux of much online and other security. Since the sequence is repeatable, it is important that the "seed" 
+which, together with a "generator" produce the numbers, be well chosen and kept hidden.
+History.
+The generation of random numbers has many uses (mostly in statistics, for random sampling, and simulation). Before modern computing, researchers requiring random numbers would either generate them through various means (dice, cards, roulette wheels, etc.) or use existing random number tables.
+The first attempt to provide researchers with a ready supply of random digits was in 1927, when the Cambridge University Press published a table of 41,600 digits developed by L.H.C. Tippett. In 1947, the RAND Corporation generated numbers by the electronic simulation of a roulette wheel; the results were eventually published in 1955 as "A Million Random Digits with 100,000 Normal Deviates".
+Unpredictability as "almost random".
+Using a radioactive substance spewing out electrons and gamma rays whose decay is random, or obtaining unpredictable sequences of data using a radio tuned between stations, harvesting the atmospheric noise yields short term unpredicability. The time investment needed to obtain these numbers led to a compromise: using some of these physics readings as a "seed" to generate more. The fewer the non-seed "random" numbers, the more truly random the numbers seem. One compromise is to intermix the timings between keystrokes by people.
+People's actions have been proven to be useful for the repeatability behind multi-factor authentication, and studies of Brownian motion have shown how statistics and probabilistic models can predict what a group will do, even if a particular movement is random.
+The predictability of pseudorandom number sequences produced by a deterministic algorithm are, in short clusters, seemingly random.
+In computational complexity.
+In theoretical computer science, a distribution is pseudorandom against a class of adversaries if no adversary from the class can distinguish it from the uniform distribution with significant advantage.
+This notion of pseudorandomness is studied in computational complexity theory and has applications to cryptography.
+Formally, let "S" and "T" be finite sets and let F = {"f": "S" → "T"} be a class of functions. A distribution D over "S" is ε-pseudorandom against F if for every "f" in F, the statistical distance between the distributions "f"("X"), where "X" is sampled from D, and "f"("Y"), where "Y" is sampled from the uniform distribution on "S", is at most ε.
+In typical applications, the class F describes a model of computation with bounded resources
+and one is interested in designing distributions D with certain properties that are pseudorandom against F. The distribution D is often specified as the output of a pseudorandom generator.
+

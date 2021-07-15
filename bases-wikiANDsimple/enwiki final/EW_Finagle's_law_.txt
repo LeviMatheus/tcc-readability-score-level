@@ -1,0 +1,13 @@
+
+Finagle's law of dynamic negatives (also known as Melody's law, Sod's Law or Finagle's corollary to Murphy's law) is usually rendered as "Anything that can go wrong, will—at the worst possible moment."
+The term "Finagle's law" was first used by John W. Campbell Jr., the influential editor of "Astounding Science Fiction" (later "Analog"). He used it frequently in his editorials for many years in the 1940s to 1960s, but it never came into general usage the way Murphy's law has.
+Variants.
+One variant (known as O'Toole's corollary of Finagle's law) favored among hackers is a takeoff on the second law of thermodynamics (related to the augmentation of entropy):
+In the "Star Trek" episode "Amok Time" (written by Theodore Sturgeon in 1967), Captain Kirk tells Spock, "As one of Finagle's laws puts it: 'Any home port the ship makes will be somebody else's, not mine.'"
+The term "Finagle's law" was popularized by science fiction author Larry Niven in several stories (for example, "Protector" [Ballantine Books paperback edition, 4th printing, p. 23]), depicting a frontier culture of asteroid miners; this "Belter" culture professed a religion or running joke involving the worship of the dread god Finagle and his mad prophet Murphy.
+"Finagle's law" can also be the related belief "Inanimate objects are out to get us", also known as Resistentialism.
+Similar to Finagle's law is the verbless phrase of the German novelist Friedrich Theodor Vischer: "die Tücke des Objekts" (the perfidy of inanimate objects).
+A related concept, the "Finagle factor", is an "ad hoc" multiplicative or additive term in an equation, which can only be justified by the fact that it gives more correct results. Also known as Finagle's variable constant, it is sometimes defined as the correct answer divided by your answer.
+One of the first record of "Finagle factor" is probably a December 1962 article in The Michigan Technic, credited to Cambell, but bylined "I Finaglin" 
+The term is also used in a 1960 wildlife management article.
+

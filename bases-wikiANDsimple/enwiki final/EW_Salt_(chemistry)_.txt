@@ -1,0 +1,33 @@
+
+In chemistry, a salt is a chemical compound consisting of an ionic assembly of cations and anions. Salts are composed of related numbers of cations (positively charged ions) and anions (negatively charged ions) so that the product is electrically neutral (without a net charge). These component ions can be inorganic, such as chloride (Cl−), or organic, such as acetate (); and can be monatomic, such as fluoride (F−) or polyatomic, such as sulfate ().
+Types of salt.
+Salts can be classified in a variety of ways. Salts that produce hydroxide ions when dissolved in water are called "alkali salts". Salts that produce acidic solutions are "acid salts". "Neutral salts" are those salts that are neither acidic nor basic. Zwitterions contain an anionic and a cationic centre in the same molecule, but are not considered to be salts. Examples of zwitterions include amino acids, many metabolites, peptides, and proteins.
+Properties.
+Color.
+Solid salts tend to be transparent as illustrated by sodium chloride. In many cases, the apparent opacity or transparency are only related to the difference in size of the individual monocrystals. Since light reflects from the grain boundaries (boundaries between crystallites), larger crystals tend to be transparent, while the polycrystalline aggregates look like white powders.
+Salts exist in many different colors, which arise either from the anions or cations. For example:
+Few minerals are salts because they would be solubilized by water. Similarly inorganic pigments tend not to be salts, because insolubility is required for fastness. Some organic dyes are salts, but they are virtually insoluble in water.
+Taste.
+Different salts can elicit all five basic tastes, e.g., salty (sodium chloride), sweet (lead diacetate, which will cause lead poisoning if ingested), sour (potassium bitartrate), bitter (magnesium sulfate), and umami or savory (monosodium glutamate).
+Odor.
+Salts of strong acids and strong bases ("strong salts") are non-volatile and often odorless, whereas salts of either weak acids or weak bases ("weak salts") may smell like the conjugate acid (e.g., acetates like acetic acid (vinegar) and cyanides like hydrogen cyanide (almonds)) or the conjugate base (e.g., ammonium salts like ammonia) of the component ions. That slow, partial decomposition is usually accelerated by the presence of water, since hydrolysis is the other half of the reversible reaction equation of formation of weak salts.
+Solubility.
+Many ionic compounds exhibit significant solubility in water or other polar solvents. Unlike molecular compounds, salts dissociate in solution into anionic and cationic components. 
+The lattice energy, the cohesive forces between these ions within a solid, determines the solubility. The solubility is dependent on how well each ion interacts with the solvent, so certain patterns become apparent. For example, salts of sodium, potassium and ammonium are usually soluble in water. Notable exceptions include ammonium hexachloroplatinate and potassium cobaltinitrite. Most nitrates and many sulfates are water-soluble. Exceptions include barium sulfate, calcium sulfate (sparingly soluble), and lead(II) sulfate, where the 2+/2− pairing leads to high lattice energies. For similar reasons, most metal carbonates are not soluble in water. Some soluble carbonate salts are: sodium carbonate, potassium carbonate and ammonium carbonate.
+Conductivity.
+Salts are characteristically insulators. Molten salts or solutions of salts conduct electricity. For this reason, liquified (molten) salts and solutions containing dissolved salts (e.g., sodium chloride in water) are called electrolytes.
+Melting point.
+Salts characteristically have high melting points. For example, sodium chloride melts at 801 °C. Some salts with low lattice energies are liquid at or near room temperature. These include molten salts, which are usually mixtures of salts, and ionic liquids, which usually contain organic cations. These liquids exhibit unusual properties as solvents.
+Nomenclature.
+The name of a salt starts with the name of the cation (e.g., "sodium" or "ammonium") followed by the name of the anion (e.g., "chloride" or "acetate"). Salts are often referred to only by the name of the cation (e.g., "sodium salt" or "ammonium salt") or by the name of the anion (e.g., "chloride salt" or "acetate salt").
+Common salt-forming cations include:
+Common salt-forming anions (parent acids in parentheses where available) include:
+Salts with varying number of hydrogen atoms replaced by cations as compared to their parent acid can be referred to as "monobasic", "dibasic", or "tribasic", identifying that one, two, or three hydrogen atoms have been replaced; "polybasic" salts refer to those with more than one hydrogen atom replaced. Examples include:
+Formation.
+Salts are formed by a chemical reaction between:
+Strong salt.
+Strong salts or strong electrolyte salts are chemical salts composed of strong electrolytes. These ionic compounds dissociate completely in water. They are generally odorless and nonvolatile.
+Strong salts start with Na__, K__, NH4__, or they end with __NO3, __ClO4, or __CH3COO. Most group 1 and 2 metals form strong salts. Strong salts are especially useful when creating conductive compounds as their constituent ions allow for greater conductivity.
+Weak salt.
+Weak salts or "weak electrolyte salts" are, as the name suggests, composed of weak electrolytes. They are generally more volatile than strong salts. They may be similar in odor to the acid or base they are derived from. For example, sodium acetate, NaCH3COO, smells similar to acetic acid CH3COOH.
+

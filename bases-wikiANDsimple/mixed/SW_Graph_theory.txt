@@ -1,0 +1,6 @@
+Graph Theory is about analyzing Graphs. A graph is a group of points and lines connecting each other, to make a picture of such a route. It is less detailed than a map and is used to find answers.
+Graph theory in perspective.
+Graph theory is an important part of mathematics and computer science. To many such problems, exact solutions do exist. Many times however, they are very hard to calculate. Therefore, very often, approximations are used. There are two kinds of such approximations, Monte-Carlo algorithms and Las-Vegas algorithms.
+Graphs are normally represented by two different sets, typically set a graph G would be represented as the collection of the sets V and E. The set V is a discrete set containing all vertices of the graph. The set E is a binary set, whose pairwise elements are elements of set V. Each pair in set E represents an edge connecting two vertices.
+If for all elements v1 and v2 of the set V, if and are both elements of E then the graph G is considered a Complete Graph.
+I would move forth to define a Path, a Walk, A weighted graph, a directional graph. Then make a comment about how all trees are just subsets of graphs. It could also be proven that all connected graphs may be represented as a Tree. There is more to graph theory than explained here.

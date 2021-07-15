@@ -1,0 +1,37 @@
+
+Edlin is a line editor, and the only text editor provided with early versions of IBM PC DOS, MS-DOS and OS/2. Although superseded in MS-DOS 5.0 and later by the full-screen MS-DOS Editor, and by Notepad in Microsoft Windows, it continues to be included in the 32-bit versions of current Microsoft operating systems.
+History.
+Edlin was created by Tim Paterson in two weeks in 1980, for Seattle Computer Products's 86-DOS (QDOS) based on the CP/M line editor "ED" — a distant relative of the UNIX "ed" text editor.
+Microsoft acquired 86-DOS and sold it as MS-DOS, so Edlin was included in v1.0–v5.0 of MS-DOS. From MS-DOS 6 onwards, the only editor included was the new full-screen MS-DOS Editor. 
+Windows 95, 98 and ME ran on top of an embedded version of DOS, which reports itself as MS-DOS 7. As a successor to MS-DOS 6, this did not include Edlin. 
+However, Edlin is included in the 32-bit versions of Windows NT and its derivatives—up to and including Windows 10—because the NTVDM's DOS support in those operating systems is based on MS-DOS version 5.0. However, unlike most other external DOS commands, it has not been transformed into a native Win32 program. It also does not support long filenames, which were not added to MS-DOS and MS-Windows until long after Edlin was written.
+The FreeDOS version was developed by Gregory Pietsch.
+Usage.
+There are only a few commands. The short list can be found by entering a ? at the edlin prompt.
+When a file is open, typing L lists the contents (e.g., codice_1 lists lines 1 through 6). Each line is displayed with a line number in front of it.
+ *1,6L
+ 1: Edlin: The only text editor in early versions of DOS.
+ 2:
+ 3: Back in the day, I remember seeing web pages
+ 4: branded with a logo at the bottom:
+ 5: "This page created in edlin."
+ 6: The things that some people put themselves through. ;-)
+The currently selected line has a *. To replace the contents of any line, the line number is entered and any text entered replaces the original. While editing a line pressing Ctrl-C cancels any changes. The * marker remains on that line.
+Entering I (optionally preceded with a line number) inserts one or more lines before the * line or the line given. When finished entering lines, Ctrl-C returns to the edlin command prompt.
+ *6I
+ 6:*(...or similar)
+ 7:*^C 
+ *7D
+ *L
+ 1: Edlin: The only text editor in early versions of DOS.
+ 2:
+ 3: Back in the day, I remember seeing web pages
+ 4: branded with a logo at the bottom:
+ 5: "This page created in edlin."
+ 6: (...or similar)
+Scripts.
+Edlin may be used as a non-interactive file editor in scripts by redirecting a series of edlin commands.
+edlin &lt; script
+FreeDOS Edlin.
+A GPL-licensed clone of Edlin that includes long filename support is available for download as part of the FreeDOS project. This runs on operating systems such as Linux or Unix as well as MS-DOS.
+

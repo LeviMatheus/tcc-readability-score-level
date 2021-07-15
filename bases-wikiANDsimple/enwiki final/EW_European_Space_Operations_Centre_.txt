@@ -1,0 +1,24 @@
+
+The European Space Operations Centre (ESOC) serves as the main mission control centre for the European Space Agency (ESA) and is located in Darmstadt, Germany. ESOC's primary function is the operation of unmanned spacecraft on behalf of ESA and the launch and early orbit phases (LEOP) of ESA and third-party missions. The Centre is also responsible for a range of operations-related activities within ESA and in cooperation with ESA's industry and international partners, including ground systems engineering, software development, flight dynamics and navigation, development of mission control tools and techniques and space debris studies.
+ESOC's current major activities comprise operating planetary and solar missions, such as Mars Express and the Trace Gas Orbiter, astronomy &amp; fundamental physics missions, such as Gaia (spacecraft) and XMM Newton, and Earth observation missions such as CryoSat2 and Swarm (spacecraft).
+ESOC is responsible for developing, operating and maintaining ESA's ESTRACK network of ground stations. Teams at the Centre are also involved in research and development related to advanced mission control concepts and Space Situational Awareness, and standardisation activities related to frequency management; mission operations; tracking, telemetry and telecommanding; and space debris.
+Missions.
+ESOC's current missions comprise the following:
+Planetary and solar missions
+Astronomy and fundamental physics missions
+Earth observation missions
+In addition, the ground segment and mission control teams for several missions are in preparation and training, including:
+ESTRACK.
+ESOC hosts the control centre for the Agency's European Tracking ESTRACK station network. The core network comprises seven stations in seven countries: Kourou (French Guiana), Cebreros (Spain), Redu (Belgium), Santa Maria (Portugal), Kiruna (Sweden), Malargüe (Argentina) and New Norcia (Australia). Operators are on duty at ESOC 24 hours/day, year round, to conduct tracking passes, uploading telecommands and downloading telemetry and data.
+Activities.
+In addition to 'pure' mission operations, a number of other activities take place at the Centre, most of which are directly related to ESA's broader space operations activities.
+History.
+The European Space Operations Centre was formally inaugurated in Darmstadt, Germany, on 8 September 1967 by the then-Minister of Research of the Federal Republic of Germany, Gerhard Stoltenberg. Its role was to provide satellite control for the European Space Research Organisation (ESRO), which is today known as its successor organisation, the European Space Agency (ESA).
+The 90-person ESOC facility was, as it is today, located on the west side of Darmstadt; it employed the staff and resources previously allocated to the European Space Data Centre (ESDAC), which had been established in 1963 to conduct orbit calculations. These were augmented by mission control staff transferred from ESTEC to operate satellites and manage the ESTRACK tracking station network.
+Within just eight months, ESOC, as part of ESRO, was already operating its first mission, ESRO-2B, a scientific research satellite and the first of many operated from ESOC for ESRO, and later ESA.
+By July 2012, ESOC had operated over 56 missions spanning science, Earth observation, orbiting observatories, meteorology and space physics.
+Location and expansion.
+ESOC is located on the west side of the city of Darmstadt, some from the main train station, at Robert-Bosch-Straße 5. In 2011, ESA announced the first phase of the ESOC II modernisation and expansion project valued at €60 million. The new construction will be located across Robert-Bosch-Straße, opposite the current centre.
+Employees.
+At ESOC, ESA employs approximately 800, comprising some 250 permanent staff and about 550 contractors. Staff from ESOC are routinely dispatched to work at other ESA establishments, ESTRACK stations, the ATV Control Centre (Toulouse), the Columbus Control Centre (Oberpfaffenhofen) and at partner facilities in several countries.
+

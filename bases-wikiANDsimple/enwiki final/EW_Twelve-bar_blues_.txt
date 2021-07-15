@@ -1,0 +1,28 @@
+
+The twelve-bar blues (or blues changes) is one of the most prominent chord progressions in popular music. The blues progression has a distinctive form in lyrics, phrase, chord structure, and duration. In its basic form, it is predominantly based on the I, IV, and V chords of a key. Mastery of the blues and rhythm changes are "critical elements for building a jazz repertoire".
+Standard progressions.
+In the key of C, one basic blues progression (E from below) is as follows. (For the most commonly used patterns see the section "Variations", below.)
+or
+Chords may be also represented by a few different notation systems such as sheet music and electronic music. A basic example of the progression would look like this, using T to indicate the tonic, S for the subdominant, and D for the dominant, and representing one chord. In Roman numeral analysis the tonic is called the I, the sub-dominant the IV, and the dominant the V. (These three chords are the basis of thousands of pop songs, which thus often have a blues sound even without using the classical twelve-bar form.)
+Using said notations, the chord progression outlined above can be represented as follows.
+The first line takes four bars, as do the remaining two lines, for a total of twelve bars. However, the vocal or lead phrases, though they often come in threes, do not coincide with the above three lines or sections. This overlap between the grouping of the accompaniment and the vocal is part of what creates interest in the twelve bar blues.
+Variations.
+"W.C. Handy, 'the Father of the Blues', codified this blues form to help musicians communicate chord changes." Many variations are possible. The length of sections may be varied to create eight-bar blues or sixteen-bar blues.
+Shuffle blues.
+In the original form, the dominant chord continued through the tenth bar; later on the V–IV–I–I "shuffle blues" pattern became standard in the third set of four bars:
+Quick to four.
+The common "quick to four" or "quick-change" (or "quick four") variation uses the subdominant chord in the second bar:
+These variations are not mutually exclusive; the rules for generating them may be combined with one another (or with others not listed) to generate more complex variations.
+Seventh chords.
+Seventh chords are often used just before a change, and more changes can be added. A more complicated example might look like this, where "7" indicates a seventh chord:
+With turnarounds.
+When the last bar contains the dominant, that bar may be called a "turnaround":
+In jazz, twelve-bar blues progressions are expanded with moving substitutions and chordal variations. The cadence (or last four measures) uniquely leads to the root by perfect intervals of fourths.
+Otherwise the last four measures is the blues turnaround, this (with or without seventh chords) is probably the most common form in modern blues-rock.
+Bebop blues.
+The Bebop blues is:
+This progression is similar to Charlie Parker's "Now's the Time", "Billie's Bounce", Sonny Rollins's "Tenor Madness", and many other bop tunes. "It is a bop soloist's cliche to arpeggiate this chord [A79 (V/ii = VI79)] from the 3 up to the 9."
+Minor blues.
+There are also minor twelve-bar blues, such as John Coltrane's "Equinox" and "Mr. P.C.", and "Why Don't You Do Right?", made famous by Lil Green with Big Bill Broonzy. The chord on the fifth scale degree may be major (V7) or minor (v7), in which case it fits a dorian scale along with the minor i7 and iv7 chords, creating a modal feeling. Major and minor can also be mixed together, a signature characteristic of the music of Charles Brown.
+While the blues is most often considered to be in sectional strophic form with a verse-chorus pattern, it may also be considered as an extension of the variational chaconne procedure. Van der Merwe (1989) considers it developed in part specifically from the American Gregory Walker, though the conventional account would consider hymns to have provided the repeating chord progression or harmonic formulae of the blues.
+

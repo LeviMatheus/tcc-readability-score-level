@@ -1,0 +1,4 @@
+A pickup is a device that captures mechanical vibrations (usually from stringed instruments like the electric guitar, electric bass guitar or electric violin) and converts them to an electrical signal which can be amplified and recorded.
+Humbuckers.
+One problem with electromagnetic pickups is that they also pick up mains hum. Mains hum is a signal at a nominal 50 or 60 Hz, depending on local alternating current frequency, and usually some harmonic content. The changing magnetic flux caused by the mains current links with the windings of the pickup, inducing a voltage by transformer action.
+To overcome the mains hum effect, the humbucking pickup was made by Seth Lover of Gibson and Ray Butts, working for Gretsch. It is unclear who first made it, but Seth Lover was given the first patent.

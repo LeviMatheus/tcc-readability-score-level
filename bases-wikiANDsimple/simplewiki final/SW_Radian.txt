@@ -1,0 +1,5 @@
+A radian is a unit of measuring angles. It is shown by the symbol "rad" or, less often, c (for circular measure). The radian was once an SI unit, but was done away with in 1995.
+Who uses radians?
+Most people who do mathematics or physics use radians, rather than degrees, because some kinds of calculations are simpler when using radians rather than degrees.
+A "milliradian" is 1/1000 of a radian.
+People who look through a telescope or rifle scope often use milliradians to describe distances as seen through the 'scope.

@@ -1,0 +1,21 @@
+
+The British thermal unit (BTU or Btu) is a unit of heat; it is defined as the amount of heat required to raise the temperature of one pound of water by one degree Fahrenheit. It is also part of the United States customary units. Heat is now known to be equivalent to energy. The modern SI unit for heat and energy is the joule (J);
+One BTU equals about 1055 J (depending on the exact BTU definition, see below).
+Another legacy unit for energy in the metric system is the calorie, which is defined as the amount of heat required to raise the temperature of one gram of water by one degree Celsius. While units of heat are often supplanted by energy units in scientific work, they are still used in some fields. For example, in the United States the price of natural gas is quoted in dollars per million BTUs.
+Definitions.
+A BTU was originally defined as the amount of heat required to raise the temperature of 1 avoirdupois pound of liquid water by 1 degree Fahrenheit at a constant pressure of one atmospheric unit. There are several different definitions of the BTU that are now known to differ slightly. This reflects the fact that the temperature change of a mass of water due to the addition of a specific amount of heat (calculated in energy units, usually joules) depends slightly upon the water's initial temperature. As seen in the table below, definitions of the BTU based on different water temperatures vary by up to 0.5%.
+Prefixes.
+Units kBtu are used in building energy use tracking and heating system sizing. Energy Use Index (EUI) represents kBtu per square foot of conditioned floor area. "k" stands for 1,000.
+The unit MBTU is used in natural gas and other industries to indicate 1,000 BTUs. However, there is an ambiguity in that the metric system (SI) uses the prefix "M" to indicate one million (1,000,000), and consequently "MMBtu" is often used to indicate one million BTUs.
+Energy analysts accustomed to the metric "k" for 1,000 are more likely to use MBtu to represent one million, especially in documents where M represents one million in other energy or cost units, such as MW, MWh and $.
+The unit "therm" is used to represent 100,000 BTUs. A decatherm is 10 therms or one MMBtu (million Btu). The unit "quad" is commonly used to represent one quadrillion (1015) BTUs.
+Conversions.
+One Btu is approximately:
+A Btu can be approximated as the heat produced by burning a single wooden kitchen match or as the amount of energy it takes to lift a weight .
+As a unit of power.
+The SI unit of power for heating and cooling systems is watt. Btu "per hour" (Btu/h) is often used instead, though "Btu/h" is sometimes wrongly abbreviated to just "Btu". "MBH"—thousands of Btus per hour—is also common.
+Associated units.
+The Btu should not be confused with the Board of Trade Unit (B.O.T.U.), an obsolete UK synonym for kilowatt hour ().
+The Btu is often used to express the conversion-efficiency of heat into electrical energy in power plants. Figures are quoted in terms of the quantity of heat in Btu required to generate 1 kW⋅h of electrical energy. A typical coal-fired power plant works at , an efficiency of 32–33%.
+The centigrade heat unit (CHU) is the amount of heat required to raise the temperature of one pound of water by one Celsius degree. It is equal to 1.8 BTU or 1899 joules. In 1974, this unit was "still sometimes used" in the United Kingdom as an alternative to BTU.
+

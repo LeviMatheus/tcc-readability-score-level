@@ -1,0 +1,30 @@
+
+In mathematical analysis, a null set formula_1 is a set that can be covered by a countable union of intervals of arbitrarily small total length. The notion of null set in set theory anticipates the development of Lebesgue measure since a null set necessarily has measure zero. More generally, on a given measure space formula_2 a null set is a set formula_3 such that formula_4.
+Example.
+Every countable subset of the real numbers (i.e. finite or countably infinite) is null. For example, the set of natural numbers is countable, having cardinality formula_5 ("aleph-zero" or "aleph-null"), is null. Another example is the set of rational numbers, which is also countable, and hence null. 
+However, there are some uncountable sets, such as the Cantor set, that are null.
+Definition.
+Suppose formula_6 is a subset of the real line formula_7 such that 
+where the are intervals and is the length of , then is a null set, also known as a set of zero-content.
+In terminology of mathematical analysis, this definition requires that there be a sequence of open covers of for which the limit of the lengths of the covers is zero.
+Null sets include all finite sets, all countable sets, and even some uncountable sets such as the Cantor set.
+Properties.
+The empty set is always a null set. More generally, any countable union of null sets is null. Any measurable subset of a null set is itself a null set. Together, these facts show that the "m"-null sets of "X" form a sigma-ideal on "X". Similarly, the measurable "m"-null sets form a sigma-ideal of the sigma-algebra of measurable sets. Thus, null sets may be interpreted as negligible sets, defining a notion of almost everywhere.
+Lebesgue measure.
+The Lebesgue measure is the standard way of assigning a length, area or volume to subsets of Euclidean space.
+A subset "N" of formula_7 has null Lebesgue measure and is considered to be a null set in formula_7 if and only if:
+This condition can be generalised to formula_12, using "n"-cubes instead of intervals. In fact, the idea can be made to make sense on any Riemannian manifold, even if there is no Lebesgue measure there.
+For instance:
+If λ is Lebesgue measure for formula_7 and π is Lebesgue measure for formula_20, then the product measure formula_21. In terms of null sets, the following equivalence has been styled a Fubini's theorem: 
+Uses.
+Null sets play a key role in the definition of the Lebesgue integral: if functions "f" and "g" are equal except on a null set, then "f" is integrable if and only if "g" is, and their integrals are equal. This motivates the formal definition of Lp spaces as sets of equivalence classes of functions which differ only on null sets.
+A measure in which all subsets of null sets are measurable is "complete". Any non-complete measure can be completed to form a complete measure by asserting that subsets of null sets have measure zero. Lebesgue measure is an example of a complete measure; in some constructions, it is defined as the completion of a non-complete Borel measure.
+A subset of the Cantor set which is not Borel measurable.
+The Borel measure is not complete. One simple construction is to start with the standard Cantor set "K", which is closed hence Borel measurable, and which has measure zero, and to find a subset "F" of "K" which is not Borel measurable. (Since the Lebesgue measure is complete, this "F" is of course Lebesgue measurable.)
+First, we have to know that every set of positive measure contains a nonmeasurable subset. Let "f" be the Cantor function, a continuous function which is locally constant on "Kc", and monotonically increasing on [0, 1], with "f"(0) = 0 and "f"(1) = 1. Obviously, "f"("Kc") is countable, since it contains one point per component of "Kc". Hence "f"("Kc") has measure zero, so "f"("K") has measure one. We need a strictly monotonic function, so consider "g"("x") = "f"("x") + "x". Since "g"("x") is strictly monotonic and continuous, it is a homeomorphism. Furthermore, "g"("K") has measure one. Let be non-measurable, and let "F" = "g"−1("E"). Because "g" is injective, we have that , and so "F" is a null set. However, if it were Borel measurable, then "g"("F") would also be Borel measurable (here we use the fact that the preimage of a Borel set by a continuous function is measurable; "g"("F") = ("g"−1)−1("F") is the preimage of "F" through the continuous function "h" = "g"−1.) Therefore, "F" is a null, but non-Borel measurable set.
+Haar null.
+In a separable Banach space ("X", +), the group operation moves any subset to the translates "A" + "x" for any . When there is a probability measure "μ" on the σ-algebra of Borel subsets of "X", such that for all "x", "μ"("A" + "x") = 0, then "A" is a Haar null set.
+The term refers to the null invariance of the measures of translates, associating it with the complete invariance found with Haar measure.
+Some algebraic properties of topological groups have been related to the size of subsets and Haar null sets.
+Haar null sets have been used in Polish groups to show that when "A" is not a meagre set then "A"−1"A" contains an open neighborhood of the identity element. This property is named for Hugo Steinhaus since it is the conclusion of the Steinhaus theorem.
+

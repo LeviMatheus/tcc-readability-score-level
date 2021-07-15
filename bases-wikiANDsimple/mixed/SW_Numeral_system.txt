@@ -1,0 +1,8 @@
+A numeral system (or system of numeration) is a framework where a set of numbers are represented by "numerals" in a consistent manner. It can be seen as the "context" that allows the "numeral" "11" to be interpreted as the binary numeral for "three", the decimal numeral for "eleven", or other numbers in different bases.
+A numeral is a symbol or group of symbols, or a word in a natural language that represents a number. Numerals differ from numbers just as words differ from the things they refer to. The symbols "11", "eleven" and "XI" are different numerals, all representing the same number. This article attempts to explain the various systems of numerals. See also number names.
+Explained simply.
+There are different symbols, that can be used to make numbers. In a system with base 10 (the normal decimal system), usually the symbols "0","1","2", "3", "4", "5","6", "7", "8", and "9" are used. The numbers 0 to 9 can be written as one symbol, "0".."9". To count past 9, symbols have to be put together. "10" can be seen as "1 times 101 plus 0 times 100". With a base of 2, only the symbols "0" and "1" are used. "10" in base 2 notation is therefore "1 times 21 plus 0 times 20". This is the same as 2, in the base 10 notation.
+For bases bigger than 10, capital letters are used as symbols.
+For example, the hexadecimal numeral system (base 16) uses the numerical digits 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F.
+Today, mainly bases 2, 8, 10, 12 and 16 are in use.
+Most calculations are done in binary (base 2), although most people do calculations in decimal (base ten).

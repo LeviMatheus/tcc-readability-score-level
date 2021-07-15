@@ -1,0 +1,31 @@
+
+Units of alcohol are used in the United Kingdom (UK) as a measure to quantify the actual alcoholic content within a given volume of an alcoholic beverage, in order to provide guidance on total alcohol consumption.
+A number of other countries (including Australia, Canada, New Zealand, and the US) use the concept of a "standard drink", the definition of which varies from country to country, for the same purpose. "Standard drinks" were referred to in the first UK guidelines (1984) that published "safe limits" for drinking, but these were replaced by references to "alcohol units" in the 1987 guidelines and the latter term has been used in all subsequent UK guidance.
+One unit of alcohol (UK) is defined as 10 millilitres (8 grams) of pure alcohol. Typical drinks (i.e., typical quantities or servings of common alcoholic drinks) may contain 1–3 units of alcohol.
+Containers of alcoholic drinks sold directly to UK consumers are normally labelled to indicate the number of units of alcohol in a typical serving (optional) and in the full container (can or bottle), as well as information about responsible drinking.
+As an approximate guideline, a typical healthy adult can metabolise (break down) about one unit of alcohol per hour, although this may vary depending on sex, age, weight, health and many other factors.
+Formula.
+The number of UK units of alcohol in a drink can be determined by multiplying the volume of the drink (in millilitres) by its percentage ABV, and dividing by 1000.
+For example, one imperial pint (568 ml) of beer at 4% alcohol by volume (ABV) contains:
+The formula uses . This results in exactly one unit per percentage point per litre, of any alcoholic beverage.
+The formula can be simplified for everyday use by expressing the serving size in centilitres and the alcohol content literally as a percentage:
+Thus, a 750 ml bottle of wine at 12% ABV contains 75 cl × 12% = 9 units. Alternatively, the serving size in litres multiplied by the alcohol content as a number, the above example giving 0.75 × 12 = 9 units:
+Both pieces of input data are usually mentioned in this form on the bottle, so is easy to retrieve.
+Labelling.
+UK alcohol companies pledged in March 2011 to implement an innovative health labelling scheme to provide more information about responsible drinking on alcohol labels and containers. This voluntary scheme is the first of its kind in Europe and has been developed in conjunction with the UK Department of Health. The pledge stated:
+At the end of 2014, 101 companies had committed to the pledge labelling scheme.
+There are five elements included within the overall labelling scheme, the first three being mandatory, and the last two optional:
+Drinks companies had pledged to display the three mandatory items on 80% of drinks containers on shelves in the UK off-trade by the end of December 2013. A report published in November 2014, confirmed that UK drinks producers had delivered on that pledge with a 79.3% compliance with the pledge elements as measured by products on shelf. Compared with labels from 2008 on a like-for-like basis, information on Unit alcohol content had increased by 46%; 91% of products displayed alcohol and pregnancy warnings (18% in 2008); and 75% showed the Chief Medical Officers' lower risk daily guidelines (6% in 2008).
+Quantities.
+It is sometimes misleadingly stated that there is one unit per half-pint of beer, or small glass of wine, or single measure of spirits. However, such statements do not take into account the various strengths and volumes supplied in practice.
+For example, the ABV of beer typically varies from 3.5% to 5.5%. A typical "medium" glass of wine with 175 ml at 12% ABV has 2.1 units. And spirits, although typically 35–40% ABV, have single measures of 25 ml or 35 ml (so 1 or 1.4 units) depending on location.
+The misleading nature of "one unit per half-pint of beer, or small glass of wine, or single measure of spirits" can lead to people underestimating their alcohol intake.
+Spirits.
+Most spirits sold in the United Kingdom have 40% ABV or slightly less. In England, a single pub measure (25 ml) of a spirit contains one unit. However, a larger 35 ml measure is increasingly used (and in particular is standard in Northern Ireland), which contains 1.4 units of alcohol at 40% ABV. Sellers of spirits by the glass must state the capacity of their standard measure in ml.
+Time to metabolise.
+On average, it takes about one hour for the body to metabolise (break down) one unit of alcohol. However, this will vary with body weight, sex, age, personal metabolic rate, recent food intake, the type and strength of the alcohol, and medications taken. Alcohol may be metabolised more slowly if liver function is impaired.
+Recommended maximum.
+From 1992 to 1995, the UK government advised that men should drink no more than 21 units per week, and women no more than 14. (The difference between the sexes was due to the typically lower weight and water-to-body-mass ratio of women). "The Times" claimed in October 2007 that these limits had been "plucked out of the air" and had no scientific basis.
+This was changed after a government study showed that many people were in effect "saving up" their units and using them at the end of the week, a form of binge drinking. Since 1995 the advice was that regular consumption of 3–4 units a day for men, or 2–3 units a day for women, would not pose significant health risks, but that consistently drinking four or more units a day (men), or three or more units a day (women), is not advisable.
+An international study of about 6,000 men and 11,000 women for a total of 75,000 person-years found that people who reported that they drank more than a threshold value of 2 units of alcohol a day had a higher risk of fractures than non-drinkers. For example, those who drank over 3 units a day had nearly twice the risk of a hip fracture.
+

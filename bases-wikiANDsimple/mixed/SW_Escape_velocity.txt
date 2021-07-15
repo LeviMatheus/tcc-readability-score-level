@@ -1,0 +1,3 @@
+Escape velocity is the speed that something would need to completely escape the gravity of a large body, like a star or a planet (such as the Earth).
+If a ball is thrown upwards while standing on the ground, the ball will always fall back down. But imagine if ball is thrown fast enough that it "never" falls back down, and instead travels into space farther and farther away from the Earth. The minimum speed at which this could happen is called the escape velocity.
+The escape velocity at the surface of the Earth is 11.2 kilometers per second (or 6.96 miles per second).

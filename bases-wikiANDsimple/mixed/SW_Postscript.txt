@@ -1,0 +1,4 @@
+Postscript is a programming language. It was developed by Adobe, in 1984. It is a standard used by many computer printers. There are three different versions of it, Postscript Level 1, Level 2, and Level 3.
+The Portable Document Format is another standard, also from Adobe. It is better adapted to printing. Many things computer languages have, have been dropped to develop PDF.
+"Hello world".
+or if the output device has a console

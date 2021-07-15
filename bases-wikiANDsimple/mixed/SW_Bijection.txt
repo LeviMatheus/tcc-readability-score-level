@@ -1,0 +1,3 @@
+A bijection (or bijective function) is a function that is both injective and surjective. A bijection is sometimes called a "one-to-one mapping", or a "one-to-one correspondence".
+This is the same as saying: a function formula_1 with domain formula_2 and co-domain formula_3 is bijective if and only if formula_4 and formula_5 are different whenever formula_6 and formula_7 are different, and every element formula_8 of formula_3 has an element formula_6 of formula_2 where formula_12.
+If formula_1 is a bijection from formula_2 to formula_3 then its inverse, formula_16, is a bijection from formula_3 to formula_2.

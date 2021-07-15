@@ -1,0 +1,4 @@
+
+In mathematics, an isomorphism class is a collection of mathematical objects isomorphic to each other.
+Isomorphism classes are often defined if the exact identity of the elements of the set is considered irrelevant, and the properties of the structure of the mathematical object are studied. Examples of this are ordinals and graphs. However, there are circumstances in which the isomorphism class of an object conceals vital internal information about it; consider these examples:
+

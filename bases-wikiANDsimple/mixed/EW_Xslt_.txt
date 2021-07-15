@@ -1,0 +1,108 @@
+
+
+
+XSLT (Extensible Stylesheet Language Transformations) is a language for transforming XML documents into other XML documents, or other formats such as HTML for web pages, plain text or XSL Formatting Objects, which may subsequently be converted to other formats, such as PDF, PostScript and PNG. XSLT 1.0 is widely supported in modern web browsers.
+The original document is not changed; rather, a new document is created based on the content of an existing one. Typically, input documents are XML files, but anything from which the processor can build an XQuery and XPath Data Model can be used, such as relational database tables or geographical information systems.
+Although XSLT is designed as a special-purpose language for XML transformation, the language is Turing-complete, making it theoretically capable of arbitrary computations.
+History.
+XSLT is influenced by functional languages, and by text-based pattern matching languages like SNOBOL and AWK. Its most direct predecessor is DSSSL, which did for SGML what XSLT does for XML.
+Design and processing model.
+The XSLT processor takes one or more XML source documents, plus one or more XSLT stylesheets, and processes them to produce an output document. In contrast to widely implemented imperative programming languages like C, XSLT is declarative. The basic processing paradigm is pattern matching. Rather than listing an imperative sequence of actions to perform in a stateful environment, template rules only define how to handle a node matching a particular XPath-like pattern, if the processor should happen to encounter one, and the contents of the templates effectively comprise functional expressions that directly represent their evaluated form: the result tree, which is the basis of the processor's output.
+A typical processor behaves as follows. First, assuming a stylesheet has already been read and prepared, the processor builds a source tree from the input XML document. It then processes the source tree's root node, finds the best-matching template for that node in the stylesheet, and evaluates the template's contents. Instructions in each template generally direct the processor to either create nodes in the result tree, or to process more nodes in the source tree in the same way as the root node. Finally the result tree is serialized as XML or HTML text.
+XPath.
+XSLT uses XPath to identify subsets of the source document tree and perform calculations. XPath also provides a range of functions, which XSLT itself further augments.
+XSLT 1.0 uses XPath 1.0, while XSLT 2.0 uses XPath 2.0. XSLT 3.0 will work with either XPath 3.0 or 3.1. In the case of 1.0 and 2.0, the XSLT and XPath specifications were published on the same date. With 3.0, however, they were no longer synchronized; XPath 3.0 became a Recommendation in April 2014, followed by XPath 3.1 in February 2017; XSLT 3.0 followed in June 2017.
+XQuery compared.
+XSLT functionalities overlap with those of XQuery, which was initially conceived as a query language for large collections of XML documents.
+The XSLT 2.0 and XQuery 1.0 standards were developed by separate working groups within W3C, working together to ensure a common approach where appropriate. They share the same data model, type system, and function library, and both include XPath 2.0 as a sublanguage.
+The two languages, however, are rooted in different traditions and serve the needs of different communities. XSLT was primarily conceived as a stylesheet language whose primary goal was to render XML for the human reader on screen, on the web (as a web template language), or on paper. XQuery was primarily conceived as a database query language in the tradition of SQL.
+Because the two languages originate in different communities, XSLT is stronger in its handling
+of narrative documents with more flexible structure, while XQuery is stronger in its data handling, for example when performing relational joins.
+Media types.
+The codice_1 element can optionally take the attribute codice_2, which allows one to set the media type (or MIME type) for the resulting output, for example: codice_3. The XSLT 1.0 recommendation recommends the more general attribute types codice_4 and codice_5 since for a long time there was no registered media type for XSLT. During this time codice_6 became the de facto standard. In XSLT 1.0 it was not specified how the codice_2 values should be used.
+With the release of the XSLT 2.0, the W3C recommended the registration of the MIME media type codice_8 and it was later registered with the Internet Assigned Numbers Authority.
+Pre-1.0 working drafts of XSLT used codice_6 in their embedding examples, and this type was implemented and continues to be promoted by Microsoft in Internet Explorer and MSXML. It is also widely recognized in the codice_10 processing instruction by other browsers. In practice, therefore, users wanting to control transformation in the browser using this processing instruction are obliged to use this unregistered media type.
+Examples.
+These examples use the following incoming XML document
+&lt;?xml version="1.0" ?&gt;
+&lt;persons&gt;
+ &lt;person username="JS1"&gt;
+ &lt;name&gt;John&lt;/name&gt;
+ &lt;family-name&gt;Smith&lt;/family-name&gt;
+ &lt;/person&gt;
+ &lt;person username="MI1"&gt;
+ &lt;name&gt;Morka&lt;/name&gt;
+ &lt;family-name&gt;Ismincius&lt;/family-name&gt;
+ &lt;/person&gt;
+&lt;/persons&gt;
+Example 1 (transforming XML to XML).
+This XSLT stylesheet provides templates to transform the XML document:
+&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0"&gt;
+ &lt;xsl:output method="xml" indent="yes"/&gt;
+ &lt;xsl:template match="/persons"&gt;
+ &lt;root&gt;
+ &lt;xsl:apply-templates select="person"/&gt;
+ &lt;/root&gt;
+ &lt;/xsl:template&gt;
+ &lt;xsl:template match="person"&gt;
+ &lt;name username="{@username}"&gt;
+ &lt;xsl:value-of select="name" /&gt;
+ &lt;/name&gt;
+ &lt;/xsl:template&gt;
+&lt;/xsl:stylesheet&gt;
+Its evaluation results in a new XML document, having another structure:
+&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;root&gt;
+ &lt;name username="JS1"&gt;John&lt;/name&gt;
+ &lt;name username="MI1"&gt;Morka&lt;/name&gt;
+&lt;/root&gt;
+Example 2 (transforming XML to XHTML).
+Processing the following example XSLT file
+&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;xsl:stylesheet
+ version="1.0"
+ xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+ xmlns="http://www.w3.org/1999/xhtml"&gt;
+ &lt;xsl:output method="xml" indent="yes" encoding="UTF-8"/&gt;
+ &lt;xsl:template match="/persons"&gt;
+ &lt;html&gt;
+ &lt;head&gt; &lt;title&gt;Testing XML Example&lt;/title&gt; &lt;/head&gt;
+ &lt;body&gt;
+ &lt;h1&gt;Persons&lt;/h1&gt;
+ &lt;ul&gt;
+ &lt;xsl:apply-templates select="person"&gt;
+ &lt;xsl:sort select="family-name" /&gt;
+ &lt;/xsl:apply-templates&gt;
+ &lt;/ul&gt;
+ &lt;/body&gt;
+ &lt;/html&gt;
+ &lt;/xsl:template&gt;
+ &lt;xsl:template match="person"&gt;
+ &lt;li&gt;
+ &lt;xsl:value-of select="family-name"/&gt;&lt;xsl:text&gt;, &lt;/xsl:text&gt;&lt;xsl:value-of select="name"/&gt;
+ &lt;/li&gt;
+ &lt;/xsl:template&gt;
+&lt;/xsl:stylesheet&gt;
+with the XML input file shown above results in the following XHTML (whitespace has been adjusted here for clarity):
+&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml"&gt;
+ &lt;head&gt; &lt;title&gt;Testing XML Example&lt;/title&gt; &lt;/head&gt;
+ &lt;body&gt;
+ &lt;h1&gt;Persons&lt;/h1&gt;
+ &lt;ul&gt;
+ &lt;li&gt;Ismincius, Morka&lt;/li&gt;
+ &lt;li&gt;Smith, John&lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;/body&gt;
+&lt;/html&gt;
+This XHTML generates the output below when rendered in a web browser.
+In order for a web browser to be able to apply an XSL transformation to an XML document on display, an XML stylesheet processing instruction can be inserted into XML. So, for example, if the stylesheet in Example 2 above were available as "example2.xsl", the following instruction could be added to the original incoming XML:
+&lt;?xml-stylesheet href="example2.xsl" type="text/xsl" ?&gt;
+In this example, codice_6 is technically incorrect according to the W3C specifications (which say the type should be codice_8), but it is the only media type that is widely supported across browsers as of 2009, and the situation is unchanged in 2021.
+Processor implementations.
+Performance.
+Most early XSLT processors were interpreters. More recently, code generation is increasingly common, using portable intermediate languages (such as Java bytecode or .NET Common Intermediate Language) as the target. However, even the interpretive products generally offer separate analysis and execution phases, allowing an optimized expression tree to be created in memory and reused to perform multiple transformations. This gives substantial performance benefits in online publishing applications, where the same transformation is applied many times per second to different source documents. This separation is reflected in the design of XSLT processing APIs (such as JAXP).
+Early XSLT processors had very few optimizations. Stylesheet documents were read into Document Object Models and the processor would act on them directly. XPath engines were also not optimized. Increasingly, however, XSLT processors use optimization techniques found in functional programming languages and database query languages, such as static rewriting of an expression tree (e.g., to move calculations out of loops), and lazy pipelined evaluation to reduce the memory footprint of intermediate results (and allow "early exit" when the processor can evaluate an expression such as codice_15 without a complete evaluation of all subexpressions). Many processors also use tree representations that are significantly more efficient (in both space and time) than general-purpose DOM implementations.
+In June 2014, Debbie Lockett and Michael Kay introduced an open-source benchmarking framework for XSLT processors called XT-Speedo.
+

@@ -1,0 +1,2 @@
+In physics, the field strength of a field is the magnitude of its vector value.
+In theoretical physics, the field strength is just another name for the curvature form. For the electromagnetic field, the curvature form is just an antisymmetric matrix whose elements are the electric field and magnetic field: the electromagnetic tensor.

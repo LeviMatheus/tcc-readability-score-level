@@ -1,0 +1,7 @@
+
+IEEE 802 is a family of Institute of Electrical and Electronics Engineers (IEEE) standards for local area networks (LAN), personal area network (PAN), and metropolitan area networks (MAN). The IEEE 802 LAN/MAN Standards Committee (LMSC) maintains these standards. The IEEE 802 family of standards has twelve members, numbered 802.1 through 802.12, with a focus group of the LMSC devoted to each. 
+The IEEE 802 standards are restricted to computer networks carrying variable-size packets, unlike cell relay networks, for example, in which data is transmitted in short, uniformly sized units called cells. Isochronous signal networks, in which data is transmitted as a steady stream of octets, or groups of octets, at regular time intervals, are also outside the scope of the IEEE 802 standards.
+The number 802 has no significance: it was simply the next number in the sequence that the IEEE used for standards projects.
+The services and protocols specified in IEEE 802 map to the lower two layers (data link and physical) of the seven-layer Open Systems Interconnection (OSI) networking reference model. IEEE 802 divides the OSI data link layer into two sub-layers: logical link control (LLC) and medium access control (MAC), as follows: 
+The most widely used of these standards are for the Ethernet family, Token Ring, wireless network protocols (including Wi-Fi), and bridging protocols.
+

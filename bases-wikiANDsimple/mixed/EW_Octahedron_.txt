@@ -1,0 +1,63 @@
+
+In geometry, an octahedron (plural: octahedra) is a polyhedron with eight faces, twelve edges, and six vertices. The term is most commonly used to refer to the regular octahedron, a Platonic solid composed of eight equilateral triangles, four of which meet at each vertex.
+A regular octahedron is the dual polyhedron of a cube. It is a rectified tetrahedron. It is a square bipyramid in any of three orthogonal orientations. It is also a triangular antiprism in any of four orientations.
+An octahedron is the three-dimensional case of the more general concept of a cross polytope.
+A regular octahedron is a 3-ball in the Manhattan () metric.
+Regular octahedron.
+Dimensions.
+If the edge length of a regular octahedron is "a", the radius of a circumscribed sphere (one that touches the octahedron at all vertices) is
+and the radius of an inscribed sphere (tangent to each of the octahedron's faces) is
+while the midradius, which touches the middle of each edge, is
+Orthogonal projections.
+The "octahedron" has four special orthogonal projections, centered, on an edge, vertex, face, and normal to a face. The second and third correspond to the B2 and A2 Coxeter planes.
+Spherical tiling.
+The octahedron can also be represented as a spherical tiling, and projected onto the plane via a stereographic projection. This projection is conformal, preserving angles but not areas or lengths. Straight lines on the sphere are projected as circular arcs on the plane.
+Cartesian coordinates.
+An octahedron with edge length can be placed with its center at the origin and its vertices on the coordinate axes; the Cartesian coordinates of the vertices are then
+In an "x"–"y"–"z" Cartesian coordinate system, the octahedron with center coordinates ("a", "b", "c") and radius "r" is the set of all points ("x", "y", "z") such that
+Area and volume.
+The surface area "A" and the volume "V" of a regular octahedron of edge length "a" are:
+Thus the volume is four times that of a regular tetrahedron with the same edge length, while the surface area is twice (because we have 8 rather than 4 triangles).
+If an octahedron has been stretched so that it obeys the equation
+the formulas for the surface area and volume expand to become
+Additionally the inertia tensor of the stretched octahedron is
+These reduce to the equations for the regular octahedron when
+Geometric relations.
+The interior of the compound of two dual tetrahedra is an octahedron, and this compound, called the stella octangula, is its first and only stellation. Correspondingly, a regular octahedron is the result of cutting off from a regular tetrahedron, four regular tetrahedra of half the linear size (i.e. rectifying the tetrahedron). The vertices of the octahedron lie at the midpoints of the edges of the tetrahedron, and in this sense it relates to the tetrahedron in the same way that the cuboctahedron and icosidodecahedron relate to the other Platonic solids. One can also divide the edges of an octahedron in the ratio of the golden mean to define the vertices of an icosahedron. This is done by first placing vectors along the octahedron's edges such that each face is bounded by a cycle, then similarly partitioning each edge into the golden mean along the direction of its vector. There are five octahedra that define any given icosahedron in this fashion, and together they define a "regular compound".
+Octahedra and tetrahedra can be alternated to form a vertex, edge, and face-uniform tessellation of space, called the octet truss by Buckminster Fuller. This is the only such tiling save the regular tessellation of cubes, and is one of the 28 convex uniform honeycombs. Another is a tessellation of octahedra and cuboctahedra.
+The octahedron is unique among the Platonic solids in having an even number of faces meeting at each vertex. Consequently, it is the only member of that group to possess mirror planes that do not pass through any of the faces.
+Using the standard nomenclature for Johnson solids, an octahedron would be called a "square bipyramid". Truncation of two opposite vertices results in a square bifrustum.
+The octahedron is 4-connected, meaning that it takes the removal of four vertices to disconnect the remaining vertices. It is one of only four 4-connected simplicial well-covered polyhedra, meaning that all of the maximal independent sets of its vertices have the same size. The other three polyhedra with this property are the pentagonal dipyramid, the snub disphenoid, and an irregular polyhedron with 12 vertices and 20 triangular faces.
+The octahedron can also be generated as the case of a 3D superellipsoid with all values set to 1.
+Uniform colorings and symmetry.
+There are 3 uniform colorings of the octahedron, named by the triangular face colors going around each vertex: 1212, 1112, 1111.
+The octahedron's symmetry group is Oh, of order 48, the three dimensional hyperoctahedral group. This group's subgroups include D3d (order 12), the symmetry group of a triangular antiprism; D4h (order 16), the symmetry group of a square bipyramid; and Td (order 24), the symmetry group of a rectified tetrahedron. These symmetries can be emphasized by different colorings of the faces.
+Nets.
+The regular octahedron has eleven arrangements of nets.
+Dual.
+The octahedron is the dual polyhedron to the cube.
+If the length of an edge of the octahedron formula_12, then the length of an edge of the dual cube formula_13.
+Faceting.
+The uniform tetrahemihexahedron is a tetrahedral symmetry faceting of the regular octahedron, sharing edge and vertex arrangement. It has four of the triangular faces, and 3 central squares.
+Irregular octahedra.
+The following polyhedra are combinatorially equivalent to the regular polyhedron. They all have six vertices, eight triangular faces, and twelve edges that correspond one-for-one with the features of a regular octahedron.
+Other convex octahedra.
+More generally, an octahedron can be any polyhedron with eight faces. The regular octahedron has 6 vertices and 12 edges, the minimum for an octahedron; irregular octahedra may have as many as 12 vertices and 18 edges.
+There are 257 topologically distinct "convex" octahedra, excluding mirror images. More specifically there are 2, 11, 42, 74, 76, 38, 14 for octahedra with 6 to 12 vertices respectively. (Two polyhedra are "topologically distinct" if they have intrinsically different arrangements of faces and vertices, such that it is impossible to distort one into the other simply by changing the lengths of edges or the angles between edges or faces.)
+Some better known irregular octahedra include the following:
+Octahedra in the physical world.
+Tetrahedral Truss.
+A framework of repeating tetrahedrons and octahedrons was invented by Buckminster Fuller in the 1950s, known as a space frame, commonly regarded as the strongest structure for resisting cantilever stresses.
+Related polyhedra.
+A regular octahedron can be augmented into a tetrahedron by adding 4 tetrahedra on alternated faces. Adding tetrahedra to all 8 faces creates the stellated octahedron.
+The octahedron is one of a family of uniform polyhedra related to the cube.
+It is also one of the simplest examples of a hypersimplex, a polytope formed by certain intersections of a hypercube with a hyperplane.
+The octahedron is topologically related as a part of sequence of regular polyhedra with Schläfli symbols {3,"n"}, continuing into the hyperbolic plane.
+Tetratetrahedron.
+The regular octahedron can also be considered a "rectified tetrahedron" – and can be called a "tetratetrahedron". This can be shown by a 2-color face model. With this coloring, the octahedron has tetrahedral symmetry.
+Compare this truncation sequence between a tetrahedron and its dual:
+The above shapes may also be realized as slices orthogonal to the long diagonal of a tesseract. If this diagonal is oriented vertically with a height of 1, then the first five slices above occur at heights "r", , , , and "s", where "r" is any number in the range , and "s" is any number in the range .
+The octahedron as a "tetratetrahedron" exists in a sequence of symmetries of quasiregular polyhedra and tilings with vertex configurations (3."n")2, progressing from tilings of the sphere to the Euclidean plane and into the hyperbolic plane. With orbifold notation symmetry of *"n"32 all of these tilings are Wythoff constructions within a fundamental domain of symmetry, with generator points at the right angle corner of the domain.
+Trigonal antiprism.
+As a trigonal antiprism, the octahedron is related to the hexagonal dihedral symmetry family.
+

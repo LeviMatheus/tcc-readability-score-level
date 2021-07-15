@@ -1,0 +1,5 @@
+e is a mathematical constant. It also has other names, like "Euler's number" (because of the Swiss mathematician Leonhard Euler), or "Napier's constant" (because of the Scottish mathematician John Napier). It is an important number in mathematics, like π and "i." It is an irrational number, which means it is impossible to write as a fraction with two integers; but some numbers, like 2.71828182845904523536 come close to the real value.
+The number "e" is very important for exponential functions. For example, an exponential function becomes bigger by a factor "e" in the same time that a linear function (one that looks like a straight line) becomes bigger by a factor 2.
+Definitions.
+In other words, there is a number, formula_2 converges to, if n is made very big. This number is "e".
+The true value of "e" is a number that never ends,

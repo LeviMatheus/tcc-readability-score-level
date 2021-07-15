@@ -1,0 +1,23 @@
+
+A duty cycle or power cycle is the fraction of one period in which a signal or system is active. Duty cycle is commonly expressed as a percentage or a ratio. A period is the time it takes for a signal to complete an on-and-off cycle. As a formula, a duty cycle (%) may be expressed as:
+Equally, a duty cycle (ratio) may be expressed as:
+where formula_3 is the duty cycle, formula_4 is the pulse width (pulse active time), and formula_5 is the total period of the signal. Thus, a 60% duty cycle means the signal is on 60% of the time but off 40% of the time. The "on time" for a 60% duty cycle could be a fraction of a second, a day, or even a week, depending on the length of the period.
+Duty cycles can be used to describe the percent time of an active signal in an electrical device such as the power switch in a switching power supply or the firing of action potentials by a living system such as a neuron.
+The duty factor for periodic signal expresses the same notion, but is usually scaled to a maximum of one rather than 100%.
+The duty cycle can also be notated as formula_6.
+Applications.
+Electrical and electronics.
+In electronics, duty cycle is the percentage of the ratio of pulse duration, or pulse width (PW) to the total period (T) of the waveform. It is generally used to represent time duration of a pulse when it is high (1). In digital electronics, signals are used in rectangular waveform which are represented by logic 1 and logic 0. Logic 1 stands for presence of an electric pulse and 0 for absence of an electric pulse. For example, a signal (10101010) has 50% duty cycle, because the pulse remains high for 1/2 of the period or low for 1/2 of the period. Similarly, for pulse (10001000) the duty cycle will be 25% because the pulse remains high only for 1/4 of the period and remains low for 3/4 of the period.
+Electrical motors typically use less than a 100% duty cycle. For example, if a motor runs for one out of 100 seconds, or 1/100 of the time, then, its duty cycle is 1/100, or 1 percent.
+Pulse-width modulation (PWM) is used in a variety of electronic situations, such as power delivery and voltage regulation.
+In electronic music, music synthesizers vary the duty cycle of their audio-frequency oscillators to obtain a subtle effect on the tone colors. This technique is known as pulse-width modulation.
+In the printer / copier industry, the duty cycle specification refers to the rated throughput (that is, printed pages) of a device per month.
+In a welding power supply, the maximum duty cycle is defined as the percentage of time in a 10-minute period that it can be operated continuously before overheating.
+Biological systems.
+The concept of duty cycles is also used to describe the activity of neurons and muscle fibers. In neural circuits for example, a duty cycle specifically refers to the proportion of a cycle period in which a neuron remains active.
+Generation.
+One way to generate fairly accurate square wave signals with 1/"n" duty factor, where "n" is an integer, is to vary the duty cycle until the "n"th-harmonic is significantly suppressed. For audio-band signals, this can even be done "by ear"; for example, a -40dB reduction in the 3rd harmonic corresponds to setting the duty factor to 1/3 with a precision of 1% and -60 dB reduction corresponds to a precision of 0.1%.
+Mark-Space ratio.
+ Mark-Space ratio, or mark-to-space ratio, is another term for the same concept, to describe the temporal relationship between two alternating periods of a waveform. However, whereas the duty cycle relates the duration of one period to the duration of the entire cycle, the mark-space ratio relates the durations of the two individual periods:
+where formula_8 and formula_9 are the durations of the two alternating periods.
+

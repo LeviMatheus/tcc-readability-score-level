@@ -1,0 +1,102 @@
+
+In mathematics and physics, Laplace's equation is a second-order partial differential equation named after Pierre-Simon Laplace who first studied its properties. This is often written as
+where formula_2is the Laplace operator, formula_3 is the divergence operator (also symbolized "div"), formula_4 is the gradient operator (also symbolized "grad"), and formula_5 is a twice-differentiable real-valued function. The Laplace operator therefore maps a scalar function to another scalar function.
+If the right-hand side is specified as a given function, formula_6, we have
+This is called Poisson's equation, a generalization of Laplace's equation. Laplace's equation and Poisson's equation are the simplest examples of elliptic partial differential equations. Laplace's equation is also a special case of the Helmholtz equation. 
+The general theory of solutions to Laplace's equation is known as potential theory. The solutions of Laplace's equation are the harmonic functions, which are important in multiple branches of physics, notably electrostatics, gravitation, and fluid dynamics. In the study of heat conduction, the Laplace equation is the steady-state heat equation. In general, Laplace's equation describes situations of equilibrium, or those that do not depend explicitly on time.
+Forms in different coordinate systems.
+In rectangular coordinates,
+In cylindrical coordinates,
+In spherical coordinates, using the formula_10convention,
+More generally, in curvilinear coordinates,
+or 
+Boundary conditions.
+The Dirichlet problem for Laplace's equation consists of finding a solution "φ" on some domain "D" such that "φ" on the boundary of "D" is equal to some given function. Since the Laplace operator appears in the heat equation, one physical interpretation of this problem is as follows: fix the temperature on the boundary of the domain according to the given specification of the boundary condition. Allow heat to flow until a stationary state is reached in which the temperature at each point on the domain doesn't change anymore. The temperature distribution in the interior will then be given by the solution to the corresponding Dirichlet problem.
+The Neumann boundary conditions for Laplace's equation specify not the function "φ" itself on the boundary of "D", but its normal derivative. Physically, this corresponds to the construction of a potential for a vector field whose effect is known at the boundary of "D" alone. For the example of the heat equation it amounts to prescribing the heat flux through the boundary. In particular, at an adiabatic boundary, the normal derivative of "φ" is zero.
+Solutions of Laplace's equation are called harmonic functions; they are all analytic within the domain where the equation is satisfied. If any two functions are solutions to Laplace's equation (or any linear homogeneous differential equation), their sum (or any linear combination) is also a solution. This property, called the principle of superposition, is very useful. For example, solutions to complex problems can be constructed by summing simple solutions.
+In two dimensions.
+Laplace's equation in two independent variables in rectangular coordinates has the form 
+Analytic functions.
+The real and imaginary parts of a complex analytic function both satisfy the Laplace equation. That is, if , and if 
+then the necessary condition that "f"("z") be analytic is that "u" and "v" be differentiable and that the Cauchy–Riemann equations be satisfied:
+where "ux" is the first partial derivative of "u" with respect to "x".
+It follows that 
+Therefore "u" satisfies the Laplace equation. A similar calculation shows that "v" also satisfies the Laplace equation. 
+Conversely, given a harmonic function, it is the real part of an analytic function, "f"("z") (at least locally). If a trial form is
+then the Cauchy–Riemann equations will be satisfied if we set
+This relation does not determine "ψ", but only its increments:
+The Laplace equation for "φ" implies that the integrability condition for "ψ" is satisfied:
+and thus "ψ" may be defined by a line integral. The integrability condition and Stokes' theorem implies that the value of the line integral connecting two points is independent of the path. The resulting pair of solutions of the Laplace equation are called conjugate harmonic functions. This construction is only valid locally, or provided that the path does not loop around a singularity. For example, if "r" and "θ" are polar coordinates and
+then a corresponding analytic function is
+However, the angle "θ" is single-valued only in a region that does not enclose the origin.
+The close connection between the Laplace equation and analytic functions implies that any solution of the Laplace equation has derivatives of all orders, and can be expanded in a power series, at least inside a circle that does not enclose a singularity. This is in sharp contrast to solutions of the wave equation, which generally have less regularity.
+There is an intimate connection between power series and Fourier series. If we expand a function "f" in a power series inside a circle of radius "R", this means that
+with suitably defined coefficients whose real and imaginary parts are given by 
+Therefore
+which is a Fourier series for "f". These trigonometric functions can themselves be expanded, using multiple angle formulae.
+Fluid flow.
+Let the quantities "u" and "v" be the horizontal and vertical components of the velocity field of a steady incompressible, irrotational flow in two dimensions. The continuity condition for an incompressible flow is that 
+and the condition that the flow be irrotational is that
+If we define the differential of a function "ψ" by
+then the continuity condition is the integrability condition for this differential: the resulting function is called the stream function because it is constant along flow lines. The first derivatives of "ψ" are given by
+and the irrotationality condition implies that "ψ" satisfies the Laplace equation. The harmonic function "φ" that is conjugate to "ψ" is called the velocity potential. The Cauchy–Riemann equations imply that
+Thus every analytic function corresponds to a steady incompressible, irrotational, inviscid fluid flow in the plane. The real part is the velocity potential, and the imaginary part is the stream function.
+Electrostatics.
+According to Maxwell's equations, an electric field in two space dimensions that is independent of time satisfies
+and
+where "ρ" is the charge density. The first Maxwell equation is the integrability condition for the differential
+so the electric potential "φ" may be constructed to satisfy
+The second of Maxwell's equations then implies that 
+which is the Poisson equation. The Laplace equation can be used in three-dimensional problems in electrostatics and fluid flow just as in two dimensions.
+In three dimensions.
+Fundamental solution.
+A fundamental solution of Laplace's equation satisfies
+where the Dirac delta function "δ" denotes a unit source concentrated at the point . No function has this property: in fact it is a distribution rather than a function; but it can be thought of as a limit of functions whose integrals over space are unity, and whose support (the region where the function is non-zero) shrinks to a point (see weak solution). It is common to take a different sign convention for this equation than one typically does when defining fundamental solutions. This choice of sign is often convenient to work with because −Δ is a positive operator. The definition of the fundamental solution thus implies that, if the Laplacian of "u" is integrated over any volume that encloses the source point, then
+The Laplace equation is unchanged under a rotation of coordinates, and hence we can expect that a fundamental solution may be obtained among solutions that only depend upon the distance "r" from the source point. If we choose the volume to be a ball of radius "a" around the source point, then Gauss' divergence theorem implies that
+It follows that 
+on a sphere of radius "r" that is centered on the source point, and hence
+Note that, with the opposite sign convention (used in physics), this is the potential generated by a point particle, for an inverse-square law force, arising in the solution of Poisson equation. A similar argument shows that in two dimensions
+where log("r") denotes the natural logarithm. Note that, with the opposite sign convention, this is the potential generated by a pointlike sink (see point particle), which is the solution of the Euler equations in two-dimensional incompressible flow.
+Green's function.
+A Green's function is a fundamental solution that also satisfies a suitable condition on the boundary "S" of a volume "V". For instance, 
+may satisfy
+Now if "u" is any solution of the Poisson equation in "V":
+and "u" assumes the boundary values "g" on "S", then we may apply Green's identity, (a consequence of the divergence theorem) which states that
+The notations "un" and "Gn" denote normal derivatives on "S". In view of the conditions satisfied by "u" and "G", this result simplifies to
+Thus the Green's function describes the influence at of the data "f" and "g". For the case of the interior of a sphere of radius "a", the Green's function may be obtained by means of a reflection : the source point "P" at distance "ρ" from the center of the sphere is reflected along its radial line to a point "P"' that is at a distance
+Note that if "P" is inside the sphere, then "P"' will be outside the sphere. The Green's function is then given by
+where "R" denotes the distance to the source point "P" and "R"′ denotes the distance to the reflected point "P"′. A consequence of this expression for the Green's function is the Poisson integral formula. Let "ρ", "θ", and "φ" be spherical coordinates for the source point "P". Here "θ" denotes the angle with the vertical axis, which is contrary to the usual American mathematical notation, but agrees with standard European and physical practice. Then the solution of the Laplace equation with Dirichlet boundary values "g" inside the sphere is given by
+where
+is the cosine of the angle between and . A simple consequence of this formula is that if "u" is a harmonic function, then the value of "u" at the center of the sphere is the mean value of its values on the sphere. This mean value property immediately implies that a non-constant harmonic function cannot assume its maximum value at an interior point.
+Laplace's spherical harmonics.
+Laplace's equation in spherical coordinates is:
+Consider the problem of finding solutions of the form . By separation of variables, two differential equations result by imposing Laplace's equation:
+The second equation can be simplified under the assumption that has the form . Applying separation of variables again to the second equation gives way to the pair of differential equations
+for some number . A priori, is a complex constant, but because must be a periodic function whose period evenly divides , is necessarily an integer and is a linear combination of the complex exponentials . The solution function is regular at the poles of the sphere, where . Imposing this regularity in the solution of the second equation at the boundary points of the domain is a Sturm–Liouville problem that forces the parameter to be of the form for some non-negative integer with ; this is also explained below in terms of the orbital angular momentum. Furthermore, a change of variables transforms this equation into the Legendre equation, whose solution is a multiple of the associated Legendre polynomial . Finally, the equation for has solutions of the form ; requiring the solution to be regular throughout forces .
+Here the solution was assumed to have the special form . For a given value of , there are independent solutions of this form, one for each integer with . These angular solutions are a product of trigonometric functions, here represented as a complex exponential, and associated Legendre polynomials:
+which fulfill
+Here is called a spherical harmonic function of degree and order , is an associated Legendre polynomial, is a normalization constant, and and represent colatitude and longitude, respectively. In particular, the colatitude , or polar angle, ranges from at the North Pole, to at the Equator, to at the South Pole, and the longitude , or azimuth, may assume all values with . For a fixed integer , every solution of the eigenvalue problem
+is a linear combination of . In fact, for any such solution, is the expression in spherical coordinates of a homogeneous polynomial that is harmonic (see below), and so counting dimensions shows that there are linearly independent such polynomials.
+The general solution to Laplace's equation in a ball centered at the origin is a linear combination of the spherical harmonic functions multiplied by the appropriate scale factor ,
+where the are constants and the factors are known as solid harmonics. Such an expansion is valid in the ball
+For formula_62, the solid harmonics with negative powers of formula_63 are chosen instead. In that case, one needs to expand the solution of known regions in Laurent series (about formula_64), instead of Taylor series (about formula_65), to match the terms and find formula_66.
+Electrostatics.
+Let formula_67 be the electric field, formula_68 be the electric charge density, and formula_69 be the permittivity of free space. Then Gauss's law for electricity (Maxwell's first equation) in differential form states
+Now, the electric field can be expressed as the negative gradient of the electric potential formula_71,
+if the field is irrotational, formula_73. The irrotationality of formula_67 is also known as the electrostatic condition.
+Plugging this relation into Gauss's law, we obtain Poisson's equation for electricity,
+In the particular case of a source-free region, formula_78 and Poisson's equation reduces to Laplace's equation for the electric potential.
+If the electrostatic potential formula_71 is specified on the boundary of a region formula_80, then it is uniquely determined. If formula_80 is surrounded by a conducting material with a specified charge density formula_68, and if the total charge formula_83 is known, then formula_71 is also unique.
+A potential that doesn't satisfy Laplace's equation together with the boundary condition is an invalid electrostatic potential.
+Gravitation.
+Let formula_85 be the gravitational field, formula_68 the mass density, and formula_87 the gravitational constant. Then Gauss's law for gravitation in differential form is
+The gravitational field is conservative and can therefore be expressed as the negative gradient of the gravitational potential:
+Using the differential form of Gauss's law of gravitation, we have
+which is Poisson's equation for gravitational fields. 
+In empty space, formula_93 and we have
+which is Laplace's equation for gravitational fields.
+In the Schwarzschild metric.
+S. Persides solved the Laplace equation in Schwarzschild spacetime on hypersurfaces of constant "t". Using the canonical variables "r", "θ", "φ" the solution is
+where is a spherical harmonic function, and
+Here "Pl" and "Ql" are Legendre functions of the first and second kind, respectively, while "rs" is the Schwarzschild radius. The parameter "l" is an arbitrary non-negative integer.
+

@@ -1,0 +1,42 @@
+
+In mathematics, the slope or gradient of a line is a number that describes both the "direction" and the "steepness" of the line. Slope is often denoted by the letter "m"; there is no clear answer to the question why the letter "m" is used for slope, but its earliest use in English appears in O'Brien (1844) who wrote the equation of a straight line as and it can also be found in Todhunter (1888) who wrote it as ""y" = "mx" + "c"".
+Slope is calculated by finding the ratio of the "vertical change" to the "horizontal change" between (any) two distinct points on a line. Sometimes the ratio is expressed as a quotient ("rise over run"), giving the same number for every two distinct points on the same line. A line that is decreasing has a negative "rise". The line may be practical - as set by a road surveyor, or in a diagram that models a road or a roof either as a description or as a plan.
+The "steepness", incline, or grade of a line is measured by the absolute value of the slope. A slope with a greater absolute value indicates a steeper line. The "direction" of a line is either increasing, decreasing, horizontal or vertical. 
+The rise of a road between two points is the difference between the altitude of the road at those two points, say "y"1 and "y"2, or in other words, the rise is ("y"2 − "y"1) = Δ"y". For relatively short distances, where the earth's curvature may be neglected, the run is the difference in distance from a fixed point measured along a level, horizontal line, or in other words, the run is ("x"2 − "x"1) = Δ"x". Here the slope of the road between the two points is simply described as the ratio of the altitude change to the horizontal distance between any two points on the line.
+In mathematical language, the slope "m" of the line is
+The concept of slope applies directly to grades or gradients in geography and civil engineering. Through trigonometry, the slope "m" of a line is related to its angle of incline "θ" by the tangent function
+Thus, a 45° rising line has a slope of +1 and a 45° falling line has a slope of −1.
+As a generalization of this practical description, the mathematics of differential calculus defines the slope of a curve at a point as the slope of the tangent line at that point. When the curve is given by a series of points in a diagram or in a list of the coordinates of points, the slope may be calculated not at a point but between any two given points. When the curve is given as a continuous function, perhaps as an algebraic formula, then the differential calculus provides rules giving a formula for the slope of the curve at any point in the middle of the curve.
+This generalization of the concept of slope allows very complex constructions to be planned and built that go well beyond static structures that are either horizontals or verticals, but can change in time, move in curves, and change depending on the rate of change of other factors. Thereby, the simple idea of slope becomes one of the main basis of the modern world in terms of both technology and the built environment.
+Definition.
+The slope of a line in the plane containing the "x" and "y" axes is generally represented by the letter "m", and is defined as the change in the "y" coordinate divided by the corresponding change in the "x" coordinate, between two distinct points on the line. This is described by the following equation:
+Given two points ("x"1,"y"1) and ("x"2,"y"2), the change in "x" from one to the other is ("run"), while the change in "y" is ("rise"). Substituting both quantities into the above equation generates the formula:
+The formula fails for a vertical line, parallel to the "y" axis (see Division by zero), where the slope can be taken as infinite, so the slope of a vertical line is considered undefined.
+Examples.
+Suppose a line runs through two points: "P" = (1, 2) and "Q" = (13, 8). By dividing the difference in "y"-coordinates by the difference in "x"-coordinates, one can obtain the slope of the line:
+As another example, consider a line which runs through the points (4, 15) and (3, 21). Then, the slope of the line is 
+Algebra and geometry.
+Examples.
+For example, consider a line running through the points (2,8) and (3,20). This line has a slope, , of 
+One can then write the line's equation, in point-slope form:
+or: 
+The angle θ between -90° and 90° that this line makes with the -axis is 
+Consider the two lines: and . Both lines have slope . They are not the same line. So they are parallel lines.
+Consider the two lines and . The slope of the first line is . The slope of the second line is . The product of these two slopes is −1. So these two lines are perpendicular.
+Statistics.
+In statistical mathematics, the gradient of the least-squares regression line of best fit for a given distribution of data which is linear, numerical, and free of outliers, may be written as formula_19, where formula_20 is defined as the statistical gradient for the line of best fit (formula_21), formula_22 is Pearson's correlation coefficient, formula_23 is the standard deviation of the y-values and formula_24 is the standard deviation of the x-values. This may also be written as a ratio of covariances:
+formula_25
+Slope of a road or railway.
+There are two common ways to describe the steepness of a road or railroad. One is by the angle between 0° and 90° (in degrees), and the other is by the slope in a percentage. See also steep grade railway and rack railway.
+The formulae for converting a slope given as a percentage into an angle in degrees and vice versa are: 
+where "angle" is in degrees and the trigonometric functions operate in degrees. For example, a slope of 100% or 1000‰ is an angle of 45°.
+A third way is to give one unit of rise in say 10, 20, 50 or 100 horizontal units, e.g. 1:10. 1:20, 1:50 or 1:100 (or "1 in 10", "1 in 20" etc.) Note that 1:10 is steeper than 1:20. For example, steepness of 20% means 1:5 or an incline with angle 11,3°.
+Roads and railways have both longitudinal slopes and cross slopes.
+Calculus.
+The concept of a slope is central to differential calculus. For non-linear functions, the rate of change varies along the curve. The derivative of the function at a point is the slope of the line tangent to the curve at the point, and is thus equal to the rate of change of the function at that point.
+If we let Δ"x" and Δ"y" be the distances (along the "x" and "y" axes, respectively) between two points on a curve, then the slope given by the above definition,
+is the slope of a secant line to the curve. For a line, the secant between any two points is the line itself, but this is not the case for any other type of curve.
+For example, the slope of the secant intersecting "y" = "x"2 at (0,0) and (3,9) is 3. (The slope of the tangent at is also 3—"a" consequence of the mean value theorem.)
+By moving the two points closer together so that Δ"y" and Δ"x" decrease, the secant line more closely approximates a tangent line to the curve, and as such the slope of the secant approaches that of the tangent. Using differential calculus, we can determine the limit, or the value that Δ"y"/Δ"x" approaches as Δ"y" and Δ"x" get closer to zero; it follows that this limit is the exact slope of the tangent. If "y" is dependent on "x", then it is sufficient to take the limit where only Δ"x" approaches zero. Therefore, the slope of the tangent is the limit of Δ"y"/Δ"x" as Δ"x" approaches zero, or "dy"/"dx". We call this limit the derivative.
+Its value at a point on the function gives us the slope of the tangent at that point. For example, let "y"="x"2. A point on this function is (-2,4). The derivative of this function is d"y"/d"x"=2"x". So the slope of the line tangent to "y" at (-2,4) is 2·(-2) = -4. The equation of this tangent line is: "y"-4=(-4)("x"-(-2)) or "y" = -4"x" - 4.
+

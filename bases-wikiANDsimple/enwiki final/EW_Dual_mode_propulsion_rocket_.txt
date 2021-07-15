@@ -1,0 +1,4 @@
+
+Dual mode propulsion systems combine the high efficiency of bipropellant rockets with the reliability and simplicity of monopropellant rockets. It is based upon the use of two rocket fuels, liquid hydrogen and more dense hydrocarbon fuels, like RP, which are all burned with liquid oxygen.
+Dual mode systems are either hydrazine/nitrogen tetroxide, or monomethylhydrazine/hydrogen peroxide (the former is much more common). Typically, this system works as follows: During the initial high-impulse orbit-raising maneuvers, the system operates in a bipropellant fashion, providing high thrust at high efficiency; when it arrives on orbit, it closes off either the fuel or oxidizer, and conducts the remainder of its mission in a simple, predictable monopropellant fashion.
+

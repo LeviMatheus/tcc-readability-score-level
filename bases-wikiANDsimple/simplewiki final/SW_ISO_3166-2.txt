@@ -1,0 +1,1 @@
+ISO 3166-2 is a standard. It was made by the International Organisation for Standardisation. It extends ISO 3166 to a national level. ISO 3166 is about abbreviating geographical names like countries to two or three letter codes, or numbers. ISO3166-2 does the same with provinces on a per-country level.

@@ -1,0 +1,2 @@
+Exclusive disjunction (also called exclusive or, Xor) is a Logic operation. It normally takes two values. It will be true, if exactly one of the two values is true. Otherwise it will be false.
+This is different from inclusive disjunction.

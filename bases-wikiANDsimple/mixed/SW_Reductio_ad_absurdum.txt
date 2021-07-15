@@ -1,0 +1,3 @@
+Reductio ad absurdum is a Latin phrase. It can be translated as "reduction to the impossible". Generally, it is also known as Proof by contradiction. In Logic and mathematics it is a method of proving something.
+The phrase can be traced back to the Greek "η εις άτοπον απαγωγή" ("hê eis átopon apagogê"). This phrase means "reduction to the impossible". It was often used by Aristotle.
+The method of proving something works by first stating something is true. Then other things are deduced from that. In the end, there is a contradiction. This contradiction then shows that thing stated first cannot be true.

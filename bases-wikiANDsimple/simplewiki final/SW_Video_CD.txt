@@ -1,0 +1,7 @@
+A Video CD or VCD is a CD that contains a movie instead of music or a computer program. It is the "little brother" of the DVD.
+Differences.
+Since a DVD can store ten times as much information as a VCD, the quality of a VCD is not as high as that of a DVD, yet is ten times cheaper to make. The quality of the picture is about as good as a normal TV with a simple antenna.
+History.
+VCD's were invented by Philips and Sony just like the CD, but then never became very popular in the Western world, which switched from VHS tapes directly to the DVD. However, in Asia and in other developing countries the VCD is popular, since a DVD player is also much more expensive than a VCD player.
+Uses.
+A VCD movie is stored in the popular MPEG (.MPG) format, that is also often used to download movies from the internet. But if a VCD disk is put in a computer, there is a file with a.MPG after the name, and many other files. This is because the movie is actually in a file (or files) that has.DAT after the name. This file can be played with Windows Media Player (or any other player that can play a.MPG movie), one does not need special software because the file is actually just a.MPG movie with a.DAT end of the name instead of.MPG. There are also many programs that exist to make it possible to play a VCD on a PC.

@@ -1,0 +1,6 @@
+When dealing with money, denomination is the value of the individual currency.
+For example a one dollar bill, a 100 dollar bill, a penny and a quarter are all different denominations of money. A one dollar bill and a one dollar coin are the same denomination as they are the same value.
+Monetary union.
+When countries form a monetary union, redenomination may be required and the conversion ratio is often not a nice even number, or even less than 1.
+Decimalisation.
+In many countries where an £sd system (£1 = 20 shillings = 240 pence) is used, the process of decimalisation was carried out. While they were at it, some chose to change the main unit as well. By defining 1 dollar = £0.5 = 100 cents, 1 shilling would conveniently turn into 10 cents. This is also a prime example where the ratio is less than 1.

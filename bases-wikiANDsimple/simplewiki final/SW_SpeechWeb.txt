@@ -1,0 +1,5 @@
+A SpeechWeb is a collection of SpeechWeb applications. The collection or web of applications can be navigated using a SpeechWeb browser.
+1. Providing end users with voice only interfaces to remote applications.
+2. Providing software developers with a framework to build their user interfaces with.
+A SpeechWeb browser is a document or program allowing a human user to interact with a SpeechWeb application. A SpeechWeb browser can be implemented in X+V, VoiceXML, or others. An example browser using X+V is available.
+A SpeechWeb application is an application that provides a special interface. The basic idea is that not much more than natural language is used to communicate with the applications. SpeechWeb applications also need to describe the possible input texts by publishing a JSGF grammar.

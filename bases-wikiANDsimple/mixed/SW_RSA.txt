@@ -1,0 +1,26 @@
+RSA is a method to encrypt and sign information.
+It was developed in 1977 by Ronald Rivest, Adi Shamir & Leonard Adleman. It is an asymmetric cryptographic algorithm. Asymmetric means that there are two different keys. Sometimes this is also called "public key cryptography", because one of the can be given to everyone. The other key must be kept private.
+Operation.
+The public key is made of the modulus formula_4 and the public (or encryption) exponent formula_6.
+The private key is made of the modulus formula_4 and the private (or decryption) exponent formula_16 which must be kept secret.
+Encrypting messages.
+Alice gives her public key (formula_4 & formula_6) to Bob and keeps her private key secret. Bob wants to send message M to Alice.
+This can be done quickly using the method of exponentiation by squaring. Bob then sends formula_51 to Alice.
+Decrypting messages.
+Given formula_54, she can recover the original message M.
+The decryption procedure works because first
+Fermat's little theorem yields
+Since formula_29 and formula_30 are distinct prime numbers, applying the Chinese remainder theorem to these two congruences yields
+A working example.
+Here is an example of RSA encryption and decryption. The parameters used here are artificially small, but you can also use OpenSSL to generate and examine a real keypair.
+For example, to encrypt formula_86, we calculate
+To decrypt formula_88, we calculate
+Both of these calculations can be computed efficiently using the square-and-multiply algorithm for modular exponentiation.
+Padding schemes.
+In practice, the first two problems can arise when short ASCII messages are sent. In such messages, "m" might be the concatenation of one or more ASCII-encoded character(s). A message consisting of a single ASCII codice_1 character (whose numeric value is 0) would be encoded as "m" = 0, which produces a ciphertext of 0 no matter which values of "e" and "N" are used. Likewise, a single ASCII codice_2 (whose numeric value is 1) would always produce a ciphertext of 1. For systems which conventionally use small values of "e", such as 3, all single character ASCII messages encoded using this scheme would be insecure, since the largest "m" would have a value of 255, and 2553 is less than any reasonable modulus. Such plaintexts could be recovered by simply taking the cube root of the ciphertext.
+To avoid these problems, practical RSA implementations typically embed some form of structured, randomized padding into the value "m" before encrypting it. This padding ensures that "m" does not fall into the range of insecure plaintexts, and that a given message, once padded, will encrypt to one of a large number of different possible ciphertexts. The latter property can increase the cost of a dictionary attack beyond the capabilities of a reasonable attacker.
+Standards such as PKCS have been carefully designed to securely pad messages prior to RSA encryption. Because these schemes pad the plaintext "m" with some number of additional bits, the size of the un-padded message "M" must be somewhat smaller. RSA padding schemes must be carefully designed so as to prevent sophisticated attacks. This may be made easier by a predictable message structure. Early versions of the PKCS standard used constructions, which were later found vulnerable to a practical adaptive chosen ciphertext attack. Modern constructions use secure techniques such as Optimal Asymmetric Encryption Padding (OAEP) to protect messages while preventing these attacks. The PKCS standard also has processing schemes designed to provide additional security for RSA signatures, e.g., the Probabilistic Signature Scheme for RSA (RSA-PSS).
+Signing messages.
+Suppose Alice uses Bob's public key to send him an encrypted message. In the message, she can claim to be Alice but Bob has no way of verifying that the message was actually from Alice since anyone can use Bob's public key to send him encrypted messages. So, in order to verify the origin of a message, RSA can also be used to sign a message.
+Suppose Alice wishes to send a signed message to Bob. She produces a hash value of the message, raises it to the power of "d" mod "n" (just like when decrypting a message), and attaches it as a "signature" to the message. When Bob receives the signed message, he raises the signature to the power of "e" mod "n" (just like encrypting a message), and compares the resulting hash value with the message's actual hash value. If the two agree, he knows that the author of the message was in possession of Alice's secret key, and that the message has not been tampered with since.
+Note that secure padding schemes such as RSA-PSS are as essential for the security of message signing as they are for message encryption, and that the same key should never be used for both encryption and signing purposes.

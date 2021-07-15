@@ -1,0 +1,3 @@
+Contiki is a small, open source free operating system. It was developed to be used in 8-bit computers and embedded systems. It has a Graphical User Interface and the full installation needs about 30 kilobytes of RAM.
+The name "Contiki" comes from Thor Heyerdahl's famous Kon-Tiki raft.
+The basic kernel and most of the core functions were developed by Adam Dunkels at the Networked Embedded Systems group at the Swedish Institute of Computer Science.

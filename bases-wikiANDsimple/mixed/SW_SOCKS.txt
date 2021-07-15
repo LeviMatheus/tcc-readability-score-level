@@ -1,0 +1,1 @@
+SOCKS is an Internet protocol that allows a client computer to connect to a server using the services of a network firewall. SOCKS is an abbreviation for "SOCKetS".

@@ -1,0 +1,8 @@
+A function in mathematics is a rule that tells a person what to do to an object in order to get a different object.
+Functions are usually written as formula_1. The formula_2 is short for "function". formula_1 is said: "function of formula_4" or "f" (eff) of formula_4", for short.
+It is sometimes said that formula_1 is the "image" of formula_4, and formula_4 is the "pre-image" of formula_1. Also, it is said that the object formula_4 is "transformed" or "mapped" into formula_1.
+Example.
+formula_12 is a formula for a function. The person is doing something to formula_4 that will make it a different number. In this example, the person is adding 1 to the unknown number formula_4. If he sets x = 4, the function becomes formula_15. This means that formula_16 when formula_4 equals 4.
+Many functions are more complex than this example but the pattern is always the same. For every input, formula_4, the person gets a result, formula_1.
+Types of functions.
+There are other functions, like trigonometric functions. In mathematical language, a function can be defined as a map from a non-empty set (called a "domain") to a non-empty set (called a "co-domain") such that for every element in the domain there is a corresponding unique element in the co-domain.

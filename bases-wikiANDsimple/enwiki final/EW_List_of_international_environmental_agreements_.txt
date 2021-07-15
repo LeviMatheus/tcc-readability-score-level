@@ -1,0 +1,13 @@
+
+This is a list of international environmental agreements.
+Most of the following agreements are legally binding for countries that have formally ratified them. Some, such as the Kyoto Protocol, differentiate between types of countries and each nation's respective responsibilities under the agreement. Several hundred international environmental agreements exist but most link only a limited number of countries. These bilateral or sometimes trilateral agreements are only binding for the countries that have ratified them but are nevertheless essential in the international environmental regime. Including the major conventions listed below, more than 3,000 international environmental instruments have been identified by the IEA Database Project.
+Alphabetical order.
+Coastal Marine and Island Biodiversity Conservation Project
+Topic order.
+Atmosphere.
+&lt;section begin=air treaties /&gt;
+&lt;section end=air treaties/&gt;
+Hazardous substances.
+&lt;section begin=waste treaties /&gt;
+&lt;section end=waste treaties /&gt;
+

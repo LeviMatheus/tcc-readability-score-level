@@ -1,0 +1,5 @@
+
+Frequency deviation (formula_1) is used in FM radio to describe the difference between the minimum and maximum extent of a frequency modulated signal, and the nominal center or carrier frequency. The term is sometimes mistakenly used as synonymous with frequency drift, which is an unintended offset of an oscillator from its nominal frequency.
+The frequency deviation of a radio is of particular importance in relation to bandwidth, because less deviation means that more channels can fit into the same amount of frequency spectrum. The FM broadcasting range between 87.5-108 MHz uses a typical channel spacing of 100 or 200 kHz, with a maximum frequency deviation of +/-75 kHz, in some cases leaving a buffer above the highest and below the lowest frequency to reduce interaction with other channels.
+The most common FM transmitting applications use peak deviations of +/-75 kHz (100 or 200 kHz spacing), +/-5 kHz (15-25 kHz spacing), +/-2.5 kHz (3.75-12.5 kHz spacing), and +/-2 kHz (8.33 kHz spacing, 7.5 kHz spacing, 6.25 kHz spacing or 5 kHz spacing).
+

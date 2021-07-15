@@ -1,0 +1,66 @@
+
+Templates are a feature of the C++ programming language that allows functions and classes to operate with generic types. This allows a function or class to work on many different data types without being rewritten for each one.
+The C++ Standard Library provides many useful functions within a framework of connected templates.
+Major inspirations for C++ templates were the parameterized modules provided by CLU and the generics provided by Ada.
+Technical overview.
+There are three kinds of templates: "function templates", "class templates" and, since C++14, "variable templates". Since C++11, templates may be either variadic or non-variadic; in earlier versions of C++ they are always non-variadic.
+Function templates.
+A "function template" behaves like a function except that the template can have arguments of many different types (see example). In other words, a function template represents a family of functions. The format for declaring function templates with type parameters is:
+template &lt;class identifier&gt; function_declaration;
+template &lt;typename identifier&gt; function_declaration;
+Both expressions have the same meaning and behave in exactly the same way. The latter form was introduced to avoid confusion, since a type parameter need not be a class. (It can also be a basic type such as codice_1 or codice_2.)
+For example, the C++ Standard Library contains the function template codice_3 which returns the larger of codice_4 and codice_5. That function template could be defined like this:
+template &lt;typename T&gt;
+inline T max(T a, T b) {
+ return a &gt; b ? a : b;
+This single function definition works with many data types. Specifically, it works with all data types for which &gt; (the greater-than operator) is defined. The usage of a function template saves space in the source code file in addition to limiting changes to one function description and making the code easier to read.
+A template does not produce smaller object code, though, compared to writing separate functions for all the different data types used in a specific program. For example, if a program uses both an codice_1 and a codice_2 version of the codice_8 function template shown above, the compiler will create an object code version of codice_8 that operates on codice_1 arguments and another object code version that operates on codice_2 arguments. The compiler output will be identical to what would have been produced if the source code had contained two separate non-templated versions of codice_8, one written to handle codice_1 and one written to handle codice_2.
+Here is how the function template could be used:
+int main()
+ // This will call max&lt;int&gt; by implicit argument deduction.
+ std::cout « max(3, 7) « std::endl;
+ // This will call max&lt;double&gt; by implicit argument deduction.
+ std::cout « max(3.0, 7.0) « std::endl;
+ // This depends on the compiler. Some compilers handle this by defining a template
+ // function like double max &lt;double&gt; ( double a, double b);, while in some compilers
+ // we need to explicitly cast it, like std::cout « max&lt;double&gt;(3,7.0);
+ std::cout « max(3, 7.0) « std::endl;
+ std::cout « max&lt;double&gt;(3, 7.0) « std::endl;
+ return 0;
+In the first two cases, the template argument codice_15 is automatically deduced by the compiler to be codice_1 and codice_2, respectively. In the third case automatic deduction of codice_18 would fail because the type of the parameters must in general match the template arguments exactly. Therefore, we explicitly instantiate the codice_2 version with codice_20.
+This function template can be instantiated with any copy-constructible type for which the expression codice_21 is valid. For user-defined types, this implies that the greater-than operator (codice_22) must be overloaded in the type.
+Class templates.
+A class template provides a specification for generating classes based on parameters. Class templates are generally used to implement containers. A class template is instantiated by passing a given set of types to it as template arguments. The C++ Standard Library contains many class templates, in particular the containers adapted from the Standard Template Library, such as codice_23.
+Variable templates.
+In C++14, templates can be also used for variables, as in the following example:
+template&lt;typename T&gt; constexpr T pi = T{3.141592653589793238462643383L}; // From std::numbers::pi
+Template specialization.
+When a function or class is instantiated from a template, a specialization of that template is created by the compiler for the set of arguments used, and the specialization is referred to as being a generated specialization.
+Explicit template specialization.
+Sometimes, the programmer may decide to implement a special version of a function (or class) for a given set of template type arguments which is called an explicit specialization. In this way certain template types can have a specialized implementation that is optimized for the type or a more meaningful implementation than the generic implementation.
+Explicit specialization is used when the behavior of a function or class for particular choices of the template parameters must deviate from the generic behavior: that is, from the code generated by the main template, or templates. For example, the template definition below defines a specific implementation of codice_8 for arguments of type codice_25:
+template &lt;&gt;
+bool max&lt;bool&gt;(bool a, bool b) {
+ return a || b;
+Variadic templates.
+C++11 introduced variadic templates, which can take a variable number of arguments in a manner somewhat similar to variadic functions such as codice_26. Function templates, class templates and (in C++14) variable templates can all be variadic.
+Template aliases.
+C++11 introduced template aliases, which act like parameterized typedefs.
+The following code shows the definition of a template alias codice_27. This allows, for example, codice_28 to be used as shorthand for codice_29.
+template&lt;class T&gt;
+using StrMap = std::unordered_map&lt;T, std::string&gt;;
+Generic programming features in other languages.
+Initially, the concept of templates was not included in some languages, such as Java and C# 1.0. Java's adoption of generics mimics the behavior of templates, but is technically different. C# added generics (parameterized types) in .NET 2.0. The generics in Ada predate C++ templates.
+Although C++ templates, Java generics, and .NET generics are often considered similar, generics only mimic the basic behavior of C++ templates. Some of the advanced template features utilized by libraries such as Boost and STLSoft, and implementations of the STL itself, for template metaprogramming (explicit or partial specialization, default template arguments, template non-type arguments, template template arguments, ...) are not available with generics.
+In C++ templates, compile-time cases were historically performed by pattern matching over the template arguments. For example, the template base class in the Factorial example below is implemented by matching 0 rather than with an inequality test, which was previously unavailable. However, the arrival in C++11 of standard library features such as std::conditional has provided another, more flexible way to handle conditional template instantiation.
+// Induction
+template &lt;unsigned N&gt;
+struct Factorial {
+ static const unsigned value = N * Factorial&lt;N - 1&gt;::value;
+// Base case via template specialization:
+template &lt;&gt;
+struct Factorial&lt;0&gt; {
+ static const unsigned value = 1;
+With these definitions, one can compute, say 6! at compile time using the expression codice_30.
+Alternatively, constexpr in C++11 can be used to calculate such values directly using a function at compile-time.
+

@@ -1,0 +1,2 @@
+An even number is an integer which is a multiple of two. If it is divided by two the result is another whole number. Zero is an even number because zero multipied by two is zero. The next four bigger even numbers are two, four, six, and eight. You can tell if a decimal number is an even number if the last digit is an even number.
+An integer that is not an even number is an odd number.

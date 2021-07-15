@@ -1,0 +1,100 @@
+
+A Bézier curve ( ) is a parametric curve used in computer graphics and related fields. The curves, which are related to Bernstein polynomials, are named after Pierre Bézier, who used it in the 1960s for designing curves for the bodywork of Renault cars. Other uses include the design of computer fonts and animation. Bézier curves can be combined to form a Bézier spline, or generalized to higher dimensions to form Bézier surfaces. The Bézier triangle is a special case of the latter.
+In vector graphics, Bézier curves are used to model smooth curves that can be scaled indefinitely. "Paths", as they are commonly referred to in image manipulation programs, are combinations of linked Bézier curves. Paths are not bound by the limits of rasterized images and are intuitive to modify.
+Bézier curves are also used in the time domain, particularly in animation, user interface design and smoothing cursor trajectory in eye gaze controlled interfaces. For example, a Bézier curve can be used to specify the velocity over time of an object such as an icon moving from A to B, rather than simply moving at a fixed number of pixels per step. When animators or interface designers talk about the "physics" or "feel" of an operation, they may be referring to the particular Bézier curve used to control the velocity over time of the move in question.
+This also applies to robotics where the motion of a welding arm, for example, should be smooth to avoid unnecessary wear.
+Invention.
+The mathematical basis for Bézier curves—the Bernstein polynomials—was established in 1912, but the polynomials were not applied to graphics until some 50 years later when mathematician Paul de Casteljau in 1959 developed de Casteljau's algorithm, a numerically stable method for evaluating the curves, and became the first to apply them to computer-aided design at French automaker Citroën. Yet, de Casteljau's method was patented in France but not published until the 80s while the Bézier polynomials were widely publicised in the 1960s by the French engineer Pierre Bézier, who discovered them independently and used them to design automobile bodies at Renault.
+Specific cases.
+A Bézier curve is defined by a set of "control points" P0 through P"n", where "n" is called the order of the curve ("n" = 1 for linear, 2 for quadratic, etc.). The first and last control points are always the endpoints of the curve; however, the intermediate control points (if any) generally do not lie on the curve. The sums in the following sections are to be understood as affine combinations – that is, the coefficients sum to 1.
+Linear Bézier curves.
+Given distinct points P0 and P1, a linear Bézier curve is simply a straight line between those two points. The curve is given by
+and is equivalent to linear interpolation.
+Quadratic Bézier curves.
+A quadratic Bézier curve is the path traced by the function B("t"), given points P0, P1, and P2,
+which can be interpreted as the linear interpolant of corresponding points on the linear Bézier curves from P0 to P1 and from P1 to P2 respectively. Rearranging the preceding equation yields:
+This can be written in a way that highlights the symmetry with respect to P1:
+Which immediately gives the derivative of the Bézier curve with respect to "t":
+from which it can be concluded that the tangents to the curve at P0 and P2 intersect at P1. As "t" increases from 0 to 1, the curve departs from P0 in the direction of P1, then bends to arrive at P2 from the direction of P1.
+The second derivative of the Bézier curve with respect to "t" is
+Cubic Bézier curves.
+Four points P0, P1, P2 and P3 in the plane or in higher-dimensional space define a cubic Bézier curve.
+The curve starts at P0 going toward P1 and arrives at P3 coming from the direction of P2. Usually, it will not pass through P1 or P2; these points are only there to provide directional information. The distance between P1 and P2 determines "how far" and "how fast" the curve moves towards P1 before turning towards P2.
+Writing BP"i",P"j",P"k"("t") for the quadratic Bézier curve defined by points P"i", P"j", and P"k", the cubic Bézier curve can be defined as an affine combination of two quadratic Bézier curves:
+The explicit form of the curve is:
+For some choices of P1 and P2 the curve may intersect itself, or contain a cusp.
+Any series of 4 distinct points can be converted to a cubic Bézier curve that goes through all 4 points in order.
+Given the starting and ending point of some cubic Bézier curve, and the points along the curve corresponding to "t" = 1/3 and "t" = 2/3, the control points for the original Bézier curve can be recovered.
+The derivative of the cubic Bézier curve with respect to "t" is
+The second derivative of the Bézier curve with respect to "t" is
+General definition.
+Bézier curves can be defined for any degree "n".
+Recursive definition.
+A recursive definition for the Bézier curve of degree "n" expresses it as a point-to-point linear combination (linear interpolation) of a pair of corresponding points in two Bézier curves of degree "n" − 1.
+Let formula_11 denote the Bézier curve determined by any selection of points P0, P1, ..., P"k". Then to start,
+This recursion is elucidated in the animations below.
+Explicit definition.
+The formula can be expressed explicitly as follows:
+where formula_15 are the binomial coefficients.
+For example, when "n" = 5:
+Terminology.
+Some terminology is associated with these parametric curves. We have
+where the polynomials
+are known as Bernstein basis polynomials of degree "n".
+Note that "t"0 = 1, (1 − "t")0 = 1, and that the binomial coefficient, formula_15, is:
+The points P"i" are called "control points" for the Bézier curve. The polygon formed by connecting the Bézier points with lines, starting with P0 and finishing with P"n", is called the "Bézier polygon" (or "control polygon"). The convex hull of the Bézier polygon contains the Bézier curve.
+Polynomial form.
+Sometimes it is desirable to express the Bézier curve as a polynomial instead of a sum of less straightforward Bernstein polynomials. Application of the binomial theorem to the definition of the curve followed by some rearrangement will yield
+where
+This could be practical if formula_23 can be computed prior to many evaluations of formula_24; however one should use caution as high order curves may lack numeric stability (de Casteljau's algorithm should be used if this occurs). Note that the empty product is 1.
+Second-order curve is a parabolic segment.
+A quadratic Bézier curve is also a segment of a parabola. As a parabola is a conic section, some sources refer to quadratic Béziers as "conic arcs". With reference to the figure on the right, the important features of the parabola can be derived as follows:
+Derivative.
+The derivative for a curve of order "n" is
+Constructing Bézier curves.
+Linear curves.
+The "t" in the function for a linear Bézier curve can be thought of as describing how far B("t") is from P0 to P1. For example, when "t"=0.25, B("t") is one quarter of the way from point P0 to P1. As "t" varies from 0 to 1, B("t") describes a straight line from P0 to P1.
+Quadratic curves.
+For quadratic Bézier curves one can construct intermediate points Q0 and Q1 such that as "t" varies from 0 to 1:
+Higher-order curves.
+For higher-order curves one needs correspondingly more intermediate points. For cubic curves one can construct intermediate points Q0, Q1, and Q2 that describe linear Bézier curves, and points R0 and R1 that describe quadratic Bézier curves:
+For fourth-order curves one can construct intermediate points Q0, Q1, Q2 and Q3 that describe linear Bézier curves, points R0, R1 and R2 that describe quadratic Bézier curves, and points S0 and S1 that describe cubic Bézier curves:
+For fifth-order curves, one can construct similar intermediate points.
+These representations rest on the process used in De Casteljau's algorithm to calculate Bézier curves.
+Offsets (a.k.a. stroking) of Bézier curves.
+The curve at a fixed offset from a given Bézier curve, called an offset or parallel curve in mathematics (lying "parallel" to the original curve, like the offset between rails in a railroad track), cannot be exactly formed by a Bézier curve (except in some trivial cases). In general, the two-sided offset curve of a cubic Bézier is a 10th-order algebraic curve and more generally for a Bézier of degree "n" the two-sided offset curve is an algebraic curve of degree 4"n"−2. However, there are heuristic methods that usually give an adequate approximation for practical purposes.
+In the field of vector graphics, painting two symmetrically distanced offset curves is called "stroking" (the Bézier curve or in general a path of several Bézier segments). The conversion from offset curves to filled Bézier contours is of practical importance in converting fonts defined in Metafont, which allows stroking of Bézier curves, to the more widely used PostScript type 1 fonts, which only allow (for efficiency purposes) the mathematically simpler operation of filling a contour defined by (non-self-intersecting) Bézier curves.
+Degree elevation.
+A Bézier curve of degree "n" can be converted into a Bézier curve of degree "n" + 1 "with the same shape". This is useful if software supports Bézier curves only of specific degree. For example, systems that can only work with cubic Bézier curves can implicitly work with quadratic curves by using their equivalent cubic representation.
+To do degree elevation, we use the equality formula_29 Each component formula_30 is multiplied by (1 − "t") and "t", thus increasing a degree by one, without changing the value. Here is the example of increasing degree from 2 to 3.
+For arbitrary "n" we use equalities
+Therefore:
+introducing arbitrary formula_34 and formula_35.
+Therefore, new control points are
+Repeated degree elevation.
+The concept of degree elevation can be repeated on a control polygon R to get a sequence of control polygons R, R1, R2, and so on. After "r" degree elevations, the polygon R"r" has the vertices P0,"r", P1,"r", P2,"r", ..., P"n"+"r","r" given by 
+It can also be shown that for the underlying Bézier curve "B",
+Rational Bézier curves.
+The rational Bézier curve adds adjustable weights to provide closer approximations to arbitrary shapes. The numerator is a weighted Bernstein-form Bézier curve and the denominator is a weighted sum of Bernstein polynomials. Rational Bézier curves can, among other uses, be used to represent segments of conic sections exactly, including circular arcs.
+Given "n" + 1 control points P0, ..., P"n", the rational Bézier curve can be described by
+or simply
+The expression can be extended by using number systems besides reals for the weights. In the complex plane the points {1}, {-1}, and {1} with weights {formula_41}, {1}, and {formula_42} generate a full circle with radius one. For curves with points and weights on a circle, the weights can be scaled without changing the curve's shape. Scaling the central weight of the above curve by 1.35508 gives a more uniform parameterization. 
+Applications.
+Computer graphics.
+Bézier curves are widely used in computer graphics to model smooth curves. As the curve is completely contained in the convex hull of its control points, the points can be graphically displayed and used to manipulate the curve intuitively. Affine transformations such as translation and rotation can be applied on the curve by applying the respective transform on the control points of the curve.
+Quadratic and cubic Bézier curves are most common. Higher degree curves are more computationally expensive to evaluate. When more complex shapes are needed, low order Bézier curves are patched together, producing a composite Bézier curve. A composite Bézier curve is commonly referred to as a "path" in vector graphics languages (like PostScript), vector graphics standards (like SVG) and vector graphics programs (like Artline, Timeworks Publisher, Adobe Illustrator, CorelDraw, Inkscape, and Allegro). In order to join Bézier curves into a composite Bézier curve without kinks, a property called "G1 continuous", it suffices to force the control point at which two constituent Bézier curves meet to lie on the line defined by the two control points on either side.
+The simplest method for scan converting (rasterizing) a Bézier curve is to evaluate it at many closely spaced points and scan convert the approximating sequence of line segments. However, this does not guarantee that the rasterized output looks sufficiently smooth, because the points may be spaced too far apart. Conversely it may generate too many points in areas where the curve is close to linear. A common adaptive method is recursive subdivision, in which a curve's control points are checked to see if the curve approximates a straight line to within a small tolerance. If not, the curve is subdivided parametrically into two segments, 0 ≤ "t" ≤ 0.5 and 0.5 ≤ "t" ≤ 1, and the same procedure is applied recursively to each half. There are also forward differencing methods, but great care must be taken to analyse error propagation.
+Analytical methods where a Bézier is intersected with each scan line involve finding roots of cubic polynomials (for cubic Béziers) and dealing with multiple roots, so they are not often used in practice.
+The rasterisation algorithm used in Metafont is based on discretising the curve, so that it is approximated by a sequence of "rook moves" that are purely vertical or purely horizontal, along the pixel boundaries. To that end, the plane is first split into eight 45° sectors (by the coordinate axes and the two lines formula_43), then the curve is decomposed into smaller segments such that the "direction" of a curve segment stays within one sector; since the curve velocity is a second degree polynomial, finding the formula_44 values where it is parallel to one of these lines can be done by solving quadratic equations. Within each segment, either horizontal or vertical movement dominates, and the total number of steps in either direction can be read off from the endpoint coordinates; in for example the 0–45° sector horizontal movement to the right dominates, so it only remains to decide between which steps to the right the curve should make a step up.
+There is also a modified curve form of Bresenham's line drawing algorithm by Zingl that performs this rasterization by subdividing the curve into rational pieces and calculating the error at each pixel location such that it either travels at a 45° angle or straight depending on compounding error as it iterates through the curve. This reduces the next step calculation to a series of integer additions and subtractions.
+Animation.
+In animation applications, such as Adobe Flash and Synfig, Bézier curves are used to outline, for example, movement. Users outline the wanted path in Bézier curves, and the application creates the needed frames for the object to move along the path.
+In 3D animation, Bézier curves are often used to define 3D paths as well as 2D curves for keyframe interpolation. Bézier curves are now very frequently used to control the animation easing in CSS, JavaScript, JavaFx and Flutter SDK.
+Fonts.
+TrueType fonts use composite Bézier curves composed of quadratic Bézier curves. Other languages and imaging tools (such as PostScript, Asymptote, Metafont, and SVG) use composite Béziers composed of cubic Bézier curves for drawing curved shapes. OpenType fonts can use either kind, depending on the flavor of the font.
+The internal rendering of all Bézier curves in font or vector graphics renderers will split them recursively up to the point where the curve is flat enough to be drawn as a series of linear or circular segments. The exact splitting algorithm is implementation dependent, only the flatness criteria must be respected to reach the necessary precision and to avoid non-monotonic local changes of curvature. The "smooth curve" feature of charts in Microsoft Excel also uses this algorithm.
+Because arcs of circles and ellipses cannot be exactly represented by Bézier curves, they are first approximated by Bézier curves, which are in turn approximated by arcs of circles. This is inefficient as there exists also approximations of all Bézier curves using arcs of circles or ellipses, which can be rendered incrementally with arbitrary precision. Another approach, used by modern hardware graphics adapters with accelerated geometry, can convert exactly all Bézier and conic curves (or surfaces) into NURBS, that can be rendered incrementally without first splitting the curve recursively to reach the necessary flatness condition. This approach also allows preserving the curve definition under all linear or perspective 2D and 3D transforms and projections.
+Font engines, like FreeType, draw the font's curves (and lines) on a pixellated surface using a process known as font rasterization.
+Robotics.
+Bézier curves can be used in robotics to produce trajectories of an end-effector due to the virtue of the control polygon’s ability to give a clear indication of whether the path is colliding with any nearby obstacle or object. Furthermore, joint space trajectories can be accurately differentiated using Bézier curves. Consequently, the derivatives of joint space trajectories are used in the calculation of the dynamics and control effort (torque profiles) of the robotic manipulator.
+

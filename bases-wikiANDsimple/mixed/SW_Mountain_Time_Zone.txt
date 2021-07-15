@@ -1,0 +1,11 @@
+The Mountain Time Zone subtracts seven hours from UTC during standard time (UTC-7) and six hours during daylight saving time (UTC-6).
+This time zone is called Mountain Standard Time (MST) during standard time (Winter). It is called Mountain Daylight Time (MDT) during daylight saving time (Summer). In the United States and Canada, this time zone is often just called Mountain Time (MT).
+The zone is one hour ahead of the Pacific Time Zone and one hour behind the Central Time Zone.
+Canada.
+In Canada, this time zone includes all of Alberta, the Northwest Territories (except for Tungsten), the Kitikmeot Region of Nunavut, part of southeastern and northeastern British Columbia, and the area of Saskatchewan around the city of Lloydminster.
+United States.
+In the United States, the time zone includes the entire area of the states of Arizona, New Mexico, Wyoming, Utah, Colorado, and Montana. It also includes parts of Idaho, Oregon, North Dakota, South Dakota, Nebraska, Texas, Kansas, and Nevada.
+Mexico.
+These states are part of the Mountain Time Zone: Baja California Sur, Chihuahua, Nayarit, Sinaloa, Sonora.
+Mountain Daylight Time.
+Daylight saving time occurs from early April to late October. During daylight saving, Central Time Zone is only 6 hours behind Coordinated Universal Time (UTC-6). Most of the locations in Mountain Time Zone observe daylight saving time. A few places do not. These include Sonora and all of Arizona that is not in the Navajo Nation. These places stay on standard time all year.

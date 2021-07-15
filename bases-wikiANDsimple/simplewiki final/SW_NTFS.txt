@@ -1,0 +1,2 @@
+NTFS is a file system. It was developed by Microsoft. A file-system is a way of storing computer files. NTFS stands for "New Technology File System". Microsoft introduced it with the Windows NT operating system. A version of NTFS is also included in the most recent operating systems developed by Microsoft, Windows XP, Windows Server 2003 and Windows Vista.
+NTFS was made to replace the old file-system used by earlier versions of Windows, like Windows 95, Windows 98, and Windows 98SE. That file system was also used by MS-DOS and is called FAT.

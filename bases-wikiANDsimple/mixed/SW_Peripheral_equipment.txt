@@ -1,0 +1,9 @@
+Peripheral equipment (also called: input and output devices) is any equipment used to give a computer system more features. Input is anything that goes in and output is any thing that goes out. Any device for the computer that the computer can work without is peripheral equipment. This equipment is always separated from the central processing unit (CPU) by a device controller.
+Peripheral equipment is nessecary for people to interact with a computer system. Some peripheral equipment displays information (such as a computer monitor).
+Peripheral equipment is often labelled I/O device (Input/Output device). I/O devices are connected to a device controller which is connected to the electronics in the computer system. An example of an output device is computer speakers. Computer speakers are plugged in to a device controller called an audio device. The device is connected to the rest of the system inside. An example of an input device is a computer mouse and it is connected in a same way as an output device.
+One peripheral device can be connected to many systems.
+Sometimes extra memory devices such as a second hard disk can be called peripheral equipment. People who make computer programs call everything except the processor and main memory an I/O device. To an engineer working on the design of a processor, everything except the processor is called an I/O device.
+Input devices.
+An input device is anything that puts information inside a computer. It is a hardware device that sends information into the CPU. Without any input devices a computer would simply be a display device and not allow users to interact with it, similar to a TV. Below is a listing of different types of computer input devices.
+Output devices.
+An output device is anything used for displaying information from the computer or making sound from the computer.

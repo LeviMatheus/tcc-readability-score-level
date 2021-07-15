@@ -1,0 +1,1 @@
+A time offset is defined by international convention as a number of hours and minutes from Coordinated Universal Time in Greenwich, England. Many time zones employ two time offsets, one for standard time and one for daylight saving time.

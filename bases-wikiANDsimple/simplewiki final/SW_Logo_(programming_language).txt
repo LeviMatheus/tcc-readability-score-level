@@ -1,0 +1,14 @@
+Logo is a programming language that is easy to learn. It is used to teach students and children to program a computer. It was developed to process lists of words. It was like the language LISP.
+In 1967, the first Logo ran on a mainframe computer, a machine called a teletype was used to type in and printout the results. There was no screen.
+In 1969, it was used to control a Floor Turtle. Commands were added to sent the turtle forward and backwards, and to turn the turtle to left or right. This turtle had pen with different colors. When it moved, it left a trail on the floor.
+This was very useful. When a new version of Logo was developed to draw graphics on a screen, it used the same commands. This was called Turtle graphics.
+There are 170 versions of Logo. Many of them are open source and free. There are three Logo textbooks that can be downloaded free. Logo is usually an interpreted language.
+Hello World.
+Load the Logo program. Type the next line in the command box.
+Example Showing Graphics and Functional Programming.
+Using the editor, type in this new definition.
+if:size > 30 [stop]; a condition stop
+fd:size rt 15; many lines of action
+spiral:size *1.02; the tailend recursive call
+Type this in the command box.
+On the screen you will see.

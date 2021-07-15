@@ -1,0 +1,8 @@
+The ANTARES Experiment is a telescope that is built at the bottom of the Mediterranean Sea. But it is not a normal telescope that uses light to see distant objects. Instead, it uses neutrinos, very small and light particles that can fly through the earth.
+Functions.
+To detect these neutrinos, it uses 900 light sensors attached to 12 strings that float in the sea. The strings are fixed on the sea floor by an anchor and held straight by a buoy floating in the sea. Althogh the neutrinos are invisible, they can create a different particle, a muon, in water, which then gives off light by the Cherenkov effect because it travels faster than light in water.
+The sensors are so sensitive that they need only very little light and can even detect single photons. This is necessary because the muons produce only very little light.
+Location.
+The detector is located in the Mediterranean, about 40 kilometres off Toulon in southern France. There the sea is 2500 metres deep. It is built by a group of physicists from 12 european countries. Currently, 10 strings are running. The last two strings will be installed in May 2008.
+Trivia.
+It is the largest neutrino detector in the Northern hemisphere. Two similar detectors are located in the ice of the South Pole (AMANDA and IceCube).

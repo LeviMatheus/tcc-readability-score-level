@@ -1,0 +1,5 @@
+
+In telecommunication, the term bit-count integrity (BCI) has the following meanings: 
+"Note:" Bit-count integrity is not the same as bit integrity, which requires that the delivered bits correspond exactly with the original bits.
+Source: from Federal Standard 1037C and from MIL-STD-188
+

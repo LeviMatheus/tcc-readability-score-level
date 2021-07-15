@@ -1,0 +1,11 @@
+The hexadecimal numeral system, or commonly known just as Hex, is a numeral system made up of of 16 symbols (base 16). It uses the common symbols in the decimal numeral system (0 through 9) and includes six extra symbols. These symbols are characters taken from the English alphabet: A, B, C, D, E and F. The hexidecimal system replaced the Octal numeral system for much of the work done on computers. The most commonly used form of binary is the byte. This is 8 binary digits (bits). Hexadecimal only needs two digits to show the information in one byte of data. As computers become more advanced, they tend to use larger groups of bits but they use multiples of 8 (16, 24, 32, 64, etc). Hexadecimal makes it easier to write these large binary numbers. Hexadecimal numbers are writen with a "h" after the number. For example 63h means 63 hexadecimal.
+Hexadecimal values.
+Hexidecimal is similar to the octal numeral system (base 8) because each can be easily compared to the Binary numeral system. Hexidecimal use a four bit binary coding. This means that each
+digit in hexidecimal is the same as four digits in binary. Octal uses a three bit binary system.
+Binary to Hexadecimal.
+Changing a number from binary to hex uses a grouping method. The binary number is separated into groups of four digits starting from the right. These groups are then converted to hexadecimal digits as shown in the chart above for the hexidecimal numbers 0 through F. To change from hexidecimal, the reverse is done. The hex digits are each changed to binary and the grouping is usually removed.
+Hexadecimal and Decimal.
+1) Take the least significant bit. If it is 0 thru 9 leave it at that value. If it is A or above convert it to 10 thru 15 this will be the first item in a sum.
+2) Take the 2nd significant bit do the above but multiply the value obtained by 16 add this to the sum
+3) Take the 3rd significant bit and convert is as in 1 above then multiply it by 16^2. Add it to the sum
+4) Repeat the above for more places. for each new place increment power of 16. Because hexidecimal uses extra symbols, it is important to remember the decimal value of each of the symbols: A = 10, B = 11, C = 12, D = 13, E = 14, and F = 15.

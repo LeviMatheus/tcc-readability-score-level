@@ -1,0 +1,6 @@
+
+In digital telephony, the digital milliwatt is a standard test signal that serves as a reference for analog signal levels in the telecommunications network.
+When decoding the digital milliwatt, a PCM decoder produces a sinusoidal signal with a frequency of 1 kHz with one milliwatt in power (0 dbm0).
+The digital milliwatt signal is encoded by eight 8-bit words corresponding to one pulse-code modulated cycle of the signal, sampled 8000 times per second. It is typically stored in read-only memory (ROM) in the telecommunication equipment.
+The digital milliwatt signal is often generated in instruments in place of separate test equipment. It has the advantage of being tied in frequency and amplitude to the relatively stable digital clock signal and power (voltage) supply, respectively, that are used by the digital channel bank.
+

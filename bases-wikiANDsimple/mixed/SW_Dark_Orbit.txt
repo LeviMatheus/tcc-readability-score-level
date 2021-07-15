@@ -1,0 +1,27 @@
+Dark Orbit is a MMORPG. It's a browser-based game published by Bigpoint.
+In the beginning.
+In the beginning the user is at a space station in space. The user has little ammo and a small ship. That small ship is called Phoenix. You start out with 20,000 credits and 2000 uridium. Dark Orbit has two ways of paying: Credits <less Valuable> and Uranium <More Valuable used to buy "Elite" items like Space Ships, Repair drones, Weapons and Ammunition + more.>
+Gameplay.
+Players gain experience to level up - leveling up gives the right to enter new space maps. The currency is Credits and Urdium. Throughout the game you can get Uridium in small numbers but you can pay for Uridium which will get players the best items in the game. Credits is what the players use to bid or buy some guns and ships. Players have to choose between the company EIC <Earth Industries Corporation> MMO <Mars Mining Operations> VRU <Venus Resource Unlimited>.
+Ships.
+These are the lists of Ships, their types and the cost of them.
+Drones.
+Flax- Slots: 1 Cost: 100,000 Credits(Amount increases by the amount you have.)
+Iris/Power Drone- Slots: 2 Cost: #1. 15,000 Uridium
+All drones can reach a max level of 6 and all NPC's (Non Player Characters) can level up the drones. A leveled up drone will increase the weapon/shield that it wields. The most noticeable of an upgrade is the appearance of the drone. Any spacecraft can have a max amount of 8 drones.
+Ammunition.
+Laser Ammunition- There are five types of laser ammunitions. The type one does regular damage(the damage of the laser cannon), Types 2 doubles type 1's damage, type 3 triples type 1's damage, type 4 is four times that of type 1, and type 5 does double the damage of type 1 and transfer enemy's shield points to the other users.
+Rocket Ammunition- The basic rocket cost 100 credits each and deals a max of 1000 damage. The second one cost 500 credits and deals 2000 damage. The Third one cost 5 Uridium and deals a max of 4000 damage. The last one is a mine which costs 100 Uridium. The mine takes 5 seconds to arm and immediately does 20% of the enemy's health in damage. The player cannot lay a mine in a neutral zone.
+List of NPCs.
+- Streuner (Hitpoints: 800 / Shield: 400); Boss Streuner (Hitpoints: 3200 / Shield: 1600)
+- Streuner [type 2] (Hitpoints: 20,000 / Shield: 10,000); Boss StreuneR (Hitpoints: 80,000 / Shield: 40,000)
+- Lordakia (Hitpoints: 2000 / Shield: 2000); Boss Lordakia (Hitpoints: 8000 / Shield: 8000)
+- Saimonite (Hitpoints: 6,000 / Shield: 3,000); Boss Saimonite (Hitpoints: 24,000 / Shield: 12,000)
+- Mordon (Hitpoints: 20,000 / Shield: 10,000); Boss Mordon (Hitpoints: 80,000 / Shield: 40,000)
+- Devolarium (Hitpoints: 100,000 / Scield: 100,000); Boss Devolarium (Hitpoints: 400,000 / Shield: 400,000)
+- Sibelon (Hitpoints: 200,000 / Shield: 200,000); Boss Sibelon (Hitpoints: 800,000 / Shield: 800,000)
+- Sibelonit (Hitpoints: 40,000 / Shield: 40,000); Boss Sibelonit (Hitpoints: 160,000 / Shield: 160,000)
+- Lordakium (Hitpoints: 300,000 / Shield: 200,000); Boss Lordakium (Hitpoints:1,200,000 / Shield: 800,000)
+- Kristallin (Hitpoints: 50,000 / Shield: 40,000); Boss Kristallin (Hitpoints: 200,000 / Shield: 160,000)
+- Kristallon (Hitpoints: 400,000 / Shield: 300,000); Boss Kristallon (Hitpoints: 1,600,000 / Shield: 1,200,000)
+- Cubikon (Hitpoints: 1,600,000 / Shield: 1,200,000)

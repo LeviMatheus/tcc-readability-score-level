@@ -1,0 +1,49 @@
+
+The Cyclone programming language is intended to be a safe dialect of the C language. Cyclone is designed to avoid buffer overflows and other vulnerabilities that are possible in C programs, without losing the power and convenience of C as a tool for system programming.
+Cyclone development was started as a joint project of AT&amp;T Labs Research and Greg Morrisett's group at Cornell in 2001. Version 1.0 was released on May 8, 2006.
+Language features.
+Cyclone attempts to avoid some of the common pitfalls of C, while still maintaining its look and performance. To this end, Cyclone places the following limits on programs:
+To maintain the tool set that C programmers are used to, Cyclone provides the following extensions:
+For a better high-level introduction to Cyclone, the reasoning behind Cyclone and the source of these lists, see this paper.
+Cyclone looks, in general, much like C, but it should be viewed as a C-like language.
+Pointer types.
+Cyclone implements three kinds of pointer:
+The purpose of introducing these new pointer types is to avoid common problems when using pointers. Take for instance a function, called codice_17 that takes a pointer to an int:
+ int foo(int *);
+Although the person who wrote the function codice_17 could have inserted codice_1 checks, let us assume that for performance reasons they did not. Calling codice_20 will result in undefined behavior (typically, although not necessarily, a SIGSEGV signal being sent to the application). To avoid such problems, Cyclone introduces the codice_14 pointer type, which can never be codice_1. Thus, the "safe" version of codice_17 would be:
+ int foo(int @);
+This tells the Cyclone compiler that the argument to codice_17 should never be codice_1, avoiding the aforementioned undefined behavior. The simple change of codice_13 to codice_14 saves the programmer from having to write codice_1 checks and the operating system from having to trap codice_1 pointer dereferences. This extra limit, however, can be a rather large stumbling block for most C programmers, who are used to being able to manipulate their pointers directly with arithmetic. Although this is desirable, it can lead to buffer overflows and other "off-by-one"-style mistakes. To avoid this, the codice_16 pointer type is delimited by a known bound, the size of the array. Although this adds overhead due to the extra information stored about the pointer, it improves safety and security. Take for instance a simple (and naïve) codice_31 function, written in C:
+ int strlen(const char *s)
+ int iter = 0;
+ if (s == NULL)
+ return 0;
+ while (s[iter] != '\0') {
+ iter++;
+ return iter;
+This function assumes that the string being passed in is terminated by NULL (codice_32). However, what would happen if codice_33 were passed to this string? This is perfectly legal in C, yet would cause codice_31 to iterate through memory not necessarily associated with the string codice_35. There are functions, such as codice_36 which can be used to avoid such problems, but these functions are not standard with every implementation of ANSI C. The Cyclone version of codice_31 is not so different from the C version:
+ int strlen(const char ? s)
+ int iter, n = s.size;
+ if (s == NULL)
+ return 0;
+ for (iter = 0; iter &lt; n; iter++, s++) {
+ if (*s == '\0')
+ return iter;
+ return n;
+Here, codice_31 bounds itself by the length of the array passed to it, thus not going over the actual length. Each of the kinds of pointer type can be safely cast to each of the others, and arrays and strings are automatically cast to codice_16 by the compiler. (Casting from codice_16 to codice_13 invokes a bounds check, and casting from codice_16 to codice_14 invokes both a codice_1 check and a bounds check. Casting from codice_13 to codice_16 results in no checks whatsoever; the resulting codice_16 pointer has a size of 1.)
+Dangling pointers and region analysis.
+Consider the following code, in C:
+ char *itoa(int i)
+ char buf[20];
+ sprintf(buf,"%d",i);
+ return buf;
+Function codice_48 allocates an array of chars codice_49 on the stack and returns a pointer to the start of codice_49. However the memory used on the stack for codice_49 is deallocated when the function returns, so the returned value cannot be used safely outside of the function. While gcc and other compilers will warn about such code, the following will typically compile without warnings:
+ char *itoa(int i)
+ char buf[20], *z;
+ sprintf(buf,"%d",i);
+ z = buf;
+ return z;
+gcc can produce warnings for such code as a side-effect of option -O2 or -O3, but there are no guarantees that all such errors will be detected.
+Cyclone does regional analysis of each segment of code, preventing dangling pointers, such as the one returned from this version of codice_48. All of the local variables in a given scope are considered to be part of the same region, separate from the heap or any other local region. Thus, when analyzing codice_48, the Cyclone compiler would see that codice_54 is a pointer into the local stack, and would report an error.
+External links.
+Presentations:
+

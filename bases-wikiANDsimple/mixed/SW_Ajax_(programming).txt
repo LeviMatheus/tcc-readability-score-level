@@ -1,0 +1,1 @@
+AJAX stands for Asynchronous JavaScript and XML. It is a technique used to make Web pages faster to use. If they are programmed with AJAX, they seem to react faster. They only send small bits of information to the server. That way the whole web page does not need to reload, only small parts of it.

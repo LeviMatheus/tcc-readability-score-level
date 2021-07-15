@@ -1,0 +1,1 @@
+The Church-Turing thesis (also known as Church's thesis, Church's conjecture and Turing's thesis) is a statement about machines (for example computers). It says that a simple kind of computer now named a “Turing machine” is able to do what any machine is able to do. The Church-Turing thesis is similar to Gödel's incompleteness theorems.

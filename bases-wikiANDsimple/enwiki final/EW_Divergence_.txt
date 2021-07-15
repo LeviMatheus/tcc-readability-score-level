@@ -1,0 +1,61 @@
+
+In vector calculus, divergence is a vector operator that operates on a vector field, producing a scalar field giving the quantity of the vector field's source at each point. More technically, the divergence represents the volume density of the outward flux of a vector field from an infinitesimal volume around a given point.
+As an example, consider air as it is heated or cooled. The velocity of the air at each point defines a vector field. While air is heated in a region, it expands in all directions, and thus the velocity field points outward from that region. The divergence of the velocity field in that region would thus have a positive value. While the air is cooled and thus contracting, the divergence of the velocity has a negative value.
+Physical interpretation of divergence.
+In physical terms, the divergence of a vector field is the extent to which the vector field flux behaves like a source at a given point. It is a local measure of its "outgoingness" – the extent to which there are more of the field vectors exiting an infinitesimal region of space than entering it. A point at which the flux is outgoing has positive divergence, and is often called a "source" of the field. A point at which the flux is directed inward has negative divergence, and is often called a "sink" of the field. The greater the flux of field through a small surface enclosing a given point, the greater the value of divergence at that point. A point at which there is zero flux through an enclosing surface has zero divergence. 
+The divergence of a vector field is often illustrated using the example of the velocity field of a fluid, a liquid or gas. A moving gas has a velocity, a speed and direction, at each point which can be represented by a vector, so the velocity of the gas forms a vector field. If a gas is heated, it will expand. This will cause a net motion of gas particles outward in all directions. Any closed surface in the gas will enclose gas which is expanding, so there will be an outward flux of gas through the surface. So the velocity field will have positive divergence everywhere. Similarly, if the gas is cooled, it will contract. There will be more room for gas particles in any volume, so the external pressure of the fluid will cause a net flow of gas volume inward through any closed surface. Therefore the velocity field has negative divergence everywhere. In contrast to an unheated gas with a constant density, the gas may be moving, but the volume rate of gas flowing into any closed surface must equal the volume rate flowing out, so the "net" flux of fluid through any closed surface is zero. Thus the gas velocity has zero divergence everywhere. A field which has zero divergence everywhere is called solenoidal. 
+If the fluid is heated only at one point or small region, or a small tube is introduced which supplies a source of additional fluid at one point, the fluid there will expand, pushing fluid particles around it outward in all directions. This will cause an outward velocity field throughout the fluid, centered on the heated point. Any closed surface enclosing the heated point will have a flux of fluid particles passing out of it, so there is positive divergence at that point. However any closed surface "not" enclosing the point will have a constant density of fluid inside, so just as many fluid particles are entering as leaving the volume, thus the net flux out of the volume is zero. Therefore the divergence at any other point is zero.
+Definition.
+[[Image:Definition of divergence.svg|thumb|The divergence at a point is the limit of the ratio of the flux formula_1 through the surface "(red arrows)" to the volume formula_2 for any sequence of closed regions enclosing that approaches zero volume: formula_3, where is the [[metric tensor]]. The [[determinant]] appears because it provides the appropriate invariant definition of the volume, given a set of vectors. Since the determinant is a scalar quantity which doesn't depend on the indices, these can be suppressed, writing formula_4. The absolute value is taken in order to handle the general case where the determinant might be negative, such as in pseudo-Riemannian spaces. The reason for the square-root is a bit subtle: it effectively avoids double-counting as one goes from curved to Cartesian coordinates, and back. The volume (the determinant) can also be understood as the [[Jacobian matrix and determinant|Jacobian]] of the transformation from Cartesian to curvilinear coordinates, which for gives 
+Some conventions expect all local basis elements to be normalized to unit length, as was done in the previous sections. If we write formula_5 for the normalized basis, and formula_6 for the components of with respect to it, we have that 
+using one of the properties of the metric tensor. By dotting both sides of the last equality with the contravariant element formula_8, we can conclude that formula_9. After substituting, the formula becomes:
+See "" for further discussion.
+Properties.
+The following properties can all be derived from the ordinary differentiation rules of [[calculus]]. Most importantly, the divergence is a [[linear operator]], i.e.,
+for all vector fields and and all [[real number]]s and .
+There is a [[product rule]] of the following type: if is a scalar-valued function and is a vector field, then
+or in more suggestive notation
+Another product rule for the [[cross product]] of two vector fields and in three dimensions involves the [[Curl (mathematics)|curl]] and reads as follows:
+or
+The [[Laplacian]] of a [[scalar field]] is the divergence of the field's [[gradient]]:
+The divergence of the [[Curl (mathematics)|curl]] of any vector field (in three dimensions) is equal to zero: 
+If a vector field with zero divergence is defined on a ball in , then there exists some vector field on the ball with . For regions in more topologically complicated than this, the latter statement might be false (see [[Poincaré lemma]]). The degree of "failure" of the truth of the statement, measured by the [[homology (mathematics)|homology]] of the [[chain complex]]
+serves as a nice quantification of the complicatedness of the underlying region . These are the beginnings and main motivations of [[de Rham cohomology]].
+Decomposition theorem.
+It can be shown that any stationary flux that is twice continuously differentiable in and vanishes sufficiently fast for can be decomposed uniquely into an "irrotational part" and a "source-free part" . Moreover, these parts are explicitly determined by the respective "source densities" (see above) and "circulation densities" (see the article [[Curl (mathematics)|Curl]]):
+For the irrotational part one has
+with
+The source-free part, , can be similarly written: one only has to replace the "scalar potential" by a "vector potential" and the terms by , and the source density 
+by the circulation density .
+This "decomposition theorem" is a by-product of the stationary case of [[electrodynamics]]. It is a special case of the more general [[Helmholtz decomposition]], which works in dimensions greater than three as well.
+In arbitrary dimensions.
+The divergence of a vector field can be defined in any number of dimensions. If 
+in a Euclidean coordinate system with coordinates , define
+In the case of one dimension, reduces to a regular function, and the divergence reduces to the derivative.
+For any , the divergence is a linear operator, and it satisfies the "product rule"
+for any scalar-valued function .
+Relation to the exterior derivative.
+One can express the divergence as a particular case of the [[exterior derivative]], which takes a [[2-form]] to a 3-form in . Define the current two-form as
+It measures the amount of "stuff" flowing through a surface per unit time in a "stuff fluid" of density moving with local velocity . Its exterior derivative is then given by
+where formula_26 is the [[wedge product]]. 
+Thus, the divergence of the vector field can be expressed as:
+Here the superscript is one of the two [[musical isomorphism]]s, and is the [[Hodge star operator]]. When the divergence is written in this way, the operator formula_28 is referred to as the [[codifferential]]. Working with the current two-form and the exterior derivative is usually easier than working with the vector field and divergence, because unlike the divergence, the exterior derivative commutes with a change of (curvilinear) coordinate system.
+In curvilinear coordinates.
+The appropriate expression is more complicated in [[Curvilinear coordinates#Grad, curl, div, Laplacian|curvilinear coordinates]]. The divergence of a vector field extends naturally to any [[differentiable manifold]] of dimension that has a [[volume form]] (or [[density on a manifold|density]]) , e.g. a [[Riemannian manifold|Riemannian]] or [[Lorentzian manifold]]. Generalising the construction of a [[two-form]] for a vector field on , on such a manifold a vector field defines an -form obtained by contracting with . The divergence is then the function defined by
+The divergence can be defined in terms of the [[Lie derivative]] as
+This means that the divergence measures the rate of expansion of a unit of volume (a [[volume element]])) as it flows with the vector field.
+On a [[pseudo-Riemannian manifold]], the divergence with respect to the volume can be expressed in terms of the [[Levi-Civita connection]] :
+where the second expression is the contraction of the vector field valued 1-form with itself and the last expression is the traditional coordinate expression from [[Ricci calculus]].
+An equivalent expression without using a connection is
+where is the [[metric tensor|metric]] and formula_33 denotes the partial derivative with respect to coordinate . The square-root of the (absolute value of the [[determinant]] of the) metric appears because the divergence must be written with the correct conception of the [[volume]]. In curvilinear coordinates, the basis vectors are no longer orthonormal; the determinant encodes the correct idea of volume in this case. It appears twice, here, once, so that the formula_34 can be transformed into "flat space" (where coordinates are actually orthonormal), and once again so that formula_33 is also transformed into "flat space", so that finally, the "ordinary" divergence can be written with the "ordinary" concept of volume in flat space ("i.e." unit volume, "i.e." one, "i.e." not written down). The square-root appears in the denominator, because the derivative transforms in the opposite way ([[Covariance and contravariance of vectors|contravariantly]]) to the vector (which is [[Covariance and contravariance of vectors|covariant]]). This idea of getting to a "flat coordinate system" where local computations can be done in a conventional way is called a [[vielbein]]. A different way to see this is to note that the divergence is the [[codifferential]] in disguise. That is, the divergence corresponds to the expression formula_36 with formula_37 the [[differential of a function|differential]] and formula_38 the [[Hodge star]]. The Hodge star, by its construction, causes the [[volume form]] to appear in all of the right places.
+The divergence of tensors.
+Divergence can also be generalised to [[tensors]]. In [[Einstein notation]], the divergence of a [[contravariant vector]] is given by
+where denotes the [[covariant derivative]]. In this general setting, the correct formulation of the divergence is to recognize that it is a [[codifferential]]; the appropriate properties follow from there.
+Equivalently, some authors define the divergence of a [[mixed tensor]] by using the [[musical isomorphism]] : if is a -[[tensor]] ( for the contravariant vector and for the covariant one), then we define the "divergence of " to be the -tensor
+that is, we take the trace over the "first two" covariant indices of the covariant derivative.
+The formula_41 symbol refers to the [[musical isomorphism]].
+External links.
+[[Category:Differential operators]]
+[[Category:Linear operators in calculus]]
+[[Category:Vector calculus]]
+

@@ -1,0 +1,4 @@
+A Microformat is an attempt to re-use existing content in HTML and XML documents. Such content may be information on how to contact someone, or it may be geographical coordinates, for example. This information can then be processed by software more easily.
+Technically, this kind of information is already there. A microformat aims at making this information accessible more easily. That way, tags might be added to flag the information.
+Example.
+Here, the formatted name ("fn"), organisation ("org"), telephone number ("tel") and web address ("url") have been identified using specific class names and the whole thing is wrapped in codice_1, which indicates that the other classes form an hCard (short for "HTML vCard)") and are not merely coincidentally named. Other, optional, hCard classes also exist. It is now possible for software, such as browser plug-ins, to extract the information, and transfer it to other applications, such as an address book.

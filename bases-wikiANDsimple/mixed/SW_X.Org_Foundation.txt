@@ -1,0 +1,2 @@
+The X.Org Foundation is a group responsible for making X Window System. This group was created on 22 January 2004. The X.Org Foundation is a corporation based in Delaware. It has a non-profit status.
+The X.Org Server is the most common implementation of X. It is used on Linux, UNIX, and Unix-like systems. It is the base technology underlying both GNOME and KDE desktops and the CDE desktop environment.

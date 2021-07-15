@@ -1,0 +1,6 @@
+The word "error" can mean different things. In Latin, "error" means "wondering" or "going away", but it is used more often to mean "mistake".
+In Statistics.
+An error is the difference between a number that someone thought was true, and the number that someone actually saw.
+Computer programming.
+The word error can be used to describe a computer program that was not written in the right way. A "syntax error" is a bit of source code that does not make sense to the computer. A "logic error" is a mistake in the algorithm used, which might result in problems with the output.
+An error may also be an "exception", which is something that happens unexpectedly. For example, it is an error to try to write more files onto a disk that is full. Careful programmers write code that can deal with errors that may happen; they can do this by labelling each error with an error code and using exception handling. Continuing to run a program when an error has not been dealt with can cause error avalanche, which means errors pile up and behaviour becomes more difficult to predict.

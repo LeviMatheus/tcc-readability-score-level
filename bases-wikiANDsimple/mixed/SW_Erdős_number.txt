@@ -1,0 +1,2 @@
+The Erdős number () honors the Hungarian mathematician Paul Erdős. Erdős was one of the most prolific mathematical writers.
+Paul Erdős's number is 0. Anyone who directly worked with Paul Erdős has an Erdős number of 1. Anyone who works with those collaborators who have a Erdős number of 1, have an Erdős number of 2. The chain continues like that.

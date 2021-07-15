@@ -1,0 +1,39 @@
+
+In geometry, the truncated icosahedron is an Archimedean solid, one of 13 convex isogonal nonprismatic solids whose 32 faces are two or more types of regular polygons. It is the only one of these shapes that does not contain triangles or squares. 
+It has 12 regular pentagonal faces, 20 regular hexagonal faces, 60 vertices and 90 edges.
+It is the Goldberg polyhedron GPV(1,1) or {5+,3}1,1, containing pentagonal and hexagonal faces.
+This geometry is associated with footballs (soccer balls) typically patterned with white hexagons and black pentagons. Geodesic domes such as those whose architecture Buckminster Fuller pioneered are often based on this structure. It also corresponds to the geometry of the fullerene C60 ("buckyball") molecule.
+It is used in the cell-transitive hyperbolic space-filling tessellation, the bitruncated order-5 dodecahedral honeycomb.
+Construction.
+This polyhedron can be constructed from an icosahedron with the 12 vertices truncated (cut off) such that one third of each edge is cut off at each of both ends. This creates 12 new pentagon faces, and leaves the original 20 triangle faces as regular hexagons. Thus the length of the edges is one third of that of the original edges.
+Characteristics.
+In Geometry and Graph theory, there are some standard polyhedron characteristics.
+Cartesian coordinates.
+Cartesian coordinates for the vertices of a "truncated icosahedron" centered at the origin are all even permutations of: 
+where "φ" =  is the golden mean. The circumradius is ≈ 4.956 and the edges have length 2.
+Orthogonal projections.
+The "truncated icosahedron" has five special orthogonal projections, centered, on a vertex, on two types of edges, and two types of faces: hexagonal and pentagonal. The last two correspond to the A2 and H2 Coxeter planes.
+Spherical tiling.
+The truncated icosahedron can also be represented as a spherical tiling, and projected onto the plane via a stereographic projection. This projection is conformal, preserving angles but not areas or lengths. Straight lines on the sphere are projected as circular arcs on the plane.
+Dimensions.
+If the edge length of a truncated icosahedron is "a", the radius of a circumscribed sphere (one that touches the truncated icosahedron at all vertices) is: 
+where "φ" is the golden ratio.
+This result is easy to get by using one of the three orthogonal golden rectangles drawn into the original icosahedron (before cut off) as the starting point for our considerations. The angle between the segments joining the center and the vertices connected by shared edge (calculated on the basis of this construction) is approximately 23.281446°.
+Area and volume.
+The area "A" and the volume "V" of the truncated icosahedron of edge length "a" are:
+With unit edges, the surface area is (rounded) 21 for the pentagons and 52 for the hexagons, together 73 (see areas of regular polygons).
+The truncated icosahedron easily demonstrates the Euler characteristic:
+Applications.
+The balls used in association football and team handball are perhaps the best-known example of a spherical polyhedron analog to the truncated icosahedron, found in everyday life. The ball comprises the same pattern of regular pentagons and regular hexagons, but it is more spherical due to the pressure of the air inside and the elasticity of the ball. This ball type was introduced to the World Cup in 1970 (starting in 2006, this iconic design has been superseded by alternative patterns).
+Geodesic domes are typically based on triangular facetings of this geometry with example structures found across the world, popularized by Buckminster Fuller.
+A variation of the icosahedron was used as the basis of the honeycomb wheels (made from a polycast material) used by the Pontiac Motor Division between 1971 and 1976 on its Trans Am and Grand Prix.
+This shape was also the configuration of the lenses used for focusing the explosive shock waves of the detonators in both the gadget and Fat Man atomic bombs.
+The truncated icosahedron can also be described as a model of the Buckminsterfullerene (fullerene) (C60), or "buckyball", molecule – an allotrope of elemental carbon, discovered in 1985. The diameter of the football and the fullerene molecule are 22 cm and about 0.71 nm, respectively, hence the size ratio is ≈31,000,000:1.
+In popular craft culture, large sparkleballs can be made using a icosahedron pattern and plastic, styrofoam or paper cups.
+Related polyhedra.
+These uniform star-polyhedra, and one icosahedral stellation have nonuniform truncated icosahedra convex hulls:
+Truncated icosahedral graph.
+In the mathematical field of graph theory, a truncated icosahedral graph is the graph of vertices and edges of the "truncated icosahedron", one of the Archimedean solids. It has 60 vertices and 90 edges, and is a cubic Archimedean graph.
+History.
+The truncated icosahedron was known to Archimedes, who classified the 13 Archimedean solids in a lost work. All we know of his work on these shapes comes from Pappus of Alexandria, who merely lists the numbers of faces for each: 12 pentagons and 20 hexagons, in the case of the truncated icosahedron. The first known image and complete description of a truncated icosahedron is from a rediscovery by Piero della Francesca, in his 15th-century book "De quinque corporibus regularibus", which included five of the Archimedean solids (the five truncations of the regular polyhedra). The same shape was depicted by Leonardo da Vinci, in his illustrations for Luca Pacioli's plagiarism of della Francesca's book in 1509. Although Albrecht Dürer omitted this shape from the other Archimedean solids listed in his 1525 book on polyhedra, "Underweysung der Messung", a description of it was found in his posthumous papers, published in 1538. Johannes Kepler later rediscovered the complete list of the 13 Archimedean solids, including the truncated icosahedron, and included them in his 1609 book, "Harmonices Mundi".
+

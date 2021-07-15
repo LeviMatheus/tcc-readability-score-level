@@ -1,0 +1,12 @@
+
+The DECSYSTEM-20 was a 36-bit Digital Equipment Corporation PDP-10 mainframe computer running the TOPS-20 operating system (products introduced in 1977).
+PDP-10 computers running the TOPS-10 operating system were labeled "DECsystem-10" as a way of differentiating them from the PDP-11. Later on, those systems running TOPS-20 (on the KL10 PDP-10 processors) were labeled "DECSYSTEM-20" (the block capitals being the result of a lawsuit brought against DEC by Singer, which once made a computer called "The System Ten"). The DECSYSTEM-20 was sometimes called PDP-20, although this designation was never used by DEC.
+Models.
+The following models were produced:
+The only significant difference the user could see between a DECsystem-10 and a DECSYSTEM-20 was the operating system and the color of the paint. Most (but not all) machines sold to run TOPS-10 were painted "Blasi Blue", whereas most TOPS-20 machines were painted "Terracotta" (often mistakenly called "Chinese Red" or orange; the actual name of the color on the paint cans was Terra Cotta).
+There were some significant internal differences between the earlier KL10 Model A processors, used in the earlier DECsystem-10s running on KL10 processors, and the later KL10 Model Bs, used for the DECSYSTEM-20s. Model As used the original PDP-10 memory bus, with external memory modules. The later Model B processors used in the DECSYSTEM-20 used internal memory, mounted in the same cabinet as the CPU. The Model As also had different packaging; they came in the original tall PDP-10 cabinets, rather than the short ones used later on for the DECSYSTEM-20.
+The last released implementation of DEC's 36-bit architecture was the single cabinet DECSYSTEM-2020, using a KS10 processor.
+The DECSYSTEM-20 was primarily designed and used as a small mainframe for timesharing. That is, multiple users would concurrently log on to individual user accounts and share use of the main processor to compile and run applications. Separate disk allocations were maintained for all users by the operating system, and various levels of protection could be maintained by for System, Owner, Group, and World users. A model 2060, for example, could typically host up to 40 to 60 simultaneous users before exhibiting noticeably reduced response time.
+Remaining machines.
+The Living Computer Museum of Seattle, Washington maintains a 2065 running TOPS-10, which is available to interested parties via SSH upon registration (at no cost) at their website.
+

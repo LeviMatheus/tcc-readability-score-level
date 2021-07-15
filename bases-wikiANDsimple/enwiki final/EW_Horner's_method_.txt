@@ -1,0 +1,91 @@
+
+In mathematics and computer science, Horner's method (or Horner's scheme) is an algorithm for polynomial evaluation. Although named after William George Horner, this method is much older, as it has been attributed to Joseph-Louis Lagrange by Horner himself, and can be traced back many hundreds of years to Chinese and Persian mathematicians. After the introduction of computers, this algorithm became fundamental for computing efficiently with polynomials.
+The algorithm is based on Horner's rule:
+This allows the evaluation of a polynomial of degree with only formula_2 multiplications and formula_2 additions. This is optimal, since there are polynomials of degree that cannot be evaluated with fewer arithmetic operations 
+Alternatively, Horner's method also refers to a method for approximating the roots of polynomials, described by Horner in 1819. It is a variant of the Newton–Raphson method made more efficient for hand calculation by the application of Horner's Rule. It was widely used until computers came into general use around 1970.
+Polynomial evaluation and long division.
+Given the polynomial
+where formula_5 are constant coefficients, the problem is to evaluate the polynomial at a specific value formula_6 of formula_7
+For this, a new sequence of constants is defined recursively as follows:
+Then formula_9 is the value of formula_10.
+To see why this works, the polynomial can be written in the form
+Thus, by iteratively substituting the formula_12 into the expression,
+Now, it can be proven that;
+This expression constitutes Horner's practical application, as it offers a very quick way of determining the outcome of;
+with b0 (which is equal to p(x0)) being the division's remainder, as is demonstrated by the examples below. if x0 is a root of p(x), then b0 = 0 (meaning the remainder is 0), which means you can factor p(x) with (x-x0).&lt;br&gt;
+As to finding the consecutive b-values, you start with determining bn, which is simply equal to an. You then work your way down to the other b's, using the formula;
+till you arrive at b0.
+Examples.
+Evaluate formula_17 for formula_18
+We use synthetic division as follows:
+ "x0"│ "x3" "x2" "x1" "x0"
+ 3 │ 2 −6 2 −1
+ │ 6 0 6
+ 2 0 2 5
+The entries in the third row are the sum of those in the first two. Each entry in the second row is the product of the "x"-value (3 in this example) with the third-row entry immediately to the left. The entries in the first row are the coefficients of the polynomial to be evaluated. Then the remainder of formula_19 on division by formula_20 is 5.
+But by the polynomial remainder theorem, we know that the remainder is formula_21. Thus formula_22
+In this example, if formula_23 we can see that formula_24, the entries in the third row. So, synthetic division is based on Horner's method.
+As a consequence of the polynomial remainder theorem, the entries in the third row are the coefficients of the second-degree polynomial, the quotient of formula_19 on division by formula_26. 
+The remainder is 5. This makes Horner's method useful for polynomial long division.
+Divide formula_27 by formula_28:
+ 2 │ 1 −6 11 −6
+ │ 2 −8 6
+ 1 −4 3 0
+The quotient is formula_29.
+Let formula_30 and formula_31. Divide formula_32 by formula_33 using Horner's method.
+ 
+ 0.5 │ 4 -6 0 3 -5
+ │ 2 -2 -1 1
+ 2 -2 -1 1 -2
+The third row is the sum of the first two rows, divided by 2. Each entry in the second row is the product of 1 with the third-row entry to the left. The answer is
+Efficiency.
+Evaluation using the monomial form of a degree-"n" polynomial requires at most "n" additions and ("n"2 + "n")/2 multiplications, if powers are calculated by repeated multiplication and each monomial is evaluated individually. (This can be reduced to "n" additions and 2"n" − 1 multiplications by evaluating the powers of "x" iteratively.) If numerical data are represented in terms of digits (or bits), then the naive algorithm also entails storing approximately 2"n" times the number of bits of "x" (the evaluated polynomial has approximate magnitude "xn", and one must also store "xn" itself). By contrast, Horner's method requires only "n" additions and "n" multiplications, and its storage requirements are only "n" times the number of bits of "x". Alternatively, Horner's method can be computed with "n" fused multiply–adds. Horner's method can also be extended to evaluate the first "k" derivatives of the polynomial with "kn" additions and multiplications.
+Horner's method is optimal, in the sense that any algorithm to evaluate an arbitrary polynomial must use at least as many operations. Alexander Ostrowski proved in 1954 that the number of additions required is minimal. Victor Pan proved in 1966 that the number of multiplications is minimal. However, when "x" is a matrix, Horner's method is not optimal.
+This assumes that the polynomial is evaluated in monomial form and no preconditioning of the representation is allowed, which makes sense if the polynomial is evaluated only once. However, if preconditioning is allowed and the polynomial is to be evaluated many times, then faster algorithms are possible. They involve a transformation of the representation of the polynomial. In general, a degree-"n" polynomial can be evaluated using only +2 multiplications and "n" additions.
+Parallel evaluation.
+A disadvantage of Horner's rule is that all of the operations are sequentially dependent, so it is not possible to take advantage of instruction level parallelism on modern computers. In most applications where the efficiency of polynomial evaluation matters, many low-order polynomials are evaluated simultaneously (for each pixel or polygon in computer graphics, or for each grid square in a numerical simulation), so it is not necessary to find parallelism within a single polynomial evaluation.
+If, however, one is evaluating a single polynomial of very high order, it may be useful to break it up as follows:
+More generally, the summation can be broken into "k" parts:
+where the inner summations may be evaluated using separate parallel instances of Horner's method. This requires slightly more operations than the basic Horner's method, but allows "k"-way SIMD execution of most of them. Modern compilers generally evaluate polynomials this way when advantageous, although for floating-point calculations this require enabling (unsafe) reassociative math.
+Application to floating-point multiplication and division.
+Horner's method is a fast, code-efficient method for multiplication and division of binary numbers on a microcontroller with no hardware multiplier. One of the binary numbers to be multiplied is represented as a trivial polynomial, where (using the above notation) formula_37, and formula_38. Then, "x" (or "x" to some power) is repeatedly factored out. In this binary numeral system (base 2), formula_38, so powers of 2 are repeatedly factored out.
+Example.
+For example, to find the product of two numbers (0.15625) and "m":
+Method.
+To find the product of two binary numbers "d" and "m":
+Derivation.
+In general, for a binary number with bit values (formula_41) the product is
+At this stage in the algorithm, it is required that terms with zero-valued coefficients are dropped, so that only binary coefficients equal to one are counted, thus the problem of multiplication or division by zero is not an issue, despite this implication in the factored equation:
+The denominators all equal one (or the term is absent), so this reduces to
+or equivalently (as consistent with the "method" described above)
+In binary (base-2) math, multiplication by a power of 2 is merely a register shift operation. Thus, multiplying by 2 is calculated in base-2 by an arithmetic shift. The factor (2−1) is a right arithmetic shift, a (0) results in no operation (since 20 = 1 is the multiplicative identity element), and a (21) results in a left arithmetic shift.
+The multiplication product can now be quickly calculated using only arithmetic shift operations, addition and subtraction.
+The method is particularly fast on processors supporting a single-instruction shift-and-addition-accumulate. Compared to a C floating-point library, Horner's method sacrifices some accuracy, however it is nominally 13 times faster (16 times faster when the "canonical signed digit" (CSD) form is used) and uses only 20% of the code space.
+Other applications.
+Horner's method can be used to convert between different positional numeral systems – in which case "x" is the base of the number system, and the "a""i" coefficients are the digits of the base-"x" representation of a given number – and can also be used if "x" is a matrix, in which case the gain in computational efficiency is even greater. In fact, when "x" is a matrix, further acceleration is possible which exploits the structure of matrix multiplication, and only formula_46 instead of "n" multiplies are needed (at the expense of requiring more storage) using the 1973 method of Paterson and Stockmeyer.
+Polynomial root finding.
+Using the long division algorithm in combination with Newton's method, it is possible to approximate the real roots of a polynomial. The algorithm works as follows. Given a polynomial formula_47 of degree formula_2 with zeros formula_49 make some initial guess formula_50 such that formula_51. Now iterate the following two steps:
+These two steps are repeated until all real zeros are found for the polynomial. If the approximated zeros are not precise enough, the obtained values can be used as initial guesses for Newton's method but using the full polynomial rather than the reduced polynomials.
+Example.
+Consider the polynomial
+which can be expanded to
+From the above we know that the largest root of this polynomial is 7 so we are able to make an initial guess of 8. Using Newton's method the first zero of 7 is found as shown in black in the figure to the right. Next formula_61 is divided by formula_62 to obtain
+which is drawn in red in the figure to the right. Newton's method is used to find the largest zero of this polynomial with an initial guess of 7. The largest zero of this polynomial which corresponds to the second largest zero of the original polynomial is found at 3 and is circled in red. The degree 5 polynomial is now divided by formula_64 to obtain
+which is shown in yellow. The zero for this polynomial is found at 2 again using Newton's method and is circled in yellow. Horner's method is now used to obtain
+which is shown in green and found to have a zero at −3. This polynomial is further reduced to
+which is shown in blue and yields a zero of −5. The final root of the original polynomial may be found by either using the final zero as an initial guess for Newton's method, or by reducing formula_68 and solving the linear equation. As can be seen, the expected roots of −8, −5, −3, 2, 3, and 7 were found.
+Divided difference of a polynomial.
+Horner's method can be modified to compute the divided difference formula_69 Given the polynomial (as before)
+proceed as follows
+At completion, we have
+This computation of the divided difference is subject to less
+round-off error than evaluating formula_61 and formula_74 separately, particularly when
+formula_75. Substituting
+formula_76 in this method gives formula_77, the derivative of formula_61.
+History.
+Horner's paper, titled "A new method of solving numerical equations of all orders, by continuous approximation", was read before the Royal Society of London, at its meeting on July 1, 1819, with a sequel in 1823. Horner's paper in Part II of "Philosophical Transactions of the Royal Society of London" for 1819 was warmly and expansively welcomed by a reviewer in the issue of "The Monthly Review: or, Literary Journal" for April, 1820; in comparison, a technical paper by Charles Babbage is dismissed curtly in this review. The sequence of reviews in "The Monthly Review" for September, 1821, concludes that Holdred was the first person to discover a direct and general practical solution of numerical equations. Fuller showed that the method in Horner's 1819 paper differs from what afterwards became known as "Horner's method" and that in consequence the priority for this method should go to Holdred (1820). 
+Unlike his English contemporaries, Horner drew on the Continental literature, notably the work of Arbogast. Horner is also known to have made a close reading of John Bonneycastle's book on algebra, though he neglected the work of Paolo Ruffini.
+Although Horner is credited with making the method accessible and practical, it was known long before Horner. In reverse chronological order, Horner's method was already known to:
+Qin Jiushao, in his "Shu Shu Jiu Zhang" ("Mathematical Treatise in Nine Sections"; 1247), presents a portfolio of methods of Horner-type for solving polynomial equations, which was based on earlier works of the 11th century Song dynasty mathematician Jia Xian; for example, one method is specifically suited to bi-quintics, of which Qin gives an instance, in keeping with the then Chinese custom of case studies. Yoshio Mikami in "Development of Mathematics in China and Japan" (Leipzig 1913) wrote:
+Ulrich Libbrecht concluded: "It is obvious that this procedure is a Chinese invention ... the method was not known in India". He said, Fibonacci probably learned of it from Arabs, who perhaps borrowed from the Chinese. The extraction of square and cube roots along similar lines is already discussed by Liu Hui in connection with Problems IV.16 and 22 in "Jiu Zhang Suan Shu", while Wang Xiaotong in the 7th century supposes his readers can solve cubics by an approximation method described in his book Jigu Suanjing.
+

@@ -1,0 +1,40 @@
+
+In mathematics, an operator is generally a mapping or function that acts on elements of a space to produce elements of another space (possibly the same space, sometimes required to be the same space). There is no general definition of an "operator", but the term is often used in place of "function" when the domain is a set of functions or other structured objects. Also, the domain of an operator is often difficult to be explicitly characterized (for example in the case of an integral operator), and may be extended to related objects (an operator that acts on functions may act also on differential equations whose functions are solutions). See Operator (physics) for other examples.
+The most basic operators (in some sense) are linear maps, which act on vector spaces. However, when using "linear operator" instead of "linear map", mathematicians often mean actions on vector spaces of functions, which also preserve other properties, such as continuity. For example, differentiation and indefinite integration are linear operators; operators that are built from them are called differential operators, integral operators or integro-differential operators.
+Operator is also used for denoting the symbol of a mathematical operation. This is related with the meaning of "operator" in computer programming, see operator (computer programming).
+Linear operators.
+The most common kind of operator encountered are "linear operators". Let "U" and "V" be vector spaces over a field "K". A mapping "A": "U" → "V" is linear if
+for all x, y in "U" and for all "α, β" in "K". 
+This means that a linear operator preserves vector space operations, in the sense that it does not matter whether you apply the linear operator before or after the operations of addition and scalar multiplication. In more technical words, linear operators are morphisms between vector spaces.
+In the finite-dimensional case linear operators can be represented by matrices in the following way. Let formula_2 be a field, and formula_3 and formula_4 be finite-dimensional vector spaces over formula_2. Let us select a basis formula_6 in formula_3 and formula_8 in formula_4. Then let formula_10 be an arbitrary vector in formula_3 (assuming Einstein convention), and formula_12 be a linear operator. Then
+Then formula_14 is the matrix of the operator formula_15 in fixed bases. formula_16 does not depend on the choice of formula_17, and formula_18 if formula_19. Thus in fixed bases n-by-m matrices are in bijective correspondence to linear operators from formula_3 to formula_4.
+The important concepts directly related to operators between finite-dimensional vector spaces are the ones of rank, determinant, inverse operator, and eigenspace.
+Linear operators also play a great role in the infinite-dimensional case. The concepts of rank and determinant cannot be extended to infinite-dimensional matrices. This is why very different techniques are employed when studying linear operators (and operators in general) in the infinite-dimensional case. The study of linear operators in the infinite-dimensional case is known as functional analysis (so called because various classes of functions form interesting examples of infinite-dimensional vector spaces).
+The space of sequences of real numbers, or more generally sequences of vectors in any vector space, themselves form an infinite-dimensional vector space. The most important cases are sequences of real or complex numbers, and these spaces, together with linear subspaces, are known as sequence spaces. Operators on these spaces are known as sequence transformations.
+Bounded linear operators over Banach space form a Banach algebra in respect to the standard operator norm. The theory of Banach algebras develops a very general concept of spectra that elegantly generalizes the theory of eigenspaces.
+Bounded operators.
+Let "U" and "V" be two vector spaces over the same ordered field (for example, formula_22), and they are equipped with norms. Then a linear operator from "U" to "V" is called bounded if there exists "C" &gt; 0 such that
+for all x in "U".
+Bounded operators form a vector space. On this vector space we can introduce a norm that is compatible with the norms of "U" and "V":
+In case of operators from "U" to itself it can be shown that
+Any unital normed algebra with this property is called a Banach algebra. It is possible to generalize spectral theory to such algebras. C*-algebras, which are Banach algebras with some additional structure, play an important role in quantum mechanics.
+Examples.
+Geometry.
+In geometry, additional structures on vector spaces are sometimes studied. Operators that map such vector spaces to themselves bijectively are very useful in these studies, they naturally form groups by composition.
+For example, bijective operators preserving the structure of a vector space are precisely the invertible linear operators. They form the general linear group under composition. They "do not" form a vector space under the addition of operators, e.g. both "id" and "-id" are invertible (bijective), but their sum, 0, is not.
+Operators preserving the Euclidean metric on such a space form the isometry group, and those that fix the origin form a subgroup known as the orthogonal group. Operators in the orthogonal group that also preserve the orientation of vector tuples form the special orthogonal group, or the group of rotations.
+Probability theory.
+Operators are also involved in probability theory, such as expectation, variance, and covariance. Indeed, every covariance is basically a dot product; every variance is a dot product of a vector with itself, and thus is a quadratic norm; every standard deviation is a norm (square root of the quadratic norm); the corresponding cosine to this dot product is the Pearson correlation coefficient; expected value is basically an integral operator (used to measure weighted shapes in the space).
+Calculus.
+From the point of view of functional analysis, calculus is the study of two linear operators: the differential operator formula_26, and the Volterra operator formula_27.
+Fourier series and Fourier transform.
+The Fourier transform is useful in applied mathematics, particularly physics and signal processing. It is another integral operator; it is useful mainly because it converts a function on one (temporal) domain to a function on another (frequency) domain, in a way effectively invertible. No information is lost, as there is an inverse transform operator. In the simple case of periodic functions, this result is based on the theorem that any continuous periodic function can be represented as the sum of a series of sine waves and cosine waves:
+The tuple "(a0, a1, b1, a2, b2, ...)" is in fact an element of an infinite-dimensional vector space ℓ2, and thus Fourier series is a linear operator.
+When dealing with general function R → C, the transform takes on an integral form:
+Laplace transform.
+The "Laplace transform" is another integral operator and is involved in simplifying the process of solving differential equations.
+Given "f" = "f"("s"), it is defined by:
+Fundamental operators on scalar and vector fields.
+Three operators are key to vector calculus:
+As an extension of vector calculus operators to physics, engineering and tensor spaces, Grad, Div and Curl operators also are often associated with Tensor calculus as well as vector calculus.
+

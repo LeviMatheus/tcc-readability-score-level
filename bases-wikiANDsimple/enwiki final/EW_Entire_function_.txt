@@ -1,0 +1,53 @@
+
+In complex analysis, an entire function, also called an integral function, is a complex-valued function that is holomorphic on the whole complex plane. Typical examples of entire functions are polynomials and the exponential function, and any finite sums, products and compositions of these, such as the trigonometric functions sine and cosine and their hyperbolic counterparts sinh and cosh, as well as derivatives and integrals of entire functions such as the error function. If an entire function "f"("z") has a root at "w", then "f"("z")/("z−w"), taking the limit value at "w", is an entire function. On the other hand, neither the natural logarithm nor the square root is an entire function, nor can they be continued analytically to an entire function.
+A transcendental entire function is an entire function that is not a polynomial.
+Properties.
+Every entire function "f"("z") can be represented as a power series
+that converges everywhere in the complex plane, hence uniformly on compact sets. The radius of convergence is infinite, which implies that
+or
+Any power series satisfying this criterion will represent an entire function.
+If (and only if) the coefficients of the power series are all real then the function evidently takes real values for real arguments, and the value of the function at the complex conjugate of "z" will be the complex conjugate of the value at "z". Such functions are sometimes called self-conjugate (the conjugate function, formula_4, being given by 
+If the real part of an entire function is known in a neighborhood of a point then both the real and imaginary parts are known for the whole complex plane, up to an imaginary constant. For instance, if the real part is known in a neighborhood of zero, then we can find the coefficients for "n" &gt; 0 from the following derivatives with respect to a real variable "r":
+(Likewise, if the imaginary part is known in a neighborhood then the function is determined up to a real constant.) In fact, if the real part is known just on an arc of a circle, then the function is determined up to an imaginary constant. (For instance, if the real part is known on part of the unit circle, then it is known on the whole unit circle by analytic extension, and then the coefficients of the infinite series are determined from the coefficients of the Fourier series for the real part on the unit circle.) Note however that an entire function is not determined by its real part on all curves. In particular, if the real part is given on any curve in the complex plane where the real part of some other entire function is zero, then any multiple of that function can be added to the function we are trying to determine. For example, if the curve where the real part is known is the real line, then we can add "i" times any self-conjugate function. If the curve forms a loop, then it is determined by the real part of the function on the loop since the only functions whose real part is zero on the curve are those that are everywhere equal to some imaginary number.
+The Weierstrass factorization theorem asserts that any entire function can be represented by a product involving its zeroes (or "roots").
+The entire functions on the complex plane form an integral domain (in fact a Prüfer domain). They also form a commutative unital associative algebra over the complex numbers.
+Liouville's theorem states that any bounded entire function must be constant. Liouville's theorem may be used to elegantly prove the fundamental theorem of algebra.
+As a consequence of Liouville's theorem, any function that is entire on the whole Riemann sphere (complex plane "and" the point at infinity) is constant. Thus any non-constant entire function must have a singularity at the complex point at infinity, either a pole for a polynomial or an essential singularity for a transcendental entire function. Specifically, by the Casorati–Weierstrass theorem, for any transcendental entire function "f" and any complex "w" there is a sequence formula_6 such that 
+Picard's little theorem is a much stronger result: any non-constant entire function takes on every complex number as value, possibly with a single exception. When an exception exists, it is called a lacunary value of the function. The possibility of a lacunary value is illustrated by the exponential function, which never takes on the value 0. One can take a suitable branch of the logarithm of an entire function that never hits 0, so that this will also be an entire function (according to the Weierstrass factorization theorem). The logarithm hits every complex number except possibly one number, which implies that the first function will hit any value other than 0 an infinite number of times. Similarly, a non-constant, entire function that does not hit a particular value will hit every other value an infinite number of times.
+Liouville's theorem is a special case of the following statement:
+Growth.
+Entire functions may grow as fast as any increasing function: for any increasing function "g": [0,∞) → [0,∞) there exists an entire function "f" such that "f"("x") &gt; "g"(|"x"|) for all real "x". Such a function "f" may be easily found of the form:
+for a constant "c" and a strictly increasing sequence of positive integers "nk". Any such sequence defines an entire function "f"("z"), and if the powers are chosen appropriately we may satisfy the inequality "f"("x") &gt; "g"(|"x"|) for all real "x". (For instance, it certainly holds if one chooses "c" := "g"(2) and, for any integer formula_13 one chooses an even exponent formula_14 such that formula_15).
+Order and type.
+The order (at infinity) of an entire function formula_16 is defined using the limit superior as:
+where "Br" is the disk of radius "r" and formula_18 denotes the supremum norm of formula_16 on "Br". The order is a non-negative real number or infinity (except when formula_20 for all "z"). In other words, the order of formula_16 is the infimum of all "m" such that: 
+The example of formula_23 shows that this does not mean "f"("z") = O(exp(|"z"|"m")) if formula_16 is of order "m".
+If formula_25 one can also define the type:
+If the order is 1 and the type is "σ", the function is said to be "of exponential type "σ"". If it is of order less than 1 it is said to be of exponential type 0.
+If
+then the order and type can be found by the formulas
+Let formula_29 denote the "n"th derivative of "f", then we may restate these formulas in terms of the derivatives at any arbitrary point "z"0:
+The type may be infinite, as in the case of the reciprocal gamma function, or zero (see example below under #Order 1).
+Examples.
+Here are some examples of functions of various orders:
+Order ρ.
+For arbitrary positive numbers "ρ" and "σ" one can construct an example of an entire function of order "ρ" and type "σ" using:
+Order 1/4.
+where 
+Order 1/3.
+where
+Genus.
+Entire functions of finite order have Hadamard's canonical representation:
+where formula_40 are those roots of formula_41 that are not zero (formula_42), formula_43 is the order of the zero of formula_41 at formula_45 (the case formula_46 being taken to mean formula_47), formula_48 a polynomial (whose degree we shall call formula_49), and formula_50 is the smallest non-negative integer such that the series
+converges. The non-negative integer formula_52 is called the genus of the entire function formula_41.
+If the order ρ is not an integer, then formula_54 is the integer part of formula_55. If the order is a positive integer, then there are two possibilities: formula_56 or formula_57.
+For example, formula_58 and formula_59 are entire functions of genus "1".
+Other examples.
+According to J. E. Littlewood, the Weierstrass sigma function is a 'typical' entire function. This statement can be made precise in the theory of random entire functions: the asymptotic behavior of almost all entire functions is similar to that of the sigma function. Other examples include the Fresnel integrals, the Jacobi theta function, and the reciprocal Gamma function. The exponential function and the error function are special cases of the Mittag-Leffler function. According to the fundamental theorem of Paley and Wiener, Fourier transforms of functions (or distributions) with bounded support are entire functions of order "1" and finite type.
+Other examples are solutions of linear differential equations with polynomial coefficients. If the coefficient at the highest derivative is constant, then all solutions of such equations are entire functions. For example, the exponential function, sine, cosine, Airy functions and Parabolic cylinder functions arise in this way. The class of entire functions is closed with respect to compositions. This makes it possible to study dynamics of entire functions.
+An entire function of the square root of a complex number is entire if the original function is even, for example formula_60.
+If a sequence of polynomials all of whose roots are real converges in a neighborhood of the origin to a limit which is not identically equal to zero, then this limit is an entire function. Such entire functions form the Laguerre–Pólya class, which can also be characterized in terms of the Hadamard product, namely, "f" belongs to this class if and only if in the Hadamard representation all "zn" are real, "p" ≤ 1, and "P"("z") = "a" + "bz" + "cz"2, where "b" and "c" are real, and "c" ≤ 0. For example, the sequence of polynomials 
+converges, as "n" increases, to exp(−("z"−"d")2). The polynomials 
+have all real roots, and converge to cos("z"). The polynomials 
+also converge to cos("z"), showing the buildup of the Hadamard product for cosine.
+

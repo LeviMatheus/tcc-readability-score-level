@@ -1,0 +1,9 @@
+
+A kicker, also called a side card, is a card in a poker hand that does not itself take part in determining the rank of the hand, but that may be used to break ties between hands of the same rank. For example, the hand Q-Q-10-5-2 is ranked as a pair of queens. The 10, 5, and 2 are kickers. This hand would defeat any hand with no pair, or with a lower-ranking pair, and lose to any higher-ranking hand. But the kickers can be used to break ties between other hands that also have a pair of queens. For example, Q-Q-K-3-2 would win (because its K kicker outranks the 10), but Q-Q-10-4-3 would lose (because its 4 is outranked by the 5).
+Kickers in draw poker.
+The term is also used in draw poker to denote an unmatched card (often an ace) retained by a player during the draw in the hope that either it will be paired on the draw, or else play as a kicker (in the first sense) on the showdown. A kicker may also be retained in order to deceive an opponent, for example, to represent a three-of-a-kind when the player has only a pair.
+Kickers in Texas hold 'em.
+Kickers take on special importance in Texas hold 'em, because a common winning hand is one card in a player's hand matched with a card on the board, while the player's second card acts as a kicker. For example, if one player holds A-8, a second player holds A-7, and the board is
+A-K-6-5-4, the player with the A-8 will outkick the player with the A-7, since A-8's best hand is A-A-K-8-6, while the A-7's hand is A-A-K-7-6.
+However, if the board held A-K-Q-J-3, the players would tie, because both would play the hand A-A-K-Q-J; in this case it is said that the players' kickers "don't play", or that the "kicker on the board plays". In this case, there would be a split pot.
+

@@ -1,0 +1,7 @@
+A conjecture is an idea in mathematics that appears "likely" to be true but that has not been "proven" to be true.
+After a conjecture is proven true, it becomes a theorem.
+Famous conjectures.
+Until recently, the most famous conjecture was the badly named Fermat's last theorem. The name is wrong, because Fermat claimed to have found a clever proof of it, but no proof could be found among his notes after his death. The conjecture challenged mathematicians for over three centuries before a British mathematician Andrew Wiles could finally prove it in 1993. Now it is properly called a theorem.
+Undecidable conjectures.
+Not every conjecture can be proven true or false. The continuum hypothesis, which says something about some properties of certain infinite sets is such an example. It was shown to be undecidable (or independent) from the generally accepted set of axioms of set theory. It is therefore possible to take this statement, or its negation, as a new axiom in a consistent manner (much as we can take Euclid's parallel postulate as either true or false).
+In this case, if a proof uses this statement, researchers will often look for a new proof that "doesn't" require the hypothesis The one major exception to this in practice is the axiom of choice -- unless studying this axiom in particular, the majority of researchers do not usually worry whether a result requires the axiom of choice.

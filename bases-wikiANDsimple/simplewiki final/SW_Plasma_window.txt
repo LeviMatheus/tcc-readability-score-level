@@ -1,0 +1,9 @@
+A Plasma window is a field of plasma that fills an area of space. It is similar to a force field. The area is created by using magnetism to hold the plasma in place. With current technology, this area of space is quite small. It is in the shape of a flat planes inside a cylinder.
+As plasma increases in temperature, it becomes thicker. At a high enough temperature, plasma can is thick enough to separate a vacuum from normal atmosphere. Plasma does not stop radiation, for example lasers, from moving through it. Because of this, scientists can use a plasma window to create an area of vacuum while still letting radiation to move through it. This is needed because certain types of radiation can only be created in a vacuum but scientists need to use the radiation on things that are found in a normal atmosphere.
+History.
+The Plasma Window was created at Brookhaven National Laboratory by Ady Hershcovitch. It was patented in 1995. Other creations using the same idea as the plasma window include the Plasma Valve.
+Plasma Valve.
+The Plasma Valve is related to a plasma window. It was created a year after the plasma window. The plasma Valve is a layer of gas inside a special shell. A ring around the shell holds a vacuum. A breach in the ring can be very bad but technology lets scientists shut off the machine in time before anything happens.
+Properties.
+A plasma window is usually created at temperatures of 15,000 degrees kelvin. The only limit to the windows size is the amount of energy needed to create it. A window needs 20 kW of energy for every inch in size.
+Plasma windows will glow in different colors depending on the gas used to create the plasma.

@@ -1,0 +1,9 @@
+gnuLinEx, or LinEx, is a Linux distribution based on Debian which uses GNOME as its desktop.
+It is promoted and created by the regional government of Extremadura, Spain, gnuLinEx is intended to be used in all schools in Extremadura, as well as in government offices. The regional government of Extremadura also wants people to use it for business and home use as well.
+gnuLinEx works only on computers whose processor is based on the i386 architecture.
+School LinEx.
+School LinEx is a gnuLinEx variant oriented toward teachers. It consists of three user profiles, each for a cycle of primary. All of them are personalized and full of contents and educational software for every pupil.
+Users.
+As of May 2003, 200000 LinEx CDs had been distributed free by local newspapers, and 70000 copies of the operating system had been downloaded from the web site. About 10% of the inhabitants of Extremadura might use LinEx.
+gnuLinEx in secondary schools.
+Nowadays gnuLinEx is principally in the public institutes of secondary education of the Extremaduran community, having a computer (with gnuLinEx installed) for every two pupils, or for every table.

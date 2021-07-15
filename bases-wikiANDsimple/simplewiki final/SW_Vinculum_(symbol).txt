@@ -1,0 +1,3 @@
+A vinculum is a horizontal line put over a mathematical expression. It shows that it belongs together as a group. ("Vinculum" is Latin for "chain".)
+1. groups of digits repeating forever, for example,
+2. fractions

@@ -1,0 +1,40 @@
+
+"Twinkle, Twinkle, Little Star" is a popular English lullaby. The lyrics are from an early-19th-century English poem by Jane Taylor, "The Star". The poem, which is in couplet form, was first published in 1806 in "Rhymes for the Nursery", a collection of poems by Taylor and her sister Ann. It is sung to the tune of the French melody "Ah! vous dirai-je, maman", which was published in 1761 and later arranged by several composers, including Mozart with Twelve Variations on "Ah vous dirai-je, Maman". The English lyrics have five stanzas, although only the first is widely known. It has a Roud Folk Song Index number of 7666. This song is usually performed in the key of C major.
+The song is in the public domain, and has many adaptations around the world.
+Origins.
+The English lyrics were first written as a poem by Jane Taylor (1783–1824) and published with the title "The Star" in "Rhymes for the Nursery" by Jane and her sister Ann Taylor (1782–1866) in London in 1806:
+The lyrics from "The Star" were first published with the tune in "The Singing Master: First Class Tune Book" in 1838.
+Melody.
+&lt;score %vorbis="1"%%T257066%&gt;
+ \relative c' {
+ \key c \major \time 4/4
+ c4 c4 g'4 g4 a4 a4 g2 |
+ f4 f4 e4 e4 d4 d4 c2 \break
+ g'4 g4 f4 f4 e4 e4 d2 |
+ g4 g4 f4 f4 e4 e4 d2 \break
+ c4 c4 g'4 g4 a4 a4 g2 | 
+ f4 f4 e4 e4 d4 d4 c2 \bar "|."
+ \addlyrics {
+ Twin -- kle, twin -- kle,
+ lit -- tle star,
+ how I won -- der,
+ what you are!
+ Up a -- bove the world so high,
+ like a dia -- mond in the sky.
+ Twin -- kle, twin -- kle,
+ lit -- tle star,
+ how I won -- der
+ what you are!
+&lt;/score&gt;
+Lyrics.
+The lyrics of the song are the text of the poem, with the first two lines of the entire poem repeated as a refrain after each stanza. For instance, the first stanza of the lyrics is:
+The first stanza of the song is typically as written, but further stanzas typically contain minor variations.
+Other text versions.
+Additional variations exist such as from 1896 in "Song Stories for the Kindergarten" by Mildred J. Hill.
+A parody of "Twinkle Twinkle Little Star" titled "Twinkle, Twinkle, Little Bat" is recited by the Mad Hatter in of Lewis Carroll's "Alice's Adventures in Wonderland".
+An adaptation of the song, named "Twinkle, Twinkle, Little Earth", was written by Charles Randolph Grean, Fred Hertz and Leonard Nimoy. It is included on Nimoy's first 1967 album "Leonard Nimoy Presents Mr. Spock's Music from Outer Space", with him reciting the text as Spock explaining how the star-people wish upon an earth and so forth.
+The tune of the "Alphabet song" is identical to "Twinkle, Twinkle, Little Star".
+A version using synonyms from Roget's Thesaurus exists.
+The opening lyrics are also used to begin the traditional murder ballad "Duncan and Brady".
+The song can also be played as a singing game.
+

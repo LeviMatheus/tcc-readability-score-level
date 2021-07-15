@@ -1,0 +1,13 @@
+1 5 10 10 5 1
+The first six rows of Pascal's triangle
+Pascal's Triangle is a mathematical triangle. People say French mathematician Blaise Pascal developed it. It has been used before him, however.
+Pascal's triangle can be made as follows. On the first row, write only the number 1. Then, to get the numbers of following rows, add the number that can be seen above and to the left (if any) and the number above and to the right (if any) to find the new value. For example, the numbers 1 and 3 in the fourth row are added to make 4 in the fifth row.
+Uses of Pascal triangle.
+The triangle has many uses in probability. It can also be used in binomial expansions. For example
+Notice the coefficients are the third row of Pascal's triangle: 1, 2, 1.
+where the coefficients "a'i" in this expansion are precisely the numbers on row "n" + 1 of Pascal's triangle; in other words,
+Pascal's rule.
+Formally speaking, the way of making the Pascal's Triangle uses Pascal's rule, which states that
+for non-negative integers "n" and "k" where "n" ≥ "k" and with the initial condition
+Complicated structures based on Pascal's triangle.
+Pascal's triangle generalizes readily into higher dimensions. The three-dimensional version is called Pascal's pyramid or "Pascal's tetrahedron". A higher-dimensional analogue is generically called a "Pascal's simplex". See also pyramid, tetrahedron, and simplex.

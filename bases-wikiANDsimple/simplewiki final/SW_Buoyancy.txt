@@ -1,0 +1,6 @@
+In physics, buoyancy is the upward force on an object produced by the surrounding fluid (i.e., a liquid or a gas) in which it is fully or partially immersed, due to the pressure difference of the fluid between the top and bottom of the object.
+The net upward buoyancy force is equal to the magnitude of the weight of fluid that is displaced by the body. This force enables the object to float or at least to seem lighter. Buoyancy is important for many vehicles such as boats, ships, balloons, and Blimps.
+Density.
+If the object has exactly the same density as the liquid, then its buoyancy equals its weight. It will tend neither to sink nor float.
+An object with a higher average density than the fluid has less buoyancy than weight and it will sink.
+A ship floats because although it is made of steel which is more dense than water, it encloses a volume of air and the resulting shape has an average density less than that of the water.

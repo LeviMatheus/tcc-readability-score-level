@@ -1,0 +1,13 @@
+The Internet is a worldwide network of interconnected computer networks that transmit data by packet switching using the standard Internet Protocol (IP). It is a "network of networks" that consists of millions of smaller domestic, academic, business, and government networks, which together carry various information and services, such as electronic mail, online chat, file transfer, and the interlinked Web pages and other documents of the World Wide Web.
+History.
+The Internet was created in the United States in 1969 by the "United States Department of Defense Advanced Research Projects Agency" (known as "ARPA"). The World Wide Web was created
+at CERN in Switzerland in the 1990s by a British (UK) man named Tim Berners-Lee.
+Today, people can pay a fee to access the Internet from Internet Service Providers. Some services on the Internet cost nothing to use. Sometimes the people who run these free services use advertising to make money from them.
+The alternative name, "Net" came from "inter(net)".
+Services on the Internet.
+The Internet is used for many things, such as electronic mail (e-mail), online chat, and the World Wide Web.
+The most used service on the Internet is the World Wide Web (which is also called the "Web"). The Web contains websites, blogs, and also wikis - including Wikipedia. Webpages on the Web can be seen and read by anyone (unless the page needs a password, or it is blocked).
+The second major use of the Internet is to send and receive e-mail. E-mail is private and goes from one user to another. Instant messaging (such as AIM or ICQ) is similar to email, but allows two or more people to chat to each other much quicker.
+Some governments consider the Internet to be a bad thing, and block some or part of it. For example, the Chinese government think that Wikipedia is bad, so often no one in China can read it or add to it. Some parents block parts of the Internet they think are bad for children to see.
+Dangers on the Internet.
+The Internet can also be a dangerous place. Information people put on the Internet is not

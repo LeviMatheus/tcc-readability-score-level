@@ -1,0 +1,11 @@
+A real number ℝ is a rational or irrational number. Usually when people say "number" they mean "real number". There are also numbers which are not real. Those are called complex numbers.
+Some real numbers are positive. A positive number is bigger than zero. If a positive number is added to another number, that number gets bigger. Zero is also a real number. If zero is added to a number, that number does not change.
+There are also negative real numbers. They are smaller than zero. If a negative number is added to another number, that number gets smaller. This is called "subtraction".
+The real numbers are infinite. That means that there is no first or last real number. No matter how many real numbers are counted, the last one will never be reached.
+The real numbers are continuous. That means that if two different real numbers are taken, there will always be another one in between them, no matter how close together the two numbers are. This makes the real numbers special. There are more real numbers than there are numbers that are not continuous, even though the numbers that are not continuous might be infinite, too.
+Different types of real numbers.
+The number 0 ("zero") is special. Sometimes it is taken as part of the group to be considered, and at other times it is not. It is the Identity element for addition and subtraction. That means that adding or subtracting zero does not change the original number. For multiplication and division, the identity element is 1.
+One real number that is not rational is formula_1. This number is irrational. If a square is drawn with sides that are one unit long, the length of the line between its opposite corners will be formula_1.
+Proof that the square root of 2 is not rational.
+The number formula_1 is not rational. Here is the proof.
+It is impossible that formula_1 is a rational number. So formula_1 is irrational.

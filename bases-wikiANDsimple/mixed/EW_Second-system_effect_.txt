@@ -1,0 +1,4 @@
+
+The second-system effect or second-system syndrome is the tendency of small, elegant, and successful systems to be succeeded by over-engineered, bloated systems, due to inflated expectations and overconfidence.
+The phrase was first used by Fred Brooks in his book "The Mythical Man-Month", first published in 1975. It described the jump from a set of simple operating systems on the IBM 700/7000 series to OS/360 on the 360 series, which happened in 1964.
+

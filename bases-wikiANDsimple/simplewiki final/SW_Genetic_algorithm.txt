@@ -1,0 +1,1 @@
+Genetic algorithms are a kind of algorithm used to find approximations in search problems. Genetic algorithms are a class of evolutionary algorithms that use ideas inspired by evolution to find a solution.

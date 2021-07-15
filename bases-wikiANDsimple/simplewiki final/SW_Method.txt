@@ -1,0 +1,2 @@
+A method is a way of doing something.
+In object-oriented programming, a method is a part of an object. It is code with a name and parameters (if needed). The programmer can run the code by "calling" the method.

@@ -1,0 +1,13 @@
+In music, a note is a small bit of sound, similar to a syllable in speaking a language. For example: in the first two lines of the song "Twinkle, twinkle little star, how I wonder what you are" there are 14 notes: one for each syllable.
+Confusingly, the word "note" can also mean the pitch of a note (how high or low it is). For example: the whole of the song "Twinkle, twinkle, little star" can be played using six different notes: C, D, E, F, G and A.
+The word "note" can also mean the written symbol of the note.
+Nearly all music is made up of notes. Music without notes might be sound effects.
+Note name.
+In most Western countries the notes (in the sense of the pitches) are given a letter of the alphabet according to their pitch. From lowest sounding to highest sounding: A, B, C, D, E, F, G. This pattern repeats, so that after G will come A. This A is an octave higher than the first A.
+Because there are 12 notes needed in Western music, these 7 notes can have modifiers ("symbols or words that change them"). The two main modifiers are sharps, which raise the pitch a half-step, and flats, which lower the pitch a half-step. The symbol for a sharp is ♯ (like the hash symbol (American: number symbol): #). The symbol for a flat is ♭ (like a lower-case italic "b"). The symbols are written after the note name. For example, an B♭ represents B flat and F♯ represents F sharp. These symbols can also be written in the key signature. To un-flat or un-sharp a note, the natural symbol, ♮, is written before the note. Flat and sharp signs are always written before the note. A way to remember this when writing or playing music is to say: if the sign came after the note, it would be too late, and you would have already played it, so it must go before so that you know what is coming up.
+Two other modifiers are double sharps, which raise the note a whole step, and double flats, which lower the note a whole step. These are much less common that the simple sharp or flat, but can still be seen in some types of music. The symbol for a double sharp is × and the symbol for a double flat is ♭♭. For example, E♭♭ is another name for D. This is called an enharmonic equivalent. Another enharmonic equivalent is C and B♯.
+Other note names.
+In Italy and some other countries, notes are named Do, Re, Mi, Fa, Sol, La, Si ("or Ti") instead of C, D, E, F, G, A, B. This notation is called solfege in the United States. These notes are the focus for a song in "The Sound of Music".
+Drum Kits do not have notes, they have places on the manuscript where each line means each Drum,
+each symbol means each Cymbak on the Kit - how Many Times to hit it in what speed and beats
+in a bar there are usually shown as 4/4 and you count 1 2 3 4 each bar.

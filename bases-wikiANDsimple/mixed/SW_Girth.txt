@@ -1,0 +1,2 @@
+Girth is the circumference of a cylindrical object, such as a tree trunk.
+Girth is sometimes used by postal services and delivery companies as basis for pricing. For example (for at least one delivery company), if one has a box to ship, it has three sides: length (the longest side) and height and width. The girth in this case is 2 * (height + width).

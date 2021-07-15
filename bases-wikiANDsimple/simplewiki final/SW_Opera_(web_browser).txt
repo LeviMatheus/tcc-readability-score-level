@@ -1,0 +1,5 @@
+Opera is a set of tools for the internet that includes a web browser, e-mail, and IRC Chat. There are versions available for several operating systems. These include Microsoft Windows, Mac OS X, Solaris, FreeBSD and Linux. There are also version for mobile phones, smartphones, Personal Digital Assistants, game consoles and interactive televisions. Other companies products such as Adobe Creative Suite use technology based on Opera.
+Opera is developed by Opera Software which is based in Oslo, Norway.
+History.
+Opera was first started in 1994 at Telenor, which is Norway's largest telecommunications company. In 1995 it became its own company called Opera Software ASA.
+Until version 2.0 Opera was called MultiTorg Opera and was not available to the public. It was known for its multiple document interface (MDI) and 'hotlist' (sidebar), which made browsing several pages at once much easier, as well as being the first browser to completely focus on adhering to the W3C standards.

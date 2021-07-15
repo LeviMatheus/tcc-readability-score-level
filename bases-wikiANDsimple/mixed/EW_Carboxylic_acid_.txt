@@ -1,0 +1,39 @@
+
+A carboxylic acid is an organic acid that contains a carboxyl group (C(=O)OH) attached to an R-group. The general formula of a carboxylic acid is R−COOH or R−CO2H, with R referring to the alkyl, alkenyl, aryl, or other group. Carboxylic acids occur widely. Important examples include the amino acids and fatty acids. Deprotonation of a carboxylic acid gives a carboxylate anion.
+Examples and nomenclature.
+Carboxylic acids are commonly identified by their trivial names. They often have the suffix "-ic acid". IUPAC-recommended names also exist; in this system, carboxylic acids have an "-oic acid" suffix. For example, butyric acid (C3H7CO2H) is butanoic acid by IUPAC guidelines. For nomenclature of complex molecules containing a carboxylic acid, the carboxyl can be considered position one of the parent chain even if there are other substituents, such as 3-chloropropanoic acid. Alternately, it can be named as a "carboxy" or "carboxylic acid" substituent on another parent structure, such as 2-carboxyfuran.
+The carboxylate anion (R–COO− or RCO2−) of a carboxylic acid is usually named with the suffix "-ate", in keeping with the general pattern of "-ic acid" and "-ate" for a conjugate acid and its conjugate base, respectively. For example, the conjugate base of acetic acid is acetate.
+Carbonic acid, which occurs in bicarbonate buffer systems in nature, is not generally classed as one of the carboxylic acids, despite that it has a moiety that looks like a COOH group. 
+Physical properties.
+Solubility.
+Carboxylic acids are polar. Because they are both hydrogen-bond acceptors (the carbonyl –C=O) and hydrogen-bond donors (the hydroxyl –OH), they also participate in hydrogen bonding. Together, the hydroxyl and carbonyl group form the functional group carboxyl. Carboxylic acids usually exist as dimers in nonpolar media due to their tendency to "self-associate". Smaller carboxylic acids (1 to 5 carbons) are soluble in water, whereas bigger carboxylic acids have limited solubility due to the increasing hydrophobic nature of the alkyl chain. These longer chain acids tend to be soluble in less-polar solvents such as ethers and alcohols. Aqueous sodium hydroxide and carboxylic acids, even hydrophobic ones, react to yield water-soluble sodium salts. For example, enathic acid has a low solubility in water (0.2 g/L), but its sodium salt is very soluble in water.
+Boiling points.
+Carboxylic acids tend to have higher boiling points than water, because of their greater surface areas and their tendency to form stabilised dimers through hydrogen bonds. For boiling to occur, either the dimer bonds must be broken or the entire dimer arrangement must be vaporised, increasing the enthalpy of vaporization requirements significantly.
+Acidity.
+Carboxylic acids are Brønsted–Lowry acids because they are proton (H+) donors. They are the most common type of organic acid.
+Carboxylic acids are typically weak acids, meaning that they only partially dissociate into H3O+ cations and RCOO− anions in neutral aqueous solution. For example, at room temperature, in a 1-molar solution of acetic acid, only 0.4% of the acid are dissociated. Electron-withdrawing substituents, such as -CF3 group, give stronger acids (the pKa of formic acid is 3.75 whereas trifluoroacetic acid, with a trifluoromethyl substituent, has a pKa of 0.23). Electron-donating substituents give weaker acids (the pKa of formic acid is 3.75 whereas acetic acid, with a methyl substituent, has a pKa of 4.76)
+Deprotonation of carboxylic acids gives carboxylate anions; these are resonance stabilized, because the negative charge is delocalized over the two oxygen atoms, increasing the stability of the anion. Each of the carbon–oxygen bonds in the carboxylate anion has a partial double-bond character. The carbonyl carbon's partial positive charge is also weakened by the -1/2 negative charges on the 2 oxygen atoms.
+Odour.
+Carboxylic acids often have strong sour odours. Esters of carboxylic acids tend to have pleasant odours, and many are used in perfume.
+Characterization.
+Carboxylic acids are readily identified as such by infrared spectroscopy. They exhibit a sharp band associated with vibration of the C–O vibration bond ("ν"C=O) between 1680 and 1725 cm−1. A characteristic "ν"O–H band appears as a broad peak in the 2500 to 3000 cm−1 region. By 1H NMR spectrometry, the hydroxyl hydrogen appears in the 10–13 ppm region, although it is often either broadened or not observed owing to exchange with traces of water.
+Occurrence and applications.
+Many carboxylic acids are produced industrially on a large scale. They are also frequently found in nature. Esters of fatty acids are the main components of lipids and polyamides of aminocarboxylic acids are the main components of proteins.
+Carboxylic acids are used in the production of polymers, pharmaceuticals, solvents, and food additives. Industrially important carboxylic acids include acetic acid (component of vinegar, precursor to solvents and coatings), acrylic and methacrylic acids (precursors to polymers, adhesives), adipic acid (polymers), citric acid (a flavor and preservative in food and beverages), ethylenediaminetetraacetic acid (chelating agent), fatty acids (coatings), maleic acid (polymers), propionic acid (food preservative), terephthalic acid (polymers). Important carboxylate salts are soaps.
+Synthesis.
+Industrial routes.
+In general, industrial routes to carboxylic acids differ from those used on a smaller scale because they require specialized equipment.
+Laboratory methods.
+Preparative methods for small scale reactions for research or for production of fine chemicals often employ expensive consumable reagents.
+Less-common reactions.
+Many reactions produce carboxylic acids but are used only in specific cases or are mainly of academic interest.
+Reactions.
+The most widely practiced reactions convert carboxylic acids into esters, amides, carboxylate salts, acid chlorides, and alcohols. Carboxylic acids react with bases to form carboxylate salts, in which the hydrogen of the hydroxyl (–OH) group is replaced with a metal cation. For example, acetic acid found in vinegar reacts with sodium bicarbonate (baking soda) to form sodium acetate, carbon dioxide, and water:
+Carboxylic acids also react with alcohols to give esters. This process is widely used, e.g. in the production of polyesters. Likewise, carboxylic acids are converted into amides, but this conversion typically does not occur by direct reaction of the carboxylic acid and the amine. Instead esters are typical precursors to amides. The conversion of amino acids into peptides is a significant biochemical process that requires ATP.
+The hydroxyl group on carboxylic acids may be replaced with a chlorine atom using thionyl chloride to give acyl chlorides. In nature, carboxylic acids are converted to thioesters.
+Reduction.
+Like esters, most of carboxylic acid can be reduced to alcohols by hydrogenation or using hydride or alkyl transferring agents (since they will deprotonate the acids instead without transfer) such as lithium aluminium hydride or Grignard reagents (organolithium compounds).
+"N","N"-Dimethyl(chloromethylene)ammonium chloride (ClHC=N+(CH3)2Cl−) is a highly chemoselective agent for carboxylic acid reduction. It selectively activates the carboxylic acid to give the carboxymethyleneammonium salt, which can be reduced by a mild reductant like lithium tris("t"-butoxy)aluminum hydride to afford an aldehyde in a one pot procedure. This procedure is known to tolerate reactive carbonyl functionalities such as ketone as well as moderately reactive ester, olefin, nitrile, and halide moieties.
+Carboxyl radical.
+The carboxyl radical, •COOH, only exists briefly. The acid dissociation constant of •COOH has been measured using electron paramagnetic resonance spectroscopy. The carboxyl group tends to dimerise to form oxalic acid.
+

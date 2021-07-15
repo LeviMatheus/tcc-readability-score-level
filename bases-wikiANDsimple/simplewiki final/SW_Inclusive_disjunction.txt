@@ -1,0 +1,2 @@
+Inclusive disjunction (also called or) is a Logic operation. It normally takes two inputs. It is false, when both inputs are false. Otherwise it is true.
+This is different from the exclusive disjunction.

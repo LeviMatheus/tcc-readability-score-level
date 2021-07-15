@@ -1,0 +1,23 @@
+
+In mathematics, specifically in measure theory, a Borel measure on a topological space is a measure that is defined on all open sets (and thus on all Borel sets). Some authors require additional restrictions on the measure, as described below.
+Formal definition.
+Let formula_1 be a locally compact Hausdorff space, and let formula_2 be the smallest σ-algebra that contains the open sets of formula_1; this is known as the σ-algebra of Borel sets. A Borel measure is any measure formula_4 defined on the σ-algebra of Borel sets. A few authors require in addition that formula_4 is locally finite, meaning that formula_6 for every compact set formula_7. If a Borel measure formula_4 is both inner regular and outer regular, it is called a regular Borel measure. If formula_4 is both inner regular, outer regular, and locally finite, it is called a Radon measure.
+On the real line.
+The real line formula_10 with its usual topology is a locally compact Hausdorff space, hence we can define a Borel measure on it. In this case, formula_11 is the smallest σ-algebra that contains the open intervals of formula_10. While there are many Borel measures "μ", the choice of Borel measure that assigns formula_13 for every half-open interval formula_14 is sometimes called "the" Borel measure on formula_10. This measure turns out to be the restriction to the Borel σ-algebra of the Lebesgue measure formula_16, which is a complete measure and is defined on the Lebesgue σ-algebra. The Lebesgue σ-algebra is actually the "completion" of the Borel σ-algebra, which means that it is the smallest σ-algebra that contains all the Borel sets and has a complete measure on it. Also, the Borel measure and the Lebesgue measure coincide on the Borel sets (i.e., formula_17 for every Borel measurable set, where formula_4 is the Borel measure described above).
+Product spaces.
+If "X" and "Y" are second-countable, Hausdorff topological spaces, then the set of Borel subsets formula_19 of their product coincides with the product of the sets formula_20 of Borel subsets of "X" and "Y". That is, the Borel functor 
+from the category of second-countable Hausdorff spaces to the category of measurable spaces preserves finite products.
+Applications.
+Lebesgue–Stieltjes integral.
+The Lebesgue–Stieltjes integral is the ordinary Lebesgue integral with respect to a measure known as the Lebesgue–Stieltjes measure, which may be associated to any function of bounded variation on the real line. The Lebesgue–Stieltjes measure is a regular Borel measure, and conversely every regular Borel measure on the real line is of this kind.
+Laplace transform.
+One can define the Laplace transform of a finite Borel measure μ on the real line by the Lebesgue integral
+An important special case is where μ is a probability measure or, even more specifically, the Dirac delta function. In operational calculus, the Laplace transform of a measure is often treated as though the measure came from a distribution function "f". In that case, to avoid potential confusion, one often writes
+where the lower limit of 0− is shorthand notation for
+This limit emphasizes that any point mass located at 0 is entirely captured by the Laplace transform. Although with the Lebesgue integral, it is not necessary to take such a limit, it does appear more naturally in connection with the Laplace–Stieltjes transform.
+Hausdorff dimension and Frostman's lemma.
+Given a Borel measure μ on a metric space "X" such that μ("X") &gt; 0 and μ("B"("x", "r")) ≤ "rs" holds for some constant "s" &gt; 0 and for every ball "B"("x", "r") in "X", then the Hausdorff dimension dimHaus("X") ≥ "s". A partial converse is provided by Frostman's lemma:
+Lemma: Let "A" be a Borel subset of R"n", and let "s" &gt; 0. Then the following are equivalent:
+Cramér–Wold theorem.
+The Cramér–Wold theorem in measure theory states that a Borel probability measure on formula_26 is uniquely determined by the totality of its one-dimensional projections. It is used as a method for proving joint convergence results. The theorem is named after Harald Cramér and Herman Ole Andreas Wold.
+

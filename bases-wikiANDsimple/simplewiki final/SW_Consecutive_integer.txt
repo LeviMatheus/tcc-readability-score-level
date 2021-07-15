@@ -1,0 +1,10 @@
+Consecutive integers are integers that follow each other in order. They have a difference of 1 between every two numbers. In a set of consecutive integers, the mean and the median are equal.
+If "n" is an integer, then "n", "n"+1, and "n"+2 will be consecutive integers.
+-3, -2, -1, 0, 1, 2
+Odd Consecutive Integers.
+Odd consecutive integers are odd integers that follow each other. They have a difference of 2 between every two numbers.
+If "n" is an integer, then 2"n"+1, 2"n"+3, and 2"n"+5 will be odd consecutive integers.
+-23, -21, -19, -17, -15, -13, -11
+Even Consecutive Integers.
+Even consecutive integers are even integers that follow each other. They have a difference of 2 between every two numbers.
+If "n" is an integer, then 2"n", 2"n"+2, and 2"n"+4 will be even consecutive integers.

@@ -1,0 +1,3 @@
+Thrust is a reaction force that is described by Newton's Newton's laws of motion. When a system expels or accelerates mass in one direction the accelerated mass will cause a proportional but opposite force on that system.
+Examples.
+A fixed-wing aircraft generates forward thrust when a spinning propeller moves air, or gases are ejected from a jet engine (or rocket engine), opposite the direction of flight. The forward thrust is proportional to the (mass of the air) multiplied by (average velocity of the airstream).

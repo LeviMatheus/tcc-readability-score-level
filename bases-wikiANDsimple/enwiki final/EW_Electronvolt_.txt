@@ -1,0 +1,37 @@
+
+In physics, an electronvolt (symbol eV, also written electron-volt and electron volt) is the amount of kinetic energy gained by a single electron accelerating from rest through an electric potential difference of one volt in vacuum. When used as a unit of energy, the numerical value of 1 eV in joules (symbol J) is equivalent to the numerical value of the charge of an electron in coulombs (symbol C). Under the 2019 redefinition of the SI base units, this sets 1 eV equal to the exact value J. 
+Historically, the electronvolt was devised as a standard unit of measure through its usefulness in electrostatic particle accelerator sciences, because a particle with electric charge "q" has an energy after passing through the potential "V"; if "q" is quoted in integer units of the elementary charge and the potential in volts, one gets an energy in eV.
+It is a common unit of energy within physics, widely used in solid state, atomic, nuclear, and particle physics. It is commonly used with the metric prefixes milli-, kilo-, mega-, giga-, tera-, peta- or exa- (meV, keV, MeV, GeV, TeV, PeV and EeV respectively). In some older documents, and in the name Bevatron, the symbol BeV is used, which stands for billion (109) electronvolts; it is equivalent to the GeV.
+Definition.
+An electronvolt is the amount of kinetic energy gained or lost by a single electron accelerating from rest through an electric potential difference of one volt in vacuum. Hence, it has a value of one volt, , multiplied by the electron's elementary charge "e", Therefore, one electronvolt is equal to 
+The electronvolt, as opposed to the volt, is not an SI unit. The electronvolt (eV) is a unit of energy whereas the volt (V) is the derived SI unit of electric potential. The SI unit for energy is the joule (J).
+Mass.
+By mass–energy equivalence, the electronvolt is also a unit of mass. It is common in particle physics, where units of mass and energy are often interchanged, to express mass in units of eV/"c"2, where "c" is the speed of light in vacuum (from ). It is common to simply express mass in terms of "eV" as a unit of mass, effectively using a system of natural units with "c" set to 1. The mass equivalent of is
+For example, an electron and a positron, each with a mass of , can annihilate to yield of energy. The proton has a mass of . In general, the masses of all hadrons are of the order of , which makes the GeV (gigaelectronvolt) a convenient unit of mass for particle physics:
+The unified atomic mass unit (u), almost exactly 1 gram divided by the Avogadro number, is almost the mass of a hydrogen atom, which is mostly the mass of the proton. To convert to electron volts, use the formula:
+Momentum.
+In high-energy physics, the electronvolt is often used as a unit of momentum. A potential difference of 1 volt causes an electron to gain an amount of energy (i.e., ). This gives rise to usage of eV (and keV, MeV, GeV or TeV) as units of momentum, for the energy supplied results in acceleration of the particle.
+The dimensions of momentum units are . The dimensions of energy units are . Then, dividing the units of energy (such as eV) by a fundamental constant that has units of velocity (), facilitates the required conversion of using energy units to describe momentum. In the field of high-energy particle physics, the fundamental velocity unit is the speed of light in vacuum "c". 
+By dividing energy in eV by the speed of light, one can describe the momentum of an electron in units of eV/"c".
+The fundamental velocity constant "c" is often "dropped" from the units of momentum by way of defining units of length such that the value of "c" is unity. For example, if the momentum "p" of an electron is said to be , then the conversion to MKS can be achieved by:
+Distance.
+In particle physics, a system of "natural units" in which the speed of light in vacuum "c" and the reduced Planck constant "ħ" are dimensionless and equal to unity is widely used: . In these units, both distances and times are expressed in inverse energy units (while energy and mass are expressed in the same units, see mass–energy equivalence). In particular, particle scattering lengths are often presented in units of inverse particle masses.
+Outside this system of units, the conversion factors between electronvolt, second, and nanometer are the following:
+The above relations also allow expressing the mean lifetime "τ" of an unstable particle (in seconds) in terms of its decay width Γ (in eV) via . For example, the B0 meson has a lifetime of 1.530(9) picoseconds, mean decay length is , or a decay width of .
+Conversely, the tiny meson mass differences responsible for meson oscillations are often expressed in the more convenient inverse picoseconds.
+Energy in electronvolts is sometimes expressed through the wavelength of light with photons of the same energy: 
+Temperature.
+In certain fields, such as plasma physics, it is convenient to use the electronvolt to express temperature. The electronvolt is divided by the Boltzmann constant to convert to the Kelvin scale:
+Where "k"B is the Boltzmann constant, K is Kelvin, J is Joules, eV is electronvolts.
+The "k"B is assumed when using the electronvolt to express temperature, for example, a typical magnetic confinement fusion plasma is (kilo-electronvolts), which is equal to 170 MK (million Kelvin).
+As an approximation: "k"B"T" is about (≈ ) at a temperature of .
+Properties.
+The energy "E", frequency "v", and wavelength λ of a photon are related by
+where "h" is the Planck constant, "c" is the speed of light. This reduces to
+A photon with a wavelength of (green light) would have an energy of approximately . Similarly, would correspond to an infrared photon of wavelength or frequency .
+Scattering experiments.
+In a low-energy nuclear scattering experiment, it is conventional to refer to the nuclear recoil energy in units of eVr, keVr, etc. This distinguishes the nuclear recoil energy from the "electron equivalent" recoil energy (eVee, keVee, etc.) measured by scintillation light. For example, the yield of a phototube is measured in phe/keVee (photoelectrons per keV electron-equivalent energy). The relationship between eV, eVr, and eVee depends on the medium the scattering takes place in, and must be established empirically for each material.
+Energy comparisons.
+Per mole.
+One mole of particles given 1 eV of energy has approximately 96.5 kJ of energy — this corresponds to the Faraday constant ("F" ≈ ), where the energy in joules of "n" moles of particles each with energy "E" eV is equal to "E"·"F"·"n".
+

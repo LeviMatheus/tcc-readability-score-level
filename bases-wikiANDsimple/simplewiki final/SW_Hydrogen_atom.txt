@@ -1,0 +1,4 @@
+A hydrogen atom is an atom of the chemical element hydrogen.
+Its parts are a single negatively-charged electron that circles a single positively-charged nucleus of the hydrogen atom. The nucleus of hydrogen consists of only a single proton (in the case of hydrogen-1 or "protium"), "or" it may also include one or more neutrons (giving deuterium, tritium, and other isotopes). The electron is bound to the nucleus by the Coulomb force. Hydrogen-1, also known as protium or "light hydrogen" is the main component of natural hydrogen.
+References.
+Section 4.2 deals with the hydrogen atom specifically, but all of Chapter 4 is relevant.

@@ -1,0 +1,45 @@
+
+A business plan is a formal written document containing the goals of a business, the methods for attaining those goals, and the time-frame for the achievement of the goals. It also describes the nature of the business, background information on the organization, the organization's financial projections, and the strategies it intends to implement to achieve the stated targets. In its entirety, this document serves as a road-map (a plan) that provides direction to the business.
+Written business plans are often required to obtain a bank loan or other kind of financing. Existent templates and guides, such as the ones offered in the United States by the Small Business Administration can be used to facilitate producing a business plan.
+Audience.
+Business plans may be internally or externally focused. Externally-focused plans draft goals that are important to outside stakeholders, particularly financial stakeholders. These plans typically have detailed information about the organization or the team making effort to reach its goals. With for-profit entities, external stakeholders include investors and customers, for non-profits, external stakeholders refer to donors and clients, for government agencies, external stakeholders are the tax-payers, higher-level government agencies, and international lending bodies such as the International Monetary Fund, the World Bank, various economic agencies of the United Nations, and development banks.
+Internally-focused business plans target intermediate goals required to reach the external goals. They may cover the development of a new product, a new service, a new IT system, a restructuring of finance, the refurbishing of a factory or a restructuring of the organization. An internally-focused business plan is often developed in conjunction with a balanced scorecard or a list of critical success factors. This allows the success of the plan to be measured using non-financial measures.
+Business plans that identify and target internal goals, but provide only general guidance on how they will be met are called strategic plans.
+Operational plans describe the goals of an internal organization, working group or department. Project plans, sometimes known as project frameworks, describe the goals of a particular project. They may also address the project's place within the organization's larger strategic goals.
+Content.
+Business plans are decision-making tools. The content and format of the business plan are determined by the goals and audience. For example, a business plan for a non-profit might discuss the fit between the business plan and the organization's mission. Banks are quite concerned about defaults, so a business plan for a bank loan will build a convincing case for the organization's ability to repay the loan. Venture capitalists are primarily concerned about initial investment, feasibility, and exit valuation. A business plan for a project requiring equity financing will need to explain why current resources, upcoming growth opportunities, and sustainable competitive advantage will lead to a high exit valuation.
+Preparing a business plan draws on a wide range of knowledge from many different business disciplines: finance, human resource management, intellectual property management, supply chain management, operations management, and marketing, among others. It can be helpful to view the business plan as a collection of sub-plans, one for each of the main business disciplines.
+"... a good business plan can help to make a good business credible, understandable, and attractive to someone who is unfamiliar with the business. Writing a good business plan can't guarantee success, but it can go a long way toward reducing the odds of failure."
+Presentation.
+The format of a business plan depends on its presentation context. It is common for businesses, especially start-ups, to have three or four formats for the same business plan.
+An "elevator pitch" is a short summary of the plan's executive summary. This is often used as a teaser to awaken the interest of potential investors, customers, or strategic partners. It is called an elevator pitch as it is supposed to be content that can be explained to someone else quickly in an elevator. The elevator pitch should be between 30 and 60 seconds.
+A pitch deck is a slide show and oral presentation that is meant to trigger discussion and interest potential investors in reading the written presentation. The content of the presentation is usually limited to the executive summary and a few key graphs showing financial trends and key decision-making benchmarks. If a new product is being proposed and time permits, a demonstration of the product may be included.
+A written presentation for external stakeholders is a detailed, well written, and pleasingly formatted plan targeted at external stakeholders.
+An internal operational plan is a detailed plan describing planning details that are needed by management but may not be of interest to external stakeholders. Such plans have a somewhat higher degree of candor and informality than the version targeted at external stakeholders and others.
+Business plans for start-ups.
+Typical structure for a business plan for a start-up venture 
+Typical questions addressed by a business plan for a start-up venture 
+Revising the business plan.
+Cost overruns and revenue shortfalls.
+Cost and revenue estimates are central to any business plan for deciding the viability of the planned venture. But costs are often underestimated and revenues overestimated resulting in later cost overruns, revenue shortfalls, and possibly non-viability. During the dot-com bubble 1997-2001 this was a problem for many technology start-ups. Reference class forecasting has been developed to reduce the risks of cost overruns and revenue shortfalls and thus generate more accurate business plans.
+Legal and liability issues.
+Disclosure requirements.
+An externally targeted business plan should list all legal concerns and financial liabilities that might negatively affect investors. Depending on the number of funds being raised and the audience to whom the plan is presented, failure to do this may have severe legal consequences.
+Limitations on content and audience.
+Non-disclosure agreements (NDAs) with third parties, non-compete agreements, conflicts of interest, privacy concerns, and the protection of one's trade secrets may severely limit the audience to which one might show the business plan. Alternatively, they may require each party to receive the business plan to sign a contract accepting special clauses and conditions.
+This situation is complicated by the fact that many venture capitalists will refuse to sign an NDA before looking at a business plan, lest it put them in the untenable position of looking at two independently developed look-alike business plans, both claiming originality. In such situations, one may need to develop two versions of the business plan: a stripped-down plan that can be used to develop a relationship and a detailed plan that is only shown when investors have sufficient interest and trust to sign a Non-disclosure agreement.
+Open business plans.
+Traditionally business plans have been highly confidential and quite limited in the audience.
+The business plan itself is generally regarded as a secret.
+An open business plan is a business plan with an unlimited audience. The business plan is typically
+web published and made available to all.
+In the free software and open source business model, trade secrets, copyright and patents can no longer
+be used as effective locking mechanisms to provide sustainable advantages to a particular business and therefore a secret business plan is less relevant in those models.
+Uses.
+Fundraising is the primary purpose of many business plans since they are related to the inherent probable success/failure of the company risk.
+Not for-profit businesses.
+The business goals may be defined both for non-profit or for-profit organizations. For-profit business plans typically focus on financial goals, such as profit or creation of wealth. Non-profit, as well as government agency business plans tend to focus on the "organizational mission" which is the basis for their governmental status or their non-profit, tax-exempt status, respectively—although non-profits may also focus on optimizing revenue.
+The primary difference between profit and non-profit organizations is that "for-profit" organizations look to maximize wealth versus non-profit organizations, which look to provide a greater good to society. In non-profit organizations, creative tensions may develop in the effort to balance mission with "margin" (or revenue).
+Satires.
+The business plan is the subject of many satires. Satires are used both to express cynicism about business plans and as an educational tool to improve the quality of business plans. For example,
+

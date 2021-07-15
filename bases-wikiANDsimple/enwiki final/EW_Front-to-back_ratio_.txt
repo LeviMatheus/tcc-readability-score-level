@@ -1,0 +1,6 @@
+
+In telecommunication, the term front-to-back ratio ("also known as front-to-rear ratio") can mean:
+The ratio compares the antenna gain in a specified direction, "i.e.", azimuth, usually that of maximum gain, to the gain in a direction 180° from the specified azimuth. A front-to-back ratio is usually expressed in dB. 
+In point-to-point microwave antennas, a "high performance" antenna usually has a higher front to back ratio than other antennas. For example, an unshrouded 38 GHz microwave dish may have a front to back ratio of 64 dB, while the same size reflector equipped with a shroud would have a front to back ratio of 70 dB. Other factors affecting the front to back ratio of a parabolic microwave antenna include the material of the dish and the precision with which the reflector itself was formed.
+In other electrical engineering the front to back ratio is a ratio of parameters used to characterize rectifiers or other devices, in which electric current, signal strength, resistance, or other parameters, in one direction is compared with that in the opposite direction.
+

@@ -1,0 +1,7 @@
+
+In telecommunication, antenna noise temperature is the temperature of a hypothetical resistor at the input of an ideal noise-free receiver that would generate the same output noise power per unit bandwidth as that at the antenna output at a specified frequency. In other words, antenna noise temperature is a parameter that describes how much noise an antenna produces in a given environment. This temperature is not the physical temperature of the antenna. Moreover, an antenna does not have an intrinsic "antenna temperature" associated with it; rather the temperature depends on its gain pattern and the thermal environment that it is placed in.
+Antenna noise temperature has contributions from several sources:
+Galactic noise is high below 1000 MHz. At around 150 MHz, it is approximately 1000 K. At 2500 MHz, it has leveled off to around 10 K.
+Earth has an accepted standard temperature of 288 K.
+The level of the sun's contribution depends on the solar flux. It is given by
+

@@ -1,0 +1,2 @@
+A statistical hypothesis test is a statistical method used to answer a question based on some data. The question is known as the "hypothesis".
+A statistical test calculates a statistic (a number) to summarize what the data say about the hypothesis. Its value is compared to a critical value which assumes the hypothesis is true. Values more extreme than the critical value are taken to be evidence that the hypothesis is false.

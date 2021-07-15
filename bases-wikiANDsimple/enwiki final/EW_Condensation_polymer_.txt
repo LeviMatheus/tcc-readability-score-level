@@ -1,0 +1,11 @@
+
+Condensation polymers are any kind of polymers formed through a condensation reaction—where molecules join together—"losing" small molecules as byproducts such as water or methanol. Condensation polymers are formed by polycondensation, when the polymer is formed by condensation reactions between species of all degrees of polymerization, or by condensative chain polymerization, when the polymer is formed by sequential addition (by condensation reaction) of monomers to an active site in a chain reaction. The main alternative forms of polymerization are chain polymerization and polyaddition, both of which give addition polymers.
+Condensation polymerization is a form of step-growth polymerization. Linear polymers are produced from bifunctional monomers, i.e. compounds with two reactive end groups. Common condensation polymers include polyamides, polyacetals, and proteins.
+Polyamides.
+One important class of condensation polymers are polyamides. They arise from the reaction of carboxylic acid and an amine. Examples include nylons and proteins. When prepared from amino-carboxylic acids, e.g. amino acids, the stoichiometry of the polymerization includes co-formation of water:
+When prepared from diamines and dicarboxylic acids, e.g. the production of nylon 66, the polymerization produces two molecules of water per repeat unit:
+Polyesters.
+One important class of condensation polymers are polyesters. They arise from the reaction of carboxylic acid and an alcohol. Examples include polyesters, e.g. polyethyleneterephthalate:
+Safety and environmental considerations.
+Condensation polymers tend to be more biodegradable than addition polymers. The peptide or ester bonds between monomers can be hydrolysed, especially in the presence of catalysts or bacterial enzymes.
+

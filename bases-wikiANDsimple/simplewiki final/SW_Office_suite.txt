@@ -1,0 +1,6 @@
+In computing, an office suite, sometimes called an office software suite or productivity suite is a software suite for use by workers. The parts of an office suite are usually come together, have a standard user interface and usually can interact with each other, sometimes in ways Operating system would not normally allow.
+Platform.
+There are three types of office suites, "offline" (e.g. Microsoft Office and Star Office), "hybrid" (e.g. Microsoft Office Live and Google Docs with Gears) and purely "online" (e.g. Thinkfree Office and Zoho Office Suite).
+Current suites.
+The most used office suite is Microsoft Office, which is available for Microsoft Windows and the Apple Macintosh. It has become a proprietary standard in office Software.
+Another office suite is any of the OpenDocument suites, which use the free OpenDocument file format. The most used one is OpenOffice.org, open-source software that can be used in Windows, Linux, Macintosh, and has caused several other office suites similar to it, such as the Mac-native NeoOffice. Other free or less expensive office suites include StarOffice, KOffice and Celframe Office. These programs support many of the features of Microsoft Office, and can open the files it creates and save new documents in those formats.

@@ -1,0 +1,4 @@
+
+In mathematical logic, a first-order predicate is a predicate that takes only individual(s) constants or variables as argument(s). Compare second-order predicate and higher-order predicate.
+This is not to be confused with a one-place predicate or monad, which is a predicate that takes only one argument. For example the expression "is a planet" is a one-place predicate, while the expression "is father of" is a two-place predicate.
+

@@ -1,0 +1,56 @@
+
+The Möbius function is an important multiplicative function in number theory introduced by the German mathematician August Ferdinand Möbius (also transliterated "Moebius") in 1832. It is ubiquitous in elementary and analytic number theory and most often appears as part of its namesake the Möbius inversion formula. Following work of Gian-Carlo Rota in the 1960s, generalizations of the Möbius function were introduced into combinatorics, and are similarly denoted .
+Definition.
+For any positive integer , define as the sum of the primitive th roots of unity. It has values in depending on the factorization of into prime factors:
+The Möbius function can alternatively be represented as
+where formula_2 is the Kronecker delta, is the Liouville function, is the number of distinct prime divisors of , and is the number of prime factors of , counted with multiplicity.
+The values of for the first 30 positive numbers are
+The first 50 values of the function are plotted below:
+Applications.
+Mathematical series.
+The Dirichlet series that generates the Möbius function is the (multiplicative) inverse of the Riemann zeta function; if is a complex number with real part larger than 1 we have
+This may be seen from its Euler product
+Also:
+The Lambert series for the Möbius function is:
+which converges for . For prime formula_7, we also have
+Algebraic number theory.
+Gauss proved that for a prime number the sum of its primitive roots is congruent to .
+If denotes the finite field of order (where is necessarily a prime power), then the number of monic irreducible polynomials of degree over is given by:
+Properties.
+The Möbius function is multiplicative whenever and are coprime.
+The sum of the Möbius function over all positive divisors of (including itself and 1) is zero except when :
+The equality above leads to the important Möbius inversion formula and is the main reason why is of relevance in the theory of multiplicative and arithmetic functions.
+Other applications of in combinatorics are connected with the use of the Pólya enumeration theorem in combinatorial groups and combinatorial enumerations.
+There is a formula for calculating the Möbius function without directly knowing the factorization of its argument:
+i.e. is the sum of the primitive -th roots of unity. (However, the computational complexity of this definition is at least the same as that of the Euler product definition.)
+Proof of the formula for.
+Using
+the formula
+can be seen as a consequence of the fact that the th roots of unity sum to 0, since each th root of unity is a primitive th root of unity for exactly one divisor of .
+However it is also possible to prove this identity from first principles. First note that it is trivially true when . Suppose then that . Then there is a bijection between the factors of for which and the subsets of the set of all prime factors of . The asserted result follows from the fact that every non-empty finite set has an equal number of odd- and even-cardinality subsets.
+This last fact can be shown easily by induction on the cardinality of a non-empty finite set . First, if , there is exactly one odd-cardinality subset of , namely itself, and exactly one even-cardinality subset, namely . Next, if , then divide the subsets of into two subclasses depending on whether they contain or not some fixed element in . There is an obvious bijection between these two subclasses, pairing those subsets that have the same complement relative to the subset . Also, one of these two subclasses consists of all the subsets of the set , and therefore, by the induction hypothesis, has an equal number of odd- and even-cardinality subsets. These subsets in turn correspond bijectively to the even- and odd-cardinality -containing subsets of . The inductive step follows directly from these two bijections.
+A related result is that the binomial coefficients exhibit alternating entries of odd and even power which sum symmetrically.
+Mertens function.
+In number theory another arithmetic function closely related to the Möbius function is the Mertens function, defined by
+for every natural number . This function is closely linked with the positions of zeroes of the Riemann zeta function. See the article on the Mertens conjecture for more information about the connection between and the Riemann hypothesis.
+From the formula
+it follows that the Mertens function is given by:
+where is the Farey sequence of order .
+This formula is used in the proof of the Franel–Landau theorem.
+Average order.
+The mean value (in the sense of average orders) of the Möbius function is zero. This statement is, in fact, equivalent to the prime number theorem.
+sections.
+ if and only if is divisible by the square of a prime. The first numbers with this property are :
+If is prime, then , but the converse is not true. The first non prime for which is . The first such numbers with three distinct prime factors (sphenic numbers) are:
+and the first such numbers with 5 distinct prime factors are:
+Generalizations.
+Incidence algebras.
+In combinatorics, every locally finite partially ordered set (poset) is assigned an incidence algebra. One distinguished member of this algebra is that poset's "Möbius function". The classical Möbius function treated in this article is essentially equal to the Möbius function of the set of all positive integers partially ordered by divisibility. See the article on incidence algebras for the precise definition and several examples of these general Möbius functions.
+Popovici's function.
+Constantin Popovici defined a generalised Möbius function to be the -fold Dirichlet convolution of the Möbius function with itself. It is thus again a multiplicative function with
+where the binomial coefficient is taken to be zero if . The definition may be extended to complex by reading the binomial as a polynomial in .
+Physics.
+The Möbius function also arises in the primon gas or free Riemann gas model of supersymmetry. In this theory, the fundamental particles or "primons" have energies . Under second quantization, multiparticle excitations are considered; these are given by for any natural number . This follows from the fact that the factorization of the natural numbers into primes is unique.
+In the free Riemann gas, any natural number can occur, if the primons are taken as bosons. If they are taken as fermions, then the Pauli exclusion principle excludes squares. The operator that distinguishes fermions and bosons is then none other than the Möbius function .
+The free Riemann gas has a number of other interesting connections to number theory, including the fact that the partition function is the Riemann zeta function. This idea underlies Alain Connes's attempted proof of the Riemann hypothesis.
+

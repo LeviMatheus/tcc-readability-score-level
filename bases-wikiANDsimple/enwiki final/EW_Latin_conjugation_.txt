@@ -1,0 +1,148 @@
+
+Conjugation has two meanings. One meaning is the creation of derived forms of a verb from basic forms, or principal parts. It may be affected by person, number, gender, tense, mood, aspect, voice, or other language-specific factors. 
+The second meaning of the word conjugation is a group of verbs which all have the same pattern of inflections. Thus all those Latin verbs which have 1st singular -ō, 2nd singular -ās, and infinitive -āre are said to belong to the 1st conjugation, those with 1st singular -eō, 2nd singular -ēs and infinitive -ēre belong to the 2nd conjugation, and so on. The number of conjugations of regular verbs is usually said to be four.
+The word "conjugation" comes from the Latin , a calque of the Greek syzygia, literally "yoking together (horses into a team)".
+For simple verb paradigms, see the Wiktionary appendix pages for first conjugation, second conjugation, third conjugation, and fourth conjugation.
+Number of conjugations.
+The ancient Romans themselves, beginning with Varro (1st century BC), originally divided their verbs into three conjugations ( "there are three different conjugations for verbs: the first, second, and third" (Donatus), 4th century AD), according to whether the ending of the 2nd person singular had an "a", an "e" or an "i" in it. However, others, such as Sacerdos (3rd century AD), Dositheus (4th century AD) and Priscian (c. 500 AD), recognised four different groups.
+Modern grammarians generally recognise four conjugations, according to whether their active present infinitive has the ending -āre, -ēre, -ere, or -īre (or the corresponding passive forms), for example: (1) "to love", (2) "to see", (3) "to rule" and (4) "to hear". There are also some verbs of mixed conjugation, having some endings like the 3rd and others like the 4th conjugation, for example, "to capture".
+In addition to regular verbs, which belong to one or other of the four conjugations, there are also a few irregular verbs, which have a different pattern of endings. The most important of these is the verb "to be". There also exist deponent and semi-deponent Latin verbs (verbs with a passive form but active meaning), as well as defective verbs (verbs in which some of the tenses are missing).
+Principal parts.
+A verb's full paradigm relies on multiple stems. The present indicative active and the present infinitive are both based on the present stem. 
+It is not possible to infer the stems for other tenses from the present stem. This means that, although the infinitive active form normally shows the verb conjugation, knowledge of several different forms is necessary to be able to confidently produce the full range of forms for any particular verb.
+In a dictionary, Latin verbs are listed with four "principal parts" (or fewer for deponent and defective verbs), which allow the student to deduce the other conjugated forms of the verbs. These are:
+Regular conjugations.
+First conjugation.
+The first conjugation is characterized by the vowel "ā" and can be recognized by the "-āre" ending of the present active infinitive form. The non-perfect tenses conjugate as follows:
+In early Latin (Plautus), the 3rd singular endings "-at" and "-et" were pronounced "-āt" and "-ēt" with a long vowel.
+Other forms:
+The principal parts usually adhere to one of the following patterns:
+The verb ' "I give" is irregular in that except in the 2nd singular ' and imperative ', the "a" is short, e.g. ' "I will give".
+The "a" is also short in the supine ' and its derivatives, but the other parts of ' "I stand" are regular.
+Deponent verbs in this conjugation all follow the pattern below, which is the passive of the first type above:
+Perfect tenses.
+The three perfect tenses of the 1st conjugation go as in the following table:
+In poetry (and also sometimes in prose, e.g. Livy), the 3rd person plural of the perfect indicative is often ' instead of '. Occasionally the form is also found.
+In early Latin, the future perfect indicative had a short "i" in , but by the time of Cicero these forms were usually pronounced with a long "i", in the same way as in the perfect subjunctive. Virgil has a short "i" for both tenses; Horace uses both forms for both tenses; Ovid uses both forms for the future perfect, but a long "i" in the perfect subjunctive.
+The "-v-" of the perfect active tenses sometimes drops out, especially in the pluperfect subjunctive: ' for '. Forms such as ' and ' are also found.
+The passive tenses also have feminine and neuter forms, e.g. ' "she was loved", ' "it was announced".
+Forms made with instead of and instead of are also found. See Latin tenses.
+For other meanings of the perfect and pluperfect subjunctive, see Latin tenses#Perfect subjunctive.
+Other forms:
+Second conjugation.
+The second conjugation is characterized by the vowel ē, and can be recognized by the -eō ending of the first person present indicative and the -ēre ending of the present active infinitive form: 
+The passive also often means "I seem".
+Other forms:
+The principal parts usually adhere to one of the following patterns:
+In verbs with perfect in "-vī", syncopated (i.e. abbreviated) forms are common, such as for .
+Deponent verbs in this conjugation are few. They mostly go like the passive of , but and have a perfect participle with "ss":
+The following are semi-deponent, that is, they are deponent only in the three perfect tenses:
+Third conjugation.
+The third conjugation has a variable short stem vowel, which may be e, i,or u in different environments. Verbs of this conjugation end in –ere in the present active infinitive.
+The future tense in the 3rd and 4th conjugation ("-am, -ēs, -et" etc.) differs from that in the 1st and 2nd conjugation ("-bō, -bis, -bit" etc.). 
+Other forms:
+Four 3rd conjugation verbs have no ending in the imperative singular: ' "lead!", ' "say!", ' "bring!", ' "do!". Others, like "run!", have the ending "-e".
+There is no regular rule for constructing the perfect stem of third-conjugation verbs, but the following patterns are used:
+Although "to give" is 1st conjugation, its compounds are 3rd conjugation and have internal reduplication:
+Likewise the compounds of have internal reduplication. Although is transitive, its compounds are intransitive:
+Deponent verbs in the 3rd conjugation include the following:
+There are also a number of 3rd conjugation deponents with the ending "-scor":
+Deponent in some tenses only is the following:
+The following is deponent only in the non-perfect tenses:
+Third conjugation -iō verbs.
+Intermediate between the third and fourth conjugation are the third-conjugation verbs with suffix –iō. These resemble the fourth conjugation in some forms. 
+Other forms:
+Some examples are:
+Deponent verbs in this group include:
+Fourth conjugation.
+The fourth conjugation is characterized by the vowel ī and can be recognized by the –īre ending of the present active infinitive:
+Other forms:
+Principal parts of verbs in the fourth conjugation generally adhere to the following patterns:
+Deponent verbs in the 4th conjugation include the following:
+The verb "to arise" is also regarded as 4th conjugation, although some parts, such as the 3rd singular present tense and imperfect subjunctive , have a short vowel like the 3rd conjugation. But its compound "to rise up, attack" is entirely 4th conjugation.
+In the perfect tenses, shortened forms without "-v-" are common, for example, for . Cicero, however, prefers the full forms to .
+Irregular verbs.
+"Sum" and "possum".
+The verb "to be" is the most common verb in Latin. It is conjugated as follows:
+In early Latin (e.g. Plautus), ' can be found for the present subjunctive '. In poetry the subjunctive also sometimes occurs.
+An alternative imperfect subjunctive is sometimes made using etc. See further: Latin tenses#Forem.
+Other forms:
+The present participle is found only in the compounds ' "absent" and ' "present".
+In Plautus and Lucretius, an infinitive ' is sometimes found for ' "to be able".
+The principal parts of these verbs are as follows:
+The perfect tenses conjugate in the regular way.
+For the difference in meaning between and , see Latin tenses#Eram and fuī
+"Volō", "nōlō", and "mālō".
+The verb and its derivatives and (short for ) resemble a 3rd conjugation verb, but the present subjunctive ending in "-im" is different:
+The spellings ' and ' were used up until the time of Cicero for ' and '.
+These verbs are not used in the passive.
+Other forms: 
+Principal parts:
+The perfect tenses are formed regularly.
+"Eō" and compounds.
+The verb "I go" is an irregular 4th conjugation verb, in which the "i" of the stem sometimes becomes "e". Like 1st and 2nd conjugation verbs, it uses the future "-bō, -bis, -bit":
+Other forms:
+The impersonal passive forms ' "they go", ' "they went" are sometimes found.
+The principal parts of some verbs which conjugate like are the following:
+In the perfect tenses of these verbs, the "-v-" is almost always omitted, especially in the compounds, although the form is common in the Vulgate Bible translation.
+"Ferō" and compounds.
+The verb "to bring, to bear, to carry" is 3rd conjugation, but irregular in that the vowel following the root "fer-" is sometimes omitted. The perfect tense and supine stem are also irregularly formed.
+The future tense in the 3rd and 4th conjugation ("-am, -ēs, -et" etc.) differs from that in the 1st and 2nd conjugation ("-bō, -bis, -bit" etc.). 
+Other forms:
+Compounds of include the following:
+The principal parts of some verbs which conjugate like are the following:
+The perfect tense , however, belongs to the verb :
+"Fīō".
+The irregular verb "to become, to happen, to be done, to be made" as well as being a verb in its own right serves as the passive of "to do, to make". The perfect tenses are identical with the perfect passive tenses of .
+The 1st and 2nd plural forms are almost never found.
+Other forms:
+"Edō".
+The verb "to eat" has regular 3rd conjugation forms appearing alongside irregular ones:
+Other forms:
+The passive form "it is eaten" is also found.
+In early Latin a present subjunctive etc. is found.
+In writing, there is a possibility of confusion between the forms of this verb and those of "I am" and "I give out, put forth"; for example, "to eat" vs. "to be"; "he eats" vs. "he gives out".
+The compound verb "to eat up, consume" is similar.
+Non-finite forms.
+The non-finite forms of verbs are participles, infinitives, supines, gerunds and gerundives. The verbs used are:
+Participles.
+There are four participles: present active, perfect passive, future passive, and future active.
+Infinitives.
+There are seven main infinitives. They are in the present active, present passive, perfect active, perfect passive, future active, future passive, and potential active. Further infinitives can be made using the gerundive.
+The future passive infinitive was not very commonly used. The Romans themselves often used an alternate expression, followed by a subjunctive clause.
+Supine.
+The supine is the fourth principal part of the verb, as given in Latin dictionaries. It resembles a masculine noun of the fourth declension. Supines only occur in the accusative and ablative cases.
+Gerund.
+The gerund is formed similarly to the present active participle. However, the "-ns" becomes an "-ndus", and the preceding "ā" or "ē" is shortened. Gerunds are neuter nouns of the second declension, but the nominative case is not present. The gerund is a noun, meaning "the act of doing (the verb)", and forms a suppletive paradigm to the infinitive, which cannot be declined. For example, the genitive form can mean "of praising", the dative form can mean "for praising", the accusative form can mean "praising", and the ablative form can mean "by praising", "in respect to praising", etc.
+One common use of the gerund is with the preposition to indicate purpose. For example, could be translated as "ready to attack". However the gerund was avoided when an object was introduced, and a passive construction with the gerundive was preferred. For example, for "ready to attack the enemy" the construction is preferred over .
+Gerundive.
+The gerundive has a form similar to that of the gerund, but it is a first and second declension adjective, and functions as a future passive participle (see above). It means "(which is) to be ...ed". Often, the gerundive is used with part of the verb , to show obligation.
+An older form of the 3rd and 4th conjugation gerundive ends in "-undum", e.g. ( for ). This ending is also found with the gerundive of 'I go': 'it is necessary to go'.
+For some examples of uses of Latin gerundives, see the Gerundive article.
+Periphrastic conjugations.
+There are two periphrastic conjugations. One is active, and the other is passive.
+Active.
+The first periphrastic conjugation uses the future participle. It is combined with the forms of . It is translated as "I am going to praise," "I was going to praise", etc.
+Passive.
+The second periphrastic conjugation uses the gerundive. It is combined with the forms of and expresses necessity. It is translated as "I am needing to be praised", "I was needing to be praised", etc., or as "I have to (must) be praised", "I had to be praised," etc.
+Peculiarities.
+Deponent and semi-deponent verbs.
+Deponent verbs are verbs that are passive in form (that is, conjugated as though in the passive voice) but active in meaning. These verbs have only three principal parts, since the perfect of ordinary passives is formed periphrastically with the perfect participle, which is formed on the same stem as the supine. Some examples coming from all conjugations are:
+Deponent verbs use active conjugations for tenses that do not exist in the passive: the gerund, the supine, the present and future participles and the future infinitive. They cannot be used in the passive themselves (except the gerundive), and their analogues with "active" form do not in fact exist: one cannot directly translate "The word is said" with any form of , and there are no forms like "loquō", "loquis", "loquit", etc.
+Semi-deponent verbs form their imperfective aspect tenses in the manner of ordinary active verbs; but their perfect tenses are built periphrastically like deponents and ordinary passives; thus, semi-deponent verbs have a perfect active participle instead of a perfect passive participle. An example:
+Unlike the proper passive of active verbs, which is always intransitive, some deponent verbs are transitive, which means that they can take an object. For example:
+Note: In the Romance languages, which lack deponent or passive verb forms, the Classical Latin deponent verbs either disappeared (being replaced with non-deponent verbs of a similar meaning) or changed to a non-deponent form. For example, in Spanish and Italian, changed to "mirar(e)" by changing all the verb forms to the previously nonexistent "active form", and changed to "osar(e)" by taking the participle and making an "-ar(e)" verb out of it (note that "au" went to "o").
+Defective verbs.
+Defective verbs are verbs that are conjugated in only some instances.
+The following are conjugated irregularly:
+"For".
+The Romance languages lost many of these verbs, but others (such as ) survived but became regular fully conjugated verbs (in Italian, ).
+Impersonal verbs.
+Impersonal verbs are those lacking a person. In English impersonal verbs are usually used with the neuter pronoun "it" (as in "It seems," or "it is raining"). Latin uses the third person singular. These verbs lack a fourth principal part. A few examples are:
+Irregular future active participles.
+The future active participle is normally formed by removing the "–um" from the supine, and adding a "–ūrus." However, some deviations occur.
+Alternative verb forms.
+Several verb forms may occur in alternative forms (in some authors these forms are fairly common, if not more common than the canonical ones):
+Syncopated verb forms.
+Like in most Romance languages, syncopated forms and contractions are present in Latin. They may occur in the following instances:
+

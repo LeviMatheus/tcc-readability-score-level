@@ -1,0 +1,12 @@
+The International Nuclear Event Scale (INES) is a system introduced by the International Atomic Energy Agency (IAEA). It was introduced to allow people to communicate how serious a nuclear accident is. Other people are then able to react faster to take protection measures. For each level, there is a list of criteria (things) that must be there, for the accident to be of that level.
+Details.
+Level 7 is the highest level. Accidents of this type have a large impact (pollution, radiation) outside the site where they occur. The health of many people is put in danger. There are big effects on the environment. Example: Chernobyl accident (former Soviet Union) - 1986.
+Level 6: Accidents of this type have a large impact (pollution, radiation) outside the site where they occur. Several governments may need to take the full set of countermeasures to protect their population. Example: Mayak (former Soviet Union)- 1957.
+Level 5: Accidents of this type do release some radiation. Some groups of people which are at risk may need special countermeasures. Examples: Windscale fire (United Kingdom) - 1957, Three Mile Island accident (United States) - 1979.
+"The Levels 5-7 are related to severe damage of the reactor core and the radiological barriers."
+Level 4 is related to significant damage of the reactor core / radiological barriers and/or a fatal exposure of a worker (or more), but the off-site impact is minor, resulting in public exposure of the order of the prescribed limits. Examples: Windscale (United Kingdom) - 1973, Saint-Laurent (France) - 1980, Buenos Aires (Argentina) - 1983.
+Level 3 is characterized by very small off-site impact, although related to severe spread of contamination on-site / acute health effects to a worker (or more). It is a "near accident" event, when no safety layers are remaining. Example: Vandellos (Spain) - 1989, THORP plant Sellafield (United Kingdom) - 2005.
+Level 2 is an incident with no off-site impact, related to significant spread of contamination on-site / overexposure of a worker.
+Level 1 is an anomaly beyond the authorized operating regime.
+Level 0 is a "below-scale event" of no safety significance.
+There are also events of no safety relevance, characterized as "out of scale".

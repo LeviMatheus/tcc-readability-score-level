@@ -1,0 +1,40 @@
+
+In number theory, a multiplicative function is an arithmetic function "f"("n") of a positive integer "n" with the property that "f"(1) = 1 and whenever
+"a" and "b" are coprime, then
+An arithmetic function "f"("n") is said to be completely multiplicative (or totally multiplicative) if "f"(1) = 1 and "f"("ab") = "f"("a")"f"("b") holds "for all" positive integers "a" and "b", even when they are not coprime.
+Examples.
+Some multiplicative functions are defined to make formulas easier to write:
+Other examples of multiplicative functions include many functions of importance in number theory, such as:
+An example of a non-multiplicative function is the arithmetic function "r""2"("n") - the number of representations of "n" as a sum of squares of two integers, positive, negative, or zero, where in counting the number of ways, reversal of order is allowed. For example:
+and therefore "r"2(1) = 4 ≠ 1. This shows that the function is not multiplicative. However, "r"2("n")/4 is multiplicative.
+In the On-Line Encyclopedia of Integer Sequences, sequences of values of a multiplicative function have the keyword "mult".
+See arithmetic function for some other examples of non-multiplicative functions.
+Properties.
+A multiplicative function is completely determined by its values at the powers of prime numbers, a consequence of the fundamental theorem of arithmetic. Thus, if "n" is a product of powers of distinct primes, say "n" = "p""a" "q""b" ..., then 
+"f"("n") = "f"("p""a") "f"("q""b") ...
+This property of multiplicative functions significantly reduces the need for computation, as in the following examples for "n" = 144 = 24 · 32:
+Similarly, we have:
+In general, if "f"("n") is a multiplicative function and "a", "b" are any two positive integers, then
+Every completely multiplicative function is a homomorphism of monoids and is completely determined by its restriction to the prime numbers.
+Convolution.
+If "f" and "g" are two multiplicative functions, one defines a new multiplicative function "f" * "g", the "Dirichlet convolution" of "f" and "g", by
+where the sum extends over all positive divisors "d" of "n". 
+With this operation, the set of all multiplicative functions turns into an abelian group; the identity element is "ε". Convolution is commutative, associative, and distributive over addition.
+Relations among the multiplicative functions discussed above include:
+The Dirichlet convolution can be defined for general arithmetic functions, and yields a ring structure, the Dirichlet ring. 
+The Dirichlet convolution of two multiplicative functions is again multiplicative. A proof of this fact is given by the following expansion for relatively prime formula_11: 
+Dirichlet series for some multiplicative functions.
+More examples are shown in the article on Dirichlet series.
+Multiplicative function over.
+Let "A" = , the polynomial ring over the finite field with "q" elements. "A" is a principal ideal domain and therefore "A" is a unique factorization domain.
+A complex-valued function formula_17 on "A" is called multiplicative if formula_18 whenever "f" and "g" are relatively prime.
+Zeta function and Dirichlet series in.
+Let "h" be a polynomial arithmetic function (i.e. a function on set of monic polynomials over "A"). Its corresponding Dirichlet series is defined to be
+where for formula_20 set formula_21 if formula_22 and formula_23 otherwise.
+The polynomial zeta function is then
+Similar to the situation in , every Dirichlet series of a multiplicative function "h" has a product representation (Euler product):
+where the product runs over all monic irreducible polynomials "P". For example, the product representation of the zeta function is as for the integers:
+Unlike the classical zeta function, formula_27 is a simple rational function:
+In a similar way, If "f" and "g" are two polynomial arithmetic functions, one defines "f" * "g", the "Dirichlet convolution" of "f" and "g", by
+where the sum is over all monic divisors "d" of "m", or equivalently over all pairs ("a", "b") of monic polynomials whose product is "m". The identity formula_30 still holds.
+

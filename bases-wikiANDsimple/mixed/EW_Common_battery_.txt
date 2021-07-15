@@ -1,0 +1,4 @@
+
+In telecommunication, a common battery is a single electrical power source used to energize more than one circuit, electronic component, equipment, or system. 
+A common battery is usually a string of electrolytic cells and is usually centrally located to the equipment that it serves. In many telecommunications applications, the common battery is at a nominal −48 VDC. A central office common battery in the battery room supplies power to operate all directly connected instruments. "Common battery" may include one or more power conversion devices to transform commercial power to direct current, with a rechargeable battery floating across the output. Common battery operation largely replaced local batteries in each telephone in the early 20th century. It consists of two ends that emit opposing positive and negative charges
+

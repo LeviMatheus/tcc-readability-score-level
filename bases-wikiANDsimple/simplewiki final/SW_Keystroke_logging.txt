@@ -1,0 +1,2 @@
+A keylogger is a piece of spyware which records the infected computers keystrokes.
+Mainly used to obtain passwords and credit card details.

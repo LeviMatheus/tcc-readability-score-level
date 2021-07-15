@@ -1,0 +1,51 @@
+
+The Jupiter Ace by Jupiter Cantab was a British home computer of the early 1980s. The Ace differed from other microcomputers of the time in that its programming environment used Forth instead of the more popular BASIC.
+After Jupiter Cantab ceased trading, the brand was acquired by Boldfield Computing Ltd in 1984, before eventually being sold to Paul Andrews's company Andrews UK Limited in 2015.
+History.
+Jupiter Cantab was formed by Richard Altwasser and Steven Vickers. 
+Both had been on the design team for the Sinclair ZX Spectrum: Altwasser did some work on the development of the ZX-81 and in the design of the hardware of the Spectrum. Vickers adapted and expanded the 4K ZX-80 ROM to the 8K ZX-81 ROM and wrote most of the ROM for the Spectrum.
+The Jupiter Ace was named after an early British computer, the ACE.
+Sales to the general public were slow. Initially the computer was only available by mail order, and Jupiter Cantab reported that there were production difficulties, but these had been overcome by January 1983 and that units were arriving in shops. The use of Forth rather than the more usual choice of BASIC, and the availability and success of the ZX Spectrum, as well as limited published software, the poor case and small initial memory all weighed against wider market acceptance.
+Sales.
+Sales of the machine were never very large; the reported number of Ace's sold before Jupiter Cantab closed for business was around 5,000. As of the early 2000s, surviving machines are uncommon, often fetching high prices as collector's items.
+Forth, while being structured and powerful, was considered difficult to learn, and a knowledge of BASIC acquired from familiarity with other home computers was of no practical help in learning it. A 1982 review stated that "The success of the Jupiter Ace will depend on the machine-buying public's acceptance of another microcomputer language."
+Further, there was only a very limited range of published software - either commercial programs or type-in programs printed in hobby magazines - for the machine, and these were restricted by the base model's small amount of RAM.
+Attempts to promote the Ace in the educational market also failed; doubts over whether Forth would be relevant for exam syllabuses, and the lack of support for Forth from teaching staff were key issues. Pupils were more interested in learning the widely used BASIC than a language used by only one (uncommon) machine with a peculiar RPN syntax.
+Finally, the tile-based graphics compared poorly to the pixel-based graphics of other machines - which were also colour rather than the Ace's monochrome. This restricted sales largely to a niche market of technical programming enthusiasts.
+Design.
+The Jupiter ACE is often compared with ZX81 due to its similar size, low cost, and similar form factor. Internally its design is more similar to the ZX Spectrum although the ACE also had a dedicated video memory of 2 KB, partly avoiding the slow down when programs accessed the same bank (same chips) as the video memory. Like the Spectrum, the Ace used black conductive rubber keys.
+Audio capabilities were CPU-controlled with programmable frequency and duration. Sound output was through a small built-in speaker.
+As was common at the time, it used a common tape recorder instead of disk/tape drives. Similarly, a television was needed as a display - but this was in black and white only, rather than the colour supported by competing models such as the Spectrum.
+The Jupiter Ace was based on the Zilog Z80, which the designers had previous experience of from working on the Sinclair ZX81 and ZX Spectrum.
+Both graphics and text could be displayed at the same time: (1) redefinition of the character tiles provided standard 256×192 graphics limited to the 128 available (definable) 8×8 chars, concurrent with plotting of 64×48 graphics.
+Internal speaker directly controlled by the CPU in single task mode, with control of sound frequency and duration in ms.
+Storage was through a cassette tape interface at 1500 baud. Files could be used for either storage of forth programs (compiled code) or raw dumps of memory.
+Memory.
+The ACE had an 8 KB ROM containing the Forth kernel and operating system, and the predefined dictionary of Forth words in about 5 KB. The remaining 3 KB of ROM supported several functionalities: floating point numbers library and character definitions table, tape recorder access, decompiling and redefining newly re-edited 'words' (i.e. routines). Some of the ROM was written in Z80 machine code, but some was also coded in Forth.
+The next 8 KB were split in 2 blocks of 4 KB each. The video subsystem consumed 2 KB RAM and allowed the user to choose two different priorities, "Regular" or "Overriding" CPU contention. In the latter case TV Image timings were overridden, allowing more processor time for user programs at the expense of the display, which went blank.
+The 1 KB of user RAM was only partially decoded, so it echoed in the full 4 KB block address space it resides. That is to say, the user program/data appeared to exist in four different memory locations.
+The first 16 KB of the memory map was used for ROM, Video and User-available RAM, leaving the second 16KB of the memory map free for RAM extension and the topmost 32 KB undefined.
+One 1K bank allowed redefinition of most of its 128 ASCII-based characters in 8×8 pixel bitmap format. The other 1K bank stored the full screen display of 24 rows × 32 columns of characters in black and white. Colour was intended to be achieved as expansion, but although a colour-graphics board was designed, none was ever produced commercially.
+1 KB RAM with the option of a 16 KB RAM-Pack, and later a 32k-one. A PCB was also marketed by Boldfield Computing that converted the edge connector to electrical compatibility with a Sinclair ZX81, allowing use of the ZX81 16K RAM pack.
+Specifications.
+References to the ACE RAM sometimes include the separate 2 KB video memory, which was not available for programming, thus leading to some confusion. Similarly, it is sometimes argued that because of Forth's efficiency, the 1 KB standard RAM was in effect comparable to at least 2 KB on a BASIC system.
+Programming.
+Its most distinctive characteristic was the choice of Forth, a structured language allowing programs to be written that would run almost as fast as the compiled languages loaded by more expensive computers. Forth was considered well adapted to microcomputers with their small memory and relatively low-performance processors. Forth programs are memory-efficient; as they become bigger, they reuse more previously-defined code. Control structures could be nested to any level, limited only by available memory. This allowed complex programs to be implemented, even allowing recursive programming. The ACE's Forth was "ten times faster than Basic" and used less than half the memory (a significant cost percentage of low end computers of the time) of an equivalent program written in interpreted BASIC. It also allowed easy implementation of machine code routines if needed.
+ACE's Forth was based mostly on Forth-79, with some relevant differences, in particular it added syntax checking to control structures and definer constructions and a few extra words were added based on common BASIC sound, video and tape commands. The implementation lacked some less frequently used Forth words, these being easily implemented if needed. Runtime error checking could be turned off to raise speed by 25% to 50%.
+Decompiling.
+Its Forth was adapted to the disk-less tape-using home computer hardware by being able to save/load user "compiled vocabularies", instead of the usual numbered programming blocks used by diskette systems.
+Decompiling avoided wasting RAM in simulating an absent Block System, used with both disk and tape drivers (these last not to be confused with tape recorders). As replacement, it included an extra data file, for raw binary data. These solutions were unique to the Jupiter ACE.
+Define vs Compile.
+To allow decompile, it distinguished usual Forth definer and compiler words creation, replacing the CREATE .. DOES&gt;, creation pair with:
+These 2 defining pairs, instead of one alone, allowed the ACE to decompile its programs, unlike usual Forth systems. This decompiling ability was a solution to the absence of the more flexible disk system used by Forth. Not storing the source of a Forth program, but compiling the code after editing, it avoided completely the emulation of a disk/tape drive on RAM saving computer memory. It also saved time in reading and writing programs from cassette tape. This tape-friendly and RAM-saving solution was unique to the Jupiter ACE Forth.
+Development.
+Avoiding sources was compensated by storing comments entered in the code with the compiled output, traditional compilation would discard such comments. The comments were then recovered on decompiling. As a result of "code is the source", modified words (edited) would demand actualization of all code using the one newly edited. This was done with the non standard REDEFINE command.
+Although not explicitly designed for such a purpose, the compiled forth could be utilised for ROM extensions to the built in system. External ROMs were developed with Ace Forth to be used as control applications.
+Add-ons.
+The machine was able to use some ZX-81 add-ons due to similar RAM locations, and external expansion slot. Jupiter Cantab made a 16 KB RAM pack, and external companies made similar RAM packs as well as other peripherals and interfaces.
+Models.
+1982 - Original Jupiter ACE in a vacuum-drawn case - Reported 5000 units built.
+1983 - Jupiter ACE 4000 on stronger injection moulded case - Reported 800 units built.
+See also.
+Other Forth-based microcomputers:
+

@@ -1,0 +1,13 @@
+
+Andrew "Tridge" Tridgell (born 28 February 1967) is an Australian computer programmer. He is the author of and a contributor to the Samba file server, and co-inventor of the rsync algorithm.
+He has analysed complex proprietary protocols and algorithms, to allow compatible free and open source software implementations.
+Projects.
+Tridgell was a major developer of the Samba software, analyzing the Server Message Block protocol used for workgroup and network file sharing by Microsoft Windows products. He developed the hierarchical memory allocator, originally as part of Samba.
+For his PhD dissertation, he co-developed rsync, including the rsync algorithm, a highly efficient file transfer and synchronisation tool. He was also the original author of rzip, which uses a similar algorithm to rsync. He developed spamsum, based on locality-sensitive hashing algorithms.
+He is the author of KnightCap, a reinforcement-learning based chess engine.
+Tridgell was also a leader in hacking the TiVo to make it work in Australia, which uses the PAL video format.
+In April 2005, Tridgell tried to produce free software (now known as SourcePuller) that interoperated with the BitKeeper source code repository. This was cited as the reason that BitMover revoked a license allowing Linux developers free use of their BitKeeper product. Linus Torvalds, the creator of the Linux kernel, and Tridgell were thus involved in a public debate about the events, in which Tridgell stated that, not having bought or owned BitKeeper – and thus having never agreed to its license – he could not violate it, and was analyzing the protocol ethically, as he had done with Samba. Tridgell's involvement in the project resulted in Torvalds accusing him of playing dirty tricks with BitKeeper. Tridgell claimed his analysis started with simply telneting to a BitKeeper server and typing codice_1.
+In 2011 Tridgell got involved with the software development of ArduPilot Mega, an open source Arduino-based UAV controller board, working on an entry for the UAV Challenge Outback Rescue.
+Academic achievements.
+Tridgell completed a PhD at the Computer Sciences Laboratory of the Australian National University. His original doctorate work was in the area of speech recognition but was never completed. His submitted dissertation 'Efficient Algorithms for Sorting and Synchronization' was based on his work on the rsync algorithm.
+

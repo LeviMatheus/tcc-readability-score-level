@@ -1,0 +1,101 @@
+
+In mathematics, an -sphere is a topological space that is homeomorphic to a "standard" -"sphere", which is the set of points in -dimensional Euclidean space that are situated at a constant distance from a fixed point, called the "center". It is the generalization of an ordinary sphere in the ordinary three-dimensional space. The "radius" of a sphere is the constant distance of its points to the center. When the sphere has unit radius, it is usual to call it the unit -sphere or simply the -sphere for brevity. In terms of the standard norm, the -sphere is defined as
+and an -sphere of radius can be defined as 
+The dimension of -sphere is , and must not be confused with the dimension of the Euclidean space in which it is naturally embedded. An -sphere is the surface or boundary of an -dimensional ball.
+In particular:
+For , the -spheres that are differential manifolds can be characterized (up to a diffeomorphism) as the simply connected -dimensional manifolds of constant, positive curvature. The -spheres admit several other topological descriptions: for example, they can be constructed by gluing two -dimensional Euclidean spaces together, by identifying the boundary of an -cube with a point, or (inductively) by forming the suspension of an -sphere. The 1-sphere is the 1-manifold that is a circle, which is not simply connected. The 0-sphere is the 0-manifold consisting of two points, which is not even connected.
+Description.
+For any natural number , an -sphere of radius is defined as the set of points in -dimensional Euclidean space that are at distance from some fixed point , where may be any positive real number and where may be any point in -dimensional space. In particular:
+Euclidean coordinates in -space.
+The set of points in -space, , that define an -sphere, formula_3, is represented by the equation:
+where is a center point, and is the radius.
+The above -sphere exists in -dimensional Euclidean space and is an example of an -manifold. The volume form of an -sphere of radius is given by
+where is the Hodge star operator; see for a discussion and proof of this formula in the case . As a result,
+-ball.
+The space enclosed by an -sphere is called an -ball. An -ball is closed if it includes the -sphere, and it is open if it does not include the -sphere.
+Specifically:
+Topological description.
+Topologically, an -sphere can be constructed as a one-point compactification of -dimensional Euclidean space. Briefly, the -sphere can be described as , which is -dimensional Euclidean space plus a single point representing infinity in all directions.
+In particular, if a single point is removed from an -sphere, it becomes homeomorphic to . This forms the basis for stereographic projection.
+Volume and surface area.
+ and are the -dimensional volume of the -ball and the surface area of the -sphere embedded in dimension , respectively, of radius .
+The constants and (for , the unit ball and sphere) are related by the recurrences:
+The surfaces and volumes can also be given in closed form:
+where is the gamma function. Derivations of these equations are given in this section. 
+In general, the volume of the -ball in -dimensional Euclidean space, and the surface area of the -sphere in -dimensional Euclidean space, of radius , are proportional to the th power of the radius, (with different constants of proportionality that vary with ). We write for the volume of the -ball and for the surface area of the -sphere, both of radius , where and are the values for the unit-radius case.
+In theory, one could compare the values of and for . However, this is not well-defined. For example, if and then the comparison is like comparing a number of square meters to a different number of cubic meters. The same applies to a comparison of and for .
+Examples.
+The 0-ball consists of a single point. The 0-dimensional Hausdorff measure is the number of points in a set. So, 
+The 0-sphere consists of its two end-points, . So,
+The unit 1-ball is the interval of length 2. So,
+The unit 1-sphere is the unit circle in the Euclidean plane, and this has circumference (1-dimensional measure)
+The region enclosed by the unit 1-sphere is the 2-ball, or unit disc, and this has area (2-dimensional measure)
+Analogously, in 3-dimensional Euclidean space, the surface area (2-dimensional measure) of the unit 2-sphere is given by
+and the volume enclosed is the volume (3-dimensional measure) of the unit 3-ball, given by
+Recurrences.
+The "surface area", or properly the -dimensional volume, of the -sphere at the boundary of the -ball of radius is related to the volume of the ball by the differential equation
+or, equivalently, representing the unit -ball as a union of concentric -sphere "shells",
+So, 
+We can also represent the unit -sphere as a union of products of a circle (1-sphere) with an -sphere. Let and , so that and . Then,
+Since , the equation
+holds for all .
+This completes the derivation of the recurrences:
+Closed forms.
+Combining the recurrences, we see that
+So it is simple to show by induction on "k" that,
+where denotes the double factorial, defined for odd natural numbers by and similarly for even numbers .
+In general, the volume, in -dimensional Euclidean space, of the unit -ball, is given by
+where is the gamma function, which satisfies , , and , and so , and where we conversely define x! = for any x.
+By multiplying by , differentiating with respect to , and then setting , we get the closed form
+for the (n-1)-dimensional volume of the sphere "S"n-1.
+Other relations.
+The recurrences can be combined to give a "reverse-direction" recurrence relation for surface area, as depicted in the diagram:
+Index-shifting to then yields the recurrence relations:
+where , , and .
+The recurrence relation for can also be proved via integration with 2-dimensional polar coordinates:
+Spherical coordinates.
+We may define a coordinate system in an -dimensional Euclidean space which is analogous to the spherical coordinate system defined for 3-dimensional Euclidean space, in which the coordinates consist of a radial coordinate , and angular coordinates , where the angles range over radians (or over degrees) and ranges over radians (or over degrees). If are the Cartesian coordinates, then we may compute from with:
+Except in the special cases described below, the inverse transformation is unique:
+where if for some but all of are zero then when , and (180 degrees) when .
+There are some special cases where the inverse transform is not unique; for any will be ambiguous whenever all of are zero; in this case may be chosen to be zero.
+Spherical volume and area elements.
+To express the volume element of -dimensional Euclidean space in terms of spherical coordinates, first observe that the Jacobian matrix of the transformation is:
+The determinant of this matrix can be calculated by induction. When , a straightforward computation shows that the determinant is . For larger , observe that can be constructed from as follows. Except in column , rows and of are the same as row of , but multiplied by an extra factor of in row and an extra factor of in row . In column , rows and of are the same as column of row of , but multiplied by extra factors of in row and in row , respectively. The determinant of can be calculated by Laplace expansion in the final column. By the recursive description of , the submatrix formed by deleting the entry at and its row and column almost equals , except that its last row is multiplied by . Similarly, the submatrix formed by deleting the entry at and its row and column almost equals , except that its last row is multiplied by . Therefore the determinant of is
+Induction then gives a closed-form expression for the volume element in spherical coordinates
+The formula for the volume of the -ball can be derived from this by integration.
+Similarly the surface area element of the -sphere of radius , which generalizes the area element of the 2-sphere, is given by
+The natural choice of an orthogonal basis over the angular coordinates is a product of ultraspherical polynomials,
+for , and the for the angle in concordance with the spherical harmonics.
+Polyspherical coordinates.
+The standard spherical coordinate system arises from writing as the product . These two factors may be related using polar coordinates. For each point of , the standard Cartesian coordinates
+can be transformed into a mixed polar–Cartesian coordinate system:
+This says that points in may be expressed by taking the ray starting at the origin and passing through , rotating it towards the first basis vector by , and traveling a distance along the ray. Repeating this decomposition eventually leads to the standard spherical coordinate system.
+Polyspherical coordinate systems arise from a generalization of this construction. The space is split as the product of two Euclidean spaces of smaller dimension, but neither space is required to be a line. Specifically, suppose that and are positive integers such that . Then . Using this decomposition, a point may be written as
+This can be transformed into a mixed polar–Cartesian coordinate system by writing:
+Here formula_40 and formula_41 are the unit vectors associated to and . This expresses in terms of formula_42, formula_43, , and an angle . It can be shown that the domain of is if , if exactly one of and is 1, and if neither nor are 1. The inverse transformation is
+These splittings may be repeated as long as one of the factors involved has dimension two or greater. A polyspherical coordinate system is the result of repeating these splittings until there are no Cartesian coordinates left. Splittings after the first do not require a radial coordinate because the domains of formula_40 and formula_41 are spheres, so the coordinates of a polyspherical coordinate system are a non-negative radius and angles. The possible polyspherical coordinate systems correspond to binary trees with leaves. Each non-leaf node in the tree corresponds to a splitting and determines an angular coordinate. For instance, the root of the tree represents , and its immediate children represent the first splitting into and . Leaf nodes correspond to Cartesian coordinates for . The formulas for converting from polyspherical coordinates to Cartesian coordinates may be determined by finding the paths from the root to the leaf nodes. These formulas are products with one factor for each branch taken by the path. For a node whose corresponding angular coordinate is , taking the left branch introduces a factor of and taking the right branch introduces a factor of . The inverse transformation, from polyspherical coordinates to Cartesian coordinates, is determined by grouping nodes. Every pair of nodes having a common parent can be converted from a mixed polar–Cartesian coordinate system to a Cartesian coordinate system using the above formulas for a splitting.
+Polyspherical coordinates also have an interpretation in terms of the special orthogonal group. A splitting determines a subgroup
+This is the subgroup that leaves each of the two factors formula_48 fixed. Choosing a set of coset representatives for the quotient is the same as choosing representative angles for this step of the polyspherical coordinate decomposition.
+In polyspherical coordinates, the volume measure on and the area measure on are products. There is one factor for each angle, and the volume measure on also has a factor for the radial coordinate. The area measure has the form:
+where the factors are determined by the tree. Similarly, the volume measure is
+Suppose we have a node of the tree that corresponds to the decomposition and that has angular coordinate . The corresponding factor depends on the values of and . When the area measure is normalized so that the area of the sphere is 1, these factors are as follows. If , then
+If and , and if denotes the beta function, then
+If and , then
+Finally, if both and are greater than one, then
+Stereographic projection.
+Just as a two-dimensional sphere embedded in three dimensions can be mapped onto a two-dimensional plane by a stereographic projection, an -sphere can be mapped onto an -dimensional hyperplane by the -dimensional version of the stereographic projection. For example, the point on a two-dimensional sphere of radius 1 maps to the point on the -plane. In other words,
+Likewise, the stereographic projection of an -sphere of radius 1 will map to the -dimensional hyperplane perpendicular to the -axis as
+Generating random points.
+Uniformly at random on the -sphere.
+To generate uniformly distributed random points on the unit -sphere (that is, the surface of the unit -ball), gives the following algorithm.
+Generate an -dimensional vector of normal deviates (it suffices to use , although in fact the choice of the variance is arbitrary), . Now calculate the "radius" of this point:
+The vector is uniformly distributed over the surface of the unit -ball.
+An alternative given by Marsaglia is to uniformly randomly select a point in the unit -cube by sampling each independently from the uniform distribution over , computing as above, and rejecting the point and resampling if (i.e., if the point is not in the -ball), and when a point in the ball is obtained scaling it up to the spherical surface by the factor ; then again is uniformly distributed over the surface of the unit -ball. This method becomes very inefficient for higher dimensions, as a vanishingly small fraction of the unit cube is contained in the sphere. In ten dimensions, less than 2% of the cube is filled by the sphere, so that typically more than 50 attempts will be needed. In seventy dimensions, less than formula_58 of the cube is filled, meaning typically a trillion quadrillion trials will be needed, far more than a computer could ever carry out.
+Uniformly at random within the -ball.
+With a point selected uniformly at random from the surface of the unit -sphere (e.g., by using Marsaglia's algorithm), one needs only a radius to obtain a point uniformly at random from within the unit -ball. If is a number generated uniformly at random from the interval and is a point selected uniformly at random from the unit -sphere, then is uniformly distributed within the unit -ball.
+Alternatively, points may be sampled uniformly from within the unit -ball by a reduction from the unit -sphere. In particular, if is a point selected uniformly from the unit -sphere, then is uniformly distributed within the unit -ball (i.e., by simply discarding two coordinates).
+If is sufficiently large, most of the volume of the -ball will be contained in the region very close to its surface, so a point selected from that volume will also probably be close to the surface. This is one of the phenomena leading to the so-called curse of dimensionality that arises in some numerical and other applications.
+Octahedral sphere.
+The octahedral "n"-sphere is defined similarly to the "n"-sphere but using the 1-norm
+The octahedral 1-sphere is a square (without its interior). The octahedral 2-sphere is a regular octahedron; hence the name. The octahedral "n"-sphere is the topological join of "n"+1 pairs of isolated points. Intuitively, the topological join of two pairs is generated by drawing a segment between each point in one pair and each point in the other pair; this yields a square. To join this with a third pair, draw a segment between each point on the square and each point in the third pair; this gives a octahedron.
+

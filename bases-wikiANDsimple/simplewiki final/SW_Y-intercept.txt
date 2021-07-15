@@ -1,0 +1,1 @@
+The y-intercept of a line on a graph is where the line touches (or intercepts) the y-axis (the numbered line going straight up). If the equation of the line is formula_1, the y-intercept will be the point where formula_2. Because 0 times anything is just 0, formula_3. This is why "c" is the y-intercept.

@@ -1,0 +1,4 @@
+"Azureus Vuze" (often just Azureus) is a Java-based BitTorrent used for file sharing. The program's logo is the Blue Poison Dart Frog (Dendrobates azureus). The Azureus name was given to the project by co-creator Tyler Pitchford, who uses the Latin names of poison dart frogs as "nickname" for his development projects.
+Azureus was first released in June 2003 at SourceForge.net. It is now one of the most popular BitTorrent clients
+License.
+Since version 2.5.0.4, Azureus was distributed under the GNU General Public License (GPL).

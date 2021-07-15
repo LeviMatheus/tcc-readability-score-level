@@ -1,0 +1,27 @@
+
+ 
+The Document Object Model (DOM) is a cross-platform and language-independent interface that treats an XML or HTML document as a tree structure wherein each node is an object representing a part of the document. The DOM represents a document with a logical tree. Each branch of the tree ends in a node, and each node contains objects. DOM methods allow programmatic access to the tree; with them one can change the structure, style or content of a document. Nodes can have event handlers attached to them. Once an event is triggered, the event handlers get executed.
+The principal standardization of the DOM was handled by the World Wide Web Consortium (W3C), which last developed a recommendation in 2004. WHATWG took over the development of the standard, publishing it as a living document. The W3C now publishes stable snapshots of the WHATWG standard.
+History.
+The history of the Document Object Model is intertwined with the history of the "browser wars" of the late 1990s between Netscape Navigator and Microsoft Internet Explorer, as well as with that of JavaScript and JScript, the first scripting languages to be widely implemented in the JavaScript engines of web browsers.
+JavaScript was released by Netscape Communications in 1995 within Netscape Navigator 2.0. Netscape's competitor, Microsoft, released Internet Explorer 3.0 the following year with a reimplementation of JavaScript called JScript. JavaScript and JScript let web developers create web pages with client-side interactivity. The limited facilities for detecting user-generated events and modifying the HTML document in the first generation of these languages eventually became known as "DOM Level 0" or "Legacy DOM." No independent standard was developed for DOM Level 0, but it was partly described in the specifications for HTML 4.
+Legacy DOM was limited in the kinds of elements that could be accessed. Form, link and image elements could be referenced with a hierarchical name that began with the root document object. A hierarchical name could make use of either the names or the sequential index of the traversed elements. For example, a form input element could be accessed as either codice_1 or codice_2.
+The Legacy DOM enabled client-side form validation and simple interface interactivity like creating tooltips.
+In 1997, Netscape and Microsoft released version 4.0 of Netscape Navigator and Internet Explorer respectively, adding support for Dynamic HTML (DHTML) functionality enabling changes to a loaded HTML document. DHTML required extensions to the rudimentary document object that was available in the Legacy DOM implementations. Although the Legacy DOM implementations were largely compatible since JScript was based on JavaScript, the DHTML DOM extensions were developed in parallel by each browser maker and remained incompatible. These versions of the DOM became known as the "Intermediate DOM."
+After the standardization of ECMAScript, the W3C DOM Working Group began drafting a standard DOM specification. The completed specification, known as "DOM Level 1", became a W3C Recommendation in late 1998. By 2005, large parts of W3C DOM were well-supported by common ECMAScript-enabled browsers, including Microsoft Internet Explorer version 6 (from 2001), Opera, Safari and Gecko-based browsers (like Mozilla, Firefox, SeaMonkey and Camino).
+Standards.
+The W3C DOM Working Group published its final recommendation and subsequently disbanded in 2004. Development efforts migrated to the WHATWG, which continues to maintain a living standard. In 2009, the Web Applications group reorganized DOM activities at the W3C. In 2013, due to a lack of progress and the impending release of HTML5, the DOM Level 4 specification was reassigned to the HTML Working Group to expedite its completion. Meanwhile, in 2015, the Web Applications group was disbanded and DOM stewardship passed to the Web Platform group. Beginning with the publication of DOM Level 4 in 2015, the W3C creates new recommendations based on snapshots of the WHATWG standard.
+Applications.
+Web browsers.
+To render a document such as a HTML page, most web browsers use an internal model similar to the DOM. The nodes of every document are organized in a tree structure, called the "DOM tree", with the topmost node named as "Document object". When an HTML page is rendered in browsers, the browser downloads the HTML into local memory and automatically parses it to display the page on screen.
+JavaScript.
+When a web page is loaded, the browser creates a Document Object Model of the page, which is an object oriented representation of an HTML document that acts as an interface between JavaScript and the document itself. This allows the creation of dynamic web pages, because within a page JavaScript can:
+Implementations.
+Because the DOM supports navigation in any direction (e.g., parent and previous sibling) and allows for arbitrary modifications, an implementation must at least buffer the document that has been read so far (or some parsed form of it).
+Layout engines.
+Web browsers rely on layout engines to parse HTML into a DOM. Some layout engines, such as Trident/MSHTML, are associated primarily or exclusively with a particular browser, such as Internet Explorer. Others, including Blink, WebKit, and Gecko, are shared by a number of browsers, such as Google Chrome, Opera, Safari, and Firefox. The different layout engines implement the DOM standards to varying degrees of compliance.
+Libraries.
+DOM implementations:
+APIs that expose DOM implementations:
+Inspection tools:
+

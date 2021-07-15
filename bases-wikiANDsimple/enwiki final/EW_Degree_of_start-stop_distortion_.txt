@@ -1,0 +1,4 @@
+
+In telecommunication, the term degree of start-stop distortion has the following meanings: 
+The degree of distortion of a start-stop modulation (or demodulation) is usually expressed as a percentage. Distinction can be made between the degree of late (positive) distortion and the degree of early (negative) distortion.
+

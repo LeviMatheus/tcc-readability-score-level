@@ -1,0 +1,4 @@
+A great circle the largest possible circle that can be drawn on a sphere, one that divides the surface into equal halves, called hemispheres. It is a circle that has the same diameter as the sphere it was drawn on. These curves are geodesics in the sphere and all have the same circumference, that is, the length of the circle.
+There are an infinite number of great circles that can be drawn on any perfect sphere. The latitude lines on a globe all form great circles that pass through the same two points (the North Pole and the South Pole). The Equator is another great circle.
+Great Circles can be used to determine the shortest surface distance between two points on a sphere (or on the earth).
+A straight line from plane Euclidean geometry corresponds to a Great Circle in non-Euclidean spherical geometry.

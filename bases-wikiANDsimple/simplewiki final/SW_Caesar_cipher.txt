@@ -1,0 +1,4 @@
+The Caesar cipher is a method of cryptography. It is named after Julius Caesar who used it to communicate with his army.
+To make a message secret with the Caesar cipher, each letter in the message is changed using a simple rule: change by three. So each letter is replaced by the letter three letters ahead in the alphabet. A becomes D, B becomes E, and so on. For the last letters, we think of the alphabet as a circle and "wrap around." W becomes Z, X becomes A, Y becomes B, and Z becomes C. To change a message back, each letter is replaced by the one three before it.
+Changing by three is the rule that Julius Caesar used, but the same idea works for any number.
+The Caesar cipher is a "substitution cipher": each letter is replaced by another. No substitution cipher is really safe.

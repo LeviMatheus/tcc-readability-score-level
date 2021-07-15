@@ -1,0 +1,15 @@
+
+A file archiver is a computer program that combines a number of files together into one archive file, or a series of archive files, for easier transportation or storage. File archivers may employ lossless data compression in their archive formats to reduce the size of the archive.
+Basic archivers just take a list of files and concatenate their contents sequentially into archives. The archive files need to store metadata, at least the names and lengths of the original files, if proper reconstruction is possible. More advanced archivers store additional metadata, such as the original timestamps, file attributes or access control lists.
+The process of making an archive file is called "archiving" or "packing". Reconstructing the original files from the archive is termed "unarchiving", "unpacking" or "extracting".
+History.
+An early archiver was the Multics command "archive", descended from the CTSS command of the same name, which was a basic archiver and performed no compression. Multics also had a "tape_archiver" command, abbreviated "ta", which was perhaps the forerunner of unix' "tar".
+Unix archivers.
+The Unix tools "ar", "tar", "cpio" act as archivers but not compressors. Users of the Unix tools use additional compression tools, such as gzip, bzip2, or xz, to compress the archive file after packing or remove compression before unpacking the archive file. The filename extensions are successively added at each step of this process. For example, archiving a collection of files with "tar" and then compressing the resulting archive file with "gzip" results a file with codice_1 extension.
+This approach has two goals:
+This approach, however, has disadvantages too:
+Windows archivers.
+The built-in archiver of Microsoft Windows as well as third-party archiving software, such as WinRAR and 7-zip, often use a graphical user interface. They also offer an optional command-line interface, while Windows itself does not. Windows archivers perform both archiving and compression. Solid compression may or may not be offered, depending on the product: Windows itself does not support it; WinRAR and 7-zip offer it as an option that can be turned on or off.
+External links.
+ and get a mop]]
+

@@ -1,0 +1,24 @@
+
+Galeon is a discontinued Gecko-based web browser that was created by Marco Pesenti Gritti with the goal of delivering a consistent browsing experience to GNOME desktop environment. It gained some popularity in the early 2000s due to its speed, flexibility in configuration and features.
+The disagreement over the future of Galeon split the development team in 2002, which resulted in the departure of the browser's initial author and several other developers. This event marked the beginning of the browser's popularity decline, which led to its discontinuation in September 2008. Some of Galeon's features were subsequently ported to Epiphany (now called Web) – the descendant of Galeon.
+Features.
+Galeon made use of Gecko's features including configuration options and standards support. Apart from that, Galeon had several features that were uncommon in browsers at that time:
+Development history.
+The project was started by Marco Pesenti Gritti with the goal of creating a web browser that would be fast and consistent with the GNOME desktop environment. The first public version (Galeon 0.6) was released in June 2000.
+On the rise.
+The first releases of Galeon were criticised for lack of such basic features as cookie and proxy support, though the browser added some features with every release. Version 1.2 of Galeon introduced many new features that drew attention of the general public.
+At the time of Galeon's creation, the most popular Linux browsers, including Netscape and Mozilla, were large multi-functional programs. This made them slow to start and often impractical due to their high memory usage and processor requirements. Opera was somewhat faster, but it was proprietary software distributed in trialware and adware versions, both of which lacked some of the functionality of the Microsoft Windows version.
+Galeon was widely seen as one of the best Linux browsers available. The polls revealed the substantial usage share of Galeon, though its popularity was regarded as owing to lack of stability evident in Mozilla's browsers.
+Split of the development team.
+With the release of new version of the GTK+ widget toolkit, which was used to construct the user interface of Galeon, the team decided to write a new version of Galeon from scratch. At the same time the GNOME project has adopted its new human interface guidelines, which promoted simplicity and uniform design. The Galeon team had differing opinions on the new guidelines. The author and lead developer, Marco Pesenti Gritti, endorsed them and saw the rewrite as an opportunity to make Galeon simpler. Many other developers believed that reducing the number of preferences and simplifying the user interface would harm the project.
+In November 2002, as the result of several discussions on the topic Gritti made the decision to cease his work in Galeon and fork the project and started development of a HIG-compliant web browser he called "Epiphany" (now known as Web).
+After the split.
+As Gritti no longer controlled the development of Galeon, the previous functionality was restored in subsequent releases and some new features were added, though development got slow after the split. At the same time the rising popularity of Firefox, its status of the default browser in major distribution and the overwhelming number of its extensions led to decline of Galeon's user base.
+Eventually the Galeon developers announced plans to halt development of Galeon, saying "the current approach is unsustainable" regarding the resources required to maintain it. Instead, they planned to develop a set of extensions for Epiphany to provide similar functionality.
+Persistence.
+Even after development ceased in September 2008, the browser remained popular and in December 2011 was still available in some Linux distribution's repositories, such as Debian 6 Squeeze, although it was not part of Debian 7 Wheezy.
+Reception.
+Galeon was praised for its customizability and speed, as compared to Netscape Navigator and Firefox, though Konqueror and Opera were still faster on older hardware. Galeon was noted for its session handling and crash recovery.
+In November 2002, OSNews conducted a poll to determine the most popular Gecko-based browser, which included several browsers for Microsoft Windows, Mac OS X and Linux, but didn't include Netscape Navigator and Mozilla Suite. The Linux-only Galeon was the second most popular, after cross-platform Firefox, at that time known as Phoenix.
+Critics noted Galeon's tricky plugin installation.
+

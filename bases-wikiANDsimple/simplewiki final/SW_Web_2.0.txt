@@ -1,0 +1,4 @@
+Web 2.0 is what people call new ways of showing or using things on the Internet.
+To people who use the Internet, wikis and blogs are Web 2.0. Some think that Wikipedia is a great example of "Web 2.0". Web 2.0 is mostly about user-generated and interactive content.
+It adds great interactivity to otherwise static,only informative web site of Web 1.0.
+It fundamentally builds on the internet technologies which are in use since the inception of internet and WWW and gives a layer of abstraction on top to provide rich services.

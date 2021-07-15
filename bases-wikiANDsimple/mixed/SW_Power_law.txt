@@ -1,0 +1,7 @@
+A power law is a mathematical function, a rule to find one number (formula_1) from another number (formula_2). The new number is found by multiplying the first number by itself a certain number of times (called the power or the exponent). For example, formula_3 is a power law of formula_2, found by multiplying formula_2 by itself three times, that is, formula_6.
+formula_7
+formula_8 and formula_9 can be any numbers.
+Use of power laws in science.
+formula_12
+In this power law, the power is -2.
+Other examples of power laws in science are how often big earthquakes happen, and how the heart beat of an animal depends on its size.

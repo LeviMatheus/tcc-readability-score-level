@@ -1,0 +1,1 @@
+A Displacement vector is a concept from mathematics. It is a vector. It shows the direction and distance travelled. It is often used in physics to display the speed, acceleration and distance an object travelled (compared to a reference point).

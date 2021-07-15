@@ -1,0 +1,3 @@
+A Rubik's Cube is a puzzle cube invented by Hungarian sculptor and architect Ernő Rubik in 1974. It is the world's biggest selling toy of all time with over 300,000,000 (300 million) sold since its invention.
+Structure.
+A Rubik's cube is a cube split into a number of smaller cubes with different coloured faces. The cubes can be rotated and twisted along rows and faces. The aim of the puzzle is to make each face of the cube have the same colour. Solving a Rubik's Cube requires logic and thinking.

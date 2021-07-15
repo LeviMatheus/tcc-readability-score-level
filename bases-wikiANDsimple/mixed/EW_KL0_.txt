@@ -1,0 +1,3 @@
+
+Kernel Language 0 (KL0) is a sequential logic programming language based on Prolog, used in the ICOT Fifth generation computer project.
+

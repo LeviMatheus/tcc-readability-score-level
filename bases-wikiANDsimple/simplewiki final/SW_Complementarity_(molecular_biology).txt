@@ -1,0 +1,4 @@
+In molecular biology, complementarity is a property (something that it can do) of nucleic acids such as DNA and RNA. Each nucleotide has a nitrogenous base, and each nitrogenous base can pair up with the nitrogenous base from another different nucleotide. One can say that the nitrogenous base is complementary to the other in that the base pairs between them are non-covalently bonded by hydrogen bonds.
+Since there is only one complementary base for any of the bases found in DNA and in RNA, enzymes can make a complementary strand from any single strand. This is needed for DNA replication.
+The bases which are complementary are
+For example, the complementary strand of the DNA sequence

@@ -1,0 +1,4 @@
+Wind speed is a term that is used when one talks about the movement of air from one place to the next.
+Wind speeds usually mean the movement of air in an outside environment, but the speed of movement of air inside is important in many areas, including weather forecasting, aircraft and maritime operations, building and civil engineering. High wind speeds can cause unpleasant side effects, and strong winds often have special names, including gales, hurricanes, and typhoons.
+Measurement.
+The most elementary method of measuring wind speed is to estimate the speed from observed phenomena, this is the basis of the Beaufort Scale, for example, zero on the Beaufort Scale can be recognised by vertically rising smoke. Obviously this method is not the most accurate available so each value on the scale represents a range of values, three on the scale for example covers wind speeds between seven and ten knots.

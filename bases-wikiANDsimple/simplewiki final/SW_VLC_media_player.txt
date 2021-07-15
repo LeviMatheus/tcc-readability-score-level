@@ -1,0 +1,9 @@
+VLC media player is a free software media player by the VideoLAN project,also called "VLC", or "VideoLAN Client".
+It is a highly portable multimedia player, encoder, and streamer that support many kind of audio and video. Vlc can repair and play,corrupt files,damaged or unfinished.
+It is one of the most platform-independent players available, for BeOS, BSD, Linux, Mac OS X, Microsoft Windows, Solaris and Windows CE, and has over 50 million downloads for version 0.8.6.
+VLC uses a large number of free decoding and encoding libraries. Many of its codecs are provided by the libavcodec codec library from the FFmpeg project, but it uses mainly its own muxer and demuxers.VLC gained honor as the first player to support playback of encrypted DVDs on Linux by using the libdvdcss DVD library.
+History.
+VLC was initially the client for the VideoLAN project,and it It was originally maked by students at the École Centrale Paris, and was released under the GPL license on the 1 February 2001.Now has supporters and contributors in everlyplace in the worldwide.
+The icon of VLC is a traffic cones collected by Ecole Centrale's Networking Students' Association.
+Design principles.
+VLC has a very design, which makes it easier to include modules for new file formats, codecs or streaming methods.There are more than 300 modules in VLC.VLC also supports highly personalizable skins through the skins2 interface, Winamp 2 and XMMS skins and can play high definition recordings of D-VHS tapes duplicated to a computer using CapDVHS.exe

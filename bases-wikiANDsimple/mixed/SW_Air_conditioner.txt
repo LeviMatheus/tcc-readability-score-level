@@ -1,0 +1,17 @@
+An air conditioner is a system, or machine that extracts heat from an area using a refrigeration cycle.
+In construction, a complete system of heating, ventilation, and air conditioning is referred to as HVAC. Its purpose, in the home or in the car, is to provide comfort during hot days and nights.
+History.
+The 19th century British scientist and inventor Michael Faraday discovered that compressing and liquefying ammonia could chill air when the liquefied ammonia was allowed to evaporate.
+In 1842, Philippines physician Dr. John Gorrie used compressor technology to create ice, which he used to cool air for his patients. He hoped eventually to use his ice-making machine to regulate the temperature of buildings. He even thought of centralized air conditioning that could cool entire cities.
+Air conditioning applications.
+Air conditioning engineers broadly divide air conditioning applications into "comfort" and "process".
+"Comfort applications" aim to provide an indoor environment that remains relatively constant in a range preferred by humans despite changes in external weather conditions or in internal heat loads.
+In both comfort and process applications not only is the objective to control temperature (although in some comfort applications this is all that is controlled) but other factors including humidity, air movement and air quality.
+Refrigeration cycle.
+In the refrigeration cycle, a heat pump transfers heat from a lower temperature heat source into a higher temperature heat sink. Heat would naturally flow in the opposite direction. This is the most common type of air conditioning.
+A refrigerator works in much the same way, as it pumps the heat out of the interior into the room in which it stands.
+This cycle takes advantage of the universal gas law "PV" = "nRT", where "P" is pressure, "V" is volume, "R" is the universal gas constant, "T" is temperature, and "n" is the number of moles of gas (1 mole = 6.022×1023 molecules).
+The most common refrigeration cycle uses an electric motor to drive a compressor. In an automobile the compressor is driven by a pulley on the engine's crankshaft, with both using electric motors for air circulation. Since evaporation occurs when heat is absorbed, and condensation occurs when heat is released, air conditioners are designed to use a compressor to cause pressure changes between two compartments, and actively pump a refrigerant around. A refrigerant is pumped into the cooled compartment (the evaporator coil), where the low pressure causes the refrigerant to evaporate into a vapor, taking heat with it. In the other compartment (the condenser), the refrigerant vapour is compressed and forced through another heat exchange coil, condensing into a liquid, rejecting the heat previously absorbed from the cooled space.
+Health implications.
+Air conditioning has no greater influence on health than heating—that is to say, very little—although poorly maintained air-conditioning systems (especially large, centralized systems) can occasionally promote the growth and spread of microorganisms, such as "Legionella pneumophila," the infectious agent responsible for Legionnaire's disease. Air conditioning can have a positive effect on sufferers of allergies and asthma.
+In serious heat waves, air conditioning can save the lives of the elderly. Some local authorities even set up public cooling centers for the benefit of those without air conditioning at home.

@@ -1,0 +1,3 @@
+
+In telecommunication, attack time is the time between the instant that a signal at the input of a device or circuit exceeds the activation threshold of the device or circuit and the instant that the device or circuit reacts in a specified manner, or to a specified degree, to the input. Attack time occurs in devices such as clippers, peak limiters, compressors, and voxes.
+

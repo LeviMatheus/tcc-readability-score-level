@@ -1,0 +1,1 @@
+A Common language specification is a document that says how computer programs can be turned into bytecode. When several languages use the same bytecode, different parts of a program can be written in different languages. Microsoft uses a Common language specification for their dotnet Framework.

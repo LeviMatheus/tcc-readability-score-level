@@ -1,0 +1,44 @@
+A heat pump is a machine that moves heat from one place to another.
+Examples.
+A refrigerator is a heat pump.
+It moves heat from the inside to the outside.
+This keeps the food inside cold, so it won't spoil.
+An air conditioner is a heat pump.
+It moves heat from the inside of a building to the outside.
+A Peltier device is a heat pump.
+It moves heat from one side to the other by means of an electric current.
+Some buildings are heated with heat pumps, also.
+In the winter, the heat pump moves heat from the outside to the inside. Sometimes this works better than heating with a radiator.
+How it works.
+Usually, heat flows from a hot place to a cold place, according to the second law of thermodynamics.
+Heat will not move from a cold place to a warmer place by itself.
+Because of this, a heat pump must use extra energy to move the heat.
+This is sort of like pumping water uphill.
+Most heat pumps use electric motors to provide energy.
+Some heat pumps use heat energy, supplied by a flame or an electric heater.
+Most heat pumps use a refrigeration cycle.
+A refrigeration cycle uses a fluid which moves through tubes and carries the heat.
+The fluid is called a refrigerant.
+During the refrigeration cycle, the refrigerant changes from a liquid to a gas and back to a liquid.
+When the refrigerant changes from a liquid to a gas, it gains (absorbs) heat energy.
+This is just like boiling.
+When the refrigerant changes from a gas back to a liquid, it loses heat energy.
+The heat pump is set up so that the refrigerant gains heat from one place that will be cooled, and moves it to another place that will be warmed.
+A heat pump forces the refrigerant to change from a gas to a liquid.
+It uses a compressor to do this.
+Often, an electric motor drives the compressor.
+The compressor compresses the refrigerant, and this makes it change from a gas to a liquid.
+When the refrigerant changes from a gas to a liquid, it also gives up some of the heat that it has been carrying.
+At the other end of the cycle, the refrigerant boils again.
+It changes from a liquid to a gas.
+But it needs heat to do this.
+When it takes up heat from its surroundings, it cools them down.
+So where the refrigerant is changing from a liquid to a gas, it feels cooler.
+On the cooling side, heat is taken up to boil the refrigerant from a liquid to a gas.
+Then the fluid moves to the heating side.
+There, the compressor forces the refrigerant back to a liquid again.
+This makes it give up its heat.
+So heat has moved from the cooling side to the heating side.
+If the cooling side is the inside of a refrigerator, it gets cold.
+If the cooling side is the inside of a building, and the warming side is the outside of the building, the inside of the building gets cold. This is how an air conditioner works.
+If the cooling side is the outside of the building, and the warming side is the inside of the building, this is how a heat pump can heat a building during the winter.

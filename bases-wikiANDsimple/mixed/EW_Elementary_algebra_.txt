@@ -1,0 +1,111 @@
+
+Elementary algebra encompasses some of the basic concepts of algebra, one of the main branches of mathematics. It is typically taught to secondary school students and builds on their understanding of arithmetic. Whereas arithmetic deals with specified numbers, algebra introduces quantities without fixed values, known as variables. This use of variables entails use of algebraic notation and an understanding of the general rules of the operators introduced in arithmetic. Unlike abstract algebra, elementary algebra is not concerned with algebraic structures outside the realm of real and complex numbers.
+The use of variables to denote quantities allows general relationships between quantities to be formally and concisely expressed, and thus enables solving a broader scope of problems. Many quantitative relationships in science and mathematics are expressed as algebraic equations.
+Algebraic notation.
+Algebraic notation describes the rules and conventions for writing mathematical expressions, as well as the terminology used for talking about parts of expressions. For example, the expression formula_1 has the following components:
+A "coefficient" is a numerical value, or letter representing a numerical constant, that multiplies a variable (the operator is omitted). A "term" is an addend or a summand, a group of coefficients, variables, constants and exponents that may be separated from the other terms by the plus and minus operators. Letters represent variables and constants. By convention, letters at the beginning of the alphabet (e.g. formula_2) are typically used to represent constants, and those toward the end of the alphabet (e.g. formula_3 and ) are used to represent variables. They are usually written in italics.
+Algebraic operations work in the same way as arithmetic operations, such as addition, subtraction, multiplication, division and exponentiation. and are applied to algebraic variables and terms. Multiplication symbols are usually omitted, and implied when there is no space between two variables or terms, or when a coefficient is used. For example, formula_4 is written as formula_5, and formula_6 may be written formula_7.
+Usually terms with the highest power (exponent), are written on the left, for example, formula_8 is written to the left of . When a coefficient is one, it is usually omitted (e.g. formula_9 is written formula_8). Likewise when the exponent (power) is one, (e.g. formula_11 is written formula_12). When the exponent is zero, the result is always 1 (e.g. formula_13 is always rewritten to ). However formula_14, being undefined, should not appear in an expression, and care should be taken in simplifying expressions in which variables may appear in exponents.
+Alternative notation.
+Other types of notation are used in algebraic expressions when the required formatting is not available, or can not be implied, such as where only letters and symbols are available. As an illustration of this, while exponents are usually formatted using superscripts, e.g., formula_8, in plain text, and in the TeX mark-up language, the caret symbol "^" represents exponentiation, so formula_8 is written as "x^2"., as well as some programming languages such as Lua. In programming languages such as Ada, Fortran, Perl, Python and Ruby, a double asterisk is used, so formula_8 is written as "x**2". Many programming languages and calculators use a single asterisk to represent the multiplication symbol, and it must be explicitly used, for example, formula_12 is written "3*x".
+Concepts.
+Variables.
+Elementary algebra builds on and extends arithmetic by introducing letters called variables to represent general (non-specified) numbers. This is useful for several reasons.
+Simplifying expressions.
+Algebraic expressions may be evaluated and simplified, based on the basic properties of arithmetic operations (addition, subtraction, multiplication, division and exponentiation). For example,
+Equations.
+An equation states that two expressions are equal using the symbol for equality, (the equals sign). One of the best-known equations describes Pythagoras' law relating the length of the sides of a right angle triangle:
+This equation states that formula_39, representing the square of the length of the side that is the hypotenuse, the side opposite the right angle, is equal to the sum (addition) of the squares of the other two sides whose lengths are represented by and .
+An equation is the claim that two expressions have the same value and are equal. Some equations are true for all values of the involved variables (such as formula_40); such equations are called identities. Conditional equations are true for only some values of the involved variables, e.g. formula_41 is true only for formula_42 and formula_43. The values of the variables which make the equation true are the solutions of the equation and can be found through equation solving.
+Another type of equation is inequality. Inequalities are used to show that one side of the equation is greater, or less, than the other. The symbols used for this are: formula_44 where formula_45 represents 'greater than', and formula_46 where formula_47 represents 'less than'. Just like standard equality equations, numbers can be added, subtracted, multiplied or divided. The only exception is that when multiplying or dividing by a negative number, the inequality symbol must be flipped.
+Properties of equality.
+By definition, equality is an equivalence relation, meaning it has the properties (a) reflexive (i.e. formula_48), (b) symmetric (i.e. if formula_49 then formula_50) (c) transitive (i.e. if formula_49 and formula_52 then formula_53). It also satisfies the important property that if two symbols are used for equal things, then one symbol can be substituted for the other in any true statement about the first and the statement will remain true. This implies the following properties:
+Properties of inequality.
+The relations "less than" formula_47 and greater than formula_45 have the property of transitivity:
+By reversing the inequation, formula_47 and formula_45 can be swapped, for example:
+Substitution.
+Substitution is replacing the terms in an expression to create a new expression. Substituting 3 for in the expression makes a new expression with meaning . Substituting the terms of a statement makes a new statement. When the original statement is true independently of the values of the terms, the statement created by substitutions is also true. Hence, definitions can be made in symbolic terms and interpreted through substitution: if formula_81 is meant as the definition of formula_82 as the product of with itself, substituting for informs the reader of this statement that formula_83 means . Often it's not known whether the statement is true independently of the values of the terms. And, substitution allows one to derive restrictions on the possible values, or show what conditions the statement holds under. For example, taking the statement , if is substituted with , this implies , which is false, which implies that if then cannot be .
+If and are integers, rationals, or real numbers, then implies or . Consider . Then, substituting for and for , we learn or . Then we can substitute again, letting and , to show that if then or . Therefore, if , then or ( or ), so implies or or .
+If the original fact were stated as " implies or ", then when saying "consider ," we would have a conflict of terms when substituting. Yet the above logic is still valid to show that if then or or if, instead of letting and , one substitutes for and for (and with , substituting for and for ). This shows that substituting for the terms in a statement isn't always the same as letting the terms from the statement equal the substituted terms. In this situation it's clear that if we substitute an expression into the term of the original equation, the substituted does not refer to the in the statement " implies or ."
+Solving algebraic equations.
+The following sections lay out examples of some of the types of algebraic equations that may be encountered.
+Linear equations with one variable.
+Linear equations are so-called, because when they are plotted, they describe a straight line. The simplest equations to solve are linear equations that have only one variable. They contain only constant numbers and a single variable without an exponent. As an example, consider:
+To solve this kind of equation, the technique is add, subtract, multiply, or divide both sides of the equation by the same number in order to isolate the variable on one side of the equation. Once the variable is isolated, the other side of the equation is the value of the variable. This problem and its solution are as follows:
+In words: the child is 4 years old.
+The general form of a linear equation with one variable, can be written as: formula_85
+Following the same procedure (i.e. subtract from both sides, and then divide by ), the general solution is given by formula_86
+Linear equations with two variables.
+A linear equation with two variables has many (i.e. an infinite number of) solutions. For example:
+That cannot be worked out by itself. If the son's age was made known, then there would no longer be two unknowns (variables). The problem then becomes a linear equation with just one variable, that can be solved as described above.
+To solve a linear equation with two variables (unknowns), requires two related equations. For example, if it was also revealed that:
+Now there are two related linear equations, each with two unknowns, which enables the production of a linear equation with just one variable, by subtracting one from the other (called the elimination method):
+In other words, the son is aged 12, and since the father 22 years older, he must be 34. In 10 years, the son will be 22, and the father will be twice his age, 44. This problem is illustrated on the associated plot of the equations.
+For other ways to solve this kind of equations, see below, System of linear equations.
+Quadratic equations.
+A quadratic equation is one which includes a term with an exponent of 2, for example, formula_30, and no term with higher exponent. The name derives from the Latin "quadrus", meaning square. In general, a quadratic equation can be expressed in the form formula_92, where is not zero (if it were zero, then the equation would not be quadratic but linear). Because of this a quadratic equation must contain the term formula_93, which is known as the quadratic term. Hence formula_94, and so we may divide by and rearrange the equation into the standard form
+where formula_96 and formula_97. Solving this, by a process known as completing the square, leads to the quadratic formula
+where the symbol "±" indicates that both
+are solutions of the quadratic equation.
+Quadratic equations can also be solved using factorization (the reverse process of which is expansion, but for two linear terms is sometimes denoted foiling). As an example of factoring:
+which is the same thing as
+It follows from the zero-product property that either formula_102 or formula_103 are the solutions, since precisely one of the factors must be equal to zero. All quadratic equations will have two solutions in the complex number system, but need not have any in the real number system. For example,
+has no real number solution since no real number squared equals −1.
+Sometimes a quadratic equation has a root of multiplicity 2, such as:
+For this equation, −1 is a root of multiplicity 2. This means −1 appears twice, since the equation can be rewritten in factored form as
+Complex numbers.
+All quadratic equations have exactly two solutions in complex numbers (but they may be equal to each other), a category that includes real numbers, imaginary numbers, and sums of real and imaginary numbers. Complex numbers first arise in the teaching of quadratic equations and the quadratic formula. For example, the quadratic equation
+has solutions
+Since formula_109 is not any real number, both of these solutions for "x" are complex numbers.
+Exponential and logarithmic equations.
+An exponential equation is one which has the form formula_110 for formula_111, which has solution
+when formula_113. Elementary algebraic techniques are used to rewrite a given equation in the above way before arriving at the solution. For example, if
+then, by subtracting 1 from both sides of the equation, and then dividing both sides by 3 we obtain
+whence
+or
+A logarithmic equation is an equation of the form formula_118 for formula_111, which has solution
+For example, if
+then, by adding 2 to both sides of the equation, followed by dividing both sides by 4, we get
+whence
+from which we obtain
+Radical equations.
+A radical equation is one that includes a radical sign, which includes square roots, formula_125 cube roots, formula_126, and "n"th roots, formula_127. Recall that an "n"th root can be rewritten in exponential format, so that formula_127 is equivalent to formula_129. Combined with regular exponents (powers), then formula_130 (the square root of cubed), can be rewritten as formula_131. So a common form of a radical equation is formula_132 (equivalent to formula_133) where and are integers. It has real solution(s):
+For example, if:
+then
+and thus 
+System of linear equations.
+There are different methods to solve a system of linear equations with two variables.
+Elimination method.
+An example of solving a system of linear equations is by using the elimination method:
+Multiplying the terms in the second equation by 2:
+Adding the two equations together to get:
+which simplifies to
+Since the fact that formula_102 is known, it is then possible to deduce that formula_143 by either of the original two equations (by using "2" instead of ) The full solution to this problem is then
+This is not the only way to solve this specific system; could have been resolved before .
+Substitution method.
+Another way of solving the same system of linear equations is by substitution.
+An equivalent for can be deduced by using one of the two equations. Using the second equation:
+Subtracting formula_147 from each side of the equation:
+and multiplying by −1:
+Using this value in the first equation in the original system:
+Adding "2" on each side of the equation:
+which simplifies to
+Using this value in one of the equations, the same solution as in the previous method is obtained.
+This is not the only way to solve this specific system; in this case as well, could have been solved before .
+Other types of systems of linear equations.
+Inconsistent systems.
+In the above example, a solution exists. However, there are also systems of equations which do not have any solution. Such a system is called inconsistent. An obvious example is
+As 0≠2, the second equation in the system has no solution. Therefore, the system has no solution.
+However, not all inconsistent systems are recognized at first sight. As an example, consider the system 
+Multiplying by 2 both sides of the second equation, and adding it to the first one results in
+which clearly has no solution.
+Undetermined systems.
+There are also systems which have infinitely many solutions, in contrast to a system with a unique solution (meaning, a unique pair of values for and ) For example:
+Isolating in the second equation:
+And using this value in the first equation in the system:
+The equality is true, but it does not provide a value for . Indeed, one can easily verify (by just filling in some values of ) that for any there is a solution as long as formula_160. There is an infinite number of solutions for this system.
+Over- and underdetermined systems.
+Systems with more variables than the number of linear equations are called underdetermined. Such a system, if it has any solutions, does not have a unique one but rather an infinitude of them. An example of such a system is
+When trying to solve it, one is led to express some variables as functions of the other ones if any solutions exist, but cannot express "all" solutions numerically because there are an infinite number of them if there are any.
+A system with a higher number of equations than variables is called overdetermined. If an overdetermined system has any solutions, necessarily some equations are linear combinations of the others.
+

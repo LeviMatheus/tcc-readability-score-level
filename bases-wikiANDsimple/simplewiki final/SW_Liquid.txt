@@ -1,0 +1,5 @@
+A liquid is a form of matter that has an almost-fixed volume but no set shape. It is wet, and it takes the shape of the container. It is very difficult to compress a liquid.
+A liquid is one of the three most common states of matter.
+Examples of liquid are water or oils. Your blood is a liquid too.
+If a liquid is at rest in a uniform gravitational field, the pressure "p" at any point is given by
+where "ρ" is the density of the liquid (assumed constant) and "z" is the depth of the point below the surface. Note that this formula assumes that the pressure at the free surface is zero.

@@ -1,0 +1,4 @@
+In cryptography, Square (sometimes written SQUARE) is a block cipher invented by Joan Daemen and Vincent Rijmen. The design was published in 1997.
+SQUARE is a predecessor to the Rijndael algorithm, which has been adopted in 2001 as the Advanced Encryption Standard by the U.S. government.
+Square was introduced together with a new form of cryptanalysis discovered by Lars Knudsen, called the "Square attack".
+The structure of Square is a substitution-permutation network with eight rounds, operating on 128-bit block size and using a 128-bit key size.

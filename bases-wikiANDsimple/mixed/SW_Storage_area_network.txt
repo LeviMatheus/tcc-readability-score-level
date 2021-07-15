@@ -1,0 +1,2 @@
+A Storage area network (SAN) is a solution from computing. This means that storage (like hard disks or tape libraries) are attached to the local system. Storage Area Networks appear like they were local to the operating system, but they are remote. The contrast to this is Network Attached Storage. Network Attached Storage means attaching a computer with the storage to the network.
+As of 2007, attaching storage directly to the network and making it appear local is still quite uncommon outside large companies. It is therefore rather expensive to do.

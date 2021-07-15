@@ -1,0 +1,5 @@
+Radar is a machine that uses radio waves to find other objects such as aircraft, ships, and rain.
+A thing called a transmitter sends out radio waves, which are bounced back by the object that the radar is trying to find. By doing this, the radar can find what place the object is at. Radar is used in a lot of different ways, such as finding speeding cars, the amount of water in the air, traffic, ect.
+Radar was first used in 1904 by Christian Hülsmeyer. He was given a patent for radar (Reichspatent Nr. 165546).
+The word "RADAR" was created in 1941 as an acronym (words with letters that each have its own meaning) for Radio Detection and Ranging. This acronym replaced the British acronym "RDF" ("Radio Direction Finding"). The word is now thought by many people as a regular word, no longer as an acronym.
+According to FAA(Federal Aviation Administration), there are

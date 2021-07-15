@@ -1,0 +1,6 @@
+
+In telecommunication, an equivalent noise resistance is a quantitative representation in resistance units of the spectral density of a noise-voltage generator, given by
+formula_1
+where formula_2 is the spectral density, formula_3 is the Boltzmann's constant, formula_4 is the standard noise temperature (290 K), so formula_5.
+"Note:" The equivalent noise resistance in terms of the mean-square noise-generator voltage, "e"2, within a frequency increment, Δ "f", is given by
+

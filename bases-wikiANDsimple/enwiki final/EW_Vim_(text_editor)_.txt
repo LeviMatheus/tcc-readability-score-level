@@ -1,0 +1,44 @@
+
+Vim (; a contraction of Vi IMproved) is a clone, with additions, of Bill Joy's vi text editor program for Unix. Vim's author, Bram Moolenaar, based it on the source code for a port of the Stevie editor to the Amiga and released a version to the public in 1991. Vim is designed for use both from a command-line interface and as a standalone application in a graphical user interface. Vim is free and open-source software and is released under a license that includes some charityware clauses, encouraging users who enjoy the software to consider donating to children in Uganda. The license is compatible with the GNU General Public License through a special clause allowing distribution of modified copies "under the GNU GPL version 2 or any later version".
+Since its release for the Amiga, cross-platform development has made it available on many other systems. In 2006, it was voted the most popular editor amongst "Linux Journal" readers; in 2015 the Stack Overflow developer survey found it to be the third most popular text editor, and in 2019 the fifth most popular development environment.
+History.
+Vim's forerunner, Stevie (ST Editor for VI Enthusiasts), was created by Tim Thompson for the Atari ST in 1987 and further developed by Tony Andrews and G.R. (Fred) Walter.
+Basing his work on Stevie, Bram Moolenaar began working on Vim for the Amiga computer in 1988, with the first public release (Vim v1.14) in 1991.
+At the time of its first release, the name "Vim" was an acronym for "Vi IMitation", but this changed to "'Vi IMproved" late in 1993.
+Interface.
+Like vi, Vim's interface is not based on menus or icons but on commands given in a text user interface; its GUI mode, gVim, adds menus and toolbars for commonly used commands but the full functionality is still expressed through its command line mode. Vi (and by extension Vim) tends to allow a typist to keep their fingers on the home row, which can be an advantage for a touch typist.
+Vim has a built-in tutorial for beginners called vimtutor. It's usually installed along with Vim, but it exists as a separate executable and can be run with a shell command. There is also the Vim Users' Manual that details Vim's features and a FAQ. This manual can be read from within Vim, or found online.
+Vim also has a built-in help facility (using the codice_1 command) that allows users to query and navigate through commands and features.
+Modes.
+Vim has 12 different editing modes, 6 of which are variants of the 6 basic modes. The basic modes are:
+Customization.
+Vim is highly customizable and extensible, making it an attractive tool for users who demand a large amount of control and flexibility over their text editing environment. Text input is facilitated by a variety of features designed to increase keyboard efficiency. Users can execute complex commands with "key mappings," which can be customized and extended. The "recording" feature allows for the creation of macros to automate sequences of keystrokes and call internal or user-defined functions and mappings. Abbreviations, similar to macros and key mappings, facilitate the expansion of short strings of text into longer ones and can also be used to correct mistakes. Vim also features an "easy" mode for users looking for a simpler text editing solution.
+There are many plugins available that extend or add new functionality to Vim, such as linters, integration with Git, showing colors in CSS. These complex scripts are usually written in Vim's internal scripting language, vimscript (also known as VimL), but can be written in other languages as well.
+There are projects bundling together complex scripts and customizations and aimed at turning Vim into a tool for a specific task or adding a major flavour to its behaviour. Examples include Cream, which makes Vim behave like a click-and-type editor, or VimOutliner, which provides a comfortable outliner for users of Unix-like systems.
+Features and improvements over vi.
+Vim has a vi compatibility mode, but when that mode isn't used, Vim has many enhancements over vi. However, even in compatibility mode, Vim is not entirely compatible with vi as defined in the Single Unix Specification and POSIX (e.g., Vim does not support vi's open mode, only visual mode). Vim's developers state that it is "very much compatible with Vi".
+Some of Vim's enhancements include completion, comparison and merging of files (known as vimdiff), a comprehensive integrated help system, extended regular expressions, scripting languages (both native and through alternative scripting interpreters such as Perl, Python, Ruby, Tcl, etc.) including support for plugins, a graphical user interface (known as gvim), limited integrated development environment-like features, mouse interaction (both with and without the GUI), folding, editing of compressed or archived files in gzip, bzip2, zip, and tar format and files over network protocols such as SSH, FTP, and HTTP, session state preservation, spell checking, split (horizontal and vertical) and tabbed windows, Unicode and other multi-language support, syntax highlighting, trans-session command, search and cursor position histories, multiple level and branching undo/redo history which can persist across editing sessions, and visual mode.
+While running, Vim saves the user's changes in a swap file with the ".swp" extension. The swap file can be used to recover after a crash. If a user tries to open a file and a swap file already exists, Vim will warn the user, and if the user proceeds, Vim will use a swap file with the extension ".swo" (or, if there is already more than one swap file, ".swn", ".swm", etc.). This feature can be disabled.
+Vim script.
+Vim script (also called Vimscript or VimL) is the scripting language built into Vim. Based on the ex editor language of the original vi editor, early versions of Vim added commands for control flow and function definitions. Since version 7, Vim script also supports more advanced data types such as lists and dictionaries and (a simple form of) object-oriented programming. Built-in functions such as codice_4 and codice_5 allow a basic form of functional programming, and Vim script has lambda since version 8.0. Vim script is mostly written in an imperative programming style.
+Vim macros can contain a sequence of "normal-mode" commands, but can also invoke ex commands or functions written in Vim script for more complex tasks. Almost all extensions (called plugins or more commonly scripts) of the core Vim functionality are written in Vim script, but plugins can also utilize other languages like Perl, Python, Lua, Ruby, Tcl, or Racket. These plugins can be installed manually, or through a plugin manager such as Vundle, Pathogen, or Vim-Plug.
+Vim script files are stored as plain text, similarly to other code, and the filename extension is usually codice_6. One notable exception to that is Vim's config file, codice_7.
+Examples.
+" This is the Hello World program in Vim script.
+echo "Hello, world!"
+" This is a simple while loop in Vim script.
+let i = 1
+while i &lt; 5
+ echo "count is" i
+ let i += 1
+endwhile
+unlet i
+Availability.
+Whereas "vi" was originally available only on Unix operating systems, Vim has been ported to many operating systems including AmigaOS (the initial target platform), Atari MiNT, BeOS, DOS, Windows starting from Windows NT 3.1, OS/2, OS/390, MorphOS, OpenVMS, QNX, RISC OS, Linux, BSD, and Classic Mac OS. Also, Vim is shipped with every copy of Apple macOS.
+Independent ports of Vim are available for Android and iOS.
+Neovim.
+Neovim is a forkwith additionsof Vim that strives to improve the extensibility and maintainability of Vim. Neovim has the same configuration syntax as Vim; thus the same configuration file can be used with both editors, although there are minor differences in details of options. If the added features of Neovim are not used, Neovim is compatible with almost all of Vim's features.
+The Neovim project was started in 2014, with some Vim community members offering early support of the high-level refactoring effort to provide better scripting, plugins, and integration with modern GUIs. The project is free software and its source code is available on GitHub.
+Neovim had a successful fundraising in March 2014, supporting at least one full-time developer. Several frontends are under development, making use of Neovim's capabilities.
+The Neovim editor is available in a personal package archive, hosted by Ubuntu and some more conventional package managers, making it possible to install it on a variety of operating systems.
+

@@ -1,0 +1,15 @@
+
+In digital transmission, bit slip is the loss or gain of a bit or bits, caused by clock drift – variations in the respective clock rates of the transmitting and receiving devices.
+One cause of bit slippage is overflow of a receive buffer that occurs when the transmitter's clock rate exceeds that of the receiver. This causes one or more bits to be dropped for lack of storage capacity.
+One way to maintain timing between transmitting and receiving devices is to employ an asynchronous protocol such as start-stop. Alternatively, bit slip can be prevented by using a self-clocking signal (such as a signal modulated using OQPSK) or using a line coding such as Manchester encoding.
+Another cause is "losing count", as on a hard drive: if a hard drive encounters a long string of 0s, without any 1s (or a string of 1s without 0s), it may lose track of the frame between fields, and suffer bit slip.
+When a pulse of N consecutive zero bits are sent, clock drift may cause the hardware to apparently detect N-1 zero bits or N+1 zero bits—both kinds of errors are called bit slip.
+Thus one prevents long strings without change via such devices as run length limited codes.
+Many communication systems use linear-feedback shift register scrambling to prevent long strings of 0s (or other symbol),
+including VSAT, 1000BASE-T, , etc.
+While a scrambler makes the "losing count" type of bit slip error occur far less often,
+when bit slip errors do occur (perhaps for other reasons), 
+scramblers have the property of expanding small errors that add or lose a single bit into a much longer burst of errors.
+The optimized cipher feedback mode (OCFB), the statistical self-synchronization mode, and the "one-bit CFB mode" also expand small bit-slip errors into a longer burst of errors, but eventually recover and produce the correct decrypted plaintext.
+A bit-slip error when using any other block cipher mode of operation generally results in complete corruption of the rest of the message.
+

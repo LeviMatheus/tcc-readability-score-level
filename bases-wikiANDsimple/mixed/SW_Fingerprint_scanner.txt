@@ -1,0 +1,9 @@
+Fingerprint scanners are security systems of biometrics. They are now used in police stations, security industries and, most recently, on computers.
+Every person has marks on his or hers fingers. They can not be removed or changed. These marks have a pattern and this pattern is called the fingerprint. Every fingerprint is special. A person's genes create a fingerprint, which is different from any other in the world. Because there are countless combinations, fingerprints have become an ideal means of identification.
+Types of fingerprint scanners.
+There are two types of fingerprint scanners: the optical scanner and the capacitance scanner. The basic function of these two types of scanners is to get an image of a person’s fingerprint and find a match for this print in the database.
+The capacitance scanner is better, because the imagines are more exact.
+Construction forms.
+There are two construction forms: the stagnant and the moving fingerprint scanner.
+Stagnant: The finger must be dragged over the small scanning area. This form is not as good as the moving form, but it’s cheaper. The image is not very good, because maybe the finger is not regularly dragged over the scanning area.
+Moving: The finger lays on the scanning area, while the scanner runs underneath. Because the scanner runs regularly over the fingerprint, the images are better

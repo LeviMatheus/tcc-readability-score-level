@@ -1,0 +1,50 @@
+
+The system of Hebrew numerals is a quasi-decimal alphabetic numeral system using the letters of the Hebrew alphabet.
+The system was adapted from that of the Greek numerals in the late 2nd century BCE.
+The current numeral system is also known as the "Hebrew alphabetic numerals" to contrast with earlier systems of writing numerals used in classical antiquity. These systems were inherited from usage in the Aramaic and Phoenician scripts, attested from c. 800 BC in the so-called Samaria ostraca and sometimes known as "Hebrew-Aramaic numerals", ultimately derived from the Egyptian Hieratic numerals.
+The Greek system was adopted in Hellenistic Judaism and had been in use in Greece since about the 5th century BC.
+In this system, there is no notation for zero, and the numeric values for individual letters are added together. Each unit (1, 2, ..., 9) is assigned a separate letter, each tens (10, 20, ..., 90) a separate letter, and the first four hundreds (100, 200, 300, 400) a separate letter. The later hundreds (500, 600, 700, 800 and 900) are represented by the sum of two or three letters representing the first four hundreds. To represent numbers from 1,000 to 999,999, the same letters are reused to serve as thousands, tens of thousands, and hundreds of thousands. Gematria (Jewish numerology) uses these transformations extensively.
+In Israel today, the decimal system of Hindu–Arabic numeral system (ex. 0, 1, 2, 3, etc.) is used in almost all cases (money, age, date on the civil calendar). The Hebrew numerals are used only in special cases, such as when using the Hebrew calendar, or numbering a list (similar to a, b, c, d, etc.), much as Roman numerals are used in the West.
+Numbers.
+The Hebrew language has names for common numbers that range from zero to one million. Letters of the Hebrew alphabet are used to represent numbers in a few traditional contexts, for example in calendars. In other situations Hindu–Arabic numeral system numerals are used. Cardinal and ordinal numbers must agree in gender with the noun they are describing. If there is no such noun (e.g. telephone numbers), the feminine form is used. For ordinal numbers greater than ten the cardinal is used and tens above the value 20 have no gender (20, 30, 40, ... are genderless), except if the number have digit 1 at the tens (110, 210, 310, ...).
+Ordinal values.
+Note: For ordinal numbers greater than 10, cardinal numbers are used instead.
+Cardinal values.
+Note: Officially, numbers greater than a million were represented by the long scale; However, since January 21, 2013, the modified short scale (under which the long scale milliard is substituted for the strict short scale billion), which was already the colloquial standard, became official.
+Speaking and writing.
+Cardinal and ordinal numbers must agree in gender (masculine or feminine; mixed groups are treated as masculine) with the noun they are describing. If there is no such noun (e.g. a telephone number or a house number in a street address), the feminine form is used. Ordinal numbers must also agree in number and definite status like other adjectives. The cardinal number precedes the noun (e.g., "shlosha yeladim"), except for the number one which succeeds it (e.g., "yeled echad"). The number two is special: "shnayim" (m.) and "shtayim" (f.) become "shney" (m.) and "shtey" (f.) when followed by the noun they count. For ordinal numbers (numbers indicating position) greater than ten the cardinal is used.
+Calculations.
+The Hebrew numeric system operates on the additive principle in which the numeric values of the letters are added together to form the total. For example, 177 is represented as which (from right to left) corresponds to 100 + 70 + 7 = 177.
+Mathematically, this type of system requires 27 letters (1-9, 10-90, 100-900). In practice the last letter, "tav" (which has the value 400) is used in combination with itself and/or other letters from "qof" (100) onwards, to generate numbers from 500 and above. Alternatively, the 22-letter Hebrew numeral set is sometimes extended to 27 by using 5 "sofit" (final) forms of the Hebrew letters.
+Key exceptions.
+By convention, the numbers 15 and 16 are represented as (9 + 6) and (9 + 7), respectively, in order to refrain from using the two-letter combinations (10 + 5) and (10 + 6), which are alternate written forms for the Name of God in everyday writing. In the calendar, this manifests every full moon, since all Hebrew months start on a new moon (see for example: Tu BiShvat).
+Combinations which would spell out words with negative connotations are sometimes avoided by switching the order of the letters. For instance, 744 which should be written as (meaning "you/it will be destroyed") might instead be written as or (meaning "end to demon").
+Use of final letters.
+The Hebrew numeral system has sometimes been extended to include the five final letter forms— for 500, for 600, for 700, for 800, for 900—which are then used to indicate the numbers from 500 to 900.
+The ordinary additive forms for 500 to 900 are , , , and .
+Gershayim.
+Gershayim (U+05F4 in Unicode, and resembling a double quote mark) (sometimes erroneously referred to as "merkha'ot", which is Hebrew for double quote) are inserted before (to the right of) the last (leftmost) letter to indicate that the sequence of letters represents a number rather than a word. This is used in the case where a number is represented by two or more Hebrew numerals ("e.g.," 28 → ).
+Similarly, a single geresh (U+05F3 in Unicode, and resembling a single quote mark) is appended after (to the left of) a single letter to indicate that the letter represents a number rather than a (one-letter) word. This is used in the case where a number is represented by a single Hebrew numeral ("e.g." 100 → ).
+Note that geresh and gershayim merely indicate ""not a (normal) word." Context usually determines whether they indicate a number or something else (such as "abbreviation"").
+An alternative method found in old manuscripts and still found on modern-day tombstones is to put a dot above each letter of the number.
+Decimals.
+In print, Arabic numerals are employed in Modern Hebrew for most purposes. Hebrew numerals are used nowadays primarily for writing the days and years of the Hebrew calendar; for references to traditional Jewish texts (particularly for Biblical chapter and verse and for Talmudic folios); for bulleted or numbered lists (similar to "A", "B", "C", "etc.", in English); and in numerology (gematria).
+Thousands and date formats.
+Thousands are counted separately, and the thousands count precedes the rest of the number (to the "right", since Hebrew is read from right to left). There are no special marks to signify that the "count" is starting over with thousands, which can theoretically lead to ambiguity, although a single quote mark is sometimes used after the letter. When specifying years of the Hebrew calendar in the present millennium, writers usually omit the thousands (which is presently 5 []), but if they do not this is accepted to mean 5,000, with no ambiguity. The current Israeli coinage includes the thousands.
+Date examples.
+"Monday, 15 Adar 5764" (where 5764 = 5(×1000) + 400 + 300 + 60 + 4, and 15 = 9 + 6):
+"Thursday, 3 Nisan 5767" (where 5767 = 5(×1000) + 400 + 300 + 60 + 7):
+To see how "today's" date in the Hebrew calendar is written, see, for example, Hebcal date converter.
+Recent years.
+5781 (2020–21) = 
+5780 (2019–20) = 
+5779 (2018–19) = 
+5772 (2011–12) = 
+5771 (2010–11) = 
+5770 (2009–10) = 
+5769 (2008–09) = 
+5761 (2000–01) = 
+5760 (1999–2000) = 
+Similar systems.
+The Abjad numerals are equivalent to the Hebrew numerals up to 400. The Greek numerals differ from the Hebrew ones from 90 upwards because in the Greek alphabet there is no equivalent for "tsade" ().
+

@@ -1,0 +1,7 @@
+
+Electro-optics is a branch of electrical engineering, electronic engineering, materials science, and material physics involving components, devices (e.g. Lasers, LEDs, waveguides etc.) and systems which operate by the propagation and interaction of light with various tailored materials. It is essentially the same as what is popularly described today as photonics. It is not only concerned with the "Electro-Optic effect". Thus it concerns the interaction between the electromagnetic (optical) and the electrical (electronic) states of materials.
+Electro-optical devices.
+The electro-optic effect is a change in the optical properties of an optically active material due to interaction with light. This interaction usually results in a change in the birefringence, and not simply the refractive index of the medium.
+In a Kerr cell, the change in birefringence is proportional to the square of the optical electric field, and the material is usually a liquid. In a Pockels cell, the change in birefringence varies linearly with the electric field, and the material is usually a crystal.
+Non-crystalline, solid electro-optical materials have generated interest because of their low cost of production. These organic, polymer-based materials are also known as organic EO material, plastic EO material, or polymer EO material. They consist of nonlinear optical chromophores in a polymer lattice. The nonlinear optical chromophores can produce Pockel's effect.
+

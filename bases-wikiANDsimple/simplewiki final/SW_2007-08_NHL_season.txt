@@ -1,0 +1,10 @@
+=Final standings=.
+"GP = Games Played, W = Wins, L = Losses, OTL = Overtime/Shootout Losses, GF = Goals For, GA = Goals Against, Pts = Points, Rank = Conference rank (division leaders are ranked first to third), Top eight teams in each conference qualified for post-season playoffs."
+Scoring leaders.
+"GP = Games played; G = Goals; A = Assists; Pts = Points; +/– = Plus/Minus; PIM = Penalty Minutes"
+As of the end of the regular season.
+Leading goaltenders.
+"GP = Games Played; TOI = Time On Ice (minutes); W = Wins; L = Losses; OT = Overtime/Shootout Losses; GA = Goals Against; SO = Shutouts; Sv% = Save Percentage; GAA = Goals Against Average"
+As of the end of the regular season.
+Playoff seeds.
+After the 2007–08 NHL regular season, the standard of 16 teams qualified for

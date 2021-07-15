@@ -1,0 +1,1 @@
+A composite number (or simply "composite") is a natural number, that can be gotten by multiplying prime numbers. For example, the number "9" can be gotten by multiplying "3" with "3". Take the number "12". You get it by multiplying "3" with "2" with "2".

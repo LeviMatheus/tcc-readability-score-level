@@ -1,0 +1,1 @@
+The Advanced packaging tool, or APT, is a user interface that works with core libraries to handle the sometimes difficult process of installing software on Linux.

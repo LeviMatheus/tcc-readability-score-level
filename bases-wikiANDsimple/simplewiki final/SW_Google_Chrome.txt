@@ -1,0 +1,7 @@
+Google Chrome is an open source web browser developed by Google. It builds on parts from other open source software, including WebKit and Mozilla.
+The name comes from the graphical user interface frame, or "chrome", of web browsers. The open source project behind Google Chrome is known as "Chromium."
+A beta version for Microsoft Windows was released on 2 September 2008 in 43 languages. Mac OS X and Linux versions are under development and are going to be released after the Windows version.
+Announcement.
+The release announcement was going to be made on 3 September 2008, and a comic by Scott McCloud was to be sent to journalists and bloggers explaining the features of and reasons for the new browser. Copies that were for Europe were shipped early and German blogger Philipp Lenssen of Google Blogoscoped made a scanned copy of the 38-page comic available on his website after receiving it on 1 September 2008. Google then made the comic available on Google Books and their website and referenced it on its official blog along with an explanation for the early release. As of September 2, 2008 Google has a link to Google Chrome on their main page.
+User interface.
+The main User Interface includes back, forward, refresh, bookmark, go and cancel options similar to Safari browser, while the settings location looks like Internet Explorer 7/8. The minimize, maximize and close window buttons are based on Windows Vista

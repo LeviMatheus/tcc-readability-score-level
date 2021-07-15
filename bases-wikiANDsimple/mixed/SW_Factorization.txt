@@ -1,0 +1,6 @@
+Factorization (or factorisation - British) is taking a composite number apart into numbers that multiply together to get the original number. These smaller numbers are called factors or divisors. 1 is a factor of all numbers.
+Prime factorization is breaking apart a composite numbers into prime numbers that can be multiplied to give the larger number. Note that since 1 is not prime, it is not included in the prime factorization.
+For example, 12 can be factorized as 4 × 3. Since 4 is not a prime number, that is not its prime factorization. 12's prime factorization is in fact 3 × 2 × 2.
+Since finding the numbers to multiply together is very difficult for large numbers, this fact can be used in cryptography.
+See also.
+Fundamental theorem of arithmetic

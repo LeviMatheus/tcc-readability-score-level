@@ -1,0 +1,13 @@
+In engineering mechanics, deformation is a change in shape that is result of a force that influences the object.
+It can be a result of tensile (pulling) forces, compressive (pushing) forces, shear, bending or torsion (twisting).
+Types of deformation.
+Depending on the type of material, size and shape of the object, and the forces used, various types of deformation may result.
+Elastic deformation.
+This type of deformation is reversible. Once the forces are no longer applied, the object returns to its original shape. As the name implies, elastic (rubber) has a rather large elastic deformation range. Soft thermoplastics and metals have moderate elastic deformation ranges while ceramics, crystals, and hard thermosetting plastics undergo almost no elastic deformation.
+Metal fatigue.
+A phenomenon only discovered in modern times is metal fatigue, which occurs primarily in ductile metals. It was originally thought that a material deformed only within the elastic range returned completely to its original state once the forces were removed. However, faults are introduced at the molecular level with each deformation. After many deformations, cracks will begin to appear, followed soon after by a fracture, with no apparent plastic deformation in between. Depending on the material, shape, and how close to the elastic limit it is deformed, failure may require thousands, millions, billions, or trillions of deformations.
+Metal fatigue has been a major cause of aircraft failure, especially before the process was well understood.
+Plastic deformation.
+This type of deformation is not reversible. But an object in the plastic deformation range will first have undergone elastic deformation, which is reversible, so the object will return part way to its original shape. Soft thermoplastics have a rather large plastic deformation range as do ductile metals such as copper, silver, and gold. Steel does, too, but not iron. Hard thermosetting plastics, rubber, crystals, and ceramics have minimal plastic deformation ranges. Perhaps the material with the largest plastic deformation range is wet chewing gum, which can be stretched dozens of times its original length.
+Fracture.
+This type of deformation is also not reversible. A break occurs after the material has reached the end of the elastic, and then plastic, deformation ranges. At this point forces accumulate until they are sufficient to cause a fracture. All materials will eventually fracture, if sufficient forces are applied.

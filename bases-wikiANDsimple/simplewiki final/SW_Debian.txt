@@ -1,0 +1,9 @@
+Debian is a GNU/Linux distribution.
+Brief history.
+Debian is a free operating system which combined with Linux kernel (a core of Linux itself) and application software run on its kernel. Debian Linux is also called "GNU/Linux" because most development has done by GNU Project.
+Debian Project has officially started in August 16th, 1993 led by Ian Murdock. He is a computer hacker. Today, in this project, debian is developed by more than 1,000 computer specialists all over the world.
+A name of "Debian" was taken after Ian Murdock and his wife Debra. Some people say or pronounce 'deb-ee-n' but others also say 'de-bi-an' or 'de-bai-an' and in Japan 'de-bi-a-n' and so on.
+Public releases.
+Several versions have been made public. The current version is Debian 4.0 (also known by its codename, Etch).
+See Also.
+List of Linux distributions

@@ -1,0 +1,38 @@
+
+Samuel Loyd (January 30, 1841 – April 10, 1911), was an American chess player, chess composer, puzzle author, and recreational mathematician. Loyd was born in Philadelphia but raised in New York City.
+As a chess composer, he authored a number of chess problems, often with interesting themes. At his peak, Loyd was one of the best chess players in the US, and was ranked 15th in the world, according to chessmetrics.com.
+He played in the strong Paris 1867 chess tournament (won by Ignatz von Kolisch) with little success, placing near the bottom of the field.
+Following his death, his book "Cyclopedia of 5000 Puzzles" was published (1914) by his son. His son, named after his father, dropped the "Jr" from his name and started publishing reprints of his father's puzzles.
+Loyd (senior) was inducted into the US Chess Hall of Fame in 1987.
+Reputation.
+Loyd is widely acknowledged as one of America's great puzzle-writers and popularizers, often mentioned as "the" greatest. Martin Gardner featured Loyd in his August 1957 Mathematical Games column in "Scientific American" and called him "America's greatest puzzler". In 1898, "The Strand" dubbed him "the prince of puzzlers". As a chess problemist, his composing style is distinguished by wit and humour.
+He is also known for lies and self-promotion, however, and criticized on these grounds—Martin Gardner's assessment continues "but also obviously a hustler". Canadian puzzler Mel Stover called Loyd "an old reprobate", and Matthew Costello called him "puzzledom's greatest celebrity ... popularizer, genius", but also a "huckster" and "fast-talking snake oil salesman".
+He collaborated with puzzler Henry Dudeney for a while, but Dudeney broke off the correspondence and accused Loyd of stealing his puzzles and publishing them under his own name. Dudeney despised Loyd so intensely he equated him with the Devil.
+Loyd claimed from 1891 until his death in 1911 that he invented the 15 puzzle, for example writing in the "Cyclopedia of Puzzles" (published 1914), p. 235: "The older inhabitants of Puzzleland will remember how in the early seventies I drove the entire world crazy over a little box of movable pieces which became known as the '14–15 Puzzle'." This is false, as Loyd had nothing to do with the invention or popularity of the puzzle, and the craze was in the early 1880s, not the early 1870s. The craze had ended by July 1880 and Loyd's first article on the subject was not published until 1896. Loyd first claimed in 1891 that he had invented the puzzle, and continued to do so until his death. The actual inventor was Noyes Chapman, who applied for a patent in March 1880.
+An enthusiast of Tangram puzzles, Loyd popularized them with "The Eighth Book Of Tan", a book of seven hundred unique Tangram designs and a fanciful history of the origin of the Tangram, claiming that the puzzle was invented 4,000 years ago by a god named Tan. This was presented as true and has been described as "Sam Loyd's Most Successful Hoax".
+Sam Loyd Award.
+The Sam Loyd Award is given for promoting interest in mechanical puzzles through their design, development, or manufacture. The following individuals have won it:
+Chess problems.
+Excelsior problem.
+One of his best-known chess problems is the following, called "Excelsior" by Loyd after the poem by Henry Wadsworth Longfellow. White is to move and checkmate Black in five moves against any defense:
+Loyd bet a friend that he could not pick a piece that "didn't" give mate in the main line, and when it was published in 1861 it was with the stipulation that White mates with "the least likely piece or pawn".
+Steinitz Gambit problem.
+One of the most famous chess problems by Loyd. He wrote on this problem: "The originality of the problem is due to the White King being placed in absolute safety, and yet coming out on a reckless career, with no immediate threat and in the face of innumerable checks."
+Charles XII problem.
+This problem was originally published in 1859. The story involves an incident during the siege of Charles XII of Sweden by the Turks at Bender in 1713. "Charles beguiled this period by means of drills and chess, and used frequently to play with his minister, Christian Albert Grosthusen, some of the contests being mentioned by Voltaire. One day while so engaged, the game had advanced to this stage, and Charles (White) had just announced mate in three."
+"Scarcely had he uttered the words, when a Turkish bullet, shattering the window, dashed the White knight off of the board in fragments. Grothusen started violently, but Charles, with utmost coolness, begged him to put back the other knight and work out the mate, observing that it was pretty enough. But another glance at the board made Charles smile. We do not need the knight. I can give it to you and still mate in four!" 
+Who would believe it, he had scarcely spoken when another bullet flew across the room, and the pawn at h2 shared the fate of the knight. Grothusen turned pale. "You have our good friends the Turks with you," said the king unconcerned, "it can scarcely be expected that I should contend against such odds; but let me see if I can dispense with that unlucky pawn. I have it!" he shouted with a tremendous laugh, "I have great pleasure in informing you that there is undoubtedly a mate in 5." 
+In 1900, Friedrich Amelung pointed out that in the original position, if the first bullet had struck the rook instead of the knight, Charles would still have a mate in six.
+In 2003, ChessBase posted a fifth variation, attributed to Brian Stewart. After the first bullet took out the knight, if the second had removed the g-pawn rather than the h-pawn, Charles would be able to mate in ten.
+Puzzles.
+Trick Donkeys problem.
+One of Loyd's notable puzzles was the "Trick Donkeys". It was based on a similar puzzle involving dogs published in 1857. In the problem, the solver must cut the drawing along the dotted lines and rearrange the three pieces so that the riders appear to be riding the donkeys.
+Vanishing area puzzle.
+A square with a side length of 8 units ("chessboard") is dissected into four pieces, which can be assembled into a 5x13 rectangle. Since the area of the square is 64 units but the are of the rectangle is 65 units, this seems paradoxical at first. However it is just an optical illusion as the pieces don't fit exactly to form a rectangle, but leave small barely visible gap along the diagonal. This puzzle is also known as the Chessboard paradox or paradox of Loyd and Schlömilch.
+Back from the Klondike.
+This is one of Sam Loyd's most famous puzzles, first printed in the "New York Journal and Advertiser", April 24, 1898 (as far as available evidence indicates). Loyd's original instructions were to: Start from that heart in the center and go three steps in a straight line in any one of the eight directions, north, south, east or west, or on the bias, as the ladies say, northeast, northwest, southeast or southwest. When you have gone three steps in a straight line, you will reach a square with a number on it, which indicates the second day's journey, as many steps as it tells, in a straight line in any of the eight directions. From this new point when reached, march on again according to the number indicated, and continue on, following the requirements of the numbers reached, until you come upon a square with a number which will carry you just one step beyond the border, when you are supposed to be out of the woods and can holler all you want, as you will have solved the puzzle.
+External links.
+Chess
+Interactive puzzle
+Books
+

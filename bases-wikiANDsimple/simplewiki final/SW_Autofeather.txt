@@ -1,0 +1,2 @@
+Autofeather is a feature of the engines on turboprop or piston engine aircraft. When the power being made by the engine falls to the point where it is not helping add to the thrust, the propeller will go into a feathered mode to help lower the amount of drag.
+An automatic feathering system was first brought out into the open on the Martin 4-0-4 aircraft, which was a piston engine airplane. The system was made to automatically feather an engine that failed during takeoff or the initial climb of the plane to its cruising altitude.

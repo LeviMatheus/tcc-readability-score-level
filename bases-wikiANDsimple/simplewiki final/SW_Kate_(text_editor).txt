@@ -1,0 +1,3 @@
+Kate is a text editor for the KDE desktop environment. The name is an acronym for "KDE Advanced Text Editor." It was first put in the KDE 2.2 release, on August 15, 2002.
+Features.
+The "advanced text editor" part of it's name refers to it's many abilities. It can do many more things than a simpler text editor, like Notepad, but it does not have some of the important features of a word processor (compare it with KWord). Some important features of Kate include a checker for proper spelling, a thesaurus, and highlighting of computer programming code.

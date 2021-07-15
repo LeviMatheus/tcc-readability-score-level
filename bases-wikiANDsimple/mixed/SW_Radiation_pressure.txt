@@ -1,0 +1,2 @@
+Radiation pressure is the pressure exerted upon any surface exposed to electromagnetic radiation. If absorbed, the pressure is the energy flux density divided by the speed of light. If the radiation is totally reflected, the radiation pressure is doubled.
+For example, the radiation of the Sun at the Earth has an energy flux density of 1370 W/m2, so the radiation pressure is 4.6 µPa (absorbed).

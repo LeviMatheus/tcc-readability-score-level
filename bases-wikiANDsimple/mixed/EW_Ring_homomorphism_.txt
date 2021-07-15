@@ -1,0 +1,15 @@
+
+In ring theory, a branch of abstract algebra, a ring homomorphism is a structure-preserving function between two rings. More explicitly, if "R" and "S" are rings, then a ring homomorphism is a function such that "f" is
+Additive inverses and the additive identity are part of the structure too, but it is not necessary to require explicitly that they too are respected, because these conditions are consequences of the three conditions above. 
+If in addition "f" is a bijection, then its inverse "f"−1 is also a ring homomorphism. In this case, "f" is called a ring isomorphism, and the rings "R" and "S" are called "isomorphic". From the standpoint of ring theory, isomorphic rings cannot be distinguished.
+If "R" and "S" are rngs, then the corresponding notion is that of a rng homomorphism, defined as above except without the third condition "f"(1"R") = 1"S". A rng homomorphism between (unital) rings need not be a ring homomorphism.
+The composition of two ring homomorphisms is a ring homomorphism. It follows that the class of all rings forms a category with ring homomorphisms as the morphisms (cf. the category of rings).
+In particular, one obtains the notions of ring endomorphism, ring isomorphism, and ring automorphism.
+Properties.
+Let formula_4 be a ring homomorphism. Then, directly from these definitions, one can deduce:
+Moreover,
+The category of rings.
+Monomorphisms and epimorphisms.
+Injective ring homomorphisms are identical to monomorphisms in the category of rings: If is a monomorphism that is not injective, then it sends some "r"1 and "r"2 to the same element of "S". Consider the two maps "g"1 and "g"2 from Z["x"] to "R" that map "x" to "r"1 and "r"2, respectively; and are identical, but since "f" is a monomorphism this is impossible.
+However, surjective ring homomorphisms are vastly different from epimorphisms in the category of rings. For example, the inclusion is a ring epimorphism, but not a surjection. However, they are exactly the same as the strong epimorphisms.
+

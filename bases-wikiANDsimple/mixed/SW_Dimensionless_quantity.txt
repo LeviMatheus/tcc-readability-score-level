@@ -1,0 +1,3 @@
+In dimensional analysis, a dimensionless quantity (or more precisely, a quantity with the dimensions of 1) is a quantity without any physical units and thus a pure number. Such a number is typically defined as a product or ratio of quantities which do have units, in such a way that all the units cancel out.
+Example.
+"out of every 10 apples I gather, 1 is rotten." -- the rotten-to-gathered ratio is (1 apple) / (10 apples) = 0.1 = 10%, which is a dimensionless quantity.

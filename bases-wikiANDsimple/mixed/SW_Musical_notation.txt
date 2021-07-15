@@ -1,0 +1,25 @@
+Music notation or musical notation is a way of writing down music so that anyone can play it. Many systems have been used in the past to write music. Today most musicians in the Western world write musical notes on a stave: five parallel lines with four spaces in between them. However, there are many others, some of which are in use today in different cultures.
+Writing music down makes it possible for a composer who makes up (composes) a piece of music to let other people know how he wants his music to sound. That music can then be played or sung by anybody who can “read music”. If music is not written down, then people can only learn other people’s music by listening to it and trying to copy it. This is how folk music was traditionally learned.
+Cuneiform.
+The earliest kind of musical notation was written on tablets using a way of writing called cuneiform. Music from Nippur from about 2000 B.C. has been found which seems to give an approximate idea of how the music should be played. A tablet from 1250 B.C. has musical notation which shows the names of the strings of a lyre. They are the earliest records we have of written music.
+Ancient Greece.
+Musical notation from Ancient Greece showed the notes in more detail than the earlier cuneiform. It shows the pitch (how high or low the note is) and how long it lasts. It sometimes give an idea of the harmony. It was used from at least the 6th century BC until about the 4th century AD.
+Early European musical notation.
+When music started to be written down in Europe it was music for the Roman Catholic church. The monks who wrote it down used a system of dots and strokes called neumes. They gave an idea of how high or low the notes were, but did not show the length of the notes. They may have been used by people who knew the music already and just needed a reminder of when to go up and down.
+People gradually realized that it was necessary to find a system which showed the exact pitch of the note. The first stave was just one single horizontal line. Gradually this increased to four lines. Guido d’Arezzo, an Italian Benedictine monk who lived in the 11th century developed this system which soon led to the way of writing music that we know. By the 16th century everybody was using the 5 line stave. A system of bars (measures) was used everywhere by the end of the 17th century. At first the bar lines where there to show which notes should be played or sung together. Gradually the system we know today was developed in which each bar lasted the same length of time, and has a particular number of beats (counts) for each bar. By the end of the 17th century this was used by most musicians in European classical music.
+The modern system of musical notation.
+Today we use a five-line staff. The pitch (high or low) is shown by where the note is put on the stave. There may also be sharps or flats in front of some of the notes. The music is read from left to right.
+A staff of written music usually has a clef in front. This shows exactly which notes are to be played. Notes which are very high or low can be put on extra lines called ledger lines above or below the stave.
+After the clef there is usually a key signature which shows the key of the piece: it shows which sharps or flats are to be used regularly.
+After the key signature is the time signature. Bars (measures) divide the piece into regular groupings of beats, and the time signatures show these groupings.
+Above the music there is usually a word, or words, to show the tempo (speed) At various places in the music there will be dynamic marks to show how loud or soft to play.
+For vocal music, words are written underneath the notes.
+When music is played by a large group of instruments such as an orchestra the music is written in a "score". This shows the music played by all the instruments, so there are many staves written underneath one another. The conductor will need to have a score, but the players will play from a “part” which has just the notes that they play. All the parts needed for a piece of music is called a “set of parts”.
+Some other systems.
+Instruments such as guitars often play from a chord chart or just the names of the chords (C7, Em etc) written underneath the music or under the words of a song.
+A system called tonic sol-fa was used by amateur musicians a century ago. This showed the names of the notes of a scale (doh, ray, me etc).
+Lute music in the Renaissance and Baroque periods used to be written in a system called tabulature. Some 20th century composers have also used tabulature.
+Some modern composers such as John Cage have written music by making drawings called graphic notation.
+Music can also be written in Braille for blind musicians.
+Today computers are often used for making music. This has led to other forms of music notation which are used in different systems of software. The MIDI file format, stores information about the pitch, duration, speed, volume etc of notes and can be used to control a MIDI instrument.
+There are other systems in use today for some non-Western music.

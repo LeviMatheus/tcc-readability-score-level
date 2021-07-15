@@ -1,0 +1,179 @@
+
+In programming language theory, lazy evaluation, or call-by-need, is an evaluation strategy which delays the evaluation of an expression until its value is needed (non-strict evaluation) and which also avoids repeated evaluations (sharing). The sharing can reduce the running time of certain functions by an exponential factor over other non-strict evaluation strategies, such as call-by-name, which repeatedly evaluate the same function, blindly, regardless whether the function can be memoized.
+However, for lengthy operations, it would be more appropriate to perform before any time-sensitive operations, such as handling user inputs in a video game.
+The benefits of lazy evaluation include: 
+Lazy evaluation is often combined with memoization, as described in Jon Bentley's "Writing Efficient Programs". After a function's value is computed for that parameter or set of parameters, the result is stored in a lookup table that is indexed by the values of those parameters; the next time the function is called, the table is consulted to determine whether the result for that combination of parameter values is already available. If so, the stored result is simply returned. If not, the function is evaluated and another entry is added to the lookup table for reuse.
+Lazy evaluation can lead to reduction in memory footprint, since values are created when needed. However, lazy evaluation is difficult to combine with imperative features such as exception handling and input/output, because the order of operations becomes indeterminate. Lazy evaluation can introduce memory leaks.
+The opposite of lazy evaluation is eager evaluation, sometimes known as strict evaluation. Eager evaluation is the evaluation strategy employed in most programming languages.
+History.
+Lazy evaluation was introduced for lambda calculus by Christopher Wadsworth and employed by the Plessey System 250 as a critical part of a Lambda-Calculus Meta-Machine, reducing the resolution overhead for access to objects in a capability-limited address space. For programming languages, it was independently introduced by Peter Henderson and James H. Morris and by Daniel P. Friedman and David S. Wise.
+Applications.
+Delayed evaluation is used particularly in functional programming languages. When using delayed evaluation, an expression is not evaluated as soon as it gets bound to a variable, but when the evaluator is forced to produce the expression's value. That is, a statement such as codice_1 (i.e. the assignment of the result of an expression to a variable) clearly calls for the expression to be evaluated and the result placed in codice_2, but what actually is in codice_2 is irrelevant until there is a need for its value via a reference to codice_2 in some later expression whose evaluation could itself be deferred, though eventually the rapidly growing tree of dependencies would be pruned to produce some symbol rather than another for the outside world to see.
+Delayed evaluation has the advantage of being able to create calculable infinite lists without infinite loops or size matters interfering in computation. For example, one could create a function that creates an infinite list (often called a "stream") of Fibonacci numbers. The calculation of the "n"-th Fibonacci number would be merely the extraction of that element from the infinite list, forcing the evaluation of only the first n members of the list.
+For example, in the Haskell programming language, the list of all Fibonacci numbers can be written as:
+ fibs = 0 : 1 : zipWith (+) fibs (tail fibs)
+In Haskell syntax, "codice_5" prepends an element to a list, codice_6 returns a list without its first element, and codice_7 uses a specified function (in this case addition) to combine corresponding elements of two lists to produce a third.
+Provided the programmer is careful, only the values that are required to produce a particular result are evaluated. However, certain calculations may result in the program attempting to evaluate an infinite number of elements; for example, requesting the length of the list or trying to sum the elements of the list with a fold operation would result in the program either failing to terminate or running out of memory.
+Control structures.
+In almost all common "eager" languages, "if" statements evaluate in a lazy fashion.
+ if a then b else c
+evaluates (a), then if and only if (a) evaluates to true does it evaluate (b), otherwise it evaluates (c). That is, either (b) or (c) will not be evaluated. Conversely, in an eager language the expected behavior is that
+ define f(x, y) = 2 * x
+ set k = f(d, e)
+will still evaluate (e) when computing the value of f(d, e) even though (e) is unused in function f. However, user-defined control structures depend on exact syntax, so for example
+ define g(a, b, c) = if a then b else c
+ l = g(h, i, j)
+(i) and (j) would both be evaluated in an eager language. While in a lazy language,
+ l' = if h then i else j
+(i) or (j) would be evaluated, but never both.
+Lazy evaluation allows control structures to be defined normally, and not as primitives or compile-time techniques. If (i) or (j) have side effects or introduce run time errors, the subtle differences between (l) and (l') can be complex. It is usually possible to introduce user-defined lazy control structures in eager languages as functions, though they may depart from the language's syntax for eager evaluation: Often the involved code bodies (like (i) and (j)) need to be wrapped in a function value, so that they are executed only when called.
+Short-circuit evaluation of Boolean control structures is sometimes called "lazy".
+Working with infinite data structures.
+Many languages offer the notion of "infinite data-structures". These allow definitions of data to be given in terms of infinite ranges, or unending recursion, but the actual values are only computed when needed. Take for example this trivial program in Haskell:
+numberFromInfiniteList :: Int -&gt; Int
+numberFromInfiniteList n = infinity !! n - 1
+ where infinity = [1..]
+main = print $ numberFromInfiniteList 4
+In the function , the value of is an infinite range, but until an actual value (or more specifically, a specific value at a certain index) is needed, the list is not evaluated, and even then it is only evaluated as needed (that is, until the desired index.)
+Avoiding excessive effort.
+A compound expression might be in the form "EasilyComputed or LotsOfWork" so that if the easy part gives true a lot of work could be avoided. For instance, suppose a large number N is to be checked to determine if it is a prime number and a function IsPrime(N) is available, but alas, it can require a lot of computation to evaluate. Perhaps "N=2 or [Mod(N,2)≠0 and IsPrime(N)]" will help if there are to be many evaluations with arbitrary values for N.
+Avoidance of error conditions.
+A compound expression might be in the form "SafeToTry and Expression" whereby if "SafeToTry" is false there should be no attempt at evaluating the "Expression" lest a run-time error be signalled, such as divide-by-zero or index-out-of-bounds, etc. For instance, the following pseudocode locates the last non-zero element of an array:
+ L:=Length(A);
+ While L&gt;0 and A(L)=0 do L:=L - 1;
+Should all elements of the array be zero, the loop will work down to L = 0, and in this case the loop must be terminated without attempting to reference element zero of the array, which does not exist.
+Other uses.
+In computer windowing systems, the painting of information to the screen is driven by "expose events" which drive the display code at the last possible moment. By doing this, windowing systems avoid computing unnecessary display content updates.
+Another example of laziness in modern computer systems is copy-on-write page allocation or demand paging, where memory is allocated only when a value stored in that memory is changed.
+Laziness can be useful for high performance scenarios. An example is the Unix mmap function, which provides "demand driven" loading of pages from disk, so that only those pages actually touched are loaded into memory, and unneeded memory is not allocated.
+MATLAB implements "copy on edit", where arrays which are copied have their actual memory storage replicated only when their content is changed, possibly leading to an "out of memory" error when updating an element afterwards instead of during the copy operation.
+Implementation.
+Some programming languages delay evaluation of expressions by default, and some others provide functions or special syntax to delay evaluation. In Miranda and Haskell, evaluation of function arguments is delayed by default. In many other languages, evaluation can be delayed by explicitly suspending the computation using special syntax (as with Scheme's "codice_8" and "codice_9" and OCaml's "codice_10" and "codice_11") or, more generally, by wrapping the expression in a thunk. The object representing such an explicitly delayed evaluation is called a "lazy future." Raku uses lazy evaluation of lists, so one can assign infinite lists to variables and use them as arguments to functions, but unlike Haskell and Miranda, Raku does not use lazy evaluation of arithmetic operators and functions by default.
+Laziness and eagerness.
+Controlling eagerness in lazy languages.
+In lazy programming languages such as Haskell, although the default is to evaluate expressions only when they are demanded, it is possible in some cases to make code more eager—or conversely, to make it more lazy again after it has been made more eager. This can be done by explicitly coding something which forces evaluation (which may make the code more eager) or avoiding such code (which may make the code more lazy). "Strict" evaluation usually implies eagerness, but they are technically different concepts.
+However, there is an optimisation implemented in some compilers called strictness analysis, which, in some cases, allows the compiler to infer that a value will always be used. In such cases, this may render the programmer's choice of whether to force that particular value or not, irrelevant, because strictness analysis will force strict evaluation.
+In Haskell, marking constructor fields strict means that their values will always be demanded immediately. The codice_12 function can also be used to demand a value immediately and then pass it on, which is useful if a constructor field should generally be lazy. However, neither of these techniques implements "recursive" strictness—for that, a function called codice_13 was invented.
+Also, pattern matching in Haskell 98 is strict by default, so the codice_14 qualifier has to be used to make it lazy.
+Simulating laziness in eager languages.
+Java.
+In Java, lazy evaluation can be done by using objects that have a method to evaluate them when the value is needed. The body of this method must contain the code required to perform this evaluation. Since the introduction of lambda expressions in Java SE8, Java has supported a compact notation for this. The following example generic interface provides a framework for lazy evaluation:
+interface Lazy&lt;T&gt; {
+ T eval();
+The codice_15 interface with its codice_16 method is equivalent to the codice_17 interface with its codice_18 method in the codice_19 library.
+Each class that implements the codice_15 interface must provide an codice_21 method, and instances of the class may carry whatever values the method needs to accomplish lazy evaluation. For example, consider the following code to lazily compute and print 210:
+Lazy&lt;Integer&gt; a = ()-&gt; 1;
+for (int i = 1; i &lt;= 10; i++) {
+ final Lazy&lt;Integer&gt; b = a;
+ a = ()-&gt; b.eval() + b.eval();
+System.out.println( "a = " + a.eval() );
+In the above, the variable initially refers to a lazy integer object created by the lambda expression codice_22. Evaluating this lambda expression is equivalent to constructing a new instance of an anonymous class that implements codice_23 with an method returning .
+Each iteration of the loop links to a new object created by evaluating the lambda expression inside the loop. Each of these objects holds a reference to another lazy object, , and has an method that calls codice_24 twice and returns the sum. The variable is needed here to meet Java's requirement that variables referenced from within a lambda expression be final.
+This is an inefficient program because this implementation of lazy integers does not memoize the result of previous calls to . It also involves considerable autoboxing and unboxing. What may not be obvious is that, at the end of the loop, the program has constructed a linked list of 11 objects and that all of the actual additions involved in computing the result are done in response to the call to codice_25 on the final line of code. This call recursively traverses the list to perform the necessary additions.
+We can build a Java class that memoizes a lazy objects as follows:
+class Memo&lt;T&gt; implements Lazy&lt;T&gt; {
+ private Lazy&lt;T&gt; lazy; // a lazy expression, eval sets it to null
+ private T memo = null; // the memorandum of the previous value
+ public Memo( Lazy&lt;T&gt; lazy ) { // constructor
+ this.lazy = lazy;
+ public T eval() {
+ if (lazy != null) {
+ memo = lazy.eval();
+ lazy = null;
+ return memo;
+This allows the previous example to be rewritten to be far more efficient. Where the original ran in time exponential in the number of iterations, the memoized version runs in linear time:
+Lazy&lt;Integer&gt; a = ()-&gt; 1;
+for (int i = 1; i &lt;= 10; i++) {
+ final Lazy&lt;Integer&gt; b = a;
+ a = new Memo&lt;Integer&gt;( ()-&gt; b.eval() + b.eval() );
+System.out.println( "a = " + a.eval() );
+Note that Java's lambda expressions are just syntactic sugar. Anything you can write with a lambda expression can be rewritten as a call to construct an instance of an anonymous inner class implementing the interface, and any use of an anonymous inner class can be rewritten using a named inner class, and any named inner class can be moved to the outermost nesting level.
+JavaScript.
+In JavaScript, lazy evaluation can be simulated by using a generator. For example, the stream of all Fibonacci numbers can be written, using memoization, as:
+ * Generator functions return generator objects, which reify lazy evaluation.
+ * @return {!Generator&lt;bigint&gt;} A non-null generator of integers.
+function* fibonacciNumbers() {
+ let memo = [1n, -1n]; // create the initial state (e.g. a vector of "negafibonacci" numbers)
+ while (true) { // repeat indefinitely
+ memo = [memo[0] + memo[1], memo[0]]; // update the state on each evaluation
+ yield memo[0]; // yield the next value and suspend execution until resumed
+let stream = fibonacciNumbers(); // create a lazy evaluated stream of numbers
+let first10 = Array.from(new Array(10), () =&gt; stream.next().value); // evaluate only the first 10 numbers
+console.log(first10); // the output is [0n, 1n, 1n, 2n, 3n, 5n, 8n, 13n, 21n, 34n]
+Python.
+In Python 2.x the codice_26 function computes a list of integers. The entire list is stored in memory when the first assignment statement is evaluated, so this is an example of eager or immediate evaluation:
+»&gt; r = range(10)
+»&gt; print r
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+»&gt; print r[3]
+3
+In Python 3.x the codice_26 function returns a special range object which computes elements of the list on demand. Elements of the range object are only generated when they are needed (e.g., when codice_28 is evaluated in the following example), so this is an example of lazy or deferred evaluation:
+»&gt; r = range(10)
+»&gt; print(r)
+range(0, 10)
+»&gt; print(r[3])
+3
+In Python 2.x is possible to use a function called codice_29 which returns an object that generates the numbers in the range on demand. The advantage of codice_30 is that generated object will always take the same amount of memory.
+»&gt; r = xrange(10)
+»&gt; print(r)
+xrange(10)
+»&gt; lst = [x for x in r]
+»&gt; print(lst)
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+From version 2.2 forward, Python manifests lazy evaluation by implementing iterators (lazy sequences) unlike tuple or list sequences. For instance (Python 2):
+»&gt; numbers = range(10)
+»&gt; iterator = iter(numbers)
+»&gt; print numbers
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+»&gt; print iterator
+&lt;listiterator object at 0xf7e8dd4c&gt;
+»&gt; print iterator.next()
+0
+.NET Framework.
+In the .NET Framework it is possible to do lazy evaluation using the class System.Lazy&lt;T&gt;. The class can be easily exploited in F# using the lazy keyword, while the force method will force the evaluation. There are also specialized collections like Microsoft.FSharp.Collections.Seq that provide built-in support for lazy evaluation. 
+let fibonacci = Seq.unfold (fun (x, y) -&gt; Some(x, (y, x + y))) (0I,1I)
+fibonacci |&gt; Seq.nth 1000
+In C# and VB.NET, the class System.Lazy&lt;T&gt; is directly used. 
+public int Sum()
+ int a = 0;
+ int b = 0; 
+ Lazy&lt;int&gt; x = new Lazy&lt;int&gt;(() =&gt; a + b);
+ a = 3;
+ b = 5;
+ return x.Value; // returns 8
+Or with a more practical example: 
+// recursive calculation of the n'th fibonacci number
+public int Fib(int n)
+ return (n == 1)? 1 : (n == 2)? 1 : Fib(n-1) + Fib(n-2);
+public void Main()
+ Console.WriteLine("Which Fibonacci number do you want to calculate?");
+ int n = Int32.Parse(Console.ReadLine()); 
+ Lazy&lt;int&gt; fib = new Lazy&lt;int&gt;(() =&gt; Fib(n)); // function is prepared, but not executed
+ bool execute; 
+ if (n &gt; 100)
+ Console.WriteLine("This can take some time. Do you really want to calculate this large number? [y/n]");
+ execute = (Console.ReadLine() == "y"); 
+ else execute = true;
+ if (execute) Console.WriteLine(fib.Value); // number is only calculated if needed
+Another way is to use the yield keyword: 
+// eager evaluation 
+public IEnumerable&lt;int&gt; Fibonacci(int x)
+ IList&lt;int&gt; fibs = new List&lt;int&gt;();
+ int prev = -1;
+ int next = 1;
+ for (int i = 0; i &lt; x; i++)
+ int sum = prev + next;
+ prev = next;
+ next = sum;
+ fibs.Add(sum); 
+ return fibs;
+// lazy evaluation 
+public IEnumerable&lt;int&gt; LazyFibonacci(int x)
+ int prev = -1;
+ int next = 1;
+ for (int i = 0; i &lt; x; i++)
+ int sum = prev + next;
+ prev = next;
+ next = sum;
+ yield return sum;
+

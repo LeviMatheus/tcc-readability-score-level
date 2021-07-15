@@ -1,0 +1,18 @@
+
+In topology, the Tietze extension theorem (also known as the Tietze–Urysohn–Brouwer extension theorem) states that continuous functions on a closed subset of a normal topological space can be extended to the entire space, preserving boundedness if necessary.
+Formal statement.
+If "X" is a normal topological space and
+is a continuous map from a closed subset "A" of "X" into the real numbers carrying the standard topology, then there exists a continuous map
+with "F"("a") = "f"("a") for all "a" in "A". Moreover, "F" may be chosen such that formula_3, i.e., if "f" is bounded, "F" may be chosen to be bounded (with the same bound as "f"). "F" is called a "continuous extension" of "f".
+History.
+L. E. J. Brouwer and Henri Lebesgue proved a special case of the theorem, when "X" is a finite-dimensional real vector space. Heinrich Tietze extended it to all metric spaces, and Paul Urysohn proved the theorem as stated here, for normal topological spaces.
+Equivalent statements.
+This theorem is equivalent to Urysohn's lemma (which is also equivalent to the normality of the space) and is widely applicable, since all metric spaces and all compact Hausdorff spaces are normal. It can be generalized by replacing R with R"J" for some indexing set "J", any retract of R"J", or any normal absolute retract whatsoever.
+Variations.
+If "X" is a metric space, "A" a non-empty subset of "X" and formula_1 is a Lipschitz continuous function with Lipschitz constant "K", then "f" can be extended to a Lipschitz continuous function formula_2 with same constant "K".
+This theorem is also valid for Hölder continuous functions, that is, if formula_1 is Hölder continuous function with constant less than or equal to 1, then "f" can be extended to a Hölder continuous function formula_2 with the same constant.
+Another variant (in fact, generalization) of Tietze's theorem is due to Z. Ercan:
+Let "A" be a closed subset of a topological space "X". If formula_8 is an upper-semicontinuous function, formula_9, is a lower-semicontinuous function, and formula_10 a continuous function such that "f"("x") ≤ "g"("x") for each "x" in "X" and "f"("a") ≤ "h"("a") ≤ "g"("a") for each "a" in "A", then there is a continuous
+extension formula_11 of "h" such that "f"("x") ≤ "H"("x") ≤ "g"("x") for each "x" in "X".
+This theorem is also valid with some additional hypothesis if R is replaced by a general locally solid Riesz space.
+

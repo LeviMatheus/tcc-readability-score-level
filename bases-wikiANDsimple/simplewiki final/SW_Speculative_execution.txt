@@ -1,0 +1,3 @@
+In computer science, speculative execution is the execution of code, before being sure if the result will be needed.
+The technique is used in most high-performance microprocessors to execute a complete instructions or parts of instructions before being sure whether this execution is required
+In the context of functional programming, the term "speculative evaluation" is used instead.

@@ -1,0 +1,15 @@
+
+A polyatomic ion, also known as a molecular ion, is a covalently bonded set of two or more atoms, or of a metal complex, that can be considered to behave as a single unit and that has a net charge that is not zero. Unlike a molecule, which has a net charge of zero, this chemical species is an ion. (The prefix "poly-" carries the meaning "many" in Greek, but even ions of two atoms are commonly described as polyatomic.)
+In older literature, a polyatomic ion may instead be referred to as a "radical" (or less commonly, as a "radical group"). (In contemporary usage, the term "radical" refers to various free radicals, which are species that have an unpaired electron and need not be charged.)
+A simple example of a polyatomic ion is the hydroxide ion, which consists of one oxygen atom and one hydrogen atom, jointly carrying a net charge of −1; its chemical formula is . In contrast, an ammonium ion consists of one nitrogen atom and ‘’four’’ hydrogen atoms, with a charge of +1; its chemical formula is .
+Polyatomic ions often are useful in the context of acid–base chemistry and in the formation of salts. 
+Often, a polyatomic ion can be considered as the conjugate acid or base of a neutral molecule. For example, the conjugate base of sulfuric acid (H2SO4) is the polyatomic hydrogen sulfate anion (). The removal of another hydrogen ion produces the sulfate anion ().
+Nomenclature of polyatomic anions.
+There are two "rules" that can be used for learning the nomenclature of polyatomic anions. First, when the prefix "bi" is added to a name, a hydrogen is added to the ion's formula and its charge is increased by 1, the latter being a consequence of the hydrogen ion's +1 charge. An alternative to the "bi-" prefix is to use the word hydrogen in its place: the anion derived from + , , can be called either bicarbonate or hydrogencarbonate.
+Most of the common polyatomic anions are oxyanions, conjugate bases of oxyacids (acids derived from the oxides of non-metallic elements). For example, the sulfate anion, , is derived from , which can be regarded as + .
+The second rule looks at the number of oxygens in an ion. Consider the chlorine oxyanion family:
+First, think of the "-ate" ion as being the "base" name, in which case the addition of a "per-" prefix adds an oxygen. Changing the "-ate" suffix to "-ite" will reduce the oxygens by one, and keeping the suffix "-ite" and adding the prefix "hypo-" reduces the number of oxygens by one more. In all situations, the charge is not affected. The naming pattern follows within many different oxyanion series based on a standard root for that particular series. The "-ite" has one less oxygen than the "-ate", but different "-ate" anions might have different numbers of oxygen atoms.
+These rules do not work with all polyatomic anions, but they do work with the most common ones. Following table give examples for some of these common anion groups.
+Other examples of common polyatomic ions.
+The following tables give additional examples of commonly encountered polyatomic ions. Only a few representatives are given, as the number of polyatomic ions encountered in practice is very large.
+

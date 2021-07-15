@@ -1,0 +1,159 @@
+
+In mathematics, the tensor product of two vector spaces and (over the same field) is a vector space which can be thought of as the "space of all tensors" that can be built from vectors from its constituent spaces using an additional operation which can be considered as a generalization and abstraction of the outer product. Because of the connection with tensors, which are the elements of a tensor product, tensor products find uses in many areas of application including in physics and engineering, though the full theoretical mechanics of them described below may not be commonly cited there. For example, in general relativity, the gravitational field is described through the metric tensor, which is a field (in the sense of physics) of tensors, one at each point in the space-time manifold, and each of which lives in the tensor self-product of tangent spaces "T"x"M" at its point of residence on the manifold (such a collection of tensor products attached to another space is called a tensor bundle).
+Tensors in finite dimensions, and the outer product.
+The concept of tensor product generalizes the idea of forming tensors from vectors using the outer product, which is an operation that can be defined in finite-dimensional vector spaces using matrices: given two vectors v ∈ "V" and w ∈ "W" written in terms of components, i.e.
+and
+their outer or "Kronecker product" is given by
+or, in terms of elements, the "i""j"-th component is
+The matrix formed this way corresponds naturally to a tensor, where such is understood as a multilinear functional, by sandwiching it with matrix multiplication between a vector and its dual, or transpose:
+It is important to note that the tensor, as written, takes two "dual" vectors - this is an important point that will be dealt with later. In the case of finite dimensions, there is not a strong distinction between a space and its dual, however, it does matter in infinite dimensions and, moreover, getting the regular-vs-dual part right is essential to ensuring that the idea of tensors being developed here corresponds correctly to other senses in which they are viewed, such as in terms of transformations, which is common in physics.
+The tensors constructed this way generate a vector space themselves when we add and scale them in the natural componentwise fashion and, in fact, "all" multilinear functionals of the type given can be written as some sum of outer products, which we may call pure tensors or simple tensors. This is sufficient to define the tensor product when we can write vectors and transformations in terms of matrices, however, to get a fully general operation, a more abstract approach will be required. Especially, we would like to isolate the "essential features" of the tensor product without having to specify a particular basis for its construction, and that is what we will do in the following sections.
+Abstracting the tensor product.
+To achieve that aim, the most natural way to proceed is to try and isolate an essential characterizing property which will describe, out of all possible vector spaces we could build from "V" and "W", the one which (up to isomorphism) is their tensor product, and which will apply without consideration of any arbitrary choices such as a choice of basis. And the way to do this is to flip the tensor concept "inside out" - instead of viewing the tensors as an object which "acts upon" vectors in the manner of a bilinear map, we will view them instead as objects "to be acted upon" to "produce" a bilinear map. The trick is in recognizing that the Kronecker product "preserves all the information" regarding which vectors went into it: the ratios of vector components can be derived from
+and from those ratios, the individual components themselves recovered. As a result, a single Kronecker outer product can be used in lieu of the pair (v, w) of vectors that formed it, and conversely. Most importantly, this means we can write any "bilinear" map "f": "V" × "W" → "Z", for any third vector space "Z", as a "unilinear" map "f"T: "V" ⊗ "W" → "Z" where
+The "universal property", then, is that if we have the combining operation ⊗, and we are given any bilinear map of the form mentioned, there is "exactly one" such "f"T that meets this requirement. This is not hard to see if we expand in terms of bases, but the more important point of it is that it can be used as a way to characterize the tensor product - that is, we can use it to "define" the tensor product axiomatically with no reference to such. However, before we can do that, we first need to show that the tensor product exists and is unique for "all" vector spaces "V" and "W" and, to do that, we need a construction.
+The constructive tensor product.
+The free vector space.
+To perform such a construction, the first step we will consider involves introducing something called a "free vector space" over a given set. The thrust behind this idea basically consists of trying to consists of what we said in the first section above: since a generic tensor formula_8 can be written by the double sum
+the most natural way to approach this problem is somehow to figure out how we can "forget" about the specific choice of bases formula_10 and formula_11 that are used here. In mathematics, the way we "forget" about representational details of something is to establish an identification that tells us that two different things that are to be considered representations of the same thing are in fact such, i.e. which, given those says either "yes, they are" or "no, they aren't", and then "lump together" all representations as constituting the "thing represented" without reference to any one in particular by packaging them all together into a single set. In formal terms, we first build an equivalence relation, and then take the quotient set by that relation.
+But before we can do that, we first need to develop what we are going to take the equivalence relation over. The way we do that is to approach this the other way around, from the "bottom up": since we are not guaranteed a, at least constructible, basis when starting from arbitrary vector spaces, we might instead try to start by guaranteeing we have one—that is, we will start first by considering a "basis", on its own, as given, and then building the vector space on top. To that end, we accomplish the following: suppose that formula_12 is some set, which we could call an "abstract basis set". Now consider all "formal" expressions of the form
+of arbitrary, but finite, length formula_14 and for which formula_15 are scalars and formula_16 are members of formula_12. Intuitively, this is a linear combination of the basis vectors in the usual sense of expanding an element of a vector space. We call this a "formal expression" because technically it is illegal to multiply formula_18 since there is no defined multiplication operation by default on an arbitrary set and arbitrary field of scalars. Instead, we will "pretend" (similar to defining the imaginary numbers) that this refers to something, and then will go about manipulating it according to the rules we expect for a vector space, e.g. the sum of two such strings using the same sequence of members of formula_12 is
+where we have used the associative, commutative, and distributive laws to rearrange the first sum into the second. Continuing this way for scalar multiples and all different-length combinations of vectors allows us to build up a vector addition and scalar multiplication on this set of formal expressions, and we call it the free vector space over formula_12, writing formula_22. Note that the elements of formula_12, considered as length-one formal expressions with coefficient 1 out front, form a Hamel basis for this space.
+The tensor product expression is then abstracted by considering that if formula_16 and formula_25 represent "abstract basis vectors" from two sets formula_12 and formula_27, i.e. that "formula_28" and "formula_29", then pairs of these in the Cartesian product formula_30, i.e. formula_31 are taken as standing for the tensor products formula_32. (Note that the tensor products in the expression are in some sense "atomic", i.e. additions and scalar multiplications do not split them up into anything else, so we can replace them with something different without altering the mathematical structure.) With such an identification, we can thus define the tensor product of two free vector spaces formula_22 and formula_34 as being something (yet to be decided) that is isomorphic to formula_35.
+The equivalence relation.
+The above definition will work for any vector space in which we "can" specify a basis, since we can just rebuild it as the free vector space over that basis: the above construction exactly mirrors how you represent vectors via the Hamel basis construction by design. In effect, we haven't gained anything ... until we do this.
+Now, we are not assuming access to bases for vector spaces formula_36 and formula_37 that we want to form the tensor product formula_38 of. Instead, we will take "all" of formula_36 and formula_37 as "basis" to build up the tensors. This is the next best thing and the one thing we are "guaranteed" to be able to do, regardless of any concerns in finding a specific basis; this corresponds to adding together arbitrary outer products formula_41 of arbitrary vectors in the last part of the "Intuitive motivation" section. The only difference here is that if we use the free vector space construction and form the obvious formula_42, it will have many redundant versions of what should be the same tensor; going back to our basisful case if we consider the example where formula_43 in the standard basis, we may consider that the tensor formed by the vectors formula_44 and formula_45, i.e.
+could "also" be represented by other sums, such as the sum using individual basic tensors formula_47, e.g.
+These, while equal expressions in the concrete case, would correspond to distinct elements of the free vector space formula_49, namely
+in the first case and
+in the second case. Thus we must condense them—this is where the equivalence relation comes into play. The trick to building it is to note that given any vector formula_52 in a vector space, it is always possible to represent it as the sum of two other vectors formula_53 and formula_54 not equal to the original. If nothing else, let formula_53 be any vector and then take formula_56—which also shows that if we are given one vector and then a second vector, we can write the first vector in terms of the second together with a suitable third vector (indeed in many ways—just consider scalar multiples of the second vector in the same subtraction.).
+This is useful to us because the outer product satisfies the following linearity properties, which can be proven by simple algebra on the corresponding matrix expressions:
+If we want to relate the outer product formula_41 to, say, formula_59, we can use the first relation above together with a suitable expression of formula_60 as a sum of some vector and some scalar multiple of formula_61.
+Equality between two concrete tensors is then obtained if using the above rules will permit us to rearrange one sum of outer products into the other by suitably decomposing vectors—regardless of if we have a set of actual basis vectors. Applying that to our example above, we see that of course we have
+for which substitution in
+gives us
+and judicious use of the distributivity properties lets us rearrange to the desired form. Likewise, there is a corresponding "mirror" manipulation in terms of the free vector space elements formula_65 and formula_66, formula_67, etc., and this finally leads us to the formal definition of the tensor product.
+Putting all the construction together.
+The abstract tensor product of two vector spaces formula_36 and formula_37 over a common base field formula_70 is the quotient vector space
+where formula_72 is the equivalence relation of "formal equality" generated by assuming that, for each formula_73 and formula_74 taken as formal expressions in the free vector space formula_49, the following hold:
+and then testing equivalence of generic formal expressions through suitable manipulations based thereupon. Arithmetic is defined on the tensor product by choosing representative elements, applying the arithmetical rules, and finally taking the equivalence class. Moreover, given any two vectors formula_86 and formula_87, the equivalence class formula_88 is denoted formula_89.
+Properties.
+Notation.
+Elements of are often referred to as "tensors", although this term refers to many other related concepts as well. If belongs to and belongs to , then the equivalence class of is denoted by , which is called the tensor product of with . In physics and engineering, this use of the symbol refers specifically to the outer product operation; the result of the outer product is one of the standard ways of representing the equivalence class . An element of that can be written in the form is called a "pure" or "simple tensor". In general, an element of the tensor product space is not a pure tensor, but rather a finite linear combination of pure tensors. For example, if and are linearly independent, and and are also linearly independent, then cannot be written as a pure tensor. The number of simple tensors required to express an element of a tensor product is called the tensor rank (not to be confused with tensor order, which is the number of spaces one has taken the product of, in this case 2; in notation, the number of indices), and for linear operators or matrices, thought of as tensors (elements of the space ), it agrees with matrix rank.
+Dimension.
+Given bases and for and respectively, the tensors form a basis for . Therefore, if and are finite-dimensional, the dimension of the tensor product is the product of dimensions of the original spaces; for instance is isomorphic to .
+Tensor product of linear maps.
+The tensor product also operates on linear maps between vector spaces. Specifically, given two linear maps and between vector spaces, the "tensor product of the two linear maps" and is a linear map
+defined by
+In this way, the tensor product becomes a bifunctor from the category of vector spaces to itself, covariant in both arguments.
+If and are both injective, surjective or (in the case that , , , and are normed vector spaces or topological vector spaces) continuous, then is injective, surjective or continuous, respectively.
+By choosing bases of all vector spaces involved, the linear maps and can be represented by matrices. Then, depending on how the tensor formula_89 is vectorized, the matrix describing the tensor product is the Kronecker product of the two matrices. For example, if , and above are all two-dimensional and bases have been fixed for all of them, and and are given by the matrices
+respectively, then the tensor product of these two matrices is
+The resultant rank is at most 4, and thus the resultant dimension is 4. Note that "rank" here denotes the tensor rank i.e. the number of requisite indices (while the matrix rank counts the number of degrees of freedom in the resulting array). Note formula_95. 
+A dyadic product is the special case of the tensor product between two vectors of the same dimension.
+Universal property.
+In the context of vector spaces, the tensor product formula_38 and the associated bilinear map formula_97 are characterized up to isomorphism by a universal property regarding bilinear maps. (Recall that a bilinear map is a function that is "separately" linear in each of its arguments.) Informally, formula_98 is the most general bilinear map out of formula_99.
+This characterization can simplify proofs about the tensor product. For example, the tensor product is symmetric, meaning there is a canonical isomorphism:
+To construct, say, a map from formula_38 to formula_102, it suffices to give a bilinear map formula_103 that maps formula_104 to formula_105. Then the universal property of formula_38 means formula_107 factors into a map formula_108.
+A map formula_109 in the opposite direction is similarly defined, and one checks that the two linear maps formula_110 and formula_111 are inverse to one another by again using their universal properties.
+The universal property is extremely useful in showing that a map to a tensor product is injective. For example, suppose we want to show that formula_112 is isomorphic to formula_113. Since all simple tensors are of the form formula_114, and hence all elements of the tensor product are of the form formula_115 by additivity in the first coordinate, we have a natural candidate for an isomorphism formula_116 given by mapping formula_117 to formula_115, and this map is trivially surjective.
+Showing injectivity directly would involve somehow showing that there are no non-trivial relationships between formula_115 and formula_120 for formula_121, which seems daunting. However, we know that there is a bilinear map formula_122 given by multiplying the coordinates together, and the universal property of the tensor product then furnishes a map of vector spaces formula_123 which maps formula_115 to formula_117, and hence is an inverse of the previously constructed homomorphism, immediately implying the desired result. Note that, a priori, it is not even clear that this inverse map is well-defined, but the universal property and associated bilinear map together imply this is the case.
+Similar reasoning can be used to show that the tensor product is associative, that is, there are natural isomorphisms
+Therefore, it is customary to omit the parentheses and write formula_127.
+The category of vector spaces with tensor product is an example of a symmetric monoidal category.
+The universal-property definition of a tensor product is valid in more categories than just the category of vector spaces. Instead of using multilinear (bilinear) maps, the general tensor product definition uses multimorphisms.
+Tensor powers and braiding.
+Let be a non-negative integer. The th tensor power of the vector space is the -fold tensor product of with itself. That is
+A permutation of the set determines a mapping of the th Cartesian power of as follows:
+Let
+be the natural multilinear embedding of the Cartesian power of into the tensor power of . Then, by the universal property, there is a unique isomorphism
+such that
+The isomorphism is called the braiding map associated to the permutation .
+Product of tensors.
+For non-negative integers and a type tensor on a vector space is an element of
+Here is the dual vector space (which consists of all linear maps from to the ground field ).
+There is a product map, called the "(tensor) product of tensors"
+It is defined by grouping all occurring "factors" together: writing for an element of and for an element of the dual space,
+Picking a basis of and the corresponding dual basis of naturally induces a basis for (this basis is described in the article on Kronecker products). In terms of these bases, the components of a (tensor) product of two (or more) tensors can be computed. For example, if and are two covariant tensors of orders and respectively (i.e. , and ), then the components of their tensor product are given by
+Thus, the components of the tensor product of two tensors are the ordinary product of the components of each tensor. Another example: let be a tensor of type with components , and let be a tensor of type with components . Then
+and
+Tensors equipped with their product operation form an algebra, called the tensor algebra.
+Evaluation map and tensor contraction.
+For tensors of type there is a canonical evaluation map
+defined by its action on pure tensors:
+More generally, for tensors of type , with , there is a map, called tensor contraction,
+On the other hand, if is "finite-dimensional", there is a canonical map in the other direction (called the coevaluation map)
+where is any basis of , and is its dual basis. This map does not depend on the choice of basis.
+The interplay of evaluation and coevaluation can be used to characterize finite-dimensional vector spaces without referring to bases.
+Adjoint representation.
+The tensor product formula_143 may be naturally viewed as a module for the Lie algebra by means of the diagonal action: for simplicity let us assume , then, for each ,
+where in is the transpose of , that is, in terms of the obvious pairing on ,
+There is a canonical isomorphism formula_146 given by
+Under this isomorphism, every in may be first viewed as an endomorphism of formula_148 and then viewed as an endomorphism of . In fact it is the adjoint representation of .
+Relation of tensor product to Hom.
+Given two finite dimensional vector spaces , over the same field , denote the dual space of as , and the -vector space of all linear maps from to as . There is an isomorphism,
+defined by an action of the pure tensor formula_150 on an element of formula_151,
+Its "inverse" can be defined using a basis formula_153 and its dual basis formula_154 as in the section "Evaluation map and tensor contraction" above:
+This result implies
+which automatically gives the important fact that formula_157 forms a basis for formula_158 where formula_159 are bases of and .
+Furthermore, given three vector spaces , , the tensor product is linked to the vector space of "all" linear maps, as follows:
+This is an example of adjoint functors: the tensor product is "left adjoint" to Hom.
+Tensor products of modules over a ring.
+The tensor product of two modules and over a "commutative" ring is defined in exactly the same way as the tensor product of vector spaces over a field:
+where now is the free -module generated by the cartesian product and is the -module generated by the same relations as above.
+More generally, the tensor product can be defined even if the ring is non-commutative. In this case has to be a right--module and is a left--module, and instead of the last two relations above, the relation
+is imposed. If is non-commutative, this is no longer an -module, but just an abelian group.
+The universal property also carries over, slightly modified: the map defined by is a middle linear map (referred to as "the canonical middle linear map".); that is, it satisfies:
+The first two properties make a bilinear map of the abelian group . For any middle linear map of , a unique group homomorphism of satisfies , and this property determines formula_164 within group isomorphism. See the main article for details.
+Tensor product of modules over a non-commutative ring.
+Let "A" be a right "R"-module and "B" be a left "R"-module. Then the tensor product of "A" and "B" is an abelian group defined by
+where formula_166 is a free abelian group over formula_167 and G is the subgroup of formula_166 generated by relations
+The universal property can be stated as follows. Let "G" be an abelian group with a map formula_170 that is bilinear, in the sense that
+Then there is a unique map formula_172 such that formula_173 for all formula_174 and formula_175.
+Furthermore, we can give formula_176 a module structure under some extra conditions:
+Computing the tensor product.
+For vector spaces, the tensor product is quickly computed since bases of of immediately determine a basis of , as was mentioned above. For modules over a general (commutative) ring, not every module is free. For example, is not a free abelian group (-module). The tensor product with is given by
+More generally, given a presentation of some -module , that is, a number of generators together with relations
+the tensor product can be computed as the following cokernel:
+Here , and the map is determined by sending some in the th copy of to (in ). Colloquially, this may be rephrased by saying that a presentation of gives rise to a presentation of . This is referred to by saying that the tensor product is a right exact functor. It is not in general left exact, that is, given an injective map of -modules , the tensor product
+is not usually injective. For example, tensoring the (injective) map given by multiplication with , with yields the zero map , which is not injective. Higher Tor functors measure the defect of the tensor product being not left exact. All higher Tor functors are assembled in the derived tensor product.
+Tensor product of algebras.
+Let be a commutative ring. The tensor product of -modules applies, in particular, if and are -algebras. In this case, the tensor product is an -algebra itself by putting
+For example,
+A particular example is when and are fields containing a common subfield . The tensor product of fields is closely related to Galois theory: if, say, , where is some irreducible polynomial with coefficients in , the tensor product can be calculated as
+where now is interpreted as the same polynomial, but with its coefficients regarded as elements of . In the larger field , the polynomial may become reducible, which brings in Galois theory. For example, if is a Galois extension of , then
+is isomorphic (as an -algebra) to the .
+Eigenconfigurations of tensors.
+Square matrices formula_193 with entries in a field formula_70 represent linear maps of vector spaces, say formula_195, and thus linear maps formula_196 of projective spaces over formula_70. If formula_193 is nonsingular then formula_199 is well-defined everywhere, and the eigenvectors of formula_193 correspond to the fixed points of formula_199. The "eigenconfiguration" of formula_193 consists of formula_14 points in formula_204, provided formula_193 is generic and formula_70 is algebraically closed. The fixed points of nonlinear maps are the eigenvectors of tensors. Let formula_207 be a formula_208-dimensional tensor of format formula_209 with entries formula_210 lying in an algebraically closed field formula_70 of characteristic zero. Such a tensor formula_212 defines polynomial maps formula_195 and formula_214 with coordinates
+Thus each of the formula_14 coordinates of formula_199 is a homogeneous polynomial formula_218 of degree formula_219 in formula_220. The eigenvectors of formula_193 are the solutions of the constraint
+and the eigenconfiguration is given by the variety of the formula_223 minors of this matrix.
+Other examples of tensor products.
+Tensor product of Hilbert spaces.
+Hilbert spaces generalize finite-dimensional vector spaces to countably-infinite dimensions. The tensor product is still defined; it is the tensor product of Hilbert spaces.
+Topological tensor product.
+When the basis for a vector space is no longer countable, then the appropriate axiomatic formalization for the vector space is that of a topological vector space. The tensor product is still defined, it is the topological tensor product.
+Tensor product of graded vector spaces.
+Some vector spaces can be decomposed into direct sums of subspaces. In such cases, the tensor product of two spaces can be decomposed into sums of products of the subspaces (in analogy to the way that multiplication distributes over addition).
+Tensor product of representations.
+Vector spaces endowed with an additional multiplicative structure are called algebras. The tensor product of such algebras is described by the Littlewood–Richardson rule.
+Tensor product of multilinear forms.
+Given two multilinear forms formula_224 and formula_225 on a vector space formula_36 over the field formula_70 their tensor product is the multilinear form
+This is a special case of the product of tensors if they are seen as multilinear maps (see also tensors as multilinear maps). Thus the components of the tensor product of multilinear forms can be computed by the Kronecker product.
+Tensor product of graphs.
+It should be mentioned that, though called "tensor product", this is not a tensor product of graphs in the above sense; actually it is the category-theoretic product in the category of graphs and graph homomorphisms. However it is actually the Kronecker tensor product of the adjacency matrices of the graphs. Compare also the section Tensor product of linear maps above.
+Monoidal categories.
+The most general setting for the tensor product is the monoidal category. It captures the algebraic essence of tensoring, without making any specific reference to what is being tensored. Thus, all tensor products can be expressed as an application of the monoidal category to some particular setting, acting on some particular objects.
+Quotient algebras.
+A number of important subspaces of the tensor algebra can be constructed as quotients: these include the exterior algebra, the symmetric algebra, the Clifford algebra, the Weyl algebra, and the universal enveloping algebra in general.
+The exterior algebra is constructed from the exterior product. Given a vector space , the exterior product formula_229 is defined as
+Note that when the underlying field of does not have characteristic 2, then this definition is equivalent to
+The image of formula_232 in the exterior product is usually denoted formula_233 and satisfies, by construction, formula_234. Similar constructions are possible for formula_235 ( factors), giving rise to formula_236, the th exterior power of . The latter notion is the basis of differential -forms.
+The symmetric algebra is constructed in a similar manner, from the symmetric product
+More generally
+That is, in the symmetric algebra two adjacent vectors (and therefore all of them) can be interchanged. The resulting objects are called symmetric tensors.
+Tensor product in programming.
+Array programming languages.
+Array programming languages may have this pattern built in. For example, in APL the tensor product is expressed as codice_1 (for example codice_2 or codice_3). In J the tensor product is the dyadic form of codice_4 (for example codice_5 or codice_6).
+Note that J's treatment also allows the representation of some tensor fields, as codice_7 and codice_8 may be functions instead of constants. This product of two functions is a derived function, and if codice_7 and codice_8 are differentiable, then codice_5 is differentiable.
+However, these kinds of notation are not universally present in array languages. Other array languages may require explicit treatment of indices (for example, MATLAB), and/or may not support higher-order functions such as the Jacobian derivative (for example, Fortran/APL).
+

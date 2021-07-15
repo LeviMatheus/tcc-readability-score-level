@@ -1,0 +1,4 @@
+
+Among programmers, yet another (often abbreviated ya, Ya, or YA in the initial part of an acronym) is an idiomatic qualifier in the name of a computer program, organisation, or event that is confessedly unoriginal.
+Stephen C. Johnson is credited with establishing the naming convention in the late 1970s when he named his compiler-compiler yacc (Yet Another Compiler-Compiler), since he felt there were already numerous compiler-compilers in circulation at the time.
+

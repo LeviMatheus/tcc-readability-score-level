@@ -1,0 +1,30 @@
+
+The Syrian Ministry of Communications retains governmental authority over the internet in Syria. Prior to the Syrian civil war, telecommunications in Syria were slowly moving towards liberalization, with a number of licenses awarded and services launched in the Internet service provision market. The initiative reflected the government's change in attitude towards liberalization, following its promise to the European Union to liberalize markets by 2010. All other forms of fixed-line communications are provided by the state owned operator, Syrian Telecom (STE).
+Telecommunications system.
+International dialing code: +963
+Landline telephones in use in 2009: 4,069,000.
+Mobile phones in use in 2009: 11,696,000. The mobile operators are Syriatel &lt;https://web.archive.org/web/20190427175143/http://www.syriatel.sy/&gt; and MTN &lt;http://www.mtn.com.sy&gt;. There is mobile phone coverage in most parts of Syria providing access to 96% of the population. Call quality ranges from Good to acceptable. Many international calls fail or are less clear over the mobile network compared to the landline network.
+Radio: 14 AM, 11 FM, and 1 shortwave stations in 1998. The radio operators are the state owned Syrian Arab Republic Radio and Al-Madina FM, the first private radio station, launched in March 2005. Private radio stations cannot transmit news or political content.
+Television: There are two television operators: the state owned Syrian Television which operates two domestic networks and a satellite channel, broadcasting in Arabic, English, and French and the private Addounia TV. There are no restrictions on the use of satellite receivers and many viewers watch pan-Arab TV stations. Roughly two-thirds of Syrian homes have a satellite dish providing access to foreign TV broadcasts.
+Opposition satellite stations broadcast from abroad; they include London-based Barada TV and Orient TV, which operates from the UAE.
+Internet.
+Country code: The top level domain for Syria is .sy.
+There were 4,469,000 Internet users in Syria as of June 2011 for a 19.8% Internet penetration rate. Syria ranks 12th out of 14 countries in the Middle East region, just behind Jordan (26.8%) and ahead of Yemen (9.7%) and Iraq (2.8%). Growth in the number of Internet users has been fairly steady since 2005:
+The internet first appeared around 1998. 35 organs of the Syrian government by July 1998 were connected to the internet.
+There were 420 Syrian Internet hosts in 2010, placing Syria 187th out of 231 in the world.
+With a measured download speed that averages 768 kbit/s, the speed of the Internet in Syria is relatively slow compared to the worldwide average of 4.6 Mbit/s.
+ADSL service in Syria has been available since 2003. However, ADSL is not available in all locations and, where available, the local telco may not have enough ports for immediate activation. Through 2009 broadband Internet access had reached less than 0.2% of the Syrian population.
+The 3G wireless Internet is available in all major cities as well as cities with significant tourism. 2.5G EDGE wireless Internet is available through mobile network operators, SyriaTel and MTN. Wireless Internet is accessed using a USB stick purchased from the mobile operators. In addition, 3G SIM cards for use on mobile phones may be purchased with a data plan. However, only WCDMA phones support data at the moment.
+High-speed Internet is also available through many Internet cafes.
+Internet service providers (ISPs).
+ISPs in Syria include:
+Internet censorship.
+Internet filtering in Syria was found to be pervasive in the political and Internet tools areas, and selective in the social and conflict/security areas by the OpenNet Initiative in August 2009. Syria has been on Reporters Without Borders Enemy-of-the-Internet list since 2006 when the list was established. In 2009, the Committee to Protect Journalists named Syria number three in a list of the ten worst countries in which to be a blogger, given the arrests, harassment, and restrictions which online writers in Syria have faced.
+Syria has banned websites for political reasons and arrested people accessing them. In addition to filtering a wide range of Web content, the Syrian government monitors Internet use very closely and has detained citizens "for expressing their opinions or reporting information online." Vague and broadly worded laws invite government abuse and have prompted Internet users to engage in self-censoring and self-monitoring to avoid the state's ambiguous grounds for arrest.
+In February 2011 Syria stopped filtering YouTube, Facebook, and Twitter.
+Voice over Internet Protocol (VoIP) is blocked completely and requires a proxy or Virtual Private Network (VPN) to work around it. However, VoIP operators that utilize non-standard Session Initiation Protocol (SIP) ports may function behind Syria's proxy.
+Internet cafes, which are widespread and accessible to the public for a fee, can be used to access blocked sites. However, more restrictions have been placed on internet cafes, all public internet centers need operating approval from the security services, are required to keep detailed records of their customers' surfing habits, and people have been arrested after accessing blocked content.
+Shutdown of Syrian Internet.
+In November 2012, it was reported that all Internet connectivity between Syria and the outside world appeared to have ceased, as of 29 November 2012. This coincided with reported intense rebel activity inside Syria. Matthew Prince, CEO of Cloudflare, reported that three undersea cables in Tartous, Syria and a fourth land cable through Turkey were connecting Syria to the internet prior to the event.
+However, according to an August 2014 interview with Edward Snowden, the Internet blackout in Syria was related to a failed attempt by the U.S. National Security Agency (NSA) to infiltrate malware on a core router of one of the country's main Internet Service Providers (ISPs).
+

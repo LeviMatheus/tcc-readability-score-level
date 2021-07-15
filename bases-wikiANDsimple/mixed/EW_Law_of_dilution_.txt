@@ -1,0 +1,15 @@
+
+Wilhelm Ostwald’s dilution law is a relationship proposed in 1888 between the dissociation constant ' and the degree of dissociation ' of a weak electrolyte. The law takes the form
+Where the square brackets denote concentration, and is the total concentration of electrolyte.
+Using formula_2, where formula_3 is the molar conductivity at concentration c and formula_4 is the limiting value of molar conductivity extrapolated to zero concentration or infinite dilution, this results in the following relation:
+Derivation.
+Consider a binary electrolyte AB which dissociates reversibly into A+ and B− ions. Ostwald noted that the law of mass action can be applied to such systems as dissociating electrolytes. The equilibrium state is represented by the equation:
+If ' is the fraction of dissociated electrolyte, then ' is the concentration of each ionic species. must, therefore be the fraction of "undissociated" electrolyte, and the concentration of same. The dissociation constant may therefore be given as
+For very weak electrolytes (however, neglecting 'α' for most weak electrolytes yields counterproductive result) , implying that .
+This gives the following results;
+Thus, the degree of dissociation of a weak electrolyte is proportional to the inverse square root of the concentration, or the square root of the dilution. The concentration of any one ionic species is given by the root of the product of the dissociation constant and the concentration of the electrolyte.
+Limitations.
+The Ostwald law of dilution provides a satisfactory description of the concentration dependence of the conductivity of weak electrolytes like CH3COOH and NH4OH. The variation of molar conductivity is essentially due to the incomplete dissociation of weak electrolytes into ions. 
+For strong electrolytes, however, Lewis and Randall recognized that the law fails badly since the supposed equilibrium constant is actually far from constant. This is because the dissociation of strong electrolytes into ions is essentially complete below a concentration threshold value. The decrease in molar conductivity as a function of concentration is actually due to attraction between ions of opposite charge as expressed in the Debye-Hückel-Onsager equation and later revisions.
+Even for weak electrolytes the equation is not exact. Chemical thermodynamics shows that the true equilibrium constant is a ratio of thermodynamic activities, and that each concentration must be multiplied by an activity coefficient. This correction is important for ionic solutions due to the strong forces between ionic charges. An estimate of their values is given by the Debye–Hückel theory at low concentrations.
+

@@ -1,0 +1,38 @@
+
+In physics and electrical engineering, a cutoff frequency, corner frequency, or break frequency is a boundary in a system's frequency response at which energy flowing through the system begins to be reduced (attenuated or reflected) rather than passing through.
+Typically in electronic systems such as filters and communication channels, cutoff frequency applies to an edge in a lowpass, highpass, bandpass, or band-stop characteristic – a frequency characterizing a boundary between a passband and a stopband. It is sometimes taken to be the point in the filter response where a transition band and passband meet, for example, as defined by a half-power point (a frequency for which the output of the circuit is −3 dB of the nominal passband value). Alternatively, a stopband corner frequency may be specified as a point where a transition band and a stopband meet: a frequency for which the attenuation is larger than the required stopband attenuation, which for example may be 30 dB or 100 dB.
+In the case of a waveguide or an antenna, the cutoff frequencies correspond to the lower and upper cutoff wavelengths.
+Electronics.
+In electronics, cutoff frequency or corner frequency is the frequency either above or below which the power output of a circuit, such as a line, amplifier, or electronic filter has fallen to a given proportion of the power in the passband. Most frequently this proportion is one half the passband power, also referred to as the 3 dB point since a fall of 3 dB corresponds approximately to half power. As a voltage ratio this is a fall to formula_1 of the passband voltage. Other ratios besides the 3 dB point may also be relevant, for example see Chebyshev Filters below.
+Single-pole transfer function example.
+The transfer function for the simplest low-pass filter,
+has a single pole at . The magnitude of this function in the plane is
+At cutoff
+Hence, the cutoff frequency is given by
+Where is the s-plane variable, is angular frequency and is the imaginary unit.
+Chebyshev filters.
+Sometimes other ratios are more convenient than the 3 dB point. For instance, in the case of the Chebyshev filter it is usual to define the cutoff frequency as the point after the last peak in the frequency response at which the level has fallen to the design value of the passband ripple. The amount of ripple in this class of filter can be set by the designer to any desired value, hence the ratio used could be any value.
+Radio communications.
+In radio communication, skywave communication is a technique in which radio waves are transmitted at an angle into the sky and reflected back to Earth by layers of charged particles in the ionosphere. In this context, the term cutoff frequency refers to the maximum usable frequency means the frequency above which a radio wave fails to reflect off the ionosphere at the incidence angle required for transmission between two specified points by reflection from the layer.
+Waveguides.
+The cutoff frequency of an electromagnetic waveguide is the lowest frequency for which a mode will propagate in it. In fiber optics, it is more common to consider the cutoff wavelength, the maximum wavelength that will propagate in an optical fiber or waveguide. The cutoff frequency is found with the characteristic equation of the Helmholtz equation for electromagnetic waves, which is derived from the electromagnetic wave equation by setting the longitudinal wave number equal to zero and solving for the frequency. Thus, any exciting frequency lower than the cutoff frequency will attenuate, rather than propagate. The following derivation assumes lossless walls. The value of c, the speed of light, should be taken to be the group velocity of light in whatever material fills the waveguide.
+For a rectangular waveguide, the cutoff frequency is
+where the integers formula_7 are the mode numbers, and "a" and "b" the lengths of the sides of the rectangle. For TE modes, formula_8 (but formula_9 is not allowed), while for TM modes formula_10.
+The cutoff frequency of the TM01 mode (next higher from dominant mode TE11) in a waveguide of circular cross-section (the transverse-magnetic mode with no angular dependence and lowest radial dependence) is given by 
+where formula_12 is the radius of the waveguide, and formula_13 is the first root of formula_14, the Bessel function of the first kind of order 1.
+The dominant mode TE11 cutoff frequency is given by
+However, the dominant mode cutoff frequency can be reduced by the introduction of baffle inside the circular cross-section waveguide. For a single-mode optical fiber, the cutoff wavelength is the wavelength at which the normalized frequency is approximately equal to 2.405.
+Mathematical analysis.
+The starting point is the wave equation (which is derived from the Maxwell equations),
+which becomes a Helmholtz equation by considering only functions of the form 
+Substituting and evaluating the time derivative gives
+The function formula_19 here refers to whichever field (the electric field or the magnetic field) has no vector component in the longitudinal direction - the "transverse" field. It is a property of all the eigenmodes of the electromagnetic waveguide that at least one of the two fields is transverse. The "z" axis is defined to be along the axis of the waveguide.
+The "longitudinal" derivative in the Laplacian can further be reduced by considering only functions of the form 
+where formula_21 is the longitudinal wavenumber, resulting in
+where subscript T indicates a 2-dimensional transverse Laplacian. The final step depends on the geometry of the waveguide. The easiest geometry to solve is the rectangular waveguide. In that case, the remainder of the Laplacian can be evaluated to its characteristic equation by considering solutions of the form 
+Thus for the rectangular guide the Laplacian is evaluated, and we arrive at
+The transverse wavenumbers can be specified from the standing wave boundary conditions for a rectangular geometry crossection with dimensions "a" and "b":
+where "n" and "m" are the two integers representing a specific eigenmode. Performing the final substitution, we obtain
+which is the dispersion relation in the rectangular waveguide. The cutoff frequency formula_28 is the critical frequency between propagation and attenuation, which corresponds to the frequency at which the longitudinal wavenumber formula_29 is zero. It is given by
+The wave equations are also valid below the cutoff frequency, where the longitudinal wave number is imaginary. In this case, the field decays exponentially along the waveguide axis and the wave is thus evanescent.
+

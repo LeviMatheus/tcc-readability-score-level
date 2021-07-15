@@ -1,0 +1,14 @@
+
+Communications security is the discipline of preventing unauthorized interceptors from accessing telecommunications in an intelligible form, while still delivering content to the intended recipients.
+In the North Atlantic Treaty Organization culture, including United States Department of Defense culture, it is often referred to by the abbreviation COMSEC. The field includes cryptographic security, transmission security, emissions security and physical security of COMSEC equipment and associated keying material.
+COMSEC is used to protect both classified and unclassified traffic on military communications networks, including voice, video, and data. It is used for both analog and digital applications, and both wired and wireless links.
+Voice over secure internet protocol VOSIP has become the de facto standard for securing voice communication, replacing the need for 
+Secure Terminal Equipment (STE) in much of NATO, including the U.S.A. USCENTCOM moved entirely to VOSIP in 2008.
+Related terms.
+Types of COMSEC equipment:
+DoD Electronic Key Management System.
+The Electronic Key Management System (EKMS) is a United States Department of Defense (DoD) key management, COMSEC material distribution, and logistics support system. The National Security Agency (NSA) established the EKMS program to supply electronic key to COMSEC devices in securely and timely manner, and to provide COMSEC managers with an automated system capable of ordering, generation, production, distribution, storage, security accounting, and access control.
+The Army's platform in the four-tiered EKMS, AKMS, automates frequency management and COMSEC management operations. It eliminates paper keying material, hardcopy SOI, and associated time and resource-intensive courier distribution. It has 4 components:
+Key Management Infrastructure (KMI) Program.
+KMI is intended to replace the legacy Electronic Key Management System to provide a means for securely ordering, generating, producing, distributing, managing, and auditing cryptographic products (e.g., asymmetric keys, symmetric keys, manual cryptographic systems, and cryptographic applications). This system is currently being fielded by Major Commands and variants will be required for non-DoD Agencies with a COMSEC Mission.
+

@@ -1,0 +1,3 @@
+The twin prime conjecture is a mathematical theory. It says that it is possible to find two twin primes that are as big as wanted.
+Twin primes are prime numbers that differ by two. For example 3 and 5 are both prime and differ by two. They are twin primes. 23 is prime, but it is not a twin prime. The primes nearest to 23 are 19 and 29. Twin primes were discovered by Euclid in 300 B.C.
+Since Euclid's time mathematicians have wondered whether there are an infinite number of twin primes. Many mathematicians are still trying to find the answer.

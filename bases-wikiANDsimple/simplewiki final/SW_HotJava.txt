@@ -1,0 +1,1 @@
+HotJava is a web browser from Sun Microsystems that can execute Java applets. It was the first browser to support Java applets, and is not available anymore and is not supported anymore.

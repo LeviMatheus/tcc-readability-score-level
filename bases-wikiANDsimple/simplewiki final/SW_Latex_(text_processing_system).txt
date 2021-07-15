@@ -1,0 +1,1 @@
+LaTeX is a system used for making printed text look good using a computer. It is especially good at making mathematical formulas look right. It is used on Wikipedia.

@@ -1,0 +1,1 @@
+hCard, short for HTML vCard, is a format for publishing the contact information of people, companies, organizations, and places, in XHTML, Atom, RSS, or raw XML.

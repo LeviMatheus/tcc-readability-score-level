@@ -1,0 +1,4 @@
+Free software is open source software that anyone may run, share, and change, at any time, for any reason. The opposite of free software is proprietary software.
+In 1984, Richard Stallman started the free software movement when he began the GNU project.
+The "free" in free software is about "freedom," not "price". People are allowed to sell free software, but the person who buys the software may change it or give it away.
+Free software is not the same as freeware. Freeware is software that is free in price, but might not be free to change or share.

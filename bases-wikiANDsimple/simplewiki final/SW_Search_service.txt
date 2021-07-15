@@ -1,0 +1,3 @@
+A search service helps a computer user find information by looking through web pages for the text the user wants to find; the software that does this is known as a search engine. Google, Yahoo!, MSN Search, and Ask Jeeves are popular search services. Some older services include Webcrawler, Lycos, and Alta Vista.
+A search service may also include a portal with news, games, and more information besides a search engine. Yahoo! has a popular portal, and MSN Search is part of the MSN portal, while Google has a simple design on its front page.
+Search services usually work without charging money for finding sites, and are often supported with text or banner advertisements.

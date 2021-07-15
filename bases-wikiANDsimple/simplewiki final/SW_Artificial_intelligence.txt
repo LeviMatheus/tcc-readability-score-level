@@ -1,0 +1,3 @@
+Artificial intelligence (AI) is the study of mental processes through the use of computational models. The name was coined as the topic of a 1956 Dartmouth Conference by John McCarthy. It is about making computers' decision making and train of thought appear more human. McCarthy defines it as "the science and engineering of making intelligent machines."
+The idea behind AI is not to make a computer smart by knowing more information. It is to build a machine that can act as if it were smart. Very often, AI is closely connected to mathematical logic, about proving things, and simplifying mathematical formulae.
+First there was the Turing machine. Given a set of input data, it produces some output, after doing some calculations. That machine is the basis of modern computers.

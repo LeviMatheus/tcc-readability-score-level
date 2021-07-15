@@ -1,0 +1,1 @@
+Scheme is a programming lamguage. It is one of the two dialects of LISP in widespread use today. The other dialect of LISP widely used is Common lisp. It is often used as a teaching tool; to teach computer science students what functional programming is.

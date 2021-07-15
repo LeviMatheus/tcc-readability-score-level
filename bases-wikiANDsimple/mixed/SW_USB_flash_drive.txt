@@ -1,0 +1,10 @@
+A USB Flash drive is a small computer storage device that connects directly to a USB port with a built-in connector. Many can be put on keyrings. They come in many different designs and colors. Keydrives store files on flash memory. Many different capacities exist. The most commonly used ones are 1 to 2 gigabytes, but capacities from 8 megabytes up to 12 gigabytes have been produced.
+Other common names for a flash drives include: memory key, keydrive, pendrive and jumpdrive. Sandisk and Lexar make a very large portion of the flash drives sold, but many small companies make them as well.
+The memory chips used on such a drive are usually NAND gates, to provide for flash memory. This memory has been put together with a USB 1.1 or 2.0 type adapter. The different USB versions are mainly different as to transfer speed.
+Uses.
+Flash drives can be used to store any type of digital information so it can bee seen on different computers.
+One of the problems with data on flash drives, is that they are small, and can be lost. In the United Kingdom the government lost some important data while transferring it on a flash drive.
+In use, the flash drive is connected to any USB port on the computer. The computer supplies power to the drive and allows data transfer. Some USB flash drives have a light that blinks to show if it is being used by the computer. Other features include a switch to protect files from being erased, password protection, and a fingerprint reader.
+Components.
+This photograph shows both sides of the printed circuit board (PCB) inside a typical flash drive (circa 2004). The flash drive in this photograph is a 64 MB USB 2.0 device with its plastic case removed.
+One end of the device is fitted with a single male type-A USB connector. Inside the plastic casing is a small, highly cost-engineered, printed circuit board. Mounted on this board is some simple power circuitry and a small number of surface-mounted integrated circuits (ICs). Typically, one of these ICs provides an interface to the USB port, another drives the onboard memory, and the other is the flash memory.

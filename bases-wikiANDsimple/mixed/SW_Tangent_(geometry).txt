@@ -1,0 +1,1 @@
+In geometry, a tangent is a straight line that touches a curve at one point. Where they touch each other, the line and the curve are both "going in the same direction". For this reason, the tangent is a good approximation to the curve near that point. They are almost the same.

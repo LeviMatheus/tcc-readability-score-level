@@ -1,0 +1,61 @@
+
+A metasyntactic variable is a specific word or set of words identified as a placeholder in computer science and specifically computer programming. These words are commonly found in source code and are intended to be modified or substituted before real-world usage. The words foo and bar are good examples as they are used in over 330 Internet Engineering Task Force Requests for Comments, the documents which define foundational internet technologies like HTTP (web), TCP/IP, and email protocols.
+By mathematical analogy, a metasyntactic variable is a word that is a variable for other words, just as in algebra letters are used as variables for numbers.
+Metasyntactic variables are used to name entities such as variables, functions, and commands whose exact identity is unimportant and serve only to demonstrate a concept, which is useful for teaching programming.
+Common metasyntactic variables.
+Due to English being the foundation-language, or lingua franca, of most computer programming languages, these variables are commonly seen even in programs and examples of programs written for other spoken-language audiences.
+The typical names may depend however on the subculture that has developed around a given programming language.
+General usage.
+Metasyntactic variables used commonly across all programming languages include "foobar", "foo", "bar", "baz", "qux", "quux", "quuz", "corge", "grault", "garply", "waldo", "fred", "plugh", "xyzzy", and "thud"; several of these words are references to the game "Colossal Cave Adventure". "Wibble", "wobble", "wubble", and "flob" are also used in the UK.
+A complete reference can be found in a MIT Press book titled "The Hacker's Dictionary".
+Japanese.
+In Japanese, the words (ほげ) and (ぴよ) are commonly used, with other common words and variants being (ふが), (ほげら), and (ほげほげ). Note that "-ra" is a pluralizing ending in Japanese, and reduplication is also used for pluralizing. The origin of as a metasyntactic variable is not known, but it is believed to date to the early 1980s.
+French.
+In France, the word "toto" is widely used, with variants "tata", "titi", "tutu" as related placeholders. One commonly-raised source for the use of "toto" is a reference to the stock character used to tell jokes with Tête à Toto.
+Usage examples.
+C.
+In the following example the function name foo and the variable name bar are both metasyntactic variables. Lines beginning with // are comments.
+// The function named foo
+int foo(void)
+ // Declare the variable bar and set the value to 1
+ int bar = 1;
+ return bar;
+C++.
+Function prototypes with examples of different argument passing mechanisms:
+void Foo(Fruit bar);
+void Foo(Fruit* bar);
+void Foo(const Fruit&amp; bar);
+Example showing the function overloading capabilities of the C++ language
+void Foo(int bar);
+void Foo(int bar, int baz);
+void Foo(int bar, int baz, int qux);
+Python.
+Spam, ham, and eggs are the principal metasyntactic variables used in the Python programming language. This is a reference to the famous comedy sketch, "Spam", by Monty Python, the eponym of the language.
+In the following example spam, ham, and eggs are metasyntactic variables and lines beginning with # are comments.
+def spam():
+ # Define the variable ham
+ ham = "Hello World!"
+ # Define the variable eggs
+ eggs = 1
+ return
+IETF Requests for Comments.
+Both the IETF RFCs and computer programming languages are rendered in plain text, making it necessary to distinguish metasyntactic variables by a naming convention, since it would not be obvious from context.
+Here is an example from the official IETF document explaining the e-mail protocols (from RFC 772 - cited in RFC 3092):
+ All is well; now the recipients can be specified.
+ S: MRCP TO:&lt;Foo@Y&gt; &lt;CRLF&gt;
+ R: 200 OK
+ S: MRCP TO:&lt;Raboof@Y&gt; &lt;CRLF&gt;
+ R: 553 No such user here
+ S: MRCP TO:&lt;bar@Y&gt; &lt;CRLF&gt;
+ R: 200 OK
+ S: MRCP TO:&lt;@Y,@X,fubar@Z&gt; &lt;CRLF&gt;
+ R: 200 OK
+ Note that the failure of "Raboof" has no effect on the storage of
+ mail for "Foo", "bar" or the mail to be forwarded to "fubar@Z"
+ through host "X".
+Another point reflected in the above example is the convention that a metavariable is to be uniformly substituted with the same instance in all its appearances in a given schema. This is in contrast with nonterminal symbols in formal grammars where the nonterminals on the right of a production can be substituted by different instances.
+Example Data.
+SQL.
+It is common to use the name ACME in example SQL Databases and as placeholder company-name for the purpose of teaching. The term 'ACME Database' is commonly used to mean a training or example-only set of database data used solely for training or testing. 
+ACME is also commonly used in documentation which shows SQL usage examples, a common practice with in many educational texts as well as technical documentation from companies such as Microsoft and Oracle.
+

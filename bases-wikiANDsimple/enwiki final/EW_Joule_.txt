@@ -1,0 +1,33 @@
+
+The joule ( ; symbol: J) is a derived unit of energy in the International System of Units. It is equal to the energy transferred to (or work done on) an object when a force of one newton acts on that object in the direction of the force's motion through a distance of one metre (1 newton metre or N⋅m). It is also the energy dissipated as heat when an electric current of one ampere passes through a resistance of one ohm for one second. It is named after the English physicist James Prescott Joule (1818–1889).
+Definition.
+In terms firstly of base SI units and then in terms of other SI units, a joule is defined below (please consider this table for the meaning of symbols):
+One joule can also be defined as the following:
+History.
+The cgs system had been declared official in 1881, at the first International Electrical Congress.
+The erg was adopted as its unit of energy in 1882. Wilhelm Siemens, in his inauguration speech as chairman of the British Association for the Advancement of Science (23 August 1882) first proposed the "Joule" as unit of heat, to be derived from the electromagnetic units Ampere and Ohm, in cgs units equivalent to .
+The naming of the unit in honour of James Prescott Joule (1818–1889), at the time retired but still living (aged 63), is due to Siemens:
+At the second International Electrical Congress, on 31 August 1889, the joule was officially adopted alongside the watt and the "quadrant" (later renamed to henry).
+Joule died in the same year, on 11 October 1889.
+At the fourth congress (1893), the "international Ampere" and "international Ohm" were defined, with slight changes in the specifications for their measurement, with the "international Joule" being the unit derived from them.
+In 1935, the International Electrotechnical Commission (as the successor organisation of the International Electrical Congress) adopted the "Giorgi system", which by virtue of assuming a defined value for the magnetic constant also implied a redefinition of the Joule. The Giorgi system was approved by the International Committee for Weights and Measures in 1946. The joule was now no longer defined based on electromagnetic unit, but instead as the unit of work performed by one unit of force (at the time not yet named newton)
+over the distance of 1 metre. The joule was explicitly intended as the unit of energy to be used in both electromagnetic and mechanical contexts. The ratification of the definition at the ninth General Conference on Weights and Measures, in 1948,
+added the specification that the joule was also to be preferred as the unit of heat in the context of calorimetry, thereby officially deprecating the use of the calorie. 
+This definition was the direct precursor of the joule as adopted in the modern International System of Units in 1960.
+The definition of the joule as J=kg⋅m2⋅s−2 has remained unchanged since 1946, but the joule as a derived unit has inherited changes in the definitions of the second (in 1960 and 1967), the metre (in 1983) and the kilogram (in 2019).
+Practical examples.
+One joule represents (approximately):
+Conversions.
+1 joule is equal to (approximately unless otherwise stated):
+Units defined exactly in terms of the joule include:
+Newton-metre and torque.
+In mechanics, the concept of force (in some direction) has a close analogue in the concept of torque (about some angle):
+A result of this similarity is that the SI unit for torque is the newton-metre, which works out algebraically to have the same dimensions as the joule, but are not interchangeable. The General Conference on Weights and Measures has given the unit of energy the name "joule", but has not given the unit of torque any special name, hence it is simply the newton-metre (N⋅m) – a compound name derived from its constituent parts. The use of newton metres for torque and joules for energy is helpful to avoid misunderstandings and miscommunications.
+The distinction may be seen also in the fact that energy is a scalar quantity – the dot product of a force vector and a displacement vector. By contrast, torque is a vector – the cross product of a force vector and a distance vector. Torque and energy are related to one another by the equation
+where "E" is energy, "τ" is (the vector magnitude of) torque, and "θ" is the angle swept (in radians). Since plane angles are dimensionless, it follows that torque and energy have the same dimensions.
+Watt-second.
+A watt-second (symbol W s or W·s) is a derived unit of energy equivalent to the joule. The watt-second is the energy equivalent to the power of one watt sustained for one second. While the watt-second is equivalent to the joule in both units and meaning, there are some contexts in which the term "watt-second" is used instead of "joule".
+Photography.
+In photography, the unit for flashes is the watt-second. A flash can be rated in watt-seconds (e.g., 300 W⋅s) or in joules (different names for the same thing), but historically, the term "watt-second" has been used and continues to be used.
+The energy rating a flash is given is not a reliable benchmark for its light output because there are numerous factors that affect the energy conversion efficiency. For example, the construction of the tube will affect the efficiency, and the use of reflectors and filters will change the usable light output towards the subject. Some companies specify their products in "true" watt-seconds, and some specify their products in "nominal" watt-seconds.
+

@@ -1,0 +1,31 @@
+
+A methyl group is an alkyl derived from methane, containing one carbon atom bonded to three hydrogen atoms — CH3. In formulas, the group is often abbreviated Me. Such hydrocarbon groups occur in many organic compounds. It is a very stable group in most molecules. While the methyl group is usually part of a larger molecule, it can be found on its own in any of three forms: anion, cation or radical. The anion has eight valence electrons, the radical seven and the cation six. All three forms are highly reactive and rarely observed.
+Methyl cation, anion, and radical.
+Methyl cation.
+The methylium cation () exists in the gas phase, but is otherwise not encountered. Some compounds are considered to be sources of the cation, and this simplification is used pervasively in organic chemistry. For example, protonation of methanol gives an electrophilic methylating reagent that reacts by the SN2 pathway:
+Similarly, methyl iodide and methyl triflate are viewed as the equivalent of the methyl cation because they readily undergo SN2 reactions by weak nucleophiles.
+Methyl anion.
+The methanide anion () exists only in rarefied gas phase or under exotic conditions. It can be produced by electrical discharge in ketene at low pressure (less than one torr) and its enthalpy of reaction is determined to be about . It is a powerful superbase; only the lithium monoxide anion () and the diethynylbenzene dianions are known to be stronger.
+In discussing mechanisms of organic reactions, methyl lithium and related Grignard reagents are often considered to be salts of ""; and though the model may be useful for description and analysis, it is only a useful fiction. Such reagents are generally prepared from the methyl halides:
+where M is an alkali metal.
+Methyl radical.
+The methyl radical has the formula . It exists in dilute gases, but in more concentrated form it readily dimerizes to ethane. It can be produced by thermal decomposition of only certain compounds, especially those with an –N=N– linkage.
+Reactivity.
+The reactivity of a methyl group depends on the adjacent substituents. Methyl groups can be quite unreactive. For example, in organic compounds, the methyl group resists attack by even the strongest acids.
+Oxidation.
+The oxidation of a methyl group occurs widely in nature and industry. The oxidation products derived from methyl are CH2OH, CHO, and CO2H. For example, permanganate often converts a methyl group to a carboxyl (–COOH) group, e.g. the conversion of toluene to benzoic acid. Ultimately oxidation of methyl groups gives protons and carbon dioxide, as seen in combustion.
+Methylation.
+Demethylation (the transfer of the methyl group to another compound) is a common process, and reagents that undergo this reaction are called methylating agents. Common methylating agents are dimethyl sulfate, methyl iodide, and methyl triflate. Methanogenesis, the source of natural gas, arises via a demethylation reaction. Together with ubiquitin and phosphorylation, methylation is a major biochemical process for modifying protein function.
+Deprotonation.
+Certain methyl groups can be deprotonated. For example, the acidity of the methyl groups in acetone ((CH3)2CO) is about 1020 times more acidic than methane. The resulting carbanions are key intermediates in many reactions in organic synthesis and biosynthesis. Fatty acids are produced in this way.
+Free radical reactions.
+When placed in benzylic or allylic positions, the strength of the C–H bond is decreased, and the reactivity of the methyl group increases. One manifestation of this enhanced reactivity is the photochemical chlorination of the methyl group in toluene to give benzyl chloride.
+Chiral methyl.
+In the special case where one hydrogen is replaced by deuterium (D) and another hydrogen by tritium (T), the methyl substituent becomes chiral. Methods exist to produce optically pure methyl compounds, e.g., chiral acetic acid (CHDTCO2H). Through the use of chiral methyl groups, the stereochemical course of several biochemical transformations have been analyzed.
+Rotation.
+A methyl group may rotate around the R—C axis. This is a free rotation only in the simplest cases like gaseous CClH3. In most molecules, the remainder R breaks the "C"∞ symmetry of the R—C axis and creates a potential "V"("φ") that restricts the free motion of the three protons. For the model case of C2H6 this is discussed under the name ethane barrier.
+In condensed phases, neighbour molecules also contribute to the potential. Methyl group rotation can be experimentally studied using quasielastic neutron scattering.
+Etymology.
+French chemists Jean-Baptiste Dumas and Eugene Peligot, after determining methanol's chemical structure, introduced "methylene" from the Greek "methy" "wine" and "hȳlē" "wood, patch of trees" with the intention of highlighting its origins, "alcohol made from wood (substance)". The term "methyl" was derived in about 1840 by back-formation from "methylene", and was then applied to describe "methyl alcohol" (which since 1892 is called "methanol").
+"Methyl" is the IUPAC nomenclature of organic chemistry term for an alkane (or alkyl) molecule, using the prefix "meth-" to indicate the presence of a single carbon.
+

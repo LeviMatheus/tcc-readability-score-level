@@ -1,0 +1,2 @@
+Windows NT is a series of Microsoft's Windows operating systems that were the first to use their new 'NT' (New Technology) kernel. That meant it had a brand new kernel to do more things than the MS-DOS-based kernel that they used in older versions of Windows. The new kernel meant that Windows was more secure and crashed less.
+Versions of Windows NT are Windows NT 3.1, NT 3.51, NT 4, Windows 2000, Windows XP and Windows Vista.

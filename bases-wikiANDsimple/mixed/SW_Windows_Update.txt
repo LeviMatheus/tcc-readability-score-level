@@ -1,0 +1,8 @@
+Windows Update is a feature found in Microsoft Windows (after Windows 98) that lets the user update their copy of windows. The windows update website can only be used with Internet Explorer.
+It also allows updates to the definitions file of Windows Defender and to the Junk Mail filter in Windows Mail
+Microsoft Update.
+Microsoft Update is a feature in Windows Update that provides updates not only for windows, but also other Microsoft software (such as Microsoft Office).
+History.
+Windows Update first became part of windows with the launch of Windows 98. Since then the Windows Update site has gone through many updates.
+With the release of Windows ME a feature called Automatic Updates was added; this meant updates could be installed in the background.
+In Windows Vista and Windows Server 2008 instead of using a Windows Update website you now use a application to receive your updates in windows.

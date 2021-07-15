@@ -1,0 +1,38 @@
+
+A beta particle, also called beta ray or beta radiation (symbol β), is a high-energy, high-speed electron or positron emitted by the radioactive decay of an atomic nucleus during the process of beta decay. There are two forms of beta decay, β− decay and β+ decay, which produce electrons and positrons respectively.
+Beta particles with an energy of 0.5 MeV have a range of about one metre in air; the distance is dependent on the particle energy.
+Beta particles are a type of ionizing radiation and for radiation protection purposes are regarded as being more ionising than gamma rays, but less ionising than alpha particles. The higher the ionising effect, the greater the damage to living tissue, but also the lower the penetrating power of the radiation.
+Beta decay modes.
+β− decay (electron emission).
+An unstable atomic nucleus with an excess of neutrons may undergo β− decay, where a neutron is converted into a proton, an electron, and an electron antineutrino (the antiparticle of the neutrino):
+This process is mediated by the weak interaction. The neutron turns into a proton through the emission of a virtual W− boson. At the quark level, W− emission turns a down quark into an up quark, turning a neutron (one up quark and two down quarks) into a proton (two up quarks and one down quark).
+The virtual W− boson then decays into an electron and an antineutrino.
+β− decay commonly occurs among the neutron-rich fission byproducts produced in nuclear reactors. Free neutrons also decay via this process. Both of these processes contribute to the copious quantities of beta rays and electron antineutrinos produced by fission-reactor fuel rods.
+β+ decay (positron emission).
+Unstable atomic nuclei with an excess of protons may undergo β+ decay, also called positron decay, where a proton is converted into a neutron, a positron, and an electron neutrino:
+Beta-plus decay can only happen inside nuclei when the absolute value of the binding energy of the daughter nucleus is greater than that of the parent nucleus, i.e., the daughter nucleus is a lower-energy state.
+Beta decay schemes.
+The accompanying decay scheme diagram shows the beta decay of caesium-137. 137Cs is noted for a characteristic gamma peak at 661 KeV, but this is actually emitted by the daughter radionuclide 137mBa. The diagram shows the type and energy of the emitted radiation, its relative abundance, and the daughter nuclides after decay.
+Phosphorus-32 is a beta emitter widely used in medicine and has a short half-life of 14.29 days and decays into sulfur-32 by beta decay as shown in this nuclear equation:
+1.709 MeV of energy is released during the decay. The kinetic energy of the electron varies with an average of approximately 0.5 MeV and the remainder of the energy is carried by the nearly undetectable electron antineutrino. In comparison to other beta radiation-emitting nuclides, the electron is moderately energetic. It is blocked by around 1 m of air or 5 mm of acrylic glass.
+Interaction with other matter.
+Of the three common types of radiation given off by radioactive materials, alpha, beta and gamma, beta has the medium penetrating power and the medium ionising power. Although the beta particles given off by different radioactive materials vary in energy, most beta particles can be stopped by a few millimeters of aluminium. However, this does not mean that beta-emitting isotopes can be completely shielded by such thin shields: as they decelerate in matter, beta electrons emit secondary gamma rays, which are more penetrating than betas per se. Shielding composed of materials with lower atomic weight generates gammas with lower energy, making such shields somewhat more effective per unit mass than ones made of high-Z materials such as lead.
+Being composed of charged particles, beta radiation is more strongly ionizing than gamma radiation. When passing through matter, a beta particle is decelerated by electromagnetic interactions and may give off bremsstrahlung x-rays.
+In water, beta radiation from many nuclear fission products typically exceeds the speed of light in that material (which is 75% that of light in vacuum), and thus generates blue Cherenkov radiation when it passes through water. The intense beta radiation from the fuel rods of swimming pool reactors can thus be visualized through the transparent water that covers and shields the reactor (see illustration at right).
+Detection and measurement.
+The ionizing or excitation effects of beta particles on matter are the fundamental processes by which radiometric detection instruments detect and measure beta radiation. The ionization of gas is used in ion chambers and Geiger-Müller counters, and the excitation of scintillators is used in scintillation counters.
+The following table shows radiation quantities in SI and non-SI units:
+Applications.
+Beta particles can be used to treat health conditions such as eye and bone cancer and are also used as tracers. Strontium-90 is the material most commonly used to produce beta particles.
+Beta particles are also used in quality control to test the thickness of an item, such as paper, coming through a system of rollers. Some of the beta radiation is absorbed while passing through the product. If the product is made too thick or thin, a correspondingly different amount of radiation will be absorbed. A computer program monitoring the quality of the manufactured paper will then move the rollers to change the thickness of the final product.
+An illumination device called a "betalight" contains tritium and a phosphor. As tritium decays, it emits beta particles; these strike the phosphor, causing the phosphor to give off photons, much like the cathode ray tube in a television. The illumination requires no external power, and will continue as long as the tritium exists (and the phosphors do not themselves chemically change); the amount of light produced will drop to half its original value in 12.32 years, the half-life of tritium.
+Beta-plus (or positron) decay of a radioactive tracer isotope is the source of the positrons used in positron emission tomography (PET scan).
+History.
+Henri Becquerel, while experimenting with fluorescence, accidentally found out that uranium exposed a photographic plate, wrapped with black paper, with some unknown radiation that could not be turned off like X-rays.
+Ernest Rutherford continued these experiments and discovered two different kinds of radiation:
+He published his results in 1899.
+In 1900, Becquerel measured the mass-to-charge ratio () for beta particles by the method of J. J. Thomson used to study cathode rays and identify the electron. He found that for a beta particle is the same as for Thomson's electron, and therefore suggested that the beta particle is in fact an electron.
+Health.
+Beta particles are moderately penetrating in living tissue, and can cause spontaneous mutation in DNA.
+Beta sources can be used in radiation therapy to kill cancer cells.
+

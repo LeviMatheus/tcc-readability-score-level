@@ -1,0 +1,2 @@
+The name LD50 comes from toxicology, the study of poisons. It is an abbreviation for "Lethal Dose, 50%" or median lethal dose. It gives the amount of the substance required (usually per body weight) to kill 50% of the test population.
+LD50 figures are frequently used as a general way to tell how poisonous a substance is.. The test was created by J.W. Trevan in 1927 but is now being phased out in favour of the Fixed Dose Procedure.

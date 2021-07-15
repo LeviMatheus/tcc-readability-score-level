@@ -1,0 +1,5 @@
+In information technologies we use the term DDR2 SDRAM for a Double Data Rate memory module of the second generation. This technology is used for high speed storage of the working data.
+Comparisons.
+The main difference between DDR and DDR2 modules is that the bus on which the DDR2 memory modules are working is clocked at twice the speed of the memory cells. In practical terms we can say that four words of data can be transferred during one memory cell cycle. To sum it up DDR2 can effectively operate at twice the bus speed of DDR.
+Chips and modules.
+For use in PCs, DDR2 SDRAM is supplied in DIMMs with 240 pins and a single locating notch. DIMMs are identified by their peak transfer capacity (often called bandwidth).

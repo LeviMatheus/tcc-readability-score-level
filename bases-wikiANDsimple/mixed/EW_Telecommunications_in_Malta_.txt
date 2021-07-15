@@ -1,0 +1,46 @@
+
+This article is an overview of telecommunications in Malta.
+Telephone.
+Telephones - main lines in use:
+229,700 (2012)
+Telephones - mobile cellular:
+539,500 (2012)
+Telephone system:
+automatic system satisfies normal requirements
+&lt;br&gt;"domestic:"
+submarine cables and microwave radio relay between islands
+&lt;br&gt;"international:"
+2 submarine cables; satellite earth station - 1 Intelsat (Atlantic Ocean)
+Radio.
+Radio broadcast stations:
+AM 1, FM 18, shortwave 6 (1999)
+Radios:
+255,000 (1997)
+Amateur radio operators:
+Approx. 500
+Amateur radio repeaters:
+1 HF ALE EchoLink Gateway (9H1BBS-L) DTMF Access 145300 CTCSS 77 Hz (Owned by G0DEO/9H1IA)
+1 VHF/UHF 9H1IA-L Frequency Agile CrossBand Link CTCSS 151.4 Hz (Owned by G0DEO/9H1IA)
+1 VHF (9H1BBS 145.750 MHz CTCSS 77 Hz (Owned by G0DEO/9H1IA)
+1 UHF (9H1BBS 433.175 MHz CTCSS 77 Hz (Owned by G0DEO/9H1IA)
+2 Microwave Amateur Television ( ATV ) Repeaters ( 9H1ATV built by 9H1LO and run by MARL and 9H1LO/r built and run by 9H1LO )
+Amateur radio beacons:
+1 HF 6 Meater Beacon 9H1SIX 50.023 MHz JM75fv (Run by MARL Club)
+1 HF 10 Meter Band CW Beacon 9H1LO/B on 28.223 MHz
+1 HF 30 Meter Band QRSS Beacon 9H1LO/B on 10.140.90 MHz
+1 HF 17 Meter Band PSK31 Beacon 9H1LO/B on 18.110.15 MHz
+1 VHF 2 Meter Band Beacon 9H1LO/B on 144.500 MHz (currently summer months only)
+Television.
+Television broadcast stations:
+6 (2000)
+Televisions:
+280,000 (1997)
+Internet.
+Internet Service Providers (ISPs):
+17 (2005)
+Broadband Wireless Internet Service Provider Licenses:
+3 (2005)
+Internet users:
+240,600 (2009)
+Country code (Top level domain): .mt
+

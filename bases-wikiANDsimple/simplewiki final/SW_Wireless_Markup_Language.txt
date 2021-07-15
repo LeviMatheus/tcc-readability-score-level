@@ -1,0 +1,1 @@
+Wireless Markup Language (WML) is a programming language used for of wireless devices. It is similar to HTML. WML is a version of XML. This means that syntax is very important. Every tag needs to be properly nested and closed. WML can only be displayed in a Wireless Application Protocol (WAP) Browser.

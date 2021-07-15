@@ -1,0 +1,6 @@
+Web colors are colors used in designing webpages, and the ways for describing and listing those colors.
+There are several ways to chose colors for parts of webpages. Colors may be listed as an RGB "triplet" (a set of three numbers) in hexadecimal format (a "hex triplet"). Many common colors can also be chosen by their common English names. Often a color tool or other graphics software is used to create color values.
+The first versions of Mosaic and Netscape Navigator used the X11 color names as the base for their color lists. This was because they both started as X Window System applications.
+Each web color has its own definition, sRGB. This relates to the chromaticities of a single phosphor set, a given transfer curve, adaptive whitepoint, and viewing conditions. These have been chosen to be similar to many real-world monitors and viewing conditions. Even without color management, the colors created are fairly close to the given values. However, user agents can be different in the fidelity with which they show the colors. Better user agents use color management to create better color fidelity. This is important for Web-to-print applications.
+Original HTML web colors (formulated in the late 1980s).
+Gold and orange were added to the original 16 shown above shortly after their introduction.

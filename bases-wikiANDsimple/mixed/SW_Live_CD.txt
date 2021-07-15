@@ -1,0 +1,6 @@
+A Live CD or LiveCD or CD Live Distro is a computer operating system that is executed upon boot, without installation to a hard disk drive. Typically, the LiveDistro is named after the bootable medium it is stored on, such as a CD-ROM or DVD (Live CD/DVD) or a USB flash drive (Live USB).
+The term "live" comes from the fact that these "distros", or software distributions, each contain a complete, functioning and operational Operating System on the distribution medium. A LiveDistro does not change the Operating System or files already installed on the computer hard drive unless told to do so.
+History.
+The first Linux-based Live CD was Yggdrasil Linux (went out of production in 1995), but it did not function well due to the low throughput of then-current CD-ROM drives. The Debian-derived Linux distribution Knoppix was released in 2003, and was popular as both a rescue disk system and as a Linux Distribution. Since 2003, the popularity of Live CDs has increased, because of and remastersys which made it very easy to build customized live systems.
+Uses.
+Some LiveDistros are designed to "demo" or "test drive" a particular operating system (usually Linux or another free or open source operating system).

@@ -1,0 +1,10 @@
+
+Statistics, like all mathematical disciplines, does not infer valid conclusions from nothing. Inferring interesting conclusions about real statistical populations almost always requires some background assumptions. Those assumptions must be made carefully, because incorrect assumptions can generate wildly inaccurate conclusions.
+Here are some examples of statistical assumptions.
+Classes of assumptions.
+There are two approaches to statistical inference: "model-based inference" and "design-based inference". Both approaches rely on some statistical model to represent the data-generating process. In the model-based approach, the model is taken to be initially unknown, and one of the goals is to select an appropriate model for inference. In the design-based approach, the model is taken to be known, and one of the goals is to ensure that the sample data are selected randomly enough for inference.
+Statistical assumptions can be put into two classes, depending upon which approach to inference is used.
+The model-based approach is the most commonly used in statistical inference; the design-based approach is used mainly with survey sampling. With the model-based approach, all the assumptions are effectively encoded in the model.
+Checking assumptions.
+Given that the validity of any conclusion drawn from a statistical inference depends on the validity of the assumptions made, it is clearly important that those assumptions should be reviewed at some stage. Some instances—for example where data are lacking—may require that researchers judge whether an assumption is reasonable. Researchers can expand this somewhat to consider what effect a departure from the assumptions might produce. Where more extensive data are available, various types of procedures for statistical model validation are available—e.g. for regression model validation.
+

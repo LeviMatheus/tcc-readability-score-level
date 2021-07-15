@@ -1,0 +1,4 @@
+
+Automatic message exchange (AME): In an adaptive high-frequency (HF) radio network, an automated process allowing the transfer of a message from message injection to addressee reception, without human intervention. Through the use of machine-addressable transport guidance information, "i.e.," the message header, the message is automatically routed through an on-line direct connection through single or multiple transmission media.
+Source: from Federal Standard 1037C
+

@@ -1,0 +1,13 @@
+Fractal Geometry is the study of sets called fractals. When drawn, a fractal is very rough-looking. Also, it can be cut into parts which look quite like a smaller version of the set that was started with. Another thing that fractals have is a dimension which is not what people would expect - often it is not an whole number. Fractals have very simple descriptions. Last of all, even in very small parts of the set, the set will still look very rough.
+The Koch Curve.
+The Koch Curve is a simple example of a fractal. First, start with part of a straight line - called a straight line segment. Cut the line into 3 same-sized pieces. Get rid of the middle of those pieces, and put in the top part of a triangle with sides which are the same length as the bit to cut out. We now have 4 line segments which are touching at the ends. We can now do what we just did to the first segment to each of the 4 bits. We can now do the same thing again and again to all the bits we end up with. We now do this forever and look at what we end up with.
+The length of the Koch Curve is infinity, and the area of the Koch Curve is zero. This is quite strange. A line segment (with dimension 1) could have a length of 1, but it has an area of 0. A square of length 1 and width 1 (with dimension 2) will have area 1 and length of infinity.
+Similarity Dimension.
+So, the Koch Curve seems to be bigger than something of dimension 1, and smaller than something of dimension 2. The idea of the similarity dimension is to give a dimension which gives a better idea of length or area for fractals. So, for a Koch Curve, we want a dimension between 1 and 2.
+formula_4
+Where formula_5 is the logarithm of a number. This number is the Hausdorff Dimension of the fractal. In the Koch Curve, this is formula_6 as we wanted.
+Koch snowflake.
+The Koch snowflake (or Koch star) is the same as the Koch curve, except it starts with an equilateral triangle instead of a line segment.
+Applications.
+Fractals have many applications e.g. in biology (lung, Kidneys, heart rate variability etx...), in earthquakes, in finance where it is related to the so called heavy tail distributions and in physics. This indicates that fractals should be studied to understand why fractals are so frequent in nature?
+E.Ahmed, Mathe, Dept., Faculty of Science, Mansoura 35516, Egypt.

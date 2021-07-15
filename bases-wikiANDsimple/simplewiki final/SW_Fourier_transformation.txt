@@ -1,0 +1,5 @@
+A fourier transformation is a method used to solve differential equations. To fourier transform a function "f(x)", integral calculus is used. The operation to integrate the function multiplied by an exponent function "e"^"ikx" (where "e" is the exponential constant 2.718, "i" is the square root of -1, and "k" is just an arbitrary constant) with limits minus infinity and plus infinity. The answer will be a function of "k", "g(k)".
+When fourier transform of the derivative of a function "f(x)", is simply "g(k)" multiplied by "i"*"k".
+To solve for "f(x)" in a differential equation, fourier transform both sides of the equation, and use algebra to solve for "g(k)". Then an inverse transform will get back the original "f(x)".
+A fourier transform of some given data represents that data in terms of sine waves and cosine waves.
+A discrete cosine transform (which can be calculated using a fourier transform) of some given data represents that data in terms of cosine waves alone.

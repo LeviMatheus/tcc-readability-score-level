@@ -1,0 +1,5 @@
+
+Analysis of variance, a statistical method in which the variation in a set of observations is divided into distinct components.
+Trivia.
+ANOVA Stands for “Analysis of variance.”
+

@@ -1,0 +1,5 @@
+A floating point unit (FPU) is a part of a computer system specially designed to carry out operations on floating point numbers. Typical operations are addition, subtraction, multiplication, division, and square root.
+Some systems can also perform more advanced functions as exponential or trigonometric functions calculations, however in most modern processors these functions are done with software library routines not by hardware.
+In most modern general purpose CPUs, one or more FPUs are integrated inside the CPU; however many embedded microcontrollers, especially older designs, do not have hardware support for floating point operations.
+In the past, some systems as the Intel 8086 have implemented floating point via a coprocessor that is controlled by the CPU rather than as an integrated unit.
+Most modern computers have integrated FPU hardware; but not all. In the absence of an FPU, many FPU functions can be emulated, which saves the added hardware cost of an FPU but is significantly slower.

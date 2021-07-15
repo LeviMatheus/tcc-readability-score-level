@@ -1,0 +1,107 @@
+
+In mathematics, a metric space is a set together with a metric on the set. The metric is a function that defines a concept of "distance" between any two members of the set, which are usually called points. The metric satisfies a few simple properties. Informally:
+A metric on a space induces topological properties like open and closed sets, which lead to the study of more abstract topological spaces.
+The most familiar metric space is 3-dimensional Euclidean space. In fact, a "metric" is the generalization of the Euclidean metric arising from the four long-known properties of the Euclidean distance. The Euclidean metric defines the distance between two points as the length of the straight line segment connecting them. Other metric spaces occur for example in elliptic geometry and hyperbolic geometry, where distance on a sphere measured by angle is a metric, and the hyperboloid model of hyperbolic geometry is used by special relativity as a metric space of velocities. Some of non-geometric metric spaces include spaces of finite strings (finite sequences of symbols from a predefined alphabet) equipped with e.g. a Hamming's or Levenshtein distance, a space of subsets of any metric space equipped with Hausdorff distance, a space of real functions integrable on a unit interval with an integral metric formula_14 or probabilistic spaces on any chosen metric space equipped with Wasserstein metric.
+History.
+In 1906 Maurice Fréchet introduced metric spaces in his work "Sur quelques points du calcul fonctionnel". However the name is due to Felix Hausdorff.
+Definition.
+A metric space is an ordered pair formula_15 where formula_16 is a set and formula_17 is a metric on formula_16, i.e., a function
+such that for any formula_20, the following holds:
+Given the above three axioms, we also have that formula_21 for any formula_22. This is deduced as follows:
+The function formula_17 is also called "distance function" or simply "distance". Often, formula_17 is omitted and one just writes formula_16 for a metric space if it is clear from the context what metric is used.
+Ignoring mathematical details, for any system of roads and terrains the distance between two locations can be defined as the length of the shortest route connecting those locations. To be a metric there shouldn't be any one-way roads. The triangle inequality expresses the fact that detours aren't shortcuts. If the distance between two points is zero, the two points are indistinguishable from one-another. Many of the examples below can be seen as concrete versions of this general idea.
+Open and closed sets, topology and convergence.
+Every metric space is a topological space in a natural manner, and therefore all definitions and theorems about general topological spaces also apply to all metric spaces.
+About any point formula_29 in a metric space formula_16 we define the open ball of radius formula_88 (where formula_89 is a real number) about formula_29 as the set
+These open balls form the base for a topology on "M", making it a topological space.
+Explicitly, a subset formula_92 of formula_16 is called open if for every formula_29 in formula_92 there exists an formula_88 such that formula_97 is contained in formula_92. The complement of an open set is called closed. A neighborhood of the point formula_29 is any subset of formula_16 that contains an open ball about formula_29 as a subset.
+A topological space which can arise in this way from a metric space is called a metrizable space.
+A sequence (formula_102) in a metric space formula_16 is said to converge to the limit formula_104 if and only if for every formula_105, there exists a natural number "N" such that formula_106 for all formula_107. Equivalently, one can use the general definition of convergence available in all topological spaces.
+A subset formula_1 of the metric space formula_16 is closed if and only if every sequence in formula_1 that converges to a limit in formula_16 has its limit in formula_1.
+Types of metric spaces.
+Complete spaces.
+A metric space formula_16 is said to be complete if every Cauchy sequence converges in formula_16. That is to say: if formula_115 as both formula_84 and formula_83 independently go to infinity, then there is some formula_118 with formula_119.
+Every Euclidean space is complete, as is every closed subset of a complete space. The rational numbers, using the absolute value metric formula_120, are not complete.
+Every metric space has a unique (up to isometry) completion, which is a complete space that contains the given space as a dense subset. For example, the real numbers are the completion of the rationals.
+If formula_44 is a complete subset of the metric space formula_16, then formula_44 is closed in formula_16. Indeed, a space is complete if and only if it is closed in any containing metric space.
+Every complete metric space is a Baire space.
+Bounded and totally bounded spaces.
+A metric space formula_16 is called bounded if there exists some number formula_89, such that formula_127 for all formula_128. The smallest possible such formula_89 is called the diameter of formula_16. The space formula_16 is called precompact or totally bounded if for every formula_132 there exist finitely many open balls of radius formula_89 whose union covers formula_16. Since the set of the centres of these balls is finite, it has finite diameter, from which it follows (using the triangle inequality) that every totally bounded space is bounded. The converse does not hold, since any infinite set can be given the discrete metric (one of the examples above) under which it is bounded and yet not totally bounded.
+Note that in the context of intervals in the space of real numbers and occasionally regions in a Euclidean space formula_135 a bounded set is referred to as "a finite interval" or "finite region". However boundedness should not in general be confused with "finite", which refers to the number of elements, not to how far the set extends; finiteness implies boundedness, but not conversely. Also note that an unbounded subset of formula_135 may have a finite volume.
+Compact spaces.
+A metric space formula_16 is compact if every sequence in formula_16 has a subsequence that converges to a point in formula_16. This is known as sequential compactness and, in metric spaces (but not in general topological spaces), is equivalent to the topological notions of countable compactness and compactness defined via open covers.
+Examples of compact metric spaces include the closed interval formula_140 with the absolute value metric, all metric spaces with finitely many points, and the Cantor set. Every closed subset of a compact space is itself compact.
+A metric space is compact if and only if it is complete and totally bounded. This is known as the Heine–Borel theorem. Note that compactness depends only on the topology, while boundedness depends on the metric.
+Lebesgue's number lemma states that for every open cover of a compact metric space formula_16, there exists a "Lebesgue number" formula_142 such that every subset of formula_16 of diameter formula_144 is contained in some member of the cover.
+Every compact metric space is second countable, and is a continuous image of the Cantor set. (The latter result is due to Pavel Alexandrov and Urysohn.)
+Locally compact and proper spaces.
+A metric space is said to be locally compact if every point has a compact neighborhood. Euclidean spaces are locally compact, but infinite-dimensional Banach spaces are not.
+A space is proper if every closed ball formula_145 is compact. Proper spaces are locally compact, but the converse is not true in general.
+Connectedness.
+A metric space formula_16 is connected if the only subsets that are both open and closed are the empty set and formula_16 itself.
+A metric space formula_16 is path connected if for any two points formula_22 there exists a continuous map formula_150 with formula_151 and formula_152.
+Every path connected space is connected, but the converse is not true in general.
+There are also local versions of these definitions: locally connected spaces and locally path connected spaces.
+Simply connected spaces are those that, in a certain sense, do not have "holes".
+Separable spaces.
+A metric space is separable space if it has a countable dense subset. Typical examples are the real numbers or any Euclidean space. For metric spaces (but not for general topological spaces) separability is equivalent to second-countability and also to the Lindelöf property.
+Pointed metric spaces.
+If formula_44 is a metric space and formula_154 then formula_155 is called a "pointed metric space", and formula_156 is called a "distinguished point". Note that a pointed metric space is just a nonempty metric space with attention drawn to its distinguished point, and that any nonempty metric space can be viewed as a pointed metric space. The distinguished point is sometimes denoted formula_38 due to its similar behavior to zero in certain contexts.
+Types of maps between metric spaces.
+Suppose formula_158 and formula_159 are two metric spaces.
+Continuous maps.
+The map formula_160 is continuous
+if it has one (and therefore all) of the following equivalent properties:
+Moreover, formula_36 is continuous if and only if it is continuous on every compact subset of formula_164.
+The image of every compact set under a continuous function is compact, and the image of every connected set under a continuous function is connected.
+Uniformly continuous maps.
+The map formula_160 is uniformly continuous if for every formula_105 there exists formula_173 such that
+Every uniformly continuous map formula_160 is continuous. The converse is true if formula_164 is compact (Heine–Cantor theorem).
+Uniformly continuous maps turn Cauchy sequences in formula_164 into Cauchy sequences in formula_162. For continuous maps this is generally wrong; for example, a continuous map
+from the open interval formula_187 "onto" the real line turns some Cauchy sequences into unbounded sequences.
+Lipschitz-continuous maps and contractions.
+Given a real number formula_188, the map formula_160 is "K"-Lipschitz continuous if
+Every Lipschitz-continuous map is uniformly continuous, but the converse is not true in general.
+If formula_191, then formula_36 is called a contraction. Suppose formula_193 and formula_164 is complete. If formula_36 is a contraction, then formula_36 admits a unique fixed point (Banach fixed-point theorem). If formula_164 is compact, the condition can be weakened a bit: formula_36 admits a unique fixed point if
+Isometries.
+The map formula_160 is an isometry if
+Isometries are always injective; the image of a compact or complete set under an isometry is compact or complete, respectively. However, if the isometry is not surjective, then the image of a closed (or open) set need not be closed (or open).
+Quasi-isometries.
+The map formula_160 is a quasi-isometry if there exist constants formula_203 and formula_204 such that
+and a constant formula_206 such that every point in formula_162 has a distance at most formula_13 from some point in the image formula_209.
+Note that a quasi-isometry is not required to be continuous. Quasi-isometries compare the "large-scale structure" of metric spaces; they find use in geometric group theory in relation to the word metric.
+Notions of metric space equivalence.
+Given two metric spaces formula_210 and formula_211:
+Topological properties.
+Metric spaces are paracompact Hausdorff spaces and hence normal (indeed they are perfectly normal). An important consequence is that every metric space admits partitions of unity and that every continuous real-valued function defined on a closed subset of a metric space can be extended to a continuous map on the whole space (Tietze extension theorem). It is also true that every real-valued Lipschitz-continuous map defined on a subset of a metric space can be extended to a Lipschitz-continuous map on the whole space.
+Metric spaces are first countable since one can use balls with rational radius as a neighborhood base.
+The metric topology on a metric space formula_16 is the coarsest topology on formula_16 relative to which the metric formula_17 is a continuous map from the product of formula_16 with itself to the non-negative real numbers.
+Distance between points and sets; Hausdorff distance and Gromov metric.
+A simple way to construct a function separating a point from a closed set (as required for a completely regular space) is to consider the distance between the point and the set. If formula_15 is a metric space, formula_37 is a subset of formula_16 and formula_29 is a point of formula_16, we define the distance from formula_29 to formula_37 as
+Then formula_225 if and only if formula_29 belongs to the closure of formula_37. Furthermore, we have the following generalization of the triangle inequality:
+which in particular shows that the map formula_229 is continuous.
+Given two subsets formula_37 and formula_231 of formula_16, we define their Hausdorff distance to be
+In general, the Hausdorff distance formula_235 can be infinite. Two sets are close to each other in the Hausdorff distance if every element of either set is close to some element of the other set.
+The Hausdorff distance formula_236 turns the set formula_237 of all non-empty compact subsets of formula_16 into a metric space. One can show that formula_237 is complete if formula_16 is complete.
+One can then define the Gromov–Hausdorff distance between any two metric spaces by considering the minimal Hausdorff distance of isometrically embedded versions of the two spaces. Using this distance, the class of all (isometry classes of) compact metric spaces becomes a metric space in its own right.
+Product metric spaces.
+If formula_241 are metric spaces, and formula_242 is the Euclidean norm on formula_243, then formula_244 is a metric space, where the product metric is defined by
+and the induced topology agrees with the product topology. By the equivalence of norms in finite dimensions, an equivalent metric is obtained if formula_242 is the taxicab norm, a p-norm, the maximum norm, or any other norm which is non-decreasing as the coordinates of a positive formula_84-tuple increase (yielding the triangle inequality).
+Similarly, a countable product of metric spaces can be obtained using the following metric
+An uncountable product of metric spaces need not be metrizable. For example, formula_249 is not first-countable and thus isn't metrizable.
+Continuity of distance.
+In the case of a single space formula_15, the distance map formula_251 (from the definition) is uniformly continuous with respect to any of the above product metrics formula_252, and in particular is continuous with respect to the product topology of formula_253.
+Quotient metric spaces.
+If "M" is a metric space with metric formula_17, and formula_255 is an equivalence relation on formula_16, then we can endow the quotient set formula_257 with a pseudometric. Given two equivalence classes formula_258 and formula_259, we define
+where the infimum is taken over all finite sequences formula_261 and formula_262 with formula_263, formula_264, formula_265. In general this will only define a pseudometric, i.e. formula_266 does not necessarily imply that formula_267. However, for some equivalence relations (e.g., those given by gluing together polyhedra along faces), formula_268 is a metric.
+The quotient metric formula_17 is characterized by the following universal property. If formula_270 is a metric map between metric spaces (that is, formula_271 for all formula_29, formula_30) satisfying formula_274 whenever formula_275 then the induced function formula_276, given by formula_277, is a metric map formula_278
+A topological space is sequential if and only if it is a quotient of a metric space.
+Generalizations of metric spaces.
+Metric spaces as enriched categories.
+The ordered set formula_281 can be seen as a category by requesting exactly one morphism formula_282 if formula_283 and none otherwise. By using formula_284 as the tensor product and formula_38 as the identity, it becomes a monoidal category formula_286.
+Every metric space formula_15 can now be viewed as a category formula_288 enriched over formula_286:
+See the paper by F.W. Lawvere listed below.
+Further reading.
+This is reprinted (with author commentary) at Reprints in Theory and Applications of Categories
+Also (with an author commentary) in Enriched categories in the logic of geometry and analysis. Repr. Theory Appl. Categ. No. 1 (2002), 1–37.
+

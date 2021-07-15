@@ -1,0 +1,4 @@
+
+At any point in a transmission system, the ratio of the circuit noise at that point to an arbitrary level chosen as a reference. 
+The circuit noise level is usually expressed in dBrn0, signifying the reading of a circuit noise meter, or in dBa0, signifying circuit noise meter reading adjusted to represent an interfering effect under specified conditions. 
+

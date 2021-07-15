@@ -1,0 +1,1 @@
+In mathematics a ring is a certain kind of algebraic structure. Both addition and multiplication of the elements in the ring are defined and have certain properties, like the property that "x" + "y" = "y" + "x" for every "x" and every "y" in the ring. A ring is a generalization of the integers. Other examples are polynomials, and integers modulo a certain number formula_1.

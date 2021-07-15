@@ -1,0 +1,1 @@
+Wubi (Windows-based Ubuntu Installer) is an official Windows-based free software installer for Ubuntu. Wubi was made to help Windows users who are not familiar with Linux to try it out easily without any loss of data or problems. Wubi can also uninstall Linux in Windows.

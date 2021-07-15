@@ -1,0 +1,42 @@
+
+In computational complexity theory, the class NC (for "Nick's Class") is the set of decision problems decidable in polylogarithmic time on a parallel computer with a polynomial number of processors. In other words, a problem is in NC if there exist constants "c" and "k" such that it can be solved in time using parallel processors. Stephen Cook coined the name "Nick's class" after Nick Pippenger, who had done extensive research on circuits with polylogarithmic depth and polynomial size.
+Just as the class P can be thought of as the tractable problems (Cobham's thesis), so NC can be thought of as the problems that can be efficiently solved on a parallel computer. NC is a subset of P because polylogarithmic parallel computations can be simulated by polynomial-time sequential ones. It is unknown whether NC = P, but most researchers suspect this to be false, meaning that there are probably some tractable problems that are "inherently sequential" and cannot significantly be sped up by using parallelism. Just as the class NP-complete can be thought of as "probably intractable", so the class P-complete, when using NC reductions, can be thought of as "probably not parallelizable" or "probably inherently sequential".
+The parallel computer in the definition can be assumed to be a "parallel, random-access machine" (PRAM). That is a parallel computer with a central pool of memory, and any processor can access any bit of memory in constant time. The definition of NC is not affected by the choice of how the PRAM handles simultaneous access to a single bit by more than one processor. It can be CRCW, CREW, or EREW. See PRAM for descriptions of those models.
+Equivalently, NC can be defined as those decision problems decidable by a uniform Boolean circuit (which can be calculated from the length of the input, for NC, we suppose we can compute the Boolean circuit of size "n" in logarithmic space in "n") with polylogarithmic depth and a polynomial number of gates with a maximum fan-in of 2.
+RNC is a class extending NC with access to randomness.
+Problems in NC.
+As with P, by a slight abuse of language, one might classify function problems and search problems as being in NC. NC is known to include many problems, including
+Often algorithms for those problems had to be separately invented and could not be naïvely adapted from well-known algorithms – Gaussian elimination and Euclidean algorithm rely on operations performed in sequence. One might contrast ripple carry adder with a carry-lookahead adder.
+The NC hierarchy.
+NC"i" is the class of decision problems decidable by uniform boolean circuits with a polynomial number of gates of at most two inputs and depth , or the class of decision problems solvable in time "O"(log"i" "n") on a parallel computer with a polynomial number of processors. Clearly, we have
+which forms the NC-hierarchy.
+We can relate the NC classes to the space classes L and NL and AC.
+The NC classes are related to the AC classes, which are defined similarly, but with gates having unbounded fan-in. For each "i", we have
+As an immediate consequence of this, we have that NC = AC.
+It is known that both inclusions are strict for "i" = 0.
+Similarly, we have that NC is equivalent to the problems solvable on an alternating Turing machine restricted to at most two options at each step with "O"(log "n") space and formula_4 alternations.
+Open problem: Is NC proper?
+One major open question in complexity theory is whether or not every containment in the NC hierarchy is proper. It was observed by Papadimitriou that, if NC"i" = NC"i"+1 for some "i", then NC"i" = NC"j" for all "j" ≥ "i", and as a result, NC"i" = NC. This observation is known as NC-hierarchy collapse because even a single equality in the chain of containments
+implies that the entire NC hierarchy "collapses" down to some level "i". Thus, there are 2 possibilities:
+It is widely believed that (1) is the case, although no proof as to the truth of either statement has yet been discovered.
+NC0.
+The special class NC"0" operates only on a constant length of input bits. It is therefore described as the class of functions definable by uniform boolean circuits with constant depth and bounded fan-in.
+Barrington's theorem.
+A branching program with "n" variables of width "k" and length "m" consists of a sequence of "m" instructions. Each of the instructions is a tuple ("i", "p", "q") where "i" is the index of variable to check (1 ≤ "i" ≤ "n"), and "p" and "q" are functions from {1, 2, ..., "k"} to {1, 2, ..., "k"}. Numbers 1, 2, ..., "k" are called states of the branching program. The program initially starts in state 1, and each instruction ("i", "p", "q") changes the state from "x" to "p"("x") or "q"("x"), depending on whether the "i"th variable is 0 or 1.
+A family of branching programs consists of a branching program with "n" variables for each "n".
+It is easy to show that every language "L" on {0,1} can be recognized by a family of branching programs of width 5 and exponential length, or by a family of exponential width and linear length.
+Every regular language on {0,1} can be recognized by a family of branching programs of constant width and linear number of instructions (since a DFA can be converted to a branching program). BWBP denotes the class of languages recognizable by a family of branching programs of bounded width and polynomial length.
+Barrington's theorem says that BWBP is exactly nonuniform NC1. The proof uses the nonsolvability of the symmetric group S5.
+The theorem is rather surprising. For instance, it implies that the majority function can be computed by a family of branching programs of constant width and polynomial size, while intuition might suggest that to achieve polynomial size, one needs a linear number of states.
+Proof of Barrington's theorem.
+A branching program of constant width and polynomial size can be easily converted (via divide-and-conquer) to a circuit in NC1.
+Conversely, suppose a circuit in NC1 is given. Without loss of generality, assume it uses only AND and NOT gates.
+Lemma 1: If there exists a branching program that sometimes works as a permutation "P" and sometimes as a permutation "Q", by right-multiplying permutations in the first instruction by α, and in the last instruction left-multiplying by β, we can make a circuit of the same length that behaves as β"P"α or β"Q"α, respectively.
+Call a branching program α-computing a circuit "C" if it works as identity when C's output is 0, and as α when C's output is 1.
+As a consequence of Lemma 1 and the fact that all cycles of length 5 are conjugate, for any two 5-cycles α, β, if there exists a branching program α-computing a circuit "C", then there exists a branching program β-computing the circuit "C", of the same length.
+Lemma 2: There exist 5-cycles γ, δ such that their commutator ε=γδγ−1δ−1 is a 5-cycle. For example, γ = (1 2 3 4 5), δ = (1 3 5 4 2) giving ε = (1 3 2 5 4).
+We will now prove Barrington's theorem by induction:
+Suppose we have a circuit "C" which takes inputs "x"1...,"x"n and assume that for all subcircuits "D" of "C" and 5-cycles α, there exists a branching program α-computing "D". We will show that for all 5-cycles α, there exists a branching program α-computing "C".
+By assuming the subcircuits have branching programs so that they are α-computing for all 5-cycles α∈"S"5, we have shown "C" also has this property, as required.
+The size of the branching program is at most 4d, where "d" is the depth of the circuit. If the circuit has logarithmic depth, the branching program has polynomial length.
+

@@ -1,0 +1,1 @@
+where "I" is the current in amperes, "V" is the potential difference in volts, and "R" is a constant, measured in ohms, called the resistance.

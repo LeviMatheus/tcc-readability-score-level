@@ -1,0 +1,22 @@
+
+In mathematics, pointless topology (also called point-free or pointfree topology, or locale theory) is an approach to topology that avoids mentioning points.
+Intuitively.
+Traditionally, a topological space consists of a set of points together with a "topology", a system of subsets called open sets that with the operations of intersection and union forms a lattice with certain properties. Point-free topology is based on the concept of a "realistic spot" instead of a point without extent. Spots can be joined (forming a complete lattice) and if a spot meets a join of others it has to meet some of the constituents, which, roughly speaking, leads to the distributive law
+formula_1.
+Formally.
+The basic concept is that of a frame, a complete lattice satisfying the distributive law above; frame homomorphisms respect all joins (in particular, the least element of the lattice) and finite meets (in particular, the greatest element of the lattice).
+Frames, together with frame homomorphisms, form a category.
+Relation to point-set topology.
+In classical topology, represented on a set formula_2 by the system formula_3 of open sets, formula_3 (partially ordered by inclusion) is a frame, and if formula_5 is a continuous map, formula_6 defined by formula_7 is a frame homomorphism. For sober spaces such formula_8 are precisely the frame homomorphisms formula_9. Hence formula_10 is a full embedding of the category of sober spaces into the dual of the category of frames (usually called of the category of locales). This justifies thinking of frames (locales) as of generalized topological spaces. A frame is "spatial" if it is isomorphic to a formula_3. There are plenty of non-spatial ones and this fact turned out to be helpful in several problems.
+The theory of frames and locales.
+The theory of frames and locales in the contemporary sense was initiated in the late 1950s (Charles Ehresmann, Jean Bénabou, Hugh Dowker, Dona Papert) and developed through the following decades (John Isbell, Peter Johnstone, Harold Simmons, , , Till Plewe, Japie Vermeulen, Steve Vickers) into a lively branch of topology, with application in various fields, in particular also in theoretical computer science. For more on the history of locale theory see.
+It is possible to translate most concepts of point-set topology into the context of locales, and prove analogous theorems. Regarding the advantages of the point-free approach let us point out, for example, the fact that some important facts of classical topology depending on choice principles become choice-free (that is, constructive, which is, in particular, appealing for computer science). Thus for instance, products of compact locales are compact constructively, or completions of uniform locales are constructive. This can be useful if one works in a topos that does not have the axiom of choice. Other advantages include the much better behaviour of paracompactness, or the fact that subgroups of localic groups are always closed.
+Another point where locale theory and topology diverge strongly is the concepts of subspaces versus sublocales: by Isbell's density theorem, every locale has a smallest dense sublocale. This has absolutely no equivalent in the realm of topological spaces.
+Bibliography.
+A general introduction to pointless topology is
+This is, in its own words, to be read as the trailer for Johnstone's excellent monograph (which appeared already in 1982 and can still be used for basic reference):
+There is a recent monograph
+where one also finds a more extensive bibliography.
+For relations with logic:
+For a more concise account see the respective chapters in:
+

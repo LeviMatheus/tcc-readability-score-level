@@ -1,0 +1,68 @@
+
+A web server is computer software and underlying hardware that accepts requests via HTTP, the network protocol created to distribute web pages, or its secure variant HTTPS. A user agent, commonly a web browser or web crawler, initiates communication by making a request for a specific resource using HTTP, and the server responds with the content of that resource or an error message. The server can also accept and store resources sent from the user agent if configured to do so.
+A server can be a single computer, or even an embedded system such as a router with a built-in configuration interface, but high-traffic websites typically run web servers on fleets of computers designed to handle large numbers of requests for documents, multimedia files and interactive scripts. A resource sent from a web server can be a preexisting file available to the server, or it can be generated at the time of the request by another program that communicates with the server program. The former is often faster and more easily cached for repeated requests, while the latter supports a broader range of applications. Websites that serve generated content usually incorporate stored files whenever possible.
+Technologies such as REST and SOAP, which use HTTP as a basis for general computer-to-computer communication, have extended the application of web servers well beyond their original purpose of serving human-readable pages.
+History.
+In March 1989 Sir Tim Berners-Lee proposed a new project to his employer CERN, with the goal of easing the exchange of information between scientists by using a hypertext system. The project resulted in Berners-Lee writing two programs in 1990:
+Between 1991 and 1994, the simplicity and effectiveness of early technologies used to surf and exchange data through the World Wide Web helped to port them to many different operating systems and spread their use among scientific organizations and universities, and subsequently to the industry.
+In 1994 Berners-Lee decided to constitute the World Wide Web Consortium (W3C) to regulate the further development of the many technologies involved (HTTP, HTML, etc.) through a standardization process.
+Basic common features.
+Although web server programs differ in how they are implemented, most of them offer the following basic common features.
+A few other popular features (only a very short selection) are:
+Path translation.
+Web servers are able to map the path component of a Uniform Resource Locator (URL) into:
+For a "static request" the URL path specified by the client is relative to the target website's root directory.
+Consider the following URL as it would be requested by a client over HTTP:
+ http://www.example.com/path/file.html
+The client's user agent will translate it into a connection to with the following HTTP/1.1 request:
+ GET /path/file.html HTTP/1.1
+ Host: www.example.com
+The web server on will append the given path to the path of the (Host) website root directory. On an Apache server, this is commonly (on Unix machines, usually ). The result is the local file system resource:
+ /home/www/www.example.com/path/file.html
+The web server then reads the file, if it exists, and sends a response to the client's web browser. The response will describe the content of the file and contain the file itself or an error message will return saying that the file does not exist or is unavailable.
+Kernel-mode and user-mode web servers.
+A web server software can be either incorporated into the OS kernel, or in user space (like other regular applications).
+Web servers that run in kernel mode can have direct access to kernel resources and so they can be, in theory, faster than those running in user mode; anyway there are disadvantages in running a web server in kernel mode, e.g.: difficulties in developing (debugging) software whereas run-time critical errors may lead to serious problems in OS kernel.
+Web servers that run in user-mode have to ask the system for permission to use more memory or more CPU resources. Not only do these requests to the kernel take time, but they are not always satisfied because the system reserves resources for its own usage and has the responsibility to share hardware resources with all the other running applications. Executing in user mode can also mean useless buffer copies which are another limitation for user-mode web servers.
+Nowadays almost all web server software is executed in user mode (because many of above small disadvantages have been overcome by faster hardware, new OS versions and new web server software). See also comparison of web server software to discover which of them run in kernel mode or in user mode (also referred as kernel space or user space).
+Performances.
+To improve user experience, Web servers should reply quickly (as soon as possible) to client requests; unless content response is throttled (by configuration) for some type of files (e.g. big files, etc.), also returned data content should be sent as soon as possible (high transfer speed).
+For Web server software, main key performance statistics (measured under a varying load of clients and requests per client) are:
+Above three performance number may vary noticeably depending on the number of active TCP connections, so a fourth statistic number is the concurrency level supported by a web server under a specific Web server configuration, OS type and available hardware resources.
+Last but not least, the specific server model used to implement a web server program can bias the performance and scalability level that can be reached under heavy load or when using high end hardware (many CPUs, disks, etc.).
+Performances of a web server are typically benchmarked by using one or more of the available
+automated load testing tools.
+Load limits.
+A web server (program installation) usually has pre-defined load limits, because it can handle only a limited number of concurrent client connections (usually between 1 and several tens of thousands for each active web server process, see also the C10k problem and C10M problem) and it can serve only a certain maximum number of requests per second depending on:
+When a web server is near to or over its limits, it gets overloaded and so it may become unresponsive.
+Causes of overload.
+At any time web servers can be overloaded due to:
+Symptoms of overload.
+The symptoms of an overloaded web server are:
+Anti-overload techniques.
+To partially overcome above average load limits and to prevent overload, most popular websites use common techniques like:
+Market share.
+February 2021.
+Below are the latest statistics of the "market share of all sites" of the top web servers on the Internet by Netcraft
+February 2021 Web Server Survey.
+All other web servers are used by less than 5% of the websites.
+February 2020.
+Below are the latest statistics of the "market share of all sites" of the top web servers on the Internet by Netcraft
+February 2020 Web Server Survey.
+All other web servers are used by less than 3% of the websites.
+February 2019.
+Below are the latest statistics of the "market share of all sites" of the top web servers on the Internet by Netcraft
+February 2019 Web Server Survey.
+All other web servers are used by less than 1% of the websites.
+July 2018.
+Below are the latest statistics of the "market share of all sites" of the top web servers on the Internet by Netcraft
+February 2018 Web Server Survey.
+All other web servers are used by less than 1% of the websites.
+February 2017.
+Below are the latest statistics of the "market share of all sites" of the top web servers on the Internet by Netcraft
+February 2017 Web Server Survey.
+February 2016.
+Below are the latest statistics of the "market share of all sites" of the top web servers on the Internet by Netcraft
+February 2016 Web Server Survey.
+Apache, IIS and Nginx are the most used web servers on the World Wide Web.
+

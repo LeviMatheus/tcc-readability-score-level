@@ -1,0 +1,6 @@
+In number theory, the totient formula_1 of a positive integer "n" is defined to be the number of positive integers less than "n" which are coprime to "n".
+For example, formula_3 since the four numbers 1, 3, 5 and 7 are coprime to 8.
+The function formula_4 so defined is the totient function.
+The totient is usually called the Euler totient or Euler's totient, after the Swiss mathematician Leonhard Euler, who studied it.
+The totient function is also called Euler's phi function or simply the phi function, since the letter Phi (formula_4) is so commonly used for it. The cototient of "n" is defined as formula_6.
+The totient function is important mainly because it gives the size of the multiplicative group of integers modulo "n". More precisely, formula_1 is the order of the group of units of the ring formula_8. This fact, together with Lagrange's theorem, provides a proof for Euler's theorem.

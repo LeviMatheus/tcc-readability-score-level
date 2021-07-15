@@ -1,0 +1,43 @@
+
+In geometry, a parallelepiped is a three-dimensional figure formed by six parallelograms (the term "rhomboid" is also sometimes used with this meaning). By analogy, it relates to a parallelogram just as a cube relates to a square. In Euclidean geometry, the four concepts—"parallelepiped" and "cube" in three dimensions, "parallelogram" and "square" in two dimensions—are defined, but in the context of a more general affine geometry, in which angles are not differentiated, only "parallelograms" and "parallelepipeds" exist. Three equivalent definitions of "parallelepiped" are
+The rectangular cuboid (six rectangular faces), cube (six square faces), and the rhombohedron (six rhombus faces) are all specific cases of parallelepiped.
+"Parallelepiped" is now usually pronounced , , or ; traditionally it was in accordance with its etymology in Greek παραλληλεπίπεδον "parallelepipedon", a body "having parallel planes".
+Parallelepipeds are a subclass of the prismatoids.
+Properties.
+Any of the three pairs of parallel faces can be viewed as the base planes of the prism. A parallelepiped has three sets of four parallel edges; the edges within each set are of equal length.
+Parallelepipeds result from linear transformations of a cube (for the non-degenerate cases: the bijective linear transformations).
+Since each face has point symmetry, a parallelepiped is a zonohedron. Also the whole parallelepiped has point symmetry "Ci" (see also triclinic). Each face is, seen from the outside, the mirror image of the opposite face. The faces are in general chiral, but the parallelepiped is not.
+A space-filling tessellation is possible with congruent copies of any parallelepiped.
+Volume.
+A parallelepiped can be considered as an oblique prism with a parallelogram as base.
+Hence the volume formula_1 of a parallelepiped is the product of the base area formula_2 and the height formula_3 (see diagram). With 
+The mixed product of three vectors is called triple product. It can be described by a determinant. Hence for formula_12 the volume is:
+Another way to prove (V1) is to use the scalar component in the direction of formula_14 of vector formula_10:
+formula_16
+The result follows.
+An alternative representation of the volume uses geometric properties (angles and edge lengths) only:
+where formula_18 and formula_19 are the edge lengths. 
+The proof of (V2) uses properties of a determinant and the geometric interpretation of the dot product:
+Let be formula_20 the 3x3-matrix, whose columns are the vectors formula_21 (see above). Then the following is true: 
+The volume of any tetrahedron that shares three converging edges of a parallelepiped is equal to one sixth of the volume of that parallelepiped (see proof).
+Surface area.
+The surface area of a parallelepiped is the sum of the areas of the bounding parallelograms:
+Perfect parallelepiped.
+A "perfect parallelepiped" is a parallelepiped with integer-length edges, face diagonals, and space diagonals. In 2009, dozens of perfect parallelepipeds were shown to exist, answering an open question of Richard Guy. One example has edges 271, 106, and 103, minor face diagonals 101, 266, and 255, major face diagonals 183, 312, and 323, and space diagonals 374, 300, 278, and 272. 
+Some perfect parallelepipeds having two rectangular faces are known. But it is not known whether there exist any with all faces rectangular; such a case would be called a perfect cuboid.
+Parallelotope.
+Coxeter called the generalization of a parallelepiped in higher dimensions a parallelotope. In modern literature expression parallelepiped is often used in higher (or arbitrary finite) dimensions as well.
+Specifically in "n"-dimensional space it is called "n"-dimensional parallelotope, or simply "n"-parallelotope (or "n"-parallelepiped). Thus a parallelogram is a 2-parallelotope and a parallelepiped is a 3-parallelotope.
+More generally a parallelotope, or "voronoi parallelotope", has parallel and congruent opposite facets. So a 2-parallelotope is a parallelogon which can also include certain hexagons, and a 3-parallelotope is a parallelohedron, including 5 types of polyhedra.
+The diagonals of an "n"-parallelotope intersect at one point and are bisected by this point. Inversion in this point leaves the "n"-parallelotope unchanged. See also fixed points of isometry groups in Euclidean space.
+The edges radiating from one vertex of a "k"-parallelotope form a "k"-frame formula_36 of the vector space, and the parallelotope can be recovered from these vectors, by taking linear combinations of the vectors, with weights between 0 and 1.
+The "n"-volume of an "n"-parallelotope embedded in formula_37 where formula_38 can be computed by means of the Gram determinant. Alternatively, the volume is the norm of the exterior product of the vectors:
+If "m" = "n", this amounts to the absolute value of the determinant of the "n" vectors.
+Another formula to compute the volume of an "n"-parallelotope "P" in formula_40, whose vertices are formula_41, is 
+where formula_43 is the row vector formed by the concatenation of formula_44 and 1. Indeed, the determinant is unchanged if formula_45 is subtracted from formula_43 (), and placing formula_45 in the last position only changes its sign. 
+Similarly, the volume of any "n"-simplex that shares "n" converging edges of a parallelotope has a volume equal to one 1/"n"! of the volume of that parallelotope.
+Lexicography.
+The word appears as "parallelipipedon" in Sir Henry Billingsley's translation of Euclid's Elements, dated 1570. In the 1644 edition of his "Cursus mathematicus", Pierre Hérigone used the spelling "parallelepipedum". The "Oxford English Dictionary" cites the present-day "parallelepiped" as first appearing in Walter Charleton's "Chorea gigantum" (1663).
+Charles Hutton's Dictionary (1795) shows "parallelopiped" and "parallelopipedon", showing the influence of the combining form "parallelo-", as if the second element were "pipedon" rather than "epipedon". Noah Webster (1806) includes the spelling "parallelopiped". The 1989 edition of the "Oxford English Dictionary" describes "parallelopiped" (and "parallelipiped") explicitly as incorrect forms, but these are listed without comment in the 2004 edition, and only pronunciations with the emphasis on the fifth syllable "pi" () are given.
+A change away from the traditional pronunciation has hidden the different partition suggested by the Greek roots, with "epi-" ("on") and "pedon" ("ground") combining to give "epiped", a flat "plane". Thus the faces of a parallelepiped are planar, with opposite faces being parallel.
+

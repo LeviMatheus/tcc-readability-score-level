@@ -1,0 +1,20 @@
+
+Gustav Robert Kirchhoff (; 12 March 1824 – 17 October 1887) was a German physicist who contributed to the fundamental understanding of electrical circuits, spectroscopy, and the emission of black-body radiation by heated objects.
+He coined the term black-body radiation in 1862. Several different sets of concepts are named "Kirchhoff's laws" after him, concerning such diverse subjects as black-body radiation and spectroscopy, electrical circuits, and thermochemistry. The Bunsen–Kirchhoff Award for spectroscopy is named after him and his colleague, Robert Bunsen.
+Life and work.
+Gustav Kirchhoff was born on 12 March 1824 in Königsberg, Prussia, the son of Friedrich Kirchhoff, a lawyer, and Johanna Henriette Wittke. His family were Lutherans in the Evangelical Church of Prussia. He graduated from the Albertus University of Königsberg in 1847 where he attended the mathematico-physical seminar directed by Carl Gustav Jacob Jacobi, Franz Ernst Neumann and Friedrich Julius Richelot. In the same year, he moved to Berlin, where he stayed until he received a professorship at Breslau. Later, in 1857, he married Clara Richelot, the daughter of his mathematics professor Richelot. The couple had five children. Clara died in 1869. He married Luise Brömmel in 1872.
+Kirchhoff formulated his circuit laws, which are now ubiquitous in electrical engineering, in 1845, while still a student. He completed this study as a seminar exercise; it later became his doctoral dissertation. He was called to the University of Heidelberg in 1854, where he collaborated in spectroscopic work with Robert Bunsen. In 1857 he calculated that an electric signal in a resistanceless wire travels along the wire at the speed of light. He proposed his law of thermal radiation in 1859, and gave a proof in 1861. Together Kirchhoff and Bunsen invented the spectroscope, which Kirchhoff used to pioneer the identification of the elements in the Sun, showing in 1859 that the Sun contains sodium. He and Bunsen discovered caesium and rubidium in 1861.
+At Heidelberg he ran a mathematico-physical seminar, modelled on Franz Ernst Neumann's, with the mathematician Leo Koenigsberger. Among those who attended this seminar were Arthur Schuster and Sofia Kovalevskaya.
+He contributed greatly to the field of spectroscopy by formalizing three laws that describe the spectral composition of light emitted by incandescent objects, building substantially on the discoveries of David Alter and Anders Jonas Ångström. In 1862 he was awarded the Rumford Medal for his researches on the fixed lines of the solar spectrum, and on the inversion of the bright lines in the spectra of artificial light. In 1875 Kirchhoff accepted the first chair dedicated specifically to theoretical physics at Berlin.
+He also contributed to optics, carefully solving the wave equation to provide a solid foundation for Huygens' principle (and correct it in the process).
+In 1896, he was elected as a member to the American Philosophical Society.
+In 1884 he became foreign member of the Royal Netherlands Academy of Arts and Sciences.
+Kirchhoff died in 1887, and was buried in the St Matthäus Kirchhof Cemetery in Schöneberg, Berlin (just a few meters from the graves of the Brothers Grimm). Leopold Kronecker is buried in the same cemetery.
+Kirchhoff's circuit laws.
+Kirchhoff's first law is that the algebraic sum of currents in a network of conductors meeting at a point (or node) is zero. The second law is that in a closed circuit, the directed sums of the voltages in a closed system is zero.
+Kirchhoff's three laws of spectroscopy.
+Kirchhoff did not know about the existence of energy levels in atoms. The existence of discrete spectral lines was later explained by the Bohr model of the atom, which helped lead to quantum mechanics.
+Kirchhoff's law of thermochemistry.
+Kirchhoff showed in 1858 that, in thermochemistry, the variation of the heat of a chemical reaction is given by the difference in heat capacity between products and reactants:
+Integration of this equation permits the evaluation of the heat of reaction at one temperature from measurements at another temperature.
+

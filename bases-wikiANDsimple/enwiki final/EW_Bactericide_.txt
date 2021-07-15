@@ -1,0 +1,22 @@
+
+A bactericide or bacteriocide, sometimes abbreviated Bcidal, is a substance which kills bacteria. Bactericides are disinfectants, antiseptics, or antibiotics.
+However, material surfaces can also have bactericidal properties based solely on their physical surface structure, as for example biomaterials like insect wings.
+Definition.
+A bactericide is a substance which kills bacteria. Bactericides are chemical substances like disinfectants, antiseptics, or antibiotics.
+Disinfectants.
+The most used disinfectants are those applying
+Antiseptics.
+As antiseptics (i.e., germicide agents that can be used on human or animal body, skin, mucoses, wounds and the like), few of the above-mentioned disinfectants can be used, under proper conditions (mainly concentration, pH, temperature and toxicity toward humans and animals). Among them, some important are
+Others are generally not applicable as safe antiseptics, either because of their corrosive or toxic nature.
+Antibiotics.
+Bactericidal antibiotics kill bacteria; bacteriostatic antibiotics slow their growth or reproduction.
+Bactericidal antibiotics that inhibit cell wall synthesis: the beta-lactam antibiotics (penicillin derivatives (penams), cephalosporins (cephems), monobactams, and carbapenems) and vancomycin.
+Also bactericidal are daptomycin, fluoroquinolones, metronidazole, nitrofurantoin, co-trimoxazole, telithromycin.
+Aminoglycosidic antibiotics are usually considered bactericidal, although they may be bacteriostatic with some organisms.
+As of 2004, the distinction between bactericidal and bacteriostatic agents appeared to be clear according to the basic/clinical definition, but this only applies under strict laboratory conditions and it is important to distinguish microbiological and clinical definitions. The distinction is more arbitrary when agents are categorized in clinical situations. The supposed superiority of bactericidal agents over bacteriostatic agents is of little relevance when treating the vast majority of infections with gram-positive bacteria, particularly in patients with uncomplicated infections and noncompromised immune systems. Bacteriostatic agents have been effectively used for treatment that are considered to require bactericidal activity. Furthermore, some broad classes of antibacterial agents considered bacteriostatic can exhibit bactericidal activity against some bacteria on the basis of in vitro determination of MBC/MIC values. At high concentrations, bacteriostatic agents are often bactericidal against some susceptible organisms. The ultimate guide to treatment of any infection must be clinical outcome.
+Surfaces.
+Material surfaces can exhibit bactericidal properties because of their crystallographic surface structure.
+Somewhere in the mid 2000s it was shown that metallic nanoparticles can kill bacteria. The effect of a silver nanoparticle for example depends on its size with a preferential diameter of about 1-10 nm to interact with bacteria.
+In 2013, cicada wings were found to have a selective anti-Gram-negative bactericidal effect based on their physical surface structure. Mechanical deformation of the more or less rigid nanopillars found on the wing releases energy, striking and killing bacteria within minutes, hence called a mechano-bactericidal effect.
+In 2020 researchers have combined cationic polymer adsorption and femtosecond laser surface structuring to generate a bactericidal effect against both Gram-positive "Staphylococcus aureus" and Gram-negative "Escherichia coli" bacteria on borosilicate glass surfaces, providing a practical platform for the study of the bacteria-surface interaction.
+

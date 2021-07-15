@@ -1,0 +1,4 @@
+Division by Zero is a problem of number theory that does not allow a number to be divided by zero. It is a rule of mathematics.
+With the equation formula_1, if "A" and "B" are both known, "C" can be calculated. This is called multiplication.
+If "C" and "A" are known, "B" can be calulated by using division.
+Here, "A" can not be solved for since any number times zero is equal to zero. If "A" were 3 then the statement would be correct that "A" * "B" = "C", but it would also be correct if "A" were 5 or 55, or any other number. Therefore, it is not allowed to divide by zero, because the result is undefined.

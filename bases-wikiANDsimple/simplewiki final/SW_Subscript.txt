@@ -1,0 +1,3 @@
+Subscript is the text which a small letter/number is written after a particular letter/number. It hangs below its letter or number. It is used when writing chemical compounds. An example of subscript is N2.
+Typing subscripts.
+In word-processing computer programs like Microsoft Word, the shortcut key for subscripts is Ctrl+=.

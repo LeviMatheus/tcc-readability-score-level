@@ -1,0 +1,7 @@
+The Mean is a measure from mathematics or from statistics. If people do many different measurements, they will get many different results. Those results have a certain distribution, and they can also be centered around an "average" value. This average value is what mathematicians call arithmetic mean.
+Mean can also stand for expected value.
+Problems with the arithmetic mean.
+The problem with using the mean is that the information about how the values are distributed is lost.
+Solving the problem.
+This is different to the Median. The median is the number that divides all the samples in such a way that half of the samples are below it, and the other half above.
+The modus or Mode is the number with the greatest number of samples, or observations.

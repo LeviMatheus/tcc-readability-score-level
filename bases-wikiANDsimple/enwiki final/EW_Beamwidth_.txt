@@ -1,0 +1,9 @@
+
+In a radio antenna pattern, the half power beam width is the angle between the half-power (-3 dB) points of the main lobe, when referenced to the peak effective radiated power of the main lobe. See beam diameter.
+Beamwidth is usually but not always expressed in degrees and for the horizontal plane.
+The beamwidth can be computed for arbitrary antenna arrays. Defining the array manifold as the complex response of the formula_1 element antenna array as formula_2, where formula_2 is a matrix with formula_1 rows, the beam pattern is first computed as:
+where formula_6 is the conjugate transpose of formula_7 at the reference angle formula_8.
+From the beam pattern formula_9, the antenna power is computed as:
+The half power beamwidth (HPBW) is then found as the range of formula_11 where formula_12.
+Note that other definitions of beamwidth exist, such as the distance between nulls and distance between first side lobes. 
+

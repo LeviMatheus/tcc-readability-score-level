@@ -1,0 +1,32 @@
+
+In telecommunication, the term critical frequency has the following meanings:
+Critical Frequency changes with time of day, atmospheric conditions and angle of fire of the radio waves by antenna.
+The existence of the critical frequency is the result of electron limitation, "i.e.," the inadequacy of the existing number of free electrons to support reflection at higher frequencies.
+In signal processing the "critical frequency" it is also another name for the Nyquist frequency.
+Critical frequency is the highest magnitude of frequency above which the waves penetrate the ionosphere and below which the waves are reflected back from the ionosphere.
+It is denoted by ""f"c".
+Its value is not fixed and it depends upon the electron density of the ionosphere.
+Equations.
+Critical Frequency as a Function of Electron Density.
+Critical frequency can be computed with the electron density given by:
+formula_1
+where "N"max is maximum electron density per m3 and "f"c is in Hz.
+Critical Frequency as a Function of Maximum Usable Frequency Formula.
+Critical frequency can be computed by:
+formula_2
+where MUF is maximum usable frequency and formula_3 is the angle of incidence
+Relationship with Plasma Frequency.
+The dependence of critical frequency with respect with electron density can be related through plasma oscillation concept particularly the 'Cold' Electrons mechanism.
+formula_4
+Using the electron charge formula_5, electron mass formula_6 and permittivity of free space formula_7gives,
+formula_8
+and solving for the frequency,
+formula_9
+Relationship with Index of Refraction.
+The index of refraction has the formula formula_10which shows dependence in wavelength. The result that the force due to the polarization field in an ionized gas of low concentration is canceled by the effect of collisions between ions and electrons is re‐established in a simple manner that clearly displays the physical basis for the effect. Because of this cancellation the Sellmeyer formula, determines the relation between the electron number density, N, and the index of refraction, n, in the ionosphere when collisions are neglected.
+formula_11.
+Using the default values for electron charge formula_12, permittivity of free space and electron mass formula_13, and changing angular velocity formula_14with respect to frequency formula_15this yields to
+formula_16
+and solving for the refraction index n,
+formula_17
+

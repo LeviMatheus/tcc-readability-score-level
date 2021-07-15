@@ -1,0 +1,3 @@
+Digital signal processing (DSP) is concerned with the processing of digital signals or analog signals after converting from analog to digital format.
+DSP includes subfields like: communication signals processing, radar signal processing, sensor array processing, digital image processing, etc.
+DSP is usually used with real-world analog signals found in our lives, the first step is usually to convert the signal from an analog to a digital form, by using an analog to digital converter. Often, the required output signal is another real-world analog signal, which requires a digital to analog converter.

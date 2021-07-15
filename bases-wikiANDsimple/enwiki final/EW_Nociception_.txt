@@ -1,0 +1,21 @@
+
+Nociception (also nocioception, from Latin "nocere" 'to harm or hurt') is the sensory nervous system's process of encoding noxious stimuli. In nociception, intense chemical (e.g., cayenne powder), mechanical (e.g., cutting, crushing), or thermal (heat and cold) stimulation of sensory nerve cells called nociceptors produces a signal that travels along a chain of nerve fibers via the spinal cord to the brain. Nociception triggers a variety of physiological and behavioral responses and usually results in a subjective experience, or perception, of pain in sentient beings.
+Detection of noxious stimuli.
+Potentially damaging mechanical, thermal, and chemical stimuli are detected by nerve endings called nociceptors, which are found in the skin, on internal surfaces such as the periosteum, joint surfaces, and in some internal organs. Some nociceptors are unspecialized free nerve endings that have their cell bodies outside the spinal column in the dorsal root ganglia. Other nociceptors rely on specialised structures in the skin to transduce noxious information such as nociceptive schwann cells. Nociceptors are categorized according to the axons which travel from the receptors to the spinal cord or brain. After nerve injury it is possible for touch fibres that normally carry non-noxious stimuli to be perceived as noxious.
+Nociceptors have a certain threshold; that is, they require a minimum intensity of stimulation before they trigger a signal. Once this threshold is reached a signal is passed along the axon of the neuron into the spinal cord.
+Nociceptive threshold testing deliberately applies a noxious stimulus to a human or animal subject in order to study pain. In animals, the technique is often used to study the efficacy of analgesic drugs and to establish dosing levels and period of effect. After establishing a baseline, the drug under test is given and the elevation in threshold recorded at specified time points. When the drug wears off, the threshold should return to the baseline (pre-treatment) value.
+In some conditions, excitation of pain fibers becomes greater as the pain stimulus continues, leading to a condition called hyperalgesia.
+Consequences.
+Nociception can also cause generalized autonomic responses before or without reaching consciousness to cause pallor, sweating, tachycardia, hypertension, lightheadedness, nausea and fainting.
+System overview.
+This overview discusses proprioception, thermoception, chemoception and nociception as they are all integrally connected.
+Mechanical.
+Proprioception is determined by using standard mechanoreceptors (especially ruffini corpuscles (stretch) and transient receptor potential (TRP) channels). Proprioception is completely covered within the somatosensory system as the brain processes them together.
+Thermoception refers to stimuli of moderate temperatures 
+, as anything beyond that range is considered pain and moderated by nociceptors. TRP and potassium channels [TRPM (1-8), TRPV (1-6), TRAAK, and TREK] each respond to different temperatures (among other stimuli) which create action potentials in nerves which join the mechano (touch) system in the posterolateral tract. Thermoception, like proprioception, is then covered by the somatosensory system.
+TRP channels that detect noxious stimuli (mechanical, thermal, and chemical pain) relay that info to nociceptors that generate an action potential. Mechanical TRP channels react to depression of their cells (like touch), thermal TRP change shape in different temperatures, and chemical TRP act like taste buds, signalling if their receptors bond to certain elements/chemicals.
+In non-mammalian animals.
+Nociception has been documented in non-mammalian animals, including fish and a wide range of invertebrates, including leeches, nematode worms, sea slugs, and fruit flies. As in mammals, nociceptive neurons in these species are typically characterized by responding preferentially to high temperature (40° Celsius or more), low pH, capsaicin, and tissue damage.
+History of term.
+The term "nociception" was coined by Charles Scott Sherrington to distinguish the physiological process (nervous activity) from pain (a subjective experience). It is derived from the Latin verb "nocēre", which means "to harm".
+

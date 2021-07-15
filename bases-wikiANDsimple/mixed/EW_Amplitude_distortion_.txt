@@ -1,0 +1,8 @@
+
+Amplitude distortion is distortion occurring in a system, subsystem, or device when the output amplitude is not a linear function of the input amplitude under specified conditions. 
+Generally, output is a linear function of input only for a fixed portion of the transfer characteristics. In this region, Ic=βIb where Ic is collector current and Ib is base current, following linear relation y=mx.
+When output is not in this portion, two forms of amplitude distortion might arise
+Due to the additional outputs, this form of distortion is definitely unwanted in audio, radio and telecommunication amplifiers, and it occurs for more than two waves as well.
+In a narrowband system such as a radio communication system, unwanted outputs such as X-Y and 2X+Y will be remote from the wanted band and so be ignored by the system. In contrast, 2X-Y and 2Y-X will be close to the wanted signals. These so-called third order distortion products (third order as m+n = 3) tend to dominante the non-linear distortion of narrowband systems.
+Amplitude distortion is measured with the system operating under steady-state conditions with a sinusoidal input signal. When other frequencies are present, the term "amplitude" refers to that of the fundamental only.
+

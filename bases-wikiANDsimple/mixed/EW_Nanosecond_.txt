@@ -1,0 +1,6 @@
+
+A nanosecond (ns) is an SI unit of time equal to one billionth of a second, that is, of a second, or 10 seconds.
+The term combines the prefix "nano-" with the basic unit for one-sixtieth of a minute.
+A nanosecond is equal to 1000 picoseconds or  microsecond. Time units ranging between 10 and 10 seconds are typically expressed as tens or hundreds of nanoseconds.
+Time units of this granularity are commonly found in telecommunications, pulsed lasers, and related aspects of electronics.
+

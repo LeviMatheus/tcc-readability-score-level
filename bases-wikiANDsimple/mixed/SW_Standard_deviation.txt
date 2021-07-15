@@ -1,0 +1,11 @@
+Standard deviation is a concept from statistics. It tells how the values are grouped around the mean. It is the average of a set of numbers' difference from the mean.
+Method.
+Standard deviation can be used to evaluate the precision or consistency of a set of data. Standard deviation can also produce standard error, which is useful in statistical inference.
+Example.
+To find the standard deviation of the numbers 3, 7, 7, and 19.
+Step 1: find the mean of 3, 7, 7, and 19
+Step 2: find the deviation of each number from the mean,
+Step 3: square each of the deviations
+Step 4: find the mean of those squared deviations
+Step 5: find the square root
+So, the standard deviation is 6.

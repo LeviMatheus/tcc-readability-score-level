@@ -1,0 +1,4 @@
+
+Connectivity exchange (CONEX): In an adaptive or manually operated high-frequency (HF) radio network, the automatic or manual exchange of information concerning routes to stations that are not directly reachable by the exchange originator. 
+The purpose of the exchange is to identify indirect paths and/or possible relay stations to those stations that are not directly reachable.
+

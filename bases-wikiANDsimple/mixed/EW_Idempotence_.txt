@@ -1,0 +1,36 @@
+
+Idempotence (, ) is the property of certain operations in mathematics and computer science whereby they can be applied multiple times without changing the result beyond the initial application. The concept of idempotence arises in a number of places in abstract algebra (in particular, in the theory of projectors and closure operators) and functional programming (in which it is connected to the property of referential transparency).
+The term was introduced by Benjamin Peirce in the context of elements of algebras that remain invariant when raised to a positive integer power, and literally means "(the quality of having) the same power", from + "potence" (same + power).
+Definition.
+An element "x" of a magma ("M", •) is said to be "idempotent" if:
+If all elements are idempotent with respect to •, then • is called idempotent.
+The formula ∀"x", is called the idempotency law for •.
+Examples.
+Idempotent functions.
+In the monoid ("EE", ∘) of the functions from a set "E" to itself with the function composition ∘, idempotent elements are the functions such that , in other words such that for all "x" in "E", (the image of each element in "E" is a fixed point of "f"). For example:
+Other examples include:
+If the set "E" has "n" elements, we can partition it into "k" chosen fixed points and non-fixed points under "f", and then "k""n"−"k" is the number of different idempotent functions. Hence, taking into account all possible partitions,
+is the total number of possible idempotent functions on the set. The integer sequence of the number of idempotent functions as given by the sum above for "n" = 0, 1, 2, 3, 4, 5, 6, 7, 8, … starts with 1, 1, 3, 10, 41, 196, 1057, 6322, 41393, … .
+Neither the property of being idempotent nor that of being not is preserved under function composition. As an example for the former, mod 3 and "g"("x") = max("x", 5) are both idempotent, but is not, although happens to be. As an example for the latter, the negation function ¬ on the Boolean domain is not idempotent, but is. Similarly, unary negation of real numbers is not idempotent, but is.
+Computer science meaning.
+In computer science, the term "idempotence" may have a different meaning depending on the context in which it is applied:
+This is a very useful property in many situations, as it means that an operation can be repeated or retried as often as necessary without causing unintended effects. With non-idempotent operations, the algorithm may have to keep track of whether the operation was already performed or not.
+Computer science examples.
+A function looking up a customer's name and address in a database is typically idempotent, since this will not cause the database to change. Similarly, changing a customer's address to XYZ is typically idempotent, because the final address will be the same no matter how many times XYZ is submitted. However, placing an order for a cart for the customer is typically not idempotent, since running the call several times will lead to several orders being placed. Canceling an order is idempotent, because the order remains canceled no matter how many requests are made.
+A composition of idempotent methods or subroutines, however, is not necessarily idempotent if a later method in the sequence changes a value that an earlier method depends on – "idempotence is not closed under composition". For example, suppose the initial value of a variable is 3 and there is a sequence that reads the variable, then changes it to 5, and then reads it again. Each step in the sequence is idempotent: both steps reading the variable have no side effects and changing a variable to 5 will always have the same effect no matter how many times it is executed. Nonetheless, executing the entire sequence once produces the output (3, 5), but executing it a second time produces the output (5, 5), so the sequence is not idempotent.
+In the Hypertext Transfer Protocol (HTTP), idempotence and safety are the major attributes that separate HTTP verbs. Of the major HTTP verbs, GET, PUT, and DELETE should be implemented in an idempotent manner according to the standard, but POST need not be. GET retrieves a resource; PUT stores content at a resource; and DELETE eliminates a resource. As in the example above, reading data usually has no side effects, so it is idempotent (in fact "nullipotent"). Storing and deleting a given set of content are each usually idempotent as long as the request specifies a location or identifier that uniquely identifies that resource and only that resource again in the future. The PUT and DELETE operations with unique identifiers reduce to the simple case of assignment to an immutable variable of either a value or the null-value, respectively, and are idempotent for the same reason; the end result is always the same as the result of the initial execution, even if the response differs.
+Violation of the unique identification requirement in storage or deletion typically causes violation of idempotence. For example, storing or deleting a given set of content without specifying a unique identifier: POST requests, which do not need to be idempotent, often do not contain unique identifiers, so the creation of the identifier is delegated to the receiving system which then creates a corresponding new record. Similarly, PUT and DELETE requests with nonspecific criteria may result in different outcomes depending on the state of the system - for example, a request to delete the most recent record. In each case, subsequent executions will further modify the state of the system, so they are not idempotent.
+In Event stream processing, idempotence refers to the ability of a system to produce the same outcome, even if the same file, event or message is received more than once.
+In a load-store architecture, instructions that might possibly cause a page fault are idempotent. So if a page fault occurs, the OS can load the page from disk and then simply re-execute the faulted instruction. In a processor where such instructions are not idempotent, dealing with page faults is much more complex.
+When reformatting output, pretty-printing is expected to be idempotent. In other words, if the output is already "pretty", there should be nothing to do for the pretty-printer.
+In service-oriented architecture (SOA), a multiple-step orchestration process composed entirely of idempotent steps can be replayed without side-effects if any part of that process fails.
+Many operations that are idempotent often have ways to "resume"
+a process if it is interrupted—ways that finish much faster than starting all over from the beginning.
+For example, resuming a file transfer, 
+synchronizing files, 
+creating a software build,
+installing an application and all of its dependencies with a package manager,
+etc.
+Applied examples.
+Applied examples that many people could encounter in their day-to-day lives include elevator call buttons and crosswalk buttons. The initial activation of the button moves the system into a requesting state, until the request is satisfied. Subsequent activations of the button between the initial activation and the request being satisfied have no effect, unless the system is designed to adjust the time for satisfying the request based on the number of activations.
+

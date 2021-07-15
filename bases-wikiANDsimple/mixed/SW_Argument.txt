@@ -1,0 +1,7 @@
+An argument is a reason that is supposed to prove one side is right.
+There can be a "strong argument" or a "convincing argument" (for example, a good reason for why something should be done).
+The opposite is a "weak argument" or an "unconvincing argument".
+"The lawyer argued the case" (he gave reasons why he thought the person was guilty or not guilty).
+"To argue with someone" can also mean that someone is becoming annoyed. Someone who is always arguing with people is argumentative.
+Most people get into arguments (become annoyed) at times, but it is much better to try to agree with someone by discussing the arguments (reasons) thoughtfully. Sometimes an argument can be settled by each person making a compromise (an arrangement in which each side gives up something).
+In mathematics, logic, computer science and related fields, an argument is a variable or value that is passed to a function.

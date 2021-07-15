@@ -1,0 +1,3 @@
+A file server is a computer joined to a web network or to a home network, and that can host many files in the hard disk.
+Characteristics.
+The file server can be a normal computer, or a Network Attached Storage, which is a special computer created to only be a file server. Often people recycle their old computer and they modify it to become a file server which can host photos, songs, films, and backups. Sometimes web servers that are "hand made" are used as a media center, people host files in the file server and when they want they can see it.

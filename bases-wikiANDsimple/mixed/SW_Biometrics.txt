@@ -1,0 +1,5 @@
+Biometrics is a field of study. It involves mainly biology, but also relies on computer science quite heavily.
+The idea behind it is simple. Based on some easily measurable traits and behaviour patterns, the idea is to identify a human being with as little error as possible. One such way could be to take a fingerprint of every person, another one could be to let the person sign a document. The data could then be put into a form that a machine can read. At the border, people could again take the fingerprint or the signature, and compare it to the version stored in the passport.
+When choosing features, those chosing must also look at social acceptance. Taking a fingerprint may be ok, taking a blood test may not be. Some biometric data is also easier to fake, eg. signatures.
+Also, when voice samples are taken, these may be distorted (worsened), because only a telephone line is available. Telephone lines cut off some bandwidth from the signal.
+Other than for passports, biometric methods are also used in some banks.

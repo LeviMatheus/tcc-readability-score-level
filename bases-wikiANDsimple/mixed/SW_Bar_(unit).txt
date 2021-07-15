@@ -1,0 +1,4 @@
+The bar (symbol bar), decibar (symbol dbar) and the millibar (symbol mbar, also mb) are units of pressure. They are not SI units, but they are anyhow also used with (although discouraged) for use with the SI. The bar is still used in descriptions of pressure because it is about the same as atmospheric pressure.
+Origin.
+The word "bar" has its origin in the Greek word "βάρος" (baros), meaning weight. Its official symbol is "bar"; the earlier "b" is now no longer used, but still often seen especially as "mb" rather than the correct "mbar" for millibars.
+The bar and millibar were defined by Sir Napier Shaw in 1909 and internationally used in 1929.

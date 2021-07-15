@@ -1,0 +1,2 @@
+KPresenter is a free presentation program that is part of KOffice, an office suite for the KDE Desktop Environment.
+KPresenter's native format is XML, compressed with ZIP. KPresenter is also able to load presentations from Microsoft PowerPoint, MagicPoint and OpenOffice.org Impress documents.

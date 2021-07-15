@@ -1,0 +1,39 @@
+
+In mathematics, particularly in the area of abstract algebra known as group theory, a characteristic subgroup is a subgroup that is mapped to itself by every automorphism of the parent group. Because every conjugation map is an inner automorphism, every characteristic subgroup is normal; though the converse is not guaranteed. Examples of characteristic subgroups include the commutator subgroup and the center of a group.
+Definition.
+A subgroup of a group is called a characteristic subgroup if for every automorphism of , one has ; then write . 
+It would be equivalent to require the stronger condition = for every automorphism of , because implies the reverse inclusion .
+Basic properties.
+Given , every automorphism of induces an automorphism of the quotient group , which yields a homomorphism .
+If has a unique subgroup of a given index, then is characteristic in .
+Related concepts.
+Normal subgroup.
+A subgroup of that is invariant under all inner automorphisms is called normal; also, an invariant subgroup.
+Since and a characteristic subgroup is invariant under all automorphisms, every characteristic subgroup is normal. However, not every normal subgroup is characteristic. Here are several examples:
+Strictly characteristic subgroup.
+A ', or a ', which is invariant under surjective endomorphisms. For finite groups, surjectivity of an endomorphism implies injectivity, so a surjective endomorphism is an automorphism; thus being "strictly characteristic" is equivalent to "characteristic". This is not the case anymore for infinite groups.
+Fully characteristic subgroup.
+For an even stronger constraint, a "fully characteristic subgroup" (also, "fully invariant subgroup"; cf. invariant subgroup), , of a group , is a group remaining invariant under every endomorphism of ; that is,
+Every group has itself (the improper subgroup) and the trivial subgroup as two of its fully characteristic subgroups. The commutator subgroup of a group is always a fully characteristic subgroup.
+Every endomorphism of induces an endomorphism of , which yields a map .
+Verbal subgroup.
+An even stronger constraint is verbal subgroup, which is the image of a fully invariant subgroup of a free group under a homomorphism. More generally, any verbal subgroup is always fully characteristic. For any reduced free group, and, in particular, for any free group, the converse also holds: every fully characteristic subgroup is verbal.
+Transitivity.
+The property of being characteristic or fully characteristic is transitive; if is a (fully) characteristic subgroup of , and is a (fully) characteristic subgroup of , then is a (fully) characteristic subgroup of .
+Moreover, while normality is not transitive, it is true that every characteristic subgroup of a normal subgroup is normal.
+Similarly, while being strictly characteristic (distinguished) is not transitive, it is true that every fully characteristic subgroup of a strictly characteristic subgroup is strictly characteristic.
+However, unlike normality, if and is a subgroup of containing , then in general is not necessarily characteristic in .
+Containments.
+Every subgroup that is fully characteristic is certainly strictly characteristic and characteristic; but a characteristic or even strictly characteristic subgroup need not be fully characteristic.
+The center of a group is always a strictly characteristic subgroup, but it is not always fully characteristic. For example, the finite group of order 12, , has a homomorphism taking to , which takes the center, , into a subgroup of , which meets the center only in the identity.
+The relationship amongst these subgroup properties can be expressed as:
+Examples.
+Finite example.
+Consider the group (the group of order 12 that is the direct product of the symmetric group of order 6 and a cyclic group of order 2). The center of is isomorphic to its second factor . Note that the first factor, , contains subgroups isomorphic to , for instance ; let be the morphism mapping onto the indicated subgroup. Then the composition of the projection of onto its second factor , followed by , followed by the inclusion of into as its first factor, provides an endomorphism of under which the image of the center, , is not contained in the center, so here the center is not a fully characteristic subgroup of .
+Cyclic groups.
+Every subgroup of a cyclic group is characteristic.
+Subgroup functors.
+The derived subgroup (or commutator subgroup) of a group is a verbal subgroup. The torsion subgroup of an abelian group is a fully invariant subgroup.
+Topological groups.
+The identity component of a topological group is always a characteristic subgroup.
+

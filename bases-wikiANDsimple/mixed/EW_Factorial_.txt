@@ -1,0 +1,175 @@
+
+In mathematics, the factorial of a non-negative integer , denoted by , is the product of all positive integers less than or equal to :
+formula_1
+For example,
+formula_2
+The value of 0! is 1, according to the convention for an empty product.
+The factorial operation is encountered in many areas of mathematics, notably in combinatorics, algebra, and mathematical analysis. Its most basic use counts the possible distinct sequences – the permutations – of distinct objects: there are .
+The factorial function can also be extended to non-integer arguments while retaining its most important properties by defining , where is the gamma function; this is undefined when is a negative integer.
+History.
+The use of factorials is documented since the Talmudic period (200 to 500 CE), one of the earliest examples being the Hebrew Book of Creation Sefer Yetzirah which lists factorials as a means of counting permutations. Indian scholars have been using factorial formulas since at least the 12th century. Siddhānta Shiromani by Bhāskara II (c. 1114–1185) mentioned factorials for permutations in Volume I, the Līlāvatī. Fabian Stedman later described factorials as applied to change ringing, a musical art involving the ringing of several tuned bells. After describing a recursive approach, Stedman gives a statement of a factorial (using the language of the original):
+The notation was introduced by the French mathematician Christian Kramp in 1808.
+Definition.
+The factorial function is defined by the product
+formula_3
+for integer . This may be written in pi product notation as
+formula_4
+This leads to the recurrence relation
+formula_5
+For example, 
+formula_6
+and so on.
+Factorial of zero.
+The factorial of is , or in symbols, .
+There are several motivations for this definition:
+Applications.
+Although the factorial function has its roots in combinatorics, formulas involving factorials occur in many areas of mathematics.
+Rate of growth and approximations for large "".
+As grows, the factorial increases faster than all polynomials and exponential functions (but slower than formula_17 and double exponential functions) in .
+Most approximations for "n"! are based on approximating its natural logarithm
+formula_18
+The graph of the function is shown in the figure on the right. It looks approximately linear for all reasonable values of , but this intuition is false. We get one of the simplest approximations for by bounding the sum with an integral from above and below as follows:
+formula_19
+which gives us the estimate
+formula_20
+Hence (see Big notation). This result plays a key role in the analysis of the computational complexity of sorting algorithms (see comparison sort). From the bounds on deduced above we get that
+formula_21
+It is sometimes practical to use weaker but simpler estimates. Using the above formula it is easily shown that for all we have , and for all we have .
+For large we get a better estimate for the number using Stirling's approximation:
+formula_22
+This in fact comes from an asymptotic series for the logarithm, and factorial lies between this and the next approximation:
+formula_23
+Another approximation for is given by Srinivasa Ramanujan 
+formula_24
+Both this and Stirling's approximation give a relative error on the order of , but Ramanujan's is about four times more accurate. However, if we use "two" correction terms in a Stirling-type approximation, as with Ramanujan's approximation, the relative error will be of order :
+formula_25
+Computation.
+If efficiency is not a concern, computing factorials is trivial from an algorithmic point of view: successively multiplying a variable initialized to 1 by the integers up to (if any) will compute , provided the result fits in the variable. In functional languages, the recursive definition is often implemented directly to illustrate recursive functions.
+The main practical difficulty in computing factorials is the size of the result. To assure that the exact result will fit for all legal values of even the smallest commonly used integral type (8-bit signed integers) would require more than 700 bits, so no reasonable specification of a factorial function using fixed-size types can avoid questions of overflow. The values 12! and 20! are the largest factorials that can be stored in, respectively, the 32-bit and 64-bit integers commonly used in personal computers, however many languages support variable length integer types capable of calculating very large values. Floating-point representation of an approximated result allows going a bit further, but this also remains quite limited by possible overflow. Most calculators use scientific notation with 2-digit decimal exponents, and the largest factorial that fits is then 69!, because . Other implementations (such as computer software such as spreadsheet programs) can often handle larger values.
+Most software applications will compute small factorials by direct multiplication or table lookup. Larger factorial values can be approximated using Stirling's formula. Wolfram Alpha can calculate exact results for the ceiling function and floor function applied to the binary, natural and common logarithm of for values of up to , and up to for the integers.
+If the exact values of large factorials are needed, they can be computed using arbitrary-precision arithmetic. Instead of doing the sequential multiplications , a program can partition the sequence into two parts, whose products are roughly the same size, and multiply them using a divide-and-conquer method. This is often more efficient.
+The asymptotically best efficiency is obtained by computing from its prime factorization. As documented by Peter Borwein, prime factorization allows to be computed in time , provided that a fast multiplication algorithm is used (for example, the Schönhage–Strassen algorithm). Peter Luschny presents source code and benchmarks for several efficient factorial algorithms, with or without the use of a prime sieve.
+Number theory.
+Factorials have many applications in number theory. In particular, is necessarily divisible by all prime numbers up to and including . As a consequence, is a composite number if and only if
+formula_26
+A stronger result is Wilson's theorem, which states that
+formula_27
+if and only if is prime.
+Legendre's formula gives the multiplicity of the prime occurring in the prime factorization of as
+formula_28
+or, equivalently, 
+formula_29
+where denotes the sum of the standard base- digits of .
+Adding 1 to a factorial yields a number that is only divisible by primes that are larger than . This fact can be used to prove Euclid's theorem that the number of primes is infinite. Primes of the form are called factorial primes.
+Series of reciprocals.
+The reciprocals of factorials produce a convergent series whose sum is the exponential base:
+formula_30
+Although the sum of this series is an irrational number, it is possible to multiply the factorials by positive integers to produce a convergent series with a rational sum:
+formula_31
+The convergence of this series to 1 can be seen from the fact that its partial sums are formula_32.
+Therefore, the factorials do not form an irrationality sequence.
+Factorial of non-integer values.
+The gamma and pi functions.
+Besides nonnegative integers, the factorial can also be defined for non-integer values, but this requires more advanced tools from mathematical analysis.
+One function that fills in the values of the factorial (but with a shift of 1 in the argument), that is often used, is called the gamma function, denoted . It is defined for all complex numbers except for the non-positive integers, and given when the real part of is positive by
+formula_33
+Its relation to the factorial is that for every nonnegative integer .
+Euler's original formula for the gamma function was
+formula_34
+Carl Friedrich Gauss used the notation to denote the same function, but with argument shifted by 1, so that it agrees with the factorial for nonnegative integers. This pi function is defined by
+formula_35
+The pi function and gamma function are related by the formula . Likewise, for any nonnegative integer .
+In addition to this, the pi function satisfies the same recurrence as factorials do, but at every complex value where it is defined
+formula_36
+This is no longer a recurrence relation but a functional equation. In terms of the gamma function, it is
+formula_37
+The values of these functions at half-integer values is therefore determined by a single one of them:
+formula_38
+from which it follows that for ,
+formula_39
+For example,
+formula_40
+It also follows that for ,
+formula_41
+For example,
+formula_42
+The pi function is certainly not the only way to extend factorials to a function defined at almost all complex values, and not even the only one that is analytic wherever it is defined. Nonetheless it is usually considered the most natural way to extend the values of the factorials to a complex function. For instance, the Bohr–Mollerup theorem states that the gamma function is the only function that takes the value 1 at 1, satisfies the functional equation , is meromorphic on the complex numbers, and is log-convex on the positive real axis. A similar statement holds for the pi function as well, using the functional equation.
+However, there exist complex functions that are probably simpler in the sense of analytic function theory and which interpolate the factorial values. For example, Hadamard's 'gamma' function which, unlike the gamma function, is an entire function.
+Euler also developed a convergent product approximation for the non-integer factorials, which can be seen to be equivalent to the formula for the gamma function above:
+formula_43
+However, this formula does not provide a practical means of computing the pi function or the gamma function, as its rate of convergence is slow.
+Applications of the gamma function.
+The volume of an -dimensional hypersphere of radius is
+formula_44
+Factorial in the complex plane.
+Representation through the gamma function allows evaluation of factorial of complex argument. Equilines of amplitude and phase of factorial are shown in figure. Let
+formula_45
+Several levels of constant modulus (amplitude) and constant phase are shown. The grid covers the range , , with unit steps. The scratched line shows the level .
+Thin lines show intermediate levels of constant modulus and constant phase. At the poles at every negative integer, phase and amplitude are not defined. Equilines are dense in vicinity of singularities along negative integer values of the argument.
+For , the Taylor expansions can be used:
+formula_46
+The first coefficients of this expansion are
+where is the Euler–Mascheroni constant and is the Riemann zeta function. Computer algebra systems such as SageMath can generate many terms of this expansion.
+Approximations of the factorial.
+For the large values of the argument, the factorial can be approximated through the integral of the digamma function, using the continued fraction representation. This approach is due to T. J. Stieltjes (1894). Writing where is
+formula_47
+Stieltjes gave a continued fraction for :
+formula_48
+The first few coefficients are
+There is a misconception that or for any complex . Indeed, the relation through the logarithm is valid only for a specific range of values of in the vicinity of the real axis, where . The larger the real part of the argument, the smaller the imaginary part should be. However, the inverse relation, , is valid for the whole complex plane apart from . The convergence is poor in the vicinity of the negative part of the real axis; it is difficult to have good convergence of any approximation in the vicinity of the singularities. When or , the six coefficients above are sufficient for the evaluation of the factorial with complex double precision. For higher precision more coefficients can be computed by a rational QD scheme (Rutishauser's QD algorithm).
+Non-extendability to negative integers.
+The relation allows one to compute the factorial for an integer given the factorial for a smaller integer. The relation can be inverted so that one can compute the factorial for an integer given the factorial for a larger integer:
+formula_49
+However, this recursion does not permit us to compute the factorial of a negative integer; use of the formula to compute (−1)! would require a division of a nonzero value by zero, and thus blocks us from computing a factorial value for every negative integer. Similarly, the gamma function is not defined for zero or negative integers, though it is defined for all other complex numbers.
+Factorial-like products and functions.
+There are several other integer sequences similar to the factorial that are used in mathematics:
+Backward factorial.
+The notation formula_50 is sometimes used to represent the product of the "n" integers counting up to and including "x" (i.e. formula_51).
+This is also known as a falling factorial
+Double factorial.
+The product of all the odd integers up to some odd positive integer is called the double factorial of , and denoted by . That is,
+For example, .
+The sequence of double factorials for starts as
+Double factorial notation may be used to simplify the expression of certain trigonometric integrals, to provide an expression for the values of the gamma function at half-integer arguments and the volume of hyperspheres, and to solve many counting problems in combinatorics including counting binary trees with labeled leaves and perfect matchings in complete graphs.
+Multifactorials.
+A common related notation is to use multiple exclamation points to denote a multifactorial, the product of integers in steps of two (), three (), or more (see generalizations of the double factorial). The double factorial is the most commonly used variant, but one can similarly define the triple factorial () and so on. One can define the -tuple factorial, denoted by , recursively for positive integers as
+formula_53
+In addition, similarly to , one can define:
+formula_54
+For sufficiently large , the ordinary single factorial function is expanded through the multifactorial functions as follows:
+formula_55
+In the same way that is not defined for negative integers, and is not defined for negative even integers, is not defined for negative integers divisible by .
+Primorial.
+The primorial of a natural number , denoted , is similar to the factorial, but with the product taken only over the prime numbers less than or equal to . That is,
+formula_56
+where ranges over the prime numbers less than or equal to . For example, the primorial of 11 is
+formula_57
+Superfactorial.
+Neil Sloane and Simon Plouffe defined a superfactorial in The Encyclopedia of Integer Sequences (Academic Press, 1995) to be the product of the first factorials. So the superfactorial of 4 is
+formula_58
+In general
+formula_59
+Equivalently, the superfactorial is given by the formula
+formula_60
+which is the determinant of a Vandermonde matrix.
+The superfactorials can be extended to all complex numbers with the Barnes G-function, such that formula_61 for all positive integers . The sequence of superfactorials starts (from ) as
+By this definition, we can define the -superfactorial of (denoted ) as:
+formula_62
+The 2-superfactorials of are
+The 0-superfactorial of is .
+Pickover’s superfactorial.
+In his 1995 book "Keys to Infinity", Clifford Pickover defined a different function that he called the superfactorial. It is defined by
+formula_63
+This operation may also be expressed as the tetration 
+formula_64
+or using Knuth's up-arrow notation as
+formula_65
+Hyperfactorial.
+Occasionally the hyperfactorial of "n" is considered. It is written as and defined by
+formula_66
+For the values of are 1, 4, 108, ... .
+The asymptotic growth rate is
+formula_67
+where = 1.2824... is the Glaisher–Kinkelin constant. ≈  is already almost equal to a googol, and ≈  is almost of the same magnitude as the Shannon number, the theoretical number of possible chess games. Compared to the Pickover definition of the superfactorial, the hyperfactorial grows relatively slowly.
+The hyperfactorial function can be generalized to complex numbers in a similar way as the factorial function. The resulting function is called the -function.
+

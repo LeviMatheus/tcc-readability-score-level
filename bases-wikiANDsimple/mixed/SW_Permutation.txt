@@ -1,0 +1,2 @@
+A permutation is a single way of arranging a group of objects. It is useful in mathematics.
+A permutation can be changed into another permutation by simply switching two or more of the objects. For example, the way four people can sit in a car is a permutation. If some of them chose different seats, it would be a different permutation.

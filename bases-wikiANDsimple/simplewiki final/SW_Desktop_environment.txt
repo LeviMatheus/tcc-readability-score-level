@@ -1,0 +1,4 @@
+A desktop environment is a group of software that allows the user to use a computer easily.
+The most common desktop environment on personal computers is the one given by Microsoft Windows; another common environment is the one given by Apple Mac OS X.
+Other mostly-used desktop environments for Unix-like operating systems using the X Window System are KDE, GNOME, Xfce.
+There are also other desktop environments, including: Aston, EDE, GEM, IRIX Interactive Desktop, Sun's Java Desktop System, Mezzo, Project Looking Glass, ROX Desktop, UDE, Xito, XFast.

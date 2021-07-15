@@ -1,0 +1,50 @@
+
+Wade–Giles () is a romanization system for Mandarin Chinese. It developed from a system produced by Thomas Francis Wade, during the mid-19th century, and was given completed form with Herbert A. Giles's "Chinese–English Dictionary" of 1892.
+The romanization systems in common use until the late 19th century were based on the Nanjing dialect, but Wade–Giles was based on the Beijing dialect and was the system of transcription familiar in the English-speaking world for most of the 20th century. Both of these kinds of transcription were used in postal romanizations (romanized place-names standardized for postal uses). In mainland China Wade–Giles has been mostly replaced by the Hanyu Pinyin romanization system, which was officially adopted in 1958, with exceptions for the romanized forms of some of the most commonly-used names of locations and persons, and other proper nouns. The romanized name for most locations, persons and other proper nouns in Taiwan is based on the Wade–Giles derived romanized form, for example Kaohsiung, the Matsu Islands and Chiang Ching-kuo.
+History.
+Wade–Giles was developed by Thomas Francis Wade, a scholar of Chinese and a British ambassador in China who was the first professor of Chinese at Cambridge University. Wade published in 1867 the first textbook on the Beijing dialect of Mandarin in English, "Yü-yen Tzŭ-erh Chi" (), which became the basis for the romanization system later known as Wade–Giles. The system, designed to transcribe Chinese terms for Chinese specialists, was further refined in 1892 by Herbert Allen Giles (in "A Chinese-English Dictionary"), a British diplomat in China and his son, Lionel Giles, a curator at the British Museum.
+Taiwan used Wade–Giles for decades as the "de facto" standard, co-existing with several official romanizations in succession, namely, Gwoyeu Romatzyh (1928), Mandarin Phonetic Symbols II (1986), and Tongyòng Pinyin (2000). The Kuomintang party has previously promoted Hànyǔ Pīnyīn with Ma Ying-jeou's successful presidential bid in 2008 and in a number of cities with Kuomintang elected mayors. However, the current Tsai Ing-wen administration and Democratic Progressive Party along with the majority of the people in Taiwan, both native and overseas, use spelling and transcribe their legal names in the Wade–Giles system, as well as the other aforementioned systems.
+Initials and finals.
+The tables below show the Wade–Giles representation of each Chinese sound (in bold type), together with the corresponding IPA phonetic symbol (in square brackets), and equivalent representations in Bopomofo and Hànyǔ Pīnyīn.
+Initials.
+Instead of "ts", "ts" and "s", Wade–Giles writes "tz", "tz" and "ss" before "ŭ" (see below).
+Finals.
+Wade–Giles writes "-uei" after "k" and "k", otherwise "-ui": "kuei", "kuei", "hui", "shui", "chui".
+It writes as "-o" after "k", "k" and "h", otherwise as "-ê": "ko", "ko", "ho", "shê", "chê". When forms a syllable on its own, it is written "ê" or "o" depending on the character.
+Wade–Giles writes as "-uo" after "k", "k", "h" and "sh", otherwise as "-o": "kuo", "kuo", "huo", "shuo", "cho".
+For "-ih" and "-ŭ", see below.
+Giles's "A Chinese-English Dictionary" also includes the syllables "chio", "chio", "hsio", "yo", which are now pronounced like "chüeh", "chüeh", "hsüeh", "yüeh".
+Syllables that begin with a medial.
+Wade–Giles writes the syllable as "i" or "yi" depending on the character.
+System features.
+Consonants and initial symbols.
+A feature of the Wade–Giles system is the representation of the unaspirated-aspirated stop consonant pairs using a character resembling an apostrophe. Thomas Wade and others have used the spiritus asper (), borrowed from the polytonic orthography of the Ancient Greek language. Herbert Giles and others have used a left (opening) curved single quotation mark (‘) for the same purpose. A third group used a plain apostrophe ('). The backtick, and visually similar characters are sometimes seen in various electronic documents using the system.
+Examples using the spiritus asper: "p, p, t, t, k, k, ch, ch". The use of this character preserves "b", "d", "g", and "j" for the romanization of Chinese varieties containing voiced consonants, such as Shanghainese (which has a full set of voiced consonants) and Min Nan (Hō-ló-oē) whose century-old Pe̍h-ōe-jī (POJ, often called Missionary Romanization) is similar to Wade–Giles. POJ, Legge romanization, Simplified Wade, and EFEO Chinese transcription use the letter instead of an apostrophe-like character to indicate aspiration. (This is similar to the obsolete IPA convention before the revisions of the 1970s). The convention of an apostrophe-like character or to denote aspiration is also found in romanizations of other Asian languages, such as McCune–Reischauer for Korean and ISO 11940 for Thai.
+People unfamiliar with Wade–Giles often ignore the spiritus asper, sometimes omitting them when copying texts, unaware that they represent vital information. Hànyǔ Pīnyīn addresses this issue by employing the Latin letters customarily used for voiced stops, unneeded in Mandarin, to represent the unaspirated stops: "b, p, d, t, g, k, j, q, zh, ch."
+Partly because of the popular omission of apostrophe-like characters, the four sounds represented in Hànyǔ Pīnyīn by "j", "q", "zh", and "ch" often all become "ch", including in many proper names. However, if the apostrophe-like characters are kept, the system reveals a symmetry that leaves no overlap:
+Vowels and final symbols.
+Syllabic consonants.
+Like Yale and Mandarin Phonetic Symbols II, Wade–Giles renders the two types of syllabic consonant (; Wade–Giles: "kung1-yün4"; Hànyǔ Pīnyīn: "kōngyùn") differently: 
+These finals are both written as "-ih" in Tongyòng Pinyin, as "-i" in Hànyǔ Pīnyīn (hence distinguishable only by the initial from as in "li"), and as "-y" in Gwoyeu Romatzyh and Simplified Wade. They are typically omitted in Zhùyīn (Bōpōmōfō).
+Vowel o.
+Final "o" in Wade–Giles has two pronunciations in modern Mandarin: and .
+What is pronounced today as a close-mid back unrounded vowel is written usually as "ê", but sometimes as "o", depending on historical pronunciation (at the time Wade–Giles was developed). Specifically, after velar initials "k", "k" and "h" (and a historical "ng", which had been dropped by the time Wade–Giles was developed), "o" is used; for example, "哥" is "ko1" (Pīnyīn "gē") and "刻" is "ko4" (Pīnyīn "kè"). By modern Mandarin, "o" after velars (and what used to be "ng") have shifted to , thus they are written as "ge", "ke", "he" and "e" in Pīnyīn. When forms a syllable on its own, Wade–Giles writes "ê" or "o" depending on the character. In all other circumstances, it writes "ê".
+What is pronounced today as is usually written as "o" in Wade–Giles, except for "wo", "shuo" (e.g. "說" "shuo1") and the three syllables of "kuo", "kuo", and "huo" (as in 過, 霍, etc.), which contrast with "ko", "ko", and "ho" that correspond to Pīnyīn "ge", "ke", and "he". This is because characters like 羅, 多, etc. (Wade–Giles: "lo2", "to1"; Pīnyīn: "luó", "duō") did not originally carry the medial . In modern Mandarin, the phonemic distinction between "o" and "-uo"/"wo" has been lost (except in interjections when used alone), and the medial is added in front of "-o", creating the modern .
+Note that Zhùyīn and Pīnyīn write as ㄛ "-o" after ㄅ "b", ㄆ "p", ㄇ "m" and ㄈ "f", and as ㄨㄛ "-uo" after all other initials.
+Tones.
+Tones are indicated in Wade–Giles using superscript numbers (1–4) placed after the syllable. This contrasts with the use of diacritics to represent the tones in Pīnyīn. For example, the Pīnyīn "qiàn" (fourth tone) has the Wade–Giles equivalent "chien4".
+Punctuation.
+Wade–Giles uses hyphens to separate all syllables within a word (whereas Pīnyīn separates syllables only in specially defined cases, using hyphens or closing (right) single quotation marks as appropriate).
+If a syllable is not the first in a word, its first letter is not capitalized, even if it is part of a proper noun. The use of apostrophe-like characters, hyphens, and capitalization is frequently not observed in place names and personal names. For example, the majority of overseas Taiwanese people write their given names like "Tai Lun" or "Tai-Lun", whereas the Wade–Giles is actually "Tai-lun". (See also Chinese names.)
+Comparison with other systems.
+Chart.
+Note: In Hànyǔ Pīnyīn, the so-called neutral tone is written leaving the syllable with no diacritic mark at all. In Tongyòng Pinyin, a ring is written over the vowel.
+Adaptations.
+There are several adaptations of Wade–Giles.
+"Mathews".
+The Romanization system used in the 1943 edition of "Mathews' Chinese–English Dictionary" differs from Wade–Giles in the following ways:
+Gallery.
+Examples of Wade-Giles derived English language terminology:
+Bibliography.
+Giles, Herbert A. "A Chinese-English Dictionary". 2-vol. &amp; 3-vol. versions both. London: Shanghai: Bernard Quaritch; Kelly and Walsh, 1892. Rev. &amp; enlarged 2nd ed. in 3 vols. (Vol. I: front-matter &amp; "a"-"hsü", Vol. II: "hsü"-"shao", and Vol. III: "shao"-"yün"), Shanghai: Hong Kong: Singapore: Yokohama: London: Kelly &amp; Walsh, Limited; Bernard Quaritch, 1912. Rpt. of the 2nd ed. but in 2 vols. and bound as 1, New York: Paragon Book Reprint Corp., 1964.
+

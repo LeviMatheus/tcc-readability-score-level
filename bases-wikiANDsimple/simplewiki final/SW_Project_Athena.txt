@@ -1,0 +1,3 @@
+Project Athena was a joint project of MIT, Digital Equipment Corporation, and IBM. It was launched in 1983, and research and development continued until June 30, 1991, eight years after it began. It is widely believed that the goals were to create a computing environment that would utilize up to 1,000 workstations but in fact, the goal was to improve the quality of education delivered by the Institute.
+The concept that a user could go to any workstation and access any files or applications without finding major differences in the user interface and service, just like browsing the Internet today.
+The project created many technologies that are widely used today, such as the X Window System and Kerberos.

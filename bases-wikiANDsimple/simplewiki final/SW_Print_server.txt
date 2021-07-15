@@ -1,0 +1,1 @@
+A print server, or printer server, is a computer or device that is connected to one or more printers and to a network, it accepts print jobs from client computers then prints the jobs on the requested printer.

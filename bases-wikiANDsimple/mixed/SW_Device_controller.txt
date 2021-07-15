@@ -1,0 +1,3 @@
+A device controller is a part of a computer system that makes sense of the signals going to, and coming from the CPU processor. There are many device controllers in a computer system. Any device connected to the computer is connected by a plug and socket, and the socket is connected to a device controller. Device controllers use binary and digital codes.
+Each device controller has a local buffer and a command register.It communicates with the cpu by INTERRUPTS.
+Device Controller play an important role in order to operate that device.Its just like a bridge between deivce and operating system.

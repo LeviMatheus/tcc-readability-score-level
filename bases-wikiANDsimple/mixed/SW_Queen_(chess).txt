@@ -1,0 +1,1 @@
+The queen in chess is the tall piece which stands next to the king in the beginning of the game. It can move diagonally, vertically, and horizontally (but unlike the Knight, it can not move in an L shape). It can move any desired amount of spaces.

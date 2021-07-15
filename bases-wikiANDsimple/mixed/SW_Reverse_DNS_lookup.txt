@@ -1,0 +1,4 @@
+Reverse DNS lookup (rDNS) is the process of determining the hostname or the host computer associated with a given IP address or any other type of network address.
+Typically, the Domain Name System is used to determine what IP address is associated with a given domain name. So, to "reverse-resolve" a known IP address to determine the hostname is simply the process of searching what host and domain name belongs to that IP address.
+A reverse lookup is often referred to as reverse resolving, or more specifically reverse DNS lookup, and is accomplished using a "reverse IN-ADDR entry" in the form of a PTR record.
+RFC 1033 in the "INSTRUCTIONS" section, and later, RFC 1912 Section 2.1 states "Every Internet-reachable host should have a name" and "Make sure your PTR and A records match".

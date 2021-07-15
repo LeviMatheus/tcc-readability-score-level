@@ -1,0 +1,1 @@
+A Cyclic redundancy check (often shotened to CRC) is a way to calculate a checksum, based on a polynomial. In computer science, CRCs are used to check that no errors occurred transmitting the data.

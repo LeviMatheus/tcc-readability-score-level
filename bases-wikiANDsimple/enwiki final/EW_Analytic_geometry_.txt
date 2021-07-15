@@ -1,0 +1,91 @@
+
+In classical mathematics, analytic geometry, also known as coordinate geometry or Cartesian geometry, is the study of geometry using a coordinate system. This contrasts with synthetic geometry.
+Analytic geometry is used in physics and engineering, and also in aviation, rocketry, space science, and spaceflight. It is the foundation of most modern fields of geometry, including algebraic, differential, discrete and computational geometry.
+Usually the Cartesian coordinate system is applied to manipulate equations for planes, straight lines, and squares, often in two and sometimes three dimensions. Geometrically, one studies the Euclidean plane (two dimensions) and Euclidean space (three dimensions). As taught in school books, analytic geometry can be explained more simply: it is concerned with defining and representing geometrical shapes in a numerical way and extracting numerical information from shapes' numerical definitions and representations. That the algebra of the real numbers can be employed to yield results about the linear continuum of geometry relies on the Cantor–Dedekind axiom.
+History.
+Ancient Greece.
+The Greek mathematician Menaechmus solved problems and proved theorems by using a method that had a strong resemblance to the use of coordinates and it has sometimes been maintained that he had introduced analytic geometry.
+Apollonius of Perga, in "On Determinate Section", dealt with problems in a manner that may be called an analytic geometry of one dimension; with the question of finding points on a line that were in a ratio to the others. Apollonius in the "Conics" further developed a method that is so similar to analytic geometry that his work is sometimes thought to have anticipated the work of Descartes by some 1800 years. His application of reference lines, a diameter and a tangent is essentially no different from our modern use of a coordinate frame, where the distances measured along the diameter from the point of tangency are the abscissas, and the segments parallel to the tangent and intercepted between the axis and the curve are the ordinates. He further developed relations between the abscissas and the corresponding ordinates that are equivalent to rhetorical equations of curves. However, although Apollonius came close to developing analytic geometry, he did not manage to do so since he did not take into account negative magnitudes and in every case the coordinate system was superimposed upon a given curve "a posteriori" instead of "a priori". That is, equations were determined by curves, but curves were not determined by equations. Coordinates, variables, and equations were subsidiary notions applied to a specific geometric situation.
+Persia.
+The 11th-century Persian mathematician Omar Khayyam saw a strong relationship between geometry and algebra and was moving in the right direction when he helped close the gap between numerical and geometric algebra with his geometric solution of the general cubic equations, but the decisive step came later with Descartes. Omar Khayyam is credited with identifying the foundations of algebraic geometry, and his book "Treatise on Demonstrations of Problems of Algebra" (1070), which laid down the principles of analytic geometry, is part of the body of Persian mathematics that was eventually transmitted to Europe. Because of his thoroughgoing geometrical approach to algebraic equations, Khayyam can be considered a precursor to Descartes in the invention of analytic geometry.
+Western Europe.
+Analytic geometry was independently invented by René Descartes and Pierre de Fermat, although Descartes is sometimes given sole credit. "Cartesian geometry", the alternative term used for analytic geometry, is named after Descartes.
+Descartes made significant progress with the methods in an essay titled "La Geometrie (Geometry)", one of the three accompanying essays (appendices) published in 1637 together with his "Discourse on the Method for Rightly Directing One's Reason and Searching for Truth in the Sciences", commonly referred to as "Discourse on Method".
+"La Geometrie", written in his native French tongue, and its philosophical principles, provided a foundation for calculus in Europe. Initially the work was not well received, due, in part, to the many gaps in arguments and complicated equations. Only after the translation into Latin and the addition of commentary by van Schooten in 1649 (and further work thereafter) did Descartes's masterpiece receive due recognition.
+Pierre de Fermat also pioneered the development of analytic geometry. Although not published in his lifetime, a manuscript form of "Ad locos planos et solidos isagoge" (Introduction to Plane and Solid Loci) was circulating in Paris in 1637, just prior to the publication of Descartes' "Discourse". Clearly written and well received, the "Introduction" also laid the groundwork for analytical geometry. The key difference between Fermat's and Descartes' treatments is a matter of viewpoint: Fermat always started with an algebraic equation and then described the geometric curve that satisfied it, whereas Descartes started with geometric curves and produced their equations as one of several properties of the curves. As a consequence of this approach, Descartes had to deal with more complicated equations and he had to develop the methods to work with polynomial equations of higher degree. It was Leonhard Euler who first applied the coordinate method in a systematic study of space curves and surfaces.
+Coordinates.
+In analytic geometry, the plane is given a coordinate system, by which every point has a pair of real number coordinates. Similarly, Euclidean space is given coordinates where every point has three coordinates. The value of the coordinates depends on the choice of the initial point of origin. There are a variety of coordinate systems used, but the most common are the following:
+Cartesian coordinates (in a plane or space).
+The most common coordinate system to use is the Cartesian coordinate system, where each point has an "x"-coordinate representing its horizontal position, and a "y"-coordinate representing its vertical position. These are typically written as an ordered pair ("x", "y"). This system can also be used for three-dimensional geometry, where every point in Euclidean space is represented by an ordered triple of coordinates ("x", "y", "z").
+Polar coordinates (in a plane).
+In polar coordinates, every point of the plane is represented by its distance "r" from the origin and its angle "θ", with "θ" normally measured counterclockwise from the positive "x"-axis. Using this notation, points are typically written as an ordered pair ("r", "θ"). One may transform back and forth between two-dimensional Cartesian and polar coordinates by using these formulae: formula_1 . This system may be generalized to three-dimensional space through the use of cylindrical or spherical coordinates.
+Cylindrical coordinates (in a space).
+In cylindrical coordinates, every point of space is represented by its height "z", its radius "r" from the "z"-axis and the angle "θ" its projection on the "xy"-plane makes with respect to the horizontal axis.
+Spherical coordinates (in a space).
+In spherical coordinates, every point in space is represented by its distance "ρ" from the origin, the angle "θ" its projection on the "xy"-plane makes with respect to the horizontal axis, and the angle "φ" that it makes with respect to the "z"-axis. The names of the angles are often reversed in physics.
+Equations and curves.
+In analytic geometry, any equation involving the coordinates specifies a subset of the plane, namely the solution set for the equation, or locus. For example, the equation "y" = "x" corresponds to the set of all the points on the plane whose "x"-coordinate and "y"-coordinate are equal. These points form a line, and "y" = "x" is said to be the equation for this line. In general, linear equations involving "x" and "y" specify lines, quadratic equations specify conic sections, and more complicated equations describe more complicated figures.
+Usually, a single equation corresponds to a curve on the plane. This is not always the case: the trivial equation "x" = "x" specifies the entire plane, and the equation "x"2 + "y"2 = 0 specifies only the single point (0, 0). In three dimensions, a single equation usually gives a surface, and a curve must be specified as the intersection of two surfaces (see below), or as a system of parametric equations. The equation "x"2 + "y"2 = "r"2 is the equation for any circle centered at the origin (0, 0) with a radius of r.
+Lines and planes.
+Lines in a Cartesian plane, or more generally, in affine coordinates, can be described algebraically by "linear" equations. In two dimensions, the equation for non-vertical lines is often given in the "slope-intercept form":
+where:
+In a manner analogous to the way lines in a two-dimensional space are described using a point-slope form for their equations, planes in a three dimensional space have a natural description using a point in the plane and a vector orthogonal to it (the normal vector) to indicate its "inclination".
+Specifically, let formula_3 be the position vector of some point formula_4, and let formula_5 be a nonzero vector. The plane determined by this point and vector consists of those points formula_6, with position vector formula_7, such that the vector drawn from formula_8 to formula_6 is perpendicular to formula_10. Recalling that two vectors are perpendicular if and only if their dot product is zero, it follows that the desired plane can be described as the set of all points formula_7 such that
+Expanded this becomes
+which is the "point-normal" form of the equation of a plane. This is just a linear equation:
+Conversely, it is easily shown that if "a", "b", "c" and "d" are constants and "a", "b", and "c" are not all zero, then the graph of the equation 
+is a plane having the vector formula_5 as a normal. This familiar equation for a plane is called the "general form" of the equation of the plane.
+In three dimensions, lines can "not" be described by a single linear equation, so they are frequently described by parametric equations:
+where:
+Conic sections.
+In the Cartesian coordinate system, the graph of a quadratic equation in two variables is always a conic section – though it may be degenerate, and all conic sections arise in this way. The equation will be of the form
+As scaling all six constants yields the same locus of zeros, one can consider conics as points in the five-dimensional projective space formula_21
+The conic sections described by this equation can be classified using the discriminant
+If the conic is non-degenerate, then:
+Quadric surfaces.
+A quadric, or quadric surface, is a "2"-dimensional surface in 3-dimensional space defined as the locus of zeros of a quadratic polynomial. In coordinates , the general quadric is defined by the algebraic equation
+Quadric surfaces include ellipsoids (including the sphere), paraboloids, hyperboloids, cylinders, cones, and planes.
+Distance and angle.
+In analytic geometry, geometric notions such as distance and angle measure are defined using formulas. These definitions are designed to be consistent with the underlying Euclidean geometry. For example, using Cartesian coordinates on the plane, the distance between two points ("x"1, "y"1) and ("x"2, "y"2) is defined by the formula
+which can be viewed as a version of the Pythagorean theorem. Similarly, the angle that a line makes with the horizontal can be defined by the formula
+where "m" is the slope of the line.
+In three dimensions, distance is given by the generalization of the Pythagorean theorem:
+while the angle between two vectors is given by the dot product. The dot product of two Euclidean vectors A and B is defined by
+where θ is the angle between A and B.
+Transformations.
+Transformations are applied to a parent function to turn it into a new function with similar characteristics.
+The graph of formula_34 is changed by standard transformations as follows:
+There are other standard transformation not typically studied in elementary analytic geometry because the transformations change the shape of objects in ways not usually considered. Skewing is an example of a transformation not usually considered.
+For more information, consult the Wikipedia article on affine transformations.
+For example, the parent function formula_52 has a horizontal and a vertical asymptote, and occupies the first and third quadrant, and all of its transformed forms have one horizontal and vertical asymptote, and occupies either the 1st and 3rd or 2nd and 4th quadrant. In general, if formula_53, then it can be transformed into formula_54. In the new transformed function, formula_55 is the factor that vertically stretches the function if it is greater than 1 or vertically compresses the function if it is less than 1, and for negative formula_55 values, the function is reflected in the formula_35-axis. The formula_43 value compresses the graph of the function horizontally if greater than 1 and stretches the function horizontally if less than 1, and like formula_55, reflects the function in the formula_38-axis when it is negative. The formula_40 and formula_37 values introduce translations, formula_37, vertical, and formula_40 horizontal. Positive formula_37 and formula_40 values mean the function is translated to the positive end of its axis and negative meaning translation towards the negative end.
+Transformations can be applied to any geometric equation whether or not the equation represents a function.
+Transformations can be considered as individual transactions or in combinations.
+Suppose that formula_34 is a relation in the formula_68 plane. For example,
+is the relation that describes the unit circle.
+Finding intersections of geometric objects.
+For two geometric objects P and Q represented by the relations formula_70 and formula_71 the intersection is the collection of all points formula_72 which are in both relations.
+For example, formula_6 might be the circle with radius 1 and center formula_74: formula_75 and formula_76 might be the circle with radius 1 and center formula_77. The intersection of these two circles is the collection of points which make both equations true. Does the point formula_74 make both equations true? Using formula_74 for formula_72, the equation for formula_76 becomes formula_82 or formula_83 which is true, so formula_74 is in the relation formula_76. On the other hand, still using formula_74 for formula_72 the equation for formula_6 becomes formula_89 or formula_90 which is false. formula_74 is not in formula_6 so it is not in the intersection.
+The intersection of formula_6 and formula_76 can be found by solving the simultaneous equations:
+Traditional methods for finding intersections include substitution and elimination.
+Substitution: Solve the first equation for formula_38 in terms of formula_35 and then substitute the expression for formula_38 into the second equation:
+We then substitute this value for formula_102 into the other equation and proceed to solve for formula_35:
+Next, we place this value of formula_35 in either of the original equations and solve for formula_38:
+So our intersection has two points:
+Elimination: Add (or subtract) a multiple of one equation to the other equation so that one of the variables is eliminated. For our current example, if we subtract the first equation from the second we get formula_114. The formula_102 in the first equation is subtracted from the formula_102 in the second equation leaving no formula_38 term. The variable formula_38 has been eliminated. We then solve the remaining equation for formula_35, in the same way as in the substitution method:
+We then place this value of formula_35 in either of the original equations and solve for formula_38:
+So our intersection has two points:
+For conic sections, as many as 4 points might be in the intersection.
+Finding intercepts.
+One type of intersection which is widely studied is the intersection of a geometric object with the formula_35 and formula_38 coordinate axes.
+The intersection of a geometric object and the formula_38-axis is called the formula_38-intercept of the object.
+The intersection of a geometric object and the formula_35-axis is called the formula_35-intercept of the object.
+For the line formula_135, the parameter formula_43 specifies the point where the line crosses the formula_38 axis. Depending on the context, either formula_43 or the point formula_139 is called the formula_38-intercept.
+Tangents and normals.
+Tangent lines and planes.
+In geometry, the tangent line (or simply tangent) to a plane curve at a given point is the straight line that "just touches" the curve at that point. Informally, it is a line through a pair of infinitely close points on the curve. More precisely, a straight line is said to be a tangent of a curve at a point on the curve if the line passes through the point on the curve and has slope where "f" is the derivative of "f". A similar definition applies to space curves and curves in "n"-dimensional Euclidean space.
+As it passes through the point where the tangent line and the curve meet, called the point of tangency, the tangent line is "going in the same direction" as the curve, and is thus the best straight-line approximation to the curve at that point.
+Similarly, the tangent plane to a surface at a given point is the plane that "just touches" the surface at that point. The concept of a tangent is one of the most fundamental notions in differential geometry and has been extensively generalized; see Tangent space.
+Normal line and vector.
+In geometry, a normal is an object such as a line or vector that is perpendicular to a given object. For example, in the two-dimensional case, the normal line to a curve at a given point is the line perpendicular to the tangent line to the curve at the point.
+In the three-dimensional case a surface normal, or simply normal, to a surface at a point "P" is a vector that is perpendicular to the tangent plane to that surface at "P". The word "normal" is also used as an adjective: a line normal to a plane, the normal component of a force, the normal vector, etc. The concept of normality generalizes to orthogonality.
+

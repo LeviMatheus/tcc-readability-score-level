@@ -1,0 +1,5 @@
+
+In telecommunication, the term facsimile converter has the following meanings: 
+1. In a facsimile receiver, a device that changes the signal modulation from frequency-shift keying (FSK) to amplitude modulation (AM). 
+2. In a facsimile transmitter, a device that changes the signal modulation from amplitude modulation (AM) to frequency-shift keying (FSK).
+

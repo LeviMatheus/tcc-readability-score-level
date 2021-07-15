@@ -1,0 +1,23 @@
+
+In computing, a nibble (occasionally nybble or nyble to match the spelling of byte) is a four-bit aggregation, or half an octet. It is also known as half-byte or tetrade. In a networking or telecommunication context, the nibble is often called a semi-octet, quadbit, or quartet. A nibble has sixteen (24) possible values. A nibble can be represented by a single hexadecimal digit and called a hex digit.
+A full byte (octet) is represented by two hexadecimal digits; therefore, it is common to display a byte of information as two nibbles. Sometimes the set of all 256 byte values is represented as a 16×16 table, which gives easily readable hexadecimal codes for each value.
+Four-bit computer architectures use groups of four bits as their fundamental unit. Such architectures were used in early microprocessors, pocket calculators and pocket computers. They continue to be used in some microcontrollers. In this context, 4-bit groups were sometimes also called "characters" rather than nibbles.
+History.
+The term 'nibble' originates from its representing 'half a byte', with 'byte' a homophone of the English word 'bite'. In 2014, David B. Benson, a professor emeritus at Washington State University, remembered that he playfully used (and may have possibly coined) the term nibble as "half a byte" and unit of storage required to hold a binary-coded decimal (BCD) decimal digit around 1958, when talking to a programmer of Los Alamos Scientific Laboratory. The alternative spelling 'nybble' reflects the spelling of 'byte', as noted in editorials of "Kilobaud" and "Byte" in the early 1980s. Another early recorded use of the term 'nybble' was in 1977 within the consumer-banking technology group at Citibank. It created a pre-ISO 8583 standard for transactional messages between cash machines and Citibank's data centers that used the basic informational unit 'NABBLE'.
+The nibble is used to describe the amount of memory used to store a digit of a number stored in packed decimal format (BCD) within an IBM mainframe. This technique is used to make computations faster and debugging easier. An 8-bit byte is split in half and each nibble is used to store one decimal digit. The last (rightmost) nibble of the variable is reserved for the sign. Thus a variable which can store up to nine digits would be "packed" into 5 bytes. Ease of debugging resulted from the numbers being readable in a hex dump where two hex numbers are used to represent the value of a byte, as 16×16 = 28. For example, a five-byte BCD value of      represents a decimal value of .
+Historically, there are cases where nybble was used for a group of bits greater than 4. In the Apple II microcomputer line, much of the disk drive control and group-coded recording was implemented in software. Writing data to a disk was done by converting 256-byte pages into sets of 5-bit (later, 6-bit) nibbles and loading disk data required the reverse. Moreover, 1982 documentation for the Integrated Woz Machine refers consistently to an "8 bit nibble". The term "byte" once had the same ambiguity and meant a set of bits but not necessarily 8, hence the distinction of "bytes" and "octets" or of "nibbles" and "quartets" (or "quadbits"). Today, the terms 'byte' and 'nibble' almost always refer to 8-bit and 4-bit collections respectively and are very rarely used to express any other sizes.
+Table of nibbles.
+The sixteen nibbles and their equivalents in other numeral systems:
+Low and high nibbles.
+The terms "low nibble" and "high nibble" are used to denote the nibbles containing, respectively, the less significant bits and the more significant bits within a byte. In graphical representations of bits within a byte, the leftmost bit could represent the most significant bit (MSB), corresponding to ordinary decimal notation in which the digit at the left of a number is the most significant. In such illustrations the four bits on the left end of the byte form the high nibble, and the remaining four bits form the low nibble. For example,
+ninety-seven = 9710 = (0110 0001)2 = 61hex
+the high nibble is 01102 (6hex), and the low nibble is 00012 (1hex). The total value is high-nibble × 1610 + low-nibble (6×16+1=9710).
+Extracting a nibble from a byte.
+A nibble can be extracted from a byte by doing a bitwise logical AND operation and optionally a bit shift depending on if the high or low nibble is to be extracted.
+In C:
+where codice_1 must be a variable or constant of an integral data type, and only the least-significant byte of codice_1 is used.
+For example, codice_3 and codice_4.
+In Common Lisp:
+ (ldb (byte 4 4) b))
+ (ldb (byte 4 0) b))
+

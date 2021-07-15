@@ -1,0 +1,2 @@
+A surface is the outer part of something. Most surfaces have a width and a length, but no depth.
+Surfaces are studied in geometry.

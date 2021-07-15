@@ -1,0 +1,2 @@
+An inverse function is a concept of mathematics. A function will calculate some output y, given some input x. This is usually written f(x)=y. The inverse function does the reverse. Let's say g() is the inverse function of f(), then g(y)=x. Or otherwise put, f(g(x))=x.
+Not all functions have inverse functions. Finding the inverse of a function can be very difficult to do.

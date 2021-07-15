@@ -1,0 +1,1 @@
+A time bomb is bomb with a timer on it. When the timer counts down to zero, the bomb explodes.

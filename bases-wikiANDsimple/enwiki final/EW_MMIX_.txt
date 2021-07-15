@@ -1,0 +1,45 @@
+
+MMIX (pronounced "em-mix") is a 64-bit reduced instruction set computing (RISC) architecture designed by Donald Knuth, with significant contributions by John L. Hennessy (who contributed to the design of the MIPS architecture) and Richard L. Sites (who was an architect of the Alpha architecture). Knuth has said that "MMIX is a computer intended to illustrate machine-level aspects of programming. In my books "The Art of Computer Programming", it replaces MIX, the 1960s-style machine that formerly played such a role… I strove to design MMIX so that its machine language would be simple, elegant, and easy to learn. At the same time I was careful to include all of the complexities needed to achieve high performance in practice, so that MMIX could in principle be built and even perhaps be competitive with some of the fastest general-purpose computers in the marketplace."
+The processor is numbered as "2009" with Knuth explaining that this is the arithmetic mean from the numbers of other computer architectures; as well as being "MMIX" in Roman numerals.
+Architecture.
+MMIX is a big-endian 64-bit reduced instruction set computer (RISC), with 256 64-bit general-purpose registers, 32 64-bit special-purpose registers, fixed-length 32-bit instructions and a 64-bit virtual address space. The MMIX instruction set comprises 256 opcodes, one of which is reserved for future expansion. MMIX uses IEEE 754 floating-point numbers.
+Instructions.
+All instructions have an associated mnemonic. For example, instruction #20 (32 decimal) is associated with ADD. Most instructions have the symbolic form "OP X,Y,Z", where OP specifies the sort of instruction, X specifies the register used to store the result of the instruction and the rest specify the operands of the instruction. Each of these fields is eight bits wide. For example, ADD $0,$1,3 means "Set $0 to the sum of $1 and 3."
+Most instructions can take either immediate values or register contents; thus a single instruction mnemonic may correspond to one of two opcodes.
+MMIX programs are typically constructed using the MMIXAL assembly language. The below is a simple MMIXAL program, which prints the string "Hello, world!":
+ LOC #100 % Set the address of the program
+ % initially to 0x100.
+Main GETA $255,string % Put the address of the string
+ % into register 255.
+ TRAP 0,Fputs,StdOut % Write the string pointed to by
+ % register 255 to the standard
+ % output file.
+ TRAP 0,Halt,0 % End process.
+string BYTE "Hello, world!",#a,0 % String to be printed. #a is
+ % newline, 0 terminates the
+ % string.
+Registers.
+There are 256 directly addressable general-purpose architectural registers in an MMIX chip, designated by $0 through $255, and 32 special-purpose architectural registers. The special-purpose registers can be accessed with the GET and PUT instructions.
+Two of the special registers, rL and rG, determine which of the general registers are local and which are global. All registers from $0... are local registers, and represent a window into an internal stack of registers. Registers from [rL]... are "marginal registers", they always return 0 if they are used as a source in an operation. Using a marginal register as the destination of an operation will cause the machine to automatically increase rL to include that register. All registers [rG]... $255 are called global registers, and are not part of the register stack.
+Local register stack.
+The local register stack provides each subroutine with its own rL local registers, designated by $0 through . Whenever a subroutine is called, a number of local registers are pushed down the stack (by shifting the start of the window). The arguments of the called subroutine are left in the remaining local registers. When a subroutine finishes it pops the previously pushed registers. Because the internal stack can contain only a finite number of registers, it may be necessary to store a part of the stack in memory. This is implemented with the special registers rO and rS which record which part of the local register stack is in memory and which part is still in local physical registers. The register stack provides for fast subroutine linkage.
+Special registers.
+The 32 special physical architectural registers are as follows:
+Like programs running on almost all other CPUs,
+MMIX programs can be interrupted in several ways.
+External hardware, such as timers, are a common source of preemption (computing) interrupts.
+Many instructions cause an interrupt in certain exceptional cases; such as the memory protection page fault exceptions used to implement virtual memory, and floating point exception handling.
+MMIX has 2 kinds of interrupts: "trips" and "traps".
+The main difference between "trips" and "traps" is that
+traps send control to a "trap handler" program in the operating system (trapping), but
+trips send control to a "trip handler" program in the user application (tripping).
+Users can also force any interrupt handler to run with explicit software interrupt instructions TRIP and TRAP, similar to some kinds of trap in other computer systems.
+In particular, a system call from a user program to the operating system uses a TRAP instruction.
+Hardware implementations.
+, no known hardware implementations of the MMIX instruction set architecture exist. However, the fpgammix project implements MMIX in Verilog, making it possible to implement using a field-programmable gate array.
+Software tools.
+The MMIX instruction set architecture is supported by a number of software tools for computer architecture research and software development.
+Compiler.
+The GNU Compiler Collection includes an MMIX back-end for its C/C++ compilers, contributed by Hans-Peter Nilsson and part of the main GCC distribution since late 2001. , the MMIX back-end to GCC continues to be actively developed and maintained by volunteers.
+The above tools could theoretically be used to compile, build, and bootstrap an entire FreeBSD, Linux, or other similar operating system kernel onto MMIX hardware, were such hardware to exist.
+

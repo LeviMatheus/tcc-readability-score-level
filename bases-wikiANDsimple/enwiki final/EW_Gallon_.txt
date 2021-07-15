@@ -1,0 +1,60 @@
+
+The gallon is a unit of measurement for volume and fluid capacity in both the US customary units and the British imperial systems of measurement. Three significantly different sizes are in current use: 
+There are four quarts in a gallon and eight pints in a gallon, and they have different capacities in different systems.
+The IEEE standard symbol for both US (liquid) and imperial gallon is gal, not to be confused with the gal (symbol: Gal), a CGS unit of acceleration.
+Definitions.
+The gallon currently has one definition in the imperial system, and two definitions (liquid and dry) in the US customary system. Historically, there were many definitions and redefinitions.
+English system gallons.
+There were a number of systems of liquid measurements in the United Kingdom prior to the 19th century.
+Imperial gallon.
+The British imperial gallon is defined as exactly . It is used in some Commonwealth countries, and until 1976 was based on the volume of of water at . There are four quarts in a gallon, the imperial pint is defined as litres (i.e. gallon) and there are 20 imperial fluid ounces in an imperial pint.
+US liquid gallon.
+The US liquid gallon (frequently called simply "gallon") is legally defined as 231 cubic inches, which is exactly . A US liquid gallon of water weighs about at , making it about 16.6% lighter than the imperial gallon. There are four quarts in a gallon, two pints in a quart and 16 US fluid ounces in a US pint, which makes the US fluid ounce equal to of a US gallon. In order to overcome the effects of expansion and contraction with temperature when using a gallon to specify a quantity of material for purposes of trade, it is common to define the temperature at which the material will occupy the specified volume. For example, the volume of petroleum products and alcoholic beverages are both referenced to in government regulations.
+US dry gallon.
+Since the dry measure is one-eighth of a US "Winchester" bushel of cubic inches, it is therefore equal to exactly 268.8025 cubic inches, which is . The US dry gallon is not used in commerce, and is also not listed in the relevant statute, which jumps from the dry pint to the bushel.
+Worldwide usage.
+Imperial gallon.
+As of 2021, the imperial gallon continues to be used as the standard petrol unit in four British Overseas Territories, which are Anguilla, the British Virgin Islands, the Cayman Islands, and Montserrat. The imperial gallon is also the standard petrol unit in six countries, which are Antigua and Barbuda, Dominica, Grenada, St. Kitts &amp; Nevis, St. Lucia, and St. Vincent &amp; the Grenadines.
+All of the countries and territories which use the imperial gallon as their petrol unit also use miles per hour for speed limits and drive on the left side of the road.
+The United Arab Emirates stopped selling gasoline by the imperial gallon in 2010 and switched to the litre, with Guyana following suit in 2013.
+Myanmar (Burma) switched from imperial gallon to litre sales before 2014.
+Antigua and Barbuda planned to switch over to using litres by 2015, but as of 2021, the switch-over hasn't happened.
+The gallon was removed from the list of legally defined primary units of measure catalogued in the EU directive 80/181/EEC for trading and official purposes, with effect from 31 December 1994. Under the directive the gallon could still be used, but only as a supplementary or secondary unit. One of the effects of this directive was that the United Kingdom amended its own legislation to replace the gallon with the litre as a primary unit of measure in trade and in the conduct of public business, effective from 30 September 1995. However within the United Kingdom and Ireland, barrels and large containers of beer, oil and other fluids still tend to be in multiples of the imperial gallon.
+Ireland also passed legislation in response to the EU directive, with the effective date being 31 December 1993. Though the gallon has ceased to be a primary unit of trade, it can still be legally used in both the UK and Ireland as a supplementary unit.
+Miles per imperial gallon is used as the primary fuel economy unit in the United Kingdom and as a supplementary unit in Canada on official documentation.
+In the Middle East, water-chiller bottles come in multiples of the imperial gallon.
+US liquid gallon.
+Other than the United States itself, the US gallon is still used in The Bahamas, Belize, Colombia, The Dominican Republic, Ecuador, El Salvador, Guatemala, Haiti, Honduras, Liberia, Nicaragua, and Peru.
+Gasoline is also sold by the US Gallon in the Marshall Islands, Federated States of Micronesia, and Palau, all three of which are associated with the United States.
+Despite its status as a U.S. territory, and unlike American Samoa, the Northern Mariana Islands, Guam, and the U.S. Virgin Islands, Puerto Rico ceased selling gasoline by the US gallon in 1980.
+Panama stopped selling gasoline by the US gallon in 2013 and switched to the litre.
+El Salvador will stop selling gasoline by the US gallon in June 2021 and instead, will sell gasoline by the litre.
+In the Turks &amp; Caicos Islands, both the U.S. gallon and imperial gallon are used. This is due to an increase in tax duties which was disguised by levying the same duty on the U.S. gallon (3.79 L) as was previously levied on the Imperial gallon (4.55 L).
+Relationship to other units.
+Both the US liquid and imperial gallon are divided into four quarts ("quart"er gallons), which in turn are divided into two pints, which in turn are divided into two cups, which in turn are further divided into two gills. Thus, both gallons are equal to four quarts, eight pints, sixteen cups, or thirty-two gills.
+The imperial gill is further divided into five fluid ounces, whereas the US gill is divided into four fluid ounces, meaning an imperial fluid ounce is of an imperial pint, or of an imperial gallon, while a US fluid ounce is of a US pint, or of a US gallon. Thus, the imperial gallon, quart, pint, cup and gill are approximately 20% larger than their US counterparts, meaning these are not interchangeable, but the imperial fluid ounce is only approximately 4% smaller than the US fluid ounce, meaning these are often used interchangeably.
+Historically, a common bottle size for liquor in the US was the "fifth", i.e. one-fifth of a US gallon (or one-sixth of an imperial gallon). While spirit sales in the US were switched to metric measures in 1976, a 750 mL bottle is still sometimes known as a "fifth".
+History.
+The term derives most immediately from "galun, galon" in Old Northern French, but the usage was common in several languages, for example in Old French and (bowl) in Old English. This suggests a common origin in Romance Latin, but the ultimate source of the word is unknown.
+The gallon originated as the base of systems for measuring wine and beer in England. The sizes of gallon used in these two systems were different from each other: the first was based on the wine gallon (equal in size to the US gallon), and the second one either the ale gallon or the larger imperial gallon.
+By the end of the 18th century, there were three definitions of the gallon in common use:
+The "corn" or "dry gallon" is used (along with the dry quart and pint) in the United States for grain and other dry commodities. It is one-eighth of the (Winchester) bushel, originally defined as a cylindrical measure of inches in diameter and 8 inches in depth, which made the dry gallon )2 × π ≈ 2150.42017 cubic inches. The bushel was later defined to be 2150.42 cubic inches exactly, thus making its gallon exactly (); in previous centuries, there had been a corn gallon of between 271 and 272 cubic inches.
+The "wine", "fluid", or "liquid gallon" has been the standard US gallon since the early 19th century. The wine gallon, which some sources relate to the volume occupied by eight medieval merchant pounds of wine, was at one time defined as the volume of a cylinder 6 inches deep and 7 inches in diameter, i.e. . It was redefined during the reign of Queen Anne in 1706 as 231 cubic inches exactly, the earlier definition with π approximated to . Although the wine gallon had been used for centuries for import duty purposes, there was no legal standard of it in the Exchequer, while a smaller gallon was actually in use, requring this statute; it remains the US definition today.
+In 1824, Britain adopted a close approximation to the "ale gallon" known as the "imperial gallon", and abolished all other gallons in favour of it. Inspired by the kilogram-litre relationship, the imperial gallon was based on the volume of 10 pounds of distilled water weighed in air with brass weights with the barometer standing at 30 inches of mercury and at a temperature of .
+In 1963, this definition was refined as the space occupied by 10 pounds of distilled water of density weighed in air of density against weights of density (the original "brass" was refined as the densities of brass alloys vary depending on metallurgical composition), which was calculated as to ten significant figures.
+The precise definition of exactly cubic decimetres (also , ≈ ) came after the litre was redefined in 1964. This was adopted shortly afterwards in Canada, and adopted in 1976 in the United Kingdom.
+Sizes of gallons.
+Historically, gallons of various sizes were used in many parts of Western Europe. In these localities, it has been replaced as the unit of capacity by the litre.
+!colspan="2"| Volume
+!rowspan="2"| Definition
+!rowspan="2"| Inverted&lt;br&gt;volume(gal/cu ft)
+!rowspan="2"| Weight aswater at 62 °F (pounds/gal)
+!colspan="3"| Cylindrical approximation
+! (cu in)
+! (L or dm3)
+! Diameter (in)
+! Height (in)
+! Volume rel. error (%)
+!colspan=8 |Current gallons
+!colspan=8|Historic gallons
+

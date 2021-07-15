@@ -1,0 +1,2 @@
+Connect Four is a simple game. To win, players must put four of the same color markers in the yellow square so that they touch.
+An example of winning connect four: the player can see the 4 o's all connected together in a pattern.

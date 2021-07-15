@@ -1,0 +1,9 @@
+In cryptography, a keystream is a stream of random or pseudorandom characters that are combined with a plaintext message to produce an encrypted message (the ciphertext).
+The "characters" in the keystream can be bits, bytes, numbers or actual characters like A-Z depending on the usage case.
+Usually each character in the keystream is either added, subtracted or XORed with a character in the plaintext to produce the ciphertext, using modular arithmetic.
+Keystreams are used in the one-time pad cipher and in most stream ciphers. Block ciphers can also be used to produce keystreams. For example, the CTR mode (also known as Integer Counter Mode (ICM)) is a block mode that makes a block cipher produce a keystream then turns the block cipher into a stream cipher.
+Example.
+In this simple example we will use only the English alphabet of 26 characters from a-z, therefore we will not encrypt numbers, commas, spaces and other symbols. As we have only 26 characters the random numbers in the keystream have to be at least between 0 and 25.
+To encrypt we add the keystream numbers to the plaintext. And to decrypt we subtract the same keystream numbers from the ciphertext to get the plaintext.
+If a ciphertext number becomes larger than 25 we wrap it to a value between 0-25. I.e. 26 becomes 0 and 27 becomes 1 and so on. (Such wrapping is called modular arithmetic.)
+Here the plaintext message "attack at dawn" is combined by addition with the keystream "kjcngmlhylyu" and produces the ciphertext "kcvniwlabluh".

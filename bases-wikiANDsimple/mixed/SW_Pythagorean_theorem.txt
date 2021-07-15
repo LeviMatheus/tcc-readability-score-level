@@ -1,0 +1,5 @@
+In mathematics, Pythagorean theorem or Pythagoras' theorem is a statement about the sides of a right triangle.
+One of the angles of a right triangle is always equal to 90 degrees. This angle is the "right angle". The two sides next to the right angle are called the "legs" and the other side is called the "hypotenuse". The hypotenuse is the side opposite to the right angle, and it is always the longest side.
+If the lengths of the legs are "a" and "b", and the length of the hypotenuse is "c", then, formula_1.
+For proof see: proof.
+One well known example is the 3-4-5 triangle: if a=3 and b=4, formula_2 or formula_3. This can also be shown as formula_4

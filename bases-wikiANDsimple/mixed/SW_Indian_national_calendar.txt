@@ -1,0 +1,4 @@
+The Indian national calendar (sometimes called Saka calendar) is the official civil calendar in India. It is used by the Gazette of India, news broadcasts by All India Radio, and in calendars and communications issued by the Government of India.
+Calendar structure.
+The months in the first half of the year all have 31 days. This was done to take in account for the slower movement of the sun across the sky during that time.
+In leap years, Chaitra has 31 days and starts on March 21.

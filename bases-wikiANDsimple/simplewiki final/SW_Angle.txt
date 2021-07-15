@@ -1,0 +1,6 @@
+An angle is the space between two lines that meet each other. When two lines meet at a point, an angle is formed. The two lines are called the "arms" of the angle. The point they meet is called the "vertex".
+To measure the size of an angle, we use degree. Degree is a standard unit. Degree is denoted by the symbol '°'. A degree can be divided into 60 minutes (1° = 60'), and a minute can be also be divided into 60 seconds (1' = 60"). In mathematics, angles are usually measured in radians.
+Types of angles.
+An acute angle is an angle less than 90°. A right angle is an angle equal to 90°. An obtuse angle is an angle greater than 90°. A straight angle is an angle equal to 180°. A reflex angle is an angle greater than 180° but less than 360°.
+"Supplementary angles" are two angles with the sum equal to 180°. "Complementary angles" are two angles with the sum equal to 90°.
+People usually use a protractor to measure and draw angles. Sometimes, people use an angle ruler to measure angles.

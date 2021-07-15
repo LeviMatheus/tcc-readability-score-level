@@ -1,0 +1,7 @@
+The kelvin (symbol: K) is the SI unit of temperature. It is named in honour of the physicist William Thomson, the first Lord Kelvin (1824–1907).
+Definition.
+The Kelvin scale is defined by a specific relationship between the pressure of a gas and the temperature. This says that "the pressure of the gas is directly proportional to the temperature in Kelvin". This means that Kelvin is an absolute temperature scale, and scientists use this scale more than any other.
+The kelvin is a base SI unit of measurement, defined as the fraction 1/273.16 of the temperature of the triple point of water, which is the temperature at which water in solid, liquid, and gaseous state coexist in equilibrium.
+The temperature of the triple point of water is a hundredth of a degree Celsius above the freezing point, or 0.01 °C. The coldest possible temperature is called absolute zero and is equal to -273.15 degrees Celsius, or zero kelvin (0 K). By writing temperatures in kelvins one does not need to use negative numbers.
+The absolute temperature scale was designed so that a change in temperature of 1 kelvin is equal to a change of 1 degree Celsius. This means that it is easy to convert a temperature from degrees Celsius to kelvins.
+It is important to notice that the name of this unit is simply "kelvin" (with a lowercase initial), not "degree Kelvin". In English, it undergoes normal plural inflection as "kelvins".

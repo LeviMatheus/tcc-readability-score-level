@@ -1,0 +1,4 @@
+Omaha hold'em is a poker game, similar to Texas hold' em. In Omaha, each player is given four cards. Then there is a round of betting. Then three community cards are placed on the table. Another round of betting is after that. Then a fourth community card is put down. After this, there is another round of betting. Then there is the final community card put down, there is a last round of betting, and each player uses exactly two cards from the hand and three from the table to form a five-card poker hand. Whoever has the best hand wins all the money put in the middle during betting.
+Variations.
+Omaha can also be played as Omaha Hi Lo, where the best hand and the lowest hand splits the pot.
+The low hand's cards have to be 8 or lower.

@@ -1,0 +1,13 @@
+Originally, a "firewall" was a wall that was built to stop (or slow down) the spread of a fire. In terms of computer security, a firewall is a piece of hardware or software. The firewall is there to look at the traffic passing through it. Based on a set of rules, traffic can be allowed, or it can be blocked. A firewall therefore protects one part of the network against unauthorised access.
+Packet filtering.
+Data travels on the internet in small pieces; these are called packets. Each packet has certain metadata attached, like where it is coming from, and where it should be sent to. The easiest thing to do is to look at the metadata. Based on rules, certain packets are then dropped or rejected. All firewalls can do this.
+Stateful packet inspection.
+In addition to the simple packet filtering (above) this kind of firewall also keeps track of connections. A packet can be the start of a new connection, or it can be part of an existing connection. If it is neither of the two, it is probably useless and can be dropped.
+Application-layer firewalls.
+Application-layer firewalls do not just look at the metadata; they also look at the actual data transported. They know how certain protocols work, for example FTP or HTTP. They can then look if the data that is in the packet is valid (for that protocol). If it is not, it can be dropped.
+Tunnelling.
+Firewalls can provide a secure connection between two networks. This is called "tunneling". The data may be encrypted. It is unencrypted at the other end. Since the firewalls are doing this, the rest of the network is unaware of it. An alternative is to provide a secure access (to the corporate network).
+Network address translation.
+Very often, firewalls can translate IP addresses. That way, many computers can share a few public IP addresses. The firewall translates between the public and the private IP addresses.
+What firewalls cannot protect against.
+Firewalls can portect against some problems (viruses and attacks) that come from the internet. They cannot protect against viruses, that come from infected media (like an infected office document on an USB flash drive).

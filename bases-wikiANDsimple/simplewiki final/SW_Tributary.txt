@@ -1,0 +1,4 @@
+A tributary of a river is another river that flows into it. If one river flows into a second river, then the first river is a tributary of the second river.
+For example, in the United States the Missouri River flows into the Mississippi River. That means the Missouri River is a tributary of the Mississippi River.
+A river and all its tributaries form the catchment of that river.
+A watershed separates the catchments of separate rivers.

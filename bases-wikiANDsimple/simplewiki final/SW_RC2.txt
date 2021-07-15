@@ -1,0 +1,8 @@
+In cryptography, RC2 is a symmetric-key block cipher. Designed by Ronald Rivest in 1987. "RC" stands for "Rivest Cipher", or alternatively, "Ron's Code".
+RC2 is a 64-bit block cipher with a variable key size and using 18 rounds.
+Rounds are arranged as a source-heavy feistel network, with 16 rounds of one type called "mixing rounds" interleaved by two rounds of another type called "mashing rounds".
+RC2 uses "key-expansion algorithm" by which an expanded key consisting of 64 (16-bit words) is produces depending in a complicated way on every bit of the supplied "variable-length" input key. A mixing round consists of four applications of the "mix-up" transformation, as shown in the diagram. A round is "mashed" by adding to it one of the 16-bit words of the expanded key (RFC 2268).
+RC2 is susceptible to a related-key attack using 234 chosen-plaintext attacks (Kelsey et al, 1997).
+The development of RC2 was sponsored by Lotus, who were seeking a custom cipher be exported as part of their Lotus Notes software, after evaluation by the NSA. The NSA suggested a couple of changes, which Ronald Rivest incorporated. After further negotiations, the cipher was approved for export in 1989.
+Along with RC4, RC2 with a 40-bit key size was treated under US export regulations for cryptography. Now all 40-bit encryption algorithms are obsolete because they are dangerously susceptible to brute force attacks.
+Initially, the details of the algorithm were kept secret — proprietary to RSA Security — but on 29th January, 1996, source code for RC2 was anonymously posted to the Internet on the Usenet forum, sci.crypt. A similar post had occurred earlier with RC4. It is unclear whether the poster had access to the specifications or whether it had been reverse engineered.

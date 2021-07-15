@@ -1,0 +1,2 @@
+A file extension is a way of knowing what type of file it is, and what program it should be opened with. File extensions are usually three letters long and come after the name of the file.
+You can change the program defaults so that the computer knows which program to open each type of file extension with.

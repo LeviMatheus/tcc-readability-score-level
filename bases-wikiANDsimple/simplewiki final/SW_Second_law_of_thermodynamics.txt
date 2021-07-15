@@ -1,0 +1,7 @@
+The second law of thermodynamics means that entropy increases. With other words: over time, differences in temperature, pressure, and density tend to even out.
+This law is valid only in a physical system that is isolated from the outside world. Entropy is a measure of how far along this evening-out process has come.
+Heat cannot of itself pass from a colder to a hotter body.
+A transformation whose only final result is to convert heat, extracted from a source at constant temperature, into work, is impossible.
+The second law is only applicable to macroscopic systems. The second law is actually a statement about the "probable" behavior of an isolated system. As larger and larger systems are considered, the probability of the second law being practically true becomes more and more certain. For any isolated system with a mass of more than a few picograms, the second law is true to within a few parts in a million.
+Overview.
+In a general sense, the second law says that temperature differences between systems in contact with each other tend to even out and that work can be obtained from these non-equilibrium differences, but that loss of heat occurs, in the form of entropy, when work is done. Pressure differences, density differences, and particularly temperature differences, all tend to equalize if given the opportunity. This means that an isolated system will eventually come to have a uniform temperature. A heat engine is a mechanical device that provides useful work from the difference in temperature of two bodies.

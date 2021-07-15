@@ -1,0 +1,20 @@
+
+
+
+A statistic (singular) or sample statistic is any quantity computed from values in a sample that is used for a statistical purpose. Statistical purposes include estimating a population parameter, describing a sample, or evaluating a hypothesis. The average (aka mean) of sample values is a statistic. The term statistic is used both for the function and for the value of the function on a given sample. When a statistic is being used for a specific purpose, it may be referred to by a name indicating its purpose.
+When a statistic is used to estimate a population parameter, the statistic is called an estimator. A population parameter is any characteristic of a population under study, but when it is not feasible to directly measure the value of a population parameter, statistical methods are used to infer the likely value of the parameter on the basis of a statistic computed from a sample taken from the population. For example, the mean of a sample is an unbiased estimator of the population mean. This means that the expected value of the sample mean equals the true mean of the population.
+In descriptive statistics, a descriptive statistic is used to describe the sample data in some useful way. In statistical hypothesis testing, a test statistic is used to test a hypothesis. Note that a single statistic can be used for multiple purposes – for example the sample mean can be used to estimate the population mean, to describe a sample data set, or to test a hypothesis.
+Examples.
+Some examples of statistics are:
+In this case, "52%" is a statistic, namely the percentage of Republicans in the survey sample who believe in global warming. The population is the set of all Republicans in the United States, and the population parameter being estimated is the percentage of "all" Republicans in the United States, not just those surveyed, who believe in global warming.
+In this example, "5.6 days" is a statistic, namely the mean length of stay for our sample of 20 hotel guests. The population is the set of all guests of this hotel, and the population parameter being estimated is the mean length of stay for "all" guests. Note that whether the estimator is unbiased in this case depends upon the sample selection process; see the inspection paradox.
+There are a variety of functions that are used to calculate statistics. Some include:
+Properties.
+Observability.
+A statistic is an "observable" random variable, which differentiates it both from a "parameter" that is a generally unobservable quantity describing a property of a statistical population, and from an unobservable random variable, such as the difference between an observed measurement and a population average. A parameter can only be computed exactly if the entire population can be observed without error; for instance, in a perfect census or for a population of standardized test takers.
+Statisticians often contemplate a parameterized family of probability distributions, any member of which could be the distribution of some measurable aspect of each member of a population, from which a sample is drawn randomly. For example, the parameter may be the average height of 25-year-old men in North America. The height of the members of a sample of 100 such men are measured; the average of those 100 numbers is a statistic. The average of the heights of all members of the population is not a statistic unless that has somehow also been ascertained (such as by measuring every member of the population). The average height that would be calculated using "all" of the individual heights of "all" 25-year-old North American men is a parameter, and not a statistic.
+Statistical properties.
+Important potential properties of statistics include completeness, consistency, sufficiency, unbiasedness, minimum mean square error, low variance, robustness, and computational convenience.
+Information of a statistic.
+Information of a statistic on model parameters can be defined in several ways. The most common is the Fisher information, which is defined on the statistic model induced by the statistic. Kullback information measure can also be used.
+

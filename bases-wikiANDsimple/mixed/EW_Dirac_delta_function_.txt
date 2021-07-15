@@ -1,0 +1,146 @@
+
+In mathematics, the Dirac delta function ( function) is a generalized function or distribution introduced by physicist Paul Dirac. It is called a function, although it is not a function on the level one would expect, that is, it is not a function , but a function on the space of test functions. It is used to model the density of an idealized point mass or point charge as a function equal to zero everywhere except for zero and whose integral over the entire real line is equal to one. As there is no function that has these properties, the computations made by theoretical physicists appeared to mathematicians as nonsense until the introduction of distributions by Laurent Schwartz to formalize and validate the computations. As a distribution, the Dirac delta function is a linear functional that maps every function to its value at zero. The Kronecker delta function, which is usually defined on a discrete domain and takes values 0 and 1, is a discrete analog of the Dirac delta function.
+In engineering and signal processing, the delta function, also known as the unit impulse symbol, may be regarded through its Laplace transform, as coming from the boundary values of a complex analytic function of a complex variable. The convolution of a (theoretical) signal with a Dirac delta can be thought of as a stimulation, that includes all frequencies. This leads to a resonance with the signal, making the theoretical signal "real" (i.e. causal). The formal rules obeyed by this function are part of the operational calculus, a standard tool kit of physics and engineering. In many applications, the Dirac delta is regarded as a kind of limit (a weak limit) of a sequence of functions having a tall spike at the origin (in theory of distributions, this is a true limit). The approximating functions of the sequence are thus "approximate" or "nascent" delta functions.
+Motivation and overview.
+The graph of the delta function is usually thought of as following the whole "x"-axis and the positive "y"-axis. The Dirac delta is used to model a tall narrow spike function (an "impulse"), and other similar abstractions such as a point charge, point mass or electron point. For example, to calculate the dynamics of a billiard ball being struck, one can approximate the force of the impact by a delta function. In doing so, one not only simplifies the equations, but one also is able to calculate the motion of the ball by only considering the total impulse of the collision without a detailed model of all of the elastic energy transfer at subatomic levels (for instance).
+To be specific, suppose that a billiard ball is at rest. At time formula_1 it is struck by another ball, imparting it with a momentum "P", in formula_2. The exchange of momentum is not actually instantaneous, being mediated by elastic processes at the molecular and subatomic level, but for practical purposes it is convenient to consider that energy transfer as effectively instantaneous. The force therefore is formula_3. (The units of formula_4 are formula_5.)
+To model this situation more rigorously, suppose that the force instead is uniformly distributed over a small time interval formula_6. That is,
+Then the momentum at any time "t" is found by integration:
+Now, the model situation of an instantaneous transfer of momentum requires taking the limit as formula_9, giving
+Here the functions formula_11 are thought of as useful approximations to the idea of instantaneous transfer of momentum.
+The delta function allows us to construct an idealized limit of these approximations. Unfortunately, the actual limit of the functions (in the sense of pointwise convergence) formula_12 is zero everywhere but a single point, where it is infinite. To make proper sense of the delta function, we should instead insist that the property
+which holds for all formula_14, should continue to hold in the limit. So, in the equation formula_15, it is understood that the limit is always taken "outside the integral".
+In applied mathematics, as we have done here, the delta function is often manipulated as a kind of limit (a weak limit) of a sequence of functions, each member of which has a tall spike at the origin: for example, a sequence of Gaussian distributions centered at the origin with variance tending to zero.
+Despite its name, the delta function is not truly a function, at least not a usual one with domain and range in real numbers. For example, the objects and are equal everywhere except at yet have integrals that are different. According to Lebesgue integration theory, if and are functions such that almost everywhere, then is integrable if and only if is integrable and the integrals of and are identical. A rigorous approach to regarding the Dirac delta function as a mathematical object in its own right requires measure theory or the theory of distributions.
+History.
+Joseph Fourier presented what is now called the Fourier integral theorem in his treatise "Théorie analytique de la chaleur" in the form:
+which is tantamount to the introduction of the "δ"-function in the form:
+Later, Augustin Cauchy expressed the theorem using exponentials:
+Cauchy pointed out that in some circumstances the "order" of integration in this result is significant (contrast Fubini's theorem).
+As justified using the theory of distributions, the Cauchy equation can be rearranged to resemble Fourier's original formulation and expose the "δ"-function as
+where the "δ"-function is expressed as
+A rigorous interpretation of the exponential form and the various limitations upon the function "f" necessary for its application extended over several centuries. The problems with a classical interpretation are explained as follows:
+Further developments included generalization of the Fourier integral, "beginning with Plancherel's pathbreaking "L"2-theory (1910), continuing with Wiener's and Bochner's works (around 1930) and culminating with the amalgamation into L. Schwartz's theory of distributions (1945) ...", and leading to the formal development of the Dirac delta function.
+An infinitesimal formula for an infinitely tall, unit impulse delta function (infinitesimal version of Cauchy distribution) explicitly appears in an 1827 text of Augustin Louis Cauchy. Siméon Denis Poisson considered the issue in connection with the study of wave propagation as did Gustav Kirchhoff somewhat later. Kirchhoff and Hermann von Helmholtz also introduced the unit impulse as a limit of Gaussians, which also corresponded to Lord Kelvin's notion of a point heat source. At the end of the 19th century, Oliver Heaviside used formal Fourier series to manipulate the unit impulse. The Dirac delta function as such was introduced as a "convenient notation" by Paul Dirac in his influential 1930 book "The Principles of Quantum Mechanics". He called it the "delta function" since he used it as a continuous analogue of the discrete Kronecker delta.
+Definitions.
+The Dirac delta can be loosely thought of as a function on the real line which is zero everywhere except at the origin, where it is infinite,
+and which is also constrained to satisfy the identity
+This is merely a heuristic characterization. The Dirac delta is not a function in the traditional sense as no function defined on the real numbers has these properties. The Dirac delta function can be rigorously defined either as a distribution or as a measure.
+As a measure.
+One way to rigorously capture the notion of the Dirac delta function is to define a measure, called Dirac measure, which accepts a subset of the real line as an argument, and returns if , and otherwise. If the delta function is conceptualized as modeling an idealized point mass at 0, then represents the mass contained in the set . One may then define the integral against as the integral of a function against this mass distribution. Formally, the Lebesgue integral provides the necessary analytic device. The Lebesgue integral with respect to the measure satisfies
+for all continuous compactly supported functions . The measure is not absolutely continuous with respect to the Lebesgue measure — in fact, it is a singular measure. Consequently, the delta measure has no Radon–Nikodym derivative (with respect to Lebesgue measure)— no true function for which the property
+holds. As a result, the latter notation is a convenient abuse of notation, and not a standard (Riemann or Lebesgue) integral.
+As a probability measure on , the delta measure is characterized by its cumulative distribution function, which is the unit step function
+This means that is the integral of the cumulative indicator function with respect to the measure ; to wit,
+the latter being the measure of this interval; more formally, .
+Thus in particular the integral of the delta function against a continuous function can be properly understood as a Riemann–Stieltjes integral:
+All higher moments of are zero. In particular, characteristic function and moment generating function are both equal to one.
+As a distribution.
+In the theory of distributions, a generalized function is considered not a function in itself but only in relation to how it affects other functions when "integrated" against them. In keeping with this philosophy, to define the delta function properly, it is enough to say what the "integral" of the delta function is against a sufficiently "good" test function "φ". Test functions are also known as bump functions. If the delta function is already understood as a measure, then the Lebesgue integral of a test function against that measure supplies the necessary integral.
+A typical space of test functions consists of all smooth functions on R with compact support that have as many derivatives as required. As a distribution, the Dirac delta is a linear functional on the space of test functions and is defined by
+for every test function "formula_28".
+For "δ" to be properly a distribution, it must be continuous in a suitable topology on the space of test functions. In general, for a linear functional "S" on the space of test functions to define a distribution, it is necessary and sufficient that, for every positive integer "N" there is an integer "M""N" and a constant "C""N" such that for every test function "φ", one has the inequality
+With the "δ" distribution, one has such an inequality (with with for all "N". Thus "δ" is a distribution of order zero. It is, furthermore, a distribution with compact support (the support being {0}).
+The delta distribution can also be defined in a number of equivalent ways. For instance, it is the distributional derivative of the Heaviside step function. This means that, for every test function "φ", one has
+Intuitively, if integration by parts were permitted, then the latter integral should simplify to
+and indeed, a form of integration by parts is permitted for the Stieltjes integral, and in that case one does have
+In the context of measure theory, the Dirac measure gives rise to a distribution by integration. Conversely, equation () defines a Daniell integral on the space of all compactly supported continuous functions "φ" which, by the Riesz representation theorem, can be represented as the Lebesgue integral of "φ" with respect to some Radon measure.
+Generally, when the term "Dirac delta function" is used, it is in the sense of distributions rather than measures, the Dirac measure being among several terms for the corresponding notion in measure theory. Some sources may also use the term "Dirac delta distribution".
+Generalizations.
+The delta function can be defined in "n"-dimensional Euclidean space R"n" as the measure such that
+for every compactly supported continuous function "f". As a measure, the "n"-dimensional delta function is the product measure of the 1-dimensional delta functions in each variable separately. Thus, formally, with , one has
+The delta function can also be defined in the sense of distributions exactly as above in the one-dimensional case. However, despite widespread use in engineering contexts, () should be manipulated with care, since the product of distributions can only be defined under quite narrow circumstances.
+The notion of a Dirac measure makes sense on any set. Thus if "X" is a set, is a marked point, and Σ is any sigma algebra of subsets of "X", then the measure defined on sets by
+is the delta measure or unit mass concentrated at "x"0.
+Another common generalization of the delta function is to a differentiable manifold where most of its properties as a distribution can also be exploited because of the differentiable structure. The delta function on a manifold "M" centered at the point is defined as the following distribution:
+for all compactly supported smooth real-valued functions "φ" on "M". A common special case of this construction is that in which "M" is an open set in the Euclidean space R"n".
+On a locally compact Hausdorff space "X", the Dirac delta measure concentrated at a point "x" is the Radon measure associated with the Daniell integral () on compactly supported continuous functions "φ". At this level of generality, calculus as such is no longer possible, however a variety of techniques from abstract analysis are available. For instance, the mapping formula_35 is a continuous embedding of "X" into the space of finite Radon measures on "X", equipped with its vague topology. Moreover, the convex hull of the image of "X" under this embedding is dense in the space of probability measures on "X".
+Properties.
+Scaling and symmetry.
+The delta function satisfies the following scaling property for a non-zero scalar α:
+Then "δ" is obtained by applying a power of the Laplacian to the integral with respect to the unit sphere measure dω of for "ξ" in the unit sphere "S""n"−1:
+The Laplacian here is interpreted as a weak derivative, so that this equation is taken to mean that, for any test function "φ",
+The result follows from the formula for the Newtonian potential (the fundamental solution of Poisson's equation). This is essentially a form of the inversion formula for the Radon transform, because it recovers the value of "φ"("x") from its integrals over hyperplanes. For instance, if "n" is odd and , then the integral on the right hand side is
+where is the Radon transform of "φ":
+An alternative equivalent expression of the plane wave decomposition, from , is
+for "n" even, and
+for "n" odd.
+Fourier kernels.
+In the study of Fourier series, a major question consists of determining whether and in what sense the Fourier series associated with a periodic function converges to the function. The "n"th partial sum of the Fourier series of a function "f" of period 2 is defined by convolution (on the interval ) with the Dirichlet kernel:
+Thus,
+where
+A fundamental result of elementary Fourier series states that the Dirichlet kernel tends to the a multiple of the delta function as . This is interpreted in the distribution sense, that
+for every compactly supported "smooth" function "f". Thus, formally one has
+on the interval .
+In spite of this, the result does not hold for all compactly supported "continuous" functions: that is "DN" does not converge weakly in the sense of measures. The lack of convergence of the Fourier series has led to the introduction of a variety of summability methods in order to produce convergence. The method of Cesàro summation leads to the Fejér kernel
+The Fejér kernels tend to the delta function in a stronger sense that
+for every compactly supported "continuous" function "f". The implication is that the Fourier series of any continuous function is Cesàro summable to the value of the function at every point.
+Hilbert space theory.
+The Dirac delta distribution is a densely defined unbounded linear functional on the Hilbert space L2 of square-integrable functions. Indeed, smooth compactly support functions are dense in "L"2, and the action of the delta distribution on such functions is well-defined. In many applications, it is possible to identify subspaces of "L"2 and to give a stronger topology on which the delta function defines a bounded linear functional.
+The Sobolev embedding theorem for Sobolev spaces on the real line R implies that any square-integrable function "f" such that
+is automatically continuous, and satisfies in particular
+Thus "δ" is a bounded linear functional on the Sobolev space "H"1. Equivalently "δ" is an element of the continuous dual space "H"−1 of "H"1. More generally, in "n" dimensions, one has provided .
+Spaces of holomorphic functions.
+In complex analysis, the delta function enters via Cauchy's integral formula, which asserts that if "D" is a domain in the complex plane with smooth boundary, then
+for all holomorphic functions "f" in "D" that are continuous on the closure of "D". As a result, the delta function "δ""z" is represented in this class of holomorphic functions by the Cauchy integral:
+Moreover, let "H"2(∂"D") be the Hardy space consisting of the closure in "L"2(∂"D") of all holomorphic functions in "D" continuous up to the boundary of "D". Then functions in "H"2(∂"D") uniquely extend to holomorphic functions in "D", and the Cauchy integral formula continues to hold. In particular for , the delta function "δ""z" is a continuous linear functional on "H"2(∂"D"). This is a special case of the situation in several complex variables in which, for smooth domains "D", the Szegő kernel plays the role of the Cauchy integral.
+Resolutions of the identity.
+Given a complete orthonormal basis set of functions {"φ""n"} in a separable Hilbert space, for example, the normalized eigenvectors of a compact self-adjoint operator, any vector "f" can be expressed as
+The coefficients {αn} are found as
+which may be represented by the notation:
+a form of the bra–ket notation of Dirac. Adopting this notation, the expansion of "f" takes the dyadic form:
+Letting "I" denote the identity operator on the Hilbert space, the expression
+is called a resolution of the identity. When the Hilbert space is the space "L"2("D") of square-integrable functions on a domain "D", the quantity:
+is an integral operator, and the expression for "f" can be rewritten
+The right-hand side converges to "f" in the "L"2 sense. It need not hold in a pointwise sense, even when "f" is a continuous function. Nevertheless, it is common to abuse notation and write
+resulting in the representation of the delta function:
+With a suitable rigged Hilbert space where contains all compactly supported smooth functions, this summation may converge in Φ*, depending on the properties of the basis "φ""n". In most cases of practical interest, the orthonormal basis comes from an integral or differential operator, in which case the series converges in the distribution sense.
+Infinitesimal delta functions.
+Cauchy used an infinitesimal α to write down a unit impulse, infinitely tall and narrow Dirac-type delta function "δα" satisfying formula_63 in a number of articles in 1827. Cauchy defined an infinitesimal in "Cours d'Analyse" (1827) in terms of a sequence tending to zero. Namely, such a null sequence becomes an infinitesimal in Cauchy's and Lazare Carnot's terminology.
+Non-standard analysis allows one to rigorously treat infinitesimals. The article by contains a bibliography on modern Dirac delta functions in the context of an infinitesimal-enriched continuum provided by the hyperreals. Here the Dirac delta can be given by an actual function, having the property that for every real function "F" one has formula_63 as anticipated by Fourier and Cauchy.
+Dirac comb.
+A so-called uniform "pulse train" of Dirac delta measures, which is known as a Dirac comb, or as the Shah distribution, creates a sampling function, often used in digital signal processing (DSP) and discrete time signal analysis. The Dirac comb is given as the infinite sum, whose limit is understood in the distribution sense,
+which is a sequence of point masses at each of the integers.
+Up to an overall normalizing constant, the Dirac comb is equal to its own Fourier transform. This is significant because if formula_66 is any Schwartz function, then the periodization of formula_66 is given by the convolution
+In particular,
+is precisely the Poisson summation formula.
+More generally, this formula remains to be true if formula_66 is a tempered distribution of rapid descent or, equivalently, if formula_71 is a slowly growing, ordinary function within the space of tempered distributions.
+Sokhotski–Plemelj theorem.
+The Sokhotski–Plemelj theorem, important in quantum mechanics, relates the delta function to the distribution p.v. 1/"x", the Cauchy principal value of the function 1/"x", defined by
+Sokhotsky's formula states that
+Here the limit is understood in the distribution sense, that for all compactly supported smooth functions "f",
+Relationship to the Kronecker delta.
+The Kronecker delta "δij" is the quantity defined by
+for all integers "i", "j". This function then satisfies the following analog of the sifting property: if formula_76 is any doubly infinite sequence, then
+Similarly, for any real or complex valued continuous function "f" on R, the Dirac delta satisfies the sifting property
+This exhibits the Kronecker delta function as a discrete analog of the Dirac delta function.
+Applications.
+Probability theory.
+In probability theory and statistics, the Dirac delta function is often used to represent a discrete distribution, or a partially discrete, partially continuous distribution, using a probability density function (which is normally used to represent absolutely continuous distributions). For example, the probability density function "f"("x") of a discrete distribution consisting of points x = {"x"1, ..., "xn"}, with corresponding probabilities "p"1, ..., "pn", can be written as
+As another example, consider a distribution which 6/10 of the time returns a standard normal distribution, and 4/10 of the time returns exactly the value 3.5 (i.e. a partly continuous, partly discrete mixture distribution). The density function of this distribution can be written as
+The delta function is also used to represent the resulting probability density function of a random variable that is transformed by continuous differentiable function. If "Y" = g("X") is a continuous differentiable function, then the density of "Y" can be written as
+The delta function is also used in a completely different way to represent the local time of a diffusion process (like Brownian motion). The local time of a stochastic process "B"("t") is given by
+and represents the amount of time that the process spends at the point "x" in the range of the process. More precisely, in one dimension this integral can be written
+where is the indicator function of the interval .
+Quantum mechanics.
+The delta function is expedient in quantum mechanics. The wave function of a particle gives the probability amplitude of finding a particle within a given region of space. Wave functions are assumed to be elements of the Hilbert space "L"2 of square-integrable functions, and the total probability of finding a particle within a given interval is the integral of the magnitude of the wave function squared over the interval. A set {formula_84} of wave functions is orthonormal if they are normalized by
+where formula_86 is the Kronecker delta. A set of orthonormal wave functions is complete in the space of square-integrable functions if any wave function formula_87 can be expressed as a linear combination of the {formula_84} with complex coefficients:
+with formula_90. Complete orthonormal systems of wave functions appear naturally as the eigenfunctions of the Hamiltonian (of a bound system) in quantum mechanics that measures the energy levels, which are called the eigenvalues. The set of eigenvalues, in this case, is known as the spectrum of the Hamiltonian. In bra–ket notation, as above, this equality implies the resolution of the identity:
+Here the eigenvalues are assumed to be discrete, but the set of eigenvalues of an observable may be continuous rather than discrete. An example is the position observable, . The spectrum of the position (in one dimension) is the entire real line, and is called a continuous spectrum. However, unlike the Hamiltonian, the position operator lacks proper eigenfunctions. The conventional way to overcome this shortcoming is to widen the class of available functions by allowing distributions as well: that is, to replace the Hilbert space of quantum mechanics by an appropriate rigged Hilbert space. In this context, the position operator has a complete set of eigen-distributions, labeled by the points "y" of the real line, given by
+The eigenfunctions of position are denoted by formula_93 in Dirac notation, and are known as position eigenstates.
+Similar considerations apply to the eigenstates of the momentum operator, or indeed any other self-adjoint unbounded operator "P" on the Hilbert space, provided the spectrum of "P" is continuous and there are no degenerate eigenvalues. In that case, there is a set Ω of real numbers (the spectrum), and a collection "φ""y" of distributions indexed by the elements of Ω, such that
+That is, "φ""y" are the eigenvectors of "P". If the eigenvectors are normalized so that
+in the distribution sense, then for any test function ψ,
+where
+That is, as in the discrete case, there is a resolution of the identity
+where the operator-valued integral is again understood in the weak sense. If the spectrum of "P" has both continuous and discrete parts, then the resolution of the identity involves a summation over the discrete spectrum "and" an integral over the continuous spectrum.
+The delta function also has many more specialized applications in quantum mechanics, such as the delta potential models for a single and double potential well.
+Structural mechanics.
+The delta function can be used in structural mechanics to describe transient loads or point loads acting on structures. The governing equation of a simple mass–spring system excited by a sudden force impulse "I" at time "t" = 0 can be written
+where "m" is the mass, ξ the deflection and "k" the spring constant.
+As another example, the equation governing the static deflection of a slender beam is, according to Euler–Bernoulli theory,
+where "EI" is the bending stiffness of the beam, "w" the deflection, "x" the spatial coordinate and "q"("x") the load distribution. If a beam is loaded by a point force "F" at "x" = "x"0, the load distribution is written
+As integration of the delta function results in the Heaviside step function, it follows that the static deflection of a slender beam subject to multiple point loads is described by a set of piecewise polynomials.
+Also a point moment acting on a beam can be described by delta functions. Consider two opposing point forces "F" at a distance "d" apart. They then produce a moment "M" = "Fd" acting on the beam. Now, let the distance "d" approach the limit zero, while "M" is kept constant. The load distribution, assuming a clockwise moment acting at "x" = 0, is written
+Point moments can thus be represented by the derivative of the delta function. Integration of the beam equation again results in piecewise polynomial deflection.
+

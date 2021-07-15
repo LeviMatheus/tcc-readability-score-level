@@ -1,0 +1,5 @@
+A multiset (sometimes called a bag) is a concept from mathematics. In many ways, multisets are like sets. Certain items are either elements of that multiset, or they are not. However, multisets are different from sets: The same type of item can be in the multiset more than once. For this reason, mathematicians have defined a relation (function) that tells, how many copies of a certain type of item there are in a certain multiset. They call this "multiplicity". For example, in the multiset, the multiplicities of the members "a", "b", and "c" are respectively 2, 3, and 1.
+A multiset is illustrated by means of a histogram.
+Examples.
+One of the simplest examples is the multiset of prime factors of a number "n". Here the underlying set of elements is the set of prime divisors of "n". For example the number "120" has the prime factorisation
+Another is the multiset of solutions of an algebraic equation. A quadratic equation, for example, has two solutions. However, in some cases they are both the same number. Thus the multiset of solutions of the equation could be, or it could be. In the latter case it has a solution of multiplicity 2.

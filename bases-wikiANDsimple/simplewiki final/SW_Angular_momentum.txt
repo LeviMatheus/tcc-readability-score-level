@@ -1,0 +1,6 @@
+In physics, the angular momentum of an object rotating about some reference point is the measure of the extent to which the object will continue to rotate about that point unless acted upon by an external torque.
+In particular, if a point mass rotates about an axis, then the angular momentum with respect to a point on the axis is related to the mass of the object, the velocity and the distance of the mass to the axis.
+Angular momentum is important in physics because it is a conserved quantity: a system's angular momentum stays constant unless an external torque acts on it. Torque is the rate at which angular momentum is transferred in or out of the system. When a rigid body rotates, its resistance to a change in its rotational motion is measured by its moment of inertia.
+where, F is the force vector, and r is the vector from the axis of rotation to the point where the force is acting.
+Angular momentum is an important concept in both physics and engineering, with numerous applications. For example, the kinetic energy stored in a massive rotating object such as a flywheel is proportional to the square of the angular momentum.
+Conservation of angular momentum also explains many phenomena in sports and nature.

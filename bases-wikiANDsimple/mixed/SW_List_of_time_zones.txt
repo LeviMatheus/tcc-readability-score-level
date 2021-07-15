@@ -1,0 +1,29 @@
+This is a list of time zones, sorted by time offsets from Coordinated Universal Time (UTC). Countries and regions observing the respective time zones are listed under it. This only gives current offsets. For more detailed and historic information, the zones must be divided. One list that does so is the tz database. See list of tz zones. Also see a helpful map (which is not necessarily completely up to date).
+Regions marked with asterisks (* or **) observe daylight saving time: add one hour in summer (* for Northern Hemisphere summer; ** for Southern Hemisphere). Note, some locations use GMT (Greenwich Mean Time) instead of UTC (Coordinated Universal Time) in the definition of local time. For the purposes of this summary, the distinction is ignored.
+Some zones north-south of each other in the mid Pacific differ by 24 hours in time: they have the same time of day but differ by a full day. The two extreme time zones on Earth (both in the mid Pacific) differ by 26 hours. A particular day starts earlier in countries with a more positive UTC offset. Thus the first occurrence of a date will be in UTC+14 and the last of the same date in UTC−12. This gives the interesting feature that during one hour each day there are three different dates in use on land around the world, e.g. at 10:30 UTC Monday it is already 00:30 Tuesday in the Line Islands (UTC+14) while the time is 23:30 Sunday in Samoa (UTC-11).
+Time zone abbreviations are almost always customary, not legal—those listed here only exist in English and are somewhat arbitrary. English time zone names below generally only apply to English-speaking areas. The CIA and NAO disagree on the time kept by some Russian oblasts, so both are given below—this may be due to a recent time zone change.
+UTC-1, N.
+"Principal cities: Praia, Mindelo, Ponta Delgada, Angra do Heroísmo"
+UTC, Z.
+"Principal cities: London, Dublin, Abidjan, Casablanca, Accra, Lisbon"
+The crew of the International Space Station observes this timezone in their daily routine.
+UTC+1, A.
+"Principal cities: Amsterdam, Berlin, Vienna, Brussels, Kinshasa, Lagos, Madrid, Paris, Rome"
+UTC+2, B.
+"Principal cities: Cairo, Istanbul, Helsinki, Kiev, Jerusalem, Johannesburg, Bucharest, Athens"
+UTC+3, C.
+"Principal cities: Moscow, Baghdad, Khartoum, Saint Petersburg"
+, C†.
+"Principal cities: Tehran, Mashhad, Esfahan, Tabriz"
+UTC+4, D.
+"Principal cities: Baku, Samara, Tbilisi, Yerevan"
+, D†.
+"Principal cities: Kabul, Herat, Kandahar, Mazar-i Sharif"
+UTC+5, E.
+"Principal cities: Karachi, Lahore, Faisalabad, Rawalpindi, Islamabad and Srinagar (Iqbalabad)
+, E†.
+"Principal cities: Bangalore, Chennai, Colombo, Delhi, Hyderabad, Kolkata, Mumbai, Thiruvananthapuram"
+, E‡.
+"Principal cities: Kathmandu, Biratnagar, Patan, Pokhara"
+UTC+6, F.
+"Principal cities: Dhaka, Chittagong, Novosibirsk, Khulna"

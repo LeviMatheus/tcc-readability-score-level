@@ -1,0 +1,8 @@
+A Büchner flask (also called a vacuum flask, a filter flask, a side-arm flask or a kitasato flask) is a flask made of glass.
+Structure.
+A Büchner flask has thick walls so that a pressure change will not break it. It has a hole in the top where a Büchner funnel can be put and a small tube in the side where a vacuum can be attached. The small tube has barbs on it so that the vacuum will not weaken.
+Uses.
+A Büchner flask can be used with a Büchner funnel for separating solids and liquids. Water is poured into the Büchner funnel and the liquid passes through filter paper and is sucked up by a vacuum attached to the side of the Büchner flask, while the solid stays behind in the Büchner funnel.
+The Büchner flask can also be used as a vacuum trap in a vacuum line to ensure that no fluids are carried over from the aspirator or vacuum pump (or other vacuum source) to the evacuated apparatus, or vice versa.
+History.
+It is commonly thought to be named after the Nobel Laureate, Eduard Buchner, but it is actually named after the industrial chemist Ernst Büchner.

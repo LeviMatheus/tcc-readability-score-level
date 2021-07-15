@@ -1,0 +1,107 @@
+
+In mathematics and computing, the hexadecimal (also base 16 or hex) numeral system is a positional numeral system that represents numbers using a radix (base) of 16. Unlike the common way of representing numbers using 10 symbols, hexadecimal uses 16 distinct symbols, most often the symbols "0"–"9" to represent values 0 to 9, and "A"–"F" (or alternatively "a"–"f") to represent values 10 to 15.
+Hexadecimal numerals are widely used by computer system designers and programmers because they provide a human-friendly representation of binary-coded values. Each hexadecimal digit represents four bits (binary digits), also known as a nibble (or nybble), which is half a byte. For example, a single byte can have values ranging from 00000000 to 11111111 in binary form, which can be conveniently represented as 00 to FF in hexadecimal.
+In mathematics, a subscript is typically used to specify the base. For example, the decimal value would be expressed in hexadecimal as . In programming, a number of notations are used to denote hexadecimal numbers, usually involving a prefix or suffix. The prefix codice_1 is used in C and related programming languages, which would denote this value as codice_1.
+Hexadecimal is used in the transfer encoding Base16, in which each byte of the plaintext is broken into two 4-bit values and represented by two hexadecimal digits.
+Representation.
+Written representation.
+In almost all modern use, the letters A–F or a–f represent the values 10–15, while the numerals 0–9 are used to represent their usual values.
+There is no universal convention to use lowercase or uppercase, so each is prevalent or preferred in particular environments by community standards or convention; even mixed case is often used. Seven-segment displays use mixed-case AbCdEF to make digits that can be distinguished from each other.
+There is some standardization of using spaces (rather than commas or another punctuation mark) to separate hex values in a long list. For instance in the following hex dump each 8-bit byte is a 2-digit hex number, with spaces between them, while the 32-bit offset at the start is an 8-digit hex number.
+00000000 57 69 6b 69 70 65 64 69 61 2c 20 74 68 65 20 66 
+00000010 72 65 65 20 65 6e 63 79 63 6c 6f 70 65 64 69 61 
+00000020 20 74 68 61 74 20 61 6e 79 6f 6e 65 20 63 61 6e 
+00000030 20 65 64 69 74 0a 
+Distinguishing from decimal.
+In contexts where the base is not clear, hexadecimal numbers can be ambiguous and confused with numbers expressed in other bases. There are several conventions for expressing values unambiguously. A numerical subscript (itself written in decimal) can give the base explicitly: 15910 is decimal 159; 15916 is hexadecimal 159, which is equal to 34510. Some authors prefer a text subscript, such as 159decimal and 159hex, or 159d and 159h.
+Donald Knuth introduced the use of a particular typeface to represent a particular radix in his book "The TeXbook". Hexadecimal representations are written there in a typewriter typeface: 
+In linear text systems, such as those used in most computer programming environments, a variety of methods have arisen:
+Other symbols for 10-15.
+The use of the letters "A" through "F" to represent the digits above 9 was not universal in the early history of computers.
+Verbal and digital representations.
+There are no traditional numerals to represent the quantities from ten to fifteen – letters are used as a substitute – and most European languages lack non-decimal names for the numerals above ten. Even though English has names for several non-decimal powers ("pair" for the first binary power, "score" for the first vigesimal power, "dozen", "gross" and "great gross" for the first three duodecimal powers), no English name describes the hexadecimal powers (decimal 16, 256, 4096, 65536, ... ). Some people read hexadecimal numbers digit by digit, like a phone number, or using the NATO phonetic alphabet, the Joint Army/Navy Phonetic Alphabet, or a similar "ad-hoc" system. In the wake of the adoption of hexadecimal among IBM System/360 programmers, Magnuson (1968) suggested a pronunciation guide that gave short names to the letters of hexadecimal – for instance, "A" was pronounced "ann", B "bet", C "chris", etc. Another naming system was elaborated by Babb (2015), off a TV series as a joke. Yet another naming-system has was published online by Rogers (2007) that tries to make the verbal representation distinguishable in any case, even when the actual number does not contain numbers A–F. Examples are listed in the tables below.
+Systems of counting on digits have been devised for both binary and hexadecimal.
+Arthur C. Clarke suggested using each finger as an on/off bit, allowing finger counting from zero to 102310 on ten fingers. Another system for counting up to FF16 (25510) is illustrated on the right.
+Signs.
+The hexadecimal system can express negative numbers the same way as in decimal: −2A to represent −4210 and so on.
+Hexadecimal can also be used to express the exact bit patterns used in the processor, so a sequence of hexadecimal digits may represent a signed or even a floating point value. This way, the negative number −4210 can be written as FFFF FFD6 in a 32-bit CPU register (in two's-complement), as C228 0000 in a 32-bit FPU register or C045 0000 0000 0000 in a 64-bit FPU register (in the IEEE floating-point standard).
+Hexadecimal exponential notation.
+Just as decimal numbers can be represented in exponential notation, so too can hexadecimal numbers. By convention, the letter "P" (or "p", for "power") represents "times two raised to the power of", whereas "E" (or "e") serves a similar purpose in decimal as part of the E notation. The number after the "P" is "decimal" and represents the "binary" exponent. Increasing the exponent by 1 multiplies by 2, not 16. 10.0p1 = 8.0p2 = 4.0p3 = 2.0p4 = 1.0p5. Usually, the number is normalized so that the leading hexadecimal digit is 1 (unless the value is exactly 0).
+Example: 1.3DEp42 represents .
+Hexadecimal exponential notation is required by the IEEE 754-2008 binary floating-point standard.
+This notation can be used for floating-point literals in the C99 edition of the C programming language.
+Using the "%a" or "%A" conversion specifiers, this notation can be produced by implementations of the "printf" family of functions following the C99 specification and
+Single Unix Specification (IEEE Std 1003.1) POSIX standard.
+Conversion.
+Binary conversion.
+Most computers manipulate binary data, but it is difficult for humans to work with a large number of digits for even a relatively small binary number. Although most humans are familiar with the base 10 system, it is much easier to map binary to hexadecimal than to decimal because each hexadecimal digit maps to a whole number of bits (410).
+This example converts 11112 to base ten. Since each position in a binary numeral can contain either a 1 or a 0, its value may be easily determined by its position from the right:
+Therefore:
+With little practice, mapping 11112 to F16 in one step becomes easy: see table in written representation. The advantage of using hexadecimal rather than decimal increases rapidly with the size of the number. When the number becomes large, conversion to decimal is very tedious. However, when mapping to hexadecimal, it is trivial to regard the binary string as 4-digit groups and map each to a single hexadecimal digit.
+This example shows the conversion of a binary number to decimal, mapping each digit to the decimal value, and adding the results.
+Compare this to the conversion to hexadecimal, where each group of four digits can be considered independently, and converted directly:
+The conversion from hexadecimal to binary is equally direct.
+Other simple conversions.
+Although quaternary (base 4) is little used, it can easily be converted to and from hexadecimal or binary. Each hexadecimal digit corresponds to a pair of quaternary digits and each quaternary digit corresponds to a pair of binary digits. In the above example 5 E B 5 216 = 11 32 23 11 024.
+The octal (base 8) system can also be converted with relative ease, although not quite as trivially as with bases 2 and 4. Each octal digit corresponds to three binary digits, rather than four. Therefore we can convert between octal and hexadecimal via an intermediate conversion to binary followed by regrouping the binary digits in groups of either three or four.
+Division-remainder in source base.
+As with all bases there is a simple algorithm for converting a representation of a number to hexadecimal by doing integer division and remainder operations in the source base. In theory, this is possible from any base, but for most humans only decimal and for most computers only binary (which can be converted by far more efficient methods) can be easily handled with this method.
+Let d be the number to represent in hexadecimal, and the series hihi−1...h2h1 be the hexadecimal digits representing the number.
+"16" may be replaced with any other base that may be desired.
+The following is a JavaScript implementation of the above algorithm for converting any number to a hexadecimal in String representation. Its purpose is to illustrate the above algorithm. To work with data seriously, however, it is much more advisable to work with bitwise operators.
+function toHex(d) {
+ var r = d % 16;
+ if (d - r == 0) {
+ return toChar(r);
+ return toHex((d - r) / 16) + toChar(r);
+function toChar(n) {
+ const alpha = "0123456789ABCDEF";
+ return alpha.charAt(n);
+Conversion through addition and multiplication.
+It is also possible to make the conversion by assigning each place in the source base the hexadecimal representation of its place value — before carrying out multiplication and addition to get the final representation.
+For example, to convert the number B3AD to decimal, one can split the hexadecimal number into its digits: B (1110), 3 (310), A (1010) and D (1310), and then get the final result by multiplying each decimal representation by 16"p" ("p" being the corresponding hex digit position, counting from right to left, beginning with 0). In this case, we have that:
+which is 45997 in base 10.
+Tools for conversion.
+Most modern computer systems with graphical user interfaces provide a built-in calculator utility capable of performing conversions between the various radices, and in most cases would include the hexadecimal as well.
+In Microsoft Windows, the Calculator utility can be set to Scientific mode (called Programmer mode in some versions), which allows conversions between radix 16 (hexadecimal), 10 (decimal), 8 (octal) and 2 (binary), the bases most commonly used by programmers. In Scientific Mode, the on-screen numeric keypad includes the hexadecimal digits A through F, which are active when "Hex" is selected. In hex mode, however, the Windows Calculator supports only integers.
+Elementary arithmetic.
+Elementary operations such addition, subtraction, multiplication and division can be carried out indirectly through conversion to an alternate numeral system, such as the commonly-used decimal system or the binary system where each hex digit corresponds to four binary digits.
+Alternatively, one can also perform elementary operations directly within the hex system itself — by relying on its addition/multiplication tables and its corresponding standard algorithms such as long division and the traditional subtraction algorithm.
+Real numbers.
+Rational numbers.
+As with other numeral systems, the hexadecimal system can be used to represent rational numbers, although repeating expansions are common since sixteen (1016) has only a single prime factor; two.
+For any base, 0.1 (or "1/10") is always equivalent to one divided by the representation of that base value in its own number system. Thus, whether dividing one by two for binary or dividing one by sixteen for hexadecimal, both of these fractions are written as codice_48. Because the radix 16 is a perfect square (42), fractions expressed in hexadecimal have an odd period much more often than decimal ones, and there are no cyclic numbers (other than trivial single digits). Recurring digits are exhibited when the denominator in lowest terms has a prime factor not found in the radix; thus, when using hexadecimal notation, all fractions with denominators that are not a power of two result in an infinite string of recurring digits (such as thirds and fifths). This makes hexadecimal (and binary) less convenient than decimal for representing rational numbers since a larger proportion lie outside its range of finite representation.
+All rational numbers finitely representable in hexadecimal are also finitely representable in decimal, duodecimal and sexagesimal: that is, any hexadecimal number with a finite number of digits also has a finite number of digits when expressed in those other bases. Conversely, only a fraction of those finitely representable in the latter bases are finitely representable in hexadecimal. For example, decimal 0.1 corresponds to the infinite recurring representation 0.1 in hexadecimal. However, hexadecimal is more efficient than duodecimal and sexagesimal for representing fractions with powers of two in the denominator. For example, 0.062510 (one-sixteenth) is equivalent to 0.116, 0.0912, and 0;3,4560.
+Irrational numbers.
+The table below gives the expansions of some common irrational numbers in decimal and hexadecimal.
+Powers.
+Powers of two have very simple expansions in hexadecimal. The first sixteen powers of two are shown below.
+Cultural history.
+The traditional Chinese units of measurement were base-16. For example, one jīn (斤) in the old system equals sixteen taels. The suanpan (Chinese abacus) can be used to perform hexadecimal calculations such as additions and subtractions.
+As with the duodecimal system, there have been occasional attempts to promote hexadecimal as the preferred numeral system. These attempts often propose specific pronunciation and symbols for the individual numerals. Some proposals unify standard measures so that they are multiples of 16.
+An early such proposal was put forward by John W. Nystrom in "Project of a New System of Arithmetic, Weight, Measure and Coins: Proposed to be called the Tonal System, with Sixteen to the Base", published in 1862.
+Nystrom among other things suggested hexadecimal time, which subdivides a day by 16, 
+so that there are 16 "hours" (or "10 "tims"", pronounced "tontim") in a day.
+The word "hexadecimal" is first recorded in 1952. It is macaronic in the sense that it combines Greek ἕξ (hex) "six" with Latinate "-decimal". This isn't an uncommon occurrence in international scientific vocabulary.
+The all-Latin alternative "sexadecimal" is older, and sees at least occasional use from the late 19th century.
+It is still in use in the 1950s in Bendix documentation (compare the word "sexagesimal" for base 60, which also uses the Latin prefix).
+Schwartzman (1994) argues that use of "sexadecimal" may have been avoided because of its suggestive abbreviation to "sex". 
+Many western languages since the 1960s have adopted terms equivalent in formation to "hexadecimal" (e.g. French "hexadécimal", Italian "esadecimale", Romanian "hexazecimal", Serbian "хексадецимални", etc.)
+but others have introduced terms which substitute native words for "sixteen" (e.g. Greek δεκαεξαδικός, Icelandic "sextándakerfi", Russian "шестнадцатеричной" etc.)
+Terminology and notation did not become settled until the end of the 1960s. 
+Donald Knuth in 1969 argued that that the etymologically correct term would be "senidenary", or possibly "sedenary", a Latinate term intended to convey "grouped by 16" modelled on "binary", "ternary" and "quaternary" etc.
+According to Knuth's argument, the correct terms for "decimal" and "octal" arithmetic would be "denary" and "octonary", respectively. 
+Alfred B. Taylor used "senidenary" in his mid-1800s work on alternative number bases, although he rejected base 16 because of its "incommodious number of digits". 
+The now-current notation using the letters A to F establishes itself as the de-facto standard beginning in 1966, in the wake of the 
+publication of the Fortran IV manual for IBM System/360, which (unlike earlier variants of Fortran) recognizes a standard for entering hexadecimal constants.
+As noted above, alternative notations were used by NEC (1960) and The Pacific Data Systems 1020 (1964). The standard adopted by IBM seems to have become widely adopted by 1968, when Bruce Alan Martin
+in his letter to the editor of the CACM complains that
+Martin's argument was that use of numerals 0 to 9 in nondecimal numbers "imply to us a base-ten place-value scheme":
+"Why not use entirely new symbols (and names) for the seven or fifteen nonzero digits needed in octal or hex. Even use of the letters A through P would be an improvement, but entirely new symbols could reflect the binary nature of the system".
+Base16 (transfer encoding).
+Base16 (as a proper name without a space) can also refer to a binary to text encoding belonging to the same family as Base32, Base58, and Base64.
+In this case, data is broken into 4-bit sequences, and each value (between 0 and 15 inclusively) is encoded using 16 symbols from the ASCII character set. Although any 16 symbols from the ASCII character set can be used, in practice the ASCII digits '0'–'9' and the letters 'A'–'F' (or the lowercase 'a'–'f') are always chosen in order to align with standard written notation for hexadecimal numbers.
+There are several advantages of Base16 encoding:
+The main disadvantages of Base16 encoding are:
+Support for Base16 encoding is ubiquitous in modern computing. It is the basis for the W3C standard for URL percent encoding, where a character is replaced with a percent sign "%" and its Base16-encoded form. Most modern programming languages directly include support for formatting and parsing Base16-encoded numbers.
+

@@ -1,0 +1,3 @@
+Solitaire is a card game for one player game using a deck of playing cards. A player wins the game when the player has all the cards in four different deck by color and number.
+There are many variations (types) of solitaire, such as Klondike, Freecell, Pyramid, Golf and Spider. Most computer operating systems include simple solitaire games.
+In many countries, solitaire is called Patience.

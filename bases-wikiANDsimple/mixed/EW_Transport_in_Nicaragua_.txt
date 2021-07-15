@@ -1,0 +1,36 @@
+
+Transport in Nicaragua revolves around road, air and water transport modalities.
+Road transport.
+The road infrastructure is very well spread across the Pacific side, while the Atlantic side has less infrastructure. As of 2009, from a total of 19,137 km 2,033 km are paved and 17,104 km are unpaved.
+Public transport.
+Public transport in Nicaragua is mostly served by buses on both short and wide range distances. There are five different types, based on the size of the vehicle, target group, frequency of stops and distance.
+Urban buses.
+Urban buses ("Urbanos") can be found in Managua, Estelí, León, Chinandega, Matagalpa and Bluefields. In most cases, passengers have to pay for each ride on a bus, with the need to pay again when switching to another. The costs differ from 2.50 C$ in Managua to 10 C$ in Bluefields.
+An urban bus in Nicaragua takes the same road multiple times per day, following a more or less strict schedule. The organization of the buses in different towns differs heavily as every town is organizing it on their own behave. In Estelí every bus driver is assisted by mostly two persons helping them ("Ayudantes"). Bus drivers in Managua have to manage their job on their own.
+Another fact that heavily differs are the vehicles used in the different cities. In Managua mostly urban buses sponsored by Russia are used, in Estelí former school buses from the United States, in Bluefields Japanese light commercial vans and in León pickup trucks that got extended with seats and a roof.
+The quality of bus stops also heavily differs. In the center of Managua many proper bus stops exist with roofs or at least signs, in other areas there often isn't any indication of a bus stop. Nevertheless, buses serve a network of established stops with common names known by bus assistants. Passengers need to know or ask where and when which bus stops.
+To improve the accessibility of public transport, in 2016 the OpenStreetMap group in Nicaragua MapaNica crowdsourced with the help of more than 150 citizens of Managua the first bus transit map in whole Central America. Later in 2018, they made this data machine-accessible, serving it today in different apps on several platforms.
+Urban buses in Managua will be use Brazilian dual-mode bus and hybrid electric bus that are currently in evaluation process.
+Suburban buses.
+Suburban buses ("Suburbanos") connect larger cities with communities in outer areas. They only stop a few times inside the city, later nearly everywhere where passengers request to get off. Like with urban buses, a team serves a route several times per day and the service is organized by the local government. Prices can vary depending on the distance.
+Ruteados.
+Connecting two or more cities, Ruteados (also called "Servicio Ordinario") are the biggest part of bus services in Nicaragua.
+Express buses.
+Express buses ("Expresos") connect, like Ruteados and share taxis, two or more cities, but with less stops, resulting in a faster travel time.
+Share taxis.
+Share taxis are called "Interlocales" in Nicaragua and also connect two or more cities, like Ruteados and express buses, with the main difference that they depart from the bus station once they are filled either mostly or completely with passengers. Like express buses, they nearly don't stop between start and destination.
+Air transport.
+Several airports are serving both national and international flights.
+Airports.
+As of 2013, 147 airports exist in Nicaragua. Nicaragua's main international airport is Managua International Airport.
+Airports - with paved runways.
+In total, there are 12 airports with paved runways with the following lengths:
+Airports - with unpaved runways.
+In total, there are 135 airports with unpaved runways with the following lengths:
+Water transport.
+Nicaragua offers 2,220 km of water transport roads, including the two large lakes Lake Nicaragua and Lake Managua. A Nicaragua Canal was planned but canceled on 21 February 2018.
+Rail transport.
+Since September 2001, all rail transport has been suspended in Nicaragua.
+Rapid transit.
+Managua will have metro system that is currently in the feasibility study conducted by Japan International Cooperation Agency.
+

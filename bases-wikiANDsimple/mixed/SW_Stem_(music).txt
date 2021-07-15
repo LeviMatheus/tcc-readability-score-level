@@ -1,0 +1,5 @@
+Stems can refer to two things in music, relating to music notation and production.
+Notation.
+Stems are the lines which extend from the notehead. Stems may point up or down. Different-facing stems indicate the voice for polyphonic music written on the same staff. For single-note melodies, the stems usually point down for notes on the middle line or higher, and up for those below. If the stem points up from a notehead, the stem starts at the right-hand side of the note, but if it points down, it starts from the left. The exception to this rule is when a chord contains a second, in which case the stem runs between the two notes, the higher being placed on the left of the stem and the lower on the right. The length of a stem is usually that of an octave on the staff, going to either an octave higher or lower than the notehead, depending on which way the stem is pointing.
+Production.
+Stems are the individual parts of a mix, separately saved (usually to disc) for the purposes of use in a remix.

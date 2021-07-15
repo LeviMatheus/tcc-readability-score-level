@@ -1,0 +1,7 @@
+OpenOffice.org Writer is the word processor part of the OpenOffice.org software package. Writer is a word processor that is like Microsoft Word and Corel's WordPerfect.
+Just like all of the OpenOffice.org suite, Writer can be used on many Operating Systems, including Mac OS X, Microsoft Windows, Linux, FreeBSD and Solaris. Released under the terms of the GNU Lesser General Public Licence, Writer is free software.
+Abilities.
+Writer can open and save documents in a lot of formats, including the OASIS Open Document Format 1.1, Microsoft Word's DOC, RTF and XHTML.
+Writer has a number of abilities that are not in Word, including the ability to export to the PDF format natively.
+Criticism.
+Though OpenOffice.org Writer has a spell checker, it does not have an included grammar checker though this is available as an extension. Writer's mail merge functions, rewritten in 2.0, is still less flexible than in other word processors.

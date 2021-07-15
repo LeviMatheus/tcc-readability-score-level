@@ -1,0 +1,5 @@
+
+In telecommunications, asynchronous operation or asynchronous working is where a sequence of operations is executed such that the operations are executed out of time coincidence with any event. It can also be an operation that occurs without a regular or predictable time relationship to a specified event; e.g., the calling of an error diagnostic routine that may receive control at any time during the execution of a computer program.
+Sources.
+from Federal Standard 1037C and from MIL-STD-188
+

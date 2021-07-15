@@ -1,0 +1,16 @@
+Addition is the mathematical way of putting things together.
+Arithmetic.
+In arithmetic, addition is finding the total of two or more numbers. The sign for addition is "+". The name for the sign "+" is "plus".
+Counting examples.
+For example, there are objects in two groups. The objects are small circles: "o". One group has five of these objects. The other group has 3 of these objects. To find the total number of objects in both groups, the objects can be counted. Another way to find the number of objects in both groups is to add the numbers in each group.
+Adding.
+In another counting example, Sally and Bill have 2 children. Sally and Bill get 3 more children. Sally and Bill have added three children to their two children and now have five children.
+A measurement example.
+Tom's house<------------300 meters-------------->Bob's house<-----120 meters----->Sally's house
+The distance from Tom's house to Sally's house can be found by adding the distances already measured. The distance from Tom's house to Bob's house added to the distance from Bob's house to Sally's house is the same as the distance from Tom's house to Sally's house. That is, three hundred meters plus 120 meters.
+Addition as increase.
+Addition can also mean to make bigger.
+Less simple.
+"Addition" is the arithmetic operation for finding the total, or sum, of two or more numbers. If you are adding three or more terms together, mathematicians call those numbers "summands;" if you are only adding two numbers they are called the "augend" and the "addend." Augend + addend = sum; summand + summand + summand = sum. The addition expression 3 + 8 = 11 is spoken as "three plus eight equals eleven."
+Adding two numbers together is a dyadic operation. Addition of summands is calculated by putting dyadic additions together.
+formula_1

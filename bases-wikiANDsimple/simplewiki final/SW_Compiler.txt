@@ -1,0 +1,1 @@
+In computer science, a compiler is a program that takes "source code" and changes it to a target language (mostly machine code). For many programmers, using a compiler is easier than writing the machine code themselves because there are many different machine codes (it can take a long time to write for each of the machine codes).

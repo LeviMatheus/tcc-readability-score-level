@@ -1,0 +1,16 @@
+
+In a distribution, full width at half maximum (FWHM) is the difference between the two values of the independent variable at which the dependent variable is equal to half of its maximum value. In other words, it is the width of a spectrum curve measured between those points on the "y"-axis which are half the maximum amplitude.
+Half width at half maximum (HWHM) is half of the FWHM if the function is symmetric.
+FWHM is applied to such phenomena as the duration of pulse waveforms and the spectral width of sources used for optical communications and the resolution of spectrometers.
+The term full duration at half maximum (FDHM) is preferred when the independent variable is time.
+The convention of "width" meaning "half maximum" is also widely used in signal processing to define bandwidth as "width of frequency range where less than half the signal's power is attenuated", i.e., the power is at least half the maximum. In signal processing terms, this is at most −3 dB of attenuation, called "half-power point".
+If the considered function is the density of a normal distribution of the form
+where "σ" is the standard deviation and "x"0 is the expected value, then the relationship between FWHM and the standard deviation is
+The corresponding area within this FWHM accounts to approximately 76%.
+The width does not depend on the expected value "x"0; it is invariant under translations.
+In spectroscopy half the width at half maximum (here "γ"), HWHM, is in common use. For example, a Lorentzian/Cauchy distribution of height can be defined by
+Another important distribution function, related to solitons in optics, is the hyperbolic secant:
+Any translating element was omitted, since it does not affect the FWHM. For this impulse we have:
+where "arcsech" is the inverse hyperbolic secant.
+If the FWHM of a Gaussian function is known, then it can be integrated by simple multiplication.
+

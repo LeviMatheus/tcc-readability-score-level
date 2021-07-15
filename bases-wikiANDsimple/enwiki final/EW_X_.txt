@@ -1,0 +1,31 @@
+
+X, or x, is the twenty-fourth and third-to-last letter in the modern English alphabet and the ISO basic Latin alphabet. Its name in English is (pronounced ), plural "exes".
+History.
+In Ancient Greek, 'Χ' and 'Ψ' were among several variants of the same letter, used originally for and later, in western areas such as Arcadia, as a simplification of the digraph 'ΧΣ' for . In the end, more conservative eastern forms became the standard of Classical Greek, and thus 'Χ' "(Chi)" stood for (later ; palatalized to in Modern Greek before front vowels). However, the Etruscans had taken over 'Χ' from western Greek, and it therefore stands for in Etruscan and Latin.
+The letter 'Χ' ~ 'Ψ' for was a Greek addition to the alphabet, placed after the Semitic letters along with "phi" 'Φ' for .
+Pronunciation and use.
+English.
+In English orthography, is typically pronounced as the voiceless consonant cluster when it follows the stressed vowel (e.g. "ox"), and the voiced consonant when it precedes the stressed vowel (e.g. "exam"). It is also pronounced when it precedes a silent and a stressed vowel (e.g. "exhaust"). Before or , it can be pronounced or (e.g. "sexual" and "luxury"); these result from earlier and . It also makes the sound in words ending in "-xion" (typically used only in British-based spellings of the language; American spellings tend to use "-ction"). When ends a word, it is always (e.g. "fax"), except in loan words such as "faux" (see French, below).
+There are very few English words that start with (the fewest of any letter). When does start a word, it is usually pronounced (e.g. "xylophone", "xenophobia", and "xanthan"); in rare recent loanwords or foreign proper names, it can also be pronounced (e.g. the obsolete Vietnamese monetary unit "xu") or (e.g. Chinese names starting with Xi like Xiaomi or Xinjiang). Many of the words that start with are of Greek origin, or standardized trademarks ("Xerox") or acronyms ("XC"). In abbreviations, it can represent "trans-" (e.g. "XMIT" for transmit, "XFER" for transfer), "cross-" (e.g. "X-ing" for crossing, "XREF" for cross-reference), "Christ-" as shorthand for the labarum (e.g. "Xmas" for Christmas, "Xian" for Christian), the "crys-" in crystal ("XTAL"), or various words starting with "ex-" (e.g. "XL" for extra large, "XOR" for exclusive-or).
+X is the third least frequently used letter in English (after and ), with a frequency of about 0.15% in words.
+Other languages.
+In Latin, stood for . In some languages, as a result of assorted phonetic changes, handwriting adaptations or simply spelling convention, has other pronunciations:
+Additionally, in languages for which the Latin alphabet has been adapted only recently, has been used for various sounds, in some cases inspired by European usage, but in others, for consonants uncommon in Europe. For these no Latin letter stands out as an obvious choice, and since most of the various European pronunciations of can be written by other means, the letter becomes available for more unusual sounds.
+Other systems.
+In the International Phonetic Alphabet, represents a voiceless velar fricative.
+Other uses.
+In mathematics, "x" is commonly used as the name for an independent variable or unknown value. The modern tradition of using "x" to represent an unknown was introduced by René Descartes in "La Géométrie" (1637). As a result of its use in algebra, X is often used to represent unknowns in other circumstances (e.g. X-rays, Generation X, "The X-Files", and "The Man from Planet X"; see also Malcolm X).
+On some identification documents, the letter X represents a non-binary gender, where F means female and M means male.
+In the Cartesian coordinate system, "x" is used to refer to the horizontal axis.
+It may also be used as a typographic approximation for the multiplication sign, . In mathematical typesetting, "x" meaning an algebraic variable is normally in italic type (formula_1), partly to avoid confusion with the multiplication symbol. In fonts containing both "x" (the letter) and × (the multiplication sign), the two glyphs are dissimilar.
+It can be used as an abbreviation for 'between' in the context of historical dating; e.g., '1483 x 1485'.
+Maps and other images sometimes use an X to label a specific location, leading to the expression "X marks the spot".
+The Roman numeral X represents the number 10.
+In art or fashion, the use of X indicates a collaboration by two or more artists, e.g. Aaron Koblin x Takashi Kawashima. This application, which originated in Japan, now extends to other kinds of collaboration outside the art world. This usage mimics the use of a similar mark in denoting botanical hybrids, for which scientifically the multiplication × is used, but informally a lowercase "x" is also used.
+In text language, at the end of a letter or at the end of an email 'x' can mean a kiss.
+And sometimes in pornographic film, the letter x can denote sexual connotations.
+Computing.
+Computing codes.
+In the C programming language, "x" preceded by zero (as in 0x or 0X) is used to denote hexadecimal literal values.
+X is commonly used as a prefix term in nouns related to the X Window System and Unix.
+

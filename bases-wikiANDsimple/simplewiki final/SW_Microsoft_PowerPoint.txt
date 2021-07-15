@@ -1,0 +1,5 @@
+Microsoft Office PowerPoint is a presentation program developed for the Microsoft Windows and Mac OS computer operating systems. Businesspeople, educators, and trainers use it often. It is a component of the Microsoft Office system.
+Operation.
+In PowerPoint, as in most other presentation software, text, graphics, movies, and other objects are positioned on individual pages or "slides". The "slide" analogy is a reference to the slide projector. Slides can be printed, or (more often) displayed on-screen and navigated through at the command of the presenter. Slides can also form the basis of webcasts.
+Versions.
+"Note: There is no PowerPoint 5.0 or 6.0, because the Windows 95 version was launched with Word 7. All of the Office 95 products have OLE 2 - moving data between many programs - and PowerPoint 7 shows that it was as new as Word 7."

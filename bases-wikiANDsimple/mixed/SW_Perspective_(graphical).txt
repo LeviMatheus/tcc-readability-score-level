@@ -1,0 +1,2 @@
+Basic concept.
+Perspective works by representing the light that passes from a scene through an imaginary rectangle (the painting), to the viewer's eye. It is similar to a viewer looking through a window and painting what is seen directly onto the windowpane. If viewed from the same spot as the windowpane was painted, the painted image would be identical to what was seen through the unpainted window. Each painted object in the scene is a flat, scaled down version of the object on the other side of the window.

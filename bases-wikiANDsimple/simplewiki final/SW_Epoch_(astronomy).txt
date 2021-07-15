@@ -1,0 +1,2 @@
+In astronomy, an epoch (or sometimes epochal moment) is a moment in time for which the position or the orbital elements of a celestial body are specified.
+The position at other times can be measured by taking into account proper motion or orbital motion. In the case of orbital elements for a solar system body, these change due to perturbation by other bodies on our solar system.

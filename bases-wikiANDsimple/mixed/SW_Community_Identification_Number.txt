@@ -1,0 +1,14 @@
+The Official Municipality Key, which used to be called the "Official Municipality Characteristic Number" or "Municipality Code Number", is a group of numbers used to tell the difference between different municipalities and areas.
+Germany.
+In Germany the Official Municipality Key has statistical goals and is given by the statistics offices of individual German states. The municipality key is given in times like moving house on the notice of some documents.
+Structure.
+The municipality key has eight digits, which are set like this: The first two numbers tell people what the German state is. The third number say the government district (in areas without government districts a zero is used instead). The fourth and fifth numbers show people the number of the urban area (in a city without districts) or the district (in a city with districts). The sixth, seventh, and eighth numbers show the municipality or the number of the municipality-free area.
+Examples.
+08 1 11 000: Stuttgart
+15 3 52 002: Aschersleben
+Structure.
+In Austria the municipality key has five digits which are chosen like this: The first number shows the number of the Austrian state, the second and third numbers show the district, and the fourth and fifth numbers show the municipality.
+Examples.
+9 07 01: Vienna - Neubau
+Structure.
+The Swiss Federal Office for Statistics makes code numbers with up to four digits, which are given in the order chosen with the official order of the cantons, districts, and municipalities in Switzerland.

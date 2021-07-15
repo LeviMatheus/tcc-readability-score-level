@@ -1,0 +1,9 @@
+A prime number is a positive, whole number that is special in some ways. For a prime number, there are exactly two whole numbers that divide it (with no remainder). These divisors are the number itself, and 1. No other numbers will divide it exactly.
+For example, 7 is a prime number, because the only numbers that divide it evenly are 1 and 7.
+1 is not a prime number, since there is only one number that divides it with no leftover. 0 is not a prime number, since divide by zero cannot be done.
+All other positive numbers are called composite numbers, because other whole numbers can be multiplied to produce these numbers.
+How to find (small) prime numbers.
+As an example, if this is done up to the number 10, the numbers 2, 3, 5 and 7 are prime numbers, and 4, 6, 8, 9 and 10 are composite numbers.
+This method or algorithm takes too long to find very large prime numbers, but it is less complicated than methods used for very large primes, like Fermat's primality test or the Miller-Rabin primality test.
+What prime numbers are used for.
+Prime numbers are very important in mathematics and computer science. Some real-world uses are given below.

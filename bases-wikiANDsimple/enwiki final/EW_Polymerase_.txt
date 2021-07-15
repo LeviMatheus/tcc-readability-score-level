@@ -1,0 +1,9 @@
+
+A polymerase is an enzyme (EC 2.7.7.6/7/19/48/49) that synthesizes long chains of polymers or nucleic acids. DNA polymerase and RNA polymerase are used to assemble DNA and RNA molecules, respectively, by copying a DNA template strand using base-pairing interactions or RNA by half ladder replication.
+A DNA polymerase from the thermophilic bacterium, "Thermus aquaticus" ("Taq") (PDB 1BGX, EC 2.7.7.7) is used in the polymerase chain reaction, an important technique of molecular biology.
+A polymerase may be template dependent or template independent. Poly-A-polymerase is an example of template independent polymerase. Terminal deoxynucleotidyl transferase also known to have template independent and template dependent activities.
+Types.
+By structure.
+Polymerases are generally split into two superfamilies, the "right hand" fold () and the "double psi beta barrel" (often simply "double-barrel") fold. The former is seen in almost all DNA polymerases and almost all viral single-subunit polymerases; they are marked by a conserved "palm" domain. The latter is seen in all multi-subunit RNA polymerases, in cRdRP, and in "family D" DNA polymerases found in archaea. The "X" family represented by DNA polymerase beta has only a vague "palm" shape, and is sometimes considered a different superfamily ().
+Primases generally don't fall into either category. Bacterial primases usually have the Toprim domain, and are related to topoisomerases and mitochrondrial helicase twinkle. Archae and eukaryotic primases form an unrelated AEP family, possibly related to the polymerase palm. Both families nevertheless associate to the same set of helicases.
+

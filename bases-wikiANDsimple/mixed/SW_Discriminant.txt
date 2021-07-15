@@ -1,0 +1,2 @@
+In algebra, the discriminant of a polynomial, which is equal to zero, with real or complex coefficients is a certain expression in these coefficients of the polynomial if and only if the polynomial has a multiple root (for example, a root with multiplicity greater than one) in the complex numbers.
+For example, the discriminant of the quadratic polynomial

@@ -1,0 +1,3 @@
+Inkscape is a vector graphics (pictures made from lines instead of dots) drawing program published under the GNU General Public License. Its stated goal is to become a really good drawing tool while being able to fit in with standards for SVG graphics.
+Inkscape was first made for Linux, but now it is cross-platform and runs on Microsoft Windows, Mac OS X, and other Unix-like operating systems. As of 2007, Inkscape is actively being made better, and new features are added all the time.
+It is a fork (break-off) of another vector graphics program called Sodipodi.

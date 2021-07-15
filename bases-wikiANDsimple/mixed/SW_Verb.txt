@@ -1,0 +1,52 @@
+A verb is a kind of word (see part of speech) that usually tells about an action or a state and is the main part of a sentence. Every sentence has a verb. In English, verbs are the only kind of word that changes to show past or present tense.
+Every language in the world has verbs, but they are not always used in the same ways. They also can have different properties in different languages. For example, in some other languages (e.g., Chinese & Indonesian) verbs do not change for past and present tense. This means the definition above only works well for English verbs.
+There are sixteen verbs used in Basic English. They are: "be, do, have, come, go, see, seem, give, take, keep, make, put, send, say, let, get."
+History of the word "verb".
+The word "verb" originally comes from "*were-", a Proto-Indo-European word meaning "a word". It comes to English through the Latin "verbum" and the Old French "verbe".
+Verb forms.
+In English and many other languages, verbs change their form. This is called inflection. Most English verbs have six inflected forms (see the table), but "be" has eight different forms.
+You should notice that some of the verb forms look the same. You can say they have the same shape. For example, the plain present and the plain form of "walk" have the same shape. The same is true for the past and the past participle. But these different forms can have different shapes in other verbs. For example, the plain present of "be" is usually "are" but the plain form is "be". Also, the past of "eat" is "ate", but the past participle is "eaten". When you look for a verb in the dictionary, it is usually the plain form that you look for.
+An English sentence must have at least one primary-form verb. Each main clause can only have one primary-form verb.
+Kinds of Verbs.
+English has two main kinds of verbs: normal verbs (called lexical verbs) and auxiliary verbs. The difference between them is mainly in where they can go in a sentence. Some verbs are in both groups, but there are very few auxiliary verbs in English. There are also two kinds of auxiliary verbs: modal verbs and non-modal verbs. The table below shows most of the English auxiliaries and a small number of other verbs.
+Auxiliary verbs also inflect for negation. Usually this is done by adding "n't".
+Tense, aspect, and mood.
+Many people think that all different ways of using verbs are all different tenses. This is not true. There are three main systems related to the verb: tense, aspect, and mood.
+Tense.
+Tense is mainly used to say when the verb happens: in the past, present, or future. Some languages have all three tenses, some have only two, and some have no tenses at all. English and Japanese for example have only two tenses: past and present. Chinese and Indonesian verbs do not show tense. Instead they use other words in the sentence to show when the verb happens.
+Aspect.
+Aspect usually shows us things like whether the action is finished or not, or if something happens regularly. English has two aspects: progressive and perfect. In English, aspect is usually shown by using participle verb forms. Aspect can combine with present or past tense.
+Progressive aspect.
+English uses the gerund-participle, usually together with the auxiliary "be" to show the progressive aspect.
+Perfect aspect.
+English uses the past participle, usually together with the auxiliary "have" to show the perfect aspect.
+The past perfect can be used to express an unrealized hope, wish, etc.
+After If, wish and would rather, the past perfect can be used to talk about past events that never happened.
+Mood.
+Finally, English mood is now usually shown by using modal verbs. In the past, English had a full mood system but that has almost completely disappeared. The subjunctive mood now uses the plain form. There is also a form of "be" that is used in conditionals to show that something is not true (e.g., If I were a bird, I would fly to California.)
+hi my names is magalis i need studing english in the computer online.. can I help you please.
+Sentence parts that go with verbs.
+Certain parts of a sentence naturally come before verbs or after them, but these are not always the same for all verbs. The main sentence parts are: subject, object, complement, and modifier.
+Subjects.
+Almost all English sentences have subjects, but sentences that are orders (called imperatives) usually don't have any subjects. A subject usually comes before a verb, but it can also come after auxiliary verbs. In the following examples, the subject is underlined and the primary verb is in bold.
+Objects.
+Many verbs can be followed by an object. These verbs are called transitive verbs. In fact, some verbs must have an object (e.g., "take"), but some verbs never take an object (e.g., "sleep"). Verbs that do not take an object are called intransitive verbs. Some verbs can even have two objects. They are called ditransitive verbs. In the following examples, the object is underlined and the primary verb is in bold.
+Complements.
+Some verbs can or must be followed by a complement. These verbs are called linking verbs or copula. In the following examples, the complement is underlined and the verb is in bold.
+Modifiers.
+Verbs can be modified by various modifiers, mainly adverbs. Note that verbs generally do not need modifiers; it's usually a choice. In the following examples, the adverb is underlined and the verb is in bold.
+Verbs also commonly take a variety of other modifiers including prepositions.
+Differences between verbs and other kinds of words.
+Sometimes a verb and another word can have the same shape. In these cases you can usually see the difference by looking at various properties of the words.
+Verbs vs. adjectives.
+Sometimes a verb and an adjective can have the same shape. Usually this happens with participles. For example, the present participle "interesting" and the adjective "interesting" look the same. Verbs are different from adjectives, though, because they cannot be modified by "very", "more", or "most". For example, you can say "That is very interesting," so you know interesting is an adjective here. But you can't say "My teacher is very interesting me in math" because in this sentence "interesting" is a verb. On the other hand, if you cannot change the 'be' verb to 'seem' or 'become', it is probably a verb.
+Verbs vs. nouns.
+The main differences between these verbs and nouns are: modifiers, number, and object/complement
+Modifiers.
+Verbs cannot generally be modified by adjectives and nouns cannot generally be modified by adverbs. So, in "Running regularly is good for you", "running" is a verb because it is modified by "regularly", an adverb.
+Number.
+Verbs cannot change for number, so if you can make the word plural, it is a noun, not a verb. For example, "this drawing is nice" can change to "these drawings are nice", so "drawing" is a noun. But "drawing trees is fun" cannot change to "drawings trees is fun", so it is a verb here.
+Object/complement.
+Many verbs can take objects or complements, but nouns can't. So, in "parking the car is hard", "parking" is a verb because it takes the object "the car". But, if you say, "there's no parking", parking may be a noun because it doesn't have an object.
+Verbs vs. prepositions.
+The main difference between verbs and prepositions is that verbs have a subject. Even if the subject is not written, you can understand what it is. Prepositions do not have a subject.

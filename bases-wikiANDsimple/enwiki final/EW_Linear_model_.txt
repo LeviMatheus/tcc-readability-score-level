@@ -1,0 +1,14 @@
+
+In statistics, the term linear model is used in different ways according to the context. The most common occurrence is in connection with regression models and the term is often taken as synonymous with linear regression model. However, the term is also used in time series analysis with a different meaning. In each case, the designation "linear" is used to identify a subclass of models for which substantial reduction in the complexity of the related statistical theory is possible.
+Linear regression models.
+For the regression case, the statistical model is as follows. Given a (random) sample formula_1 the relation between the observations formula_2 and the independent variables formula_3 is formulated as
+where formula_5 may be nonlinear functions. In the above, the quantities formula_6 are random variables representing errors in the relationship. The "linear" part of the designation relates to the appearance of the regression coefficients, formula_7 in a linear way in the above relationship. Alternatively, one may say that the predicted values corresponding to the above model, namely
+are linear functions of the formula_7.
+Given that estimation is undertaken on the basis of a least squares analysis, estimates of the unknown parameters formula_7 are determined by minimising a sum of squares function
+From this, it can readily be seen that the "linear" aspect of the model means the following:
+Time series models.
+An example of a linear time series model is an autoregressive moving average model. Here the model for values {formula_19} in a time series can be written in the form
+where again the quantities formula_6 are random variables representing innovations which are new random effects that appear at a certain time but also affect values of formula_22 at later times. In this instance the use of the term "linear model" refers to the structure of the above relationship in representing formula_19 as a linear function of past values of the same time series and of current and past values of the innovations. This particular aspect of the structure means that it is relatively simple to derive relations for the mean and covariance properties of the time series. Note that here the "linear" part of the term "linear model" is not referring to the coefficients formula_24 and formula_25, as it would be in the case of a regression model, which looks structurally similar.
+Other uses in statistics.
+There are some other instances where "nonlinear model" is used to contrast with a linearly structured model, although the term "linear model" is not usually applied. One example of this is nonlinear dimensionality reduction.
+

@@ -1,0 +1,4 @@
+Phoenix is a robotic spacecraft on a space exploration mission on Mars under the Mars Scout Program.
+It was launched from Florida on 4 Aug 2007 and landed safely on Mars on 25 May 2008.
+This spacecraft will analyze the Martian Soil using a hi-tec oven named TEGA (Thermal and Evolved Gas Analyzer) to decode the composition of the Martian soil.
+As the numerous missions before it have, Phoenix will also search for life.

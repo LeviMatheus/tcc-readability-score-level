@@ -1,0 +1,12 @@
+The word application has several uses.
+Medicine.
+In medicine, application means putting some drug or ointment usually on the skin where it is absorbed into the human body.
+Computers.
+When dealing with computers, an application is a type of computer program. At the direction of some user, perhaps set up once and executed many times, this performs a well-defined mathematical or communications function, or retrieves information, or displays or edits a document. How well this works depends not only on the code of the program, but also on the operating system and physical attributes of the computer such as how fast its processor is and how much memory is available.
+Physically, the bits making up the application can be on the boot device or a data device, or a device of their own. Usually, some basic applications like a text editor, file browser and telnet do go on the boot device to be sure that they are always available even if only the boot is accessed.
+If the bits are on a non-boot device, they may not always be found when required. In the Microsoft Windows operating system, the user may be asked to find the application that is used to run a specific file.
+Common types of applications available free of charge include web browsers, email programs, media players, and instant messaging software.
+Business.
+In business or government, an application is a (usually paper) form filled out and handed in by a person seeking a privilege from a state or company, such as work, credit, some type of license or permit, or a place to live.
+Engineering.
+At work, generally engineering, when dealing with certain materials or objects, an "application" is a purpose that material or object can be used for. Wood and steel have many applications.

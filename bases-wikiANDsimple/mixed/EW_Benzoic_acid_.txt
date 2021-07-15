@@ -1,0 +1,47 @@
+
+Benzoic acid is a white (or colorless) solid with the formula C6H5CO2H. It is the simplest aromatic carboxylic acid. The name is derived from gum benzoin, which was for a long time its only source. Benzoic acid occurs naturally in many plants and serves as an intermediate in the biosynthesis of many secondary metabolites. Salts of benzoic acid are used as food preservatives. Benzoic acid is an important precursor for the industrial synthesis of many other organic substances. The salts and esters of benzoic acid are known as benzoates .
+History.
+Benzoic acid was discovered in the sixteenth century. The dry distillation of gum benzoin was first described by Nostradamus (1556), and then by Alexius Pedemontanus (1560) and Blaise de Vigenère (1596).
+Justus von Liebig and Friedrich Wöhler determined the composition of benzoic acid. These latter also investigated how hippuric acid is related to benzoic acid.
+In 1875 Salkowski discovered the antifungal abilities of benzoic acid, which was used for a long time in the preservation of benzoate-containing cloudberry fruits.
+Production.
+Industrial preparations.
+Benzoic acid is produced commercially by partial oxidation of toluene with oxygen. The process is catalyzed by cobalt or manganese naphthenates. The process uses abundant materials, and proceeds in high yield.
+The first industrial process involved the reaction of benzotrichloride (trichloromethyl benzene) with calcium hydroxide in water, using iron or iron salts as catalyst. The resulting calcium benzoate is converted to benzoic acid with hydrochloric acid. The product contains significant amounts of chlorinated benzoic acid derivatives. For this reason, benzoic acid for human consumption was obtained by dry distillation of gum benzoin. Food-grade benzoic acid is now produced synthetically.
+Laboratory synthesis.
+Benzoic acid is cheap and readily available, so the laboratory synthesis of benzoic acid is mainly practiced for its pedagogical value. It is a common undergraduate preparation.
+Benzoic acid can be purified by recrystallization from water because of its high solubility in hot water and poor solubility in cold water. The avoidance of organic solvents for the recrystallization makes this experiment particularly safe. This process usually gives a yield of around 65%
+By hydrolysis.
+Like other nitriles and amides, benzonitrile and benzamide can be hydrolyzed to benzoic acid or its conjugate base in acid or basic conditions.
+From Grignard reagent.
+Bromobenzene can be converted to benzoic acid by "carboxylation" of the intermediate phenylmagnesium bromide. This synthesis offers a convenient exercise for students to carry out a Grignard reaction, an important class of carbon–carbon bond forming reaction in organic chemistry.
+Oxidation of benzyl compounds.
+Benzyl alcohol and benzyl chloride and virtually all benzyl derivatives are readily oxidized to benzoic acid.
+Uses.
+Benzoic acid is mainly consumed in the production of phenol by oxidative decarboxylation at 300−400 °C:
+The temperature required can be lowered to 200 °C by the addition of catalytic amounts of copper (II) salts. The phenol can be converted to cyclohexanol, which is a starting material for nylon synthesis.
+Precursor to plasticizers.
+Benzoate plasticizers, such as the glycol-, diethyleneglycol-, and triethyleneglycol esters, are obtained by transesterification of methyl benzoate with the corresponding diol. These plasticizers, which are used similarly to those derived from terephthalic acid ester, represent alternatives to phthalates.
+Precursor to sodium benzoate and related preservatives.
+Benzoic acid and its salts are used as a food preservatives, represented by the E numbers E210, E211, E212, and E213. Benzoic acid inhibits the growth of mold, yeast and some bacteria. It is either added directly or created from reactions with its sodium, potassium, or calcium salt. The mechanism starts with the absorption of benzoic acid into the cell. If the intracellular pH changes to 5 or lower, the anaerobic fermentation of glucose through phosphofructokinase is decreased by 95%. The efficacy of benzoic acid and benzoate is thus dependent on the pH of the food. Acidic food and beverage like fruit juice (citric acid), sparkling drinks (carbon dioxide), soft drinks (phosphoric acid), pickles (vinegar) or other acidified food are preserved with benzoic acid and benzoates.
+Typical levels of use for benzoic acid as a preservative in food are between 0.05 and 0.1%. Foods in which benzoic acid may be used and maximum levels for its application are controlled by local food laws.
+Concern has been expressed that benzoic acid and its salts may react with ascorbic acid (vitamin C) in some soft drinks, forming small quantities of carcinogenic benzene.
+Medicinal.
+Benzoic acid is a constituent of Whitfield's ointment which is used for the treatment of fungal skin diseases such as tinea, ringworm, and athlete's foot. As the principal component of gum benzoin, benzoic acid is also a major ingredient in both tincture of benzoin and Friar's balsam. Such products have a long history of use as topical antiseptics and inhalant decongestants.
+Benzoic acid was used as an expectorant, analgesic, and antiseptic in the early 20th century.
+Niche and laboratory uses.
+In teaching laboratories, benzoic acid is a common standard for calibrating a bomb calorimeter.
+Biology and health effects.
+Benzoic acid occurs naturally as do its esters in many plant and animal species. Appreciable amounts are found in most berries (around 0.05%). Ripe fruits of several "Vaccinium" species (e.g., cranberry, "V. vitis macrocarpon"; bilberry, "V. myrtillus") contain as much as 0.03–0.13% free benzoic acid. Benzoic acid is also formed in apples after infection with the fungus "Nectria galligena". Among animals, benzoic acid has been identified primarily in omnivorous or phytophageous species, e.g., in viscera and muscles of the rock ptarmigan ("Lagopus muta") as well as in gland secretions of male muskoxen ("Ovibos moschatus") or Asian bull elephants ("Elephas maximus"). Gum benzoin contains up to 20% of benzoic acid and 40% benzoic acid esters.
+In terms of its biosynthesis, benzoate is produced in plants from cinnamic acid. A pathway has been identified from phenol via 4-hydroxybenzoate.
+Reactions.
+Reactions of benzoic acid can occur at either the aromatic ring or at the carboxyl group.
+Aromatic ring.
+Electrophilic aromatic substitution reaction will take place mainly in 3-position due to the electron-withdrawing carboxylic group; i.e. benzoic acid is "meta" directing.
+Carboxyl group.
+Reactions typical for carboxylic acids apply also to benzoic acid.
+Safety and mammalian metabolism.
+It is excreted as hippuric acid. Benzoic acid is metabolized by butyrate-CoA ligase into an intermediate product, benzoyl-CoA, which is then metabolized by glycine "N"-acyltransferase into hippuric acid. Humans metabolize toluene and benzoic acid which is excreted as hippuric acid.
+For humans, the World Health Organization's International Programme on Chemical Safety (IPCS) suggests a provisional tolerable intake would be 5 mg/kg body weight per day. Cats have a significantly lower tolerance against benzoic acid and its salts than rats and mice. Lethal dose for cats can be as low as 300 mg/kg body weight. The oral for rats is 3040 mg/kg, for mice it is 1940–2263 mg/kg.
+In Taipei, Taiwan, a city health survey in 2010 found that 30% of dried and pickled food products had benzoic acid.
+

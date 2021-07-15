@@ -1,0 +1,4 @@
+A histogram is a concept from statistics. It is a graphical display that tells about the distribution of the samples involved. It is basically the graphical display of a table with many categories. The table tells for each category how many samples there are in it.
+The word "histogram" is derived from "histos" and "gramma" in Greek. "Histos" means "web" or "mast". "Gramma" means "drawing", "record" or "writing". A histogram of something is therefore, etymologically speaking, a drawing of the web of this something.
+The histogram is one of the seven basic tools of quality control, which also include the Pareto chart, check sheet, control chart, cause-and-effect diagram, flowchart, and scatter diagram.
+A generalization of the histogram is kernel smoothing techniques. This will construct a smooth Probability density function from the supplied data.

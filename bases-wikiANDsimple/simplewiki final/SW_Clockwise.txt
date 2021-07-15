@@ -1,0 +1,2 @@
+A clockwise movement is one that moves "like the clock's hands": from the top to the right, then down, then to the left, and back to the top.
+The opposite of clockwise is counterclockwise or anticlockwise. The movement is from the top to the left, then down, then to the right, and finally back up to the top.

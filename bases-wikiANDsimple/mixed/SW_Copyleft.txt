@@ -1,0 +1,4 @@
+Copyleft is a name for a type of license. It is the opposite of Copyright. This type of license tries to be the opposite of the frequently seen copyright type of license.
+Both copyleft and copyright licenses can be used for things like documents (for example books), art (for example music), and software.
+A license tells what someone can do with something that was bought. It also tells what cannot be done with it without getting into legal trouble.
+A "copyleft" license tries to allow more things, and tries to give more 'rights', while a "copyright" license tells more about things that cannot be done.

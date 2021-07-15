@@ -1,0 +1,8 @@
+An electrical cell is a device that is used to generate electricity, or one that is used to make chemical reactions possible by applying electricity.
+Cells producing electricity.
+The simple electrical cells where first developed in 1800s. They are also called "galvanic cells", because an Italian scientist named Luigi Galvani invented these cells.
+Special chemical reactions which occur inside the electrical cell, result in oxidation and reduction of the substances inside the cell. This produces electrical energy. Normal batteries work like this.
+Some of the electrical cells produce electricity without using chemical energy. For example, solar cells produce electricity when they are exposed to sun light.
+Cells using electricity.
+Some chemical reactions need high energy to happen. An example is the breakdown of water into hydrogen and oxygen. An electrical cell (or an electrolytic cell) is used for these reactions. It is a container which has to have a chemical reaction involving electrodes. The chemical substances are exposed to high voltage electrical power, and the reaction happens inside the electrical cell.
+These cells are commonly related with chemical reactions. For example, a plate of zinc and a plate of copper are immersed in a dilute solution which contains acid or salt. The solution acts as an electroltyte (electric conductor). When the two plates are connected to a lamp with a wire, electric current will pass; this is because "oxidation and reduction" processes take place in this chemical activity turning zinc plate to a negative electrode and the copper plate to a positive electrode, and so the electrons flows from zinc to copper which turns the lamp on.

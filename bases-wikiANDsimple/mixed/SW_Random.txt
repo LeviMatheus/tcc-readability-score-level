@@ -1,0 +1,7 @@
+Random is a term used in mathematics, as well as in a more general use, for situations when there is no way to know the outcome (what will happen). Something that is chosen at random is not chosen for any special reason, but purely by chance. An example of a random act is a lottery.
+A computer can make lists of random numbers. Humans are unable to do this, because the brain works in patterns. If someone is asked to keep saying "heads" or "tails" at random, a computer would soon be able to tell which one the person is likely to say next because the computer notices the patterns.
+On a website such as English Wikipedia the user can click on "Random page" to get a random article. The chances of any one page appearing are exactly the same as for any other page.
+Sometimes the word "random" is used more loosely. There are websites of random jokes, which just means: a variety of jokes about all sorts of things.
+In recent years young people have started to use the word "random" even more loosely to describe anything which is rather strange or has no logic. Sentences such as "the mouldy cheese is escaping" or "I like pie and spam" might be described as "random", although this is not the proper dictionary or mathematical meaning of the word.
+Making random numbers.
+Computers can make what appear to be random numbers. There are two ways to make them.

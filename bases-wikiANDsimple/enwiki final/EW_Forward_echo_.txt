@@ -1,0 +1,3 @@
+
+Forward echo: In a transmission line, a reflection propagating in the same direction as the original wave and consisting of energy reflected back by one discontinuity and then forward again by another discontinuity. Forward echoes can be supported by reflections caused by splices or other discontinuities in the transmission medium (e.g. optical fiber, twisted pair, or coaxial tube). In metallic lines, they may be supported by impedance mismatches between the source or load and the characteristic impedance of the transmission medium. They may cause attenuation distortion.
+

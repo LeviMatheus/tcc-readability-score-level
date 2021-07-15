@@ -1,0 +1,8 @@
+
+Twist is poker jargon for a round with specific rules which is sometimes used in the poker variant stud poker.
+One can replace any round of (or add a round to) a stud poker game with a twist round, in which each player is offered the option to replace exactly one card in his hand with a new one from the remaining deck stub.
+This is similar to the draw phase of draw poker, differing in the following way: if the player chooses to replace a downcard, he discards it and is dealt a replacement card also face down; if he wishes to replace an upcard, he discards it and receives the replacement face up.
+On a twist round, players make the decision of which card to replace in turn starting with the player who bet first on the preceding round (usually the player whose upcards make the best hand), discarding the card they choose to replace, if any.
+After everyone has made their decision, the replacement cards are dealt starting at the dealer's left as usual. If the game includes a "low" win, either alone or as split with "high," this draw sequence clearly favors the dealer, because the dealer can wait to see whether his/her current hand beats showing hands as is or needs a replacement card. A variant to avoid this bias is to start the replacement round at the player showing the lowest hand.
+Sometimes replacement cards are "bought" by requiring a player to add a fixed amount to the pot to be able to get a replacement.
+

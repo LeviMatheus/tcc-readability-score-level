@@ -1,0 +1,4 @@
+The NAND gate is a logic gate used to build digital logic circuits. Given two inputs, A and B, A NAND B will be true if at most one of A and B is true. In other words, A NAND B is false if both A and B are true, and true otherwise.
+Symbols.
+There are three symbols for NAND gates: the 'military' symbol and the 'rectangular' symbol. For more information see logic gate symbols
+Please note that NAND is a propagation of "not" and "and" logic gate definitions, ie "not"-"and".

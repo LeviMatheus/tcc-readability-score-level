@@ -1,0 +1,19 @@
+
+GnuCash is an accounting program that implements a double-entry bookkeeping system. It was initially aimed at developing capabilities similar to Intuit, Inc.'s Quicken application, but also has features for small business accounting. Recent development has been focused on adapting to modern desktop support-library requirements.
+GnuCash is part of the GNU Project, and runs on Linux, GNU, OpenBSD, FreeBSD, Solaris, macOS, and other Unix-like platforms. A Microsoft Windows (2000 or newer) port was made available starting with the 2.2.0 series.
+History.
+Programming on GnuCash began in 1997, and its first stable release was in 1998. Small Business Accounting was added in 2001. A Mac installer became available in 2004. A Windows port was released in 2007.
+In May 2012, the development of GnuCash for Android was announced. This was an expense-tracking companion app for GnuCash, as opposed to a stand-alone accounting package, and is now abandoned.
+Backwards compatibility issues.
+Gnucash maintains the ability to read older data files between major releases, as long as major releases are not skipped. If a user wishes to access historical data saved in old GnuCash files, they must install intermediate versions of GnuCash. For example, upgrading from 2.2 to 4.1 may not be possible; the user should upgrade from 2.2.9 to 2.4.15, then to 2.6.21, then 3.11, then 4.1. The other alternative is for users to export transactions files to a CSV format prior to upgrading GnuCash. Exporting of the account tree must be done as a separate step.
+Technical design.
+GnuCash is written primarily in C, with a small fraction in Scheme. One of the available features is pure fixed-point arithmetic to avoid rounding errors which would arise with floating-point arithmetic. This feature was introduced with version 1.6.
+Users.
+Users on the GnuCash mailing list have reported using it for United States 501(c)3 non-profit organizations successfully. However, the reports need to be exported and edited.
+Slaw, a Canadian legal webzine, offered this advice to lawyers just starting out in practice, especially those who are trying to pay off student loans, "The GnuCash software...should present a great alternative for lawyers looking for a solid accounting system at low cost. Do not believe that open source software is somehow second-class."
+In April 2011, the Minnesota State Bar Association made their GnuCash trust accounting guide freely available in PDF format.
+Download statistics.
+As of July 2018, SourceForge shows a count of over 6.3 million downloads of the stable releases starting from November 1999 Also, Sourceforge shows that current downloads are running at ~7,000 per week. This does not include other software download sites as well as Linux distributions that provide download from their own repositories.
+Project status.
+Open Hub's analysis based on commits up to May 2018 (noninclusive) concluded that the project has a mature, well established code base with increasing year-over-year development activity. Moreover, "Over the past twelve months, 51 developers contributed new code to GnuCash. This is one of the largest open-source teams in the world, and is in the top 2% of all project teams on Open Hub."
+

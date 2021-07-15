@@ -1,0 +1,2 @@
+The geometric albedo of an astronomical body is the ratio of its actual brightness at zero phase angle (i.e. as seen from the light source) to that of an "idealized" flat, fully reflecting, diffusively scattering (Lambertian) disk with the same cross-section.
+The visual geometric albedo refers to the geometric albedo quantity when accounting for only electromagnetic radiation in the visible spectrum.

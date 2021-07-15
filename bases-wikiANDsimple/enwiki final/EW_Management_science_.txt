@@ -1,0 +1,17 @@
+
+Management science (MS) is the broad interdisciplinary study of problem solving and decision making in human organizations, with strong links to management, economics, business, engineering, management consulting, and other fields. It uses various scientific research-based principles, strategies, and analytical methods including mathematical modeling, statistics and numerical algorithms to improve an organization's ability to enact rational and accurate management decisions by arriving at optimal or near optimal solutions to complex decision problems. Management science helps businesses to achieve goals using various scientific methods.
+The field was initially an outgrowth of applied mathematics, where early challenges were problems relating to the optimization of systems which could be modeled linearly, i.e., determining the optima (maximum value of profit, assembly line performance, crop yield, bandwidth, etc. or minimum of loss, risk, costs, etc.) of some objective function. Today, management science encompasses any organizational activity for which a problem is structured in mathematical form to generate managerially relevant insights.
+Overview.
+Management science is concerned with a number of areas of study: 
+Management science research can be done on three levels:
+The management scientist's mandate is to use rational, systematic, science-based techniques to inform and improve decisions of all kinds. The techniques of management science are not restricted to business applications but may be applied to military, medical, public administration, charitable groups, political groups or community groups.
+History.
+The origins of management science can be traced to operations research, which became influential during World War II when the Allied forces recruited scientists of various disciplines to assist with military operations. In these early applications, the scientists used simple mathematical models to make efficient use of limited technologies and resources. The application of these models to the corporate sector became known as management science.
+In 1967 Stafford Beer characterized the field of management science as "the business use of operations research".
+Theory.
+Some of the fields that management science involves include: 
+as well as many others.
+Applications.
+Applications of management science are abundant in industries such as airlines, manufacturing companies, service organizations, military branches, and in government. Management science has contributed insights and solutions to a vast range of problems and issues, including:
+Management science is also concerned with so-called "soft-operational analysis", which concerns methods for strategic planning, strategic decision support, and problem structuring methods (PSM). At this level of abstraction, mathematical modeling and simulation will not suffice. Therefore, since the late 20th century, new "non-quantified" modelling methods have been developed, including morphological analysis and various forms of influence diagrams.
+

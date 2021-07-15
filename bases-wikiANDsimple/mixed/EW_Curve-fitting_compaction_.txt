@@ -1,0 +1,4 @@
+
+Curve-fitting compaction is data compaction accomplished by replacing data to be stored or transmitted with an analytical expression.
+Examples of curve-fitting compaction consisting of discretization and then interpolation are:
+

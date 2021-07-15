@@ -1,0 +1,10 @@
+A solvent is a liquid that becomes a solution by dissolving a solid, liquid, or gaseous solute. The most common solvent in everyday life is water.
+Most other commonly-used solvents are organic (carbon-containing) chemicals. These are called organic solvents. Solvents usually have a low boiling point and evaporate easily or can be removed by distillation, thereby leaving the dissolved substance behind. Solvents should therefore not react chemically with the dissolved compounds — they have to be inert. Solvents can also be used to extract soluble compounds from a mixture, the most common example is the brewing of coffee or tea with hot water. Solvents are usually clear and colorless liquids and many have a characteristic smell. The concentration of a solution is the amount of compound that is dissolved in a certain volume of solvent. The solubility is the maximal amount of compound that is soluble in a certain volume of solvent at a specified temperature.
+Common uses for organic solvents are in dry cleaning (e.g. tetrachloroethylene), as paint thinners (e.g. toluene, turpentine), as nail polish removers and glue solvents (acetone, methyl acetate, ethyl acetate), in spot removers (e.g. hexane, petrol ether), in detergents (citrus terpenes), in perfumes (ethanol), and in chemical syntheses. The use of inorganic solvents is typically limited to research chemistry and some technological processes.
+Chronic health effects.
+Some solvents including chloroform and benzene (an ingredient of gasoline) are carcinogenic. Many others can damage internal organs like the liver, the kidneys, or the brain.
+Properties table of common solvents.
+The solvents are grouped into non-polar, polar aprotic, and polar protic solvents and ordered by increasing polarity. The polarity is given as the dielectric constant. The density of nonpolar solvents that are heavier than water is bolded.
+! align="center" | Chemical Formula
+! align="center" | Boiling point
+! align="center" | Dielectric constant

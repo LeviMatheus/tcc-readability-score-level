@@ -1,0 +1,6 @@
+ Introduction .
+In mathematics, an "ordered pair" is a collection of two objects, where one of the objects is first (the "first coordinate" or "left projection"), and the other is second (the "second coordinate" or "right projection"). An ordered pair where the first coordinate is formula_1 and the second coordinate is formula_2 is usually written formula_3 (sometimes it is written formula_4). If formula_1 is different from formula_2, then the ordered pair formula_3 is different from the ordered pair formula_8 - this is why it is called "ordered".
+Properties.
+This means that two ordered pairs are equal if and only if: the first coordinates of the pairs are equal, and also the second coordinates of the pairs are equal.
+Definition.
+Kazimierz Kuratowski was the first person to make this definition.

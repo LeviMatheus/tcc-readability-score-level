@@ -1,0 +1,12 @@
+
+Negligence "per se" is a doctrine in US law whereby an act is considered negligent because it violates a statute (or regulation). The doctrine is effectively a form of strict liability.
+Elements.
+In order to prove negligence "per se", the plaintiff usually must show that:
+In some jurisdictions, negligence "per se" creates merely a rebuttable presumption of negligence.
+A typical example is one in which a contractor violates a building code when constructing a house. The house then collapses, injuring somebody. The violation of the building code establishes negligence "per se" and the contractor will be found liable, so long as the contractor's breach of the code was the cause (proximate cause and actual cause) of the injury.
+History.
+A famous early case in negligence "per se" is "Gorris v. Scott" (1874), a Court of Exchequer case that established that the harm in question must be of the kind that the statute was intended to prevent. "Gorris" involved a shipment of sheep that was washed overboard but would not have been washed overboard had the shipowner complied with the regulations established pursuant to the Contagious Diseases (Animals) Act 1869, which required that livestock be transported in pens to segregate potentially-infected animal populations from uninfected ones. Chief Baron Fitzroy Kelly held that as the statute was intended to prevent the spread of disease, rather than the loss of livestock in transit, the plaintiff could not claim negligence "per se".
+A subsequent New York Court of Appeals case, "Martin v. Herzog" (1920), penned by Judge Benjamin N. Cardozo, first presented the notion that negligence "per se" could be absolute evidence of negligence in certain cases.
+Strict liability.
+Negligence "per se" involves the concept of strict liability. Within the law of negligence there has been a move away from strict liability (as typified by "Re Polemis") to a standard of reasonable care (as seen in "Donoghue v Stevenson", "The Wagon Mound (No. 1)", and "Hughes v Lord Advocate"). This is true not just for breach of the common law, but also for breach of statutory duty. The criminal law case of "Sweet v Parsley" (which required "mens rea" to be read into a criminal statue) follows this trend. In this light, "negligence "per se"" may be criticised as running counter to the general tendency.
+

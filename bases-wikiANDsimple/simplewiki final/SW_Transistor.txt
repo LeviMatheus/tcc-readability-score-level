@@ -1,0 +1,1 @@
+A transistor is an electronic component that can be used as an amplifier, or as a switch. They are found in all but the most simple electronic devices. A transistor consists of three connectors, the emitter, collector, and base. Current flows through a transistor from the emitter (more positive) to the collector depending on the voltage at the base.

@@ -1,0 +1,11 @@
+Power transmission is the movement of energy from its place of generation to a place where it can be used for work.
+Power is defined formally as units of energy per unit time.
+In SI units: 1 watt = 1 joule/s = 1 newton * metre/second (1W=1J/s=1N·m/s).
+Since the development of technology, Transmission and storage systems have been of immense interest to technologists and technology users.
+Electrical power.
+With widespread establishment of power grids, power transmission has came to be associated most often with electric power transmission.
+Mechanical power.
+Electrical power transmission has replaced mechanical power transmission in all but the very shortest distances. From the start of the industrial revolution until the end of the 19th century mechanical power transmission was the norm. Factories were fitted with overhead driveshafts providing rotary power. Drivebelts would provide power to individual machines on the shop floor.
+Mechanical power may be transmitted directly using a solid structure such as a driveshaft; transmission gears can adjust the amount of torque or force vs. speed in much the same way an electrical transformer adjusts voltage vs current.
+Chemicals and fuels.
+Power (and energy) may be transmitted by physically transporting chemical or nuclear fuels. Possible artificial fuels include radioactive isotopes, wood alcohol, grain alcohol, methane, synthetic gas, cryogenic gas, hydrogen gas (H2) and liquefied natural gas (LNG).

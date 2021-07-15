@@ -1,0 +1,5 @@
+A lock is a thing that keeps people from opening something, such as a door or a box. People can close the lock on a door to keep people from coming in. This is called "locking" the door.
+Types of locks.
+A combination lock is a lock that uses a dial (a knob with numbers all around it) to open it. Someone must turn the dial to the right numbers in the right order. This is called the "combination." This lock is used on safes and locks for bicycles.
+A key lock is a lock that uses a key (a piece of metal with teeth like a little saw) to open it. Someone must put the key in the lock and turn it to open the lock. This lock is used in doors and locks for boxes.
+An electronic lock is a special lock that can only be opened with a message from a computer. This message can be stored in a computer chip on a card (called a "key card" or "security card"). Or it can be made by a computer looking at someone's fingerprint or eye.

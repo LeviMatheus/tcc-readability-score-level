@@ -1,0 +1,61 @@
+
+The subset sum problem is a decision problem in computer science. In its most general formulation, there is a multiset formula_1 of integers and a target sum formula_2, and the question is to decide whether any subset of the integers sum to precisely formula_2"." The problem is known to be NP-complete. Moreover, some restricted variants of it are NP-complete too, for example:
+Subset sum can also be regarded as an optimization problem: find a subset whose sum is as close as possible to "T". It is NP-hard, but there are several algorithms that can solve it reasonably quickly in practice.
+The knapsack problem is a generalization of subset-sum.
+Computational hardness.
+The run-time complexity of the subset sum problem depends on two parameters: "n -" the number of input integers, and "L -" the precision of the problem, stated as the number of binary place values that it takes to state the problem.
+When both "n" and "L" are large, the problem is NP-hard. The complexity of the best known algorithms is exponential in the smaller of the two parameters "n" and "L". The following variants are known to be NP-hard:
+Exponential time algorithms.
+There are several ways to solve subset sum in time exponential in "n".
+Inclusion-Exclusion.
+The most naïve algorithm would be to cycle through all subsets of "n" numbers and, for every one of them, check if the subset sums to the right number. The running time is of order formula_8, since there are formula_9 subsets and, to check each subset, we need to sum at most "n" elements.
+The algorithm can be implemented by depth-first search of a binary tree: each level in the tree corresponds to an input number; the left branch corresponds to excluding the number from the set, and the right branch corresponds to including the number (hence the name Inclusion-Exclusion). The memory required is formula_10. The run-time can be improved by several heuristics:
+Horowitz and Sahni.
+Horowitz and Sahni published a faster exponential-time algorithm, which runs in time formula_11, but requires much more space - formula_12. The algorithm splits arbitrarily the "n" elements into two sets of formula_13 each. For each of these two sets, it stores a list of the sums of all formula_14 possible subsets of its elements. Each of these two lists is then sorted. Using a standard comparison sorting algorithm for this step would take time formula_15. However, given a sorted list of sums for formula_16 elements, the list can be expanded to two sorted lists with the introduction of a (formula_17)th element, and these two sorted lists can be merged in time formula_18. Thus, each list can be generated in sorted form in time formula_19. Given the two sorted lists, the algorithm can check if an element of the first array and an element of the second array sum up to "T" in time formula_19. To do that, the algorithm passes through the first array in decreasing order (starting at the largest element) and the second array in increasing order (starting at the smallest element). Whenever the sum of the current element in the first array and the current element in the second array is more than "T", the algorithm moves to the next element in the first array. If it is less than "T", the algorithm moves to the next element in the second array. If two elements that sum to "T" are found, it stops.
+Schroeppel and Shamir.
+Schroeppel and Shamir presented an algorithm based on Horowitz and Sanhi, that requires similar runtime - formula_21, much less space - formula_22. Rather than generating all subsets of "n"/2 elements in advance, they partition the elements into 4 sets of "n"/4 elements each, and generate subsets of "n"/2 elements dynamically using a min heap.
+Due to space requirements, the HS algorithm is practical for up to about 50 integers, and the SS algorithm is practical for up to 100 integers.
+Howgrave-Graham and Joux.
+Howgrave-Graham and Joux presented a probabilistic algorithm that runs faster than all previous ones - in time formula_23. It solves only the decision problem, cannot prove there is no solution for a given sum, and does not return the subset sum closest to "T".
+Pseudo-polynomial time dynamic programming solution.
+The problem can be solved in pseudo-polynomial time using dynamic programming. Suppose the sequence is
+sorted in the increasing order and we wish to determine if there is a nonempty subset which sums to zero. Define the boolean-valued function formula_25 to be the value (formula_26 or formula_27) of
+Thus, the solution to the problem "Given a set of integers, is there a non-empty subset whose sum is zero?" is the value of formula_30.
+Let formula_31 be the sum of the negative values and formula_32 the sum of the positive values. Clearly, formula_33, if formula_34 or formula_35. So these values do not need to be stored or computed.
+Create an array to hold the values formula_25 for formula_37 and formula_38.
+The array can now be filled in using a simple recursion. Initially, for formula_38, set
+where formula_41 is a boolean function that returns true if formula_42 is equal to formula_29, false otherwise.
+Then, for formula_44, set
+For each assignment, the values of formula_48 on the right side are already known, either because they were stored in the table for the previous value of formula_49 or because formula_50 if formula_51 or formula_52. Therefore, the total number of arithmetic operations is formula_53. For example, if all the values are formula_54 for some formula_16, then the time required is formula_56.
+This algorithm is easily modified to return the subset with sum 0 if there is one.
+The dynamic programming solution has runtime of formula_57 where formula_29 is the sum we want to find in set of formula_59 numbers. This solution does not count as polynomial time in complexity theory because formula_60 is not polynomial in the "size" of the problem, which is the number of bits used to represent it. This algorithm is polynomial in the values of formula_31 and formula_32, which are exponential in their numbers of bits.
+For the case that each formula_63 is positive and bounded by a fixed constant formula_64, Pisinger found a linear time algorithm having time complexity formula_65 (note that this is for the version of the problem where the target sum is not necessarily zero, otherwise the problem would be trivial). In 2015, Koiliaris and Xu found a deterministic formula_66 algorithm for the subset sum problem where formula_29 is the sum we need to find. In 2017, Bringmann found a randomized formula_68 time algorithm.
+In 2014, Curtis and Sanches found a simple recursion highly scalable in SIMD machines having formula_69 time and formula_70 space, where formula_71 is the number of processing elements, formula_72 and formula_73 is the lowest integer. This is the best theoretical parallel complexity known so far.
+A comparison of practical results and the solution of hard instances of the SSP is discussed in.
+Polynomial time approximate algorithm.
+An approximate version of the subset sum would be: given a set of formula_59 numbers formula_75 and a number formula_29, output:
+If all numbers are non-negative, the approximate subset sum is solvable in time polynomial in formula_59 and formula_85.
+The solution for subset sum also provides the solution for the original subset sum problem in the case where the numbers are small (again, for non-negative numbers). If any sum of the numbers can be specified with at most formula_86 bits, then solving the problem approximately with formula_87 is equivalent to solving it exactly. Then, the polynomial time algorithm for approximate subset sum becomes an exact algorithm with running time polynomial in formula_59 and formula_89 (i.e., exponential in formula_86).
+The algorithm for the approximate subset sum problem is as follows:
+ initialize a list "S" to contain one element 0.
+ for each "i" from 1 to "N" do
+ let "T" be a list consisting of "xi" + "y", for all "y" in "S"
+ let "U" be the union of "T" and "S"
+ sort "U"
+ make "S" empty 
+ let "y" be the smallest element of "U" 
+ add "y" to "S"
+ for each element "z" of "U" in increasing order do
+ // Trim the list by eliminating numbers close to one another
+ // and throw out elements greater than "s".
+ if "y" + "ε s"/"N" &lt; "z" ≤ "s" then
+ "y" = "z"
+ add "z" to "S"
+ if "S" contains a number between (1 − ε)"s" and "s" then
+ return "yes"
+ else
+ return "no"
+The algorithm is polynomial time because the lists formula_1, formula_2 and formula_93 always remain of size polynomial in formula_59 and formula_85 and, as long as they are of polynomial size, all operations on them can be done in polynomial time. The size of lists is kept polynomial by the trimming step, in which we only include a number formula_96 into formula_1 if it is greater than the previous one by formula_98 and not greater than formula_29.
+This step ensures that each element in formula_1 is smaller than the next one by at least formula_98 and do not contain elements greater than formula_29. Any list with that property consists of no more than formula_103 elements.
+The algorithm is correct because each step introduces an additive error of at most formula_98 and formula_59 steps together introduce the error of at most formula_106.
+

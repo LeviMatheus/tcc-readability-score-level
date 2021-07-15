@@ -1,0 +1,14 @@
+
+Dia ()
+is free and open source general-purpose diagramming software, developed originally by Alexander Larsson. Dia uses a controlled single document interface (SDI) similar to GIMP and Inkscape.
+Features.
+Dia has a modular design with several shape packages available for different needs: flowchart, network diagrams, circuit diagrams, and more. It does not restrict symbols and connectors from various categories from being placed together.
+Dia has special objects to help draw entity-relationship models (obsoleted tedia2sql or newer parsediasql can be used to create the SQL DDL), Unified Modeling Language (UML) diagrams, flowcharts, network diagrams, and simple electrical circuits. It is also possible to add support for new shapes by writing simple XML files, using a subset of Scalable Vector Graphics (SVG) to draw the shape.
+Dia loads and saves diagrams in a custom XML format which is, by default, gzipped to save space. It can print large diagrams spanning multiple pages and can also be scripted using the Python programming language.
+Exports.
+Dia can export diagrams to various formats including the following:
+Development.
+Dia was originally created by Alexander Larsson but he moved on to work on GNOME and other projects. James Henstridge then took over as the lead developer, but he also moved on to other projects. He was followed by Cyrille Chepelov and Lars Ræder Clausen in turn.
+Dia is maintained by a group of developers: Hans Breuer, Steffen Macke, and Sameer Sahasrabuddhe.
+Dia is written in C, and has an extension system, which also supports writing extensions in Python.
+

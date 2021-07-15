@@ -1,0 +1,39 @@
+
+A protein kinase is a kinase which selectively modifies other proteins by covalently adding phosphates to them (phosphorylation) as opposed to kinases which modify lipids, carbohydrates, or other molecules. Phosphorylation usually results in a functional change of the target protein (substrate) by changing enzyme activity, cellular location, or association with other proteins. The human genome contains about 500 protein kinase genes and they constitute about 2% of all human genes. There are two main types of protein kinase, the great majority are serine/threonine kinases, which phosphorylate the hydroxyl groups of serines and threonines in their targets and the other are tyrosine kinases, although additional types exist. Protein kinases are also found in bacteria and plants. Up to 30% of all human proteins may be modified by kinase activity, and kinases are known to regulate the majority of cellular pathways, especially those involved in signal transduction.
+Chemical activity.
+The chemical activity of a kinase involves removing a phosphate group from ATP and covalently attaching it to one of three amino acids that have a free hydroxyl group. Most kinases act on both serine and threonine, others act on tyrosine, and a number (dual-specificity kinases) act on all three. There are also protein kinases that phosphorylate other amino acids, including histidine kinases that phosphorylate histidine residues.
+Regulation.
+Because protein kinases have profound effects on a cell, their activity is highly regulated. Kinases are turned on or off by phosphorylation (sometimes by the kinase itself - "cis"-phosphorylation/autophosphorylation), by binding of activator proteins or inhibitor proteins, or small molecules, or by controlling their location in the cell relative to their substrates.
+Structure.
+The catalytic subunits of many protein kinases are highly conserved, and several structures have been solved. 
+Eukaryotic protein kinases are enzymes that belong to a very extensive family of proteins that share a conserved catalytic core. There are a number of conserved regions in the catalytic domain of protein kinases. In the N-terminal extremity of the catalytic domain there is a glycine-rich stretch of residues in the vicinity of a lysine amino acid, which has been shown to be involved in ATP binding. In the central part of the catalytic domain, there is a conserved aspartic acid, which is important for the catalytic activity of the enzyme.
+Serine/threonine-specific protein kinases.
+Serine/threonine protein kinases () phosphorylate the OH group of serine or threonine (which have similar side-chains). Activity of these protein kinases can be regulated by specific events (e.g., DNA damage), as well as numerous chemical signals, including cAMP/cGMP, diacylglycerol, and Ca2+/calmodulin.
+One very important group of protein kinases are the MAP kinases (acronym from: "mitogen-activated protein kinases"). Important subgroups are the kinases of the ERK subfamily, typically activated by mitogenic signals, and the stress-activated protein kinases JNK and p38. 
+While MAP kinases are serine/threonine-specific, they are activated by combined phosphorylation on serine/threonine and tyrosine residues. Activity of MAP kinases is restricted by a number of protein phosphatases, which remove the phosphate groups that are added to specific serine or threonine residues of the kinase and are required to maintain the kinase in an active conformation.
+Two major factors influence activity of MAP kinases: 
+a) signals that activate transmembrane receptors (either natural ligands or crosslinking agents) and proteins associated with them (mutations that simulate active state) 
+b) signals that inactivate the phosphatases that restrict a given MAP kinase. Such signals include oxidant stress.
+Tyrosine-specific protein kinases.
+Tyrosine-specific protein kinases ( and ) phosphorylate tyrosine amino acid residues, and like serine/threonine-specific kinases are used in signal transduction. They act primarily as growth factor receptors and in downstream signaling from growth factors; some examples:
+Receptor tyrosine kinases.
+These kinases consist of a transmembrane receptor with a tyrosine kinase domain protruding into the cytoplasm. They play an important role in regulating cell division, cellular differentiation, and morphogenesis. More than 50 receptor tyrosine kinases are known in mammals.
+Structure.
+The extracellular domain serves as the ligand-binding part of the molecule. It can be a separate unit that is attached to the rest of the receptor by a disulfide bond. The same mechanism can be used to bind two receptors together to form a homo- or heterodimer. The transmembrane element is a single α helix. The intracellular or cytoplasmic domain is responsible for the (highly conserved) kinase activity, as well as several regulatory functions.
+Regulation.
+Ligand binding causes two reactions:
+The autophosphorylation causes the two subdomains of the intrinsic kinase to shift, opening the kinase domain for ATP binding. In the inactive form, the kinase subdomains are aligned so that ATP cannot reach the catalytic center of the kinase. When several amino acids suitable for phosphorylation are present in the kinase domain (e.g., the insulin-like growth factor receptor), the activity of the kinase can increase with the number of phosphorylated amino acids; in this case, the first phosphorylation is said to be a "cis"-autophosphorylation, switching the kinase from "off" to "standby".
+Signal transduction.
+The active tyrosine kinase phosphorylates specific target proteins, which are often enzymes themselves. An important target is the ras protein signal-transduction chain.
+Receptor-associated tyrosine kinases.
+Tyrosine kinases recruited to a receptor following hormone binding are receptor-associated tyrosine kinases and are involved in a number of signaling cascades, in particular those involved in cytokine signaling (but also others, including growth hormone). One such receptor-associated tyrosine kinase is Janus kinase (JAK), many of whose effects are mediated by STAT proteins. ("See JAK-STAT pathway.")
+Histidine-specific protein kinases.
+Histidine kinases are structurally distinct from most other protein kinases and are found mostly in prokaryotes as part of two-component signal transduction mechanisms. A phosphate group from ATP is first added to a histidine residue within the kinase, and later transferred to an aspartate residue on a 'receiver domain' on a different protein, or sometimes on the kinase itself. The aspartyl phosphate residue is then active in signaling.
+Histidine kinases are found widely in prokaryotes, as well as in plants, fungi and eukaryotes. The pyruvate dehydrogenase family of kinases in animals is structurally related to histidine kinases, but instead phosphorylate serine residues, and probably do not use a phospho-histidine intermediate.
+Mixed kinases.
+Some kinases have mixed kinase activities. For example, MEK (MAPKK), which is involved in the MAP kinase cascade, is a mixed serine/threonine and tyrosine kinase and, hence, is a dual-specificity kinase.
+Inhibitors.
+Deregulated kinase activity is a frequent cause of disease, in particular cancer, wherein kinases regulate many aspects that control cell growth, movement and death. Drugs that inhibit specific kinases are being developed to treat several diseases, and some are currently in clinical use, including Gleevec (imatinib) and Iressa (gefitinib).
+Kinase assays and profiling.
+Drug developments for kinase inhibitors are started from kinase assays, the lead compounds are usually profiled for specificity before moving into further tests. Many profiling services are available from fluorescent-based assays to radioisotope based detections, and competition binding assays.
+

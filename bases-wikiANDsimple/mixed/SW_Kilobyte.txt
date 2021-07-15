@@ -1,0 +1,1 @@
+A kilobyte is a number used when talking about hard drives or computer memory. At first, 1 kilobyte was 1,024 bytes. Now some people say a kilobyte only has 1,000 bytes, and the correct name for 1,024 bytes is a kibibyte.

@@ -1,0 +1,4 @@
+A cube is a block with all right angles and whose height, width and depth are all the same.
+A cube is one of the simplest mathematical shapes in space. Something that is shaped like a cube is sometimes referred to as "cubic".
+Relative 2-dimensional shape.
+The 2-dimensional shape (like a circle, square, triangle, etc) that a cube is made of is squares. The sides (faces) of a cube are squares. The edges are straight lines. The corners (vertices) are at right angles. A cube has 8 corners, 12 edges and 6 sides.

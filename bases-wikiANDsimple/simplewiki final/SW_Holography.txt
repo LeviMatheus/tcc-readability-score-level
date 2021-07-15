@@ -1,0 +1,29 @@
+Holography is a method that uses the wave character of light, which dedicts an exact description, that goes beyond the options of the classic fotography.
+Difference between holography and photography:.
+In contrast to photography, holography not only records the intensity of light, but also its difference of phase. All pieces of information reflected by the object, are recorded.
+Functionality:.
+At holography you basically work with two (rather three) waves, the so called reference wave and the exposure wave (object wave). With the reference wave it is possible to save the phase information in the form of a light-dark model on a film.
+The object wave and reference wave must have the same wave length.
+History of holography:.
+The most famous person linked to the history of holography is the physician Dennis Gábor, the inventor of the hologram.
+In fact his discovery in 1947, which demonstrated the highlight of a long development, was not supposed to display three-dimensional objects, but to improve the resolving capacity of microscopes.
+Chronology:.
+• 1947 Dennis Gábor developed the principal of holography
+• 1960 Theodor Maiman invented the Laser (Light Amplification by Stimulated Emission of Radiation)
+• 1963 Emmeth Leith and Juris Upatnieks improved the recording technique
+• 1964 Production of the firsthologramm by Leith and Upatnieks ("Train and Bird").
+• 1965 Juri Nikolajewitsch Denisjuk invented the white-light-holography
+• 1967 The first hologramm of a person
+• 1968 Stephen A. Benton invented the rainbow-transmission holography
+• 1971 Award of the nobelprize of physics to Dennis Gábor for the inovation of holography
+Recording:.
+For a hologram you need a laser beam, that gets enlarged by a dispersing lens and goes through a semi penetrable mirror. Only a piece of this laser beam goes through the mirror. Then this beam becomes the reference wave which is recorded on the film. The other piece of the laser beam will be reflected on the mirror and runs as the so called exposure wave at the object.The object reflects this wave on the film.
+Reconstruction:.
+The process of creating a hologram is nearly identic to photography through diverse chemicals.
+To look at a hologram just recorded, you have to light the film with the reference wave. These waves are reflected on the film (hologram) and create (within the proper angle of sight) a virtual picture of the recorded object.
+Meassurement:.
+Nowadays industries use holograms more often to measure. In the automotive engineering the autobody is measured by holography techniques for bulges and vibration characteristics. An example of this method is the phase-shift-method.
+First you take a hologram from the ground level state of the object, then overload the object through heat or mechanical pressure. By covering the original hologram and the modified hologram, interference fringes occur. These interference fringes can be evaluated quantitatively and give information about the deformation. So you can measure tiny termal expansions or vibrations in mechanical systems.
+Therefor you need two reference waves that are shifted to each other.
+Data storage:.
+There are holographic storages for analog pictures and digital data. Digital information will be affilliated by a two-dimensional bit-pattern.

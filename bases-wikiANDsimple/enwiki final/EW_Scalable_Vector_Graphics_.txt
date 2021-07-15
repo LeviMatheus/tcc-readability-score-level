@@ -1,0 +1,70 @@
+
+Scalable Vector Graphics (SVG) is an Extensible Markup Language (XML)-based vector image format for two-dimensional graphics with support for interactivity and animation. The SVG specification is an open standard developed by the World Wide Web Consortium (W3C) since 1999.
+SVG images and their behaviors are defined in XML text files. This means that they can be searched, indexed, scripted, and compressed. As XML files, SVG images can be created and edited with any text editor, as well as with drawing software. The Arabic Unicode programmer and calligrapher, Thomas Milo credits the adoption of SVG by Wikipedia as the reason why the compact imaging technology gained popularity.
+All major modern web browsers—including Mozilla Firefox, Internet Explorer, Google Chrome, Opera, Safari, and Microsoft Edge—have SVG rendering support.
+Overview.
+SVG has been in development within the World Wide Web Consortium (W3C) since 1999 after six competing proposals for vector graphics languages had been submitted to the consortium during 1998. The early SVG Working Group decided not to develop any of the commercial submissions, but to create a new markup language that was informed by but not really based on any of them.
+SVG allows three types of graphic objects: vector graphic shapes such as paths and outlines consisting of straight lines and curves, bitmap images, and text. Graphical objects can be grouped, styled, transformed and composited into previously rendered objects. The feature set includes nested transformations, clipping paths, alpha masks, filter effects and template objects. SVG drawings can be interactive and can include animation, defined in the SVG XML elements or via scripting that accesses the SVG Document Object Model (DOM). SVG uses CSS for styling and JavaScript for scripting. Text, including internationalization and localization, appearing in plain text within the SVG DOM, enhances the accessibility of SVG graphics.
+The SVG specification was updated to version 1.1 in 2011. There are two 'Mobile SVG Profiles,' SVG Tiny and SVG Basic, meant for mobile devices with reduced computational and display capabilities. Scalable Vector Graphics 2 became a W3C Candidate Recommendation on 15 September 2016. SVG 2 incorporates several new features in addition to those of SVG 1.1 and SVG Tiny 1.2.
+Printing.
+Though the SVG Specification primarily focuses on vector graphics markup language, its design includes the basic capabilities of a page description language like Adobe's PDF. It contains provisions for rich graphics, and is compatible with CSS for styling purposes. SVG has the information needed to place each glyph and image in a chosen location on a printed page.
+Scripting and animation.
+SVG drawings can be dynamic and interactive. Time-based modifications to the elements can be described in SMIL, or can be programmed in a scripting language (e.g. JavaScript). The W3C explicitly recommends SMIL as the standard for animation in SVG.
+A rich set of event handlers such as "onmouseover" and "onclick" can be assigned to any SVG graphical object to apply actions and events.
+Compression.
+SVG images, being XML, contain many repeated fragments of text, so they are well suited for lossless data compression algorithms. When an SVG image has been compressed with the gzip algorithm, it is referred to as an "SVGZ" image and uses the corresponding codice_1 filename extension. Conforming SVG 1.1 viewers will display compressed images. An SVGZ file is typically 20 to 50 percent of the original size. W3C provides SVGZ files to test for conformance.
+Development history.
+SVG was developed by the W3C SVG Working Group starting in 1998, after six competing vector graphics submissions were received that year:
+The working group was chaired at the time by Chris Lilley of the W3C.
+Version 2.x.
+SVG 2.0 removes or deprecates some features of SVG 1.1 and incorporates new features from HTML5 and Web Open Font Format:
+It reached Candidate Recommendation stage on 15 September 2016. The latest draft was released on 26 May 2020.
+Mobile profiles.
+Because of industry demand, two mobile profiles were introduced with SVG 1.1: "SVG Tiny" (SVGT) and "SVG Basic" (SVGB).
+These are subsets of the full SVG standard, mainly intended for user agents with limited capabilities. In particular, SVG Tiny was defined for highly restricted mobile devices such as cellphones; it does not support styling or scripting. SVG Basic was defined for higher-level mobile devices, such as smartphones.
+In 2003, the 3GPP, an international telecommunications standards group, adopted SVG Tiny as the mandatory vector graphics media format for next-generation phones. SVGT is the required vector graphics format and support of SVGB is optional for Multimedia Messaging Service (MMS) and Packet-switched Streaming Service. It was later added as required format for vector graphics in 3GPP IP Multimedia Subsystem (IMS).
+Differences from non-mobile SVG.
+Neither mobile profile includes support for the full Document Object Model (DOM), while only SVG Basic has optional support for scripting, but because they are fully compatible subsets of the full standard, most SVG graphics can still be rendered by devices which only support the mobile profiles.
+SVGT 1.2 adds a microDOM (μDOM), styling and scripting.
+Related work.
+The MPEG-4 Part 20 standard - "Lightweight Application Scene Representation (LASeR) and Simple Aggregation Format (SAF)" is based on SVG Tiny. It was developed by MPEG (ISO/IEC JTC1/SC29/WG11) and published as ISO/IEC 14496-20:2006. SVG capabilities are enhanced in MPEG-4 Part 20 with key features for mobile services, such as dynamic updates, binary encoding, state-of-art font representation. SVG was also accommodated in MPEG-4 Part 11, in the Extensible MPEG-4 Textual (XMT) format - a textual representation of the MPEG-4 multimedia content using XML.
+Functionality.
+The SVG 1.1 specification defines 14 functional areas or feature sets:
+An SVG document can define components including shapes, gradients etc., and use them repeatedly. SVG images can also contain raster graphics, such as PNG and JPEG images, and further SVG images.
+Example.
+This code will produce the colored shapes shown in the image, excluding the grid and labels:
+&lt;?xml version="1.0" encoding="UTF-8" standalone="no"?&gt;
+&lt;!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"&gt;
+&lt;svg width="391" height="391" viewBox="-70.5 -70.5 391 391" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;
+&lt;rect fill="#fff" stroke="#000" x="-70" y="-70" width="390" height="390"/&gt;
+&lt;g opacity="0.8"&gt;
+ &lt;rect x="25" y="25" width="200" height="200" fill="lime" stroke-width="4" stroke="pink" /&gt;
+ &lt;circle cx="125" cy="125" r="75" fill="orange" /&gt;
+ &lt;polyline points="50,150 50,200 200,200 200,100" stroke="red" stroke-width="4" fill="none" /&gt;
+ &lt;line x1="50" y1="50" x2="200" y2="200" stroke="blue" stroke-width="4" /&gt;
+&lt;/g&gt;
+&lt;/svg&gt;
+SVG on the web.
+The use of SVG on the web was limited by the lack of support in older versions of Internet Explorer (IE). Many web sites that serve SVG images, such as Wikipedia, also provide the images in a raster format, either automatically by HTTP content negotiation or by allowing the user directly to choose the file.
+Google announced on 31 August 2010 that it had started to index SVG content on the web, whether it is in standalone files or embedded in HTML, and that users would begin to see such content listed among their search results.
+It was announced on 8 December 2010 that Google Image Search would also begin indexing SVG files. The site announced an option to restrict image searches to SVG files on 11 February 2011. 
+Native browser support.
+Konqueror was the first browser to support SVG in release version 3.2 in February 2004. As of 2011, all major desktop browsers, and many minor ones, have some level of SVG support. Other browsers' implementations are not yet complete; see comparison of layout engines for further details.
+Some earlier versions of Firefox (e.g. versions between 1.5 and 3.6), as well as a smattering of other now-outdated web browsers capable of displaying SVG graphics, needed them embedded in codice_35 or codice_36 elements to display them integrated as parts of an HTML webpage instead of using the standard way of integrating images with codice_37. However, SVG images may be included in XHTML pages using XML namespaces.
+Tim Berners-Lee, the inventor of the World Wide Web, was critical of early versions of Internet Explorer for its failure to support SVG.
+There are several advantages to native and full support: plugins are not needed, SVG can be freely mixed with other content in a single document, and rendering and scripting become considerably more reliable.
+Mobile support.
+SVG Tiny (SVGT) 1.1 and 1.2 are mobile profiles for SVG. SVGT 1.2 includes some features not found in SVG 1.1, including non-scaling strokes, which are supported by some SVG 1.1 implementations, such as Opera, Firefox and WebKit. As shared code bases between desktop and mobile browsers increased, the use of SVG 1.1 over SVGT 1.2 also increased.
+Support for SVG may be limited to SVGT on older or more limited smart phones or may be primarily limited by their respective operating system. Adobe Flash Lite has optionally supported SVG Tiny since version 1.1. At the SVG Open 2005 conference, Sun demonstrated a mobile implementation of SVG Tiny 1.1 for the Connected Limited Device Configuration (CLDC) platform.
+Mobiles that use Opera Mobile, as well as the iPhone's built in browser, also include SVG support. However, even though it used the WebKit engine, the Android built-in browser did not support SVG prior to v3.0 (Honeycomb). Prior to v3.0, Firefox Mobile 4.0b2 (beta) for Android was the first browser running under Android to support SVG by default.
+The level of SVG Tiny support available varies from mobile to mobile, depending on the SVG engine installed. Many newer mobile products support additional features beyond SVG Tiny 1.1, like gradient and opacity; this is sometimes referred to as "SVGT 1.1+", though there is no such standard.
+RIM's BlackBerry has built-in support for SVG Tiny 1.1 since version 5.0. Support continues for WebKit-based BlackBerry Torch browser in OS 6 and 7.
+Nokia's S60 platform has built-in support for SVG. For example, icons are generally rendered using the platform's SVG engine. Nokia has also led the JSR 226: Scalable 2D Vector Graphics API expert group that defines Java ME API for SVG presentation and manipulation. This API has been implemented in S60 Platform 3rd Edition Feature Pack 1 and onward. Some Series 40 phones also support SVG (such as Nokia 6280).
+Most Sony Ericsson phones beginning with K700 (by release date) support SVG Tiny 1.1. Phones beginning with K750 also support such features as opacity and gradients. Phones with Sony Ericsson Java Platform-8 have support for JSR 226.
+Windows Phone has supported SVG since version 7.5.
+SVG is also supported on various mobile devices from Motorola, Samsung, LG, and Siemens mobile/BenQ-Siemens. eSVG, an SVG rendering library mainly written for embedded devices, is available on some mobile platforms.
+Application support.
+SVG images can be produced by the use of a vector graphics editor, such as Inkscape, Adobe Illustrator, Adobe Flash Professional, or CorelDRAW, and rendered to common raster image formats such as PNG using the same software. Additionally, editors like Inkscape and Boxy SVG provide tools to trace raster images to Bézier curves typically using image tracing back-ends like potrace, autotrace, and imagetracerjs.
+Software can be programmed to render SVG images by using a library such as librsvg used by GNOME since 2000, or Batik. SVG images can also be rendered to any desired popular image format by using ImageMagick, a free command-line utility (which also uses librsvg under the hood).
+Other uses for SVG include embedding for use in word processing (e.g. with LibreOffice) and desktop publishing (e.g. Scribus), plotting graphs (e.g. gnuplot), and importing paths (e.g. for use in GIMP or Blender). Microsoft 365 and Microsoft Office 2019 offer support for exporting, importing and editing SVG images. The Uniform Type Identifier for SVG used by Apple is codice_38 and conforms to codice_39 and codice_40.
+

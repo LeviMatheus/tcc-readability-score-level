@@ -1,0 +1,12 @@
+
+Brightness is an attribute of visual perception in which a source appears to be radiating or reflecting light. In other words, brightness is the perception elicited by the luminance of a visual target. It is not necessarily proportional to luminance. This is a subjective attribute/property of an object being observed and one of the color appearance parameters of color appearance models. Brightness refers to an absolute term and should not be confused with lightness.
+The adjective "bright" derives from an Old English "beorht" with the same meaning via metathesis giving Middle English "briht". The word is from a Common Germanic ', ultimately from a PIE root with a closely related meaning, *' "white, bright".
+"Brightness" was formerly used as a synonym for the photometric term "luminance" and (incorrectly) for the radiometric term "radiance". As defined by the US "Federal Glossary of Telecommunication Terms" (FS-1037C), "brightness" should now be used only for non-quantitative references to physiological sensations and perceptions of light.
+A given target luminance can elicit different perceptions of brightness in different contexts; see, for example, White's illusion.
+In an RGB color space, brightness can be thought of as the arithmetic mean "μ" of the red, green, and blue color coordinates (although some of the three components make the light seem brighter than others, which, again, ):
+Brightness is also a color coordinate in HSL color space : hue, saturation, and lightness, meaning here brightness.
+With regard to stars, brightness is quantified as apparent magnitude and absolute magnitude.
+Brightness is, at least in some respects, the antonym of darkness.
+New meaning.
+The United States Federal Trade Commission (FTC) has assigned an unconventional meaning to brightness when applied to lamps. When appearing on light bulb packages, brightness means luminous flux, while in other contexts it means luminance. Luminous flux is the total amount of light coming from a source, such as a lighting device. Luminance, the original meaning of brightness, is the amount of light per solid angle coming from an area, such as the sky. The table below shows the standard ways of indicating the amount of light.
+

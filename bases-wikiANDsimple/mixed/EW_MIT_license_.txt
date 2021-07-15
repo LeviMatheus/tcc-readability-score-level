@@ -1,0 +1,31 @@
+
+
+
+The MIT License (X11 License) is a permissive free software license originating at the Massachusetts Institute of Technology (MIT) in the late 1980s. As a permissive license, it puts only very limited restriction on reuse and has, therefore, high license compatibility. The Wikipedia and Wikimedia Commons projects use the alternative name . 
+The MIT license is compatible with many copyleft licenses, such as the GNU General Public License (GPL); MIT licensed software can be re-licensed as GPL software, and integrated with other GPL software, but not the other way around. The MIT license also permits reuse within proprietary software, provided that either all copies of the licensed software include a copy of the MIT License terms and the copyright notice, or the software is re-licensed to remove this requirement. MIT-licensed software can also be re-licensed as proprietary software, which distinguishes it from copyleft software licenses. , MIT was the most popular software license found in one analysis, continuing from reports in 2015 that MIT was the most popular software license on GitHub, ahead of any GPL variant and other free and open-source software (FOSS) licenses. 
+Notable projects that use the MIT License include the X Window System, Ruby on Rails, Nim, Node.js, Lua and jQuery. Notable companies using the MIT License include Microsoft (.NET Core), Google (Angular) and Facebook (React).
+License terms.
+The most common form of the MIT License wording is the following, which is identical to the list of licenses maintained by the Open Source Initiative's website and also known as the "Expat License":
+An intermediate form of license used by the X Consortium for X11 used the following wording:
+Minor ambiguity and variants.
+In common usage there is only one MIT license, as illustrated by Github's licensing advice and the legal text for the MIT License at Github's service choosealicense.com.
+More precisely, MIT has been using many licenses for software since its creation, so the phrase "the MIT License" is theoretically ambiguous. For example, MIT offers four licensing options for the FFTW C source code library, one of which is the GPLv 2.0 and the other three of which are not open-source.
+"MIT License" may refer to the Expat License (used for the XML parsing library Expat) or to the X11 License (also called "MIT/X Consortium License"; used for X Window System by the MIT X Consortium). The "MIT License" published by the Open Source Initiative is the same as the "Expat License".
+The X Consortium was dissolved late in 1996, and its assets transferred to The Open Group, which released X11R6 initially under the same license. The X11 License and the X11R6 "MIT License" chosen for ncurses by the Free Software Foundation both include the following clause, absent in the Expat License:
+As of 2020, the successor to the X Window System is the X.Org Server, which is licensed under what is effectively the common MIT license, according to the X.org licensing page:The X.Org Foundation has chosen the following format of the MIT License as the preferred format for code included in the X Window System distribution. This is a slight variant of the common MIT license form published by the Open Source InitiativeThe "slight variant" is the addition of the phrase "(including the next paragraph)".
+Comparison to other licenses.
+BSD.
+The original BSD license also includes a clause requiring all advertising of the software to display a notice crediting its authors. This "advertising clause" (since disavowed by UC Berkeley) is present in the modified MIT License used by XFree86.
+The University of Illinois/NCSA Open Source License combines text from both the MIT and BSD licenses; the license grant and disclaimer are taken from the MIT License.
+The ISC license contains similarities to both the MIT and simplified BSD licenses, the biggest difference being that language deemed unnecessary by the Berne Convention is omitted.
+GNU GPL.
+The GNU GPL is explicit about the patent grant an author would be giving when the code (or derivative work) is distributed, the MIT license does not discuss patents. Moreover, the GPL license impacts "derivative works", but the MIT license does not.
+Relation to patents.
+Like the BSD license, the MIT license does not include an express patent license although some commentators state that the grant of rights covers all potential restrictions including patents. Both the BSD and the MIT licenses were drafted before the patentability of software was generally recognized under US law. The Apache License version 2.0 is a similarly permissive license that includes an explicit contributor's patent license.
+Of specific relevance to US jurisdictions, the MIT license uses the terms "sell" and "use" that are also used in defining the rights of a patent holder in Title 35 of the United States Code section 154. This has been construed by some commentators as an unconventional but implicit license in the US to use any underlying patents.
+Origins.
+One of the originators of the MIT license, computer scientist Jerry Saltzer, has published his recollections of its early development, along with documentary evidence.
+See also.
+Reception.
+, according to WhiteSource Software the MIT license was used in 27% of four million open source packages. , according to Black Duck Software and a 2015 blog from GitHub, the MIT license was the most popular free software license, with the GNU GPLv2 coming second in their sample of repositories.
+

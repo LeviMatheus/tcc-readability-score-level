@@ -1,0 +1,15 @@
+
+A growth factor is a naturally occurring substance capable of stimulating cell proliferation, wound healing, and occasionally cellular differentiation. Usually it is a secreted protein or a steroid hormone. Growth factors are important for regulating a variety of cellular processes.
+Growth factors typically act as signaling molecules between cells. Examples are cytokines and hormones that bind to specific receptors on the surface of their target cells.
+They often promote cell differentiation and maturation, which varies between growth factors. For example, epidermal growth factor (EGF) enhances osteogenic differentiation, while fibroblast growth factors and vascular endothelial growth factors stimulate blood vessel differentiation (angiogenesis). 
+Comparison to cytokines.
+"Growth factor" is sometimes used interchangeably among scientists with the term "cytokine." Historically, cytokines were associated with hematopoietic (blood and lymph forming) cells and immune system cells (e.g., lymphocytes and tissue cells from spleen, thymus, and lymph nodes). For the circulatory system and bone marrow in which cells can occur in a liquid suspension and not bound up in solid tissue, it makes sense for them to communicate by soluble, circulating protein molecules. However, as different lines of research converged, it became clear that some of the same signaling proteins which the hematopoietic and immune systems use were also being used by all sorts of other cells and tissues, during development and in the mature organism.
+While "growth factor" implies a positive effect on cell proliferation, "cytokine" is a neutral term with respect to whether a molecule affects proliferation. While some cytokines can be growth factors, such as G-CSF and GM-CSF, others have an inhibitory effect on cell growth or cell proliferation. Some cytokines, such as Fas ligand, are used as "death" signals; they cause target cells to undergo programmed cell death or "apoptosis".
+The growth factor was first discovered by Rita Levi-Montalcini, which won her a Nobel Prize in Physiology or Medicine.
+List of classes.
+Individual growth factor proteins tend to occur as members of larger families of structurally and evolutionarily related proteins. There are many families, some of which are listed below:
+In platelets.
+The alpha granules in blood platelets contain growth factors PDGF, IGF-1, EGF, and TGF-β which begin healing of wounds by attracting and activating macrophages, fibroblasts, and endothelial cells.
+Uses in medicine.
+For the last two decades, growth factors have been increasingly used in the treatment of hematologic and oncologic diseases and cardiovascular diseasessuch as:
+

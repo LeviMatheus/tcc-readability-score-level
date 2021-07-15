@@ -1,0 +1,7 @@
+The Gallic group is a dynamical grouping of the prograde irregular satellites of Saturn following similar orbits. Their semi-major axes range between 16 and 19 Gm, their inclinations between 35° and 40°, and their eccentricities around 0.53.
+The International Astronomical Union (IAU) reserves names taken from Gallic mythology for these moons.
+Similar mean orbital elements led the discoverers to postulate a common origin for the group in a break up of a larger body.
+The diagram illustrates the Gallic group in relation to other irregular satellites of Saturn. The eccentricity of the orbits is represented by the yellow segments (extending from the pericentre to the apocentre) with the inclination represented on Y axis.
+The group was later found to be physically homogenous, all satellites displaying "light-red" colour (colour indices B − V = 0.91 and V − R = 0.48)
+Remarkably, recent observations revealed that the largest member of the group, Albiorix, displays actually two different colours: one compatible with Eriapo and Tarvos, and another less red. Instead of the common progenitor, it was postulated that Tarvos and Erriapus could be fragments of Albiorix, leaving a large, less red crater.
+Such an impact would require a body with the diameter in excess of 1 km and relative velocity close to 5 km/s, resulting in a large crater with the radius of 12 km. Numerous, very large craters observed on Phoebe, prove the existence of such collisions in the Saturnian system's past.

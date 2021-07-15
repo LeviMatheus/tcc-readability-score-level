@@ -1,0 +1,60 @@
+
+Differential equations arise in many problems in physics, engineering, and other sciences. The following examples show how to solve differential equations in a few simple cases when an exact solution exists.
+Separable first-order ordinary differential equations.
+Equations in the form formula_1 are called separable and solved by formula_2 and thus 
+formula_3. Prior to dividing by formula_4, one needs to check if there are stationary (also called equilibrium)
+solutions formula_5 satisfying formula_6.
+Separable (homogeneous) first-order linear ordinary differential equations.
+A separable "linear" ordinary differential equation of the first order 
+must be homogeneous and has the general form
+where formula_8 is some known function. We may solve this by separation of variables (moving the "y" terms to one side and the "t" terms to the other side),
+Since the separation of variables in this case involves dividing by "y", we must check if the constant function "y=0" is a solution of the original equation. Trivially, if "y=0" then "y'=0", so "y=0" is actually a solution of the original equation. We note that "y=0" is not allowed in the transformed equation.
+We solve the transformed equation with the variables already separated by Integrating,
+where "C" is an arbitrary constant. Then, by exponentiation, we obtain
+Here, formula_12, so formula_13. But we have independently checked that "y=0" is also a solution of the original equation, thus 
+with an arbitrary constant "A", which covers all the cases. It is easy to confirm that this is a solution by plugging it into the original differential equation:
+Some elaboration is needed because "ƒ"("t") might not even be integrable. One must also assume something about the domains of the functions involved before the equation is fully defined. The solution above assumes the real case.
+If formula_16 is a constant, the solution is particularly simple, formula_17 and describes, e.g., if formula_18, the exponential decay of radioactive material at the macroscopic level. If the value of formula_19 is not known a priori, it can be determined from two measurements of the solution. For example,
+gives formula_21 and formula_22.
+Non-separable (non-homogeneous) first-order linear ordinary differential equations.
+First-order linear non-homogeneous ODEs (ordinary differential equations) are not separable. They can be solved by the following approach, known as an "integrating factor" method. Consider first-order linear ODEs of the general form:
+The method for solving this equation relies on a special integrating factor, "μ":
+We choose this integrating factor because it has the special property that its derivative is itself times the function we are integrating, that is:
+Multiply both sides of the original differential equation by "μ" to get:
+Because of the special "μ" we picked, we may substitute "dμ"/"dx" for "μ" "p"("x"), simplifying the equation to:
+Using the product rule in reverse, we get:
+Integrating both sides:
+Finally, to solve for "y" we divide both sides by formula_30:
+Since "μ" is a function of "x", we cannot simplify any further directly.
+Second-order linear ordinary differential equations.
+A simple example.
+Suppose a mass is attached to a spring which exerts an attractive force on the mass proportional to the extension/compression of the spring. For now, we may ignore any other forces (gravity, friction, etc.). We shall write the extension of the spring at a time "t" as "x"("t"). Now, using Newton's second law we can write (using convenient units):
+where "m" is the mass and "k" is the spring constant that represents a measure of spring stiffness. For simplicity's sake, let us take "m=k" as an example.
+If we look for solutions that have the form formula_33, where "C" is a constant, we discover the relationship formula_34, and thus formula_35 must be one of the complex numbers formula_36 or formula_37. Thus, using Euler's formula we can say that the solution must be of the form:
+See a solution by WolframAlpha.
+To determine the unknown constants "A" and "B", we need "initial conditions", i.e. equalities that specify the state of the system at a given time (usually "t" = 0).
+For example, if we suppose at "t" = 0 the extension is a unit distance ("x" = 1), and the particle is not moving ("dx"/"dt" = 0). We have
+and so "A" = 1.
+and so "B" = 0.
+Therefore "x"("t") = cos "t". This is an example of simple harmonic motion.
+See a solution by Wolfram Alpha.
+A more complicated model.
+The above model of an oscillating mass on a spring is plausible but not very realistic: in practice, friction will tend to decelerate the mass and have magnitude proportional to its velocity (i.e. "dx"/"dt"). Our new differential equation, expressing the balancing of the acceleration and the forces, is
+where formula_42 is the damping coefficient representing friction. Again looking for solutions of the form formula_33, we find that
+This is a quadratic equation which we can solve. If formula_45 there are two complex conjugate roots "a" ± "ib", and the solution (with the above boundary conditions) will look like this:
+Let us for simplicity take formula_47, then formula_48 and formula_49.
+The equation can be also solved in MATLAB symbolic toolbox as
+x = dsolve('D2x+c*Dx+k*x=0','x(0)=1','Dx(0)=0')
+% or equivalently
+syms x(t) c k
+Dx = diff(x, t);
+x = dsolve(diff(x,t,2) + c*Dx + k*x == 0, x(0) == 1, Dx(0) == 0)
+although the solution looks rather ugly,
+x = (c + (c^2 - 4*k)^(1/2))/(2*exp(t*(c/2 - (c^2 - 4*k)^(1/2)/2))*(c^2 - 4*k)^(1/2)) - 
+ (c - (c^2 - 4*k)^(1/2))/(2*exp(t*(c/2 + (c^2 - 4*k)^(1/2)/2))*(c^2 - 4*k)^(1/2))
+This is a model of a damped oscillator. The plot of displacement against time would look like this:
+which resembles how one would expect a vibrating spring to behave as friction removes energy from the system.
+Linear systems of ODEs.
+The following example of a first order linear systems of ODEs
+can be easily solved symbolically using numerical analysis software.
+

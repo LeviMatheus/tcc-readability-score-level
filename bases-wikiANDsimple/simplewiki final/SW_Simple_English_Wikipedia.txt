@@ -1,0 +1,6 @@
+Simple English Wikipedia is a version of the Wikipedia encyclopedia, written in Simple English and started in 2004. As of, (UTC), Simple English Wikipedia has articles, pages and users. There have also been changes.
+The encyclopedia is supposed to be used by children, who might not understand the complicated articles in the English Wikipedia, and other people who are still learning English. Many articles are shorter than the same article in the English Wikipedia.
+Editors.
+Same as the other Wikipedias, including the, the articles are written by volunteers, and can be changed by anyone.
+There are certain editors who can do more with Wikipedia. They are called administrators and bureaucrats. They can delete articles, move them, and stop people from changing them. Bureaucrats can also make other people administrators.
+There are also some "bots" who change Wikipedia. These are programs made by editors to do easy changes, including fixing spelling mistakes, usually by themselves.

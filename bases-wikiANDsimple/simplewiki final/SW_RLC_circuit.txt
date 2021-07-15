@@ -1,0 +1,11 @@
+A circuit containing resistance(R), inductance(L), and capacitance(C) is called an RLC circuit.
+I shall here discuss only series simple RLC circuits(only one R,L,C). With a resistance R present,the total electromagnetic energy U of the circuit(the sum of the electric energy and
+magnetic energy)is no longer cistant: instead, it decreases with time as energy is transferred
+to thermal energy in the resistance. Because of this loss of energy, the oscillations of charge, current and potential difference continuosly decrease in amplitude, and the
+oscillations are said to be damped.
+As you will see, they are damped in exactly the same way as those of the damped blockspring oscillarator. to analyze the ocillations of this circuit, we write an equation for the total
+electromagnetic energy U in the circuit at any instant. Because the resistance does not store
+However, this total energy decreases as energy is transferred to thermal energy.
+where the minus sign indicates that U decreases. By differentiating Eq.1 with respect to time and
+then substituting the result in Eq.2, we obtain
+Substituting formula_4 for formula_5 and formula_6 for formula_7, we obtain

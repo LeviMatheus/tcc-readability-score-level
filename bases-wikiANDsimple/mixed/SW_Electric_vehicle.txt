@@ -1,0 +1,11 @@
+Electric vehicle (EV) is a vehicle that uses mainly the power of battery to AC or DC motor for driving.
+It was invented first by British R. Davidson in 1873 before gasoline vehicle being appeared.
+But after the 1st World War, it was hidden because of gasoline car's rapid progress.
+Set in 80's, While a pollution issue by car's exhaust gas comes to the front, electric vehicle was presented to the solution.
+But lack of Storage battery technology, commercialization has been delayed.
+However, new storage battery technology was proceeded rapidly around the United States while possibility of new technology was created coming to the early 90's. Specially, in case of the United States, in spite of company's strong opposition, California governments legislated the ZEV(Zero Emission Vehicle) regulation that oblige to use EV since 1998. Due to ZEV regulation, development of electric vehicle has been regularized.
+There are 2 kinds of electric vehicle in recent.
+The first kind is a vehicle that use fuel cell or solar cell which generate electricity directly from chemical reaction or heat.
+The second kind is a vehicle that drive by storage battery's energy.
+This vehicle use electric motor, so there are no sound, no vibration and no atmospheric contamination by exhaust gases from automobiles.
+However, battery's storage of electricity capability has limit and due to storage battery is so heavy and large, energy efficiency is decreased. Also, It takes much time to recharge battery, and mileage of a vehicle per 1 time recharge is short compared recharging time.

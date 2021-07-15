@@ -1,0 +1,5 @@
+Metre per second is an SI unit of measurement of both speed and velocity. It is defined by the distance in metres divided by the time in seconds. Its abbreviation is m/s or m·s-1. In astronomy, the unit is sometimes used in "kilometres per second" (equivalent to 1000 metres per second).
+Conversions.
+1 foot per second = 0.3048 m·s−1 (exactly)
+1 mile per hour ≈ 0.4471 m·s−1 (approximately)
+1 km·h-1 ≈ 0.2778 m·s−1 (approximately)

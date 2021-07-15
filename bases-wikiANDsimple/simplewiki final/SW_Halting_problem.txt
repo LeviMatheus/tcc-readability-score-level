@@ -1,0 +1,1 @@
+The Halting problem is a problem from Decidability theory. The problem is to find out if an algorithm (that is not infinitely long) will ever stop. Alan Turing proved in 1936 that there is no algorithm that can do that, in general.

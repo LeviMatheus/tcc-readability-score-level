@@ -1,0 +1,28 @@
+
+Luminance is a photometric measure of the luminous intensity per unit area of light travelling in a given direction. It describes the amount of light that passes through, is emitted from, or is reflected from a particular area, and falls within a given solid angle. 
+Brightness is the term for the "subjective" impression of the "objective" luminance measurement standard (see for the importance of this contrast).
+The SI unit for luminance is candela per square metre (cd/m2), as defined by the International System of Units (SI is from the French "Système international d'unités") standard for the modern metric system. A non-SI term for the same unit is the nit. The unit in the Centimetre–gram–second system of units (CGS) (which predated the SI system) is the stilb, which is equal to one candela per square centimetre or 10 kcd/m2.
+Description.
+Luminance is often used to characterize emission or reflection from flat, diffuse surfaces. Luminance levels indicate how much luminous power could be detected by the human eye looking at a particular surface from a particular angle of view. Luminance is thus an indicator of how bright the surface will appear. In this case, the solid angle of interest is the solid angle subtended by the eye's pupil. 
+Luminance is used in the video industry to characterize the brightness of displays. A typical computer display emits between 50 and . The sun has a luminance of about at noon.
+Luminance is invariant in geometric optics. This means that for an ideal optical system, the luminance at the output is the same as the input luminance. 
+For real, passive optical systems, the output luminance is "at most" equal to the input. As an example, if one uses a lens to form an image that is smaller than the source object, the luminous power is concentrated into a smaller area, meaning that the illuminance is higher at the image. The light at the image plane, however, fills a larger solid angle so the luminance comes out to be the same assuming there is no loss at the lens. The image can never be "brighter" than the source.
+Health effects.
+Retinal damage can occur when the eye is exposed to high luminance. Damage can occur because of local heating of the retina. Photochemical effects can also cause damage, especially at short wavelengths.
+Luminance meter.
+A luminance meter is a device used in photometry that can measure the luminance in a particular direction and with a particular solid angle. The simplest devices measure the luminance in a single direction while imaging luminance meters measure luminance in a way similar to the way a digital camera records color images.
+Mathematical definition.
+The luminance of a specified point of a light source, in a specified direction, is defined by the derivative
+where
+If light travels through a lossless medium, the luminance does not change along a given light ray. As the ray crosses an arbitrary surface "S", the luminance is given by
+where
+More generally, the luminance along a light ray can be defined as
+where
+Relation to Illuminance.
+The luminance of a reflecting surface is related to the illuminance it receives:
+where the integral covers all the directions of emission , and
+In the case of a perfectly diffuse reflector (also called a Lambertian reflector), the luminance is isotropic, per Lambert's cosine law. Then the relationship is simply
+Units.
+A variety of units have been used for luminance, besides the candela per square metre.
+One candela per square metre is equal to:
+

@@ -1,0 +1,2 @@
+Binary fission is a method of asexual reproduction. It is common in prokaryotes. A living cell divides into two cells. The two cells should be identical, but since mutation can occur, there might be slight differences.
+Most bacteria reproduce by a process of binary transverse fission, in which the cell grows in volume until it divides in half to yield two identical daughter cells. Each daughter cell can continue to grow at the same rate as its parent. For this process to occur, the cell must grow over its entire surface until the time of cell division.

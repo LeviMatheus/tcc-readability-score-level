@@ -1,0 +1,38 @@
+
+The accusative case (abbreviated ) of a noun is the grammatical case used to mark the direct object of a transitive verb. The same case is used in many languages for the objects of (some or all) prepositions. It is usually combined with the nominative case (for example in Latin).
+The English term, "accusative", derives from the Latin , which, in turn, is a translation of the Greek . The word may also mean "causative", and this may have been the Greeks' intention in this name, but the sense of the Roman translation has endured and is used in some other modern languages as the grammatical term for this case, for example in Russian ().
+The accusative case is typical of early Indo-European languages and still exists in some of them (including Armenian, Latin, Sanskrit, Greek, German, Polish, Russian, and Serbian), in the Finno-Ugric languages (such as Finnish and Hungarian), in all Turkic languages, and in Semitic languages (such as Arabic). Some Balto-Finnic languages, such as Finnish, have two cases to mark objects, the accusative and the partitive case. In morphosyntactic alignment terms, both perform the accusative function, but the accusative object is telic, while the partitive is not.
+Modern English almost entirely lacks declension in its nouns; pronouns, however, have an oblique case as in "them", "her", "him" and "whom", which merges the accusative and dative functions, and originates in old Germanic dative forms (see Declension in English).
+Example.
+In the sentence "I see the car", the noun phrase "the car" is the direct object of the verb "see". In English, which has mostly lost the case system, the definite article and noun – "the car" – remain in the same form regardless of the grammatical role played by the words. One can correctly use "the car" as the subject of a sentence also: "The car is parked here."
+In a declined language, the morphology of the article or noun changes in some way according to the grammatical role played by the noun in a given sentence. For example, in German, one possible translation of "the car" is . This is the form in the nominative case, used for the subject of a sentence. If this article/noun pair is used as the object of a verb, it (usually) changes to the accusative case, which entails an article shift in German – (I see the car). In German, masculine nouns change their definite article from to in the accusative case.
+Latin.
+The accusative case in Latin has minor differences from the accusative case in Proto-Indo-European (PIE). 
+Nouns in the accusative case () can be used:
+For the accusative endings, see Latin declensions.
+German.
+The accusative case is used for the direct object in a sentence. The masculine forms for German articles, e.g., 'the', 'a/an', 'my', etc., change in the accusative case: they always end in -en. The feminine, neutral and plural forms do not change.
+For example, (dog) is a masculine () word, so the article changes when used in the accusative case:
+Some German pronouns also change in the accusative case.
+The accusative case is also used after particular German prepositions. These include , , , , , , after which the accusative case is always used, and , , , , , , , , which can govern either the accusative or the dative. The latter prepositions take the accusative when motion or action is specified (being done into/onto the space), but take the dative when location is specified (being done in/on that space). These prepositions are also used in conjunction with certain verbs, in which case it is the verb in question which governs whether the accusative or dative should be used.
+Adjective endings also change in the accusative case. Another factor that determines the endings of adjectives is whether the adjective is being used after a definite article (the), after an indefinite article (a/an) or without any article before the adjective ("many" green apples).
+In German, the accusative case is also used for some adverbial expressions, mostly temporal ones, as in (This evening I'm staying at home), where is marked as accusative, although not a direct object.
+Russian.
+In Russian, accusative is used not only to display the direct object of an action, but also to indicate the destination or goal of motion. It is also used with some prepositions. The prepositions and can both take accusative in situations where they are indicating the goal of a motion.
+In the masculine, Russian also distinguishes between animate and inanimate nouns with regard to the accusative; only the animates carry a marker in this case.
+The PIE accusative case has nearly eroded in Russian, merging with the genitive or the nominative in most declensions. Only singular first-declension nouns (ending in ", ", or ") have a distinct accusative (", ", or ").
+Esperanto.
+Esperanto grammar involves only two cases, a nominative and an accusative. The accusative is formed by the addition of to the nominative form, and is the case used for direct objects. Other objective functions, including dative functions are achieved with prepositions, all of which normally take the nominative case. Direction of motion can be expressed either by the accusative case, by the preposition (to) with the nominative, or by affixing to the adverbial form .
+Ido.
+In Ido the suffix is optional, as subject-verb-object order is the norm. Note that this is sometimes done in Esperanto, especially by beginners, but it is considered grammatically incorrect.
+Finnish.
+Traditional Finnish grammars say the accusative is the case of a total object, while the case of a partial object is the partitive. The accusative is identical either to the nominative or the genitive, except for personal pronouns and the personal interrogative pronoun /, which have a special accusative form ending in .
+The major new Finnish grammar, , breaks with the traditional classification to limit the accusative case to the special case of the personal pronouns and /. The new grammar considers other total objects as being in the nominative or genitive case.
+Semitic languages.
+Accusative case marking existed in Proto-Semitic, Akkadian, and Ugaritic. It is preserved today only in Modern Standard Arabic and Ge'ez.
+Accusative in Akkadian
+Accusative in Arabic
+The accusative case is called in Arabic () and it has many other uses in addition to marking the object of a verb.
+Japanese.
+In Japanese, cases are marked by placing particles after nouns. The accusative case is marked with を (wo, pronounced ).
+

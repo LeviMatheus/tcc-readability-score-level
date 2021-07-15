@@ -1,0 +1,3 @@
+The optimization of software is a branch of the Engineering of Software that tries to turn existing programs into other programs that realize the same tasks in less time, with less requests of memory, or in general using the resources of ideal form.
+The optimization can have sense at different levels, from the lowest (development of circuits, writing of machine code designed especially for the architecture) up to the highest levels of making of implementation, use or design of algorithms.
+The optimization is generally recommended to leave until the end of the process of development, since the premature optimization can introduce new errors (generally more difficult to detect for being of algorithmic nature).

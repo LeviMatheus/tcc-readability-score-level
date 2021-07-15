@@ -1,0 +1,19 @@
+
+In mathematics, the ascending chain condition (ACC) and descending chain condition (DCC) are finiteness properties satisfied by some algebraic structures, most importantly ideals in certain commutative rings. These conditions played an important role in the development of the structure theory of commutative rings in the works of David Hilbert, Emmy Noether, and Emil Artin.
+The conditions themselves can be stated in an abstract form, so that they make sense for any partially ordered set. This point of view is useful in abstract algebraic dimension theory due to Gabriel and Rentschler.
+Definition.
+A partially ordered set (poset) "P" is said to satisfy the ascending chain condition (ACC) if no infinite strictly ascending sequence 
+of elements of "P" exists. 
+Equivalently, every weakly ascending sequence
+of elements of "P" eventually stabilizes, meaning that there exists a positive integer "n" such that
+Similarly, "P" is said to satisfy the descending chain condition (DCC) if there is no infinite descending chain of elements of "P". Equivalently, every weakly descending sequence
+of elements of "P" eventually stabilizes.
+Example.
+Consider the ring
+of integers. Each ideal of formula_6 consists of all multiples of some number formula_7. For example, the ideal
+consists of all multiples of formula_9. Let
+be the ideal consisting of all multiples of formula_11. The ideal formula_12 is contained inside the ideal formula_13, since every multiple of formula_9 is also a multiple of formula_11. In turn, the ideal formula_13 is contained in the ideal formula_6, since every multiple of formula_11 is a multiple of formula_19. However, at this point there is no larger ideal; we have "topped out" at formula_6.
+In general, if formula_21 are ideals of formula_6 such that formula_23 is contained in formula_24, formula_24 is contained in formula_26, and so on, then there is some formula_7 for which all formula_28. That is, after some point all the ideals are equal to each other. Therefore, the ideals of formula_6 satisfy the ascending chain condition, where ideals are ordered by set inclusion. Hence formula_6 is a Noetherian ring.
+
+
+

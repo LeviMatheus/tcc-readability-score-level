@@ -1,0 +1,76 @@
+
+In mathematics, a binary relation over sets and is a subset of the Cartesian product ; that is, it is a set of ordered pairs consisting of elements in and in . It encodes the common concept of relation: an element is "related" to an element , if and only if the pair belongs to the set of ordered pairs that defines the "binary relation". A binary relation is the most studied special case of an -ary relation over sets , which is a subset of the Cartesian product .
+An example of a binary relation is the "divides" relation over the set of prime numbers formula_1 and the set of integers formula_2, in which each prime is related to each integer that is a multiple of , but not to an integer that is not a multiple of . In this relation, for instance, the prime number 2 is related to numbers such as −4, 0, 6, 10, but not to 1 or 9, just as the prime number 3 is related to 0, 6, and 9, but not to 4 or 13.
+Binary relations are used in many branches of mathematics to model a wide variety of concepts. These include, among others:
+A function may be defined as a special kind of binary relation. Binary relations are also heavily used in computer science.
+A binary relation over sets and is an element of the power set of . Since the latter set is ordered by inclusion (⊆), each relation has a place in the lattice of subsets of .
+Since relations are sets, they can be manipulated using set operations, including union, intersection, and complementation, and satisfying the laws of an algebra of sets. Beyond that, operations like the converse of a relation and the composition of relations are available, satisfying the laws of a calculus of relations, for which there are textbooks by Ernst Schröder, Clarence Lewis, and Gunther Schmidt. A deeper analysis of relations involves decomposing them into subsets called "concepts", and placing them in a complete lattice.
+In some systems of axiomatic set theory, relations are extended to classes, which are generalizations of sets. This extension is needed for, among other things, modeling the concepts of "is an element of" or "is a subset of" in set theory, without running into logical inconsistencies such as Russell's paradox.
+The terms "correspondence", dyadic relation and two-place relation are synonyms for binary relation, though some authors use the term "binary relation" for any subset of a Cartesian product without reference to and , and reserve the term "correspondence" for a binary relation with reference to and .
+Definition.
+Given sets "X" and "Y", the Cartesian product is defined as {("x", "y") | "x" ∈ "X" and "y" ∈ "Y"}, and its elements are called ordered pairs.
+A "binary relation" "R" over sets "X" and "Y" is a subset of . The set "X" is called the domain or "set of departure" of "R", and the set "Y" the "codomain" or "set of destination" of "R". In order to specify the choices of the sets "X" and "Y", some authors define a "binary relation" or "correspondence" as an ordered triple , where "G" is a subset of called the "graph" of the binary relation. The statement reads ""x" is "R"-related to "y"" and is denoted by "xRy". The "domain of definition" or "active domain" of "R" is the set of all "x" such that "xRy" for at least one "y". The "codomain of definition", "active codomain", "image" or "range" of "R" is the set of all "y" such that "xRy" for at least one "x". The "field" of "R" is the union of its domain of definition and its codomain of definition.
+When , a binary relation is called a "homogeneous relation" (or "endorelation"). To emphasize the fact that "X" and "Y" are allowed to be different, a binary relation is also called a "heterogeneous relation".
+In a binary relation, the order of the elements is important; if then "yRx" can be true or false independently of "xRy". For example, 3 divides 9, but 9 does not divide 3.
+Example.
+The following example shows that the choice of codomain is important. Suppose there are four objects "A" = {ball, car, doll, cup} and four people "B" = {John, Mary, Ian, Venus}. A possible relation on "A" and "B" is the relation "is owned by", given by "R" = {(ball, John), (doll, Mary), (car, Venus)}. That is, John owns the ball, Mary owns the doll, and Venus owns the car. Nobody owns the cup and Ian owns nothing, see 1st example. As a set, "R" does not involve Ian, and therefore "R" could have been viewed as a subset of "A" × {John, Mary, Venus}, i.e. a relation over "A" and {John, Mary, Venus}, see 2nd example. While the 2nd example relation is surjective (see below), the 1st is not.
+Special types of binary relations.
+Some important types of binary relations "R" over sets "X" and "Y" are listed below.
+Uniqueness properties:
+Totality properties (only definable if the domain "X" and codomain "Y" are specified):
+Uniqueness and totality properties (only definable if the domain "X" and codomain "Y" are specified):
+Operations on binary relations.
+Union.
+If "R" and "S" are binary relations over sets "X" and "Y" then "R" ∪ "S" = {("x", "y") | "xRy" or "xSy"} is the of "R" and "S" over "X" and "Y".
+The identity element is the empty relation. For example, ≤ is the union of &lt; and =, and ≥ is the union of &gt; and =.
+Intersection.
+If "R" and "S" are binary relations over sets "X" and "Y" then "R" ∩ "S" = {("x", "y") | "xRy" and "xSy"} is the of "R" and "S" over "X" and "Y".
+The identity element is the universal relation. For example, the relation "is divisible by 6" is the intersection of the relations "is divisible by 3" and "is divisible by 2".
+Composition.
+If "R" is a binary relation over sets "X" and "Y", and "S" is a binary relation over sets "Y" and "Z" then "S" ∘ "R" = {("x", "z") | there exists "y" ∈ "Y" such that "xRy" and "ySz"} (also denoted by ) is the of "R" and "S" over "X" and "Z".
+The identity element is the identity relation. The order of "R" and "S" in the notation , used here agrees with the standard notational order for composition of functions. For example, the composition "is mother of" ∘ "is parent of" yields "is maternal grandparent of", while the composition "is parent of" ∘ "is mother of" yields "is grandmother of".
+Converse.
+If "R" is a binary relation over sets "X" and "Y" then "R"T = {("y", "x") | "xRy"} is the "converse relation" of "R" over "Y" and "X".
+For example, = is the converse of itself, as is ≠, and &lt; and &gt; are each other's converse, as are ≤ and ≥. A binary relation is equal to its converse if and only if it is symmetric.
+Complement.
+If "R" is a binary relation over sets "X" and "Y" then = {("x", "y") | not "xRy"} (also denoted by or ) is the "complementary relation" of "R" over "X" and "Y".
+For example, = and ≠ are each other's complement, as are ⊆ and ⊈, ⊇ and ⊉, and ∈ and ∉, and, for total orders, also &lt; and ≥, and &gt; and ≤.
+The complement of the converse relation is the converse of the complement: formula_3
+If , the complement has the following properties:
+Restriction.
+If "R" is a binary relation over a set "X" and "S" is a subset of "X" then "R"|"S" = {("x", "y") | "xRy" and "x" ∈ "S" and "y" ∈ "S"} is the of "R" to "S" over "X".
+If "R" is a binary relation over sets "X" and "Y" and "S" is a subset of "X" then "R"|"S" = {("x", "y") | "xRy" and "x" ∈ "S"} is the of "R" to "S" over "X" and "Y".
+If "R" is a binary relation over sets "X" and "Y" and "S" is a subset of "Y" then "R"|"S" = {("x", "y") | "xRy" and "y" ∈ "S"} is the of "R" to "S" over "X" and "Y".
+If a relation is reflexive, irreflexive, symmetric, antisymmetric, asymmetric, transitive, total, trichotomous, a partial order, total order, strict weak order, total preorder (weak order), or an equivalence relation, then so are its restrictions too.
+However, the transitive closure of a restriction is a subset of the restriction of the transitive closure, i.e., in general not equal. For example, restricting the relation ""x" is parent of "y" to females yields the relation "x" is mother of the woman "y""; its transitive closure doesn't relate a woman with her paternal grandmother. On the other hand, the transitive closure of "is parent of" is "is ancestor of"; its restriction to females does relate a woman with her paternal grandmother.
+Also, the various concepts of completeness (not to be confused with being "total") do not carry over to restrictions. For example, over the real numbers a property of the relation ≤ is that every non-empty subset "S" of R with an upper bound in R has a least upper bound (also called supremum) in R. However, for the rational numbers this supremum is not necessarily rational, so the same property does not hold on the restriction of the relation ≤ to the rational numbers.
+A binary relation "R" over sets "X" and "Y" is said to be in a relation "S" over "X" and "Y", written , if "R" is a subset of "S", that is, for all , if "xRy", then "xSy". If "R" is contained in "S" and "S" is contained in "R", then "R" and "S" are called "equal" written "R" = "S". If "R" is contained in "S" but "S" is not contained in "R", then "R" is said to be than "S", written . For example, on the rational numbers, the relation &gt; is smaller than ≥, and equal to the composition 
+Matrix representation.
+Binary relations over sets "X" and "Y" can be represented algebraically by logical matrices indexed by "X" and "Y" with entries in the Boolean semiring (addition corresponds to OR and multiplication to AND) where matrix addition corresponds to union of relations, matrix multiplication corresponds to composition of relations (of a relation over "X" and "Y" and a relation over "Y" and "Z"), the Hadamard product corresponds to intersection of relations, the zero matrix corresponds to the empty relation, and the matrix of ones corresponds to the universal relation. Homogeneous relations (when ) form a matrix semiring (indeed, a matrix semialgebra over the Boolean semiring) where the identity matrix corresponds to the identity relation.
+Sets versus classes.
+Certain mathematical "relations", such as "equal to", "subset of", and "member of", cannot be understood to be binary relations as defined above, because their domains and codomains cannot be taken to be sets in the usual systems of axiomatic set theory. For example, if we try to model the general concept of "equality" as a binary relation =, we must take the domain and codomain to be the "class of all sets", which is not a set in the usual set theory.
+In most mathematical contexts, references to the relations of equality, membership and subset are harmless because they can be understood implicitly to be restricted to some set in the context. The usual work-around to this problem is to select a "large enough" set "A", that contains all the objects of interest, and work with the restriction ="A" instead of =. Similarly, the "subset of" relation ⊆ needs to be restricted to have domain and codomain P("A") (the power set of a specific set "A"): the resulting set relation can be denoted by ⊆"A". Also, the "member of" relation needs to be restricted to have domain "A" and codomain P("A") to obtain a binary relation ∈"A" that is a set. Bertrand Russell has shown that assuming ∈ to be defined over all sets leads to a contradiction in naive set theory.
+Another solution to this problem is to use a set theory with proper classes, such as NBG or Morse–Kelley set theory, and allow the domain and codomain (and so the graph) to be proper classes: in such a theory, equality, membership, and subset are binary relations without special comment. (A minor modification needs to be made to the concept of the ordered triple , as normally a proper class cannot be a member of an ordered tuple; or of course one can identify the binary relation with its graph in this context.) With this definition one can for instance define a binary relation over every set and its power set.
+Homogeneous relation.
+A homogeneous relation (also called endorelation) over a set "X" is a binary relation over "X" and itself, i.e. it is a subset of the Cartesian product . It is also simply called a (binary) relation over "X". An example of a homogeneous relation is the relation of kinship, where the relation is over people.
+A homogeneous relation "R" over a set "X" may be identified with a directed simple graph permitting loops, or if it is symmetric, with an undirected simple graph permitting loops, where "X" is the vertex set and "R" is the edge set (there is an edge from a vertex "x" to a vertex "y" if and only if ). It is called the "adjacency relation" of the graph.
+The set of all homogeneous relations formula_4 over a set "X" is the set which is a Boolean algebra augmented with the involution of mapping of a relation to its converse relation. Considering composition of relations as a binary operation on formula_4, it forms a semigroup with involution.
+Particular homogeneous relations.
+Some important particular homogeneous relations over a set "X" are:
+For arbitrary elements "x" and "y" of "X":
+Properties.
+Some important properties that a homogeneous relation over a set may have are:
+The previous 6 alternatives are far from being exhaustive; e.g., the red binary relation given in the section Special types of binary relations is neither irreflexive, nor coreflexive, nor reflexive, since it contains the pair , and , but not , respectively. The latter two facts also rule out (any kind of) quasi-reflexivity.
+Again, the previous 3 alternatives are far from being exhaustive; as an example over the natural numbers, the relation defined by is neither symmetric nor antisymmetric, let alone asymmetric.
+Again, the previous 5 alternatives are not exhaustive. For example, the relation if ( or ) satisfies none of these properties. On the other hand, the empty relation trivially satisfies all of them.
+A is a relation that is reflexive and transitive. A , also called or , is a relation that is reflexive, transitive, and connected.
+A , also called , is a relation that is reflexive, antisymmetric, and transitive. A , also called , is a relation that is irreflexive, antisymmetric, and transitive. A , also called , , or , is a relation that is reflexive, antisymmetric, transitive and connected. A , also called , , or , is a relation that is irreflexive, antisymmetric, transitive and connected.
+A is a relation that is symmetric and transitive. An is a relation that is reflexive, symmetric, and transitive. It is also a relation that is symmetric, transitive, and serial, since these properties imply reflexivity.
+Operations.
+If "R" is a homogeneous relation over a set "X" then each of the following is a homogeneous relation over "X":
+All operations defined in the section Operations on binary relations also apply to homogeneous relations.
+Enumeration.
+The number of distinct homogeneous relations over an "n"-element set is :
+Notes:
+The homogeneous relations can be grouped into pairs (relation, complement), except that for the relation is its own complement. The non-symmetric ones can be grouped into quadruples (relation, complement, inverse, inverse complement).
+

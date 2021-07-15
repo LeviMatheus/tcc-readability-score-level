@@ -1,0 +1,29 @@
+
+In mathematics, specifically abstract algebra, an integral domain is a nonzero commutative ring in which the product of any two nonzero elements is nonzero. Integral domains are generalizations of the ring of integers and provide a natural setting for studying divisibility. In an integral domain, every nonzero element "a" has the cancellation property, that is, if , an equality implies .
+"Integral domain" is defined almost universally as above, but there is some variation. This article follows the convention that rings have a multiplicative identity, generally denoted 1, but some authors do not follow this, by not requiring integral domains to have a multiplicative identity. Noncommutative integral domains are sometimes admitted. This article, however, follows the much more usual convention of reserving the term "integral domain" for the commutative case and using "domain" for the general case including noncommutative rings.
+Some sources, notably Lang, use the term entire ring for integral domain.
+Some specific kinds of integral domains are given with the following chain of class inclusions:
+Definition.
+An "integral domain" is a nonzero commutative ring in which the product of any two nonzero elements is nonzero. Equivalently:
+Non-examples.
+The following rings are "not" integral domains.
+Divisibility, prime elements, and irreducible elements.
+In this section, "R" is an integral domain.
+Given elements "a" and "b" of "R", one says that "a" "divides" "b", or that "a" is a "divisor" of "b", or that "b" is a "multiple" of "a", if there exists an element "x" in "R" such that .
+The "units" of "R" are the elements that divide 1; these are precisely the invertible elements in "R". Units divide all other elements.
+If "a" divides "b" and "b" divides "a", then "a" and "b" are associated elements or associates. Equivalently, "a" and "b" are associates if for some unit "u".
+An "irreducible element" is a nonzero non-unit that cannot be written as a product of two non-units.
+A nonzero non-unit "p" is a "prime element" if, whenever "p" divides a product "ab", then "p" divides "a" or "p" divides "b". Equivalently, an element "p" is prime if and only if the principal ideal ("p") is a nonzero prime ideal. 
+Both notions of irreducible elements and prime elements generalize the ordinary definition of prime numbers in the ring formula_56 if one considers as prime the negative primes.
+Every prime element is irreducible. The converse is not true in general: for example, in the quadratic integer ring formula_57 the element 3 is irreducible (if it factored nontrivially, the factors would each have to have norm 3, but there are no norm 3 elements since formula_58 has no integer solutions), but not prime (since 3 divides formula_59 without dividing either factor). In a unique factorization domain (or more generally, a GCD domain), an irreducible element is a prime element.
+While unique factorization does not hold in formula_57, there is unique factorization of ideals. See Lasker–Noether theorem.
+Field of fractions.
+The field of fractions "K" of an integral domain "R" is the set of fractions "a"/"b" with "a" and "b" in "R" and "b" ≠ 0 modulo an appropriate equivalence relation, equipped with the usual addition and multiplication operations. It is "the smallest field containing "R" " in the sense that there is an injective ring homomorphism such that any injective ring homomorphism from "R" to a field factors through "K". The field of fractions of the ring of integers formula_1 is the field of rational numbers formula_64 The field of fractions of a field is isomorphic to the field itself.
+Algebraic geometry.
+Integral domains are characterized by the condition that they are reduced (that is "x"2 = 0 implies "x" = 0) and irreducible (that is there is only one minimal prime ideal). The former condition ensures that the nilradical of the ring is zero, so that the intersection of all the ring's minimal primes is zero. The latter condition is that the ring have only one minimal prime. It follows that the unique minimal prime ideal of a reduced and irreducible ring is the zero ideal, so such rings are integral domains. The converse is clear: an integral domain has no nonzero nilpotent elements, and the zero ideal is the unique minimal prime ideal.
+This translates, in algebraic geometry, into the fact that the coordinate ring of an affine algebraic set is an integral domain if and only if the algebraic set is an algebraic variety.
+More generally, a commutative ring is an integral domain if and only if its spectrum is an integral affine scheme.
+Characteristic and homomorphisms.
+The characteristic of an integral domain is either 0 or a prime number.
+If "R" is an integral domain of prime characteristic "p", then the Frobenius endomorphism "f"("x") = "x""p" is injective.
+

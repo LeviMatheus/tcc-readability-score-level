@@ -1,0 +1,1 @@
+The phrase: bitwise operation is used in electronics and is used in computer programming to change numbers using an operation, such as AND, OR, NOT, Exclusive Or (XOR), or Not And (NAND).

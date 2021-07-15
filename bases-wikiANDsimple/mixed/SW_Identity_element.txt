@@ -1,0 +1,2 @@
+In mathematics, the identity element (or neutral element) of a set is a special element of that set. It is special because if it is combined with another element of that set, it does not change the other element.
+With addition, the identity element is 0, because adding 0 to some number does not change the number. With multiplication, it is 1.

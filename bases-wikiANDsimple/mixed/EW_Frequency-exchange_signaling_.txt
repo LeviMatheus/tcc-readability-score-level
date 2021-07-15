@@ -1,0 +1,4 @@
+
+In telegraphy, frequency-exchange signaling or two-source frequency keying is frequency-change signaling in which the change from one significant condition to another is accompanied by decay in amplitude of one or more frequencies and by buildup in amplitude of one or more other frequencies.
+Frequency-exchange signaling applies to supervisory signaling and user-information transmission. 
+

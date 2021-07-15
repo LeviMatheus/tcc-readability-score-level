@@ -1,0 +1,6 @@
+Scanners, or computer scanners are used to transfer images or text into a computer. There are special models for scanning photo negatives, or to scan books. In the computer, the signal from the scanner is transferred to a digital image. This image can then be edited, printed, etc. All scanners have special parts which are used to take a picture from an object.
+Charge-coupled device or Contact Image Sensor parts take the light from the object and change it to a digital signal. The digital signal is then transferred to the computer memory or is read in scanner's processor. With some software it can be changed to compressed digital image, like JPEG or PNG. The text written by hand can be changed to ASCII code by an OCR program.
+Types.
+The most popular scanner model is desktop scanner ("flatbed"). An object to be scanned (picture, image, text sheet) is put on the glass. Under the glass, there is a moving Image Sensor. At present, it is a popular part of desktop printers.
+Another scanner type is the hand scanner. The device is moved on the paper by hand. It was popular during the 1990s. Many hand-scanners had interface for Amiga Commodore computer.
+The third type is rotary scanner used for fast scanning many papers.

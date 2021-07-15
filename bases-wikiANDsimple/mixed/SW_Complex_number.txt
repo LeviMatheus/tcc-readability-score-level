@@ -1,0 +1,6 @@
+A complex number is a type of number. With algebra, a person can do addition, subtraction, multiplication, and division. Using negative numbers, it is possible to find the "x" in the equation formula_1 for all possible values of "a" and "b".
+With multiplication and division, there is a problem. There is no normal number that gives -1 when it is multiplied by itself. In other words, -1 (or any other negative number) has no square root. To solve this problem, mathematicians introduced an "imaginary number" called "i". That imaginary number will give -1 when it is multiplied by itself.
+The first mathematicians to have thought of this were probably Gerolamo Cardano and Raffaele Bombelli. They lived in the 16th century. It was probably Leonhard Euler who introduced writing formula_2 for that number.
+A complex number can now be written as formula_3, where "a" is called the "real" part of the number, and "b" is called the imaginary part. Usually, the complex number is written as ("a","b"). Both "a" and "b" are real numbers.
+A real number can simply be written as formula_4 or ("a",0).
+With complex numbers it is possible to do all the four basic calculations as defined in algebra, but also more complicated calculations.

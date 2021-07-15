@@ -1,0 +1,4 @@
+
+The data values of standard electrode potentials ("E"°) are given in the table below, in volts relative to the standard hydrogen electrode, and are for the following conditions:
+Legend: ("s") – solid; ("l") – liquid; ("g") – gas; ("aq") – aqueous (default for all charged species); ("Hg") – amalgam; bold – water electrolysis equations.
+

@@ -1,0 +1,58 @@
+An Embedded system is a computer that has been built to solve only a few very specific problems. Very often, such systems must give an answer in a specified time. This is called real-time computing. These computers are usually "embedded", they are parts of different devices. In contrast, a general-purpose computer can do many different tasks depending on programming. Embedded systems control many of the common devices in use today.
+Embedded systems use embedded operating systems which are often real-time operating systems. These operating systems are designed to be very compact and efficient, by dropping many functions that non-embedded computer operating systems provide when these functions are not used by the embedded applications they run.
+Since the embedded system is dedicated to specific tasks, design engineers can optimize it, reducing the size and cost of the product, or increasing the reliability and performance.
+Physically, embedded systems range from portable devices such as MP3 players and digital cameras, to large systems like traffic lights, factory controllers, or the systems controlling nuclear power plants.
+Complexity varies from very low, with a single microcontroller chip, to very high with multiple microcontroller units with peripherals and networks mounted inside a large chassis or enclosure.
+In general, "embedded system" is not an exactly defined term, as many systems can load and run applications. For example, Mobile devices share some elements with embedded systems — such as the operating systems and microprocessors which runs them — but are not truly embedded systems, because they allow different applications to be loaded and peripherals to be connected like general-purpose computers.
+Examples of embedded systems.
+Telecommunications systems uses huge amount of embedded systems from telephone switches to mobile phone network.
+Computer networking uses dedicated routers and bridges to route data.
+Consumer electronics include personal digital assistants (PDAs), MP3 players, mobile phones, video game consoles, digital cameras, DVD players, GPS receivers, and printers.
+Many household appliances, such as microwave ovens, washing machines and dishwashers, are including embedded systems to provide flexibility, efficiency and features.
+Transportation systems from aeroplanes to automobiles uses embedded systems.
+New airplanes contain advanced avionics such as autopilot, inertial guidance systems and GPS receivers.
+Various electric motors are using embedded electronic motor controllers.
+Automobiles, electric vehicles and hybrid vehicles are increasingly using embedded systems to maximize efficiency and reduce pollution.
+User interfaces.
+Embedded systems range from no user interface at all — doing only to one job — to complex graphical user interfaces and consoles similar to modern computer with desktop operating systems.
+Simple systems.
+Simple embedded devices use buttons, LEDs, and small character- or digit-only displays, often with a simple menu system.
+In more complex systems.
+A full graphical touch screen having buttons with the meaning of the buttons changing with each screen as in smart phones.
+CPU platforms.
+Embedded processors (CPUs) can be divided into two categories: ordinary microprocessors (μP) and microcontrollers (μC). Microcontrollers (μC) have many more peripherals on chip, reducing the cost and size.
+Ready made computer boards.
+104 and PC/104+ are examples of available "ready made" computer boards intended for small, low-volume and high-volume embedded systems. These often use DOS, Linux, NetBSD, or an embedded real-time operating system such as OS-II, QNX or VxWorks.
+In certain applications, where small size is un-important, the components used may be like those used in general purpose computers. Boards such as the VIA EPIA range help to narrow the gap by being PC-compatible, such boards are highly integrated, physically smaller or have other properties which make them attractive to embedded engineers. The advantage of this method is that low-cost products and components may be used along with the same software development tools used for general software development. Examples of such embedded devices are the ATMs.
+ASIC and FPGA solutions.
+A common configuration for "very-high-volume" embedded systems is the system on a chip (SoC) which holds a complete system consisting of (multiple) processors, multipliers, caches and interfaces on a single integrated circuit. SoCs can be implemented as an application-specific integrated circuit (ASIC) or by using a field-programmable gate array (FPGA).
+Tools.
+As the complexity of embedded systems grows, higher level tools and operating systems are moving toward the embedding industry, example of such systems are the open programming environment including Linux, NetBSD, OSGi or Embedded Java, etc.
+Debugging.
+Unless restricted to external debugging, the programmer can typically load and run software through the tools, view the code running in the processor, and start or stop its operation. The view of the code may be as assembly code or source-code.
+Because an embedded system is often composed of a wide variety of elements, the debugging strategy may vary. For instance, debugging a software- (and microprocessor-) centric embedded system is different from debugging an embedded system where most of the processing is performed by peripherals (DSP, FPGA, co-processor).
+An increasing number of embedded systems today use more than one single processor core. A common problem with multi-core development is the proper synchronization of software execution. In such a case, the embedded system design may wish to check the data traffic on the busses between the processor cores, which requires very low-level debugging, at signal/bus level, with a logic analyzer, for instance.
+Reliability.
+Embedded systems often reside in machines that are expected to run continuously for years without errors, and in some cases recover by themselves if an error occurs. Therefore the software is usually developed and tested more carefully than that for personal computers, and unreliable mechanical moving parts such as disk drives, switches or buttons are avoided.
+Embedded software designs.
+There are several different types of embedded software designs in common use.
+Simple control loop.
+In this design, the software simply has a loop. The loop calls subroutines, each subroutine manages a part of the hardware or software.
+Interrupt controlled system.
+Some embedded systems are mainly interrupt controlled. This means that tasks performed by the system are generated by different kinds of events. An interrupt could be generated for example by a timer in a predefined frequency, or by a serial port receiving a byte.
+These kinds of systems have a main loop which runs a simple task, this tasks is not very sensitive to time. Sometimes the interrupt handler adds longer tasks to be executed by the main loop.
+Cooperative multitasking.
+A nonpreemptive multitasking system which is very similar to the "simple control loop" design, except that the loop is hidden in an API. The programmer defines a set of tasks, each task gets its turn to "run", when it finsh it calls a routine to run the next task.
+Unlike "simple control loop" systems, adding new software is easier, by simply writing a new task and adding it to the tasks queue.
+Preemptive multitasking or multi-threading.
+In this type of system, a certain method is used to switch between tasks or threads based on a timer interrupt. At this level the system is considered to have an "operating system" kernel and can run tasks in parallel.
+Because of the complexities of parallel computing, it is common to buy a real-time operating system, allowing programmers to concentrate on embedded applications and devices functionality rather than operating system details.
+Microkernels and exokernels.
+A microkernel is a logical step up from a real-time operating system. The usual arrangement is that the operating system kernel allocates memory and switches the CPU to different threads of execution. User mode processes implement major functions such as file systems, network interfaces, etc.
+In general, microkernels succeed when the task switching and inter-task communication is fast, and fail when they are slow.
+Exokernels communicate in a good way by normal subroutine calls. The hardware and software in the system are available to, and extendable by, application programmers.
+Monolithic kernels.
+In this case, a large kernel with complex capabilities and features is used by the embedded system. This gives programmers an environment similar to a desktop operating system like Linux or Microsoft Windows, and is therefore very good for development; However requires more hardware resources, more expensive, and can be less reliable; because of the complexity of these kernels.
+Common examples of embedded monolithic kernels are Embedded Linux and Windows CE.
+Additional software components.
+In addition to the embedded operating system, many embedded systems have additional upper-layer software components. These components consists of networking protocol stacks like IP, FTP and HTTP, also includes storage features like disk partitioning and Flash memory management systems.

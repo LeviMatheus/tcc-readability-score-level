@@ -1,0 +1,70 @@
+
+Slovak () or alternatively Slovakian, is a West Slavic language of the Czech–Slovak group. Spoken by approximately 5 million people as a native language, primarily ethnic Slovaks, it serves as the official language of Slovakia and one of the 24 official languages of the European Union.
+Slovak is closely related to Czech, to the point of mutual intelligibility to a very high degree, as well as Polish. Like other Slavic languages, Slovak is a fusional language with a complex system of morphology and relatively flexible word order. Its vocabulary has been extensively influenced by Latin and German and other Slavic languages.
+The Czech–Slovak group developed within West Slavic in the high medieval period, and the standardization of Czech and Slovak within the Czech–Slovak dialect continuum emerged in the early modern period. In the later mid-19th century, the modern Slovak alphabet and written standard became codified by Ľudovít Štúr and reformed by Martin Hattala. The Moravian dialects spoken in the western part of the country along the border with the Czech Republic are also sometimes classified as Slovak, although some of their western variants are closer to Czech; they nonetheless form the bridge dialects between the two languages.
+Slovak speakers are also found in the Slovak diaspora in the United States, the Czech Republic, Argentina, Serbia, Ireland, Romania, Poland (where Slovak is a recognised minority language), Canada, Hungary, Germany, Croatia, Israel, the United Kingdom, Australia, Austria, Ukraine, Norway, and other countries to a lesser extent.
+Orthography.
+Slovak uses the Latin script with small modifications that include the four diacritics (ˇ, ´, ¨, ˆ) placed above certain letters ()
+The primary principle of Slovak spelling is the phonemic principle. The secondary principle is the morphological principle: forms derived from the same stem are written in the same way even if they are pronounced differently. An example of this principle is the assimilation rule (see below). The tertiary principle is the etymological principle, which can be seen in the use of "i" after certain consonants and of "y" after other consonants, although both "i" and "y" are usually pronounced the same way.
+Finally, the rarely applied grammatical principle is present when, for example, the basic singular form and plural form of masculine adjectives are written differently with no difference in pronunciation (e.g. = nice – singular versus = nice – plural).
+In addition, the following rules are present:
+Most loanwords from foreign languages are respelt using Slovak principles either immediately or later. For example, "weekend" is spelled , "software" – , "gay" – (both not exclusively), and "quality" is spelled . Personal and geographical names from other languages using Latin alphabets keep their original spelling unless a fully Slovak form of the name exists (e.g. for "London").
+Slovak features some heterophonic homographs (words with identical spelling but different pronunciation and meaning), the most common examples being (beautiful) versus (beautifully).
+Syntax.
+The main features of Slovak syntax are as follows:
+Some examples include the following:
+Word order in Slovak is relatively free, since strong inflection enables the identification of grammatical roles (subject, object, predicate, etc.) regardless of word placement. This relatively free word order allows the use of word order to convey topic and emphasis.
+Some examples are as follows:
+The unmarked order is subject–verb–object. Variation in word order is generally possible, but word order is not completely free.
+In the above example, the noun phrase cannot be split up, so that the following combinations are not possible:
+And the following sentence is stylistically infelicitous:
+The regular variants are as follows: 
+Morphology.
+Articles.
+Slovak, like every major Slavic language other than Bulgarian and Macedonian, does not have articles. The demonstrative pronoun (fem: , neuter: ) may be used in front of the noun in situations where definiteness must be made explicit.
+Nouns, adjectives, pronouns.
+Slovak nouns are inflected for case and number. There are six cases: nominative, genitive, dative, accusative, locative, and instrumental. The vocative is purely optional and most of the time unmarked. There are two numbers: singular and plural. Nouns have inherent gender. There are three genders: masculine, feminine, and neuter. Adjectives and pronouns must agree with nouns in case, number, and gender.
+Numerals.
+The numerals 0–10 have unique forms, with numerals 1–4 requiring specific gendered representations. Numerals 11–19 are formed by adding to the end of each numeral. The suffix is used to create numerals 20, 30 and 40; for numerals 50, 60, 70, 80 and 90, is used. Compound numerals (21, 1054) are combinations of these words formed in the same order as their mathematical symbol is written (e.g. 21 = , literally "twenty-one").
+The numerals are as follows:
+Some higher numbers: (200) , (300) , (900) , (1,000) , (1,100) , (2,000) , (100,000) , (200,000) , (1,000,000) , (1,000,000,000) .
+Counted nouns have two forms. The most common form is the plural genitive (e.g. = five houses or = one hundred two women), while the plural form of the noun when counting the amounts of 2–4, etc., is usually the nominative form without counting (e.g. = two houses or = two women) but gender rules do apply in many cases.
+Verbs.
+Verbs have three major conjugations. Three persons and two numbers (singular and plural) are distinguished. Several conjugation paradigms exist as follows:
+Adverbs.
+Adverbs are formed by replacing the adjectival ending with the ending - or - / -. Sometimes both - and - are possible. Examples include the following:
+The comparative of adverbs is formed by replacing the adjectival ending with a comparative/superlative ending - or -, whence the superlative is formed with the prefix "naj-." Examples include the following:
+Prepositions.
+Each preposition is associated with one or more grammatical cases. The noun governed by a preposition must appear in the case required by the preposition in the given context (e.g. from friends = ). is the genitive case of . It must appear in this case because the preposition (= from) always calls for its objects to be in the genitive.
+ has a different meaning depending on the case of its governed noun.
+Relationships to other languages.
+The Slovak language is a descendant of Proto-Slavic, itself a descendant of Proto-Indo-European. It is closely related to the other West Slavic languages, primarily to Czech and Polish. Czech also influenced the language in its later development. The highest number of borrowings in the old Slovak vocabulary come from Latin, German, Czech, Hungarian, Polish and Greek (in that order). Recently, it is also influenced by English.
+Czech.
+Although most dialects of Czech and Slovak are mutually intelligible (see Comparison of Slovak and Czech), eastern Slovak dialects are less intelligible to speakers of Czech and closer to Polish, Ruthenian and Ukrainian and contact between speakers of Czech and speakers of the eastern dialects is limited.
+Since the dissolution of Czechoslovakia it has been permitted to use Czech in TV broadcasting and during court proceedings (Administration Procedure Act 99/1963 Zb.). From 1999 to August 2009, the Minority Language Act 184/1999 Z.z., in its section (§) 6, contained the variously interpreted unclear provision saying that "When applying this act, it holds that the use of the Czech language fulfills the requirement of fundamental intelligibility with the state language"; the state language is Slovak and the Minority Language Act basically refers to municipalities with more than 20% ethnic minority population (no such Czech municipalities are found in Slovakia). Since 1 September 2009 (due to an amendment to the State Language Act 270/1995 Z.z.) a language "fundamentally intelligible with the state language" (i.e. the Czech language) may be used in contact with state offices and bodies by its native speakers, and documents written in it and issued by bodies in the Czech Republic are officially accepted. Regardless of its official status, Czech is used commonly both in Slovak mass media and in daily communication by Czech natives as an equal language.
+Czech and Slovak have a long history of interaction and mutual influence well before the creation of Czechoslovakia in 1918, a state which existed until 1993. Literary Slovak shares significant orthographic features with Czech, as well as technical and professional terminology dating from the Czechoslovak period, but phonetic, grammatical, and vocabulary differences do exist.
+Other Slavic languages.
+Slavic language varieties are relatively closely related, and have had a large degree of mutual influence, due to the complicated ethnopolitical history of their historic ranges. This is reflected in the many features Slovak shares with neighboring language varieties. Standard Slovak shares high degrees of mutual intelligibility with many Slavic varieties. Despite this closeness to other Slavic varieties, significant variation exists among Slovak dialects. In particular, eastern varieties differ significantly from the standard language, which is based on central and western varieties.
+Eastern Slovak dialects have the greatest degree of mutual intelligibility with Polish of all the Slovak dialects, followed by Rusyn, but both Eastern Slovak and Rusyn lack familiar technical terminology and upper register expressions. Polish and Sorbian also differ quite considerably from Czech and Slovak in upper registers, but non-technical and lower register speech is readily intelligible. Some mutual intelligibility occurs with spoken Rusyn, Ukrainian, and even Russian (in this order), although their orthographies are based on the Cyrillic script.
+English.
+Sports:
+Food:
+Clothing:
+Exclamations:
+German.
+Nouns:
+Verbs:
+Greetings:
+ is commonly used as a greeting or upon parting in Slovak-speaking regions and some German-speaking regions, particularly Austria. is also commonly used upon parting in these regions. Both and are used in colloquial, informal conversation.
+Hungarian.
+Hungarians and Slovaks have had a language interaction ever since the settlement of Hungarians in the Carpathian area. Hungarians also adopted many words from various Slavic languages related to agriculture and administration, and a number of Hungarian loanwords are found in Slovak. Some examples are as follows:
+Dialects.
+There are many Slovak dialects, which are divided into the following four basic groups:
+The fourth group of dialects is often not considered a separate group, but a subgroup of Central and Western Slovak dialects (see e.g. Štolc, 1968), but it is currently undergoing changes due to contact with surrounding languages (Serbo-Croatian, Romanian, and Hungarian) and long-time geographical separation from Slovakia (see the studies in "Zborník Spolku vojvodinských slovakistov", e.g. Dudok, 1993).
+For an external map of the three groups in Slovakia see here.
+The dialect groups differ mostly in phonology, vocabulary, and tonal inflection. Syntactic differences are minor. Central Slovak forms the basis of the present-day standard language. Not all dialects are fully mutually intelligible. It may be difficult for an inhabitant of the western Slovakia to understand a dialect from eastern Slovakia and the other way around.
+The dialects are fragmented geographically, separated by numerous mountain ranges. The first three groups already existed in the 10th century. All of them are spoken by the Slovaks outside Slovakia, and central and western dialects form the basis of the lowland dialects (see above).
+The western dialects contain features common with the Moravian dialects in the Czech Republic, the southern central dialects contain a few features common with South Slavic languages, and the eastern dialects a few features common with Polish and the East Slavonic languages (cf. Štolc, 1994). Lowland dialects share some words and areal features with the languages surrounding them (Serbo-Croatian, Hungarian, and Romanian).
+Regulation.
+Standard Slovak () is defined by an Act of Parliament on the State Language of the Slovak Republic (language law). According to this law, Ministry of Culture approves and publishes the codified form of the Slovak language based on the judgment of specialised Slovakistic linguistic institutes and specialists in the area of the state language. This is traditionally Ľudovit Štúr Institute of Linguistics, which is part of the Slovak Academy of Sciences. In practice, Ministry of Culture publishes a document that specifies authoritative reference books for standard Slovak usage. There are four such publications:
+

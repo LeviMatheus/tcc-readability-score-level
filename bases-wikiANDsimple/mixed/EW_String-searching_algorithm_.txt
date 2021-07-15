@@ -1,0 +1,41 @@
+
+In computer science, string-searching algorithms, sometimes called string-matching algorithms, are an important class of string algorithms that try to find a place where one or several strings (also called patterns) are found within a larger string or text.
+A basic example of string searching is when the pattern and the searched text are arrays of elements of an alphabet (finite set) Σ. Σ may be a human language alphabet, for example, the letters "A" through "Z" and other applications may use a "binary alphabet" (Σ = {0,1}) or a "DNA alphabet" (Σ = {A,C,G,T}) in bioinformatics.
+In practice, the method of feasible string-search algorithm may be affected by the string encoding. In particular, if a variable-width encoding is in use, then it may be slower to find the "N"th character, perhaps requiring time proportional to "N". This may significantly slow some search algorithms. One of many possible solutions is to search for the sequence of code units instead, but doing so may produce false matches unless the encoding is specifically designed to avoid it.
+Overview.
+The most basic case of string searching involves one (often very long) string, sometimes called the "haystack", and one (often very short) string, sometimes called the "needle". The goal is to find one or more occurrences of the needle within the haystack. For example, one might search for "to" within:
+ Some books are to be tasted, others to be swallowed, and some few to be chewed and digested.
+One might request the first occurrence of "to", which is the fourth word; or all occurrences, of which there are 3; or the last, which is the fifth word from the end.
+Very commonly, however, various constraints are added. For example, one might want to match the "needle" only where it consists of one (or more) complete words—perhaps defined as "not" having other letters immediately adjacent on either side. In that case a search for "hew" or "low" should fail for the example sentence above, even though those literal strings do occur.
+Another common example involves "normalization". For many purposes, a search for a phrase such as "to be" should succeed even in places where there is something else intervening between the "to" and the "be":
+Many symbol systems include characters that are synonymous (at least for some purposes):
+Finally, for strings that represent natural language, aspects of the language itself become involved. For example, one might wish to find all occurrences of a "word" despite it having alternate spellings, prefixes or suffixes, etc.
+Another more complex type of search is regular expression searching, where the user constructs a pattern of characters or other symbols, and any match to the pattern should fulfill the search. For example, to catch both the American English word "color" and the British equivalent "colour", instead of searching for two different literal strings, one might use a regular expression such as:
+ colou?r
+where the "?" conventionally makes the preceding character ("u") optional.
+This article mainly discusses algorithms for the simpler kinds of string searching.
+A similar problem introduced in the field of bioinformatics and genomics is the maximal exact matching (MEM). Given two strings, MEMs are common substrings that cannot be extended left or right without causing a mismatch.
+Examples of search algorithms.
+Naïve string search.
+A simple and inefficient way to see where one string occurs inside another is to check each place it could be, one by one, to see if it's there. So first we see if there's a copy of the needle in the first character of the haystack; if not, we look to see if there's a copy of the needle starting at the second character of the haystack; if not, we look starting at the third character, and so forth. In the normal case, we only have to look at one or two characters for each wrong position to see that it is a wrong position, so in the average case, this takes O("n" + "m") steps, where "n" is the length of the haystack and "m" is the length of the needle; but in the worst case, searching for a string like "aaaab" in a string like "aaaaaaaaab", it takes O("nm")
+Finite-state-automaton-based search.
+In this approach, we avoid backtracking by constructing a deterministic finite automaton (DFA) that recognizes stored search string. These are expensive to construct—they are usually created using the powerset construction—but are very quick to use. For example, the DFA shown to the right recognizes the word "MOMMY". This approach is frequently generalized in practice to search for arbitrary regular expressions.
+Stubs.
+Knuth–Morris–Pratt computes a DFA that recognizes inputs with the string to search for as a suffix, Boyer–Moore starts searching from the end of the needle, so it can usually jump ahead a whole needle-length at each step. Baeza–Yates keeps track of whether the previous "j" characters were a prefix of the search string, and is therefore adaptable to fuzzy string searching. The bitap algorithm is an application of Baeza–Yates' approach.
+Index methods.
+Faster search algorithms preprocess the text. After building a substring index, for example a suffix tree or suffix array, the occurrences of a pattern can be found quickly. As an example, a suffix tree can be built in formula_1 time, and all formula_2 occurrences of a pattern can be found in formula_3 time under the assumption that the alphabet has a constant size and all inner nodes in the suffix tree know what leaves are underneath them. The latter can be accomplished by running a DFS algorithm from the root of the suffix tree.
+Other variants.
+Some search methods, for instance trigram search, are intended to find a "closeness" score between the search string and the text rather than a "match/non-match". These are sometimes called "fuzzy" searches.
+Classification of search algorithms.
+Classification by a number of patterns.
+The various algorithms can be classified by the number of patterns each uses. 
+Single-pattern algorithms.
+In the following compilation, "m" is the length of the pattern, "n" the length of the searchable text, "k" = |Σ| is the size of the alphabet, and "f" is a constant introduced by SIMD operations.
+The Boyer–Moore string-search algorithm has been the standard benchmark for the practical string-search literature.
+Algorithms using an infinite number of patterns.
+Naturally, the patterns can not be enumerated finitely in this case. They are represented usually by a regular grammar or regular expression.
+Classification by the use of preprocessing programs.
+Other classification approaches are possible. One of the most common uses preprocessing as main criteria.
+Classification by matching strategies.
+Another one classifies the algorithms by their matching strategy:
+

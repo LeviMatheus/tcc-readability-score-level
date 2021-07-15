@@ -1,0 +1,6 @@
+
+In telecommunication, a burst error or error burst is a contiguous sequence of symbols, received over a communication channel, such that the first and last symbols are in error and there exists no contiguous subsequence of "m" correctly received symbols within the error burst.
+The integer parameter "m" is referred to as the "guard band" of the error burst. The last symbol in a burst and the first symbol in the following burst are accordingly separated by "m" correct symbols or more. The parameter "m" should be specified when describing an error burst.
+Channel model.
+The Gilbert–Elliott model is a simple channel model introduced by Edgar Gilbert and E. O. Elliott that is widely used for describing burst error patterns in transmission channels and enables simulations of the digital error performance of communications links. It is based on a Markov chain with two states "G" (for good or gap) and "B" (for bad or burst). In state "G" the probability of transmitting a bit correctly is "k" and in state "B" it is "h". Usually, it is assumed that "k" = 1. Gilbert provided equations for deriving the other three parameters ("G" and "B" state transition probabilities and "h") from a given success/failure sequence. In his example, the sequence was too short to correctly find "h" (a negative probability was found) and so Gilbert assumed that "h" = 0.5.
+

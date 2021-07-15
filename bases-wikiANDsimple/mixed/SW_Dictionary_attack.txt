@@ -1,0 +1,1 @@
+A Dictionary attack is a method used in cryptography. To find a key (or username, or password), a large number of words are tried. These words usually come from a special collection, called a dictionary. It is better than a Brute Force Attack.

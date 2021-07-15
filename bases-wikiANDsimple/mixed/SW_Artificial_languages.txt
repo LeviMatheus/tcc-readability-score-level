@@ -1,0 +1,3 @@
+An artificial language is a language made by people. It is usually a natural language cannot be used. These languages can be based on an existing vocabulary or can make a new vocabulary.
+If an artificial language does not serve the goal of general-purpose communication (as natural languages do), then it is necessarily a second language.
+The above categorization is not exclusive; for example, it is reasonable to design a computer language for a novel, or that a linguistic experiment leads to design a programming language.

@@ -1,0 +1,20 @@
+
+In chemistry, a zwitterion ( ; ), also called an inner salt, is a molecule that contains an equal number of positively- and negatively-charged functional groups. With amino acids, for example, in solution a chemical equilibrium will be established between the "parent" molecule and the zwitterion.
+Betaines are zwitterions that cannot isomerize to an all-neutral form, such as when the positive charge is located on a quaternary ammonium group. Similarly, a molecule containing a phosphonium group and a carboxylate group cannot isomerize.
+Amino acids.
+The equilibrium is established in two stages. In one stage, a proton is transferred from the carboxyl group to a water molecule. 
+In the other stage a proton is transferred from the hydronium ion to the amine group
+Overall, the reaction is an isomerization reaction
+The ratio of the concentrations of the two species in solution is independent of pH as it is equal to the value of the equilibrium constant "K" for the isomerization reaction. 
+[X] signifies the concentration of the chemical species X at equilibrium. It is generally assumed that "K" &gt; 1, that is, that the zwitterion is the predominant amino acid isomer in aqueous solution. It has been suggested, on the basis of theoretical analysis, that the zwitterion is stabilized in aqueous solution by hydrogen bonding with solvent water molecules. Analysis of neutron diffraction data for glycine showed that it was in the zwitterionic form in the solid state and confirmed the presence of hydrogen bonds. Theoretical calculations have been used to show that zwitterions may also be present in the gas phase for some cases different than the simple carboxylic acid-to-amine transfer.
+The p"K"a values for deprotonation of the common amino acids span the approximate range . This is also consistent with the zwitterion being the predominant isomer that is present in an aqueous solution. For comparison, the simple carboxylic acid propionic acid () has a p"K"a value of 4.88.
+Other compounds.
+Sulfamic acid crystallizes in the zwitterion form.
+In crystals of anthranilic acid there are two molecules in the unit cell. One molecule is in the zwitterion form, the other is not.
+In the solid state, H4EDTA is a zwitterion with two protons having been transferred from carboxylic acid groups to the nitrogen atoms.
+Theoretical studies.
+Although the equilibrium, in solution, between a compound and its zwitterion isomer cannot be studied experimentally, some insight may be gained from the results of theoretical calculations. A good example is provided with pyridoxal phosphate, a form of vitamin B6. A tautomeric equilibrium was predicted to obtain in an aqueous solution of this compound, favouring the zwitterion in which a proton is transferred from the phenolic -OH group to the nitrogen atom.
+Betaines and similar compounds.
+The compound trimethylglycine, which was isolated from sugar beet, was named as "betaine". Later, other compounds were discovered that contain the same structural motif, a quaternary nitrogen atom with a carboxylate group attached to it via a –CH2– link. At the present time, all compounds whose structure includes this motif are known as betaines. Betaines do not isomerize because the chemical groups attached to the nitrogen atom are not labile. These compounds may be classed as permanent zwitterions, as isomerisation to a molecule with no electrical charges does not occur, or is very slow.
+Other examples of permanent zwitterions include phosphatidylcholines and psilocybin, which also contain a quaternary nitrogen atom, but with a negatively-charged phosphate group in place of a carboxylate group; and pulmonary surfactants such as dipalmitoylphosphatidylcholine.
+

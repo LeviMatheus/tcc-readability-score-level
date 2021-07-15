@@ -1,0 +1,1 @@
+An ephemeris is a table giving the predicted positions of a object in space, like another planet, comet, or asteroid.

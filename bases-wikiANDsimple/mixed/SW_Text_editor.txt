@@ -1,0 +1,2 @@
+A text editor is a program that is run on a computer that can create and change text. The text can be saved into a file that is called a "text file". Text editors can be used for a lot of things. Many people use them to write up documents. Some people write HTML using a text editor.
+Some text editors can edit "rich text". Rich text allows the person that is editing text to have bold text, "italic text", and other things.

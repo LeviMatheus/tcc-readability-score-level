@@ -1,0 +1,3 @@
+The Station-to-Station (STS) protocol is a cryptographic key agreement scheme based on the classic Diffie-Hellman key exchange that provides mutual key and entity (party) authentication.
+In addition to protecting the established key from an attacker, the STS protocol uses no timestamps and provides perfect forward secrecy. It also requires two-way explicit key confirmation, making it an "Authenticated key agreement with Key Confirmation" (Acronym: AKC) protocol.
+STS was originally presented in 1987 in the context of ISDN security, finalized in 1989 and generally presented by Whitfield Diffie, Paul C. van Oorschot and Michael J. Wiener in 1992.

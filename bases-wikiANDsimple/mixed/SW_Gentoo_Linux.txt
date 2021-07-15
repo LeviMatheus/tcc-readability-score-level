@@ -1,0 +1,5 @@
+Gentoo Linux is a version of the Linux operating system. It was created by Daniel Robbins. The project and its products are named after the Gentoo penguin.
+Gentoo Linux uses a package management system called Portage. Portage is like the BSD ports collection. Gentoo package management is designed to be modular, portable, easy to maintain, flexible, and optimized for the user's machine. Packages are normally built from source code, continuing the tradition of the ports collection, although for convenience, some large software packages are also available as precompiled binaries for various architectures.
+Although originally designed for the x86 architecture, it has been ported to many others and currently runs on the x86, x86-64, IA-64, PA-RISC; PowerPC, PowerPC 970, SPARC64, MIPS, DEC Alpha, s390, PS3 Cell Processor and SuperH architectures. Official support for 32bit Sparc hardware has been dropped.
+See Also.
+List of Linux distributions

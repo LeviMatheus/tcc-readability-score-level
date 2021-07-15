@@ -1,0 +1,4 @@
+In physics, power (symbol: "P") is the rate at which work is performed or energy is transferred. In the SI system of measurement, power is measured in watts (symbol: W).
+It may take a certain amount of work to effect a change in the world, like lifting a heavy weight to a higher level. It makes no difference if the weight is lifted slowly or quickly, the same amount of work will have been performed. The difference between a slow lift and a quick lift is that a quick lift requires more Power. That is the work can be done in a shorter time if there is more power available.
+Power in optics.
+In optics, or radiometry, the term "power" sometimes refers to radiant flux, the average rate of energy transport by electromagnetic radiation, measured in watts. But the term "power" is also used to express the ability of a lens or other optical device to focus light. It is measured in dioptres (inverse metres), and is equal to one over the focal length of the optical device.

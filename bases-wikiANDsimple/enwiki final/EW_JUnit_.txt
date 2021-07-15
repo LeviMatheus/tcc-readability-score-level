@@ -1,0 +1,36 @@
+
+JUnit is a unit testing framework for the Java programming language. JUnit has been important in the development of test-driven development, and is one of a family of unit testing frameworks which is collectively known as xUnit that originated with SUnit.
+JUnit is linked as a JAR at compile-time. The latest version of the framework, JUnit 5, resides under package codice_1. Previous versions JUnit 4 and JUnit 3 were under packages codice_2 and codice_3, respectively.
+A research survey performed in 2013 across 10,000 Java projects hosted on GitHub found that JUnit (in a tie with slf4j-api), was the most commonly included external library. Each library was used by 30.7% of projects.
+Example of JUnit test fixture.
+A JUnit test fixture is a Java object. Test methods must be annotated by the codice_4 annotation. If the situation requires it, it is also possible to define a method to execute before (or after) each (or all) of the test methods with the codice_5 (or codice_6) and codice_7 (or codice_8) annotations.
+import org.junit.jupiter.api.*;
+public class FoobarTest {
+ @BeforeAll
+ public static void setUpClass() throws Exception {
+ // Code executed before the first test method
+ @BeforeEach
+ public void setUp() throws Exception {
+ // Code executed before each test
+ 
+ @Test
+ public void oneThing() {
+ // Code that tests one thing
+ @Test
+ public void anotherThing() {
+ // Code that tests another thing
+ @Test
+ public void somethingElse() {
+ // Code that tests something else
+ @AfterEach
+ public void tearDown() throws Exception {
+ // Code executed after each test 
+ 
+ @AfterAll
+ public static void tearDownClass() throws Exception {
+ // Code executed after the last test method 
+Previous versions of JUnit.
+As a side effect of its wide use, previous versions of JUnit remain popular, with JUnit 4 having over a 100,000 usages by other software components on the Maven central repository.
+In JUnit 4, the annotations for test execution callbacks were @BeforeClass, @Before, @After, and @AfterClass, as opposed to JUnit 5's @BeforeAll, @BeforeEach, @AfterEach, and @AfterAll.
+In JUnit 3, test fixtures had to inherit from codice_9. Also, test methods had to be prefixed with 'test'.
+

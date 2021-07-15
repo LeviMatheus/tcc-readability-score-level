@@ -1,0 +1,62 @@
+
+The characteristic impedance or surge impedance (usually written Z0) of a uniform transmission line is the ratio of the amplitudes of voltage and current of a single wave propagating along the line; that is, a wave travelling in one direction in the absence of reflections in the other direction. Alternatively, and equivalently, it can be defined as the input impedance of a transmission line when its length is infinite. Characteristic impedance is determined by the geometry and materials of the transmission line and, for a uniform line, is not dependent on its length. The SI unit of characteristic impedance is the ohm.
+The characteristic impedance of a lossless transmission line is purely real, with no reactive component. Energy supplied by a source at one end of such a line is transmitted through the line without being dissipated in the line itself. A transmission line of finite length (lossless or lossy) that is terminated at one end with an impedance equal to the characteristic impedance appears to the source like an infinitely long transmission line and produces no reflections.
+Transmission line model.
+The characteristic impedance formula_1 of an infinite transmission line at a given angular frequency formula_2 is the ratio of the voltage and current of a pure sinusoidal wave of the same frequency travelling along the line. This definition extends to DC by letting formula_2 tend to 0, and persists for finite transmission lines until the wave reaches the end of the line, similar to the way an ocean wave feels bottom as it approaches the shore, longer wavelengths feeling deeper, and first. Generally, a wave is reflected back along the line in the opposite direction. When the reflected wave reaches the source, it is reflected yet again, adding to the transmitted wave and changing the ratio of the voltage and current at the input so the line will no longer have the characteristic impedance. This new ratio including the reflected energy is called the input impedance.
+The input impedance of an infinite line is equal to the characteristic impedance since the transmitted wave is never reflected back from the end. Equivalently: "The characteristic impedance of a line is that impedance which, when terminating an arbitrary length of line at its output, produces an input impedance of equal value". This is so because there is no reflection on a line terminated in its own characteristic impedance.
+Applying the transmission line model based on the telegrapher's equations as derived below, the general expression for the characteristic impedance of a transmission line is:
+where
+A surge of energy on a finite transmission line will see an impedance of formula_11 prior to any reflections returning; hence "surge impedance" is an alternative name for "characteristic impedance".
+Although an infinite line is assumed, since all quantities are per unit length, the “per length” parts of all the units cancel, and the characteristic impedance is independent of the length of the transmission line.
+The voltage and current phasors on the line are related by the characteristic impedance as:
+where the subscripts (+) and (−) mark the separate constants for the waves traveling forward (+) and backward (−).
+Derivation.
+Using telegrapher's equation.
+The differential equations describing the dependence of the voltage and current on time and space are linear, so that a linear combination of solutions is again a solution. This means that we can consider solutions with a time dependence formula_13 – doing so is functionally equivalent of solving for the Fourier coefficients for voltage and current amplitudes at some fixed angular frequency formula_2. Doing so causes the time dependence to factor out, leaving an ordinary differential equation for the coefficients, which will be phasors, dependent on position (space) only. Moreover, the parameters can be generalized to be frequency-dependent.
+Let
+and
+Take the positive direction for formula_17 and formula_18 in the loop to be clockwise.
+We find that
+and
+or
+where
+These two first-order equations are easily uncoupled by a second differentiation, with the results:
+and
+Notice that both formula_17 and formula_18 satisfy the same equation.
+Since formula_29 is independent of formula_30 and formula_31, it can be represented by a single constant That is:
+so
+The minus sign is included for later convenience. Because of it, we can write the above equation as
+which is correct for all transmission lines. And for typical transmission lines, that are built to make wire resistance loss formula_5 small and insulation leakage conductance formula_7 low, and further, with high frequencies, the inductive reactance formula_37 and the capacitive admittance formula_38 will both be large, so the constant formula_39 is very close to being a real number:
+Further, with this definition of formula_39 the position- or formula_30-dependent part will appear as in the exponential solutions of the equation, similar to the time-dependent part so the solution reads
+where formula_44 and formula_45 are the constants of integration for the forward moving (+) and backward moving (−) waves, as in the prior section. When we recombine the time-dependent part we obtain the full solution:
+Since the equation for formula_18 is the same form, it has a solution of the same form:
+where formula_49 and formula_50 are again constants of integration.
+The above equations are the wave solution for formula_17 and formula_18. In order to be compatible, they must still satisfy the original differential equations, one of which is
+Substituting the solutions for formula_17 and formula_18 into the above equation, we get
+or
+Isolating distinct powers of formula_58 and combining identical powers, we see that in order for the above equation to hold for all possible values of formula_30 we must have:
+Since formula_62
+hence, for valid solutions require
+It can be seen that the constant formula_11, defined in the above equations has the dimensions of impedance (ratio of voltage to current) and is a function of primary constants of the line and operating frequency. It is called the “characteristic impedance” of the transmission line, and conventionally denoted by formula_11.
+for any transmission line, and for well-functioning transmission lines, with formula_5 and formula_7 both very small, or formula_2 very high, or all of the above, we get
+hence the characteristic impedance is typically very close to being a real number (see also the Heaviside condition.)
+Alternative approach.
+We follow an approach posted by Tim Healy. The line is modeled by a series of differential segments with differential series formula_73 and shunt formula_74 elements (as shown in the figure above). The characteristic impedance is defined as the ratio of the input voltage to the input current of a semi-infinite length of line. We call this impedance formula_11. That is, the impedance looking into the line on the left is formula_11. But, of course, if we go down the line one differential length formula_77, the impedance into the line is still formula_11. Hence we can say that the impedance looking into the line on the far left is equal to formula_11 in parallel with formula_80 and formula_81, all of which is in series with formula_82 and formula_83. Hence:
+The formula_11 terms cancel, leaving
+The first-power formula_77 terms are the highest remaining order. In comparison to formula_77, the term with the factor formula_91 may be discarded, since it is infinitesimal in comparison, leading to:
+and hence
+Reversing the sign on the square root has the effect of changing the direction of the flow of current.
+Lossless line.
+The analysis of lossless lines provides an accurate approximation for real transmission lines that simplifies the mathematics considered in modeling transmission lines. A lossless line is defined as a transmission line that has no line resistance and no dielectric loss. This would imply that the conductors act like perfect conductors and the dielectric acts like a perfect dielectric. For a lossless line, "R" and "G" are both zero, so the equation for characteristic impedance derived above reduces to:
+In particular, formula_11 does not depend any more upon the frequency.
+The above expression is wholly real, since the imaginary term has canceled out, implying that formula_11 is purely resistive. For a lossless line terminated in formula_11, there is no loss of current across the line, and so the voltage remains the same along the line. The lossless line model is a useful approximation for many practical cases, such as low-loss transmission lines and transmission lines with high frequency. For both of these cases, and are much smaller than and , respectively, and can thus be ignored.
+The solutions to the long line transmission equations include incident and reflected portions of the voltage and current:
+formula_98formula_99
+When the line is terminated with its characteristic impedance, the reflected portions of these equations are reduced to 0 and the solutions to the voltage and current along the transmission line are wholly incident. Without a reflection of the wave, the load that is being supplied by the line effectively blends into the line making it appear to be an infinite line. In a lossless line this implies that the voltage and current remain the same everywhere along the transmission line. Their magnitudes remain constant along the length of the line and are only rotated by a phase angle.
+Surge impedance loading.
+In electric power transmission, the characteristic impedance of a transmission line is expressed in terms of the surge impedance loading (SIL), or natural loading, being the power loading at which reactive power is neither produced nor absorbed:
+in which formula_101 is the line-to-line voltage in volts.
+Loaded below its SIL, a line supplies reactive power to the system, tending to raise system voltages. Above it, the line absorbs reactive power, tending to depress the voltage. The Ferranti effect describes the voltage gain towards the remote end of a very lightly loaded (or open ended) transmission line. Underground cables normally have a very low characteristic impedance, resulting in an SIL that is typically in excess of the thermal limit of the cable. Hence a cable is almost always a source of reactive power.
+Practical examples.
+The characteristic impedance of coaxial cables (coax) is commonly chosen to be for RF and microwave applications. Coax for video applications is usually for its lower loss.
+

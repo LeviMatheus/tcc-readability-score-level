@@ -1,0 +1,5 @@
+
+IEEE 802.3 is a working group and a collection of Institute of Electrical and Electronics Engineers (IEEE) standards produced by the working group defining the physical layer and data link layer's media access control (MAC) of wired Ethernet. This is generally a local area network (LAN) technology with some wide area network (WAN) applications. Physical connections are made between nodes and/or infrastructure devices (hubs, switches, routers) by various types of copper or fiber cable.
+802.3 is a technology that supports the IEEE 802.1 network architecture.
+802.3 also defines LAN access method using CSMA/CD.
+

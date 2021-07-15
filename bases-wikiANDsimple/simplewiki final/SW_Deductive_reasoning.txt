@@ -1,0 +1,3 @@
+Deduction is one of the two main types of reasoning. The other is induction. In deduction, we apply a general rule to a particular case.
+The first two statements are called "premises", the third statement is called the "conclusion".
+Mathematicians use deduction to discover new mathematics.

@@ -1,0 +1,8 @@
+There are two different meanings of the word cryptosystem.
+General meaning.
+In this meaning, the term cryptosystem is used as shorthand, or as an abbreviation for "cryptographic system". A cryptographic system is any computer system that involves cryptography. Such systems include for instance, a system for secure electronic mail which might include methods for digital signatures, cryptographic hash functions, key management techniques, and so on.
+Meaning in the cryptographic community.
+In this meaning, a cryptosystem refers to a set of algorithms needed to implement a method of encryption and decryption.
+The term "cipher" (sometimes "cypher") is often used to refer to a pair of (encryption/decryption) algorithms. Therefore, the term "cryptosystem" is most often used when the key generation algorithm is important. For this reason, the term "cryptosystem" is commonly used to refer to public key techniques; however both "cipher" and "cryptosystem" are used for symmetric key techniques.
+"Cryptographic system" vs. "cryptosystem".
+The "Internet Security Glossary" RFC 2828 advises against using the term "cryptosystem", giving the following definitions.

@@ -1,0 +1,99 @@
+
+In elementary algebra, the binomial theorem (or binomial expansion) describes the algebraic expansion of powers of a binomial. According to the theorem, it is possible to expand the polynomial into a sum involving terms of the form , where the exponents and are nonnegative integers with , and the coefficient of each term is a specific positive integer depending on and . For example (for ),
+The coefficient in the term of is known as the binomial coefficient formula_2 or formula_3 (the two have the same value). These coefficients for varying and can be arranged to form Pascal's triangle. These numbers also arise in combinatorics, where formula_2 gives the number of different combinations of elements that can be chosen from an -element set. Therefore formula_2 is often pronounced as " choose ".
+History.
+Special cases of the binomial theorem were known since at least the 4th century BC when Greek mathematician Euclid mentioned the special case of the binomial theorem for exponent . There is evidence that the binomial theorem for cubes was known by the 6th century AD in India.
+Binomial coefficients, as combinatorial quantities expressing the number of ways of selecting objects out of without replacement, were of interest to ancient Indian mathematicians. The earliest known reference to this combinatorial problem is the "Chandaḥśāstra" by the Indian lyricist Pingala (c. 200 BC), which contains a method for its solution. The commentator Halayudha from the 10th century AD explains this method using what is now known as Pascal's triangle. By the 6th century AD, the Indian mathematicians probably knew how to express this as a quotient formula_6, and a clear statement of this rule can be found in the 12th century text "Lilavati" by Bhaskara.
+The first formulation of the binomial theorem and the table of binomial coefficients, to our knowledge, can be found in a work by Al-Karaji, quoted by Al-Samaw'al in his "al-Bahir". Al-Karaji described the triangular pattern of the binomial coefficients and also provided a mathematical proof of both the binomial theorem and Pascal's triangle, using an early form of mathematical induction. The Persian poet and mathematician Omar Khayyam was probably familiar with the formula to higher orders, although many of his mathematical works are lost. The binomial expansions of small degrees were known in the 13th century mathematical works of Yang Hui and also Chu Shih-Chieh. Yang Hui attributes the method to a much earlier 11th century text of Jia Xian, although those writings are now also lost.
+In 1544, Michael Stifel introduced the term "binomial coefficient" and showed how to use them to express formula_7 in terms of formula_8, via "Pascal's triangle". Blaise Pascal studied the eponymous triangle comprehensively in his "Traité dus triangle arithmétique". However, the pattern of numbers was already known to the European mathematicians of the late Renaissance, including Stifel, Niccolò Fontana Tartaglia, and Simon Stevin.
+Isaac Newton is generally credited with the generalized binomial theorem, valid for any rational exponent.
+Statement.
+According to the theorem, it is possible to expand any nonnegative power of into a sum of the form
+where formula_10 is an integer and each formula_11 is a positive integer known as a binomial coefficient. (When an exponent is zero, the corresponding power expression is taken to be 1 and this multiplicative factor is often omitted from the term. Hence one often sees the right hand side written as formula_12.) This formula is also referred to as the binomial formula or the binomial identity. Using summation notation, it can be written as
+The final expression follows from the previous one by the symmetry of and in the first expression, and by comparison it follows that the sequence of binomial coefficients in the formula is symmetrical. A simple variant of the binomial formula is obtained by substituting for , so that it involves only a single variable. In this form, the formula reads
+or equivalently
+Examples.
+Here are the first few cases of the binomial theorem:
+In general, for the expansion of on the right side in the th row (numbered so that the top row is the 0th row):
+An example illustrating the last two points:
+with formula_19.
+A simple example with a specific positive value of :
+A simple example with a specific negative value of :
+Geometric explanation.
+For positive values of and , the binomial theorem with is the geometrically evident fact that a square of side can be cut into a square of side , a square of side , and two rectangles with sides and . With , the theorem states that a cube of side can be cut into a cube of side , a cube of side , three rectangular boxes, and three rectangular boxes.
+In calculus, this picture also gives a geometric proof of the derivative formula_22 if one sets formula_23 and formula_24 interpreting as an infinitesimal change in , then this picture shows the infinitesimal change in the volume of an -dimensional hypercube, formula_25 where the coefficient of the linear term (in formula_26) is formula_27 the area of the faces, each of dimension :
+Substituting this into the definition of the derivative via a difference quotient and taking limits means that the higher order terms, formula_29 and higher, become negligible, and yields the formula formula_30 interpreted as
+If one integrates this picture, which corresponds to applying the fundamental theorem of calculus, one obtains Cavalieri's quadrature formula, the integral formula_31 – see proof of Cavalieri's quadrature formula for details.
+Binomial coefficients.
+The coefficients that appear in the binomial expansion are called binomial coefficients. These are usually written formula_32 and pronounced " choose ".
+Formulae.
+The coefficient of is given by the formula
+which is defined in terms of the factorial function . Equivalently, this formula can be written
+with factors in both the numerator and denominator of the fraction. Although this formula involves a fraction, the binomial coefficient formula_35 is actually an integer.
+Combinatorial interpretation.
+The binomial coefficient formula_11 can be interpreted as the number of ways to choose elements from an -element set. This is related to binomials for the following reason: if we write as a product
+then, according to the distributive law, there will be one term in the expansion for each choice of either or from each of the binomials of the product. For example, there will only be one term , corresponding to choosing from each binomial. However, there will be several terms of the form , one for each way of choosing exactly two binomials to contribute a . Therefore, after combining like terms, the coefficient of will be equal to the number of ways to choose exactly elements from an -element set.
+Proofs.
+Combinatorial proof.
+Example.
+The coefficient of in
+equals formula_39 because there are three strings of length 3 with exactly two s, namely,
+corresponding to the three 2-element subsets of , namely,
+where each subset specifies the positions of the in a corresponding string.
+General case.
+Expanding yields the sum of the products of the form where each is or . Rearranging factors shows that each product equals for some between and . For a given , the following are proved equal in succession:
+This proves the binomial theorem.
+Inductive proof.
+Induction yields another proof of the binomial theorem. When , both sides equal , since and formula_45 Now suppose that the equality holds for a given ; we will prove it for . For , let denote the coefficient of in the polynomial . By the inductive hypothesis, is a polynomial in and such that is formula_35 if , and otherwise. The identity
+shows that is also a polynomial in and , and
+since if , then and . Now, the right hand side is
+by Pascal's identity. On the other hand, if , then and , so we get . Thus
+which is the inductive hypothesis with substituted for and so completes the inductive step.
+Generalizations.
+Newton's generalized binomial theorem.
+Around 1665, Isaac Newton generalized the binomial theorem to allow real exponents other than nonnegative integers. (The same generalization also applies to complex exponents.) In this generalization, the finite sum is replaced by an infinite series. In order to do this, one needs to give meaning to binomial coefficients with an arbitrary upper index, which cannot be done using the usual formula with factorials. However, for an arbitrary number , one can define
+where formula_52 is the Pochhammer symbol, here standing for a falling factorial. This agrees with the usual definitions when is a nonnegative integer. Then, if and are real numbers with , and is any complex number, one has
+When is a nonnegative integer, the binomial coefficients for are zero, so this equation reduces to the usual binomial theorem, and there are at most nonzero terms. For other values of , the series typically has infinitely many nonzero terms.
+For example, gives the following series for the square root:
+Taking , the generalized binomial series gives the geometric series formula, valid for :
+More generally, with :
+So, for instance, when ,
+Further generalizations.
+The generalized binomial theorem can be extended to the case where and are complex numbers. For this version, one should again assume and define the powers of and using a holomorphic branch of log defined on an open disk of radius centered at . The generalized binomial theorem is valid also for elements and of a Banach algebra as long as , and is invertible, and .
+A version of the binomial theorem is valid for the following Pochhammer symbol-like family of polynomials: for a given real constant , define formula_58 and
+for formula_60 Then
+The case recovers the usual binomial theorem.
+More generally, a sequence formula_62 of polynomials is said to be binomial if
+An operator formula_70 on the space of polynomials is said to be the "basis operator" of the sequence formula_62 if formula_72 and formula_73 for all formula_74. A sequence formula_62 is binomial if and only if its basis operator is a Delta operator. Writing formula_76 for the shift by formula_77 operator, the Delta operators corresponding to the above "Pochhammer" families of polynomials are the backward difference formula_78 for formula_79, the ordinary derivative for formula_80, and the forward difference formula_81 for formula_82.
+Multinomial theorem.
+The binomial theorem can be generalized to include powers of sums with more than two terms. The general version is
+where the summation is taken over all sequences of nonnegative integer indices through such that the sum of all is . (For each term in the expansion, the exponents must add up to ). The coefficients formula_84 are known as multinomial coefficients, and can be computed by the formula
+Combinatorially, the multinomial coefficient formula_86 counts the number of different ways to partition an -element set into disjoint subsets of sizes .
+Multi-binomial theorem.
+When working in more dimensions, it is often useful to deal with products of binomial expressions. By the binomial theorem this is equal to
+This may be written more concisely, by multi-index notation, as
+General Leibniz rule.
+The general Leibniz rule gives the th derivative of a product of two functions in a form similar to that of the binomial theorem: 
+Here, the superscript indicates the th derivative of a function. If one sets and , and then cancels the common factor of from both sides of the result, the ordinary binomial theorem is recovered.
+Applications.
+Multiple-angle identities.
+For the complex numbers the binomial theorem can be combined with de Moivre's formula to yield multiple-angle formulas for the sine and cosine. According to De Moivre's formula,
+Using the binomial theorem, the expression on the right can be expanded, and then the real and imaginary parts can be taken to yield formulas for and . For example, since
+De Moivre's formula tells us that
+which are the usual double-angle identities. Similarly, since
+De Moivre's formula yields
+In general,
+and
+Series for "e".
+The number is often defined by the formula
+Applying the binomial theorem to this expression yields the usual infinite series for . In particular:
+The th term of this sum is
+As , the rational expression on the right approaches , and therefore
+This indicates that can be written as a series:
+Indeed, since each term of the binomial expansion is an increasing function of , it follows from the monotone convergence theorem for series that the sum of this infinite series is equal to .
+Probability.
+The binomial theorem is closely related to the probability mass function of the negative binomial distribution. The probability of a (countable) collection of independent Bernoulli trials formula_102 with probability of success formula_103 all not happening is
+In abstract algebra.
+The binomial theorem is valid more generally for two elements and in a ring, or even a semiring, provided that . For example, it holds for two matrices, provided that those matrices commute; this is useful in computing powers of a matrix.
+The binomial theorem can be stated by saying that the polynomial sequence is of binomial type.
+

@@ -1,0 +1,4 @@
+Decidability theory is a branch of mathematics. Suppose there is a set, and there is an element. There is also an algorithm. The algorithm will simply check if the element belongs to the set or not. If the algorithm stops (after a limited time) and has reached a decision, if the element is in the set or not, this is called decidable.
+In simple terms, if there is a shopping bag, decidability is that one is able to check whether or not there is some salad in the bag.
+Some logical problems cannot be decided that way ("This statement is false"). They are called undecidable
+There is a weaker property too, called semidecidable. A set is called semidecidable (or recursively enumerable), if the algorithm described above can only decide if an element is in the set or is not in the set in finite time, but not both.

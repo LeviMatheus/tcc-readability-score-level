@@ -1,0 +1,2 @@
+Network computing is when computers work together over a network. Network computing is "Storing and/or running applications in servers in a network" This means that the network may use the power from all the networked computers to perform complex tasks. The network could also be for sharing files so that they can be looked at on any computer in the network easily.
+Network computing is the opposite to "Stand-alone computing". This is where computers are not connect to a network. Most laptops and home computers do their jobs alone and are stand-alone computers.

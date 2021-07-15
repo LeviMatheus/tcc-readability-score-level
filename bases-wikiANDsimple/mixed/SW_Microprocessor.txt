@@ -1,0 +1,13 @@
+A microprocessor is an electronic component that is used by a computer to do its work. Microprocessor is small silicon chip that contains millions of very small components including transistors, resistors, and diodes that work together. Microprocessors help to do everything from writing to searching the Web. For a microprocessor, every actions requires lots of precise instructions. Whether someone is writing or surfing the Web, the microprocessor in a computer processes a data using the same three steps over and over again. It does these three steps at incredible speed—millions of times a second.
+A "microprocessor" draw out and decodes instructions that are stored in a main memory unit. It fulfills decoded instruction and automatically stores fulfillment consequences, exchange data with input / output devices with the same time.
+During the past 20 years, semiconductor technology develop radically to be able to say that the current large-scale integration (LSI) and very large-scale integration (VLSI) can integrate more than 5,000,000 transistors into one small silicon chip. Development of technology such as semiconductors, makes computer systems small, as well as greatly improve the system's reliability and operating speed and power consumption has decreased a lot and it get very cheaper.
+The "microprocessors" are used in micro-computer as well as military weapons and home appliances. And it is used in not only process control but also range of office automation equipment widely.
+Because of the production of low-cost "microprocessor" we was able to produce micro-computer. The size of these computers is smaller than a portable television set. But micro-computers have the a variety of abilities, so you can perform business, industrial and scientific work. In addition, thanks to microprocessor we can development auto-responder so-called intelligent terminals and point-of-sale terminals in retail stores and etc. Usually, "microprocessor"s called chip on the computer perform automatic control function in industrial robots, observation instruments, a wide variety of hospital equipments.These days, it makes us possible to produce of programmable microwave ovens, automatically synchronized (tuning) television, an electronic game and etc. Also, a certain car is equipped with ignition and fuel system which are controled by microprocessor to improve performance and fuel-saving.
+Fetch, Decode and Execute.
+Microprocesser use three steps commonly called Fetch, Decode, and Execute.
+Fetch.
+A command that gets the next instruction from memory.
+Decode.
+Microprocessor determines what the instruction means.
+Execute.
+Microprocessor performs the instruction (microprocessor carry out a computer program or process).

@@ -1,0 +1,3 @@
+A pattern is an idea, a concept or a model. The model is usually abstract, and can then be applied to the domain where it is used. Pattern matching is checking if a certain pattern is present. Many patterns can directly be recognised by the senses.
+Some patterns are based on the fact that there are repetitions, that a certain thing occurs over and over again. An example of a simple pattern might be the tiling of a floor.
+In Computer science, Design patterns are model solutions for problems that occur very often.

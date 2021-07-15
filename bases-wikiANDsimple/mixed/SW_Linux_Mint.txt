@@ -1,0 +1,9 @@
+Linux Mint is a Linux distribution for desktop computers based on and compatible with Debian.
+While at the core Linux Mint is mostly based on Ubuntu, the design of the desktop and User interface are very different. These differences include a very unique desktop theme, a custom Linux Mint menu and the MintTools, a collection of system tools designed to make managing the computer easier for users.
+Releases.
+Originally, Linux Mint didn't follow a predictable release cycle. The project first defined the goals for the next release, and when all the goals are achieved a beta is released and a date is announced for the stable release. Recently however, it has been decided that Linux Mint will be with the 6 month Ubuntu release cycle
+Comparison with Ubuntu.
+Linux Mint is based on Ubuntu and both distributions have a lot in common. Both distributions use the same software repositories. For instance, release 2.2 (“Bianca”) uses the package pools of Ubuntu “Edgy Eft” (6.10). Most packages are the same on both distributions and the two systems behave almost identically.
+Most differences are on the desktop. Ubuntu and Linux Mint both focus on usability, but Linux Mint offers a different user experience, and it includes a number of applications that are not available in Ubuntu (see aforementioned Mint Tools).
+Many popular multimedia codecs are installed by default in Linux Mint. Ubuntu, and many other gratis GNU/Linux distributions, do not distribute these codecs with the initial install media due to patent encumberment issues.
+Ubuntu has a vastly larger support community than Linux Mint. However, the majority of Ubuntu help and advice is also applicable to Linux Mint. Ubuntu supports more languages from the LiveCD, and comes with better localization. Lastly, whilst Linux Mint only supports x86 architectures, Ubuntu also supports x86-64.

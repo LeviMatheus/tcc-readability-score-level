@@ -1,0 +1,66 @@
+
+In phonetics, aspiration is the strong burst of breath that accompanies either the release or, in the case of preaspiration, the closure of some obstruents. In English, aspirated consonants are allophones in complementary distribution with their unaspirated counterparts, but in some other languages, notably most Indian and East Asian languages, the difference is contrastive.
+In dialects with aspiration, to feel or see the difference between aspirated and unaspirated sounds, one can put a hand or a lit candle in front of one's mouth, and say "spin" and then "pin" . One should either feel a puff of air or see a flicker of the candle flame with "pin" that one does not get with "spin".
+Transcription.
+In the International Phonetic Alphabet (IPA), aspirated consonants are written using the symbols for voiceless consonants followed by the aspiration modifier letter , a superscript form of the symbol for the voiceless glottal fricative . For instance, represents the voiceless bilabial stop, and represents the aspirated bilabial stop.
+Voiced consonants are seldom actually aspirated. Symbols for voiced consonants followed by , such as , typically represent consonants with murmured voiced release (see below). In the grammatical tradition of Sanskrit, aspirated consonants are called voiceless aspirated, and breathy-voiced consonants are called voiced aspirated.
+There are no dedicated IPA symbols for degrees of aspiration and typically only two degrees are marked: unaspirated and aspirated . An old symbol for light aspiration was , but this is now obsolete. The aspiration modifier letter may be doubled to indicate especially strong or long aspiration. Hence, the two degrees of aspiration in Korean stops are sometimes transcribed or and , but they are usually transcribed and , with the details of voice onset time given numerically.
+Preaspirated consonants are marked by placing the aspiration modifier letter before the consonant symbol: represents the preaspirated bilabial stop.
+Unaspirated or tenuis consonants are occasionally marked with the modifier letter for unaspiration , a superscript equals sign: . Usually, however, unaspirated consonants are left unmarked: .
+Phonetics.
+Voiceless consonants are produced with the vocal folds open (spread) and not vibrating, and voiced consonants are produced when the vocal folds are fractionally closed and vibrating (modal voice). Voiceless aspiration occurs when the vocal folds remain open after a consonant is released. An easy way to measure this is by noting the consonant's voice onset time, as the voicing of a following vowel cannot begin until the vocal folds close.
+In some languages, such as Navajo, aspiration of stops tends to be phonetically realised as voiceless velar airflow; aspiration of affricates is realised as an extended length of the frication.
+Aspirated consonants are not always followed by vowels or other voiced sounds. For example, in Eastern Armenian, aspiration is contrastive even word-finally, and aspirated consonants occur in consonant clusters. In Wahgi, consonants are aspirated only when they are in final position.
+Degree.
+The degree of aspiration varies: the voice onset time of aspirated stops is longer or shorter depending on the language or the place of articulation.
+Armenian and Cantonese have aspiration that lasts about as long as English aspirated stops, in addition to unaspirated stops. Korean has lightly-aspirated stops that fall between the Armenian and Cantonese unaspirated and aspirated stops as well as strongly-aspirated stops whose aspiration lasts longer than that of Armenian or Cantonese. (See voice onset time.)
+Aspiration varies with place of articulation. The Spanish voiceless stops have voice onset times (VOTs) of about 5, 10, and 30 milliseconds, and English aspirated have VOTs of about 60, 70, and 80 ms. Voice onset time in Korean has been measured at 20, 25, and 50 ms for and 90, 95, and 125 for .
+Doubling.
+When aspirated consonants are doubled or geminated, the stop is held longer and then has an aspirated release. An aspirated affricate consists of a stop, fricative, and aspirated release. A doubled aspirated affricate has a longer hold in the stop portion and then has a release consisting of the fricative and aspiration.
+Preaspiration.
+Icelandic and Faroese have consonants with preaspiration , and some scholars interpret them as consonant clusters as well. In Icelandic, preaspirated stops contrast with double stops and single stops:
+Preaspiration is also a feature of Scottish Gaelic:
+Preaspirated stops also occur in most Sami languages. For example, in Northern Sami, the unvoiced stop and affricate phonemes , , , , are pronounced preaspirated (, , , ) in medial or final position.
+Fricatives and sonorants.
+Although most aspirated obstruents in the world's languages are stops and affricates, aspirated fricatives such as , or have been documented in Korean, though these are allophones of other phonemes. Similarly, aspirated fricatives and even aspirated nasals, approximants, and trills occur in a few Tibeto-Burman languages, in some Oto-Manguean languages, in the Hmongic language Hmu, and in the Siouan language Ofo. Some languages, such as Choni Tibetan, have as many as four contrastive aspirated fricatives , and .
+Voiced consonants with voiceless aspiration.
+True aspirated voiced consonants, as opposed to murmured (breathy-voice) consonants such as the that are common among the languages of India, are extremely rare. They have been documented in Kelabit.
+Phonology.
+Aspiration has varying significance in different languages. It is either allophonic or phonemic, and may be analyzed as an underlying consonant cluster.
+Allophonic.
+In some languages, such as English, aspiration is allophonic. Stops are distinguished primarily by voicing, and voiceless stops are sometimes aspirated, while voiced stops are usually unaspirated.
+English voiceless stops are aspirated for most native speakers when they are word-initial or begin a stressed syllable.
+For instance, "distend" has unaspirated since it is not analyzed as two morphemes, but "distaste" has an aspirated middle because it is analyzed as "dis-" + "taste" and the word "taste" has an aspirated initial "t".
+Word-final voiceless stops are sometimes aspirated.
+Voiceless stops in Pashto are slightly aspirated prevocalically in a stressed syllable.
+Phonemic.
+In many languages, such as Armenian, Korean, Lakota, Thai, Indo-Aryan languages, Dravidian languages, Icelandic, Faroese, Ancient Greek, and the varieties of Chinese, tenuis and aspirated consonants are phonemic. Unaspirated consonants like and aspirated consonants like are separate phonemes, and words are distinguished by whether they have one or the other.
+Consonant cluster.
+Alemannic German dialects have unaspirated as well as aspirated ; the latter series are usually viewed as consonant clusters.
+Tenseness.
+In Danish and most southern varieties of German, the lenis consonants transcribed for historical reasons as are distinguished from their fortis counterparts , mainly in their lack of aspiration.
+Absence.
+French, Standard Dutch, Afrikaans, Tamil, Finnish, Portuguese, Italian, Spanish, Russian, Polish, Latvian and Modern Greek are languages that do not have phonemic aspirated consonants.
+Examples.
+Chinese.
+Standard Chinese (Mandarin) has stops and affricates distinguished by aspiration: for instance, , . In pinyin, tenuis stops are written with letters that represent voiced consonants in English, and aspirated stops with letters that represent voiceless consonants. Thus "d" represents , and "t" represents .
+Wu Chinese and Southern Min has a three-way distinction in stops and affricates: . In addition to aspirated and unaspirated consonants, there is a series of "muddy consonants", like . These are pronounced with slack or breathy voice: that is, they are weakly voiced. Muddy consonants as initial cause a syllable to be pronounced with low pitch or "light" (陽 "yáng") tone.
+Indian languages.
+Many Indo-Aryan languages have aspirated stops. Sanskrit, Hindustani, Bengali, Marathi, and Gujarati have a four-way distinction in stops: voiceless, aspirated, voiced, and breathy-voiced or voiced aspirated, such as . Punjabi has lost breathy-voiced consonants, which resulted in a tone system, and therefore has a distinction between voiceless, aspirated, and voiced: .
+Some of the Dravidian languages, such as Telugu, Malayalam, and Kannada, have a distinction between voiced and voiceless, aspirated and unaspirated only in loanwords from Indo-Aryan languages. In native Dravidian words, there is no distinction between these categories and stops are underspecified for voicing and aspiration.
+Armenian.
+Most dialects of Armenian have aspirated stops, and some have breathy-voiced stops.
+Classical and Eastern Armenian have a three-way distinction between voiceless, aspirated, and voiced, such as .
+Western Armenian has a two-way distinction between aspirated and voiced: . Western Armenian aspirated corresponds to Eastern Armenian aspirated and voiced , and Western voiced corresponds to Eastern voiceless .
+Greek.
+Some forms of Greek before the Koine Greek period are reconstructed as having aspirated stops. The Classical Attic dialect of Ancient Greek had a three-way distinction in stops like Eastern Armenian: . These series were called , , ("psilá, daséa, mésa") "smooth, rough, intermediate", respectively, by Koine Greek grammarians.
+There were aspirated stops at three places of articulation: labial, coronal, and velar . Earlier Greek, represented by Mycenaean Greek, likely had a labialized velar aspirated stop , which later became labial, coronal, or velar depending on dialect and phonetic environment.
+The other Ancient Greek dialects, Ionic, Doric, Aeolic, and Arcadocypriot, likely had the same three-way distinction at one point, but Doric seems to have had a fricative in place of in the Classical period, and the Ionic and Aeolic dialects sometimes lost aspiration (psilosis).
+Later, during the Koine Greek period, the aspirated and voiced stops of Attic Greek lenited to voiceless and voiced fricatives, yielding in Medieval and Modern Greek. Cypriot Greek is notable for aspirating its inherited (and developed across word-boundaries) voiceless geminate stops, yielding the series /pʰː tʰː cʰː kʰː/.
+Other uses.
+Debuccalization.
+The term "aspiration" sometimes refers to the sound change of debuccalization, in which a consonant is lenited (weakened) to become a glottal stop or fricative .
+Breathy-voiced release.
+So-called voiced aspirated consonants are nearly always pronounced instead with breathy voice, a type of phonation or vibration of the vocal folds. The modifier letter after a voiced consonant actually represents a breathy-voiced or murmured dental stop, as with the "voiced aspirated" bilabial stop in the Indo-Aryan languages. This consonant is therefore more accurately transcribed as , with the diacritic for breathy voice, or with the modifier letter , a superscript form of the symbol for the voiced glottal fricative .
+Some linguists restrict the double-dot subscript to murmured sonorants, such as vowels and nasals, which are murmured throughout their duration, and use the superscript hook-aitch for the breathy-voiced release of obstruents.
+

@@ -1,0 +1,5 @@
+Binomial expansion uses an expression to make a series. It uses a bracket expression like formula_1.
+Using Pascal's triangle.
+If formula_2 is an integer (formula_3), we use Pascal's triangle.
+So formula_11
+where formula_14 is the number at row formula_15 and position formula_16 in Pascal's triangle.

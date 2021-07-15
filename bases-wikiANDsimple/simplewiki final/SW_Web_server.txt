@@ -1,0 +1,12 @@
+A web server is a computer with a boot device or other disk containing a web site. The term may also refer to an application that helps a computer to perform web server functions.
+If one site runs more than one server they must use different
+port numbers. Alternatively, several hostnames may be
+mapped to the same computer in which case they are known as
+Apache and NCSA HTTPd are two popular web servers.
+There are many others including some for practically every
+platform. Servers differ mostly in the "server-side"
+features they offer such as server-side includes, and in
+their authentication and access control mechanisms. All
+decent servers support CGI and most have some binary API
+Server Languages.
+To work with the server, they must be a web-based language instead of being a language which is used to make normal computer programs.

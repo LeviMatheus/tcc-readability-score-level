@@ -1,0 +1,123 @@
+
+In mathematics, a finite field or Galois field (so-named in honor of Évariste Galois) is a field that contains a finite number of elements. As with any field, a finite field is a set on which the operations of multiplication, addition, subtraction and division are defined and satisfy certain basic rules. The most common examples of finite fields are given by the integers mod when is a prime number.
+Finite fields are fundamental in a number of areas of mathematics and computer science, including number theory, algebraic geometry, Galois theory, finite geometry, cryptography and coding theory.
+Properties.
+A finite field is a finite set which is a field; this means that multiplication, addition, subtraction and division (excluding division by zero) are defined and satisfy the rules of arithmetic known as the field axioms.
+The number of elements of a finite field is called its "order" or, sometimes, its "size". A finite field of order exists if and only if is a prime power (where is a prime number and is a positive integer). In a field of order , adding copies of any element always results in zero; that is, the characteristic of the field is .
+If , all fields of order are isomorphic (see below). Moreover, a field cannot contain two different finite subfields with the same order. One may therefore identify all finite fields with the same order, and they are unambiguously denoted formula_1, or , where the letters GF stand for "Galois field".
+In a finite field of order , the polynomial has all elements of the finite field as roots. The non-zero elements of a finite field form a multiplicative group. This group is cyclic, so all non-zero elements can be expressed as powers of a single element called a primitive element of the field. (In general there will be several primitive elements for a given field.)
+The simplest examples of finite fields are the fields of prime order: for each prime number , the prime field of order , formula_2, may be constructed as the integers modulo, .
+The elements of the prime field of order may be represented by integers in the range . The sum, the difference and the product are the remainder of the division by of the result of the corresponding integer operation. The multiplicative inverse of an element may be computed by using the extended Euclidean algorithm (see ).
+Let be a finite field. For any element in and any integer , denote by the sum of copies of . The least positive such that is the characteristic of the field. This allows defining a multiplication formula_3 of an element of by an element of by choosing an integer representative for . This multiplication makes into a -vector space. It follows that the number of elements of is for some integer .
+The identity
+(sometimes called the freshman's dream) is true in a field of characteristic . This follows from the binomial theorem, as each binomial coefficient of the expansion of , except the first and the last, is a multiple of .
+By Fermat's little theorem, if is a prime number and is in the field then . This implies the equality
+for polynomials over . More generally, every element in satisfies the polynomial equation .
+Any finite field extension of a finite field is separable and simple. That is, if is a finite field and is a subfield of , then is obtained from by adjoining a single element whose minimal polynomial is separable. To use a jargon, finite fields are perfect.
+A more general algebraic structure that satisfies all the other axioms of a field, but whose multiplication is not required to be commutative, is called a division ring (or sometimes "skew field"). By Wedderburn's little theorem, any finite division ring is commutative, and hence is a finite field.
+Existence and uniqueness.
+Let be a prime power, and be the splitting field of the polynomial 
+over the prime field . This means that is a finite field of lowest order, in which has distinct roots (the formal derivative of is , implying that , which in general implies that the splitting field is a separable extension of the original). The above identity shows that the sum and the product of two roots of are roots of , as well as the multiplicative inverse of a root of . In other words, the roots of form a field of order , which is equal to by the minimality of the splitting field.
+The uniqueness up to isomorphism of splitting fields implies thus that all fields of order are isomorphic. Also, if a field has a field of order as a subfield, its elements are the roots of , and cannot contain another subfield of order .
+In summary, we have the following classification theorem first proved in 1893 by E. H. Moore:
+It follows that contains a subfield isomorphic to if and only if is a divisor of ; in that case, this subfield is unique. In fact, the polynomial divides if and only if is a divisor of .
+Explicit construction.
+Non-prime fields.
+Given a prime power with prime and , the field may be explicitly constructed in the following way. One first chooses an irreducible polynomial in of degree (such an irreducible polynomial always exists). Then the quotient ring 
+of the polynomial ring by the ideal generated by is a field of order .
+More explicitly, the elements of are the polynomials over whose degree is strictly less than . The addition and the subtraction are those of polynomials over . The product of two elements is the remainder of the Euclidean division by of the product in .
+The multiplicative inverse of a non-zero element may be computed with the extended Euclidean algorithm; see Extended Euclidean algorithm § Simple algebraic field extensions.
+Except in the construction of , there are several possible choices for , which produce isomorphic results. To simplify the Euclidean division, for one commonly chooses polynomials of the form 
+which make the needed Euclidean divisions very efficient. However, for some fields, typically in characteristic , irreducible polynomials of the form may not exist. In characteristic , if the polynomial is reducible, it is recommended to choose with the lowest possible that makes the polynomial irreducible. If all these trinomials are reducible, one chooses "pentanomials" , as polynomials of degree greater than , with an even number of terms, are never irreducible in characteristic , having as a root.
+A possible choice for such a polynomial is given by Conway polynomials. They ensure a certain compatibility between the representation of a field and the representations of its subfields.
+In the next sections, we will show how the general construction method outlined above works for small finite fields.
+Field with four elements.
+Over , there is only one irreducible polynomial of degree :
+Therefore, for the construction of the preceding section must involve this polynomial, and
+If one denotes a root of this polynomial in , the tables of the operations in are the following. There is no table for subtraction, because subtraction is identical to addition, as is the case for every field of characteristic 2. In the third table, for the division of by , must be read on the left, and on the top.
+GF("p"2) for an odd prime "p".
+For applying the above general construction of finite fields in the case of , one has to find an irreducible polynomial of degree 2. For , this has been done in the preceding section. If is an odd prime, there are always irreducible polynomials of the form , with in .
+More precisely, the polynomial is irreducible over if and only if is a quadratic non-residue modulo (this is almost the definition of a quadratic non-residue). There are quadratic non-residues modulo . For example, is a quadratic non-residue for , and is a quadratic non-residue for . If , that is , one may choose as a quadratic non-residue, which allows us to have a very simple irreducible polynomial .
+Having chosen a quadratic non-residue , let be a symbolic square root of , that is a symbol which has the property , in the same way as the complex number is a symbolic square root of . Then, the elements of are all the linear expressions
+with and in . The operations on are defined as follows (the operations between elements of represented by Latin letters are the operations in ):
+GF(8) and GF(27).
+The polynomial
+is irreducible over and , that is, it is irreducible modulo and (to show this it suffices to show that it has no root in nor in ). It follows that the elements of and may be represented by expressions
+where are elements of or (respectively), and formula_17 is a symbol such that 
+The addition, additive inverse and multiplication on and may thus be defined as follows; in following formulas, the operations between elements of or , represented by Latin letters, are the operations in or , respectively:
+GF(16).
+The polynomial
+is irreducible over , that is, it is irreducible modulo . It follows that the elements of may be represented by expressions
+where are either or (elements of ), and is a symbol such that 
+As the characteristic of is , each element is its additive inverse in .
+The addition and multiplication on may be defined as follows; in following formulas, the operations between elements of , represented by Latin letters are the operations in .
+Multiplicative structure.
+The set of non-zero elements in is an abelian group under the multiplication, of order . By Lagrange's theorem, there exists a divisor of such that for every non-zero in . As the equation has at most solutions in any field, is the lowest possible value for .
+The structure theorem of finite abelian groups implies that this multiplicative group is cyclic, that is, all non-zero elements are powers of a single element. In summary:
+Such an element is called a primitive element. Unless , the primitive element is not unique. The number of primitive elements is where is Euler's totient function.
+The result above implies that for every in . The particular case where is prime is Fermat's little theorem.
+Discrete logarithm.
+If is a primitive element in , then for any non-zero element in , there is a unique integer with such that
+This integer is called the discrete logarithm of to the base .
+While can be computed very quickly, for example using exponentiation by squaring, there is no known efficient algorithm for computing the inverse operation, the discrete logarithm. This has been used in various cryptographic protocols, see Discrete logarithm for details.
+When the nonzero elements of are represented by their discrete logarithms, multiplication and division are easy, as they reduce to addition and subtraction modulo . However, addition amounts to computing the discrete logarithm of . The identity 
+allows one to solve this problem by constructing the table of the discrete logarithms of , called Zech's logarithms, for (it is convenient to define the discrete logarithm of zero as being ).
+Zech's logarithms are useful for large computations, such as linear algebra over medium-sized fields, that is, fields that are sufficiently large for making natural algorithms inefficient, but not too large, as one has to pre-compute a table of the same size as the order of the field.
+Roots of unity.
+Every nonzero element of a finite field is a root of unity, as for every nonzero element of .
+If is a positive integer, an th primitive root of unity is a solution of the equation that is not a solution of the equation for any positive integer . If is a th primitive root of unity in a field , then contains all the roots of unity, which are .
+The field contains a th primitive root of unity if and only if is a divisor of ; if is a divisor of , then the number of primitive th roots of unity in is (Euler's totient function). The number of th roots of unity in is .
+In a field of characteristic , every th root of unity is also a th root of unity. It follows that primitive th roots of unity never exist in a field of characteristic .
+On the other hand, if is coprime to , the roots of the th cyclotomic polynomial are distinct in every field of characteristic , as this polynomial is a divisor of , whose discriminant is nonzero modulo . It follows that the th cyclotomic polynomial factors over into distinct irreducible polynomials that have all the same degree, say , and that is the smallest field of characteristic that contains the th primitive roots of unity.
+Example: GF(64).
+The field has several interesting properties that smaller fields do not share: it has two subfields such that neither is contained in the other; not all generators (elements with minimal polynomial of degree over ) are primitive elements; and the primitive elements are not all conjugate under the Galois group.
+The order of this field being , and the divisors of being , the subfields of are , , , and itself. As and are coprime, the intersection of and in is the prime field .
+The union of and has thus elements. The remaining elements of generate in the sense that no other subfield contains any of them. It follows that they are roots of irreducible polynomials of degree over . This implies that, over , there are exactly irreducible monic polynomials of degree . This may be verified by factoring over .
+The elements of are primitive th roots of unity for some dividing . As the 3rd and the 7th roots of unity belong to and , respectively, the generators are primitive th roots of unity for some in . Euler's totient function shows that there are primitive th roots of unity, primitive st roots of unity, and primitive rd roots of unity. Summing these numbers, one finds again elements.
+By factoring the cyclotomic polynomials over , one finds that:
+This shows that the best choice to construct is to define it as . In fact, this generator is a primitive element, and this polynomial is the irreducible polynomial that produces the easiest Euclidean division.
+Frobenius automorphism and Galois theory.
+In this section, is a prime number, and is a power of .
+In , the identity implies that the map
+is a -linear endomorphism and a field automorphism of , which fixes every element of the subfield . It is called the Frobenius automorphism, after Ferdinand Georg Frobenius.
+Denoting by the composition of with itself times, we have 
+It has been shown in the preceding section that is the identity. For , the automorphism is not the identity, as, otherwise, the polynomial 
+would have more than roots.
+There are no other -automorphisms of . In other words, has exactly -automorphisms, which are 
+In terms of Galois theory, this means that is a Galois extension of , which has a cyclic Galois group.
+The fact that the Frobenius map is surjective implies that every finite field is perfect.
+Polynomial factorization.
+If is a finite field, a non-constant monic polynomial with coefficients in is irreducible over , if it is not the product of two non-constant monic polynomials, with coefficients in .
+As every polynomial ring over a field is a unique factorization domain, every monic polynomial over a finite field may be factored in a unique way (up to the order of the factors) into a product of irreducible monic polynomials.
+There are efficient algorithms for testing polynomial irreducibility and factoring polynomials over finite field. They are a key step for factoring polynomials over the integers or the rational numbers. At least for this reason, every computer algebra system has functions for factoring polynomials over finite fields, or, at least, over finite prime fields.
+Irreducible polynomials of a given degree.
+The polynomial
+factors into linear factors over a field of order . More precisely, this polynomial is the product of all monic polynomials of degree one over a field of order .
+This implies that, if then is the product of all monic irreducible polynomials over , whose degree divides . In fact, if is an irreducible factor over of , its degree divides , as its splitting field is contained in . Conversely, if is an irreducible monic polynomial over of degree dividing , it defines a field extension of degree , which is contained in , and all roots of belong to , and are roots of ; thus divides . As does not have any multiple factor, it is thus the product of all the irreducible monic polynomials that divide it.
+This property is used to compute the product of the irreducible factors of each degree of polynomials over ; see Distinct degree factorization.
+Number of monic irreducible polynomials of a given degree over a finite field.
+The number of monic irreducible polynomials of degree over 
+ is given by
+where is the Möbius function. This formula is almost a direct consequence of above property of .
+By the above formula, the number of irreducible (not necessarily monic) polynomials of degree over is .
+A (slightly simpler) lower bound for is
+One may easily deduce that, for every and every , there is at least one irreducible polynomial of degree over . This lower bound is sharp for .
+Applications.
+In cryptography, the difficulty of the discrete logarithm problem in finite fields or in elliptic curves is the basis of several widely used protocols, such as the Diffie–Hellman protocol. For example, in 2014, a secure internet connection to Wikipedia involved the elliptic curve Diffie–Hellman protocol (ECDHE) over a large finite field. In coding theory, many codes are constructed as subspaces of vector spaces over finite fields.
+Finite fields are widely used in number theory, as many problems over the integers may be solved by reducing them modulo one or several prime numbers. For example, the fastest known algorithms for polynomial factorization and linear algebra over the field of rational numbers proceed by reduction modulo one or several primes, and then reconstruction of the solution by using Chinese remainder theorem, Hensel lifting or the LLL algorithm.
+Similarly many theoretical problems in number theory can be solved by considering their reductions modulo some or all prime numbers. See, for example, Hasse principle. Many recent developments of algebraic geometry were motivated by the need to enlarge the power of these modular methods. Wiles' proof of Fermat's Last Theorem is an example of a deep result involving many mathematical tools, including finite fields.
+The Weil conjectures concern the number of points on algebraic varieties over finite fields and the theory has many applications including exponential and character sum estimates.
+Finite fields have widespread application in combinatorics, two well known examples being the definition of Paley Graphs and the related construction for Hadamard Matrices. In arithmetic combinatorics finite fields and finite field models are used extensively, such as in Szemerédi's theorem on arithmetic progressions.
+Extensions.
+Algebraic closure.
+A finite field is not algebraically closed: the polynomial
+has no roots in , since for all in .
+Fix an algebraic closure formula_35 of formula_36. The map formula_37 sending each to is called the th power Frobenius automorphism. The subfield of formula_35 fixed by the th iterate of formula_39 is the set of zeros of the polynomial , which has distinct roots since its derivative in formula_40 is , which is never zero. Therefore that subfield has elements, so it is the unique copy of formula_41 in formula_35. Every finite extension of formula_36 in formula_35 is this formula_41 for some , so 
+The absolute Galois group of formula_36 is the profinite group
+Like any infinite Galois group, formula_49 may be equipped with the Krull topology, and then the isomorphisms just given are isomorphisms of topological groups.
+The image of formula_39 in the group formula_51 is the generator , so formula_39 corresponds to formula_53. It follows that formula_39 has infinite order and generates a dense subgroup of formula_49, not the whole group, because the element formula_53 has infinite order and generates the dense subgroup formula_57 One says that formula_39 is a topological generator of formula_49.
+Quasi-algebraic closure.
+Although finite fields are not algebraically closed, they are quasi-algebraically closed, which means that every homogeneous polynomial over a finite field has a non-trivial zero whose components are in the field if the number of its variables is more than its degree. This was a conjecture of Artin and Dickson proved by Chevalley (see Chevalley–Warning theorem).
+Wedderburn's little theorem.
+A division ring is a generalization of field. Division rings are not assumed to be commutative. There are no non-commutative finite division rings: Wedderburn's little theorem states that all finite division rings are commutative, hence finite fields. The result holds even if we relax associativity and consider alternative rings, by the Artin–Zorn theorem.
+

@@ -1,0 +1,13 @@
+
+The photosphere is a star's outer shell from which light is radiated. 
+The term itself is derived from Ancient Greek roots, φῶς, φωτός/"phos, photos" meaning "light" and σφαῖρα/"sphaira" meaning "sphere", in reference to it being a spherical surface that is perceived to emit light. It extends into a star's surface until the plasma becomes opaque, equivalent to an optical depth of approximately , or equivalently, a depth from which 50% of light will escape without being scattered. 
+A photosphere is the deepest region of a luminous object, usually a star, that is transparent to photons of certain wavelengths.
+Temperature.
+The surface of a star is defined to have a temperature given by the effective temperature in the Stefan–Boltzmann law. Stars, except neutron stars, have no solid or liquid surface. Therefore, the photosphere is typically used to describe the Sun's or another star's visual surface.
+Composition of the Sun.
+The Sun is composed primarily of the chemical elements hydrogen and helium; they account for 74.9% and 23.8% of the mass of the Sun in the photosphere, respectively. All heavier elements, called metals in astronomy, account for less than 2% of the mass, with oxygen (roughly 1% of the Sun's mass), carbon (0.3%), neon (0.2%), and iron (0.2%) being the most abundant.
+Sun.
+The Sun's photosphere has a temperature between (with an effective temperature of ) and a density of about 3 kg/m3; increasing with depth into the sun. Other stars may have hotter or cooler photospheres. The Sun's photosphere is around 100 kilometers thick, and is composed of convection cells called granules—cells of plasma each approximately 1000 kilometers in diameter with hot rising plasma in the center and cooler plasma falling in the narrow spaces between them, flowing at velocities of 7 kilometer per second. Each granule has a lifespan of only about twenty minutes, resulting in a continually shifting "boiling" pattern. Grouping the typical granules are super granules up to 30,000 kilometers in diameter with lifespans of up to 24 hours and flow speeds of about 500 meter per second, carrying magnetic field bundles to the edges of the cells. Other magnetically-related phenomena include sunspots and solar faculae dispersed between the granules. These details are too fine to be seen when observing other stars from earth.
+Other layers of the Sun.
+The Sun's visible atmosphere has other layers above the photosphere: the 2,000 kilometer-deep chromosphere (typically observed by filtered light, for example H-alpha) lies just between the photosphere and the much hotter but more tenuous corona. Other "surface features" on the photosphere are solar flares and sunspots.
+

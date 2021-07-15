@@ -1,0 +1,5 @@
+Fluid mechanics is the study of how fluids move and the forces on them. (Fluids include liquids and gases.)
+Fluid mechanics can be divided into fluid statics, the study of fluids at rest, and fluid dynamics, the study of fluids in motion. It is a branch of continuum mechanics, a subject which models matter without using the information that it is made out of atoms.
+The study of fluid mechanics goes back at least to the days of ancient Greece, when Archimedes made a beginning on fluid statics. However, fluid mechanics, especially fluid dynamics, is an active field of research with many unsolved or partly solved problems. Fluid mechanics can be mathematically complex. Sometimes it can best be solved by numerical methods, typically using computers. A modern discipline, called "Computational Fluid Dynamics" (CFD), is devoted to this approach to solving fluid mechanics problems.
+Relationship to continuum mechanics.
+Fluid mechanics is a subdiscipline of continuum mechanics, as illustrated in the following table.

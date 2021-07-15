@@ -1,0 +1,6 @@
+
+Software crisis is a term used in the early days of computing science for the difficulty of writing useful and efficient computer programs in the required time. The software crisis was due to the rapid increases in computer power and the complexity of the problems that could now be tackled. With the increase in the complexity of the software, many software problems arose because existing methods were inadequate.
+The term "software crisis" was coined by some attendees at the first NATO Software Engineering Conference in 1968 at Garmisch, Germany. Edsger Dijkstra's 1972 Turing Award Lecture makes reference to this same problem:
+The causes of the software crisis were linked to the overall complexity of hardware and the software development process. The crisis manifested itself in several ways:
+The main cause is that improvements in computing power had outpaced the ability of programmers to effectively utilize those capabilities. Various processes and methodologies have been developed over the last few decades to improve software quality management such as procedural programming and object-oriented programming. However software projects that are large, complicated, poorly specified, and involve unfamiliar aspects, are still vulnerable to large, unanticipated problems.
+

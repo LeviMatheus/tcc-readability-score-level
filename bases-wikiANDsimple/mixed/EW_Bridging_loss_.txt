@@ -1,0 +1,5 @@
+
+Bridging loss is the loss, at a given frequency, that results when an impedance is connected across a transmission line. It is expressed as the ratio, in decibels, of the signal power delivered to a given point in a system downstream from the bridging point prior to bridging, to the signal power delivered to the given point after bridging. The term is introduced because return loss is not applicable to the high-impedance input conditions. The term is also used in telephone practice and synonymous with the insertion loss that result from bridging an impedance across a circuit.
+References.
+Source: from Federal Standard 1037C and from MIL-STD-188
+

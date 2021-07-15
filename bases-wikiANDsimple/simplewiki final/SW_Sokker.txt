@@ -1,0 +1,3 @@
+Sokker is a browser-based online football manager like hattrick and managerzone. Managers who like the game a lot often buy plus which gives them extra options.
+The user manages a football team with which they have to reach the top. One of the big advantages over hattrick lies in the fact that the matches can be watched with flash.
+Another advantage is that the position of every player can be set exactly as the user wants. Which means there are an infinite amount of tactical possibilities. The game has about 50.000 users and more than 100.000 teams, most are computer controlled bots.

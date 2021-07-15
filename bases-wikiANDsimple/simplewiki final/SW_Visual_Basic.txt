@@ -1,0 +1,14 @@
+Visual Basic is a programming language developed by Microsoft for their operating system Windows.
+The BASIC language is said to be easier to read than other languages.
+It is a widely understood high-level programming language, written using simple English-like words and syntax.
+It is an interpreted language, code can be run immediately after being written.
+Having an interpreter makes it simpler to use, as there is no need for the computer to compile the code, possibly finding errors to fix, before the compiled version can be run.
+Once it is working, it can be compiled into an.exe file so that it will run on all modern Windows computers, whether VB is installed or not. The language allows a beginning programmer to produce professional-looking Windows applications, as it includes drawing tools to create normal Windows forms. VB also includes advanced features - concepts and structures which allow programs to be adapted for use with the Internet.
+It will not run on operating systems other than Windows and on machines with non-Intel compatible processors.
+Example.
+MyInput = InputBox("How old are you?")
+MsgBox "You cannot be less than zero!"
+MsgBox "You're " & MyInput & " years old."
+Visual Basic.NET.
+Visual Basic.NET is the next series of products in Microsoft's successful "Visual Basic" range of products. It makes creating programs easier because it is possible to drag-and-drop controls into the program.
+It runs on the .NET Framework and features another long line of programs. For the full list of editions in the.NET series, click here.

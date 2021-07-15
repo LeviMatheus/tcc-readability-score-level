@@ -1,0 +1,3 @@
+The Pitman arm is a component that converts the angular motion of a sector shaft into linear motion.
+It is used in automobiles or trucks to steer the wheels.
+The Pitman transmits the motion it receives from the steering box into the drag link So it makes it move left or right to turn the wheels in the appropriate direction. The idler arm is attached between the opposite side of the centre link from the Pitman arm and the vehicle's frame to hold the centre link at the proper height.

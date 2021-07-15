@@ -1,0 +1,8 @@
+Neurons are also called nerve cells. Neurons are the basic units of the nervous system and its most important part, the brain.
+Every neuron has a cell body (called a soma) and nerve fibres (called axons and dendrites). There are about 100 billion neurons in the human brain.
+Classes.
+There are three classes of neurons: afferent neurons, efferent neurons, and interneurons.
+Simple neuron classes.
+Sensory neurons carry signals from sense organs to the spinal cord and brain
+Relay neurons carry messages from one part of the CNS to another
+Motor neurons carry signals from the CNS to muscles, motor neurons are connected to the relay neurons. The signal passes between the neurons via synapses.

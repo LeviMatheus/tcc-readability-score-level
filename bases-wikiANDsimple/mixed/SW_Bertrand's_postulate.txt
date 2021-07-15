@@ -1,0 +1,3 @@
+Bertrand's postulate states that if "n" > 3 is an integer, then there always exists at least one prime number "p" with "n" < "p" < 2"n" − 2.
+This statement was first made in 1845 by Joseph Bertrand. Bertrand verified his statement for all numbers in the interval [2, 3 × 106].
+His statement was completely proven by Pafnuty Chebyshev in 1850. For this reason, the postulate is also called the Bertrand-Chebyshev theorem or Chebyshev's theorem'". Srinivasa Ramanujan gave a simpler proof. Ramanujan later used that proof when he discovered Ramanujan primes. In 1932, Paul Erdős published a simpler proof using the Chebyshev function θ("x").

@@ -1,0 +1,6 @@
+WhatPulse is a key counting program which monitors the number of keystrokes, mouse clicks and can now measure the distance your mouse has traveled.
+The program is not a keylogger as it does not record the keys that the user press, just the amount of times keys are pressed.
+It can also display the speed the user types by calculating the average of how much they have typed over a period of time.
+A Pulse.
+A user sends a "Pulse" to the WhatPulse server which contains how much a user has typed and clicked since the last "Pulse".
+WhatPulse also allows a user to automatically "Pulse" at a certain amount of keystrokes, mouse clicks, distance or at a certain time since the last "Pulse".

@@ -1,0 +1,2 @@
+In cryptography, a ciphertext-only attack (COA) or known ciphertext attack is an attack model for cryptanalysis where the attacker is assumed to have access only to a set of ciphertexts.
+The attack is completely successful if the corresponding plaintexts can be deduced (extracted), or even better, the key. The ability to obtain any amount of information from the underlying ciphertext is considered a success.

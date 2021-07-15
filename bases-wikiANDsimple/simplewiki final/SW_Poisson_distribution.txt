@@ -1,0 +1,1 @@
+The Poisson distribution is a probability distribution. It is named after Siméon Denis Poisson who discovered it in 1838. It measures the probability that a certain number of events occur within a certain time time interval. The events need to be independent of one another. They also need to occur with a known average rate.

@@ -1,0 +1,6 @@
+
+A relay league is a chain of message forwarding stations in a system of optical telegraphs, radio telegraph stations, or riding couriers. Early 19th century methods of this type evolved into the electrical telegraph networks of the mid-to-late 19th century.
+Radio relay leagues.
+Radio amateurs have been early in arranging relay leagues, as is reflected in the name of the organization of American Radio Relay League (ARRL).
+Radio amateur message relay operations were originally conducted in the first two decades of the 20th century using Morse code via spark-gap transmitters. As vacuum tubes became affordable, operations shifted to more efficient manual telegraphy transmitters, referred to as "CW" (Continuous wave). Messages were relayed station-to-station, typically involving four or more re-transmission cycles to cover the continental United States, in an organized system of amateur radio networks. After World War II, voice and radioteletype implementations of the message relay system were employed.
+

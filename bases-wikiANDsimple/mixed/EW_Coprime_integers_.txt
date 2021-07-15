@@ -1,0 +1,44 @@
+
+In number theory, two integers and are coprime, relatively prime or mutually prime if the only positive integer that evenly divides (is a divisor of) both of them is 1. One says also " is prime to " or " is coprime with ". Consequently, any prime number that divides one of or does not divide the other. This is equivalent to their greatest common divisor (gcd) being 1. 
+The numerator and denominator of a reduced fraction are coprime. 
+The numbers 14 and 25 are coprime, since 1 is their only common divisor.
+On the other hand, 14 and 21 are not coprime, because they are both divisible by 7.
+Notation and testing.
+Standard notations for relatively prime integers and are: and . In a 1989 paper, Graham, Knuth, and Patashnik proposed that the notation formula_1 be used to indicate that and are relatively prime and that the term "prime" be used instead of coprime (as in is "prime" to ).
+A fast way to determine whether two numbers are coprime is given by the Euclidean algorithm and its faster variants such as binary GCD algorithm or Lehmer's GCD algorithm.
+The number of integers coprime with a positive integer , between 1 and , is given by Euler's totient function, 
+also known as Euler's phi function, .
+A set of integers can also be called coprime if its elements share no common positive factor except 1. A stronger condition on a set of integers is pairwise coprime, which means that and are coprime for every pair of different integers in the set. The set } is coprime, but it is not pairwise coprime since 2 and 4 are not relatively prime.
+Properties.
+The numbers 1 and −1 are the only integers coprime with every integer, and they are the only integers that are coprime with 0.
+A number of conditions are equivalent to and being coprime:
+As a consequence of the third point, if "a" and "b" are coprime and "br" ≡ "bs" (mod "a"), then "r" ≡ "s" (mod "a"). That is, we may "divide by "b"" when working modulo "a". Furthermore, if "b"1 and "b"2 are both coprime with "a", then so is their product "b"1"b"2 (i.e., modulo "a" it is a product of invertible elements, and therefore invertible); this also follows from the first point by Euclid's lemma, which states that if a prime number "p" divides a product "bc", then "p" divides at least one of the factors "b", "c".
+As a consequence of the first point, if "a" and "b" are coprime, then so are any powers "a""k" and "b""m".
+If "a" and "b" are coprime and "a" divides the product "bc", then "a" divides "c". This can be viewed as a generalization of Euclid's lemma.
+The two integers "a" and "b" are coprime if and only if the point with coordinates ("a", "b") in a Cartesian coordinate system is "visible" from the origin (0,0), in the sense that there is no point with integer coordinates on the line segment between the origin and ("a", "b"). (See figure 1.)
+In a sense that can be made precise, the probability that two randomly chosen integers are coprime is 6/π2 (see pi), which is about 61%. See below.
+Two natural numbers "a" and "b" are coprime if and only if the numbers 2"a" − 1 and 2"b" − 1 are coprime. As a generalization of this, following easily from the Euclidean algorithm in base "n" &gt; 1:
+Coprimality in sets.
+A set of integers "S" = {"a"1, "a"2, ... "a""n"} can also be called "coprime" or "setwise coprime" if the greatest common divisor of all the elements of the set is 1. For example, the integers 6, 10, 15 are coprime because 1 is the only positive integer that divides all of them.
+If every pair in a set of integers is coprime, then the set is said to be "pairwise coprime" (or "pairwise relatively prime", "mutually coprime" or "mutually relatively prime"). Pairwise coprimality is a stronger condition than setwise coprimality; every pairwise coprime finite set is also setwise coprime, but the reverse is not true. For example, the integers 4, 5, 6 are (setwise) coprime (because the only positive integer dividing "all" of them is 1), but they are not "pairwise" coprime (because gcd(4, 6) = 2).
+The concept of pairwise coprimality is important as a hypothesis in many results in number theory, such as the Chinese remainder theorem.
+It is possible for an infinite set of integers to be pairwise coprime. Notable examples include the set of all prime numbers, the set of elements in Sylvester's sequence, and the set of all Fermat numbers.
+Coprimality in ring ideals.
+Two ideals "A" and "B" in a commutative ring "R" are called coprime (or comaximal) if "A" + "B" = "R". This generalizes Bézout's identity: with this definition, two principal ideals ("a") and ("b") in the ring of integers Z are coprime if and only if "a" and "b" are coprime. If the ideals "A" and "B" of "R" are coprime, then "AB" = "A"∩"B"; furthermore, if "C" is a third ideal such that "A" contains "BC", then "A" contains "C". The Chinese remainder theorem can be generalized to any commutative ring, using coprime ideals.
+Probability of coprimality.
+Given two randomly chosen integers "a" and "b", it is reasonable to ask how likely it is that "a" and "b" are coprime. In this determination, it is convenient to use the characterization that "a" and "b" are coprime if and only if no prime number divides both of them (see Fundamental theorem of arithmetic).
+Informally, the probability that any number is divisible by a prime (or in fact any integer) formula_3 is formula_4; for example, every 7th integer is divisible by 7. Hence the probability that two numbers are both divisible by "p" is formula_5, and the probability that at least one of them is not is formula_6. Any finite collection of divisibility events associated to distinct primes is mutually independent. For example, in the case of two events, a number is divisible by primes "p" and "q" if and only if it is divisible by "pq"; the latter event has probability 1/"pq". If one makes the heuristic assumption that such reasoning can be extended to infinitely many divisibility events, one is led to guess that the probability that two numbers are coprime is given by a product over all primes,
+Here "ζ" refers to the Riemann zeta function, the identity relating the product over primes to "ζ"(2) is an example of an Euler product, and the evaluation of "ζ"(2) as "π"2/6 is the Basel problem, solved by Leonhard Euler in 1735.
+There is no way to choose a positive integer at random so that each positive integer occurs with equal probability, but statements about "randomly chosen integers" such as the ones above can be formalized by using the notion of "natural density". For each positive integer "N", let "P""N" be the probability that two randomly chosen numbers in formula_8 are coprime. Although "P""N" will never equal formula_9 exactly, with work one can show that in the limit as formula_10, the probability formula_11 approaches formula_9.
+More generally, the probability of "k" randomly chosen integers being coprime is formula_13.
+Generating all coprime pairs.
+All pairs of positive coprime numbers formula_14 (with formula_15) can be arranged in two disjoint complete ternary trees, one tree starting from formula_16 (for even–odd and odd–even pairs), and the other tree starting from formula_17 (for odd–odd pairs). The children of each vertex formula_18 are generated as follows:
+This scheme is exhaustive and non-redundant with no invalid members.
+Applications.
+In machine design, 
+an even, uniform gear wear is achieved by choosing the tooth counts of the two gears meshing together to be relatively prime.
+When a 1:1 gear ratio is desired, a gear relatively prime to the two equal-size gears may be inserted between them.
+In pre-computer cryptography,
+some Vernam cipher machines combined several loops of key tape of different lengths. Many rotor machines combine rotors of different numbers of teeth.
+Such combinations work best when the entire set of lengths are pairwise coprime.
+

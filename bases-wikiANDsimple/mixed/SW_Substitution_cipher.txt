@@ -1,0 +1,17 @@
+A substitution cipher is a form of cryptography.
+In a substitution cipher, a rule is used to change each letter of the message, one at a time. The rule says to replace (or "substitute") each letter with another letter from the alphabet.
+Using this rule, the sentence "Jack and Jill went up the hill" is changed to "Etar tzn Evmm gkzc dw cuk uvmm". The Caesar cipher is one example of a substitution cipher.
+Substitution ciphers are not safe enough to use for important messages. Substitution ciphers can be broken by an idea called "frequency analysis". Some letters are more common than others in English sentences: "E" is the most common, then "T", then "A", and so on. A message that has been changed by a substitution cipher will have different common letters, but this gives a hint about the rule. The most common letters in the changed message are likely to be the most common letters in English.
+Breaking "cryptograms" (messages hidden with a substitution cipher) is a common puzzle often found in newspapers.
+Example.
+For this example, capital letters are used for unknown letters, and lowercase letters are used to denote letters we know or can guess.
+By counting up the letters, we see that the most common is I, which we will guess is an e. X is also quite common, and XLI is found many times; we guess that this is the, the most common three-letter group in English.
+"Here upon le grand arose with a grave and stately air and brought me the beetle
+from a glass case in which it was enclosed. It was a beautiful scarabaeus and
+at that time unknown to naturalists of course; a great prize in a scientific
+point of view. There were two round black spots near one extremity of the back
+and a long one near the other. The scales were exceedingly hard and glossy with
+all the appearance of burnished gold. The weight of the insect was very
+remarkable and taking all things into consideration I could hardly blame jupiter
+for his opinion respecting it." (The Gold-Bug)
+If we had made a wrong guess, we would have found out at some point, and could go back and make a new guess.

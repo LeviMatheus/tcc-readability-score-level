@@ -1,0 +1,5 @@
+Tallest completed buildings.
+This is a list of the tallest buildings in Adelaide, the capital city of South Australia. Heights are measured to the structural height, which includes spires, but not communications spires or antennas. Structures that are not buildings are not included in this list.
+Height: R = Roof, P = Pinnacle (top of spire or antenna)
+Tallest buildings under construction, approved or proposed.
+This is a list of the tallest buildings being built, approved to be built or planned that will be taller than 70 metres high.

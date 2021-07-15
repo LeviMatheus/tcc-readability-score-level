@@ -1,0 +1,11 @@
+A quadratic equation is an equation in the form of formula_1, where a is not equal to 0. It makes a parabola (a "u" shape) when graphed on a coordinate plane.
+The Quadratic Formula.
+Where the letters are the corresponding numbers of the original equation, formula_1. a is not 0
+Proof.
+The quadratic formula is proved by "completing the square",
+move formula_5
+Use the method of "completing the square"
+The left side is now a perfect square; it is the square of
+The right side can be a single fraction, with a common denominator 4"a"2.
+Find the square root of both sides.
+move formula_17

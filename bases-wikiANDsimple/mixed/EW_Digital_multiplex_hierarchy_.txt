@@ -1,0 +1,10 @@
+
+In telecommunications, a digital multiplex hierarchy is a hierarchy consisting of an ordered repetition of tandem digital multiplexers that produce signals of successively higher data rates at each level of the hierarchy. 
+Digital multiplexing hierarchies may be implemented in many different configurations depending on; (a) the number of channels desired, (b) the signaling system to be used, and (c) the bit rate allowed by the communications media. 
+Some currently available digital multiplexers have been designated as Dl-, DS-, or M-series, all of which operate at T-carrier rates. 
+In the design of digital multiplex hierarchies, care must be exercised to ensure interoperability of the multiplexers used in the hierarchy.
+Digroup.
+Digroup is an abbreviation for digital group. In telephony, a basic group in the digital multiplex hierarchy. 
+In the North American and Japanese T-carrier digital hierarchies, each digroup supports 12 PCM voice channels or their equivalent in other services. The DS1 line rate (2 digroups plus overhead bits) is 1.544 Mbit/s, supporting 24 voice channels or their equivalent in other services. 
+In the E-carrier European hierarchy, each digroup supports 15 PCM channels or their equivalent in other services. The DS1 line rate (2 digroups plus overhead bits) is 2.048 Mbit/s, supporting 30 voice channels or their equivalent in other services.
+

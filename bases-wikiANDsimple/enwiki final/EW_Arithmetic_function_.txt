@@ -1,0 +1,125 @@
+
+In number theory, an arithmetic, arithmetical, or number-theoretic function is for most authors any function "f"("n") whose domain is the positive integers and whose range is a subset of the complex numbers. Hardy &amp; Wright include in their definition the requirement that an arithmetical function "expresses some arithmetical property of "n"".
+An example of an arithmetic function is the divisor function whose value at a positive integer "n" is equal to the number of divisors of "n".
+There is a larger class of number-theoretic functions that do not fit the above definition, for example, the prime-counting functions. This article provides links to functions of both classes.
+Arithmetic functions are often extremely irregular (see table), but some of them have series expansions in terms of Ramanujan's sum.
+Multiplicative and additive functions.
+An arithmetic function "a" is
+Two whole numbers "m" and "n" are called coprime if their greatest common divisor is 1, that is, if there is no prime number that divides both of them.
+Then an arithmetic function "a" is
+Notation.
+formula_1   and   formula_2   mean that the sum or product is over all prime numbers:
+Similarly,   formula_5   and   formula_6   mean that the sum or product is over all prime powers with strictly positive exponent (so "k" = 0 is not included):
+formula_8   and   formula_9   mean that the sum or product is over all positive divisors of "n", including 1 and "n". For example, if "n" = 12,
+The notations can be combined:   formula_11   and   formula_12   mean that the sum or product is over all prime divisors of "n". For example, if "n" = 18,
+and similarly   formula_14   and   formula_15   mean that the sum or product is over all prime powers dividing "n". For example, if "n" = 24,
+Ω("n"), "ω"("n"), "ν""p"("n") – prime power decomposition.
+The fundamental theorem of arithmetic states that any positive integer "n" can be represented uniquely as a product of powers of primes:   formula_17   where "p"1 &lt; "p"2 &lt; ... &lt; "p""k" are primes and the "aj" are positive integers. (1 is given by the empty product.)
+It is often convenient to write this as an infinite product over all the primes, where all but a finite number have a zero exponent. Define the "p"-adic valuation ν"p"("n") to be the exponent of the highest power of the prime "p" that divides "n". That is, if "p" is one of the "p""i" then "ν""p"("n") = "a""i", otherwise it is zero. Then
+In terms of the above the prime omega functions ω and Ω are defined by
+To avoid repetition, whenever possible formulas for the functions listed in this article are given in terms of "n" and the corresponding "p""i", "a""i", ω, and Ω.
+Multiplicative functions.
+σ"k"("n"), τ("n"), "d"("n") – divisor sums.
+σ"k"("n") is the sum of the "k"th powers of the positive divisors of "n", including 1 and "n", where "k" is a complex number.
+σ1("n"), the sum of the (positive) divisors of "n", is usually denoted by σ("n").
+Since a positive number to the zero power is one, σ0("n") is therefore the number of (positive) divisors of "n"; it is usually denoted by "d"("n") or τ("n") (for the German "Teiler" = divisors).
+Setting "k" = 0 in the second product gives
+φ("n") – Euler totient function.
+φ("n"), the Euler totient function, is the number of positive integers not greater than "n" that are coprime to "n".
+J"k"("n") – Jordan totient function.
+J"k"("n"), the Jordan totient function, is the number of "k"-tuples of positive integers all less than or equal to "n" that form a coprime ("k" + 1)-tuple together with "n". It is a generalization of Euler's totient, .
+μ("n") – Möbius function.
+μ("n"), the Möbius function, is important because of the Möbius inversion formula. See Dirichlet convolution, below.
+This implies that μ(1) = 1. (Because Ω(1) = ω(1) = 0.)
+τ("n") – Ramanujan tau function.
+τ("n"), the Ramanujan tau function, is defined by its generating function identity:
+Although it is hard to say exactly what "arithmetical property of "n"" it "expresses", ("τ"("n") is (2π)−12 times the "n"th Fourier coefficient in the q-expansion of the modular discriminant function) it is included among the arithmetical functions because it is multiplicative and it occurs in identities involving certain σ"k"("n") and "r""k"("n") functions (because these are also coefficients in the expansion of modular forms).
+"c""q"("n") – Ramanujan's sum.
+"c""q"("n"), Ramanujan's sum, is the sum of the "n"th powers of the primitive "q"th roots of unity:
+Even though it is defined as a sum of complex numbers (irrational for most values of "q"), it is an integer. For a fixed value of "n" it is multiplicative in "q":
+"ψ"("n") - Dedekind psi function.
+The Dedekind psi function, used in the theory of modular functions, is defined by the formula
+Completely multiplicative functions.
+λ("n") – Liouville function.
+"λ"("n"), the Liouville function, is defined by
+"χ"("n") – characters.
+All Dirichlet characters "χ"("n") are completely multiplicative. Two characters have special notations:
+The principal character (mod "n") is denoted by "χ"0("a") (or "χ"1("a")). It is defined as
+The quadratic character (mod "n") is denoted by the Jacobi symbol for odd "n" (it is not defined for even "n".):
+In this formula formula_31 is the Legendre symbol, defined for all integers "a" and all odd primes "p" by
+Following the normal convention for the empty product, formula_33
+Additive functions.
+"ω"("n") – distinct prime divisors.
+ω("n"), defined above as the number of distinct primes dividing "n", is additive (see Prime omega function).
+Completely additive functions.
+Ω("n") – prime divisors.
+Ω("n"), defined above as the number of prime factors of "n" counted with multiplicities, is completely additive (see Prime omega function).
+"ν""p"("n") – "p"-adic valuation of an integer "n".
+For a fixed prime "p", "ν""p"("n"), defined above as the exponent of the largest power of "p" dividing "n", is completely additive.
+Neither multiplicative nor additive.
+("x"), Π("x"), "θ"("x"), "ψ"("x") – prime count functions.
+These important functions (which are not arithmetic functions) are defined for non-negative real arguments, and are used in the various statements and proofs of the prime number theorem. They are summation functions (see the main section just below) of arithmetic functions which are neither multiplicative nor additive.
+("x"), the prime counting function, is the number of primes not exceeding "x". It is the summation function of the characteristic function of the prime numbers.
+A related function counts prime powers with weight 1 for primes, 1/2 for their squares, 1/3 for cubes, ... It is the summation function of the arithmetic function which takes the value 1/"k" on integers which are the k-th power of some prime number, and the value 0 on other integers.
+θ"("x") and ψ"("x"), the Chebyshev functions,
+are defined as sums of the natural logarithms of the primes not exceeding "x".
+The Chebyshev function "ψ"("x") is the summation function of the von Mangoldt function just below.
+Λ("n") – von Mangoldt function.
+Λ("n"), the von Mangoldt function, is 0 unless the argument "n" is a prime power , in which case it is the natural log of the prime "p":
+"p"("n") – partition function.
+"p"("n"), the partition function, is the number of ways of representing "n" as a sum of positive integers, where two representations with the same summands in a different order are not counted as being different:
+λ("n") – Carmichael function.
+"λ"("n"), the Carmichael function, is the smallest positive number such that formula_40   for all "a" coprime to "n". Equivalently, it is the least common multiple of the orders of the elements of the multiplicative group of integers modulo "n".
+For powers of odd primes and for 2 and 4, "λ"("n") is equal to the Euler totient function of "n"; for powers of 2 greater than 4 it is equal to one half of the Euler totient function of "n":
+and for general "n" it is the least common multiple of λ of each of the prime power factors of "n":
+"h"("n") – Class number.
+"h"("n"), the class number function, is the order of the ideal class group of an algebraic extension of the rationals with discriminant "n". The notation is ambiguous, as there are in general many extensions with the same discriminant. See quadratic field and cyclotomic field for classical examples.
+"r""k"("n") – Sum of "k" squares.
+"r""k"("n") is the number of ways "n" can be represented as the sum of "k" squares, where representations that differ only in the order of the summands or in the signs of the square roots are counted as different.
+"D"("n") – Arithmetic derivative.
+Using the Heaviside notation for the derivative, "D"("n") is a function such that 
+Summation functions.
+Given an arithmetic function "a"("n"), its summation function "A"("x") is defined by
+"A" can be regarded as a function of a real variable. Given a positive integer "m", "A" is constant along open intervals "m" &lt; "x" &lt; "m" + 1, and has a jump discontinuity at each integer for which "a"("m") ≠ 0.
+Since such functions are often represented by series and integrals, to achieve pointwise convergence it is usual to define the value at the discontinuities as the average of the values to the left and right:
+Individual values of arithmetic functions may fluctuate wildly – as in most of the above examples. Summation functions "smooth out" these fluctuations. In some cases it may be possible to find asymptotic behaviour for the summation function for large "x".
+A classical example of this phenomenon is given by the divisor summatory function, the summation function of "d"("n"), the number of divisors of "n":
+An average order of an arithmetic function is some simpler or better-understood function which has the same summation function asymptotically, and hence takes the same values "on average". We say that "g" is an "average order" of "f" if
+as "x" tends to infinity. The example above shows that "d"("n") has the average order log("n").
+Dirichlet convolution.
+Given an arithmetic function "a"("n"), let "F""a"("s"), for complex "s", be the function defined by the corresponding Dirichlet series (where it converges):
+"F""a"("s") is called a generating function of "a"("n"). The simplest such series, corresponding to the constant function "a"("n") = 1 for all "n", is "ς"("s") the Riemann zeta function.
+The generating function of the Möbius function is the inverse of the zeta function:
+Consider two arithmetic functions "a" and "b" and their respective generating functions "F""a"("s") and "F""b"("s"). The product "F""a"("s")"F""b"("s") can be computed as follows:
+It is a straightforward exercise to show that if "c"("n") is defined by
+then
+This function "c" is called the Dirichlet convolution of "a" and "b", and is denoted by formula_57.
+A particularly important case is convolution with the constant function "a"("n") = 1 for all "n", corresponding to multiplying the generating function by the zeta function:
+Multiplying by the inverse of the zeta function gives the Möbius inversion formula:
+If "f" is multiplicative, then so is "g". If "f" is completely multiplicative, then "g" is multiplicative, but may or may not be completely multiplicative.
+Relations among the functions.
+There are a great many formulas connecting arithmetical functions with each other and with the functions of analysis, especially powers, roots, and the exponential and log functions. The page divisor sum identities contains many more generalized and related examples of identities involving arithmetic functions.
+Here are a few examples:
+Sums of squares.
+For all formula_77     (Lagrange's four-square theorem).
+where the Kronecker symbol has the values
+There is a formula for r3 in the section on class numbers below.
+where "ν" = "ν"2("n").    
+where formula_82
+Define the function σ"k"*("n") as
+That is, if "n" is odd, σ"k"*("n") is the sum of the "k"th powers of the divisors of "n", that is, σ"k"("n"), and if "n" is even it is the sum of the "k"th powers of the even divisors of "n" minus the sum of the "k"th powers of the odd divisors of "n".
+Adopt the convention that Ramanujan's "τ"("x") = 0 if "x" is not an integer.
+Divisor sum convolutions.
+Here "convolution" does not mean "Dirichlet convolution" but instead refers to the formula for the coefficients of the product of two power series:
+The sequence formula_87 is called the convolution or the Cauchy product of the sequences "a""n" and "b""n".
+&lt;br&gt;These formulas may be proved analytically (see Eisenstein series) or by elementary methods.
+Since "σ""k"("n") (for natural number "k") and "τ"("n") are integers, the above formulas can be used to prove congruences for the functions. See Ramanujan tau function for some examples.
+Extend the domain of the partition function by setting "p"(0) = 1.
+Class number related.
+Peter Gustav Lejeune Dirichlet discovered formulas that relate the class number "h" of quadratic number fields to the Jacobi symbol.
+An integer "D" is called a fundamental discriminant if it is the discriminant of a quadratic number field. This is equivalent to "D" ≠ 1 and either a) "D" is squarefree and "D" ≡ 1 (mod 4) or b) "D" ≡ 0 (mod 4), "D"/4 is squarefree, and "D"/4 ≡ 2 or 3 (mod 4).
+Extend the Jacobi symbol to accept even numbers in the "denominator" by defining the Kronecker symbol:
+Then if "D" &lt; −4 is a fundamental discriminant
+h(D) &amp; = \frac{1}{D} \sum_{r=1}^r\left(\frac{D}{r}\right)\\
+ &amp; = \frac{1}{2-\left(\tfrac{D}{2}\right)} \sum_{r=1}^
+

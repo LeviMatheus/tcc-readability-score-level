@@ -1,0 +1,13 @@
+
+In ISO/IEC 646 (commonly known as ASCII) and related standards including ISO 8859 and Unicode, a graphic character is any character intended to be written, printed, or otherwise displayed in a form that can be read by humans. In other words, it is any encoded character that is associated with one or more glyphs.
+ISO/IEC 646.
+In ISO 646, graphic characters are contained in rows 2 through 7 of the code table. However, two of the characters in these rows, namely the space character SP at row 2 column 0 and the delete character DEL (also called the rubout character) at row 7 column 15, require special mention.
+The space is considered to be "both" a graphic character and a control character in ISO 646. It can have a visible form, and also a control function (moving the print head).
+The delete character is strictly a control character, not a graphic character. This is true not only in ISO 646, but also in all related standards including Unicode. However, many modern character sets deviate from ISO 646, and as a result a graphic character might occupy the position originally reserved for the delete character.
+Unicode.
+In Unicode, Graphic characters are those with General Category Letter, Mark, Number, Punctuation, Symbol or Zs=space. Other code points (General categories Control, Zl=line separator, Zp=paragraph separator) are Format, Control, Private Use, Surrogate, Noncharacter or Reserved (unassigned).
+Spacing and non-spacing characters.
+Most graphic characters are spacing characters, which means that each instance of a spacing character has to occupy some area in a graphic representation. For a teletype or a typewriter this implies moving of the carriage after typing of a character. In the context of text mode display, each spacing character occupies one rectangular character box of equal sizes. Or maybe two adjacent ones, for non-alphabetic characters of East Asian languages. If a text is rendered using proportional fonts, widths of character boxes are not equal, but are positive.
+There exists also "non-spacing" graphic characters. Most of non-spacing characters are "modifiers", also called combining characters in Unicode, such as diacritical marks. Although non-spacing graphic characters are uncommon in traditional code pages, there are many such in Unicode. A combining character has its distinct glyph, but it applies to a character box of another character, a spacing one. In some historical systems such as line printers this was implemented as overstrike.
+Note that not all modifiers are non-spacing – there exists Spacing Modifier Letters Unicode block.
+

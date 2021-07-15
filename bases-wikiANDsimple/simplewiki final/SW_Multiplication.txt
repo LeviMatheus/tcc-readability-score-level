@@ -1,0 +1,7 @@
+Multiplication is an arithmetic operation for finding the "product" of two numbers.
+Multiplication is the third operation in maths after addition which is the first, subtraction which is the second and then there is multiplication.
+With natural numbers, it returns the number of tiles in a rectangle where one of the two numbers equals the number of tiles on one side and the other number equals the number of tiles on the neighbouring side.
+With real numbers, it returns the area of a rectangle where the first number equals the size of one side and the second number equals the size of the neighbouring side.
+For example, three multiplied by five is the total of five threes added together, or the total of three fives. This can be written down as 3 × 5 = 15, or spoken as "three times five equals fifteen." Mathematicians call the two numbers you wish to multiply "coefficients" together, or "multiplicand" and "multiplicator" separately. Multiplicand × multiplicator = product.
+Multiplication between numbers is said to be commutative - when the order of the numbers does not influence the value of the product. This is true for the Integers (whole numbers), e.g. 4 × 6 is the same as 6 × 4, and also for the Rational numbers (fractions), and for all the other Real numbers (representable as a field in the continuous line), and also for Complex numbers (numbers representable as a field in the plane). It is not true for Quaternions (numbers representable as a ring in the four-dimensional space), vectors or matrices.
+The opposite of multiplication is division.

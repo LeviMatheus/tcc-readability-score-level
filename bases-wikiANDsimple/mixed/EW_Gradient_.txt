@@ -1,0 +1,94 @@
+
+In vector calculus, the gradient of a scalar-valued differentiable function of several variables is the vector field (or vector-valued function) formula_1 whose value at a point formula_2 is the vector whose components are the partial derivatives of formula_3 at formula_2. That is, for formula_5, its gradient formula_6 is defined at the point formula_7 in "n-"dimensional space as the vector:
+The nabla symbol formula_9, written as an upside-down triangle and pronounced "del", denotes the vector differential operator.
+The gradient is dual to the total derivative formula_10: the value of the gradient at a point is a tangent vector – a vector at each point; while the value of the derivative at a point is a "co"tangent vector – a linear function on vectors. They are related in that the dot product of the gradient of at a point with another tangent vector equals the directional derivative of at of the function along ; that is, formula_11. 
+The gradient vector can be interpreted as the "direction and rate of fastest increase". If the gradient of a function is non-zero at a point , the direction of the gradient is the direction in which the function increases most quickly from , and the magnitude of the gradient is the rate of increase in that direction, the greatest absolute directional derivative. Further, the gradient is the zero vector at a point if and only if it is a stationary point (where the derivative vanishes). The gradient thus plays a fundamental role in optimization theory, where it is used to maximize a function by gradient ascent.
+The gradient admits multiple generalizations to more general functions on manifolds; see .
+Motivation.
+Consider a room where the temperature is given by a scalar field, , so at each point the temperature is , independent of time. At each point in the room, the gradient of at that point will show the direction in which the temperature rises most quickly, moving away from . The magnitude of the gradient will determine how fast the temperature rises in that direction.
+Consider a surface whose height above sea level at point is . The gradient of at a point is a plane vector pointing in the direction of the steepest slope or grade at that point. The steepness of the slope at that point is given by the magnitude of the gradient vector.
+The gradient can also be used to measure how a scalar field changes in other directions, rather than just the direction of greatest change, by taking a dot product. Suppose that the steepest slope on a hill is 40%. A road going directly uphill has slope 40%, but a road going around the hill at an angle will have a shallower slope. For example, if the road is at a 60° angle from the uphill direction (when both directions are projected onto the horizontal plane), then the slope along the road will be the dot product between the gradient vector and a unit vector along the road, namely 40% times the cosine of 60°, or 20%.
+More generally, if the hill height function is differentiable, then the gradient of dotted with a unit vector gives the slope of the hill in the direction of the vector, the directional derivative of along the unit vector.
+Notation.
+The gradient of a function formula_3 at point formula_13 is usually written as formula_14. It may also be denoted by any of the following:
+Definition.
+The gradient (or gradient vector field) of a scalar function is denoted or where (nabla) denotes the vector differential operator, del. The notation is also commonly used to represent the gradient. The gradient of is defined as the unique vector field whose dot product with any vector at each point is the directional derivative of along . That is,
+Formally, the gradient is "dual" to the derivative; see relationship with derivative.
+When a function also depends on a parameter such as time, the gradient often refers simply to the vector of its spatial derivatives only (see Spatial gradient).
+The magnitude and direction of the gradient vector are independent of the particular coordinate representation.
+Cartesian coordinates.
+In the three-dimensional Cartesian coordinate system with a Euclidean metric, the gradient, if it exists, is given by:
+where , , are the standard unit vectors in the directions of the , and coordinates, respectively. For example, the gradient of the function
+is
+In some applications it is customary to represent the gradient as a row vector or column vector of its components in a rectangular coordinate system; this article follows the convention of the gradient being a column vector, while the derivative is a row vector.
+Cylindrical and spherical coordinates.
+In cylindrical coordinates with a Euclidean metric, the gradient is given by:
+where is the axial distance, is the azimuthal or azimuth angle, is the axial coordinate, and , and are unit vectors pointing along the coordinate directions.
+In spherical coordinates, the gradient is given by:
+where is the radial distance, is the azimuthal angle and is the polar angle, and , and are again local unit vectors pointing in the coordinate directions (that is, the normalized covariant basis).
+For the gradient in other orthogonal coordinate systems, see Orthogonal coordinates (Differential operators in three dimensions).
+General coordinates.
+We consider general coordinates, which we write as , where is the number of dimensions of the domain. Here, the upper index refers to the position in the list of the coordinate or component, so refers to the second component—not the quantity squared. The index variable refers to an arbitrary element . Using Einstein notation, the gradient can then be written as:
+where formula_27 and formula_28 refer to the unnormalized local covariant and contravariant bases respectively, formula_29 is the inverse metric tensor, and the Einstein summation convention implies summation over "i" and "j". 
+If the coordinates are orthogonal we can easily express the gradient (and the differential) in terms of the normalized bases, which we refer to as formula_30 and formula_31, using the scale factors (also known as Lamé coefficients) formula_32 :
+where we cannot use Einstein notation, since it is impossible to avoid the repetition of more than two indices. Despite the use of upper and lower indices, formula_35, formula_36, and formula_37 are neither contravariant nor covariant.
+The latter expression evaluates to the expressions given above for cylindrical and spherical coordinates.
+Gradient and the derivative or differential.
+The gradient is closely related to the (total) derivative ((total) differential) formula_10: they are transpose (dual) to each other. Using the convention that vectors in formula_39 are represented by column vectors, and that covectors (linear maps formula_40) are represented by row vectors, the gradient formula_1 and the derivative formula_10 are expressed as a column and row vector, respectively, with the same components, but transpose of each other:
+While these both have the same components, they differ in what kind of mathematical object they represent: at each point, the derivative is a cotangent vector, a linear form (covector) which expresses how much the (scalar) output changes for a given infinitesimal change in (vector) input, while at each point, the gradient is a tangent vector, which represents an infinitesimal change in (vector) input. In symbols, the gradient is an element of the tangent space at a point, formula_45, while the derivative is a map from the tangent space to the real numbers, formula_46. The tangent spaces at each point of formula_39 can be "naturally" identified with the vector space formula_39 itself, and similarly the cotangent space at each point can be naturally identified with the dual vector space formula_49 of covectors; thus the value of the gradient at a point can be thought of a vector in the original formula_39, not just as a tangent vector.
+Computationally, given a tangent vector, the vector can be "multiplied" by the derivative (as matrices), which is equal to taking the dot product with the gradient:
+Differential or (exterior) derivative.
+The best linear approximation to a differentiable function
+at a point in is a linear map from to which is often denoted by or and called the differential or (total) derivative of at . The function , which maps to , is called the (total) differential or exterior derivative of and is an example of a differential 1-form.
+Much as the derivative of a function of a single variable represents the slope of the tangent to the graph of the function, the directional derivative of a function in several variables represents the slope of the tangent hyperplane in the direction of the vector.
+The gradient is related to the differential by the formula
+for any , where formula_54 is the dot product: taking the dot product of a vector with the gradient is the same as taking the directional derivative along the vector.
+If is viewed as the space of (dimension ) column vectors (of real numbers), then one can regard as the row vector with components
+so that is given by matrix multiplication. Assuming the standard Euclidean metric on , the gradient is then the corresponding column vector, that is,
+Linear approximation to a function.
+The best linear approximation to a function can be expressed in terms of the gradient, rather than the derivative. The gradient of a function from the Euclidean space to at any particular point in characterizes the best linear approximation to at . The approximation is as follows:
+for close to , where is the gradient of computed at , and the dot denotes the dot product on . This equation is equivalent to the first two terms in the multivariable Taylor series expansion of at .
+Gradient as a "derivative".
+Let be an open set in . If the function is differentiable, then the differential of is the (Fréchet) derivative of . Thus is a function from to the space such that
+where · is the dot product.
+As a consequence, the usual properties of the derivative hold for the gradient, though the gradient is not a derivative itself, but rather dual to the derivative:
+Linearity.
+The gradient is linear in the sense that if and are two real-valued functions differentiable at the point , and and are two constants, then is differentiable at , and moreover
+Product rule.
+If and are real-valued functions differentiable at a point , then the product rule asserts that the product is differentiable at , and
+Chain rule.
+Suppose that is a real-valued function defined on a subset of , and that is differentiable at a point . There are two forms of the chain rule applying to the gradient. First, suppose that the function is a parametric curve; that is, a function maps a subset into . If is differentiable at a point such that , then
+where ∘ is the composition operator: .
+More generally, if instead , then the following holds:
+where T denotes the transpose Jacobian matrix.
+For the second form of the chain rule, suppose that is a real valued function on a subset of , and that is differentiable at the point . Then
+Further properties and applications.
+Level sets.
+A level surface, or isosurface, is the set of all points where some function has a given value.
+If is differentiable, then the dot product of the gradient at a point with a vector gives the directional derivative of at in the direction . It follows that in this case the gradient of is orthogonal to the level sets of . For example, a level surface in three-dimensional space is defined by an equation of the form . The gradient of is then normal to the surface.
+More generally, any embedded hypersurface in a Riemannian manifold can be cut out by an equation of the form such that is nowhere zero. The gradient of is then normal to the hypersurface.
+Similarly, an affine algebraic hypersurface may be defined by an equation , where is a polynomial. The gradient of is zero at a singular point of the hypersurface (this is the definition of a singular point). At a non-singular point, it is a nonzero normal vector.
+Conservative vector fields and the gradient theorem.
+The gradient of a function is called a gradient field. A (continuous) gradient field is always a conservative vector field: its line integral along any path depends only on the endpoints of the path, and can be evaluated by the gradient theorem (the fundamental theorem of calculus for line integrals). Conversely, a (continuous) conservative vector field is always the gradient of a function.
+Generalizations.
+Jacobian.
+The Jacobian matrix is the generalization of the gradient for vector-valued functions of several variables and differentiable maps between Euclidean spaces or, more generally, manifolds. A further generalization for a function between Banach spaces is the Fréchet derivative.
+Suppose is a function such that each of its first-order partial derivatives exist on . Then the Jacobian matrix of is defined to be an matrix, denoted by formula_64 or simply formula_65. The th entry is formula_66. Explicitly
+Gradient of a vector field.
+Since the total derivative of a vector field is a linear mapping from vectors to vectors, it is a tensor quantity.
+In rectangular coordinates, the gradient of a vector field is defined by:
+(where the Einstein summation notation is used and the tensor product of the vectors and is a dyadic tensor of type (2,0)). Overall, this expression equals the transpose of the Jacobian matrix:
+In curvilinear coordinates, or more generally on a curved manifold, the gradient involves Christoffel symbols:
+where are the components of the inverse metric tensor and the are the coordinate basis vectors.
+Expressed more invariantly, the gradient of a vector field can be defined by the Levi-Civita connection and metric tensor:
+where is the connection.
+Riemannian manifolds.
+For any smooth function on a Riemannian manifold , the gradient of is the vector field such that for any vector field ,
+that is,
+where denotes the inner product of tangent vectors at defined by the metric and is the function that takes any point to the directional derivative of in the direction , evaluated at . In other words, in a coordinate chart from an open subset of to an open subset of , is given by:
+where denotes the th component of in this coordinate chart.
+So, the local form of the gradient takes the form:
+Generalizing the case , the gradient of a function is related to its exterior derivative, since
+More precisely, the gradient is the vector field associated to the differential 1-form using the musical isomorphism
+(called "sharp") defined by the metric . The relation between the exterior derivative and the gradient of a function on is a special case of this in which the metric is the flat metric given by the dot product.
+

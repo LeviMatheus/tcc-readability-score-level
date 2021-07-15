@@ -1,0 +1,95 @@
+
+In mathematics, the Euler–Maclaurin formula is a formula for the difference between an integral and a closely related sum. It can be used to approximate integrals by finite sums, or conversely to evaluate finite sums and infinite series using integrals and the machinery of calculus. For example, many asymptotic expansions are derived from the formula, and Faulhaber's formula for the sum of powers is an immediate consequence.
+The formula was discovered independently by Leonhard Euler and Colin Maclaurin around 1735. Euler needed it to compute slowly converging infinite series while Maclaurin used it to calculate integrals. It was later generalized to Darboux's formula.
+The formula.
+If formula_1 and formula_2 are natural numbers and formula_3 is a real or complex valued continuous function for real numbers formula_4 in the interval formula_5, then the integral
+formula_6
+can be approximated by the sum (or vice versa)
+formula_7
+(see rectangle method). The Euler–Maclaurin formula provides expressions for the difference between the sum and the integral in terms of the higher derivatives formula_8 evaluated at the endpoints of the interval, that is to say when formula_9 and formula_10.
+Explicitly, for formula_11 a positive integer and a function formula_3 that is formula_11 times continuously differentiable on the interval formula_5, we have
+formula_15
+where formula_16 is the formula_17th Bernoulli number (with formula_18) and formula_19 is an error term which depends on formula_2, formula_1, formula_11, and formula_23 and is usually small for suitable values of formula_11.
+The formula is often written with the subscript taking only even values, since the odd Bernoulli numbers are zero except for formula_25. In this case we have
+formula_26
+or alternatively
+formula_27
+The remainder term.
+The remainder term arises because the integral is usually not exactly equal to the sum. The formula may be derived by applying repeated integration by parts to successive intervals formula_28 for formula_29. The boundary terms in these integrations lead to the main terms of the formula, and the leftover integrals form the remainder term.
+The remainder term has an exact expression in terms of the periodized Bernoulli functions formula_30. The Bernoulli polynomials may be defined recursively by formula_31 and, for formula_32,
+formula_33
+The periodized Bernoulli functions are defined as
+formula_34
+where formula_35 denotes the largest integer less than or equal to formula_4, so that formula_37 always lies in the interval formula_38.
+With this notation, the remainder term formula_19 equals
+formula_40
+When formula_41, it can be shown that
+formula_42
+where formula_43 denotes the Riemann zeta function; one approach to prove this inequality is to obtain the Fourier series for the polynomials formula_44. The bound is achieved for even formula_17 when formula_4 is zero. The term formula_47 may be omitted for odd formula_17 but the proof in this case is more complex (see Lehmer). Using this inequality, the size of the remainder term can be estimated as
+formula_49
+Low-order cases.
+The Bernoulli numbers from formula_25 to formula_51 are formula_52 Therefore the low-order cases of the Euler-Maclaurin formula are:
+formula_53
+Applications.
+The Basel problem.
+The Basel problem is to determine the sum
+formula_54
+Euler computed this sum to 20 decimal places with only a few terms of the Euler–Maclaurin formula in 1735. This probably convinced him that the sum equals formula_55, which he proved in the same year.
+Sums involving a polynomial.
+If formula_23 is a polynomial and formula_11 is big enough, then the remainder term vanishes. For instance, if formula_58, we can choose formula_59 to obtain, after simplification,
+formula_60
+Approximation of integrals.
+The formula provides a means of approximating a finite integral. Let formula_61 be the endpoints of the interval of integration. Fix formula_62, the number of points to use in the approximation, and denote the corresponding step size by formula_63. Set formula_64, so that formula_65 and formula_66. Then:
+formula_67
+This may be viewed as an extension of the trapezoid rule by the inclusion of correction terms. Note that this asymptotic expansion is usually not convergent; there is some formula_11, depending upon formula_23 and formula_70, such that the terms past order formula_11 increase rapidly. Thus, the remainder term generally demands close attention.
+The Euler–Maclaurin formula is also used for detailed error analysis in numerical quadrature. It explains the superior performance of the trapezoidal rule on smooth periodic functions and is used in certain extrapolation methods. Clenshaw–Curtis quadrature is essentially a change of variables to cast an arbitrary integral in terms of integrals of periodic functions where the Euler–Maclaurin approach is very accurate (in that particular case the Euler–Maclaurin formula takes the form of a discrete cosine transform). This technique is known as a periodizing transformation.
+Asymptotic expansion of sums.
+In the context of computing asymptotic expansions of sums and series, usually the most useful form of the Euler–Maclaurin formula is
+formula_72
+where formula_73 and formula_74 are integers. Often the expansion remains valid even after taking the limits formula_75 or formula_76 or both. In many cases the integral on the right-hand side can be evaluated in closed form in terms of elementary functions even though the sum on the left-hand side cannot. Then all the terms in the asymptotic series can be expressed in terms of elementary functions. For example,
+formula_77
+Here the left-hand side is equal to formula_78, namely the first-order polygamma function defined by formula_79; the gamma function formula_80 is equal to formula_81 if formula_82 is a positive integer. This results in an asymptotic expansion for formula_78. That expansion, in turn, serves as the starting point for one of the derivations of precise error estimates for Stirling's approximation of the factorial function.
+Examples.
+If is an integer greater than 1 we have:
+formula_84
+Collecting the constants into a value of the Riemann zeta function, we can write an asymptotic expansion:
+formula_85
+For equal to 2 this simplifies to
+formula_86
+or
+formula_87
+When , the corresponding technique gives an asymptotic expansion for the harmonic numbers:
+formula_88
+where formula_89 is the Euler–Mascheroni constant.
+Proofs.
+Derivation by mathematical induction.
+We outline the argument given in Apostol.
+The Bernoulli polynomials and the periodic Bernoulli functions for were introduced above.
+The first several Bernoulli polynomials are
+formula_90
+The values are the Bernoulli numbers . Notice that for we have
+formula_91
+and for ,
+formula_92
+The functions agree with the Bernoulli polynomials on the interval and are periodic with period 1. Furthermore, except when , they are also continuous. Thus,
+formula_93
+Let be an integer, and consider the integral
+formula_94
+where
+formula_95
+Integrating by parts, we get
+formula_96
+Using formula_97, formula_98, and summing the above from to , we get
+formula_99
+Adding ("f"("n") − "f"(0))/2 to both sides and rearranging, we have
+formula_100
+This is the case of the summation formula. To continue the induction, we apply integration by parts to the error term:
+formula_101
+where
+formula_102
+The result of integrating by parts is
+formula_103
+Summing from to and substituting this for the lower order error term results in the case of the formula,
+formula_104
+This process can be iterated. In this way we get a proof of the Euler–Maclaurin summation formula which can be formalized by mathematical induction, in which the induction step relies on integration by parts and on identities for periodic Bernoulli functions.
+

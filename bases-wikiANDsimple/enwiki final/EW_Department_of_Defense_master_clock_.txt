@@ -1,0 +1,6 @@
+
+The Department of Defense master clock is the atomic master clock to which time and frequency measurements for the United States Department of Defense are referenced.
+Located in Washington D.C., the U.S. Naval Observatory master clock is designated as the "DOD Master Clock". It is one of the two standard time and frequency references for the U.S. Government in accordance with Federal Standard 1002-A. The other standard time and frequency reference for the U.S. Government is the National Institute of Standards and Technology (NIST) master clock.
+In 2018, it was proposed to replace the existing Clock House building it's housed in, designed by Richard Morris Hunt, with a new facility.
+The U.S. Naval Observatory also maintains an alternate clock designated "USNO Alternate Master Clock" at Schriever Air Force Base, Colorado.
+

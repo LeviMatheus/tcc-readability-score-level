@@ -1,0 +1,17 @@
+In materials science, wear is the erosion of material from a solid surface by the action of another solid. The study of the processes of wear is part of the discipline of tribology.
+Explanation.
+The definition of wear does not include loss of dimension from plastic deformation, although wear can happen without loss of material. Also this definition does not include impact wear where there is no sliding motion or cavitation (also corrosion) where counterbody is a fluid..
+Wear, along with other aging processes such as fatigue, creep, and fracture toughness, causes progressive degradation of materials with time leading to failure of material at an advanced age. Under normal circumstances, the property changes during usage normally occur in three different stages as follows:-
+• Primary or early stage or run-in period, where rate of changes can be high.
+• Secondary or mid-age process where a steady rate of aging process is maintained. The useful or working life is at this stage.
+• Tertiary or old-age stage, where rapid rate of aging leads to early failure.
+With increasing severity of environmental conditions, such as, higher temperatures, strain rates, stress and sliding velocities, the secondary stage is shortened and the primary stage tends to merge with the tertiary stage, thus drastically reducing the working life. Surface engineering processes are used to minimize wear and extend working life of material.
+Adhesive wear.
+Adhesive wear is also known as scoring, galling, or seizing. It happens when two solid surfaces slide over one another under pressure.
+Abrasive wear.
+This happens when material is removed by contact with hard particles. The particles either may be present at the surface of a second material or may exist as loose particles between two surfaces.
+Abrasive wear can be measured as loss of mass by the Taber Abrasion Test according to ISO 9352 or ASTM D 1044.
+Corrosive wear.
+Often referred to simply as “corrosion”, corrosive wear is deterioration of useful properties in a material due to reactions with its environment.
+Surface fatigue.
+Surface fatigue is a process by which the surface of a material is weakened by cyclic loading, which is one type of general material fatigue.

@@ -1,0 +1,4 @@
+Multi-user is a term that defines an operating system, computer program, or a game that allows use by more than one users of the same computer at the same time.
+An example is a Unix server where multiple remote users have access (such as via Secure Shell) to the Unix shell prompt at the same time. Another example uses multiple X terminals so that multiple remote users can use X Window on a single machine.
+The complementary term, single-user commonly refers to an operating system being usable only by one person at a time, or in reference to a single-user software license agreement.
+Single-user mode is a mode for Multi-user operating system where the computer boots or switches into a single superuser mode. It is mainly used for maintenance of multi-user environments such as network or Unix servers.

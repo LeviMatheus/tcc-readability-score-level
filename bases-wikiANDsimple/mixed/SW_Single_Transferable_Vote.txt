@@ -1,0 +1,8 @@
+Single Transferable Vote (STV for short) is a type of Voting system. It is used to elect more than one person.
+How to Vote in an STV Election.
+All you have to do is write a number "1" next to your favourite candidate, a number "2" next to your second favourite, a number "3" next to your third favourite and so on.
+How Votes are Counted.
+Each candidate needs a certain number of votes to be elected. This number depends on how many people are voting and on how many people are to be elected.
+Then the number "1" votes for each candidate are counted. But it can happen that one candidate or several candidates have more than the needed number of votes. These candidates are elected. But since they have more votes than they needed, they pass on the votes which they don't need to other candidates. Which candidate(s) get those "surplus" votes depends on the voters' number "2" votes given on the ballots papers of the candidates that have already been elected. If those number "2" votes make another candidate win and have him too many votes, this new "surplus" is passed on again, using number "3" votes, and so on.
+If not enough candidates have been elected so far, the candidate with the fewest votes is excluded. Votes for this candidate are passed on to the candidate given as the next preference of each of his voters (the next higher number in each listing of candidates). This may help to elect another candidate. If not, the next candidate which now has the fewest votes is excluded.
+Passing on the "surplus" votes and excluding the weakest candidates goes on until the needed number of candidates has been elected.

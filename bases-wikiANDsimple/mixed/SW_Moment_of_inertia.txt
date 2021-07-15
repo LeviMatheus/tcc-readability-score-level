@@ -1,0 +1,4 @@
+Moment of inertia, also called mass moment of inertia, is the rotational analog of mass.
+That is, it is the inertia of a rotating body with respect to its rotation. The moment of inertia plays much the same role in rotational dynamics as mass does in basic dynamics. It determines the relationship between angular momentum and angular velocity, torque and angular acceleration.
+A simple scalar treatment of the moment of inertia is sufficient for many situations. But with a more advanced tensor treatment it is possible to allow the analysis of such complicated systems as spinning tops and gyroscope motion.
+The symbols formula_1 and sometimes formula_2 are usually used to refer to the moment of inertia.

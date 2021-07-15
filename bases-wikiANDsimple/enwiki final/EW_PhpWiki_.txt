@@ -1,0 +1,12 @@
+
+PhpWiki is a web-based wiki software application.
+It began as a clone of WikiWikiWeb and was the first wiki written in PHP.
+PhpWiki has been used to edit and format paper books for publication.
+History.
+The first version, by Steve Wainstead, was released in December 1999. It was the first Wiki written in PHP to be publicly released. This version required PHP 3.x and only supported DBM files. 
+It was a feature-for-feature reimplementation of the original WikiWikiWeb at c2.com.
+In early 2000 Arno Hollosi added a second database library to allow running PhpWiki on MySQL.
+From then on more features were added and contributions to the software increased, adding features such as a templating system, color diffs, rewrites of the rendering engine and much more. Arno was interested in running a wiki for the game Go.
+Jeff Dairiki was the next major contributor, and soon headed the project for the next few years, followed up by Reini Urban up to 1.4, and then Marc-Etienne Vargenau since 1.5.
+With version 1.4.0 Wikicreole 1.0 including additions and MediaWiki markup syntax are supported. In version 1.5.0 PHP 4 support was deprecated.
+

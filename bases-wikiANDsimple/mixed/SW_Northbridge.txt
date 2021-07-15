@@ -1,0 +1,9 @@
+The northbridge is one of two basic chips on the motherboard of a computer. The other basic chip is the southbridge and together they create the computer chipset. Usually, north- and southbridge are on different ICs, rarely they are both on one chip.
+Use.
+Northbridge supports communication between CPU, RAM memory, AGP port or PCI Express bus and also supports connection with southbridge. There exist some chipsets which support two types of RAM memory and which are accessible during transition to new standard.
+Significance.
+Northbridge is a basic part of motherboard which establishes speed, types of processors, quantity of processors and kind of RAM memory. Other important factors are, for example, voltage regulation and number of connectors.
+Progression.
+Sequencers of RAM memory was, in AMD64 architecture, shifted directly into processor. Other producers (like Intel or IBM) also incorporated this change into their new processors.
+The future.
+A perspective to the future is SOC (System On Chip). With it will also decrease the number of components on the motherboard. But bigger chips hold under universality of solution, they have more pins and they are more difficult. Present high-speed buses are series (PCIe, SATA) and they decline the complexity. In the future we can expect return to the standard interface of other circuits using bus (probably PCI express) and maybe they will be connected to the single Super I/O sequencer. Saved lads can be used for another integrated turn like SATA, USB, IDE, SDIO scanner of cards and sequencers of PCI.

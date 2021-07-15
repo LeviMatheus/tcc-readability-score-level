@@ -1,0 +1,8 @@
+Jerk is the change in the acceleration of an object. Mathematically, jerk is the derivative, or the rate of change in acceleration by time. Jerk is also called jolt (in British English), surge, or lurch. Jerk is a vector and there is no word for its scalar value.
+The jerk is measured in metres per second cubed (formula_1).
+Yank can be thought as a force in terms of jerk. Force is mass times acceleration. Similarly, Yank is mass times jerk. It is also the derivative of the force. However, when an object is moving near the speed of light, a force is often written as the derivative of momentum. In this case, Yank is the rate of change of derivative of momentum.
+Its use.
+Jerk is used in engineering, more than ever in making roller coasters. Weak objects such as people can be damaged by high acceleration or high jerk.
+Also, jerk must be thought in the process of making any product. Sudden change in acceleration means very large jerk. This leads to a tool to be damaged faster.
+Slang.
+Jerk is also a mean name to call a mean person, or an idiom for ugly behaviour.

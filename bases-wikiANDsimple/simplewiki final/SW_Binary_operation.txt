@@ -1,0 +1,2 @@
+In mathematics, a binary operation in a set is a way of combinate a pair of elements in that set. For example, if we take a pair of natural numbers then its sum is the result of applying this particular binary operation. Another could be its multiplication.
+Others: Among integers; the subtraction. The sum between matrices. Between functions; the map composition. The union and the intersection of sets are also two different binary operations.

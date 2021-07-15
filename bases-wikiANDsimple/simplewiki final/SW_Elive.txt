@@ -1,0 +1,2 @@
+Elive is a Linux distribution based on Debian for legacy and commodity hardware. Elive uses the Enlightenment X window manager instead of GNOME or KDE. Elive is a Linux Distribution with a Live CD that allows the user to try Elive before installing it on the system.
+Elive can be used like any Live CD or installed to the hard drive to have access its fullfeatures. Elive utilizes UnionFS, which allows users to install software packages using Synaptic and/or APT, while the user's computer is running from the Live CD.

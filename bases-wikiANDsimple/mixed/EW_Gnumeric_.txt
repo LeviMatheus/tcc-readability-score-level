@@ -1,0 +1,13 @@
+
+Gnumeric is a spreadsheet program that is part of the GNOME Free Software Desktop Project. Gnumeric version 1.0 was released on 31 December 2001. Gnumeric is distributed as free software under the GNU GPL license; it is intended to replace proprietary spreadsheet programs like Microsoft Excel. Gnumeric was created and developed by Miguel de Icaza, but he has since moved on to other projects. The maintainer was Jody Goldberg.
+Features.
+Gnumeric has the ability to import and export data in several file formats, including CSV, Microsoft Excel (write support for the more recent codice_1 format is incomplete), Microsoft Works spreadsheets (codice_2), HTML, LaTeX, Lotus 1-2-3, OpenDocument and Quattro Pro; its native format is the "Gnumeric file format" (codice_3 or codice_4), an XML file compressed with gzip. It includes all of the spreadsheet functions of the North American edition of Microsoft Excel and many functions unique to Gnumeric. Pivot tables and Visual Basic for Applications macros are not yet supported.
+Gnumeric's accuracy has helped it to establish a niche for statistical analysis and other scientific tasks. For improving the accuracy of Gnumeric, the developers are cooperating with the R Project.
+Gnumeric has an interface for the creation and editing of graphs different from other spreadsheet software. For editing a graph, Gnumeric displays a window where all the elements of the graph are listed. Other spreadsheet programs typically require the user to select the individual elements of the graph in the graph itself in order to edit them.
+Python 3 is available in Version 1.12.48. 
+Gnumeric under Microsoft Windows.
+Gnumeric releases were ported to Microsoft Windows until August 2014 (the latest versions were 1.10.16 and 1.12.17).
+Use of current version of Gnumeric on Windows is possible with MSYS2 with experienced know-how of a Linux/Unix user. After GTK+ 2.24.10 and 3.6.4, development of Windows version was closed by GNOME. Creation of Windows version was complicated by bugs in old Windows versions of GTK+.
+Installation of MSYS2 on Windows is a good way to use current GTK software. GTK+ 2.24.10 and 3.6.4 are available on-line. Versions of GTK for 64-bit Windows are prepared by Tom Schoonjans – current examples are 2.24.32 and 3.24.23. This could be also a new start for a new native 64-bit Windows version of Gnumeric.
+A new way is the new Windows Subsystem for Linux (WSL) on Windows 10 Release 1709 and later. After installing a Linux distribution like Ubuntu, Debian or SUSE from Microsoft Store and with an X-Server like Xming, running thousands of applications like Gnumeric directly is possible. codice_5 is the right command on Ubuntu.
+

@@ -1,0 +1,18 @@
+ Definition .
+SDTV is abbreviated to Standard-Definition Television. It is a kind of TV system that provides lower resolution than HDTV and higher resolution than analog TV does.
+The word 'SDTV' is generally used at the digital television broadcasting system that has a similar or litle bit higher state of resolution to the 'analog television system'. Digital broadcasting system uses digital signals when they receive sound and movie. It is compared to analog TV that uses analog signals.
+Broadcasting.
+According to a ATSC standard, SDTV broadcasts in three ways.
+First, at ratio of length and width 16:9 and resolution 704x480.
+Second, at ratio 4:3 and resolution 704x480
+Lastly, at ratio 4:3 and resolution 640x480.
+The first one has best quality, second one is next, and the last one is the worst.
+The Screen's frame can be 24, 30, 60 per second. These are similar level with DVD.
+As I mentioned at the 'Definition' tab, it has a better resolution than analog TV system, and has lower resolution than HDTV.
+Because it is kind of digital boadcasting system, it can broadcast not only analog TV program but also HDTV program(Of course there exists a difference in resolution). It is compared to anlog TV that can't broadcast HDTV program.
+Merit.
+SDTV has a similar state of resolution compared to analog TV. But SDTV is more vivid than
+analog TV because it has less noise. And it has better sound. The point that SDTV uses a digital broadcasting system makes SDTV have many accompaning functions. For example, multitasking, electronic program guide, and so on. This functions are
+imposible at analog TV. Compared to HDTV, it has lower resolution. But in fact, HDTV programs are not spreaded widely yet, and the cheaper price of SDTV makes consumers to use SDTV.
+Comparison.
+Generally, there are three types of TV. They are analog TV, SDTV and HDTV.Price: AnalogTV < SDTV < HDTVQuality: AnalogTV ≒ SDTV < HDTVAnalogTV only can be compatible with analog signals, but both SDTV and HDTV can be compatible with not only analog but also digital signals.

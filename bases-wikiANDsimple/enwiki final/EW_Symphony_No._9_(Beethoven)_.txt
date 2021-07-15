@@ -1,0 +1,167 @@
+
+The Symphony No. 9 in D minor, Op. 125, is a choral symphony, the final complete symphony by Ludwig van Beethoven, composed between 1822 and 1824. It was first performed in Vienna on 7 May 1824. The symphony is regarded by many critics and musicologists as Beethoven's greatest work and one of the supreme achievements in the history of music. One of the best-known works in common practice music, it stands as one of the most performed symphonies in the world.
+The symphony was the first example of a major composer using voices in a symphony. The words are sung during the final (4th) movement of the symphony by four vocal soloists and a chorus. They were taken from the "Ode to Joy", a poem written by Friedrich Schiller in 1785 and revised in 1803, with text additions made by Beethoven.
+In 2001, Beethoven's original, hand-written manuscript of the score, held by the Berlin State Library, was added to the Memory of the World Programme Heritage list established by the United Nations, becoming the first musical score so designated.
+History.
+Composition.
+The Philharmonic Society of London originally commissioned the symphony in 1817. The main composition work was done between autumn 1822 and the completion of the autograph in February 1824. The symphony emerged from other pieces by Beethoven that, while completed works in their own right, are also in some sense "sketches" (rough outlines) for the future symphony. The 1808 "Choral Fantasy", Op. 80, basically a piano concerto movement, brings in a choir and vocal soloists near the end for the climax. The vocal forces sing a theme first played instrumentally, and this theme is reminiscent of the corresponding theme in the Ninth Symphony.
+Going further back, an earlier version of the Choral Fantasy theme is found in the song "" (Returned Love) for piano and high voice, which dates from before 1795. According to Robert W. Gutman, Mozart's Offertory in D minor, "Misericordias Domini", K. 222, written in 1775, contains a melody that foreshadows "Ode to Joy".
+Premiere.
+Although most of his major works had been premiered in Vienna, Beethoven was keen to have his latest composition performed in Berlin as soon as possible after finishing it, as he thought that musical taste in Vienna had become dominated by Italian composers such as Rossini. When his friends and financiers heard this, they urged him to premiere the symphony in Vienna in the form of a petition signed by a number of prominent Viennese music patrons and performers.
+Beethoven was flattered by the adoration of Vienna, so the Ninth Symphony was premiered on 7 May 1824 in the Theater am Kärntnertor in Vienna along with the overture "The Consecration of the House" () and three parts of the "Missa solemnis" (the Kyrie, Credo, and Agnus Dei). This was the composer's first onstage appearance in 12 years; the hall was packed with an eager audience and a number of musicians.
+The premiere of Symphony No. 9 involved the largest orchestra ever assembled by Beethoven and required the combined efforts of the Kärntnertor house orchestra, the Vienna Music Society (Gesellschaft der Musikfreunde), and a select group of capable amateurs. While no complete list of premiere performers exists, many of Vienna's most elite performers are known to have participated.
+The soprano and alto parts were sung by two famous young singers: Henriette Sontag and Caroline Unger. German soprano Henriette Sontag was 18 years old when Beethoven personally recruited her to perform in the premiere of the Ninth. Also personally recruited by Beethoven, 20-year-old contralto Caroline Unger, a native of Vienna, had gained critical praise in 1821 appearing in Rossini's "Tancredi". After performing in Beethoven's 1824 premiere, Unger then found fame in Italy and Paris. Italian composers Donizetti and Bellini were known to have written roles specifically for her voice. Anton Haizinger and Joseph Seipelt sang the tenor and bass/baritone parts, respectively.
+Although the performance was officially directed by Michael Umlauf, the theatre's Kapellmeister, Beethoven shared the stage with him. However, two years earlier, Umlauf had watched as the composer's attempt to conduct a dress rehearsal of his opera "Fidelio" ended in disaster. So this time, he instructed the singers and musicians to ignore the almost completely deaf Beethoven. At the beginning of every part, Beethoven, who sat by the stage, gave the tempos. He was turning the pages of his score and beating time for an orchestra he could not hear.
+There are a number of anecdotes about the premiere of the Ninth. Based on the testimony of the participants, there are suggestions that it was under-rehearsed (there were only two full rehearsals) and rather scrappy in execution. On the other hand, the premiere was a great success. In any case, Beethoven was not to blame, as violinist Joseph Böhm recalled:Beethoven himself conducted, that is, he stood in front of a conductor's stand and threw himself back and forth like a madman. At one moment he stretched to his full height, at the next he crouched down to the floor, he flailed about with his hands and feet as though he wanted to play all the instruments and sing all the chorus parts. —The actual direction was in [Louis] Duport's hands; we musicians followed his baton only.When the audience applauded—testimonies differ over whether at the end of the scherzo or symphony—Beethoven was several bars off and still conducting. Because of that, the contralto Caroline Unger walked over and turned Beethoven around to accept the audience's cheers and applause. According to the critic for the "Theater-Zeitung", "the public received the musical hero with the utmost respect and sympathy, listened to his wonderful, gigantic creations with the most absorbed attention and broke out in jubilant applause, often during sections, and repeatedly at the end of them." The audience acclaimed him through standing ovations five times; there were handkerchiefs in the air, hats, and raised hands, so that Beethoven, who they knew could not hear the applause, could at least see the ovations.
+Editions.
+The first German edition was printed by B. Schott's Söhne (Mainz) in 1826. The Breitkopf &amp; Härtel edition dating from 1864 has been used widely by orchestras. In 1997, Bärenreiter published an edition by Jonathan Del Mar. According to Del Mar, this edition corrects nearly 3,000 mistakes in the Breitkopf edition, some of which were "remarkable". David Levy, however, criticized this edition, saying that it could create "quite possibly false" traditions. Breitkopf also published a new edition by Peter Hauschild in 2005.
+Instrumentation.
+The symphony is scored for the following orchestra. These are by far the largest forces needed for any Beethoven symphony; at the premiere, Beethoven augmented them further by assigning two players to each wind part.
+Woodwinds
+Brass
+Percussion
+Voices (fourth movement only)
+Strings
+Form.
+The symphony is in four movements. The structure of each movement is as follows:
+Beethoven changes the usual pattern of Classical symphonies in placing the scherzo movement before the slow movement (in symphonies, slow movements are usually placed before scherzi). This was the first time he did this in a symphony, although he had done so in some previous works, including the String Quartet Op. 18 no. 5, the "Archduke" piano trio Op. 97, the "Hammerklavier" piano sonata Op. 106. And Haydn, too, had used this arrangement in a number of his own works such as the String Quartet No. 30 in E major, as did Mozart in three of the Haydn Quartets and the G minor String Quintet.
+I. Allegro ma non troppo, un poco maestoso.
+The first movement is in sonata form without an exposition repeat. It begins with open fifths (A and E) played "pianissimo" by tremolo strings, steadily building up until the first main theme in D minor at bar 17.
+ \relative c {
+ \set Staff.midiInstrument = #"violin"
+ \set Score.tempoHideNote = ##t \tempo 4 = 88
+ \key d \minor
+ \time 2/4
+ \set Score.currentBarNumber = #17
+ \partial 32 d32\ff^\markup "First theme"
+ a4~ a8.. f32
+ d8.. a32 f8. a32( f)
+ d4~ d16 f'-. e-. d-.
+ a'8-. g-. e-. a-.
+ d,8.\sf
+&lt;/score&gt;
+The opening, with its perfect fifth quietly emerging, resembles the sound of an orchestra tuning up.
+At the outset of the recapitulation (which repeats the main melodic themes) in bar 301, the theme returns, this time played "fortissimo" and in D "major", rather than D "minor". The movement ends with a massive coda that takes up nearly a quarter of the movement, as in Beethoven's Third and Fifth Symphonies.
+A typical performance lasts about 15 minutes.
+II. Molto vivace.
+The second movement is a scherzo and trio. Like the first movement, the scherzo is in D minor, with the introduction bearing a passing resemblance to the opening theme of the first movement, a pattern also found in the "Hammerklavier" piano sonata, written a few years earlier. At times during the piece, Beethoven specifies one downbeat every three bars—perhaps because of the fast tempo—with the direction "ritmo di tre battute" (rhythm of three beats) and one beat every four bars with the direction "ritmo di quattro battute" (rhythm of four beats). Normally, a scherzo is in triple time. Beethoven wrote this piece in triple time but punctuated it in a way that, when coupled with the tempo, makes it sound as if it is in quadruple time.
+While adhering to the standard compound ternary design (three-part structure) of a dance movement (scherzo-trio-scherzo or minuet-trio-minuet), the scherzo section has an elaborate internal structure; it is a complete sonata form. Within this sonata form, the first group of the exposition (the statement of the main melodic themes) starts out with a fugue in D minor on the subject below.
+ \relative c {
+ \set Staff.midiInstrument = #"violin"
+ \set Score.tempoHideNote = ##t \tempo 2. = 116
+ \key d \minor
+ \time 3/4
+ \set Score.currentBarNumber = #9
+ \bar ""
+ a4.\pp^\markup "First theme" a,8 a4
+ d4-. e-. f-.
+ e-. f-. g-.
+ f-. e-. d-.
+ f e d
+ c b a
+ gis a b
+ a gis a
+&lt;/score&gt;
+For the second subject, it modulates to the unusual key of C major. The exposition then repeats before a short development section, where Beethoven explores other ideas. The recapitulation (repeating of the melodic themes heard in the opening of the movement) further develops the exposition's themes, also containing timpani solos. A new development section leads to the repeat of the recapitulation, and the scherzo concludes with a brief codetta.
+The contrasting trio section is in D major and in duple time. The trio is the first time the trombones play. Following the trio, the second occurrence of the scherzo, unlike the first, plays through without any repetition, after which there is a brief reprise of the trio, and the movement ends with an abrupt coda.
+The duration of the movement is about 12 minutes, but this may vary depending on whether two (frequently omitted) repeats are played.
+III. Adagio molto e cantabile.
+The third movement is a lyrical, slow movement in B major—a minor sixth away from the symphony's main key of D minor. It is in a double variation form, with each pair of variations progressively elaborating the rhythm and melodic ideas. The first variation, like the theme, is in time, the second in . The variations are separated by passages in , the first in D major, the second in G major, the third in E major, and the fourth in B major. The final variation is twice interrupted by episodes in which loud fanfares from the full orchestra are answered by octaves by the first violins. A prominent French horn solo is assigned to the fourth player.
+A performance lasts about 16 minutes.
+IV. Finale.
+The choral finale is Beethoven's musical representation of universal brotherhood based on the "Ode to Joy" theme and is in theme and variations form.
+\new Score {
+ \new Staff {
+ \relative c {
+ \set Staff.instrumentName = #"Vc."
+ \set Staff.midiInstrument = #"cello"
+ \set Score.currentBarNumber = #92
+ \time 4/4
+ \key d \major
+ \clef bass
+ \tempo "Allegro assai" 2 = 60
+ \set Score.tempoHideNote=##t
+ \bar ""
+ fis2\p( g4 a) | a4( g fis e) | d2( e4 fis) | fis4.( e8) e2 |
+ fis2( g4 a) | a4( g fis e) | d2( e4 fis) | e4.( d8) d2 | \break
+ e( fis4 d) | e( fis8 g fis4 d) | e( fis8 g fis4 e) | d( e a,) fis'~ |
+ fis fis( g a) | a( g fis e) | d2( e4 fis) | e4.( d8) d2
+&lt;/score&gt;
+The movement starts with an introduction in which musical material from each of the preceding three movements—though none are literal quotations of previous music—are successively presented and then dismissed by instrumental recitatives played by the low strings. Following this, the "Ode to Joy" theme is finally introduced by the cellos and double basses. After three instrumental variations on this theme, the human voice is presented for the first time in the symphony by the baritone soloist, who sings words written by Beethoven himself: ""O Freunde, nicht diese Töne!' Sondern laßt uns angenehmere anstimmen, und freudenvollere"." ("Oh friends, not these sounds! Let us instead strike up more pleasing and more joyful ones!").
+\relative c' {
+ \set Staff.midiInstrument = #"voice oohs"
+ \set Score.currentBarNumber = #216
+ \bar ""
+ \clef bass
+ \key d \minor
+ \time 3/4
+ \set Score.tempoHideNote = ##t \tempo 4 = 104
+ r4^\markup { \bold { \italic { Recitativo } } } r a
+ \grace { a8^( } e'2.)(~
+ e4 d8 cis d e)~
+ e4 g,4 r8 g
+ bes2( a8) e
+ f4 f r
+&lt;/score&gt;
+At about 24 minutes in length, the last movement is the longest of the four movements. Indeed, it is longer than some entire symphonies of the Classical era. Its form has been disputed by musicologists, as Nicholas Cook explains:
+Cook gives the following table describing the form of the movement:
+In line with Cook's remarks, Charles Rosen characterizes the final movement as a symphony within a symphony, played without interruption. This "inner symphony" follows the same overall pattern as the Ninth Symphony as a whole, with four "movements":
+Rosen notes that the movement can also be analysed as a set of variations and simultaneously as a concerto sonata form with double exposition (with the fugato acting both as a development section and the second tutti of the concerto).
+Text of the fourth movement.
+The text is largely taken from Friedrich Schiller's "Ode to Joy", with a few additional introductory words written specifically by Beethoven (shown in italics). The text, without repeats, is shown below, with a translation into English. The score includes many repeats. For the full libretto, including all repetitions, see German Wikisource.
+Towards the end of the movement, the choir sings the last four lines of the main theme, concluding with "Alle Menschen" before the soloists sing for one last time the song of joy at a slower tempo. The chorus repeats parts of "Seid umschlungen, Millionen!", then quietly sings, "Tochter aus Elysium", and finally, "Freude, schöner Götterfunken, Götterfunken!".
+Reception.
+Music critics almost universally consider the Ninth Symphony one of Beethoven's greatest works, and among the greatest musical works ever written. The finale, however, has had its detractors: "[e]arly critics rejected [the finale] as cryptic and eccentric, the product of a deaf and ageing composer." Verdi admired the first three movements but lamented the confused structure and the bad writing for the voices in the last movement:
+Performance challenges.
+Metronome markings.
+Conductors in the historically informed performance movement, notably Roger Norrington, have used Beethoven's suggested tempos, to mixed reviews. Benjamin Zander has made a case for following Beethoven's metronome markings, both in writing and in performances with the Boston Philharmonic Orchestra and Philharmonia Orchestra of London. Beethoven's metronome still exists and was tested and found accurate, but the original heavy weight (whose position is vital to its accuracy) is missing and many musicians have considered his metronome marks to be unacceptably high.
+Re-orchestrations and alterations.
+A number of conductors have made alterations in the instrumentation of the symphony. Notably, Richard Wagner doubled many woodwind passages, a modification greatly extended by Gustav Mahler, who revised the orchestration of the Ninth to make it sound like what he believed Beethoven would have wanted if given a modern orchestra. Wagner's Dresden performance of 1864 was the first to place the chorus and the solo singers behind the orchestra as has since become standard; previous conductors placed them between the orchestra and the audience.
+2nd bassoon doubling basses in the finale.
+Beethoven's indication that the 2nd bassoon should double the basses in bars 115–164 of the finale was not included in the Breitkopf &amp; Härtel parts, though it was included in the full score.
+Notable performances and recordings.
+The British premiere of the symphony was presented on 21 March 1825 by its commissioners, the Philharmonic Society of London, at its Argyll Rooms conducted by Sir George Smart and with the choral part sung in Italian. The American premiere was presented on 20 May 1846 by the newly formed New York Philharmonic at Castle Garden (in an attempt to raise funds for a new concert hall), conducted by the English-born George Loder, with the choral part translated into English for the first time.
+Richard Wagner conducted the symphony many times in his career. His last performance took place in 1872 at a concert to mark the foundation stone for the Bayreuth Festspielhaus. Wagner later published an essay entitled "The rendering of Beethoven's Ninth Symphony" in which he described the changes he made to the orchestration (see above) for the 1872 performance.
+The London Philharmonic Choir debuted on 15 May 1947 performing the Ninth Symphony with the London Philharmonic Orchestra under the baton of Victor de Sabata at the Royal Albert Hall. In 1951, Wilhelm Furtwängler and the Bayreuth Festival Orchestra reopened the Bayreuth Festival with a performance of the symphony, after the Allies had temporarily suspended the Festival following the Second World War.
+American conductor Leonard Bernstein made his first of three recordings of the Beethoven Ninth in 1964 with the New York Philharmonic, for Columbia Masterworks, with soloists Martina Arroyo (soprano), Regina Sarfaty (mezzo), Nicholas Di Virgilio (tenor), Norman Scott (bass), and the Juilliard Chorus; it was later reissued on CD.
+Bernstein made his second recording of the piece with the Vienna Philharmonic for Deutsche Grammophon, in 1979. This featured Gwyneth Jones (soprano), Hanna Schwarz (mezzo), René Kollo (tenor), and Kurt Moll (bass), with the chorus of the Vienna State Opera.
+Bernstein conducted a version of the Ninth at the Schauspielhaus in East Berlin, with (Freedom) replacing (Joy), to celebrate the fall of the Berlin Wall during Christmas 1989. This concert was performed by an orchestra and chorus made up of many nationalities: from both Germanies, the Bavarian Radio Symphony Orchestra and Chorus, the Chorus of the Berlin Radio Symphony Orchestra, and members of the Sächsische Staatskapelle Dresden, the Philharmonischer Kinderchor Dresden (Philharmonic Children's Choir Dresden); from the Soviet Union, members of the orchestra of the Kirov Theatre; from the United Kingdom, members of the London Symphony Orchestra; from the US, members of the New York Philharmonic; and from France, members of the Orchestre de Paris. Soloists were June Anderson, soprano, Sarah Walker, mezzo-soprano, Klaus König, tenor, and Jan-Hendrik Rootering, bass. It was the last time that Bernstein conducted the symphony; he died ten months later.
+In 1998, Japanese conductor Seiji Ozawa conducted the fourth movement for the 1998 Winter Olympics opening ceremony, with six different choirs simultaneously singing from Japan, Germany, South Africa, China, the United States, and Australia.
+Sir Georg Solti recorded the symphony with the Chicago Symphony Orchestra and Chicago Symphony Chorus on two occasions: first in 1972 with soloists Pilar Lorengar, Yvonne Minton, Stuart Burrows, and Martti Talvela; and again in 1986 with soloists Jessye Norman, Reinhild Runkel, Robert Schunk, and Hans Sotin. On both occasions, the chorus was prepared by Margaret Hillis. The second recording won the 1987 Grammy Award for Best Orchestral Performance.
+The BBC Proms Youth Choir performed the piece alongside Sir Georg Solti's UNESCO World Orchestra for Peace at the Royal Albert Hall during the 2018 Proms at Prom 9, titled "War &amp; Peace" as a commemoration to the centenary of the end of World War One.
+There have been various attempts to record the Ninth to come closer to what Beethoven's contemporaries would have heard, i.e., with period instruments:
+At 79 minutes, one of the longest Ninths recorded is Karl Böhm's, conducting the Vienna Philharmonic in 1981 with Jessye Norman and Plácido Domingo among the soloists.
+Influence.
+Many later composers of the Romantic period and beyond were influenced by the Ninth Symphony.
+An important theme in the finale of Johannes Brahms' Symphony No. 1 in C minor is related to the "Ode to Joy" theme from the last movement of Beethoven's Ninth Symphony. When this was pointed out to Brahms, he is reputed to have retorted "Any fool can see that!" Brahms's first symphony was, at times, both praised and derided as "Beethoven's Tenth".
+The Ninth Symphony influenced the forms that Anton Bruckner used for the movements of his symphonies. His Symphony No. 3 is in the same D-minor key as Beethoven's 9th and makes substantial use of thematic ideas from it. The colossal slow movement of Bruckner's Symphony No. 7, "as usual", takes the same A–B–A–B–A form as the 3rd movement of Beethoven's symphony and also uses some figuration from it.
+In the opening notes of the third movement of his Symphony No. 9 ("From the New World"), Antonín Dvořák pays homage to the scherzo of this symphony with his falling fourths and timpani strokes.
+Likewise, Béla Bartók borrows the opening motif of the scherzo from Beethoven's Ninth symphony to introduce the second movement scherzo in his own Four Orchestral Pieces, Op. 12 (Sz 51).
+Michael Tippett in his Third Symphony (1972) quotes the opening of the finale of Beethoven's Ninth and then criticises the utopian understanding of the brotherhood of man as expressed in the Ode to Joy and instead stresses man's capacity for both good and evil.
+One legend is that the compact disc was deliberately designed to have a 74-minute playing time so that it could accommodate Beethoven's Ninth Symphony. Kees Immink, Philips' chief engineer, who developed the CD, recalls that a commercial tug-of-war between the development partners, Sony and Philips, led to a settlement in a neutral 12-cm diameter format. The 1951 performance of the Ninth Symphony conducted by Furtwängler was brought forward as the perfect excuse for the change, and was put forth in a Philips news release celebrating the 25th anniversary of the Compact Disc as the reason for the 74-minute length.
+In the film "The Pervert's Guide to Ideology", the psychoanalytical Communist philosopher Slavoj Žižek comments on the use of the Ode by Nazism, Bolshevism, the Chinese Cultural Revolution, the East-West German Olympic team, Southern Rhodesia, Abimael Guzmán (leader of the Shining Path), and the Council of Europe and the European Union.
+Theme music for NBC's "The Huntley–Brinkley Report".
+"The Huntley–Brinkley Report" used the 2nd movement as its closing theme music during the show's run on NBC from 1956 until 1970. A remixed version of the opening bars of the movement were used as the theme for "Countdown with Keith Olbermann".
+Use as (national) anthem.
+During the division of Germany in the Cold War, the "Ode to Joy" segment of the symphony was played in lieu of an anthem at the Olympic Games for the United Team of Germany between 1956 and 1968. In 1972, the musical backing (without the words) was adopted as the Anthem of Europe by the Council of Europe and subsequently by the European Communities (now the European Union) in 1985. Also, the "Ode to Joy" was used as the national anthem of Rhodesia between 1974 and 1979, as "Rise, O Voices of Rhodesia".
+Use as a hymn melody.
+In 1907, the Presbyterian pastor Henry van Dyke Jr. wrote the hymn "Joyful, Joyful, we adore thee" while staying at Williams College. The hymn is commonly sung in English-language churches to the "Ode to Joy" melody from this symphony.
+Year-end tradition.
+The German workers' movement began the tradition of performing the Ninth Symphony on New Year's Eve in 1918. Performances started at 11 p.m. so that the symphony's finale would be played at the beginning of the new year. This tradition continued during the Nazi period and was also observed by East Germany after the war.
+The Ninth Symphony is traditionally performed throughout Japan at the end of the year. In December 2009, for example, there were 55 performances of the symphony by various major orchestras and choirs in Japan. It was introduced to Japan during World War I by German prisoners held at the Bandō prisoner-of-war camp. Japanese orchestras, notably the NHK Symphony Orchestra, began performing the symphony in 1925 and during World War II; the Imperial government promoted performances of the symphony, including on New Year's Eve. In an effort to capitalize on its popularity, orchestras and choruses undergoing economic hard times during Japan's reconstruction performed the piece at year's end. In the 1960s, these year-end performances of the symphony became more widespread, and included the participation of local choirs and orchestras, firmly establishing a tradition that continues today. Some of these performances feature massed choirs of up to 10,000 singers.
+Other choral symphonies.
+Prior to Beethoven's ninth, symphonies had not used choral forces and the piece thus established the genre of choral symphony. Numbered choral symphonies as part of a cycle of otherwise instrumental works have subsequently been written by numerous composers, including Gustav Mahler, Ralph Vaughan Williams and Charles Ives among many others. 
+Other ninth symphonies.
+The scale and influence of Beethoven's ninth led later composers to ascribe a special significance to their own ninth symphonies, which may have contributed to the cultural phenomena known as the curse of the ninth. A number of other composers' ninth symphonies also employ a chorus, such as those by Kurt Atterberg, Mieczysław Weinberg, Edmund Rubbra, Hans Werner Henze and Robert Kyr. Anton Bruckner had not originally intended his unfinished ninth symphony to feature choral forces, however the use of his choral "Te Deum" in lieu of the uncompleted Finale was supposedly sanctioned by the composer. Dmitri Shostakovich had originally intended his Ninth Symphony to be a large work with chorus and soloists, although the symphony as it eventually appeared was a relatively short work without vocal forces.
+Of his own Ninth symphony, George Lloyd wrote that "When a composer has written eight symphonies he may find that the horizon has been blacked out by the overwhelming image of Beethoven and his one and only Ninth. There are other very good No. 5s and No. 3s, for instance, but how can one possibly have the temerity of trying to write another Ninth Symphony?". Niels Gade composed only eight symphonies, despite living for another twenty years after completing the eighth. He is believed to have replied, when asked why he did not compose another symphony, "There is only one ninth", in reference to Beethoven.
+References.
+Notes
+Citations
+Sources
+External links.
+Scores, manuscripts and text
+Analysis
+Audio
+Video
+Other material
+

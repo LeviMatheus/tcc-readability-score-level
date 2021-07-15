@@ -1,0 +1,2 @@
+The McGurk effect shows how hearing and vision are used for speech perception. Named after the man who found it, Harry McGurk, it says that we do not hear speech with only our ears. We use our other senses too. The McGurk effect may be experienced when watching a video of a person saying /ga/ with a sound-recording saying /ba/. When this is done, a third sound is heard: /da/.
+The McGurk effect is robust: that is, it still works even if you know about it. This is different from certain optical illusions, which do not work anymore once you can see it.

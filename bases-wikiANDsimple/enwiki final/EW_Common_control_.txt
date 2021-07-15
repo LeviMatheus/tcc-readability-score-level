@@ -1,0 +1,9 @@
+
+In telecommunications, common control is a principle of switching telephone calls in an automatic telephone exchange that employs shared control equipment which is attached to the circuit of a call only for the duration of establishing or otherwise controlling the call. Thus, such control equipment need only be provided in as few units to satisfy overall exchange traffic, rather than being duplicated for every subscriber line.
+In contrast, "direct control" systems have subsystems for call control that are an integral part of the switching network. Strowger exchanges are usually direct control systems, whereas crossbar, and electronic exchanges (including all stored program control systems) are common control systems. Common control is also known as indirect control or register control.
+History.
+Early semi-mechanical installations with common control components existed, for example rotary systems in Sweden and France in 1915, and the first panel switches in Newark, New Jersey, also in 1915. The first large-scale, fully automatic, common control switching system deployed in commercial production service was the "ATlantic" central office in Omaha, Nebraska, a panel system cut over on December 10, 1921. Other panel offices for Kansas City and New York CIty ("PENnsylvania") were in planning at the same time and opened shortly after.
+In 1922, common control was introduced in Strowger-type step-by-step systems, resulting in the first installations of Director systems in Havanna, Cuba in 1924, and in London, England in 1927.
+By the mid-1920s, common control ideas had extended to include marker systems for testing for idle trunks.
+During the 1960s, common control exchanges became stored program control exchanges, and by the 1970s they used common-channel signaling in which the channels that are used for signaling are not used for message traffic (out of band signaling).
+

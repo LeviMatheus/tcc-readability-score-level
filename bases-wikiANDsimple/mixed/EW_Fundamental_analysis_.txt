@@ -1,0 +1,25 @@
+
+Fundamental analysis, in accounting and finance, is the analysis of a business's financial statements (usually to analyze the business's assets, liabilities, and earnings); health; and competitors and markets. It also considers the overall state of the economy and factors including interest rates, production, earnings, employment, GDP, housing, manufacturing and management. There are two basic approaches that can be used: bottom up analysis and top down analysis. These terms are used to distinguish such analysis from other types of investment analysis, such as quantitative and technical.
+Fundamental analysis is performed on historical and present data, but with the goal of making financial forecasts. There are several possible objectives: 
+The two analytical models.
+There are two basic methodologies investors rely upon when the objective of the analysis is to determine what stock to buy and at what price:
+Investors can use one or both of these complementary methods for stock picking. For example, many fundamental investors use technical indicators for deciding entry and exit points. Similarly, a large proportion of technical investors use fundamental indicators to limit their pool of possible stocks to "good" companies.
+The choice of stock analysis is determined by the investor's belief in the different paradigms for "how the stock market works". For explanations of these paradigms, see the discussions at efficient-market hypothesis, random walk hypothesis, capital asset pricing model, Fed model Theory of Equity Valuation, market-based valuation, and behavioral finance.
+Fundamental analysis includes:
+The intrinsic value of the shares is determined based upon these three analyses. It is this value that is considered the true value of the share. If the intrinsic value is higher than the market price, buying the share is recommended. If it is equal to market price, it is recommended to hold the share; and if it is less than the market price, then one should sell the shares.
+Use by different portfolio styles.
+Investors may also use fundamental analysis within different portfolio management styles.
+Top-down and bottom-up approaches.
+Investors using fundamental analysis can use either a top-down or bottom-up approach.
+Procedures.
+The analysis of a business's health starts with a financial statement analysis that includes financial ratios. It looks at dividends paid, operating cash flow, new equity issues and capital financing. The earnings estimates and growth rate projections published widely by Thomson Reuters and others can be considered either "fundamental" (they are facts) or "technical" (they are investor sentiment) based on perception of their validity.
+Determined growth rates (of income and cash) and risk levels (to determine the discount rate) are used in various valuation models. The foremost is the discounted cash flow model, which calculates the present value of the future:
+The amount of debt a company possesses is also a major consideration in determining its health. It can be quickly assessed using the debt-to-equity ratio and the "current ratio" (current assets/current liabilities).
+The simple model commonly used is the P/E ratio (price-to-earnings ratio). Implicit in this model of a perpetual annuity (time value of money) is that the inverse, or the E/P rate, is the discount rate appropriate to the risk of the business. This model does not incorporate earnings growth.
+Growth estimates are incorporated into the PEG ratio. Its validity depends on the length of time analysts believe the growth will continue. IGAR models can be used to impute expected changes in growth from current P/E and historical growth rates for the stocks relative to a comparison index.
+Automation.
+The process of fundamental analysis has significantly dropped in difficulty over the past 10 years. Ever since computers became a household product, people have built software designed to make the investor's life easier. Fundamental analysis is one of the most time-consuming forms of analysis. Furthermore, with the fast-paced trading style of the 21st century, where markets are dominated by HFT firms and day traders, it is difficult to keep up with the market in a timely fashion. One way to go about cutting down analysis time, is to subscribe to either free or paid screening services. Screening services will allow you to search the entire market for stocks that match the quantitative fields you are looking for. These types of software then automatically give you results, hence cutting down on time spent sifting through SEC filings.
+Reference - Fundamental Analysis Software for more information on fundamental analysis software.
+Criticisms.
+Economists such as Burton Malkiel suggest that neither fundamental analysis nor technical analysis is useful in outperforming the markets.
+

@@ -1,0 +1,3 @@
+Machine translation, sometimes referred to by the acronym MT, is part of computational linguistics. It looks at the use of computer software to translate text or speech from one natural language to another.
+At its basic level, MT performs simple substitution of words in one natural language for words in another (see literal translation).
+Current machine translation software often allows to adapt the translation to subject or profession (such as weather reports) — to improve output by limiting the allowable substitutions. This technique is particularly effective in domains where formal or formulaic language is used. It follows then that machine translation of government and legal documents more readily produces usable output than conversation or less standardised text.

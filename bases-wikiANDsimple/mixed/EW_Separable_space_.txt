@@ -1,0 +1,25 @@
+
+In mathematics, a topological space is called separable if it contains a countable, dense subset; that is, there exists a sequence formula_1 of elements of the space such that every nonempty open subset of the space contains at least one element of the sequence.
+Like the other axioms of countability, separability is a "limitation on size", not necessarily in terms of cardinality (though, in the presence of the Hausdorff axiom, this does turn out to be the case; see below) but in a more subtle topological sense. In particular, every continuous function on a separable space whose image is a subset of a Hausdorff space is determined by its values on the countable dense subset.
+Contrast separability with the related notion of second countability, which is in general stronger but equivalent on the class of metrizable spaces.
+First examples.
+Any topological space that is itself finite or countably infinite is separable, for the whole space is a countable dense subset of itself. An important example of an uncountable separable space is the real line, in which the rational numbers form a countable dense subset. Similarly the set of all vectors formula_2 of which formula_3 is a countable dense subset; so for every formula_4, formula_4-dimensional Euclidean space is separable.
+A simple example of a space that is not separable is a discrete space of uncountable cardinality.
+Further examples are given below.
+Separability versus second countability.
+Any second-countable space is separable: if formula_6 is a countable base, choosing any formula_7 from the non-empty formula_8 gives a countable dense subset. Conversely, a metrizable space is separable if and only if it is second countable, which is the case if and only if it is Lindelöf.
+To further compare these two properties:
+We can construct an example of a separable topological space that is not second countable. Consider any uncountable set formula_9, pick some formula_10, and define the topology to be the collection of all sets that contain formula_11 (or are empty). Then, the closure of formula_12 is the whole space (formula_9 is the smallest closed set containing formula_11), but every set of the form formula_15 is open. Therefore, the space is separable but there cannot be a countable base.
+Cardinality.
+The property of separability does not in and of itself give any limitations on the cardinality of a topological space: any set endowed with the trivial topology is separable, as well as second countable, quasi-compact, and connected. The "trouble" with the trivial topology is its poor separation properties: its Kolmogorov quotient is the one-point space.
+A first-countable, separable Hausdorff space (in particular, a separable metric space) has at most the continuum cardinality formula_16. In such a space, closure is determined by limits of sequences and any convergent sequence has at most one limit, so there is a surjective map from the set of convergent sequences with values in the countable dense subset to the points of formula_9.
+A separable Hausdorff space has cardinality at most formula_18, where formula_16 is the cardinality of the continuum. For this closure is characterized in terms of limits of filter bases: if formula_20 and formula_21, then formula_22 if and only if there exists a filter base formula_23 consisting of subsets of formula_24 that converges to formula_25. The cardinality of the set formula_26 of such filter bases is at most formula_27. Moreover, in a Hausdorff space, there is at most one limit to every filter base. Therefore, there is a surjection formula_28 when formula_29
+The same arguments establish a more general result: suppose that a Hausdorff topological space formula_9 contains a dense subset of cardinality formula_31.
+Then formula_9 has cardinality at most formula_33 and cardinality at most formula_34 if it is first countable.
+The product of at most continuum many separable spaces is a separable space . In particular the space formula_35 of all functions from the real line to itself, endowed with the product topology, is a separable Hausdorff space of cardinality formula_18. More generally, if formula_31 is any infinite cardinal, then a product of at most formula_38 spaces with dense subsets of size at most formula_31 has itself a dense subset of size at most formula_31 (Hewitt–Marczewski–Pondiczery theorem).
+Constructive mathematics.
+Separability is especially important in numerical analysis and constructive mathematics, since many theorems that can be proved for nonseparable spaces have constructive proofs only for separable spaces. Such constructive proofs can be turned into algorithms for use in numerical analysis, and they are the only sorts of proofs acceptable in constructive analysis. A famous example of a theorem of this sort is the Hahn–Banach theorem.
+Properties.
+Embedding separable metric spaces.
+"For nonseparable spaces":
+

@@ -1,0 +1,4 @@
+In computer network and computer science, digital bandwidth or just bandwidth is the capacity for a given system to transfer data over a connection. It is measured as a bit rate expressed in bits per second (bits/s) or multiples of it (kbit/s Mbit/s etc.).
+Bandwidth in web hosting.
+In web hosting, the term "bandwidth" is often used to describe the amount of data transferred to or from the website within a defined period of time. Another more specific phrase used for this meaning of bandwidth is monthly data transfer.
+Web hosting companies often quote a monthly data transfer for a website, for example 500 gigabytes per month. If the total amount of data downloaded from the website in a particular month reaches this limit, the hosting company may shut off further public access to the site.

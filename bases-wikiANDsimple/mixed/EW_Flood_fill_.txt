@@ -1,0 +1,204 @@
+
+Flood fill, also called seed fill, is an algorithm that determines and alters the area connected to a given node in a multi-dimensional array with some matching attribute. It is used in the "bucket" fill tool of paint programs to fill connected, similarly-colored areas with a different color, and in games such as Go and Minesweeper for determining which pieces are cleared. A variant called boundary fill uses the same algorithms but is defined as the area connected to a given node that does not have a particular attribute.
+Note that flood filling is not suitable for drawing filled polygons, as it will miss some pixels in more acute corners. Instead, see Even-odd rule and Nonzero-rule.
+The Algorithm Parameters.
+The traditional flood-fill algorithm takes three parameters: a start node, a target color, and a replacement color. The algorithm looks for all nodes in the array that are connected to the start node by a path of the target color and changes them to the replacement color. For a boundary-fill, in place of the target color, a border color would be supplied.
+In order to generalize the algorithm in the common way, the following descriptions will instead have two routines available. One called codice_1 which returns true for unfilled points that, by their color, would be inside the filled area, and one called codice_2 which fills a pixel/node. Any node that has codice_2 called on it must then no longer be codice_1.
+Depending on whether we consider nodes touching at the corners connected or not, we have two variations: eight-way and four-way respectively.
+Stack-based recursive implementation (four-way).
+The earliest-known, implicitly stack-based, recursive, four-way flood-fill implementation goes as follows:
+ Flood-fill (node):
+ 1. If "node" is not "Inside" return.
+ 2. "Set" the "node"
+ 3. Perform Flood-fill one step to the south of "node".
+ 4. Perform Flood-fill one step to the north of "node"
+ 5. Perform Flood-fill one step to the west of "node"
+ 6. Perform Flood-fill one step to the east of "node"
+ 7. Return.
+Though easy to understand, the implementation of the algorithm used above is impractical in languages and environments where stack space is severely constrained (e.g. Java applets).
+Moving the recursion into a data structure.
+Moving the recursion into a data structure (either a stack or a queue) prevents a stack overflow. It is similar to the simple recursive solution, except that instead of making recursive calls, it pushes the nodes onto a stack or queue for consumption, with the choice of data structure affecting the proliferation pattern:
+ Flood-fill (node):
+ 1. Set "Q" to the empty queue or stack.
+ 2. Add "node" to the end of "Q".
+ 3. While "Q" is not empty:
+ 4. Set "n" equal to the first element of "Q".
+ 5. Remove first element from "Q".
+ 6. If "n" is "Inside":
+ "Set" the "n"
+ Add the node to the west of "n" to the end of "Q".
+ Add the node to the east of "n" to the end of "Q".
+ Add the node to the north of "n" to the end of "Q".
+ Add the node to the south of "n" to the end of "Q".
+ 7. Continue looping until "Q" is exhausted.
+ 8. Return.
+Span Filling.
+It's possible to optimize things further by working primarily with spans. The first published complete example works on the following basic principle. Starting with a seed point, you fill left and right and keep track of the edges. Then, you scan the same portion of the line above and the line below, searching for new seed-points to continue with. This algorithm is the most popular, for both citations and implementations , despite testing most filled pixels three times in total. In pseudo-code form:
+ fn fill("x", "y"):
+ if not Inside("x", "y") then return
+ let "s" = new empty stack or queue
+ add ("x", "y") to "s"
+ while "s" is not empty:
+ Remove an ("x", "y") from "s"
+ let "lx" = "x"
+ while Inside("lx" - 1, "y"):
+ Set("lx" - 1, "y")
+ "lx" = "lx" - 1
+ while Inside("x", "y"):
+ Set("x", "y")
+ "x" = "x" + 1
+ scan("lx", "x" - 1, "y" + 1, "s")
+ scan("lx", "x" - 1, "y" - 1, "s")
+ fn scan("lx", "rx", "y", "s"):
+ let "added" = "false"
+ for "x" in "lx" .. "rx":
+ if not Inside("x", "y"):
+ "added" = "false"
+ else if not "added":
+ Add ("x", "y") to "s"
+ "added" = "true"
+Over time, the following optimizations were realized:
+The final, combined-scan-and-fill span filler was then published in 1990, and proceeds as follows (though the version here corrects some bugs in the original): 
+ fn fill("x", "y"):
+ if not Inside("x", "y") then return
+ let "s" = new empty queue or stack
+ Add ("x", "x", "y", 1) to "s"
+ Add ("x", "x", "y" - 1, -1) to "s"
+ while "s" is not empty:
+ Remove an ("x1", "x2", "y", "dy") from "s"
+ let "x" = "x1"
+ if Inside("x", "y"):
+ while Inside("x" - 1, "y"):
+ Set("x" - 1, "y")
+ "x" = "x" - 1
+ if "x" &lt; "x1":
+ Add ("x", "x1"-1, "y"-"dy", -"dy") to "s"
+ while "x1" &lt; "x2":
+ while Inside("x1", "y"):
+ Set("x1", "y")
+ "x1" = "x1" + 1
+ Add ("x", "x1" - 1, "y"+"dy", "dy") to "s"
+ if "x1" - 1 &gt; "x2":
+ Add ("x2" + 1, "x1" - 1, "y"-"dy", -"dy")
+ while "x1" &lt; "x2" and not Inside("x1", "y"):
+ "x1" = "x1" + 1
+ "x" = "x1"
+Adding Pattern Filling Support.
+Two common ways to make the span and pixel-based algorithms support pattern filling are either to use a unique color as a plain fill and then replace that with a pattern or to keep track (in a 2d boolean array or as regions) of which pixels have been visited, using it to indicate pixels are no longer fillable. "Inside" must then return "false" for such visited pixels. 
+Graph-theoretic Filling.
+Some theorists applied explicit graph theory to the problem, treating spans of pixels, or aggregates of such, as nodes and studying their connectivity. The first published graph theory algorithm worked similarly to the span filling, above, but had a way to detect when it would duplicate filling of spans. Unfortunately, it had bugs that made it not complete some fills. A corrected algorithm was later published with a similar basis in graph theory; however, it alters the image as it goes along, to temporarily block off potential loops, complicating the programmatic interface. A later published algorithm depended on the boundary being distinct from everything else in the image and so isn't suitable for most uses; it also requires an extra bit per pixel for bookkeeping. 
+Walk-based filling (Fixed-memory method).
+A method exists that uses essentially no memory for four-connected regions by pretending to be a painter trying to paint the region without painting themselves into a corner. This is also a method for solving mazes. The four pixels making the primary boundary are examined to see what action should be taken. The painter could find themselves in one of several conditions:
+Where a path or boundary is to be followed, the right-hand rule is used. The painter follows the region by placing their right-hand on the wall (the boundary of the region) and progressing around the edge of the region without removing their hand.
+For case #1, the painter paints (fills) the pixel the painter is standing upon and stops the algorithm.
+For case #2, a path leading out of the area exists. Paint the pixel the painter is standing upon and move in the direction of the open path.
+For case #3, the two boundary pixels define a path which, if we painted the current pixel, may block us from ever getting back to the other side of the path. We need a "mark" to define where we are and which direction we are heading to see if we ever get back to exactly the same pixel. If we already created such a "mark", then we preserve our previous mark and move to the next pixel following the right-hand rule.
+A mark is used for the first 2-pixel boundary that is encountered to remember where the passage started and in what direction the painter was moving. If the mark is encountered again and the painter is traveling in the same direction, then the painter knows that it is safe to paint the square with the mark and to continue in the same direction. This is because (through some unknown path) the pixels on the other side of the mark can be reached and painted in the future. The mark is removed for future use.
+If the painter encounters the mark but is going in a different direction, then some sort of loop has occurred, which caused the painter to return to the mark. This loop must be eliminated. The mark is picked up, and the painter then proceeds in the direction indicated previously by the mark using a left-hand rule for the boundary (similar to the right-hand rule but using the painter's left hand). This continues until an intersection is found (with three or more open boundary pixels). Still using the left-hand rule the painter now searches for a simple passage (made by two boundary pixels). Upon finding this two-pixel boundary path, that pixel is painted. This breaks the loop and allows the algorithm to continue.
+For case #4, we need to check the opposite 8-connected corners to see whether they are filled or not. If either or both are filled, then this creates a many-path intersection and cannot be filled. If both are empty, then the current pixel can be painted and the painter can move following the right-hand rule.
+The algorithm trades time for memory. For simple shapes it is very efficient. However, if the shape is complex with many features, the algorithm spends a large amount of time tracing the edges of the region trying to ensure that all can be painted.
+This algorithm was first available commercially in 1981 on a Vicom Image Processing system manufactured by Vicom Systems, Inc. A walking algorithm was published in 1994. The classic recursive flood fill algorithm was available on the Vicom system as well.
+Pseudocode.
+This is a pseudocode implementation of an optimal fixed-memory flood-fill algorithm written in structured English:
+ set cur to starting pixel
+ set cur-dir to default direction
+ clear mark and mark2 (set values to null)
+ set backtrack and findloop to false
+ while front-pixel is empty do
+ move forward
+ end while
+ jump to START
+ MAIN LOOP:
+ move forward
+ if right-pixel is inside then
+ if backtrack is true and findloop is false and either front-pixel or left-pixel is inside then
+ set findloop to true
+ end if
+ turn right
+ PAINT:
+ move forward
+ end if
+ START:
+ set "count" to number of non-diagonally adjacent pixels filled (front/back/left/right ONLY)
+ if "count" is not 4 then
+ do
+ turn right
+ while front-pixel is inside
+ do
+ turn left
+ while front-pixel is not inside
+ end if
+ switch "count"
+ case 1
+ if backtrack is true then
+ set findloop to true
+ else if findloop is true then
+ if mark is null then
+ restore mark
+ end if
+ else if front-left-pixel and back-left-pixel are both inside then
+ clear mark
+ set cur
+ jump to PAINT
+ end if
+ end case
+ case 2
+ if back-pixel is not inside then
+ if front-left-pixel is inside then
+ clear mark
+ set cur
+ jump to PAINT
+ end if
+ else if mark is not set then
+ set mark to cur
+ set mark-dir to cur-dir
+ clear mark2
+ set findloop and backtrack to false
+ else
+ if mark2 is not set then
+ if cur is at mark then
+ if cur-dir is the same as mark-dir then
+ clear mark
+ turn around
+ set cur
+ jump to PAINT
+ else
+ set backtrack to true
+ set findloop to false
+ set cur-dir to mark-dir
+ end if
+ else if findloop is true then
+ set mark2 to cur
+ set mark2-dir to cur-dir
+ end if
+ else
+ if cur is at mark then
+ set cur to mark2
+ set cur-dir to mark2-dir
+ clear mark and mark2
+ set backtrack to false
+ turn around
+ set cur
+ jump to PAINT
+ else if cur at mark2 then
+ set mark to cur
+ set cur-dir and mark-dir to mark2-dir
+ clear mark2
+ end if
+ end if
+ end if
+ end case
+ case 3
+ clear mark
+ set cur
+ jump to PAINT
+ end case
+ case 4
+ set cur
+ done
+ end case
+ end switch
+ end MAIN LOOP
+Vector implementations.
+Version 0.46 of Inkscape includes a bucket fill tool, giving output similar to ordinary bitmap operations and indeed using one: the canvas is rendered, a flood fill operation is performed on the selected area and the result is then traced back to a path. It uses the concept of a boundary condition.
+

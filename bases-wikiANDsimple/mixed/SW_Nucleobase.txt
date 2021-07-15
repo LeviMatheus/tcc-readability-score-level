@@ -1,0 +1,2 @@
+Nucleobases are important for genetics. They are parts of RNA and DNA that may be involved in pairing (see base pair).
+They include cytosine, guanine, adenine, thymine in (DNA), uracil in (RNA) and xanthine and hypoxanthine (mutated forms of guanine and adenine). These are abbreviated as C, G, A, T, U, X and HX respectively. They are usually simply called bases in genetics. Because A, G, C and T appear in the DNA, these molecules are called DNA-bases; A, G, C and U are called RNA-bases.

@@ -1,0 +1,155 @@
+
+In geometry, a polyhedron (plural polyhedra or polyhedrons) is a three-dimensional shape with flat polygonal faces, straight edges and sharp corners or vertices. The word polyhedron comes from the Classical Greek πολύεδρον, as "poly-" (stem of πολύς, "many") + "-hedron" (form of ἕδρα, "base" or "seat").
+A convex polyhedron is the convex hull of finitely many points, not all on the same plane. Cubes and pyramids are examples of convex polyhedra.
+A polyhedron is a 3-dimensional example of the more general polytope in any number of dimensions.
+Definition.
+Convex polyhedra are well-defined, with several equivalent standard definitions. However, the formal mathematical definition of polyhedra that are not required to be convex has been problematic.
+Many definitions of "polyhedron" have been given within particular contexts, some more rigorous than others, and there is not universal agreement over which of these to choose.
+Some of these definitions exclude shapes that have often been counted as polyhedra (such as the self-crossing polyhedra) or include
+shapes that are often not considered as valid polyhedra (such as solids whose boundaries are not manifolds). As Branko Grünbaum observed,
+Nevertheless, there is general agreement that a polyhedron is a solid or surface that can be described by its vertices (corner points), edges (line segments connecting certain pairs of vertices),
+faces (two-dimensional polygons), and that it sometimes can be said to have a particular three-dimensional interior volume.
+One can distinguish among these different definitions according to whether they describe the polyhedron as a solid, whether they describe it as a surface, or whether they describe it more abstractly based on its incidence geometry.
+In all of these definitions, a polyhedron is typically understood as a three-dimensional example of the more general polytope in any number of dimensions. For example, a polygon has a two-dimensional body and no faces, while a 4-polytope has a four-dimensional body and an additional set of three-dimensional "cells".
+However, some of the literature on higher-dimensional geometry uses the term "polyhedron" to mean something else: not a three-dimensional polytope, but a shape that is different from a polytope in some way. For instance, some sources define a convex polyhedron to be the intersection of finitely many half-spaces, and a polytope to be a bounded polyhedron. The remainder of this article considers only three-dimensional polyhedra.
+Characteristics.
+Number of faces.
+Polyhedra may be classified and are often named according to the number of faces. The naming system is based on Classical Greek, for example tetrahedron (a polyhedron with four faces), pentahedron (five faces), hexahedron (six faces), triacontahedron (30 faces), and so on.
+For a complete list of the Greek numeral prefixes see , in the column for Greek cardinal numbers.
+Topological classification.
+Some polyhedra have two distinct sides to their surface. For example, the inside and outside of a convex polyhedron paper model can each be given a different colour (although the inside colour will be hidden from view). These polyhedra are orientable. The same is true for non-convex polyhedra without self-crossings. Some non-convex self-crossing polyhedra can be coloured in the same way but have regions turned "inside out" so that both colours appear on the outside in different places; these are still considered to be orientable. However, for some other self-crossing polyhedra with simple-polygon faces, such as the tetrahemihexahedron, it is not possible to colour the two sides of each face with two different colours so that adjacent faces have consistent colours.
+In this case the polyhedron is said to be non-orientable. For polyhedra with self-crossing faces, it may not be clear what it means for adjacent faces to be consistently coloured, but for these polyhedra it is still possible to determine whether it is orientable or non-orientable by considering a topological cell complex with the same incidences between its vertices, edges, and faces.
+A more subtle distinction between polyhedron surfaces is given by their Euler characteristic, which combines the numbers of vertices formula_1, edges formula_2, and faces formula_3 of a polyhedron into a single number formula_4 defined by the formula
+The same formula is also used for the Euler characteristic of other kinds of topological surfaces. It is an invariant of the surface, meaning that when a single surface is subdivided into vertices, edges, and faces in more than one way, the Euler characteristic will be the same for these subdivisions. For a convex polyhedron, or more generally any simply connected polyhedron with surface a topological sphere, it always equals 2. For more complicated shapes, the Euler characteristic relates to the number of toroidal holes, handles or cross-caps in the surface and will be less than 2. 
+All polyhedra with odd-numbered Euler characteristic are non-orientable. A given figure with even Euler characteristic may or may not be orientable. For example, the one-holed toroid and the Klein bottle both have formula_6, with the first being orientable and the other not.
+For many (but not all) ways of defining polyhedra, the surface of the polyhedron is required to be a manifold. This means that every edge is part of the boundary of exactly two faces (disallowing shapes like the union of two cubes that meet only along a shared edge) and that every vertex is incident to a single alternating cycle of edges and faces (disallowing shapes like the union of two cubes sharing only a single vertex). For polyhedra defined in these ways, the classification of manifolds implies that the topological type of the surface is completely determined by the combination of its Euler characteristic and orientability. For example, every polyhedron whose surface is an orientable manifold and whose Euler characteristic is 2 must be a topological sphere.
+A toroidal polyhedron is a polyhedron whose Euler characteristic is less than or equal to 0, or equivalently whose genus is 1 or greater. Topologically, the surfaces of such polyhedra are torus surfaces having one or more holes through the middle.
+Duality.
+For every convex polyhedron, there exists a dual polyhedron having
+The dual of a convex polyhedron can be obtained by the process of polar reciprocation. Dual polyhedra exist in pairs, and the dual of a dual is just the original polyhedron again. Some polyhedra are self-dual, meaning that the dual of the polyhedron is congruent to the original polyhedron.
+Abstract polyhedra also have duals, which satisfy in addition that they have the same Euler characteristic and orientability as the initial polyhedron. However, this form of duality does not describe the shape of a dual polyhedron, but only its combinatorial structure. For some definitions of non-convex geometric polyhedra, there exist polyhedra whose abstract duals cannot be realized as geometric polyhedra under the same definition.
+Vertex figures.
+For every vertex one can define a vertex figure, which describes the local structure of the polyhedron around the vertex. Precise definitions vary, but a vertex figure can be thought of as the polygon exposed where a slice through the polyhedron cuts off a corner. If the vertex figure is a regular polygon, then the vertex itself is said to be regular.
+Volume.
+Polyhedral solids have an associated quantity called volume that measures how much space they occupy. Simple families of solids may have simple formulas for their volumes; for example, the volumes of pyramids, prisms, and parallelepipeds can easily be expressed in terms of their edge lengths or other coordinates. (See Volume § Volume formulas for a list that includes many of these formulas.)
+Volumes of more complicated polyhedra may not have simple formulas. Volumes of such polyhedra may be computed by subdividing the polyhedron into smaller pieces (for example, by triangulation). For example, the volume of a regular polyhedron can be computed by dividing it into congruent pyramids, with each pyramid having a face of the polyhedron as its base and the centre of the polyhedron as its apex.
+In general, it can be derived from the divergence theorem that the volume of a polyhedral solid is given by
+formula_7
+where the sum is over faces of the polyhedron, is an arbitrary point on face , is the unit vector perpendicular to pointing outside the solid, and the multiplication dot is the dot product. In higher dimensions, volume computation may be challenging, in part because of the difficulty of listing the faces of a convex polyhedron specified only by its vertices, and there exist specialized algorithms to determine the volume in these cases.
+Dehn invariant.
+In two dimensions, the Bolyai–Gerwien theorem asserts that any polygon may be transformed into any other polygon of the same area by cutting it up into finitely many polygonal pieces and rearranging them. The analogous question for polyhedra was the subject of Hilbert's third problem. Max Dehn solved this problem by showing that, unlike in the 2-D case, there exist polyhedra of the same volume that cannot be cut into smaller polyhedra and reassembled into each other. To prove this Dehn discovered another value associated with a polyhedron, the Dehn invariant, such that two polyhedra can only be dissected into each other when they have the same volume and the same Dehn invariant. It was later proven by Sydler that this is the only obstacle to dissection: every two Euclidean polyhedra with the same volumes and Dehn invariants can be cut up and reassembled into each other. The Dehn invariant is not a number, but a vector in an infinite-dimensional vector space.
+Another of Hilbert's problems, Hilbert's 18th problem, concerns (among other things) polyhedra that tile space. Every such polyhedron must have Dehn invariant zero. The Dehn invariant has also been connected to flexible polyhedra by the strong bellows theorem, which states that the Dehn invariant of any flexible polyhedron remains invariant as it flexes.
+Convex polyhedra.
+A three-dimensional solid is a convex set if it contains every line segment connecting two of its points. A convex polyhedron is a polyhedron that, as a solid, forms a convex set. A convex polyhedron can also be defined as a bounded intersection of finitely many half-spaces, or as the convex hull of finitely many points.
+Important classes of convex polyhedra include the highly symmetrical Platonic solids, the Archimedean solids and their duals the Catalan solids, and the regular-faced Johnson solids.
+Symmetries.
+Many of the most studied polyhedra are highly symmetrical, that is, their appearance is unchanged by some reflection or rotation of space. Each such symmetry may change the location of a given vertex, face, or edge, but the set of all vertices (likewise faces, edges) is unchanged. The collection of symmetries of a polyhedron is called its symmetry group.
+All the elements that can be superimposed on each other by symmetries are said to form a symmetry orbit. For example, all the faces of a cube lie in one orbit, while all the edges lie in another. If all the elements of a given dimension, say all the faces, lie in the same orbit, the figure is said to be transitive on that orbit. For example, a cube is face-transitive, while a truncated cube has two symmetry orbits of faces.
+The same abstract structure may support more or less symmetric geometric polyhedra. But where a polyhedral name is given, such as icosidodecahedron, the most symmetrical geometry is almost always implied, unless otherwise stated.
+There are several types of highly symmetric polyhedron, classified by which kind of element – faces, edges, or vertices – belong to a single symmetry orbit:
+Some classes of polyhedra have only a single main axis of symmetry. These include the pyramids, bipyramids, trapezohedra, cupolae, as well as the semiregular prisms and antiprisms.
+Regular polyhedra.
+Regular polyhedra are the most highly symmetrical. Altogether there are nine regular polyhedra: five convex and four star polyhedra.
+The five convex examples have been known since antiquity and are called the Platonic solids. These are the triangular pyramid or tetrahedron, cube, octahedron, dodecahedron and icosahedron:
+There are also four regular star polyhedra, known as the Kepler–Poinsot polyhedra after their discoverers.
+The dual of a regular polyhedron is also regular.
+Uniform polyhedra and their duals.
+Uniform polyhedra are vertex-transitive and every face is a regular polygon.
+They may be subdivided into the regular, quasi-regular, or semi-regular, and may be convex or starry.
+The duals of the uniform polyhedra have irregular faces but are face-transitive, and every vertex figure is a regular polygon. A uniform polyhedron has the same symmetry orbits as its dual, with the faces and vertices simply swapped over. The duals of the convex Archimedean polyhedra are sometimes called the Catalan solids.
+The uniform polyhedra and their duals are traditionally classified according to their degree of symmetry, and whether they are convex or not.
+Isohedra.
+An isohedron is a polyhedron with symmetries acting transitively on its faces. Their topology can be represented by a face configuration. All 5 Platonic solids and 13 Catalan solids are isohedra, as well as the infinite families of trapezohedra and bipyramids. Some isohedra allow geometric variations including concave and self-intersecting forms.
+Symmetry groups.
+Many of the symmetries or point groups in three dimensions are named after polyhedra having the associated symmetry. These include:
+Those with chiral symmetry do not have reflection symmetry and hence have two enantiomorphous forms which are reflections of each other. Examples include the snub cuboctahedron and snub icosidodecahedron.
+Other important families of polyhedra.
+Polyhedra with regular faces.
+Besides the regular and uniform polyhedra, there are some other classes which have regular faces but lower overall symmetry.
+Equal regular faces.
+Convex polyhedra where every face is the same kind of regular polygon may be found among three families:
+Polyhedra with congruent regular faces of six or more sides are all non-convex.
+The total number of convex polyhedra with equal regular faces is thus ten: the five Platonic solids and the five non-uniform deltahedra. There are infinitely many non-convex examples. Infinite sponge-like examples called infinite skew polyhedra exist in some of these families.
+Johnson solids.
+Norman Johnson sought which convex non-uniform polyhedra had regular faces, although not necessarily all alike. In 1966, he published a list of 92 such solids, gave them names and numbers, and conjectured that there were no others. Victor Zalgaller proved in 1969 that the list of these Johnson solids was complete.
+Pyramids.
+Pyramids include some of the most time-honoured and famous of all polyhedra, such as the four-sided Egyptian pyramids.
+Stellations and facettings.
+Stellation of a polyhedron is the process of extending the faces (within their planes) so that they meet to form a new polyhedron.
+It is the exact reciprocal to the process of facetting, which is the process of removing parts of a polyhedron without creating any new vertices.
+The figures below show some stellations of the regular octahedron, dodecahedron, and icosahedron.
+Zonohedra.
+A zonohedron is a convex polyhedron in which every face is a polygon that is symmetric under rotations through 180°. Zonohedra can also be characterized as the Minkowski sums of line segments, and include several important space-filling polyhedra.
+Space-filling polyhedra.
+A space-filling polyhedron packs with copies of itself to fill space. Such a close-packing or space-filling is often called a tessellation of space or a honeycomb. Space-filling polyhedra must have a Dehn invariant equal to zero. Some honeycombs involve more than one kind of polyhedron.
+Lattice polyhedra.
+A convex polyhedron in which all vertices have integer coordinates is called a lattice polyhedron or integral polyhedron. The Ehrhart polynomial of a lattice polyhedron counts how many points with integer coordinates lie within a scaled copy of the polyhedron, as a function of the scale factor. The study of these polynomials lies at the intersection of combinatorics and commutative algebra.
+Flexible polyhedra.
+It is possible for some polyhedra to change their overall shape, while keeping the shapes of their faces the same, by varying the angles of their edges. A polyhedron that can do this is called a flexible polyhedron. By Cauchy's rigidity theorem, flexible polyhedra must be non-convex. The volume of a flexible polyhedron must remain constant as it flexes; this result is known as the bellows theorem.
+Compounds.
+A polyhedral compound is made of two or more polyhedra sharing a common centre. Symmetrical compounds often share the same vertices as other well-known polyhedra and may often also be formed by stellation. Some are listed in the list of Wenninger polyhedron models.
+Orthogonal polyhedra.
+An orthogonal polyhedron is one all of whose faces meet at right angles, and all of whose edges are parallel to axes of a Cartesian coordinate system. (Jessen's icosahedron provides an example of a polyhedron meeting one but not both of these two conditions.) Aside from the rectangular boxes, orthogonal polyhedra are nonconvex. They are the 3D analogs of 2D orthogonal polygons, also known as rectilinear polygons. Orthogonal polyhedra are used in computational geometry, where their constrained structure has enabled advances on problems unsolved for arbitrary polyhedra, for example, unfolding the surface of a polyhedron to a polygonal net.
+Generalisations of polyhedra.
+The name 'polyhedron' has come to be used for a variety of objects having similar structural properties to traditional polyhedra.
+Apeirohedra.
+A classical polyhedral surface has a finite number of faces, joined in pairs along edges. The apeirohedra form a related class of objects with infinitely many faces. Examples of apeirohedra include:
+Complex polyhedra.
+There are objects called complex polyhedra, for which the underlying space is a complex Hilbert space rather than real Euclidean space. Precise definitions exist only for the regular complex polyhedra, whose symmetry groups are complex reflection groups. The complex polyhedra are mathematically more closely related to configurations than to real polyhedra.
+Curved polyhedra.
+Some fields of study allow polyhedra to have curved faces and edges. Curved faces can allow digonal faces to exist with a positive area.
+Spherical polyhedra.
+When the surface of a sphere is divided by finitely many great arcs (equivalently, by planes passing through the center of the sphere), the result is called a spherical polyhedron. Many convex polytopes having some degree of symmetry (for example, all the Platonic solids) can be projected onto the surface of a concentric sphere to produce a spherical polyhedron. However, the reverse process is not always possible; some spherical polyhedra (such as the hosohedra) have no flat-faced analogue.
+Curved spacefilling polyhedra.
+If faces are allowed to be concave as well as convex, adjacent faces may be made to meet together with no gap. Some of these curved polyhedra can pack together to fill space. Two important types are:
+Ideal polyhedra.
+Convex polyhedra can be defined in three-dimensional hyperbolic space in the same way as in Euclidean space, as the convex hulls of finite sets of points.
+However, in hyperbolic space, it is also possible to consider ideal points as well as the points that lie within the space. An ideal polyhedron is the convex hull of a finite set of ideal points. Its faces are ideal polygons, but its edges are defined by entire hyperbolic lines rather than line segments, and its vertices (the ideal points of which it is the convex hull) do not lie within the hyperbolic space.
+Skeletons and polyhedra as graphs.
+By forgetting the face structure, any polyhedron gives rise to a graph, called its skeleton, with corresponding vertices and edges. Such figures have a long history: Leonardo da Vinci devised frame models of the regular solids, which he drew for Pacioli's book "Divina Proportione", and similar wire-frame polyhedra appear in M.C. Escher's print "Stars". One highlight of this approach is Steinitz's theorem, which gives a purely graph-theoretic characterization of the skeletons of convex polyhedra: it states that the skeleton of every convex polyhedron is a 3-connected planar graph, and every 3-connected planar graph is the skeleton of some convex polyhedron.
+An early idea of abstract polyhedra was developed in Branko Grünbaum's study of "hollow-faced polyhedra." Grünbaum defined faces to be cyclically ordered sets of vertices, and allowed them to be skew as well as planar.
+The graph perspective allows one to apply graph terminology and properties to polyhedra. For example, the tetrahedron and Császár polyhedron are the only known polyhedra whose skeletons are complete graphs (K4), and various symmetry restrictions on polyhedra give rise to skeletons that are symmetric graphs.
+Alternative usages.
+From the latter half of the twentieth century, various mathematical constructs have been found to have properties also present in traditional polyhedra. Rather than confining the term "polyhedron" to describe a three-dimensional polytope, it has been adopted to describe various related but distinct kinds of structure.
+Higher-dimensional polyhedra.
+A polyhedron has been defined as a set of points in real affine (or Euclidean) space of any dimension "n" that has flat sides. It may alternatively be defined as the intersection of finitely many half-spaces. Unlike a conventional polyhedron, it may be bounded or unbounded. In this meaning, a polytope is a bounded polyhedron.
+Analytically, such a convex polyhedron is expressed as the solution set for a system of linear inequalities. Defining polyhedra in this way provides a geometric perspective for problems in linear programming.
+Many traditional polyhedral forms are polyhedra in this sense. Other examples include:
+Topological polyhedra.
+A topological polytope is a topological space given along with a specific decomposition into shapes that are topologically equivalent to convex polytopes and that are attached to each other in a regular way.
+Such a figure is called "simplicial" if each of its regions is a simplex, i.e. in an "n"-dimensional space each region has "n"+1 vertices. The dual of a simplicial polytope is called "simple". Similarly, a widely studied class of polytopes (polyhedra) is that of cubical polyhedra, when the basic building block is an "n"-dimensional cube.
+Abstract polyhedra.
+An abstract polytope is a partially ordered set (poset) of elements whose partial ordering obeys certain rules of incidence (connectivity) and ranking. The elements of the set correspond to the vertices, edges, faces and so on of the polytope: vertices have rank 0, edges rank 1, etc. with the partially ordered ranking corresponding to the dimensionality of the geometric elements. The empty set, required by set theory, has a rank of −1 and is sometimes said to correspond to the null polytope. An abstract polyhedron is an abstract polytope having the following ranking:
+Any geometric polyhedron is then said to be a "realization" in real space of the abstract poset as described above.
+History.
+Ancient.
+Polyhedra appeared in early architectural forms such as cubes and cuboids, with the earliest four-sided pyramids of ancient Egypt also dating from the Stone Age.
+The Etruscans preceded the Greeks in their awareness of at least some of the regular polyhedra, as evidenced by the discovery of an Etruscan dodecahedron made of soapstone on Monte Loffa. Its faces were marked with different designs, suggesting to some scholars that it may have been used as a gaming die.
+The earliest known "written" records of these shapes come from Classical Greek authors, who also gave the first known mathematical description of them. The earlier Greeks were interested primarily in the convex regular polyhedra, which came to be known as the Platonic solids. Pythagoras knew at least three of them, and Theaetetus (circa 417 B. C.) described all five. Eventually, Euclid described their construction in his "Elements". Later, Archimedes expanded his study to the convex uniform polyhedra which now bear his name. His original work is lost and his solids come down to us through Pappus.
+Cubical gaming dice in China have been dated back as early as 600 B.C.
+By 236 AD, Liu Hui was describing the dissection of the cube into its characteristic tetrahedron (orthoscheme) and related solids, using assemblages of these solids as the basis for calculating volumes of earth to be moved during engineering excavations.
+After the end of the Classical era, scholars in the Islamic civilisation continued to take the Greek knowledge forward (see Mathematics in medieval Islam).
+The 9th century scholar Thabit ibn Qurra gave formulae for calculating the volumes of polyhedra such as truncated pyramids.
+Then in the 10th century Abu'l Wafa described the convex regular and quasiregular spherical polyhedra.
+Renaissance.
+As with other areas of Greek thought maintained and enhanced by Islamic scholars, Western interest in polyhedra revived during the Italian Renaissance. Artists constructed skeletal polyhedra, depicting them from life as a part of their investigations into perspective. Several appear in marquetry panels of the period. Piero della Francesca gave the first written description of direct geometrical construction of such perspective views of polyhedra. Leonardo da Vinci made skeletal models of several polyhedra and drew illustrations of them for a book by Pacioli. A painting by an anonymous artist of Pacioli and a pupil depicts a glass rhombicuboctahedron half-filled with water.
+As the Renaissance spread beyond Italy, later artists such as Wenzel Jamnitzer, Dürer and others also depicted polyhedra of various kinds, many of them novel, in imaginative etchings.
+Star polyhedra.
+For almost 2,000 years, the concept of a polyhedron as a convex solid had remained as developed by the ancient Greek mathematicians.
+During the Renaissance star forms were discovered. A marble tarsia in the floor of St. Mark's Basilica, Venice, depicts a stellated dodecahedron. Artists such as Wenzel Jamnitzer delighted in depicting novel star-like forms of increasing complexity.
+Johannes Kepler (1571–1630) used star polygons, typically pentagrams, to build star polyhedra. Some of these figures may have been discovered before Kepler's time, but he was the first to recognize that they could be considered "regular" if one removed the restriction that regular polyhedra must be convex. Later, Louis Poinsot realised that star vertex figures (circuits around each corner) can also be used, and discovered the remaining two regular star polyhedra. Cauchy proved Poinsot's list complete, and Cayley gave them their accepted English names: (Kepler's) the small stellated dodecahedron and great stellated dodecahedron, and (Poinsot's) the great icosahedron and great dodecahedron. Collectively they are called the Kepler–Poinsot polyhedra.
+The Kepler–Poinsot polyhedra may be constructed from the Platonic solids by a process called stellation. Most stellations are not regular. The study of stellations of the Platonic solids was given a big push by H.S.M. Coxeter and others in 1938, with the now famous paper "The 59 icosahedra".
+The reciprocal process to stellation is called facetting (or faceting). Every stellation of one polytope is dual, or reciprocal, to some facetting of the dual polytope. The regular star polyhedra can also be obtained by facetting the Platonic solids. listed the simpler facettings of the dodecahedron, and reciprocated them to discover a stellation of the icosahedron that was missing from the set of "59". More have been discovered since, and the story is not yet ended.
+Euler's formula and topology.
+Two other modern mathematical developments had a profound effect on polyhedron theory.
+In 1750 Leonhard Euler for the first time considered the edges of a polyhedron, allowing him to discover his polyhedron formula relating the number of vertices, edges and faces. This signalled the birth of topology, sometimes referred to as "rubber sheet geometry", and Henri Poincaré developed its core ideas around the end of the nineteenth century. This allowed many longstanding issues over what was or was not a polyhedron to be resolved.
+Max Brückner summarised work on polyhedra to date, including many findings of his own, in his book "Vielecke und Vielflache: Theorie und Geschichte" (Polygons and polyhedra: Theory and History). Published in German in 1900, it remained little known.
+Meanwhile, the discovery of higher dimensions led to the idea of a polyhedron as a three-dimensional example of the more general polytope.
+Twentieth-century revival.
+By the early years of the twentieth century, mathematicians had moved on and geometry was little studied. Coxeter's analysis in "The Fifty-Nine Icosahedra" introduced modern ideas from graph theory and combinatorics into the study of polyhedra, signalling a rebirth of interest in geometry.
+Coxeter himself went on to enumerate the star uniform polyhedra for the first time, to treat tilings of the plane as polyhedra, to discover the regular skew polyhedra and to develop the theory of complex polyhedra first discovered by Shephard in 1952, as well as making fundamental contributions to many other areas of geometry.
+In the second part of the twentieth century, Grünbaum published important works in two areas. One was in convex polytopes, where he noted a tendency among mathematicians to define a "polyhedron" in different and sometimes incompatible ways to suit the needs of the moment. The other was a series of papers broadening the accepted definition of a polyhedron, for example discovering many new regular polyhedra. At the close of the 20th century these latter ideas merged with other work on incidence complexes to create the modern idea of an abstract polyhedron (as an abstract 3-polytope), notably presented by McMullen and Schulte.
+In nature.
+For natural occurrences of regular polyhedra, see .
+Irregular polyhedra appear in nature as crystals.
+

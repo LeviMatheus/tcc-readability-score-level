@@ -1,0 +1,6 @@
+
+A four-wire terminating set (4WTS) is a balanced transformer used to perform a conversion between four-wire and two-wire operation in telecommunication systems.
+For example, a 4-wire circuit may, by means of a 4-wire terminating set, be connected to a 2-wire telephone set. Also, a pair of 4-wire terminating sets may be used to introduce an intermediate 4-wire circuit into a 2-wire circuit, in which loop repeaters may be situated to amplify signals in each direction without positive feedback and oscillation. 
+The 4WTS differs from a simple hybrid coil in being equipped to adjust its impedance to maximize return loss.
+Four-wire terminating sets were largely supplanted by resistance hybrids in the late 20th century.
+

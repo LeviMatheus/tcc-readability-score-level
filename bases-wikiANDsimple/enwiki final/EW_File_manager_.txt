@@ -1,0 +1,53 @@
+
+A file manager or file browser is a computer program that provides a user interface to manage files and folders. The most common operations performed on files or groups of files include creating, opening (e.g. viewing, playing, editing or printing), renaming, copying, moving, deleting and searching for files, as well as modifying file attributes, properties and file permissions. Folders and files may be displayed in a hierarchical tree based on their directory structure. 
+Some file managers move multiple files by copying and deleting each selected file from the source individually, while others first copy all selected files, then delete them from the source afterwards, as described in .
+Some file managers contain features analogous to web browsers, including forward and back navigational buttons.
+Some file managers provide network connectivity via protocols, such as FTP, HTTP, NFS, SMB or WebDAV. This is achieved by allowing the user to browse for a file server (connecting and accessing the server's file system like a local file system) or by providing its own full client implementations for file server protocols.
+Directory editors.
+A term that predates the usage of "file manager" is "directory editor". An early directory editor, DIRED, was developed circa 1974 at the Stanford Artificial Intelligence Laboratory by Stan Kugell.
+A directory editor was written for EXEC 8 at the University of Maryland, and was available to other users at that time. The term was used by other developers, including Jay Lepreau, who wrote the dired program in 1980, which ran on BSD. This was in turn inspired by an older program with the same name running on TOPS-20. Dired inspired other programs, including dired, the editor script (for emacs and similar editors), and ded.
+File-list file manager.
+"File-list" file managers are lesser known and older than orthodox file managers.
+One such file manager is flist, which was introduced sometime before 1980 on the Conversational Monitor System.
+This is a variant of fulist, which originated before late 1978, according to comments by its author, Theo Alkema.
+The flist program provided a list of files in the user's minidisk, and allowed sorting by any file attribute. The file attributes could be passed to scripts or function-key definitions, making it simple to use flist as part of CMS EXEC, EXEC 2 or XEDIT scripts.
+This program ran only on IBM VM/SP CMS, but was the inspiration for other programs, including filelist (a script run via the Xedit editor), and programs running on other operating systems, including a program also called flist, which ran on OpenVMS, and fulist (from the name of the corresponding internal IBM program), which runs on Unix.
+Orthodox file managers.
+Orthodox file managers (sometimes abbreviated to "OFM") or command-based file managers are text-menu based file managers, that commonly have three windows (two panels and one command line window). Orthodox file managers are one of the longest running families of file managers, preceding graphical user interface-based types. Developers create applications that duplicate and extend the manager that was introduced by PathMinder and John Socha's Norton Commander for DOS. The concept dates to the mid-1980s—PathMinder was released in 1984, and Norton Commander version 1.0 was released in 1986. Despite the age of this concept, file managers based on Norton Commander are actively developed, and dozens of implementations exist for DOS, Unix, and Microsoft Windows. Nikolai Bezroukov publishes his own set of criteria for an OFM standard (version 1.2 dated June 1997).
+Features.
+An orthodox file manager typically has three windows. Two of the windows are called panels and are positioned symmetrically at the top of the screen. The third is the command line, which is essentially a minimized command (shell) window that can be expanded to full screen. Only one of the panels is active at a given time. The active panel contains the "file cursor". Panels are resizable and can be hidden. Files in the active panel serve as the source of file operations performed by the manager. For example, files can be copied or moved from the active panel to the location represented in the passive panel. This scheme is most effective for systems in which the keyboard is the primary or sole input device. The active panel shows information about the current working directory and the files that it contains. The passive (inactive) panel shows the content of the same or another directory (the default target for file operations). Users may customize the display of columns that show relevant file information. The active panel and passive panel can be switched (often by pressing the tab key).
+The following features describe the class of orthodox file managers.
+Other common features include:
+Tabbed panels.
+The introduction of tabbed panels in some file managers (for example Total Commander) made it possible to manipulate more than one active and passive directory at a time.
+Portability.
+Orthodox file managers are among the most portable file managers. Examples are available on almost any platform, with both command-line and graphical interfaces. This is unusual among command line managers in that something purporting to be a standard for the interface is published. They are also actively supported by developers. This makes it possible to do the same work on different platforms without much relearning of the interface.
+Dual-pane managers.
+Sometimes they are called dual-pane managers, a term that is typically used for programs such as the Windows File Explorer (see below). But they have three panes including a command line pane below (or hidden behind) two symmetric panes. Furthermore, most of these programs allow using just one of the two larger panes with the second hidden. Some also add an item to the Context Menu in Windows to "Open two Explorers, side by side".
+Notable ones include:
+Navigational file manager.
+A navigational file manager is a newer type of file manager. Since the advent of GUIs, it has become the dominant type of file manager for desktop computers.
+Typically, it has two panes, with the filesystem tree in the left pane and the contents of the current directory in the right pane. For macOS, the Miller columns view in Finder (originating in NeXTStep) is a variation on the navigational file manager theme.
+Concepts.
+The interface in a navigational file manager often resembles a web browser, complete with "back" and "forward" buttons, and often "reload" buttons. Most also contain an address bar into which the file or directory path (or URI) can be typed.
+Most navigational file managers have two panes, the left pane being a tree view of the filesystem. This means that unlike orthodox file managers, the two panes are asymmetrical in their content and use.
+Selecting a directory in the Navigation pane on the left designates it as the current directory, displaying its contents in the Contents pane on the right. However, expanding (+) or collapsing (-) a portion of the tree without selecting a directory will not alter the contents of the right pane. The exception to this behavior applies when collapsing a parent of the current directory, in which case the selection is refocused on the collapsed parent directory, thus altering the list in the Contents pane.
+The process of moving from one location to another need not open a new window. Several instances of the file manager can be opened simultaneously and communicate with each other via drag-and-drop and clipboard operations, so it is possible to view several directories simultaneously and perform cut-and paste operations between instances.
+File operations are based on drag-and-drop and editor metaphors: users can select and copy files or directories onto the clipboard and then paste them in a different place in the filesystem or even in a different instance of the file manager.
+Notable examples of navigational file managers include:
+Spatial file manager.
+Spatial file managers use a spatial metaphor to represent files and directories as if they were actual physical objects. A spatial file manager imitates the way people interact with physical objects.
+Some ideas behind the concept of a spatial file manager are:
+As in navigational file managers, when a directory is opened, the icon representing the directory changes—perhaps from an image showing a closed drawer to an opened one, perhaps the directory's icon turns into a silhouette filled with a pattern—and a new window is opened to represent that directory.
+Examples of file managers that use a spatial metaphor to some extent include:
+Dysfunctional spatial file managers:
+3D file managers.
+Some projects have attempted to implement a three-dimensional method of displaying files and directory structures. Three-dimensional file browsing has not become popular; the exact implementation tends to differ between projects, and there are no common standards to follow.
+Examples of three-dimensional file managers include:
+Web-based file managers.
+Web-based file managers are typically scripts written in either PHP, Ajax, Perl, ASP or another server-side language. When installed on a local server or on a remote server, they allow files and directories located there to be managed and edited, using a web browser, without the need for FTP Access.
+More advanced, and usually commercially distributed, web-based file management scripts allow the administrator of the file manager to configure secure, individual user accounts, each with individual account permissions. Authorized users have access to documents stored on the server or in their individual user directories anytime, from anywhere, via a web browser.
+A web-based file manager can serve as an organization's digital repository. For example, documents, digital media, publishing layouts, and presentations can be stored, managed, and shared between customers, suppliers, and remote workers, or just internally.
+Web-based file managers are becoming increasingly popular due to the rise in popularity of dynamic web content management systems (CMS) and the need for non-technical website moderators to manage media on their websites powered by these platforms.
+An example is net2ftp, a PHP- and JavaScript-based FTP client.
+

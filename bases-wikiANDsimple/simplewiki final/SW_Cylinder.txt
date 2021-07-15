@@ -1,0 +1,3 @@
+A cylinder is a solid object that has a circular base and a height. If a cylinder is cut parallel to the base the resulting shape (called a cross-section) would be a circle of the same shape. An example of a cylinder is a tin can.
+This surface can be generalised into the generalised cylinder by replacing the circle at the base with any curve and extending it in any direction, whereas with the standard cylinder the extension is vertical.
+More formally, if formula_1 is a curve in 3-space and a is a vector then the generalised cylinder of formula_2 in direction a is formula_3. This surface is regular if formula_1 is regular and a is never parallel to a tangent vector of formula_1.

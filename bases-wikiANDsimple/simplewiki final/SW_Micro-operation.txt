@@ -1,0 +1,1 @@
+In microarchitecture micro-operations (sometimes termed: micro-instructions, also known as micro-ops or μops), are detailed low-level instructions used in some designs to implement complex machine instructions in which each instruction is composed of a set of low-level micro-ops.

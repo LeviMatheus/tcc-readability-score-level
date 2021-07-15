@@ -1,0 +1,56 @@
+
+True BASIC is a variant of the BASIC programming language descended from Dartmouth BASIC—the original BASIC. Both were created by college professors John G. Kemeny and Thomas E. Kurtz.
+History.
+True BASIC traces its history to an offshoot of Dartmouth BASIC called Structured BASIC, or SBASIC for short. This was released sometime in 1975 or 1976, but was not installed as the mainline version of BASIC on the Dartmouth Time Sharing System (DTSS) that supported the campus. Shortly after, Kemeny became involved in an effort to produce an ANSI standard BASIC in an attempt to bring together the many small variations of the language that had developed through the late 1960s and early 1970s. This effort initially focused on a system known as "Minimal BASIC" that was similar to early Dartmouth BASIC but with string variables added, while later work was aimed at a "Standard BASIC" that was essentially SBASIC.
+By the early 1980s, tens of millions of home computers were running some variation of Microsoft BASIC, which had become the "de facto" standard. The ANSI efforts eventually became pointless, as it became clear that these versions were not going to have any market impact in a world dominated by MS. Both versions were eventually ratified, but saw little or no adoption and the standards were later withdrawn. Kemeny and Kurtz, however, decided to continue their efforts to introduce the concepts from SBASIC and the ANSI Standard BASIC efforts. This became True BASIC.
+Initially based on Dartmouth BASIC 7—otherwise known as ANSI BASIC—True BASIC was introduced in 1985. There are versions of the True BASIC compiler for MS-DOS, Microsoft Windows, and Classic Mac OS. At one time, versions for TRS-80 Color Computer, Amiga and Atari ST computers were offered, as well as a UNIX command-line compiler.
+Features.
+Being a structured programming implementation of the language, it dispenses with the need for line numbers and GOTO statements, although these can still be used.
+True BASIC provides statements for matrix arithmetic, a feature that had been present in Dartmouth BASIC since early times, but had been dropped in almost all microcomputer versions of BASIC interpreters. It supports global and local variables, which permits recursive functions and subroutines to be written.
+The designers wanted to make the language hardware-independent, to allow True BASIC source code to run equally well on any version of their compiler. For the most part they succeed in this endeavor. The drawback for users was that direct access to some features of their machines was not available, but this could be remedied with callable functions and subroutines specially written in assembly language.
+Using newer versions of True BASIC, some of the older functions are blocked out. An example of the recent code would be more like this:
+ RANDOMIZE
+ SET WINDOW 0,20,0,20
+ SET COLOR 5 !Set the pen and text colour to 5 as true basic has 0-15 colours
+ PRINT "Welcome To ..." !Print "Welcome To ..." on the user's screen.
+ DO !Begin the loop
+ LET x=rnd*20 !Let the value 'x' equal a random number between '0' and '20'
+ LET y=rnd*20 !Let the value 'y' equal a random number between '0' and '20'
+ Pause .1 !Waits 1/10 of a second
+ PLOT TEXT, at x, y: "Fabulous Wikipedia!" !Plot 'Fabulous Wikipedia!' at coordinates 'x' and 'y'
+ LOOP !End the loop
+ END !End the program
+This simple program plots the text "Welcome To ..." at the top left-hand corner of the screen, and then continues into a never-ending loop plotting "Fabulous Wikipedia!" at random coordinates.
+An example of simple animation could be like this:
+ !Draw the Car
+ SET WINDOW 0,20,0,20
+ SET COLOR 5
+ BOX AREA 2,6,2,3
+ BOX AREA 9,13,2,3
+ BOX AREA 16,20,2,3
+ SET COLOR 249
+ PLOT LINES :0,5;20,5
+ FLOOD 10,1
+ BOX KEEP 0,20,0,5 IN road$
+ BOX CIRCLE 2,3,5,6
+ FLOOD 2.5,5.5
+ BOX CIRCLE 5,6,5,6
+ FLOOD 5.5,5.5
+ SET COLOR 35
+ PLOT LINES :2.5,6;5.5,6
+ PLOT LINES :5,6;8,6;8,8;6,8;6,10;2,10;2,8;0,8;0,6;3,6
+ FLOOD 4,8
+ SET COLOR 248
+ BOX AREA 4,5,8,9
+ BOX KEEP 0,8,5,10 IN car$ !Save the car in 'car$'
+ FOR x=1 TO 20 STEP 1 !Create a 'for' loop
+ BOX SHOW road$ AT 0,0
+ BOX SHOW car$ AT x,5 
+ PAUSE .1
+ CLEAR
+ NEXT x !End the 'for' loop
+ END !End the programs
+Reception.
+Jerry Pournelle in 1985 asked, "why do we need True BASIC at all? [It] doesn't seem to do anything regular BASIC doesn't do, and what it does do isn't attacked in a logical or intuitive manner." He criticized the lack of output when encountering an error, preventing interactive debugging by "inserting print statements as diagnostics". Pournelle concluded, "I think I'll pass up the opportunity to become a born-again True BASIC believer. I'll enjoy my Microsoft and CBASIC heresies."
+Some users have complained about their programs and the editor using up 100% of their CPU (or core). This appears to be caused by the editor and user's programs using a loop which constantly polls the keyboard and mouse for events. The problem has been known since at least the end of 2010, yet as of early 2014 is still being worked on.
+

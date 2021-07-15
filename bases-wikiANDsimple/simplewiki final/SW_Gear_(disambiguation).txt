@@ -1,0 +1,1 @@
+Gear is a toothed wheel designed to transmit torque to another gear or toothed component.

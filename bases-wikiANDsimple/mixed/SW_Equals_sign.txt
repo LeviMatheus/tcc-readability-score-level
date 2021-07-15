@@ -1,0 +1,3 @@
+The equal sign, equals sign, or "=" is a mathematical symbol used to indicate equality. It looks like two parallel horizontal lines. The equals sign is placed between the things stated to be exactly equal or the same. Computers display the equals sign with the Unicode or ASCII character 003D (in hexadecimal).
+Similar symbols.
+The symbol used to say items are approximately equal is "≈" (wavy lines), and the symbol used to say when items are not equal is "≠" (slashed equal sign).

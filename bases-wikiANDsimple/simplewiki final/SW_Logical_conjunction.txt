@@ -1,0 +1,1 @@
+Logical conjunction (very often called and) is a Logic operation. Usually it takes two inputs. It is true, when both inputs are true. Otherwise it is false.

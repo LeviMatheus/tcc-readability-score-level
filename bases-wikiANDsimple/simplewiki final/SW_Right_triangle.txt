@@ -1,0 +1,4 @@
+A right triangle, (also called a right-angled triangle), has one angle that is 90 degrees. The other two angles always add up to 90 degrees but can be different sizes.
+The side opposite to the right angle is the hypotenuse; it is the longest side in the right triangle. The other two sides are the legs or catheti (singular: cathetus) of the triangle.
+Uses.
+It is used a lot when studying trigonometry and the Pythagorean theorem.

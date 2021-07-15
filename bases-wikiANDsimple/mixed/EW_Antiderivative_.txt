@@ -1,0 +1,25 @@
+
+In calculus, an antiderivative, inverse derivative, primitive function, primitive integral or indefinite integral of a function is a differentiable function whose derivative is equal to the original function . This can be stated symbolically as . The process of solving for antiderivatives is called antidifferentiation (or indefinite integration), and its opposite operation is called "differentiation", which is the process of finding a derivative. Antiderivatives are often denoted by capital Roman letters such as and .
+Antiderivatives are related to definite integrals through the fundamental theorem of calculus: the definite integral of a function over an interval is equal to the difference between the values of an antiderivative evaluated at the endpoints of the interval.
+In physics, antiderivatives arise in the context of rectilinear motion (e.g., in explaining the relationship between position, velocity and acceleration). The discrete equivalent of the notion of antiderivative is antidifference.
+Examples.
+The function formula_1 is an antiderivative of formula_2, since the derivative of formula_3 is formula_4, and since the derivative of a constant is zero, formula_4 will have an infinite number of antiderivatives, such as formula_6, etc. Thus, all the antiderivatives of formula_4 can be obtained by changing the value of in formula_8, where is an arbitrary constant known as the constant of integration. Essentially, the graphs of antiderivatives of a given function are vertical translations of each other, with each graph's vertical location depending upon the value .
+More generally, the power function formula_9 has antiderivative formula_10 if , and formula_11 if .
+In physics, the integration of acceleration yields velocity plus a constant. The constant is the initial velocity term that would be lost upon taking the derivative of velocity, because the derivative of a constant term is zero. This same pattern applies to further integrations and derivatives of motion (position, velocity, acceleration, and so on).
+Uses and properties.
+Antiderivatives can be used to compute definite integrals, using the fundamental theorem of calculus: if is an antiderivative of the integrable function over the interval formula_12, then:
+Because of this, each of the infinitely many antiderivatives of a given function is sometimes called the "general integral" or "indefinite integral" of "f", and is written using the integral symbol with no bounds:
+If is an antiderivative of , and the function is defined on some interval, then every other antiderivative of differs from by a constant: there exists a number such that formula_15 for all . is called the constant of integration. If the domain of is a disjoint union of two or more (open) intervals, then a different constant of integration may be chosen for each of the intervals. For instance
+is the most general antiderivative of formula_17 on its natural domain formula_18
+Every continuous function has an antiderivative, and one antiderivative is given by the definite integral of with variable upper boundary:
+Varying the lower boundary produces other antiderivatives (but not necessarily all possible antiderivatives). This is another formulation of the fundamental theorem of calculus.
+There are many functions whose antiderivatives, even though they exist, cannot be expressed in terms of elementary functions (like polynomials, exponential functions, logarithms, trigonometric functions, inverse trigonometric functions and their combinations). Examples of these are
+"From left to right, the first four are the error function, the Fresnel function, the trigonometric integral, and the logarithmic integral function." For a more detailed discussion, see also Differential Galois theory.
+Techniques of integration.
+Finding antiderivatives of elementary functions is often considerably harder than finding their derivatives (indeed, there is no pre-defined method for computing indefinite integrals). For some elementary functions, it is impossible to find an antiderivative in terms of other elementary functions. To learn more, see elementary functions and nonelementary integral.
+There exist many properties and techniques for finding antiderivatives. These include, among others:
+Computer algebra systems can be used to automate some or all of the work involved in the symbolic techniques above, which is particularly useful when the algebraic manipulations involved are very complex or lengthy. Integrals which have already been derived can be looked up in a table of integrals.
+Of non-continuous functions.
+Non-continuous functions can have antiderivatives. While there are still open questions in this area, it is known that:
+Assuming that the domains of the functions are open intervals:
+
