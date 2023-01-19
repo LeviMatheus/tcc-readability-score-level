@@ -10,11 +10,11 @@
 ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
 
-Este repositório é para disponibilização de todo o material referente ao meu <a href="http://repositorio.utfpr.edu.br/jspui/handle/1/29984">trabalho de conclusão de curso de 2021</a>, com tema, Classificador de legibilidade de textos em língua inglesa.
+Este repositório é para disponibilização de todo o material referente ao meu <a target="_blank" href="http://repositorio.utfpr.edu.br/jspui/handle/1/29984">Trabalho de conclusão de curso de 2021</a>, com tema, Classificador de legibilidade de textos em língua inglesa.
 
 O trabalho desenvolvido gerou um protótipo de ferramenta capaz de, com um texto de entrada em língua inglesa, classificar o conteúdo em níveis de legibilidade, exemplo: 'fácil','médio' ou 'difícil'.
 
-Para acessar o documento publicado e entender mais a fundo o objetivo deste protótipo e scripts criados acesse <a href="http://repositorio.utfpr.edu.br/jspui/handle/1/29984">Aqui</a>.
+Para acessar o documento publicado e entender mais a fundo o objetivo deste protótipo e scripts criados acesse <a target="_blank" href="http://repositorio.utfpr.edu.br/jspui/handle/1/29984">Aqui</a>.
 
 Na pasta 'Scripts', consta diversos scripts em Python para préprocessamento das bases da Wikipedia e Simple wikipedia.
 Na pasta 'bases-wikiANDsimple', consta as versões das bases utilizadas no trabalho para processamento, separadas e unificadas.
